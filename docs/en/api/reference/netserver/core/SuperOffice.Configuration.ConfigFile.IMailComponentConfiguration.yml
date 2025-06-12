@@ -1,0 +1,343 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
+  id: ConfigFile.IMailComponentConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.NumberOfDaysToDownload
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IMailComponentConfiguration
+  nameWithType: ConfigFile.IMailComponentConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
+  type: Interface
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: >-
+    Mail component options
+
+    Created in Database scope
+  example: []
+  syntax:
+    content: public interface ConfigFile.IMailComponentConfiguration
+    content.vb: Public Interface ConfigFile.IMailComponentConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.NumberOfDaysToDownload
+  commentId: P:SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.NumberOfDaysToDownload
+  id: NumberOfDaysToDownload
+  parent: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: NumberOfDaysToDownload
+  nameWithType: ConfigFile.IMailComponentConfiguration.NumberOfDaysToDownload
+  fullName: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.NumberOfDaysToDownload
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Initial number of days to fetch mail for
+  example: []
+  syntax:
+    content: int NumberOfDaysToDownload { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property NumberOfDaysToDownload As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.NumberOfDaysToDownload*
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+- uid: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IMailComponentConfiguration, To>(IMailComponentConfiguration)
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IMailComponentConfiguration, To>(ConfigFile.IMailComponentConfiguration)
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration, To>(SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration)
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IMailComponentConfiguration, To)(ConfigFile.IMailComponentConfiguration)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration, To)(SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration)
+  name.vb: MapEnums(Of IMailComponentConfiguration, To)(IMailComponentConfiguration)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
+    name: IMailComponentConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
+    name: IMailComponentConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
+    name: IMailComponentConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
+    name: IMailComponentConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.html
+  - name: )
+- uid: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IMailComponentConfiguration, To>(IMailComponentConfiguration)
+  nameWithType: Converters.MapEnums<ConfigFile.IMailComponentConfiguration, To>(ConfigFile.IMailComponentConfiguration)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration, To>(SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration)
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IMailComponentConfiguration, To)(ConfigFile.IMailComponentConfiguration)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration, To)(SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration)
+  name.vb: MapEnums(Of IMailComponentConfiguration, To)(IMailComponentConfiguration)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
+    name: IMailComponentConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
+    name: IMailComponentConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
+    name: IMailComponentConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
+    name: IMailComponentConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.NumberOfDaysToDownload*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.NumberOfDaysToDownload
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.html#SuperOffice_Configuration_ConfigFile_IMailComponentConfiguration_NumberOfDaysToDownload
+  name: NumberOfDaysToDownload
+  nameWithType: ConfigFile.IMailComponentConfiguration.NumberOfDaysToDownload
+  fullName: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration.NumberOfDaysToDownload
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

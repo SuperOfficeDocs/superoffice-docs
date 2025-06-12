@@ -5,7 +5,7 @@ items:
   id: IWildcardMDOProvider
   parent: SuperOffice.CRM.Lists
   children:
-  - SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
+  - SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync(System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -13,133 +13,218 @@ items:
   nameWithType: IWildcardMDOProvider
   fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider
   type: Interface
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: "\nInterface used by providers that do not know exactly which list names they will be able to offer, but \nthey want to be asked, when no-one else is around.\n"
-  remarks: "\nWhen working with ERP and Quote Management connectors in particular, we use a naming convention such\nas QM_12_DeliveryTerms - meaning the DeliveryTerms list of the Quote connector that is referenced\nby QuoteConnection with id 12.\n<p></p>\nA general-purpose list provider cannot know ahead of time which connections will be defined, and it\nwould be too expensive to ask - as well as bad wrt. the definition of new connections. Thus the need\nfor a wildcard mechanism.\n"
+  summary: >-
+    Interface used by providers that do not know exactly which list names they will be able to offer, but 
+
+    they want to be asked, when no-one else is around.
+  remarks: >-
+    When working with ERP and Quote Management connectors in particular, we use a naming convention such
+
+    as QM_12_DeliveryTerms - meaning the DeliveryTerms list of the Quote connector that is referenced
+
+    by QuoteConnection with id 12.
+
+    <p></p>
+
+    A general-purpose list provider cannot know ahead of time which connections will be defined, and it
+
+    would be too expensive to ask - as well as bad wrt. the definition of new connections. Thus the need
+
+    for a wildcard mechanism.
+  example: []
   syntax:
     content: public interface IWildcardMDOProvider
     content.vb: Public Interface IWildcardMDOProvider
   extensionMethods:
   - SuperOffice.CRM.Lists.IWildcardMDOProvider.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Lists.IWildcardMDOProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
-- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
-  commentId: M:SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
-  id: GetProvider(System.String)
+- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync(System.String,System.Threading.CancellationToken)
+  id: GetProviderAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.IWildcardMDOProvider
   langs:
   - csharp
   - vb
-  name: GetProvider(String)
-  nameWithType: IWildcardMDOProvider.GetProvider(String)
-  fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
+  name: GetProviderAsync(string, CancellationToken)
+  nameWithType: IWildcardMDOProvider.GetProviderAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: "\nGiven a list name, return a concrete provider for that list, if it is supported.\nOtherwise return null (no exceptions thrown)\n"
+  summary: >-
+    Given a list name, return a concrete provider for that list, if it is supported.
+
+    Otherwise return null (no exceptions thrown)
+  example: []
   syntax:
-    content: ISoListProvider GetProvider(string listName)
+    content: Task<ISoListProvider> GetProviderAsync(string listName, CancellationToken cancellationToken = default)
     parameters:
     - id: listName
       type: System.String
       description: Name of list
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
     return:
-      type: SuperOffice.CRM.Lists.ISoListProvider
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
       description: A concrete provider that has the values required
-    content.vb: Function GetProvider(listName As String) As ISoListProvider
-  overload: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider*
+    content.vb: Function GetProviderAsync(listName As String, cancellationToken As CancellationToken = Nothing) As Task(Of ISoListProvider)
+  overload: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync*
+  nameWithType.vb: IWildcardMDOProvider.GetProviderAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync(String, System.Threading.CancellationToken)
+  name.vb: GetProviderAsync(String, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Lists
   commentId: N:SuperOffice.CRM.Lists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Lists
   nameWithType: SuperOffice.CRM.Lists
   fullName: SuperOffice.CRM.Lists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Lists
+    name: Lists
+    isExternal: true
+    href: SuperOffice.CRM.Lists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Lists
+    name: Lists
+    isExternal: true
+    href: SuperOffice.CRM.Lists.html
 - uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<IWildcardMDOProvider, To>()
-  nameWithType: EnumUtil.MapEnums<IWildcardMDOProvider, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.IWildcardMDOProvider, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of IWildcardMDOProvider, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.IWildcardMDOProvider, To)()
-  name.vb: MapEnums(Of IWildcardMDOProvider, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IWildcardMDOProvider, To>(IWildcardMDOProvider)
+  nameWithType: EnumUtil.MapEnums<IWildcardMDOProvider, To>(IWildcardMDOProvider)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.IWildcardMDOProvider, To>(SuperOffice.CRM.Lists.IWildcardMDOProvider)
+  nameWithType.vb: EnumUtil.MapEnums(Of IWildcardMDOProvider, To)(IWildcardMDOProvider)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.IWildcardMDOProvider, To)(SuperOffice.CRM.Lists.IWildcardMDOProvider)
+  name.vb: MapEnums(Of IWildcardMDOProvider, To)(IWildcardMDOProvider)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<IWildcardMDOProvider, To>
-    nameWithType: EnumUtil.MapEnums<IWildcardMDOProvider, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.IWildcardMDOProvider, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.IWildcardMDOProvider)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Lists.IWildcardMDOProvider
+    name: IWildcardMDOProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.IWildcardMDOProvider.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Lists.IWildcardMDOProvider
+    name: IWildcardMDOProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.IWildcardMDOProvider.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of IWildcardMDOProvider, To)
-    nameWithType: EnumUtil.MapEnums(Of IWildcardMDOProvider, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.IWildcardMDOProvider, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.IWildcardMDOProvider)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.IWildcardMDOProvider
+    name: IWildcardMDOProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.IWildcardMDOProvider.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Lists.IWildcardMDOProvider
+    name: IWildcardMDOProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.IWildcardMDOProvider.html
+  - name: )
 - uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<IWildcardMDOProvider, To>()
-  nameWithType: Converters.MapEnums<IWildcardMDOProvider, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.IWildcardMDOProvider, To>()
-  nameWithType.vb: Converters.MapEnums(Of IWildcardMDOProvider, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.IWildcardMDOProvider, To)()
-  name.vb: MapEnums(Of IWildcardMDOProvider, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IWildcardMDOProvider, To>(IWildcardMDOProvider)
+  nameWithType: Converters.MapEnums<IWildcardMDOProvider, To>(IWildcardMDOProvider)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.IWildcardMDOProvider, To>(SuperOffice.CRM.Lists.IWildcardMDOProvider)
+  nameWithType.vb: Converters.MapEnums(Of IWildcardMDOProvider, To)(IWildcardMDOProvider)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.IWildcardMDOProvider, To)(SuperOffice.CRM.Lists.IWildcardMDOProvider)
+  name.vb: MapEnums(Of IWildcardMDOProvider, To)(IWildcardMDOProvider)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<IWildcardMDOProvider, To>
-    nameWithType: Converters.MapEnums<IWildcardMDOProvider, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.IWildcardMDOProvider, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.IWildcardMDOProvider)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Lists.IWildcardMDOProvider
+    name: IWildcardMDOProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.IWildcardMDOProvider.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Lists.IWildcardMDOProvider
+    name: IWildcardMDOProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.IWildcardMDOProvider.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of IWildcardMDOProvider, To)
-    nameWithType: Converters.MapEnums(Of IWildcardMDOProvider, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.IWildcardMDOProvider, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.IWildcardMDOProvider)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.IWildcardMDOProvider
+    name: IWildcardMDOProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.IWildcardMDOProvider.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Lists.IWildcardMDOProvider
+    name: IWildcardMDOProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.IWildcardMDOProvider.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -148,43 +233,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -193,70 +280,236 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider*
-  commentId: Overload:SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync
   isExternal: true
-  name: GetProvider
-  nameWithType: IWildcardMDOProvider.GetProvider
-  fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider
+  href: SuperOffice.CRM.Lists.IWildcardMDOProvider.html#SuperOffice_CRM_Lists_IWildcardMDOProvider_GetProviderAsync_System_String_System_Threading_CancellationToken_
+  name: GetProviderAsync
+  nameWithType: IWildcardMDOProvider.GetProviderAsync
+  fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProviderAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Lists.ISoListProvider
-  commentId: T:SuperOffice.CRM.Lists.ISoListProvider
-  parent: SuperOffice.CRM.Lists
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: ISoListProvider
-  nameWithType: ISoListProvider
-  fullName: SuperOffice.CRM.Lists.ISoListProvider
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Lists.ISoListProvider}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ISoListProvider>
+  nameWithType: Task<ISoListProvider>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Lists.ISoListProvider>
+  nameWithType.vb: Task(Of ISoListProvider)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Lists.ISoListProvider)
+  name.vb: Task(Of ISoListProvider)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Lists.ISoListProvider
+    name: ISoListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListProvider.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.ISoListProvider
+    name: ISoListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListProvider.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

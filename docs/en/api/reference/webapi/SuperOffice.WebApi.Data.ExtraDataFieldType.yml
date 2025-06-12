@@ -8,64 +8,21 @@ items:
   - SuperOffice.WebApi.Data.ExtraDataFieldType.Image
   - SuperOffice.WebApi.Data.ExtraDataFieldType.String
   - SuperOffice.WebApi.Data.ExtraDataFieldType.Url
-  - SuperOffice.WebApi.Data.ExtraDataFieldType.value__
   langs:
   - csharp
   - vb
   name: ExtraDataFieldType
   nameWithType: ExtraDataFieldType
   fullName: SuperOffice.WebApi.Data.ExtraDataFieldType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nString, int, decimal, image, url, etc. How should the value be interpreted.\n"
+  summary: String, int, decimal, image, url, etc. How should the value be interpreted.
+  example: []
   syntax:
-    content: 'public sealed class ExtraDataFieldType : Enum'
-    content.vb: >-
-      Public NotInheritable Class ExtraDataFieldType
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.ExtraDataFieldType.value__
-  commentId: F:SuperOffice.WebApi.Data.ExtraDataFieldType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.ExtraDataFieldType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: ExtraDataFieldType.value__
-  fullName: SuperOffice.WebApi.Data.ExtraDataFieldType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum ExtraDataFieldType
+    content.vb: Public Enum ExtraDataFieldType
 - uid: SuperOffice.WebApi.Data.ExtraDataFieldType.String
   commentId: F:SuperOffice.WebApi.Data.ExtraDataFieldType.String
   id: String
@@ -77,24 +34,26 @@ items:
   nameWithType: ExtraDataFieldType.String
   fullName: SuperOffice.WebApi.Data.ExtraDataFieldType.String
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Anything to be shown as text, left aligned. If type is string, it can contain formatspecifiers (use this for displaying numbers correctly as the user&apos;s computer is set up).\n"
+  summary: "0: Anything to be shown as text, left aligned. If type is string, it can contain formatspecifiers (use this for displaying numbers correctly as the user's computer is set up)."
+  example: []
   syntax:
-    content: public const ExtraDataFieldType String
+    content: >-
+      [EnumMember]
+
+      String = 0
     return:
       type: SuperOffice.WebApi.Data.ExtraDataFieldType
-    content.vb: Public Const String As ExtraDataFieldType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      String = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ExtraDataFieldType.Url
   commentId: F:SuperOffice.WebApi.Data.ExtraDataFieldType.Url
   id: Url
@@ -106,24 +65,26 @@ items:
   nameWithType: ExtraDataFieldType.Url
   fullName: SuperOffice.WebApi.Data.ExtraDataFieldType.Url
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: A web address\n"
+  summary: '1: A web address'
+  example: []
   syntax:
-    content: public const ExtraDataFieldType Url
+    content: >-
+      [EnumMember]
+
+      Url = 1
     return:
       type: SuperOffice.WebApi.Data.ExtraDataFieldType
-    content.vb: Public Const Url As ExtraDataFieldType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Url = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ExtraDataFieldType.Image
   commentId: F:SuperOffice.WebApi.Data.ExtraDataFieldType.Image
   id: Image
@@ -135,55 +96,69 @@ items:
   nameWithType: ExtraDataFieldType.Image
   fullName: SuperOffice.WebApi.Data.ExtraDataFieldType.Image
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Contains the url of the image, or a base64 encoded version of it.\n"
+  summary: '2: Contains the url of the image, or a base64 encoded version of it.'
+  example: []
   syntax:
-    content: public const ExtraDataFieldType Image
+    content: >-
+      [EnumMember]
+
+      Image = 2
     return:
       type: SuperOffice.WebApi.Data.ExtraDataFieldType
-    content.vb: Public Const Image As ExtraDataFieldType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Image = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.ExtraDataFieldType
   commentId: T:SuperOffice.WebApi.Data.ExtraDataFieldType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.ExtraDataFieldType.html
   name: ExtraDataFieldType
   nameWithType: ExtraDataFieldType
   fullName: SuperOffice.WebApi.Data.ExtraDataFieldType

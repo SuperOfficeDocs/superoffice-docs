@@ -15,18 +15,17 @@ items:
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for Carrier.\nBase class for carrier objects Implementing common carrier properties    \n"
+  summary: >-
+    Carrier object for Carrier.
+
+    Base class for carrier objects Implementing common carrier properties
+  example: []
   syntax:
-    content: 'public class Carrier : Object'
-    content.vb: >-
-      Public Class Carrier
-          Inherits Object
+    content: public class Carrier
+    content.vb: Public Class Carrier
   inheritance:
   - System.Object
   derivedClasses:
@@ -48,16 +47,19 @@ items:
   - SuperOffice.WebApi.Data.ArchiveConfiguration
   - SuperOffice.WebApi.Data.ArchiveListItem
   - SuperOffice.WebApi.Data.ArchiveListResult
-  - SuperOffice.WebApi.Data.Area
   - SuperOffice.WebApi.Data.Associate
   - SuperOffice.WebApi.Data.AttachmentEntity
   - SuperOffice.WebApi.Data.AttachmentPreview
-  - SuperOffice.WebApi.Data.AudienceConfigParameter
-  - SuperOffice.WebApi.Data.AudienceLayoutEntity
   - SuperOffice.WebApi.Data.Batch
   - SuperOffice.WebApi.Data.BatchTaskInfo
   - SuperOffice.WebApi.Data.BlobEntity
   - SuperOffice.WebApi.Data.Business
+  - SuperOffice.WebApi.Data.CRMScriptEntity
+  - SuperOffice.WebApi.Data.CRMScriptErrorInfo
+  - SuperOffice.WebApi.Data.CRMScriptResult
+  - SuperOffice.WebApi.Data.CRMScriptRunResult
+  - SuperOffice.WebApi.Data.CRMScriptSourceMap
+  - SuperOffice.WebApi.Data.CRMScriptTraceRun
   - SuperOffice.WebApi.Data.Cache
   - SuperOffice.WebApi.Data.CategorizationModelDetails
   - SuperOffice.WebApi.Data.CategorizationStatusResponse
@@ -86,18 +88,12 @@ items:
   - SuperOffice.WebApi.Data.ControlInfo
   - SuperOffice.WebApi.Data.Country
   - SuperOffice.WebApi.Data.Credential
-  - SuperOffice.WebApi.Data.CredentialsGroup
-  - SuperOffice.WebApi.Data.CredentialsGroupUsers
   - SuperOffice.WebApi.Data.CredentialType
   - SuperOffice.WebApi.Data.CredentialUser
+  - SuperOffice.WebApi.Data.CredentialsGroup
+  - SuperOffice.WebApi.Data.CredentialsGroupUsers
   - SuperOffice.WebApi.Data.Credited
   - SuperOffice.WebApi.Data.CriteriaInformation
-  - SuperOffice.WebApi.Data.CRMScriptEntity
-  - SuperOffice.WebApi.Data.CRMScriptErrorInfo
-  - SuperOffice.WebApi.Data.CRMScriptResult
-  - SuperOffice.WebApi.Data.CRMScriptRunResult
-  - SuperOffice.WebApi.Data.CRMScriptSourceMap
-  - SuperOffice.WebApi.Data.CRMScriptTraceRun
   - SuperOffice.WebApi.Data.CsFeatureToggle
   - SuperOffice.WebApi.Data.CsSessionKey
   - SuperOffice.WebApi.Data.Currency
@@ -108,9 +104,6 @@ items:
   - SuperOffice.WebApi.Data.CustomerServiceConfig
   - SuperOffice.WebApi.Data.CustomerServiceStartup
   - SuperOffice.WebApi.Data.Dash
-  - SuperOffice.WebApi.Data.Dashboard
-  - SuperOffice.WebApi.Data.DashboardTile
-  - SuperOffice.WebApi.Data.DashboardTileOption
   - SuperOffice.WebApi.Data.DashCollection
   - SuperOffice.WebApi.Data.DashTheme
   - SuperOffice.WebApi.Data.DashTile
@@ -141,9 +134,9 @@ items:
   - SuperOffice.WebApi.Data.EMailCustomHeader
   - SuperOffice.WebApi.Data.EMailEntity
   - SuperOffice.WebApi.Data.EMailEnvelope
-  - SuperOffice.WebApi.Data.EmailFlow
   - SuperOffice.WebApi.Data.EMailFolder
   - SuperOffice.WebApi.Data.EMailSOInfo
+  - SuperOffice.WebApi.Data.EmailFlow
   - SuperOffice.WebApi.Data.EntityCounts
   - SuperOffice.WebApi.Data.EntityElement
   - SuperOffice.WebApi.Data.EntityName
@@ -168,6 +161,9 @@ items:
   - SuperOffice.WebApi.Data.FieldMetadata
   - SuperOffice.WebApi.Data.FieldValue
   - SuperOffice.WebApi.Data.FindResults
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOption
   - SuperOffice.WebApi.Data.ForeignAppEntity
   - SuperOffice.WebApi.Data.ForeignDevice
   - SuperOffice.WebApi.Data.ForeignKey
@@ -196,13 +192,11 @@ items:
   - SuperOffice.WebApi.Data.LocalizedField
   - SuperOffice.WebApi.Data.LocalizedText
   - SuperOffice.WebApi.Data.Logging
+  - SuperOffice.WebApi.Data.MDOListItem
   - SuperOffice.WebApi.Data.Mailbox
   - SuperOffice.WebApi.Data.MailboxEntity
   - SuperOffice.WebApi.Data.MailingStatistics
-  - SuperOffice.WebApi.Data.MailMergeSettings
-  - SuperOffice.WebApi.Data.MailMergeTask
   - SuperOffice.WebApi.Data.MassOperationResult
-  - SuperOffice.WebApi.Data.MDOListItem
   - SuperOffice.WebApi.Data.MessageDeliveryStatus
   - SuperOffice.WebApi.Data.ModuleLicenseLink
   - SuperOffice.WebApi.Data.MrMrs
@@ -262,7 +256,6 @@ items:
   - SuperOffice.WebApi.Data.QuoteEntity
   - SuperOffice.WebApi.Data.QuoteLine
   - SuperOffice.WebApi.Data.QuoteLineConfiguration
-  - SuperOffice.WebApi.Data.QuoteListItem
   - SuperOffice.WebApi.Data.QuotePublishDocuments
   - SuperOffice.WebApi.Data.QuoteVersion
   - SuperOffice.WebApi.Data.QuoteVersionAttachment
@@ -283,7 +276,6 @@ items:
   - SuperOffice.WebApi.Data.RelationToOwner
   - SuperOffice.WebApi.Data.RemoteTimeZoneMethods
   - SuperOffice.WebApi.Data.ReplyTemplateParsed
-  - SuperOffice.WebApi.Data.ReportEntity
   - SuperOffice.WebApi.Data.ReportLabelLayoutEntity
   - SuperOffice.WebApi.Data.ResolvedPerson
   - SuperOffice.WebApi.Data.ResolvedUser
@@ -294,14 +286,13 @@ items:
   - SuperOffice.WebApi.Data.SaintConfiguration
   - SuperOffice.WebApi.Data.Sale
   - SuperOffice.WebApi.Data.SaleEntity
-  - SuperOffice.WebApi.Data.SalesActivity
   - SuperOffice.WebApi.Data.SaleStageEntity
   - SuperOffice.WebApi.Data.SaleStakeholder
   - SuperOffice.WebApi.Data.SaleSummary
   - SuperOffice.WebApi.Data.SaleType
   - SuperOffice.WebApi.Data.SaleTypeEntity
   - SuperOffice.WebApi.Data.SaleTypeStageLink
-  - SuperOffice.WebApi.Data.Satellite
+  - SuperOffice.WebApi.Data.SalesActivity
   - SuperOffice.WebApi.Data.Script
   - SuperOffice.WebApi.Data.SelectableMDOListItem
   - SuperOffice.WebApi.Data.SelectionCategory
@@ -316,6 +307,7 @@ items:
   - SuperOffice.WebApi.Data.SmsConfig
   - SuperOffice.WebApi.Data.SmtpTestResult
   - SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  - SuperOffice.WebApi.Data.SoTask
   - SuperOffice.WebApi.Data.Source
   - SuperOffice.WebApi.Data.StatisticsDataSet
   - SuperOffice.WebApi.Data.StatisticsDataValue
@@ -328,8 +320,8 @@ items:
   - SuperOffice.WebApi.Data.SystemEventEntity
   - SuperOffice.WebApi.Data.SystemMessage
   - SuperOffice.WebApi.Data.SystemTemplateSettings
-  - SuperOffice.WebApi.Data.TableRecord
   - SuperOffice.WebApi.Data.TabOrder
+  - SuperOffice.WebApi.Data.TableRecord
   - SuperOffice.WebApi.Data.Tag
   - SuperOffice.WebApi.Data.TargetAssignment
   - SuperOffice.WebApi.Data.TargetChange
@@ -337,7 +329,6 @@ items:
   - SuperOffice.WebApi.Data.TargetGroup
   - SuperOffice.WebApi.Data.TargetRevision
   - SuperOffice.WebApi.Data.TargetRevisionHistory
-  - SuperOffice.WebApi.Data.Task
   - SuperOffice.WebApi.Data.TaskListItem
   - SuperOffice.WebApi.Data.TaskMenu
   - SuperOffice.WebApi.Data.TemplateVariablesParameters
@@ -375,8 +366,8 @@ items:
   - SuperOffice.WebApi.Data.VideoMeetingReservation
   - SuperOffice.WebApi.Data.VisibleFor
   - SuperOffice.WebApi.Data.WebAppUsage
-  - SuperOffice.WebApi.Data.WebhookResult
   - SuperOffice.WebApi.Data.WebPanelEntity
+  - SuperOffice.WebApi.Data.WebhookResult
   - SuperOffice.WebApi.Data.WindowPosSize
   - SuperOffice.WebApi.Data.WorkflowContentInfo
   - SuperOffice.WebApi.Data.WorkflowEvent
@@ -385,12 +376,14 @@ items:
   - SuperOffice.WebApi.Data.WorkflowGoal
   - SuperOffice.WebApi.Data.WorkflowTrigger
   - SuperOffice.WebApi.Data.WorkflowWaitForAction
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.Carrier.#ctor
   commentId: M:SuperOffice.WebApi.Data.Carrier.#ctor
   id: '#ctor'
@@ -402,21 +395,18 @@ items:
   nameWithType: Carrier.Carrier()
   fullName: SuperOffice.WebApi.Data.Carrier.Carrier()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public Carrier()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.Carrier.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: Carrier.New()
+  fullName.vb: SuperOffice.WebApi.Data.Carrier.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.Carrier.TableRight
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   id: TableRight
@@ -428,13 +418,11 @@ items:
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe carrier&apos;s table right\n"
+  summary: The carrier's table right
+  example: []
   syntax:
     content: public virtual TableRight TableRight { get; set; }
     parameters: []
@@ -442,14 +430,6 @@ items:
       type: SuperOffice.WebApi.Data.TableRight
     content.vb: Public Overridable Property TableRight As TableRight
   overload: SuperOffice.WebApi.Data.Carrier.TableRight*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   id: FieldProperties
@@ -461,13 +441,11 @@ items:
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nRights on the carriers fields\n"
+  summary: Rights on the carriers fields
+  example: []
   syntax:
     content: public virtual FieldPropertyDictionary FieldProperties { get; set; }
     parameters: []
@@ -475,43 +453,295 @@ items:
       type: SuperOffice.WebApi.Data.FieldPropertyDictionary
     content.vb: Public Overridable Property FieldProperties As FieldPropertyDictionary
   overload: SuperOffice.WebApi.Data.Carrier.FieldProperties*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.Carrier.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.Carrier.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier__ctor
   name: Carrier
   nameWithType: Carrier.Carrier
   fullName: SuperOffice.WebApi.Data.Carrier.Carrier
+  nameWithType.vb: Carrier.New
+  fullName.vb: SuperOffice.WebApi.Data.Carrier.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.Carrier.TableRight*
   commentId: Overload:SuperOffice.WebApi.Data.Carrier.TableRight
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -519,12 +749,14 @@ references:
   commentId: T:SuperOffice.WebApi.Data.TableRight
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.TableRight.html
   name: TableRight
   nameWithType: TableRight
   fullName: SuperOffice.WebApi.Data.TableRight
 - uid: SuperOffice.WebApi.Data.Carrier.FieldProperties*
   commentId: Overload:SuperOffice.WebApi.Data.Carrier.FieldProperties
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
@@ -532,6 +764,7 @@ references:
   commentId: T:SuperOffice.WebApi.Data.FieldPropertyDictionary
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldPropertyDictionary.html
   name: FieldPropertyDictionary
   nameWithType: FieldPropertyDictionary
   fullName: SuperOffice.WebApi.Data.FieldPropertyDictionary

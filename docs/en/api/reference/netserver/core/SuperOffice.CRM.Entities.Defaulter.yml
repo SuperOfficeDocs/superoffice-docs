@@ -5,28 +5,28 @@ items:
   id: Defaulter
   parent: SuperOffice.CRM.Entities
   children:
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection)
-  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Contact,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Document,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Project,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Sale,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Selection,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -34,83 +34,72 @@ items:
   nameWithType: Defaulter
   fullName: SuperOffice.CRM.Entities.Defaulter
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nDefaulter for Entity objects\n"
+  summary: Defaulter for Entity objects
+  example: []
   syntax:
-    content: 'public sealed class Defaulter : Object'
-    content.vb: >-
-      Public NotInheritable Class Defaulter
-          Inherits Object
+    content: public sealed class Defaulter
+    content.vb: Public NotInheritable Class Defaulter
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
   extensionMethods:
   - SuperOffice.CRM.Entities.Defaulter.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.Defaulter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase)
-  id: SetDefaults(SuperOffice.CRM.Entities.EntityBase)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(EntityBase)
-  nameWithType: Defaulter.SetDefaults(EntityBase)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase)
+  name: SetDefaultsAsync(EntityBase, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(EntityBase, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity.  This default implementation does nothing.\n"
+  summary: Set default values for the entity.  This default implementation does nothing.
+  example: []
   syntax:
-    content: public static void SetDefaults(EntityBase entity)
+    content: public static Task SetDefaultsAsync(EntityBase entity, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.EntityBase
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As EntityBase)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As EntityBase, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(EntityBase, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(EntityBase, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(EntityBase, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(EntityBase, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.EntityBase, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity.  This default implementation does nothing.\n"
+  summary: Set default values for the entity.  This default implementation does nothing.
+  example: []
   syntax:
-    content: public static void SetDefaults(EntityBase entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(EntityBase entity, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.EntityBase
@@ -118,66 +107,58 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As EntityBase, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment)
-  id: SetDefaults(SuperOffice.CRM.Entities.Appointment)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As EntityBase, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Appointment)
-  nameWithType: Defaulter.SetDefaults(Appointment)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment)
+  name: SetDefaultsAsync(Appointment, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Appointment, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Appointment entity)
+    content: public static Task SetDefaultsAsync(Appointment entity, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Appointment
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As Appointment)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Appointment, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Appointment, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Appointment, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Appointment, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Appointment, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Appointment entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Appointment entity, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Appointment
@@ -185,34 +166,30 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Appointment, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType)
-  id: SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Appointment, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Appointment, TaskType)
-  nameWithType: Defaulter.SetDefaults(Appointment, TaskType)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment, SuperOffice.Data.TaskType)
+  name: SetDefaultsAsync(Appointment, TaskType, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Appointment, TaskType, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment, SuperOffice.Data.TaskType, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the appointment&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the appointment's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Appointment entity, TaskType type)
+    content: public static Task SetDefaultsAsync(Appointment entity, TaskType type, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Appointment
@@ -220,34 +197,30 @@ items:
     - id: type
       type: SuperOffice.Data.TaskType
       description: The type of appointment
-    content.vb: Public Shared Sub SetDefaults(entity As Appointment, type As TaskType)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Appointment, type As TaskType, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Appointment, TaskType, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Appointment, TaskType, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment, SuperOffice.Data.TaskType, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Appointment, TaskType, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Appointment, TaskType, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Appointment, SuperOffice.Data.TaskType, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the appointment&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the appointment's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Appointment entity, TaskType type, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Appointment entity, TaskType type, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Appointment
@@ -258,66 +231,58 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Appointment, type As TaskType, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact)
-  id: SetDefaults(SuperOffice.CRM.Entities.Contact)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Appointment, type As TaskType, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Contact,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Contact,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Contact,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Contact)
-  nameWithType: Defaulter.SetDefaults(Contact)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact)
+  name: SetDefaultsAsync(Contact, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Contact, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Contact, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Contact entity)
+    content: public static Task SetDefaultsAsync(Contact entity, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Contact
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As Contact)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Contact, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Contact, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Contact, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Contact, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Contact, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Contact, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Contact entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Contact entity, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Contact
@@ -325,66 +290,58 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Contact, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document)
-  id: SetDefaults(SuperOffice.CRM.Entities.Document)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Contact, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Document,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Document,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Document,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Document)
-  nameWithType: Defaulter.SetDefaults(Document)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document)
+  name: SetDefaultsAsync(Document, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Document, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Document, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Document entity)
+    content: public static Task SetDefaultsAsync(Document entity, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Document
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As Document)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Document, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Document, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Document, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Document, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Document, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Document, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Document entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Document entity, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Document
@@ -392,66 +349,58 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Document, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person)
-  id: SetDefaults(SuperOffice.CRM.Entities.Person)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Document, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Person)
-  nameWithType: Defaulter.SetDefaults(Person)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person)
+  name: SetDefaultsAsync(Person, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Person, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Person entity)
+    content: public static Task SetDefaultsAsync(Person entity, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Person
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As Person)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Person, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Person, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Person, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Person, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Person, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Person entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Person entity, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Person
@@ -459,34 +408,30 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Person, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32)
-  id: SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Person, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Int32,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Person, Int32)
-  nameWithType: Defaulter.SetDefaults(Person, Int32)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person, System.Int32)
+  name: SetDefaultsAsync(Person, int, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Person, int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Person entity, int contactId)
+    content: public static Task SetDefaultsAsync(Person entity, int contactId, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Person
@@ -494,34 +439,33 @@ items:
     - id: contactId
       type: System.Int32
       description: The id of the contact the person belongs to.
-    content.vb: Public Shared Sub SetDefaults(entity As Person, contactId As Integer)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Person, contactId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+  nameWithType.vb: Defaulter.SetDefaultsAsync(Person, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person, Integer, System.Threading.CancellationToken)
+  name.vb: SetDefaultsAsync(Person, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Person, Int32, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Person, Int32, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person, System.Int32, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Person, int, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Person, int, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person, int, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Person entity, int contactId, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Person entity, int contactId, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Person
@@ -532,66 +476,61 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Person, contactId As Integer, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project)
-  id: SetDefaults(SuperOffice.CRM.Entities.Project)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Person, contactId As Integer, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+  nameWithType.vb: Defaulter.SetDefaultsAsync(Person, Integer, DefaulterStrategy, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Person, Integer, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
+  name.vb: SetDefaultsAsync(Person, Integer, DefaulterStrategy, CancellationToken)
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Project,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Project,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Project,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Project)
-  nameWithType: Defaulter.SetDefaults(Project)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project)
+  name: SetDefaultsAsync(Project, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Project, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Project, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Project entity)
+    content: public static Task SetDefaultsAsync(Project entity, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Project
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As Project)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Project, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Project, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Project, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Project, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Project, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Project, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Project entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Project entity, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Project
@@ -599,66 +538,58 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Project, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember)
-  id: SetDefaults(SuperOffice.CRM.Entities.ProjectMember)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Project, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(ProjectMember)
-  nameWithType: Defaulter.SetDefaults(ProjectMember)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember)
+  name: SetDefaultsAsync(ProjectMember, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(ProjectMember, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(ProjectMember entity)
+    content: public static Task SetDefaultsAsync(ProjectMember entity, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.ProjectMember
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As ProjectMember)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As ProjectMember, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(ProjectMember, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(ProjectMember, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(ProjectMember, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(ProjectMember, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.ProjectMember, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(ProjectMember entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(ProjectMember entity, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.ProjectMember
@@ -666,66 +597,58 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As ProjectMember, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale)
-  id: SetDefaults(SuperOffice.CRM.Entities.Sale)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As ProjectMember, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Sale,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Sale,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Sale,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Sale)
-  nameWithType: Defaulter.SetDefaults(Sale)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale)
+  name: SetDefaultsAsync(Sale, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Sale, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Sale, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Sale entity)
+    content: public static Task SetDefaultsAsync(Sale entity, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Sale
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As Sale)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Sale, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Sale, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Sale, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Sale, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Sale, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Sale, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Sale entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Sale entity, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Sale
@@ -733,66 +656,58 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Sale, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection)
-  id: SetDefaults(SuperOffice.CRM.Entities.Selection)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Sale, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Selection,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Selection,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Selection,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Selection)
-  nameWithType: Defaulter.SetDefaults(Selection)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection)
+  name: SetDefaultsAsync(Selection, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Selection, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Selection, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Selection entity)
+    content: public static Task SetDefaultsAsync(Selection entity, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Selection
       description: The entity to set default values for.
-    content.vb: Public Shared Sub SetDefaults(entity As Selection)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Selection, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.Defaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(Selection, DefaulterStrategy)
-  nameWithType: Defaulter.SetDefaults(Selection, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(Selection, DefaulterStrategy, CancellationToken)
+  nameWithType: Defaulter.SetDefaultsAsync(Selection, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync(SuperOffice.CRM.Entities.Selection, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  summary: Set default values for the entity's main row, and for any udef fields it may have.
+  example: []
   syntax:
-    content: public static void SetDefaults(Selection entity, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(Selection entity, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: entity
       type: SuperOffice.CRM.Entities.Selection
@@ -800,105 +715,373 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(entity As Selection, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(entity As Selection, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Entities.Defaulter.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<Defaulter, To>()
-  nameWithType: EnumUtil.MapEnums<Defaulter, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Defaulter, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of Defaulter, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Defaulter, To)()
-  name.vb: MapEnums(Of Defaulter, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<Defaulter, To>(Defaulter)
+  nameWithType: EnumUtil.MapEnums<Defaulter, To>(Defaulter)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Defaulter, To>(SuperOffice.CRM.Entities.Defaulter)
+  nameWithType.vb: EnumUtil.MapEnums(Of Defaulter, To)(Defaulter)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Defaulter, To)(SuperOffice.CRM.Entities.Defaulter)
+  name.vb: MapEnums(Of Defaulter, To)(Defaulter)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<Defaulter, To>
-    nameWithType: EnumUtil.MapEnums<Defaulter, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Defaulter, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.Defaulter)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.Defaulter
+    name: Defaulter
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Defaulter.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Entities.Defaulter
+    name: Defaulter
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Defaulter.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of Defaulter, To)
-    nameWithType: EnumUtil.MapEnums(Of Defaulter, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Defaulter, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.Defaulter)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Defaulter
+    name: Defaulter
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Defaulter.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Defaulter
+    name: Defaulter
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Defaulter.html
+  - name: )
 - uid: SuperOffice.CRM.Entities.Defaulter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<Defaulter, To>()
-  nameWithType: Converters.MapEnums<Defaulter, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Defaulter, To>()
-  nameWithType.vb: Converters.MapEnums(Of Defaulter, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Defaulter, To)()
-  name.vb: MapEnums(Of Defaulter, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<Defaulter, To>(Defaulter)
+  nameWithType: Converters.MapEnums<Defaulter, To>(Defaulter)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Defaulter, To>(SuperOffice.CRM.Entities.Defaulter)
+  nameWithType.vb: Converters.MapEnums(Of Defaulter, To)(Defaulter)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Defaulter, To)(SuperOffice.CRM.Entities.Defaulter)
+  name.vb: MapEnums(Of Defaulter, To)(Defaulter)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<Defaulter, To>
-    nameWithType: Converters.MapEnums<Defaulter, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Defaulter, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.Defaulter)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.Defaulter
+    name: Defaulter
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Defaulter.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Entities.Defaulter
+    name: Defaulter
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Defaulter.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of Defaulter, To)
-    nameWithType: Converters.MapEnums(Of Defaulter, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Defaulter, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.Defaulter)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Defaulter
+    name: Defaulter
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Defaulter.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Defaulter
+    name: Defaulter
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Defaulter.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -907,43 +1090,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -952,77 +1137,224 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
-  commentId: Overload:SuperOffice.CRM.Entities.Defaulter.SetDefaults
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync
   isExternal: true
-  name: SetDefaults
-  nameWithType: Defaulter.SetDefaults
-  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults
+  href: SuperOffice.CRM.Entities.Defaulter.html#SuperOffice_CRM_Entities_Defaulter_SetDefaultsAsync_SuperOffice_CRM_Entities_EntityBase_System_Threading_CancellationToken_
+  name: SetDefaultsAsync
+  nameWithType: Defaulter.SetDefaultsAsync
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaultsAsync
 - uid: SuperOffice.CRM.Entities.EntityBase
   commentId: T:SuperOffice.CRM.Entities.EntityBase
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.EntityBase.html
   name: EntityBase
   nameWithType: EntityBase
   fullName: SuperOffice.CRM.Entities.EntityBase
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.CRM.Rows.DefaulterStrategy
   commentId: T:SuperOffice.CRM.Rows.DefaulterStrategy
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.DefaulterStrategy.html
   name: DefaulterStrategy
   nameWithType: DefaulterStrategy
   fullName: SuperOffice.CRM.Rows.DefaulterStrategy
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: SuperOffice.CRM.Entities.Appointment
   commentId: T:SuperOffice.CRM.Entities.Appointment
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.Appointment.html
   name: Appointment
   nameWithType: Appointment
   fullName: SuperOffice.CRM.Entities.Appointment
@@ -1030,19 +1362,42 @@ references:
   commentId: T:SuperOffice.Data.TaskType
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.TaskType.html
   name: TaskType
   nameWithType: TaskType
   fullName: SuperOffice.Data.TaskType
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Entities.Contact
   commentId: T:SuperOffice.CRM.Entities.Contact
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.Contact.html
   name: Contact
   nameWithType: Contact
   fullName: SuperOffice.CRM.Entities.Contact
@@ -1050,6 +1405,7 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Document
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.Document.html
   name: Document
   nameWithType: Document
   fullName: SuperOffice.CRM.Entities.Document
@@ -1057,6 +1413,7 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Person
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.Person.html
   name: Person
   nameWithType: Person
   fullName: SuperOffice.CRM.Entities.Person
@@ -1064,13 +1421,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Entities.Project
   commentId: T:SuperOffice.CRM.Entities.Project
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.Project.html
   name: Project
   nameWithType: Project
   fullName: SuperOffice.CRM.Entities.Project
@@ -1078,6 +1440,7 @@ references:
   commentId: T:SuperOffice.CRM.Entities.ProjectMember
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.ProjectMember.html
   name: ProjectMember
   nameWithType: ProjectMember
   fullName: SuperOffice.CRM.Entities.ProjectMember
@@ -1085,6 +1448,7 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Sale
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.Sale.html
   name: Sale
   nameWithType: Sale
   fullName: SuperOffice.CRM.Entities.Sale
@@ -1092,6 +1456,7 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Selection
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.Selection.html
   name: Selection
   nameWithType: Selection
   fullName: SuperOffice.CRM.Entities.Selection

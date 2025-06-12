@@ -1,0 +1,559 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.IParallelProcessor`1
+  commentId: T:SuperOffice.Threading.IParallelProcessor`1
+  id: IParallelProcessor`1
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.IParallelProcessor`1.CurrentNumberOfProcessors
+  - SuperOffice.Threading.IParallelProcessor`1.DesiredNumberOfProcessors
+  - SuperOffice.Threading.IParallelProcessor`1.SetDesiredNumberOfProcessors(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IParallelProcessor<TParallelizedProcessor>
+  nameWithType: IParallelProcessor<TParallelizedProcessor>
+  fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>
+  type: Interface
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: 'public interface IParallelProcessor<TParallelizedProcessor> : IHostedService where TParallelizedProcessor : ParallelizedProcessor'
+    typeParameters:
+    - id: TParallelizedProcessor
+    content.vb: Public Interface IParallelProcessor(Of TParallelizedProcessor As ParallelizedProcessor) Inherits IHostedService
+  inheritedMembers:
+  - Microsoft.Extensions.Hosting.IHostedService.StartAsync(System.Threading.CancellationToken)
+  - Microsoft.Extensions.Hosting.IHostedService.StopAsync(System.Threading.CancellationToken)
+  extensionMethods:
+  - SuperOffice.Threading.IParallelProcessor`1.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.IParallelProcessor`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: IParallelProcessor(Of TParallelizedProcessor)
+  fullName.vb: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor)
+  name.vb: IParallelProcessor(Of TParallelizedProcessor)
+- uid: SuperOffice.Threading.IParallelProcessor`1.SetDesiredNumberOfProcessors(System.Int32)
+  commentId: M:SuperOffice.Threading.IParallelProcessor`1.SetDesiredNumberOfProcessors(System.Int32)
+  id: SetDesiredNumberOfProcessors(System.Int32)
+  parent: SuperOffice.Threading.IParallelProcessor`1
+  langs:
+  - csharp
+  - vb
+  name: SetDesiredNumberOfProcessors(int)
+  nameWithType: IParallelProcessor<TParallelizedProcessor>.SetDesiredNumberOfProcessors(int)
+  fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>.SetDesiredNumberOfProcessors(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Set the desired number of parallel processing tasks
+  example: []
+  syntax:
+    content: void SetDesiredNumberOfProcessors(int desiredNumberOfProcessors)
+    parameters:
+    - id: desiredNumberOfProcessors
+      type: System.Int32
+      description: ''
+    content.vb: Sub SetDesiredNumberOfProcessors(desiredNumberOfProcessors As Integer)
+  overload: SuperOffice.Threading.IParallelProcessor`1.SetDesiredNumberOfProcessors*
+  nameWithType.vb: IParallelProcessor(Of TParallelizedProcessor).SetDesiredNumberOfProcessors(Integer)
+  fullName.vb: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor).SetDesiredNumberOfProcessors(Integer)
+  name.vb: SetDesiredNumberOfProcessors(Integer)
+- uid: SuperOffice.Threading.IParallelProcessor`1.CurrentNumberOfProcessors
+  commentId: P:SuperOffice.Threading.IParallelProcessor`1.CurrentNumberOfProcessors
+  id: CurrentNumberOfProcessors
+  parent: SuperOffice.Threading.IParallelProcessor`1
+  langs:
+  - csharp
+  - vb
+  name: CurrentNumberOfProcessors
+  nameWithType: IParallelProcessor<TParallelizedProcessor>.CurrentNumberOfProcessors
+  fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>.CurrentNumberOfProcessors
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Current number of Parellel processing tasks
+  example: []
+  syntax:
+    content: int CurrentNumberOfProcessors { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property CurrentNumberOfProcessors As Integer
+  overload: SuperOffice.Threading.IParallelProcessor`1.CurrentNumberOfProcessors*
+  nameWithType.vb: IParallelProcessor(Of TParallelizedProcessor).CurrentNumberOfProcessors
+  fullName.vb: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor).CurrentNumberOfProcessors
+- uid: SuperOffice.Threading.IParallelProcessor`1.DesiredNumberOfProcessors
+  commentId: P:SuperOffice.Threading.IParallelProcessor`1.DesiredNumberOfProcessors
+  id: DesiredNumberOfProcessors
+  parent: SuperOffice.Threading.IParallelProcessor`1
+  langs:
+  - csharp
+  - vb
+  name: DesiredNumberOfProcessors
+  nameWithType: IParallelProcessor<TParallelizedProcessor>.DesiredNumberOfProcessors
+  fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>.DesiredNumberOfProcessors
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Desired number of parallel processing tasks
+  example: []
+  syntax:
+    content: int DesiredNumberOfProcessors { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property DesiredNumberOfProcessors As Integer
+  overload: SuperOffice.Threading.IParallelProcessor`1.DesiredNumberOfProcessors*
+  nameWithType.vb: IParallelProcessor(Of TParallelizedProcessor).DesiredNumberOfProcessors
+  fullName.vb: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor).DesiredNumberOfProcessors
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+- uid: Microsoft.Extensions.Hosting.IHostedService.StartAsync(System.Threading.CancellationToken)
+  commentId: M:Microsoft.Extensions.Hosting.IHostedService.StartAsync(System.Threading.CancellationToken)
+  parent: Microsoft.Extensions.Hosting.IHostedService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.ihostedservice.startasync
+  name: StartAsync(CancellationToken)
+  nameWithType: IHostedService.StartAsync(CancellationToken)
+  fullName: Microsoft.Extensions.Hosting.IHostedService.StartAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Hosting.IHostedService.StartAsync(System.Threading.CancellationToken)
+    name: StartAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.ihostedservice.startasync
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Hosting.IHostedService.StartAsync(System.Threading.CancellationToken)
+    name: StartAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.ihostedservice.startasync
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Microsoft.Extensions.Hosting.IHostedService.StopAsync(System.Threading.CancellationToken)
+  commentId: M:Microsoft.Extensions.Hosting.IHostedService.StopAsync(System.Threading.CancellationToken)
+  parent: Microsoft.Extensions.Hosting.IHostedService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.ihostedservice.stopasync
+  name: StopAsync(CancellationToken)
+  nameWithType: IHostedService.StopAsync(CancellationToken)
+  fullName: Microsoft.Extensions.Hosting.IHostedService.StopAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Hosting.IHostedService.StopAsync(System.Threading.CancellationToken)
+    name: StopAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.ihostedservice.stopasync
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Hosting.IHostedService.StopAsync(System.Threading.CancellationToken)
+    name: StopAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.ihostedservice.stopasync
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Threading.IParallelProcessor`1.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IParallelProcessor<TParallelizedProcessor>, To>(IParallelProcessor<TParallelizedProcessor>)
+  nameWithType: EnumUtil.MapEnums<IParallelProcessor<TParallelizedProcessor>, To>(IParallelProcessor<TParallelizedProcessor>)
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>, To>(SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>)
+  nameWithType.vb: EnumUtil.MapEnums(Of IParallelProcessor(Of TParallelizedProcessor), To)(IParallelProcessor(Of TParallelizedProcessor))
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor), To)(SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor))
+  name.vb: MapEnums(Of IParallelProcessor(Of TParallelizedProcessor), To)(IParallelProcessor(Of TParallelizedProcessor))
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.IParallelProcessor{`0})
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Threading.IParallelProcessor`1
+    name: IParallelProcessor
+    isExternal: true
+    href: SuperOffice.Threading.IParallelProcessor-1.html
+  - name: <
+  - name: TParallelizedProcessor
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Threading.IParallelProcessor`1
+    name: IParallelProcessor
+    isExternal: true
+    href: SuperOffice.Threading.IParallelProcessor-1.html
+  - name: <
+  - name: TParallelizedProcessor
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.IParallelProcessor{`0})
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Threading.IParallelProcessor`1
+    name: IParallelProcessor
+    isExternal: true
+    href: SuperOffice.Threading.IParallelProcessor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TParallelizedProcessor
+  - name: )
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Threading.IParallelProcessor`1
+    name: IParallelProcessor
+    isExternal: true
+    href: SuperOffice.Threading.IParallelProcessor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TParallelizedProcessor
+  - name: )
+  - name: )
+- uid: SuperOffice.Threading.IParallelProcessor`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IParallelProcessor<TParallelizedProcessor>, To>(IParallelProcessor<TParallelizedProcessor>)
+  nameWithType: Converters.MapEnums<IParallelProcessor<TParallelizedProcessor>, To>(IParallelProcessor<TParallelizedProcessor>)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>, To>(SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>)
+  nameWithType.vb: Converters.MapEnums(Of IParallelProcessor(Of TParallelizedProcessor), To)(IParallelProcessor(Of TParallelizedProcessor))
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor), To)(SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor))
+  name.vb: MapEnums(Of IParallelProcessor(Of TParallelizedProcessor), To)(IParallelProcessor(Of TParallelizedProcessor))
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.IParallelProcessor{`0})
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Threading.IParallelProcessor`1
+    name: IParallelProcessor
+    isExternal: true
+    href: SuperOffice.Threading.IParallelProcessor-1.html
+  - name: <
+  - name: TParallelizedProcessor
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Threading.IParallelProcessor`1
+    name: IParallelProcessor
+    isExternal: true
+    href: SuperOffice.Threading.IParallelProcessor-1.html
+  - name: <
+  - name: TParallelizedProcessor
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.IParallelProcessor{`0})
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Threading.IParallelProcessor`1
+    name: IParallelProcessor
+    isExternal: true
+    href: SuperOffice.Threading.IParallelProcessor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TParallelizedProcessor
+  - name: )
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Threading.IParallelProcessor`1
+    name: IParallelProcessor
+    isExternal: true
+    href: SuperOffice.Threading.IParallelProcessor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TParallelizedProcessor
+  - name: )
+  - name: )
+- uid: Microsoft.Extensions.Hosting.IHostedService
+  commentId: T:Microsoft.Extensions.Hosting.IHostedService
+  parent: Microsoft.Extensions.Hosting
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.ihostedservice
+  name: IHostedService
+  nameWithType: IHostedService
+  fullName: Microsoft.Extensions.Hosting.IHostedService
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: Microsoft.Extensions.Hosting
+  commentId: N:Microsoft.Extensions.Hosting
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Hosting
+  nameWithType: Microsoft.Extensions.Hosting
+  fullName: Microsoft.Extensions.Hosting
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Hosting
+    name: Hosting
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Hosting
+    name: Hosting
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Threading.IParallelProcessor`1.SetDesiredNumberOfProcessors*
+  commentId: Overload:SuperOffice.Threading.IParallelProcessor`1.SetDesiredNumberOfProcessors
+  isExternal: true
+  href: SuperOffice.Threading.IParallelProcessor-1.html#SuperOffice_Threading_IParallelProcessor_1_SetDesiredNumberOfProcessors_System_Int32_
+  name: SetDesiredNumberOfProcessors
+  nameWithType: IParallelProcessor<TParallelizedProcessor>.SetDesiredNumberOfProcessors
+  fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>.SetDesiredNumberOfProcessors
+  nameWithType.vb: IParallelProcessor(Of TParallelizedProcessor).SetDesiredNumberOfProcessors
+  fullName.vb: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor).SetDesiredNumberOfProcessors
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Threading.IParallelProcessor`1.CurrentNumberOfProcessors*
+  commentId: Overload:SuperOffice.Threading.IParallelProcessor`1.CurrentNumberOfProcessors
+  isExternal: true
+  href: SuperOffice.Threading.IParallelProcessor-1.html#SuperOffice_Threading_IParallelProcessor_1_CurrentNumberOfProcessors
+  name: CurrentNumberOfProcessors
+  nameWithType: IParallelProcessor<TParallelizedProcessor>.CurrentNumberOfProcessors
+  fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>.CurrentNumberOfProcessors
+  nameWithType.vb: IParallelProcessor(Of TParallelizedProcessor).CurrentNumberOfProcessors
+  fullName.vb: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor).CurrentNumberOfProcessors
+- uid: SuperOffice.Threading.IParallelProcessor`1.DesiredNumberOfProcessors*
+  commentId: Overload:SuperOffice.Threading.IParallelProcessor`1.DesiredNumberOfProcessors
+  isExternal: true
+  href: SuperOffice.Threading.IParallelProcessor-1.html#SuperOffice_Threading_IParallelProcessor_1_DesiredNumberOfProcessors
+  name: DesiredNumberOfProcessors
+  nameWithType: IParallelProcessor<TParallelizedProcessor>.DesiredNumberOfProcessors
+  fullName: SuperOffice.Threading.IParallelProcessor<TParallelizedProcessor>.DesiredNumberOfProcessors
+  nameWithType.vb: IParallelProcessor(Of TParallelizedProcessor).DesiredNumberOfProcessors
+  fullName.vb: SuperOffice.Threading.IParallelProcessor(Of TParallelizedProcessor).DesiredNumberOfProcessors

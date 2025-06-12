@@ -1,0 +1,785 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+  commentId: T:SuperOffice.Util.AccessGateway.RetrieveTokensResult
+  id: AccessGateway.RetrieveTokensResult
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.AccessGateway.RetrieveTokensResult.AccessToken
+  - SuperOffice.Util.AccessGateway.RetrieveTokensResult.RefreshToken
+  - SuperOffice.Util.AccessGateway.RetrieveTokensResult.Success
+  langs:
+  - csharp
+  - vb
+  name: AccessGateway.RetrieveTokensResult
+  nameWithType: AccessGateway.RetrieveTokensResult
+  fullName: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+  type: Struct
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public struct AccessGateway.RetrieveTokensResult
+    content.vb: Public Structure AccessGateway.RetrieveTokensResult
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  extensionMethods:
+  - SuperOffice.Util.AccessGateway.RetrieveTokensResult.EnumUtil.MapEnums``2
+  - SuperOffice.Util.AccessGateway.RetrieveTokensResult.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Util.AccessGateway.RetrieveTokensResult.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+  - SuperOffice.Util.AccessGateway.RetrieveTokensResult.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult.Success
+  commentId: F:SuperOffice.Util.AccessGateway.RetrieveTokensResult.Success
+  id: Success
+  parent: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: AccessGateway.RetrieveTokensResult.Success
+  fullName: SuperOffice.Util.AccessGateway.RetrieveTokensResult.Success
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public bool Success
+    return:
+      type: System.Boolean
+    content.vb: Public Success As Boolean
+- uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult.AccessToken
+  commentId: F:SuperOffice.Util.AccessGateway.RetrieveTokensResult.AccessToken
+  id: AccessToken
+  parent: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+  langs:
+  - csharp
+  - vb
+  name: AccessToken
+  nameWithType: AccessGateway.RetrieveTokensResult.AccessToken
+  fullName: SuperOffice.Util.AccessGateway.RetrieveTokensResult.AccessToken
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string AccessToken
+    return:
+      type: System.String
+    content.vb: Public AccessToken As String
+- uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult.RefreshToken
+  commentId: F:SuperOffice.Util.AccessGateway.RetrieveTokensResult.RefreshToken
+  id: RefreshToken
+  parent: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+  langs:
+  - csharp
+  - vb
+  name: RefreshToken
+  nameWithType: AccessGateway.RetrieveTokensResult.RefreshToken
+  fullName: SuperOffice.Util.AccessGateway.RetrieveTokensResult.RefreshToken
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string RefreshToken
+    return:
+      type: System.String
+    content.vb: Public RefreshToken As String
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<RetrieveTokensResult, To>(RetrieveTokensResult)
+  nameWithType: EnumUtil.MapEnums<AccessGateway.RetrieveTokensResult, To>(AccessGateway.RetrieveTokensResult)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.AccessGateway.RetrieveTokensResult, To>(SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+  nameWithType.vb: EnumUtil.MapEnums(Of AccessGateway.RetrieveTokensResult, To)(AccessGateway.RetrieveTokensResult)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.AccessGateway.RetrieveTokensResult, To)(SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+  name.vb: MapEnums(Of RetrieveTokensResult, To)(RetrieveTokensResult)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: )
+- uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<RetrieveTokensResult, To>(RetrieveTokensResult)
+  nameWithType: Converters.MapEnums<AccessGateway.RetrieveTokensResult, To>(AccessGateway.RetrieveTokensResult)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.AccessGateway.RetrieveTokensResult, To>(SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+  nameWithType.vb: Converters.MapEnums(Of AccessGateway.RetrieveTokensResult, To)(AccessGateway.RetrieveTokensResult)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.AccessGateway.RetrieveTokensResult, To)(SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+  name.vb: MapEnums(Of RetrieveTokensResult, To)(RetrieveTokensResult)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: )
+- uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<RetrieveTokensResult>(RetrieveTokensResult, RetrieveTokensResult)
+  nameWithType: ObjectExtensions.AssignByReflection<AccessGateway.RetrieveTokensResult>(AccessGateway.RetrieveTokensResult, AccessGateway.RetrieveTokensResult)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.AccessGateway.RetrieveTokensResult>(SuperOffice.Util.AccessGateway.RetrieveTokensResult, SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AccessGateway.RetrieveTokensResult)(AccessGateway.RetrieveTokensResult, AccessGateway.RetrieveTokensResult)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.AccessGateway.RetrieveTokensResult)(SuperOffice.Util.AccessGateway.RetrieveTokensResult, SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+  name.vb: AssignByReflection(Of RetrieveTokensResult)(RetrieveTokensResult, RetrieveTokensResult)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.AccessGateway.RetrieveTokensResult,SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.AccessGateway.RetrieveTokensResult,SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: )
+- uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<RetrieveTokensResult>(RetrieveTokensResult)
+  nameWithType: ObjectExtensions.GraphCopy<AccessGateway.RetrieveTokensResult>(AccessGateway.RetrieveTokensResult)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.AccessGateway.RetrieveTokensResult>(SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AccessGateway.RetrieveTokensResult)(AccessGateway.RetrieveTokensResult)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.AccessGateway.RetrieveTokensResult)(SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+  name.vb: GraphCopy(Of RetrieveTokensResult)(RetrieveTokensResult)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.AccessGateway.RetrieveTokensResult)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

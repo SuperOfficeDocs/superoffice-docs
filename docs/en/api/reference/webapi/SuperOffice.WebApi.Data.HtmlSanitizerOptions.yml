@@ -7,64 +7,34 @@ items:
   children:
   - SuperOffice.WebApi.Data.HtmlSanitizerOptions.Default
   - SuperOffice.WebApi.Data.HtmlSanitizerOptions.RemoveComment
-  - SuperOffice.WebApi.Data.HtmlSanitizerOptions.value__
   langs:
   - csharp
   - vb
   name: HtmlSanitizerOptions
   nameWithType: HtmlSanitizerOptions
   fullName: SuperOffice.WebApi.Data.HtmlSanitizerOptions
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nHTML sanitizer options\nThis Enum consists of flag values that can be combined.\n"
-  syntax:
-    content: 'public sealed class HtmlSanitizerOptions : Enum'
-    content.vb: >-
-      Public NotInheritable Class HtmlSanitizerOptions
-          Inherits
+  summary: >-
+    HTML sanitizer options
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.HtmlSanitizerOptions.value__
-  commentId: F:SuperOffice.WebApi.Data.HtmlSanitizerOptions.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.HtmlSanitizerOptions
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: HtmlSanitizerOptions.value__
-  fullName: SuperOffice.WebApi.Data.HtmlSanitizerOptions.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum consists of flag values that can be combined.
+  example: []
   syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: >-
+      [Flags]
+
+      public enum HtmlSanitizerOptions
+    content.vb: >-
+      <Flags>
+
+      Public Enum HtmlSanitizerOptions
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.HtmlSanitizerOptions.Default
   commentId: F:SuperOffice.WebApi.Data.HtmlSanitizerOptions.Default
   id: Default
@@ -76,24 +46,15 @@ items:
   nameWithType: HtmlSanitizerOptions.Default
   fullName: SuperOffice.WebApi.Data.HtmlSanitizerOptions.Default
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Default - the default settings\n"
+  summary: '0: Default - the default settings'
+  example: []
   syntax:
-    content: public const HtmlSanitizerOptions Default
+    content: Default = 0
     return:
       type: SuperOffice.WebApi.Data.HtmlSanitizerOptions
-    content.vb: Public Const Default As HtmlSanitizerOptions
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.HtmlSanitizerOptions.RemoveComment
   commentId: F:SuperOffice.WebApi.Data.HtmlSanitizerOptions.RemoveComment
   id: RemoveComment
@@ -105,55 +66,69 @@ items:
   nameWithType: HtmlSanitizerOptions.RemoveComment
   fullName: SuperOffice.WebApi.Data.HtmlSanitizerOptions.RemoveComment
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: RemoveComment - removes HTML comment tags and content between them\n"
+  summary: '1: RemoveComment - removes HTML comment tags and content between them'
+  example: []
   syntax:
-    content: public const HtmlSanitizerOptions RemoveComment
+    content: >-
+      [EnumMember]
+
+      RemoveComment = 1
     return:
       type: SuperOffice.WebApi.Data.HtmlSanitizerOptions
-    content.vb: Public Const RemoveComment As HtmlSanitizerOptions
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      RemoveComment = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.HtmlSanitizerOptions
   commentId: T:SuperOffice.WebApi.Data.HtmlSanitizerOptions
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.HtmlSanitizerOptions.html
   name: HtmlSanitizerOptions
   nameWithType: HtmlSanitizerOptions
   fullName: SuperOffice.WebApi.Data.HtmlSanitizerOptions

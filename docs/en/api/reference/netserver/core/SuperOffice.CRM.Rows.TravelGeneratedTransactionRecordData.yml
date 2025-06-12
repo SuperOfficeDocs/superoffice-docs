@@ -13,8 +13,8 @@ items:
   - SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TranloglastId
   - SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Transmissionnumber
   - SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Transmissiontype
-  - SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TravelgeneratedtransactionId
   - SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TravelId
+  - SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TravelgeneratedtransactionId
   - SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Updated
   - SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.UpdatedAssociateId
   - SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.UpdatedCount
@@ -25,33 +25,41 @@ items:
   nameWithType: TravelGeneratedTransactionRecordData
   fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the travelgeneratedtransaction table.\n"
-  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.TravelGeneratedTransactionRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  summary: >-
+    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
+
+    to a row from the travelgeneratedtransaction table.
+  remarks: >-
+    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.TravelGeneratedTransactionRow" data-throw-if-not-resolved="false"></xref> object when
+
+    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
+
+    since they carry the corresponding <xref href="SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo" data-throw-if-not-resolved="false"></xref> object, which
+
+    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
+  example: []
   syntax:
-    content: 'public class TravelGeneratedTransactionRecordData : Object'
-    content.vb: >-
-      Public Class TravelGeneratedTransactionRecordData
-          Inherits Object
+    content: public class TravelGeneratedTransactionRecordData
+    content.vb: Public Class TravelGeneratedTransactionRecordData
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
   - SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TravelgeneratedtransactionId
   commentId: F:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TravelgeneratedtransactionId
   id: TravelgeneratedtransactionId
@@ -63,22 +71,16 @@ items:
   nameWithType: TravelGeneratedTransactionRecordData.TravelgeneratedtransactionId
   fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TravelgeneratedtransactionId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
     content: public int TravelgeneratedtransactionId
     return:
       type: System.Int32
     content.vb: Public TravelgeneratedtransactionId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TravelId
   commentId: F:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TravelId
   id: TravelId
@@ -90,22 +92,16 @@ items:
   nameWithType: TravelGeneratedTransactionRecordData.TravelId
   fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TravelId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nCentral=0, Departm.=H01000000-H7F000000, Travel=assoc_id \n"
+  summary: Central=0, Departm.=H01000000-H7F000000, Travel=assoc_id
+  example: []
   syntax:
     content: public int TravelId
     return:
       type: System.Int32
     content.vb: Public TravelId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TranlogfirstId
   commentId: F:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TranlogfirstId
   id: TranlogfirstId
@@ -117,22 +113,16 @@ items:
   nameWithType: TravelGeneratedTransactionRecordData.TranlogfirstId
   fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TranlogfirstId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThis up/dwnfile holds transaction from traveltransactionlog_id = this number \n"
+  summary: This up/dwnfile holds transaction from traveltransactionlog_id = this number
+  example: []
   syntax:
     content: public int TranlogfirstId
     return:
       type: System.Int32
     content.vb: Public TranlogfirstId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TranloglastId
   commentId: F:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TranloglastId
   id: TranloglastId
@@ -144,22 +134,16 @@ items:
   nameWithType: TravelGeneratedTransactionRecordData.TranloglastId
   fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TranloglastId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThis up/dwnfile holds transaction to traveltransactionlog_id = this number \n"
+  summary: This up/dwnfile holds transaction to traveltransactionlog_id = this number
+  example: []
   syntax:
     content: public int TranloglastId
     return:
       type: System.Int32
     content.vb: Public TranloglastId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Recordstatus
   commentId: F:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Recordstatus
   id: Recordstatus
@@ -171,22 +155,16 @@ items:
   nameWithType: TravelGeneratedTransactionRecordData.Recordstatus
   fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Recordstatus
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\ngen, sent, ack. \n"
+  summary: gen, sent, ack.
+  example: []
   syntax:
     content: public short Recordstatus
     return:
       type: System.Int16
     content.vb: Public Recordstatus As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Transmissionnumber
   commentId: F:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Transmissionnumber
   id: Transmissionnumber
@@ -198,22 +176,16 @@ items:
   nameWithType: TravelGeneratedTransactionRecordData.Transmissionnumber
   fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Transmissionnumber
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nsequence pr. user \n"
+  summary: sequence pr. user
+  example: []
   syntax:
     content: public uint Transmissionnumber
     return:
       type: System.UInt32
     content.vb: Public Transmissionnumber As UInteger
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Transmissiontype
   commentId: F:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Transmissiontype
   id: Transmissiontype
@@ -225,22 +197,16 @@ items:
   nameWithType: TravelGeneratedTransactionRecordData.Transmissiontype
   fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Transmissiontype
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nFile or direct communication \n"
+  summary: File or direct communication
+  example: []
   syntax:
     content: public short Transmissiontype
     return:
       type: System.Int16
     content.vb: Public Transmissiontype As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Registered
   id: Registered
@@ -252,22 +218,16 @@ items:
   nameWithType: TravelGeneratedTransactionRecordData.Registered
   fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nRegistered when in UTC.  \n"
+  summary: Registered when in UTC.
+  example: []
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Registered As Date
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -279,22 +239,16 @@ items:
   nameWithType: TravelGeneratedTransactionRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nRegistered by whom \n"
+  summary: Registered by whom
+  example: []
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Updated
   id: Updated
@@ -306,22 +260,16 @@ items:
   nameWithType: TravelGeneratedTransactionRecordData.Updated
   fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLast updated when in UTC.  \n"
+  summary: Last updated when in UTC.
+  example: []
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Updated As Date
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -333,22 +281,16 @@ items:
   nameWithType: TravelGeneratedTransactionRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLast updated by whom \n"
+  summary: Last updated by whom
+  example: []
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.UpdatedCount
   id: UpdatedCount
@@ -360,22 +302,16 @@ items:
   nameWithType: TravelGeneratedTransactionRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nNumber of updates made to this record \n"
+  summary: Number of updates made to this record
+  example: []
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.#ctor
   id: '#ctor'
@@ -387,220 +323,602 @@ items:
   nameWithType: TravelGeneratedTransactionRecordData.TravelGeneratedTransactionRecordData()
   fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TravelGeneratedTransactionRecordData()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public TravelGeneratedTransactionRecordData()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TravelGeneratedTransactionRecordData.New()
+  fullName.vb: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.New()
+  name.vb: New()
 references:
+- uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRow
+  commentId: T:SuperOffice.CRM.Rows.TravelGeneratedTransactionRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRow.html
+  name: TravelGeneratedTransactionRow
+  nameWithType: TravelGeneratedTransactionRow
+  fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRow
+- uid: SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo
+  commentId: T:SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo.html
+  name: TravelGeneratedTransactionTableInfo
+  nameWithType: TravelGeneratedTransactionTableInfo
+  fullName: SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<TravelGeneratedTransactionRecordData, To>()
-  nameWithType: EnumUtil.MapEnums<TravelGeneratedTransactionRecordData, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of TravelGeneratedTransactionRecordData, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData, To)()
-  name.vb: MapEnums(Of TravelGeneratedTransactionRecordData, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<TravelGeneratedTransactionRecordData, To>(TravelGeneratedTransactionRecordData)
+  nameWithType: EnumUtil.MapEnums<TravelGeneratedTransactionRecordData, To>(TravelGeneratedTransactionRecordData)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData, To>(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+  nameWithType.vb: EnumUtil.MapEnums(Of TravelGeneratedTransactionRecordData, To)(TravelGeneratedTransactionRecordData)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData, To)(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+  name.vb: MapEnums(Of TravelGeneratedTransactionRecordData, To)(TravelGeneratedTransactionRecordData)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<TravelGeneratedTransactionRecordData, To>
-    nameWithType: EnumUtil.MapEnums<TravelGeneratedTransactionRecordData, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of TravelGeneratedTransactionRecordData, To)
-    nameWithType: EnumUtil.MapEnums(Of TravelGeneratedTransactionRecordData, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<TravelGeneratedTransactionRecordData>(TravelGeneratedTransactionRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<TravelGeneratedTransactionRecordData>(TravelGeneratedTransactionRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData>(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TravelGeneratedTransactionRecordData)(TravelGeneratedTransactionRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
-  name.vb: AssignByReflection(Of TravelGeneratedTransactionRecordData)(TravelGeneratedTransactionRecordData)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<TravelGeneratedTransactionRecordData>
-    nameWithType: ObjectExtensions.AssignByReflection<TravelGeneratedTransactionRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
     name: TravelGeneratedTransactionRecordData
-    nameWithType: TravelGeneratedTransactionRecordData
-    fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of TravelGeneratedTransactionRecordData)
-    nameWithType: ObjectExtensions.AssignByReflection(Of TravelGeneratedTransactionRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
-    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
     name: TravelGeneratedTransactionRecordData
-    nameWithType: TravelGeneratedTransactionRecordData
-    fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<TravelGeneratedTransactionRecordData>()
-  nameWithType: ObjectExtensions.GraphCopy<TravelGeneratedTransactionRecordData>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TravelGeneratedTransactionRecordData)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)()
-  name.vb: GraphCopy(Of TravelGeneratedTransactionRecordData)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<TravelGeneratedTransactionRecordData>
-    nameWithType: ObjectExtensions.GraphCopy<TravelGeneratedTransactionRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of TravelGeneratedTransactionRecordData)
-    nameWithType: ObjectExtensions.GraphCopy(Of TravelGeneratedTransactionRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+  - name: (
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
-  name: ToInsert()
-  nameWithType: TravelGeneratedTransactionRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData,System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.html#SuperOffice_CRM_Rows_TravelGeneratedTransactionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_TravelGeneratedTransactionRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(TravelGeneratedTransactionRecordData, CancellationToken)
+  nameWithType: TravelGeneratedTransactionRecordDataExtensions.ToInsertAsync(TravelGeneratedTransactionRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TravelGeneratedTransactionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.html#SuperOffice_CRM_Rows_TravelGeneratedTransactionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_TravelGeneratedTransactionRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: TravelGeneratedTransactionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.html#SuperOffice_CRM_Rows_TravelGeneratedTransactionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_TravelGeneratedTransactionRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<TravelGeneratedTransactionRecordData, To>()
-  nameWithType: Converters.MapEnums<TravelGeneratedTransactionRecordData, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData, To>()
-  nameWithType.vb: Converters.MapEnums(Of TravelGeneratedTransactionRecordData, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData, To)()
-  name.vb: MapEnums(Of TravelGeneratedTransactionRecordData, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<TravelGeneratedTransactionRecordData, To>(TravelGeneratedTransactionRecordData)
+  nameWithType: Converters.MapEnums<TravelGeneratedTransactionRecordData, To>(TravelGeneratedTransactionRecordData)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData, To>(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+  nameWithType.vb: Converters.MapEnums(Of TravelGeneratedTransactionRecordData, To)(TravelGeneratedTransactionRecordData)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData, To)(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+  name.vb: MapEnums(Of TravelGeneratedTransactionRecordData, To)(TravelGeneratedTransactionRecordData)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<TravelGeneratedTransactionRecordData, To>
-    nameWithType: Converters.MapEnums<TravelGeneratedTransactionRecordData, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of TravelGeneratedTransactionRecordData, To)
-    nameWithType: Converters.MapEnums(Of TravelGeneratedTransactionRecordData, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<TravelGeneratedTransactionRecordData>(TravelGeneratedTransactionRecordData, TravelGeneratedTransactionRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<TravelGeneratedTransactionRecordData>(TravelGeneratedTransactionRecordData, TravelGeneratedTransactionRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData>(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData, SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TravelGeneratedTransactionRecordData)(TravelGeneratedTransactionRecordData, TravelGeneratedTransactionRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData, SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+  name.vb: AssignByReflection(Of TravelGeneratedTransactionRecordData)(TravelGeneratedTransactionRecordData, TravelGeneratedTransactionRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData,SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData,SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<TravelGeneratedTransactionRecordData>(TravelGeneratedTransactionRecordData)
+  nameWithType: ObjectExtensions.GraphCopy<TravelGeneratedTransactionRecordData>(TravelGeneratedTransactionRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData>(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TravelGeneratedTransactionRecordData)(TravelGeneratedTransactionRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+  name.vb: GraphCopy(Of TravelGeneratedTransactionRecordData)(TravelGeneratedTransactionRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
+    name: TravelGeneratedTransactionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -609,187 +927,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+- uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
+  href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.html#SuperOffice_CRM_Rows_TravelGeneratedTransactionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_TravelGeneratedTransactionRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(TravelGeneratedTransactionRecordData, CancellationToken)
+  nameWithType: TravelGeneratedTransactionRecordDataExtensions.ToInsertAsync(TravelGeneratedTransactionRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.html#SuperOffice_CRM_Rows_TravelGeneratedTransactionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_TravelGeneratedTransactionRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
-  isExternal: true
-  name: ToInsert(TravelGeneratedTransactionRecordData)
-  nameWithType: TravelGeneratedTransactionRecordDataExtensions.ToInsert(TravelGeneratedTransactionRecordData)
-  fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
-    name: ToInsert
-    nameWithType: TravelGeneratedTransactionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsert
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
     name: TravelGeneratedTransactionRecordData
-    nameWithType: TravelGeneratedTransactionRecordData
-    fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData)
-    name: ToInsert
-    nameWithType: TravelGeneratedTransactionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.html#SuperOffice_CRM_Rows_TravelGeneratedTransactionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_TravelGeneratedTransactionRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
     name: TravelGeneratedTransactionRecordData
-    nameWithType: TravelGeneratedTransactionRecordData
-    fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions
   commentId: T:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions.html
   name: TravelGeneratedTransactionRecordDataExtensions
   nameWithType: TravelGeneratedTransactionRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -798,82 +1023,239 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: System.UInt32
   commentId: T:System.UInt32
   parent: System
   isExternal: true
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.html#SuperOffice_CRM_Rows_TravelGeneratedTransactionRecordData__ctor
   name: TravelGeneratedTransactionRecordData
   nameWithType: TravelGeneratedTransactionRecordData.TravelGeneratedTransactionRecordData
   fullName: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.TravelGeneratedTransactionRecordData
+  nameWithType.vb: TravelGeneratedTransactionRecordData.New
+  fullName.vb: SuperOffice.CRM.Rows.TravelGeneratedTransactionRecordData.New
+  name.vb: New

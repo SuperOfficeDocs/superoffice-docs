@@ -1,0 +1,3170 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  commentId: T:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  id: DashboardAgent
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  children:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.#ctor(System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateDefaultDashboardAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateDefaultDashboardTileAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateNewFromTemplateAsync(System.Int32,System.String,System.String,System.Int32,SuperOffice.WebApi.Data.VisibleFor[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTilesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataWithSelectionAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetStandardDashboardTileFromChartIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SaveDashboardAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SaveDashboardTileAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SetTileAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: DashboardAgent
+  nameWithType: DashboardAgent
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  type: Class
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: Agent lets you configure dashboard tiles and retrieve dashboard data
+  example:
+  - >-
+    <pre><code class="lang-csharp">using SuperOffice.WebApi;
+
+    using SuperOffice.WebApi.Agents;
+
+
+    var mySession = new WebApiOptions("http://example.com/super/api");
+
+    mySession.Authorization = new AuthorizationUsernamePassword("user", "pass");
+
+    using (DashboardAgent agent = new DashboardAgent(mySession))
+
+    {
+          // call methods on agent here...
+    }</code></pre>
+  syntax:
+    content: >-
+      [Obsolete("This API is not available from Netserver version 11. If you use this client package to access on-prem Netserver versions before 11 you should disable this warning.", false)]
+
+      public class DashboardAgent : AgentBase, IDashboardAgent, IDisposable
+    content.vb: >-
+      <Obsolete("This API is not available from Netserver version 11. If you use this client package to access on-prem Netserver versions before 11 you should disable this warning.", False)>
+
+      Public Class DashboardAgent Inherits AgentBase Implements IDashboardAgent, IDisposable
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Agents.AgentBase
+  implements:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  - System.IDisposable
+  inheritedMembers:
+  - SuperOffice.WebApi.Agents.AgentBase._json
+  - SuperOffice.WebApi.Agents.AgentBase._binary
+  - SuperOffice.WebApi.Agents.AgentBase._config
+  - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.Dispose
+  - SuperOffice.WebApi.Agents.AgentBase.Configuration
+  - SuperOffice.WebApi.Agents.AgentBase.Client
+  - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This API is not available from Netserver version 11. If you use this client package to access on-prem Netserver versions before 11 you should disable this warning.
+    - type: System.Boolean
+      value: false
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.#ctor(System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.#ctor(System.Net.Http.HttpClient)
+  id: '#ctor(System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: DashboardAgent(HttpClient)
+  nameWithType: DashboardAgent.DashboardAgent(HttpClient)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DashboardAgent(System.Net.Http.HttpClient)
+  type: Constructor
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: 'Constructor: Agent lets you configure dashboard tiles and retrieve dashboard data'
+  example: []
+  syntax:
+    content: public DashboardAgent(HttpClient httpClient)
+    parameters:
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: Use this HTTP client instead of making own HttpClient instance.
+    content.vb: Public Sub New(httpClient As HttpClient)
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.#ctor*
+  nameWithType.vb: DashboardAgent.New(HttpClient)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.New(System.Net.Http.HttpClient)
+  name.vb: New(HttpClient)
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  id: '#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: DashboardAgent(WebApiOptions, HttpClient)
+  nameWithType: DashboardAgent.DashboardAgent(WebApiOptions, HttpClient)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DashboardAgent(SuperOffice.WebApi.WebApiOptions, System.Net.Http.HttpClient)
+  type: Constructor
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: 'Constructor: Agent lets you configure dashboard tiles and retrieve dashboard data'
+  example: []
+  syntax:
+    content: public DashboardAgent(WebApiOptions options, HttpClient httpClient = null)
+    parameters:
+    - id: options
+      type: SuperOffice.WebApi.WebApiOptions
+      description: Base URL and authentication values.
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: 'Optional: Use this HTTP client instead of making a new one.'
+    content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.#ctor*
+  nameWithType.vb: DashboardAgent.New(WebApiOptions, HttpClient)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.New(SuperOffice.WebApi.WebApiOptions, System.Net.Http.HttpClient)
+  name.vb: New(WebApiOptions, HttpClient)
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateDefaultDashboardAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateDefaultDashboardAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultDashboardAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultDashboardAsync(RequestOptions)
+  nameWithType: DashboardAgent.CreateDefaultDashboardAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateDefaultDashboardAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: >-
+    Set default values into a new Dashboard.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
+  syntax:
+    content: public Task<Dashboard> CreateDefaultDashboardAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard}
+      description: A blank Dashboard
+    content.vb: Public Function CreateDefaultDashboardAsync(requestOptions As RequestOptions = Nothing) As Task(Of Dashboard)
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateDefaultDashboardAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateDefaultDashboardAsync(SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SaveDashboardAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SaveDashboardAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard,SuperOffice.WebApi.RequestOptions)
+  id: SaveDashboardAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveDashboardAsync(Dashboard, RequestOptions)
+  nameWithType: DashboardAgent.SaveDashboardAsync(Dashboard, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SaveDashboardAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: Updates the existing Dashboard or creates a new Dashboard if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<Dashboard> SaveDashboardAsync(Dashboard dashboard, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboard
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
+      description: The Dashboard that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard}
+      description: New or updated Dashboard
+    content.vb: Public Function SaveDashboardAsync(dashboard As Dashboard, requestOptions As RequestOptions = Nothing) As Task(Of Dashboard)
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SaveDashboardAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SaveDashboardAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteDashboardAsync(int, RequestOptions)
+  nameWithType: DashboardAgent.DeleteDashboardAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: Deletes the Dashboard
+  example: []
+  syntax:
+    content: public Task DeleteDashboardAsync(int dashboardId, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboardId
+      type: System.Int32
+      description: The identity of the Dashboard
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteDashboardAsync(dashboardId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.DeleteDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DashboardAgent.DeleteDashboardAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteDashboardAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateDefaultDashboardTileAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateDefaultDashboardTileAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultDashboardTileAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultDashboardTileAsync(RequestOptions)
+  nameWithType: DashboardAgent.CreateDefaultDashboardTileAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateDefaultDashboardTileAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: >-
+    Set default values into a new DashboardTile.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
+  syntax:
+    content: public Task<DashboardTile> CreateDefaultDashboardTileAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile}
+      description: A blank DashboardTile
+    content.vb: Public Function CreateDefaultDashboardTileAsync(requestOptions As RequestOptions = Nothing) As Task(Of DashboardTile)
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateDefaultDashboardTileAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateDefaultDashboardTileAsync(SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SaveDashboardTileAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SaveDashboardTileAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile,SuperOffice.WebApi.RequestOptions)
+  id: SaveDashboardTileAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveDashboardTileAsync(DashboardTile, RequestOptions)
+  nameWithType: DashboardAgent.SaveDashboardTileAsync(DashboardTile, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SaveDashboardTileAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: Updates the existing DashboardTile or creates a new DashboardTile if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<DashboardTile> SaveDashboardTileAsync(DashboardTile dashboardTile, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboardTile
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
+      description: The DashboardTile that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile}
+      description: New or updated DashboardTile
+    content.vb: Public Function SaveDashboardTileAsync(dashboardTile As DashboardTile, requestOptions As RequestOptions = Nothing) As Task(Of DashboardTile)
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SaveDashboardTileAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SaveDashboardTileAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteDashboardTileAsync(int, RequestOptions)
+  nameWithType: DashboardAgent.DeleteDashboardTileAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardTileAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: Deletes the DashboardTile
+  example: []
+  syntax:
+    content: public Task DeleteDashboardTileAsync(int dashboardTileId, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboardTileId
+      type: System.Int32
+      description: The identity of the DashboardTile
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteDashboardTileAsync(dashboardTileId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardTileAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.DeleteDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DashboardAgent.DeleteDashboardTileAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardTileAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteDashboardTileAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDashboardAsync(int, RequestOptions)
+  nameWithType: DashboardAgent.GetDashboardAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: Gets a specific Dashboard object.
+  example: []
+  syntax:
+    content: public Task<Dashboard> GetDashboardAsync(int dashboardId, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboardId
+      type: System.Int32
+      description: The identifier of the Dashboard object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard}
+      description: Dashboard
+    content.vb: Public Function GetDashboardAsync(dashboardId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Dashboard)
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DashboardAgent.GetDashboardAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDashboardAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetDashboardsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDashboardsAsync(int, RequestOptions)
+  nameWithType: DashboardAgent.GetDashboardsAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardsAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: Gets all dashboards for an associate
+  example: []
+  syntax:
+    content: public Task<Dashboard[]> GetDashboardsAsync(int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate Id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard[]}
+      description: All the users dashboards
+    content.vb: Public Function GetDashboardsAsync(associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Dashboard())
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DashboardAgent.GetDashboardsAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardsAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDashboardsAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SetTileAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SetTileAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: SetTileAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: SetTileAsync(int, int, int, RequestOptions)
+  nameWithType: DashboardAgent.SetTileAsync(int, int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SetTileAsync(int, int, int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: Sets tile in the given dashboard position
+  example: []
+  syntax:
+    content: public Task<Dashboard> SetTileAsync(int dashboardId, int tileId, int position, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboardId
+      type: System.Int32
+      description: Dashboard Id
+    - id: tileId
+      type: System.Int32
+      description: Tile Id
+    - id: position
+      type: System.Int32
+      description: Tile position in the dashboard
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard}
+      description: The new dashboard is returned after the tile change
+    content.vb: Public Function SetTileAsync(dashboardId As Integer, tileId As Integer, position As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Dashboard)
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SetTileAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SetTileAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DashboardAgent.SetTileAsync(Integer, Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SetTileAsync(Integer, Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetTileAsync(Integer, Integer, Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDashboardTileAsync(int, RequestOptions)
+  nameWithType: DashboardAgent.GetDashboardTileAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTileAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: Gets a specific DashboardTile object.
+  example: []
+  syntax:
+    content: public Task<DashboardTile> GetDashboardTileAsync(int dashboardTileId, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboardTileId
+      type: System.Int32
+      description: The identifier of the DashboardTile object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile}
+      description: DashboardTile
+    content.vb: Public Function GetDashboardTileAsync(dashboardTileId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of DashboardTile)
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTileAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DashboardAgent.GetDashboardTileAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTileAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDashboardTileAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTilesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTilesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: GetDashboardTilesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDashboardTilesAsync(int[], RequestOptions)
+  nameWithType: DashboardAgent.GetDashboardTilesAsync(int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTilesAsync(int[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: Gets an array of dashboard tiles for the provided ids
+  example: []
+  syntax:
+    content: public Task<DashboardTile[]> GetDashboardTilesAsync(int[] dashboardTileIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboardTileIds
+      type: System.Int32[]
+      description: The ids of the tiles to get
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile[]}
+      description: Dashboard tiles
+    content.vb: Public Function GetDashboardTilesAsync(dashboardTileIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of DashboardTile())
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTilesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardTilesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DashboardAgent.GetDashboardTilesAsync(Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTilesAsync(Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDashboardTilesAsync(Integer(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetStandardDashboardTileFromChartIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetStandardDashboardTileFromChartIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetStandardDashboardTileFromChartIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: GetStandardDashboardTileFromChartIdAsync(string, RequestOptions)
+  nameWithType: DashboardAgent.GetStandardDashboardTileFromChartIdAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetStandardDashboardTileFromChartIdAsync(string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: Gets the standard tile (not personal tile) corresponding to the given chart id
+  example: []
+  syntax:
+    content: public Task<DashboardTile> GetStandardDashboardTileFromChartIdAsync(string chartId, RequestOptions requestOptions = null)
+    parameters:
+    - id: chartId
+      type: System.String
+      description: The ChartId of the wanted chart/tile
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile}
+      description: Standard tile
+    content.vb: Public Function GetStandardDashboardTileFromChartIdAsync(chartId As String, requestOptions As RequestOptions = Nothing) As Task(Of DashboardTile)
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetStandardDashboardTileFromChartIdAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DashboardAgent.GetStandardDashboardTileFromChartIdAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetStandardDashboardTileFromChartIdAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetStandardDashboardTileFromChartIdAsync(String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDataAsync(int, string, RequestOptions)
+  nameWithType: DashboardAgent.GetDataAsync(int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataAsync(int, string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: Get data for this tile
+  example: []
+  syntax:
+    content: public Task<TileData[]> GetDataAsync(int dashboardTileId, string restrictions, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboardTileId
+      type: System.Int32
+      description: Tile Id
+    - id: restrictions
+      type: System.String
+      description: Replacement restrictions
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.TileData[]}
+      description: The data
+    content.vb: Public Function GetDataAsync(dashboardTileId As Integer, restrictions As String, requestOptions As RequestOptions = Nothing) As Task(Of TileData())
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DashboardAgent.GetDataAsync(Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataAsync(Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDataAsync(Integer, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateNewFromTemplateAsync(System.Int32,System.String,System.String,System.Int32,SuperOffice.WebApi.Data.VisibleFor[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateNewFromTemplateAsync(System.Int32,System.String,System.String,System.Int32,SuperOffice.WebApi.Data.VisibleFor[],SuperOffice.WebApi.RequestOptions)
+  id: CreateNewFromTemplateAsync(System.Int32,System.String,System.String,System.Int32,SuperOffice.WebApi.Data.VisibleFor[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateNewFromTemplateAsync(int, string, string, int, VisibleFor[], RequestOptions)
+  nameWithType: DashboardAgent.CreateNewFromTemplateAsync(int, string, string, int, VisibleFor[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateNewFromTemplateAsync(int, string, string, int, SuperOffice.WebApi.Data.VisibleFor[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: Create new tile from another tile used as template
+  example: []
+  syntax:
+    content: public Task<DashboardTile> CreateNewFromTemplateAsync(int dashboardTileId, string caption, string description, int selectionId, VisibleFor[] visibleFor, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboardTileId
+      type: System.Int32
+      description: Tile template Id
+    - id: caption
+      type: System.String
+      description: Caption of new tile
+    - id: description
+      type: System.String
+      description: Description of new tile
+    - id: selectionId
+      type: System.Int32
+      description: Selection id of new tile
+    - id: visibleFor
+      type: SuperOffice.WebApi.Data.VisibleFor[]
+      description: Who the tile should be visible for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile}
+      description: The new tile
+    content.vb: Public Function CreateNewFromTemplateAsync(dashboardTileId As Integer, caption As String, description As String, selectionId As Integer, visibleFor As VisibleFor(), requestOptions As RequestOptions = Nothing) As Task(Of DashboardTile)
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateNewFromTemplateAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateNewFromTemplateAsync(System.Int32,System.String,System.String,System.Int32,SuperOffice.WebApi.Data.VisibleFor[],SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DashboardAgent.CreateNewFromTemplateAsync(Integer, String, String, Integer, VisibleFor(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateNewFromTemplateAsync(Integer, String, String, Integer, SuperOffice.WebApi.Data.VisibleFor(), SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateNewFromTemplateAsync(Integer, String, String, Integer, VisibleFor(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataWithSelectionAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataWithSelectionAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetDataWithSelectionAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDataWithSelectionAsync(int, int, string, RequestOptions)
+  nameWithType: DashboardAgent.GetDataWithSelectionAsync(int, int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataWithSelectionAsync(int, int, string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  summary: Get data for this tile
+  example: []
+  syntax:
+    content: public Task<TileData[]> GetDataWithSelectionAsync(int dashboardTileId, int selectionId, string restrictions, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboardTileId
+      type: System.Int32
+      description: Tile Id
+    - id: selectionId
+      type: System.Int32
+      description: Selection Id
+    - id: restrictions
+      type: System.String
+      description: Replacement restrictions
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.TileData[]}
+      description: The data
+    content.vb: Public Function GetDataWithSelectionAsync(dashboardTileId As Integer, selectionId As Integer, restrictions As String, requestOptions As RequestOptions = Nothing) As Task(Of TileData())
+  overload: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataWithSelectionAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDataWithSelectionAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DashboardAgent.GetDataWithSelectionAsync(Integer, Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataWithSelectionAsync(Integer, Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDataWithSelectionAsync(Integer, Integer, String, RequestOptions)
+references:
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  commentId: N:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  nameWithType: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+    name: ForNetserverUntilVersion11
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+    name: ForNetserverUntilVersion11
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.WebApi.Agents.AgentBase
+  commentId: T:SuperOffice.WebApi.Agents.AgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html
+  name: AgentBase
+  nameWithType: AgentBase
+  fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  commentId: T:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html
+  name: IDashboardAgent
+  nameWithType: IDashboardAgent
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.WebApi.Agents.AgentBase._json
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._json
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase__json
+  name: _json
+  nameWithType: AgentBase._json
+  fullName: SuperOffice.WebApi.Agents.AgentBase._json
+- uid: SuperOffice.WebApi.Agents.AgentBase._binary
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._binary
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase__binary
+  name: _binary
+  nameWithType: AgentBase._binary
+  fullName: SuperOffice.WebApi.Agents.AgentBase._binary
+- uid: SuperOffice.WebApi.Agents.AgentBase._config
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._config
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase__config
+  name: _config
+  nameWithType: AgentBase._config
+  fullName: SuperOffice.WebApi.Agents.AgentBase._config
+- uid: SuperOffice.WebApi.Agents.AgentBase._client
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase__client
+  name: _client
+  nameWithType: AgentBase._client
+  fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase__disposeClient
+  name: _disposeClient
+  nameWithType: AgentBase._disposeClient
+  fullName: SuperOffice.WebApi.Agents.AgentBase._disposeClient
+- uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Merge_SuperOffice_WebApi_RequestOptions_
+  name: Merge(RequestOptions)
+  nameWithType: AgentBase.Merge(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Merge_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Merge_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
+  name: BuildRequestFromObject(HttpMethod, string, object, WebApiOptions, string)
+  nameWithType: AgentBase.BuildRequestFromObject(HttpMethod, string, object, WebApiOptions, string)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, string, object, SuperOffice.WebApi.WebApiOptions, string)
+  nameWithType.vb: AgentBase.BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, String, Object, SuperOffice.WebApi.WebApiOptions, String)
+  name.vb: BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
+  - name: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    isExternal: true
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
+  - name: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    isExternal: true
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromStream_System_Net_Http_HttpMethod_System_String_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
+  name: BuildRequestFromStream(HttpMethod, string, Stream, WebApiOptions, string)
+  nameWithType: AgentBase.BuildRequestFromStream(HttpMethod, string, Stream, WebApiOptions, string)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, string, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, string)
+  nameWithType.vb: AgentBase.BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, String, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, String)
+  name.vb: BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromStream_System_Net_Http_HttpMethod_System_String_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
+  - name: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    isExternal: true
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromStream_System_Net_Http_HttpMethod_System_String_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
+  - name: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    isExternal: true
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
+  name: BuildRequestFromObjectWithStream(HttpMethod, string, object, Stream, WebApiOptions, string)
+  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, string, object, Stream, WebApiOptions, string)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, string, object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, string)
+  nameWithType.vb: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, String, Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, String)
+  name.vb: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
+  - name: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    isExternal: true
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
+  - name: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    isExternal: true
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseAuthorization_SuperOffice_WebApi_Authorization_IAuthorization_
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+    name: ParseAuthorization
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseAuthorization_SuperOffice_WebApi_Authorization_IAuthorization_
+  - name: (
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+    name: ParseAuthorization
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseAuthorization_SuperOffice_WebApi_Authorization_IAuthorization_
+  - name: (
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    isExternal: true
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_CancelRequest
+  name: CancelRequest()
+  nameWithType: AgentBase.CancelRequest()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_CancelRequest
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_CancelRequest
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
+  name: SendRequestObject(HttpMethod, string, object, WebApiOptions, string)
+  nameWithType: AgentBase.SendRequestObject(HttpMethod, string, object, WebApiOptions, string)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, string, object, SuperOffice.WebApi.WebApiOptions, string)
+  nameWithType.vb: AgentBase.SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, String, Object, SuperOffice.WebApi.WebApiOptions, String)
+  name.vb: SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
+  - name: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    isExternal: true
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
+  - name: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    isExternal: true
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
+  name: SendRequestObjectWithStream(HttpMethod, string, object, Stream, WebApiOptions, string)
+  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, string, object, Stream, WebApiOptions, string)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, string, object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, string)
+  nameWithType.vb: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, String, Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, String)
+  name.vb: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
+  - name: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    isExternal: true
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
+  - name: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    isExternal: true
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequest_System_Net_Http_HttpRequestMessage_SuperOffice_WebApi_RequestOptions_
+  name: SendRequest(HttpRequestMessage, RequestOptions)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+    name: SendRequest
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequest_System_Net_Http_HttpRequestMessage_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+    name: SendRequest
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequest_System_Net_Http_HttpRequestMessage_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ThrowOnResponseErrorAsync_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpResponseMessage_
+  name: ThrowOnResponseErrorAsync(HttpRequestMessage, HttpResponseMessage)
+  nameWithType: AgentBase.ThrowOnResponseErrorAsync(HttpRequestMessage, HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseErrorAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ThrowOnResponseErrorAsync_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpResponseMessage_
+  - name: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseErrorAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseErrorAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ThrowOnResponseErrorAsync_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpResponseMessage_
+  - name: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseResponse__1_System_Net_Http_HttpResponseMessage_
+  name: ParseResponse<T>(HttpResponseMessage)
+  nameWithType: AgentBase.ParseResponse<T>(HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>(System.Net.Http.HttpResponseMessage)
+  nameWithType.vb: AgentBase.ParseResponse(Of T)(HttpResponseMessage)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)(System.Net.Http.HttpResponseMessage)
+  name.vb: ParseResponse(Of T)(HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseResponse__1_System_Net_Http_HttpResponseMessage_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseResponse__1_System_Net_Http_HttpResponseMessage_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Finally_SuperOffice_WebApi_RequestOptions_
+  name: Finally(RequestOptions)
+  nameWithType: AgentBase.Finally(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Finally_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Finally_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Dispose
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Dispose
+  name: Dispose()
+  nameWithType: AgentBase.Dispose()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Dispose
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Configuration
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Configuration
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Configuration
+  name: Configuration
+  nameWithType: AgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Configuration
+- uid: SuperOffice.WebApi.Agents.AgentBase.Client
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Client
+  name: Client
+  nameWithType: AgentBase.Client
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Client
+- uid: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_HasRunningRequest
+  name: HasRunningRequest
+  nameWithType: AgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+- uid: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ClientCancellationTokenSource
+  name: ClientCancellationTokenSource
+  nameWithType: AgentBase.ClientCancellationTokenSource
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+- uid: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ProgressListener
+  name: ProgressListener
+  nameWithType: AgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_UploadProgressListener
+  name: UploadProgressListener
+  nameWithType: AgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.#ctor
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_DashboardAgent__ctor_System_Net_Http_HttpClient_
+  name: DashboardAgent
+  nameWithType: DashboardAgent.DashboardAgent
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DashboardAgent
+  nameWithType.vb: DashboardAgent.New
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.New
+  name.vb: New
+- uid: System.Net.Http.HttpClient
+  commentId: T:System.Net.Http.HttpClient
+  parent: System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpclient
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+- uid: SuperOffice.WebApi.WebApiOptions
+  commentId: T:SuperOffice.WebApi.WebApiOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  href: SuperOffice.WebApi.WebApiOptions.html
+  name: WebApiOptions
+  nameWithType: WebApiOptions
+  fullName: SuperOffice.WebApi.WebApiOptions
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateDefaultDashboardAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateDefaultDashboardAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_DashboardAgent_CreateDefaultDashboardAsync_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultDashboardAsync
+  nameWithType: DashboardAgent.CreateDefaultDashboardAsync
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateDefaultDashboardAsync
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateDefaultDashboardAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateDefaultDashboardAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_CreateDefaultDashboardAsync_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultDashboardAsync(RequestOptions)
+  nameWithType: IDashboardAgent.CreateDefaultDashboardAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateDefaultDashboardAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateDefaultDashboardAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultDashboardAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_CreateDefaultDashboardAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateDefaultDashboardAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultDashboardAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_CreateDefaultDashboardAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Dashboard>
+  nameWithType: Task<Dashboard>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard>
+  nameWithType.vb: Task(Of Dashboard)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard)
+  name.vb: Task(Of Dashboard)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
+    name: Dashboard
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
+    name: Dashboard
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SaveDashboardAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SaveDashboardAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_DashboardAgent_SaveDashboardAsync_SuperOffice_WebApi_Data_ForNetserverUntilVersion11_Dashboard_SuperOffice_WebApi_RequestOptions_
+  name: SaveDashboardAsync
+  nameWithType: DashboardAgent.SaveDashboardAsync
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SaveDashboardAsync
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SaveDashboardAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SaveDashboardAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_SaveDashboardAsync_SuperOffice_WebApi_Data_ForNetserverUntilVersion11_Dashboard_SuperOffice_WebApi_RequestOptions_
+  name: SaveDashboardAsync(Dashboard, RequestOptions)
+  nameWithType: IDashboardAgent.SaveDashboardAsync(Dashboard, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SaveDashboardAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SaveDashboardAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard,SuperOffice.WebApi.RequestOptions)
+    name: SaveDashboardAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_SaveDashboardAsync_SuperOffice_WebApi_Data_ForNetserverUntilVersion11_Dashboard_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
+    name: Dashboard
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SaveDashboardAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard,SuperOffice.WebApi.RequestOptions)
+    name: SaveDashboardAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_SaveDashboardAsync_SuperOffice_WebApi_Data_ForNetserverUntilVersion11_Dashboard_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
+    name: Dashboard
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard.html
+  name: Dashboard
+  nameWithType: Dashboard
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  commentId: N:SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  nameWithType: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+    name: ForNetserverUntilVersion11
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+    name: ForNetserverUntilVersion11
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.html
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_DashboardAgent_DeleteDashboardAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteDashboardAsync
+  nameWithType: DashboardAgent.DeleteDashboardAsync
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardAsync
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.DeleteDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.DeleteDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_DeleteDashboardAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteDashboardAsync(int, RequestOptions)
+  nameWithType: IDashboardAgent.DeleteDashboardAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.DeleteDashboardAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDashboardAgent.DeleteDashboardAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.DeleteDashboardAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteDashboardAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.DeleteDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteDashboardAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_DeleteDashboardAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.DeleteDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteDashboardAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_DeleteDashboardAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateDefaultDashboardTileAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateDefaultDashboardTileAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_DashboardAgent_CreateDefaultDashboardTileAsync_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultDashboardTileAsync
+  nameWithType: DashboardAgent.CreateDefaultDashboardTileAsync
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateDefaultDashboardTileAsync
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateDefaultDashboardTileAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateDefaultDashboardTileAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_CreateDefaultDashboardTileAsync_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultDashboardTileAsync(RequestOptions)
+  nameWithType: IDashboardAgent.CreateDefaultDashboardTileAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateDefaultDashboardTileAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateDefaultDashboardTileAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultDashboardTileAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_CreateDefaultDashboardTileAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateDefaultDashboardTileAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultDashboardTileAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_CreateDefaultDashboardTileAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DashboardTile>
+  nameWithType: Task<DashboardTile>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile>
+  nameWithType.vb: Task(Of DashboardTile)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile)
+  name.vb: Task(Of DashboardTile)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
+    name: DashboardTile
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
+    name: DashboardTile
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SaveDashboardTileAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SaveDashboardTileAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_DashboardAgent_SaveDashboardTileAsync_SuperOffice_WebApi_Data_ForNetserverUntilVersion11_DashboardTile_SuperOffice_WebApi_RequestOptions_
+  name: SaveDashboardTileAsync
+  nameWithType: DashboardAgent.SaveDashboardTileAsync
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SaveDashboardTileAsync
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SaveDashboardTileAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SaveDashboardTileAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_SaveDashboardTileAsync_SuperOffice_WebApi_Data_ForNetserverUntilVersion11_DashboardTile_SuperOffice_WebApi_RequestOptions_
+  name: SaveDashboardTileAsync(DashboardTile, RequestOptions)
+  nameWithType: IDashboardAgent.SaveDashboardTileAsync(DashboardTile, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SaveDashboardTileAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SaveDashboardTileAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile,SuperOffice.WebApi.RequestOptions)
+    name: SaveDashboardTileAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_SaveDashboardTileAsync_SuperOffice_WebApi_Data_ForNetserverUntilVersion11_DashboardTile_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
+    name: DashboardTile
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SaveDashboardTileAsync(SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile,SuperOffice.WebApi.RequestOptions)
+    name: SaveDashboardTileAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_SaveDashboardTileAsync_SuperOffice_WebApi_Data_ForNetserverUntilVersion11_DashboardTile_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
+    name: DashboardTile
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile.html
+  name: DashboardTile
+  nameWithType: DashboardTile
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardTileAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardTileAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_DashboardAgent_DeleteDashboardTileAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteDashboardTileAsync
+  nameWithType: DashboardAgent.DeleteDashboardTileAsync
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.DeleteDashboardTileAsync
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.DeleteDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.DeleteDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_DeleteDashboardTileAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteDashboardTileAsync(int, RequestOptions)
+  nameWithType: IDashboardAgent.DeleteDashboardTileAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.DeleteDashboardTileAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDashboardAgent.DeleteDashboardTileAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.DeleteDashboardTileAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteDashboardTileAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.DeleteDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteDashboardTileAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_DeleteDashboardTileAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.DeleteDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteDashboardTileAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_DeleteDashboardTileAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_DashboardAgent_GetDashboardAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetDashboardAsync
+  nameWithType: DashboardAgent.GetDashboardAsync
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardAsync
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDashboardAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetDashboardAsync(int, RequestOptions)
+  nameWithType: IDashboardAgent.GetDashboardAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDashboardAgent.GetDashboardAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDashboardAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetDashboardAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDashboardAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetDashboardAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDashboardAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_DashboardAgent_GetDashboardsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetDashboardsAsync
+  nameWithType: DashboardAgent.GetDashboardsAsync
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardsAsync
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDashboardsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetDashboardsAsync(int, RequestOptions)
+  nameWithType: IDashboardAgent.GetDashboardsAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardsAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDashboardAgent.GetDashboardsAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardsAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDashboardsAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetDashboardsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDashboardsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetDashboardsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDashboardsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Dashboard[]>
+  nameWithType: Task<Dashboard[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard[]>
+  nameWithType.vb: Task(Of Dashboard())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard())
+  name.vb: Task(Of Dashboard())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
+    name: Dashboard
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
+    name: Dashboard
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SetTileAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SetTileAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_DashboardAgent_SetTileAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: SetTileAsync
+  nameWithType: DashboardAgent.SetTileAsync
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.SetTileAsync
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SetTileAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SetTileAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_SetTileAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: SetTileAsync(int, int, int, RequestOptions)
+  nameWithType: IDashboardAgent.SetTileAsync(int, int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SetTileAsync(int, int, int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDashboardAgent.SetTileAsync(Integer, Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SetTileAsync(Integer, Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetTileAsync(Integer, Integer, Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SetTileAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: SetTileAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_SetTileAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.SetTileAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: SetTileAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_SetTileAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTileAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTileAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_DashboardAgent_GetDashboardTileAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetDashboardTileAsync
+  nameWithType: DashboardAgent.GetDashboardTileAsync
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTileAsync
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDashboardTileAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetDashboardTileAsync(int, RequestOptions)
+  nameWithType: IDashboardAgent.GetDashboardTileAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardTileAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDashboardAgent.GetDashboardTileAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardTileAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDashboardTileAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetDashboardTileAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDashboardTileAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetDashboardTileAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDashboardTileAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTilesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTilesAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_DashboardAgent_GetDashboardTilesAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  name: GetDashboardTilesAsync
+  nameWithType: DashboardAgent.GetDashboardTilesAsync
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDashboardTilesAsync
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardTilesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardTilesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDashboardTilesAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  name: GetDashboardTilesAsync(int[], RequestOptions)
+  nameWithType: IDashboardAgent.GetDashboardTilesAsync(int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardTilesAsync(int[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDashboardAgent.GetDashboardTilesAsync(Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardTilesAsync(Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDashboardTilesAsync(Integer(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardTilesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: GetDashboardTilesAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDashboardTilesAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDashboardTilesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: GetDashboardTilesAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDashboardTilesAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DashboardTile[]>
+  nameWithType: Task<DashboardTile[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile[]>
+  nameWithType.vb: Task(Of DashboardTile())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile())
+  name.vb: Task(Of DashboardTile())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
+    name: DashboardTile
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
+    name: DashboardTile
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetStandardDashboardTileFromChartIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetStandardDashboardTileFromChartIdAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_DashboardAgent_GetStandardDashboardTileFromChartIdAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetStandardDashboardTileFromChartIdAsync
+  nameWithType: DashboardAgent.GetStandardDashboardTileFromChartIdAsync
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetStandardDashboardTileFromChartIdAsync
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetStandardDashboardTileFromChartIdAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetStandardDashboardTileFromChartIdAsync(string, RequestOptions)
+  nameWithType: IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetStandardDashboardTileFromChartIdAsync(String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetStandardDashboardTileFromChartIdAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetStandardDashboardTileFromChartIdAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetStandardDashboardTileFromChartIdAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetStandardDashboardTileFromChartIdAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_DashboardAgent_GetDataAsync_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetDataAsync
+  nameWithType: DashboardAgent.GetDataAsync
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataAsync
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDataAsync_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetDataAsync(int, string, RequestOptions)
+  nameWithType: IDashboardAgent.GetDataAsync(int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDataAsync(int, string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDashboardAgent.GetDataAsync(Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDataAsync(Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDataAsync(Integer, String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetDataAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDataAsync_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetDataAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDataAsync_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.TileData[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForNetserverUntilVersion11.TileData[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TileData[]>
+  nameWithType: Task<TileData[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ForNetserverUntilVersion11.TileData[]>
+  nameWithType.vb: Task(Of TileData())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ForNetserverUntilVersion11.TileData())
+  name.vb: Task(Of TileData())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.TileData
+    name: TileData
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.TileData.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.TileData
+    name: TileData
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.TileData.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateNewFromTemplateAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateNewFromTemplateAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_DashboardAgent_CreateNewFromTemplateAsync_System_Int32_System_String_System_String_System_Int32_SuperOffice_WebApi_Data_VisibleFor___SuperOffice_WebApi_RequestOptions_
+  name: CreateNewFromTemplateAsync
+  nameWithType: DashboardAgent.CreateNewFromTemplateAsync
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.CreateNewFromTemplateAsync
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateNewFromTemplateAsync(System.Int32,System.String,System.String,System.Int32,SuperOffice.WebApi.Data.VisibleFor[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateNewFromTemplateAsync(System.Int32,System.String,System.String,System.Int32,SuperOffice.WebApi.Data.VisibleFor[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_CreateNewFromTemplateAsync_System_Int32_System_String_System_String_System_Int32_SuperOffice_WebApi_Data_VisibleFor___SuperOffice_WebApi_RequestOptions_
+  name: CreateNewFromTemplateAsync(int, string, string, int, VisibleFor[], RequestOptions)
+  nameWithType: IDashboardAgent.CreateNewFromTemplateAsync(int, string, string, int, VisibleFor[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateNewFromTemplateAsync(int, string, string, int, SuperOffice.WebApi.Data.VisibleFor[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDashboardAgent.CreateNewFromTemplateAsync(Integer, String, String, Integer, VisibleFor(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateNewFromTemplateAsync(Integer, String, String, Integer, SuperOffice.WebApi.Data.VisibleFor(), SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateNewFromTemplateAsync(Integer, String, String, Integer, VisibleFor(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateNewFromTemplateAsync(System.Int32,System.String,System.String,System.Int32,SuperOffice.WebApi.Data.VisibleFor[],SuperOffice.WebApi.RequestOptions)
+    name: CreateNewFromTemplateAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_CreateNewFromTemplateAsync_System_Int32_System_String_System_String_System_Int32_SuperOffice_WebApi_Data_VisibleFor___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.VisibleFor
+    name: VisibleFor
+    isExternal: true
+    href: SuperOffice.WebApi.Data.VisibleFor.html
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.CreateNewFromTemplateAsync(System.Int32,System.String,System.String,System.Int32,SuperOffice.WebApi.Data.VisibleFor[],SuperOffice.WebApi.RequestOptions)
+    name: CreateNewFromTemplateAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_CreateNewFromTemplateAsync_System_Int32_System_String_System_String_System_Int32_SuperOffice_WebApi_Data_VisibleFor___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.VisibleFor
+    name: VisibleFor
+    isExternal: true
+    href: SuperOffice.WebApi.Data.VisibleFor.html
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Data.VisibleFor[]
+  isExternal: true
+  href: SuperOffice.WebApi.Data.VisibleFor.html
+  name: VisibleFor[]
+  nameWithType: VisibleFor[]
+  fullName: SuperOffice.WebApi.Data.VisibleFor[]
+  nameWithType.vb: VisibleFor()
+  fullName.vb: SuperOffice.WebApi.Data.VisibleFor()
+  name.vb: VisibleFor()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.VisibleFor
+    name: VisibleFor
+    isExternal: true
+    href: SuperOffice.WebApi.Data.VisibleFor.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.VisibleFor
+    name: VisibleFor
+    isExternal: true
+    href: SuperOffice.WebApi.Data.VisibleFor.html
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataWithSelectionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataWithSelectionAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_DashboardAgent_GetDataWithSelectionAsync_System_Int32_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetDataWithSelectionAsync
+  nameWithType: DashboardAgent.GetDataWithSelectionAsync
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent.GetDataWithSelectionAsync
+- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDataWithSelectionAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDataWithSelectionAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDataWithSelectionAsync_System_Int32_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetDataWithSelectionAsync(int, int, string, RequestOptions)
+  nameWithType: IDashboardAgent.GetDataWithSelectionAsync(int, int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDataWithSelectionAsync(int, int, string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDashboardAgent.GetDataWithSelectionAsync(Integer, Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDataWithSelectionAsync(Integer, Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDataWithSelectionAsync(Integer, Integer, String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDataWithSelectionAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetDataWithSelectionAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDataWithSelectionAsync_System_Int32_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.GetDataWithSelectionAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetDataWithSelectionAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent.html#SuperOffice_WebApi_Agents_ForNetserverUntilVersion11_IDashboardAgent_GetDataWithSelectionAsync_System_Int32_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )

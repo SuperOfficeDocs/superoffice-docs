@@ -23,28 +23,24 @@ items:
   nameWithType: SJElement
   fullName: SuperOffice.Util.SJElement
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: 'public class SJElement : Object'
-    content.vb: >-
-      Public Class SJElement
-          Inherits Object
+    content: public class SJElement
+    content.vb: Public Class SJElement
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Util.SJElement.EnumUtil.MapEnums``2
   - SuperOffice.Util.SJElement.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.Util.SJElement.#ctor(System.String,System.Object)
   commentId: M:SuperOffice.Util.SJElement.#ctor(System.String,System.Object)
   id: '#ctor(System.String,System.Object)'
@@ -52,13 +48,10 @@ items:
   langs:
   - csharp
   - vb
-  name: SJElement(String, Object)
-  nameWithType: SJElement.SJElement(String, Object)
-  fullName: SuperOffice.Util.SJElement.SJElement(System.String, System.Object)
+  name: SJElement(string, object)
+  nameWithType: SJElement.SJElement(string, object)
+  fullName: SuperOffice.Util.SJElement.SJElement(string, object)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -71,10 +64,9 @@ items:
       type: System.Object
     content.vb: Public Sub New(name As String, value As Object)
   overload: SuperOffice.Util.SJElement.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SJElement.New(String, Object)
+  fullName.vb: SuperOffice.Util.SJElement.New(String, Object)
+  name.vb: New(String, Object)
 - uid: SuperOffice.Util.SJElement.#ctor(System.String,SuperOffice.Util.SJElement)
   commentId: M:SuperOffice.Util.SJElement.#ctor(System.String,SuperOffice.Util.SJElement)
   id: '#ctor(System.String,SuperOffice.Util.SJElement)'
@@ -82,13 +74,10 @@ items:
   langs:
   - csharp
   - vb
-  name: SJElement(String, SJElement)
-  nameWithType: SJElement.SJElement(String, SJElement)
-  fullName: SuperOffice.Util.SJElement.SJElement(System.String, SuperOffice.Util.SJElement)
+  name: SJElement(string, SJElement)
+  nameWithType: SJElement.SJElement(string, SJElement)
+  fullName: SuperOffice.Util.SJElement.SJElement(string, SuperOffice.Util.SJElement)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -101,10 +90,9 @@ items:
       type: SuperOffice.Util.SJElement
     content.vb: Public Sub New(name As String, inner As SJElement)
   overload: SuperOffice.Util.SJElement.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SJElement.New(String, SJElement)
+  fullName.vb: SuperOffice.Util.SJElement.New(String, SuperOffice.Util.SJElement)
+  name.vb: New(String, SJElement)
 - uid: SuperOffice.Util.SJElement.#ctor(System.String,System.Collections.Generic.IEnumerable{SuperOffice.Util.SJElement})
   commentId: M:SuperOffice.Util.SJElement.#ctor(System.String,System.Collections.Generic.IEnumerable{SuperOffice.Util.SJElement})
   id: '#ctor(System.String,System.Collections.Generic.IEnumerable{SuperOffice.Util.SJElement})'
@@ -112,13 +100,10 @@ items:
   langs:
   - csharp
   - vb
-  name: SJElement(String, IEnumerable<SJElement>)
-  nameWithType: SJElement.SJElement(String, IEnumerable<SJElement>)
-  fullName: SuperOffice.Util.SJElement.SJElement(System.String, System.Collections.Generic.IEnumerable<SuperOffice.Util.SJElement>)
+  name: SJElement(string, IEnumerable<SJElement>)
+  nameWithType: SJElement.SJElement(string, IEnumerable<SJElement>)
+  fullName: SuperOffice.Util.SJElement.SJElement(string, System.Collections.Generic.IEnumerable<SuperOffice.Util.SJElement>)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -131,13 +116,9 @@ items:
       type: System.Collections.Generic.IEnumerable{SuperOffice.Util.SJElement}
     content.vb: Public Sub New(name As String, inners As IEnumerable(Of SJElement))
   overload: SuperOffice.Util.SJElement.#ctor*
-  nameWithType.vb: SJElement.SJElement(String, IEnumerable(Of SJElement))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Util.SJElement.SJElement(System.String, System.Collections.Generic.IEnumerable(Of SuperOffice.Util.SJElement))
-  name.vb: SJElement(String, IEnumerable(Of SJElement))
+  nameWithType.vb: SJElement.New(String, IEnumerable(Of SJElement))
+  fullName.vb: SuperOffice.Util.SJElement.New(String, System.Collections.Generic.IEnumerable(Of SuperOffice.Util.SJElement))
+  name.vb: New(String, IEnumerable(Of SJElement))
 - uid: SuperOffice.Util.SJElement.#ctor(System.String,SuperOffice.Util.SJArray)
   commentId: M:SuperOffice.Util.SJElement.#ctor(System.String,SuperOffice.Util.SJArray)
   id: '#ctor(System.String,SuperOffice.Util.SJArray)'
@@ -145,13 +126,10 @@ items:
   langs:
   - csharp
   - vb
-  name: SJElement(String, SJArray)
-  nameWithType: SJElement.SJElement(String, SJArray)
-  fullName: SuperOffice.Util.SJElement.SJElement(System.String, SuperOffice.Util.SJArray)
+  name: SJElement(string, SJArray)
+  nameWithType: SJElement.SJElement(string, SJArray)
+  fullName: SuperOffice.Util.SJElement.SJElement(string, SuperOffice.Util.SJArray)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -164,10 +142,9 @@ items:
       type: SuperOffice.Util.SJArray
     content.vb: Public Sub New(name As String, array As SJArray)
   overload: SuperOffice.Util.SJElement.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SJElement.New(String, SJArray)
+  fullName.vb: SuperOffice.Util.SJElement.New(String, SuperOffice.Util.SJArray)
+  name.vb: New(String, SJArray)
 - uid: SuperOffice.Util.SJElement.#ctor(System.String,SuperOffice.Util.SJElement[])
   commentId: M:SuperOffice.Util.SJElement.#ctor(System.String,SuperOffice.Util.SJElement[])
   id: '#ctor(System.String,SuperOffice.Util.SJElement[])'
@@ -175,13 +152,10 @@ items:
   langs:
   - csharp
   - vb
-  name: SJElement(String, SJElement[])
-  nameWithType: SJElement.SJElement(String, SJElement[])
-  fullName: SuperOffice.Util.SJElement.SJElement(System.String, SuperOffice.Util.SJElement[])
+  name: SJElement(string, params SJElement[])
+  nameWithType: SJElement.SJElement(string, params SJElement[])
+  fullName: SuperOffice.Util.SJElement.SJElement(string, params SuperOffice.Util.SJElement[])
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -194,13 +168,9 @@ items:
       type: SuperOffice.Util.SJElement[]
     content.vb: Public Sub New(name As String, ParamArray inners As SJElement())
   overload: SuperOffice.Util.SJElement.#ctor*
-  nameWithType.vb: SJElement.SJElement(String, SJElement())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Util.SJElement.SJElement(System.String, SuperOffice.Util.SJElement())
-  name.vb: SJElement(String, SJElement())
+  nameWithType.vb: SJElement.New(String, ParamArray SJElement())
+  fullName.vb: SuperOffice.Util.SJElement.New(String, ParamArray SuperOffice.Util.SJElement())
+  name.vb: New(String, ParamArray SJElement())
 - uid: SuperOffice.Util.SJElement.Add(System.String,SuperOffice.Util.SJElement)
   commentId: M:SuperOffice.Util.SJElement.Add(System.String,SuperOffice.Util.SJElement)
   id: Add(System.String,SuperOffice.Util.SJElement)
@@ -208,13 +178,10 @@ items:
   langs:
   - csharp
   - vb
-  name: Add(String, SJElement)
-  nameWithType: SJElement.Add(String, SJElement)
-  fullName: SuperOffice.Util.SJElement.Add(System.String, SuperOffice.Util.SJElement)
+  name: Add(string, SJElement)
+  nameWithType: SJElement.Add(string, SJElement)
+  fullName: SuperOffice.Util.SJElement.Add(string, SuperOffice.Util.SJElement)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -227,10 +194,9 @@ items:
       type: SuperOffice.Util.SJElement
     content.vb: Public Sub Add(name As String, inner As SJElement)
   overload: SuperOffice.Util.SJElement.Add*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SJElement.Add(String, SJElement)
+  fullName.vb: SuperOffice.Util.SJElement.Add(String, SuperOffice.Util.SJElement)
+  name.vb: Add(String, SJElement)
 - uid: SuperOffice.Util.SJElement.Add(System.String,System.Collections.Generic.IEnumerable{SuperOffice.Util.SJElement})
   commentId: M:SuperOffice.Util.SJElement.Add(System.String,System.Collections.Generic.IEnumerable{SuperOffice.Util.SJElement})
   id: Add(System.String,System.Collections.Generic.IEnumerable{SuperOffice.Util.SJElement})
@@ -238,13 +204,10 @@ items:
   langs:
   - csharp
   - vb
-  name: Add(String, IEnumerable<SJElement>)
-  nameWithType: SJElement.Add(String, IEnumerable<SJElement>)
-  fullName: SuperOffice.Util.SJElement.Add(System.String, System.Collections.Generic.IEnumerable<SuperOffice.Util.SJElement>)
+  name: Add(string, IEnumerable<SJElement>)
+  nameWithType: SJElement.Add(string, IEnumerable<SJElement>)
+  fullName: SuperOffice.Util.SJElement.Add(string, System.Collections.Generic.IEnumerable<SuperOffice.Util.SJElement>)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -258,11 +221,7 @@ items:
     content.vb: Public Sub Add(name As String, inners As IEnumerable(Of SJElement))
   overload: SuperOffice.Util.SJElement.Add*
   nameWithType.vb: SJElement.Add(String, IEnumerable(Of SJElement))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Util.SJElement.Add(System.String, System.Collections.Generic.IEnumerable(Of SuperOffice.Util.SJElement))
+  fullName.vb: SuperOffice.Util.SJElement.Add(String, System.Collections.Generic.IEnumerable(Of SuperOffice.Util.SJElement))
   name.vb: Add(String, IEnumerable(Of SJElement))
 - uid: SuperOffice.Util.SJElement.Add(System.String,SuperOffice.Util.SJElement[])
   commentId: M:SuperOffice.Util.SJElement.Add(System.String,SuperOffice.Util.SJElement[])
@@ -271,13 +230,10 @@ items:
   langs:
   - csharp
   - vb
-  name: Add(String, SJElement[])
-  nameWithType: SJElement.Add(String, SJElement[])
-  fullName: SuperOffice.Util.SJElement.Add(System.String, SuperOffice.Util.SJElement[])
+  name: Add(string, params SJElement[])
+  nameWithType: SJElement.Add(string, params SJElement[])
+  fullName: SuperOffice.Util.SJElement.Add(string, params SuperOffice.Util.SJElement[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -290,13 +246,9 @@ items:
       type: SuperOffice.Util.SJElement[]
     content.vb: Public Sub Add(name As String, ParamArray inners As SJElement())
   overload: SuperOffice.Util.SJElement.Add*
-  nameWithType.vb: SJElement.Add(String, SJElement())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Util.SJElement.Add(System.String, SuperOffice.Util.SJElement())
-  name.vb: Add(String, SJElement())
+  nameWithType.vb: SJElement.Add(String, ParamArray SJElement())
+  fullName.vb: SuperOffice.Util.SJElement.Add(String, ParamArray SuperOffice.Util.SJElement())
+  name.vb: Add(String, ParamArray SJElement())
 - uid: SuperOffice.Util.SJElement.Add(System.String,SuperOffice.Util.SJArray)
   commentId: M:SuperOffice.Util.SJElement.Add(System.String,SuperOffice.Util.SJArray)
   id: Add(System.String,SuperOffice.Util.SJArray)
@@ -304,13 +256,10 @@ items:
   langs:
   - csharp
   - vb
-  name: Add(String, SJArray)
-  nameWithType: SJElement.Add(String, SJArray)
-  fullName: SuperOffice.Util.SJElement.Add(System.String, SuperOffice.Util.SJArray)
+  name: Add(string, SJArray)
+  nameWithType: SJElement.Add(string, SJArray)
+  fullName: SuperOffice.Util.SJElement.Add(string, SuperOffice.Util.SJArray)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -323,10 +272,9 @@ items:
       type: SuperOffice.Util.SJArray
     content.vb: Public Sub Add(name As String, inner As SJArray)
   overload: SuperOffice.Util.SJElement.Add*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SJElement.Add(String, SJArray)
+  fullName.vb: SuperOffice.Util.SJElement.Add(String, SuperOffice.Util.SJArray)
+  name.vb: Add(String, SJArray)
 - uid: SuperOffice.Util.SJElement.ToJS(SuperOffice.Util.SJElement)
   commentId: M:SuperOffice.Util.SJElement.ToJS(SuperOffice.Util.SJElement)
   id: ToJS(SuperOffice.Util.SJElement)
@@ -338,9 +286,6 @@ items:
   nameWithType: SJElement.ToJS(SJElement)
   fullName: SuperOffice.Util.SJElement.ToJS(SuperOffice.Util.SJElement)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -353,10 +298,6 @@ items:
       type: System.Object
     content.vb: Public Function ToJS(jElement As SJElement) As Object
   overload: SuperOffice.Util.SJElement.ToJS*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Util.SJElement.ToString
   commentId: M:SuperOffice.Util.SJElement.ToString
   id: ToString
@@ -368,115 +309,368 @@ items:
   nameWithType: SJElement.ToString()
   fullName: SuperOffice.Util.SJElement.ToString()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
   overload: SuperOffice.Util.SJElement.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.Util.SJElement.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SJElement, To>()
-  nameWithType: EnumUtil.MapEnums<SJElement, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.SJElement, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SJElement, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.SJElement, To)()
-  name.vb: MapEnums(Of SJElement, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SJElement, To>(SJElement)
+  nameWithType: EnumUtil.MapEnums<SJElement, To>(SJElement)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.SJElement, To>(SuperOffice.Util.SJElement)
+  nameWithType.vb: EnumUtil.MapEnums(Of SJElement, To)(SJElement)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.SJElement, To)(SuperOffice.Util.SJElement)
+  name.vb: MapEnums(Of SJElement, To)(SJElement)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SJElement, To>
-    nameWithType: EnumUtil.MapEnums<SJElement, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Util.SJElement, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.SJElement)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.SJElement
+    name: SJElement
+    isExternal: true
+    href: SuperOffice.Util.SJElement.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Util.SJElement
+    name: SJElement
+    isExternal: true
+    href: SuperOffice.Util.SJElement.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SJElement, To)
-    nameWithType: EnumUtil.MapEnums(Of SJElement, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.SJElement, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.SJElement)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.SJElement
+    name: SJElement
+    isExternal: true
+    href: SuperOffice.Util.SJElement.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.SJElement
+    name: SJElement
+    isExternal: true
+    href: SuperOffice.Util.SJElement.html
+  - name: )
 - uid: SuperOffice.Util.SJElement.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SJElement, To>()
-  nameWithType: Converters.MapEnums<SJElement, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.SJElement, To>()
-  nameWithType.vb: Converters.MapEnums(Of SJElement, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.SJElement, To)()
-  name.vb: MapEnums(Of SJElement, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SJElement, To>(SJElement)
+  nameWithType: Converters.MapEnums<SJElement, To>(SJElement)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.SJElement, To>(SuperOffice.Util.SJElement)
+  nameWithType.vb: Converters.MapEnums(Of SJElement, To)(SJElement)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.SJElement, To)(SuperOffice.Util.SJElement)
+  name.vb: MapEnums(Of SJElement, To)(SJElement)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SJElement, To>
-    nameWithType: Converters.MapEnums<SJElement, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.SJElement, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.SJElement)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.SJElement
+    name: SJElement
+    isExternal: true
+    href: SuperOffice.Util.SJElement.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Util.SJElement
+    name: SJElement
+    isExternal: true
+    href: SuperOffice.Util.SJElement.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SJElement, To)
-    nameWithType: Converters.MapEnums(Of SJElement, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.SJElement, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.SJElement)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.SJElement
+    name: SJElement
+    isExternal: true
+    href: SuperOffice.Util.SJElement.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.SJElement
+    name: SJElement
+    isExternal: true
+    href: SuperOffice.Util.SJElement.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -485,43 +679,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -530,70 +726,113 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Util.SJElement.#ctor*
   commentId: Overload:SuperOffice.Util.SJElement.#ctor
   isExternal: true
+  href: SuperOffice.Util.SJElement.html#SuperOffice_Util_SJElement__ctor_System_String_System_Object_
   name: SJElement
   nameWithType: SJElement.SJElement
   fullName: SuperOffice.Util.SJElement.SJElement
+  nameWithType.vb: SJElement.New
+  fullName.vb: SuperOffice.Util.SJElement.New
+  name.vb: New
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Util.SJElement
   commentId: T:SuperOffice.Util.SJElement
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.SJElement.html
   name: SJElement
   nameWithType: SJElement
   fullName: SuperOffice.Util.SJElement
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.SJElement}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Util.SJElement}'
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Util.SJElement}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<SJElement>
   nameWithType: IEnumerable<SJElement>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.Util.SJElement>
@@ -603,84 +842,103 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.Util.SJElement
     name: SJElement
-    nameWithType: SJElement
-    fullName: SuperOffice.Util.SJElement
     isExternal: true
+    href: SuperOffice.Util.SJElement.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.Util.SJElement
     name: SJElement
-    nameWithType: SJElement
-    fullName: SuperOffice.Util.SJElement
     isExternal: true
+    href: SuperOffice.Util.SJElement.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.Util.SJArray
   commentId: T:SuperOffice.Util.SJArray
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.SJArray.html
   name: SJArray
   nameWithType: SJArray
   fullName: SuperOffice.Util.SJArray
 - uid: SuperOffice.Util.SJElement[]
   isExternal: true
+  href: SuperOffice.Util.SJElement.html
   name: SJElement[]
   nameWithType: SJElement[]
   fullName: SuperOffice.Util.SJElement[]
@@ -690,36 +948,59 @@ references:
   spec.csharp:
   - uid: SuperOffice.Util.SJElement
     name: SJElement
-    nameWithType: SJElement
-    fullName: SuperOffice.Util.SJElement
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.Util.SJElement.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.Util.SJElement
     name: SJElement
-    nameWithType: SJElement
-    fullName: SuperOffice.Util.SJElement
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.Util.SJElement.html
+  - name: (
+  - name: )
 - uid: SuperOffice.Util.SJElement.Add*
   commentId: Overload:SuperOffice.Util.SJElement.Add
   isExternal: true
+  href: SuperOffice.Util.SJElement.html#SuperOffice_Util_SJElement_Add_System_String_SuperOffice_Util_SJElement_
   name: Add
   nameWithType: SJElement.Add
   fullName: SuperOffice.Util.SJElement.Add
 - uid: SuperOffice.Util.SJElement.ToJS*
   commentId: Overload:SuperOffice.Util.SJElement.ToJS
   isExternal: true
+  href: SuperOffice.Util.SJElement.html#SuperOffice_Util_SJElement_ToJS_SuperOffice_Util_SJElement_
   name: ToJS
   nameWithType: SJElement.ToJS
   fullName: SuperOffice.Util.SJElement.ToJS
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
 - uid: SuperOffice.Util.SJElement.ToString*
   commentId: Overload:SuperOffice.Util.SJElement.ToString
   isExternal: true
+  href: SuperOffice.Util.SJElement.html#SuperOffice_Util_SJElement_ToString
   name: ToString
   nameWithType: SJElement.ToString
   fullName: SuperOffice.Util.SJElement.ToString

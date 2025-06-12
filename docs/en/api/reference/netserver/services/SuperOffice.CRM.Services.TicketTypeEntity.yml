@@ -23,9 +23,9 @@ items:
   - SuperOffice.CRM.Services.TicketTypeEntity.TicketPriorities
   - SuperOffice.CRM.Services.TicketTypeEntity.TicketStatuses
   - SuperOffice.CRM.Services.TicketTypeEntity.TicketTypeId
-  - SuperOffice.CRM.Services.TicketTypeEntity.Tooltip
   - SuperOffice.CRM.Services.TicketTypeEntity.ToString
   - SuperOffice.CRM.Services.TicketTypeEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.TicketTypeEntity.Tooltip
   - SuperOffice.CRM.Services.TicketTypeEntity.VisibleForGroups
   langs:
   - csharp
@@ -34,33 +34,54 @@ items:
   nameWithType: TicketTypeEntity
   fullName: SuperOffice.CRM.Services.TicketTypeEntity
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nEntity for a ticket (Request) type. This enables having diversified tickets needed for a specific process.\n<p></p>\nCarrier object for TicketTypeEntity.\nServices for the TicketTypeEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Entity for a ticket (Request) type. This enables having diversified tickets needed for a specific process.
+
+    <p></p>
+
+    Carrier object for TicketTypeEntity.
+
+    Services for the TicketTypeEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.IListAgent?text=List+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet TicketTypeEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ListAgent();\n    var ticketTypeEntity = agent.GetTicketTypeEntity( 123 );\n }</code></pre>\n"
+  - >-
+    Get TicketTypeEntity 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new ListAgent();
+       var ticketTypeEntity = agent.GetTicketTypeEntity( 123 );
+    }</code></pre>
   syntax:
-    content: 'public class TicketTypeEntity : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class TicketTypeEntity : Carrier
     content.vb: >-
-      Public Class TicketTypeEntity
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class TicketTypeEntity Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.ListAgent
-    commentId: T:SuperOffice.CRM.Services.ListAgent
   - linkId: SuperOffice.CRM.Services.IListAgent
     commentId: T:SuperOffice.CRM.Services.IListAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.TicketTypeEntity.#ctor
   id: '#ctor'
@@ -72,21 +93,18 @@ items:
   nameWithType: TicketTypeEntity.TicketTypeEntity()
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.TicketTypeEntity()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public TicketTypeEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.TicketTypeEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TicketTypeEntity.New()
+  fullName.vb: SuperOffice.CRM.Services.TicketTypeEntity.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ToString
   commentId: M:SuperOffice.CRM.Services.TicketTypeEntity.ToString
   id: ToString
@@ -98,26 +116,18 @@ items:
   nameWithType: TicketTypeEntity.ToString()
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.TicketTypeEntity.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.TicketTypeEntity.ToString(System.String)
   id: ToString(System.String)
@@ -125,17 +135,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: TicketTypeEntity.ToString(String)
-  fullName: SuperOffice.CRM.Services.TicketTypeEntity.ToString(System.String)
+  name: ToString(string)
+  nameWithType: TicketTypeEntity.ToString(string)
+  fullName: SuperOffice.CRM.Services.TicketTypeEntity.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -147,10 +158,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.TicketTypeEntity.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TicketTypeEntity.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.TicketTypeEntity.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.TicketTypeId
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.TicketTypeId
   id: TicketTypeId
@@ -162,28 +172,28 @@ items:
   nameWithType: TicketTypeEntity.TicketTypeId
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.TicketTypeId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int TicketTypeId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int TicketTypeId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property TicketTypeId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TicketTypeId As Integer
   overload: SuperOffice.CRM.Services.TicketTypeEntity.TicketTypeId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.Name
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.Name
   id: Name
@@ -195,28 +205,28 @@ items:
   nameWithType: TicketTypeEntity.Name
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.Name
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe list item \n"
+  summary: The list item
+  example: []
   syntax:
-    content: public virtual string Name { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Name As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.TicketTypeEntity.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.Rank
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.Rank
   id: Rank
@@ -228,28 +238,28 @@ items:
   nameWithType: TicketTypeEntity.Rank
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.Rank
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRank order \n"
+  summary: Rank order
+  example: []
   syntax:
-    content: public virtual short Rank { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short Rank { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property Rank As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Rank As Short
   overload: SuperOffice.CRM.Services.TicketTypeEntity.Rank*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.Tooltip
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.Tooltip
   id: Tooltip
@@ -261,28 +271,28 @@ items:
   nameWithType: TicketTypeEntity.Tooltip
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.Tooltip
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTooltip or other description \n"
+  summary: Tooltip or other description
+  example: []
   syntax:
-    content: public virtual string Tooltip { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Tooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Tooltip As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Tooltip As String
   overload: SuperOffice.CRM.Services.TicketTypeEntity.Tooltip*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.Icon
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.Icon
   id: Icon
@@ -294,28 +304,28 @@ items:
   nameWithType: TicketTypeEntity.Icon
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.Icon
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nName of the icon \n"
+  summary: Name of the icon
+  example: []
   syntax:
-    content: public virtual string Icon { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Icon { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Icon As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Icon As String
   overload: SuperOffice.CRM.Services.TicketTypeEntity.Icon*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.DefaultTicketStatus
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.DefaultTicketStatus
   id: DefaultTicketStatus
@@ -327,28 +337,28 @@ items:
   nameWithType: TicketTypeEntity.DefaultTicketStatus
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.DefaultTicketStatus
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault ticket status for new tickets \n"
+  summary: Default ticket status for new tickets
+  example: []
   syntax:
-    content: public virtual int DefaultTicketStatus { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int DefaultTicketStatus { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property DefaultTicketStatus As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DefaultTicketStatus As Integer
   overload: SuperOffice.CRM.Services.TicketTypeEntity.DefaultTicketStatus*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.TicketStatuses
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.TicketStatuses
   id: TicketStatuses
@@ -360,28 +370,28 @@ items:
   nameWithType: TicketTypeEntity.TicketStatuses
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.TicketStatuses
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRelevant/available ticket statuses for this Request type. Empty field means all statuses are available. \n"
+  summary: Relevant/available ticket statuses for this Request type. Empty field means all statuses are available.
+  example: []
   syntax:
-    content: public virtual int[] TicketStatuses { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int[] TicketStatuses { get; set; }
     parameters: []
     return:
       type: System.Int32[]
-    content.vb: Public Overridable Property TicketStatuses As Integer()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TicketStatuses As Integer()
   overload: SuperOffice.CRM.Services.TicketTypeEntity.TicketStatuses*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.DefaultTicketPriority
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.DefaultTicketPriority
   id: DefaultTicketPriority
@@ -393,28 +403,28 @@ items:
   nameWithType: TicketTypeEntity.DefaultTicketPriority
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.DefaultTicketPriority
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault ticket priority for new tickets \n"
+  summary: Default ticket priority for new tickets
+  example: []
   syntax:
-    content: public virtual int DefaultTicketPriority { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int DefaultTicketPriority { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property DefaultTicketPriority As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DefaultTicketPriority As Integer
   overload: SuperOffice.CRM.Services.TicketTypeEntity.DefaultTicketPriority*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.TicketPriorities
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.TicketPriorities
   id: TicketPriorities
@@ -426,28 +436,28 @@ items:
   nameWithType: TicketTypeEntity.TicketPriorities
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.TicketPriorities
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRelevant/available ticket priorities for this Request type. Empty field means all priorities are available. \n"
+  summary: Relevant/available ticket priorities for this Request type. Empty field means all priorities are available.
+  example: []
   syntax:
-    content: public virtual int[] TicketPriorities { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int[] TicketPriorities { get; set; }
     parameters: []
     return:
       type: System.Int32[]
-    content.vb: Public Overridable Property TicketPriorities As Integer()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TicketPriorities As Integer()
   overload: SuperOffice.CRM.Services.TicketTypeEntity.TicketPriorities*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ReplyTemplate
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.ReplyTemplate
   id: ReplyTemplate
@@ -459,28 +469,28 @@ items:
   nameWithType: TicketTypeEntity.ReplyTemplate
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.ReplyTemplate
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReply template to use when replying to a ticket of this type \n"
+  summary: Reply template to use when replying to a ticket of this type
+  example: []
   syntax:
-    content: public virtual int ReplyTemplate { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int ReplyTemplate { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property ReplyTemplate As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ReplyTemplate As Integer
   overload: SuperOffice.CRM.Services.TicketTypeEntity.ReplyTemplate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.IsExternalVisible
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.IsExternalVisible
   id: IsExternalVisible
@@ -492,28 +502,28 @@ items:
   nameWithType: TicketTypeEntity.IsExternalVisible
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.IsExternalVisible
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nIs this request type visible to external people and they can submit requests of this type \n"
+  summary: Is this request type visible to external people and they can submit requests of this type
+  example: []
   syntax:
-    content: public virtual bool IsExternalVisible { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IsExternalVisible { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IsExternalVisible As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsExternalVisible As Boolean
   overload: SuperOffice.CRM.Services.TicketTypeEntity.IsExternalVisible*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.IsDefault
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.IsDefault
   id: IsDefault
@@ -525,28 +535,28 @@ items:
   nameWithType: TicketTypeEntity.IsDefault
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.IsDefault
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nIs this Ticket Type marked as default \n"
+  summary: Is this Ticket Type marked as default
+  example: []
   syntax:
-    content: public virtual bool IsDefault { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IsDefault { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IsDefault As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsDefault As Boolean
   overload: SuperOffice.CRM.Services.TicketTypeEntity.IsDefault*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ShowInNew
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.ShowInNew
   id: ShowInNew
@@ -558,28 +568,28 @@ items:
   nameWithType: TicketTypeEntity.ShowInNew
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.ShowInNew
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nEnables this request type to be accessible in +New in top bar \n"
+  summary: Enables this request type to be accessible in +New in top bar
+  example: []
   syntax:
-    content: public virtual bool ShowInNew { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool ShowInNew { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property ShowInNew As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ShowInNew As Boolean
   overload: SuperOffice.CRM.Services.TicketTypeEntity.ShowInNew*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeSignature
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.ExcludeSignature
   id: ExcludeSignature
@@ -591,28 +601,28 @@ items:
   nameWithType: TicketTypeEntity.ExcludeSignature
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeSignature
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDo not insert user signature automatically \n"
+  summary: Do not insert user signature automatically
+  example: []
   syntax:
-    content: public virtual bool ExcludeSignature { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool ExcludeSignature { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property ExcludeSignature As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ExcludeSignature As Boolean
   overload: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeSignature*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeEmailRecipients
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.ExcludeEmailRecipients
   id: ExcludeEmailRecipients
@@ -624,28 +634,28 @@ items:
   nameWithType: TicketTypeEntity.ExcludeEmailRecipients
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeEmailRecipients
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCreate request without initially having to send outbound e-mail \n"
+  summary: Create request without initially having to send outbound e-mail
+  example: []
   syntax:
-    content: public virtual bool ExcludeEmailRecipients { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool ExcludeEmailRecipients { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property ExcludeEmailRecipients As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ExcludeEmailRecipients As Boolean
   overload: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeEmailRecipients*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ExternalAsDefault
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.ExternalAsDefault
   id: ExternalAsDefault
@@ -657,28 +667,28 @@ items:
   nameWithType: TicketTypeEntity.ExternalAsDefault
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.ExternalAsDefault
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAbility to set external access level for this request type \n"
+  summary: Ability to set external access level for this request type
+  example: []
   syntax:
-    content: public virtual bool ExternalAsDefault { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool ExternalAsDefault { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property ExternalAsDefault As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ExternalAsDefault As Boolean
   overload: SuperOffice.CRM.Services.TicketTypeEntity.ExternalAsDefault*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.VisibleForGroups
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.VisibleForGroups
   id: VisibleForGroups
@@ -690,28 +700,28 @@ items:
   nameWithType: TicketTypeEntity.VisibleForGroups
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.VisibleForGroups
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nArray of references to the visible for groups \n"
+  summary: Array of references to the visible for groups
+  example: []
   syntax:
-    content: public virtual int[] VisibleForGroups { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int[] VisibleForGroups { get; set; }
     parameters: []
     return:
       type: System.Int32[]
-    content.vb: Public Overridable Property VisibleForGroups As Integer()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property VisibleForGroups As Integer()
   overload: SuperOffice.CRM.Services.TicketTypeEntity.VisibleForGroups*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ReplyForwardNoSignature
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.ReplyForwardNoSignature
   id: ReplyForwardNoSignature
@@ -723,28 +733,28 @@ items:
   nameWithType: TicketTypeEntity.ReplyForwardNoSignature
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.ReplyForwardNoSignature
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDo not insert user signature when replying or forwarding the message \n"
+  summary: Do not insert user signature when replying or forwarding the message
+  example: []
   syntax:
-    content: public virtual bool ReplyForwardNoSignature { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool ReplyForwardNoSignature { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property ReplyForwardNoSignature As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ReplyForwardNoSignature As Boolean
   overload: SuperOffice.CRM.Services.TicketTypeEntity.ReplyForwardNoSignature*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ReplyExternalAsDefault
   commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.ReplyExternalAsDefault
   id: ReplyExternalAsDefault
@@ -756,57 +766,106 @@ items:
   nameWithType: TicketTypeEntity.ReplyExternalAsDefault
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.ReplyExternalAsDefault
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSet external access level when replying the message \n"
+  summary: Set external access level when replying the message
+  example: []
   syntax:
-    content: public virtual bool ReplyExternalAsDefault { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool ReplyExternalAsDefault { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property ReplyExternalAsDefault As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ReplyExternalAsDefault As Boolean
   overload: SuperOffice.CRM.Services.TicketTypeEntity.ReplyExternalAsDefault*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ListAgent
-  commentId: T:SuperOffice.CRM.Services.ListAgent
-  isExternal: true
-  name: ListAgent
-  nameWithType: ListAgent
-  fullName: SuperOffice.CRM.Services.ListAgent
 - uid: SuperOffice.CRM.Services.IListAgent
   commentId: T:SuperOffice.CRM.Services.IListAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html
   name: IListAgent
   nameWithType: IListAgent
   fullName: SuperOffice.CRM.Services.IListAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity__ctor
   name: TicketTypeEntity
   nameWithType: TicketTypeEntity.TicketTypeEntity
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.TicketTypeEntity
+  nameWithType.vb: TicketTypeEntity.New
+  fullName.vb: SuperOffice.CRM.Services.TicketTypeEntity.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ToString*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_ToString
   name: ToString
   nameWithType: TicketTypeEntity.ToString
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.ToString
@@ -814,18 +873,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.TicketTypeId*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.TicketTypeId
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_TicketTypeId
   name: TicketTypeId
   nameWithType: TicketTypeEntity.TicketTypeId
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.TicketTypeId
@@ -833,18 +891,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.Name*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.Name
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_Name
   name: Name
   nameWithType: TicketTypeEntity.Name
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.Name
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.Rank*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.Rank
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_Rank
   name: Rank
   nameWithType: TicketTypeEntity.Rank
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.Rank
@@ -852,80 +916,89 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.Tooltip*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.Tooltip
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_Tooltip
   name: Tooltip
   nameWithType: TicketTypeEntity.Tooltip
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.Tooltip
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.Icon*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.Icon
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_Icon
   name: Icon
   nameWithType: TicketTypeEntity.Icon
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.Icon
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.DefaultTicketStatus*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.DefaultTicketStatus
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_DefaultTicketStatus
   name: DefaultTicketStatus
   nameWithType: TicketTypeEntity.DefaultTicketStatus
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.DefaultTicketStatus
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.TicketStatuses*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.TicketStatuses
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_TicketStatuses
   name: TicketStatuses
   nameWithType: TicketTypeEntity.TicketStatuses
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.TicketStatuses
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.DefaultTicketPriority*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.DefaultTicketPriority
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_DefaultTicketPriority
   name: DefaultTicketPriority
   nameWithType: TicketTypeEntity.DefaultTicketPriority
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.DefaultTicketPriority
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.TicketPriorities*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.TicketPriorities
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_TicketPriorities
   name: TicketPriorities
   nameWithType: TicketTypeEntity.TicketPriorities
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.TicketPriorities
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ReplyTemplate*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.ReplyTemplate
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_ReplyTemplate
   name: ReplyTemplate
   nameWithType: TicketTypeEntity.ReplyTemplate
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.ReplyTemplate
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.IsExternalVisible*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.IsExternalVisible
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_IsExternalVisible
   name: IsExternalVisible
   nameWithType: TicketTypeEntity.IsExternalVisible
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.IsExternalVisible
@@ -933,54 +1006,66 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.IsDefault*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.IsDefault
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_IsDefault
   name: IsDefault
   nameWithType: TicketTypeEntity.IsDefault
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.IsDefault
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ShowInNew*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.ShowInNew
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_ShowInNew
   name: ShowInNew
   nameWithType: TicketTypeEntity.ShowInNew
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.ShowInNew
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeSignature*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.ExcludeSignature
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_ExcludeSignature
   name: ExcludeSignature
   nameWithType: TicketTypeEntity.ExcludeSignature
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeSignature
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeEmailRecipients*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.ExcludeEmailRecipients
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_ExcludeEmailRecipients
   name: ExcludeEmailRecipients
   nameWithType: TicketTypeEntity.ExcludeEmailRecipients
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeEmailRecipients
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ExternalAsDefault*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.ExternalAsDefault
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_ExternalAsDefault
   name: ExternalAsDefault
   nameWithType: TicketTypeEntity.ExternalAsDefault
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.ExternalAsDefault
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.VisibleForGroups*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.VisibleForGroups
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_VisibleForGroups
   name: VisibleForGroups
   nameWithType: TicketTypeEntity.VisibleForGroups
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.VisibleForGroups
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ReplyForwardNoSignature*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.ReplyForwardNoSignature
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_ReplyForwardNoSignature
   name: ReplyForwardNoSignature
   nameWithType: TicketTypeEntity.ReplyForwardNoSignature
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.ReplyForwardNoSignature
 - uid: SuperOffice.CRM.Services.TicketTypeEntity.ReplyExternalAsDefault*
   commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.ReplyExternalAsDefault
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_ReplyExternalAsDefault
   name: ReplyExternalAsDefault
   nameWithType: TicketTypeEntity.ReplyExternalAsDefault
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.ReplyExternalAsDefault

@@ -5,41 +5,34 @@ items:
   id: MailCache
   parent: SuperOffice.CRM.Mail
   children:
-  - SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
-  - SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String,System.Int32@,System.Int32@,System.Int32@)
+  - SuperOffice.CRM.Mail.MailCache.CacheMailForAssociateAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.MailCache.ClearCachedFolderInfo(System.Int32,System.String,System.String)
-  - SuperOffice.CRM.Mail.MailCache.findFolderSeparator(System.Int32)
+  - SuperOffice.CRM.Mail.MailCache.FindFolderSeparatorAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.MailCache.FindMessageInIdList(SuperOffice.CRM.Mail.MailEnvelope,System.Int32[])
-  - SuperOffice.CRM.Mail.MailCache.findOrCreateEmailFolder(System.Int32,SuperOffice.CRM.Mail.MailFolder,System.Boolean)
-  - SuperOffice.CRM.Mail.MailCache.findOrCreateEmailFolder(System.Int32,System.String,System.String)
-  - SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32,System.String,System.String,System.String)
-  - SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32,System.String,System.String,System.String,System.DateTime@)
-  - SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32,System.String,System.String,System.String,System.Int32@)
-  - SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfo(System.Int32,System.String,System.String,System.String[])
-  - SuperOffice.CRM.Mail.MailCache.GetCachedFolderList(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
-  - SuperOffice.CRM.Mail.MailCache.GetCachedMailItem(System.Int32,System.String,System.String,System.Int32,System.String,System.Boolean)
-  - SuperOffice.CRM.Mail.MailCache.GetCachingStarted(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
-  - SuperOffice.CRM.Mail.MailCache.GetDraftsFolderName(System.Int32)
-  - SuperOffice.CRM.Mail.MailCache.GetEmailAccountId(System.Int32,System.String,System.String)
-  - SuperOffice.CRM.Mail.MailCache.GetEnvelopeFromDataReader(SuperOffice.Data.SoDataReader)
-  - SuperOffice.CRM.Mail.MailCache.GetFolderName(SuperOffice.CRM.Rows.EmailFolderRow)
-  - SuperOffice.CRM.Mail.MailCache.GetFolderName(System.Int32)
-  - SuperOffice.CRM.Mail.MailCache.GetInboxFolderName(System.Int32,System.Boolean)
-  - SuperOffice.CRM.Mail.MailCache.GetMailItemFromDataReader(SuperOffice.Data.SoDataReader)
-  - SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRow(SuperOffice.CRM.Rows.EmailItemRow,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Mail.MailCache.FindOrCreateEmailFolderAsync(System.Int32,SuperOffice.CRM.Mail.MailFolder,System.Threading.CancellationToken,System.Boolean)
+  - SuperOffice.CRM.Mail.MailCache.FindOrCreateEmailFolderAsync(System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopesAsync(System.Int32,System.String,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfoAsync(System.Int32,System.String,System.String,System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.MailCache.GetCachedFolderListAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.MailCache.GetCachedMailItemAsync(System.Int32,System.String,System.String,System.Int32,System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.MailCache.GetCachingStartedAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.MailCache.GetDraftsFolderNameAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.MailCache.GetEmailAccountIdAsync(System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.MailCache.GetFolderNameAsync(SuperOffice.CRM.Rows.EmailFolderRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.MailCache.GetFolderNameAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.MailCache.GetInboxFolderNameAsync(System.Int32,System.Threading.CancellationToken,System.Boolean)
+  - SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRowAsync(SuperOffice.CRM.Rows.EmailItemRow,System.Threading.CancellationToken,System.Boolean,System.Boolean)
   - SuperOffice.CRM.Mail.MailCache.GetMinimalMailEnvelope(System.Int32,SuperOffice.Data.EMailFlags)
-  - SuperOffice.CRM.Mail.MailCache.GetSentFolderName(System.Int32,System.Boolean)
-  - SuperOffice.CRM.Mail.MailCache.GetSentFolderNames(System.Int32)
-  - SuperOffice.CRM.Mail.MailCache.GetSpecialFolderName(System.Int32,System.Int32)
-  - SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNames(System.Int32,System.Int32)
-  - SuperOffice.CRM.Mail.MailCache.GetTrashFolderName(System.Int32)
+  - SuperOffice.CRM.Mail.MailCache.GetSentFolderNameAsync(System.Int32,System.Threading.CancellationToken,System.Boolean)
+  - SuperOffice.CRM.Mail.MailCache.GetSentFolderNamesAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNameAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNamesAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.MailCache.GetTrashFolderNameAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.MailCache.RecipientConceptualType
-  - SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfo(System.Int32,System.String,System.String,SuperOffice.CRM.Mail.SoMailFolderInfo[])
-  - SuperOffice.CRM.Mail.MailCache.SetCachingFinished(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
-  - SuperOffice.CRM.Mail.MailCache.SetCachingStarted(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
-  - SuperOffice.CRM.Mail.MailCache.UpdateCacheWithNewEMail(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
+  - SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfoAsync(System.Int32,System.String,System.String,SuperOffice.CRM.Mail.SoMailFolderInfo[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.MailCache.SetCachingFinishedAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.MailCache.SetCachingStartedAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.MailCache.UpdateRecipientList(System.Int32,SuperOffice.CRM.Mail.MailEnvelope)
-  - SuperOffice.CRM.Mail.MailCache.UpdateStatusAndDeletedEnvelopes(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
   langs:
   - csharp
   - vb
@@ -47,27 +40,24 @@ items:
   nameWithType: MailCache
   fullName: SuperOffice.CRM.Mail.MailCache
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\nClass that handles e-mail caching to the superoffice db\n"
+  summary: Class that handles e-mail caching to the superoffice db
+  example: []
   syntax:
-    content: 'public static class MailCache : Object'
-    content.vb: >-
-      Public Module MailCache
-          Inherits Object
+    content: public static class MailCache
+    content.vb: Public Module MailCache
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Mail.MailCache.RecipientConceptualType
   commentId: F:SuperOffice.CRM.Mail.MailCache.RecipientConceptualType
   id: RecipientConceptualType
@@ -79,43 +69,32 @@ items:
   nameWithType: MailCache.RecipientConceptualType
   fullName: SuperOffice.CRM.Mail.MailCache.RecipientConceptualType
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
   syntax:
     content: public const string RecipientConceptualType = "RecipientList"
     return:
       type: System.String
     content.vb: Public Const RecipientConceptualType As String = "RecipientList"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
-- uid: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
-  id: CacheMailForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
+- uid: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociateAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.CacheMailForAssociateAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String,System.Threading.CancellationToken)
+  id: CacheMailForAssociateAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: CacheMailForAssociate(Int32, SoMailCredentials, String)
-  nameWithType: MailCache.CacheMailForAssociate(Int32, SoMailCredentials, String)
-  fullName: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate(System.Int32, SuperOffice.CRM.Mail.SoMailCredentials, System.String)
+  name: CacheMailForAssociateAsync(int, SoMailCredentials, string, CancellationToken)
+  nameWithType: MailCache.CacheMailForAssociateAsync(int, SoMailCredentials, string, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociateAsync(int, SuperOffice.CRM.Mail.SoMailCredentials, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\nCache all subscribed mail folders or specified folder for a specified associate\n"
+  summary: Cache all subscribed mail folders or specified folder for a specified associate
+  example: []
   syntax:
-    content: public static bool CacheMailForAssociate(int associateId, SoMailCredentials credentials, string folder)
+    content: public static Task<(bool changes, int folderCount, int downloadedEnvelopeCount, int cachedEnvelopeCount)> CacheMailForAssociateAsync(int associateId, SoMailCredentials credentials, string folder, CancellationToken cancellationToken)
     parameters:
     - id: associateId
       type: System.Int32
@@ -126,73 +105,16 @@ items:
     - id: folder
       type: System.String
       description: If specified, cache only this folder
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-      description: >-
-        True if one or more new messages was found on the server. Checked
-
-        against the message id.
-    content.vb: Public Shared Function CacheMailForAssociate(associateId As Integer, credentials As SoMailCredentials, folder As String) As Boolean
-  overload: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String,System.Int32@,System.Int32@,System.Int32@)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String,System.Int32@,System.Int32@,System.Int32@)
-  id: CacheMailForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String,System.Int32@,System.Int32@,System.Int32@)
-  parent: SuperOffice.CRM.Mail.MailCache
-  langs:
-  - csharp
-  - vb
-  name: CacheMailForAssociate(Int32, SoMailCredentials, String, out Int32, out Int32, out Int32)
-  nameWithType: MailCache.CacheMailForAssociate(Int32, SoMailCredentials, String, out Int32, out Int32, out Int32)
-  fullName: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate(System.Int32, SuperOffice.CRM.Mail.SoMailCredentials, System.String, out System.Int32, out System.Int32, out System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Mail
-  summary: "\nCache all subscribed mail folders or specified folder for a specified associate\n"
-  syntax:
-    content: public static bool CacheMailForAssociate(int associateId, SoMailCredentials credentials, string folder, out int folderCount, out int downloadedEnvelopeCount, out int cachedEnvelopeCount)
-    parameters:
-    - id: associateId
-      type: System.Int32
-      description: Id of associate to cache folders for
-    - id: credentials
-      type: SuperOffice.CRM.Mail.SoMailCredentials
-      description: Login credentials for mail server/account
-    - id: folder
-      type: System.String
-      description: If specified, cache only this folder
-    - id: folderCount
-      type: System.Int32
-      description: out parameter, returns number of envelopes in selected folder
-    - id: downloadedEnvelopeCount
-      type: System.Int32
-      description: out parameter, returns number of new elements downloaded
-    - id: cachedEnvelopeCount
-      type: System.Int32
-      description: out parameter, returns number of envelopes in cache
-    return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.Int32,System.Int32,System.Int32}}
       description: True if one or more new messages was found on the server.
-    content.vb: Public Shared Function CacheMailForAssociate(associateId As Integer, credentials As SoMailCredentials, folder As String, ByRef folderCount As Integer, ByRef downloadedEnvelopeCount As Integer, ByRef cachedEnvelopeCount As Integer) As Boolean
-  overload: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate*
-  nameWithType.vb: MailCache.CacheMailForAssociate(Int32, SoMailCredentials, String, ByRef Int32, ByRef Int32, ByRef Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate(System.Int32, SuperOffice.CRM.Mail.SoMailCredentials, System.String, ByRef System.Int32, ByRef System.Int32, ByRef System.Int32)
-  name.vb: CacheMailForAssociate(Int32, SoMailCredentials, String, ByRef Int32, ByRef Int32, ByRef Int32)
+    content.vb: Public Shared Function CacheMailForAssociateAsync(associateId As Integer, credentials As SoMailCredentials, folder As String, cancellationToken As CancellationToken) As Task(Of (changes As Boolean, folderCount As Integer, downloadedEnvelopeCount As Integer, cachedEnvelopeCount As Integer))
+  overload: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociateAsync*
+  nameWithType.vb: MailCache.CacheMailForAssociateAsync(Integer, SoMailCredentials, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociateAsync(Integer, SuperOffice.CRM.Mail.SoMailCredentials, String, System.Threading.CancellationToken)
+  name.vb: CacheMailForAssociateAsync(Integer, SoMailCredentials, String, CancellationToken)
 - uid: SuperOffice.CRM.Mail.MailCache.FindMessageInIdList(SuperOffice.CRM.Mail.MailEnvelope,System.Int32[])
   commentId: M:SuperOffice.CRM.Mail.MailCache.FindMessageInIdList(SuperOffice.CRM.Mail.MailEnvelope,System.Int32[])
   id: FindMessageInIdList(SuperOffice.CRM.Mail.MailEnvelope,System.Int32[])
@@ -200,337 +122,154 @@ items:
   langs:
   - csharp
   - vb
-  name: FindMessageInIdList(MailEnvelope, Int32[])
-  nameWithType: MailCache.FindMessageInIdList(MailEnvelope, Int32[])
-  fullName: SuperOffice.CRM.Mail.MailCache.FindMessageInIdList(SuperOffice.CRM.Mail.MailEnvelope, System.Int32[])
+  name: FindMessageInIdList(MailEnvelope, int[])
+  nameWithType: MailCache.FindMessageInIdList(MailEnvelope, int[])
+  fullName: SuperOffice.CRM.Mail.MailCache.FindMessageInIdList(SuperOffice.CRM.Mail.MailEnvelope, int[])
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\nreturns true if a message exists in the given list of messageids\n"
+  summary: returns true if a message exists in the given list of messageids
+  example: []
   syntax:
     content: public static bool FindMessageInIdList(MailEnvelope envelope, int[] idList)
     parameters:
     - id: envelope
       type: SuperOffice.CRM.Mail.MailEnvelope
+      description: ''
     - id: idList
       type: System.Int32[]
+      description: ''
     return:
       type: System.Boolean
+      description: ''
     content.vb: Public Shared Function FindMessageInIdList(envelope As MailEnvelope, idList As Integer()) As Boolean
   overload: SuperOffice.CRM.Mail.MailCache.FindMessageInIdList*
-  nameWithType.vb: MailCache.FindMessageInIdList(MailEnvelope, Int32())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Mail.MailCache.FindMessageInIdList(SuperOffice.CRM.Mail.MailEnvelope, System.Int32())
-  name.vb: FindMessageInIdList(MailEnvelope, Int32())
-- uid: SuperOffice.CRM.Mail.MailCache.UpdateCacheWithNewEMail(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.UpdateCacheWithNewEMail(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
-  id: UpdateCacheWithNewEMail(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
+  nameWithType.vb: MailCache.FindMessageInIdList(MailEnvelope, Integer())
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.FindMessageInIdList(SuperOffice.CRM.Mail.MailEnvelope, Integer())
+  name.vb: FindMessageInIdList(MailEnvelope, Integer())
+- uid: SuperOffice.CRM.Mail.MailCache.GetCachingStartedAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetCachingStartedAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.Threading.CancellationToken)
+  id: GetCachingStartedAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: UpdateCacheWithNewEMail(Int32, SoMailCredentials, String)
-  nameWithType: MailCache.UpdateCacheWithNewEMail(Int32, SoMailCredentials, String)
-  fullName: SuperOffice.CRM.Mail.MailCache.UpdateCacheWithNewEMail(System.Int32, SuperOffice.CRM.Mail.SoMailCredentials, System.String)
+  name: GetCachingStartedAsync(int, SoMailCredentials, CancellationToken)
+  nameWithType: MailCache.GetCachingStartedAsync(int, SoMailCredentials, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetCachingStartedAsync(int, SuperOffice.CRM.Mail.SoMailCredentials, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\nUpdates the cache with new email that has arrived after the last one in the cache.\n"
+  summary: Check if there is a ForeignKey record that matches the account, has the active subkey, and is between 0 and 60 minutes old
+  example: []
   syntax:
-    content: public static bool UpdateCacheWithNewEMail(int associateId, SoMailCredentials credentials, string folder)
+    content: public static Task<bool> GetCachingStartedAsync(int associateId, SoMailCredentials credentials, CancellationToken cancellationToken)
     parameters:
     - id: associateId
       type: System.Int32
-      description: Id of associate to cache folders for
+      description: ''
     - id: credentials
       type: SuperOffice.CRM.Mail.SoMailCredentials
-      description: Login credentials for mail server/account
-    - id: folder
-      type: System.String
-      description: If specified, cache only this folder
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
     return:
-      type: System.Boolean
-      description: >-
-        True if one or more new messages was found on the server. Checked
-
-        against the message id.
-    content.vb: Public Shared Function UpdateCacheWithNewEMail(associateId As Integer, credentials As SoMailCredentials, folder As String) As Boolean
-  overload: SuperOffice.CRM.Mail.MailCache.UpdateCacheWithNewEMail*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.UpdateStatusAndDeletedEnvelopes(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.UpdateStatusAndDeletedEnvelopes(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
-  id: UpdateStatusAndDeletedEnvelopes(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
+    content.vb: Public Shared Function GetCachingStartedAsync(associateId As Integer, credentials As SoMailCredentials, cancellationToken As CancellationToken) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Mail.MailCache.GetCachingStartedAsync*
+  nameWithType.vb: MailCache.GetCachingStartedAsync(Integer, SoMailCredentials, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetCachingStartedAsync(Integer, SuperOffice.CRM.Mail.SoMailCredentials, System.Threading.CancellationToken)
+  name.vb: GetCachingStartedAsync(Integer, SoMailCredentials, CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailCache.SetCachingStartedAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.SetCachingStartedAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.Threading.CancellationToken)
+  id: SetCachingStartedAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: UpdateStatusAndDeletedEnvelopes(Int32, SoMailCredentials, String)
-  nameWithType: MailCache.UpdateStatusAndDeletedEnvelopes(Int32, SoMailCredentials, String)
-  fullName: SuperOffice.CRM.Mail.MailCache.UpdateStatusAndDeletedEnvelopes(System.Int32, SuperOffice.CRM.Mail.SoMailCredentials, System.String)
+  name: SetCachingStartedAsync(int, SoMailCredentials, CancellationToken)
+  nameWithType: MailCache.SetCachingStartedAsync(int, SoMailCredentials, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.SetCachingStartedAsync(int, SuperOffice.CRM.Mail.SoMailCredentials, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\nChecks all messages in the cache and removes deleted and changes status.\n"
+  summary: If needed, create the ForeignKey record; make sure sure it has the Actvie Subkey value, and updated = Now
+  example: []
   syntax:
-    content: public static bool UpdateStatusAndDeletedEnvelopes(int associateId, SoMailCredentials credentials, string folder)
+    content: public static Task SetCachingStartedAsync(int associateId, SoMailCredentials credentials, CancellationToken cancellationToken)
     parameters:
     - id: associateId
       type: System.Int32
+      description: ''
     - id: credentials
       type: SuperOffice.CRM.Mail.SoMailCredentials
-    - id: folder
-      type: System.String
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
     return:
-      type: System.Boolean
-    content.vb: Public Shared Function UpdateStatusAndDeletedEnvelopes(associateId As Integer, credentials As SoMailCredentials, folder As String) As Boolean
-  overload: SuperOffice.CRM.Mail.MailCache.UpdateStatusAndDeletedEnvelopes*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetCachingStarted(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetCachingStarted(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
-  id: GetCachingStarted(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetCachingStartedAsync(associateId As Integer, credentials As SoMailCredentials, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.Mail.MailCache.SetCachingStartedAsync*
+  nameWithType.vb: MailCache.SetCachingStartedAsync(Integer, SoMailCredentials, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.SetCachingStartedAsync(Integer, SuperOffice.CRM.Mail.SoMailCredentials, System.Threading.CancellationToken)
+  name.vb: SetCachingStartedAsync(Integer, SoMailCredentials, CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailCache.SetCachingFinishedAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.SetCachingFinishedAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.Threading.CancellationToken)
+  id: SetCachingFinishedAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: GetCachingStarted(Int32, SoMailCredentials)
-  nameWithType: MailCache.GetCachingStarted(Int32, SoMailCredentials)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetCachingStarted(System.Int32, SuperOffice.CRM.Mail.SoMailCredentials)
+  name: SetCachingFinishedAsync(int, SoMailCredentials, CancellationToken)
+  nameWithType: MailCache.SetCachingFinishedAsync(int, SoMailCredentials, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.SetCachingFinishedAsync(int, SuperOffice.CRM.Mail.SoMailCredentials, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\nCheck if there is a ForeignKey record that matches the account, has the active subkey, and is between 0 and 60 minutes old\n"
+  summary: Update the ForeignKey record to Inactive SubKey value
+  example: []
   syntax:
-    content: public static bool GetCachingStarted(int associateId, SoMailCredentials credentials)
+    content: public static Task SetCachingFinishedAsync(int associateId, SoMailCredentials credentials, CancellationToken cancellationToken)
     parameters:
     - id: associateId
       type: System.Int32
+      description: ''
     - id: credentials
       type: SuperOffice.CRM.Mail.SoMailCredentials
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
     return:
-      type: System.Boolean
-    content.vb: Public Shared Function GetCachingStarted(associateId As Integer, credentials As SoMailCredentials) As Boolean
-  overload: SuperOffice.CRM.Mail.MailCache.GetCachingStarted*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.SetCachingStarted(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.SetCachingStarted(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
-  id: SetCachingStarted(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetCachingFinishedAsync(associateId As Integer, credentials As SoMailCredentials, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.Mail.MailCache.SetCachingFinishedAsync*
+  nameWithType.vb: MailCache.SetCachingFinishedAsync(Integer, SoMailCredentials, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.SetCachingFinishedAsync(Integer, SuperOffice.CRM.Mail.SoMailCredentials, System.Threading.CancellationToken)
+  name.vb: SetCachingFinishedAsync(Integer, SoMailCredentials, CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopesAsync(System.Int32,System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopesAsync(System.Int32,System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: GetCachedEnvelopesAsync(System.Int32,System.String,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: SetCachingStarted(Int32, SoMailCredentials)
-  nameWithType: MailCache.SetCachingStarted(Int32, SoMailCredentials)
-  fullName: SuperOffice.CRM.Mail.MailCache.SetCachingStarted(System.Int32, SuperOffice.CRM.Mail.SoMailCredentials)
+  name: GetCachedEnvelopesAsync(int, string, string, string, CancellationToken)
+  nameWithType: MailCache.GetCachedEnvelopesAsync(int, string, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopesAsync(int, string, string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Mail
-  summary: "\nIf needed, create the ForeignKey record; make sure sure it has the Actvie Subkey value, and updated = Now\n"
-  syntax:
-    content: public static void SetCachingStarted(int associateId, SoMailCredentials credentials)
-    parameters:
-    - id: associateId
-      type: System.Int32
-    - id: credentials
-      type: SuperOffice.CRM.Mail.SoMailCredentials
-    content.vb: Public Shared Sub SetCachingStarted(associateId As Integer, credentials As SoMailCredentials)
-  overload: SuperOffice.CRM.Mail.MailCache.SetCachingStarted*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.SetCachingFinished(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.SetCachingFinished(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
-  id: SetCachingFinished(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
-  parent: SuperOffice.CRM.Mail.MailCache
-  langs:
-  - csharp
-  - vb
-  name: SetCachingFinished(Int32, SoMailCredentials)
-  nameWithType: MailCache.SetCachingFinished(Int32, SoMailCredentials)
-  fullName: SuperOffice.CRM.Mail.MailCache.SetCachingFinished(System.Int32, SuperOffice.CRM.Mail.SoMailCredentials)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Mail
-  summary: "\nUpdate the ForeignKey record to Inactive SubKey value\n"
-  syntax:
-    content: public static void SetCachingFinished(int associateId, SoMailCredentials credentials)
-    parameters:
-    - id: associateId
-      type: System.Int32
-    - id: credentials
-      type: SuperOffice.CRM.Mail.SoMailCredentials
-    content.vb: Public Shared Sub SetCachingFinished(associateId As Integer, credentials As SoMailCredentials)
-  overload: SuperOffice.CRM.Mail.MailCache.SetCachingFinished*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32,System.String,System.String,System.String,System.DateTime@)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32,System.String,System.String,System.String,System.DateTime@)
-  id: GetCachedEnvelopes(System.Int32,System.String,System.String,System.String,System.DateTime@)
-  parent: SuperOffice.CRM.Mail.MailCache
-  langs:
-  - csharp
-  - vb
-  name: GetCachedEnvelopes(Int32, String, String, String, out DateTime)
-  nameWithType: MailCache.GetCachedEnvelopes(Int32, String, String, String, out DateTime)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32, System.String, System.String, System.String, out System.DateTime)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Mail
-  summary: "\nGet cached envelopes of a folder for a specified associate\n"
-  syntax:
-    content: public static MailEnvelope[] GetCachedEnvelopes(int assocId, string server, string username, string folder, out DateTime lastMailDate)
-    parameters:
-    - id: assocId
-      type: System.Int32
-      description: Id of associate
-    - id: server
-      type: System.String
-      description: Mail server
-    - id: username
-      type: System.String
-      description: Mail server account
-    - id: folder
-      type: System.String
-      description: Name of folder
-    - id: lastMailDate
-      type: System.DateTime
-      description: Date and time of arrival at mail server, of latest mail
-    return:
-      type: SuperOffice.CRM.Mail.MailEnvelope[]
-      description: Populated MailEnvelope array
-    content.vb: Public Shared Function GetCachedEnvelopes(assocId As Integer, server As String, username As String, folder As String, ByRef lastMailDate As DateTime) As MailEnvelope()
-  overload: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes*
-  nameWithType.vb: MailCache.GetCachedEnvelopes(Int32, String, String, String, ByRef DateTime)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32, System.String, System.String, System.String, ByRef System.DateTime)
-  name.vb: GetCachedEnvelopes(Int32, String, String, String, ByRef DateTime)
-- uid: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32,System.String,System.String,System.String,System.Int32@)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32,System.String,System.String,System.String,System.Int32@)
-  id: GetCachedEnvelopes(System.Int32,System.String,System.String,System.String,System.Int32@)
-  parent: SuperOffice.CRM.Mail.MailCache
-  langs:
-  - csharp
-  - vb
-  name: GetCachedEnvelopes(Int32, String, String, String, out Int32)
-  nameWithType: MailCache.GetCachedEnvelopes(Int32, String, String, String, out Int32)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32, System.String, System.String, System.String, out System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Mail
-  summary: "\nGet cached envelopes of a folder for a specified associate\n"
-  syntax:
-    content: public static MailEnvelope[] GetCachedEnvelopes(int assocId, string server, string username, string folder, out int lastMailUID)
-    parameters:
-    - id: assocId
-      type: System.Int32
-      description: Id of associate
-    - id: server
-      type: System.String
-      description: Mail server
-    - id: username
-      type: System.String
-      description: Mail server account
-    - id: folder
-      type: System.String
-      description: Name of folder
-    - id: lastMailUID
-      type: System.Int32
-    return:
-      type: SuperOffice.CRM.Mail.MailEnvelope[]
-      description: Populated MailEnvelope array
-    content.vb: Public Shared Function GetCachedEnvelopes(assocId As Integer, server As String, username As String, folder As String, ByRef lastMailUID As Integer) As MailEnvelope()
-  overload: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes*
-  nameWithType.vb: MailCache.GetCachedEnvelopes(Int32, String, String, String, ByRef Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32, System.String, System.String, System.String, ByRef System.Int32)
-  name.vb: GetCachedEnvelopes(Int32, String, String, String, ByRef Int32)
-- uid: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32,System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32,System.String,System.String,System.String)
-  id: GetCachedEnvelopes(System.Int32,System.String,System.String,System.String)
-  parent: SuperOffice.CRM.Mail.MailCache
-  langs:
-  - csharp
-  - vb
-  name: GetCachedEnvelopes(Int32, String, String, String)
-  nameWithType: MailCache.GetCachedEnvelopes(Int32, String, String, String)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32, System.String, System.String, System.String)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
   syntax:
-    content: public static MailEnvelope[] GetCachedEnvelopes(int assocId, string server, string username, string folder)
+    content: public static Task<(MailEnvelope[] envelopes, int lastMailUID, DateTime lastMailDate)> GetCachedEnvelopesAsync(int assocId, string server, string username, string folder, CancellationToken cancellationToken)
     parameters:
     - id: assocId
       type: System.Int32
@@ -540,68 +279,33 @@ items:
       type: System.String
     - id: folder
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Mail.MailEnvelope[]
-    content.vb: Public Shared Function GetCachedEnvelopes(assocId As Integer, server As String, username As String, folder As String) As MailEnvelope()
-  overload: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetEnvelopeFromDataReader(SuperOffice.Data.SoDataReader)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetEnvelopeFromDataReader(SuperOffice.Data.SoDataReader)
-  id: GetEnvelopeFromDataReader(SuperOffice.Data.SoDataReader)
+      type: System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.CRM.Mail.MailEnvelope[],System.Int32,System.DateTime}}
+    content.vb: Public Shared Function GetCachedEnvelopesAsync(assocId As Integer, server As String, username As String, folder As String, cancellationToken As CancellationToken) As Task(Of (envelopes As MailEnvelope(), lastMailUID As Integer, lastMailDate As Date))
+  overload: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopesAsync*
+  nameWithType.vb: MailCache.GetCachedEnvelopesAsync(Integer, String, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopesAsync(Integer, String, String, String, System.Threading.CancellationToken)
+  name.vb: GetCachedEnvelopesAsync(Integer, String, String, String, CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfoAsync(System.Int32,System.String,System.String,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfoAsync(System.Int32,System.String,System.String,System.String[],System.Threading.CancellationToken)
+  id: GetCachedFolderInfoAsync(System.Int32,System.String,System.String,System.String[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: GetEnvelopeFromDataReader(SoDataReader)
-  nameWithType: MailCache.GetEnvelopeFromDataReader(SoDataReader)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetEnvelopeFromDataReader(SuperOffice.Data.SoDataReader)
+  name: GetCachedFolderInfoAsync(int, string, string, string[], CancellationToken)
+  nameWithType: MailCache.GetCachedFolderInfoAsync(int, string, string, string[], CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfoAsync(int, string, string, string[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
+  summary: Returns the number of items in a given list of folders
+  example: []
   syntax:
-    content: public static MailEnvelope GetEnvelopeFromDataReader(SoDataReader reader)
-    parameters:
-    - id: reader
-      type: SuperOffice.Data.SoDataReader
-    return:
-      type: SuperOffice.CRM.Mail.MailEnvelope
-    content.vb: Public Shared Function GetEnvelopeFromDataReader(reader As SoDataReader) As MailEnvelope
-  overload: SuperOffice.CRM.Mail.MailCache.GetEnvelopeFromDataReader*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfo(System.Int32,System.String,System.String,System.String[])
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfo(System.Int32,System.String,System.String,System.String[])
-  id: GetCachedFolderInfo(System.Int32,System.String,System.String,System.String[])
-  parent: SuperOffice.CRM.Mail.MailCache
-  langs:
-  - csharp
-  - vb
-  name: GetCachedFolderInfo(Int32, String, String, String[])
-  nameWithType: MailCache.GetCachedFolderInfo(Int32, String, String, String[])
-  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfo(System.Int32, System.String, System.String, System.String[])
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Mail
-  summary: "\nReturns the number of items in a given list of folders\n"
-  syntax:
-    content: public static SoMailFolderInfo[] GetCachedFolderInfo(int assocId, string server, string username, string[] folderList)
+    content: public static Task<SoMailFolderInfo[]> GetCachedFolderInfoAsync(int assocId, string server, string username, string[] folderList, CancellationToken cancellationToken)
     parameters:
     - id: assocId
       type: System.Int32
@@ -615,39 +319,34 @@ items:
     - id: folderList
       type: System.String[]
       description: List of folder names to return count from
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
     return:
-      type: SuperOffice.CRM.Mail.SoMailFolderInfo[]
-    content.vb: Public Shared Function GetCachedFolderInfo(assocId As Integer, server As String, username As String, folderList As String()) As SoMailFolderInfo()
-  overload: SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfo*
-  nameWithType.vb: MailCache.GetCachedFolderInfo(Int32, String, String, String())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfo(System.Int32, System.String, System.String, System.String())
-  name.vb: GetCachedFolderInfo(Int32, String, String, String())
-- uid: SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfo(System.Int32,System.String,System.String,SuperOffice.CRM.Mail.SoMailFolderInfo[])
-  commentId: M:SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfo(System.Int32,System.String,System.String,SuperOffice.CRM.Mail.SoMailFolderInfo[])
-  id: SetCachedFolderInfo(System.Int32,System.String,System.String,SuperOffice.CRM.Mail.SoMailFolderInfo[])
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Mail.SoMailFolderInfo[]}
+    content.vb: Public Shared Function GetCachedFolderInfoAsync(assocId As Integer, server As String, username As String, folderList As String(), cancellationToken As CancellationToken) As Task(Of SoMailFolderInfo())
+  overload: SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfoAsync*
+  nameWithType.vb: MailCache.GetCachedFolderInfoAsync(Integer, String, String, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfoAsync(Integer, String, String, String(), System.Threading.CancellationToken)
+  name.vb: GetCachedFolderInfoAsync(Integer, String, String, String(), CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfoAsync(System.Int32,System.String,System.String,SuperOffice.CRM.Mail.SoMailFolderInfo[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfoAsync(System.Int32,System.String,System.String,SuperOffice.CRM.Mail.SoMailFolderInfo[],System.Threading.CancellationToken)
+  id: SetCachedFolderInfoAsync(System.Int32,System.String,System.String,SuperOffice.CRM.Mail.SoMailFolderInfo[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: SetCachedFolderInfo(Int32, String, String, SoMailFolderInfo[])
-  nameWithType: MailCache.SetCachedFolderInfo(Int32, String, String, SoMailFolderInfo[])
-  fullName: SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfo(System.Int32, System.String, System.String, SuperOffice.CRM.Mail.SoMailFolderInfo[])
+  name: SetCachedFolderInfoAsync(int, string, string, SoMailFolderInfo[], CancellationToken)
+  nameWithType: MailCache.SetCachedFolderInfoAsync(int, string, string, SoMailFolderInfo[], CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfoAsync(int, string, string, SuperOffice.CRM.Mail.SoMailFolderInfo[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\nCache mail folder info to the database\n"
+  summary: Cache mail folder info to the database
+  example: []
   syntax:
-    content: public static void SetCachedFolderInfo(int assocId, string server, string username, SoMailFolderInfo[] folderInfo)
+    content: public static Task SetCachedFolderInfoAsync(int assocId, string server, string username, SoMailFolderInfo[] folderInfo, CancellationToken cancellationToken)
     parameters:
     - id: assocId
       type: System.Int32
@@ -661,17 +360,16 @@ items:
     - id: folderInfo
       type: SuperOffice.CRM.Mail.SoMailFolderInfo[]
       description: Folder information to cache
-    content.vb: Public Shared Sub SetCachedFolderInfo(assocId As Integer, server As String, username As String, folderInfo As SoMailFolderInfo())
-  overload: SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfo*
-  nameWithType.vb: MailCache.SetCachedFolderInfo(Int32, String, String, SoMailFolderInfo())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfo(System.Int32, System.String, System.String, SuperOffice.CRM.Mail.SoMailFolderInfo())
-  name.vb: SetCachedFolderInfo(Int32, String, String, SoMailFolderInfo())
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetCachedFolderInfoAsync(assocId As Integer, server As String, username As String, folderInfo As SoMailFolderInfo(), cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfoAsync*
+  nameWithType.vb: MailCache.SetCachedFolderInfoAsync(Integer, String, String, SoMailFolderInfo(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfoAsync(Integer, String, String, SuperOffice.CRM.Mail.SoMailFolderInfo(), System.Threading.CancellationToken)
+  name.vb: SetCachedFolderInfoAsync(Integer, String, String, SoMailFolderInfo(), CancellationToken)
 - uid: SuperOffice.CRM.Mail.MailCache.ClearCachedFolderInfo(System.Int32,System.String,System.String)
   commentId: M:SuperOffice.CRM.Mail.MailCache.ClearCachedFolderInfo(System.Int32,System.String,System.String)
   id: ClearCachedFolderInfo(System.Int32,System.String,System.String)
@@ -679,17 +377,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ClearCachedFolderInfo(Int32, String, String)
-  nameWithType: MailCache.ClearCachedFolderInfo(Int32, String, String)
-  fullName: SuperOffice.CRM.Mail.MailCache.ClearCachedFolderInfo(System.Int32, System.String, System.String)
+  name: ClearCachedFolderInfo(int, string, string)
+  nameWithType: MailCache.ClearCachedFolderInfo(int, string, string)
+  fullName: SuperOffice.CRM.Mail.MailCache.ClearCachedFolderInfo(int, string, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\nCache mail folder info to the database\n"
+  summary: Cache mail folder info to the database
+  example: []
   syntax:
     content: public static void ClearCachedFolderInfo(int assocId, string server, string username)
     parameters:
@@ -704,32 +400,27 @@ items:
       description: Mail server account
     content.vb: Public Shared Sub ClearCachedFolderInfo(assocId As Integer, server As String, username As String)
   overload: SuperOffice.CRM.Mail.MailCache.ClearCachedFolderInfo*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetCachedFolderList(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetCachedFolderList(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
-  id: GetCachedFolderList(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
+  nameWithType.vb: MailCache.ClearCachedFolderInfo(Integer, String, String)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.ClearCachedFolderInfo(Integer, String, String)
+  name.vb: ClearCachedFolderInfo(Integer, String, String)
+- uid: SuperOffice.CRM.Mail.MailCache.GetCachedFolderListAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetCachedFolderListAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.Threading.CancellationToken)
+  id: GetCachedFolderListAsync(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: GetCachedFolderList(Int32, SoMailCredentials)
-  nameWithType: MailCache.GetCachedFolderList(Int32, SoMailCredentials)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedFolderList(System.Int32, SuperOffice.CRM.Mail.SoMailCredentials)
+  name: GetCachedFolderListAsync(int, SoMailCredentials, CancellationToken)
+  nameWithType: MailCache.GetCachedFolderListAsync(int, SoMailCredentials, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedFolderListAsync(int, SuperOffice.CRM.Mail.SoMailCredentials, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\nReturns a cached list of folders \n"
+  summary: Returns a cached list of folders
+  example: []
   syntax:
-    content: public static string[] GetCachedFolderList(int assocId, SoMailCredentials credentials)
+    content: public static Task<string[]> GetCachedFolderListAsync(int assocId, SoMailCredentials credentials, CancellationToken cancellationToken)
     parameters:
     - id: assocId
       type: System.Int32
@@ -737,36 +428,34 @@ items:
     - id: credentials
       type: SuperOffice.CRM.Mail.SoMailCredentials
       description: Mail server credentials
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
     return:
-      type: System.String[]
-    content.vb: Public Shared Function GetCachedFolderList(assocId As Integer, credentials As SoMailCredentials) As String()
-  overload: SuperOffice.CRM.Mail.MailCache.GetCachedFolderList*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetCachedMailItem(System.Int32,System.String,System.String,System.Int32,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetCachedMailItem(System.Int32,System.String,System.String,System.Int32,System.String,System.Boolean)
-  id: GetCachedMailItem(System.Int32,System.String,System.String,System.Int32,System.String,System.Boolean)
+      type: System.Threading.Tasks.Task{System.String[]}
+    content.vb: Public Shared Function GetCachedFolderListAsync(assocId As Integer, credentials As SoMailCredentials, cancellationToken As CancellationToken) As Task(Of String())
+  overload: SuperOffice.CRM.Mail.MailCache.GetCachedFolderListAsync*
+  nameWithType.vb: MailCache.GetCachedFolderListAsync(Integer, SoMailCredentials, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetCachedFolderListAsync(Integer, SuperOffice.CRM.Mail.SoMailCredentials, System.Threading.CancellationToken)
+  name.vb: GetCachedFolderListAsync(Integer, SoMailCredentials, CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailCache.GetCachedMailItemAsync(System.Int32,System.String,System.String,System.Int32,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetCachedMailItemAsync(System.Int32,System.String,System.String,System.Int32,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: GetCachedMailItemAsync(System.Int32,System.String,System.String,System.Int32,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: GetCachedMailItem(Int32, String, String, Int32, String, Boolean)
-  nameWithType: MailCache.GetCachedMailItem(Int32, String, String, Int32, String, Boolean)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedMailItem(System.Int32, System.String, System.String, System.Int32, System.String, System.Boolean)
+  name: GetCachedMailItemAsync(int, string, string, int, string, bool, CancellationToken)
+  nameWithType: MailCache.GetCachedMailItemAsync(int, string, string, int, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedMailItemAsync(int, string, string, int, string, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\nLook for and return a MailItem from the database. If item is not found, null is returned.\n"
+  summary: Look for and return a MailItem from the database. If item is not found, null is returned.
+  example: []
   syntax:
-    content: public static MailItem GetCachedMailItem(int assocId, string server, string username, int messageId, string folder, bool includeAttachments)
+    content: public static Task<MailItem> GetCachedMailItemAsync(int assocId, string server, string username, int messageId, string folder, bool includeAttachments, CancellationToken cancellationToken)
     parameters:
     - id: assocId
       type: System.Int32
@@ -786,17 +475,17 @@ items:
     - id: includeAttachments
       type: System.Boolean
       description: If true, cached object need to contain all attachments
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
     return:
-      type: SuperOffice.CRM.Mail.MailItem
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Mail.MailItem}
       description: MailItem object, or null if no object is found
-    content.vb: Public Shared Function GetCachedMailItem(assocId As Integer, server As String, username As String, messageId As Integer, folder As String, includeAttachments As Boolean) As MailItem
-  overload: SuperOffice.CRM.Mail.MailCache.GetCachedMailItem*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+    content.vb: Public Shared Function GetCachedMailItemAsync(assocId As Integer, server As String, username As String, messageId As Integer, folder As String, includeAttachments As Boolean, cancellationToken As CancellationToken) As Task(Of MailItem)
+  overload: SuperOffice.CRM.Mail.MailCache.GetCachedMailItemAsync*
+  nameWithType.vb: MailCache.GetCachedMailItemAsync(Integer, String, String, Integer, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetCachedMailItemAsync(Integer, String, String, Integer, String, Boolean, System.Threading.CancellationToken)
+  name.vb: GetCachedMailItemAsync(Integer, String, String, Integer, String, Boolean, CancellationToken)
 - uid: SuperOffice.CRM.Mail.MailCache.UpdateRecipientList(System.Int32,SuperOffice.CRM.Mail.MailEnvelope)
   commentId: M:SuperOffice.CRM.Mail.MailCache.UpdateRecipientList(System.Int32,SuperOffice.CRM.Mail.MailEnvelope)
   id: UpdateRecipientList(System.Int32,SuperOffice.CRM.Mail.MailEnvelope)
@@ -804,15 +493,12 @@ items:
   langs:
   - csharp
   - vb
-  name: UpdateRecipientList(Int32, MailEnvelope)
-  nameWithType: MailCache.UpdateRecipientList(Int32, MailEnvelope)
-  fullName: SuperOffice.CRM.Mail.MailCache.UpdateRecipientList(System.Int32, SuperOffice.CRM.Mail.MailEnvelope)
+  name: UpdateRecipientList(int, MailEnvelope)
+  nameWithType: MailCache.UpdateRecipientList(int, MailEnvelope)
+  fullName: SuperOffice.CRM.Mail.MailCache.UpdateRecipientList(int, SuperOffice.CRM.Mail.MailEnvelope)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
   syntax:
     content: public static void UpdateRecipientList(int assosciateId, MailEnvelope mail)
@@ -823,12 +509,9 @@ items:
       type: SuperOffice.CRM.Mail.MailEnvelope
     content.vb: Public Shared Sub UpdateRecipientList(assosciateId As Integer, mail As MailEnvelope)
   overload: SuperOffice.CRM.Mail.MailCache.UpdateRecipientList*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: MailCache.UpdateRecipientList(Integer, MailEnvelope)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.UpdateRecipientList(Integer, SuperOffice.CRM.Mail.MailEnvelope)
+  name.vb: UpdateRecipientList(Integer, MailEnvelope)
 - uid: SuperOffice.CRM.Mail.MailCache.GetMinimalMailEnvelope(System.Int32,SuperOffice.Data.EMailFlags)
   commentId: M:SuperOffice.CRM.Mail.MailCache.GetMinimalMailEnvelope(System.Int32,SuperOffice.Data.EMailFlags)
   id: GetMinimalMailEnvelope(System.Int32,SuperOffice.Data.EMailFlags)
@@ -836,15 +519,12 @@ items:
   langs:
   - csharp
   - vb
-  name: GetMinimalMailEnvelope(Int32, EMailFlags)
-  nameWithType: MailCache.GetMinimalMailEnvelope(Int32, EMailFlags)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetMinimalMailEnvelope(System.Int32, SuperOffice.Data.EMailFlags)
+  name: GetMinimalMailEnvelope(int, EMailFlags)
+  nameWithType: MailCache.GetMinimalMailEnvelope(int, EMailFlags)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetMinimalMailEnvelope(int, SuperOffice.Data.EMailFlags)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
   syntax:
     content: public static MailEnvelope GetMinimalMailEnvelope(int serverId, EMailFlags flags)
@@ -857,511 +537,448 @@ items:
       type: SuperOffice.CRM.Mail.MailEnvelope
     content.vb: Public Shared Function GetMinimalMailEnvelope(serverId As Integer, flags As EMailFlags) As MailEnvelope
   overload: SuperOffice.CRM.Mail.MailCache.GetMinimalMailEnvelope*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetMailItemFromDataReader(SuperOffice.Data.SoDataReader)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetMailItemFromDataReader(SuperOffice.Data.SoDataReader)
-  id: GetMailItemFromDataReader(SuperOffice.Data.SoDataReader)
+  nameWithType.vb: MailCache.GetMinimalMailEnvelope(Integer, EMailFlags)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetMinimalMailEnvelope(Integer, SuperOffice.Data.EMailFlags)
+  name.vb: GetMinimalMailEnvelope(Integer, EMailFlags)
+- uid: SuperOffice.CRM.Mail.MailCache.GetTrashFolderNameAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetTrashFolderNameAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTrashFolderNameAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: GetMailItemFromDataReader(SoDataReader)
-  nameWithType: MailCache.GetMailItemFromDataReader(SoDataReader)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetMailItemFromDataReader(SuperOffice.Data.SoDataReader)
+  name: GetTrashFolderNameAsync(int, CancellationToken)
+  nameWithType: MailCache.GetTrashFolderNameAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetTrashFolderNameAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
+  summary: Get the full name of the folder with the Trash attribute in the database.
+  example: []
   syntax:
-    content: public static MailItem GetMailItemFromDataReader(SoDataReader reader)
-    parameters:
-    - id: reader
-      type: SuperOffice.Data.SoDataReader
-    return:
-      type: SuperOffice.CRM.Mail.MailItem
-    content.vb: Public Shared Function GetMailItemFromDataReader(reader As SoDataReader) As MailItem
-  overload: SuperOffice.CRM.Mail.MailCache.GetMailItemFromDataReader*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetTrashFolderName(System.Int32)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetTrashFolderName(System.Int32)
-  id: GetTrashFolderName(System.Int32)
-  parent: SuperOffice.CRM.Mail.MailCache
-  langs:
-  - csharp
-  - vb
-  name: GetTrashFolderName(Int32)
-  nameWithType: MailCache.GetTrashFolderName(Int32)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetTrashFolderName(System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Mail
-  summary: "\nGet the full name of the folder with the Trash attribute in the database.\n"
-  syntax:
-    content: public static string GetTrashFolderName(int accountId)
+    content: public static Task<string> GetTrashFolderNameAsync(int accountId, CancellationToken cancellationToken)
     parameters:
     - id: accountId
       type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetTrashFolderName(accountId As Integer) As String
-  overload: SuperOffice.CRM.Mail.MailCache.GetTrashFolderName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetSentFolderName(System.Int32,System.Boolean)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetSentFolderName(System.Int32,System.Boolean)
-  id: GetSentFolderName(System.Int32,System.Boolean)
+      type: System.Threading.Tasks.Task{System.String}
+      description: ''
+    content.vb: Public Shared Function GetTrashFolderNameAsync(accountId As Integer, cancellationToken As CancellationToken) As Task(Of String)
+  overload: SuperOffice.CRM.Mail.MailCache.GetTrashFolderNameAsync*
+  nameWithType.vb: MailCache.GetTrashFolderNameAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetTrashFolderNameAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetTrashFolderNameAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailCache.GetSentFolderNameAsync(System.Int32,System.Threading.CancellationToken,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetSentFolderNameAsync(System.Int32,System.Threading.CancellationToken,System.Boolean)
+  id: GetSentFolderNameAsync(System.Int32,System.Threading.CancellationToken,System.Boolean)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: GetSentFolderName(Int32, Boolean)
-  nameWithType: MailCache.GetSentFolderName(Int32, Boolean)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetSentFolderName(System.Int32, System.Boolean)
+  name: GetSentFolderNameAsync(int, CancellationToken, bool)
+  nameWithType: MailCache.GetSentFolderNameAsync(int, CancellationToken, bool)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetSentFolderNameAsync(int, System.Threading.CancellationToken, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\nGet the full name of the first folder with the Sent attribute in the database. \n"
+  summary: Get the full name of the first folder with the Sent attribute in the database.
+  example: []
   syntax:
-    content: public static string GetSentFolderName(int accountId, bool create = true)
+    content: public static Task<string> GetSentFolderNameAsync(int accountId, CancellationToken cancellationToken, bool create = true)
     parameters:
     - id: accountId
       type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     - id: create
       type: System.Boolean
     return:
-      type: System.String
-    content.vb: Public Shared Function GetSentFolderName(accountId As Integer, create As Boolean = True) As String
-  overload: SuperOffice.CRM.Mail.MailCache.GetSentFolderName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetInboxFolderName(System.Int32,System.Boolean)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetInboxFolderName(System.Int32,System.Boolean)
-  id: GetInboxFolderName(System.Int32,System.Boolean)
+      type: System.Threading.Tasks.Task{System.String}
+      description: ''
+    content.vb: Public Shared Function GetSentFolderNameAsync(accountId As Integer, cancellationToken As CancellationToken, create As Boolean = True) As Task(Of String)
+  overload: SuperOffice.CRM.Mail.MailCache.GetSentFolderNameAsync*
+  nameWithType.vb: MailCache.GetSentFolderNameAsync(Integer, CancellationToken, Boolean)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetSentFolderNameAsync(Integer, System.Threading.CancellationToken, Boolean)
+  name.vb: GetSentFolderNameAsync(Integer, CancellationToken, Boolean)
+- uid: SuperOffice.CRM.Mail.MailCache.GetInboxFolderNameAsync(System.Int32,System.Threading.CancellationToken,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetInboxFolderNameAsync(System.Int32,System.Threading.CancellationToken,System.Boolean)
+  id: GetInboxFolderNameAsync(System.Int32,System.Threading.CancellationToken,System.Boolean)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: GetInboxFolderName(Int32, Boolean)
-  nameWithType: MailCache.GetInboxFolderName(Int32, Boolean)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetInboxFolderName(System.Int32, System.Boolean)
+  name: GetInboxFolderNameAsync(int, CancellationToken, bool)
+  nameWithType: MailCache.GetInboxFolderNameAsync(int, CancellationToken, bool)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetInboxFolderNameAsync(int, System.Threading.CancellationToken, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
   syntax:
-    content: public static string GetInboxFolderName(int accountId, bool create = true)
+    content: public static Task<string> GetInboxFolderNameAsync(int accountId, CancellationToken cancellationToken, bool create = true)
     parameters:
     - id: accountId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     - id: create
       type: System.Boolean
     return:
-      type: System.String
-    content.vb: Public Shared Function GetInboxFolderName(accountId As Integer, create As Boolean = True) As String
-  overload: SuperOffice.CRM.Mail.MailCache.GetInboxFolderName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetSentFolderNames(System.Int32)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetSentFolderNames(System.Int32)
-  id: GetSentFolderNames(System.Int32)
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetInboxFolderNameAsync(accountId As Integer, cancellationToken As CancellationToken, create As Boolean = True) As Task(Of String)
+  overload: SuperOffice.CRM.Mail.MailCache.GetInboxFolderNameAsync*
+  nameWithType.vb: MailCache.GetInboxFolderNameAsync(Integer, CancellationToken, Boolean)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetInboxFolderNameAsync(Integer, System.Threading.CancellationToken, Boolean)
+  name.vb: GetInboxFolderNameAsync(Integer, CancellationToken, Boolean)
+- uid: SuperOffice.CRM.Mail.MailCache.GetSentFolderNamesAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetSentFolderNamesAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetSentFolderNamesAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: GetSentFolderNames(Int32)
-  nameWithType: MailCache.GetSentFolderNames(Int32)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetSentFolderNames(System.Int32)
+  name: GetSentFolderNamesAsync(int, CancellationToken)
+  nameWithType: MailCache.GetSentFolderNamesAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetSentFolderNamesAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\nGet all folders marked with the Sent folder attribute\n"
+  summary: Get all folders marked with the Sent folder attribute
+  example: []
   syntax:
-    content: public static string[] GetSentFolderNames(int emailAccountId)
+    content: public static Task<string[]> GetSentFolderNamesAsync(int emailAccountId, CancellationToken cancellationToken)
     parameters:
     - id: emailAccountId
       type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String[]
-    content.vb: Public Shared Function GetSentFolderNames(emailAccountId As Integer) As String()
-  overload: SuperOffice.CRM.Mail.MailCache.GetSentFolderNames*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetDraftsFolderName(System.Int32)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetDraftsFolderName(System.Int32)
-  id: GetDraftsFolderName(System.Int32)
+      type: System.Threading.Tasks.Task{System.String[]}
+      description: ''
+    content.vb: Public Shared Function GetSentFolderNamesAsync(emailAccountId As Integer, cancellationToken As CancellationToken) As Task(Of String())
+  overload: SuperOffice.CRM.Mail.MailCache.GetSentFolderNamesAsync*
+  nameWithType.vb: MailCache.GetSentFolderNamesAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetSentFolderNamesAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetSentFolderNamesAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailCache.GetDraftsFolderNameAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetDraftsFolderNameAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetDraftsFolderNameAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: GetDraftsFolderName(Int32)
-  nameWithType: MailCache.GetDraftsFolderName(Int32)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetDraftsFolderName(System.Int32)
+  name: GetDraftsFolderNameAsync(int, CancellationToken)
+  nameWithType: MailCache.GetDraftsFolderNameAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetDraftsFolderNameAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public static string GetDraftsFolderName(int accountId)
+    content: public static Task<string> GetDraftsFolderNameAsync(int accountId, CancellationToken cancellationToken)
     parameters:
     - id: accountId
       type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetDraftsFolderName(accountId As Integer) As String
-  overload: SuperOffice.CRM.Mail.MailCache.GetDraftsFolderName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderName(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetSpecialFolderName(System.Int32,System.Int32)
-  id: GetSpecialFolderName(System.Int32,System.Int32)
+      type: System.Threading.Tasks.Task{System.String}
+      description: ''
+    content.vb: Public Shared Function GetDraftsFolderNameAsync(accountId As Integer, cancellationToken As CancellationToken) As Task(Of String)
+  overload: SuperOffice.CRM.Mail.MailCache.GetDraftsFolderNameAsync*
+  nameWithType.vb: MailCache.GetDraftsFolderNameAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetDraftsFolderNameAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetDraftsFolderNameAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNameAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNameAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetSpecialFolderNameAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: GetSpecialFolderName(Int32, Int32)
-  nameWithType: MailCache.GetSpecialFolderName(Int32, Int32)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderName(System.Int32, System.Int32)
+  name: GetSpecialFolderNameAsync(int, int, CancellationToken)
+  nameWithType: MailCache.GetSpecialFolderNameAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNameAsync(int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\nGet all folders for a given account with the provided folder attribute\n"
+  summary: Get all folders for a given account with the provided folder attribute
+  example: []
   syntax:
-    content: public static string GetSpecialFolderName(int accountId, int folderAttribute)
+    content: public static Task<string> GetSpecialFolderNameAsync(int accountId, int folderAttribute, CancellationToken cancellationToken)
     parameters:
     - id: accountId
       type: System.Int32
+      description: ''
     - id: folderAttribute
       type: System.Int32
       description: EMailFolderAttributeConstants
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
     return:
-      type: System.String
-    content.vb: Public Shared Function GetSpecialFolderName(accountId As Integer, folderAttribute As Integer) As String
-  overload: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNames(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNames(System.Int32,System.Int32)
-  id: GetSpecialFolderNames(System.Int32,System.Int32)
+      type: System.Threading.Tasks.Task{System.String}
+      description: ''
+    content.vb: Public Shared Function GetSpecialFolderNameAsync(accountId As Integer, folderAttribute As Integer, cancellationToken As CancellationToken) As Task(Of String)
+  overload: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNameAsync*
+  nameWithType.vb: MailCache.GetSpecialFolderNameAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNameAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetSpecialFolderNameAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNamesAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNamesAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetSpecialFolderNamesAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: GetSpecialFolderNames(Int32, Int32)
-  nameWithType: MailCache.GetSpecialFolderNames(Int32, Int32)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNames(System.Int32, System.Int32)
+  name: GetSpecialFolderNamesAsync(int, int, CancellationToken)
+  nameWithType: MailCache.GetSpecialFolderNamesAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNamesAsync(int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
   syntax:
-    content: public static string[] GetSpecialFolderNames(int accountId, int folderAttribute)
+    content: public static Task<string[]> GetSpecialFolderNamesAsync(int accountId, int folderAttribute, CancellationToken cancellationToken)
     parameters:
     - id: accountId
       type: System.Int32
     - id: folderAttribute
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String[]
-    content.vb: Public Shared Function GetSpecialFolderNames(accountId As Integer, folderAttribute As Integer) As String()
-  overload: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNames*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetFolderName(System.Int32)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetFolderName(System.Int32)
-  id: GetFolderName(System.Int32)
+      type: System.Threading.Tasks.Task{System.String[]}
+    content.vb: Public Shared Function GetSpecialFolderNamesAsync(accountId As Integer, folderAttribute As Integer, cancellationToken As CancellationToken) As Task(Of String())
+  overload: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNamesAsync*
+  nameWithType.vb: MailCache.GetSpecialFolderNamesAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNamesAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetSpecialFolderNamesAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailCache.GetFolderNameAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetFolderNameAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFolderNameAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: GetFolderName(Int32)
-  nameWithType: MailCache.GetFolderName(Int32)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetFolderName(System.Int32)
+  name: GetFolderNameAsync(int, CancellationToken)
+  nameWithType: MailCache.GetFolderNameAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetFolderNameAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\nConstructs the full directory path from the given folder to the root folder.\n"
+  summary: Constructs the full directory path from the given folder to the root folder.
+  example: []
   syntax:
-    content: public static string GetFolderName(int folderId)
+    content: public static Task<string> GetFolderNameAsync(int folderId, CancellationToken cancellationToken)
     parameters:
     - id: folderId
       type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
     return:
-      type: System.String
-    content.vb: Public Shared Function GetFolderName(folderId As Integer) As String
-  overload: SuperOffice.CRM.Mail.MailCache.GetFolderName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetFolderName(SuperOffice.CRM.Rows.EmailFolderRow)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetFolderName(SuperOffice.CRM.Rows.EmailFolderRow)
-  id: GetFolderName(SuperOffice.CRM.Rows.EmailFolderRow)
+      type: System.Threading.Tasks.Task{System.String}
+      description: ''
+    content.vb: Public Shared Function GetFolderNameAsync(folderId As Integer, cancellationToken As CancellationToken) As Task(Of String)
+  overload: SuperOffice.CRM.Mail.MailCache.GetFolderNameAsync*
+  nameWithType.vb: MailCache.GetFolderNameAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetFolderNameAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetFolderNameAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailCache.GetFolderNameAsync(SuperOffice.CRM.Rows.EmailFolderRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetFolderNameAsync(SuperOffice.CRM.Rows.EmailFolderRow,System.Threading.CancellationToken)
+  id: GetFolderNameAsync(SuperOffice.CRM.Rows.EmailFolderRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: GetFolderName(EmailFolderRow)
-  nameWithType: MailCache.GetFolderName(EmailFolderRow)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetFolderName(SuperOffice.CRM.Rows.EmailFolderRow)
+  name: GetFolderNameAsync(EmailFolderRow, CancellationToken)
+  nameWithType: MailCache.GetFolderNameAsync(EmailFolderRow, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetFolderNameAsync(SuperOffice.CRM.Rows.EmailFolderRow, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\nConstructs the full directory path from the given folder row to the root folder.\n"
+  summary: Constructs the full directory path from the given folder row to the root folder.
+  example: []
   syntax:
-    content: public static string GetFolderName(EmailFolderRow folderRow)
+    content: public static Task<string> GetFolderNameAsync(EmailFolderRow folderRow, CancellationToken cancellationToken)
     parameters:
     - id: folderRow
       type: SuperOffice.CRM.Rows.EmailFolderRow
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
     return:
-      type: System.String
-    content.vb: Public Shared Function GetFolderName(folderRow As EmailFolderRow) As String
-  overload: SuperOffice.CRM.Mail.MailCache.GetFolderName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRow(SuperOffice.CRM.Rows.EmailItemRow,System.Boolean,System.Boolean)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRow(SuperOffice.CRM.Rows.EmailItemRow,System.Boolean,System.Boolean)
-  id: GetMailItemFromDbRow(SuperOffice.CRM.Rows.EmailItemRow,System.Boolean,System.Boolean)
+      type: System.Threading.Tasks.Task{System.String}
+      description: ''
+    content.vb: Public Shared Function GetFolderNameAsync(folderRow As EmailFolderRow, cancellationToken As CancellationToken) As Task(Of String)
+  overload: SuperOffice.CRM.Mail.MailCache.GetFolderNameAsync*
+- uid: SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRowAsync(SuperOffice.CRM.Rows.EmailItemRow,System.Threading.CancellationToken,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRowAsync(SuperOffice.CRM.Rows.EmailItemRow,System.Threading.CancellationToken,System.Boolean,System.Boolean)
+  id: GetMailItemFromDbRowAsync(SuperOffice.CRM.Rows.EmailItemRow,System.Threading.CancellationToken,System.Boolean,System.Boolean)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: GetMailItemFromDbRow(EmailItemRow, Boolean, Boolean)
-  nameWithType: MailCache.GetMailItemFromDbRow(EmailItemRow, Boolean, Boolean)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRow(SuperOffice.CRM.Rows.EmailItemRow, System.Boolean, System.Boolean)
+  name: GetMailItemFromDbRowAsync(EmailItemRow, CancellationToken, bool, bool)
+  nameWithType: MailCache.GetMailItemFromDbRowAsync(EmailItemRow, CancellationToken, bool, bool)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRowAsync(SuperOffice.CRM.Rows.EmailItemRow, System.Threading.CancellationToken, bool, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
   syntax:
-    content: public static MailItem GetMailItemFromDbRow(EmailItemRow row, bool mime = false, bool streams = false)
+    content: public static Task<MailItem> GetMailItemFromDbRowAsync(EmailItemRow row, CancellationToken cancellationToken, bool mime = false, bool streams = false)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.EmailItemRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     - id: mime
       type: System.Boolean
     - id: streams
       type: System.Boolean
     return:
-      type: SuperOffice.CRM.Mail.MailItem
-    content.vb: Public Shared Function GetMailItemFromDbRow(row As EmailItemRow, mime As Boolean = False, streams As Boolean = False) As MailItem
-  overload: SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRow*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.findOrCreateEmailFolder(System.Int32,SuperOffice.CRM.Mail.MailFolder,System.Boolean)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.findOrCreateEmailFolder(System.Int32,SuperOffice.CRM.Mail.MailFolder,System.Boolean)
-  id: findOrCreateEmailFolder(System.Int32,SuperOffice.CRM.Mail.MailFolder,System.Boolean)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Mail.MailItem}
+    content.vb: Public Shared Function GetMailItemFromDbRowAsync(row As EmailItemRow, cancellationToken As CancellationToken, mime As Boolean = False, streams As Boolean = False) As Task(Of MailItem)
+  overload: SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRowAsync*
+  nameWithType.vb: MailCache.GetMailItemFromDbRowAsync(EmailItemRow, CancellationToken, Boolean, Boolean)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRowAsync(SuperOffice.CRM.Rows.EmailItemRow, System.Threading.CancellationToken, Boolean, Boolean)
+  name.vb: GetMailItemFromDbRowAsync(EmailItemRow, CancellationToken, Boolean, Boolean)
+- uid: SuperOffice.CRM.Mail.MailCache.FindOrCreateEmailFolderAsync(System.Int32,SuperOffice.CRM.Mail.MailFolder,System.Threading.CancellationToken,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.FindOrCreateEmailFolderAsync(System.Int32,SuperOffice.CRM.Mail.MailFolder,System.Threading.CancellationToken,System.Boolean)
+  id: FindOrCreateEmailFolderAsync(System.Int32,SuperOffice.CRM.Mail.MailFolder,System.Threading.CancellationToken,System.Boolean)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: findOrCreateEmailFolder(Int32, MailFolder, Boolean)
-  nameWithType: MailCache.findOrCreateEmailFolder(Int32, MailFolder, Boolean)
-  fullName: SuperOffice.CRM.Mail.MailCache.findOrCreateEmailFolder(System.Int32, SuperOffice.CRM.Mail.MailFolder, System.Boolean)
+  name: FindOrCreateEmailFolderAsync(int, MailFolder, CancellationToken, bool)
+  nameWithType: MailCache.FindOrCreateEmailFolderAsync(int, MailFolder, CancellationToken, bool)
+  fullName: SuperOffice.CRM.Mail.MailCache.FindOrCreateEmailFolderAsync(int, SuperOffice.CRM.Mail.MailFolder, System.Threading.CancellationToken, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public static int[] findOrCreateEmailFolder(int accountId, MailFolder folder, bool updateAttributes = false)
+    content: public static Task<int[]> FindOrCreateEmailFolderAsync(int accountId, MailFolder folder, CancellationToken cancellationToken, bool updateAttributes = false)
     parameters:
     - id: accountId
       type: System.Int32
+      description: ''
     - id: folder
       type: SuperOffice.CRM.Mail.MailFolder
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     - id: updateAttributes
       type: System.Boolean
     return:
-      type: System.Int32[]
+      type: System.Threading.Tasks.Task{System.Int32[]}
       description: An array of folder ids, with the element in the first index of the array the topmost parent
-    content.vb: Public Shared Function findOrCreateEmailFolder(accountId As Integer, folder As MailFolder, updateAttributes As Boolean = False) As Integer()
-  overload: SuperOffice.CRM.Mail.MailCache.findOrCreateEmailFolder*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.findOrCreateEmailFolder(System.Int32,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.findOrCreateEmailFolder(System.Int32,System.String,System.String)
-  id: findOrCreateEmailFolder(System.Int32,System.String,System.String)
+    content.vb: Public Shared Function FindOrCreateEmailFolderAsync(accountId As Integer, folder As MailFolder, cancellationToken As CancellationToken, updateAttributes As Boolean = False) As Task(Of Integer())
+  overload: SuperOffice.CRM.Mail.MailCache.FindOrCreateEmailFolderAsync*
+  nameWithType.vb: MailCache.FindOrCreateEmailFolderAsync(Integer, MailFolder, CancellationToken, Boolean)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.FindOrCreateEmailFolderAsync(Integer, SuperOffice.CRM.Mail.MailFolder, System.Threading.CancellationToken, Boolean)
+  name.vb: FindOrCreateEmailFolderAsync(Integer, MailFolder, CancellationToken, Boolean)
+- uid: SuperOffice.CRM.Mail.MailCache.FindOrCreateEmailFolderAsync(System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.FindOrCreateEmailFolderAsync(System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  id: FindOrCreateEmailFolderAsync(System.Int32,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: findOrCreateEmailFolder(Int32, String, String)
-  nameWithType: MailCache.findOrCreateEmailFolder(Int32, String, String)
-  fullName: SuperOffice.CRM.Mail.MailCache.findOrCreateEmailFolder(System.Int32, System.String, System.String)
+  name: FindOrCreateEmailFolderAsync(int, string, string, CancellationToken)
+  nameWithType: MailCache.FindOrCreateEmailFolderAsync(int, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.FindOrCreateEmailFolderAsync(int, string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public static int[] findOrCreateEmailFolder(int accountId, string folder, string delimiter = "")
+    content: public static Task<int[]> FindOrCreateEmailFolderAsync(int accountId, string folder, string delimiter = "", CancellationToken cancellationToken = default)
     parameters:
     - id: accountId
       type: System.Int32
+      description: ''
     - id: folder
       type: System.String
+      description: ''
     - id: delimiter
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32[]
+      type: System.Threading.Tasks.Task{System.Int32[]}
       description: An array of folder ids, with the element in the first index of the array the topmost parent
-    content.vb: Public Shared Function findOrCreateEmailFolder(accountId As Integer, folder As String, delimiter As String = "") As Integer()
-  overload: SuperOffice.CRM.Mail.MailCache.findOrCreateEmailFolder*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.findFolderSeparator(System.Int32)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.findFolderSeparator(System.Int32)
-  id: findFolderSeparator(System.Int32)
+    content.vb: Public Shared Function FindOrCreateEmailFolderAsync(accountId As Integer, folder As String, delimiter As String = "", cancellationToken As CancellationToken = Nothing) As Task(Of Integer())
+  overload: SuperOffice.CRM.Mail.MailCache.FindOrCreateEmailFolderAsync*
+  nameWithType.vb: MailCache.FindOrCreateEmailFolderAsync(Integer, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.FindOrCreateEmailFolderAsync(Integer, String, String, System.Threading.CancellationToken)
+  name.vb: FindOrCreateEmailFolderAsync(Integer, String, String, CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailCache.FindFolderSeparatorAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.FindFolderSeparatorAsync(System.Int32,System.Threading.CancellationToken)
+  id: FindFolderSeparatorAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: findFolderSeparator(Int32)
-  nameWithType: MailCache.findFolderSeparator(Int32)
-  fullName: SuperOffice.CRM.Mail.MailCache.findFolderSeparator(System.Int32)
+  name: FindFolderSeparatorAsync(int, CancellationToken)
+  nameWithType: MailCache.FindFolderSeparatorAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.FindFolderSeparatorAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
   syntax:
-    content: public static string findFolderSeparator(int accountId)
+    content: public static Task<string> FindFolderSeparatorAsync(int accountId, CancellationToken cancellationToken)
     parameters:
     - id: accountId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function findFolderSeparator(accountId As Integer) As String
-  overload: SuperOffice.CRM.Mail.MailCache.findFolderSeparator*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetEmailAccountId(System.Int32,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetEmailAccountId(System.Int32,System.String,System.String)
-  id: GetEmailAccountId(System.Int32,System.String,System.String)
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function FindFolderSeparatorAsync(accountId As Integer, cancellationToken As CancellationToken) As Task(Of String)
+  overload: SuperOffice.CRM.Mail.MailCache.FindFolderSeparatorAsync*
+  nameWithType.vb: MailCache.FindFolderSeparatorAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.FindFolderSeparatorAsync(Integer, System.Threading.CancellationToken)
+  name.vb: FindFolderSeparatorAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailCache.GetEmailAccountIdAsync(System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetEmailAccountIdAsync(System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  id: GetEmailAccountIdAsync(System.Int32,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: GetEmailAccountId(Int32, String, String)
-  nameWithType: MailCache.GetEmailAccountId(Int32, String, String)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetEmailAccountId(System.Int32, System.String, System.String)
+  name: GetEmailAccountIdAsync(int, string, string, CancellationToken)
+  nameWithType: MailCache.GetEmailAccountIdAsync(int, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetEmailAccountIdAsync(int, string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
   syntax:
-    content: public static int GetEmailAccountId(int assocId, string server, string username)
+    content: public static Task<int> GetEmailAccountIdAsync(int assocId, string server, string username, CancellationToken cancellationToken)
     parameters:
     - id: assocId
       type: System.Int32
@@ -1369,33 +986,287 @@ items:
       type: System.String
     - id: username
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function GetEmailAccountId(assocId As Integer, server As String, username As String) As Integer
-  overload: SuperOffice.CRM.Mail.MailCache.GetEmailAccountId*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function GetEmailAccountIdAsync(assocId As Integer, server As String, username As String, cancellationToken As CancellationToken) As Task(Of Integer)
+  overload: SuperOffice.CRM.Mail.MailCache.GetEmailAccountIdAsync*
+  nameWithType.vb: MailCache.GetEmailAccountIdAsync(Integer, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailCache.GetEmailAccountIdAsync(Integer, String, String, System.Threading.CancellationToken)
+  name.vb: GetEmailAccountIdAsync(Integer, String, String, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Mail
   commentId: N:SuperOffice.CRM.Mail
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Mail
   nameWithType: SuperOffice.CRM.Mail
   fullName: SuperOffice.CRM.Mail
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Mail
+    name: Mail
+    isExternal: true
+    href: SuperOffice.CRM.Mail.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Mail
+    name: Mail
+    isExternal: true
+    href: SuperOffice.CRM.Mail.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -1403,191 +1274,556 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociateAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.CacheMailForAssociateAsync
   isExternal: true
-  name: CacheMailForAssociate
-  nameWithType: MailCache.CacheMailForAssociate
-  fullName: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_CacheMailForAssociateAsync_System_Int32_SuperOffice_CRM_Mail_SoMailCredentials_System_String_System_Threading_CancellationToken_
+  name: CacheMailForAssociateAsync
+  nameWithType: MailCache.CacheMailForAssociateAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociateAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Mail.SoMailCredentials
   commentId: T:SuperOffice.CRM.Mail.SoMailCredentials
   parent: SuperOffice.CRM.Mail
   isExternal: true
+  href: SuperOffice.CRM.Mail.SoMailCredentials.html
   name: SoMailCredentials
   nameWithType: SoMailCredentials
   fullName: SuperOffice.CRM.Mail.SoMailCredentials
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.Int32,System.Int32,System.Int32}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.Int32,System.Int32,System.Int32}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(bool changes, int folderCount, int downloadedEnvelopeCount, int cachedEnvelopeCount)>
+  nameWithType: Task<(bool changes, int folderCount, int downloadedEnvelopeCount, int cachedEnvelopeCount)>
+  fullName: System.Threading.Tasks.Task<(bool changes, int folderCount, int downloadedEnvelopeCount, int cachedEnvelopeCount)>
+  nameWithType.vb: Task(Of (changes As Boolean, folderCount As Integer, downloadedEnvelopeCount As Integer, cachedEnvelopeCount As Integer))
+  fullName.vb: System.Threading.Tasks.Task(Of (changes As Boolean, folderCount As Integer, downloadedEnvelopeCount As Integer, cachedEnvelopeCount As Integer))
+  name.vb: Task(Of (changes As Boolean, folderCount As Integer, downloadedEnvelopeCount As Integer, cachedEnvelopeCount As Integer))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.Int32,System.Int32,System.Int32}.changes
+    name: changes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.int32,system.int32,system.int32-.changes
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.Int32,System.Int32,System.Int32}.folderCount
+    name: folderCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.int32,system.int32,system.int32-.foldercount
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.Int32,System.Int32,System.Int32}.downloadedEnvelopeCount
+    name: downloadedEnvelopeCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.int32,system.int32,system.int32-.downloadedenvelopecount
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.Int32,System.Int32,System.Int32}.cachedEnvelopeCount
+    name: cachedEnvelopeCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.int32,system.int32,system.int32-.cachedenvelopecount
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.ValueTuple{System.Boolean,System.Int32,System.Int32,System.Int32}.changes
+    name: changes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.int32,system.int32,system.int32-.changes
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.Int32,System.Int32,System.Int32}.folderCount
+    name: folderCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.int32,system.int32,system.int32-.foldercount
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.Int32,System.Int32,System.Int32}.downloadedEnvelopeCount
+    name: downloadedEnvelopeCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.int32,system.int32,system.int32-.downloadedenvelopecount
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.Int32,System.Int32,System.Int32}.cachedEnvelopeCount
+    name: cachedEnvelopeCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.int32,system.int32,system.int32-.cachedenvelopecount
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.CRM.Mail.MailCache.FindMessageInIdList*
   commentId: Overload:SuperOffice.CRM.Mail.MailCache.FindMessageInIdList
   isExternal: true
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_FindMessageInIdList_SuperOffice_CRM_Mail_MailEnvelope_System_Int32___
   name: FindMessageInIdList
   nameWithType: MailCache.FindMessageInIdList
   fullName: SuperOffice.CRM.Mail.MailCache.FindMessageInIdList
 - uid: SuperOffice.CRM.Mail.MailEnvelope
+  commentId: T:SuperOffice.CRM.Mail.MailEnvelope
+  parent: SuperOffice.CRM.Mail
   isExternal: true
   name: MailEnvelope
   nameWithType: MailEnvelope
   fullName: SuperOffice.CRM.Mail.MailEnvelope
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Mail.MailCache.UpdateCacheWithNewEMail*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.UpdateCacheWithNewEMail
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
-  name: UpdateCacheWithNewEMail
-  nameWithType: MailCache.UpdateCacheWithNewEMail
-  fullName: SuperOffice.CRM.Mail.MailCache.UpdateCacheWithNewEMail
-- uid: SuperOffice.CRM.Mail.MailCache.UpdateStatusAndDeletedEnvelopes*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.UpdateStatusAndDeletedEnvelopes
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Mail.MailCache.GetCachingStartedAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetCachingStartedAsync
   isExternal: true
-  name: UpdateStatusAndDeletedEnvelopes
-  nameWithType: MailCache.UpdateStatusAndDeletedEnvelopes
-  fullName: SuperOffice.CRM.Mail.MailCache.UpdateStatusAndDeletedEnvelopes
-- uid: SuperOffice.CRM.Mail.MailCache.GetCachingStarted*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetCachingStarted
-  isExternal: true
-  name: GetCachingStarted
-  nameWithType: MailCache.GetCachingStarted
-  fullName: SuperOffice.CRM.Mail.MailCache.GetCachingStarted
-- uid: SuperOffice.CRM.Mail.MailCache.SetCachingStarted*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.SetCachingStarted
-  isExternal: true
-  name: SetCachingStarted
-  nameWithType: MailCache.SetCachingStarted
-  fullName: SuperOffice.CRM.Mail.MailCache.SetCachingStarted
-- uid: SuperOffice.CRM.Mail.MailCache.SetCachingFinished*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.SetCachingFinished
-  isExternal: true
-  name: SetCachingFinished
-  nameWithType: MailCache.SetCachingFinished
-  fullName: SuperOffice.CRM.Mail.MailCache.SetCachingFinished
-- uid: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes
-  isExternal: true
-  name: GetCachedEnvelopes
-  nameWithType: MailCache.GetCachedEnvelopes
-  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes
-- uid: System.DateTime
-  isExternal: true
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: SuperOffice.CRM.Mail.MailEnvelope[]
-  isExternal: true
-  name: MailEnvelope[]
-  nameWithType: MailEnvelope[]
-  fullName: SuperOffice.CRM.Mail.MailEnvelope[]
-  nameWithType.vb: MailEnvelope()
-  fullName.vb: SuperOffice.CRM.Mail.MailEnvelope()
-  name.vb: MailEnvelope()
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_GetCachingStartedAsync_System_Int32_SuperOffice_CRM_Mail_SoMailCredentials_System_Threading_CancellationToken_
+  name: GetCachingStartedAsync
+  nameWithType: MailCache.GetCachingStartedAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.GetCachingStartedAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
   spec.csharp:
-  - uid: SuperOffice.CRM.Mail.MailEnvelope
-    name: MailEnvelope
-    nameWithType: MailEnvelope
-    fullName: SuperOffice.CRM.Mail.MailEnvelope
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.CRM.Mail.MailCache.SetCachingStartedAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.SetCachingStartedAsync
+  isExternal: true
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_SetCachingStartedAsync_System_Int32_SuperOffice_CRM_Mail_SoMailCredentials_System_Threading_CancellationToken_
+  name: SetCachingStartedAsync
+  nameWithType: MailCache.SetCachingStartedAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.SetCachingStartedAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Mail.MailCache.SetCachingFinishedAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.SetCachingFinishedAsync
+  isExternal: true
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_SetCachingFinishedAsync_System_Int32_SuperOffice_CRM_Mail_SoMailCredentials_System_Threading_CancellationToken_
+  name: SetCachingFinishedAsync
+  nameWithType: MailCache.SetCachingFinishedAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.SetCachingFinishedAsync
+- uid: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopesAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_GetCachedEnvelopesAsync_System_Int32_System_String_System_String_System_String_System_Threading_CancellationToken_
+  name: GetCachedEnvelopesAsync
+  nameWithType: MailCache.GetCachedEnvelopesAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopesAsync
+- uid: System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.CRM.Mail.MailEnvelope[],System.Int32,System.DateTime}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.CRM.Mail.MailEnvelope[],System.Int32,System.DateTime}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(MailEnvelope[] envelopes, int lastMailUID, DateTime lastMailDate)>
+  nameWithType: Task<(MailEnvelope[] envelopes, int lastMailUID, DateTime lastMailDate)>
+  fullName: System.Threading.Tasks.Task<(SuperOffice.CRM.Mail.MailEnvelope[] envelopes, int lastMailUID, System.DateTime lastMailDate)>
+  nameWithType.vb: Task(Of (envelopes As MailEnvelope(), lastMailUID As Integer, lastMailDate As Date))
+  fullName.vb: System.Threading.Tasks.Task(Of (envelopes As SuperOffice.CRM.Mail.MailEnvelope(), lastMailUID As Integer, lastMailDate As Date))
+  name.vb: Task(Of (envelopes As MailEnvelope(), lastMailUID As Integer, lastMailDate As Date))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
   - uid: SuperOffice.CRM.Mail.MailEnvelope
     name: MailEnvelope
-    nameWithType: MailEnvelope
-    fullName: SuperOffice.CRM.Mail.MailEnvelope
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Mail.MailCache.GetEnvelopeFromDataReader*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetEnvelopeFromDataReader
+  - name: '['
+  - name: ']'
+  - name: " "
+  - uid: System.ValueTuple{SuperOffice.CRM.Mail.MailEnvelope[],System.Int32,System.DateTime}.envelopes
+    name: envelopes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.mail.mailenvelope[],system.int32,system.datetime-.envelopes
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{SuperOffice.CRM.Mail.MailEnvelope[],System.Int32,System.DateTime}.lastMailUID
+    name: lastMailUID
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.mail.mailenvelope[],system.int32,system.datetime-.lastmailuid
+  - name: ','
+  - name: " "
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: " "
+  - uid: System.ValueTuple{SuperOffice.CRM.Mail.MailEnvelope[],System.Int32,System.DateTime}.lastMailDate
+    name: lastMailDate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.mail.mailenvelope[],system.int32,system.datetime-.lastmaildate
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.ValueTuple{SuperOffice.CRM.Mail.MailEnvelope[],System.Int32,System.DateTime}.envelopes
+    name: envelopes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.mail.mailenvelope[],system.int32,system.datetime-.envelopes
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: SuperOffice.CRM.Mail.MailEnvelope
+    name: MailEnvelope
+    isExternal: true
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{SuperOffice.CRM.Mail.MailEnvelope[],System.Int32,System.DateTime}.lastMailUID
+    name: lastMailUID
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.mail.mailenvelope[],system.int32,system.datetime-.lastmailuid
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{SuperOffice.CRM.Mail.MailEnvelope[],System.Int32,System.DateTime}.lastMailDate
+    name: lastMailDate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.mail.mailenvelope[],system.int32,system.datetime-.lastmaildate
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfoAsync
   isExternal: true
-  name: GetEnvelopeFromDataReader
-  nameWithType: MailCache.GetEnvelopeFromDataReader
-  fullName: SuperOffice.CRM.Mail.MailCache.GetEnvelopeFromDataReader
-- uid: SuperOffice.Data.SoDataReader
-  commentId: T:SuperOffice.Data.SoDataReader
-  parent: SuperOffice.Data
-  isExternal: true
-  name: SoDataReader
-  nameWithType: SoDataReader
-  fullName: SuperOffice.Data.SoDataReader
-- uid: SuperOffice.Data
-  commentId: N:SuperOffice.Data
-  isExternal: true
-  name: SuperOffice.Data
-  nameWithType: SuperOffice.Data
-  fullName: SuperOffice.Data
-- uid: SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfo*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfo
-  isExternal: true
-  name: GetCachedFolderInfo
-  nameWithType: MailCache.GetCachedFolderInfo
-  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfo
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_GetCachedFolderInfoAsync_System_Int32_System_String_System_String_System_String___System_Threading_CancellationToken_
+  name: GetCachedFolderInfoAsync
+  nameWithType: MailCache.GetCachedFolderInfoAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedFolderInfoAsync
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Mail.SoMailFolderInfo[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Mail.SoMailFolderInfo[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SoMailFolderInfo[]>
+  nameWithType: Task<SoMailFolderInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Mail.SoMailFolderInfo[]>
+  nameWithType.vb: Task(Of SoMailFolderInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Mail.SoMailFolderInfo())
+  name.vb: Task(Of SoMailFolderInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Mail.SoMailFolderInfo
+    name: SoMailFolderInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Mail.SoMailFolderInfo
+    name: SoMailFolderInfo
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfoAsync
+  isExternal: true
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_SetCachedFolderInfoAsync_System_Int32_System_String_System_String_SuperOffice_CRM_Mail_SoMailFolderInfo___System_Threading_CancellationToken_
+  name: SetCachedFolderInfoAsync
+  nameWithType: MailCache.SetCachedFolderInfoAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfoAsync
 - uid: SuperOffice.CRM.Mail.SoMailFolderInfo[]
   isExternal: true
   name: SoMailFolderInfo[]
@@ -1599,59 +1835,119 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Mail.SoMailFolderInfo
     name: SoMailFolderInfo
-    nameWithType: SoMailFolderInfo
-    fullName: SuperOffice.CRM.Mail.SoMailFolderInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Mail.SoMailFolderInfo
     name: SoMailFolderInfo
-    nameWithType: SoMailFolderInfo
-    fullName: SuperOffice.CRM.Mail.SoMailFolderInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfo*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfo
-  isExternal: true
-  name: SetCachedFolderInfo
-  nameWithType: MailCache.SetCachedFolderInfo
-  fullName: SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfo
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Mail.MailCache.ClearCachedFolderInfo*
   commentId: Overload:SuperOffice.CRM.Mail.MailCache.ClearCachedFolderInfo
   isExternal: true
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_ClearCachedFolderInfo_System_Int32_System_String_System_String_
   name: ClearCachedFolderInfo
   nameWithType: MailCache.ClearCachedFolderInfo
   fullName: SuperOffice.CRM.Mail.MailCache.ClearCachedFolderInfo
-- uid: SuperOffice.CRM.Mail.MailCache.GetCachedFolderList*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetCachedFolderList
+- uid: SuperOffice.CRM.Mail.MailCache.GetCachedFolderListAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetCachedFolderListAsync
   isExternal: true
-  name: GetCachedFolderList
-  nameWithType: MailCache.GetCachedFolderList
-  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedFolderList
-- uid: SuperOffice.CRM.Mail.MailCache.GetCachedMailItem*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetCachedMailItem
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_GetCachedFolderListAsync_System_Int32_SuperOffice_CRM_Mail_SoMailCredentials_System_Threading_CancellationToken_
+  name: GetCachedFolderListAsync
+  nameWithType: MailCache.GetCachedFolderListAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedFolderListAsync
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: T:System.Threading.Tasks.Task{System.String[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string[]>
+  nameWithType: Task<string[]>
+  fullName: System.Threading.Tasks.Task<string[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Mail.MailCache.GetCachedMailItemAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetCachedMailItemAsync
   isExternal: true
-  name: GetCachedMailItem
-  nameWithType: MailCache.GetCachedMailItem
-  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedMailItem
-- uid: SuperOffice.CRM.Mail.MailItem
-  isExternal: true
-  name: MailItem
-  nameWithType: MailItem
-  fullName: SuperOffice.CRM.Mail.MailItem
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_GetCachedMailItemAsync_System_Int32_System_String_System_String_System_Int32_System_String_System_Boolean_System_Threading_CancellationToken_
+  name: GetCachedMailItemAsync
+  nameWithType: MailCache.GetCachedMailItemAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.GetCachedMailItemAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Mail.MailItem}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Mail.MailItem}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<MailItem>
+  nameWithType: Task<MailItem>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Mail.MailItem>
+  nameWithType.vb: Task(Of MailItem)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Mail.MailItem)
+  name.vb: Task(Of MailItem)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Mail.MailItem
+    name: MailItem
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Mail.MailItem
+    name: MailItem
+    isExternal: true
+  - name: )
 - uid: SuperOffice.CRM.Mail.MailCache.UpdateRecipientList*
   commentId: Overload:SuperOffice.CRM.Mail.MailCache.UpdateRecipientList
   isExternal: true
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_UpdateRecipientList_System_Int32_SuperOffice_CRM_Mail_MailEnvelope_
   name: UpdateRecipientList
   nameWithType: MailCache.UpdateRecipientList
   fullName: SuperOffice.CRM.Mail.MailCache.UpdateRecipientList
 - uid: SuperOffice.CRM.Mail.MailCache.GetMinimalMailEnvelope*
   commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetMinimalMailEnvelope
   isExternal: true
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_GetMinimalMailEnvelope_System_Int32_SuperOffice_Data_EMailFlags_
   name: GetMinimalMailEnvelope
   nameWithType: MailCache.GetMinimalMailEnvelope
   fullName: SuperOffice.CRM.Mail.MailCache.GetMinimalMailEnvelope
@@ -1659,110 +1955,287 @@ references:
   commentId: T:SuperOffice.Data.EMailFlags
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.EMailFlags.html
   name: EMailFlags
   nameWithType: EMailFlags
   fullName: SuperOffice.Data.EMailFlags
-- uid: SuperOffice.CRM.Mail.MailCache.GetMailItemFromDataReader*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetMailItemFromDataReader
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
   isExternal: true
-  name: GetMailItemFromDataReader
-  nameWithType: MailCache.GetMailItemFromDataReader
-  fullName: SuperOffice.CRM.Mail.MailCache.GetMailItemFromDataReader
-- uid: SuperOffice.CRM.Mail.MailCache.GetTrashFolderName*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetTrashFolderName
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.CRM.Mail.MailCache.GetTrashFolderNameAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetTrashFolderNameAsync
   isExternal: true
-  name: GetTrashFolderName
-  nameWithType: MailCache.GetTrashFolderName
-  fullName: SuperOffice.CRM.Mail.MailCache.GetTrashFolderName
-- uid: SuperOffice.CRM.Mail.MailCache.GetSentFolderName*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetSentFolderName
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_GetTrashFolderNameAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetTrashFolderNameAsync
+  nameWithType: MailCache.GetTrashFolderNameAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.GetTrashFolderNameAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.CRM.Mail.MailCache.GetSentFolderNameAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetSentFolderNameAsync
   isExternal: true
-  name: GetSentFolderName
-  nameWithType: MailCache.GetSentFolderName
-  fullName: SuperOffice.CRM.Mail.MailCache.GetSentFolderName
-- uid: SuperOffice.CRM.Mail.MailCache.GetInboxFolderName*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetInboxFolderName
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_GetSentFolderNameAsync_System_Int32_System_Threading_CancellationToken_System_Boolean_
+  name: GetSentFolderNameAsync
+  nameWithType: MailCache.GetSentFolderNameAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.GetSentFolderNameAsync
+- uid: SuperOffice.CRM.Mail.MailCache.GetInboxFolderNameAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetInboxFolderNameAsync
   isExternal: true
-  name: GetInboxFolderName
-  nameWithType: MailCache.GetInboxFolderName
-  fullName: SuperOffice.CRM.Mail.MailCache.GetInboxFolderName
-- uid: SuperOffice.CRM.Mail.MailCache.GetSentFolderNames*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetSentFolderNames
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_GetInboxFolderNameAsync_System_Int32_System_Threading_CancellationToken_System_Boolean_
+  name: GetInboxFolderNameAsync
+  nameWithType: MailCache.GetInboxFolderNameAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.GetInboxFolderNameAsync
+- uid: SuperOffice.CRM.Mail.MailCache.GetSentFolderNamesAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetSentFolderNamesAsync
   isExternal: true
-  name: GetSentFolderNames
-  nameWithType: MailCache.GetSentFolderNames
-  fullName: SuperOffice.CRM.Mail.MailCache.GetSentFolderNames
-- uid: SuperOffice.CRM.Mail.MailCache.GetDraftsFolderName*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetDraftsFolderName
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_GetSentFolderNamesAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetSentFolderNamesAsync
+  nameWithType: MailCache.GetSentFolderNamesAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.GetSentFolderNamesAsync
+- uid: SuperOffice.CRM.Mail.MailCache.GetDraftsFolderNameAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetDraftsFolderNameAsync
   isExternal: true
-  name: GetDraftsFolderName
-  nameWithType: MailCache.GetDraftsFolderName
-  fullName: SuperOffice.CRM.Mail.MailCache.GetDraftsFolderName
-- uid: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderName*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetSpecialFolderName
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_GetDraftsFolderNameAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetDraftsFolderNameAsync
+  nameWithType: MailCache.GetDraftsFolderNameAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.GetDraftsFolderNameAsync
+- uid: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNameAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNameAsync
   isExternal: true
-  name: GetSpecialFolderName
-  nameWithType: MailCache.GetSpecialFolderName
-  fullName: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderName
-- uid: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNames*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNames
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_GetSpecialFolderNameAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetSpecialFolderNameAsync
+  nameWithType: MailCache.GetSpecialFolderNameAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNameAsync
+- uid: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNamesAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNamesAsync
   isExternal: true
-  name: GetSpecialFolderNames
-  nameWithType: MailCache.GetSpecialFolderNames
-  fullName: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNames
-- uid: SuperOffice.CRM.Mail.MailCache.GetFolderName*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetFolderName
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_GetSpecialFolderNamesAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetSpecialFolderNamesAsync
+  nameWithType: MailCache.GetSpecialFolderNamesAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNamesAsync
+- uid: SuperOffice.CRM.Mail.MailCache.GetFolderNameAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetFolderNameAsync
   isExternal: true
-  name: GetFolderName
-  nameWithType: MailCache.GetFolderName
-  fullName: SuperOffice.CRM.Mail.MailCache.GetFolderName
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_GetFolderNameAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetFolderNameAsync
+  nameWithType: MailCache.GetFolderNameAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.GetFolderNameAsync
 - uid: SuperOffice.CRM.Rows.EmailFolderRow
   commentId: T:SuperOffice.CRM.Rows.EmailFolderRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.EmailFolderRow.html
   name: EmailFolderRow
   nameWithType: EmailFolderRow
   fullName: SuperOffice.CRM.Rows.EmailFolderRow
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-- uid: SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRow*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRow
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRowAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRowAsync
   isExternal: true
-  name: GetMailItemFromDbRow
-  nameWithType: MailCache.GetMailItemFromDbRow
-  fullName: SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRow
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_GetMailItemFromDbRowAsync_SuperOffice_CRM_Rows_EmailItemRow_System_Threading_CancellationToken_System_Boolean_System_Boolean_
+  name: GetMailItemFromDbRowAsync
+  nameWithType: MailCache.GetMailItemFromDbRowAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRowAsync
 - uid: SuperOffice.CRM.Rows.EmailItemRow
   commentId: T:SuperOffice.CRM.Rows.EmailItemRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.EmailItemRow.html
   name: EmailItemRow
   nameWithType: EmailItemRow
   fullName: SuperOffice.CRM.Rows.EmailItemRow
-- uid: SuperOffice.CRM.Mail.MailCache.findOrCreateEmailFolder*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.findOrCreateEmailFolder
+- uid: SuperOffice.CRM.Mail.MailCache.FindOrCreateEmailFolderAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.FindOrCreateEmailFolderAsync
   isExternal: true
-  name: findOrCreateEmailFolder
-  nameWithType: MailCache.findOrCreateEmailFolder
-  fullName: SuperOffice.CRM.Mail.MailCache.findOrCreateEmailFolder
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_FindOrCreateEmailFolderAsync_System_Int32_SuperOffice_CRM_Mail_MailFolder_System_Threading_CancellationToken_System_Boolean_
+  name: FindOrCreateEmailFolderAsync
+  nameWithType: MailCache.FindOrCreateEmailFolderAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.FindOrCreateEmailFolderAsync
 - uid: SuperOffice.CRM.Mail.MailFolder
-  commentId: '!:SuperOffice.CRM.Mail.MailFolder'
+  commentId: T:SuperOffice.CRM.Mail.MailFolder
+  parent: SuperOffice.CRM.Mail
   isExternal: true
   name: MailFolder
   nameWithType: MailFolder
   fullName: SuperOffice.CRM.Mail.MailFolder
-- uid: SuperOffice.CRM.Mail.MailCache.findFolderSeparator*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.findFolderSeparator
+- uid: System.Threading.Tasks.Task{System.Int32[]}
+  commentId: T:System.Threading.Tasks.Task{System.Int32[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int[]>
+  nameWithType: Task<int[]>
+  fullName: System.Threading.Tasks.Task<int[]>
+  nameWithType.vb: Task(Of Integer())
+  fullName.vb: System.Threading.Tasks.Task(Of Integer())
+  name.vb: Task(Of Integer())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Mail.MailCache.FindFolderSeparatorAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.FindFolderSeparatorAsync
   isExternal: true
-  name: findFolderSeparator
-  nameWithType: MailCache.findFolderSeparator
-  fullName: SuperOffice.CRM.Mail.MailCache.findFolderSeparator
-- uid: SuperOffice.CRM.Mail.MailCache.GetEmailAccountId*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetEmailAccountId
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_FindFolderSeparatorAsync_System_Int32_System_Threading_CancellationToken_
+  name: FindFolderSeparatorAsync
+  nameWithType: MailCache.FindFolderSeparatorAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.FindFolderSeparatorAsync
+- uid: SuperOffice.CRM.Mail.MailCache.GetEmailAccountIdAsync*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetEmailAccountIdAsync
   isExternal: true
-  name: GetEmailAccountId
-  nameWithType: MailCache.GetEmailAccountId
-  fullName: SuperOffice.CRM.Mail.MailCache.GetEmailAccountId
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_GetEmailAccountIdAsync_System_Int32_System_String_System_String_System_Threading_CancellationToken_
+  name: GetEmailAccountIdAsync
+  nameWithType: MailCache.GetEmailAccountIdAsync
+  fullName: SuperOffice.CRM.Mail.MailCache.GetEmailAccountIdAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )

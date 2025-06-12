@@ -1,0 +1,945 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+  commentId: T:SuperOffice.Diagnostics.ExecutionStopwatchNoop
+  id: ExecutionStopwatchNoop
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.ExecutionStopwatchNoop.#ctor
+  - SuperOffice.Diagnostics.ExecutionStopwatchNoop.Elapsed
+  - SuperOffice.Diagnostics.ExecutionStopwatchNoop.Start
+  - SuperOffice.Diagnostics.ExecutionStopwatchNoop.Stop
+  langs:
+  - csharp
+  - vb
+  name: ExecutionStopwatchNoop
+  nameWithType: ExecutionStopwatchNoop
+  fullName: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+  type: Class
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: 'public class ExecutionStopwatchNoop : IExecutionStopwatch'
+    content.vb: Public Class ExecutionStopwatchNoop Implements IExecutionStopwatch
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Diagnostics.IExecutionStopwatch
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Diagnostics.ExecutionStopwatchNoop.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.ExecutionStopwatchNoop.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Diagnostics.ExecutionStopwatchNoop.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+  - SuperOffice.Diagnostics.ExecutionStopwatchNoop.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop.Start
+  commentId: M:SuperOffice.Diagnostics.ExecutionStopwatchNoop.Start
+  id: Start
+  parent: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: ExecutionStopwatchNoop.Start()
+  fullName: SuperOffice.Diagnostics.ExecutionStopwatchNoop.Start()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  example: []
+  syntax:
+    content: public void Start()
+    content.vb: Public Sub Start()
+  overload: SuperOffice.Diagnostics.ExecutionStopwatchNoop.Start*
+  implements:
+  - SuperOffice.Diagnostics.IExecutionStopwatch.Start
+- uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop.Stop
+  commentId: M:SuperOffice.Diagnostics.ExecutionStopwatchNoop.Stop
+  id: Stop
+  parent: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: ExecutionStopwatchNoop.Stop()
+  fullName: SuperOffice.Diagnostics.ExecutionStopwatchNoop.Stop()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  example: []
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub [Stop]()
+  overload: SuperOffice.Diagnostics.ExecutionStopwatchNoop.Stop*
+  implements:
+  - SuperOffice.Diagnostics.IExecutionStopwatch.Stop
+- uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop.#ctor
+  commentId: M:SuperOffice.Diagnostics.ExecutionStopwatchNoop.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+  langs:
+  - csharp
+  - vb
+  name: ExecutionStopwatchNoop()
+  nameWithType: ExecutionStopwatchNoop.ExecutionStopwatchNoop()
+  fullName: SuperOffice.Diagnostics.ExecutionStopwatchNoop.ExecutionStopwatchNoop()
+  type: Constructor
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public ExecutionStopwatchNoop()
+    content.vb: Public Sub New()
+  overload: SuperOffice.Diagnostics.ExecutionStopwatchNoop.#ctor*
+  nameWithType.vb: ExecutionStopwatchNoop.New()
+  fullName.vb: SuperOffice.Diagnostics.ExecutionStopwatchNoop.New()
+  name.vb: New()
+- uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop.Elapsed
+  commentId: P:SuperOffice.Diagnostics.ExecutionStopwatchNoop.Elapsed
+  id: Elapsed
+  parent: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+  langs:
+  - csharp
+  - vb
+  name: Elapsed
+  nameWithType: ExecutionStopwatchNoop.Elapsed
+  fullName: SuperOffice.Diagnostics.ExecutionStopwatchNoop.Elapsed
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  example: []
+  syntax:
+    content: public TimeSpan Elapsed { get; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public ReadOnly Property Elapsed As TimeSpan
+  overload: SuperOffice.Diagnostics.ExecutionStopwatchNoop.Elapsed*
+  implements:
+  - SuperOffice.Diagnostics.IExecutionStopwatch.Elapsed
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch
+  commentId: T:SuperOffice.Diagnostics.IExecutionStopwatch
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  href: SuperOffice.Diagnostics.IExecutionStopwatch.html
+  name: IExecutionStopwatch
+  nameWithType: IExecutionStopwatch
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ExecutionStopwatchNoop, To>(ExecutionStopwatchNoop)
+  nameWithType: EnumUtil.MapEnums<ExecutionStopwatchNoop, To>(ExecutionStopwatchNoop)
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.ExecutionStopwatchNoop, To>(SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+  nameWithType.vb: EnumUtil.MapEnums(Of ExecutionStopwatchNoop, To)(ExecutionStopwatchNoop)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.ExecutionStopwatchNoop, To)(SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+  name.vb: MapEnums(Of ExecutionStopwatchNoop, To)(ExecutionStopwatchNoop)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: )
+- uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ExecutionStopwatchNoop, To>(ExecutionStopwatchNoop)
+  nameWithType: Converters.MapEnums<ExecutionStopwatchNoop, To>(ExecutionStopwatchNoop)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.ExecutionStopwatchNoop, To>(SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+  nameWithType.vb: Converters.MapEnums(Of ExecutionStopwatchNoop, To)(ExecutionStopwatchNoop)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.ExecutionStopwatchNoop, To)(SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+  name.vb: MapEnums(Of ExecutionStopwatchNoop, To)(ExecutionStopwatchNoop)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: )
+- uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ExecutionStopwatchNoop>(ExecutionStopwatchNoop, ExecutionStopwatchNoop)
+  nameWithType: ObjectExtensions.AssignByReflection<ExecutionStopwatchNoop>(ExecutionStopwatchNoop, ExecutionStopwatchNoop)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Diagnostics.ExecutionStopwatchNoop>(SuperOffice.Diagnostics.ExecutionStopwatchNoop, SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ExecutionStopwatchNoop)(ExecutionStopwatchNoop, ExecutionStopwatchNoop)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Diagnostics.ExecutionStopwatchNoop)(SuperOffice.Diagnostics.ExecutionStopwatchNoop, SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+  name.vb: AssignByReflection(Of ExecutionStopwatchNoop)(ExecutionStopwatchNoop, ExecutionStopwatchNoop)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.ExecutionStopwatchNoop,SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.ExecutionStopwatchNoop,SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: )
+- uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ExecutionStopwatchNoop>(ExecutionStopwatchNoop)
+  nameWithType: ObjectExtensions.GraphCopy<ExecutionStopwatchNoop>(ExecutionStopwatchNoop)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Diagnostics.ExecutionStopwatchNoop>(SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ExecutionStopwatchNoop)(ExecutionStopwatchNoop)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Diagnostics.ExecutionStopwatchNoop)(SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+  name.vb: GraphCopy(Of ExecutionStopwatchNoop)(ExecutionStopwatchNoop)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Diagnostics.ExecutionStopwatchNoop)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop
+    name: ExecutionStopwatchNoop
+    isExternal: true
+    href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop.Start*
+  commentId: Overload:SuperOffice.Diagnostics.ExecutionStopwatchNoop.Start
+  isExternal: true
+  href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html#SuperOffice_Diagnostics_ExecutionStopwatchNoop_Start
+  name: Start
+  nameWithType: ExecutionStopwatchNoop.Start
+  fullName: SuperOffice.Diagnostics.ExecutionStopwatchNoop.Start
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch.Start
+  commentId: M:SuperOffice.Diagnostics.IExecutionStopwatch.Start
+  parent: SuperOffice.Diagnostics.IExecutionStopwatch
+  isExternal: true
+  href: SuperOffice.Diagnostics.IExecutionStopwatch.html#SuperOffice_Diagnostics_IExecutionStopwatch_Start
+  name: Start()
+  nameWithType: IExecutionStopwatch.Start()
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch.Start()
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.IExecutionStopwatch.Start
+    name: Start
+    isExternal: true
+    href: SuperOffice.Diagnostics.IExecutionStopwatch.html#SuperOffice_Diagnostics_IExecutionStopwatch_Start
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.IExecutionStopwatch.Start
+    name: Start
+    isExternal: true
+    href: SuperOffice.Diagnostics.IExecutionStopwatch.html#SuperOffice_Diagnostics_IExecutionStopwatch_Start
+  - name: (
+  - name: )
+- uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop.Stop*
+  commentId: Overload:SuperOffice.Diagnostics.ExecutionStopwatchNoop.Stop
+  isExternal: true
+  href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html#SuperOffice_Diagnostics_ExecutionStopwatchNoop_Stop
+  name: Stop
+  nameWithType: ExecutionStopwatchNoop.Stop
+  fullName: SuperOffice.Diagnostics.ExecutionStopwatchNoop.Stop
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch.Stop
+  commentId: M:SuperOffice.Diagnostics.IExecutionStopwatch.Stop
+  parent: SuperOffice.Diagnostics.IExecutionStopwatch
+  isExternal: true
+  href: SuperOffice.Diagnostics.IExecutionStopwatch.html#SuperOffice_Diagnostics_IExecutionStopwatch_Stop
+  name: Stop()
+  nameWithType: IExecutionStopwatch.Stop()
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch.Stop()
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.IExecutionStopwatch.Stop
+    name: Stop
+    isExternal: true
+    href: SuperOffice.Diagnostics.IExecutionStopwatch.html#SuperOffice_Diagnostics_IExecutionStopwatch_Stop
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.IExecutionStopwatch.Stop
+    name: Stop
+    isExternal: true
+    href: SuperOffice.Diagnostics.IExecutionStopwatch.html#SuperOffice_Diagnostics_IExecutionStopwatch_Stop
+  - name: (
+  - name: )
+- uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop.#ctor*
+  commentId: Overload:SuperOffice.Diagnostics.ExecutionStopwatchNoop.#ctor
+  isExternal: true
+  href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html#SuperOffice_Diagnostics_ExecutionStopwatchNoop__ctor
+  name: ExecutionStopwatchNoop
+  nameWithType: ExecutionStopwatchNoop.ExecutionStopwatchNoop
+  fullName: SuperOffice.Diagnostics.ExecutionStopwatchNoop.ExecutionStopwatchNoop
+  nameWithType.vb: ExecutionStopwatchNoop.New
+  fullName.vb: SuperOffice.Diagnostics.ExecutionStopwatchNoop.New
+  name.vb: New
+- uid: SuperOffice.Diagnostics.ExecutionStopwatchNoop.Elapsed*
+  commentId: Overload:SuperOffice.Diagnostics.ExecutionStopwatchNoop.Elapsed
+  isExternal: true
+  href: SuperOffice.Diagnostics.ExecutionStopwatchNoop.html#SuperOffice_Diagnostics_ExecutionStopwatchNoop_Elapsed
+  name: Elapsed
+  nameWithType: ExecutionStopwatchNoop.Elapsed
+  fullName: SuperOffice.Diagnostics.ExecutionStopwatchNoop.Elapsed
+- uid: SuperOffice.Diagnostics.IExecutionStopwatch.Elapsed
+  commentId: P:SuperOffice.Diagnostics.IExecutionStopwatch.Elapsed
+  parent: SuperOffice.Diagnostics.IExecutionStopwatch
+  isExternal: true
+  href: SuperOffice.Diagnostics.IExecutionStopwatch.html#SuperOffice_Diagnostics_IExecutionStopwatch_Elapsed
+  name: Elapsed
+  nameWithType: IExecutionStopwatch.Elapsed
+  fullName: SuperOffice.Diagnostics.IExecutionStopwatch.Elapsed
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan

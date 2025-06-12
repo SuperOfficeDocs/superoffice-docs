@@ -7,13 +7,15 @@ items:
   - SuperOffice.Util.AccessGateway
   - SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
   - SuperOffice.Util.AccessGateway.AccessGatewayTokenRequest
+  - SuperOffice.Util.AccessGateway.RetrieveTokensResult
   - SuperOffice.Util.AccessGateway.TenantClientConfiguration
   - SuperOffice.Util.AccessGateway.TenantRegistrationInfo
   - SuperOffice.Util.AccessGateway.TokenManagementInfo
   - SuperOffice.Util.AppointmentUtility
-  - SuperOffice.Util.AsyncListProviderWrapper
   - SuperOffice.Util.AttributeFetcher
   - SuperOffice.Util.ByteOrderMarkerEncodingDetector
+  - SuperOffice.Util.CalendarExtensions
+  - SuperOffice.Util.CalendarUtility
   - SuperOffice.Util.CollectionOps
   - SuperOffice.Util.CollectionOps.ConvertType`2
   - SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
@@ -23,7 +25,6 @@ items:
   - SuperOffice.Util.DateUtility
   - SuperOffice.Util.DocumentSaveChangeAnalyzer
   - SuperOffice.Util.DomainHelper
-  - SuperOffice.Util.doubleExtensions
   - SuperOffice.Util.DurationTimeHelper
   - SuperOffice.Util.Encoding
   - SuperOffice.Util.EnumerableWriter
@@ -31,19 +32,22 @@ items:
   - SuperOffice.Util.ExpressionUtil
   - SuperOffice.Util.FileExtensionValidator
   - SuperOffice.Util.FileNameHelper
+  - SuperOffice.Util.GlobalTestFlag
   - SuperOffice.Util.HtmlHelper
   - SuperOffice.Util.HttpHelper
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
   - SuperOffice.Util.HttpHelper.RequestType
-  - SuperOffice.Util.iCalendarUtility
+  - SuperOffice.Util.IAppointmentUtility
+  - SuperOffice.Util.ICalendarUtility
+  - SuperOffice.Util.ITextEncodingDetector
+  - SuperOffice.Util.ITrackEventDispatcher
   - SuperOffice.Util.ImageUtilities
   - SuperOffice.Util.ImageUtilities.FallbackStrategy
   - SuperOffice.Util.ImageUtilities.ImageSize
   - SuperOffice.Util.ImageUtilities.ScaleStrategy
   - SuperOffice.Util.ImageUtilities.VerticalAlignment
   - SuperOffice.Util.ImportDefaults
-  - SuperOffice.Util.ITextEncodingDetector
-  - SuperOffice.Util.ITrackEventDispatcher
+  - SuperOffice.Util.InjectionHelper
   - SuperOffice.Util.JsonPairSerializer`2
   - SuperOffice.Util.KeyedMatrix`3
   - SuperOffice.Util.MailHelper
@@ -51,13 +55,11 @@ items:
   - SuperOffice.Util.MatrixItem`3
   - SuperOffice.Util.MimeHelper
   - SuperOffice.Util.MimeTypes
+  - SuperOffice.Util.NSWinContactHelper
   - SuperOffice.Util.NaiveBomLessUtf16LeEncodingDetector
   - SuperOffice.Util.NameHelper
   - SuperOffice.Util.NameValueCollectionOps
   - SuperOffice.Util.NotUtf8EncodingDetector
-  - SuperOffice.Util.NSWinContactHelper
-  - SuperOffice.Util.NsWinHelper
-  - SuperOffice.Util.NSWinListProviderHelper
   - SuperOffice.Util.ObjectExtensions
   - SuperOffice.Util.OnlineConfigWaiter
   - SuperOffice.Util.OperationTracker
@@ -68,7 +70,7 @@ items:
   - SuperOffice.Util.RecurringSeries
   - SuperOffice.Util.RecurringSubSeries
   - SuperOffice.Util.ReversibleStringEncryption
-  - SuperOffice.Util.shortAndboolExtensions
+  - SuperOffice.Util.RowModification
   - SuperOffice.Util.SJArray
   - SuperOffice.Util.SJElement
   - SuperOffice.Util.SoDocumentPlugin
@@ -78,11 +80,11 @@ items:
   - SuperOffice.Util.StringHelper
   - SuperOffice.Util.StructurePatchingHelper
   - SuperOffice.Util.StructurePatchingHelper.TypeAction
+  - SuperOffice.Util.TSRandom
   - SuperOffice.Util.TargetHelper
   - SuperOffice.Util.TemporaryConfigOverride
   - SuperOffice.Util.TemporaryFeatureToggle
   - SuperOffice.Util.TextEncodingHelper
-  - SuperOffice.Util.ThreadedQueueProcessor`1
   - SuperOffice.Util.TimeConverter
   - SuperOffice.Util.TimeConverterData
   - SuperOffice.Util.TimeConverterHelper
@@ -90,7 +92,7 @@ items:
   - SuperOffice.Util.TrackEvent
   - SuperOffice.Util.TrackEventConfiguration
   - SuperOffice.Util.TrackEventDispatcher
-  - SuperOffice.Util.TSRandom
+  - SuperOffice.Util.TrackEventSender
   - SuperOffice.Util.TwipsConverter
   - SuperOffice.Util.TwoWayDictionary`2
   - SuperOffice.Util.TypeHelper
@@ -109,6 +111,8 @@ items:
   - SuperOffice.Util.XmlUtil.Override
   - SuperOffice.Util.Zip
   - SuperOffice.Util.ZipType
+  - SuperOffice.Util.doubleExtensions
+  - SuperOffice.Util.shortAndboolExtensions
   langs:
   - csharp
   - vb
@@ -122,18 +126,22 @@ references:
 - uid: SuperOffice.Util.AttributeFetcher
   commentId: T:SuperOffice.Util.AttributeFetcher
   isExternal: true
+  href: SuperOffice.Util.AttributeFetcher.html
   name: AttributeFetcher
   nameWithType: AttributeFetcher
   fullName: SuperOffice.Util.AttributeFetcher
 - uid: SuperOffice.Util.CollectionOps
   commentId: T:SuperOffice.Util.CollectionOps
+  parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.CollectionOps.html
   name: CollectionOps
   nameWithType: CollectionOps
   fullName: SuperOffice.Util.CollectionOps
 - uid: SuperOffice.Util.CollectionOps.ConvertType`2
   commentId: T:SuperOffice.Util.CollectionOps.ConvertType`2
   isExternal: true
+  href: SuperOffice.Util.CollectionOps.html
   name: CollectionOps.ConvertType<SourceType, ReturnType>
   nameWithType: CollectionOps.ConvertType<SourceType, ReturnType>
   fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>
@@ -141,50 +149,43 @@ references:
   fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType)
   name.vb: CollectionOps.ConvertType(Of SourceType, ReturnType)
   spec.csharp:
-  - uid: SuperOffice.Util.CollectionOps.ConvertType`2
-    name: CollectionOps.ConvertType
-    nameWithType: CollectionOps.ConvertType
-    fullName: SuperOffice.Util.CollectionOps.ConvertType
+  - uid: SuperOffice.Util.CollectionOps
+    name: CollectionOps
     isExternal: true
+    href: SuperOffice.Util.CollectionOps.html
+  - name: .
+  - uid: SuperOffice.Util.CollectionOps.ConvertType`2
+    name: ConvertType
+    isExternal: true
+    href: SuperOffice.Util.CollectionOps.ConvertType-2.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: SourceType
-    nameWithType: SourceType
-    fullName: SourceType
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: ReturnType
-    nameWithType: ReturnType
-    fullName: ReturnType
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: SuperOffice.Util.CollectionOps.ConvertType`2
-    name: CollectionOps.ConvertType
-    nameWithType: CollectionOps.ConvertType
-    fullName: SuperOffice.Util.CollectionOps.ConvertType
+  - uid: SuperOffice.Util.CollectionOps
+    name: CollectionOps
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Util.CollectionOps.html
+  - name: .
+  - uid: SuperOffice.Util.CollectionOps.ConvertType`2
+    name: ConvertType
+    isExternal: true
+    href: SuperOffice.Util.CollectionOps.ConvertType-2.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: SourceType
-    nameWithType: SourceType
-    fullName: SourceType
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: ReturnType
-    nameWithType: ReturnType
-    fullName: ReturnType
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
   commentId: T:SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
   isExternal: true
+  href: SuperOffice.Util.CollectionOps.html
   name: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>
   nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>
   fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>
@@ -192,74 +193,71 @@ references:
   fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)
   name.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)
   spec.csharp:
-  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
-    name: CollectionOps.GetKeyFromValueItem
-    nameWithType: CollectionOps.GetKeyFromValueItem
-    fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem
+  - uid: SuperOffice.Util.CollectionOps
+    name: CollectionOps
     isExternal: true
+    href: SuperOffice.Util.CollectionOps.html
+  - name: .
+  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
+    name: GetKeyFromValueItem
+    isExternal: true
+    href: SuperOffice.Util.CollectionOps.GetKeyFromValueItem-2.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: KeyType
-    nameWithType: KeyType
-    fullName: KeyType
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: ValueType
-    nameWithType: ValueType
-    fullName: ValueType
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
-    name: CollectionOps.GetKeyFromValueItem
-    nameWithType: CollectionOps.GetKeyFromValueItem
-    fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem
+  - uid: SuperOffice.Util.CollectionOps
+    name: CollectionOps
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Util.CollectionOps.html
+  - name: .
+  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
+    name: GetKeyFromValueItem
+    isExternal: true
+    href: SuperOffice.Util.CollectionOps.GetKeyFromValueItem-2.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: KeyType
-    nameWithType: KeyType
-    fullName: KeyType
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: ValueType
-    nameWithType: ValueType
-    fullName: ValueType
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Util.ComplexKey
   commentId: T:SuperOffice.Util.ComplexKey
   isExternal: true
+  href: SuperOffice.Util.ComplexKey.html
   name: ComplexKey
   nameWithType: ComplexKey
   fullName: SuperOffice.Util.ComplexKey
 - uid: SuperOffice.Util.DateUtility
   commentId: T:SuperOffice.Util.DateUtility
   isExternal: true
+  href: SuperOffice.Util.DateUtility.html
   name: DateUtility
   nameWithType: DateUtility
   fullName: SuperOffice.Util.DateUtility
 - uid: SuperOffice.Util.DomainHelper
   commentId: T:SuperOffice.Util.DomainHelper
   isExternal: true
+  href: SuperOffice.Util.DomainHelper.html
   name: DomainHelper
   nameWithType: DomainHelper
   fullName: SuperOffice.Util.DomainHelper
 - uid: SuperOffice.Util.doubleExtensions
   commentId: T:SuperOffice.Util.doubleExtensions
   isExternal: true
+  href: SuperOffice.Util.doubleExtensions.html
   name: doubleExtensions
   nameWithType: doubleExtensions
   fullName: SuperOffice.Util.doubleExtensions
 - uid: SuperOffice.Util.Encoding
   commentId: T:SuperOffice.Util.Encoding
   isExternal: true
+  href: SuperOffice.Util.Encoding.html
   name: Encoding
   nameWithType: Encoding
   fullName: SuperOffice.Util.Encoding
@@ -267,12 +265,14 @@ references:
   commentId: T:SuperOffice.Util.EnumerableWriter
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.EnumerableWriter.html
   name: EnumerableWriter
   nameWithType: EnumerableWriter
   fullName: SuperOffice.Util.EnumerableWriter
 - uid: SuperOffice.Util.ExpiringDictionary`2
   commentId: T:SuperOffice.Util.ExpiringDictionary`2
   isExternal: true
+  href: SuperOffice.Util.ExpiringDictionary-2.html
   name: ExpiringDictionary<TKey, TValue>
   nameWithType: ExpiringDictionary<TKey, TValue>
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>
@@ -282,73 +282,66 @@ references:
   spec.csharp:
   - uid: SuperOffice.Util.ExpiringDictionary`2
     name: ExpiringDictionary
-    nameWithType: ExpiringDictionary
-    fullName: SuperOffice.Util.ExpiringDictionary
     isExternal: true
+    href: SuperOffice.Util.ExpiringDictionary-2.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Util.ExpiringDictionary`2
     name: ExpiringDictionary
-    nameWithType: ExpiringDictionary
-    fullName: SuperOffice.Util.ExpiringDictionary
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Util.ExpiringDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TValue
-    nameWithType: TValue
-    fullName: TValue
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Util.ExpressionUtil
   commentId: T:SuperOffice.Util.ExpressionUtil
   isExternal: true
+  href: SuperOffice.Util.ExpressionUtil.html
   name: ExpressionUtil
   nameWithType: ExpressionUtil
   fullName: SuperOffice.Util.ExpressionUtil
 - uid: SuperOffice.Util.FileExtensionValidator
   commentId: T:SuperOffice.Util.FileExtensionValidator
-  parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.FileExtensionValidator.html
   name: FileExtensionValidator
   nameWithType: FileExtensionValidator
   fullName: SuperOffice.Util.FileExtensionValidator
 - uid: SuperOffice.Util.FileNameHelper
   commentId: T:SuperOffice.Util.FileNameHelper
   isExternal: true
+  href: SuperOffice.Util.FileNameHelper.html
   name: FileNameHelper
   nameWithType: FileNameHelper
   fullName: SuperOffice.Util.FileNameHelper
+- uid: SuperOffice.Util.GlobalTestFlag
+  commentId: T:SuperOffice.Util.GlobalTestFlag
+  isExternal: true
+  href: SuperOffice.Util.GlobalTestFlag.html
+  name: GlobalTestFlag
+  nameWithType: GlobalTestFlag
+  fullName: SuperOffice.Util.GlobalTestFlag
 - uid: SuperOffice.Util.HtmlHelper
   commentId: T:SuperOffice.Util.HtmlHelper
   isExternal: true
+  href: SuperOffice.Util.HtmlHelper.html
   name: HtmlHelper
   nameWithType: HtmlHelper
   fullName: SuperOffice.Util.HtmlHelper
 - uid: SuperOffice.Util.HttpHelper
   commentId: T:SuperOffice.Util.HttpHelper
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.html
   name: HttpHelper
   nameWithType: HttpHelper
   fullName: SuperOffice.Util.HttpHelper
@@ -356,19 +349,63 @@ references:
   commentId: T:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.html
   name: HttpHelper.HttpServiceJwtConfig
   nameWithType: HttpHelper.HttpServiceJwtConfig
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+  spec.csharp:
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: .
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  spec.vb:
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: .
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
 - uid: SuperOffice.Util.HttpHelper.RequestType
   commentId: T:SuperOffice.Util.HttpHelper.RequestType
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.html
   name: HttpHelper.RequestType
   nameWithType: HttpHelper.RequestType
   fullName: SuperOffice.Util.HttpHelper.RequestType
+  spec.csharp:
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: .
+  - uid: SuperOffice.Util.HttpHelper.RequestType
+    name: RequestType
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.RequestType.html
+  spec.vb:
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: .
+  - uid: SuperOffice.Util.HttpHelper.RequestType
+    name: RequestType
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.RequestType.html
 - uid: SuperOffice.Util.ImageUtilities
   commentId: T:SuperOffice.Util.ImageUtilities
+  parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html
   name: ImageUtilities
   nameWithType: ImageUtilities
   fullName: SuperOffice.Util.ImageUtilities
@@ -376,40 +413,133 @@ references:
   commentId: T:SuperOffice.Util.ImageUtilities.ImageSize
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html
   name: ImageUtilities.ImageSize
   nameWithType: ImageUtilities.ImageSize
   fullName: SuperOffice.Util.ImageUtilities.ImageSize
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageUtilities
+    name: ImageUtilities
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html
+  - name: .
+  - uid: SuperOffice.Util.ImageUtilities.ImageSize
+    name: ImageSize
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.ImageSize.html
+  spec.vb:
+  - uid: SuperOffice.Util.ImageUtilities
+    name: ImageUtilities
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html
+  - name: .
+  - uid: SuperOffice.Util.ImageUtilities.ImageSize
+    name: ImageSize
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.ImageSize.html
 - uid: SuperOffice.Util.ImageUtilities.VerticalAlignment
   commentId: T:SuperOffice.Util.ImageUtilities.VerticalAlignment
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html
   name: ImageUtilities.VerticalAlignment
   nameWithType: ImageUtilities.VerticalAlignment
   fullName: SuperOffice.Util.ImageUtilities.VerticalAlignment
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageUtilities
+    name: ImageUtilities
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html
+  - name: .
+  - uid: SuperOffice.Util.ImageUtilities.VerticalAlignment
+    name: VerticalAlignment
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.VerticalAlignment.html
+  spec.vb:
+  - uid: SuperOffice.Util.ImageUtilities
+    name: ImageUtilities
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html
+  - name: .
+  - uid: SuperOffice.Util.ImageUtilities.VerticalAlignment
+    name: VerticalAlignment
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.VerticalAlignment.html
 - uid: SuperOffice.Util.ImageUtilities.FallbackStrategy
   commentId: T:SuperOffice.Util.ImageUtilities.FallbackStrategy
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html
   name: ImageUtilities.FallbackStrategy
   nameWithType: ImageUtilities.FallbackStrategy
   fullName: SuperOffice.Util.ImageUtilities.FallbackStrategy
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageUtilities
+    name: ImageUtilities
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html
+  - name: .
+  - uid: SuperOffice.Util.ImageUtilities.FallbackStrategy
+    name: FallbackStrategy
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.FallbackStrategy.html
+  spec.vb:
+  - uid: SuperOffice.Util.ImageUtilities
+    name: ImageUtilities
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html
+  - name: .
+  - uid: SuperOffice.Util.ImageUtilities.FallbackStrategy
+    name: FallbackStrategy
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.FallbackStrategy.html
 - uid: SuperOffice.Util.ImageUtilities.ScaleStrategy
   commentId: T:SuperOffice.Util.ImageUtilities.ScaleStrategy
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html
   name: ImageUtilities.ScaleStrategy
   nameWithType: ImageUtilities.ScaleStrategy
   fullName: SuperOffice.Util.ImageUtilities.ScaleStrategy
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageUtilities
+    name: ImageUtilities
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html
+  - name: .
+  - uid: SuperOffice.Util.ImageUtilities.ScaleStrategy
+    name: ScaleStrategy
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.ScaleStrategy.html
+  spec.vb:
+  - uid: SuperOffice.Util.ImageUtilities
+    name: ImageUtilities
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.html
+  - name: .
+  - uid: SuperOffice.Util.ImageUtilities.ScaleStrategy
+    name: ScaleStrategy
+    isExternal: true
+    href: SuperOffice.Util.ImageUtilities.ScaleStrategy.html
 - uid: SuperOffice.Util.ImportDefaults
   commentId: T:SuperOffice.Util.ImportDefaults
   isExternal: true
+  href: SuperOffice.Util.ImportDefaults.html
   name: ImportDefaults
   nameWithType: ImportDefaults
   fullName: SuperOffice.Util.ImportDefaults
+- uid: SuperOffice.Util.InjectionHelper
+  commentId: T:SuperOffice.Util.InjectionHelper
+  isExternal: true
+  href: SuperOffice.Util.InjectionHelper.html
+  name: InjectionHelper
+  nameWithType: InjectionHelper
+  fullName: SuperOffice.Util.InjectionHelper
 - uid: SuperOffice.Util.SJElement
   commentId: T:SuperOffice.Util.SJElement
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.SJElement.html
   name: SJElement
   nameWithType: SJElement
   fullName: SuperOffice.Util.SJElement
@@ -417,12 +547,14 @@ references:
   commentId: T:SuperOffice.Util.SJArray
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.SJArray.html
   name: SJArray
   nameWithType: SJArray
   fullName: SuperOffice.Util.SJArray
 - uid: SuperOffice.Util.JsonPairSerializer`2
   commentId: T:SuperOffice.Util.JsonPairSerializer`2
   isExternal: true
+  href: SuperOffice.Util.JsonPairSerializer-2.html
   name: JsonPairSerializer<T1, T2>
   nameWithType: JsonPairSerializer<T1, T2>
   fullName: SuperOffice.Util.JsonPairSerializer<T1, T2>
@@ -432,49 +564,32 @@ references:
   spec.csharp:
   - uid: SuperOffice.Util.JsonPairSerializer`2
     name: JsonPairSerializer
-    nameWithType: JsonPairSerializer
-    fullName: SuperOffice.Util.JsonPairSerializer
     isExternal: true
+    href: SuperOffice.Util.JsonPairSerializer-2.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: T1
-    nameWithType: T1
-    fullName: T1
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: T2
-    nameWithType: T2
-    fullName: T2
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Util.JsonPairSerializer`2
     name: JsonPairSerializer
-    nameWithType: JsonPairSerializer
-    fullName: SuperOffice.Util.JsonPairSerializer
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Util.JsonPairSerializer-2.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: T1
-    nameWithType: T1
-    fullName: T1
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: T2
-    nameWithType: T2
-    fullName: T2
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Util.KeyedMatrix`3
   commentId: T:SuperOffice.Util.KeyedMatrix`3
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.KeyedMatrix-3.html
   name: KeyedMatrix<TKeyColumn, TKeyRow, TItem>
   nameWithType: KeyedMatrix<TKeyColumn, TKeyRow, TItem>
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>
@@ -484,60 +599,37 @@ references:
   spec.csharp:
   - uid: SuperOffice.Util.KeyedMatrix`3
     name: KeyedMatrix
-    nameWithType: KeyedMatrix
-    fullName: SuperOffice.Util.KeyedMatrix
     isExternal: true
+    href: SuperOffice.Util.KeyedMatrix-3.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TItem
-    nameWithType: TItem
-    fullName: TItem
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Util.KeyedMatrix`3
     name: KeyedMatrix
-    nameWithType: KeyedMatrix
-    fullName: SuperOffice.Util.KeyedMatrix
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Util.KeyedMatrix-3.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TItem
-    nameWithType: TItem
-    fullName: TItem
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Util.MatrixItem`3
   commentId: T:SuperOffice.Util.MatrixItem`3
   isExternal: true
+  href: SuperOffice.Util.MatrixItem-3.html
   name: MatrixItem<TKeyColumn, TKeyRow, TItem>
   nameWithType: MatrixItem<TKeyColumn, TKeyRow, TItem>
   fullName: SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>
@@ -547,96 +639,79 @@ references:
   spec.csharp:
   - uid: SuperOffice.Util.MatrixItem`3
     name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
     isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TItem
-    nameWithType: TItem
-    fullName: TItem
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Util.MatrixItem`3
     name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TItem
-    nameWithType: TItem
-    fullName: TItem
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Util.ReaderWriteLockExtensions
   commentId: T:SuperOffice.Util.ReaderWriteLockExtensions
   isExternal: true
+  href: SuperOffice.Util.ReaderWriteLockExtensions.html
   name: ReaderWriteLockExtensions
   nameWithType: ReaderWriteLockExtensions
   fullName: SuperOffice.Util.ReaderWriteLockExtensions
 - uid: SuperOffice.Util.MailIdConverter
   commentId: T:SuperOffice.Util.MailIdConverter
   isExternal: true
+  href: SuperOffice.Util.MailIdConverter.html
   name: MailIdConverter
   nameWithType: MailIdConverter
   fullName: SuperOffice.Util.MailIdConverter
 - uid: SuperOffice.Util.MailHelper
   commentId: T:SuperOffice.Util.MailHelper
   isExternal: true
+  href: SuperOffice.Util.MailHelper.html
   name: MailHelper
   nameWithType: MailHelper
   fullName: SuperOffice.Util.MailHelper
 - uid: SuperOffice.Util.MimeHelper
   commentId: T:SuperOffice.Util.MimeHelper
   isExternal: true
+  href: SuperOffice.Util.MimeHelper.html
   name: MimeHelper
   nameWithType: MimeHelper
   fullName: SuperOffice.Util.MimeHelper
 - uid: SuperOffice.Util.MimeTypes
   commentId: T:SuperOffice.Util.MimeTypes
   isExternal: true
+  href: SuperOffice.Util.MimeTypes.html
   name: MimeTypes
   nameWithType: MimeTypes
   fullName: SuperOffice.Util.MimeTypes
 - uid: SuperOffice.Util.NameHelper
   commentId: T:SuperOffice.Util.NameHelper
   isExternal: true
+  href: SuperOffice.Util.NameHelper.html
   name: NameHelper
   nameWithType: NameHelper
   fullName: SuperOffice.Util.NameHelper
 - uid: SuperOffice.Util.NameValueCollectionOps
   commentId: T:SuperOffice.Util.NameValueCollectionOps
   isExternal: true
+  href: SuperOffice.Util.NameValueCollectionOps.html
   name: NameValueCollectionOps
   nameWithType: NameValueCollectionOps
   fullName: SuperOffice.Util.NameValueCollectionOps
@@ -644,48 +719,56 @@ references:
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.OnlineConfigWaiter
   commentId: T:SuperOffice.Util.OnlineConfigWaiter
   isExternal: true
+  href: SuperOffice.Util.OnlineConfigWaiter.html
   name: OnlineConfigWaiter
   nameWithType: OnlineConfigWaiter
   fullName: SuperOffice.Util.OnlineConfigWaiter
 - uid: SuperOffice.Util.OperationTracker
   commentId: T:SuperOffice.Util.OperationTracker
   isExternal: true
+  href: SuperOffice.Util.OperationTracker.html
   name: OperationTracker
   nameWithType: OperationTracker
   fullName: SuperOffice.Util.OperationTracker
 - uid: SuperOffice.Util.ParameterBuilder
   commentId: T:SuperOffice.Util.ParameterBuilder
   isExternal: true
+  href: SuperOffice.Util.ParameterBuilder.html
   name: ParameterBuilder
   nameWithType: ParameterBuilder
   fullName: SuperOffice.Util.ParameterBuilder
 - uid: SuperOffice.Util.PreferenceLicenseRequired
   commentId: T:SuperOffice.Util.PreferenceLicenseRequired
   isExternal: true
+  href: SuperOffice.Util.PreferenceLicenseRequired.html
   name: PreferenceLicenseRequired
   nameWithType: PreferenceLicenseRequired
   fullName: SuperOffice.Util.PreferenceLicenseRequired
 - uid: SuperOffice.Util.RandomNumberGeneratorExtensions
   commentId: T:SuperOffice.Util.RandomNumberGeneratorExtensions
   isExternal: true
+  href: SuperOffice.Util.RandomNumberGeneratorExtensions.html
   name: RandomNumberGeneratorExtensions
   nameWithType: RandomNumberGeneratorExtensions
   fullName: SuperOffice.Util.RandomNumberGeneratorExtensions
 - uid: SuperOffice.Util.ReversibleStringEncryption
   commentId: T:SuperOffice.Util.ReversibleStringEncryption
   isExternal: true
+  href: SuperOffice.Util.ReversibleStringEncryption.html
   name: ReversibleStringEncryption
   nameWithType: ReversibleStringEncryption
   fullName: SuperOffice.Util.ReversibleStringEncryption
 - uid: SuperOffice.Util.shortAndboolExtensions
   commentId: T:SuperOffice.Util.shortAndboolExtensions
   isExternal: true
+  href: SuperOffice.Util.shortAndboolExtensions.html
   name: shortAndboolExtensions
   nameWithType: shortAndboolExtensions
   fullName: SuperOffice.Util.shortAndboolExtensions
@@ -693,6 +776,7 @@ references:
   commentId: T:SuperOffice.Util.SoDocumentPlugin
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.SoDocumentPlugin.html
   name: SoDocumentPlugin
   nameWithType: SoDocumentPlugin
   fullName: SuperOffice.Util.SoDocumentPlugin
@@ -700,6 +784,7 @@ references:
   commentId: T:SuperOffice.Util.SoMapper
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.SoMapper.html
   name: SoMapper
   nameWithType: SoMapper
   fullName: SuperOffice.Util.SoMapper
@@ -707,30 +792,55 @@ references:
   commentId: T:SuperOffice.Util.StackTracer
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.StackTracer.html
   name: StackTracer
   nameWithType: StackTracer
   fullName: SuperOffice.Util.StackTracer
 - uid: SuperOffice.Util.StringHelper
   commentId: T:SuperOffice.Util.StringHelper
   isExternal: true
+  href: SuperOffice.Util.StringHelper.html
   name: StringHelper
   nameWithType: StringHelper
   fullName: SuperOffice.Util.StringHelper
 - uid: SuperOffice.Util.StructurePatchingHelper
   commentId: T:SuperOffice.Util.StructurePatchingHelper
   isExternal: true
+  href: SuperOffice.Util.StructurePatchingHelper.html
   name: StructurePatchingHelper
   nameWithType: StructurePatchingHelper
   fullName: SuperOffice.Util.StructurePatchingHelper
 - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
   commentId: T:SuperOffice.Util.StructurePatchingHelper.TypeAction
   isExternal: true
+  href: SuperOffice.Util.StructurePatchingHelper.html
   name: StructurePatchingHelper.TypeAction
   nameWithType: StructurePatchingHelper.TypeAction
   fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction
+  spec.csharp:
+  - uid: SuperOffice.Util.StructurePatchingHelper
+    name: StructurePatchingHelper
+    isExternal: true
+    href: SuperOffice.Util.StructurePatchingHelper.html
+  - name: .
+  - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
+    name: TypeAction
+    isExternal: true
+    href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html
+  spec.vb:
+  - uid: SuperOffice.Util.StructurePatchingHelper
+    name: StructurePatchingHelper
+    isExternal: true
+    href: SuperOffice.Util.StructurePatchingHelper.html
+  - name: .
+  - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
+    name: TypeAction
+    isExternal: true
+    href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html
 - uid: SuperOffice.Util.TextEncodingHelper
   commentId: T:SuperOffice.Util.TextEncodingHelper
   isExternal: true
+  href: SuperOffice.Util.TextEncodingHelper.html
   name: TextEncodingHelper
   nameWithType: TextEncodingHelper
   fullName: SuperOffice.Util.TextEncodingHelper
@@ -738,99 +848,70 @@ references:
   commentId: T:SuperOffice.Util.ITextEncodingDetector
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.ITextEncodingDetector.html
   name: ITextEncodingDetector
   nameWithType: ITextEncodingDetector
   fullName: SuperOffice.Util.ITextEncodingDetector
 - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
   commentId: T:SuperOffice.Util.ByteOrderMarkerEncodingDetector
   isExternal: true
+  href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
   name: ByteOrderMarkerEncodingDetector
   nameWithType: ByteOrderMarkerEncodingDetector
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector
 - uid: SuperOffice.Util.NaiveBomLessUtf16LeEncodingDetector
   commentId: T:SuperOffice.Util.NaiveBomLessUtf16LeEncodingDetector
   isExternal: true
+  href: SuperOffice.Util.NaiveBomLessUtf16LeEncodingDetector.html
   name: NaiveBomLessUtf16LeEncodingDetector
   nameWithType: NaiveBomLessUtf16LeEncodingDetector
   fullName: SuperOffice.Util.NaiveBomLessUtf16LeEncodingDetector
 - uid: SuperOffice.Util.NotUtf8EncodingDetector
   commentId: T:SuperOffice.Util.NotUtf8EncodingDetector
   isExternal: true
+  href: SuperOffice.Util.NotUtf8EncodingDetector.html
   name: NotUtf8EncodingDetector
   nameWithType: NotUtf8EncodingDetector
   fullName: SuperOffice.Util.NotUtf8EncodingDetector
-- uid: SuperOffice.Util.ThreadedQueueProcessor`1
-  commentId: T:SuperOffice.Util.ThreadedQueueProcessor`1
-  isExternal: true
-  name: ThreadedQueueProcessor<T>
-  nameWithType: ThreadedQueueProcessor<T>
-  fullName: SuperOffice.Util.ThreadedQueueProcessor<T>
-  nameWithType.vb: ThreadedQueueProcessor(Of T)
-  fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T)
-  name.vb: ThreadedQueueProcessor(Of T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ThreadedQueueProcessor`1
-    name: ThreadedQueueProcessor
-    nameWithType: ThreadedQueueProcessor
-    fullName: SuperOffice.Util.ThreadedQueueProcessor
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Util.ThreadedQueueProcessor`1
-    name: ThreadedQueueProcessor
-    nameWithType: ThreadedQueueProcessor
-    fullName: SuperOffice.Util.ThreadedQueueProcessor
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Util.TSRandom
   commentId: T:SuperOffice.Util.TSRandom
   isExternal: true
+  href: SuperOffice.Util.TSRandom.html
   name: TSRandom
   nameWithType: TSRandom
   fullName: SuperOffice.Util.TSRandom
 - uid: SuperOffice.Util.TimeConverterHelper
   commentId: T:SuperOffice.Util.TimeConverterHelper
   isExternal: true
+  href: SuperOffice.Util.TimeConverterHelper.html
   name: TimeConverterHelper
   nameWithType: TimeConverterHelper
   fullName: SuperOffice.Util.TimeConverterHelper
 - uid: SuperOffice.Util.TimeConverterData
   commentId: T:SuperOffice.Util.TimeConverterData
   isExternal: true
+  href: SuperOffice.Util.TimeConverterData.html
   name: TimeConverterData
   nameWithType: TimeConverterData
   fullName: SuperOffice.Util.TimeConverterData
 - uid: SuperOffice.Util.TimeConverter
   commentId: T:SuperOffice.Util.TimeConverter
   isExternal: true
+  href: SuperOffice.Util.TimeConverter.html
   name: TimeConverter
   nameWithType: TimeConverter
   fullName: SuperOffice.Util.TimeConverter
 - uid: SuperOffice.Util.TwipsConverter
   commentId: T:SuperOffice.Util.TwipsConverter
   isExternal: true
+  href: SuperOffice.Util.TwipsConverter.html
   name: TwipsConverter
   nameWithType: TwipsConverter
   fullName: SuperOffice.Util.TwipsConverter
 - uid: SuperOffice.Util.TwoWayDictionary`2
   commentId: T:SuperOffice.Util.TwoWayDictionary`2
   isExternal: true
+  href: SuperOffice.Util.TwoWayDictionary-2.html
   name: TwoWayDictionary<LeftType, RightType>
   nameWithType: TwoWayDictionary<LeftType, RightType>
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>
@@ -840,60 +921,45 @@ references:
   spec.csharp:
   - uid: SuperOffice.Util.TwoWayDictionary`2
     name: TwoWayDictionary
-    nameWithType: TwoWayDictionary
-    fullName: SuperOffice.Util.TwoWayDictionary
     isExternal: true
+    href: SuperOffice.Util.TwoWayDictionary-2.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: LeftType
-    nameWithType: LeftType
-    fullName: LeftType
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: RightType
-    nameWithType: RightType
-    fullName: RightType
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Util.TwoWayDictionary`2
     name: TwoWayDictionary
-    nameWithType: TwoWayDictionary
-    fullName: SuperOffice.Util.TwoWayDictionary
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Util.TwoWayDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: LeftType
-    nameWithType: LeftType
-    fullName: LeftType
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: RightType
-    nameWithType: RightType
-    fullName: RightType
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Util.TypeHelper
   commentId: T:SuperOffice.Util.TypeHelper
   isExternal: true
+  href: SuperOffice.Util.TypeHelper.html
   name: TypeHelper
   nameWithType: TypeHelper
   fullName: SuperOffice.Util.TypeHelper
 - uid: SuperOffice.Util.UrlHelper
   commentId: T:SuperOffice.Util.UrlHelper
   isExternal: true
+  href: SuperOffice.Util.UrlHelper.html
   name: UrlHelper
   nameWithType: UrlHelper
   fullName: SuperOffice.Util.UrlHelper
 - uid: SuperOffice.Util.VisitorPatternHelper`1
   commentId: T:SuperOffice.Util.VisitorPatternHelper`1
   isExternal: true
+  href: SuperOffice.Util.VisitorPatternHelper-1.html
   name: VisitorPatternHelper<ReturnType>
   nameWithType: VisitorPatternHelper<ReturnType>
   fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>
@@ -903,36 +969,25 @@ references:
   spec.csharp:
   - uid: SuperOffice.Util.VisitorPatternHelper`1
     name: VisitorPatternHelper
-    nameWithType: VisitorPatternHelper
-    fullName: SuperOffice.Util.VisitorPatternHelper
     isExternal: true
+    href: SuperOffice.Util.VisitorPatternHelper-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: ReturnType
-    nameWithType: ReturnType
-    fullName: ReturnType
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Util.VisitorPatternHelper`1
     name: VisitorPatternHelper
-    nameWithType: VisitorPatternHelper
-    fullName: SuperOffice.Util.VisitorPatternHelper
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Util.VisitorPatternHelper-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: ReturnType
-    nameWithType: ReturnType
-    fullName: ReturnType
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Util.Wrapper`1
   commentId: T:SuperOffice.Util.Wrapper`1
   isExternal: true
+  href: SuperOffice.Util.Wrapper-1.html
   name: Wrapper<T>
   nameWithType: Wrapper<T>
   fullName: SuperOffice.Util.Wrapper<T>
@@ -942,131 +997,463 @@ references:
   spec.csharp:
   - uid: SuperOffice.Util.Wrapper`1
     name: Wrapper
-    nameWithType: Wrapper
-    fullName: SuperOffice.Util.Wrapper
     isExternal: true
+    href: SuperOffice.Util.Wrapper-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: T
-    nameWithType: T
-    fullName: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Util.Wrapper`1
     name: Wrapper
-    nameWithType: Wrapper
-    fullName: SuperOffice.Util.Wrapper
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Util.Wrapper-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: T
-    nameWithType: T
-    fullName: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Util.XmlObjectHelper
   commentId: T:SuperOffice.Util.XmlObjectHelper
   isExternal: true
+  href: SuperOffice.Util.XmlObjectHelper.html
   name: XmlObjectHelper
   nameWithType: XmlObjectHelper
   fullName: SuperOffice.Util.XmlObjectHelper
 - uid: SuperOffice.Util.XmlSchemaUtil
   commentId: T:SuperOffice.Util.XmlSchemaUtil
   isExternal: true
+  href: SuperOffice.Util.XmlSchemaUtil.html
   name: XmlSchemaUtil
   nameWithType: XmlSchemaUtil
   fullName: SuperOffice.Util.XmlSchemaUtil
 - uid: SuperOffice.Util.XmlUtil
   commentId: T:SuperOffice.Util.XmlUtil
   isExternal: true
+  href: SuperOffice.Util.XmlUtil.html
   name: XmlUtil
   nameWithType: XmlUtil
   fullName: SuperOffice.Util.XmlUtil
 - uid: SuperOffice.Util.XmlUtil.InternalResolver
   commentId: T:SuperOffice.Util.XmlUtil.InternalResolver
   isExternal: true
+  href: SuperOffice.Util.XmlUtil.html
   name: XmlUtil.InternalResolver
   nameWithType: XmlUtil.InternalResolver
   fullName: SuperOffice.Util.XmlUtil.InternalResolver
+  spec.csharp:
+  - uid: SuperOffice.Util.XmlUtil
+    name: XmlUtil
+    isExternal: true
+    href: SuperOffice.Util.XmlUtil.html
+  - name: .
+  - uid: SuperOffice.Util.XmlUtil.InternalResolver
+    name: InternalResolver
+    isExternal: true
+    href: SuperOffice.Util.XmlUtil.InternalResolver.html
+  spec.vb:
+  - uid: SuperOffice.Util.XmlUtil
+    name: XmlUtil
+    isExternal: true
+    href: SuperOffice.Util.XmlUtil.html
+  - name: .
+  - uid: SuperOffice.Util.XmlUtil.InternalResolver
+    name: InternalResolver
+    isExternal: true
+    href: SuperOffice.Util.XmlUtil.InternalResolver.html
 - uid: SuperOffice.Util.XmlUtil.Override
   commentId: T:SuperOffice.Util.XmlUtil.Override
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.XmlUtil.html
   name: XmlUtil.Override
   nameWithType: XmlUtil.Override
   fullName: SuperOffice.Util.XmlUtil.Override
+  spec.csharp:
+  - uid: SuperOffice.Util.XmlUtil
+    name: XmlUtil
+    isExternal: true
+    href: SuperOffice.Util.XmlUtil.html
+  - name: .
+  - uid: SuperOffice.Util.XmlUtil.Override
+    name: Override
+    isExternal: true
+    href: SuperOffice.Util.XmlUtil.Override.html
+  spec.vb:
+  - uid: SuperOffice.Util.XmlUtil
+    name: XmlUtil
+    isExternal: true
+    href: SuperOffice.Util.XmlUtil.html
+  - name: .
+  - uid: SuperOffice.Util.XmlUtil.Override
+    name: Override
+    isExternal: true
+    href: SuperOffice.Util.XmlUtil.Override.html
 - uid: SuperOffice.Util.ZipType
   commentId: T:SuperOffice.Util.ZipType
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.ZipType.html
   name: ZipType
   nameWithType: ZipType
   fullName: SuperOffice.Util.ZipType
 - uid: SuperOffice.Util.Zip
   commentId: T:SuperOffice.Util.Zip
   isExternal: true
+  href: SuperOffice.Util.Zip.html
   name: Zip
   nameWithType: Zip
   fullName: SuperOffice.Util.Zip
+- uid: SuperOffice.Util.AppointmentUtility
+  commentId: T:SuperOffice.Util.AppointmentUtility
+  isExternal: true
+  href: SuperOffice.Util.AppointmentUtility.html
+  name: AppointmentUtility
+  nameWithType: AppointmentUtility
+  fullName: SuperOffice.Util.AppointmentUtility
+- uid: SuperOffice.Util.CalendarUtility
+  commentId: T:SuperOffice.Util.CalendarUtility
+  isExternal: true
+  href: SuperOffice.Util.CalendarUtility.html
+  name: CalendarUtility
+  nameWithType: CalendarUtility
+  fullName: SuperOffice.Util.CalendarUtility
+- uid: SuperOffice.Util.CalendarExtensions
+  commentId: T:SuperOffice.Util.CalendarExtensions
+  isExternal: true
+  href: SuperOffice.Util.CalendarExtensions.html
+  name: CalendarExtensions
+  nameWithType: CalendarExtensions
+  fullName: SuperOffice.Util.CalendarExtensions
+- uid: SuperOffice.Util.ICalendarUtility
+  commentId: T:SuperOffice.Util.ICalendarUtility
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ICalendarUtility.html
+  name: ICalendarUtility
+  nameWithType: ICalendarUtility
+  fullName: SuperOffice.Util.ICalendarUtility
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  commentId: T:SuperOffice.Util.DocumentSaveChangeAnalyzer
+  isExternal: true
+  href: SuperOffice.Util.DocumentSaveChangeAnalyzer.html
+  name: DocumentSaveChangeAnalyzer
+  nameWithType: DocumentSaveChangeAnalyzer
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer
+- uid: SuperOffice.Util.NSWinContactHelper
+  commentId: T:SuperOffice.Util.NSWinContactHelper
+  isExternal: true
+  href: SuperOffice.Util.NSWinContactHelper.html
+  name: NSWinContactHelper
+  nameWithType: NSWinContactHelper
+  fullName: SuperOffice.Util.NSWinContactHelper
+- uid: SuperOffice.Util.SoDocumentPluginPreferenceHelper
+  commentId: T:SuperOffice.Util.SoDocumentPluginPreferenceHelper
+  isExternal: true
+  href: SuperOffice.Util.SoDocumentPluginPreferenceHelper.html
+  name: SoDocumentPluginPreferenceHelper
+  nameWithType: SoDocumentPluginPreferenceHelper
+  fullName: SuperOffice.Util.SoDocumentPluginPreferenceHelper
+- uid: SuperOffice.Util.TemporaryConfigOverride
+  commentId: T:SuperOffice.Util.TemporaryConfigOverride
+  isExternal: true
+  href: SuperOffice.Util.TemporaryConfigOverride.html
+  name: TemporaryConfigOverride
+  nameWithType: TemporaryConfigOverride
+  fullName: SuperOffice.Util.TemporaryConfigOverride
+- uid: SuperOffice.Util.TemporaryFeatureToggle
+  commentId: T:SuperOffice.Util.TemporaryFeatureToggle
+  isExternal: true
+  href: SuperOffice.Util.TemporaryFeatureToggle.html
+  name: TemporaryFeatureToggle
+  nameWithType: TemporaryFeatureToggle
+  fullName: SuperOffice.Util.TemporaryFeatureToggle
+- uid: SuperOffice.Util.TimeZoneUtility
+  commentId: T:SuperOffice.Util.TimeZoneUtility
+  isExternal: true
+  href: SuperOffice.Util.TimeZoneUtility.html
+  name: TimeZoneUtility
+  nameWithType: TimeZoneUtility
+  fullName: SuperOffice.Util.TimeZoneUtility
+- uid: SuperOffice.Util.VideoMeetingHelper
+  commentId: T:SuperOffice.Util.VideoMeetingHelper
+  isExternal: true
+  href: SuperOffice.Util.VideoMeetingHelper.html
+  name: VideoMeetingHelper
+  nameWithType: VideoMeetingHelper
+  fullName: SuperOffice.Util.VideoMeetingHelper
+- uid: SuperOffice.Util.VideoMeetingHelper.SoAppointment
+  commentId: T:SuperOffice.Util.VideoMeetingHelper.SoAppointment
+  isExternal: true
+  href: SuperOffice.Util.VideoMeetingHelper.html
+  name: VideoMeetingHelper.SoAppointment
+  nameWithType: VideoMeetingHelper.SoAppointment
+  fullName: SuperOffice.Util.VideoMeetingHelper.SoAppointment
+  spec.csharp:
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: .
+  - uid: SuperOffice.Util.VideoMeetingHelper.SoAppointment
+    name: SoAppointment
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.SoAppointment.html
+  spec.vb:
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: .
+  - uid: SuperOffice.Util.VideoMeetingHelper.SoAppointment
+    name: SoAppointment
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.SoAppointment.html
+- uid: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
+  commentId: T:SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
+  isExternal: true
+  href: SuperOffice.Util.VideoMeetingHelper.html
+  name: VideoMeetingHelper.VideoMeetingReservation
+  nameWithType: VideoMeetingHelper.VideoMeetingReservation
+  fullName: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
+  spec.csharp:
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: .
+  - uid: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
+    name: VideoMeetingReservation
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation.html
+  spec.vb:
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: .
+  - uid: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
+    name: VideoMeetingReservation
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation.html
+- uid: SuperOffice.Util.WebAppUsageRecorder
+  commentId: T:SuperOffice.Util.WebAppUsageRecorder
+  isExternal: true
+  href: SuperOffice.Util.WebAppUsageRecorder.html
+  name: WebAppUsageRecorder
+  nameWithType: WebAppUsageRecorder
+  fullName: SuperOffice.Util.WebAppUsageRecorder
 - uid: SuperOffice.Util.DateTimeSearchType
   commentId: T:SuperOffice.Util.DateTimeSearchType
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.DateTimeSearchType.html
   name: DateTimeSearchType
   nameWithType: DateTimeSearchType
   fullName: SuperOffice.Util.DateTimeSearchType
 - uid: SuperOffice.Util.DateTimeUtil
   commentId: T:SuperOffice.Util.DateTimeUtil
   isExternal: true
+  href: SuperOffice.Util.DateTimeUtil.html
   name: DateTimeUtil
   nameWithType: DateTimeUtil
   fullName: SuperOffice.Util.DateTimeUtil
 - uid: SuperOffice.Util.AccessGateway
   commentId: T:SuperOffice.Util.AccessGateway
   isExternal: true
+  href: SuperOffice.Util.AccessGateway.html
   name: AccessGateway
   nameWithType: AccessGateway
   fullName: SuperOffice.Util.AccessGateway
+- uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+  commentId: T:SuperOffice.Util.AccessGateway.RetrieveTokensResult
+  isExternal: true
+  href: SuperOffice.Util.AccessGateway.html
+  name: AccessGateway.RetrieveTokensResult
+  nameWithType: AccessGateway.RetrieveTokensResult
+  fullName: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+  spec.csharp:
+  - uid: SuperOffice.Util.AccessGateway
+    name: AccessGateway
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.html
+  - name: .
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
+  spec.vb:
+  - uid: SuperOffice.Util.AccessGateway
+    name: AccessGateway
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.html
+  - name: .
+  - uid: SuperOffice.Util.AccessGateway.RetrieveTokensResult
+    name: RetrieveTokensResult
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.RetrieveTokensResult.html
 - uid: SuperOffice.Util.AccessGateway.TokenManagementInfo
   commentId: T:SuperOffice.Util.AccessGateway.TokenManagementInfo
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.AccessGateway.html
   name: AccessGateway.TokenManagementInfo
   nameWithType: AccessGateway.TokenManagementInfo
   fullName: SuperOffice.Util.AccessGateway.TokenManagementInfo
+  spec.csharp:
+  - uid: SuperOffice.Util.AccessGateway
+    name: AccessGateway
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.html
+  - name: .
+  - uid: SuperOffice.Util.AccessGateway.TokenManagementInfo
+    name: TokenManagementInfo
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.TokenManagementInfo.html
+  spec.vb:
+  - uid: SuperOffice.Util.AccessGateway
+    name: AccessGateway
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.html
+  - name: .
+  - uid: SuperOffice.Util.AccessGateway.TokenManagementInfo
+    name: TokenManagementInfo
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.TokenManagementInfo.html
 - uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenRequest
   commentId: T:SuperOffice.Util.AccessGateway.AccessGatewayTokenRequest
   isExternal: true
+  href: SuperOffice.Util.AccessGateway.html
   name: AccessGateway.AccessGatewayTokenRequest
   nameWithType: AccessGateway.AccessGatewayTokenRequest
   fullName: SuperOffice.Util.AccessGateway.AccessGatewayTokenRequest
+  spec.csharp:
+  - uid: SuperOffice.Util.AccessGateway
+    name: AccessGateway
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.html
+  - name: .
+  - uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenRequest
+    name: AccessGatewayTokenRequest
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.AccessGatewayTokenRequest.html
+  spec.vb:
+  - uid: SuperOffice.Util.AccessGateway
+    name: AccessGateway
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.html
+  - name: .
+  - uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenRequest
+    name: AccessGatewayTokenRequest
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.AccessGatewayTokenRequest.html
 - uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
   commentId: T:SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
   isExternal: true
+  href: SuperOffice.Util.AccessGateway.html
   name: AccessGateway.AccessGatewayTokenReply
   nameWithType: AccessGateway.AccessGatewayTokenReply
   fullName: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+  spec.csharp:
+  - uid: SuperOffice.Util.AccessGateway
+    name: AccessGateway
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.html
+  - name: .
+  - uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+    name: AccessGatewayTokenReply
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.html
+  spec.vb:
+  - uid: SuperOffice.Util.AccessGateway
+    name: AccessGateway
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.html
+  - name: .
+  - uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+    name: AccessGatewayTokenReply
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.html
 - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
   commentId: T:SuperOffice.Util.AccessGateway.TenantClientConfiguration
   isExternal: true
+  href: SuperOffice.Util.AccessGateway.html
   name: AccessGateway.TenantClientConfiguration
   nameWithType: AccessGateway.TenantClientConfiguration
   fullName: SuperOffice.Util.AccessGateway.TenantClientConfiguration
+  spec.csharp:
+  - uid: SuperOffice.Util.AccessGateway
+    name: AccessGateway
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.html
+  - name: .
+  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
+    name: TenantClientConfiguration
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
+  spec.vb:
+  - uid: SuperOffice.Util.AccessGateway
+    name: AccessGateway
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.html
+  - name: .
+  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
+    name: TenantClientConfiguration
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
 - uid: SuperOffice.Util.AccessGateway.TenantRegistrationInfo
   commentId: T:SuperOffice.Util.AccessGateway.TenantRegistrationInfo
   isExternal: true
+  href: SuperOffice.Util.AccessGateway.html
   name: AccessGateway.TenantRegistrationInfo
   nameWithType: AccessGateway.TenantRegistrationInfo
   fullName: SuperOffice.Util.AccessGateway.TenantRegistrationInfo
-- uid: SuperOffice.Util.RecurringSeries
-  commentId: T:SuperOffice.Util.RecurringSeries
+  spec.csharp:
+  - uid: SuperOffice.Util.AccessGateway
+    name: AccessGateway
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.html
+  - name: .
+  - uid: SuperOffice.Util.AccessGateway.TenantRegistrationInfo
+    name: TenantRegistrationInfo
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.TenantRegistrationInfo.html
+  spec.vb:
+  - uid: SuperOffice.Util.AccessGateway
+    name: AccessGateway
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.html
+  - name: .
+  - uid: SuperOffice.Util.AccessGateway.TenantRegistrationInfo
+    name: TenantRegistrationInfo
+    isExternal: true
+    href: SuperOffice.Util.AccessGateway.TenantRegistrationInfo.html
+- uid: SuperOffice.Util.DurationTimeHelper
+  commentId: T:SuperOffice.Util.DurationTimeHelper
+  isExternal: true
+  href: SuperOffice.Util.DurationTimeHelper.html
+  name: DurationTimeHelper
+  nameWithType: DurationTimeHelper
+  fullName: SuperOffice.Util.DurationTimeHelper
+- uid: SuperOffice.Util.RowModification
+  commentId: T:SuperOffice.Util.RowModification
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.RowModification.html
+  name: RowModification
+  nameWithType: RowModification
+  fullName: SuperOffice.Util.RowModification
+- uid: SuperOffice.Util.IAppointmentUtility
+  commentId: T:SuperOffice.Util.IAppointmentUtility
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.IAppointmentUtility.html
+  name: IAppointmentUtility
+  nameWithType: IAppointmentUtility
+  fullName: SuperOffice.Util.IAppointmentUtility
+- uid: SuperOffice.Util.RecurringSeries
+  commentId: T:SuperOffice.Util.RecurringSeries
+  isExternal: true
+  href: SuperOffice.Util.RecurringSeries.html
   name: RecurringSeries
   nameWithType: RecurringSeries
   fullName: SuperOffice.Util.RecurringSeries
@@ -1074,93 +1461,21 @@ references:
   commentId: T:SuperOffice.Util.RecurringSubSeries
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.RecurringSubSeries.html
   name: RecurringSubSeries
   nameWithType: RecurringSubSeries
   fullName: SuperOffice.Util.RecurringSubSeries
-- uid: SuperOffice.Util.AppointmentUtility
-  commentId: T:SuperOffice.Util.AppointmentUtility
-  parent: SuperOffice.Util
-  isExternal: true
-  name: AppointmentUtility
-  nameWithType: AppointmentUtility
-  fullName: SuperOffice.Util.AppointmentUtility
-- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer
-  commentId: T:SuperOffice.Util.DocumentSaveChangeAnalyzer
-  isExternal: true
-  name: DocumentSaveChangeAnalyzer
-  nameWithType: DocumentSaveChangeAnalyzer
-  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer
-- uid: SuperOffice.Util.DurationTimeHelper
-  commentId: T:SuperOffice.Util.DurationTimeHelper
-  isExternal: true
-  name: DurationTimeHelper
-  nameWithType: DurationTimeHelper
-  fullName: SuperOffice.Util.DurationTimeHelper
-- uid: SuperOffice.Util.iCalendarUtility
-  commentId: T:SuperOffice.Util.iCalendarUtility
-  parent: SuperOffice.Util
-  isExternal: true
-  name: iCalendarUtility
-  nameWithType: iCalendarUtility
-  fullName: SuperOffice.Util.iCalendarUtility
-- uid: SuperOffice.Util.NSWinContactHelper
-  commentId: T:SuperOffice.Util.NSWinContactHelper
-  isExternal: true
-  name: NSWinContactHelper
-  nameWithType: NSWinContactHelper
-  fullName: SuperOffice.Util.NSWinContactHelper
-- uid: SuperOffice.Util.NsWinHelper
-  commentId: T:SuperOffice.Util.NsWinHelper
-  isExternal: true
-  name: NsWinHelper
-  nameWithType: NsWinHelper
-  fullName: SuperOffice.Util.NsWinHelper
-- uid: SuperOffice.Util.AsyncListProviderWrapper
-  commentId: T:SuperOffice.Util.AsyncListProviderWrapper
-  parent: SuperOffice.Util
-  isExternal: true
-  name: AsyncListProviderWrapper
-  nameWithType: AsyncListProviderWrapper
-  fullName: SuperOffice.Util.AsyncListProviderWrapper
-- uid: SuperOffice.Util.NSWinListProviderHelper
-  commentId: T:SuperOffice.Util.NSWinListProviderHelper
-  isExternal: true
-  name: NSWinListProviderHelper
-  nameWithType: NSWinListProviderHelper
-  fullName: SuperOffice.Util.NSWinListProviderHelper
-- uid: SuperOffice.Util.SoDocumentPluginPreferenceHelper
-  commentId: T:SuperOffice.Util.SoDocumentPluginPreferenceHelper
-  isExternal: true
-  name: SoDocumentPluginPreferenceHelper
-  nameWithType: SoDocumentPluginPreferenceHelper
-  fullName: SuperOffice.Util.SoDocumentPluginPreferenceHelper
 - uid: SuperOffice.Util.TargetHelper
   commentId: T:SuperOffice.Util.TargetHelper
   isExternal: true
+  href: SuperOffice.Util.TargetHelper.html
   name: TargetHelper
   nameWithType: TargetHelper
   fullName: SuperOffice.Util.TargetHelper
-- uid: SuperOffice.Util.TemporaryConfigOverride
-  commentId: T:SuperOffice.Util.TemporaryConfigOverride
-  isExternal: true
-  name: TemporaryConfigOverride
-  nameWithType: TemporaryConfigOverride
-  fullName: SuperOffice.Util.TemporaryConfigOverride
-- uid: SuperOffice.Util.TemporaryFeatureToggle
-  commentId: T:SuperOffice.Util.TemporaryFeatureToggle
-  isExternal: true
-  name: TemporaryFeatureToggle
-  nameWithType: TemporaryFeatureToggle
-  fullName: SuperOffice.Util.TemporaryFeatureToggle
-- uid: SuperOffice.Util.TimeZoneUtility
-  commentId: T:SuperOffice.Util.TimeZoneUtility
-  isExternal: true
-  name: TimeZoneUtility
-  nameWithType: TimeZoneUtility
-  fullName: SuperOffice.Util.TimeZoneUtility
 - uid: SuperOffice.Util.TrackEvent
   commentId: T:SuperOffice.Util.TrackEvent
   isExternal: true
+  href: SuperOffice.Util.TrackEvent.html
   name: TrackEvent
   nameWithType: TrackEvent
   fullName: SuperOffice.Util.TrackEvent
@@ -1168,55 +1483,62 @@ references:
   commentId: T:SuperOffice.Util.ITrackEventDispatcher
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.ITrackEventDispatcher.html
   name: ITrackEventDispatcher
   nameWithType: ITrackEventDispatcher
   fullName: SuperOffice.Util.ITrackEventDispatcher
 - uid: SuperOffice.Util.TrackEventConfiguration
   commentId: T:SuperOffice.Util.TrackEventConfiguration
   isExternal: true
+  href: SuperOffice.Util.TrackEventConfiguration.html
   name: TrackEventConfiguration
   nameWithType: TrackEventConfiguration
   fullName: SuperOffice.Util.TrackEventConfiguration
 - uid: SuperOffice.Util.TrackEventDispatcher
   commentId: T:SuperOffice.Util.TrackEventDispatcher
   isExternal: true
+  href: SuperOffice.Util.TrackEventDispatcher.html
   name: TrackEventDispatcher
   nameWithType: TrackEventDispatcher
   fullName: SuperOffice.Util.TrackEventDispatcher
+- uid: SuperOffice.Util.TrackEventSender
+  commentId: T:SuperOffice.Util.TrackEventSender
+  isExternal: true
+  href: SuperOffice.Util.TrackEventSender.html
+  name: TrackEventSender
+  nameWithType: TrackEventSender
+  fullName: SuperOffice.Util.TrackEventSender
 - uid: SuperOffice.Util.UsedPrefKeysUtils
   commentId: T:SuperOffice.Util.UsedPrefKeysUtils
   isExternal: true
+  href: SuperOffice.Util.UsedPrefKeysUtils.html
   name: UsedPrefKeysUtils
   nameWithType: UsedPrefKeysUtils
   fullName: SuperOffice.Util.UsedPrefKeysUtils
-- uid: SuperOffice.Util.VideoMeetingHelper
-  commentId: T:SuperOffice.Util.VideoMeetingHelper
-  isExternal: true
-  name: VideoMeetingHelper
-  nameWithType: VideoMeetingHelper
-  fullName: SuperOffice.Util.VideoMeetingHelper
-- uid: SuperOffice.Util.VideoMeetingHelper.SoAppointment
-  commentId: T:SuperOffice.Util.VideoMeetingHelper.SoAppointment
-  isExternal: true
-  name: VideoMeetingHelper.SoAppointment
-  nameWithType: VideoMeetingHelper.SoAppointment
-  fullName: SuperOffice.Util.VideoMeetingHelper.SoAppointment
-- uid: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
-  commentId: T:SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
-  parent: SuperOffice.Util
-  isExternal: true
-  name: VideoMeetingHelper.VideoMeetingReservation
-  nameWithType: VideoMeetingHelper.VideoMeetingReservation
-  fullName: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
-- uid: SuperOffice.Util.WebAppUsageRecorder
-  commentId: T:SuperOffice.Util.WebAppUsageRecorder
-  isExternal: true
-  name: WebAppUsageRecorder
-  nameWithType: WebAppUsageRecorder
-  fullName: SuperOffice.Util.WebAppUsageRecorder
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html

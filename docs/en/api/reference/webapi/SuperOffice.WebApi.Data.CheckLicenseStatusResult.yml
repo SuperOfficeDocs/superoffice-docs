@@ -17,29 +17,30 @@ items:
   nameWithType: CheckLicenseStatusResult
   fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for CheckLicenseStatusResult.\nResult of CheckLicenseStatus    \n"
+  summary: >-
+    Carrier object for CheckLicenseStatusResult.
+
+    Result of CheckLicenseStatus
+  example: []
   syntax:
-    content: 'public class CheckLicenseStatusResult : Object'
-    content.vb: >-
-      Public Class CheckLicenseStatusResult
-          Inherits Object
+    content: public class CheckLicenseStatusResult
+    content.vb: Public Class CheckLicenseStatusResult
   seealso:
   - linkId: SuperOffice.WebApi.Agents.LicenseAgent
     commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult.#ctor
   commentId: M:SuperOffice.WebApi.Data.CheckLicenseStatusResult.#ctor
   id: '#ctor'
@@ -51,21 +52,18 @@ items:
   nameWithType: CheckLicenseStatusResult.CheckLicenseStatusResult()
   fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult.CheckLicenseStatusResult()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public CheckLicenseStatusResult()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.CheckLicenseStatusResult.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: CheckLicenseStatusResult.New()
+  fullName.vb: SuperOffice.WebApi.Data.CheckLicenseStatusResult.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus_String
   commentId: P:SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus_String
   id: LicenseStatus_String
@@ -77,29 +75,36 @@ items:
   nameWithType: CheckLicenseStatusResult.LicenseStatus_String
   fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nResult of CheckLicenseStatus \nRaw string enum value.\n"
+  summary: >-
+    Result of CheckLicenseStatus 
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string LicenseStatus_String { get; set; }
+    content: >-
+      [JsonProperty("LicenseStatus")]
+
+      public string LicenseStatus_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property LicenseStatus_String As String
+    content.vb: >-
+      <JsonProperty("LicenseStatus")>
+
+      Public Property LicenseStatus_String As String
   overload: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus
     commentId: P:SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LicenseStatus
 - uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus
   commentId: P:SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus
   id: LicenseStatus
@@ -111,29 +116,34 @@ items:
   nameWithType: CheckLicenseStatusResult.LicenseStatus
   fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nResult of CheckLicenseStatus \nNULL if unknown enum value.\n"
+  summary: >-
+    Result of CheckLicenseStatus 
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<LicenseStatus> LicenseStatus { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public LicenseStatus? LicenseStatus { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.LicenseStatus}
-    content.vb: Public Property LicenseStatus As Nullable(Of LicenseStatus)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property LicenseStatus As LicenseStatus?
   overload: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus*
   seealso:
   - linkId: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus_String
     commentId: P:SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult.Message
   commentId: P:SuperOffice.WebApi.Data.CheckLicenseStatusResult.Message
   id: Message
@@ -145,13 +155,11 @@ items:
   nameWithType: CheckLicenseStatusResult.Message
   fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult.Message
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nMessage to display in SOADMIN if LinkType=90.\n"
+  summary: Message to display in SOADMIN if LinkType=90.
+  example: []
   syntax:
     content: public virtual string Message { get; set; }
     parameters: []
@@ -159,14 +167,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Message As String
   overload: SuperOffice.WebApi.Data.CheckLicenseStatusResult.Message*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult.Url
   commentId: P:SuperOffice.WebApi.Data.CheckLicenseStatusResult.Url
   id: Url
@@ -178,13 +178,11 @@ items:
   nameWithType: CheckLicenseStatusResult.Url
   fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult.Url
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nUrl to show to the user.  This is relevant when LinkType is 60.\n"
+  summary: Url to show to the user.  This is relevant when LinkType is 60.
+  example: []
   syntax:
     content: public virtual string Url { get; set; }
     parameters: []
@@ -192,161 +190,396 @@ items:
       type: System.String
     content.vb: Public Overridable Property Url As String
   overload: SuperOffice.WebApi.Data.CheckLicenseStatusResult.Url*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.LicenseAgent
+  commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.LicenseAgent.html
+  name: LicenseAgent
+  nameWithType: LicenseAgent
+  fullName: SuperOffice.WebApi.Agents.LicenseAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: SuperOffice.WebApi.Agents.LicenseAgent
-  commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: LicenseAgent
-  nameWithType: LicenseAgent
-  fullName: SuperOffice.WebApi.Agents.LicenseAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.CheckLicenseStatusResult.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.CheckLicenseStatusResult.html#SuperOffice_WebApi_Data_CheckLicenseStatusResult__ctor
   name: CheckLicenseStatusResult
   nameWithType: CheckLicenseStatusResult.CheckLicenseStatusResult
   fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult.CheckLicenseStatusResult
-- uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus_String*
-  commentId: Overload:SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus_String
-  isExternal: true
-  name: LicenseStatus_String
-  nameWithType: CheckLicenseStatusResult.LicenseStatus_String
-  fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus_String
+  nameWithType.vb: CheckLicenseStatusResult.New
+  fullName.vb: SuperOffice.WebApi.Data.CheckLicenseStatusResult.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus
   commentId: P:SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus
   isExternal: true
+  href: SuperOffice.WebApi.Data.CheckLicenseStatusResult.html#SuperOffice_WebApi_Data_CheckLicenseStatusResult_LicenseStatus
+  name: LicenseStatus
+  nameWithType: CheckLicenseStatusResult.LicenseStatus
+  fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus
+- uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus_String*
+  commentId: Overload:SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CheckLicenseStatusResult.html#SuperOffice_WebApi_Data_CheckLicenseStatusResult_LicenseStatus_String
+  name: LicenseStatus_String
+  nameWithType: CheckLicenseStatusResult.LicenseStatus_String
+  fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus_String
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus*
-  commentId: Overload:SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus
-  isExternal: true
-  name: LicenseStatus
-  nameWithType: CheckLicenseStatusResult.LicenseStatus
-  fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus_String
   commentId: P:SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus_String
   isExternal: true
-- uid: System.Nullable{SuperOffice.WebApi.Data.LicenseStatus}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.LicenseStatus}'
-  definition: System.Nullable`1
-  name: Nullable<LicenseStatus>
-  nameWithType: Nullable<LicenseStatus>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.LicenseStatus>
-  nameWithType.vb: Nullable(Of LicenseStatus)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.LicenseStatus)
-  name.vb: Nullable(Of LicenseStatus)
-  spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.LicenseStatus
-    name: LicenseStatus
-    nameWithType: LicenseStatus
-    fullName: SuperOffice.WebApi.Data.LicenseStatus
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.LicenseStatus
-    name: LicenseStatus
-    nameWithType: LicenseStatus
-    fullName: SuperOffice.WebApi.Data.LicenseStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Nullable`1
+  href: SuperOffice.WebApi.Data.CheckLicenseStatusResult.html#SuperOffice_WebApi_Data_CheckLicenseStatusResult_LicenseStatus_String
+  name: LicenseStatus_String
+  nameWithType: CheckLicenseStatusResult.LicenseStatus_String
+  fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus_String
+- uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  href: SuperOffice.WebApi.Data.CheckLicenseStatusResult.html#SuperOffice_WebApi_Data_CheckLicenseStatusResult_LicenseStatus
+  name: LicenseStatus
+  nameWithType: CheckLicenseStatusResult.LicenseStatus
+  fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult.LicenseStatus
+- uid: System.Nullable{SuperOffice.WebApi.Data.LicenseStatus}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.LicenseStatus}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.LicenseStatus.html
+  name: LicenseStatus?
+  nameWithType: LicenseStatus?
+  fullName: SuperOffice.WebApi.Data.LicenseStatus?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.LicenseStatus
+    name: LicenseStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.LicenseStatus.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.LicenseStatus
+    name: LicenseStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.LicenseStatus.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult.Message*
   commentId: Overload:SuperOffice.WebApi.Data.CheckLicenseStatusResult.Message
   isExternal: true
+  href: SuperOffice.WebApi.Data.CheckLicenseStatusResult.html#SuperOffice_WebApi_Data_CheckLicenseStatusResult_Message
   name: Message
   nameWithType: CheckLicenseStatusResult.Message
   fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult.Message
 - uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult.Url*
   commentId: Overload:SuperOffice.WebApi.Data.CheckLicenseStatusResult.Url
   isExternal: true
+  href: SuperOffice.WebApi.Data.CheckLicenseStatusResult.html#SuperOffice_WebApi_Data_CheckLicenseStatusResult_Url
   name: Url
   nameWithType: CheckLicenseStatusResult.Url
   fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult.Url

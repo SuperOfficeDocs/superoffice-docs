@@ -1,0 +1,571 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+  id: ConfigFile.ICustomerServiceConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrl
+  - SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrlDirect
+  - SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrlInternal
+  - SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsDomain
+  - SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsPassword
+  - SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsUserName
+  - SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.ImpersonateCsUser
+  - SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.MailDomain
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.ICustomerServiceConfiguration
+  nameWithType: ConfigFile.ICustomerServiceConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+  type: Interface
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: >-
+    Configuration values for accessing Customer Service
+
+    Created in Database scope
+  example: []
+  syntax:
+    content: public interface ConfigFile.ICustomerServiceConfiguration
+    content.vb: Public Interface ConfigFile.ICustomerServiceConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.ImpersonateCsUser
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.ImpersonateCsUser
+  id: ImpersonateCsUser
+  parent: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ImpersonateCsUser
+  nameWithType: ConfigFile.ICustomerServiceConfiguration.ImpersonateCsUser
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.ImpersonateCsUser
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Impersonate a specific (Windows Domain) user when using Customer Service API
+  example: []
+  syntax:
+    content: bool ImpersonateCsUser { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ImpersonateCsUser As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.ImpersonateCsUser*
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsUserName
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsUserName
+  id: CsUserName
+  parent: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CsUserName
+  nameWithType: ConfigFile.ICustomerServiceConfiguration.CsUserName
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsUserName
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: The username to impersonate
+  example: []
+  syntax:
+    content: string CsUserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property CsUserName As String
+  overload: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsUserName*
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsPassword
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsPassword
+  id: CsPassword
+  parent: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CsPassword
+  nameWithType: ConfigFile.ICustomerServiceConfiguration.CsPassword
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsPassword
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: The password
+  example: []
+  syntax:
+    content: string CsPassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property CsPassword As String
+  overload: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsPassword*
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsDomain
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsDomain
+  id: CsDomain
+  parent: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CsDomain
+  nameWithType: ConfigFile.ICustomerServiceConfiguration.CsDomain
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsDomain
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: The Active Directory Domain this user belongs to
+  example: []
+  syntax:
+    content: string CsDomain { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property CsDomain As String
+  overload: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsDomain*
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrl
+  id: CsCgiUrl
+  parent: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CsCgiUrl
+  nameWithType: ConfigFile.ICustomerServiceConfiguration.CsCgiUrl
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrl
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Base path for CustomerService as accessed from browser when accessed from internet and public urls.  Like customer center or links in mailings (Online only)
+  example: []
+  syntax:
+    content: string CsCgiUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property CsCgiUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrl*
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrlInternal
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrlInternal
+  id: CsCgiUrlInternal
+  parent: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CsCgiUrlInternal
+  nameWithType: ConfigFile.ICustomerServiceConfiguration.CsCgiUrlInternal
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrlInternal
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Base path for CustomerService as used by an internal employee working with service (Front-channel from associate) (Online only)
+  example: []
+  syntax:
+    content: string CsCgiUrlInternal { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property CsCgiUrlInternal As String
+  overload: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrlInternal*
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrlDirect
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrlDirect
+  id: CsCgiUrlDirect
+  parent: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CsCgiUrlDirect
+  nameWithType: ConfigFile.ICustomerServiceConfiguration.CsCgiUrlDirect
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrlDirect
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Base path for CustomerService as accessed from NetServer (Back-channel) (Online only)
+  example: []
+  syntax:
+    content: string CsCgiUrlDirect { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property CsCgiUrlDirect As String
+  overload: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrlDirect*
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.MailDomain
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.MailDomain
+  id: MailDomain
+  parent: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+  langs:
+  - csharp
+  - vb
+  name: MailDomain
+  nameWithType: ConfigFile.ICustomerServiceConfiguration.MailDomain
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.MailDomain
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Mail domain used in Customer Service
+  example: []
+  syntax:
+    content: string MailDomain { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property MailDomain As String
+  overload: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.MailDomain*
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ICustomerServiceConfiguration, To>(ICustomerServiceConfiguration)
+  nameWithType: EnumUtil.MapEnums<ConfigFile.ICustomerServiceConfiguration, To>(ConfigFile.ICustomerServiceConfiguration)
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration, To>(SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration)
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.ICustomerServiceConfiguration, To)(ConfigFile.ICustomerServiceConfiguration)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration, To)(SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration)
+  name.vb: MapEnums(Of ICustomerServiceConfiguration, To)(ICustomerServiceConfiguration)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+    name: ICustomerServiceConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+    name: ICustomerServiceConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+    name: ICustomerServiceConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+    name: ICustomerServiceConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.html
+  - name: )
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ICustomerServiceConfiguration, To>(ICustomerServiceConfiguration)
+  nameWithType: Converters.MapEnums<ConfigFile.ICustomerServiceConfiguration, To>(ConfigFile.ICustomerServiceConfiguration)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration, To>(SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration)
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.ICustomerServiceConfiguration, To)(ConfigFile.ICustomerServiceConfiguration)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration, To)(SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration)
+  name.vb: MapEnums(Of ICustomerServiceConfiguration, To)(ICustomerServiceConfiguration)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+    name: ICustomerServiceConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+    name: ICustomerServiceConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+    name: ICustomerServiceConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
+    name: ICustomerServiceConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.ImpersonateCsUser*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.ImpersonateCsUser
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.html#SuperOffice_Configuration_ConfigFile_ICustomerServiceConfiguration_ImpersonateCsUser
+  name: ImpersonateCsUser
+  nameWithType: ConfigFile.ICustomerServiceConfiguration.ImpersonateCsUser
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.ImpersonateCsUser
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsUserName*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsUserName
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.html#SuperOffice_Configuration_ConfigFile_ICustomerServiceConfiguration_CsUserName
+  name: CsUserName
+  nameWithType: ConfigFile.ICustomerServiceConfiguration.CsUserName
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsUserName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsPassword*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsPassword
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.html#SuperOffice_Configuration_ConfigFile_ICustomerServiceConfiguration_CsPassword
+  name: CsPassword
+  nameWithType: ConfigFile.ICustomerServiceConfiguration.CsPassword
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsPassword
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsDomain*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsDomain
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.html#SuperOffice_Configuration_ConfigFile_ICustomerServiceConfiguration_CsDomain
+  name: CsDomain
+  nameWithType: ConfigFile.ICustomerServiceConfiguration.CsDomain
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsDomain
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrl
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.html#SuperOffice_Configuration_ConfigFile_ICustomerServiceConfiguration_CsCgiUrl
+  name: CsCgiUrl
+  nameWithType: ConfigFile.ICustomerServiceConfiguration.CsCgiUrl
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrl
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrlInternal*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrlInternal
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.html#SuperOffice_Configuration_ConfigFile_ICustomerServiceConfiguration_CsCgiUrlInternal
+  name: CsCgiUrlInternal
+  nameWithType: ConfigFile.ICustomerServiceConfiguration.CsCgiUrlInternal
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrlInternal
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrlDirect*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrlDirect
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.html#SuperOffice_Configuration_ConfigFile_ICustomerServiceConfiguration_CsCgiUrlDirect
+  name: CsCgiUrlDirect
+  nameWithType: ConfigFile.ICustomerServiceConfiguration.CsCgiUrlDirect
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.CsCgiUrlDirect
+- uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.MailDomain*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.MailDomain
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.html#SuperOffice_Configuration_ConfigFile_ICustomerServiceConfiguration_MailDomain
+  name: MailDomain
+  nameWithType: ConfigFile.ICustomerServiceConfiguration.MailDomain
+  fullName: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration.MailDomain

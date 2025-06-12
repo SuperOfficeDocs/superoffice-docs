@@ -1,0 +1,792 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.FindErpEntityProvider
+  commentId: T:SuperOffice.ErpSync.FindErpEntityProvider
+  id: FindErpEntityProvider
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.FindErpEntityProvider.#ctor
+  - SuperOffice.ErpSync.FindErpEntityProvider.#ctor(System.String)
+  - SuperOffice.ErpSync.FindErpEntityProvider.FetchAndSetCriteria(System.Int32)
+  - SuperOffice.ErpSync.FindErpEntityProvider.GetStandardColumnNames
+  - SuperOffice.ErpSync.FindErpEntityProvider.ProviderName
+  - SuperOffice.ErpSync.FindErpEntityProvider.SetAdditionalColumns(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: FindErpEntityProvider
+  nameWithType: FindErpEntityProvider
+  fullName: SuperOffice.ErpSync.FindErpEntityProvider
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Provider for searching in projects
+  example: []
+  syntax:
+    content: 'public class FindErpEntityProvider : ErpEntityProvider, IArchiveFindProviderBase<ArchiveRow>, IArchiveTypedProvider<ArchiveRow>, IArchiveTypedProviderBase, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities'
+    content.vb: Public Class FindErpEntityProvider Inherits ErpEntityProvider Implements IArchiveFindProviderBase(Of ArchiveRow), IArchiveTypedProvider(Of ArchiveRow), IArchiveTypedProviderBase, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+  - SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+  - SuperOffice.CRM.ArchiveLists.IArchiveTypedProviderBase
+  - SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  inheritedMembers:
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.RowTypeErpEntity
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.UseErpEntityCacheRestrictionName
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ColumnName
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ColumnClassName
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ColumnAssemblyName
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ColumnLocation
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ConnectionId
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.SearchString
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ActorType
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.RetrieveConnected
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.RetrieveOnlyConnectedParent
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ErpFields
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ErpActorTypes
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.hConnection
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.Restrictions
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colConnectionId
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colSearchText
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colErpActorType
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colConnected
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colOnlyParentConnected
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colErpKey
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.GetResultDataAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.BaseClassShouldFilterColumns
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.BaseClassShouldFilterEntities
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.BaseClassShouldPage
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider.BaseClassShouldSort
+- uid: SuperOffice.ErpSync.FindErpEntityProvider.ProviderName
+  commentId: F:SuperOffice.ErpSync.FindErpEntityProvider.ProviderName
+  id: ProviderName
+  parent: SuperOffice.ErpSync.FindErpEntityProvider
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: FindErpEntityProvider.ProviderName
+  fullName: SuperOffice.ErpSync.FindErpEntityProvider.ProviderName
+  type: Field
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public const string ProviderName = "FindErpEntity"
+    return:
+      type: System.String
+    content.vb: Public Const ProviderName As String = "FindErpEntity"
+- uid: SuperOffice.ErpSync.FindErpEntityProvider.#ctor
+  commentId: M:SuperOffice.ErpSync.FindErpEntityProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.ErpSync.FindErpEntityProvider
+  langs:
+  - csharp
+  - vb
+  name: FindErpEntityProvider()
+  nameWithType: FindErpEntityProvider.FindErpEntityProvider()
+  fullName: SuperOffice.ErpSync.FindErpEntityProvider.FindErpEntityProvider()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public FindErpEntityProvider()
+    content.vb: Public Sub New()
+  overload: SuperOffice.ErpSync.FindErpEntityProvider.#ctor*
+  nameWithType.vb: FindErpEntityProvider.New()
+  fullName.vb: SuperOffice.ErpSync.FindErpEntityProvider.New()
+  name.vb: New()
+- uid: SuperOffice.ErpSync.FindErpEntityProvider.#ctor(System.String)
+  commentId: M:SuperOffice.ErpSync.FindErpEntityProvider.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.ErpSync.FindErpEntityProvider
+  langs:
+  - csharp
+  - vb
+  name: FindErpEntityProvider(string)
+  nameWithType: FindErpEntityProvider.FindErpEntityProvider(string)
+  fullName: SuperOffice.ErpSync.FindErpEntityProvider.FindErpEntityProvider(string)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public FindErpEntityProvider(string context)
+    parameters:
+    - id: context
+      type: System.String
+    content.vb: Public Sub New(context As String)
+  overload: SuperOffice.ErpSync.FindErpEntityProvider.#ctor*
+  nameWithType.vb: FindErpEntityProvider.New(String)
+  fullName.vb: SuperOffice.ErpSync.FindErpEntityProvider.New(String)
+  name.vb: New(String)
+- uid: SuperOffice.ErpSync.FindErpEntityProvider.FetchAndSetCriteria(System.Int32)
+  commentId: M:SuperOffice.ErpSync.FindErpEntityProvider.FetchAndSetCriteria(System.Int32)
+  id: FetchAndSetCriteria(System.Int32)
+  parent: SuperOffice.ErpSync.FindErpEntityProvider
+  langs:
+  - csharp
+  - vb
+  name: FetchAndSetCriteria(int)
+  nameWithType: FindErpEntityProvider.FetchAndSetCriteria(int)
+  fullName: SuperOffice.ErpSync.FindErpEntityProvider.FetchAndSetCriteria(int)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public ArchiveRestrictionInfo[] FetchAndSetCriteria(int ownerAssociate)
+    parameters:
+    - id: ownerAssociate
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    content.vb: Public Function FetchAndSetCriteria(ownerAssociate As Integer) As ArchiveRestrictionInfo()
+  overload: SuperOffice.ErpSync.FindErpEntityProvider.FetchAndSetCriteria*
+  nameWithType.vb: FindErpEntityProvider.FetchAndSetCriteria(Integer)
+  fullName.vb: SuperOffice.ErpSync.FindErpEntityProvider.FetchAndSetCriteria(Integer)
+  name.vb: FetchAndSetCriteria(Integer)
+- uid: SuperOffice.ErpSync.FindErpEntityProvider.GetStandardColumnNames
+  commentId: M:SuperOffice.ErpSync.FindErpEntityProvider.GetStandardColumnNames
+  id: GetStandardColumnNames
+  parent: SuperOffice.ErpSync.FindErpEntityProvider
+  langs:
+  - csharp
+  - vb
+  name: GetStandardColumnNames()
+  nameWithType: FindErpEntityProvider.GetStandardColumnNames()
+  fullName: SuperOffice.ErpSync.FindErpEntityProvider.GetStandardColumnNames()
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public string[] GetStandardColumnNames()
+    return:
+      type: System.String[]
+    content.vb: Public Function GetStandardColumnNames() As String()
+  overload: SuperOffice.ErpSync.FindErpEntityProvider.GetStandardColumnNames*
+- uid: SuperOffice.ErpSync.FindErpEntityProvider.SetAdditionalColumns(System.String[])
+  commentId: M:SuperOffice.ErpSync.FindErpEntityProvider.SetAdditionalColumns(System.String[])
+  id: SetAdditionalColumns(System.String[])
+  parent: SuperOffice.ErpSync.FindErpEntityProvider
+  langs:
+  - csharp
+  - vb
+  name: SetAdditionalColumns(params string[])
+  nameWithType: FindErpEntityProvider.SetAdditionalColumns(params string[])
+  fullName: SuperOffice.ErpSync.FindErpEntityProvider.SetAdditionalColumns(params string[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public void SetAdditionalColumns(params string[] additionalColumns)
+    parameters:
+    - id: additionalColumns
+      type: System.String[]
+    content.vb: Public Sub SetAdditionalColumns(ParamArray additionalColumns As String())
+  overload: SuperOffice.ErpSync.FindErpEntityProvider.SetAdditionalColumns*
+  nameWithType.vb: FindErpEntityProvider.SetAdditionalColumns(ParamArray String())
+  fullName.vb: SuperOffice.ErpSync.FindErpEntityProvider.SetAdditionalColumns(ParamArray String())
+  name.vb: SetAdditionalColumns(ParamArray String())
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html
+  name: ErpEntityProvider
+  nameWithType: ErpEntityProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+  commentId: '!:SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveRow}'
+  definition: SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase`1
+  name: IArchiveFindProviderBase<ArchiveRow>
+  nameWithType: IArchiveFindProviderBase<ArchiveRow>
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveRow>
+  nameWithType.vb: IArchiveFindProviderBase(Of ArchiveRow)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  name.vb: IArchiveFindProviderBase(Of ArchiveRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase`1
+    name: IArchiveFindProviderBase
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase`1
+    name: IArchiveFindProviderBase
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    isExternal: true
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+  commentId: '!:SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider{SuperOffice.CRM.ArchiveLists.ArchiveRow}'
+  definition: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider`1
+  name: IArchiveTypedProvider<ArchiveRow>
+  nameWithType: IArchiveTypedProvider<ArchiveRow>
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider<SuperOffice.CRM.ArchiveLists.ArchiveRow>
+  nameWithType.vb: IArchiveTypedProvider(Of ArchiveRow)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider(Of SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  name.vb: IArchiveTypedProvider(Of ArchiveRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider`1
+    name: IArchiveTypedProvider
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider`1
+    name: IArchiveTypedProvider
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    isExternal: true
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveTypedProviderBase
+  commentId: '!:SuperOffice.CRM.ArchiveLists.IArchiveTypedProviderBase'
+  isExternal: true
+  name: IArchiveTypedProviderBase
+  nameWithType: IArchiveTypedProviderBase
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveTypedProviderBase
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  isExternal: true
+  name: IArchiveProvider
+  nameWithType: IArchiveProvider
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  commentId: '!:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows'
+  isExternal: true
+  name: IArchiveProviderHasRows
+  nameWithType: IArchiveProviderHasRows
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  commentId: '!:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns'
+  isExternal: true
+  name: IArchiveProviderHasColumns
+  nameWithType: IArchiveProviderHasColumns
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  commentId: '!:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities'
+  isExternal: true
+  name: IArchiveProviderHasEntities
+  nameWithType: IArchiveProviderHasEntities
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.RowTypeErpEntity
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.RowTypeErpEntity
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_RowTypeErpEntity
+  name: RowTypeErpEntity
+  nameWithType: ErpEntityProvider.RowTypeErpEntity
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.RowTypeErpEntity
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.UseErpEntityCacheRestrictionName
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.UseErpEntityCacheRestrictionName
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_UseErpEntityCacheRestrictionName
+  name: UseErpEntityCacheRestrictionName
+  nameWithType: ErpEntityProvider.UseErpEntityCacheRestrictionName
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.UseErpEntityCacheRestrictionName
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ColumnName
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ColumnName
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_ColumnName
+  name: ColumnName
+  nameWithType: ErpEntityProvider.ColumnName
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ColumnName
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ColumnClassName
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ColumnClassName
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_ColumnClassName
+  name: ColumnClassName
+  nameWithType: ErpEntityProvider.ColumnClassName
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ColumnClassName
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ColumnAssemblyName
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ColumnAssemblyName
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_ColumnAssemblyName
+  name: ColumnAssemblyName
+  nameWithType: ErpEntityProvider.ColumnAssemblyName
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ColumnAssemblyName
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ColumnLocation
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ColumnLocation
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_ColumnLocation
+  name: ColumnLocation
+  nameWithType: ErpEntityProvider.ColumnLocation
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ColumnLocation
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ConnectionId
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ConnectionId
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_ConnectionId
+  name: ConnectionId
+  nameWithType: ErpEntityProvider.ConnectionId
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ConnectionId
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.SearchString
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.SearchString
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_SearchString
+  name: SearchString
+  nameWithType: ErpEntityProvider.SearchString
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.SearchString
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ActorType
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ActorType
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_ActorType
+  name: ActorType
+  nameWithType: ErpEntityProvider.ActorType
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ActorType
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.RetrieveConnected
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.RetrieveConnected
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_RetrieveConnected
+  name: RetrieveConnected
+  nameWithType: ErpEntityProvider.RetrieveConnected
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.RetrieveConnected
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.RetrieveOnlyConnectedParent
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.RetrieveOnlyConnectedParent
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_RetrieveOnlyConnectedParent
+  name: RetrieveOnlyConnectedParent
+  nameWithType: ErpEntityProvider.RetrieveOnlyConnectedParent
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.RetrieveOnlyConnectedParent
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ErpFields
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ErpFields
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_ErpFields
+  name: ErpFields
+  nameWithType: ErpEntityProvider.ErpFields
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ErpFields
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ErpActorTypes
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ErpActorTypes
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_ErpActorTypes
+  name: ErpActorTypes
+  nameWithType: ErpEntityProvider.ErpActorTypes
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.ErpActorTypes
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.hConnection
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.hConnection
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_hConnection
+  name: hConnection
+  nameWithType: ErpEntityProvider.hConnection
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.hConnection
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.Restrictions
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.Restrictions
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_Restrictions
+  name: Restrictions
+  nameWithType: ErpEntityProvider.Restrictions
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.Restrictions
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colConnectionId
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colConnectionId
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider__colConnectionId
+  name: _colConnectionId
+  nameWithType: ErpEntityProvider._colConnectionId
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colConnectionId
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colSearchText
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colSearchText
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider__colSearchText
+  name: _colSearchText
+  nameWithType: ErpEntityProvider._colSearchText
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colSearchText
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colErpActorType
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colErpActorType
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider__colErpActorType
+  name: _colErpActorType
+  nameWithType: ErpEntityProvider._colErpActorType
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colErpActorType
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colConnected
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colConnected
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider__colConnected
+  name: _colConnected
+  nameWithType: ErpEntityProvider._colConnected
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colConnected
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colOnlyParentConnected
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colOnlyParentConnected
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider__colOnlyParentConnected
+  name: _colOnlyParentConnected
+  nameWithType: ErpEntityProvider._colOnlyParentConnected
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colOnlyParentConnected
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colErpKey
+  commentId: F:SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colErpKey
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider__colErpKey
+  name: _colErpKey
+  nameWithType: ErpEntityProvider._colErpKey
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider._colErpKey
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_SetRestriction_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
+  name: SetRestriction(params ArchiveRestrictionInfo[])
+  nameWithType: ErpEntityProvider.SetRestriction(params ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.SetRestriction(params SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: ErpEntityProvider.SetRestriction(ParamArray ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.SetRestriction(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ParamArray ArchiveRestrictionInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_SetRestriction_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
+  - name: (
+  - name: params
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_SetRestriction_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
+  - name: (
+  - name: ParamArray
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.GetResultDataAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.GetResultDataAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_GetResultDataAsync_System_Threading_CancellationToken_
+  name: GetResultDataAsync(CancellationToken)
+  nameWithType: ErpEntityProvider.GetResultDataAsync(CancellationToken)
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.GetResultDataAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.GetResultDataAsync(System.Threading.CancellationToken)
+    name: GetResultDataAsync
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_GetResultDataAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.GetResultDataAsync(System.Threading.CancellationToken)
+    name: GetResultDataAsync
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_GetResultDataAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.BaseClassShouldFilterColumns
+  commentId: P:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.BaseClassShouldFilterColumns
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_BaseClassShouldFilterColumns
+  name: BaseClassShouldFilterColumns
+  nameWithType: ErpEntityProvider.BaseClassShouldFilterColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.BaseClassShouldFilterColumns
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.BaseClassShouldFilterEntities
+  commentId: P:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.BaseClassShouldFilterEntities
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_BaseClassShouldFilterEntities
+  name: BaseClassShouldFilterEntities
+  nameWithType: ErpEntityProvider.BaseClassShouldFilterEntities
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.BaseClassShouldFilterEntities
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.BaseClassShouldPage
+  commentId: P:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.BaseClassShouldPage
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_BaseClassShouldPage
+  name: BaseClassShouldPage
+  nameWithType: ErpEntityProvider.BaseClassShouldPage
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.BaseClassShouldPage
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.BaseClassShouldSort
+  commentId: P:SuperOffice.CRM.ArchiveLists.ErpEntityProvider.BaseClassShouldSort
+  parent: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html#SuperOffice_CRM_ArchiveLists_ErpEntityProvider_BaseClassShouldSort
+  name: BaseClassShouldSort
+  nameWithType: ErpEntityProvider.BaseClassShouldSort
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.BaseClassShouldSort
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase`1
+  commentId: '!:SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase`1'
+  isExternal: true
+  name: IArchiveFindProviderBase<>
+  nameWithType: IArchiveFindProviderBase<>
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase<>
+  nameWithType.vb: IArchiveFindProviderBase(Of )
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase(Of )
+  name.vb: IArchiveFindProviderBase(Of )
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase`1
+    name: IArchiveFindProviderBase
+    isExternal: true
+  - name: <
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase`1
+    name: IArchiveFindProviderBase
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider`1
+  commentId: '!:SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider`1'
+  isExternal: true
+  name: IArchiveTypedProvider<>
+  nameWithType: IArchiveTypedProvider<>
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider<>
+  nameWithType.vb: IArchiveTypedProvider(Of )
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider(Of )
+  name.vb: IArchiveTypedProvider(Of )
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider`1
+    name: IArchiveTypedProvider
+    isExternal: true
+  - name: <
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider`1
+    name: IArchiveTypedProvider
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.ErpSync.FindErpEntityProvider.#ctor*
+  commentId: Overload:SuperOffice.ErpSync.FindErpEntityProvider.#ctor
+  isExternal: true
+  href: SuperOffice.ErpSync.FindErpEntityProvider.html#SuperOffice_ErpSync_FindErpEntityProvider__ctor
+  name: FindErpEntityProvider
+  nameWithType: FindErpEntityProvider.FindErpEntityProvider
+  fullName: SuperOffice.ErpSync.FindErpEntityProvider.FindErpEntityProvider
+  nameWithType.vb: FindErpEntityProvider.New
+  fullName.vb: SuperOffice.ErpSync.FindErpEntityProvider.New
+  name.vb: New
+- uid: SuperOffice.ErpSync.FindErpEntityProvider.FetchAndSetCriteria*
+  commentId: Overload:SuperOffice.ErpSync.FindErpEntityProvider.FetchAndSetCriteria
+  isExternal: true
+  href: SuperOffice.ErpSync.FindErpEntityProvider.html#SuperOffice_ErpSync_FindErpEntityProvider_FetchAndSetCriteria_System_Int32_
+  name: FetchAndSetCriteria
+  nameWithType: FindErpEntityProvider.FetchAndSetCriteria
+  fullName: SuperOffice.ErpSync.FindErpEntityProvider.FetchAndSetCriteria
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SuperOffice.ErpSync.FindErpEntityProvider.GetStandardColumnNames*
+  commentId: Overload:SuperOffice.ErpSync.FindErpEntityProvider.GetStandardColumnNames
+  isExternal: true
+  href: SuperOffice.ErpSync.FindErpEntityProvider.html#SuperOffice_ErpSync_FindErpEntityProvider_GetStandardColumnNames
+  name: GetStandardColumnNames
+  nameWithType: FindErpEntityProvider.GetStandardColumnNames
+  fullName: SuperOffice.ErpSync.FindErpEntityProvider.GetStandardColumnNames
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: SuperOffice.ErpSync.FindErpEntityProvider.SetAdditionalColumns*
+  commentId: Overload:SuperOffice.ErpSync.FindErpEntityProvider.SetAdditionalColumns
+  isExternal: true
+  href: SuperOffice.ErpSync.FindErpEntityProvider.html#SuperOffice_ErpSync_FindErpEntityProvider_SetAdditionalColumns_System_String___
+  name: SetAdditionalColumns
+  nameWithType: FindErpEntityProvider.SetAdditionalColumns
+  fullName: SuperOffice.ErpSync.FindErpEntityProvider.SetAdditionalColumns

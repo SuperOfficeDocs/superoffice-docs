@@ -1,0 +1,1376 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Cache.UserValueCache
+  commentId: T:SuperOffice.CRM.Cache.UserValueCache
+  id: UserValueCache
+  parent: SuperOffice.CRM.Cache
+  children:
+  - SuperOffice.CRM.Cache.UserValueCache.#ctor
+  - SuperOffice.CRM.Cache.UserValueCache.ClearCachedItem(System.Int32,System.String)
+  - SuperOffice.CRM.Cache.UserValueCache.ClearValues(System.Int32)
+  - SuperOffice.CRM.Cache.UserValueCache.SetCachedItem``1(System.Int32,System.String,``0,System.TimeSpan)
+  - SuperOffice.CRM.Cache.UserValueCache.TryGetCachedItem``1(System.Int32,System.String,``0@)
+  langs:
+  - csharp
+  - vb
+  name: UserValueCache
+  nameWithType: UserValueCache
+  fullName: SuperOffice.CRM.Cache.UserValueCache
+  type: Class
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Cache
+  summary: >-
+    Default implementation of <xref href="SuperOffice.CRM.Cache.IUserValueCache" data-throw-if-not-resolved="false"></xref>.
+
+    This is a simple in memory cache that is not shared between servers.
+  example: []
+  syntax:
+    content: 'public class UserValueCache : IUserValueCache'
+    content.vb: Public Class UserValueCache Implements IUserValueCache
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Cache.IUserValueCache
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Cache.UserValueCache.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Cache.UserValueCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.CRM.Cache.UserValueCache.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Cache.UserValueCache)
+  - SuperOffice.CRM.Cache.UserValueCache.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.CRM.Cache.UserValueCache.ClearValues(System.Int32)
+  commentId: M:SuperOffice.CRM.Cache.UserValueCache.ClearValues(System.Int32)
+  id: ClearValues(System.Int32)
+  parent: SuperOffice.CRM.Cache.UserValueCache
+  langs:
+  - csharp
+  - vb
+  name: ClearValues(int)
+  nameWithType: UserValueCache.ClearValues(int)
+  fullName: SuperOffice.CRM.Cache.UserValueCache.ClearValues(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Cache
+  summary: Clear all cached values for the given associate.
+  example: []
+  syntax:
+    content: public void ClearValues(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub ClearValues(associateId As Integer)
+  overload: SuperOffice.CRM.Cache.UserValueCache.ClearValues*
+  implements:
+  - SuperOffice.CRM.Cache.IUserValueCache.ClearValues(System.Int32)
+  nameWithType.vb: UserValueCache.ClearValues(Integer)
+  fullName.vb: SuperOffice.CRM.Cache.UserValueCache.ClearValues(Integer)
+  name.vb: ClearValues(Integer)
+- uid: SuperOffice.CRM.Cache.UserValueCache.SetCachedItem``1(System.Int32,System.String,``0,System.TimeSpan)
+  commentId: M:SuperOffice.CRM.Cache.UserValueCache.SetCachedItem``1(System.Int32,System.String,``0,System.TimeSpan)
+  id: SetCachedItem``1(System.Int32,System.String,``0,System.TimeSpan)
+  parent: SuperOffice.CRM.Cache.UserValueCache
+  langs:
+  - csharp
+  - vb
+  name: SetCachedItem<TItem>(int, string, TItem, TimeSpan)
+  nameWithType: UserValueCache.SetCachedItem<TItem>(int, string, TItem, TimeSpan)
+  fullName: SuperOffice.CRM.Cache.UserValueCache.SetCachedItem<TItem>(int, string, TItem, System.TimeSpan)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Cache
+  summary: Cache an item for the given associate.
+  example: []
+  syntax:
+    content: public void SetCachedItem<TItem>(int associateId, string cacheKey, TItem value, TimeSpan duration)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate id of the user to cache for
+    - id: cacheKey
+      type: System.String
+      description: Key to use for the cache
+    - id: value
+      type: '{TItem}'
+      description: Value to cache
+    - id: duration
+      type: System.TimeSpan
+      description: Duration the value is cached for.
+    typeParameters:
+    - id: TItem
+      description: Type of value cache
+    content.vb: Public Sub SetCachedItem(Of TItem)(associateId As Integer, cacheKey As String, value As TItem, duration As TimeSpan)
+  overload: SuperOffice.CRM.Cache.UserValueCache.SetCachedItem*
+  implements:
+  - SuperOffice.CRM.Cache.IUserValueCache.SetCachedItem``1(System.Int32,System.String,{TItem},System.TimeSpan)
+  nameWithType.vb: UserValueCache.SetCachedItem(Of TItem)(Integer, String, TItem, TimeSpan)
+  fullName.vb: SuperOffice.CRM.Cache.UserValueCache.SetCachedItem(Of TItem)(Integer, String, TItem, System.TimeSpan)
+  name.vb: SetCachedItem(Of TItem)(Integer, String, TItem, TimeSpan)
+- uid: SuperOffice.CRM.Cache.UserValueCache.TryGetCachedItem``1(System.Int32,System.String,``0@)
+  commentId: M:SuperOffice.CRM.Cache.UserValueCache.TryGetCachedItem``1(System.Int32,System.String,``0@)
+  id: TryGetCachedItem``1(System.Int32,System.String,``0@)
+  parent: SuperOffice.CRM.Cache.UserValueCache
+  langs:
+  - csharp
+  - vb
+  name: TryGetCachedItem<TItem>(int, string, out TItem)
+  nameWithType: UserValueCache.TryGetCachedItem<TItem>(int, string, out TItem)
+  fullName: SuperOffice.CRM.Cache.UserValueCache.TryGetCachedItem<TItem>(int, string, out TItem)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Cache
+  summary: Try to get a cached item for the given associate.  Value must be of matching type and can not be expired
+  example: []
+  syntax:
+    content: public bool TryGetCachedItem<TItem>(int associateId, string cacheKey, out TItem item)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate id of the user to cache value for.
+    - id: cacheKey
+      type: System.String
+      description: Key to use for the cached item
+    - id: item
+      type: '{TItem}'
+      description: item to retrieve from the cache
+    typeParameters:
+    - id: TItem
+      description: Type of value to cache
+    return:
+      type: System.Boolean
+      description: True if a value that has not been expired is found
+    content.vb: Public Function TryGetCachedItem(Of TItem)(associateId As Integer, cacheKey As String, item As TItem) As Boolean
+  overload: SuperOffice.CRM.Cache.UserValueCache.TryGetCachedItem*
+  implements:
+  - SuperOffice.CRM.Cache.IUserValueCache.TryGetCachedItem``1(System.Int32,System.String,{TItem}@)
+  nameWithType.vb: UserValueCache.TryGetCachedItem(Of TItem)(Integer, String, TItem)
+  fullName.vb: SuperOffice.CRM.Cache.UserValueCache.TryGetCachedItem(Of TItem)(Integer, String, TItem)
+  name.vb: TryGetCachedItem(Of TItem)(Integer, String, TItem)
+- uid: SuperOffice.CRM.Cache.UserValueCache.ClearCachedItem(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Cache.UserValueCache.ClearCachedItem(System.Int32,System.String)
+  id: ClearCachedItem(System.Int32,System.String)
+  parent: SuperOffice.CRM.Cache.UserValueCache
+  langs:
+  - csharp
+  - vb
+  name: ClearCachedItem(int, string)
+  nameWithType: UserValueCache.ClearCachedItem(int, string)
+  fullName: SuperOffice.CRM.Cache.UserValueCache.ClearCachedItem(int, string)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Cache
+  summary: Clear a cached value for the given associate.
+  example: []
+  syntax:
+    content: public void ClearCachedItem(int associateId, string cacheKey)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate id of the user to cache value for.
+    - id: cacheKey
+      type: System.String
+      description: Key to use for the cached item
+    content.vb: Public Sub ClearCachedItem(associateId As Integer, cacheKey As String)
+  overload: SuperOffice.CRM.Cache.UserValueCache.ClearCachedItem*
+  implements:
+  - SuperOffice.CRM.Cache.IUserValueCache.ClearCachedItem(System.Int32,System.String)
+  nameWithType.vb: UserValueCache.ClearCachedItem(Integer, String)
+  fullName.vb: SuperOffice.CRM.Cache.UserValueCache.ClearCachedItem(Integer, String)
+  name.vb: ClearCachedItem(Integer, String)
+- uid: SuperOffice.CRM.Cache.UserValueCache.#ctor
+  commentId: M:SuperOffice.CRM.Cache.UserValueCache.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Cache.UserValueCache
+  langs:
+  - csharp
+  - vb
+  name: UserValueCache()
+  nameWithType: UserValueCache.UserValueCache()
+  fullName: SuperOffice.CRM.Cache.UserValueCache.UserValueCache()
+  type: Constructor
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public UserValueCache()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Cache.UserValueCache.#ctor*
+  nameWithType.vb: UserValueCache.New()
+  fullName.vb: SuperOffice.CRM.Cache.UserValueCache.New()
+  name.vb: New()
+references:
+- uid: SuperOffice.CRM.Cache.IUserValueCache
+  commentId: T:SuperOffice.CRM.Cache.IUserValueCache
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  href: SuperOffice.CRM.Cache.IUserValueCache.html
+  name: IUserValueCache
+  nameWithType: IUserValueCache
+  fullName: SuperOffice.CRM.Cache.IUserValueCache
+- uid: SuperOffice.CRM.Cache
+  commentId: N:SuperOffice.CRM.Cache
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Cache
+  nameWithType: SuperOffice.CRM.Cache
+  fullName: SuperOffice.CRM.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Cache.UserValueCache.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<UserValueCache, To>(UserValueCache)
+  nameWithType: EnumUtil.MapEnums<UserValueCache, To>(UserValueCache)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Cache.UserValueCache, To>(SuperOffice.CRM.Cache.UserValueCache)
+  nameWithType.vb: EnumUtil.MapEnums(Of UserValueCache, To)(UserValueCache)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Cache.UserValueCache, To)(SuperOffice.CRM.Cache.UserValueCache)
+  name.vb: MapEnums(Of UserValueCache, To)(UserValueCache)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Cache.UserValueCache)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Cache.UserValueCache)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: )
+- uid: SuperOffice.CRM.Cache.UserValueCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<UserValueCache, To>(UserValueCache)
+  nameWithType: Converters.MapEnums<UserValueCache, To>(UserValueCache)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Cache.UserValueCache, To>(SuperOffice.CRM.Cache.UserValueCache)
+  nameWithType.vb: Converters.MapEnums(Of UserValueCache, To)(UserValueCache)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Cache.UserValueCache, To)(SuperOffice.CRM.Cache.UserValueCache)
+  name.vb: MapEnums(Of UserValueCache, To)(UserValueCache)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Cache.UserValueCache)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Cache.UserValueCache)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: )
+- uid: SuperOffice.CRM.Cache.UserValueCache.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Cache.UserValueCache)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<UserValueCache>(UserValueCache, UserValueCache)
+  nameWithType: ObjectExtensions.AssignByReflection<UserValueCache>(UserValueCache, UserValueCache)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Cache.UserValueCache>(SuperOffice.CRM.Cache.UserValueCache, SuperOffice.CRM.Cache.UserValueCache)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UserValueCache)(UserValueCache, UserValueCache)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Cache.UserValueCache)(SuperOffice.CRM.Cache.UserValueCache, SuperOffice.CRM.Cache.UserValueCache)
+  name.vb: AssignByReflection(Of UserValueCache)(UserValueCache, UserValueCache)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Cache.UserValueCache,SuperOffice.CRM.Cache.UserValueCache)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Cache.UserValueCache,SuperOffice.CRM.Cache.UserValueCache)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: )
+- uid: SuperOffice.CRM.Cache.UserValueCache.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<UserValueCache>(UserValueCache)
+  nameWithType: ObjectExtensions.GraphCopy<UserValueCache>(UserValueCache)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Cache.UserValueCache>(SuperOffice.CRM.Cache.UserValueCache)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of UserValueCache)(UserValueCache)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Cache.UserValueCache)(SuperOffice.CRM.Cache.UserValueCache)
+  name.vb: GraphCopy(Of UserValueCache)(UserValueCache)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Cache.UserValueCache)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Cache.UserValueCache)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Cache.UserValueCache
+    name: UserValueCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.UserValueCache.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.CRM.Cache.UserValueCache.ClearValues*
+  commentId: Overload:SuperOffice.CRM.Cache.UserValueCache.ClearValues
+  isExternal: true
+  href: SuperOffice.CRM.Cache.UserValueCache.html#SuperOffice_CRM_Cache_UserValueCache_ClearValues_System_Int32_
+  name: ClearValues
+  nameWithType: UserValueCache.ClearValues
+  fullName: SuperOffice.CRM.Cache.UserValueCache.ClearValues
+- uid: SuperOffice.CRM.Cache.IUserValueCache.ClearValues(System.Int32)
+  commentId: M:SuperOffice.CRM.Cache.IUserValueCache.ClearValues(System.Int32)
+  parent: SuperOffice.CRM.Cache.IUserValueCache
+  isExternal: true
+  href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_ClearValues_System_Int32_
+  name: ClearValues(int)
+  nameWithType: IUserValueCache.ClearValues(int)
+  fullName: SuperOffice.CRM.Cache.IUserValueCache.ClearValues(int)
+  nameWithType.vb: IUserValueCache.ClearValues(Integer)
+  fullName.vb: SuperOffice.CRM.Cache.IUserValueCache.ClearValues(Integer)
+  name.vb: ClearValues(Integer)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.IUserValueCache.ClearValues(System.Int32)
+    name: ClearValues
+    isExternal: true
+    href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_ClearValues_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.IUserValueCache.ClearValues(System.Int32)
+    name: ClearValues
+    isExternal: true
+    href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_ClearValues_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Cache.UserValueCache.SetCachedItem*
+  commentId: Overload:SuperOffice.CRM.Cache.UserValueCache.SetCachedItem
+  isExternal: true
+  href: SuperOffice.CRM.Cache.UserValueCache.html#SuperOffice_CRM_Cache_UserValueCache_SetCachedItem__1_System_Int32_System_String___0_System_TimeSpan_
+  name: SetCachedItem
+  nameWithType: UserValueCache.SetCachedItem
+  fullName: SuperOffice.CRM.Cache.UserValueCache.SetCachedItem
+- uid: SuperOffice.CRM.Cache.IUserValueCache.SetCachedItem``1(System.Int32,System.String,{TItem},System.TimeSpan)
+  commentId: M:SuperOffice.CRM.Cache.IUserValueCache.SetCachedItem``1(System.Int32,System.String,``0,System.TimeSpan)
+  parent: SuperOffice.CRM.Cache.IUserValueCache
+  definition: SuperOffice.CRM.Cache.IUserValueCache.SetCachedItem``1(System.Int32,System.String,``0,System.TimeSpan)
+  href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_SetCachedItem__1_System_Int32_System_String___0_System_TimeSpan_
+  name: SetCachedItem<TItem>(int, string, TItem, TimeSpan)
+  nameWithType: IUserValueCache.SetCachedItem<TItem>(int, string, TItem, TimeSpan)
+  fullName: SuperOffice.CRM.Cache.IUserValueCache.SetCachedItem<TItem>(int, string, TItem, System.TimeSpan)
+  nameWithType.vb: IUserValueCache.SetCachedItem(Of TItem)(Integer, String, TItem, TimeSpan)
+  fullName.vb: SuperOffice.CRM.Cache.IUserValueCache.SetCachedItem(Of TItem)(Integer, String, TItem, System.TimeSpan)
+  name.vb: SetCachedItem(Of TItem)(Integer, String, TItem, TimeSpan)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.IUserValueCache.SetCachedItem``1(System.Int32,System.String,``0,System.TimeSpan)
+    name: SetCachedItem
+    isExternal: true
+    href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_SetCachedItem__1_System_Int32_System_String___0_System_TimeSpan_
+  - name: <
+  - name: TItem
+  - name: '>'
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.IUserValueCache.SetCachedItem``1(System.Int32,System.String,``0,System.TimeSpan)
+    name: SetCachedItem
+    isExternal: true
+    href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_SetCachedItem__1_System_Int32_System_String___0_System_TimeSpan_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: '{TItem}'
+  commentId: '!:TItem'
+  definition: TItem
+  name: TItem
+  nameWithType: TItem
+  fullName: TItem
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: SuperOffice.CRM.Cache.IUserValueCache.SetCachedItem``1(System.Int32,System.String,``0,System.TimeSpan)
+  commentId: M:SuperOffice.CRM.Cache.IUserValueCache.SetCachedItem``1(System.Int32,System.String,``0,System.TimeSpan)
+  isExternal: true
+  href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_SetCachedItem__1_System_Int32_System_String___0_System_TimeSpan_
+  name: SetCachedItem<TItem>(int, string, TItem, TimeSpan)
+  nameWithType: IUserValueCache.SetCachedItem<TItem>(int, string, TItem, TimeSpan)
+  fullName: SuperOffice.CRM.Cache.IUserValueCache.SetCachedItem<TItem>(int, string, TItem, System.TimeSpan)
+  nameWithType.vb: IUserValueCache.SetCachedItem(Of TItem)(Integer, String, TItem, TimeSpan)
+  fullName.vb: SuperOffice.CRM.Cache.IUserValueCache.SetCachedItem(Of TItem)(Integer, String, TItem, System.TimeSpan)
+  name.vb: SetCachedItem(Of TItem)(Integer, String, TItem, TimeSpan)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.IUserValueCache.SetCachedItem``1(System.Int32,System.String,``0,System.TimeSpan)
+    name: SetCachedItem
+    isExternal: true
+    href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_SetCachedItem__1_System_Int32_System_String___0_System_TimeSpan_
+  - name: <
+  - name: TItem
+  - name: '>'
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.IUserValueCache.SetCachedItem``1(System.Int32,System.String,``0,System.TimeSpan)
+    name: SetCachedItem
+    isExternal: true
+    href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_SetCachedItem__1_System_Int32_System_String___0_System_TimeSpan_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+- uid: TItem
+  name: TItem
+  nameWithType: TItem
+  fullName: TItem
+- uid: SuperOffice.CRM.Cache.UserValueCache.TryGetCachedItem*
+  commentId: Overload:SuperOffice.CRM.Cache.UserValueCache.TryGetCachedItem
+  isExternal: true
+  href: SuperOffice.CRM.Cache.UserValueCache.html#SuperOffice_CRM_Cache_UserValueCache_TryGetCachedItem__1_System_Int32_System_String___0__
+  name: TryGetCachedItem
+  nameWithType: UserValueCache.TryGetCachedItem
+  fullName: SuperOffice.CRM.Cache.UserValueCache.TryGetCachedItem
+- uid: SuperOffice.CRM.Cache.IUserValueCache.TryGetCachedItem``1(System.Int32,System.String,{TItem}@)
+  commentId: M:SuperOffice.CRM.Cache.IUserValueCache.TryGetCachedItem``1(System.Int32,System.String,``0@)
+  parent: SuperOffice.CRM.Cache.IUserValueCache
+  definition: SuperOffice.CRM.Cache.IUserValueCache.TryGetCachedItem``1(System.Int32,System.String,``0@)
+  href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_TryGetCachedItem__1_System_Int32_System_String___0__
+  name: TryGetCachedItem<TItem>(int, string, out TItem)
+  nameWithType: IUserValueCache.TryGetCachedItem<TItem>(int, string, out TItem)
+  fullName: SuperOffice.CRM.Cache.IUserValueCache.TryGetCachedItem<TItem>(int, string, out TItem)
+  nameWithType.vb: IUserValueCache.TryGetCachedItem(Of TItem)(Integer, String, TItem)
+  fullName.vb: SuperOffice.CRM.Cache.IUserValueCache.TryGetCachedItem(Of TItem)(Integer, String, TItem)
+  name.vb: TryGetCachedItem(Of TItem)(Integer, String, TItem)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.IUserValueCache.TryGetCachedItem``1(System.Int32,System.String,``0@)
+    name: TryGetCachedItem
+    isExternal: true
+    href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_TryGetCachedItem__1_System_Int32_System_String___0__
+  - name: <
+  - name: TItem
+  - name: '>'
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - name: TItem
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.IUserValueCache.TryGetCachedItem``1(System.Int32,System.String,``0@)
+    name: TryGetCachedItem
+    isExternal: true
+    href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_TryGetCachedItem__1_System_Int32_System_String___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Cache.IUserValueCache.TryGetCachedItem``1(System.Int32,System.String,``0@)
+  commentId: M:SuperOffice.CRM.Cache.IUserValueCache.TryGetCachedItem``1(System.Int32,System.String,``0@)
+  isExternal: true
+  href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_TryGetCachedItem__1_System_Int32_System_String___0__
+  name: TryGetCachedItem<TItem>(int, string, out TItem)
+  nameWithType: IUserValueCache.TryGetCachedItem<TItem>(int, string, out TItem)
+  fullName: SuperOffice.CRM.Cache.IUserValueCache.TryGetCachedItem<TItem>(int, string, out TItem)
+  nameWithType.vb: IUserValueCache.TryGetCachedItem(Of TItem)(Integer, String, TItem)
+  fullName.vb: SuperOffice.CRM.Cache.IUserValueCache.TryGetCachedItem(Of TItem)(Integer, String, TItem)
+  name.vb: TryGetCachedItem(Of TItem)(Integer, String, TItem)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.IUserValueCache.TryGetCachedItem``1(System.Int32,System.String,``0@)
+    name: TryGetCachedItem
+    isExternal: true
+    href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_TryGetCachedItem__1_System_Int32_System_String___0__
+  - name: <
+  - name: TItem
+  - name: '>'
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - name: TItem
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.IUserValueCache.TryGetCachedItem``1(System.Int32,System.String,``0@)
+    name: TryGetCachedItem
+    isExternal: true
+    href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_TryGetCachedItem__1_System_Int32_System_String___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+- uid: SuperOffice.CRM.Cache.UserValueCache.ClearCachedItem*
+  commentId: Overload:SuperOffice.CRM.Cache.UserValueCache.ClearCachedItem
+  isExternal: true
+  href: SuperOffice.CRM.Cache.UserValueCache.html#SuperOffice_CRM_Cache_UserValueCache_ClearCachedItem_System_Int32_System_String_
+  name: ClearCachedItem
+  nameWithType: UserValueCache.ClearCachedItem
+  fullName: SuperOffice.CRM.Cache.UserValueCache.ClearCachedItem
+- uid: SuperOffice.CRM.Cache.IUserValueCache.ClearCachedItem(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Cache.IUserValueCache.ClearCachedItem(System.Int32,System.String)
+  parent: SuperOffice.CRM.Cache.IUserValueCache
+  isExternal: true
+  href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_ClearCachedItem_System_Int32_System_String_
+  name: ClearCachedItem(int, string)
+  nameWithType: IUserValueCache.ClearCachedItem(int, string)
+  fullName: SuperOffice.CRM.Cache.IUserValueCache.ClearCachedItem(int, string)
+  nameWithType.vb: IUserValueCache.ClearCachedItem(Integer, String)
+  fullName.vb: SuperOffice.CRM.Cache.IUserValueCache.ClearCachedItem(Integer, String)
+  name.vb: ClearCachedItem(Integer, String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.IUserValueCache.ClearCachedItem(System.Int32,System.String)
+    name: ClearCachedItem
+    isExternal: true
+    href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_ClearCachedItem_System_Int32_System_String_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.IUserValueCache.ClearCachedItem(System.Int32,System.String)
+    name: ClearCachedItem
+    isExternal: true
+    href: SuperOffice.CRM.Cache.IUserValueCache.html#SuperOffice_CRM_Cache_IUserValueCache_ClearCachedItem_System_Int32_System_String_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.CRM.Cache.UserValueCache.#ctor*
+  commentId: Overload:SuperOffice.CRM.Cache.UserValueCache.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Cache.UserValueCache.html#SuperOffice_CRM_Cache_UserValueCache__ctor
+  name: UserValueCache
+  nameWithType: UserValueCache.UserValueCache
+  fullName: SuperOffice.CRM.Cache.UserValueCache.UserValueCache
+  nameWithType.vb: UserValueCache.New
+  fullName.vb: SuperOffice.CRM.Cache.UserValueCache.New
+  name.vb: New

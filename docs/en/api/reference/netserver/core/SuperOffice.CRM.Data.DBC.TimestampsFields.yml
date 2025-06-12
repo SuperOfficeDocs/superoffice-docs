@@ -26,27 +26,24 @@ items:
   nameWithType: DBC.TimestampsFields
   fullName: SuperOffice.CRM.Data.DBC.TimestampsFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for Timestamps, Timestamp information\n"
+  summary: Fields for Timestamps, Timestamp information
+  example: []
   syntax:
-    content: 'public static class TimestampsFields : Object'
-    content.vb: >-
-      Public Module TimestampsFields
-          Inherits Object
+    content: public static class DBC.TimestampsFields
+    content.vb: Public Module DBC.TimestampsFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.TimestampsFields.TimestampsId
   commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.TimestampsId
   id: TimestampsId
@@ -58,24 +55,16 @@ items:
   nameWithType: DBC.TimestampsFields.TimestampsId
   fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.TimestampsId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTimestamps.TimestampsId: The primary key (auto-incremented)\n"
+  summary: 'Timestamps.TimestampsId: The primary key (auto-incremented)'
+  example: []
   syntax:
     content: public const string TimestampsId = "id"
     return:
       type: System.String
     content.vb: Public Const TimestampsId As String = "id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.TimestampsFields.MailFilter
   commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.MailFilter
   id: MailFilter
@@ -87,24 +76,16 @@ items:
   nameWithType: DBC.TimestampsFields.MailFilter
   fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.MailFilter
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTimestamps.MailFilter: Timestamp for the last time importMail was started.\n"
+  summary: 'Timestamps.MailFilter: Timestamp for the last time importMail was started.'
+  example: []
   syntax:
     content: public const string MailFilter = "mail_filter"
     return:
       type: System.String
     content.vb: Public Const MailFilter As String = "mail_filter"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.TimestampsFields.MailSender
   commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.MailSender
   id: MailSender
@@ -116,24 +97,16 @@ items:
   nameWithType: DBC.TimestampsFields.MailSender
   fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.MailSender
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTimestamps.MailSender: Timestamp for the last time mailSender was started.\n"
+  summary: 'Timestamps.MailSender: Timestamp for the last time mailSender was started.'
+  example: []
   syntax:
     content: public const string MailSender = "mail_sender"
     return:
       type: System.String
     content.vb: Public Const MailSender As String = "mail_sender"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.TimestampsFields.EjournalCron
   commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.EjournalCron
   id: EjournalCron
@@ -145,24 +118,16 @@ items:
   nameWithType: DBC.TimestampsFields.EjournalCron
   fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.EjournalCron
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTimestamps.EjournalCron: Timestamp for the last time ejournalCron was started.\n"
+  summary: 'Timestamps.EjournalCron: Timestamp for the last time ejournalCron was started.'
+  example: []
   syntax:
     content: public const string EjournalCron = "ejournal_cron"
     return:
       type: System.String
     content.vb: Public Const EjournalCron As String = "ejournal_cron"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.TimestampsFields.Autologout
   commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.Autologout
   id: Autologout
@@ -174,24 +139,16 @@ items:
   nameWithType: DBC.TimestampsFields.Autologout
   fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.Autologout
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTimestamps.Autologout: Timestamp for when users should be checked for automatic logout.\n"
+  summary: 'Timestamps.Autologout: Timestamp for when users should be checked for automatic logout.'
+  example: []
   syntax:
     content: public const string Autologout = "autologout"
     return:
       type: System.String
     content.vb: Public Const Autologout As String = "autologout"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.TimestampsFields.ActivateTickets
   commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.ActivateTickets
   id: ActivateTickets
@@ -203,24 +160,16 @@ items:
   nameWithType: DBC.TimestampsFields.ActivateTickets
   fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.ActivateTickets
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTimestamps.ActivateTickets: Timestamp for when tickets should be checked for activation.\n"
+  summary: 'Timestamps.ActivateTickets: Timestamp for when tickets should be checked for activation.'
+  example: []
   syntax:
     content: public const string ActivateTickets = "activate_tickets"
     return:
       type: System.String
     content.vb: Public Const ActivateTickets As String = "activate_tickets"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.TimestampsFields.TicketAlert
   commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.TicketAlert
   id: TicketAlert
@@ -232,24 +181,16 @@ items:
   nameWithType: DBC.TimestampsFields.TicketAlert
   fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.TicketAlert
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTimestamps.TicketAlert: Timestamp for when tickets should be checked for escalation.\n"
+  summary: 'Timestamps.TicketAlert: Timestamp for when tickets should be checked for escalation.'
+  example: []
   syntax:
     content: public const string TicketAlert = "ticket_alert"
     return:
       type: System.String
     content.vb: Public Const TicketAlert As String = "ticket_alert"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.TimestampsFields.DeleteTempTicket
   commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.DeleteTempTicket
   id: DeleteTempTicket
@@ -261,24 +202,16 @@ items:
   nameWithType: DBC.TimestampsFields.DeleteTempTicket
   fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.DeleteTempTicket
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTimestamps.DeleteTempTicket: Timestamp for when tickets should be checked for deletion.\n"
+  summary: 'Timestamps.DeleteTempTicket: Timestamp for when tickets should be checked for deletion.'
+  example: []
   syntax:
     content: public const string DeleteTempTicket = "delete_temp_ticket"
     return:
       type: System.String
     content.vb: Public Const DeleteTempTicket As String = "delete_temp_ticket"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.TimestampsFields.ActiveTickets
   commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.ActiveTickets
   id: ActiveTickets
@@ -290,24 +223,16 @@ items:
   nameWithType: DBC.TimestampsFields.ActiveTickets
   fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.ActiveTickets
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTimestamps.ActiveTickets: \n"
+  summary: 'Timestamps.ActiveTickets:'
+  example: []
   syntax:
     content: public const string ActiveTickets = "active_tickets"
     return:
       type: System.String
     content.vb: Public Const ActiveTickets As String = "active_tickets"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.TimestampsFields.CriticalEmail
   commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.CriticalEmail
   id: CriticalEmail
@@ -319,24 +244,16 @@ items:
   nameWithType: DBC.TimestampsFields.CriticalEmail
   fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.CriticalEmail
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTimestamps.CriticalEmail: Timestamp for when we last emailed a critical email to panic_email (usually error@superoffice.com).\n"
+  summary: 'Timestamps.CriticalEmail: Timestamp for when we last emailed a critical email to panic_email (usually error@superoffice.com).'
+  example: []
   syntax:
     content: public const string CriticalEmail = "critical_email"
     return:
       type: System.String
     content.vb: Public Const CriticalEmail As String = "critical_email"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.TimestampsFields.LastTicketdel
   commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.LastTicketdel
   id: LastTicketdel
@@ -348,24 +265,16 @@ items:
   nameWithType: DBC.TimestampsFields.LastTicketdel
   fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.LastTicketdel
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTimestamps.LastTicketdel: Timestamp for when we last physically removed tickets tagged for deletion.\n"
+  summary: 'Timestamps.LastTicketdel: Timestamp for when we last physically removed tickets tagged for deletion.'
+  example: []
   syntax:
     content: public const string LastTicketdel = "last_ticketdel"
     return:
       type: System.String
     content.vb: Public Const LastTicketdel As String = "last_ticketdel"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.TimestampsFields.BuildFaq
   commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.BuildFaq
   id: BuildFaq
@@ -377,24 +286,16 @@ items:
   nameWithType: DBC.TimestampsFields.BuildFaq
   fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.BuildFaq
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTimestamps.BuildFaq: Timestamp for when the FAQ search tree was last rebuilt.\n"
+  summary: 'Timestamps.BuildFaq: Timestamp for when the FAQ search tree was last rebuilt.'
+  example: []
   syntax:
     content: public const string BuildFaq = "build_faq"
     return:
       type: System.String
     content.vb: Public Const BuildFaq As String = "build_faq"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.TimestampsFields.WeekStat
   commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.WeekStat
   id: WeekStat
@@ -406,24 +307,16 @@ items:
   nameWithType: DBC.TimestampsFields.WeekStat
   fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.WeekStat
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTimestamps.WeekStat: Timestamp for when the week statistics was last sent.\n"
+  summary: 'Timestamps.WeekStat: Timestamp for when the week statistics was last sent.'
+  example: []
   syntax:
     content: public const string WeekStat = "week_stat"
     return:
       type: System.String
     content.vb: Public Const WeekStat As String = "week_stat"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.TimestampsFields.Mailsync
   commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.Mailsync
   id: Mailsync
@@ -435,41 +328,288 @@ items:
   nameWithType: DBC.TimestampsFields.Mailsync
   fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.Mailsync
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTimestamps.Mailsync: Timestamp for syncing crm inbox2 email accounts\n"
+  summary: 'Timestamps.Mailsync: Timestamp for syncing crm inbox2 email accounts'
+  example: []
   syntax:
     content: public const string Mailsync = "mailsync"
     return:
       type: System.String
     content.vb: Public Const Mailsync As String = "mailsync"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -477,6 +617,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

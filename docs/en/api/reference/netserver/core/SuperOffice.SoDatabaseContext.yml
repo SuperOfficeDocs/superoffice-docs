@@ -5,8 +5,6 @@ items:
   id: SoDatabaseContext
   parent: SuperOffice
   children:
-  - SuperOffice.SoDatabaseContext.add_OnAfterLogOut(SuperOffice.SoDatabaseLogOut)
-  - SuperOffice.SoDatabaseContext.add_OnBeforeLogOut(SuperOffice.SoDatabaseLogOut)
   - SuperOffice.SoDatabaseContext.CompareTo(SuperOffice.SoDatabaseContext)
   - SuperOffice.SoDatabaseContext.ContextIdentifier
   - SuperOffice.SoDatabaseContext.DefaultContextIdentifier
@@ -19,14 +17,12 @@ items:
   - SuperOffice.SoDatabaseContext.HasDatabaseContext(System.String)
   - SuperOffice.SoDatabaseContext.OnAfterLogOut
   - SuperOffice.SoDatabaseContext.OnBeforeLogOut
-  - SuperOffice.SoDatabaseContext.remove_OnAfterLogOut(SuperOffice.SoDatabaseLogOut)
-  - SuperOffice.SoDatabaseContext.remove_OnBeforeLogOut(SuperOffice.SoDatabaseLogOut)
   - SuperOffice.SoDatabaseContext.RemoveDatabaseContext(System.String)
   - SuperOffice.SoDatabaseContext.RemoveDatabaseContext(System.String,System.Boolean)
   - SuperOffice.SoDatabaseContext.TryGetCurrentContextIdentifier
-  - SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
-  - SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.Security.Claims.ClaimsIdentity[])
-  - SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.String)
+  - SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  - SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.Security.Claims.ClaimsIdentity[])
+  - SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.String)
   langs:
   - csharp
   - vb
@@ -34,32 +30,29 @@ items:
   nameWithType: SoDatabaseContext
   fullName: SuperOffice.SoDatabaseContext
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nContainer for the current database context/session\n"
+  summary: Container for the current database context/session
+  example: []
   syntax:
-    content: 'public class SoDatabaseContext : Object, IComparable<SoDatabaseContext>'
-    content.vb: >-
-      Public Class SoDatabaseContext
-          Inherits Object
-          Implements IComparable(Of SoDatabaseContext)
+    content: 'public class SoDatabaseContext : IComparable<SoDatabaseContext>'
+    content.vb: Public Class SoDatabaseContext Implements IComparable(Of SoDatabaseContext)
   inheritance:
   - System.Object
   implements:
   - System.IComparable{SuperOffice.SoDatabaseContext}
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.SoDatabaseContext.EnumUtil.MapEnums``2
   - SuperOffice.SoDatabaseContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.SoDatabaseContext.DefaultContextIdentifier
   commentId: F:SuperOffice.SoDatabaseContext.DefaultContextIdentifier
   id: DefaultContextIdentifier
@@ -71,9 +64,6 @@ items:
   nameWithType: SoDatabaseContext.DefaultContextIdentifier
   fullName: SuperOffice.SoDatabaseContext.DefaultContextIdentifier
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
@@ -82,12 +72,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const DefaultContextIdentifier As String = "Default"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.SoDatabaseContext.GetAllContextIdentifiers
   commentId: M:SuperOffice.SoDatabaseContext.GetAllContextIdentifiers
   id: GetAllContextIdentifiers
@@ -99,26 +83,18 @@ items:
   nameWithType: SoDatabaseContext.GetAllContextIdentifiers()
   fullName: SuperOffice.SoDatabaseContext.GetAllContextIdentifiers()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nGet a list of all the context identifiers (customers) that is handled by this process\n"
+  summary: Get a list of all the context identifiers (customers) that is handled by this process
+  example: []
   syntax:
     content: public static string[] GetAllContextIdentifiers()
     return:
       type: System.String[]
       description: List of all context identifiers handled by this process.
-    content.vb: Public Shared Function GetAllContextIdentifiers As String()
+    content.vb: Public Shared Function GetAllContextIdentifiers() As String()
   overload: SuperOffice.SoDatabaseContext.GetAllContextIdentifiers*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.SoDatabaseContext.GetDatabaseContext(System.String)
   commentId: M:SuperOffice.SoDatabaseContext.GetDatabaseContext(System.String)
   id: GetDatabaseContext(System.String)
@@ -126,17 +102,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDatabaseContext(String)
-  nameWithType: SoDatabaseContext.GetDatabaseContext(String)
-  fullName: SuperOffice.SoDatabaseContext.GetDatabaseContext(System.String)
+  name: GetDatabaseContext(string)
+  nameWithType: SoDatabaseContext.GetDatabaseContext(string)
+  fullName: SuperOffice.SoDatabaseContext.GetDatabaseContext(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nGet the actual context from a context identifier.\n"
+  summary: Get the actual context from a context identifier.
+  example: []
   syntax:
     content: public static SoDatabaseContext GetDatabaseContext(string contextIdentifier)
     parameters:
@@ -148,12 +122,9 @@ items:
       description: Database context
     content.vb: Public Shared Function GetDatabaseContext(contextIdentifier As String) As SoDatabaseContext
   overload: SuperOffice.SoDatabaseContext.GetDatabaseContext*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoDatabaseContext.GetDatabaseContext(String)
+  fullName.vb: SuperOffice.SoDatabaseContext.GetDatabaseContext(String)
+  name.vb: GetDatabaseContext(String)
 - uid: SuperOffice.SoDatabaseContext.GetCurrent
   commentId: M:SuperOffice.SoDatabaseContext.GetCurrent
   id: GetCurrent
@@ -165,26 +136,21 @@ items:
   nameWithType: SoDatabaseContext.GetCurrent()
   fullName: SuperOffice.SoDatabaseContext.GetCurrent()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nGet the current database context.  \n"
+  summary: Get the current database context.
+  example: []
   syntax:
     content: public static SoDatabaseContext GetCurrent()
     return:
       type: SuperOffice.SoDatabaseContext
-      description: "\nThe current database context.  Impersonated users will yield the context of the user \nimpersonating - so it is not possible to impersonate a user in a different database.\n"
-    content.vb: Public Shared Function GetCurrent As SoDatabaseContext
+      description: >-
+        The current database context.  Impersonated users will yield the context of the user 
+
+        impersonating - so it is not possible to impersonate a user in a different database.
+    content.vb: Public Shared Function GetCurrent() As SoDatabaseContext
   overload: SuperOffice.SoDatabaseContext.GetCurrent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.SoDatabaseContext.TryGetCurrentContextIdentifier
   commentId: M:SuperOffice.SoDatabaseContext.TryGetCurrentContextIdentifier
   id: TryGetCurrentContextIdentifier
@@ -196,25 +162,25 @@ items:
   nameWithType: SoDatabaseContext.TryGetCurrentContextIdentifier()
   fullName: SuperOffice.SoDatabaseContext.TryGetCurrentContextIdentifier()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nTry to see if we have a current, contextidentifier with the least possible amount of fuss and side effects.\nUsed in logging situations, to avoid triggering the whole lazyload avalanche\n"
+  summary: >-
+    Try to see if we have a current contextidentifier with the least possible amount of fuss and side effects.
+
+    Used in logging situations, to avoid triggering the whole lazyload avalanche
+  remarks: >-
+    This method very carefully avoids using <b>CreateRequired</b> and other potentially avalache-triggering constructs,
+
+    which would throw exceptions if we are in a state where startup/wireup/applicationBuilder etc have not finished
+  example: []
   syntax:
     content: public static string TryGetCurrentContextIdentifier()
     return:
       type: System.String
-    content.vb: Public Shared Function TryGetCurrentContextIdentifier As String
+      description: Blank if the system is not in a runnable state; <b>Default</b> for on-site installations; and <b>CustXXXXX</b> context id in Online
+    content.vb: Public Shared Function TryGetCurrentContextIdentifier() As String
   overload: SuperOffice.SoDatabaseContext.TryGetCurrentContextIdentifier*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.SoDatabaseContext.HasDatabaseContext(System.String)
   commentId: M:SuperOffice.SoDatabaseContext.HasDatabaseContext(System.String)
   id: HasDatabaseContext(System.String)
@@ -222,32 +188,29 @@ items:
   langs:
   - csharp
   - vb
-  name: HasDatabaseContext(String)
-  nameWithType: SoDatabaseContext.HasDatabaseContext(String)
-  fullName: SuperOffice.SoDatabaseContext.HasDatabaseContext(System.String)
+  name: HasDatabaseContext(string)
+  nameWithType: SoDatabaseContext.HasDatabaseContext(string)
+  fullName: SuperOffice.SoDatabaseContext.HasDatabaseContext(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nCheck if a particular Database Context is known for NetServer.\n"
+  summary: Check if a particular Database Context is known for NetServer.
+  example: []
   syntax:
     content: public static bool HasDatabaseContext(string contextIdentifier)
     parameters:
     - id: contextIdentifier
       type: System.String
+      description: ''
     return:
       type: System.Boolean
+      description: ''
     content.vb: Public Shared Function HasDatabaseContext(contextIdentifier As String) As Boolean
   overload: SuperOffice.SoDatabaseContext.HasDatabaseContext*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoDatabaseContext.HasDatabaseContext(String)
+  fullName.vb: SuperOffice.SoDatabaseContext.HasDatabaseContext(String)
+  name.vb: HasDatabaseContext(String)
 - uid: SuperOffice.SoDatabaseContext.RemoveDatabaseContext(System.String)
   commentId: M:SuperOffice.SoDatabaseContext.RemoveDatabaseContext(System.String)
   id: RemoveDatabaseContext(System.String)
@@ -255,23 +218,32 @@ items:
   langs:
   - csharp
   - vb
-  name: RemoveDatabaseContext(String)
-  nameWithType: SoDatabaseContext.RemoveDatabaseContext(String)
-  fullName: SuperOffice.SoDatabaseContext.RemoveDatabaseContext(System.String)
+  name: RemoveDatabaseContext(string)
+  nameWithType: SoDatabaseContext.RemoveDatabaseContext(string)
+  fullName: SuperOffice.SoDatabaseContext.RemoveDatabaseContext(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nRemove the Database Context.  A new will be initialized the\nnext time it is required.\n"
-  remarks: "\nCall this method in a multi-tenant NetServer to revoke configuration for a tenant.\nIt is not permitted to call this method providing the <xref href=\"SuperOffice.SoDatabaseContext.DefaultContextIdentifier\" data-throw-if-not-resolved=\"false\"></xref> database context.\nIf this method is called in the same database context as the current, the logic falls back to <xref href=\"SuperOffice.SoDatabaseContext.DisconnectDatabase\" data-throw-if-not-resolved=\"false\"></xref>\nto safely remove the database context for the logged in user.\n"
+  summary: >-
+    Remove the Database Context.  A new will be initialized the
+
+    next time it is required.
+  remarks: >-
+    Call this method in a multi-tenant NetServer to revoke configuration for a tenant.
+
+    It is not permitted to call this method providing the <xref href="SuperOffice.SoDatabaseContext.DefaultContextIdentifier" data-throw-if-not-resolved="false"></xref> database context.
+
+    If this method is called in the same database context as the current, the logic falls back to <xref href="SuperOffice.SoDatabaseContext.DisconnectDatabase" data-throw-if-not-resolved="false"></xref>
+
+    to safely remove the database context for the logged in user.
+  example: []
   syntax:
     content: public static bool RemoveDatabaseContext(string contextIdentifier)
     parameters:
     - id: contextIdentifier
       type: System.String
+      description: ''
     return:
       type: System.Boolean
       description: True if the database context was removed
@@ -281,12 +253,9 @@ items:
   - type: SuperOffice.Exceptions.SoException
     commentId: T:SuperOffice.Exceptions.SoException
     description: Thrown if we specify the <xref href="SuperOffice.SoDatabaseContext.DefaultContextIdentifier" data-throw-if-not-resolved="false"></xref> database context
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoDatabaseContext.RemoveDatabaseContext(String)
+  fullName.vb: SuperOffice.SoDatabaseContext.RemoveDatabaseContext(String)
+  name.vb: RemoveDatabaseContext(String)
 - uid: SuperOffice.SoDatabaseContext.RemoveDatabaseContext(System.String,System.Boolean)
   commentId: M:SuperOffice.SoDatabaseContext.RemoveDatabaseContext(System.String,System.Boolean)
   id: RemoveDatabaseContext(System.String,System.Boolean)
@@ -294,23 +263,34 @@ items:
   langs:
   - csharp
   - vb
-  name: RemoveDatabaseContext(String, Boolean)
-  nameWithType: SoDatabaseContext.RemoveDatabaseContext(String, Boolean)
-  fullName: SuperOffice.SoDatabaseContext.RemoveDatabaseContext(System.String, System.Boolean)
+  name: RemoveDatabaseContext(string, bool)
+  nameWithType: SoDatabaseContext.RemoveDatabaseContext(string, bool)
+  fullName: SuperOffice.SoDatabaseContext.RemoveDatabaseContext(string, bool)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nRemove the Database Context.  A new will be initialized the\nnext time it is required.\n"
-  remarks: "\nCall this method in a multi-tenant NetServer to revoke configuration for a tenant.\nIt is not permitted to call this method providing the <xref href=\"SuperOffice.SoDatabaseContext.DefaultContextIdentifier\" data-throw-if-not-resolved=\"false\"></xref> database context.\nIf this method is called in the same database context as the current, the logic falls back to <xref href=\"SuperOffice.SoDatabaseContext.DisconnectDatabase\" data-throw-if-not-resolved=\"false\"></xref>\nto safely remove the database context for the logged in user.\nDisconnectDatabase() will dispose instance containers.\n"
+  summary: >-
+    Remove the Database Context.  A new will be initialized the
+
+    next time it is required.
+  remarks: >-
+    Call this method in a multi-tenant NetServer to revoke configuration for a tenant.
+
+    It is not permitted to call this method providing the <xref href="SuperOffice.SoDatabaseContext.DefaultContextIdentifier" data-throw-if-not-resolved="false"></xref> database context.
+
+    If this method is called in the same database context as the current, the logic falls back to <xref href="SuperOffice.SoDatabaseContext.DisconnectDatabase" data-throw-if-not-resolved="false"></xref>
+
+    to safely remove the database context for the logged in user.
+
+    DisconnectDatabase() will dispose instance containers.
+  example: []
   syntax:
     content: public static bool RemoveDatabaseContext(string contextIdentifier, bool forceDisconnect)
     parameters:
     - id: contextIdentifier
       type: System.String
+      description: ''
     - id: forceDisconnect
       type: System.Boolean
       description: Force disconnect from database even if we are not in the same database context
@@ -323,12 +303,9 @@ items:
   - type: SuperOffice.Exceptions.SoException
     commentId: T:SuperOffice.Exceptions.SoException
     description: Thrown if we specify the <xref href="SuperOffice.SoDatabaseContext.DefaultContextIdentifier" data-throw-if-not-resolved="false"></xref> database context
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoDatabaseContext.RemoveDatabaseContext(String, Boolean)
+  fullName.vb: SuperOffice.SoDatabaseContext.RemoveDatabaseContext(String, Boolean)
+  name.vb: RemoveDatabaseContext(String, Boolean)
 - uid: SuperOffice.SoDatabaseContext.GetCurrentIgnoreUser
   commentId: M:SuperOffice.SoDatabaseContext.GetCurrentIgnoreUser
   id: GetCurrentIgnoreUser
@@ -340,27 +317,19 @@ items:
   nameWithType: SoDatabaseContext.GetCurrentIgnoreUser()
   fullName: SuperOffice.SoDatabaseContext.GetCurrentIgnoreUser()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nGet current database context ignoring whomever logged in.\n"
+  summary: Get current database context ignoring whomever logged in.
   remarks: Used during the authentication process
+  example: []
   syntax:
     content: public static SoDatabaseContext GetCurrentIgnoreUser()
     return:
       type: SuperOffice.SoDatabaseContext
       description: The current database context.
-    content.vb: Public Shared Function GetCurrentIgnoreUser As SoDatabaseContext
+    content.vb: Public Shared Function GetCurrentIgnoreUser() As SoDatabaseContext
   overload: SuperOffice.SoDatabaseContext.GetCurrentIgnoreUser*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.SoDatabaseContext.DisconnectDatabase
   commentId: M:SuperOffice.SoDatabaseContext.DisconnectDatabase
   id: DisconnectDatabase
@@ -372,157 +341,34 @@ items:
   nameWithType: SoDatabaseContext.DisconnectDatabase()
   fullName: SuperOffice.SoDatabaseContext.DisconnectDatabase()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nDissconect from the database (formerly referred to as the database logout process)\n"
+  summary: Dissconect from the database (formerly referred to as the database logout process)
+  example: []
   syntax:
     content: public void DisconnectDatabase()
-    content.vb: Public Sub DisconnectDatabase
+    content.vb: Public Sub DisconnectDatabase()
   overload: SuperOffice.SoDatabaseContext.DisconnectDatabase*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.SoDatabaseContext.add_OnBeforeLogOut(SuperOffice.SoDatabaseLogOut)
-  commentId: M:SuperOffice.SoDatabaseContext.add_OnBeforeLogOut(SuperOffice.SoDatabaseLogOut)
-  id: add_OnBeforeLogOut(SuperOffice.SoDatabaseLogOut)
+- uid: SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.String)
+  commentId: M:SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.String)
+  id: TryResolveContext(System.String@,System.String)
   parent: SuperOffice.SoDatabaseContext
   langs:
   - csharp
   - vb
-  name: add_OnBeforeLogOut(SoDatabaseLogOut)
-  nameWithType: SoDatabaseContext.add_OnBeforeLogOut(SoDatabaseLogOut)
-  fullName: SuperOffice.SoDatabaseContext.add_OnBeforeLogOut(SuperOffice.SoDatabaseLogOut)
+  name: TryResolveContext(out string, string)
+  nameWithType: SoDatabaseContext.TryResolveContext(out string, string)
+  fullName: SuperOffice.SoDatabaseContext.TryResolveContext(out string, string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
+  summary: Try to resolve context from a ticket
+  example: []
   syntax:
-    content: public void add_OnBeforeLogOut(SoDatabaseLogOut value)
+    content: public static bool TryResolveContext(out string context, string ticket)
     parameters:
-    - id: value
-      type: SuperOffice.SoDatabaseLogOut
-    content.vb: Public Sub add_OnBeforeLogOut(value As SoDatabaseLogOut)
-  overload: SuperOffice.SoDatabaseContext.add_OnBeforeLogOut*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.SoDatabaseContext.remove_OnBeforeLogOut(SuperOffice.SoDatabaseLogOut)
-  commentId: M:SuperOffice.SoDatabaseContext.remove_OnBeforeLogOut(SuperOffice.SoDatabaseLogOut)
-  id: remove_OnBeforeLogOut(SuperOffice.SoDatabaseLogOut)
-  parent: SuperOffice.SoDatabaseContext
-  langs:
-  - csharp
-  - vb
-  name: remove_OnBeforeLogOut(SoDatabaseLogOut)
-  nameWithType: SoDatabaseContext.remove_OnBeforeLogOut(SoDatabaseLogOut)
-  fullName: SuperOffice.SoDatabaseContext.remove_OnBeforeLogOut(SuperOffice.SoDatabaseLogOut)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  syntax:
-    content: public void remove_OnBeforeLogOut(SoDatabaseLogOut value)
-    parameters:
-    - id: value
-      type: SuperOffice.SoDatabaseLogOut
-    content.vb: Public Sub remove_OnBeforeLogOut(value As SoDatabaseLogOut)
-  overload: SuperOffice.SoDatabaseContext.remove_OnBeforeLogOut*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.SoDatabaseContext.add_OnAfterLogOut(SuperOffice.SoDatabaseLogOut)
-  commentId: M:SuperOffice.SoDatabaseContext.add_OnAfterLogOut(SuperOffice.SoDatabaseLogOut)
-  id: add_OnAfterLogOut(SuperOffice.SoDatabaseLogOut)
-  parent: SuperOffice.SoDatabaseContext
-  langs:
-  - csharp
-  - vb
-  name: add_OnAfterLogOut(SoDatabaseLogOut)
-  nameWithType: SoDatabaseContext.add_OnAfterLogOut(SoDatabaseLogOut)
-  fullName: SuperOffice.SoDatabaseContext.add_OnAfterLogOut(SuperOffice.SoDatabaseLogOut)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  syntax:
-    content: public void add_OnAfterLogOut(SoDatabaseLogOut value)
-    parameters:
-    - id: value
-      type: SuperOffice.SoDatabaseLogOut
-    content.vb: Public Sub add_OnAfterLogOut(value As SoDatabaseLogOut)
-  overload: SuperOffice.SoDatabaseContext.add_OnAfterLogOut*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.SoDatabaseContext.remove_OnAfterLogOut(SuperOffice.SoDatabaseLogOut)
-  commentId: M:SuperOffice.SoDatabaseContext.remove_OnAfterLogOut(SuperOffice.SoDatabaseLogOut)
-  id: remove_OnAfterLogOut(SuperOffice.SoDatabaseLogOut)
-  parent: SuperOffice.SoDatabaseContext
-  langs:
-  - csharp
-  - vb
-  name: remove_OnAfterLogOut(SoDatabaseLogOut)
-  nameWithType: SoDatabaseContext.remove_OnAfterLogOut(SoDatabaseLogOut)
-  fullName: SuperOffice.SoDatabaseContext.remove_OnAfterLogOut(SuperOffice.SoDatabaseLogOut)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  syntax:
-    content: public void remove_OnAfterLogOut(SoDatabaseLogOut value)
-    parameters:
-    - id: value
-      type: SuperOffice.SoDatabaseLogOut
-    content.vb: Public Sub remove_OnAfterLogOut(value As SoDatabaseLogOut)
-  overload: SuperOffice.SoDatabaseContext.remove_OnAfterLogOut*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.String)
-  commentId: M:SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.String)
-  id: TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.String)
-  parent: SuperOffice.SoDatabaseContext
-  langs:
-  - csharp
-  - vb
-  name: TryResolveContext(out IContextResolver, out String, String)
-  nameWithType: SoDatabaseContext.TryResolveContext(out IContextResolver, out String, String)
-  fullName: SuperOffice.SoDatabaseContext.TryResolveContext(out SuperOffice.Security.Principal.IContextResolver, out System.String, System.String)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  summary: "\nTry to resolve context from a ticket\n"
-  syntax:
-    content: public static bool TryResolveContext(out IContextResolver contextResolver, out string context, string ticket)
-    parameters:
-    - id: contextResolver
-      type: SuperOffice.Security.Principal.IContextResolver
-      description: Instance of plugin resolving context
     - id: context
       type: System.String
       description: Name of context
@@ -532,41 +378,30 @@ items:
     return:
       type: System.Boolean
       description: True if context is resolved
-    content.vb: Public Shared Function TryResolveContext(ByRef contextResolver As IContextResolver, ByRef context As String, ticket As String) As Boolean
+    content.vb: Public Shared Function TryResolveContext(context As String, ticket As String) As Boolean
   overload: SuperOffice.SoDatabaseContext.TryResolveContext*
-  nameWithType.vb: SoDatabaseContext.TryResolveContext(ByRef IContextResolver, ByRef String, String)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.SoDatabaseContext.TryResolveContext(ByRef SuperOffice.Security.Principal.IContextResolver, ByRef System.String, System.String)
-  name.vb: TryResolveContext(ByRef IContextResolver, ByRef String, String)
-- uid: SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.Security.Claims.ClaimsIdentity[])
-  commentId: M:SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.Security.Claims.ClaimsIdentity[])
-  id: TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.Security.Claims.ClaimsIdentity[])
+  nameWithType.vb: SoDatabaseContext.TryResolveContext(String, String)
+  fullName.vb: SuperOffice.SoDatabaseContext.TryResolveContext(String, String)
+  name.vb: TryResolveContext(String, String)
+- uid: SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.Security.Claims.ClaimsIdentity[])
+  commentId: M:SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.Security.Claims.ClaimsIdentity[])
+  id: TryResolveContext(System.String@,System.Security.Claims.ClaimsIdentity[])
   parent: SuperOffice.SoDatabaseContext
   langs:
   - csharp
   - vb
-  name: TryResolveContext(out IContextResolver, out String, ClaimsIdentity[])
-  nameWithType: SoDatabaseContext.TryResolveContext(out IContextResolver, out String, ClaimsIdentity[])
-  fullName: SuperOffice.SoDatabaseContext.TryResolveContext(out SuperOffice.Security.Principal.IContextResolver, out System.String, System.Security.Claims.ClaimsIdentity[])
+  name: TryResolveContext(out string, params ClaimsIdentity[])
+  nameWithType: SoDatabaseContext.TryResolveContext(out string, params ClaimsIdentity[])
+  fullName: SuperOffice.SoDatabaseContext.TryResolveContext(out string, params System.Security.Claims.ClaimsIdentity[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nTry to resolve context from a set of SecurityTokens\n"
+  summary: Try to resolve context from a set of SecurityTokens
+  example: []
   syntax:
-    content: public static bool TryResolveContext(out IContextResolver contextResolver, out string context, params ClaimsIdentity[] identites)
+    content: public static bool TryResolveContext(out string context, params ClaimsIdentity[] identites)
     parameters:
-    - id: contextResolver
-      type: SuperOffice.Security.Principal.IContextResolver
-      description: Instance of plugin resolving context
     - id: context
       type: System.String
       description: Name of context
@@ -575,56 +410,39 @@ items:
     return:
       type: System.Boolean
       description: True if context is resolved
-    content.vb: Public Shared Function TryResolveContext(ByRef contextResolver As IContextResolver, ByRef context As String, ParamArray identites As ClaimsIdentity()) As Boolean
+    content.vb: Public Shared Function TryResolveContext(context As String, ParamArray identites As ClaimsIdentity()) As Boolean
   overload: SuperOffice.SoDatabaseContext.TryResolveContext*
-  nameWithType.vb: SoDatabaseContext.TryResolveContext(ByRef IContextResolver, ByRef String, ClaimsIdentity())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.SoDatabaseContext.TryResolveContext(ByRef SuperOffice.Security.Principal.IContextResolver, ByRef System.String, System.Security.Claims.ClaimsIdentity())
-  name.vb: TryResolveContext(ByRef IContextResolver, ByRef String, ClaimsIdentity())
-- uid: SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
-  commentId: M:SuperOffice.SoDatabaseContext.TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
-  id: TryResolveContext(SuperOffice.Security.Principal.IContextResolver@,System.String@,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  nameWithType.vb: SoDatabaseContext.TryResolveContext(String, ParamArray ClaimsIdentity())
+  fullName.vb: SuperOffice.SoDatabaseContext.TryResolveContext(String, ParamArray System.Security.Claims.ClaimsIdentity())
+  name.vb: TryResolveContext(String, ParamArray ClaimsIdentity())
+- uid: SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  commentId: M:SuperOffice.SoDatabaseContext.TryResolveContext(System.String@,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  id: TryResolveContext(System.String@,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
   parent: SuperOffice.SoDatabaseContext
   langs:
   - csharp
   - vb
-  name: TryResolveContext(out IContextResolver, out String, IEnumerable<ClaimsIdentity>)
-  nameWithType: SoDatabaseContext.TryResolveContext(out IContextResolver, out String, IEnumerable<ClaimsIdentity>)
-  fullName: SuperOffice.SoDatabaseContext.TryResolveContext(out SuperOffice.Security.Principal.IContextResolver, out System.String, System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>)
+  name: TryResolveContext(out string, IEnumerable<ClaimsIdentity>)
+  nameWithType: SoDatabaseContext.TryResolveContext(out string, IEnumerable<ClaimsIdentity>)
+  fullName: SuperOffice.SoDatabaseContext.TryResolveContext(out string, System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
   syntax:
-    content: public static bool TryResolveContext(out IContextResolver contextResolver, out string context, IEnumerable<ClaimsIdentity> identites)
+    content: public static bool TryResolveContext(out string context, IEnumerable<ClaimsIdentity> identites)
     parameters:
-    - id: contextResolver
-      type: SuperOffice.Security.Principal.IContextResolver
     - id: context
       type: System.String
     - id: identites
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
     return:
       type: System.Boolean
-    content.vb: Public Shared Function TryResolveContext(ByRef contextResolver As IContextResolver, ByRef context As String, identites As IEnumerable(Of ClaimsIdentity)) As Boolean
+    content.vb: Public Shared Function TryResolveContext(context As String, identites As IEnumerable(Of ClaimsIdentity)) As Boolean
   overload: SuperOffice.SoDatabaseContext.TryResolveContext*
-  nameWithType.vb: SoDatabaseContext.TryResolveContext(ByRef IContextResolver, ByRef String, IEnumerable(Of ClaimsIdentity))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.SoDatabaseContext.TryResolveContext(ByRef SuperOffice.Security.Principal.IContextResolver, ByRef System.String, System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity))
-  name.vb: TryResolveContext(ByRef IContextResolver, ByRef String, IEnumerable(Of ClaimsIdentity))
+  nameWithType.vb: SoDatabaseContext.TryResolveContext(String, IEnumerable(Of ClaimsIdentity))
+  fullName.vb: SuperOffice.SoDatabaseContext.TryResolveContext(String, System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity))
+  name.vb: TryResolveContext(String, IEnumerable(Of ClaimsIdentity))
 - uid: SuperOffice.SoDatabaseContext.EnterDatabaseContext(System.String)
   commentId: M:SuperOffice.SoDatabaseContext.EnterDatabaseContext(System.String)
   id: EnterDatabaseContext(System.String)
@@ -632,34 +450,29 @@ items:
   langs:
   - csharp
   - vb
-  name: EnterDatabaseContext(String)
-  nameWithType: SoDatabaseContext.EnterDatabaseContext(String)
-  fullName: SuperOffice.SoDatabaseContext.EnterDatabaseContext(System.String)
+  name: EnterDatabaseContext(string)
+  nameWithType: SoDatabaseContext.EnterDatabaseContext(string)
+  fullName: SuperOffice.SoDatabaseContext.EnterDatabaseContext(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nExplicitly enter a particular database context, before performing operations on this database.\n"
+  summary: Explicitly enter a particular database context, before performing operations on this database.
+  example: []
   syntax:
-    content: public static SoDatabaseContext.DatabaseContext EnterDatabaseContext(string contextIdentifier)
+    content: public static IDatabaseContext EnterDatabaseContext(string contextIdentifier)
     parameters:
     - id: contextIdentifier
       type: System.String
       description: Identifier of the context.
     return:
-      type: SuperOffice.SoDatabaseContext.DatabaseContext
+      type: SuperOffice.IDatabaseContext
       description: Disposable object leaving the database context on Dispose()
-    content.vb: Public Shared Function EnterDatabaseContext(contextIdentifier As String) As SoDatabaseContext.DatabaseContext
+    content.vb: Public Shared Function EnterDatabaseContext(contextIdentifier As String) As IDatabaseContext
   overload: SuperOffice.SoDatabaseContext.EnterDatabaseContext*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoDatabaseContext.EnterDatabaseContext(String)
+  fullName.vb: SuperOffice.SoDatabaseContext.EnterDatabaseContext(String)
+  name.vb: EnterDatabaseContext(String)
 - uid: SuperOffice.SoDatabaseContext.CompareTo(SuperOffice.SoDatabaseContext)
   commentId: M:SuperOffice.SoDatabaseContext.CompareTo(SuperOffice.SoDatabaseContext)
   id: CompareTo(SuperOffice.SoDatabaseContext)
@@ -671,12 +484,10 @@ items:
   nameWithType: SoDatabaseContext.CompareTo(SoDatabaseContext)
   fullName: SuperOffice.SoDatabaseContext.CompareTo(SuperOffice.SoDatabaseContext)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
+  example: []
   syntax:
     content: public int CompareTo(SoDatabaseContext other)
     parameters:
@@ -686,10 +497,8 @@ items:
       type: System.Int32
     content.vb: Public Function CompareTo(other As SoDatabaseContext) As Integer
   overload: SuperOffice.SoDatabaseContext.CompareTo*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  implements:
+  - System.IComparable{SuperOffice.SoDatabaseContext}.CompareTo(SuperOffice.SoDatabaseContext)
 - uid: SuperOffice.SoDatabaseContext.ContextIdentifier
   commentId: P:SuperOffice.SoDatabaseContext.ContextIdentifier
   id: ContextIdentifier
@@ -701,13 +510,11 @@ items:
   nameWithType: SoDatabaseContext.ContextIdentifier
   fullName: SuperOffice.SoDatabaseContext.ContextIdentifier
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nGet the indentifer of the context (unique string for this context)\n"
+  summary: Get the indentifer of the context (unique string for this context)
+  example: []
   syntax:
     content: public string ContextIdentifier { get; }
     parameters: []
@@ -715,12 +522,6 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property ContextIdentifier As String
   overload: SuperOffice.SoDatabaseContext.ContextIdentifier*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.SoDatabaseContext.OnBeforeLogOut
   commentId: E:SuperOffice.SoDatabaseContext.OnBeforeLogOut
   id: OnBeforeLogOut
@@ -732,22 +533,16 @@ items:
   nameWithType: SoDatabaseContext.OnBeforeLogOut
   fullName: SuperOffice.SoDatabaseContext.OnBeforeLogOut
   type: Event
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nEvent raised in the start of the database logout/dissconect process\n"
+  summary: Event raised in the start of the database logout/dissconect process
+  example: []
   syntax:
     content: public event SoDatabaseLogOut OnBeforeLogOut
     return:
       type: SuperOffice.SoDatabaseLogOut
     content.vb: Public Event OnBeforeLogOut As SoDatabaseLogOut
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.SoDatabaseContext.OnAfterLogOut
   commentId: E:SuperOffice.SoDatabaseContext.OnAfterLogOut
   id: OnAfterLogOut
@@ -759,26 +554,21 @@ items:
   nameWithType: SoDatabaseContext.OnAfterLogOut
   fullName: SuperOffice.SoDatabaseContext.OnAfterLogOut
   type: Event
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nEvent raised after the database has been logged out/dissconected from.\n"
+  summary: Event raised after the database has been logged out/dissconected from.
+  example: []
   syntax:
     content: public event SoDatabaseLogOut OnAfterLogOut
     return:
       type: SuperOffice.SoDatabaseLogOut
     content.vb: Public Event OnAfterLogOut As SoDatabaseLogOut
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice
   commentId: N:SuperOffice
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice
   nameWithType: SuperOffice
   fullName: SuperOffice
@@ -786,12 +576,18 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.IComparable{SuperOffice.SoDatabaseContext}
-  commentId: '!:System.IComparable{SuperOffice.SoDatabaseContext}'
+  commentId: T:System.IComparable{SuperOffice.SoDatabaseContext}
+  parent: System
   definition: System.IComparable`1
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
   name: IComparable<SoDatabaseContext>
   nameWithType: IComparable<SoDatabaseContext>
   fullName: System.IComparable<SuperOffice.SoDatabaseContext>
@@ -801,152 +597,391 @@ references:
   spec.csharp:
   - uid: System.IComparable`1
     name: IComparable
-    nameWithType: IComparable
-    fullName: System.IComparable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.SoDatabaseContext
     name: SoDatabaseContext
-    nameWithType: SoDatabaseContext
-    fullName: SuperOffice.SoDatabaseContext
     isExternal: true
+    href: SuperOffice.SoDatabaseContext.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.IComparable`1
     name: IComparable
-    nameWithType: IComparable
-    fullName: System.IComparable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.SoDatabaseContext
     name: SoDatabaseContext
-    nameWithType: SoDatabaseContext
-    fullName: SuperOffice.SoDatabaseContext
     isExternal: true
+    href: SuperOffice.SoDatabaseContext.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.SoDatabaseContext.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SoDatabaseContext, To>()
-  nameWithType: EnumUtil.MapEnums<SoDatabaseContext, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.SoDatabaseContext, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SoDatabaseContext, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.SoDatabaseContext, To)()
-  name.vb: MapEnums(Of SoDatabaseContext, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SoDatabaseContext, To>(SoDatabaseContext)
+  nameWithType: EnumUtil.MapEnums<SoDatabaseContext, To>(SoDatabaseContext)
+  fullName: EnumUtil.MapEnums<SuperOffice.SoDatabaseContext, To>(SuperOffice.SoDatabaseContext)
+  nameWithType.vb: EnumUtil.MapEnums(Of SoDatabaseContext, To)(SoDatabaseContext)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.SoDatabaseContext, To)(SuperOffice.SoDatabaseContext)
+  name.vb: MapEnums(Of SoDatabaseContext, To)(SoDatabaseContext)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SoDatabaseContext, To>
-    nameWithType: EnumUtil.MapEnums<SoDatabaseContext, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.SoDatabaseContext, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.SoDatabaseContext)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.SoDatabaseContext
+    name: SoDatabaseContext
+    isExternal: true
+    href: SuperOffice.SoDatabaseContext.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.SoDatabaseContext
+    name: SoDatabaseContext
+    isExternal: true
+    href: SuperOffice.SoDatabaseContext.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SoDatabaseContext, To)
-    nameWithType: EnumUtil.MapEnums(Of SoDatabaseContext, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.SoDatabaseContext, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.SoDatabaseContext)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.SoDatabaseContext
+    name: SoDatabaseContext
+    isExternal: true
+    href: SuperOffice.SoDatabaseContext.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.SoDatabaseContext
+    name: SoDatabaseContext
+    isExternal: true
+    href: SuperOffice.SoDatabaseContext.html
+  - name: )
 - uid: SuperOffice.SoDatabaseContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SoDatabaseContext, To>()
-  nameWithType: Converters.MapEnums<SoDatabaseContext, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.SoDatabaseContext, To>()
-  nameWithType.vb: Converters.MapEnums(Of SoDatabaseContext, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.SoDatabaseContext, To)()
-  name.vb: MapEnums(Of SoDatabaseContext, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SoDatabaseContext, To>(SoDatabaseContext)
+  nameWithType: Converters.MapEnums<SoDatabaseContext, To>(SoDatabaseContext)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.SoDatabaseContext, To>(SuperOffice.SoDatabaseContext)
+  nameWithType.vb: Converters.MapEnums(Of SoDatabaseContext, To)(SoDatabaseContext)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.SoDatabaseContext, To)(SuperOffice.SoDatabaseContext)
+  name.vb: MapEnums(Of SoDatabaseContext, To)(SoDatabaseContext)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SoDatabaseContext, To>
-    nameWithType: Converters.MapEnums<SoDatabaseContext, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.SoDatabaseContext, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.SoDatabaseContext)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.SoDatabaseContext
+    name: SoDatabaseContext
+    isExternal: true
+    href: SuperOffice.SoDatabaseContext.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.SoDatabaseContext
+    name: SoDatabaseContext
+    isExternal: true
+    href: SuperOffice.SoDatabaseContext.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SoDatabaseContext, To)
-    nameWithType: Converters.MapEnums(Of SoDatabaseContext, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.SoDatabaseContext, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.SoDatabaseContext)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.SoDatabaseContext
+    name: SoDatabaseContext
+    isExternal: true
+    href: SuperOffice.SoDatabaseContext.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.SoDatabaseContext
+    name: SoDatabaseContext
+    isExternal: true
+    href: SuperOffice.SoDatabaseContext.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.IComparable`1
+  commentId: T:System.IComparable`1
   isExternal: true
-  name: IComparable<>
-  nameWithType: IComparable<>
-  fullName: System.IComparable<>
-  nameWithType.vb: IComparable(Of )
-  fullName.vb: System.IComparable(Of )
-  name.vb: IComparable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  name: IComparable<T>
+  nameWithType: IComparable<T>
+  fullName: System.IComparable<T>
+  nameWithType.vb: IComparable(Of T)
+  fullName.vb: System.IComparable(Of T)
+  name.vb: IComparable(Of T)
   spec.csharp:
   - uid: System.IComparable`1
     name: IComparable
-    nameWithType: IComparable
-    fullName: System.IComparable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.IComparable`1
     name: IComparable
-    nameWithType: IComparable
-    fullName: System.IComparable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -955,43 +990,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1000,89 +1037,124 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.SoDatabaseContext.GetAllContextIdentifiers*
   commentId: Overload:SuperOffice.SoDatabaseContext.GetAllContextIdentifiers
   isExternal: true
+  href: SuperOffice.SoDatabaseContext.html#SuperOffice_SoDatabaseContext_GetAllContextIdentifiers
   name: GetAllContextIdentifiers
   nameWithType: SoDatabaseContext.GetAllContextIdentifiers
   fullName: SuperOffice.SoDatabaseContext.GetAllContextIdentifiers
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: SuperOffice.SoDatabaseContext.GetDatabaseContext*
   commentId: Overload:SuperOffice.SoDatabaseContext.GetDatabaseContext
   isExternal: true
+  href: SuperOffice.SoDatabaseContext.html#SuperOffice_SoDatabaseContext_GetDatabaseContext_System_String_
   name: GetDatabaseContext
   nameWithType: SoDatabaseContext.GetDatabaseContext
   fullName: SuperOffice.SoDatabaseContext.GetDatabaseContext
@@ -1090,24 +1162,28 @@ references:
   commentId: T:SuperOffice.SoDatabaseContext
   parent: SuperOffice
   isExternal: true
+  href: SuperOffice.SoDatabaseContext.html
   name: SoDatabaseContext
   nameWithType: SoDatabaseContext
   fullName: SuperOffice.SoDatabaseContext
 - uid: SuperOffice.SoDatabaseContext.GetCurrent*
   commentId: Overload:SuperOffice.SoDatabaseContext.GetCurrent
   isExternal: true
+  href: SuperOffice.SoDatabaseContext.html#SuperOffice_SoDatabaseContext_GetCurrent
   name: GetCurrent
   nameWithType: SoDatabaseContext.GetCurrent
   fullName: SuperOffice.SoDatabaseContext.GetCurrent
 - uid: SuperOffice.SoDatabaseContext.TryGetCurrentContextIdentifier*
   commentId: Overload:SuperOffice.SoDatabaseContext.TryGetCurrentContextIdentifier
   isExternal: true
+  href: SuperOffice.SoDatabaseContext.html#SuperOffice_SoDatabaseContext_TryGetCurrentContextIdentifier
   name: TryGetCurrentContextIdentifier
   nameWithType: SoDatabaseContext.TryGetCurrentContextIdentifier
   fullName: SuperOffice.SoDatabaseContext.TryGetCurrentContextIdentifier
 - uid: SuperOffice.SoDatabaseContext.HasDatabaseContext*
   commentId: Overload:SuperOffice.SoDatabaseContext.HasDatabaseContext
   isExternal: true
+  href: SuperOffice.SoDatabaseContext.html#SuperOffice_SoDatabaseContext_HasDatabaseContext_System_String_
   name: HasDatabaseContext
   nameWithType: SoDatabaseContext.HasDatabaseContext
   fullName: SuperOffice.SoDatabaseContext.HasDatabaseContext
@@ -1115,92 +1191,107 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.SoDatabaseContext.RemoveDatabaseContext*
-  commentId: Overload:SuperOffice.SoDatabaseContext.RemoveDatabaseContext
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.SoDatabaseContext.DefaultContextIdentifier
+  commentId: F:SuperOffice.SoDatabaseContext.DefaultContextIdentifier
   isExternal: true
-  name: RemoveDatabaseContext
-  nameWithType: SoDatabaseContext.RemoveDatabaseContext
-  fullName: SuperOffice.SoDatabaseContext.RemoveDatabaseContext
+  href: SuperOffice.SoDatabaseContext.html#SuperOffice_SoDatabaseContext_DefaultContextIdentifier
+  name: DefaultContextIdentifier
+  nameWithType: SoDatabaseContext.DefaultContextIdentifier
+  fullName: SuperOffice.SoDatabaseContext.DefaultContextIdentifier
+- uid: SuperOffice.SoDatabaseContext.DisconnectDatabase
+  commentId: M:SuperOffice.SoDatabaseContext.DisconnectDatabase
+  isExternal: true
+  href: SuperOffice.SoDatabaseContext.html#SuperOffice_SoDatabaseContext_DisconnectDatabase
+  name: DisconnectDatabase()
+  nameWithType: SoDatabaseContext.DisconnectDatabase()
+  fullName: SuperOffice.SoDatabaseContext.DisconnectDatabase()
+  spec.csharp:
+  - uid: SuperOffice.SoDatabaseContext.DisconnectDatabase
+    name: DisconnectDatabase
+    isExternal: true
+    href: SuperOffice.SoDatabaseContext.html#SuperOffice_SoDatabaseContext_DisconnectDatabase
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.SoDatabaseContext.DisconnectDatabase
+    name: DisconnectDatabase
+    isExternal: true
+    href: SuperOffice.SoDatabaseContext.html#SuperOffice_SoDatabaseContext_DisconnectDatabase
+  - name: (
+  - name: )
 - uid: SuperOffice.Exceptions.SoException
   commentId: T:SuperOffice.Exceptions.SoException
   parent: SuperOffice.Exceptions
   isExternal: true
+  href: SuperOffice.Exceptions.SoException.html
   name: SoException
   nameWithType: SoException
   fullName: SuperOffice.Exceptions.SoException
+- uid: SuperOffice.SoDatabaseContext.RemoveDatabaseContext*
+  commentId: Overload:SuperOffice.SoDatabaseContext.RemoveDatabaseContext
+  isExternal: true
+  href: SuperOffice.SoDatabaseContext.html#SuperOffice_SoDatabaseContext_RemoveDatabaseContext_System_String_
+  name: RemoveDatabaseContext
+  nameWithType: SoDatabaseContext.RemoveDatabaseContext
+  fullName: SuperOffice.SoDatabaseContext.RemoveDatabaseContext
 - uid: SuperOffice.Exceptions
   commentId: N:SuperOffice.Exceptions
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Exceptions
   nameWithType: SuperOffice.Exceptions
   fullName: SuperOffice.Exceptions
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Exceptions
+    name: Exceptions
+    isExternal: true
+    href: SuperOffice.Exceptions.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Exceptions
+    name: Exceptions
+    isExternal: true
+    href: SuperOffice.Exceptions.html
 - uid: SuperOffice.SoDatabaseContext.GetCurrentIgnoreUser*
   commentId: Overload:SuperOffice.SoDatabaseContext.GetCurrentIgnoreUser
   isExternal: true
+  href: SuperOffice.SoDatabaseContext.html#SuperOffice_SoDatabaseContext_GetCurrentIgnoreUser
   name: GetCurrentIgnoreUser
   nameWithType: SoDatabaseContext.GetCurrentIgnoreUser
   fullName: SuperOffice.SoDatabaseContext.GetCurrentIgnoreUser
 - uid: SuperOffice.SoDatabaseContext.DisconnectDatabase*
   commentId: Overload:SuperOffice.SoDatabaseContext.DisconnectDatabase
   isExternal: true
+  href: SuperOffice.SoDatabaseContext.html#SuperOffice_SoDatabaseContext_DisconnectDatabase
   name: DisconnectDatabase
   nameWithType: SoDatabaseContext.DisconnectDatabase
   fullName: SuperOffice.SoDatabaseContext.DisconnectDatabase
-- uid: SuperOffice.SoDatabaseContext.add_OnBeforeLogOut*
-  commentId: Overload:SuperOffice.SoDatabaseContext.add_OnBeforeLogOut
-  isExternal: true
-  name: add_OnBeforeLogOut
-  nameWithType: SoDatabaseContext.add_OnBeforeLogOut
-  fullName: SuperOffice.SoDatabaseContext.add_OnBeforeLogOut
-- uid: SuperOffice.SoDatabaseLogOut
-  commentId: T:SuperOffice.SoDatabaseLogOut
-  parent: SuperOffice
-  isExternal: true
-  name: SoDatabaseLogOut
-  nameWithType: SoDatabaseLogOut
-  fullName: SuperOffice.SoDatabaseLogOut
-- uid: SuperOffice.SoDatabaseContext.remove_OnBeforeLogOut*
-  commentId: Overload:SuperOffice.SoDatabaseContext.remove_OnBeforeLogOut
-  isExternal: true
-  name: remove_OnBeforeLogOut
-  nameWithType: SoDatabaseContext.remove_OnBeforeLogOut
-  fullName: SuperOffice.SoDatabaseContext.remove_OnBeforeLogOut
-- uid: SuperOffice.SoDatabaseContext.add_OnAfterLogOut*
-  commentId: Overload:SuperOffice.SoDatabaseContext.add_OnAfterLogOut
-  isExternal: true
-  name: add_OnAfterLogOut
-  nameWithType: SoDatabaseContext.add_OnAfterLogOut
-  fullName: SuperOffice.SoDatabaseContext.add_OnAfterLogOut
-- uid: SuperOffice.SoDatabaseContext.remove_OnAfterLogOut*
-  commentId: Overload:SuperOffice.SoDatabaseContext.remove_OnAfterLogOut
-  isExternal: true
-  name: remove_OnAfterLogOut
-  nameWithType: SoDatabaseContext.remove_OnAfterLogOut
-  fullName: SuperOffice.SoDatabaseContext.remove_OnAfterLogOut
 - uid: SuperOffice.SoDatabaseContext.TryResolveContext*
   commentId: Overload:SuperOffice.SoDatabaseContext.TryResolveContext
   isExternal: true
+  href: SuperOffice.SoDatabaseContext.html#SuperOffice_SoDatabaseContext_TryResolveContext_System_String__System_String_
   name: TryResolveContext
   nameWithType: SoDatabaseContext.TryResolveContext
   fullName: SuperOffice.SoDatabaseContext.TryResolveContext
-- uid: SuperOffice.Security.Principal.IContextResolver
-  commentId: T:SuperOffice.Security.Principal.IContextResolver
-  parent: SuperOffice.Security.Principal
-  isExternal: true
-  name: IContextResolver
-  nameWithType: IContextResolver
-  fullName: SuperOffice.Security.Principal.IContextResolver
-- uid: SuperOffice.Security.Principal
-  commentId: N:SuperOffice.Security.Principal
-  isExternal: true
-  name: SuperOffice.Security.Principal
-  nameWithType: SuperOffice.Security.Principal
-  fullName: SuperOffice.Security.Principal
 - uid: System.Security.Claims.ClaimsIdentity[]
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
   name: ClaimsIdentity[]
   nameWithType: ClaimsIdentity[]
   fullName: System.Security.Claims.ClaimsIdentity[]
@@ -1210,24 +1301,22 @@ references:
   spec.csharp:
   - uid: System.Security.Claims.ClaimsIdentity
     name: ClaimsIdentity
-    nameWithType: ClaimsIdentity
-    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Security.Claims.ClaimsIdentity
     name: ClaimsIdentity
-    nameWithType: ClaimsIdentity
-    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  - name: (
+  - name: )
 - uid: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
-  commentId: '!:System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}'
+  commentId: T:System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<ClaimsIdentity>
   nameWithType: IEnumerable<ClaimsIdentity>
   fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>
@@ -1237,104 +1326,194 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Security.Claims.ClaimsIdentity
     name: ClaimsIdentity
-    nameWithType: ClaimsIdentity
-    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Security.Claims.ClaimsIdentity
     name: ClaimsIdentity
-    nameWithType: ClaimsIdentity
-    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.SoDatabaseContext.EnterDatabaseContext*
   commentId: Overload:SuperOffice.SoDatabaseContext.EnterDatabaseContext
   isExternal: true
+  href: SuperOffice.SoDatabaseContext.html#SuperOffice_SoDatabaseContext_EnterDatabaseContext_System_String_
   name: EnterDatabaseContext
   nameWithType: SoDatabaseContext.EnterDatabaseContext
   fullName: SuperOffice.SoDatabaseContext.EnterDatabaseContext
-- uid: SuperOffice.SoDatabaseContext.DatabaseContext
-  commentId: T:SuperOffice.SoDatabaseContext.DatabaseContext
+- uid: SuperOffice.IDatabaseContext
+  commentId: T:SuperOffice.IDatabaseContext
   parent: SuperOffice
   isExternal: true
-  name: SoDatabaseContext.DatabaseContext
-  nameWithType: SoDatabaseContext.DatabaseContext
-  fullName: SuperOffice.SoDatabaseContext.DatabaseContext
+  href: SuperOffice.IDatabaseContext.html
+  name: IDatabaseContext
+  nameWithType: IDatabaseContext
+  fullName: SuperOffice.IDatabaseContext
 - uid: SuperOffice.SoDatabaseContext.CompareTo*
   commentId: Overload:SuperOffice.SoDatabaseContext.CompareTo
   isExternal: true
+  href: SuperOffice.SoDatabaseContext.html#SuperOffice_SoDatabaseContext_CompareTo_SuperOffice_SoDatabaseContext_
   name: CompareTo
   nameWithType: SoDatabaseContext.CompareTo
   fullName: SuperOffice.SoDatabaseContext.CompareTo
+- uid: System.IComparable{SuperOffice.SoDatabaseContext}.CompareTo(SuperOffice.SoDatabaseContext)
+  commentId: M:System.IComparable{SuperOffice.SoDatabaseContext}.CompareTo(SuperOffice.SoDatabaseContext)
+  parent: System.IComparable{SuperOffice.SoDatabaseContext}
+  definition: System.IComparable`1.CompareTo(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  name: CompareTo(SoDatabaseContext)
+  nameWithType: IComparable<SoDatabaseContext>.CompareTo(SoDatabaseContext)
+  fullName: System.IComparable<SuperOffice.SoDatabaseContext>.CompareTo(SuperOffice.SoDatabaseContext)
+  nameWithType.vb: IComparable(Of SoDatabaseContext).CompareTo(SoDatabaseContext)
+  fullName.vb: System.IComparable(Of SuperOffice.SoDatabaseContext).CompareTo(SuperOffice.SoDatabaseContext)
+  spec.csharp:
+  - uid: System.IComparable{SuperOffice.SoDatabaseContext}.CompareTo(SuperOffice.SoDatabaseContext)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - uid: SuperOffice.SoDatabaseContext
+    name: SoDatabaseContext
+    isExternal: true
+    href: SuperOffice.SoDatabaseContext.html
+  - name: )
+  spec.vb:
+  - uid: System.IComparable{SuperOffice.SoDatabaseContext}.CompareTo(SuperOffice.SoDatabaseContext)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - uid: SuperOffice.SoDatabaseContext
+    name: SoDatabaseContext
+    isExternal: true
+    href: SuperOffice.SoDatabaseContext.html
+  - name: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.IComparable`1.CompareTo(`0)
+  commentId: M:System.IComparable`1.CompareTo(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  name: CompareTo(T)
+  nameWithType: IComparable<T>.CompareTo(T)
+  fullName: System.IComparable<T>.CompareTo(T)
+  nameWithType.vb: IComparable(Of T).CompareTo(T)
+  fullName.vb: System.IComparable(Of T).CompareTo(T)
+  spec.csharp:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.SoDatabaseContext.ContextIdentifier*
   commentId: Overload:SuperOffice.SoDatabaseContext.ContextIdentifier
   isExternal: true
+  href: SuperOffice.SoDatabaseContext.html#SuperOffice_SoDatabaseContext_ContextIdentifier
   name: ContextIdentifier
   nameWithType: SoDatabaseContext.ContextIdentifier
   fullName: SuperOffice.SoDatabaseContext.ContextIdentifier
+- uid: SuperOffice.SoDatabaseLogOut
+  commentId: T:SuperOffice.SoDatabaseLogOut
+  parent: SuperOffice
+  isExternal: true
+  href: SuperOffice.SoDatabaseLogOut.html
+  name: SoDatabaseLogOut
+  nameWithType: SoDatabaseLogOut
+  fullName: SuperOffice.SoDatabaseLogOut

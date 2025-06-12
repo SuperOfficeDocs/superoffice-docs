@@ -1,0 +1,1137 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.FieldHelper
+  commentId: T:SuperOffice.ErpSync.FieldHelper
+  id: FieldHelper
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.FieldHelper.CreateErpSyncActorFieldFromRow(SuperOffice.CRM.Rows.ErpFieldRow)
+  - SuperOffice.ErpSync.FieldHelper.DecodeFieldValueToString(System.String)
+  - SuperOffice.ErpSync.FieldHelper.DetermineLargestTimestamp(System.String,System.String)
+  - SuperOffice.ErpSync.FieldHelper.EncodeFieldValue(System.String,SuperOffice.CRM.FieldMetadataInfo)
+  - SuperOffice.ErpSync.FieldHelper.FormatFieldValueFromFieldMetadataInfo(System.String,SuperOffice.CRM.FieldMetadataInfo)
+  - SuperOffice.ErpSync.FieldHelper.GetCrmFieldKeysAsync(System.Int32,SuperOffice.Data.ErpActorType,System.String[],System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.FieldHelper.GetImportColumnFromEisFieldAsync(System.Int32,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.FieldHelper.GetMatchingCrmFieldKeyAsync(SuperOffice.Data.ErpActorType,System.String,System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.FieldHelper.ToDefaultWidth(SuperOffice.CRM.FieldMetadataTypeInfo)
+  - SuperOffice.ErpSync.FieldHelper.ToDisplayType(SuperOffice.CRM.FieldMetadataTypeInfo)
+  - SuperOffice.ErpSync.FieldHelper.ToRestrictionType(SuperOffice.CRM.FieldMetadataTypeInfo)
+  - SuperOffice.ErpSync.FieldHelper.UpdateErpFieldRowFromFieldMetadataInfoAsync(SuperOffice.CRM.FieldMetadataInfo,SuperOffice.CRM.Rows.ErpFieldRow)
+  - SuperOffice.ErpSync.FieldHelper.UpdateFieldMetadataInfoFromErpFieldRow(SuperOffice.CRM.Rows.ErpFieldRow,SuperOffice.CRM.FieldMetadataInfo@,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: FieldHelper
+  nameWithType: FieldHelper
+  fullName: SuperOffice.ErpSync.FieldHelper
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public static class FieldHelper
+    content.vb: Public Module FieldHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.ErpSync.FieldHelper.ToDisplayType(SuperOffice.CRM.FieldMetadataTypeInfo)
+  commentId: M:SuperOffice.ErpSync.FieldHelper.ToDisplayType(SuperOffice.CRM.FieldMetadataTypeInfo)
+  id: ToDisplayType(SuperOffice.CRM.FieldMetadataTypeInfo)
+  parent: SuperOffice.ErpSync.FieldHelper
+  langs:
+  - csharp
+  - vb
+  name: ToDisplayType(FieldMetadataTypeInfo)
+  nameWithType: FieldHelper.ToDisplayType(FieldMetadataTypeInfo)
+  fullName: SuperOffice.ErpSync.FieldHelper.ToDisplayType(SuperOffice.CRM.FieldMetadataTypeInfo)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public static string ToDisplayType(FieldMetadataTypeInfo ti)
+    parameters:
+    - id: ti
+      type: SuperOffice.CRM.FieldMetadataTypeInfo
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToDisplayType(ti As FieldMetadataTypeInfo) As String
+  overload: SuperOffice.ErpSync.FieldHelper.ToDisplayType*
+- uid: SuperOffice.ErpSync.FieldHelper.ToDefaultWidth(SuperOffice.CRM.FieldMetadataTypeInfo)
+  commentId: M:SuperOffice.ErpSync.FieldHelper.ToDefaultWidth(SuperOffice.CRM.FieldMetadataTypeInfo)
+  id: ToDefaultWidth(SuperOffice.CRM.FieldMetadataTypeInfo)
+  parent: SuperOffice.ErpSync.FieldHelper
+  langs:
+  - csharp
+  - vb
+  name: ToDefaultWidth(FieldMetadataTypeInfo)
+  nameWithType: FieldHelper.ToDefaultWidth(FieldMetadataTypeInfo)
+  fullName: SuperOffice.ErpSync.FieldHelper.ToDefaultWidth(SuperOffice.CRM.FieldMetadataTypeInfo)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public static string ToDefaultWidth(FieldMetadataTypeInfo ti)
+    parameters:
+    - id: ti
+      type: SuperOffice.CRM.FieldMetadataTypeInfo
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToDefaultWidth(ti As FieldMetadataTypeInfo) As String
+  overload: SuperOffice.ErpSync.FieldHelper.ToDefaultWidth*
+- uid: SuperOffice.ErpSync.FieldHelper.ToRestrictionType(SuperOffice.CRM.FieldMetadataTypeInfo)
+  commentId: M:SuperOffice.ErpSync.FieldHelper.ToRestrictionType(SuperOffice.CRM.FieldMetadataTypeInfo)
+  id: ToRestrictionType(SuperOffice.CRM.FieldMetadataTypeInfo)
+  parent: SuperOffice.ErpSync.FieldHelper
+  langs:
+  - csharp
+  - vb
+  name: ToRestrictionType(FieldMetadataTypeInfo)
+  nameWithType: FieldHelper.ToRestrictionType(FieldMetadataTypeInfo)
+  fullName: SuperOffice.ErpSync.FieldHelper.ToRestrictionType(SuperOffice.CRM.FieldMetadataTypeInfo)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public static string ToRestrictionType(FieldMetadataTypeInfo ti)
+    parameters:
+    - id: ti
+      type: SuperOffice.CRM.FieldMetadataTypeInfo
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToRestrictionType(ti As FieldMetadataTypeInfo) As String
+  overload: SuperOffice.ErpSync.FieldHelper.ToRestrictionType*
+- uid: SuperOffice.ErpSync.FieldHelper.FormatFieldValueFromFieldMetadataInfo(System.String,SuperOffice.CRM.FieldMetadataInfo)
+  commentId: M:SuperOffice.ErpSync.FieldHelper.FormatFieldValueFromFieldMetadataInfo(System.String,SuperOffice.CRM.FieldMetadataInfo)
+  id: FormatFieldValueFromFieldMetadataInfo(System.String,SuperOffice.CRM.FieldMetadataInfo)
+  parent: SuperOffice.ErpSync.FieldHelper
+  langs:
+  - csharp
+  - vb
+  name: FormatFieldValueFromFieldMetadataInfo(string, FieldMetadataInfo)
+  nameWithType: FieldHelper.FormatFieldValueFromFieldMetadataInfo(string, FieldMetadataInfo)
+  fullName: SuperOffice.ErpSync.FieldHelper.FormatFieldValueFromFieldMetadataInfo(string, SuperOffice.CRM.FieldMetadataInfo)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Formats a string according to a specified FieldMetadataInfo object (data type, max length, etc). Useful when sending the field value between connections
+  example: []
+  syntax:
+    content: public static string FormatFieldValueFromFieldMetadataInfo(string value, FieldMetadataInfo fmi)
+    parameters:
+    - id: value
+      type: System.String
+      description: ''
+    - id: fmi
+      type: SuperOffice.CRM.FieldMetadataInfo
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function FormatFieldValueFromFieldMetadataInfo(value As String, fmi As FieldMetadataInfo) As String
+  overload: SuperOffice.ErpSync.FieldHelper.FormatFieldValueFromFieldMetadataInfo*
+  nameWithType.vb: FieldHelper.FormatFieldValueFromFieldMetadataInfo(String, FieldMetadataInfo)
+  fullName.vb: SuperOffice.ErpSync.FieldHelper.FormatFieldValueFromFieldMetadataInfo(String, SuperOffice.CRM.FieldMetadataInfo)
+  name.vb: FormatFieldValueFromFieldMetadataInfo(String, FieldMetadataInfo)
+- uid: SuperOffice.ErpSync.FieldHelper.EncodeFieldValue(System.String,SuperOffice.CRM.FieldMetadataInfo)
+  commentId: M:SuperOffice.ErpSync.FieldHelper.EncodeFieldValue(System.String,SuperOffice.CRM.FieldMetadataInfo)
+  id: EncodeFieldValue(System.String,SuperOffice.CRM.FieldMetadataInfo)
+  parent: SuperOffice.ErpSync.FieldHelper
+  langs:
+  - csharp
+  - vb
+  name: EncodeFieldValue(string, FieldMetadataInfo)
+  nameWithType: FieldHelper.EncodeFieldValue(string, FieldMetadataInfo)
+  fullName: SuperOffice.ErpSync.FieldHelper.EncodeFieldValue(string, SuperOffice.CRM.FieldMetadataInfo)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Encodes a given fieldvalue for use in EIS, by adding tags and standardising formats
+  example: []
+  syntax:
+    content: public static string EncodeFieldValue(string fieldValue, FieldMetadataInfo fi)
+    parameters:
+    - id: fieldValue
+      type: System.String
+      description: The value, as delivered by a connection
+    - id: fi
+      type: SuperOffice.CRM.FieldMetadataInfo
+      description: The FieldMetadataInfo object describing the desired return field's properties
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function EncodeFieldValue(fieldValue As String, fi As FieldMetadataInfo) As String
+  overload: SuperOffice.ErpSync.FieldHelper.EncodeFieldValue*
+  nameWithType.vb: FieldHelper.EncodeFieldValue(String, FieldMetadataInfo)
+  fullName.vb: SuperOffice.ErpSync.FieldHelper.EncodeFieldValue(String, SuperOffice.CRM.FieldMetadataInfo)
+  name.vb: EncodeFieldValue(String, FieldMetadataInfo)
+- uid: SuperOffice.ErpSync.FieldHelper.DecodeFieldValueToString(System.String)
+  commentId: M:SuperOffice.ErpSync.FieldHelper.DecodeFieldValueToString(System.String)
+  id: DecodeFieldValueToString(System.String)
+  parent: SuperOffice.ErpSync.FieldHelper
+  langs:
+  - csharp
+  - vb
+  name: DecodeFieldValueToString(string)
+  nameWithType: FieldHelper.DecodeFieldValueToString(string)
+  fullName: SuperOffice.ErpSync.FieldHelper.DecodeFieldValueToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Decodes a given fieldvalue into a string for sending to a connection, by removing tags and possibly changing formats
+  example: []
+  syntax:
+    content: public static string DecodeFieldValueToString(string fieldValue)
+    parameters:
+    - id: fieldValue
+      type: System.String
+      description: The value, as used in EIS (with udef tags, etc)
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function DecodeFieldValueToString(fieldValue As String) As String
+  overload: SuperOffice.ErpSync.FieldHelper.DecodeFieldValueToString*
+  nameWithType.vb: FieldHelper.DecodeFieldValueToString(String)
+  fullName.vb: SuperOffice.ErpSync.FieldHelper.DecodeFieldValueToString(String)
+  name.vb: DecodeFieldValueToString(String)
+- uid: SuperOffice.ErpSync.FieldHelper.UpdateErpFieldRowFromFieldMetadataInfoAsync(SuperOffice.CRM.FieldMetadataInfo,SuperOffice.CRM.Rows.ErpFieldRow)
+  commentId: M:SuperOffice.ErpSync.FieldHelper.UpdateErpFieldRowFromFieldMetadataInfoAsync(SuperOffice.CRM.FieldMetadataInfo,SuperOffice.CRM.Rows.ErpFieldRow)
+  id: UpdateErpFieldRowFromFieldMetadataInfoAsync(SuperOffice.CRM.FieldMetadataInfo,SuperOffice.CRM.Rows.ErpFieldRow)
+  parent: SuperOffice.ErpSync.FieldHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateErpFieldRowFromFieldMetadataInfoAsync(FieldMetadataInfo, ErpFieldRow)
+  nameWithType: FieldHelper.UpdateErpFieldRowFromFieldMetadataInfoAsync(FieldMetadataInfo, ErpFieldRow)
+  fullName: SuperOffice.ErpSync.FieldHelper.UpdateErpFieldRowFromFieldMetadataInfoAsync(SuperOffice.CRM.FieldMetadataInfo, SuperOffice.CRM.Rows.ErpFieldRow)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Updates an ErpFieldRow with info/data from a FieldMetadataInfo object
+  example: []
+  syntax:
+    content: public static Task<ErpFieldRow> UpdateErpFieldRowFromFieldMetadataInfoAsync(FieldMetadataInfo fi, ErpFieldRow rw)
+    parameters:
+    - id: fi
+      type: SuperOffice.CRM.FieldMetadataInfo
+      description: ''
+    - id: rw
+      type: SuperOffice.CRM.Rows.ErpFieldRow
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ErpFieldRow}
+    content.vb: Public Shared Function UpdateErpFieldRowFromFieldMetadataInfoAsync(fi As FieldMetadataInfo, rw As ErpFieldRow) As Task(Of ErpFieldRow)
+  overload: SuperOffice.ErpSync.FieldHelper.UpdateErpFieldRowFromFieldMetadataInfoAsync*
+- uid: SuperOffice.ErpSync.FieldHelper.UpdateFieldMetadataInfoFromErpFieldRow(SuperOffice.CRM.Rows.ErpFieldRow,SuperOffice.CRM.FieldMetadataInfo@,System.Boolean)
+  commentId: M:SuperOffice.ErpSync.FieldHelper.UpdateFieldMetadataInfoFromErpFieldRow(SuperOffice.CRM.Rows.ErpFieldRow,SuperOffice.CRM.FieldMetadataInfo@,System.Boolean)
+  id: UpdateFieldMetadataInfoFromErpFieldRow(SuperOffice.CRM.Rows.ErpFieldRow,SuperOffice.CRM.FieldMetadataInfo@,System.Boolean)
+  parent: SuperOffice.ErpSync.FieldHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateFieldMetadataInfoFromErpFieldRow(ErpFieldRow, ref FieldMetadataInfo, bool)
+  nameWithType: FieldHelper.UpdateFieldMetadataInfoFromErpFieldRow(ErpFieldRow, ref FieldMetadataInfo, bool)
+  fullName: SuperOffice.ErpSync.FieldHelper.UpdateFieldMetadataInfoFromErpFieldRow(SuperOffice.CRM.Rows.ErpFieldRow, ref SuperOffice.CRM.FieldMetadataInfo, bool)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public static void UpdateFieldMetadataInfoFromErpFieldRow(ErpFieldRow rw, ref FieldMetadataInfo fi, bool useFirstSyncDefaultValue = false)
+    parameters:
+    - id: rw
+      type: SuperOffice.CRM.Rows.ErpFieldRow
+    - id: fi
+      type: SuperOffice.CRM.FieldMetadataInfo
+    - id: useFirstSyncDefaultValue
+      type: System.Boolean
+    content.vb: Public Shared Sub UpdateFieldMetadataInfoFromErpFieldRow(rw As ErpFieldRow, fi As FieldMetadataInfo, useFirstSyncDefaultValue As Boolean = False)
+  overload: SuperOffice.ErpSync.FieldHelper.UpdateFieldMetadataInfoFromErpFieldRow*
+  nameWithType.vb: FieldHelper.UpdateFieldMetadataInfoFromErpFieldRow(ErpFieldRow, FieldMetadataInfo, Boolean)
+  fullName.vb: SuperOffice.ErpSync.FieldHelper.UpdateFieldMetadataInfoFromErpFieldRow(SuperOffice.CRM.Rows.ErpFieldRow, SuperOffice.CRM.FieldMetadataInfo, Boolean)
+  name.vb: UpdateFieldMetadataInfoFromErpFieldRow(ErpFieldRow, FieldMetadataInfo, Boolean)
+- uid: SuperOffice.ErpSync.FieldHelper.GetCrmFieldKeysAsync(System.Int32,SuperOffice.Data.ErpActorType,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.FieldHelper.GetCrmFieldKeysAsync(System.Int32,SuperOffice.Data.ErpActorType,System.String[],System.Threading.CancellationToken)
+  id: GetCrmFieldKeysAsync(System.Int32,SuperOffice.Data.ErpActorType,System.String[],System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.FieldHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCrmFieldKeysAsync(int, ErpActorType, string[], CancellationToken)
+  nameWithType: FieldHelper.GetCrmFieldKeysAsync(int, ErpActorType, string[], CancellationToken)
+  fullName: SuperOffice.ErpSync.FieldHelper.GetCrmFieldKeysAsync(int, SuperOffice.Data.ErpActorType, string[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Get corresponding crmFieldKeys given the erpFieldKeys
+  example: []
+  syntax:
+    content: public static Task<string[]> GetCrmFieldKeysAsync(int erpConnectionId, ErpActorType erpActorType, string[] erpFieldKeys, CancellationToken cancellationToken)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: The ERP connection
+    - id: erpActorType
+      type: SuperOffice.Data.ErpActorType
+      description: The Erp Actor to check for
+    - id: erpFieldKeys
+      type: System.String[]
+      description: The ERP keys you want to convert
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String[]}
+      description: ''
+    content.vb: Public Shared Function GetCrmFieldKeysAsync(erpConnectionId As Integer, erpActorType As ErpActorType, erpFieldKeys As String(), cancellationToken As CancellationToken) As Task(Of String())
+  overload: SuperOffice.ErpSync.FieldHelper.GetCrmFieldKeysAsync*
+  nameWithType.vb: FieldHelper.GetCrmFieldKeysAsync(Integer, ErpActorType, String(), CancellationToken)
+  fullName.vb: SuperOffice.ErpSync.FieldHelper.GetCrmFieldKeysAsync(Integer, SuperOffice.Data.ErpActorType, String(), System.Threading.CancellationToken)
+  name.vb: GetCrmFieldKeysAsync(Integer, ErpActorType, String(), CancellationToken)
+- uid: SuperOffice.ErpSync.FieldHelper.DetermineLargestTimestamp(System.String,System.String)
+  commentId: M:SuperOffice.ErpSync.FieldHelper.DetermineLargestTimestamp(System.String,System.String)
+  id: DetermineLargestTimestamp(System.String,System.String)
+  parent: SuperOffice.ErpSync.FieldHelper
+  langs:
+  - csharp
+  - vb
+  name: DetermineLargestTimestamp(string, string)
+  nameWithType: FieldHelper.DetermineLargestTimestamp(string, string)
+  fullName: SuperOffice.ErpSync.FieldHelper.DetermineLargestTimestamp(string, string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Compares two timestamps and attempts to determine which one is higher. Returns the higher of the two.
+  example: []
+  syntax:
+    content: public static string DetermineLargestTimestamp(string timestamp1, string timestamp2)
+    parameters:
+    - id: timestamp1
+      type: System.String
+      description: ''
+    - id: timestamp2
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function DetermineLargestTimestamp(timestamp1 As String, timestamp2 As String) As String
+  overload: SuperOffice.ErpSync.FieldHelper.DetermineLargestTimestamp*
+  nameWithType.vb: FieldHelper.DetermineLargestTimestamp(String, String)
+  fullName.vb: SuperOffice.ErpSync.FieldHelper.DetermineLargestTimestamp(String, String)
+  name.vb: DetermineLargestTimestamp(String, String)
+- uid: SuperOffice.ErpSync.FieldHelper.GetImportColumnFromEisFieldAsync(System.Int32,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.FieldHelper.GetImportColumnFromEisFieldAsync(System.Int32,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
+  id: GetImportColumnFromEisFieldAsync(System.Int32,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.FieldHelper
+  langs:
+  - csharp
+  - vb
+  name: GetImportColumnFromEisFieldAsync(int, ErpActorType, CancellationToken)
+  nameWithType: FieldHelper.GetImportColumnFromEisFieldAsync(int, ErpActorType, CancellationToken)
+  fullName: SuperOffice.ErpSync.FieldHelper.GetImportColumnFromEisFieldAsync(int, SuperOffice.Data.ErpActorType, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Returns a dictionary which contains a mapping between EIS CrmFieldKeys and the import column definition
+  example: []
+  syntax:
+    content: public static Task<Dictionary<string, ImportColumnInfo>> GetImportColumnFromEisFieldAsync(int erpConnectionId, ErpActorType erpActorType, CancellationToken cancellationToken)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: The ERP connection id
+    - id: erpActorType
+      type: SuperOffice.Data.ErpActorType
+      description: The erp actor type
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Services.ImportColumnInfo}}
+      description: A dictionary with CrmFieldKeys and import column definntion mapping
+    content.vb: Public Shared Function GetImportColumnFromEisFieldAsync(erpConnectionId As Integer, erpActorType As ErpActorType, cancellationToken As CancellationToken) As Task(Of Dictionary(Of String, ImportColumnInfo))
+  overload: SuperOffice.ErpSync.FieldHelper.GetImportColumnFromEisFieldAsync*
+  nameWithType.vb: FieldHelper.GetImportColumnFromEisFieldAsync(Integer, ErpActorType, CancellationToken)
+  fullName.vb: SuperOffice.ErpSync.FieldHelper.GetImportColumnFromEisFieldAsync(Integer, SuperOffice.Data.ErpActorType, System.Threading.CancellationToken)
+  name.vb: GetImportColumnFromEisFieldAsync(Integer, ErpActorType, CancellationToken)
+- uid: SuperOffice.ErpSync.FieldHelper.CreateErpSyncActorFieldFromRow(SuperOffice.CRM.Rows.ErpFieldRow)
+  commentId: M:SuperOffice.ErpSync.FieldHelper.CreateErpSyncActorFieldFromRow(SuperOffice.CRM.Rows.ErpFieldRow)
+  id: CreateErpSyncActorFieldFromRow(SuperOffice.CRM.Rows.ErpFieldRow)
+  parent: SuperOffice.ErpSync.FieldHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateErpSyncActorFieldFromRow(ErpFieldRow)
+  nameWithType: FieldHelper.CreateErpSyncActorFieldFromRow(ErpFieldRow)
+  fullName: SuperOffice.ErpSync.FieldHelper.CreateErpSyncActorFieldFromRow(SuperOffice.CRM.Rows.ErpFieldRow)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Create a new ErpSyncActorField from an erpfield row
+  example: []
+  syntax:
+    content: public static ErpSyncActorField CreateErpSyncActorFieldFromRow(ErpFieldRow rw)
+    parameters:
+    - id: rw
+      type: SuperOffice.CRM.Rows.ErpFieldRow
+      description: The row from the erpfield table to create the new ErpSyncActorField
+    return:
+      type: SuperOffice.ErpSync.ErpSyncActorField
+      description: A complete ErpSyncActorField with values from the database
+    content.vb: Public Shared Function CreateErpSyncActorFieldFromRow(rw As ErpFieldRow) As ErpSyncActorField
+  overload: SuperOffice.ErpSync.FieldHelper.CreateErpSyncActorFieldFromRow*
+- uid: SuperOffice.ErpSync.FieldHelper.GetMatchingCrmFieldKeyAsync(SuperOffice.Data.ErpActorType,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.FieldHelper.GetMatchingCrmFieldKeyAsync(SuperOffice.Data.ErpActorType,System.String,System.Threading.CancellationToken)
+  id: GetMatchingCrmFieldKeyAsync(SuperOffice.Data.ErpActorType,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.FieldHelper
+  langs:
+  - csharp
+  - vb
+  name: GetMatchingCrmFieldKeyAsync(ErpActorType, string, CancellationToken)
+  nameWithType: FieldHelper.GetMatchingCrmFieldKeyAsync(ErpActorType, string, CancellationToken)
+  fullName: SuperOffice.ErpSync.FieldHelper.GetMatchingCrmFieldKeyAsync(SuperOffice.Data.ErpActorType, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Try to find matching crm field from erp field key
+  example: []
+  syntax:
+    content: public static Task<string> GetMatchingCrmFieldKeyAsync(ErpActorType actorType, string erpFieldKey, CancellationToken cancellationToken = default)
+    parameters:
+    - id: actorType
+      type: SuperOffice.Data.ErpActorType
+    - id: erpFieldKey
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: crm field key
+    content.vb: Public Shared Function GetMatchingCrmFieldKeyAsync(actorType As ErpActorType, erpFieldKey As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.ErpSync.FieldHelper.GetMatchingCrmFieldKeyAsync*
+  nameWithType.vb: FieldHelper.GetMatchingCrmFieldKeyAsync(ErpActorType, String, CancellationToken)
+  fullName.vb: SuperOffice.ErpSync.FieldHelper.GetMatchingCrmFieldKeyAsync(SuperOffice.Data.ErpActorType, String, System.Threading.CancellationToken)
+  name.vb: GetMatchingCrmFieldKeyAsync(ErpActorType, String, CancellationToken)
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.FieldHelper.ToDisplayType*
+  commentId: Overload:SuperOffice.ErpSync.FieldHelper.ToDisplayType
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldHelper.html#SuperOffice_ErpSync_FieldHelper_ToDisplayType_SuperOffice_CRM_FieldMetadataTypeInfo_
+  name: ToDisplayType
+  nameWithType: FieldHelper.ToDisplayType
+  fullName: SuperOffice.ErpSync.FieldHelper.ToDisplayType
+- uid: SuperOffice.CRM.FieldMetadataTypeInfo
+  isExternal: true
+  name: FieldMetadataTypeInfo
+  nameWithType: FieldMetadataTypeInfo
+  fullName: SuperOffice.CRM.FieldMetadataTypeInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.ErpSync.FieldHelper.ToDefaultWidth*
+  commentId: Overload:SuperOffice.ErpSync.FieldHelper.ToDefaultWidth
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldHelper.html#SuperOffice_ErpSync_FieldHelper_ToDefaultWidth_SuperOffice_CRM_FieldMetadataTypeInfo_
+  name: ToDefaultWidth
+  nameWithType: FieldHelper.ToDefaultWidth
+  fullName: SuperOffice.ErpSync.FieldHelper.ToDefaultWidth
+- uid: SuperOffice.ErpSync.FieldHelper.ToRestrictionType*
+  commentId: Overload:SuperOffice.ErpSync.FieldHelper.ToRestrictionType
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldHelper.html#SuperOffice_ErpSync_FieldHelper_ToRestrictionType_SuperOffice_CRM_FieldMetadataTypeInfo_
+  name: ToRestrictionType
+  nameWithType: FieldHelper.ToRestrictionType
+  fullName: SuperOffice.ErpSync.FieldHelper.ToRestrictionType
+- uid: SuperOffice.ErpSync.FieldHelper.FormatFieldValueFromFieldMetadataInfo*
+  commentId: Overload:SuperOffice.ErpSync.FieldHelper.FormatFieldValueFromFieldMetadataInfo
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldHelper.html#SuperOffice_ErpSync_FieldHelper_FormatFieldValueFromFieldMetadataInfo_System_String_SuperOffice_CRM_FieldMetadataInfo_
+  name: FormatFieldValueFromFieldMetadataInfo
+  nameWithType: FieldHelper.FormatFieldValueFromFieldMetadataInfo
+  fullName: SuperOffice.ErpSync.FieldHelper.FormatFieldValueFromFieldMetadataInfo
+- uid: SuperOffice.CRM.FieldMetadataInfo
+  isExternal: true
+  name: FieldMetadataInfo
+  nameWithType: FieldMetadataInfo
+  fullName: SuperOffice.CRM.FieldMetadataInfo
+- uid: SuperOffice.ErpSync.FieldHelper.EncodeFieldValue*
+  commentId: Overload:SuperOffice.ErpSync.FieldHelper.EncodeFieldValue
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldHelper.html#SuperOffice_ErpSync_FieldHelper_EncodeFieldValue_System_String_SuperOffice_CRM_FieldMetadataInfo_
+  name: EncodeFieldValue
+  nameWithType: FieldHelper.EncodeFieldValue
+  fullName: SuperOffice.ErpSync.FieldHelper.EncodeFieldValue
+- uid: SuperOffice.ErpSync.FieldHelper.DecodeFieldValueToString*
+  commentId: Overload:SuperOffice.ErpSync.FieldHelper.DecodeFieldValueToString
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldHelper.html#SuperOffice_ErpSync_FieldHelper_DecodeFieldValueToString_System_String_
+  name: DecodeFieldValueToString
+  nameWithType: FieldHelper.DecodeFieldValueToString
+  fullName: SuperOffice.ErpSync.FieldHelper.DecodeFieldValueToString
+- uid: SuperOffice.ErpSync.FieldHelper.UpdateErpFieldRowFromFieldMetadataInfoAsync*
+  commentId: Overload:SuperOffice.ErpSync.FieldHelper.UpdateErpFieldRowFromFieldMetadataInfoAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldHelper.html#SuperOffice_ErpSync_FieldHelper_UpdateErpFieldRowFromFieldMetadataInfoAsync_SuperOffice_CRM_FieldMetadataInfo_SuperOffice_CRM_Rows_ErpFieldRow_
+  name: UpdateErpFieldRowFromFieldMetadataInfoAsync
+  nameWithType: FieldHelper.UpdateErpFieldRowFromFieldMetadataInfoAsync
+  fullName: SuperOffice.ErpSync.FieldHelper.UpdateErpFieldRowFromFieldMetadataInfoAsync
+- uid: SuperOffice.CRM.Rows.ErpFieldRow
+  isExternal: true
+  name: ErpFieldRow
+  nameWithType: ErpFieldRow
+  fullName: SuperOffice.CRM.Rows.ErpFieldRow
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ErpFieldRow}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ErpFieldRow}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ErpFieldRow>
+  nameWithType: Task<ErpFieldRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.ErpFieldRow>
+  nameWithType.vb: Task(Of ErpFieldRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.ErpFieldRow)
+  name.vb: Task(Of ErpFieldRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.ErpFieldRow
+    name: ErpFieldRow
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ErpFieldRow
+    name: ErpFieldRow
+    isExternal: true
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.ErpSync.FieldHelper.UpdateFieldMetadataInfoFromErpFieldRow*
+  commentId: Overload:SuperOffice.ErpSync.FieldHelper.UpdateFieldMetadataInfoFromErpFieldRow
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldHelper.html#SuperOffice_ErpSync_FieldHelper_UpdateFieldMetadataInfoFromErpFieldRow_SuperOffice_CRM_Rows_ErpFieldRow_SuperOffice_CRM_FieldMetadataInfo__System_Boolean_
+  name: UpdateFieldMetadataInfoFromErpFieldRow
+  nameWithType: FieldHelper.UpdateFieldMetadataInfoFromErpFieldRow
+  fullName: SuperOffice.ErpSync.FieldHelper.UpdateFieldMetadataInfoFromErpFieldRow
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.ErpSync.FieldHelper.GetCrmFieldKeysAsync*
+  commentId: Overload:SuperOffice.ErpSync.FieldHelper.GetCrmFieldKeysAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldHelper.html#SuperOffice_ErpSync_FieldHelper_GetCrmFieldKeysAsync_System_Int32_SuperOffice_Data_ErpActorType_System_String___System_Threading_CancellationToken_
+  name: GetCrmFieldKeysAsync
+  nameWithType: FieldHelper.GetCrmFieldKeysAsync
+  fullName: SuperOffice.ErpSync.FieldHelper.GetCrmFieldKeysAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.Data.ErpActorType
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.Data.ErpActorType
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: T:System.Threading.Tasks.Task{System.String[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string[]>
+  nameWithType: Task<string[]>
+  fullName: System.Threading.Tasks.Task<string[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: SuperOffice.ErpSync.FieldHelper.DetermineLargestTimestamp*
+  commentId: Overload:SuperOffice.ErpSync.FieldHelper.DetermineLargestTimestamp
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldHelper.html#SuperOffice_ErpSync_FieldHelper_DetermineLargestTimestamp_System_String_System_String_
+  name: DetermineLargestTimestamp
+  nameWithType: FieldHelper.DetermineLargestTimestamp
+  fullName: SuperOffice.ErpSync.FieldHelper.DetermineLargestTimestamp
+- uid: SuperOffice.ErpSync.FieldHelper.GetImportColumnFromEisFieldAsync*
+  commentId: Overload:SuperOffice.ErpSync.FieldHelper.GetImportColumnFromEisFieldAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldHelper.html#SuperOffice_ErpSync_FieldHelper_GetImportColumnFromEisFieldAsync_System_Int32_SuperOffice_Data_ErpActorType_System_Threading_CancellationToken_
+  name: GetImportColumnFromEisFieldAsync
+  nameWithType: FieldHelper.GetImportColumnFromEisFieldAsync
+  fullName: SuperOffice.ErpSync.FieldHelper.GetImportColumnFromEisFieldAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Services.ImportColumnInfo}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Services.ImportColumnInfo}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Dictionary<string, ImportColumnInfo>>
+  nameWithType: Task<Dictionary<string, ImportColumnInfo>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<string, SuperOffice.CRM.Services.ImportColumnInfo>>
+  nameWithType.vb: Task(Of Dictionary(Of String, ImportColumnInfo))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.Dictionary(Of String, SuperOffice.CRM.Services.ImportColumnInfo))
+  name.vb: Task(Of Dictionary(Of String, ImportColumnInfo))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ImportColumnInfo
+    name: ImportColumnInfo
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ImportColumnInfo
+    name: ImportColumnInfo
+    isExternal: true
+  - name: )
+  - name: )
+- uid: SuperOffice.ErpSync.FieldHelper.CreateErpSyncActorFieldFromRow*
+  commentId: Overload:SuperOffice.ErpSync.FieldHelper.CreateErpSyncActorFieldFromRow
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldHelper.html#SuperOffice_ErpSync_FieldHelper_CreateErpSyncActorFieldFromRow_SuperOffice_CRM_Rows_ErpFieldRow_
+  name: CreateErpSyncActorFieldFromRow
+  nameWithType: FieldHelper.CreateErpSyncActorFieldFromRow
+  fullName: SuperOffice.ErpSync.FieldHelper.CreateErpSyncActorFieldFromRow
+- uid: SuperOffice.ErpSync.ErpSyncActorField
+  commentId: T:SuperOffice.ErpSync.ErpSyncActorField
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html
+  name: ErpSyncActorField
+  nameWithType: ErpSyncActorField
+  fullName: SuperOffice.ErpSync.ErpSyncActorField
+- uid: SuperOffice.ErpSync.FieldHelper.GetMatchingCrmFieldKeyAsync*
+  commentId: Overload:SuperOffice.ErpSync.FieldHelper.GetMatchingCrmFieldKeyAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldHelper.html#SuperOffice_ErpSync_FieldHelper_GetMatchingCrmFieldKeyAsync_SuperOffice_Data_ErpActorType_System_String_System_Threading_CancellationToken_
+  name: GetMatchingCrmFieldKeyAsync
+  nameWithType: FieldHelper.GetMatchingCrmFieldKeyAsync
+  fullName: SuperOffice.ErpSync.FieldHelper.GetMatchingCrmFieldKeyAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )

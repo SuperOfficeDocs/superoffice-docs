@@ -14,29 +14,19 @@ items:
   nameWithType: IActivityEntityCarrier
   fullName: SuperOffice.CRM.Services.IActivityEntityCarrier
   type: Interface
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCommon Interface for the Activity entities (AppointmentEntity, SaleEntity, DocumentEntity)\n"
+  summary: Common Interface for the Activity entities (AppointmentEntity, SaleEntity, DocumentEntity)
+  example: []
   syntax:
     content: 'public interface IActivityEntityCarrier : IRelationEntityCarrier, ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier'
-    content.vb: >-
-      Public Interface IActivityEntityCarrier
-          Inherits IRelationEntityCarrier, ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier
+    content.vb: Public Interface IActivityEntityCarrier Inherits IRelationEntityCarrier, ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier
   inheritedMembers:
   - SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
   - SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
   - SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
   - SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
 - uid: SuperOffice.CRM.Services.IActivityEntityCarrier.Sale
   commentId: P:SuperOffice.CRM.Services.IActivityEntityCarrier.Sale
   id: Sale
@@ -48,13 +38,11 @@ items:
   nameWithType: IActivityEntityCarrier.Sale
   fullName: SuperOffice.CRM.Services.IActivityEntityCarrier.Sale
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAn activity may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.\n"
+  summary: An activity may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.
+  example: []
   syntax:
     content: Sale Sale { get; set; }
     parameters: []
@@ -62,9 +50,6 @@ items:
       type: SuperOffice.CRM.Services.Sale
     content.vb: Property Sale As Sale
   overload: SuperOffice.CRM.Services.IActivityEntityCarrier.Sale*
-  modifiers.csharp:
-  - get
-  - set
 - uid: SuperOffice.CRM.Services.IActivityEntityCarrier.Completed
   commentId: P:SuperOffice.CRM.Services.IActivityEntityCarrier.Completed
   id: Completed
@@ -76,13 +61,11 @@ items:
   nameWithType: IActivityEntityCarrier.Completed
   fullName: SuperOffice.CRM.Services.IActivityEntityCarrier.Completed
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nActivity Completed state. \n"
+  summary: Activity Completed state.
+  example: []
   syntax:
     content: ActivityStatus Completed { get; set; }
     parameters: []
@@ -90,20 +73,49 @@ items:
       type: SuperOffice.Data.ActivityStatus
     content.vb: Property Completed As ActivityStatus
   overload: SuperOffice.CRM.Services.IActivityEntityCarrier.Completed*
-  modifiers.csharp:
-  - get
-  - set
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
   commentId: P:SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
   parent: SuperOffice.CRM.Services.ILinksContainerEntityCarrier
   isExternal: true
+  href: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.html#SuperOffice_CRM_Services_ILinksContainerEntityCarrier_Links
   name: Links
   nameWithType: ILinksContainerEntityCarrier.Links
   fullName: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
@@ -111,6 +123,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
   parent: SuperOffice.CRM.Services.IProjectRelationEntityCarrier
   isExternal: true
+  href: SuperOffice.CRM.Services.IProjectRelationEntityCarrier.html#SuperOffice_CRM_Services_IProjectRelationEntityCarrier_Project
   name: Project
   nameWithType: IProjectRelationEntityCarrier.Project
   fullName: SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
@@ -118,6 +131,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
   parent: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
   isExternal: true
+  href: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.html#SuperOffice_CRM_Services_IContactPersonRelationEntityCarrier_Contact
   name: Contact
   nameWithType: IContactPersonRelationEntityCarrier.Contact
   fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
@@ -125,6 +139,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
   parent: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
   isExternal: true
+  href: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.html#SuperOffice_CRM_Services_IContactPersonRelationEntityCarrier_Person
   name: Person
   nameWithType: IContactPersonRelationEntityCarrier.Person
   fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
@@ -132,6 +147,7 @@ references:
   commentId: T:SuperOffice.CRM.Services.ILinksContainerEntityCarrier
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.html
   name: ILinksContainerEntityCarrier
   nameWithType: ILinksContainerEntityCarrier
   fullName: SuperOffice.CRM.Services.ILinksContainerEntityCarrier
@@ -139,6 +155,7 @@ references:
   commentId: T:SuperOffice.CRM.Services.IProjectRelationEntityCarrier
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IProjectRelationEntityCarrier.html
   name: IProjectRelationEntityCarrier
   nameWithType: IProjectRelationEntityCarrier
   fullName: SuperOffice.CRM.Services.IProjectRelationEntityCarrier
@@ -146,12 +163,14 @@ references:
   commentId: T:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.html
   name: IContactPersonRelationEntityCarrier
   nameWithType: IContactPersonRelationEntityCarrier
   fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
 - uid: SuperOffice.CRM.Services.IActivityEntityCarrier.Sale*
   commentId: Overload:SuperOffice.CRM.Services.IActivityEntityCarrier.Sale
   isExternal: true
+  href: SuperOffice.CRM.Services.IActivityEntityCarrier.html#SuperOffice_CRM_Services_IActivityEntityCarrier_Sale
   name: Sale
   nameWithType: IActivityEntityCarrier.Sale
   fullName: SuperOffice.CRM.Services.IActivityEntityCarrier.Sale
@@ -159,12 +178,14 @@ references:
   commentId: T:SuperOffice.CRM.Services.Sale
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.Sale.html
   name: Sale
   nameWithType: Sale
   fullName: SuperOffice.CRM.Services.Sale
 - uid: SuperOffice.CRM.Services.IActivityEntityCarrier.Completed*
   commentId: Overload:SuperOffice.CRM.Services.IActivityEntityCarrier.Completed
   isExternal: true
+  href: SuperOffice.CRM.Services.IActivityEntityCarrier.html#SuperOffice_CRM_Services_IActivityEntityCarrier_Completed
   name: Completed
   nameWithType: IActivityEntityCarrier.Completed
   fullName: SuperOffice.CRM.Services.IActivityEntityCarrier.Completed

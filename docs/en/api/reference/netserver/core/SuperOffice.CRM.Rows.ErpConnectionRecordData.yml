@@ -27,33 +27,41 @@ items:
   nameWithType: ErpConnectionRecordData
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the ErpConnection table.\n"
-  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.ErpConnectionRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.ErpConnectionTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  summary: >-
+    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
+
+    to a row from the ErpConnection table.
+  remarks: >-
+    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.ErpConnectionRow" data-throw-if-not-resolved="false"></xref> object when
+
+    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
+
+    since they carry the corresponding <xref href="SuperOffice.CRM.Data.ErpConnectionTableInfo" data-throw-if-not-resolved="false"></xref> object, which
+
+    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
+  example: []
   syntax:
-    content: 'public class ErpConnectionRecordData : Object'
-    content.vb: >-
-      Public Class ErpConnectionRecordData
-          Inherits Object
+    content: public class ErpConnectionRecordData
+    content.vb: Public Class ErpConnectionRecordData
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.ErpConnectionRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.ErpConnectionRecordData.SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ErpConnectionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.ErpConnectionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ErpConnectionRecordData)
   - SuperOffice.CRM.Rows.ErpConnectionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.ErpConnectionRecordData.SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.ErpConnectionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.ErpConnectionId
   commentId: F:SuperOffice.CRM.Rows.ErpConnectionRecordData.ErpConnectionId
   id: ErpConnectionId
@@ -65,22 +73,16 @@ items:
   nameWithType: ErpConnectionRecordData.ErpConnectionId
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData.ErpConnectionId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
     content: public int ErpConnectionId
     return:
       type: System.Int32
     content.vb: Public ErpConnectionId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.ErpConnectorId
   commentId: F:SuperOffice.CRM.Rows.ErpConnectionRecordData.ErpConnectorId
   id: ErpConnectorId
@@ -92,22 +94,16 @@ items:
   nameWithType: ErpConnectionRecordData.ErpConnectorId
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData.ErpConnectorId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe connector that this connection should call \n"
+  summary: The connector that this connection should call
+  example: []
   syntax:
     content: public int ErpConnectorId
     return:
       type: System.Int32
     content.vb: Public ErpConnectorId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.DisplayName
   commentId: F:SuperOffice.CRM.Rows.ErpConnectionRecordData.DisplayName
   id: DisplayName
@@ -119,22 +115,16 @@ items:
   nameWithType: ErpConnectionRecordData.DisplayName
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData.DisplayName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nConnection name shown to user; multi-language support \n"
+  summary: Connection name shown to user; multi-language support
+  example: []
   syntax:
     content: public string DisplayName
     return:
       type: System.String
     content.vb: Public DisplayName As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.DisplayDescription
   commentId: F:SuperOffice.CRM.Rows.ErpConnectionRecordData.DisplayDescription
   id: DisplayDescription
@@ -146,22 +136,16 @@ items:
   nameWithType: ErpConnectionRecordData.DisplayDescription
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData.DisplayDescription
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nTooltip/description shown to user; multi-language support \n"
+  summary: Tooltip/description shown to user; multi-language support
+  example: []
   syntax:
     content: public string DisplayDescription
     return:
       type: System.String
     content.vb: Public DisplayDescription As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.Active
   commentId: F:SuperOffice.CRM.Rows.ErpConnectionRecordData.Active
   id: Active
@@ -173,22 +157,16 @@ items:
   nameWithType: ErpConnectionRecordData.Active
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData.Active
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nIs this connection currently active \n"
+  summary: Is this connection currently active
+  example: []
   syntax:
     content: public short Active
     return:
       type: System.Int16
     content.vb: Public Active As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.ConnectionId
   commentId: F:SuperOffice.CRM.Rows.ErpConnectionRecordData.ConnectionId
   id: ConnectionId
@@ -200,22 +178,16 @@ items:
   nameWithType: ErpConnectionRecordData.ConnectionId
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData.ConnectionId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe GUID that uniquely identifies this connection; passed to the Connector in every call \n"
+  summary: The GUID that uniquely identifies this connection; passed to the Connector in every call
+  example: []
   syntax:
     content: public string ConnectionId
     return:
       type: System.String
     content.vb: Public ConnectionId As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.MostRecentTimestamp
   commentId: F:SuperOffice.CRM.Rows.ErpConnectionRecordData.MostRecentTimestamp
   id: MostRecentTimestamp
@@ -227,22 +199,16 @@ items:
   nameWithType: ErpConnectionRecordData.MostRecentTimestamp
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData.MostRecentTimestamp
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nDatetime, transaction number or other identification of the point in time of the most-recently seen actor in the ERP system \n"
+  summary: Datetime, transaction number or other identification of the point in time of the most-recently seen actor in the ERP system
+  example: []
   syntax:
     content: public string MostRecentTimestamp
     return:
       type: System.String
     content.vb: Public MostRecentTimestamp As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.AllAccess
   commentId: F:SuperOffice.CRM.Rows.ErpConnectionRecordData.AllAccess
   id: AllAccess
@@ -254,22 +220,16 @@ items:
   nameWithType: ErpConnectionRecordData.AllAccess
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData.AllAccess
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nIs this connection accessible to everyone?  If not, then the ErpConnectionAccess table tells us who can access it \n"
+  summary: Is this connection accessible to everyone?  If not, then the ErpConnectionAccess table tells us who can access it
+  example: []
   syntax:
     content: public short AllAccess
     return:
       type: System.Int16
     content.vb: Public AllAccess As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.Deleted
   commentId: F:SuperOffice.CRM.Rows.ErpConnectionRecordData.Deleted
   id: Deleted
@@ -281,22 +241,16 @@ items:
   nameWithType: ErpConnectionRecordData.Deleted
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData.Deleted
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nIf set, then this is a row that has been &apos;deleted&apos;; we do not physically delete rows to avoid disaster \n"
+  summary: If set, then this is a row that has been 'deleted'; we do not physically delete rows to avoid disaster
+  example: []
   syntax:
     content: public short Deleted
     return:
       type: System.Int16
     content.vb: Public Deleted As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.ErpConnectionRecordData.Registered
   id: Registered
@@ -308,22 +262,16 @@ items:
   nameWithType: ErpConnectionRecordData.Registered
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nRegistered when in UTC.  \n"
+  summary: Registered when in UTC.
+  example: []
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Registered As Date
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.ErpConnectionRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -335,22 +283,16 @@ items:
   nameWithType: ErpConnectionRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nRegistered by whom \n"
+  summary: Registered by whom
+  example: []
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.ErpConnectionRecordData.Updated
   id: Updated
@@ -362,22 +304,16 @@ items:
   nameWithType: ErpConnectionRecordData.Updated
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLast updated when in UTC.  \n"
+  summary: Last updated when in UTC.
+  example: []
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Updated As Date
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.ErpConnectionRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -389,22 +325,16 @@ items:
   nameWithType: ErpConnectionRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLast updated by whom \n"
+  summary: Last updated by whom
+  example: []
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.ErpConnectionRecordData.UpdatedCount
   id: UpdatedCount
@@ -416,22 +346,16 @@ items:
   nameWithType: ErpConnectionRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nNumber of updates made to this record \n"
+  summary: Number of updates made to this record
+  example: []
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.ErpConnectionRecordData.#ctor
   id: '#ctor'
@@ -443,220 +367,602 @@ items:
   nameWithType: ErpConnectionRecordData.ErpConnectionRecordData()
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData.ErpConnectionRecordData()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public ErpConnectionRecordData()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Rows.ErpConnectionRecordData.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ErpConnectionRecordData.New()
+  fullName.vb: SuperOffice.CRM.Rows.ErpConnectionRecordData.New()
+  name.vb: New()
 references:
+- uid: SuperOffice.CRM.Rows.ErpConnectionRow
+  commentId: T:SuperOffice.CRM.Rows.ErpConnectionRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ErpConnectionRow.html
+  name: ErpConnectionRow
+  nameWithType: ErpConnectionRow
+  fullName: SuperOffice.CRM.Rows.ErpConnectionRow
+- uid: SuperOffice.CRM.Data.ErpConnectionTableInfo
+  commentId: T:SuperOffice.CRM.Data.ErpConnectionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.ErpConnectionTableInfo.html
+  name: ErpConnectionTableInfo
+  nameWithType: ErpConnectionTableInfo
+  fullName: SuperOffice.CRM.Data.ErpConnectionTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ErpConnectionRecordData, To>()
-  nameWithType: EnumUtil.MapEnums<ErpConnectionRecordData, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ErpConnectionRecordData, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ErpConnectionRecordData, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ErpConnectionRecordData, To)()
-  name.vb: MapEnums(Of ErpConnectionRecordData, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ErpConnectionRecordData, To>(ErpConnectionRecordData)
+  nameWithType: EnumUtil.MapEnums<ErpConnectionRecordData, To>(ErpConnectionRecordData)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ErpConnectionRecordData, To>(SuperOffice.CRM.Rows.ErpConnectionRecordData)
+  nameWithType.vb: EnumUtil.MapEnums(Of ErpConnectionRecordData, To)(ErpConnectionRecordData)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ErpConnectionRecordData, To)(SuperOffice.CRM.Rows.ErpConnectionRecordData)
+  name.vb: MapEnums(Of ErpConnectionRecordData, To)(ErpConnectionRecordData)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ErpConnectionRecordData, To>
-    nameWithType: EnumUtil.MapEnums<ErpConnectionRecordData, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ErpConnectionRecordData, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.ErpConnectionRecordData)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ErpConnectionRecordData, To)
-    nameWithType: EnumUtil.MapEnums(Of ErpConnectionRecordData, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ErpConnectionRecordData, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ErpConnectionRecordData)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ErpConnectionRecordData>(ErpConnectionRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<ErpConnectionRecordData>(ErpConnectionRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ErpConnectionRecordData>(SuperOffice.CRM.Rows.ErpConnectionRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ErpConnectionRecordData)(ErpConnectionRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ErpConnectionRecordData)(SuperOffice.CRM.Rows.ErpConnectionRecordData)
-  name.vb: AssignByReflection(Of ErpConnectionRecordData)(ErpConnectionRecordData)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ErpConnectionRecordData>
-    nameWithType: ObjectExtensions.AssignByReflection<ErpConnectionRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ErpConnectionRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
     name: ErpConnectionRecordData
-    nameWithType: ErpConnectionRecordData
-    fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ErpConnectionRecordData)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ErpConnectionRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ErpConnectionRecordData)
-    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
     name: ErpConnectionRecordData
-    nameWithType: ErpConnectionRecordData
-    fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ErpConnectionRecordData>()
-  nameWithType: ObjectExtensions.GraphCopy<ErpConnectionRecordData>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ErpConnectionRecordData>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ErpConnectionRecordData)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ErpConnectionRecordData)()
-  name.vb: GraphCopy(Of ErpConnectionRecordData)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ErpConnectionRecordData>
-    nameWithType: ObjectExtensions.GraphCopy<ErpConnectionRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ErpConnectionRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ErpConnectionRecordData)
-    nameWithType: ObjectExtensions.GraphCopy(Of ErpConnectionRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ErpConnectionRecordData)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.ErpConnectionRecordData)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpConnectionRecordData)
+  - name: (
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectionRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpConnectionRecordData)
-  name: ToInsert()
-  nameWithType: ErpConnectionRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectionRecordData,System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.html#SuperOffice_CRM_Rows_ErpConnectionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_ErpConnectionRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(ErpConnectionRecordData, CancellationToken)
+  nameWithType: ErpConnectionRecordDataExtensions.ToInsertAsync(ErpConnectionRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectionRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ErpConnectionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.html#SuperOffice_CRM_Rows_ErpConnectionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_ErpConnectionRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: ErpConnectionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.html#SuperOffice_CRM_Rows_ErpConnectionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_ErpConnectionRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ErpConnectionRecordData, To>()
-  nameWithType: Converters.MapEnums<ErpConnectionRecordData, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ErpConnectionRecordData, To>()
-  nameWithType.vb: Converters.MapEnums(Of ErpConnectionRecordData, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ErpConnectionRecordData, To)()
-  name.vb: MapEnums(Of ErpConnectionRecordData, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ErpConnectionRecordData, To>(ErpConnectionRecordData)
+  nameWithType: Converters.MapEnums<ErpConnectionRecordData, To>(ErpConnectionRecordData)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ErpConnectionRecordData, To>(SuperOffice.CRM.Rows.ErpConnectionRecordData)
+  nameWithType.vb: Converters.MapEnums(Of ErpConnectionRecordData, To)(ErpConnectionRecordData)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ErpConnectionRecordData, To)(SuperOffice.CRM.Rows.ErpConnectionRecordData)
+  name.vb: MapEnums(Of ErpConnectionRecordData, To)(ErpConnectionRecordData)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ErpConnectionRecordData, To>
-    nameWithType: Converters.MapEnums<ErpConnectionRecordData, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ErpConnectionRecordData, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.ErpConnectionRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ErpConnectionRecordData, To)
-    nameWithType: Converters.MapEnums(Of ErpConnectionRecordData, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ErpConnectionRecordData, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.ErpConnectionRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ErpConnectionRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ErpConnectionRecordData>(ErpConnectionRecordData, ErpConnectionRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<ErpConnectionRecordData>(ErpConnectionRecordData, ErpConnectionRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ErpConnectionRecordData>(SuperOffice.CRM.Rows.ErpConnectionRecordData, SuperOffice.CRM.Rows.ErpConnectionRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ErpConnectionRecordData)(ErpConnectionRecordData, ErpConnectionRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ErpConnectionRecordData)(SuperOffice.CRM.Rows.ErpConnectionRecordData, SuperOffice.CRM.Rows.ErpConnectionRecordData)
+  name.vb: AssignByReflection(Of ErpConnectionRecordData)(ErpConnectionRecordData, ErpConnectionRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ErpConnectionRecordData,SuperOffice.CRM.Rows.ErpConnectionRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ErpConnectionRecordData,SuperOffice.CRM.Rows.ErpConnectionRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ErpConnectionRecordData>(ErpConnectionRecordData)
+  nameWithType: ObjectExtensions.GraphCopy<ErpConnectionRecordData>(ErpConnectionRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ErpConnectionRecordData>(SuperOffice.CRM.Rows.ErpConnectionRecordData)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ErpConnectionRecordData)(ErpConnectionRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ErpConnectionRecordData)(SuperOffice.CRM.Rows.ErpConnectionRecordData)
+  name.vb: GraphCopy(Of ErpConnectionRecordData)(ErpConnectionRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.ErpConnectionRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.ErpConnectionRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
+    name: ErpConnectionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -665,187 +971,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+- uid: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectionRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectionRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
+  href: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.html#SuperOffice_CRM_Rows_ErpConnectionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_ErpConnectionRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(ErpConnectionRecordData, CancellationToken)
+  nameWithType: ErpConnectionRecordDataExtensions.ToInsertAsync(ErpConnectionRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectionRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.html#SuperOffice_CRM_Rows_ErpConnectionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_ErpConnectionRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpConnectionRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpConnectionRecordData)
-  isExternal: true
-  name: ToInsert(ErpConnectionRecordData)
-  nameWithType: ErpConnectionRecordDataExtensions.ToInsert(ErpConnectionRecordData)
-  fullName: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpConnectionRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpConnectionRecordData)
-    name: ToInsert
-    nameWithType: ErpConnectionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsert
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
     name: ErpConnectionRecordData
-    nameWithType: ErpConnectionRecordData
-    fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ErpConnectionRecordData)
-    name: ToInsert
-    nameWithType: ErpConnectionRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.ErpConnectionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.html#SuperOffice_CRM_Rows_ErpConnectionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_ErpConnectionRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData
     name: ErpConnectionRecordData
-    nameWithType: ErpConnectionRecordData
-    fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions
   commentId: T:SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions.html
   name: ErpConnectionRecordDataExtensions
   nameWithType: ErpConnectionRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -854,82 +1067,239 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Rows.ErpConnectionRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.ErpConnectionRecordData.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Rows.ErpConnectionRecordData.html#SuperOffice_CRM_Rows_ErpConnectionRecordData__ctor
   name: ErpConnectionRecordData
   nameWithType: ErpConnectionRecordData.ErpConnectionRecordData
   fullName: SuperOffice.CRM.Rows.ErpConnectionRecordData.ErpConnectionRecordData
+  nameWithType.vb: ErpConnectionRecordData.New
+  fullName.vb: SuperOffice.CRM.Rows.ErpConnectionRecordData.New
+  name.vb: New

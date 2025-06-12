@@ -1,0 +1,668 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1
+  commentId: T:SuperOffice.Threading.AsyncQueueProcessItemAsync`1
+  id: AsyncQueueProcessItemAsync`1
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.AsyncQueueProcessItemAsync`1.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.Threading.AsyncQueueProcessItemAsync`1.BeginInvoke(SuperOffice.Threading.IAsyncQueueProcessItemContext{`0},System.Threading.CancellationToken,System.AsyncCallback,System.Object)
+  - SuperOffice.Threading.AsyncQueueProcessItemAsync`1.EndInvoke(System.IAsyncResult)
+  - SuperOffice.Threading.AsyncQueueProcessItemAsync`1.Invoke(SuperOffice.Threading.IAsyncQueueProcessItemContext{`0},System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: AsyncQueueProcessItemAsync<TItem>
+  nameWithType: AsyncQueueProcessItemAsync<TItem>
+  fullName: SuperOffice.Threading.AsyncQueueProcessItemAsync<TItem>
+  type: Delegate
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Callback to process an item in the queue asynchronously
+  example: []
+  syntax:
+    content: public delegate Task AsyncQueueProcessItemAsync<TItem>(IAsyncQueueProcessItemContext<TItem> context, CancellationToken cancellationToken)
+    parameters:
+    - id: context
+      type: SuperOffice.Threading.IAsyncQueueProcessItemContext{{TItem}}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: Cancellation token
+    typeParameters:
+    - id: TItem
+      description: Type of item in hte queue
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Delegate Function AsyncQueueProcessItemAsync(Of TItem)(context As IAsyncQueueProcessItemContext(Of TItem), cancellationToken As CancellationToken) As Task
+  extensionMethods:
+  - SuperOffice.Threading.AsyncQueueProcessItemAsync`1.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.AsyncQueueProcessItemAsync`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: AsyncQueueProcessItemAsync(Of TItem)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessItemAsync(Of TItem)
+  name.vb: AsyncQueueProcessItemAsync(Of TItem)
+- uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessItemAsync`1.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.Threading.AsyncQueueProcessItemAsync`1
+  langs:
+  - csharp
+  - vb
+  name: AsyncQueueProcessItemAsync(object, IntPtr)
+  nameWithType: AsyncQueueProcessItemAsync<TItem>.AsyncQueueProcessItemAsync(object, IntPtr)
+  fullName: SuperOffice.Threading.AsyncQueueProcessItemAsync<TItem>.AsyncQueueProcessItemAsync(object, System.IntPtr)
+  type: Constructor
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public AsyncQueueProcessItemAsync(object @object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New([object] As Object, method As IntPtr)
+  overload: SuperOffice.Threading.AsyncQueueProcessItemAsync`1.#ctor*
+  nameWithType.vb: AsyncQueueProcessItemAsync(Of TItem).New(Object, IntPtr)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessItemAsync(Of TItem).New(Object, System.IntPtr)
+  name.vb: New(Object, IntPtr)
+- uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1.Invoke(SuperOffice.Threading.IAsyncQueueProcessItemContext{`0},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessItemAsync`1.Invoke(SuperOffice.Threading.IAsyncQueueProcessItemContext{`0},System.Threading.CancellationToken)
+  id: Invoke(SuperOffice.Threading.IAsyncQueueProcessItemContext{`0},System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.AsyncQueueProcessItemAsync`1
+  langs:
+  - csharp
+  - vb
+  name: Invoke(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
+  nameWithType: AsyncQueueProcessItemAsync<TItem>.Invoke(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessItemAsync<TItem>.Invoke(SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public virtual Task Invoke(IAsyncQueueProcessItemContext<TItem> context, CancellationToken cancellationToken)
+    parameters:
+    - id: context
+      type: SuperOffice.Threading.IAsyncQueueProcessItemContext{{TItem}}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overridable Function Invoke(context As IAsyncQueueProcessItemContext(Of TItem), cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.Threading.AsyncQueueProcessItemAsync`1.Invoke*
+  nameWithType.vb: AsyncQueueProcessItemAsync(Of TItem).Invoke(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessItemAsync(Of TItem).Invoke(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem), System.Threading.CancellationToken)
+  name.vb: Invoke(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
+- uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1.BeginInvoke(SuperOffice.Threading.IAsyncQueueProcessItemContext{`0},System.Threading.CancellationToken,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessItemAsync`1.BeginInvoke(SuperOffice.Threading.IAsyncQueueProcessItemContext{`0},System.Threading.CancellationToken,System.AsyncCallback,System.Object)
+  id: BeginInvoke(SuperOffice.Threading.IAsyncQueueProcessItemContext{`0},System.Threading.CancellationToken,System.AsyncCallback,System.Object)
+  parent: SuperOffice.Threading.AsyncQueueProcessItemAsync`1
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(IAsyncQueueProcessItemContext<TItem>, CancellationToken, AsyncCallback, object)
+  nameWithType: AsyncQueueProcessItemAsync<TItem>.BeginInvoke(IAsyncQueueProcessItemContext<TItem>, CancellationToken, AsyncCallback, object)
+  fullName: SuperOffice.Threading.AsyncQueueProcessItemAsync<TItem>.BeginInvoke(SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>, System.Threading.CancellationToken, System.AsyncCallback, object)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(IAsyncQueueProcessItemContext<TItem> context, CancellationToken cancellationToken, AsyncCallback callback, object @object)
+    parameters:
+    - id: context
+      type: SuperOffice.Threading.IAsyncQueueProcessItemContext{{TItem}}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(context As IAsyncQueueProcessItemContext(Of TItem), cancellationToken As CancellationToken, callback As AsyncCallback, [object] As Object) As IAsyncResult
+  overload: SuperOffice.Threading.AsyncQueueProcessItemAsync`1.BeginInvoke*
+  nameWithType.vb: AsyncQueueProcessItemAsync(Of TItem).BeginInvoke(IAsyncQueueProcessItemContext(Of TItem), CancellationToken, AsyncCallback, Object)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessItemAsync(Of TItem).BeginInvoke(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem), System.Threading.CancellationToken, System.AsyncCallback, Object)
+  name.vb: BeginInvoke(IAsyncQueueProcessItemContext(Of TItem), CancellationToken, AsyncCallback, Object)
+- uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessItemAsync`1.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.Threading.AsyncQueueProcessItemAsync`1
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: AsyncQueueProcessItemAsync<TItem>.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.Threading.AsyncQueueProcessItemAsync<TItem>.EndInvoke(System.IAsyncResult)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public virtual Task EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As Task
+  overload: SuperOffice.Threading.AsyncQueueProcessItemAsync`1.EndInvoke*
+  nameWithType.vb: AsyncQueueProcessItemAsync(Of TItem).EndInvoke(IAsyncResult)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessItemAsync(Of TItem).EndInvoke(System.IAsyncResult)
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+- uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<AsyncQueueProcessItemAsync<TItem>, To>(AsyncQueueProcessItemAsync<TItem>)
+  nameWithType: EnumUtil.MapEnums<AsyncQueueProcessItemAsync<TItem>, To>(AsyncQueueProcessItemAsync<TItem>)
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.AsyncQueueProcessItemAsync<TItem>, To>(SuperOffice.Threading.AsyncQueueProcessItemAsync<TItem>)
+  nameWithType.vb: EnumUtil.MapEnums(Of AsyncQueueProcessItemAsync(Of TItem), To)(AsyncQueueProcessItemAsync(Of TItem))
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.AsyncQueueProcessItemAsync(Of TItem), To)(SuperOffice.Threading.AsyncQueueProcessItemAsync(Of TItem))
+  name.vb: MapEnums(Of AsyncQueueProcessItemAsync(Of TItem), To)(AsyncQueueProcessItemAsync(Of TItem))
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.AsyncQueueProcessItemAsync{`0})
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1
+    name: AsyncQueueProcessItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessItemAsync-1.html
+  - name: <
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1
+    name: AsyncQueueProcessItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessItemAsync-1.html
+  - name: <
+  - name: TItem
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.AsyncQueueProcessItemAsync{`0})
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1
+    name: AsyncQueueProcessItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessItemAsync-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1
+    name: AsyncQueueProcessItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessItemAsync-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: )
+- uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<AsyncQueueProcessItemAsync<TItem>, To>(AsyncQueueProcessItemAsync<TItem>)
+  nameWithType: Converters.MapEnums<AsyncQueueProcessItemAsync<TItem>, To>(AsyncQueueProcessItemAsync<TItem>)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.AsyncQueueProcessItemAsync<TItem>, To>(SuperOffice.Threading.AsyncQueueProcessItemAsync<TItem>)
+  nameWithType.vb: Converters.MapEnums(Of AsyncQueueProcessItemAsync(Of TItem), To)(AsyncQueueProcessItemAsync(Of TItem))
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.AsyncQueueProcessItemAsync(Of TItem), To)(SuperOffice.Threading.AsyncQueueProcessItemAsync(Of TItem))
+  name.vb: MapEnums(Of AsyncQueueProcessItemAsync(Of TItem), To)(AsyncQueueProcessItemAsync(Of TItem))
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.AsyncQueueProcessItemAsync{`0})
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1
+    name: AsyncQueueProcessItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessItemAsync-1.html
+  - name: <
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1
+    name: AsyncQueueProcessItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessItemAsync-1.html
+  - name: <
+  - name: TItem
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.AsyncQueueProcessItemAsync{`0})
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1
+    name: AsyncQueueProcessItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessItemAsync-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1
+    name: AsyncQueueProcessItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessItemAsync-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: )
+- uid: SuperOffice.Threading.IAsyncQueueProcessItemContext{{TItem}}
+  commentId: T:SuperOffice.Threading.IAsyncQueueProcessItemContext{`0}
+  parent: SuperOffice.Threading
+  definition: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+  href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  name: IAsyncQueueProcessItemContext<TItem>
+  nameWithType: IAsyncQueueProcessItemContext<TItem>
+  fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>
+  nameWithType.vb: IAsyncQueueProcessItemContext(Of TItem)
+  fullName.vb: SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem)
+  name.vb: IAsyncQueueProcessItemContext(Of TItem)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  - name: <
+  - name: TItem
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+  commentId: T:SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+  isExternal: true
+  href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  name: IAsyncQueueProcessItemContext<TItem>
+  nameWithType: IAsyncQueueProcessItemContext<TItem>
+  fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>
+  nameWithType.vb: IAsyncQueueProcessItemContext(Of TItem)
+  fullName.vb: SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem)
+  name.vb: IAsyncQueueProcessItemContext(Of TItem)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  - name: <
+  - name: TItem
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1.#ctor*
+  commentId: Overload:SuperOffice.Threading.AsyncQueueProcessItemAsync`1.#ctor
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueProcessItemAsync-1.html#SuperOffice_Threading_AsyncQueueProcessItemAsync_1__ctor_System_Object_System_IntPtr_
+  name: AsyncQueueProcessItemAsync
+  nameWithType: AsyncQueueProcessItemAsync<TItem>.AsyncQueueProcessItemAsync
+  fullName: SuperOffice.Threading.AsyncQueueProcessItemAsync<TItem>.AsyncQueueProcessItemAsync
+  nameWithType.vb: AsyncQueueProcessItemAsync(Of TItem).New
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessItemAsync(Of TItem).New
+  name.vb: New
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1.Invoke*
+  commentId: Overload:SuperOffice.Threading.AsyncQueueProcessItemAsync`1.Invoke
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueProcessItemAsync-1.html#SuperOffice_Threading_AsyncQueueProcessItemAsync_1_Invoke_SuperOffice_Threading_IAsyncQueueProcessItemContext__0__System_Threading_CancellationToken_
+  name: Invoke
+  nameWithType: AsyncQueueProcessItemAsync<TItem>.Invoke
+  fullName: SuperOffice.Threading.AsyncQueueProcessItemAsync<TItem>.Invoke
+  nameWithType.vb: AsyncQueueProcessItemAsync(Of TItem).Invoke
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessItemAsync(Of TItem).Invoke
+- uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1.BeginInvoke*
+  commentId: Overload:SuperOffice.Threading.AsyncQueueProcessItemAsync`1.BeginInvoke
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueProcessItemAsync-1.html#SuperOffice_Threading_AsyncQueueProcessItemAsync_1_BeginInvoke_SuperOffice_Threading_IAsyncQueueProcessItemContext__0__System_Threading_CancellationToken_System_AsyncCallback_System_Object_
+  name: BeginInvoke
+  nameWithType: AsyncQueueProcessItemAsync<TItem>.BeginInvoke
+  fullName: SuperOffice.Threading.AsyncQueueProcessItemAsync<TItem>.BeginInvoke
+  nameWithType.vb: AsyncQueueProcessItemAsync(Of TItem).BeginInvoke
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessItemAsync(Of TItem).BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1.EndInvoke*
+  commentId: Overload:SuperOffice.Threading.AsyncQueueProcessItemAsync`1.EndInvoke
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueProcessItemAsync-1.html#SuperOffice_Threading_AsyncQueueProcessItemAsync_1_EndInvoke_System_IAsyncResult_
+  name: EndInvoke
+  nameWithType: AsyncQueueProcessItemAsync<TItem>.EndInvoke
+  fullName: SuperOffice.Threading.AsyncQueueProcessItemAsync<TItem>.EndInvoke
+  nameWithType.vb: AsyncQueueProcessItemAsync(Of TItem).EndInvoke
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessItemAsync(Of TItem).EndInvoke

@@ -5,45 +5,45 @@ items:
   id: IPreferenceAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference
-  - SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescription
-  - SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine
-  - SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey(System.String,System.String)
-  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescId(System.Int32)
-  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIds(System.Int32[])
-  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference(System.Int32)
-  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescription(System.Int32)
-  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLine(System.Int32)
-  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLines(System.Int32[])
-  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences(System.Int32[])
-  - SuperOffice.CRM.Services.IPreferenceAgent.GetAll
-  - SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSection(System.String)
-  - SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKey(System.String,System.String)
-  - SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl
-  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreference(System.Int32)
-  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName(System.String,System.String,SuperOffice.Data.PreferenceLevel)
-  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndId(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
-  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescription(System.Int32)
-  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLine(System.Int32)
-  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(System.Int32,System.String)
-  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId(System.Int32)
-  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec[])
-  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec[])
-  - SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrder(System.String)
-  - SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrders
-  - SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPaths(System.String)
-  - SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription)
-  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreference(SuperOffice.CRM.Services.Preference)
-  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription(SuperOffice.CRM.Services.PreferenceDescription)
-  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLine(SuperOffice.CRM.Services.PreferenceDescriptionLine)
-  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLines(SuperOffice.CRM.Services.PreferenceDescriptionLine[])
-  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference[],System.Boolean)
-  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity(SuperOffice.CRM.Services.Preference,System.Boolean)
-  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference[])
-  - SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrder(SuperOffice.CRM.Services.TabOrder)
-  - SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder[])
-  - SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPaths(System.String,System.String[])
-  - SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus(System.String)
+  - SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKeyAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLineAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferencesAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetAllAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSectionAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKeyAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrlAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndIdAsync(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAsync(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesAsync(SuperOffice.CRM.Services.PreferenceSpec[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(SuperOffice.CRM.Services.PreferenceSpec[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrderAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrdersAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPathsAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKeyAsync(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceAsync(SuperOffice.CRM.Services.Preference,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionAsync(SuperOffice.CRM.Services.PreferenceDescription,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLineAsync(SuperOffice.CRM.Services.PreferenceDescriptionLine,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLinesAsync(SuperOffice.CRM.Services.PreferenceDescriptionLine[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntitiesAsync(SuperOffice.CRM.Services.Preference[],System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntityAsync(SuperOffice.CRM.Services.Preference,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferencesAsync(SuperOffice.CRM.Services.Preference[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrderAsync(SuperOffice.CRM.Services.TabOrder,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrdersAsync(SuperOffice.CRM.Services.TabOrder[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPathsAsync(System.String,System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatusAsync(System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -51,15 +51,28 @@ items:
   nameWithType: IPreferenceAgent
   fullName: SuperOffice.CRM.Services.IPreferenceAgent
   type: Interface
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInterface for the Preference Agent\nPreferences, user interface tab configuration\n"
+  summary: >-
+    Interface for the Preference Agent
+
+    Preferences, user interface tab configuration
   example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (PreferenceAgent agent = new PreferenceAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  - >-
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       using (PreferenceAgent agent = new PreferenceAgent())
+       {
+          // call methods on agent here...
+       }
+    }</code></pre>
   syntax:
     content: >-
       [Agent("Preference Agent", "Interface for the Preference Agent. Preferences, user interface tab configuration")]
@@ -68,8 +81,7 @@ items:
     content.vb: >-
       <Agent("Preference Agent", "Interface for the Preference Agent. Preferences, user interface tab configuration")>
 
-      Public Interface IPreferenceAgent
-          Inherits IAgent
+      Public Interface IPreferenceAgent Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -78,327 +90,353 @@ items:
       value: Preference Agent
     - type: System.String
       value: Interface for the Preference Agent. Preferences, user interface tab configuration
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference
-  id: CreateDefaultPreference
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceAsync(System.Threading.CancellationToken)
+  id: CreateDefaultPreferenceAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultPreference()
-  nameWithType: IPreferenceAgent.CreateDefaultPreference()
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference()
+  name: CreateDefaultPreferenceAsync(CancellationToken)
+  nameWithType: IPreferenceAgent.CreateDefaultPreferenceAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new Preference.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Loading default values into a new Preference.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: Preference CreateDefaultPreference()
+    content: Task<Preference> CreateDefaultPreferenceAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Preference
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Preference}
       description: New Preference with default values
-    content.vb: Function CreateDefaultPreference As Preference
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescription
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescription
-  id: CreateDefaultPreferenceDescription
+    content.vb: Function CreateDefaultPreferenceAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Preference)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceAsync*
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync(System.Threading.CancellationToken)
+  id: CreateDefaultPreferenceDescriptionAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultPreferenceDescription()
-  nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescription()
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescription()
+  name: CreateDefaultPreferenceDescriptionAsync(CancellationToken)
+  nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new PreferenceDescription.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Loading default values into a new PreferenceDescription.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: PreferenceDescription CreateDefaultPreferenceDescription()
+    content: Task<PreferenceDescription> CreateDefaultPreferenceDescriptionAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreferenceDescription
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescription}
       description: New PreferenceDescription with default values
-    content.vb: Function CreateDefaultPreferenceDescription As PreferenceDescription
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescription*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription(SuperOffice.CRM.Services.PreferenceDescription)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription(SuperOffice.CRM.Services.PreferenceDescription)
-  id: SavePreferenceDescription(SuperOffice.CRM.Services.PreferenceDescription)
+    content.vb: Function CreateDefaultPreferenceDescriptionAsync(cancellationToken As CancellationToken = Nothing) As Task(Of PreferenceDescription)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync*
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionAsync(SuperOffice.CRM.Services.PreferenceDescription,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionAsync(SuperOffice.CRM.Services.PreferenceDescription,System.Threading.CancellationToken)
+  id: SavePreferenceDescriptionAsync(SuperOffice.CRM.Services.PreferenceDescription,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: SavePreferenceDescription(PreferenceDescription)
-  nameWithType: IPreferenceAgent.SavePreferenceDescription(PreferenceDescription)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription(SuperOffice.CRM.Services.PreferenceDescription)
+  name: SavePreferenceDescriptionAsync(PreferenceDescription, CancellationToken)
+  nameWithType: IPreferenceAgent.SavePreferenceDescriptionAsync(PreferenceDescription, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionAsync(SuperOffice.CRM.Services.PreferenceDescription, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing PreferenceDescription or creates a new PreferenceDescription if the id parameter is empty\n"
+  summary: Updates the existing PreferenceDescription or creates a new PreferenceDescription if the id parameter is empty
+  example: []
   syntax:
-    content: PreferenceDescription SavePreferenceDescription(PreferenceDescription preferenceDescription)
+    content: Task<PreferenceDescription> SavePreferenceDescriptionAsync(PreferenceDescription preferenceDescription, CancellationToken cancellationToken = default)
     parameters:
     - id: preferenceDescription
       type: SuperOffice.CRM.Services.PreferenceDescription
       description: The PreferenceDescription that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreferenceDescription
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescription}
       description: New or updated PreferenceDescription
-    content.vb: Function SavePreferenceDescription(preferenceDescription As PreferenceDescription) As PreferenceDescription
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescription(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescription(System.Int32)
-  id: DeletePreferenceDescription(System.Int32)
+    content.vb: Function SavePreferenceDescriptionAsync(preferenceDescription As PreferenceDescription, cancellationToken As CancellationToken = Nothing) As Task(Of PreferenceDescription)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionAsync*
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeletePreferenceDescriptionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: DeletePreferenceDescription(Int32)
-  nameWithType: IPreferenceAgent.DeletePreferenceDescription(Int32)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescription(System.Int32)
+  name: DeletePreferenceDescriptionAsync(int, CancellationToken)
+  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the PreferenceDescription\n"
+  summary: Deletes the PreferenceDescription
+  example: []
   syntax:
-    content: void DeletePreferenceDescription(int preferenceDescriptionId)
+    content: Task DeletePreferenceDescriptionAsync(int preferenceDescriptionId, CancellationToken cancellationToken = default)
     parameters:
     - id: preferenceDescriptionId
       type: System.Int32
       description: The identity of the PreferenceDescription
-    content.vb: Sub DeletePreferenceDescription(preferenceDescriptionId As Integer)
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescription*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine
-  id: CreateDefaultPreferenceDescriptionLine
-  parent: SuperOffice.CRM.Services.IPreferenceAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultPreferenceDescriptionLine()
-  nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionLine()
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new PreferenceDescriptionLine.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
-  syntax:
-    content: PreferenceDescriptionLine CreateDefaultPreferenceDescriptionLine()
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreferenceDescriptionLine
-      description: New PreferenceDescriptionLine with default values
-    content.vb: Function CreateDefaultPreferenceDescriptionLine As PreferenceDescriptionLine
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLine(SuperOffice.CRM.Services.PreferenceDescriptionLine)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLine(SuperOffice.CRM.Services.PreferenceDescriptionLine)
-  id: SavePreferenceDescriptionLine(SuperOffice.CRM.Services.PreferenceDescriptionLine)
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeletePreferenceDescriptionAsync(preferenceDescriptionId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionAsync*
+  nameWithType.vb: IPreferenceAgent.DeletePreferenceDescriptionAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeletePreferenceDescriptionAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync(System.Threading.CancellationToken)
+  id: CreateDefaultPreferenceDescriptionLineAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: SavePreferenceDescriptionLine(PreferenceDescriptionLine)
-  nameWithType: IPreferenceAgent.SavePreferenceDescriptionLine(PreferenceDescriptionLine)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLine(SuperOffice.CRM.Services.PreferenceDescriptionLine)
+  name: CreateDefaultPreferenceDescriptionLineAsync(CancellationToken)
+  nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing PreferenceDescriptionLine or creates a new PreferenceDescriptionLine if the id parameter is empty\n"
+  summary: >-
+    Loading default values into a new PreferenceDescriptionLine.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: PreferenceDescriptionLine SavePreferenceDescriptionLine(PreferenceDescriptionLine preferenceDescriptionLine)
+    content: Task<PreferenceDescriptionLine> CreateDefaultPreferenceDescriptionLineAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescriptionLine}
+      description: New PreferenceDescriptionLine with default values
+    content.vb: Function CreateDefaultPreferenceDescriptionLineAsync(cancellationToken As CancellationToken = Nothing) As Task(Of PreferenceDescriptionLine)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync*
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLineAsync(SuperOffice.CRM.Services.PreferenceDescriptionLine,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLineAsync(SuperOffice.CRM.Services.PreferenceDescriptionLine,System.Threading.CancellationToken)
+  id: SavePreferenceDescriptionLineAsync(SuperOffice.CRM.Services.PreferenceDescriptionLine,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: SavePreferenceDescriptionLineAsync(PreferenceDescriptionLine, CancellationToken)
+  nameWithType: IPreferenceAgent.SavePreferenceDescriptionLineAsync(PreferenceDescriptionLine, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLineAsync(SuperOffice.CRM.Services.PreferenceDescriptionLine, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing PreferenceDescriptionLine or creates a new PreferenceDescriptionLine if the id parameter is empty
+  example: []
+  syntax:
+    content: Task<PreferenceDescriptionLine> SavePreferenceDescriptionLineAsync(PreferenceDescriptionLine preferenceDescriptionLine, CancellationToken cancellationToken = default)
     parameters:
     - id: preferenceDescriptionLine
       type: SuperOffice.CRM.Services.PreferenceDescriptionLine
       description: The PreferenceDescriptionLine that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreferenceDescriptionLine
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescriptionLine}
       description: New or updated PreferenceDescriptionLine
-    content.vb: Function SavePreferenceDescriptionLine(preferenceDescriptionLine As PreferenceDescriptionLine) As PreferenceDescriptionLine
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLine*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLine(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLine(System.Int32)
-  id: DeletePreferenceDescriptionLine(System.Int32)
+    content.vb: Function SavePreferenceDescriptionLineAsync(preferenceDescriptionLine As PreferenceDescriptionLine, cancellationToken As CancellationToken = Nothing) As Task(Of PreferenceDescriptionLine)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLineAsync*
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLineAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLineAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeletePreferenceDescriptionLineAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: DeletePreferenceDescriptionLine(Int32)
-  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLine(Int32)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLine(System.Int32)
+  name: DeletePreferenceDescriptionLineAsync(int, CancellationToken)
+  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLineAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLineAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the PreferenceDescriptionLine\n"
+  summary: Deletes the PreferenceDescriptionLine
+  example: []
   syntax:
-    content: void DeletePreferenceDescriptionLine(int preferenceDescriptionLineId)
+    content: Task DeletePreferenceDescriptionLineAsync(int preferenceDescriptionLineId, CancellationToken cancellationToken = default)
     parameters:
     - id: preferenceDescriptionLineId
       type: System.Int32
       description: The identity of the PreferenceDescriptionLine
-    content.vb: Sub DeletePreferenceDescriptionLine(preferenceDescriptionLineId As Integer)
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLine*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreference(SuperOffice.CRM.Services.Preference)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreference(SuperOffice.CRM.Services.Preference)
-  id: SavePreference(SuperOffice.CRM.Services.Preference)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeletePreferenceDescriptionLineAsync(preferenceDescriptionLineId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLineAsync*
+  nameWithType.vb: IPreferenceAgent.DeletePreferenceDescriptionLineAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLineAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeletePreferenceDescriptionLineAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceAsync(SuperOffice.CRM.Services.Preference,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceAsync(SuperOffice.CRM.Services.Preference,System.Threading.CancellationToken)
+  id: SavePreferenceAsync(SuperOffice.CRM.Services.Preference,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: SavePreference(Preference)
-  nameWithType: IPreferenceAgent.SavePreference(Preference)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreference(SuperOffice.CRM.Services.Preference)
+  name: SavePreferenceAsync(Preference, CancellationToken)
+  nameWithType: IPreferenceAgent.SavePreferenceAsync(Preference, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceAsync(SuperOffice.CRM.Services.Preference, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSave this preference\n"
+  summary: Save this preference
+  example: []
   syntax:
-    content: void SavePreference(Preference preference)
+    content: Task SavePreferenceAsync(Preference preference, CancellationToken cancellationToken = default)
     parameters:
     - id: preference
       type: SuperOffice.CRM.Services.Preference
       description: Preference to be saved. All fields must be filled in, and the preference will be saved on the Associate level only. Setting for other levels is an administrative task and not available through this service.
-    content.vb: Sub SavePreference(preference As Preference)
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.SavePreference*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrder(SuperOffice.CRM.Services.TabOrder)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrder(SuperOffice.CRM.Services.TabOrder)
-  id: SaveTabOrder(SuperOffice.CRM.Services.TabOrder)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SavePreferenceAsync(preference As Preference, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceAsync*
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrderAsync(SuperOffice.CRM.Services.TabOrder,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrderAsync(SuperOffice.CRM.Services.TabOrder,System.Threading.CancellationToken)
+  id: SaveTabOrderAsync(SuperOffice.CRM.Services.TabOrder,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: SaveTabOrder(TabOrder)
-  nameWithType: IPreferenceAgent.SaveTabOrder(TabOrder)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrder(SuperOffice.CRM.Services.TabOrder)
+  name: SaveTabOrderAsync(TabOrder, CancellationToken)
+  nameWithType: IPreferenceAgent.SaveTabOrderAsync(TabOrder, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrderAsync(SuperOffice.CRM.Services.TabOrder, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSaves the tab order. The order is saved pr. user.\n"
+  summary: Saves the tab order. The order is saved pr. user.
+  example: []
   syntax:
-    content: void SaveTabOrder(TabOrder tabOrder)
+    content: Task SaveTabOrderAsync(TabOrder tabOrder, CancellationToken cancellationToken = default)
     parameters:
     - id: tabOrder
       type: SuperOffice.CRM.Services.TabOrder
       description: Name of the tab control
-    content.vb: Sub SaveTabOrder(tabOrder As TabOrder)
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrder*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrder(System.String)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrder(System.String)
-  id: GetTabOrder(System.String)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SaveTabOrderAsync(tabOrder As TabOrder, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrderAsync*
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrderAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrderAsync(System.String,System.Threading.CancellationToken)
+  id: GetTabOrderAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: GetTabOrder(String)
-  nameWithType: IPreferenceAgent.GetTabOrder(String)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrder(System.String)
+  name: GetTabOrderAsync(string, CancellationToken)
+  nameWithType: IPreferenceAgent.GetTabOrderAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrderAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets the tab order.\n"
+  summary: Gets the tab order.
+  example: []
   syntax:
-    content: TabOrder GetTabOrder(string tabName)
+    content: Task<TabOrder> GetTabOrderAsync(string tabName, CancellationToken cancellationToken = default)
     parameters:
     - id: tabName
       type: System.String
       description: Name of the tab control
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TabOrder
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TabOrder}
       description: Tab order. Array of strings. Each string represent a named tab.
-    content.vb: Function GetTabOrder(tabName As String) As TabOrder
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrder*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreference(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreference(System.Int32)
-  id: GetPreference(System.Int32)
+    content.vb: Function GetTabOrderAsync(tabName As String, cancellationToken As CancellationToken = Nothing) As Task(Of TabOrder)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrderAsync*
+  nameWithType.vb: IPreferenceAgent.GetTabOrderAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrderAsync(String, System.Threading.CancellationToken)
+  name.vb: GetTabOrderAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetPreferenceAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: GetPreference(Int32)
-  nameWithType: IPreferenceAgent.GetPreference(Int32)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreference(System.Int32)
+  name: GetPreferenceAsync(int, CancellationToken)
+  nameWithType: IPreferenceAgent.GetPreferenceAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet a preference by id\n"
+  summary: Get a preference by id
+  example: []
   syntax:
-    content: Preference GetPreference(int id)
+    content: Task<Preference> GetPreferenceAsync(int id, CancellationToken cancellationToken = default)
     parameters:
     - id: id
       type: System.Int32
       description: The id of the preference to load
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Preference
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Preference}
       description: The preference loaded
-    content.vb: Function GetPreference(id As Integer) As Preference
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreference*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity(SuperOffice.CRM.Services.Preference,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity(SuperOffice.CRM.Services.Preference,System.Boolean)
-  id: SavePreferenceEntity(SuperOffice.CRM.Services.Preference,System.Boolean)
+    content.vb: Function GetPreferenceAsync(id As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Preference)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceAsync*
+  nameWithType.vb: IPreferenceAgent.GetPreferenceAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetPreferenceAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntityAsync(SuperOffice.CRM.Services.Preference,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntityAsync(SuperOffice.CRM.Services.Preference,System.Boolean,System.Threading.CancellationToken)
+  id: SavePreferenceEntityAsync(SuperOffice.CRM.Services.Preference,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: SavePreferenceEntity(Preference, Boolean)
-  nameWithType: IPreferenceAgent.SavePreferenceEntity(Preference, Boolean)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity(SuperOffice.CRM.Services.Preference, System.Boolean)
+  name: SavePreferenceEntityAsync(Preference, bool, CancellationToken)
+  nameWithType: IPreferenceAgent.SavePreferenceEntityAsync(Preference, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntityAsync(SuperOffice.CRM.Services.Preference, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSaves a complete preference object, on any level and any target. Preference administrator rights are required to use this\n"
+  summary: Saves a complete preference object, on any level and any target. Preference administrator rights are required to use this
+  example: []
   syntax:
-    content: Preference SavePreferenceEntity(Preference preference, bool removeLowerLevels)
+    content: Task<Preference> SavePreferenceEntityAsync(Preference preference, bool removeLowerLevels, CancellationToken cancellationToken = default)
     parameters:
     - id: preference
       type: SuperOffice.CRM.Services.Preference
@@ -406,300 +444,334 @@ items:
     - id: removeLowerLevels
       type: System.Boolean
       description: If this is true, all user preferences on lower levels will be deleted
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Preference
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Preference}
       description: Returns the saved preference
-    content.vb: Function SavePreferenceEntity(preference As Preference, removeLowerLevels As Boolean) As Preference
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference(System.Int32)
-  id: DeletePreference(System.Int32)
+    content.vb: Function SavePreferenceEntityAsync(preference As Preference, removeLowerLevels As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of Preference)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntityAsync*
+  nameWithType.vb: IPreferenceAgent.SavePreferenceEntityAsync(Preference, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntityAsync(SuperOffice.CRM.Services.Preference, Boolean, System.Threading.CancellationToken)
+  name.vb: SavePreferenceEntityAsync(Preference, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeletePreferenceAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: DeletePreference(Int32)
-  nameWithType: IPreferenceAgent.DeletePreference(Int32)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference(System.Int32)
+  name: DeletePreferenceAsync(int, CancellationToken)
+  nameWithType: IPreferenceAgent.DeletePreferenceAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDelete a preference by id\n"
+  summary: Delete a preference by id
+  example: []
   syntax:
-    content: void DeletePreference(int id)
+    content: Task DeletePreferenceAsync(int id, CancellationToken cancellationToken = default)
     parameters:
     - id: id
       type: System.Int32
       description: The id of the preference to delete
-    content.vb: Sub DeletePreference(id As Integer)
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences(System.Int32[])
-  id: DeletePreferences(System.Int32[])
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeletePreferenceAsync(id As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceAsync*
+  nameWithType.vb: IPreferenceAgent.DeletePreferenceAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeletePreferenceAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferencesAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferencesAsync(System.Int32[],System.Threading.CancellationToken)
+  id: DeletePreferencesAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: DeletePreferences(Int32[])
-  nameWithType: IPreferenceAgent.DeletePreferences(Int32[])
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences(System.Int32[])
+  name: DeletePreferencesAsync(int[], CancellationToken)
+  nameWithType: IPreferenceAgent.DeletePreferencesAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferencesAsync(int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDelete some preferences by id\n"
+  summary: Delete some preferences by id
+  example: []
   syntax:
-    content: void DeletePreferences(int[] ids)
+    content: Task DeletePreferencesAsync(int[] ids, CancellationToken cancellationToken = default)
     parameters:
     - id: ids
       type: System.Int32[]
       description: The ids of the preference to delete
-    content.vb: Sub DeletePreferences(ids As Integer())
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences*
-  nameWithType.vb: IPreferenceAgent.DeletePreferences(Int32())
-  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences(System.Int32())
-  name.vb: DeletePreferences(Int32())
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName(System.String,System.String,SuperOffice.Data.PreferenceLevel)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName(System.String,System.String,SuperOffice.Data.PreferenceLevel)
-  id: GetPreferenceByName(System.String,System.String,SuperOffice.Data.PreferenceLevel)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeletePreferencesAsync(ids As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferencesAsync*
+  nameWithType.vb: IPreferenceAgent.DeletePreferencesAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferencesAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: DeletePreferencesAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAsync(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAsync(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Threading.CancellationToken)
+  id: GetPreferenceByNameAsync(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: GetPreferenceByName(String, String, PreferenceLevel)
-  nameWithType: IPreferenceAgent.GetPreferenceByName(String, String, PreferenceLevel)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName(System.String, System.String, SuperOffice.Data.PreferenceLevel)
+  name: GetPreferenceByNameAsync(string, string, PreferenceLevel, CancellationToken)
+  nameWithType: IPreferenceAgent.GetPreferenceByNameAsync(string, string, PreferenceLevel, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAsync(string, string, SuperOffice.Data.PreferenceLevel, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet a preference by name\n"
+  summary: Get a preference by name
+  example: []
   syntax:
-    content: Preference GetPreferenceByName(string prefSection, string prefKey, PreferenceLevel prefLevel)
+    content: Task<Preference> GetPreferenceByNameAsync(string prefSection, string prefKey, PreferenceLevel prefLevel, CancellationToken cancellationToken = default)
     parameters:
     - id: prefSection
       type: System.String
-      description: 'The preference section name. e.g. &apos;Functions&apos;. See SuperOffice.CRM.UserPreferenceStrings for constants. '
+      description: The preference section name. e.g. 'Functions'. See SuperOffice.CRM.UserPreferenceStrings for constants.
     - id: prefKey
       type: System.String
-      description: The preference key name. e.g. &apos;ShowTipsAtStart&apos;. See SuperOffice.CRM.UserPreferenceStrings for constants.
+      description: The preference key name. e.g. 'ShowTipsAtStart'. See SuperOffice.CRM.UserPreferenceStrings for constants.
     - id: prefLevel
       type: SuperOffice.Data.PreferenceLevel
       description: The preference level to read. Undefined (0) means to return the preference defined closest to the user.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Preference
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Preference}
       description: The preference. Note that id = 0 and value = null if preference not found in the database at the requested pref-level.
-    content.vb: Function GetPreferenceByName(prefSection As String, prefKey As String, prefLevel As PreferenceLevel) As Preference
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndId(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndId(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
-  id: GetPreferenceByNameAndId(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
+    content.vb: Function GetPreferenceByNameAsync(prefSection As String, prefKey As String, prefLevel As PreferenceLevel, cancellationToken As CancellationToken = Nothing) As Task(Of Preference)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAsync*
+  nameWithType.vb: IPreferenceAgent.GetPreferenceByNameAsync(String, String, PreferenceLevel, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAsync(String, String, SuperOffice.Data.PreferenceLevel, System.Threading.CancellationToken)
+  name.vb: GetPreferenceByNameAsync(String, String, PreferenceLevel, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndIdAsync(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndIdAsync(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32,System.Threading.CancellationToken)
+  id: GetPreferenceByNameAndIdAsync(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: GetPreferenceByNameAndId(String, String, PreferenceLevel, Int32)
-  nameWithType: IPreferenceAgent.GetPreferenceByNameAndId(String, String, PreferenceLevel, Int32)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndId(System.String, System.String, SuperOffice.Data.PreferenceLevel, System.Int32)
+  name: GetPreferenceByNameAndIdAsync(string, string, PreferenceLevel, int, CancellationToken)
+  nameWithType: IPreferenceAgent.GetPreferenceByNameAndIdAsync(string, string, PreferenceLevel, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndIdAsync(string, string, SuperOffice.Data.PreferenceLevel, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet a preference by name and owner id.\n"
+  summary: Get a preference by name and owner id.
+  example: []
   syntax:
-    content: Preference GetPreferenceByNameAndId(string prefSection, string prefKey, PreferenceLevel prefLevel, int ownerId)
+    content: Task<Preference> GetPreferenceByNameAndIdAsync(string prefSection, string prefKey, PreferenceLevel prefLevel, int ownerId, CancellationToken cancellationToken = default)
     parameters:
     - id: prefSection
       type: System.String
-      description: 'The preference section name. e.g. &apos;Functions&apos;. See SuperOffice.CRM.UserPreferenceStrings for constants. '
+      description: The preference section name. e.g. 'Functions'. See SuperOffice.CRM.UserPreferenceStrings for constants.
     - id: prefKey
       type: System.String
-      description: The preference key name. e.g. &apos;ShowTipsAtStart&apos;. See SuperOffice.CRM.UserPreferenceStrings for constants.
+      description: The preference key name. e.g. 'ShowTipsAtStart'. See SuperOffice.CRM.UserPreferenceStrings for constants.
     - id: prefLevel
       type: SuperOffice.Data.PreferenceLevel
       description: The preference level to read. Undefined (0) means to return the preference defined closest to the user.
     - id: ownerId
       type: System.Int32
       description: The preference owner id, individual or group.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Preference
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Preference}
       description: The preference. Note that id = 0 and value = null if preference not found in the database at the requested pref-level.
-    content.vb: Function GetPreferenceByNameAndId(prefSection As String, prefKey As String, prefLevel As PreferenceLevel, ownerId As Integer) As Preference
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndId*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl
-  id: GetNetServicesStatusUrl
+    content.vb: Function GetPreferenceByNameAndIdAsync(prefSection As String, prefKey As String, prefLevel As PreferenceLevel, ownerId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Preference)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndIdAsync*
+  nameWithType.vb: IPreferenceAgent.GetPreferenceByNameAndIdAsync(String, String, PreferenceLevel, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndIdAsync(String, String, SuperOffice.Data.PreferenceLevel, Integer, System.Threading.CancellationToken)
+  name.vb: GetPreferenceByNameAndIdAsync(String, String, PreferenceLevel, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrlAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrlAsync(System.Threading.CancellationToken)
+  id: GetNetServicesStatusUrlAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: GetNetServicesStatusUrl()
-  nameWithType: IPreferenceAgent.GetNetServicesStatusUrl()
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl()
+  name: GetNetServicesStatusUrlAsync(CancellationToken)
+  nameWithType: IPreferenceAgent.GetNetServicesStatusUrlAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrlAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns URL to status service. e.g. &apos;https://help.superoffice.com/sodispatcher/v1/status&apos; Returns NULL if status does not need to be checked yet.\n"
+  summary: Returns URL to status service. e.g. 'https://help.superoffice.com/sodispatcher/v1/status' Returns NULL if status does not need to be checked yet.
+  example: []
   syntax:
-    content: string GetNetServicesStatusUrl()
+    content: Task<string> GetNetServicesStatusUrlAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: NULL or URL of the status service that returns an XML or JSON block.
-    content.vb: Function GetNetServicesStatusUrl As String
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus(System.String)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus(System.String)
-  id: UpdateNetServicesStatus(System.String)
+    content.vb: Function GetNetServicesStatusUrlAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrlAsync*
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatusAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatusAsync(System.String,System.Threading.CancellationToken)
+  id: UpdateNetServicesStatusAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: UpdateNetServicesStatus(String)
-  nameWithType: IPreferenceAgent.UpdateNetServicesStatus(String)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus(System.String)
+  name: UpdateNetServicesStatusAsync(string, CancellationToken)
+  nameWithType: IPreferenceAgent.UpdateNetServicesStatusAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatusAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdate the NetServices preferences with values contained in the content from the Status URL\n"
+  summary: Update the NetServices preferences with values contained in the content from the Status URL
+  example: []
   syntax:
-    content: void UpdateNetServicesStatus(string xml_or_json)
+    content: Task UpdateNetServicesStatusAsync(string xml_or_json, CancellationToken cancellationToken = default)
     parameters:
     - id: xml_or_json
       type: System.String
       description: The text that was returned by getting the Status URL
-    content.vb: Sub UpdateNetServicesStatus(xml_or_json As String)
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPaths(System.String)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPaths(System.String)
-  id: GetXsrfPaths(System.String)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function UpdateNetServicesStatusAsync(xml_or_json As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatusAsync*
+  nameWithType.vb: IPreferenceAgent.UpdateNetServicesStatusAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatusAsync(String, System.Threading.CancellationToken)
+  name.vb: UpdateNetServicesStatusAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPathsAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPathsAsync(System.String,System.Threading.CancellationToken)
+  id: GetXsrfPathsAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: GetXsrfPaths(String)
-  nameWithType: IPreferenceAgent.GetXsrfPaths(String)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPaths(System.String)
+  name: GetXsrfPathsAsync(string, CancellationToken)
+  nameWithType: IPreferenceAgent.GetXsrfPathsAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPathsAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns paths that XSRF cookies should be set on\n"
+  summary: Returns paths that XSRF cookies should be set on
+  example: []
   syntax:
-    content: string[] GetXsrfPaths(string hostname)
+    content: Task<string[]> GetXsrfPathsAsync(string hostname, CancellationToken cancellationToken = default)
     parameters:
     - id: hostname
       type: System.String
       description: The hostname that we are storing paths for.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String[]
-      description: 'Paths that XSRF cookies should be set for: [&apos;/cs&apos;, &apos;/crm&apos;]'
-    content.vb: Function GetXsrfPaths(hostname As String) As String()
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPaths*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPaths(System.String,System.String[])
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPaths(System.String,System.String[])
-  id: SetXsrfPaths(System.String,System.String[])
+      type: System.Threading.Tasks.Task{System.String[]}
+      description: "Paths that XSRF cookies should be set for: ['/cs', '/crm']"
+    content.vb: Function GetXsrfPathsAsync(hostname As String, cancellationToken As CancellationToken = Nothing) As Task(Of String())
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPathsAsync*
+  nameWithType.vb: IPreferenceAgent.GetXsrfPathsAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPathsAsync(String, System.Threading.CancellationToken)
+  name.vb: GetXsrfPathsAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPathsAsync(System.String,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPathsAsync(System.String,System.String[],System.Threading.CancellationToken)
+  id: SetXsrfPathsAsync(System.String,System.String[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: SetXsrfPaths(String, String[])
-  nameWithType: IPreferenceAgent.SetXsrfPaths(String, String[])
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPaths(System.String, System.String[])
+  name: SetXsrfPathsAsync(string, string[], CancellationToken)
+  nameWithType: IPreferenceAgent.SetXsrfPathsAsync(string, string[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPathsAsync(string, string[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdate the paths that need XSRF cookies\n"
+  summary: Update the paths that need XSRF cookies
+  example: []
   syntax:
-    content: void SetXsrfPaths(string hostname, string[] paths)
+    content: Task SetXsrfPathsAsync(string hostname, string[] paths, CancellationToken cancellationToken = default)
     parameters:
     - id: hostname
       type: System.String
       description: The hostname that we are storing paths for.
     - id: paths
       type: System.String[]
-      description: 'Paths that XSRF cookies should be set for: [&apos;/cs&apos;, &apos;/crm&apos;]'
-    content.vb: Sub SetXsrfPaths(hostname As String, paths As String())
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPaths*
-  nameWithType.vb: IPreferenceAgent.SetXsrfPaths(String, String())
-  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPaths(System.String, System.String())
-  name.vb: SetXsrfPaths(String, String())
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescription(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescription(System.Int32)
-  id: GetPreferenceDescription(System.Int32)
+      description: "Paths that XSRF cookies should be set for: ['/cs', '/crm']"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SetXsrfPathsAsync(hostname As String, paths As String(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPathsAsync*
+  nameWithType.vb: IPreferenceAgent.SetXsrfPathsAsync(String, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPathsAsync(String, String(), System.Threading.CancellationToken)
+  name.vb: SetXsrfPathsAsync(String, String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetPreferenceDescriptionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: GetPreferenceDescription(Int32)
-  nameWithType: IPreferenceAgent.GetPreferenceDescription(Int32)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescription(System.Int32)
+  name: GetPreferenceDescriptionAsync(int, CancellationToken)
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a PreferenceDescription object.                        \n"
+  summary: Gets a PreferenceDescription object.
+  example: []
   syntax:
-    content: PreferenceDescription GetPreferenceDescription(int preferenceDescriptionId)
+    content: Task<PreferenceDescription> GetPreferenceDescriptionAsync(int preferenceDescriptionId, CancellationToken cancellationToken = default)
     parameters:
     - id: preferenceDescriptionId
       type: System.Int32
       description: The identifier of the PreferenceDescription object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreferenceDescription
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescription}
       description: PreferenceDescription
-    content.vb: Function GetPreferenceDescription(preferenceDescriptionId As Integer) As PreferenceDescription
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescription*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKey(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKey(System.String,System.String)
-  id: GetFromSectionAndKey(System.String,System.String)
+    content.vb: Function GetPreferenceDescriptionAsync(preferenceDescriptionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PreferenceDescription)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionAsync*
+  nameWithType.vb: IPreferenceAgent.GetPreferenceDescriptionAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetPreferenceDescriptionAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKeyAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKeyAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: GetFromSectionAndKeyAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: GetFromSectionAndKey(String, String)
-  nameWithType: IPreferenceAgent.GetFromSectionAndKey(String, String)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKey(System.String, System.String)
+  name: GetFromSectionAndKeyAsync(string, string, CancellationToken)
+  nameWithType: IPreferenceAgent.GetFromSectionAndKeyAsync(string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKeyAsync(string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a PreferenceDescription based on the section and key\n"
+  summary: Gets a PreferenceDescription based on the section and key
+  example: []
   syntax:
-    content: PreferenceDescription GetFromSectionAndKey(string section, string key)
+    content: Task<PreferenceDescription> GetFromSectionAndKeyAsync(string section, string key, CancellationToken cancellationToken = default)
     parameters:
     - id: section
       type: System.String
@@ -707,85 +779,92 @@ items:
     - id: key
       type: System.String
       description: The PreferenceDescription-key
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreferenceDescription
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescription}
       description: A PreferenceDescription or null
-    content.vb: Function GetFromSectionAndKey(section As String, key As String) As PreferenceDescription
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKey*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetAll
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetAll
-  id: GetAll
+    content.vb: Function GetFromSectionAndKeyAsync(section As String, key As String, cancellationToken As CancellationToken = Nothing) As Task(Of PreferenceDescription)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKeyAsync*
+  nameWithType.vb: IPreferenceAgent.GetFromSectionAndKeyAsync(String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKeyAsync(String, String, System.Threading.CancellationToken)
+  name.vb: GetFromSectionAndKeyAsync(String, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetAllAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetAllAsync(System.Threading.CancellationToken)
+  id: GetAllAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: GetAll()
-  nameWithType: IPreferenceAgent.GetAll()
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetAll()
+  name: GetAllAsync(CancellationToken)
+  nameWithType: IPreferenceAgent.GetAllAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetAllAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a list of all PreferenceDescriptions in the system.\n"
+  summary: Gets a list of all PreferenceDescriptions in the system.
+  example: []
   syntax:
-    content: PreferenceDescription[] GetAll()
+    content: Task<PreferenceDescription[]> GetAllAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreferenceDescription[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescription[]}
       description: All PreferenceDescriptions in the system
-    content.vb: Function GetAll As PreferenceDescription()
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetAll*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSection(System.String)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSection(System.String)
-  id: GetAllFromSection(System.String)
+    content.vb: Function GetAllAsync(cancellationToken As CancellationToken = Nothing) As Task(Of PreferenceDescription())
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetAllAsync*
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSectionAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSectionAsync(System.String,System.Threading.CancellationToken)
+  id: GetAllFromSectionAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: GetAllFromSection(String)
-  nameWithType: IPreferenceAgent.GetAllFromSection(String)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSection(System.String)
+  name: GetAllFromSectionAsync(string, CancellationToken)
+  nameWithType: IPreferenceAgent.GetAllFromSectionAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSectionAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets all PreferenceDescription-items in the specified section\n"
+  summary: Gets all PreferenceDescription-items in the specified section
+  example: []
   syntax:
-    content: PreferenceDescription[] GetAllFromSection(string section)
+    content: Task<PreferenceDescription[]> GetAllFromSectionAsync(string section, CancellationToken cancellationToken = default)
     parameters:
     - id: section
       type: System.String
       description: The PreferenceDescription-section
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreferenceDescription[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescription[]}
       description: All PreferenceDescriptions found.
-    content.vb: Function GetAllFromSection(section As String) As PreferenceDescription()
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSection*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription)
-  id: SaveFromSectionAndKey(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription)
+    content.vb: Function GetAllFromSectionAsync(section As String, cancellationToken As CancellationToken = Nothing) As Task(Of PreferenceDescription())
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSectionAsync*
+  nameWithType.vb: IPreferenceAgent.GetAllFromSectionAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSectionAsync(String, System.Threading.CancellationToken)
+  name.vb: GetAllFromSectionAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKeyAsync(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKeyAsync(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription,System.Threading.CancellationToken)
+  id: SaveFromSectionAndKeyAsync(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: SaveFromSectionAndKey(String, String, PreferenceDescription)
-  nameWithType: IPreferenceAgent.SaveFromSectionAndKey(String, String, PreferenceDescription)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey(System.String, System.String, SuperOffice.CRM.Services.PreferenceDescription)
+  name: SaveFromSectionAndKeyAsync(string, string, PreferenceDescription, CancellationToken)
+  nameWithType: IPreferenceAgent.SaveFromSectionAndKeyAsync(string, string, PreferenceDescription, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKeyAsync(string, string, SuperOffice.CRM.Services.PreferenceDescription, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdate a PreferenceDescription based on the section and key\n"
+  summary: Update a PreferenceDescription based on the section and key
+  example: []
   syntax:
-    content: PreferenceDescription SaveFromSectionAndKey(string section, string key, PreferenceDescription preferenceDescription)
+    content: Task<PreferenceDescription> SaveFromSectionAndKeyAsync(string section, string key, PreferenceDescription preferenceDescription, CancellationToken cancellationToken = default)
     parameters:
     - id: section
       type: System.String
@@ -796,31 +875,34 @@ items:
     - id: preferenceDescription
       type: SuperOffice.CRM.Services.PreferenceDescription
       description: The PreferenceDescription to save.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreferenceDescription
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescription}
       description: Saved PreferenceDescription
-    content.vb: Function SaveFromSectionAndKey(section As String, key As String, preferenceDescription As PreferenceDescription) As PreferenceDescription
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey(System.String,System.String)
-  id: DeleteFromSectionAndKey(System.String,System.String)
+    content.vb: Function SaveFromSectionAndKeyAsync(section As String, key As String, preferenceDescription As PreferenceDescription, cancellationToken As CancellationToken = Nothing) As Task(Of PreferenceDescription)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKeyAsync*
+  nameWithType.vb: IPreferenceAgent.SaveFromSectionAndKeyAsync(String, String, PreferenceDescription, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKeyAsync(String, String, SuperOffice.CRM.Services.PreferenceDescription, System.Threading.CancellationToken)
+  name.vb: SaveFromSectionAndKeyAsync(String, String, PreferenceDescription, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKeyAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKeyAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: DeleteFromSectionAndKeyAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: DeleteFromSectionAndKey(String, String)
-  nameWithType: IPreferenceAgent.DeleteFromSectionAndKey(String, String)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey(System.String, System.String)
+  name: DeleteFromSectionAndKeyAsync(string, string, CancellationToken)
+  nameWithType: IPreferenceAgent.DeleteFromSectionAndKeyAsync(string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKeyAsync(string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a PreferenceDescription based on the section and key\n"
+  summary: Gets a PreferenceDescription based on the section and key
+  example: []
   syntax:
-    content: void DeleteFromSectionAndKey(string section, string key)
+    content: Task DeleteFromSectionAndKeyAsync(string section, string key, CancellationToken cancellationToken = default)
     parameters:
     - id: section
       type: System.String
@@ -828,57 +910,66 @@ items:
     - id: key
       type: System.String
       description: The PreferenceDescription-key
-    content.vb: Sub DeleteFromSectionAndKey(section As String, key As String)
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLine(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLine(System.Int32)
-  id: GetPreferenceDescriptionLine(System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteFromSectionAndKeyAsync(section As String, key As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKeyAsync*
+  nameWithType.vb: IPreferenceAgent.DeleteFromSectionAndKeyAsync(String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKeyAsync(String, String, System.Threading.CancellationToken)
+  name.vb: DeleteFromSectionAndKeyAsync(String, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetPreferenceDescriptionLineAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: GetPreferenceDescriptionLine(Int32)
-  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLine(Int32)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLine(System.Int32)
+  name: GetPreferenceDescriptionLineAsync(int, CancellationToken)
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a PreferenceDescriptionLine object.                        \n"
+  summary: Gets a PreferenceDescriptionLine object.
+  example: []
   syntax:
-    content: PreferenceDescriptionLine GetPreferenceDescriptionLine(int preferenceDescriptionLineId)
+    content: Task<PreferenceDescriptionLine> GetPreferenceDescriptionLineAsync(int preferenceDescriptionLineId, CancellationToken cancellationToken = default)
     parameters:
     - id: preferenceDescriptionLineId
       type: System.Int32
       description: The identifier of the PreferenceDescriptionLine object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreferenceDescriptionLine
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescriptionLine}
       description: PreferenceDescriptionLine
-    content.vb: Function GetPreferenceDescriptionLine(preferenceDescriptionLineId As Integer) As PreferenceDescriptionLine
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLine*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(System.Int32,System.String)
-  id: GetPreferenceDescriptionLineFromIdAndValue(System.Int32,System.String)
+    content.vb: Function GetPreferenceDescriptionLineAsync(preferenceDescriptionLineId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PreferenceDescriptionLine)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineAsync*
+  nameWithType.vb: IPreferenceAgent.GetPreferenceDescriptionLineAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetPreferenceDescriptionLineAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: GetPreferenceDescriptionLineFromIdAndValueAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: GetPreferenceDescriptionLineFromIdAndValue(Int32, String)
-  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(Int32, String)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(System.Int32, System.String)
+  name: GetPreferenceDescriptionLineFromIdAndValueAsync(int, string, CancellationToken)
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(int, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet a preference description line from a prefDesc_id and a prefValue\n"
+  summary: Get a preference description line from a prefDesc_id and a prefValue
+  example: []
   syntax:
-    content: PreferenceDescriptionLine GetPreferenceDescriptionLineFromIdAndValue(int prefDescId, string prefValue)
+    content: Task<PreferenceDescriptionLine> GetPreferenceDescriptionLineFromIdAndValueAsync(int prefDescId, string prefValue, CancellationToken cancellationToken = default)
     parameters:
     - id: prefDescId
       type: System.Int32
@@ -886,321 +977,348 @@ items:
     - id: prefValue
       type: System.String
       description: The value of the description line to return
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreferenceDescriptionLine
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescriptionLine}
       description: The preference description line matching the id and the value
-    content.vb: Function GetPreferenceDescriptionLineFromIdAndValue(prefDescId As Integer, prefValue As String) As PreferenceDescriptionLine
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId(System.Int32)
-  id: GetPreferenceDescriptionLinesByPrefDescId(System.Int32)
+    content.vb: Function GetPreferenceDescriptionLineFromIdAndValueAsync(prefDescId As Integer, prefValue As String, cancellationToken As CancellationToken = Nothing) As Task(Of PreferenceDescriptionLine)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync*
+  nameWithType.vb: IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(Integer, String, System.Threading.CancellationToken)
+  name.vb: GetPreferenceDescriptionLineFromIdAndValueAsync(Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetPreferenceDescriptionLinesByPrefDescIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: GetPreferenceDescriptionLinesByPrefDescId(Int32)
-  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId(Int32)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId(System.Int32)
+  name: GetPreferenceDescriptionLinesByPrefDescIdAsync(int, CancellationToken)
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet all preference description lines from a prefDesc_id\n"
+  summary: Get all preference description lines from a prefDesc_id
+  example: []
   syntax:
-    content: PreferenceDescriptionLine[] GetPreferenceDescriptionLinesByPrefDescId(int prefDescId)
+    content: Task<PreferenceDescriptionLine[]> GetPreferenceDescriptionLinesByPrefDescIdAsync(int prefDescId, CancellationToken cancellationToken = default)
     parameters:
     - id: prefDescId
       type: System.Int32
       description: The id of the preference description this line is connected to
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreferenceDescriptionLine[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescriptionLine[]}
       description: The preference description lines matching the id
-    content.vb: Function GetPreferenceDescriptionLinesByPrefDescId(prefDescId As Integer) As PreferenceDescriptionLine()
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLines(SuperOffice.CRM.Services.PreferenceDescriptionLine[])
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLines(SuperOffice.CRM.Services.PreferenceDescriptionLine[])
-  id: SavePreferenceDescriptionLines(SuperOffice.CRM.Services.PreferenceDescriptionLine[])
+    content.vb: Function GetPreferenceDescriptionLinesByPrefDescIdAsync(prefDescId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PreferenceDescriptionLine())
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync*
+  nameWithType.vb: IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetPreferenceDescriptionLinesByPrefDescIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLinesAsync(SuperOffice.CRM.Services.PreferenceDescriptionLine[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLinesAsync(SuperOffice.CRM.Services.PreferenceDescriptionLine[],System.Threading.CancellationToken)
+  id: SavePreferenceDescriptionLinesAsync(SuperOffice.CRM.Services.PreferenceDescriptionLine[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: SavePreferenceDescriptionLines(PreferenceDescriptionLine[])
-  nameWithType: IPreferenceAgent.SavePreferenceDescriptionLines(PreferenceDescriptionLine[])
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLines(SuperOffice.CRM.Services.PreferenceDescriptionLine[])
+  name: SavePreferenceDescriptionLinesAsync(PreferenceDescriptionLine[], CancellationToken)
+  nameWithType: IPreferenceAgent.SavePreferenceDescriptionLinesAsync(PreferenceDescriptionLine[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLinesAsync(SuperOffice.CRM.Services.PreferenceDescriptionLine[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSaves the PreferenceDescriptionLine array in the SuperOffice database\n"
+  summary: Saves the PreferenceDescriptionLine array in the SuperOffice database
+  example: []
   syntax:
-    content: PreferenceDescriptionLine[] SavePreferenceDescriptionLines(PreferenceDescriptionLine[] preferenceDescriptionLines)
+    content: Task<PreferenceDescriptionLine[]> SavePreferenceDescriptionLinesAsync(PreferenceDescriptionLine[] preferenceDescriptionLines, CancellationToken cancellationToken = default)
     parameters:
     - id: preferenceDescriptionLines
       type: SuperOffice.CRM.Services.PreferenceDescriptionLine[]
       description: The PreferenceDescriptionLine array to save.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreferenceDescriptionLine[]
-      description: The updated PrefDesc lines (If the PreferenceDescriptionLine array was new, it returns with id&apos;s set.
-    content.vb: Function SavePreferenceDescriptionLines(preferenceDescriptionLines As PreferenceDescriptionLine()) As PreferenceDescriptionLine()
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLines*
-  nameWithType.vb: IPreferenceAgent.SavePreferenceDescriptionLines(PreferenceDescriptionLine())
-  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLines(SuperOffice.CRM.Services.PreferenceDescriptionLine())
-  name.vb: SavePreferenceDescriptionLines(PreferenceDescriptionLine())
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLines(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLines(System.Int32[])
-  id: DeletePreferenceDescriptionLines(System.Int32[])
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescriptionLine[]}
+      description: The updated PrefDesc lines (If the PreferenceDescriptionLine array was new, it returns with id's set.
+    content.vb: Function SavePreferenceDescriptionLinesAsync(preferenceDescriptionLines As PreferenceDescriptionLine(), cancellationToken As CancellationToken = Nothing) As Task(Of PreferenceDescriptionLine())
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLinesAsync*
+  nameWithType.vb: IPreferenceAgent.SavePreferenceDescriptionLinesAsync(PreferenceDescriptionLine(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLinesAsync(SuperOffice.CRM.Services.PreferenceDescriptionLine(), System.Threading.CancellationToken)
+  name.vb: SavePreferenceDescriptionLinesAsync(PreferenceDescriptionLine(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(System.Int32[],System.Threading.CancellationToken)
+  id: DeletePreferenceDescriptionLinesAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: DeletePreferenceDescriptionLines(Int32[])
-  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLines(Int32[])
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLines(System.Int32[])
+  name: DeletePreferenceDescriptionLinesAsync(int[], CancellationToken)
+  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDelete the PrefDescLines in the SuperOffice database\n"
+  summary: Delete the PrefDescLines in the SuperOffice database
+  example: []
   syntax:
-    content: void DeletePreferenceDescriptionLines(int[] prefDescLineIds)
+    content: Task DeletePreferenceDescriptionLinesAsync(int[] prefDescLineIds, CancellationToken cancellationToken = default)
     parameters:
     - id: prefDescLineIds
       type: System.Int32[]
       description: Primary keys of the PrefDescLines to delete
-    content.vb: Sub DeletePreferenceDescriptionLines(prefDescLineIds As Integer())
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLines*
-  nameWithType.vb: IPreferenceAgent.DeletePreferenceDescriptionLines(Int32())
-  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLines(System.Int32())
-  name.vb: DeletePreferenceDescriptionLines(Int32())
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescId(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescId(System.Int32)
-  id: DeletePrefDescLinesByPrefDescId(System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: Nothing
+    content.vb: Function DeletePreferenceDescriptionLinesAsync(prefDescLineIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync*
+  nameWithType.vb: IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: DeletePreferenceDescriptionLinesAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeletePrefDescLinesByPrefDescIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: DeletePrefDescLinesByPrefDescId(Int32)
-  nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescId(Int32)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescId(System.Int32)
+  name: DeletePrefDescLinesByPrefDescIdAsync(int, CancellationToken)
+  nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDelete the PrefDescLines associated with Preference Description Id in the SuperOffice database\n"
+  summary: Delete the PrefDescLines associated with Preference Description Id in the SuperOffice database
+  example: []
   syntax:
-    content: void DeletePrefDescLinesByPrefDescId(int prefDescId)
+    content: Task DeletePrefDescLinesByPrefDescIdAsync(int prefDescId, CancellationToken cancellationToken = default)
     parameters:
     - id: prefDescId
       type: System.Int32
       description: Primary key of the Preference Description that contains PrefDescLines to delete
-    content.vb: Sub DeletePrefDescLinesByPrefDescId(prefDescId As Integer)
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescId*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIds(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIds(System.Int32[])
-  id: DeletePrefDescLinesByPrefDescIds(System.Int32[])
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: Nothing
+    content.vb: Function DeletePrefDescLinesByPrefDescIdAsync(prefDescId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync*
+  nameWithType.vb: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeletePrefDescLinesByPrefDescIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(System.Int32[],System.Threading.CancellationToken)
+  id: DeletePrefDescLinesByPrefDescIdsAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: DeletePrefDescLinesByPrefDescIds(Int32[])
-  nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIds(Int32[])
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIds(System.Int32[])
+  name: DeletePrefDescLinesByPrefDescIdsAsync(int[], CancellationToken)
+  nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDelete the PrefDescLines associated with Preference Description Ids in the SuperOffice database\n"
+  summary: Delete the PrefDescLines associated with Preference Description Ids in the SuperOffice database
+  example: []
   syntax:
-    content: void DeletePrefDescLinesByPrefDescIds(int[] prefDescIds)
+    content: Task DeletePrefDescLinesByPrefDescIdsAsync(int[] prefDescIds, CancellationToken cancellationToken = default)
     parameters:
     - id: prefDescIds
       type: System.Int32[]
       description: Primary keys of the Preference Descriptions that contains PrefDescLines to delete
-    content.vb: Sub DeletePrefDescLinesByPrefDescIds(prefDescIds As Integer())
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIds*
-  nameWithType.vb: IPreferenceAgent.DeletePrefDescLinesByPrefDescIds(Int32())
-  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIds(System.Int32())
-  name.vb: DeletePrefDescLinesByPrefDescIds(Int32())
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec[])
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec[])
-  id: GetPreferences(SuperOffice.CRM.Services.PreferenceSpec[])
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: Nothing
+    content.vb: Function DeletePrefDescLinesByPrefDescIdsAsync(prefDescIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync*
+  nameWithType.vb: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: DeletePrefDescLinesByPrefDescIdsAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesAsync(SuperOffice.CRM.Services.PreferenceSpec[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesAsync(SuperOffice.CRM.Services.PreferenceSpec[],System.Threading.CancellationToken)
+  id: GetPreferencesAsync(SuperOffice.CRM.Services.PreferenceSpec[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: GetPreferences(PreferenceSpec[])
-  nameWithType: IPreferenceAgent.GetPreferences(PreferenceSpec[])
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec[])
+  name: GetPreferencesAsync(PreferenceSpec[], CancellationToken)
+  nameWithType: IPreferenceAgent.GetPreferencesAsync(PreferenceSpec[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesAsync(SuperOffice.CRM.Services.PreferenceSpec[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet one or more preferences based on a set of specifications.&lt;br/>The prefDisplayvalue and prefDisplaytooltip are blank (faster processing relative to GetPreferencesWithDisplayValues)\n"
+  summary: Get one or more preferences based on a set of specifications.&lt;br/&gt;The prefDisplayvalue and prefDisplaytooltip are blank (faster processing relative to GetPreferencesWithDisplayValues)
+  example: []
   syntax:
-    content: Preference[] GetPreferences(PreferenceSpec[] specifications)
+    content: Task<Preference[]> GetPreferencesAsync(PreferenceSpec[] specifications, CancellationToken cancellationToken = default)
     parameters:
     - id: specifications
       type: SuperOffice.CRM.Services.PreferenceSpec[]
-      description: Array of preference specifications. The key value may be * (asterisk), which means &apos;all keys within section&apos;. Note that the semantics of this are more strictly &apos;all keys actually set at any accessible level for this associate&apos;; you will NOT get entries for preferences that might exist, but have no set value anywhere. You can also have askerisk as the section name. In that case the specification array must contain exactly one entry and the key must also be asterisk. This will return all known preferences in all sections for your associate. It might be a lot, tests have shown that a heavily used database can accumulate up to 500 preferences on a single associate. If the Sentry table/field right preferences have been used, the number could be a lot greater!
+      description: Array of preference specifications. The key value may be * (asterisk), which means 'all keys within section'. Note that the semantics of this are more strictly 'all keys actually set at any accessible level for this associate'; you will NOT get entries for preferences that might exist, but have no set value anywhere. You can also have askerisk as the section name. In that case the specification array must contain exactly one entry and the key must also be asterisk. This will return all known preferences in all sections for your associate. It might be a lot, tests have shown that a heavily used database can accumulate up to 500 preferences on a single associate. If the Sentry table/field right preferences have been used, the number could be a lot greater!
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Preference[]
-      description: 'Array of preference values for your given specification(s). More strictly: &apos;all keys actually set at any accessible level for this associate&apos;; you will NOT get entries for preferences that might exist, but have no set value anywhere.'
-    content.vb: Function GetPreferences(specifications As PreferenceSpec()) As Preference()
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences*
-  nameWithType.vb: IPreferenceAgent.GetPreferences(PreferenceSpec())
-  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec())
-  name.vb: GetPreferences(PreferenceSpec())
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference[])
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference[])
-  id: SavePreferences(SuperOffice.CRM.Services.Preference[])
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Preference[]}
+      description: "Array of preference values for your given specification(s). More strictly: 'all keys actually set at any accessible level for this associate'; you will NOT get entries for preferences that might exist, but have no set value anywhere."
+    content.vb: Function GetPreferencesAsync(specifications As PreferenceSpec(), cancellationToken As CancellationToken = Nothing) As Task(Of Preference())
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesAsync*
+  nameWithType.vb: IPreferenceAgent.GetPreferencesAsync(PreferenceSpec(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesAsync(SuperOffice.CRM.Services.PreferenceSpec(), System.Threading.CancellationToken)
+  name.vb: GetPreferencesAsync(PreferenceSpec(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferencesAsync(SuperOffice.CRM.Services.Preference[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferencesAsync(SuperOffice.CRM.Services.Preference[],System.Threading.CancellationToken)
+  id: SavePreferencesAsync(SuperOffice.CRM.Services.Preference[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: SavePreferences(Preference[])
-  nameWithType: IPreferenceAgent.SavePreferences(Preference[])
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference[])
+  name: SavePreferencesAsync(Preference[], CancellationToken)
+  nameWithType: IPreferenceAgent.SavePreferencesAsync(Preference[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferencesAsync(SuperOffice.CRM.Services.Preference[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSave this set of preferences. Note this method DOES NOT look at level/targetId - it only saves on behalf of the CURRENT USER.\n"
+  summary: Save this set of preferences. Note this method DOES NOT look at level/targetId - it only saves on behalf of the CURRENT USER.
+  example: []
   syntax:
-    content: void SavePreferences(Preference[] preferences)
+    content: Task SavePreferencesAsync(Preference[] preferences, CancellationToken cancellationToken = default)
     parameters:
     - id: preferences
       type: SuperOffice.CRM.Services.Preference[]
       description: Preferences to be saved. Note that all fields must be filled in, and the preference will be saved on the Associate level only! Setting for other levels is an administrative task and not available through this service.
-    content.vb: Sub SavePreferences(preferences As Preference())
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences*
-  nameWithType.vb: IPreferenceAgent.SavePreferences(Preference())
-  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference())
-  name.vb: SavePreferences(Preference())
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec[])
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec[])
-  id: GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec[])
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SavePreferencesAsync(preferences As Preference(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferencesAsync*
+  nameWithType.vb: IPreferenceAgent.SavePreferencesAsync(Preference(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferencesAsync(SuperOffice.CRM.Services.Preference(), System.Threading.CancellationToken)
+  name.vb: SavePreferencesAsync(Preference(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(SuperOffice.CRM.Services.PreferenceSpec[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(SuperOffice.CRM.Services.PreferenceSpec[],System.Threading.CancellationToken)
+  id: GetPreferencesWithDisplayValuesAsync(SuperOffice.CRM.Services.PreferenceSpec[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: GetPreferencesWithDisplayValues(PreferenceSpec[])
-  nameWithType: IPreferenceAgent.GetPreferencesWithDisplayValues(PreferenceSpec[])
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec[])
+  name: GetPreferencesWithDisplayValuesAsync(PreferenceSpec[], CancellationToken)
+  nameWithType: IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(PreferenceSpec[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(SuperOffice.CRM.Services.PreferenceSpec[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet one or more preferences based on a set of specifications&lt;br/>The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.\n"
+  summary: Get one or more preferences based on a set of specifications&lt;br/&gt;The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.
+  example: []
   syntax:
-    content: Preference[] GetPreferencesWithDisplayValues(PreferenceSpec[] specifications)
+    content: Task<Preference[]> GetPreferencesWithDisplayValuesAsync(PreferenceSpec[] specifications, CancellationToken cancellationToken = default)
     parameters:
     - id: specifications
       type: SuperOffice.CRM.Services.PreferenceSpec[]
-      description: Array of preference specifications. The key value may be * (asterisk), which means &apos;all keys within section&apos;. Note that the semantics of this are more strictly &apos;all keys actually set at any accessible level for this associate&apos;; you will NOT get entries for preferences that might exist, but have no set value anywhere. You can also have askerisk as the section name. In that case the specification array must contain exactly one entry and the key must also be asterisk. This will return all known preferences in all sections for your associate. It might be a lot, tests have shown that a heavily used database can accumulate up to 500 preferences on a single associate. If the Sentry table/field right preferences have been used, the number could be a lot greater!
+      description: Array of preference specifications. The key value may be * (asterisk), which means 'all keys within section'. Note that the semantics of this are more strictly 'all keys actually set at any accessible level for this associate'; you will NOT get entries for preferences that might exist, but have no set value anywhere. You can also have askerisk as the section name. In that case the specification array must contain exactly one entry and the key must also be asterisk. This will return all known preferences in all sections for your associate. It might be a lot, tests have shown that a heavily used database can accumulate up to 500 preferences on a single associate. If the Sentry table/field right preferences have been used, the number could be a lot greater!
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Preference[]
-      description: 'Array of preference values for your given specification(s). More strictly: &apos;all keys actually set at any accessible level for this associate&apos;; you will NOT get entries for preferences that might exist, but have no set value anywhere.&lt;br/>The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.'
-    content.vb: Function GetPreferencesWithDisplayValues(specifications As PreferenceSpec()) As Preference()
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues*
-  nameWithType.vb: IPreferenceAgent.GetPreferencesWithDisplayValues(PreferenceSpec())
-  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec())
-  name.vb: GetPreferencesWithDisplayValues(PreferenceSpec())
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrders
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrders
-  id: GetTabOrders
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Preference[]}
+      description: "Array of preference values for your given specification(s). More strictly: 'all keys actually set at any accessible level for this associate'; you will NOT get entries for preferences that might exist, but have no set value anywhere.&lt;br/&gt;The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost."
+    content.vb: Function GetPreferencesWithDisplayValuesAsync(specifications As PreferenceSpec(), cancellationToken As CancellationToken = Nothing) As Task(Of Preference())
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync*
+  nameWithType.vb: IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(PreferenceSpec(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(SuperOffice.CRM.Services.PreferenceSpec(), System.Threading.CancellationToken)
+  name.vb: GetPreferencesWithDisplayValuesAsync(PreferenceSpec(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrdersAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrdersAsync(System.Threading.CancellationToken)
+  id: GetTabOrdersAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: GetTabOrders()
-  nameWithType: IPreferenceAgent.GetTabOrders()
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrders()
+  name: GetTabOrdersAsync(CancellationToken)
+  nameWithType: IPreferenceAgent.GetTabOrdersAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrdersAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: TabOrder[] GetTabOrders()
+    content: Task<TabOrder[]> GetTabOrdersAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TabOrder[]
-    content.vb: Function GetTabOrders As TabOrder()
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrders*
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder[])
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder[])
-  id: SaveTabOrders(SuperOffice.CRM.Services.TabOrder[])
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TabOrder[]}
+      description: ''
+    content.vb: Function GetTabOrdersAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TabOrder())
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrdersAsync*
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrdersAsync(SuperOffice.CRM.Services.TabOrder[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrdersAsync(SuperOffice.CRM.Services.TabOrder[],System.Threading.CancellationToken)
+  id: SaveTabOrdersAsync(SuperOffice.CRM.Services.TabOrder[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: SaveTabOrders(TabOrder[])
-  nameWithType: IPreferenceAgent.SaveTabOrders(TabOrder[])
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder[])
+  name: SaveTabOrdersAsync(TabOrder[], CancellationToken)
+  nameWithType: IPreferenceAgent.SaveTabOrdersAsync(TabOrder[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrdersAsync(SuperOffice.CRM.Services.TabOrder[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: void SaveTabOrders(TabOrder[] tabOrders)
+    content: Task SaveTabOrdersAsync(TabOrder[] tabOrders, CancellationToken cancellationToken = default)
     parameters:
     - id: tabOrders
       type: SuperOffice.CRM.Services.TabOrder[]
-    content.vb: Sub SaveTabOrders(tabOrders As TabOrder())
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders*
-  nameWithType.vb: IPreferenceAgent.SaveTabOrders(TabOrder())
-  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder())
-  name.vb: SaveTabOrders(TabOrder())
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference[],System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference[],System.Boolean)
-  id: SavePreferenceEntities(SuperOffice.CRM.Services.Preference[],System.Boolean)
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SaveTabOrdersAsync(tabOrders As TabOrder(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrdersAsync*
+  nameWithType.vb: IPreferenceAgent.SaveTabOrdersAsync(TabOrder(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrdersAsync(SuperOffice.CRM.Services.TabOrder(), System.Threading.CancellationToken)
+  name.vb: SaveTabOrdersAsync(TabOrder(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntitiesAsync(SuperOffice.CRM.Services.Preference[],System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntitiesAsync(SuperOffice.CRM.Services.Preference[],System.Boolean,System.Threading.CancellationToken)
+  id: SavePreferenceEntitiesAsync(SuperOffice.CRM.Services.Preference[],System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPreferenceAgent
   langs:
   - csharp
   - vb
-  name: SavePreferenceEntities(Preference[], Boolean)
-  nameWithType: IPreferenceAgent.SavePreferenceEntities(Preference[], Boolean)
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference[], System.Boolean)
+  name: SavePreferenceEntitiesAsync(Preference[], bool, CancellationToken)
+  nameWithType: IPreferenceAgent.SavePreferenceEntitiesAsync(Preference[], bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntitiesAsync(SuperOffice.CRM.Services.Preference[], bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSave this set of preferences.\n"
+  summary: Save this set of preferences.
+  example: []
   syntax:
-    content: void SavePreferenceEntities(Preference[] preferences, bool removeLowerLevels)
+    content: Task SavePreferenceEntitiesAsync(Preference[] preferences, bool removeLowerLevels, CancellationToken cancellationToken = default)
     parameters:
     - id: preferences
       type: SuperOffice.CRM.Services.Preference[]
@@ -1208,332 +1326,790 @@ items:
     - id: removeLowerLevels
       type: System.Boolean
       description: If this is true, all user preferences on lower levels will be deleted
-    content.vb: Sub SavePreferenceEntities(preferences As Preference(), removeLowerLevels As Boolean)
-  overload: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities*
-  nameWithType.vb: IPreferenceAgent.SavePreferenceEntities(Preference(), Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference(), System.Boolean)
-  name.vb: SavePreferenceEntities(Preference(), Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SavePreferenceEntitiesAsync(preferences As Preference(), removeLowerLevels As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntitiesAsync*
+  nameWithType.vb: IPreferenceAgent.SavePreferenceEntitiesAsync(Preference(), Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntitiesAsync(SuperOffice.CRM.Services.Preference(), Boolean, System.Threading.CancellationToken)
+  name.vb: SavePreferenceEntitiesAsync(Preference(), Boolean, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceAsync
   isExternal: true
-  name: CreateDefaultPreference
-  nameWithType: IPreferenceAgent.CreateDefaultPreference
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference
-- uid: SuperOffice.CRM.Services.Preference
-  commentId: T:SuperOffice.CRM.Services.Preference
-  parent: SuperOffice.CRM.Services
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_CreateDefaultPreferenceAsync_System_Threading_CancellationToken_
+  name: CreateDefaultPreferenceAsync
+  nameWithType: IPreferenceAgent.CreateDefaultPreferenceAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: Preference
-  nameWithType: Preference
-  fullName: SuperOffice.CRM.Services.Preference
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescription*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescription
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Preference}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Preference}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Preference>
+  nameWithType: Task<Preference>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Preference>
+  nameWithType.vb: Task(Of Preference)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Preference)
+  name.vb: Task(Of Preference)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.Preference
+    name: Preference
+    isExternal: true
+    href: SuperOffice.CRM.Services.Preference.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.Preference
+    name: Preference
+    isExternal: true
+    href: SuperOffice.CRM.Services.Preference.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: CreateDefaultPreferenceDescription
-  nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescription
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescription
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_CreateDefaultPreferenceDescriptionAsync_System_Threading_CancellationToken_
+  name: CreateDefaultPreferenceDescriptionAsync
+  nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescription}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescription}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PreferenceDescription>
+  nameWithType: Task<PreferenceDescription>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PreferenceDescription>
+  nameWithType.vb: Task(Of PreferenceDescription)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PreferenceDescription)
+  name.vb: Task(Of PreferenceDescription)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.PreferenceDescription
+    name: PreferenceDescription
+    isExternal: true
+    href: SuperOffice.CRM.Services.PreferenceDescription.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.PreferenceDescription
+    name: PreferenceDescription
+    isExternal: true
+    href: SuperOffice.CRM.Services.PreferenceDescription.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_SavePreferenceDescriptionAsync_SuperOffice_CRM_Services_PreferenceDescription_System_Threading_CancellationToken_
+  name: SavePreferenceDescriptionAsync
+  nameWithType: IPreferenceAgent.SavePreferenceDescriptionAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionAsync
 - uid: SuperOffice.CRM.Services.PreferenceDescription
   commentId: T:SuperOffice.CRM.Services.PreferenceDescription
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.PreferenceDescription.html
   name: PreferenceDescription
   nameWithType: PreferenceDescription
   fullName: SuperOffice.CRM.Services.PreferenceDescription
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionAsync
   isExternal: true
-  name: SavePreferenceDescription
-  nameWithType: IPreferenceAgent.SavePreferenceDescription
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescription*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescription
-  isExternal: true
-  name: DeletePreferenceDescription
-  nameWithType: IPreferenceAgent.DeletePreferenceDescription
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescription
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_DeletePreferenceDescriptionAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeletePreferenceDescriptionAsync
+  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync
   isExternal: true
-  name: CreateDefaultPreferenceDescriptionLine
-  nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionLine
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_CreateDefaultPreferenceDescriptionLineAsync_System_Threading_CancellationToken_
+  name: CreateDefaultPreferenceDescriptionLineAsync
+  nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescriptionLine}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescriptionLine}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PreferenceDescriptionLine>
+  nameWithType: Task<PreferenceDescriptionLine>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PreferenceDescriptionLine>
+  nameWithType.vb: Task(Of PreferenceDescriptionLine)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PreferenceDescriptionLine)
+  name.vb: Task(Of PreferenceDescriptionLine)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.PreferenceDescriptionLine
+    name: PreferenceDescriptionLine
+    isExternal: true
+    href: SuperOffice.CRM.Services.PreferenceDescriptionLine.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.PreferenceDescriptionLine
+    name: PreferenceDescriptionLine
+    isExternal: true
+    href: SuperOffice.CRM.Services.PreferenceDescriptionLine.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLineAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLineAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_SavePreferenceDescriptionLineAsync_SuperOffice_CRM_Services_PreferenceDescriptionLine_System_Threading_CancellationToken_
+  name: SavePreferenceDescriptionLineAsync
+  nameWithType: IPreferenceAgent.SavePreferenceDescriptionLineAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLineAsync
 - uid: SuperOffice.CRM.Services.PreferenceDescriptionLine
   commentId: T:SuperOffice.CRM.Services.PreferenceDescriptionLine
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.PreferenceDescriptionLine.html
   name: PreferenceDescriptionLine
   nameWithType: PreferenceDescriptionLine
   fullName: SuperOffice.CRM.Services.PreferenceDescriptionLine
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLine*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLine
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLineAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLineAsync
   isExternal: true
-  name: SavePreferenceDescriptionLine
-  nameWithType: IPreferenceAgent.SavePreferenceDescriptionLine
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLine
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLine*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLine
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_DeletePreferenceDescriptionLineAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeletePreferenceDescriptionLineAsync
+  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLineAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLineAsync
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceAsync
   isExternal: true
-  name: DeletePreferenceDescriptionLine
-  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLine
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLine
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreference*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SavePreference
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_SavePreferenceAsync_SuperOffice_CRM_Services_Preference_System_Threading_CancellationToken_
+  name: SavePreferenceAsync
+  nameWithType: IPreferenceAgent.SavePreferenceAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceAsync
+- uid: SuperOffice.CRM.Services.Preference
+  commentId: T:SuperOffice.CRM.Services.Preference
+  parent: SuperOffice.CRM.Services
   isExternal: true
-  name: SavePreference
-  nameWithType: IPreferenceAgent.SavePreference
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreference
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrder*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrder
+  href: SuperOffice.CRM.Services.Preference.html
+  name: Preference
+  nameWithType: Preference
+  fullName: SuperOffice.CRM.Services.Preference
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrderAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrderAsync
   isExternal: true
-  name: SaveTabOrder
-  nameWithType: IPreferenceAgent.SaveTabOrder
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrder
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_SaveTabOrderAsync_SuperOffice_CRM_Services_TabOrder_System_Threading_CancellationToken_
+  name: SaveTabOrderAsync
+  nameWithType: IPreferenceAgent.SaveTabOrderAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrderAsync
 - uid: SuperOffice.CRM.Services.TabOrder
   commentId: T:SuperOffice.CRM.Services.TabOrder
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.TabOrder.html
   name: TabOrder
   nameWithType: TabOrder
   fullName: SuperOffice.CRM.Services.TabOrder
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrder*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrder
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrderAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrderAsync
   isExternal: true
-  name: GetTabOrder
-  nameWithType: IPreferenceAgent.GetTabOrder
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrder
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetTabOrderAsync_System_String_System_Threading_CancellationToken_
+  name: GetTabOrderAsync
+  nameWithType: IPreferenceAgent.GetTabOrderAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrderAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreference*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreference
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TabOrder}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TabOrder}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TabOrder>
+  nameWithType: Task<TabOrder>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TabOrder>
+  nameWithType.vb: Task(Of TabOrder)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TabOrder)
+  name.vb: Task(Of TabOrder)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.TabOrder
+    name: TabOrder
+    isExternal: true
+    href: SuperOffice.CRM.Services.TabOrder.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TabOrder
+    name: TabOrder
+    isExternal: true
+    href: SuperOffice.CRM.Services.TabOrder.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceAsync
   isExternal: true
-  name: GetPreference
-  nameWithType: IPreferenceAgent.GetPreference
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreference
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetPreferenceAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetPreferenceAsync
+  nameWithType: IPreferenceAgent.GetPreferenceAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceAsync
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntityAsync
   isExternal: true
-  name: SavePreferenceEntity
-  nameWithType: IPreferenceAgent.SavePreferenceEntity
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_SavePreferenceEntityAsync_SuperOffice_CRM_Services_Preference_System_Boolean_System_Threading_CancellationToken_
+  name: SavePreferenceEntityAsync
+  nameWithType: IPreferenceAgent.SavePreferenceEntityAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntityAsync
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceAsync
   isExternal: true
-  name: DeletePreference
-  nameWithType: IPreferenceAgent.DeletePreference
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_DeletePreferenceAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeletePreferenceAsync
+  nameWithType: IPreferenceAgent.DeletePreferenceAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceAsync
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferencesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferencesAsync
   isExternal: true
-  name: DeletePreferences
-  nameWithType: IPreferenceAgent.DeletePreferences
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_DeletePreferencesAsync_System_Int32___System_Threading_CancellationToken_
+  name: DeletePreferencesAsync
+  nameWithType: IPreferenceAgent.DeletePreferencesAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferencesAsync
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAsync
   isExternal: true
-  name: GetPreferenceByName
-  nameWithType: IPreferenceAgent.GetPreferenceByName
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetPreferenceByNameAsync_System_String_System_String_SuperOffice_Data_PreferenceLevel_System_Threading_CancellationToken_
+  name: GetPreferenceByNameAsync
+  nameWithType: IPreferenceAgent.GetPreferenceByNameAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAsync
 - uid: SuperOffice.Data.PreferenceLevel
   isExternal: true
   name: PreferenceLevel
   nameWithType: PreferenceLevel
   fullName: SuperOffice.Data.PreferenceLevel
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndId*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndId
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndIdAsync
   isExternal: true
-  name: GetPreferenceByNameAndId
-  nameWithType: IPreferenceAgent.GetPreferenceByNameAndId
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndId
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetPreferenceByNameAndIdAsync_System_String_System_String_SuperOffice_Data_PreferenceLevel_System_Int32_System_Threading_CancellationToken_
+  name: GetPreferenceByNameAndIdAsync
+  nameWithType: IPreferenceAgent.GetPreferenceByNameAndIdAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndIdAsync
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrlAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrlAsync
   isExternal: true
-  name: GetNetServicesStatusUrl
-  nameWithType: IPreferenceAgent.GetNetServicesStatusUrl
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetNetServicesStatusUrlAsync_System_Threading_CancellationToken_
+  name: GetNetServicesStatusUrlAsync
+  nameWithType: IPreferenceAgent.GetNetServicesStatusUrlAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrlAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatusAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatusAsync
   isExternal: true
-  name: UpdateNetServicesStatus
-  nameWithType: IPreferenceAgent.UpdateNetServicesStatus
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPaths*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPaths
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_UpdateNetServicesStatusAsync_System_String_System_Threading_CancellationToken_
+  name: UpdateNetServicesStatusAsync
+  nameWithType: IPreferenceAgent.UpdateNetServicesStatusAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatusAsync
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPathsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPathsAsync
   isExternal: true
-  name: GetXsrfPaths
-  nameWithType: IPreferenceAgent.GetXsrfPaths
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPaths
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetXsrfPathsAsync_System_String_System_Threading_CancellationToken_
+  name: GetXsrfPathsAsync
+  nameWithType: IPreferenceAgent.GetXsrfPathsAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPathsAsync
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: T:System.Threading.Tasks.Task{System.String[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string[]>
+  nameWithType: Task<string[]>
+  fullName: System.Threading.Tasks.Task<string[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPathsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPathsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_SetXsrfPathsAsync_System_String_System_String___System_Threading_CancellationToken_
+  name: SetXsrfPathsAsync
+  nameWithType: IPreferenceAgent.SetXsrfPathsAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPathsAsync
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPaths*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPaths
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionAsync
   isExternal: true
-  name: SetXsrfPaths
-  nameWithType: IPreferenceAgent.SetXsrfPaths
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPaths
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescription*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescription
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetPreferenceDescriptionAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetPreferenceDescriptionAsync
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionAsync
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKeyAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKeyAsync
   isExternal: true
-  name: GetPreferenceDescription
-  nameWithType: IPreferenceAgent.GetPreferenceDescription
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescription
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKey*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKey
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetFromSectionAndKeyAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: GetFromSectionAndKeyAsync
+  nameWithType: IPreferenceAgent.GetFromSectionAndKeyAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKeyAsync
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetAllAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetAllAsync
   isExternal: true
-  name: GetFromSectionAndKey
-  nameWithType: IPreferenceAgent.GetFromSectionAndKey
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKey
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetAll*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetAll
-  isExternal: true
-  name: GetAll
-  nameWithType: IPreferenceAgent.GetAll
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetAll
-- uid: SuperOffice.CRM.Services.PreferenceDescription[]
-  isExternal: true
-  name: PreferenceDescription[]
-  nameWithType: PreferenceDescription[]
-  fullName: SuperOffice.CRM.Services.PreferenceDescription[]
-  nameWithType.vb: PreferenceDescription()
-  fullName.vb: SuperOffice.CRM.Services.PreferenceDescription()
-  name.vb: PreferenceDescription()
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetAllAsync_System_Threading_CancellationToken_
+  name: GetAllAsync
+  nameWithType: IPreferenceAgent.GetAllAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetAllAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescription[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescription[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PreferenceDescription[]>
+  nameWithType: Task<PreferenceDescription[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PreferenceDescription[]>
+  nameWithType.vb: Task(Of PreferenceDescription())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PreferenceDescription())
+  name.vb: Task(Of PreferenceDescription())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.CRM.Services.PreferenceDescription
     name: PreferenceDescription
-    nameWithType: PreferenceDescription
-    fullName: SuperOffice.CRM.Services.PreferenceDescription
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.PreferenceDescription.html
+  - name: '['
+  - name: ']'
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Services.PreferenceDescription
     name: PreferenceDescription
-    nameWithType: PreferenceDescription
-    fullName: SuperOffice.CRM.Services.PreferenceDescription
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSection*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSection
+    href: SuperOffice.CRM.Services.PreferenceDescription.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSectionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSectionAsync
   isExternal: true
-  name: GetAllFromSection
-  nameWithType: IPreferenceAgent.GetAllFromSection
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSection
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetAllFromSectionAsync_System_String_System_Threading_CancellationToken_
+  name: GetAllFromSectionAsync
+  nameWithType: IPreferenceAgent.GetAllFromSectionAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSectionAsync
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKeyAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKeyAsync
   isExternal: true
-  name: SaveFromSectionAndKey
-  nameWithType: IPreferenceAgent.SaveFromSectionAndKey
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_SaveFromSectionAndKeyAsync_System_String_System_String_SuperOffice_CRM_Services_PreferenceDescription_System_Threading_CancellationToken_
+  name: SaveFromSectionAndKeyAsync
+  nameWithType: IPreferenceAgent.SaveFromSectionAndKeyAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKeyAsync
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKeyAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKeyAsync
   isExternal: true
-  name: DeleteFromSectionAndKey
-  nameWithType: IPreferenceAgent.DeleteFromSectionAndKey
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLine*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLine
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_DeleteFromSectionAndKeyAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: DeleteFromSectionAndKeyAsync
+  nameWithType: IPreferenceAgent.DeleteFromSectionAndKeyAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKeyAsync
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineAsync
   isExternal: true
-  name: GetPreferenceDescriptionLine
-  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLine
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLine
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetPreferenceDescriptionLineAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetPreferenceDescriptionLineAsync
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineAsync
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync
   isExternal: true
-  name: GetPreferenceDescriptionLineFromIdAndValue
-  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetPreferenceDescriptionLineFromIdAndValueAsync_System_Int32_System_String_System_Threading_CancellationToken_
+  name: GetPreferenceDescriptionLineFromIdAndValueAsync
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync
   isExternal: true
-  name: GetPreferenceDescriptionLinesByPrefDescId
-  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetPreferenceDescriptionLinesByPrefDescIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetPreferenceDescriptionLinesByPrefDescIdAsync
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescriptionLine[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferenceDescriptionLine[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PreferenceDescriptionLine[]>
+  nameWithType: Task<PreferenceDescriptionLine[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PreferenceDescriptionLine[]>
+  nameWithType.vb: Task(Of PreferenceDescriptionLine())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PreferenceDescriptionLine())
+  name.vb: Task(Of PreferenceDescriptionLine())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.PreferenceDescriptionLine
+    name: PreferenceDescriptionLine
+    isExternal: true
+    href: SuperOffice.CRM.Services.PreferenceDescriptionLine.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.PreferenceDescriptionLine
+    name: PreferenceDescriptionLine
+    isExternal: true
+    href: SuperOffice.CRM.Services.PreferenceDescriptionLine.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLinesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLinesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_SavePreferenceDescriptionLinesAsync_SuperOffice_CRM_Services_PreferenceDescriptionLine___System_Threading_CancellationToken_
+  name: SavePreferenceDescriptionLinesAsync
+  nameWithType: IPreferenceAgent.SavePreferenceDescriptionLinesAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLinesAsync
 - uid: SuperOffice.CRM.Services.PreferenceDescriptionLine[]
   isExternal: true
+  href: SuperOffice.CRM.Services.PreferenceDescriptionLine.html
   name: PreferenceDescriptionLine[]
   nameWithType: PreferenceDescriptionLine[]
   fullName: SuperOffice.CRM.Services.PreferenceDescriptionLine[]
@@ -1543,53 +2119,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.PreferenceDescriptionLine
     name: PreferenceDescriptionLine
-    nameWithType: PreferenceDescriptionLine
-    fullName: SuperOffice.CRM.Services.PreferenceDescriptionLine
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.PreferenceDescriptionLine.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.PreferenceDescriptionLine
     name: PreferenceDescriptionLine
-    nameWithType: PreferenceDescriptionLine
-    fullName: SuperOffice.CRM.Services.PreferenceDescriptionLine
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLines*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLines
+    href: SuperOffice.CRM.Services.PreferenceDescriptionLine.html
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync
   isExternal: true
-  name: SavePreferenceDescriptionLines
-  nameWithType: IPreferenceAgent.SavePreferenceDescriptionLines
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionLines
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLines*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLines
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_DeletePreferenceDescriptionLinesAsync_System_Int32___System_Threading_CancellationToken_
+  name: DeletePreferenceDescriptionLinesAsync
+  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLinesAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync
   isExternal: true
-  name: DeletePreferenceDescriptionLines
-  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLines
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLines
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescId*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescId
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_DeletePrefDescLinesByPrefDescIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeletePrefDescLinesByPrefDescIdAsync
+  nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync
   isExternal: true
-  name: DeletePrefDescLinesByPrefDescId
-  nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescId
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescId
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIds*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIds
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_DeletePrefDescLinesByPrefDescIdsAsync_System_Int32___System_Threading_CancellationToken_
+  name: DeletePrefDescLinesByPrefDescIdsAsync
+  nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesAsync
   isExternal: true
-  name: DeletePrefDescLinesByPrefDescIds
-  nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIds
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescIds
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences
-  isExternal: true
-  name: GetPreferences
-  nameWithType: IPreferenceAgent.GetPreferences
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetPreferencesAsync_SuperOffice_CRM_Services_PreferenceSpec___System_Threading_CancellationToken_
+  name: GetPreferencesAsync
+  nameWithType: IPreferenceAgent.GetPreferencesAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesAsync
 - uid: SuperOffice.CRM.Services.PreferenceSpec[]
   isExternal: true
+  href: SuperOffice.CRM.Services.PreferenceSpec.html
   name: PreferenceSpec[]
   nameWithType: PreferenceSpec[]
   fullName: SuperOffice.CRM.Services.PreferenceSpec[]
@@ -1599,23 +2170,66 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.PreferenceSpec
     name: PreferenceSpec
-    nameWithType: PreferenceSpec
-    fullName: SuperOffice.CRM.Services.PreferenceSpec
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.PreferenceSpec.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.PreferenceSpec
     name: PreferenceSpec
-    nameWithType: PreferenceSpec
-    fullName: SuperOffice.CRM.Services.PreferenceSpec
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.PreferenceSpec.html
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Preference[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Preference[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Preference[]>
+  nameWithType: Task<Preference[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Preference[]>
+  nameWithType.vb: Task(Of Preference())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Preference())
+  name.vb: Task(Of Preference())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.Preference
+    name: Preference
+    isExternal: true
+    href: SuperOffice.CRM.Services.Preference.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.Preference
+    name: Preference
+    isExternal: true
+    href: SuperOffice.CRM.Services.Preference.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferencesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferencesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_SavePreferencesAsync_SuperOffice_CRM_Services_Preference___System_Threading_CancellationToken_
+  name: SavePreferencesAsync
+  nameWithType: IPreferenceAgent.SavePreferencesAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferencesAsync
 - uid: SuperOffice.CRM.Services.Preference[]
   isExternal: true
+  href: SuperOffice.CRM.Services.Preference.html
   name: Preference[]
   nameWithType: Preference[]
   fullName: SuperOffice.CRM.Services.Preference[]
@@ -1625,41 +2239,80 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.Preference
     name: Preference
-    nameWithType: Preference
-    fullName: SuperOffice.CRM.Services.Preference
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.Preference.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.Preference
     name: Preference
-    nameWithType: Preference
-    fullName: SuperOffice.CRM.Services.Preference
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences
+    href: SuperOffice.CRM.Services.Preference.html
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync
   isExternal: true
-  name: SavePreferences
-  nameWithType: IPreferenceAgent.SavePreferences
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetPreferencesWithDisplayValuesAsync_SuperOffice_CRM_Services_PreferenceSpec___System_Threading_CancellationToken_
+  name: GetPreferencesWithDisplayValuesAsync
+  nameWithType: IPreferenceAgent.GetPreferencesWithDisplayValuesAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrdersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrdersAsync
   isExternal: true
-  name: GetPreferencesWithDisplayValues
-  nameWithType: IPreferenceAgent.GetPreferencesWithDisplayValues
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrders*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrders
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetTabOrdersAsync_System_Threading_CancellationToken_
+  name: GetTabOrdersAsync
+  nameWithType: IPreferenceAgent.GetTabOrdersAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrdersAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TabOrder[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TabOrder[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TabOrder[]>
+  nameWithType: Task<TabOrder[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TabOrder[]>
+  nameWithType.vb: Task(Of TabOrder())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TabOrder())
+  name.vb: Task(Of TabOrder())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.TabOrder
+    name: TabOrder
+    isExternal: true
+    href: SuperOffice.CRM.Services.TabOrder.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TabOrder
+    name: TabOrder
+    isExternal: true
+    href: SuperOffice.CRM.Services.TabOrder.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrdersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrdersAsync
   isExternal: true
-  name: GetTabOrders
-  nameWithType: IPreferenceAgent.GetTabOrders
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrders
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_SaveTabOrdersAsync_SuperOffice_CRM_Services_TabOrder___System_Threading_CancellationToken_
+  name: SaveTabOrdersAsync
+  nameWithType: IPreferenceAgent.SaveTabOrdersAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrdersAsync
 - uid: SuperOffice.CRM.Services.TabOrder[]
   isExternal: true
+  href: SuperOffice.CRM.Services.TabOrder.html
   name: TabOrder[]
   nameWithType: TabOrder[]
   fullName: SuperOffice.CRM.Services.TabOrder[]
@@ -1669,30 +2322,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.TabOrder
     name: TabOrder
-    nameWithType: TabOrder
-    fullName: SuperOffice.CRM.Services.TabOrder
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.TabOrder.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.TabOrder
     name: TabOrder
-    nameWithType: TabOrder
-    fullName: SuperOffice.CRM.Services.TabOrder
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders
+    href: SuperOffice.CRM.Services.TabOrder.html
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntitiesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntitiesAsync
   isExternal: true
-  name: SaveTabOrders
-  nameWithType: IPreferenceAgent.SaveTabOrders
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders
-- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities*
-  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities
-  isExternal: true
-  name: SavePreferenceEntities
-  nameWithType: IPreferenceAgent.SavePreferenceEntities
-  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_SavePreferenceEntitiesAsync_SuperOffice_CRM_Services_Preference___System_Boolean_System_Threading_CancellationToken_
+  name: SavePreferenceEntitiesAsync
+  nameWithType: IPreferenceAgent.SavePreferenceEntitiesAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntitiesAsync

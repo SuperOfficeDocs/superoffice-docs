@@ -5,15 +5,16 @@ items:
   id: BulkUpdateAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.BulkUpdateAgent.#ctor
-  - SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
-  - SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
-  - SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFields(System.String)
-  - SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
-  - SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJson
-  - SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFields(System.String,System.String)
-  - SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFields(System.String,System.String)
-  - SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
+  - SuperOffice.CRM.Services.BulkUpdateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.BulkUpdateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIdsAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionIdAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFieldsAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -21,92 +22,141 @@ items:
   nameWithType: BulkUpdateAgent
   fullName: SuperOffice.CRM.Services.BulkUpdateAgent
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nFacade for the BulkUpdate Agent\nAgent used for bulk update methods\n"
-  example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (BulkUpdateAgent agent = new BulkUpdateAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  summary: >-
+    Proxy class for the BulkUpdate Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
   syntax:
-    content: 'public class BulkUpdateAgent : AgentBase<IBulkUpdateAgent>, IDisposable, IBulkUpdateAgent, IAgent'
-    content.vb: >-
-      Public Class BulkUpdateAgent
-          Inherits AgentBase(Of IBulkUpdateAgent)
-          Implements IDisposable, IBulkUpdateAgent, IAgent
+    content: 'public class BulkUpdateAgent : IBulkUpdateAgent, IAgent'
+    content.vb: Public Class BulkUpdateAgent Implements IBulkUpdateAgent, IAgent
   inheritance:
   - System.Object
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}
   implements:
-  - System.IDisposable
   - SuperOffice.CRM.Services.IBulkUpdateAgent
   - SuperOffice.CRM.Services.IAgent
   inheritedMembers:
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}.Dispose
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}.InnerAgent
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFields(System.String)
-  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFields(System.String)
-  id: GetAvailableFields(System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.BulkUpdateAgent
   langs:
   - csharp
   - vb
-  name: GetAvailableFields(String)
-  nameWithType: BulkUpdateAgent.GetAvailableFields(String)
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFields(System.String)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
+  name: BulkUpdateAgent(IFieldValueInfoImplementation, ISoRequestItemsAccessor)
+  nameWithType: BulkUpdateAgent.BulkUpdateAgent(IFieldValueInfoImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.BulkUpdateAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet all available fields for a given tablename/entity\n"
   syntax:
-    content: public FieldValueInfo[] GetAvailableFields(string tablename)
+    content: public BulkUpdateAgent(IFieldValueInfoImplementation fieldValueInfoImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: fieldValueInfoImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(fieldValueInfoImplementation As IFieldValueInfoImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.#ctor*
+  nameWithType.vb: BulkUpdateAgent.New(IFieldValueInfoImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.BulkUpdateAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IFieldValueInfoImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  parent: SuperOffice.CRM.Services.BulkUpdateAgent
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdateAgent(IFieldValueInfoImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: BulkUpdateAgent.BulkUpdateAgent(IFieldValueInfoImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.BulkUpdateAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public BulkUpdateAgent(IFieldValueInfoImplementation fieldValueInfoImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: fieldValueInfoImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(fieldValueInfoImplementation As IFieldValueInfoImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.#ctor*
+  nameWithType.vb: BulkUpdateAgent.New(IFieldValueInfoImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.BulkUpdateAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IFieldValueInfoImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFieldsAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFieldsAsync(System.String,System.Threading.CancellationToken)
+  id: GetAvailableFieldsAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.BulkUpdateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableFieldsAsync(string, CancellationToken)
+  nameWithType: BulkUpdateAgent.GetAvailableFieldsAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFieldsAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Get all available fields for a given tablename/entity
+  example: []
+  syntax:
+    content: public Task<FieldValueInfo[]> GetAvailableFieldsAsync(string tablename, CancellationToken cancellationToken = default)
     parameters:
     - id: tablename
       type: System.String
       description: The name of the wanted tablename
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.FieldValueInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FieldValueInfo[]}
       description: Returns array of the available fields for the given entity
-    content.vb: Public Function GetAvailableFields(tablename As String) As FieldValueInfo()
-  overload: SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFields*
+    content.vb: Public Function GetAvailableFieldsAsync(tablename As String, cancellationToken As CancellationToken = Nothing) As Task(Of FieldValueInfo())
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFieldsAsync*
   implements:
-  - SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFields(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFields(System.String,System.String)
-  id: GetStoredFields(System.String,System.String)
+  - SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFieldsAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: BulkUpdateAgent.GetAvailableFieldsAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFieldsAsync(String, System.Threading.CancellationToken)
+  name.vb: GetAvailableFieldsAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: GetStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BulkUpdateAgent
   langs:
   - csharp
   - vb
-  name: GetStoredFields(String, String)
-  nameWithType: BulkUpdateAgent.GetStoredFields(String, String)
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFields(System.String, System.String)
+  name: GetStoredFieldsAsync(string, string, CancellationToken)
+  nameWithType: BulkUpdateAgent.GetStoredFieldsAsync(string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFieldsAsync(string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet all stored fields for a given tablename/entity and context\n"
+  summary: Get all stored fields for a given tablename/entity and context
+  example: []
   syntax:
-    content: public FieldValueInfo[] GetStoredFields(string tablename, string context)
+    content: public Task<FieldValueInfo[]> GetStoredFieldsAsync(string tablename, string context, CancellationToken cancellationToken = default)
     parameters:
     - id: tablename
       type: System.String
@@ -114,37 +164,37 @@ items:
     - id: context
       type: System.String
       description: Where is the function called for
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.FieldValueInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FieldValueInfo[]}
       description: Returns array of the stored or default fields for the given entity
-    content.vb: Public Function GetStoredFields(tablename As String, context As String) As FieldValueInfo()
-  overload: SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFields*
+    content.vb: Public Function GetStoredFieldsAsync(tablename As String, context As String, cancellationToken As CancellationToken = Nothing) As Task(Of FieldValueInfo())
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFieldsAsync*
   implements:
-  - SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(System.String,System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
-  id: ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
+  - SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: BulkUpdateAgent.GetStoredFieldsAsync(String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFieldsAsync(String, String, System.Threading.CancellationToken)
+  name.vb: GetStoredFieldsAsync(String, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionIdAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionIdAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean,System.Threading.CancellationToken)
+  id: ExecuteBySelectionIdAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BulkUpdateAgent
   langs:
   - csharp
   - vb
-  name: ExecuteBySelectionId(FieldValueInfo[], String, String, Int32, Boolean)
-  nameWithType: BulkUpdateAgent.ExecuteBySelectionId(FieldValueInfo[], String, String, Int32, Boolean)
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[], System.String, System.String, System.Int32, System.Boolean)
+  name: ExecuteBySelectionIdAsync(FieldValueInfo[], string, string, int, bool, CancellationToken)
+  nameWithType: BulkUpdateAgent.ExecuteBySelectionIdAsync(FieldValueInfo[], string, string, int, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionIdAsync(SuperOffice.CRM.Services.FieldValueInfo[], string, string, int, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nDo the batchupdate on this selection\n"
+  summary: Do the batchupdate on this selection
+  example: []
   syntax:
-    content: public int ExecuteBySelectionId(FieldValueInfo[] fieldValueInfos, string tableName, string context, int selectionId, bool isShadow)
+    content: public Task<int> ExecuteBySelectionIdAsync(FieldValueInfo[] fieldValueInfos, string tableName, string context, int selectionId, bool isShadow, CancellationToken cancellationToken = default)
     parameters:
     - id: fieldValueInfos
       type: SuperOffice.CRM.Services.FieldValueInfo[]
@@ -161,40 +211,37 @@ items:
     - id: isShadow
       type: System.Boolean
       description: Use the shadow selection
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Return batchtaskinfoid
-    content.vb: Public Function ExecuteBySelectionId(fieldValueInfos As FieldValueInfo(), tableName As String, context As String, selectionId As Integer, isShadow As Boolean) As Integer
-  overload: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId*
+    content.vb: Public Function ExecuteBySelectionIdAsync(fieldValueInfos As FieldValueInfo(), tableName As String, context As String, selectionId As Integer, isShadow As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionIdAsync*
   implements:
-  - SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
-  nameWithType.vb: BulkUpdateAgent.ExecuteBySelectionId(FieldValueInfo(), String, String, Int32, Boolean)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo(), System.String, System.String, System.Int32, System.Boolean)
-  name.vb: ExecuteBySelectionId(FieldValueInfo(), String, String, Int32, Boolean)
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
-  id: ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionIdAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: BulkUpdateAgent.ExecuteBySelectionIdAsync(FieldValueInfo(), String, String, Integer, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionIdAsync(SuperOffice.CRM.Services.FieldValueInfo(), String, String, Integer, Boolean, System.Threading.CancellationToken)
+  name.vb: ExecuteBySelectionIdAsync(FieldValueInfo(), String, String, Integer, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIdsAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIdsAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: ExecuteByEntityIdsAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BulkUpdateAgent
   langs:
   - csharp
   - vb
-  name: ExecuteByEntityIds(FieldValueInfo[], String, String, String)
-  nameWithType: BulkUpdateAgent.ExecuteByEntityIds(FieldValueInfo[], String, String, String)
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[], System.String, System.String, System.String)
+  name: ExecuteByEntityIdsAsync(FieldValueInfo[], string, string, string, CancellationToken)
+  nameWithType: BulkUpdateAgent.ExecuteByEntityIdsAsync(FieldValueInfo[], string, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIdsAsync(SuperOffice.CRM.Services.FieldValueInfo[], string, string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nDo the batchupdate on selected\n"
+  summary: Do the batchupdate on selected
+  example: []
   syntax:
-    content: public int ExecuteByEntityIds(FieldValueInfo[] fieldValueInfos, string tableName, string context, string ids)
+    content: public Task<int> ExecuteByEntityIdsAsync(FieldValueInfo[] fieldValueInfos, string tableName, string context, string ids, CancellationToken cancellationToken = default)
     parameters:
     - id: fieldValueInfos
       type: SuperOffice.CRM.Services.FieldValueInfo[]
@@ -208,71 +255,66 @@ items:
     - id: ids
       type: System.String
       description: Comma separated string of the ids of the entities to update
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Return batchtaskinfoid
-    content.vb: Public Function ExecuteByEntityIds(fieldValueInfos As FieldValueInfo(), tableName As String, context As String, ids As String) As Integer
-  overload: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds*
+    content.vb: Public Function ExecuteByEntityIdsAsync(fieldValueInfos As FieldValueInfo(), tableName As String, context As String, ids As String, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIdsAsync*
   implements:
-  - SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
-  nameWithType.vb: BulkUpdateAgent.ExecuteByEntityIds(FieldValueInfo(), String, String, String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo(), System.String, System.String, System.String)
-  name.vb: ExecuteByEntityIds(FieldValueInfo(), String, String, String)
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJson
-  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJson
-  id: GetJobResultsFromStorageAsJson
+  - SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIdsAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: BulkUpdateAgent.ExecuteByEntityIdsAsync(FieldValueInfo(), String, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIdsAsync(SuperOffice.CRM.Services.FieldValueInfo(), String, String, String, System.Threading.CancellationToken)
+  name.vb: ExecuteByEntityIdsAsync(FieldValueInfo(), String, String, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync(System.Threading.CancellationToken)
+  id: GetJobResultsFromStorageAsJsonAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BulkUpdateAgent
   langs:
   - csharp
   - vb
-  name: GetJobResultsFromStorageAsJson()
-  nameWithType: BulkUpdateAgent.GetJobResultsFromStorageAsJson()
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJson()
+  name: GetJobResultsFromStorageAsJsonAsync(CancellationToken)
+  nameWithType: BulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet result of the batchupdate job\n"
+  summary: Get result of the batchupdate job
+  example: []
   syntax:
-    content: public string[] GetJobResultsFromStorageAsJson()
+    content: public Task<string[]> GetJobResultsFromStorageAsJsonAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.String[]
+      type: System.Threading.Tasks.Task{System.String[]}
       description: Result of job as json
-    content.vb: Public Function GetJobResultsFromStorageAsJson As String()
-  overload: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJson*
+    content.vb: Public Function GetJobResultsFromStorageAsJsonAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String())
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync*
   implements:
-  - SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFields(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFields(System.String,System.String)
-  id: RemoveStoredFields(System.String,System.String)
+  - SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: RemoveStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BulkUpdateAgent
   langs:
   - csharp
   - vb
-  name: RemoveStoredFields(String, String)
-  nameWithType: BulkUpdateAgent.RemoveStoredFields(String, String)
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFields(System.String, System.String)
+  name: RemoveStoredFieldsAsync(string, string, CancellationToken)
+  nameWithType: BulkUpdateAgent.RemoveStoredFieldsAsync(string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAsync(string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nRemove the stored settings of the bulk update for this table from this context\n"
+  summary: Remove the stored settings of the bulk update for this table from this context
+  example: []
   syntax:
-    content: public bool RemoveStoredFields(string tableName, string context)
+    content: public Task<bool> RemoveStoredFieldsAsync(string tableName, string context, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
@@ -280,36 +322,37 @@ items:
     - id: context
       type: System.String
       description: Where is the function called from that we will remove the settings from
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Boolean
-    content.vb: Public Function RemoveStoredFields(tableName As String, context As String) As Boolean
-  overload: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFields*
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
+    content.vb: Public Function RemoveStoredFieldsAsync(tableName As String, context As String, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAsync*
   implements:
-  - SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(System.String,System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
-  id: RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
+  - SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: BulkUpdateAgent.RemoveStoredFieldsAsync(String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAsync(String, String, System.Threading.CancellationToken)
+  name.vb: RemoveStoredFieldsAsync(String, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: RemoveStoredFieldsAndGetDefaultFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BulkUpdateAgent
   langs:
   - csharp
   - vb
-  name: RemoveStoredFieldsAndGetDefaultFields(String, String)
-  nameWithType: BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(String, String)
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String, System.String)
+  name: RemoveStoredFieldsAndGetDefaultFieldsAsync(string, string, CancellationToken)
+  nameWithType: BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync(string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync(string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nRemove the stored settings of the bulk update for this table from this context, to get the default settings instead\n"
+  summary: Remove the stored settings of the bulk update for this table from this context, to get the default settings instead
+  example: []
   syntax:
-    content: public FieldValueInfo[] RemoveStoredFieldsAndGetDefaultFields(string tableName, string context)
+    content: public Task<FieldValueInfo[]> RemoveStoredFieldsAndGetDefaultFieldsAsync(string tableName, string context, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
@@ -317,37 +360,37 @@ items:
     - id: context
       type: System.String
       description: Where is the function called from that we will remove the settings from
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.FieldValueInfo[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FieldValueInfo[]}
       description: Returns array of the available fields for the given tablename
-    content.vb: Public Function RemoveStoredFieldsAndGetDefaultFields(tableName As String, context As String) As FieldValueInfo()
-  overload: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields*
+    content.vb: Public Function RemoveStoredFieldsAndGetDefaultFieldsAsync(tableName As String, context As String, cancellationToken As CancellationToken = Nothing) As Task(Of FieldValueInfo())
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync*
   implements:
-  - SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
-  id: GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
+  - SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync(String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync(String, String, System.Threading.CancellationToken)
+  name.vb: RemoveStoredFieldsAndGetDefaultFieldsAsync(String, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: GetJobResultAsJsonFromBinaryObjectIdAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.BulkUpdateAgent
   langs:
   - csharp
   - vb
-  name: GetJobResultAsJsonFromBinaryObjectId(String, Int32)
-  nameWithType: BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(String, Int32)
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String, System.Int32)
+  name: GetJobResultAsJsonFromBinaryObjectIdAsync(string, int, CancellationToken)
+  nameWithType: BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync(string, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet result of the batchupdate job\n"
+  summary: Get result of the batchupdate job
+  example: []
   syntax:
-    content: public string GetJobResultAsJsonFromBinaryObjectId(string tableName, int binaryObjectId)
+    content: public Task<string> GetJobResultAsJsonFromBinaryObjectIdAsync(string tableName, int binaryObjectId, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
@@ -355,102 +398,73 @@ items:
     - id: binaryObjectId
       type: System.Int32
       description: Which binaryobject id has stored the job result
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Result of job as json
-    content.vb: Public Function GetJobResultAsJsonFromBinaryObjectId(tableName As String, binaryObjectId As Integer) As String
-  overload: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId*
+    content.vb: Public Function GetJobResultAsJsonFromBinaryObjectIdAsync(tableName As String, binaryObjectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync*
   implements:
-  - SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.#ctor
-  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Services.BulkUpdateAgent
-  langs:
-  - csharp
-  - vb
-  name: BulkUpdateAgent()
-  nameWithType: BulkUpdateAgent.BulkUpdateAgent()
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.BulkUpdateAgent()
-  type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  syntax:
-    content: public BulkUpdateAgent()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Services.BulkUpdateAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: GetJobResultAsJsonFromBinaryObjectIdAsync(String, Integer, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}
-  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}
-  parent: SuperOffice.CRM.Services
-  definition: SuperOffice.CRM.Services.AgentBase`1
-  name: AgentBase<IBulkUpdateAgent>
-  nameWithType: AgentBase<IBulkUpdateAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBulkUpdateAgent>
-  nameWithType.vb: AgentBase(Of IBulkUpdateAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBulkUpdateAgent)
-  name.vb: AgentBase(Of IBulkUpdateAgent)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent
-    name: IBulkUpdateAgent
-    nameWithType: IBulkUpdateAgent
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent
-    name: IBulkUpdateAgent
-    nameWithType: IBulkUpdateAgent
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IDisposable
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent
   commentId: T:SuperOffice.CRM.Services.IBulkUpdateAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IBulkUpdateAgent.html
   name: IBulkUpdateAgent
   nameWithType: IBulkUpdateAgent
   fullName: SuperOffice.CRM.Services.IBulkUpdateAgent
@@ -458,186 +472,701 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}.Dispose
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  name: Dispose()
-  nameWithType: AgentBase<IBulkUpdateAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBulkUpdateAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of IBulkUpdateAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBulkUpdateAgent).Dispose()
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<IBulkUpdateAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBulkUpdateAgent>.Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of IBulkUpdateAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBulkUpdateAgent).Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}.InnerAgent
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  name: InnerAgent
-  nameWithType: AgentBase<IBulkUpdateAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBulkUpdateAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of IBulkUpdateAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBulkUpdateAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.AgentBase`1
-  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
-  name: AgentBase<TAgent>
-  nameWithType: AgentBase<TAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
-  nameWithType.vb: AgentBase(Of TAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
-  name.vb: AgentBase(Of TAgent)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: Dispose()
-  nameWithType: AgentBase<TAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of TAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<TAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of TAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: InnerAgent
-  nameWithType: AgentBase<TAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFields*
-  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFields
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
   isExternal: true
-  name: GetAvailableFields
-  nameWithType: BulkUpdateAgent.GetAvailableFields
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFields
-- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(System.String)
-  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.BulkUpdateAgent.html#SuperOffice_CRM_Services_BulkUpdateAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IFieldValueInfoImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: BulkUpdateAgent
+  nameWithType: BulkUpdateAgent.BulkUpdateAgent
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.BulkUpdateAgent
+  nameWithType.vb: BulkUpdateAgent.New
+  fullName.vb: SuperOffice.CRM.Services.BulkUpdateAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation.html
+  name: IFieldValueInfoImplementation
+  nameWithType: IFieldValueInfoImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldValueInfoImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFieldsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFieldsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.BulkUpdateAgent.html#SuperOffice_CRM_Services_BulkUpdateAgent_GetAvailableFieldsAsync_System_String_System_Threading_CancellationToken_
+  name: GetAvailableFieldsAsync
+  nameWithType: BulkUpdateAgent.GetAvailableFieldsAsync
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFieldsAsync
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFieldsAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFieldsAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBulkUpdateAgent
   isExternal: true
-  name: GetAvailableFields(String)
-  nameWithType: IBulkUpdateAgent.GetAvailableFields(String)
-  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetAvailableFieldsAsync(string, CancellationToken)
+  nameWithType: IBulkUpdateAgent.GetAvailableFieldsAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFieldsAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: IBulkUpdateAgent.GetAvailableFieldsAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFieldsAsync(String, System.Threading.CancellationToken)
+  name.vb: GetAvailableFieldsAsync(String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(System.String)
-    name: GetAvailableFields
-    nameWithType: IBulkUpdateAgent.GetAvailableFields
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFieldsAsync(System.String,System.Threading.CancellationToken)
+    name: GetAvailableFieldsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(System.String)
-    name: GetAvailableFields
-    nameWithType: IBulkUpdateAgent.GetAvailableFields
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFieldsAsync(System.String,System.Threading.CancellationToken)
+    name: GetAvailableFieldsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FieldValueInfo[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FieldValueInfo[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FieldValueInfo[]>
+  nameWithType: Task<FieldValueInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FieldValueInfo[]>
+  nameWithType.vb: Task(Of FieldValueInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FieldValueInfo())
+  name.vb: Task(Of FieldValueInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.FieldValueInfo
+    name: FieldValueInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.FieldValueInfo.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.FieldValueInfo
+    name: FieldValueInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.FieldValueInfo.html
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFieldsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFieldsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.BulkUpdateAgent.html#SuperOffice_CRM_Services_BulkUpdateAgent_GetStoredFieldsAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: GetStoredFieldsAsync
+  nameWithType: BulkUpdateAgent.GetStoredFieldsAsync
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFieldsAsync
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBulkUpdateAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetStoredFieldsAsync(string, string, CancellationToken)
+  nameWithType: IBulkUpdateAgent.GetStoredFieldsAsync(string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFieldsAsync(string, string, System.Threading.CancellationToken)
+  nameWithType.vb: IBulkUpdateAgent.GetStoredFieldsAsync(String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFieldsAsync(String, String, System.Threading.CancellationToken)
+  name.vb: GetStoredFieldsAsync(String, String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: GetStoredFieldsAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: GetStoredFieldsAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.BulkUpdateAgent.html#SuperOffice_CRM_Services_BulkUpdateAgent_ExecuteBySelectionIdAsync_SuperOffice_CRM_Services_FieldValueInfo___System_String_System_String_System_Int32_System_Boolean_System_Threading_CancellationToken_
+  name: ExecuteBySelectionIdAsync
+  nameWithType: BulkUpdateAgent.ExecuteBySelectionIdAsync
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionIdAsync
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionIdAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionIdAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBulkUpdateAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ExecuteBySelectionIdAsync(FieldValueInfo[], string, string, int, bool, CancellationToken)
+  nameWithType: IBulkUpdateAgent.ExecuteBySelectionIdAsync(FieldValueInfo[], string, string, int, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionIdAsync(SuperOffice.CRM.Services.FieldValueInfo[], string, string, int, bool, System.Threading.CancellationToken)
+  nameWithType.vb: IBulkUpdateAgent.ExecuteBySelectionIdAsync(FieldValueInfo(), String, String, Integer, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionIdAsync(SuperOffice.CRM.Services.FieldValueInfo(), String, String, Integer, Boolean, System.Threading.CancellationToken)
+  name.vb: ExecuteBySelectionIdAsync(FieldValueInfo(), String, String, Integer, Boolean, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionIdAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean,System.Threading.CancellationToken)
+    name: ExecuteBySelectionIdAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.FieldValueInfo
+    name: FieldValueInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionIdAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean,System.Threading.CancellationToken)
+    name: ExecuteBySelectionIdAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.FieldValueInfo
+    name: FieldValueInfo
+    isExternal: true
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.CRM.Services.FieldValueInfo[]
   isExternal: true
+  href: SuperOffice.CRM.Services.FieldValueInfo.html
   name: FieldValueInfo[]
   nameWithType: FieldValueInfo[]
   fullName: SuperOffice.CRM.Services.FieldValueInfo[]
@@ -647,583 +1176,489 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.FieldValueInfo
     name: FieldValueInfo
-    nameWithType: FieldValueInfo
-    fullName: SuperOffice.CRM.Services.FieldValueInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.FieldValueInfo.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.FieldValueInfo
     name: FieldValueInfo
-    nameWithType: FieldValueInfo
-    fullName: SuperOffice.CRM.Services.FieldValueInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFields*
-  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFields
-  isExternal: true
-  name: GetStoredFields
-  nameWithType: BulkUpdateAgent.GetStoredFields
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFields
-- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(System.String,System.String)
-  parent: SuperOffice.CRM.Services.IBulkUpdateAgent
-  isExternal: true
-  name: GetStoredFields(String, String)
-  nameWithType: IBulkUpdateAgent.GetStoredFields(String, String)
-  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(System.String, System.String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(System.String,System.String)
-    name: GetStoredFields
-    nameWithType: IBulkUpdateAgent.GetStoredFields
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields
-    isExternal: true
+    href: SuperOffice.CRM.Services.FieldValueInfo.html
   - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(System.String,System.String)
-    name: GetStoredFields
-    nameWithType: IBulkUpdateAgent.GetStoredFields
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId*
-  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId
-  isExternal: true
-  name: ExecuteBySelectionId
-  nameWithType: BulkUpdateAgent.ExecuteBySelectionId
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId
-- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
-  parent: SuperOffice.CRM.Services.IBulkUpdateAgent
-  isExternal: true
-  name: ExecuteBySelectionId(FieldValueInfo[], String, String, Int32, Boolean)
-  nameWithType: IBulkUpdateAgent.ExecuteBySelectionId(FieldValueInfo[], String, String, Int32, Boolean)
-  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[], System.String, System.String, System.Int32, System.Boolean)
-  nameWithType.vb: IBulkUpdateAgent.ExecuteBySelectionId(FieldValueInfo(), String, String, Int32, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo(), System.String, System.String, System.Int32, System.Boolean)
-  name.vb: ExecuteBySelectionId(FieldValueInfo(), String, String, Int32, Boolean)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
-    name: ExecuteBySelectionId
-    nameWithType: IBulkUpdateAgent.ExecuteBySelectionId
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Services.FieldValueInfo
-    name: FieldValueInfo
-    nameWithType: FieldValueInfo
-    fullName: SuperOffice.CRM.Services.FieldValueInfo
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
-    name: ExecuteBySelectionId
-    nameWithType: IBulkUpdateAgent.ExecuteBySelectionId
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Services.FieldValueInfo
-    name: FieldValueInfo
-    nameWithType: FieldValueInfo
-    fullName: SuperOffice.CRM.Services.FieldValueInfo
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds*
-  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIdsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIdsAsync
   isExternal: true
-  name: ExecuteByEntityIds
-  nameWithType: BulkUpdateAgent.ExecuteByEntityIds
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds
-- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
+  href: SuperOffice.CRM.Services.BulkUpdateAgent.html#SuperOffice_CRM_Services_BulkUpdateAgent_ExecuteByEntityIdsAsync_SuperOffice_CRM_Services_FieldValueInfo___System_String_System_String_System_String_System_Threading_CancellationToken_
+  name: ExecuteByEntityIdsAsync
+  nameWithType: BulkUpdateAgent.ExecuteByEntityIdsAsync
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIdsAsync
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIdsAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIdsAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBulkUpdateAgent
   isExternal: true
-  name: ExecuteByEntityIds(FieldValueInfo[], String, String, String)
-  nameWithType: IBulkUpdateAgent.ExecuteByEntityIds(FieldValueInfo[], String, String, String)
-  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[], System.String, System.String, System.String)
-  nameWithType.vb: IBulkUpdateAgent.ExecuteByEntityIds(FieldValueInfo(), String, String, String)
-  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo(), System.String, System.String, System.String)
-  name.vb: ExecuteByEntityIds(FieldValueInfo(), String, String, String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ExecuteByEntityIdsAsync(FieldValueInfo[], string, string, string, CancellationToken)
+  nameWithType: IBulkUpdateAgent.ExecuteByEntityIdsAsync(FieldValueInfo[], string, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIdsAsync(SuperOffice.CRM.Services.FieldValueInfo[], string, string, string, System.Threading.CancellationToken)
+  nameWithType.vb: IBulkUpdateAgent.ExecuteByEntityIdsAsync(FieldValueInfo(), String, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIdsAsync(SuperOffice.CRM.Services.FieldValueInfo(), String, String, String, System.Threading.CancellationToken)
+  name.vb: ExecuteByEntityIdsAsync(FieldValueInfo(), String, String, String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
-    name: ExecuteByEntityIds
-    nameWithType: IBulkUpdateAgent.ExecuteByEntityIds
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIdsAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String,System.Threading.CancellationToken)
+    name: ExecuteByEntityIdsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.FieldValueInfo
     name: FieldValueInfo
-    nameWithType: FieldValueInfo
-    fullName: SuperOffice.CRM.Services.FieldValueInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
-    name: ExecuteByEntityIds
-    nameWithType: IBulkUpdateAgent.ExecuteByEntityIds
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIdsAsync(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String,System.Threading.CancellationToken)
+    name: ExecuteByEntityIdsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.FieldValueInfo
     name: FieldValueInfo
-    nameWithType: FieldValueInfo
-    fullName: SuperOffice.CRM.Services.FieldValueInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJson*
-  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJson
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync
   isExternal: true
-  name: GetJobResultsFromStorageAsJson
-  nameWithType: BulkUpdateAgent.GetJobResultsFromStorageAsJson
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJson
-- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
-  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
+  href: SuperOffice.CRM.Services.BulkUpdateAgent.html#SuperOffice_CRM_Services_BulkUpdateAgent_GetJobResultsFromStorageAsJsonAsync_System_Threading_CancellationToken_
+  name: GetJobResultsFromStorageAsJsonAsync
+  nameWithType: BulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBulkUpdateAgent
   isExternal: true
-  name: GetJobResultsFromStorageAsJson()
-  nameWithType: IBulkUpdateAgent.GetJobResultsFromStorageAsJson()
-  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetJobResultsFromStorageAsJsonAsync(CancellationToken)
+  nameWithType: IBulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
-    name: GetJobResultsFromStorageAsJson
-    nameWithType: IBulkUpdateAgent.GetJobResultsFromStorageAsJson
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync(System.Threading.CancellationToken)
+    name: GetJobResultsFromStorageAsJsonAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
-    name: GetJobResultsFromStorageAsJson
-    nameWithType: IBulkUpdateAgent.GetJobResultsFromStorageAsJson
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJsonAsync(System.Threading.CancellationToken)
+    name: GetJobResultsFromStorageAsJsonAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.String[]
-  isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
-  nameWithType.vb: String()
-  fullName.vb: System.String()
-  name.vb: String()
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: T:System.Threading.Tasks.Task{System.String[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string[]>
+  nameWithType: Task<string[]>
+  fullName: System.Threading.Tasks.Task<string[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of String())
+  name.vb: Task(Of String())
   spec.csharp:
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFields*
-  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFields
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAsync
   isExternal: true
-  name: RemoveStoredFields
-  nameWithType: BulkUpdateAgent.RemoveStoredFields
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFields
-- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(System.String,System.String)
+  href: SuperOffice.CRM.Services.BulkUpdateAgent.html#SuperOffice_CRM_Services_BulkUpdateAgent_RemoveStoredFieldsAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: RemoveStoredFieldsAsync
+  nameWithType: BulkUpdateAgent.RemoveStoredFieldsAsync
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAsync
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBulkUpdateAgent
   isExternal: true
-  name: RemoveStoredFields(String, String)
-  nameWithType: IBulkUpdateAgent.RemoveStoredFields(String, String)
-  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(System.String, System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RemoveStoredFieldsAsync(string, string, CancellationToken)
+  nameWithType: IBulkUpdateAgent.RemoveStoredFieldsAsync(string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAsync(string, string, System.Threading.CancellationToken)
+  nameWithType.vb: IBulkUpdateAgent.RemoveStoredFieldsAsync(String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAsync(String, String, System.Threading.CancellationToken)
+  name.vb: RemoveStoredFieldsAsync(String, String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(System.String,System.String)
-    name: RemoveStoredFields
-    nameWithType: IBulkUpdateAgent.RemoveStoredFields
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: RemoveStoredFieldsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(System.String,System.String)
-    name: RemoveStoredFields
-    nameWithType: IBulkUpdateAgent.RemoveStoredFields
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: RemoveStoredFieldsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields*
-  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync
   isExternal: true
-  name: RemoveStoredFieldsAndGetDefaultFields
-  nameWithType: BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
-- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
+  href: SuperOffice.CRM.Services.BulkUpdateAgent.html#SuperOffice_CRM_Services_BulkUpdateAgent_RemoveStoredFieldsAndGetDefaultFieldsAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: RemoveStoredFieldsAndGetDefaultFieldsAsync
+  nameWithType: BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBulkUpdateAgent
   isExternal: true
-  name: RemoveStoredFieldsAndGetDefaultFields(String, String)
-  nameWithType: IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(String, String)
-  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String, System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RemoveStoredFieldsAndGetDefaultFieldsAsync(string, string, CancellationToken)
+  nameWithType: IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync(string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync(string, string, System.Threading.CancellationToken)
+  nameWithType.vb: IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync(String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync(String, String, System.Threading.CancellationToken)
+  name.vb: RemoveStoredFieldsAndGetDefaultFieldsAsync(String, String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
-    name: RemoveStoredFieldsAndGetDefaultFields
-    nameWithType: IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: RemoveStoredFieldsAndGetDefaultFieldsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
-    name: RemoveStoredFieldsAndGetDefaultFields
-    nameWithType: IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFieldsAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: RemoveStoredFieldsAndGetDefaultFieldsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId*
-  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync
   isExternal: true
-  name: GetJobResultAsJsonFromBinaryObjectId
-  nameWithType: BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
-- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
+  href: SuperOffice.CRM.Services.BulkUpdateAgent.html#SuperOffice_CRM_Services_BulkUpdateAgent_GetJobResultAsJsonFromBinaryObjectIdAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  name: GetJobResultAsJsonFromBinaryObjectIdAsync
+  nameWithType: BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IBulkUpdateAgent
   isExternal: true
-  name: GetJobResultAsJsonFromBinaryObjectId(String, Int32)
-  nameWithType: IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(String, Int32)
-  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String, System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetJobResultAsJsonFromBinaryObjectIdAsync(string, int, CancellationToken)
+  nameWithType: IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync(string, int, System.Threading.CancellationToken)
+  nameWithType.vb: IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: GetJobResultAsJsonFromBinaryObjectIdAsync(String, Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
-    name: GetJobResultAsJsonFromBinaryObjectId
-    nameWithType: IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: GetJobResultAsJsonFromBinaryObjectIdAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
-    name: GetJobResultAsJsonFromBinaryObjectId
-    nameWithType: IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
-    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectIdAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: GetJobResultAsJsonFromBinaryObjectIdAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.BulkUpdateAgent.#ctor*
-  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.#ctor
-  isExternal: true
-  name: BulkUpdateAgent
-  nameWithType: BulkUpdateAgent.BulkUpdateAgent
-  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.BulkUpdateAgent
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )

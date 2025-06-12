@@ -1,0 +1,361 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Dialect.IDatabaseOperationsFactory
+  commentId: T:SuperOffice.Data.Dialect.IDatabaseOperationsFactory
+  id: IDatabaseOperationsFactory
+  parent: SuperOffice.Data.Dialect
+  children:
+  - SuperOffice.Data.Dialect.IDatabaseOperationsFactory.Create(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IDatabaseOperationsFactory
+  nameWithType: IDatabaseOperationsFactory
+  fullName: SuperOffice.Data.Dialect.IDatabaseOperationsFactory
+  type: Interface
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public interface IDatabaseOperationsFactory
+    content.vb: Public Interface IDatabaseOperationsFactory
+  extensionMethods:
+  - SuperOffice.Data.Dialect.IDatabaseOperationsFactory.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Dialect.IDatabaseOperationsFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.Create(System.String,System.String)
+  commentId: M:SuperOffice.Data.Dialect.IDatabaseOperationsFactory.Create(System.String,System.String)
+  id: Create(System.String,System.String)
+  parent: SuperOffice.Data.Dialect.IDatabaseOperationsFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(string, string)
+  nameWithType: IDatabaseOperationsFactory.Create(string, string)
+  fullName: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.Create(string, string)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: IDatabaseOperations Create(string major, string minor)
+    parameters:
+    - id: major
+      type: System.String
+    - id: minor
+      type: System.String
+    return:
+      type: SuperOffice.Data.Dialect.IDatabaseOperations
+    content.vb: Function Create(major As String, minor As String) As IDatabaseOperations
+  overload: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.Create*
+  nameWithType.vb: IDatabaseOperationsFactory.Create(String, String)
+  fullName.vb: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.Create(String, String)
+  name.vb: Create(String, String)
+references:
+- uid: SuperOffice.Data.Dialect
+  commentId: N:SuperOffice.Data.Dialect
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Dialect
+  nameWithType: SuperOffice.Data.Dialect
+  fullName: SuperOffice.Data.Dialect
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dialect
+    name: Dialect
+    isExternal: true
+    href: SuperOffice.Data.Dialect.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dialect
+    name: Dialect
+    isExternal: true
+    href: SuperOffice.Data.Dialect.html
+- uid: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IDatabaseOperationsFactory, To>(IDatabaseOperationsFactory)
+  nameWithType: EnumUtil.MapEnums<IDatabaseOperationsFactory, To>(IDatabaseOperationsFactory)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.IDatabaseOperationsFactory, To>(SuperOffice.Data.Dialect.IDatabaseOperationsFactory)
+  nameWithType.vb: EnumUtil.MapEnums(Of IDatabaseOperationsFactory, To)(IDatabaseOperationsFactory)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.IDatabaseOperationsFactory, To)(SuperOffice.Data.Dialect.IDatabaseOperationsFactory)
+  name.vb: MapEnums(Of IDatabaseOperationsFactory, To)(IDatabaseOperationsFactory)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.Dialect.IDatabaseOperationsFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.Dialect.IDatabaseOperationsFactory
+    name: IDatabaseOperationsFactory
+    isExternal: true
+    href: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.Dialect.IDatabaseOperationsFactory
+    name: IDatabaseOperationsFactory
+    isExternal: true
+    href: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.Dialect.IDatabaseOperationsFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Dialect.IDatabaseOperationsFactory
+    name: IDatabaseOperationsFactory
+    isExternal: true
+    href: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.Dialect.IDatabaseOperationsFactory
+    name: IDatabaseOperationsFactory
+    isExternal: true
+    href: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.html
+  - name: )
+- uid: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IDatabaseOperationsFactory, To>(IDatabaseOperationsFactory)
+  nameWithType: Converters.MapEnums<IDatabaseOperationsFactory, To>(IDatabaseOperationsFactory)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.IDatabaseOperationsFactory, To>(SuperOffice.Data.Dialect.IDatabaseOperationsFactory)
+  nameWithType.vb: Converters.MapEnums(Of IDatabaseOperationsFactory, To)(IDatabaseOperationsFactory)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.IDatabaseOperationsFactory, To)(SuperOffice.Data.Dialect.IDatabaseOperationsFactory)
+  name.vb: MapEnums(Of IDatabaseOperationsFactory, To)(IDatabaseOperationsFactory)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.Dialect.IDatabaseOperationsFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.Dialect.IDatabaseOperationsFactory
+    name: IDatabaseOperationsFactory
+    isExternal: true
+    href: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.Dialect.IDatabaseOperationsFactory
+    name: IDatabaseOperationsFactory
+    isExternal: true
+    href: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.Dialect.IDatabaseOperationsFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Dialect.IDatabaseOperationsFactory
+    name: IDatabaseOperationsFactory
+    isExternal: true
+    href: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.Dialect.IDatabaseOperationsFactory
+    name: IDatabaseOperationsFactory
+    isExternal: true
+    href: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.Create*
+  commentId: Overload:SuperOffice.Data.Dialect.IDatabaseOperationsFactory.Create
+  isExternal: true
+  href: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.html#SuperOffice_Data_Dialect_IDatabaseOperationsFactory_Create_System_String_System_String_
+  name: Create
+  nameWithType: IDatabaseOperationsFactory.Create
+  fullName: SuperOffice.Data.Dialect.IDatabaseOperationsFactory.Create
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Data.Dialect.IDatabaseOperations
+  commentId: T:SuperOffice.Data.Dialect.IDatabaseOperations
+  parent: SuperOffice.Data.Dialect
+  isExternal: true
+  href: SuperOffice.Data.Dialect.IDatabaseOperations.html
+  name: IDatabaseOperations
+  nameWithType: IDatabaseOperations
+  fullName: SuperOffice.Data.Dialect.IDatabaseOperations
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

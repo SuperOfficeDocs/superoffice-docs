@@ -7,8 +7,8 @@ items:
   children:
   - SuperOffice.WebApi.Data.ChatSessionEntity.#ctor
   - SuperOffice.WebApi.Data.ChatSessionEntity.AlertLevel
-  - SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive
   - SuperOffice.WebApi.Data.ChatSessionEntity.ChatSessionId
+  - SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive
   - SuperOffice.WebApi.Data.ChatSessionEntity.Contact
   - SuperOffice.WebApi.Data.ChatSessionEntity.CustomerAlias
   - SuperOffice.WebApi.Data.ChatSessionEntity.CustomerCompanyName
@@ -46,24 +46,28 @@ items:
   nameWithType: ChatSessionEntity
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for ChatSessionEntity.\nChat sessions belong to a chat topic, and contain messages to/from users    \n"
-  remarks: >
-    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
+  summary: >-
+    Carrier object for ChatSessionEntity.
 
-    All ChatSessionEntity: <pre><code>&quot;ChatSession&quot;</code></pre>
+    Chat sessions belong to a chat topic, and contain messages to/from users
+  remarks: >-
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent?text=Archive+agent" data-throw-if-not-resolved="false"></xref>:
+                All ChatSessionEntity: <pre><code class="lang-csharp">"ChatSession"</code></pre>
   example:
-  - "\nGet ChatSessionEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ChatAgent(configuration);\nvar chatSessionEntity = agent.GetChatSessionEntity( 123 );</code></pre>\n"
+  - >-
+    Get ChatSessionEntity 123 using the WebApi client:
+
+    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
+
+    var agent = new ChatAgent(configuration);
+
+    var chatSessionEntity = agent.GetChatSessionEntity( 123 );</code></pre>
   syntax:
     content: 'public class ChatSessionEntity : Carrier'
-    content.vb: >-
-      Public Class ChatSessionEntity
-          Inherits Carrier
+    content.vb: Public Class ChatSessionEntity Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.ChatAgent
     commentId: T:SuperOffice.WebApi.Agents.ChatAgent
@@ -77,12 +81,13 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.#ctor
   commentId: M:SuperOffice.WebApi.Data.ChatSessionEntity.#ctor
   id: '#ctor'
@@ -94,21 +99,18 @@ items:
   nameWithType: ChatSessionEntity.ChatSessionEntity()
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.ChatSessionEntity()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public ChatSessionEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ChatSessionEntity.New()
+  fullName.vb: SuperOffice.WebApi.Data.ChatSessionEntity.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.ChatSessionId
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.ChatSessionId
   id: ChatSessionId
@@ -120,13 +122,11 @@ items:
   nameWithType: ChatSessionEntity.ChatSessionId
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.ChatSessionId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe primary key (auto-incremented)\n"
+  summary: The primary key (auto-incremented)
+  example: []
   syntax:
     content: public virtual int ChatSessionId { get; set; }
     parameters: []
@@ -134,14 +134,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ChatSessionId As Integer
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.ChatSessionId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.TopicId
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.TopicId
   id: TopicId
@@ -153,13 +145,11 @@ items:
   nameWithType: ChatSessionEntity.TopicId
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.TopicId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe reference to the associated chat topic.\n"
+  summary: The reference to the associated chat topic.
+  example: []
   syntax:
     content: public virtual int TopicId { get; set; }
     parameters: []
@@ -167,14 +157,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TopicId As Integer
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.TopicId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.User
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.User
   id: User
@@ -186,13 +168,11 @@ items:
   nameWithType: ChatSessionEntity.User
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.User
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nUser agent handling this session\n"
+  summary: User agent handling this session
+  example: []
   syntax:
     content: public virtual Associate User { get; set; }
     parameters: []
@@ -200,14 +180,6 @@ items:
       type: SuperOffice.WebApi.Data.Associate
     content.vb: Public Overridable Property User As Associate
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.User*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Person
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Person
   id: Person
@@ -219,13 +191,11 @@ items:
   nameWithType: ChatSessionEntity.Person
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Person
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCustomer person in this session - could be empty if we don&apos;t know exactly.\n"
+  summary: Customer person in this session - could be empty if we don't know exactly.
+  example: []
   syntax:
     content: public virtual Person Person { get; set; }
     parameters: []
@@ -233,14 +203,6 @@ items:
       type: SuperOffice.WebApi.Data.Person
     content.vb: Public Overridable Property Person As Person
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.Person*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerAlias
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.CustomerAlias
   id: CustomerAlias
@@ -252,13 +214,11 @@ items:
   nameWithType: ChatSessionEntity.CustomerAlias
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerAlias
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe alias for the customer.\n"
+  summary: The alias for the customer.
+  example: []
   syntax:
     content: public virtual string CustomerAlias { get; set; }
     parameters: []
@@ -266,14 +226,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property CustomerAlias As String
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerAlias*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerHost
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.CustomerHost
   id: CustomerHost
@@ -285,13 +237,11 @@ items:
   nameWithType: ChatSessionEntity.CustomerHost
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerHost
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe hostname or IP address for the customer.\n"
+  summary: The hostname or IP address for the customer.
+  example: []
   syntax:
     content: public virtual string CustomerHost { get; set; }
     parameters: []
@@ -299,14 +249,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property CustomerHost As String
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerHost*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerName
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.CustomerName
   id: CustomerName
@@ -318,13 +260,11 @@ items:
   nameWithType: ChatSessionEntity.CustomerName
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe name of customer, if provided\n"
+  summary: The name of customer, if provided
+  example: []
   syntax:
     content: public virtual string CustomerName { get; set; }
     parameters: []
@@ -332,14 +272,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property CustomerName As String
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerEmail
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.CustomerEmail
   id: CustomerEmail
@@ -351,13 +283,11 @@ items:
   nameWithType: ChatSessionEntity.CustomerEmail
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerEmail
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe email address of the customer, if provided\n"
+  summary: The email address of the customer, if provided
+  example: []
   syntax:
     content: public virtual string CustomerEmail { get; set; }
     parameters: []
@@ -365,14 +295,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property CustomerEmail As String
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerEmail*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerPhone
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.CustomerPhone
   id: CustomerPhone
@@ -384,13 +306,11 @@ items:
   nameWithType: ChatSessionEntity.CustomerPhone
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerPhone
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe phone number of the customer, if provided\n"
+  summary: The phone number of the customer, if provided
+  example: []
   syntax:
     content: public virtual string CustomerPhone { get; set; }
     parameters: []
@@ -398,14 +318,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property CustomerPhone As String
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerPhone*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerConsented
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.CustomerConsented
   id: CustomerConsented
@@ -417,13 +329,11 @@ items:
   nameWithType: ChatSessionEntity.CustomerConsented
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerConsented
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe customer consented when starting the session\n"
+  summary: The customer consented when starting the session
+  example: []
   syntax:
     content: public virtual bool CustomerConsented { get; set; }
     parameters: []
@@ -431,14 +341,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property CustomerConsented As Boolean
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerConsented*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerCompanyName
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.CustomerCompanyName
   id: CustomerCompanyName
@@ -450,13 +352,11 @@ items:
   nameWithType: ChatSessionEntity.CustomerCompanyName
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerCompanyName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe name of the customers company, if provided\n"
+  summary: The name of the customers company, if provided
+  example: []
   syntax:
     content: public virtual string CustomerCompanyName { get; set; }
     parameters: []
@@ -464,14 +364,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property CustomerCompanyName As String
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerCompanyName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Status_String
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Status_String
   id: Status_String
@@ -483,29 +375,36 @@ items:
   nameWithType: ChatSessionEntity.Status_String
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Status_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEnum indicating the status for the session (pending, active, closed, etc).\nRaw string enum value.\n"
+  summary: >-
+    Enum indicating the status for the session (pending, active, closed, etc).
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string Status_String { get; set; }
+    content: >-
+      [JsonProperty("Status")]
+
+      public string Status_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Status_String As String
+    content.vb: >-
+      <JsonProperty("Status")>
+
+      Public Property Status_String As String
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.Status_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ChatSessionEntity.Status
     commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Status
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Status
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Status
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Status
   id: Status
@@ -517,29 +416,34 @@ items:
   nameWithType: ChatSessionEntity.Status
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Status
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEnum indicating the status for the session (pending, active, closed, etc).\nNULL if unknown enum value.\n"
+  summary: >-
+    Enum indicating the status for the session (pending, active, closed, etc).
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<ChatSessionStatus> Status { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public ChatSessionStatus? Status { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.ChatSessionStatus}
-    content.vb: Public Property Status As Nullable(Of ChatSessionStatus)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property Status As ChatSessionStatus?
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.Status*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ChatSessionEntity.Status_String
     commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Status_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.FirstMessage
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.FirstMessage
   id: FirstMessage
@@ -551,13 +455,11 @@ items:
   nameWithType: ChatSessionEntity.FirstMessage
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.FirstMessage
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nA copy of the first message in the chat session\n"
+  summary: A copy of the first message in the chat session
+  example: []
   syntax:
     content: public virtual string FirstMessage { get; set; }
     parameters: []
@@ -565,14 +467,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property FirstMessage As String
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.FirstMessage*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.LastMessage
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.LastMessage
   id: LastMessage
@@ -584,13 +478,11 @@ items:
   nameWithType: ChatSessionEntity.LastMessage
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.LastMessage
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nA copy of the last message in the chat session\n"
+  summary: A copy of the last message in the chat session
+  example: []
   syntax:
     content: public virtual string LastMessage { get; set; }
     parameters: []
@@ -598,14 +490,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property LastMessage As String
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.LastMessage*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.WhenRequested
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.WhenRequested
   id: WhenRequested
@@ -617,28 +501,18 @@ items:
   nameWithType: ChatSessionEntity.WhenRequested
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.WhenRequested
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen the session was requested by the customer.\n"
+  summary: When the session was requested by the customer.
+  example: []
   syntax:
     content: public virtual DateTime WhenRequested { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenRequested As DateTime
+    content.vb: Public Overridable Property WhenRequested As Date
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.WhenRequested*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.WhenStarted
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.WhenStarted
   id: WhenStarted
@@ -650,28 +524,18 @@ items:
   nameWithType: ChatSessionEntity.WhenStarted
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.WhenStarted
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen the session was accepted by a user.\n"
+  summary: When the session was accepted by a user.
+  example: []
   syntax:
     content: public virtual DateTime WhenStarted { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenStarted As DateTime
+    content.vb: Public Overridable Property WhenStarted As Date
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.WhenStarted*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.WhenEnded
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.WhenEnded
   id: WhenEnded
@@ -683,28 +547,18 @@ items:
   nameWithType: ChatSessionEntity.WhenEnded
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.WhenEnded
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen the session was ended.\n"
+  summary: When the session was ended.
+  example: []
   syntax:
     content: public virtual DateTime WhenEnded { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenEnded As DateTime
+    content.vb: Public Overridable Property WhenEnded As Date
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.WhenEnded*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.WhenIdle
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.WhenIdle
   id: WhenIdle
@@ -716,28 +570,18 @@ items:
   nameWithType: ChatSessionEntity.WhenIdle
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.WhenIdle
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe last time anyone sent a message for this session.\n"
+  summary: The last time anyone sent a message for this session.
+  example: []
   syntax:
     content: public virtual DateTime WhenIdle { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenIdle As DateTime
+    content.vb: Public Overridable Property WhenIdle As Date
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.WhenIdle*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.WhenFetched
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.WhenFetched
   id: WhenFetched
@@ -749,28 +593,18 @@ items:
   nameWithType: ChatSessionEntity.WhenFetched
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.WhenFetched
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe last time the customer&amp;apos;s client refetched the data. Used to detect &amp;apos;dead&amp;apos; session.\n"
+  summary: The last time the customer&amp;apos;s client refetched the data. Used to detect &amp;apos;dead&amp;apos; session.
+  example: []
   syntax:
     content: public virtual DateTime WhenFetched { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenFetched As DateTime
+    content.vb: Public Overridable Property WhenFetched As Date
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.WhenFetched*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.SessionKey
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.SessionKey
   id: SessionKey
@@ -782,13 +616,11 @@ items:
   nameWithType: ChatSessionEntity.SessionKey
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.SessionKey
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nKey used to authenticate the session.\n"
+  summary: Key used to authenticate the session.
+  example: []
   syntax:
     content: public virtual string SessionKey { get; set; }
     parameters: []
@@ -796,14 +628,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property SessionKey As String
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.SessionKey*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.InitialQueuePos
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.InitialQueuePos
   id: InitialQueuePos
@@ -815,13 +639,11 @@ items:
   nameWithType: ChatSessionEntity.InitialQueuePos
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.InitialQueuePos
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe initial queue pos (i.e. the number of pending sessions + 1) when the session was requested.\n"
+  summary: The initial queue pos (i.e. the number of pending sessions + 1) when the session was requested.
+  example: []
   syntax:
     content: public virtual int InitialQueuePos { get; set; }
     parameters: []
@@ -829,14 +651,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property InitialQueuePos As Integer
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.InitialQueuePos*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.AlertLevel
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.AlertLevel
   id: AlertLevel
@@ -848,13 +662,11 @@ items:
   nameWithType: ChatSessionEntity.AlertLevel
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.AlertLevel
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe alert level for this chat session.\n"
+  summary: The alert level for this chat session.
+  example: []
   syntax:
     content: public virtual int AlertLevel { get; set; }
     parameters: []
@@ -862,14 +674,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property AlertLevel As Integer
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.AlertLevel*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Rank
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Rank
   id: Rank
@@ -881,13 +685,11 @@ items:
   nameWithType: ChatSessionEntity.Rank
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Rank
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nLowest possible unique number for active sessions for user. User for color index. Starting at 1.\n"
+  summary: Lowest possible unique number for active sessions for user. User for color index. Starting at 1.
+  example: []
   syntax:
     content: public virtual int Rank { get; set; }
     parameters: []
@@ -895,14 +697,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Rank As Integer
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.Rank*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Flags_String
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Flags_String
   id: Flags_String
@@ -914,29 +708,36 @@ items:
   nameWithType: ChatSessionEntity.Flags_String
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Flags_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nVarious flags for the chat session\nRaw string enum value.\n"
+  summary: >-
+    Various flags for the chat session
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string Flags_String { get; set; }
+    content: >-
+      [JsonProperty("Flags")]
+
+      public string Flags_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Flags_String As String
+    content.vb: >-
+      <JsonProperty("Flags")>
+
+      Public Property Flags_String As String
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.Flags_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ChatSessionEntity.Flags
     commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Flags
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Flags
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Flags
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Flags
   id: Flags
@@ -948,29 +749,34 @@ items:
   nameWithType: ChatSessionEntity.Flags
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Flags
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nVarious flags for the chat session\nNULL if unknown enum value.\n"
+  summary: >-
+    Various flags for the chat session
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<ChatSessionFlags> Flags { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public ChatSessionFlags? Flags { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.ChatSessionFlags}
-    content.vb: Public Property Flags As Nullable(Of ChatSessionFlags)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property Flags As ChatSessionFlags?
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.Flags*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ChatSessionEntity.Flags_String
     commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Flags_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Contact
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Contact
   id: Contact
@@ -982,13 +788,11 @@ items:
   nameWithType: ChatSessionEntity.Contact
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Contact
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nContact this session is connected to - could be empty if we don&apos;t know exactly.\n"
+  summary: Contact this session is connected to - could be empty if we don't know exactly.
+  example: []
   syntax:
     content: public virtual Contact Contact { get; set; }
     parameters: []
@@ -996,14 +800,6 @@ items:
       type: SuperOffice.WebApi.Data.Contact
     content.vb: Public Overridable Property Contact As Contact
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.Contact*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Project
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Project
   id: Project
@@ -1015,13 +811,11 @@ items:
   nameWithType: ChatSessionEntity.Project
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Project
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nProject the session is connectedto - could be empty if we don&apos;t know exactly.\n"
+  summary: Project the session is connectedto - could be empty if we don't know exactly.
+  example: []
   syntax:
     content: public virtual Project Project { get; set; }
     parameters: []
@@ -1029,14 +823,6 @@ items:
       type: SuperOffice.WebApi.Data.Project
     content.vb: Public Overridable Property Project As Project
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.Project*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Sale
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Sale
   id: Sale
@@ -1048,13 +834,11 @@ items:
   nameWithType: ChatSessionEntity.Sale
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Sale
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nSale the session is connected to - could be empty if we don&apos;t know exactly.\n"
+  summary: Sale the session is connected to - could be empty if we don't know exactly.
+  example: []
   syntax:
     content: public virtual Sale Sale { get; set; }
     parameters: []
@@ -1062,14 +846,6 @@ items:
       type: SuperOffice.WebApi.Data.Sale
     content.vb: Public Overridable Property Sale As Sale
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.Sale*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Ticket
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Ticket
   id: Ticket
@@ -1081,13 +857,11 @@ items:
   nameWithType: ChatSessionEntity.Ticket
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Ticket
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTicket the session is connected to - could be empty if we don&apos;t know exactly.\n"
+  summary: Ticket the session is connected to - could be empty if we don't know exactly.
+  example: []
   syntax:
     content: public virtual Ticket Ticket { get; set; }
     parameters: []
@@ -1095,14 +869,6 @@ items:
       type: SuperOffice.WebApi.Data.Ticket
     content.vb: Public Overridable Property Ticket As Ticket
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.Ticket*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.TransferTo
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.TransferTo
   id: TransferTo
@@ -1114,13 +880,11 @@ items:
   nameWithType: ChatSessionEntity.TransferTo
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.TransferTo
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nUser agent that has a pending transfer of the chat session\n"
+  summary: User agent that has a pending transfer of the chat session
+  example: []
   syntax:
     content: public virtual Associate TransferTo { get; set; }
     parameters: []
@@ -1128,14 +892,6 @@ items:
       type: SuperOffice.WebApi.Data.Associate
     content.vb: Public Overridable Property TransferTo As Associate
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.TransferTo*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive
   id: ChatbotIsActive
@@ -1147,13 +903,11 @@ items:
   nameWithType: ChatSessionEntity.ChatbotIsActive
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIndicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user.\n"
+  summary: Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user.
+  example: []
   syntax:
     content: public virtual bool ChatbotIsActive { get; set; }
     parameters: []
@@ -1161,14 +915,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ChatbotIsActive As Boolean
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Rating
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Rating
   id: Rating
@@ -1180,13 +926,11 @@ items:
   nameWithType: ChatSessionEntity.Rating
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Rating
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nRating of this chat conversation given by the customer\n"
+  summary: Rating of this chat conversation given by the customer
+  example: []
   syntax:
     content: public virtual int Rating { get; set; }
     parameters: []
@@ -1194,32 +938,80 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Rating As Integer
   overload: SuperOffice.WebApi.Data.ChatSessionEntity.Rating*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.ChatAgent
+  commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ChatAgent.html
+  name: ChatAgent
+  nameWithType: ChatAgent
+  fullName: SuperOffice.WebApi.Agents.ChatAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ArchiveAgent.html
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  isExternal: true
+- uid: SuperOffice.CRM.Services.ArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  isExternal: true
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -1227,6 +1019,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -1234,39 +1027,250 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: SuperOffice.WebApi.Agents.ChatAgent
-  commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: ChatAgent
-  nameWithType: ChatAgent
-  fullName: SuperOffice.WebApi.Agents.ChatAgent
-- uid: SuperOffice.WebApi.Agents.ArchiveAgent
-  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
-  name: ArchiveAgent
-  nameWithType: ArchiveAgent
-  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
-- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
-  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity__ctor
   name: ChatSessionEntity
   nameWithType: ChatSessionEntity.ChatSessionEntity
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.ChatSessionEntity
+  nameWithType.vb: ChatSessionEntity.New
+  fullName.vb: SuperOffice.WebApi.Data.ChatSessionEntity.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.ChatSessionId*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.ChatSessionId
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_ChatSessionId
   name: ChatSessionId
   nameWithType: ChatSessionEntity.ChatSessionId
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.ChatSessionId
@@ -1274,18 +1278,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.TopicId*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.TopicId
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_TopicId
   name: TopicId
   nameWithType: ChatSessionEntity.TopicId
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.TopicId
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.User*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.User
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_User
   name: User
   nameWithType: ChatSessionEntity.User
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.User
@@ -1293,12 +1303,14 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Associate
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Associate.html
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.WebApi.Data.Associate
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Person*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.Person
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_Person
   name: Person
   nameWithType: ChatSessionEntity.Person
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Person
@@ -1306,12 +1318,14 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Person
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Person.html
   name: Person
   nameWithType: Person
   fullName: SuperOffice.WebApi.Data.Person
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerAlias*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.CustomerAlias
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_CustomerAlias
   name: CustomerAlias
   nameWithType: ChatSessionEntity.CustomerAlias
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerAlias
@@ -1319,36 +1333,45 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerHost*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.CustomerHost
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_CustomerHost
   name: CustomerHost
   nameWithType: ChatSessionEntity.CustomerHost
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerHost
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerName*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.CustomerName
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_CustomerName
   name: CustomerName
   nameWithType: ChatSessionEntity.CustomerName
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerName
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerEmail*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.CustomerEmail
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_CustomerEmail
   name: CustomerEmail
   nameWithType: ChatSessionEntity.CustomerEmail
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerEmail
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerPhone*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.CustomerPhone
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_CustomerPhone
   name: CustomerPhone
   nameWithType: ChatSessionEntity.CustomerPhone
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerPhone
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerConsented*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.CustomerConsented
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_CustomerConsented
   name: CustomerConsented
   nameWithType: ChatSessionEntity.CustomerConsented
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerConsented
@@ -1356,249 +1379,236 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerCompanyName*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.CustomerCompanyName
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_CustomerCompanyName
   name: CustomerCompanyName
   nameWithType: ChatSessionEntity.CustomerCompanyName
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.CustomerCompanyName
-- uid: SuperOffice.WebApi.Data.ChatSessionEntity.Status_String*
-  commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.Status_String
-  isExternal: true
-  name: Status_String
-  nameWithType: ChatSessionEntity.Status_String
-  fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Status_String
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Status
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Status
   isExternal: true
-- uid: SuperOffice.WebApi.Data.ChatSessionEntity.Status*
-  commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.Status
-  isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_Status
   name: Status
   nameWithType: ChatSessionEntity.Status
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Status
+- uid: SuperOffice.WebApi.Data.ChatSessionEntity.Status_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.Status_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_Status_String
+  name: Status_String
+  nameWithType: ChatSessionEntity.Status_String
+  fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Status_String
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Status_String
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Status_String
   isExternal: true
-- uid: System.Nullable{SuperOffice.WebApi.Data.ChatSessionStatus}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ChatSessionStatus}'
-  definition: System.Nullable`1
-  name: Nullable<ChatSessionStatus>
-  nameWithType: Nullable<ChatSessionStatus>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.ChatSessionStatus>
-  nameWithType.vb: Nullable(Of ChatSessionStatus)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ChatSessionStatus)
-  name.vb: Nullable(Of ChatSessionStatus)
-  spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    nameWithType: ChatSessionStatus
-    fullName: SuperOffice.WebApi.Data.ChatSessionStatus
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    nameWithType: ChatSessionStatus
-    fullName: SuperOffice.WebApi.Data.ChatSessionStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Nullable`1
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_Status_String
+  name: Status_String
+  nameWithType: ChatSessionEntity.Status_String
+  fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Status_String
+- uid: SuperOffice.WebApi.Data.ChatSessionEntity.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.Status
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_Status
+  name: Status
+  nameWithType: ChatSessionEntity.Status
+  fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Status
+- uid: System.Nullable{SuperOffice.WebApi.Data.ChatSessionStatus}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.ChatSessionStatus}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.ChatSessionStatus.html
+  name: ChatSessionStatus?
+  nameWithType: ChatSessionStatus?
+  fullName: SuperOffice.WebApi.Data.ChatSessionStatus?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ChatSessionStatus
+    name: ChatSessionStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ChatSessionStatus.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ChatSessionStatus
+    name: ChatSessionStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ChatSessionStatus.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.FirstMessage*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.FirstMessage
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_FirstMessage
   name: FirstMessage
   nameWithType: ChatSessionEntity.FirstMessage
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.FirstMessage
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.LastMessage*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.LastMessage
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_LastMessage
   name: LastMessage
   nameWithType: ChatSessionEntity.LastMessage
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.LastMessage
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.WhenRequested*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.WhenRequested
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_WhenRequested
   name: WhenRequested
   nameWithType: ChatSessionEntity.WhenRequested
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.WhenRequested
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.WhenStarted*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.WhenStarted
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_WhenStarted
   name: WhenStarted
   nameWithType: ChatSessionEntity.WhenStarted
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.WhenStarted
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.WhenEnded*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.WhenEnded
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_WhenEnded
   name: WhenEnded
   nameWithType: ChatSessionEntity.WhenEnded
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.WhenEnded
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.WhenIdle*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.WhenIdle
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_WhenIdle
   name: WhenIdle
   nameWithType: ChatSessionEntity.WhenIdle
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.WhenIdle
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.WhenFetched*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.WhenFetched
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_WhenFetched
   name: WhenFetched
   nameWithType: ChatSessionEntity.WhenFetched
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.WhenFetched
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.SessionKey*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.SessionKey
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_SessionKey
   name: SessionKey
   nameWithType: ChatSessionEntity.SessionKey
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.SessionKey
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.InitialQueuePos*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.InitialQueuePos
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_InitialQueuePos
   name: InitialQueuePos
   nameWithType: ChatSessionEntity.InitialQueuePos
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.InitialQueuePos
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.AlertLevel*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.AlertLevel
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_AlertLevel
   name: AlertLevel
   nameWithType: ChatSessionEntity.AlertLevel
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.AlertLevel
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Rank*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.Rank
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_Rank
   name: Rank
   nameWithType: ChatSessionEntity.Rank
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Rank
-- uid: SuperOffice.WebApi.Data.ChatSessionEntity.Flags_String*
-  commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.Flags_String
-  isExternal: true
-  name: Flags_String
-  nameWithType: ChatSessionEntity.Flags_String
-  fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Flags_String
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Flags
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Flags
   isExternal: true
-- uid: SuperOffice.WebApi.Data.ChatSessionEntity.Flags*
-  commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.Flags
-  isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_Flags
   name: Flags
   nameWithType: ChatSessionEntity.Flags
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Flags
+- uid: SuperOffice.WebApi.Data.ChatSessionEntity.Flags_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.Flags_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_Flags_String
+  name: Flags_String
+  nameWithType: ChatSessionEntity.Flags_String
+  fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Flags_String
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Flags_String
   commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Flags_String
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_Flags_String
+  name: Flags_String
+  nameWithType: ChatSessionEntity.Flags_String
+  fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Flags_String
+- uid: SuperOffice.WebApi.Data.ChatSessionEntity.Flags*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.Flags
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_Flags
+  name: Flags
+  nameWithType: ChatSessionEntity.Flags
+  fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Flags
 - uid: System.Nullable{SuperOffice.WebApi.Data.ChatSessionFlags}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ChatSessionFlags}'
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.ChatSessionFlags}
+  parent: System
   definition: System.Nullable`1
-  name: Nullable<ChatSessionFlags>
-  nameWithType: Nullable<ChatSessionFlags>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.ChatSessionFlags>
-  nameWithType.vb: Nullable(Of ChatSessionFlags)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ChatSessionFlags)
-  name.vb: Nullable(Of ChatSessionFlags)
+  href: SuperOffice.WebApi.Data.ChatSessionFlags.html
+  name: ChatSessionFlags?
+  nameWithType: ChatSessionFlags?
+  fullName: SuperOffice.WebApi.Data.ChatSessionFlags?
   spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ChatSessionFlags
     name: ChatSessionFlags
-    nameWithType: ChatSessionFlags
-    fullName: SuperOffice.WebApi.Data.ChatSessionFlags
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.WebApi.Data.ChatSessionFlags.html
+  - name: '?'
   spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.ChatSessionFlags
     name: ChatSessionFlags
-    nameWithType: ChatSessionFlags
-    fullName: SuperOffice.WebApi.Data.ChatSessionFlags
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.WebApi.Data.ChatSessionFlags.html
+  - name: '?'
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Contact*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.Contact
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_Contact
   name: Contact
   nameWithType: ChatSessionEntity.Contact
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Contact
@@ -1606,12 +1616,14 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Contact
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html
   name: Contact
   nameWithType: Contact
   fullName: SuperOffice.WebApi.Data.Contact
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Project*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.Project
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_Project
   name: Project
   nameWithType: ChatSessionEntity.Project
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Project
@@ -1619,12 +1631,14 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Project
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Project.html
   name: Project
   nameWithType: Project
   fullName: SuperOffice.WebApi.Data.Project
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Sale*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.Sale
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_Sale
   name: Sale
   nameWithType: ChatSessionEntity.Sale
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Sale
@@ -1632,12 +1646,14 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Sale
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Sale.html
   name: Sale
   nameWithType: Sale
   fullName: SuperOffice.WebApi.Data.Sale
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Ticket*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.Ticket
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_Ticket
   name: Ticket
   nameWithType: ChatSessionEntity.Ticket
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Ticket
@@ -1645,24 +1661,28 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Ticket
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Ticket.html
   name: Ticket
   nameWithType: Ticket
   fullName: SuperOffice.WebApi.Data.Ticket
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.TransferTo*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.TransferTo
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_TransferTo
   name: TransferTo
   nameWithType: ChatSessionEntity.TransferTo
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.TransferTo
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_ChatbotIsActive
   name: ChatbotIsActive
   nameWithType: ChatSessionEntity.ChatbotIsActive
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive
 - uid: SuperOffice.WebApi.Data.ChatSessionEntity.Rating*
   commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.Rating
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html#SuperOffice_WebApi_Data_ChatSessionEntity_Rating
   name: Rating
   nameWithType: ChatSessionEntity.Rating
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Rating

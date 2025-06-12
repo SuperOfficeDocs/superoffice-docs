@@ -48,31 +48,47 @@ items:
   nameWithType: ChatWidgetSettings
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefines the look of the chat widget.\n<p></p>\nCarrier object for ChatWidgetSettings.\nServices for the ChatWidgetSettings Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IChatAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Defines the look of the chat widget.
+
+    <p></p>
+
+    Carrier object for ChatWidgetSettings.
+
+    Services for the ChatWidgetSettings Carrier is available from the <xref href="SuperOffice.CRM.Services.IChatAgent?text=Chat+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class ChatWidgetSettings : Object'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class ChatWidgetSettings
     content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
       Public Class ChatWidgetSettings
-          Inherits Object
   seealso:
-  - linkId: SuperOffice.CRM.Services.ChatAgent
-    commentId: T:SuperOffice.CRM.Services.ChatAgent
   - linkId: SuperOffice.CRM.Services.IChatAgent
     commentId: T:SuperOffice.CRM.Services.IChatAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.#ctor
   commentId: M:SuperOffice.CRM.Services.ChatWidgetSettings.#ctor
   id: '#ctor'
@@ -84,21 +100,18 @@ items:
   nameWithType: ChatWidgetSettings.ChatWidgetSettings()
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ChatWidgetSettings()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public ChatWidgetSettings()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ChatWidgetSettings.New()
+  fullName.vb: SuperOffice.CRM.Services.ChatWidgetSettings.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.ToString
   commentId: M:SuperOffice.CRM.Services.ChatWidgetSettings.ToString
   id: ToString
@@ -110,26 +123,19 @@ items:
   nameWithType: ChatWidgetSettings.ToString()
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ChatWidgetSettings.ToString(System.String)
   id: ToString(System.String)
@@ -137,17 +143,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: ChatWidgetSettings.ToString(String)
-  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ToString(System.String)
+  name: ToString(string)
+  nameWithType: ChatWidgetSettings.ToString(string)
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -159,10 +166,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ChatWidgetSettings.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.ChatWidgetSettings.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqEnabled
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqEnabled
   id: AutoFaqEnabled
@@ -174,28 +180,28 @@ items:
   nameWithType: ChatWidgetSettings.AutoFaqEnabled
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqEnabled
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nEnable automatic FAQ suggestions \n"
+  summary: Enable automatic FAQ suggestions
+  example: []
   syntax:
-    content: public virtual bool AutoFaqEnabled { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool AutoFaqEnabled { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property AutoFaqEnabled As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AutoFaqEnabled As Boolean
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqEnabled*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqCategory
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqCategory
   id: AutoFaqCategory
@@ -207,28 +213,28 @@ items:
   nameWithType: ChatWidgetSettings.AutoFaqCategory
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqCategory
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRoot folder for FAQ suggestions \n"
+  summary: Root folder for FAQ suggestions
+  example: []
   syntax:
-    content: public virtual KbCategory AutoFaqCategory { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual KbCategory AutoFaqCategory { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.KbCategory
-    content.vb: Public Overridable Property AutoFaqCategory As KbCategory
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AutoFaqCategory As KbCategory
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqCategory*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.PreFormEnabled
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.PreFormEnabled
   id: PreFormEnabled
@@ -240,28 +246,28 @@ items:
   nameWithType: ChatWidgetSettings.PreFormEnabled
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.PreFormEnabled
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nEnable pre-chat form for anonymous users \n"
+  summary: Enable pre-chat form for anonymous users
+  example: []
   syntax:
-    content: public virtual bool PreFormEnabled { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool PreFormEnabled { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property PreFormEnabled As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PreFormEnabled As Boolean
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.PreFormEnabled*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.PreFormMessage
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.PreFormMessage
   id: PreFormMessage
@@ -273,28 +279,28 @@ items:
   nameWithType: ChatWidgetSettings.PreFormMessage
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.PreFormMessage
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nMessage to be shown in a pre-chat \n"
+  summary: Message to be shown in a pre-chat
+  example: []
   syntax:
-    content: public virtual string PreFormMessage { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string PreFormMessage { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property PreFormMessage As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PreFormMessage As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.PreFormMessage*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.RequiredFields
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.RequiredFields
   id: RequiredFields
@@ -306,28 +312,28 @@ items:
   nameWithType: ChatWidgetSettings.RequiredFields
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.RequiredFields
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nFields required to start a chat \n"
+  summary: Fields required to start a chat
+  example: []
   syntax:
-    content: public virtual WidgetRequiredFields RequiredFields { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual WidgetRequiredFields RequiredFields { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.WidgetRequiredFields
-    content.vb: Public Overridable Property RequiredFields As WidgetRequiredFields
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RequiredFields As WidgetRequiredFields
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.RequiredFields*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.PostFormEnabled
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.PostFormEnabled
   id: PostFormEnabled
@@ -339,28 +345,28 @@ items:
   nameWithType: ChatWidgetSettings.PostFormEnabled
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.PostFormEnabled
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nEnable post chat form \n"
+  summary: Enable post chat form
+  example: []
   syntax:
-    content: public virtual bool PostFormEnabled { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool PostFormEnabled { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property PostFormEnabled As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PostFormEnabled As Boolean
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.PostFormEnabled*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.PostFormHeader
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.PostFormHeader
   id: PostFormHeader
@@ -372,28 +378,28 @@ items:
   nameWithType: ChatWidgetSettings.PostFormHeader
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.PostFormHeader
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nHeader text to show in post chat form \n"
+  summary: Header text to show in post chat form
+  example: []
   syntax:
-    content: public virtual string PostFormHeader { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string PostFormHeader { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property PostFormHeader As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PostFormHeader As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.PostFormHeader*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.PostFormMessage
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.PostFormMessage
   id: PostFormMessage
@@ -405,28 +411,28 @@ items:
   nameWithType: ChatWidgetSettings.PostFormMessage
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.PostFormMessage
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nMessage text to show in post chat form \n"
+  summary: Message text to show in post chat form
+  example: []
   syntax:
-    content: public virtual string PostFormMessage { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string PostFormMessage { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property PostFormMessage As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PostFormMessage As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.PostFormMessage*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.PostTranscriptEnabled
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.PostTranscriptEnabled
   id: PostTranscriptEnabled
@@ -438,28 +444,28 @@ items:
   nameWithType: ChatWidgetSettings.PostTranscriptEnabled
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.PostTranscriptEnabled
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nEnable transcript of chat session \n"
+  summary: Enable transcript of chat session
+  example: []
   syntax:
-    content: public virtual bool PostTranscriptEnabled { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool PostTranscriptEnabled { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property PostTranscriptEnabled As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PostTranscriptEnabled As Boolean
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.PostTranscriptEnabled*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.LanguageIsoCode
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.LanguageIsoCode
   id: LanguageIsoCode
@@ -471,28 +477,28 @@ items:
   nameWithType: ChatWidgetSettings.LanguageIsoCode
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.LanguageIsoCode
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe language ISO code for the widget language \n"
+  summary: The language ISO code for the widget language
+  example: []
   syntax:
-    content: public virtual string LanguageIsoCode { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string LanguageIsoCode { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property LanguageIsoCode As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LanguageIsoCode As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.LanguageIsoCode*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.Size
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.Size
   id: Size
@@ -504,28 +510,28 @@ items:
   nameWithType: ChatWidgetSettings.Size
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.Size
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nChat widget size: normal or large. \n"
+  summary: 'Chat widget size: normal or large.'
+  example: []
   syntax:
-    content: public virtual ChatWidgetSize Size { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual ChatWidgetSize Size { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ChatWidgetSize
-    content.vb: Public Overridable Property Size As ChatWidgetSize
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Size As ChatWidgetSize
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.Size*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.Theme
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.Theme
   id: Theme
@@ -537,28 +543,28 @@ items:
   nameWithType: ChatWidgetSettings.Theme
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.Theme
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPredefined themes for the chat widget \n"
+  summary: Predefined themes for the chat widget
+  example: []
   syntax:
-    content: public virtual WidgetTheme Theme { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual WidgetTheme Theme { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.WidgetTheme
-    content.vb: Public Overridable Property Theme As WidgetTheme
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Theme As WidgetTheme
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.Theme*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.Color
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.Color
   id: Color
@@ -570,28 +576,28 @@ items:
   nameWithType: ChatWidgetSettings.Color
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.Color
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe base color of the widget \n"
+  summary: The base color of the widget
+  example: []
   syntax:
-    content: public virtual string Color { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Color { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Color As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Color As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.Color*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeColor
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.BadgeColor
   id: BadgeColor
@@ -603,28 +609,28 @@ items:
   nameWithType: ChatWidgetSettings.BadgeColor
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeColor
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOptional color for chat widget badge \n"
+  summary: Optional color for chat widget badge
+  example: []
   syntax:
-    content: public virtual string BadgeColor { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string BadgeColor { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property BadgeColor As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property BadgeColor As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeColor*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeTextColor
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.BadgeTextColor
   id: BadgeTextColor
@@ -636,28 +642,28 @@ items:
   nameWithType: ChatWidgetSettings.BadgeTextColor
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeTextColor
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOptional color for chat widget badge text \n"
+  summary: Optional color for chat widget badge text
+  example: []
   syntax:
-    content: public virtual string BadgeTextColor { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string BadgeTextColor { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property BadgeTextColor As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property BadgeTextColor As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeTextColor*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgColor
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgColor
   id: CustMsgColor
@@ -669,28 +675,28 @@ items:
   nameWithType: ChatWidgetSettings.CustMsgColor
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgColor
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOptional color for chat widget customer message \n"
+  summary: Optional color for chat widget customer message
+  example: []
   syntax:
-    content: public virtual string CustMsgColor { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string CustMsgColor { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property CustMsgColor As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CustMsgColor As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgColor*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgTextColor
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgTextColor
   id: CustMsgTextColor
@@ -702,28 +708,28 @@ items:
   nameWithType: ChatWidgetSettings.CustMsgTextColor
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgTextColor
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOptional color for chat widget customer message text \n"
+  summary: Optional color for chat widget customer message text
+  example: []
   syntax:
-    content: public virtual string CustMsgTextColor { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string CustMsgTextColor { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property CustMsgTextColor As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CustMsgTextColor As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgTextColor*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgColor
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgColor
   id: AgentMsgColor
@@ -735,28 +741,28 @@ items:
   nameWithType: ChatWidgetSettings.AgentMsgColor
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgColor
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOptional color for chat widget agent message \n"
+  summary: Optional color for chat widget agent message
+  example: []
   syntax:
-    content: public virtual string AgentMsgColor { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string AgentMsgColor { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property AgentMsgColor As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AgentMsgColor As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgColor*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgTextColor
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgTextColor
   id: AgentMsgTextColor
@@ -768,28 +774,28 @@ items:
   nameWithType: ChatWidgetSettings.AgentMsgTextColor
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgTextColor
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOptional color for chat widget agent message text \n"
+  summary: Optional color for chat widget agent message text
+  example: []
   syntax:
-    content: public virtual string AgentMsgTextColor { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string AgentMsgTextColor { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property AgentMsgTextColor As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AgentMsgTextColor As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgTextColor*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonColor
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.ButtonColor
   id: ButtonColor
@@ -801,28 +807,28 @@ items:
   nameWithType: ChatWidgetSettings.ButtonColor
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonColor
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOptional color for chat widget button \n"
+  summary: Optional color for chat widget button
+  example: []
   syntax:
-    content: public virtual string ButtonColor { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ButtonColor { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ButtonColor As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ButtonColor As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonColor*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonTextColor
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.ButtonTextColor
   id: ButtonTextColor
@@ -834,28 +840,28 @@ items:
   nameWithType: ChatWidgetSettings.ButtonTextColor
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonTextColor
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOptional color for chat widget button text \n"
+  summary: Optional color for chat widget button text
+  example: []
   syntax:
-    content: public virtual string ButtonTextColor { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ButtonTextColor { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ButtonTextColor As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ButtonTextColor As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonTextColor*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.Font
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.Font
   id: Font
@@ -867,28 +873,28 @@ items:
   nameWithType: ChatWidgetSettings.Font
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.Font
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe font used in the widget \n"
+  summary: The font used in the widget
+  example: []
   syntax:
-    content: public virtual string Font { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Font { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Font As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Font As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.Font*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.FontSize
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.FontSize
   id: FontSize
@@ -900,28 +906,28 @@ items:
   nameWithType: ChatWidgetSettings.FontSize
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.FontSize
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOptional size for chat widget font \n"
+  summary: Optional size for chat widget font
+  example: []
   syntax:
-    content: public virtual string FontSize { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string FontSize { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property FontSize As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FontSize As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.FontSize*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled
   id: LogoEnabled
@@ -933,28 +939,28 @@ items:
   nameWithType: ChatWidgetSettings.LogoEnabled
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nIndicates if the logo should be shown in the widget \n"
+  summary: Indicates if the logo should be shown in the widget
+  example: []
   syntax:
-    content: public virtual bool LogoEnabled { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool LogoEnabled { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property LogoEnabled As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LogoEnabled As Boolean
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.LogoBlobId
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.LogoBlobId
   id: LogoBlobId
@@ -966,28 +972,28 @@ items:
   nameWithType: ChatWidgetSettings.LogoBlobId
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.LogoBlobId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nBlob id that contains logo image \n"
+  summary: Blob id that contains logo image
+  example: []
   syntax:
-    content: public virtual int LogoBlobId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int LogoBlobId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property LogoBlobId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LogoBlobId As Integer
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.LogoBlobId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.LogoName
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.LogoName
   id: LogoName
@@ -999,28 +1005,28 @@ items:
   nameWithType: ChatWidgetSettings.LogoName
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.LogoName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nfilename/description of logo (from blob) \n"
+  summary: filename/description of logo (from blob)
+  example: []
   syntax:
-    content: public virtual string LogoName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string LogoName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property LogoName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LogoName As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.LogoName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.ShowAgentPhoto
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.ShowAgentPhoto
   id: ShowAgentPhoto
@@ -1032,28 +1038,28 @@ items:
   nameWithType: ChatWidgetSettings.ShowAgentPhoto
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ShowAgentPhoto
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUse agent photo and name when chatting \n"
+  summary: Use agent photo and name when chatting
+  example: []
   syntax:
-    content: public virtual bool ShowAgentPhoto { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool ShowAgentPhoto { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property ShowAgentPhoto As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ShowAgentPhoto As Boolean
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.ShowAgentPhoto*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.WelcomeTitle
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.WelcomeTitle
   id: WelcomeTitle
@@ -1065,28 +1071,28 @@ items:
   nameWithType: ChatWidgetSettings.WelcomeTitle
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.WelcomeTitle
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nShort welcome message when user initiates a chat \n"
+  summary: Short welcome message when user initiates a chat
+  example: []
   syntax:
-    content: public virtual string WelcomeTitle { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string WelcomeTitle { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property WelcomeTitle As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property WelcomeTitle As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.WelcomeTitle*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.WelcomeMessage
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.WelcomeMessage
   id: WelcomeMessage
@@ -1098,28 +1104,28 @@ items:
   nameWithType: ChatWidgetSettings.WelcomeMessage
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.WelcomeMessage
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nShort message displayed as long as the request is in queue or active \n"
+  summary: Short message displayed as long as the request is in queue or active
+  example: []
   syntax:
-    content: public virtual string WelcomeMessage { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string WelcomeMessage { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property WelcomeMessage As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property WelcomeMessage As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.WelcomeMessage*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineHeader
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.OfflineHeader
   id: OfflineHeader
@@ -1131,28 +1137,28 @@ items:
   nameWithType: ChatWidgetSettings.OfflineHeader
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineHeader
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOffline text shown in widget header \n"
+  summary: Offline text shown in widget header
+  example: []
   syntax:
-    content: public virtual string OfflineHeader { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string OfflineHeader { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property OfflineHeader As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property OfflineHeader As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineHeader*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineMessage
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.OfflineMessage
   id: OfflineMessage
@@ -1164,28 +1170,28 @@ items:
   nameWithType: ChatWidgetSettings.OfflineMessage
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineMessage
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOffline message shown in widget \n"
+  summary: Offline message shown in widget
+  example: []
   syntax:
-    content: public virtual string OfflineMessage { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string OfflineMessage { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property OfflineMessage As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property OfflineMessage As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineMessage*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineFields
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.OfflineFields
   id: OfflineFields
@@ -1197,28 +1203,28 @@ items:
   nameWithType: ChatWidgetSettings.OfflineFields
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineFields
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRequired field when creating ticket in offline mode \n"
+  summary: Required field when creating ticket in offline mode
+  example: []
   syntax:
-    content: public virtual WidgetRequiredFields OfflineFields { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual WidgetRequiredFields OfflineFields { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.WidgetRequiredFields
-    content.vb: Public Overridable Property OfflineFields As WidgetRequiredFields
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property OfflineFields As WidgetRequiredFields
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineFields*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.UseAgentFirstname
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.UseAgentFirstname
   id: UseAgentFirstname
@@ -1230,57 +1236,325 @@ items:
   nameWithType: ChatWidgetSettings.UseAgentFirstname
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.UseAgentFirstname
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nWhether to use the firstname of the agent in the chat widget. \n"
+  summary: Whether to use the firstname of the agent in the chat widget.
+  example: []
   syntax:
-    content: public virtual bool UseAgentFirstname { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool UseAgentFirstname { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property UseAgentFirstname As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UseAgentFirstname As Boolean
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.UseAgentFirstname*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ChatAgent
-  commentId: T:SuperOffice.CRM.Services.ChatAgent
-  isExternal: true
-  name: ChatAgent
-  nameWithType: ChatAgent
-  fullName: SuperOffice.CRM.Services.ChatAgent
 - uid: SuperOffice.CRM.Services.IChatAgent
   commentId: T:SuperOffice.CRM.Services.IChatAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IChatAgent.html
   name: IChatAgent
   nameWithType: IChatAgent
   fullName: SuperOffice.CRM.Services.IChatAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings__ctor
   name: ChatWidgetSettings
   nameWithType: ChatWidgetSettings.ChatWidgetSettings
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ChatWidgetSettings
+  nameWithType.vb: ChatWidgetSettings.New
+  fullName.vb: SuperOffice.CRM.Services.ChatWidgetSettings.New
+  name.vb: New
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_ToString
   name: ToString
   nameWithType: ChatWidgetSettings.ToString
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ToString
@@ -1288,18 +1562,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqEnabled*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqEnabled
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_AutoFaqEnabled
   name: AutoFaqEnabled
   nameWithType: ChatWidgetSettings.AutoFaqEnabled
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqEnabled
@@ -1307,12 +1580,17 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqCategory*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqCategory
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_AutoFaqCategory
   name: AutoFaqCategory
   nameWithType: ChatWidgetSettings.AutoFaqCategory
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqCategory
@@ -1320,24 +1598,28 @@ references:
   commentId: T:SuperOffice.CRM.Services.KbCategory
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.KbCategory.html
   name: KbCategory
   nameWithType: KbCategory
   fullName: SuperOffice.CRM.Services.KbCategory
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.PreFormEnabled*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.PreFormEnabled
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_PreFormEnabled
   name: PreFormEnabled
   nameWithType: ChatWidgetSettings.PreFormEnabled
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.PreFormEnabled
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.PreFormMessage*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.PreFormMessage
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_PreFormMessage
   name: PreFormMessage
   nameWithType: ChatWidgetSettings.PreFormMessage
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.PreFormMessage
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.RequiredFields*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.RequiredFields
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_RequiredFields
   name: RequiredFields
   nameWithType: ChatWidgetSettings.RequiredFields
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.RequiredFields
@@ -1349,36 +1631,42 @@ references:
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.PostFormEnabled*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.PostFormEnabled
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_PostFormEnabled
   name: PostFormEnabled
   nameWithType: ChatWidgetSettings.PostFormEnabled
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.PostFormEnabled
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.PostFormHeader*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.PostFormHeader
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_PostFormHeader
   name: PostFormHeader
   nameWithType: ChatWidgetSettings.PostFormHeader
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.PostFormHeader
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.PostFormMessage*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.PostFormMessage
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_PostFormMessage
   name: PostFormMessage
   nameWithType: ChatWidgetSettings.PostFormMessage
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.PostFormMessage
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.PostTranscriptEnabled*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.PostTranscriptEnabled
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_PostTranscriptEnabled
   name: PostTranscriptEnabled
   nameWithType: ChatWidgetSettings.PostTranscriptEnabled
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.PostTranscriptEnabled
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.LanguageIsoCode*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.LanguageIsoCode
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_LanguageIsoCode
   name: LanguageIsoCode
   nameWithType: ChatWidgetSettings.LanguageIsoCode
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.LanguageIsoCode
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.Size*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.Size
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_Size
   name: Size
   nameWithType: ChatWidgetSettings.Size
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.Size
@@ -1391,6 +1679,7 @@ references:
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.Theme*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.Theme
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_Theme
   name: Theme
   nameWithType: ChatWidgetSettings.Theme
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.Theme
@@ -1403,78 +1692,91 @@ references:
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.Color*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.Color
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_Color
   name: Color
   nameWithType: ChatWidgetSettings.Color
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.Color
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeColor*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.BadgeColor
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_BadgeColor
   name: BadgeColor
   nameWithType: ChatWidgetSettings.BadgeColor
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeColor
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeTextColor*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.BadgeTextColor
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_BadgeTextColor
   name: BadgeTextColor
   nameWithType: ChatWidgetSettings.BadgeTextColor
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeTextColor
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgColor*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgColor
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_CustMsgColor
   name: CustMsgColor
   nameWithType: ChatWidgetSettings.CustMsgColor
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgColor
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgTextColor*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgTextColor
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_CustMsgTextColor
   name: CustMsgTextColor
   nameWithType: ChatWidgetSettings.CustMsgTextColor
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgTextColor
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgColor*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgColor
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_AgentMsgColor
   name: AgentMsgColor
   nameWithType: ChatWidgetSettings.AgentMsgColor
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgColor
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgTextColor*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgTextColor
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_AgentMsgTextColor
   name: AgentMsgTextColor
   nameWithType: ChatWidgetSettings.AgentMsgTextColor
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgTextColor
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonColor*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.ButtonColor
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_ButtonColor
   name: ButtonColor
   nameWithType: ChatWidgetSettings.ButtonColor
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonColor
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonTextColor*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.ButtonTextColor
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_ButtonTextColor
   name: ButtonTextColor
   nameWithType: ChatWidgetSettings.ButtonTextColor
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonTextColor
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.Font*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.Font
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_Font
   name: Font
   nameWithType: ChatWidgetSettings.Font
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.Font
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.FontSize*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.FontSize
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_FontSize
   name: FontSize
   nameWithType: ChatWidgetSettings.FontSize
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.FontSize
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_LogoEnabled
   name: LogoEnabled
   nameWithType: ChatWidgetSettings.LogoEnabled
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.LogoBlobId*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.LogoBlobId
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_LogoBlobId
   name: LogoBlobId
   nameWithType: ChatWidgetSettings.LogoBlobId
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.LogoBlobId
@@ -1482,54 +1784,66 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.LogoName*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.LogoName
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_LogoName
   name: LogoName
   nameWithType: ChatWidgetSettings.LogoName
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.LogoName
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.ShowAgentPhoto*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.ShowAgentPhoto
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_ShowAgentPhoto
   name: ShowAgentPhoto
   nameWithType: ChatWidgetSettings.ShowAgentPhoto
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ShowAgentPhoto
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.WelcomeTitle*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.WelcomeTitle
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_WelcomeTitle
   name: WelcomeTitle
   nameWithType: ChatWidgetSettings.WelcomeTitle
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.WelcomeTitle
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.WelcomeMessage*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.WelcomeMessage
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_WelcomeMessage
   name: WelcomeMessage
   nameWithType: ChatWidgetSettings.WelcomeMessage
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.WelcomeMessage
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineHeader*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.OfflineHeader
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_OfflineHeader
   name: OfflineHeader
   nameWithType: ChatWidgetSettings.OfflineHeader
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineHeader
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineMessage*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.OfflineMessage
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_OfflineMessage
   name: OfflineMessage
   nameWithType: ChatWidgetSettings.OfflineMessage
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineMessage
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineFields*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.OfflineFields
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_OfflineFields
   name: OfflineFields
   nameWithType: ChatWidgetSettings.OfflineFields
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.OfflineFields
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.UseAgentFirstname*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.UseAgentFirstname
   isExternal: true
+  href: SuperOffice.CRM.Services.ChatWidgetSettings.html#SuperOffice_CRM_Services_ChatWidgetSettings_UseAgentFirstname
   name: UseAgentFirstname
   nameWithType: ChatWidgetSettings.UseAgentFirstname
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.UseAgentFirstname

@@ -17,64 +17,21 @@ items:
   - SuperOffice.WebApi.Data.QuoteVersionButtonAction.ValidateVersion
   - SuperOffice.WebApi.Data.QuoteVersionButtonAction.ValidateVersionAndPlaceOrderIfPossible
   - SuperOffice.WebApi.Data.QuoteVersionButtonAction.ValidateVersionAndSendIfPossible
-  - SuperOffice.WebApi.Data.QuoteVersionButtonAction.value__
   langs:
   - csharp
   - vb
   name: QuoteVersionButtonAction
   nameWithType: QuoteVersionButtonAction
   fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPossible actions for QuoteVersionButton states.\n"
+  summary: Possible actions for QuoteVersionButton states.
+  example: []
   syntax:
-    content: 'public sealed class QuoteVersionButtonAction : Enum'
-    content.vb: >-
-      Public NotInheritable Class QuoteVersionButtonAction
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction.value__
-  commentId: F:SuperOffice.WebApi.Data.QuoteVersionButtonAction.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.QuoteVersionButtonAction
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: QuoteVersionButtonAction.value__
-  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum QuoteVersionButtonAction
+    content.vb: Public Enum QuoteVersionButtonAction
 - uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction.None
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionButtonAction.None
   id: None
@@ -86,24 +43,26 @@ items:
   nameWithType: QuoteVersionButtonAction.None
   fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction.None
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: No action\n"
+  summary: '0: No action'
+  example: []
   syntax:
-    content: public const QuoteVersionButtonAction None
+    content: >-
+      [EnumMember]
+
+      None = 0
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionButtonAction
-    content.vb: Public Const None As QuoteVersionButtonAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction.ValidateVersion
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionButtonAction.ValidateVersion
   id: ValidateVersion
@@ -115,24 +74,26 @@ items:
   nameWithType: QuoteVersionButtonAction.ValidateVersion
   fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction.ValidateVersion
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Validate the quote version.\n"
+  summary: '1: Validate the quote version.'
+  example: []
   syntax:
-    content: public const QuoteVersionButtonAction ValidateVersion
+    content: >-
+      [EnumMember]
+
+      ValidateVersion = 1
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionButtonAction
-    content.vb: Public Const ValidateVersion As QuoteVersionButtonAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ValidateVersion = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction.Edit
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionButtonAction.Edit
   id: Edit
@@ -144,24 +105,26 @@ items:
   nameWithType: QuoteVersionButtonAction.Edit
   fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction.Edit
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Edit the quote version.\n"
+  summary: '2: Edit the quote version.'
+  example: []
   syntax:
-    content: public const QuoteVersionButtonAction Edit
+    content: >-
+      [EnumMember]
+
+      Edit = 2
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionButtonAction
-    content.vb: Public Const Edit As QuoteVersionButtonAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Edit = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction.Send
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionButtonAction.Send
   id: Send
@@ -173,24 +136,26 @@ items:
   nameWithType: QuoteVersionButtonAction.Send
   fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction.Send
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Send the quote version.\n"
+  summary: '3: Send the quote version.'
+  example: []
   syntax:
-    content: public const QuoteVersionButtonAction Send
+    content: >-
+      [EnumMember]
+
+      Send = 3
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionButtonAction
-    content.vb: Public Const Send As QuoteVersionButtonAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Send = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction.Approve
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionButtonAction.Approve
   id: Approve
@@ -202,24 +167,26 @@ items:
   nameWithType: QuoteVersionButtonAction.Approve
   fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction.Approve
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Approve the quote version.\n"
+  summary: '4: Approve the quote version.'
+  example: []
   syntax:
-    content: public const QuoteVersionButtonAction Approve
+    content: >-
+      [EnumMember]
+
+      Approve = 4
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionButtonAction
-    content.vb: Public Const Approve As QuoteVersionButtonAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Approve = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction.Reject
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionButtonAction.Reject
   id: Reject
@@ -231,24 +198,26 @@ items:
   nameWithType: QuoteVersionButtonAction.Reject
   fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction.Reject
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Reject the quote version.\n"
+  summary: '5: Reject the quote version.'
+  example: []
   syntax:
-    content: public const QuoteVersionButtonAction Reject
+    content: >-
+      [EnumMember]
+
+      Reject = 5
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionButtonAction
-    content.vb: Public Const Reject As QuoteVersionButtonAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Reject = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction.ValidateVersionAndSendIfPossible
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionButtonAction.ValidateVersionAndSendIfPossible
   id: ValidateVersionAndSendIfPossible
@@ -260,24 +229,26 @@ items:
   nameWithType: QuoteVersionButtonAction.ValidateVersionAndSendIfPossible
   fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction.ValidateVersionAndSendIfPossible
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: Validate the quote version and send if possible.\n"
+  summary: '7: Validate the quote version and send if possible.'
+  example: []
   syntax:
-    content: public const QuoteVersionButtonAction ValidateVersionAndSendIfPossible
+    content: >-
+      [EnumMember]
+
+      ValidateVersionAndSendIfPossible = 7
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionButtonAction
-    content.vb: Public Const ValidateVersionAndSendIfPossible As QuoteVersionButtonAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ValidateVersionAndSendIfPossible = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction.ValidateVersionAndPlaceOrderIfPossible
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionButtonAction.ValidateVersionAndPlaceOrderIfPossible
   id: ValidateVersionAndPlaceOrderIfPossible
@@ -289,24 +260,26 @@ items:
   nameWithType: QuoteVersionButtonAction.ValidateVersionAndPlaceOrderIfPossible
   fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction.ValidateVersionAndPlaceOrderIfPossible
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Validate the quote version and place the order if possible.\n"
+  summary: '8: Validate the quote version and place the order if possible.'
+  example: []
   syntax:
-    content: public const QuoteVersionButtonAction ValidateVersionAndPlaceOrderIfPossible
+    content: >-
+      [EnumMember]
+
+      ValidateVersionAndPlaceOrderIfPossible = 8
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionButtonAction
-    content.vb: Public Const ValidateVersionAndPlaceOrderIfPossible As QuoteVersionButtonAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ValidateVersionAndPlaceOrderIfPossible = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction.CloneVersion
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionButtonAction.CloneVersion
   id: CloneVersion
@@ -318,24 +291,26 @@ items:
   nameWithType: QuoteVersionButtonAction.CloneVersion
   fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction.CloneVersion
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n9: Make a copy of the quote version.\n"
+  summary: '9: Make a copy of the quote version.'
+  example: []
   syntax:
-    content: public const QuoteVersionButtonAction CloneVersion
+    content: >-
+      [EnumMember]
+
+      CloneVersion = 9
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionButtonAction
-    content.vb: Public Const CloneVersion As QuoteVersionButtonAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      CloneVersion = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction.SendConfirmation
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionButtonAction.SendConfirmation
   id: SendConfirmation
@@ -347,24 +322,26 @@ items:
   nameWithType: QuoteVersionButtonAction.SendConfirmation
   fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction.SendConfirmation
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n10: Send confirmation.\n"
+  summary: '10: Send confirmation.'
+  example: []
   syntax:
-    content: public const QuoteVersionButtonAction SendConfirmation
+    content: >-
+      [EnumMember]
+
+      SendConfirmation = 10
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionButtonAction
-    content.vb: Public Const SendConfirmation As QuoteVersionButtonAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SendConfirmation = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction.GetOrderState
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionButtonAction.GetOrderState
   id: GetOrderState
@@ -376,24 +353,26 @@ items:
   nameWithType: QuoteVersionButtonAction.GetOrderState
   fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction.GetOrderState
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n11: Fetch updated values from the ERP system and show the results in the dialog.\n"
+  summary: '11: Fetch updated values from the ERP system and show the results in the dialog.'
+  example: []
   syntax:
-    content: public const QuoteVersionButtonAction GetOrderState
+    content: >-
+      [EnumMember]
+
+      GetOrderState = 11
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionButtonAction
-    content.vb: Public Const GetOrderState As QuoteVersionButtonAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      GetOrderState = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction.UpdatePrices
   commentId: F:SuperOffice.WebApi.Data.QuoteVersionButtonAction.UpdatePrices
   id: UpdatePrices
@@ -405,55 +384,69 @@ items:
   nameWithType: QuoteVersionButtonAction.UpdatePrices
   fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction.UpdatePrices
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n12: Ask the quote connector to update the prices for the entire version.\n"
+  summary: '12: Ask the quote connector to update the prices for the entire version.'
+  example: []
   syntax:
-    content: public const QuoteVersionButtonAction UpdatePrices
+    content: >-
+      [EnumMember]
+
+      UpdatePrices = 12
     return:
       type: SuperOffice.WebApi.Data.QuoteVersionButtonAction
-    content.vb: Public Const UpdatePrices As QuoteVersionButtonAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UpdatePrices = 12
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction
   commentId: T:SuperOffice.WebApi.Data.QuoteVersionButtonAction
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteVersionButtonAction.html
   name: QuoteVersionButtonAction
   nameWithType: QuoteVersionButtonAction
   fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction

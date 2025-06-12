@@ -19,33 +19,50 @@ items:
   nameWithType: AddressFormatter
   fullName: SuperOffice.CRM.Globalization.AddressFormatter
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nFormat addresses from a <xref href=\"SuperOffice.CRM.Entities.Person\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"SuperOffice.CRM.Entities.Contact\" data-throw-if-not-resolved=\"false\"></xref>.  Use the <xref href=\"SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(System.Int32%2cSuperOffice.CRM.Rows.AddressRow%2cSuperOffice.CRM.Rows.AddressRow)\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson(SuperOffice.CRM.Rows.PersonRow%2cSuperOffice.CRM.Rows.AddressRow)\" data-throw-if-not-resolved=\"false\"></xref> to format the address.\n"
+  summary: Format addresses from a <xref href="SuperOffice.CRM.Entities.Person" data-throw-if-not-resolved="false"></xref> or <xref href="SuperOffice.CRM.Entities.Contact" data-throw-if-not-resolved="false"></xref>.  Use the <xref href="SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(System.Int32%2cSuperOffice.CRM.Rows.AddressRow%2cSuperOffice.CRM.Rows.AddressRow)" data-throw-if-not-resolved="false"></xref> or <xref href="SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson(SuperOffice.CRM.Rows.PersonRow%2cSuperOffice.CRM.Rows.AddressRow)" data-throw-if-not-resolved="false"></xref> to format the address.
+  example: []
   syntax:
-    content: 'public class AddressFormatter : FormattedAddress'
-    content.vb: >-
-      Public Class AddressFormatter
-          Inherits FormattedAddress
+    content: 'public class AddressFormatter : FormattedAddress, IList, ICollection, IEnumerable'
+    content.vb: Public Class AddressFormatter Inherits FormattedAddress Implements IList, ICollection, IEnumerable
   inheritance:
   - System.Object
+  - System.Collections.CollectionBase
   - SuperOffice.CRM.Globalization.FormattedAddress
+  implements:
+  - System.Collections.IList
+  - System.Collections.ICollection
+  - System.Collections.IEnumerable
   inheritedMembers:
   - SuperOffice.CRM.Globalization.FormattedAddress.ToString
   - SuperOffice.CRM.Globalization.FormattedAddress.Item(System.Int32)
+  - System.Collections.CollectionBase.Clear
+  - System.Collections.CollectionBase.RemoveAt(System.Int32)
+  - System.Collections.CollectionBase.GetEnumerator
+  - System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)
+  - System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)
+  - System.Collections.CollectionBase.OnClear
+  - System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)
+  - System.Collections.CollectionBase.OnValidate(System.Object)
+  - System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)
+  - System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)
+  - System.Collections.CollectionBase.OnClearComplete
+  - System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)
+  - System.Collections.CollectionBase.InnerList
+  - System.Collections.CollectionBase.List
+  - System.Collections.CollectionBase.Capacity
+  - System.Collections.CollectionBase.Count
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Globalization.AddressFormatter.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Globalization.AddressFormatter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatQuote(System.Int32,SuperOffice.CRM.Rows.AddressRow)
   commentId: M:SuperOffice.CRM.Globalization.AddressFormatter.FormatQuote(System.Int32,SuperOffice.CRM.Rows.AddressRow)
   id: FormatQuote(System.Int32,SuperOffice.CRM.Rows.AddressRow)
@@ -53,13 +70,10 @@ items:
   langs:
   - csharp
   - vb
-  name: FormatQuote(Int32, AddressRow)
-  nameWithType: AddressFormatter.FormatQuote(Int32, AddressRow)
-  fullName: SuperOffice.CRM.Globalization.AddressFormatter.FormatQuote(System.Int32, SuperOffice.CRM.Rows.AddressRow)
+  name: FormatQuote(int, AddressRow)
+  nameWithType: AddressFormatter.FormatQuote(int, AddressRow)
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.FormatQuote(int, SuperOffice.CRM.Rows.AddressRow)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
@@ -74,12 +88,9 @@ items:
       type: SuperOffice.CRM.Globalization.FormattedAddress
     content.vb: Public Shared Function FormatQuote(country_id As Integer, address As AddressRow) As FormattedAddress
   overload: SuperOffice.CRM.Globalization.AddressFormatter.FormatQuote*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: AddressFormatter.FormatQuote(Integer, AddressRow)
+  fullName.vb: SuperOffice.CRM.Globalization.AddressFormatter.FormatQuote(Integer, SuperOffice.CRM.Rows.AddressRow)
+  name.vb: FormatQuote(Integer, AddressRow)
 - uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(System.Int32,SuperOffice.CRM.Rows.AddressRow,SuperOffice.CRM.Rows.AddressRow)
   commentId: M:SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(System.Int32,SuperOffice.CRM.Rows.AddressRow,SuperOffice.CRM.Rows.AddressRow)
   id: FormatContact(System.Int32,SuperOffice.CRM.Rows.AddressRow,SuperOffice.CRM.Rows.AddressRow)
@@ -87,17 +98,15 @@ items:
   langs:
   - csharp
   - vb
-  name: FormatContact(Int32, AddressRow, AddressRow)
-  nameWithType: AddressFormatter.FormatContact(Int32, AddressRow, AddressRow)
-  fullName: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(System.Int32, SuperOffice.CRM.Rows.AddressRow, SuperOffice.CRM.Rows.AddressRow)
+  name: FormatContact(int, AddressRow, AddressRow)
+  nameWithType: AddressFormatter.FormatContact(int, AddressRow, AddressRow)
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(int, SuperOffice.CRM.Rows.AddressRow, SuperOffice.CRM.Rows.AddressRow)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nFormat a companies address using the country id and the two corresponding <xref href=\"SuperOffice.CRM.Rows.AddressRow\" data-throw-if-not-resolved=\"false\"></xref>s.\n"
+  summary: Format a companies address using the country id and the two corresponding <xref href="SuperOffice.CRM.Rows.AddressRow" data-throw-if-not-resolved="false"></xref>s.
+  example: []
   syntax:
     content: public static FormattedAddress FormatContact(int country_id, AddressRow postalAddress, AddressRow streetAddress)
     parameters:
@@ -112,14 +121,12 @@ items:
       description: Street address for the contact
     return:
       type: SuperOffice.CRM.Globalization.FormattedAddress
+      description: ''
     content.vb: Public Shared Function FormatContact(country_id As Integer, postalAddress As AddressRow, streetAddress As AddressRow) As FormattedAddress
   overload: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: AddressFormatter.FormatContact(Integer, AddressRow, AddressRow)
+  fullName.vb: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(Integer, SuperOffice.CRM.Rows.AddressRow, SuperOffice.CRM.Rows.AddressRow)
+  name.vb: FormatContact(Integer, AddressRow, AddressRow)
 - uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.AddressRow,SuperOffice.CRM.Rows.AddressRow)
   commentId: M:SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.AddressRow,SuperOffice.CRM.Rows.AddressRow)
   id: FormatContact(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.AddressRow,SuperOffice.CRM.Rows.AddressRow)
@@ -131,13 +138,11 @@ items:
   nameWithType: AddressFormatter.FormatContact(ContactRow, AddressRow, AddressRow)
   fullName: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(SuperOffice.CRM.Rows.ContactRow, SuperOffice.CRM.Rows.AddressRow, SuperOffice.CRM.Rows.AddressRow)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nFormat a companies address from a <xref href=\"SuperOffice.CRM.Rows.CompanyRow\" data-throw-if-not-resolved=\"false\"></xref> widt the two corresponding <xref href=\"SuperOffice.CRM.Rows.AddressRow\" data-throw-if-not-resolved=\"false\"></xref>s.\n"
+  summary: Format a companies address from a <xref href="SuperOffice.CRM.Rows.CompanyRow" data-throw-if-not-resolved="false"></xref> widt the two corresponding <xref href="SuperOffice.CRM.Rows.AddressRow" data-throw-if-not-resolved="false"></xref>s.
+  example: []
   syntax:
     content: public static FormattedAddress FormatContact(ContactRow contact, AddressRow postalAddress, AddressRow streetAddress)
     parameters:
@@ -152,14 +157,9 @@ items:
       description: Street address for the contact
     return:
       type: SuperOffice.CRM.Globalization.FormattedAddress
+      description: ''
     content.vb: Public Shared Function FormatContact(contact As ContactRow, postalAddress As AddressRow, streetAddress As AddressRow) As FormattedAddress
   overload: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(SuperOffice.CRM.Entities.Contact)
   commentId: M:SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(SuperOffice.CRM.Entities.Contact)
   id: FormatContact(SuperOffice.CRM.Entities.Contact)
@@ -171,13 +171,11 @@ items:
   nameWithType: AddressFormatter.FormatContact(Contact)
   fullName: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(SuperOffice.CRM.Entities.Contact)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nGet a <xref href=\"SuperOffice.CRM.Globalization.FormattedAddress\" data-throw-if-not-resolved=\"false\"></xref> from a <xref href=\"SuperOffice.CRM.Entities.Contact\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Get a <xref href="SuperOffice.CRM.Globalization.FormattedAddress" data-throw-if-not-resolved="false"></xref> from a <xref href="SuperOffice.CRM.Entities.Contact" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public static FormattedAddress FormatContact(Contact contact)
     parameters:
@@ -189,12 +187,6 @@ items:
       description: The address formatted cortectly for the appropriate cluture.
     content.vb: Public Shared Function FormatContact(contact As Contact) As FormattedAddress
   overload: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.AddressRow)
   commentId: M:SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.AddressRow)
   id: FormatPerson(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.AddressRow)
@@ -206,13 +198,11 @@ items:
   nameWithType: AddressFormatter.FormatPerson(PersonRow, AddressRow)
   fullName: SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson(SuperOffice.CRM.Rows.PersonRow, SuperOffice.CRM.Rows.AddressRow)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nFormat a persons address from a <xref href=\"SuperOffice.CRM.Rows.PersonRow\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Rows.AddressRow\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Format a persons address from a <xref href="SuperOffice.CRM.Rows.PersonRow" data-throw-if-not-resolved="false"></xref> and <xref href="SuperOffice.CRM.Rows.AddressRow" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public static FormattedAddress FormatPerson(PersonRow person, AddressRow address)
     parameters:
@@ -227,12 +217,6 @@ items:
       description: A formatted address
     content.vb: Public Shared Function FormatPerson(person As PersonRow, address As AddressRow) As FormattedAddress
   overload: SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson(SuperOffice.CRM.Entities.Person)
   commentId: M:SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson(SuperOffice.CRM.Entities.Person)
   id: FormatPerson(SuperOffice.CRM.Entities.Person)
@@ -244,13 +228,11 @@ items:
   nameWithType: AddressFormatter.FormatPerson(Person)
   fullName: SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson(SuperOffice.CRM.Entities.Person)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nGet a <xref href=\"SuperOffice.CRM.Globalization.FormattedAddress\" data-throw-if-not-resolved=\"false\"></xref> from a <xref href=\"SuperOffice.CRM.Entities.Person\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Get a <xref href="SuperOffice.CRM.Globalization.FormattedAddress" data-throw-if-not-resolved="false"></xref> from a <xref href="SuperOffice.CRM.Entities.Person" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public static FormattedAddress FormatPerson(Person person)
     parameters:
@@ -262,12 +244,6 @@ items:
       description: The address formatted cortectly for the appropriate cluture.
     content.vb: Public Shared Function FormatPerson(person As Person) As FormattedAddress
   overload: SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatterData
   commentId: P:SuperOffice.CRM.Globalization.AddressFormatter.FormatterData
   id: FormatterData
@@ -279,13 +255,11 @@ items:
   nameWithType: AddressFormatter.FormatterData
   fullName: SuperOffice.CRM.Globalization.AddressFormatter.FormatterData
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nThe Formatter&apos;s data\n"
+  summary: The Formatter's data
+  example: []
   syntax:
     content: public AddressFormatter.Data FormatterData { get; }
     parameters: []
@@ -293,33 +267,208 @@ items:
       type: SuperOffice.CRM.Globalization.AddressFormatter.Data
     content.vb: Public ReadOnly Property FormatterData As AddressFormatter.Data
   overload: SuperOffice.CRM.Globalization.AddressFormatter.FormatterData*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
+- uid: SuperOffice.CRM.Entities.Person
+  commentId: T:SuperOffice.CRM.Entities.Person
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.CRM.Entities.Person.html
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.CRM.Entities.Person
+- uid: SuperOffice.CRM.Entities.Contact
+  commentId: T:SuperOffice.CRM.Entities.Contact
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.CRM.Entities.Contact.html
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.CRM.Entities.Contact
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(System.Int32,SuperOffice.CRM.Rows.AddressRow,SuperOffice.CRM.Rows.AddressRow)
+  commentId: M:SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(System.Int32,SuperOffice.CRM.Rows.AddressRow,SuperOffice.CRM.Rows.AddressRow)
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.AddressFormatter.html#SuperOffice_CRM_Globalization_AddressFormatter_FormatContact_System_Int32_SuperOffice_CRM_Rows_AddressRow_SuperOffice_CRM_Rows_AddressRow_
+  name: FormatContact(int, AddressRow, AddressRow)
+  nameWithType: AddressFormatter.FormatContact(int, AddressRow, AddressRow)
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(int, SuperOffice.CRM.Rows.AddressRow, SuperOffice.CRM.Rows.AddressRow)
+  nameWithType.vb: AddressFormatter.FormatContact(Integer, AddressRow, AddressRow)
+  fullName.vb: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(Integer, SuperOffice.CRM.Rows.AddressRow, SuperOffice.CRM.Rows.AddressRow)
+  name.vb: FormatContact(Integer, AddressRow, AddressRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(System.Int32,SuperOffice.CRM.Rows.AddressRow,SuperOffice.CRM.Rows.AddressRow)
+    name: FormatContact
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.AddressFormatter.html#SuperOffice_CRM_Globalization_AddressFormatter_FormatContact_System_Int32_SuperOffice_CRM_Rows_AddressRow_SuperOffice_CRM_Rows_AddressRow_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AddressRow
+    name: AddressRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AddressRow.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AddressRow
+    name: AddressRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AddressRow.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact(System.Int32,SuperOffice.CRM.Rows.AddressRow,SuperOffice.CRM.Rows.AddressRow)
+    name: FormatContact
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.AddressFormatter.html#SuperOffice_CRM_Globalization_AddressFormatter_FormatContact_System_Int32_SuperOffice_CRM_Rows_AddressRow_SuperOffice_CRM_Rows_AddressRow_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AddressRow
+    name: AddressRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AddressRow.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AddressRow
+    name: AddressRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AddressRow.html
+  - name: )
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.AddressRow)
+  commentId: M:SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.AddressRow)
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.AddressFormatter.html#SuperOffice_CRM_Globalization_AddressFormatter_FormatPerson_SuperOffice_CRM_Rows_PersonRow_SuperOffice_CRM_Rows_AddressRow_
+  name: FormatPerson(PersonRow, AddressRow)
+  nameWithType: AddressFormatter.FormatPerson(PersonRow, AddressRow)
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson(SuperOffice.CRM.Rows.PersonRow, SuperOffice.CRM.Rows.AddressRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.AddressRow)
+    name: FormatPerson
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.AddressFormatter.html#SuperOffice_CRM_Globalization_AddressFormatter_FormatPerson_SuperOffice_CRM_Rows_PersonRow_SuperOffice_CRM_Rows_AddressRow_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.PersonRow
+    name: PersonRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PersonRow.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AddressRow
+    name: AddressRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AddressRow.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.AddressRow)
+    name: FormatPerson
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.AddressFormatter.html#SuperOffice_CRM_Globalization_AddressFormatter_FormatPerson_SuperOffice_CRM_Rows_PersonRow_SuperOffice_CRM_Rows_AddressRow_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.PersonRow
+    name: PersonRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PersonRow.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.AddressRow
+    name: AddressRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AddressRow.html
+  - name: )
 - uid: SuperOffice.CRM.Globalization
   commentId: N:SuperOffice.CRM.Globalization
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Globalization
   nameWithType: SuperOffice.CRM.Globalization
   fullName: SuperOffice.CRM.Globalization
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Collections.CollectionBase
+  commentId: T:System.Collections.CollectionBase
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase
+  name: CollectionBase
+  nameWithType: CollectionBase
+  fullName: System.Collections.CollectionBase
 - uid: SuperOffice.CRM.Globalization.FormattedAddress
   commentId: T:SuperOffice.CRM.Globalization.FormattedAddress
   parent: SuperOffice.CRM.Globalization
   isExternal: true
+  href: SuperOffice.CRM.Globalization.FormattedAddress.html
   name: FormattedAddress
   nameWithType: FormattedAddress
   fullName: SuperOffice.CRM.Globalization.FormattedAddress
+- uid: System.Collections.IList
+  commentId: T:System.Collections.IList
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  name: IList
+  nameWithType: IList
+  fullName: System.Collections.IList
+- uid: System.Collections.ICollection
+  commentId: T:System.Collections.ICollection
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.icollection
+  name: ICollection
+  nameWithType: ICollection
+  fullName: System.Collections.ICollection
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
 - uid: SuperOffice.CRM.Globalization.FormattedAddress.ToString
   commentId: M:SuperOffice.CRM.Globalization.FormattedAddress.ToString
   parent: SuperOffice.CRM.Globalization.FormattedAddress
@@ -330,148 +479,900 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Globalization.FormattedAddress.ToString
     name: ToString
-    nameWithType: FormattedAddress.ToString
-    fullName: SuperOffice.CRM.Globalization.FormattedAddress.ToString
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Globalization.FormattedAddress.ToString
     name: ToString
-    nameWithType: FormattedAddress.ToString
-    fullName: SuperOffice.CRM.Globalization.FormattedAddress.ToString
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Globalization.FormattedAddress.Item(System.Int32)
   commentId: P:SuperOffice.CRM.Globalization.FormattedAddress.Item(System.Int32)
   parent: SuperOffice.CRM.Globalization.FormattedAddress
   isExternal: true
-  name: Item[Int32]
-  nameWithType: FormattedAddress.Item[Int32]
-  fullName: SuperOffice.CRM.Globalization.FormattedAddress.Item[System.Int32]
-  nameWithType.vb: FormattedAddress.Item(Int32)
-  fullName.vb: SuperOffice.CRM.Globalization.FormattedAddress.Item(System.Int32)
-  name.vb: Item(Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int]
+  nameWithType: FormattedAddress.this[int]
+  fullName: SuperOffice.CRM.Globalization.FormattedAddress.this[int]
+  nameWithType.vb: FormattedAddress.this[](Integer)
+  fullName.vb: SuperOffice.CRM.Globalization.FormattedAddress.this[](Integer)
+  name.vb: this[](Integer)
   spec.csharp:
-  - uid: SuperOffice.CRM.Globalization.FormattedAddress.Item(System.Int32)
-    name: Item
-    nameWithType: FormattedAddress.Item
-    fullName: SuperOffice.CRM.Globalization.FormattedAddress.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Globalization.FormattedAddress.Item(System.Int32)
-    name: Item
-    nameWithType: FormattedAddress.Item
-    fullName: SuperOffice.CRM.Globalization.FormattedAddress.Item
+    name: this[]
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.CollectionBase.Clear
+  commentId: M:System.Collections.CollectionBase.Clear
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.clear
+  name: Clear()
+  nameWithType: CollectionBase.Clear()
+  fullName: System.Collections.CollectionBase.Clear()
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.clear
+  - name: (
+  - name: )
+- uid: System.Collections.CollectionBase.RemoveAt(System.Int32)
+  commentId: M:System.Collections.CollectionBase.RemoveAt(System.Int32)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.removeat
+  name: RemoveAt(int)
+  nameWithType: CollectionBase.RemoveAt(int)
+  fullName: System.Collections.CollectionBase.RemoveAt(int)
+  nameWithType.vb: CollectionBase.RemoveAt(Integer)
+  fullName.vb: System.Collections.CollectionBase.RemoveAt(Integer)
+  name.vb: RemoveAt(Integer)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.RemoveAt(System.Int32)
+    name: RemoveAt
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.removeat
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.RemoveAt(System.Int32)
+    name: RemoveAt
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.removeat
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Collections.CollectionBase.GetEnumerator
+  commentId: M:System.Collections.CollectionBase.GetEnumerator
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.getenumerator
+  name: GetEnumerator()
+  nameWithType: CollectionBase.GetEnumerator()
+  fullName: System.Collections.CollectionBase.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)
+  commentId: M:System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onset
+  name: OnSet(int, object, object)
+  nameWithType: CollectionBase.OnSet(int, object, object)
+  fullName: System.Collections.CollectionBase.OnSet(int, object, object)
+  nameWithType.vb: CollectionBase.OnSet(Integer, Object, Object)
+  fullName.vb: System.Collections.CollectionBase.OnSet(Integer, Object, Object)
+  name.vb: OnSet(Integer, Object, Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)
+    name: OnSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onset
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)
+    name: OnSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onset
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)
+  commentId: M:System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.oninsert
+  name: OnInsert(int, object)
+  nameWithType: CollectionBase.OnInsert(int, object)
+  fullName: System.Collections.CollectionBase.OnInsert(int, object)
+  nameWithType.vb: CollectionBase.OnInsert(Integer, Object)
+  fullName.vb: System.Collections.CollectionBase.OnInsert(Integer, Object)
+  name.vb: OnInsert(Integer, Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)
+    name: OnInsert
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.oninsert
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)
+    name: OnInsert
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.oninsert
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.CollectionBase.OnClear
+  commentId: M:System.Collections.CollectionBase.OnClear
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onclear
+  name: OnClear()
+  nameWithType: CollectionBase.OnClear()
+  fullName: System.Collections.CollectionBase.OnClear()
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnClear
+    name: OnClear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onclear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnClear
+    name: OnClear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onclear
+  - name: (
+  - name: )
+- uid: System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)
+  commentId: M:System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onremove
+  name: OnRemove(int, object)
+  nameWithType: CollectionBase.OnRemove(int, object)
+  fullName: System.Collections.CollectionBase.OnRemove(int, object)
+  nameWithType.vb: CollectionBase.OnRemove(Integer, Object)
+  fullName.vb: System.Collections.CollectionBase.OnRemove(Integer, Object)
+  name.vb: OnRemove(Integer, Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)
+    name: OnRemove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onremove
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)
+    name: OnRemove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onremove
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.CollectionBase.OnValidate(System.Object)
+  commentId: M:System.Collections.CollectionBase.OnValidate(System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onvalidate
+  name: OnValidate(object)
+  nameWithType: CollectionBase.OnValidate(object)
+  fullName: System.Collections.CollectionBase.OnValidate(object)
+  nameWithType.vb: CollectionBase.OnValidate(Object)
+  fullName.vb: System.Collections.CollectionBase.OnValidate(Object)
+  name.vb: OnValidate(Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnValidate(System.Object)
+    name: OnValidate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onvalidate
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnValidate(System.Object)
+    name: OnValidate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onvalidate
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)
+  commentId: M:System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onsetcomplete
+  name: OnSetComplete(int, object, object)
+  nameWithType: CollectionBase.OnSetComplete(int, object, object)
+  fullName: System.Collections.CollectionBase.OnSetComplete(int, object, object)
+  nameWithType.vb: CollectionBase.OnSetComplete(Integer, Object, Object)
+  fullName.vb: System.Collections.CollectionBase.OnSetComplete(Integer, Object, Object)
+  name.vb: OnSetComplete(Integer, Object, Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)
+    name: OnSetComplete
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onsetcomplete
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)
+    name: OnSetComplete
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onsetcomplete
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)
+  commentId: M:System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.oninsertcomplete
+  name: OnInsertComplete(int, object)
+  nameWithType: CollectionBase.OnInsertComplete(int, object)
+  fullName: System.Collections.CollectionBase.OnInsertComplete(int, object)
+  nameWithType.vb: CollectionBase.OnInsertComplete(Integer, Object)
+  fullName.vb: System.Collections.CollectionBase.OnInsertComplete(Integer, Object)
+  name.vb: OnInsertComplete(Integer, Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)
+    name: OnInsertComplete
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.oninsertcomplete
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)
+    name: OnInsertComplete
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.oninsertcomplete
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.CollectionBase.OnClearComplete
+  commentId: M:System.Collections.CollectionBase.OnClearComplete
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onclearcomplete
+  name: OnClearComplete()
+  nameWithType: CollectionBase.OnClearComplete()
+  fullName: System.Collections.CollectionBase.OnClearComplete()
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnClearComplete
+    name: OnClearComplete
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onclearcomplete
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnClearComplete
+    name: OnClearComplete
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onclearcomplete
+  - name: (
+  - name: )
+- uid: System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)
+  commentId: M:System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onremovecomplete
+  name: OnRemoveComplete(int, object)
+  nameWithType: CollectionBase.OnRemoveComplete(int, object)
+  fullName: System.Collections.CollectionBase.OnRemoveComplete(int, object)
+  nameWithType.vb: CollectionBase.OnRemoveComplete(Integer, Object)
+  fullName.vb: System.Collections.CollectionBase.OnRemoveComplete(Integer, Object)
+  name.vb: OnRemoveComplete(Integer, Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)
+    name: OnRemoveComplete
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onremovecomplete
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)
+    name: OnRemoveComplete
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onremovecomplete
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.CollectionBase.InnerList
+  commentId: P:System.Collections.CollectionBase.InnerList
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.innerlist
+  name: InnerList
+  nameWithType: CollectionBase.InnerList
+  fullName: System.Collections.CollectionBase.InnerList
+- uid: System.Collections.CollectionBase.List
+  commentId: P:System.Collections.CollectionBase.List
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.list
+  name: List
+  nameWithType: CollectionBase.List
+  fullName: System.Collections.CollectionBase.List
+- uid: System.Collections.CollectionBase.Capacity
+  commentId: P:System.Collections.CollectionBase.Capacity
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.capacity
+  name: Capacity
+  nameWithType: CollectionBase.Capacity
+  fullName: System.Collections.CollectionBase.Capacity
+- uid: System.Collections.CollectionBase.Count
+  commentId: P:System.Collections.CollectionBase.Count
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.count
+  name: Count
+  nameWithType: CollectionBase.Count
+  fullName: System.Collections.CollectionBase.Count
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Globalization.AddressFormatter.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<AddressFormatter, To>()
-  nameWithType: EnumUtil.MapEnums<AddressFormatter, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.AddressFormatter, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of AddressFormatter, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.AddressFormatter, To)()
-  name.vb: MapEnums(Of AddressFormatter, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<AddressFormatter, To>(AddressFormatter)
+  nameWithType: EnumUtil.MapEnums<AddressFormatter, To>(AddressFormatter)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.AddressFormatter, To>(SuperOffice.CRM.Globalization.AddressFormatter)
+  nameWithType.vb: EnumUtil.MapEnums(Of AddressFormatter, To)(AddressFormatter)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.AddressFormatter, To)(SuperOffice.CRM.Globalization.AddressFormatter)
+  name.vb: MapEnums(Of AddressFormatter, To)(AddressFormatter)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<AddressFormatter, To>
-    nameWithType: EnumUtil.MapEnums<AddressFormatter, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.AddressFormatter, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Globalization.AddressFormatter)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter
+    name: AddressFormatter
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.AddressFormatter.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter
+    name: AddressFormatter
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.AddressFormatter.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of AddressFormatter, To)
-    nameWithType: EnumUtil.MapEnums(Of AddressFormatter, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.AddressFormatter, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Globalization.AddressFormatter)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter
+    name: AddressFormatter
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.AddressFormatter.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter
+    name: AddressFormatter
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.AddressFormatter.html
+  - name: )
 - uid: SuperOffice.CRM.Globalization.AddressFormatter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<AddressFormatter, To>()
-  nameWithType: Converters.MapEnums<AddressFormatter, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.AddressFormatter, To>()
-  nameWithType.vb: Converters.MapEnums(Of AddressFormatter, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.AddressFormatter, To)()
-  name.vb: MapEnums(Of AddressFormatter, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<AddressFormatter, To>(AddressFormatter)
+  nameWithType: Converters.MapEnums<AddressFormatter, To>(AddressFormatter)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.AddressFormatter, To>(SuperOffice.CRM.Globalization.AddressFormatter)
+  nameWithType.vb: Converters.MapEnums(Of AddressFormatter, To)(AddressFormatter)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.AddressFormatter, To)(SuperOffice.CRM.Globalization.AddressFormatter)
+  name.vb: MapEnums(Of AddressFormatter, To)(AddressFormatter)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<AddressFormatter, To>
-    nameWithType: Converters.MapEnums<AddressFormatter, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.AddressFormatter, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Globalization.AddressFormatter)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter
+    name: AddressFormatter
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.AddressFormatter.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter
+    name: AddressFormatter
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.AddressFormatter.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of AddressFormatter, To)
-    nameWithType: Converters.MapEnums(Of AddressFormatter, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.AddressFormatter, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Globalization.AddressFormatter)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter
+    name: AddressFormatter
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.AddressFormatter.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter
+    name: AddressFormatter
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.AddressFormatter.html
+  - name: )
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -480,43 +1381,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -525,50 +1428,83 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatQuote*
   commentId: Overload:SuperOffice.CRM.Globalization.AddressFormatter.FormatQuote
   isExternal: true
+  href: SuperOffice.CRM.Globalization.AddressFormatter.html#SuperOffice_CRM_Globalization_AddressFormatter_FormatQuote_System_Int32_SuperOffice_CRM_Rows_AddressRow_
   name: FormatQuote
   nameWithType: AddressFormatter.FormatQuote
   fullName: SuperOffice.CRM.Globalization.AddressFormatter.FormatQuote
@@ -576,71 +1512,100 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Rows.AddressRow
   commentId: T:SuperOffice.CRM.Rows.AddressRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.AddressRow.html
   name: AddressRow
   nameWithType: AddressRow
   fullName: SuperOffice.CRM.Rows.AddressRow
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact*
   commentId: Overload:SuperOffice.CRM.Globalization.AddressFormatter.FormatContact
   isExternal: true
+  href: SuperOffice.CRM.Globalization.AddressFormatter.html#SuperOffice_CRM_Globalization_AddressFormatter_FormatContact_System_Int32_SuperOffice_CRM_Rows_AddressRow_SuperOffice_CRM_Rows_AddressRow_
   name: FormatContact
   nameWithType: AddressFormatter.FormatContact
   fullName: SuperOffice.CRM.Globalization.AddressFormatter.FormatContact
+- uid: SuperOffice.CRM.Rows.CompanyRow
+  commentId: T:SuperOffice.CRM.Rows.CompanyRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CompanyRow.html
+  name: CompanyRow
+  nameWithType: CompanyRow
+  fullName: SuperOffice.CRM.Rows.CompanyRow
 - uid: SuperOffice.CRM.Rows.ContactRow
   commentId: T:SuperOffice.CRM.Rows.ContactRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.ContactRow.html
   name: ContactRow
   nameWithType: ContactRow
   fullName: SuperOffice.CRM.Rows.ContactRow
-- uid: SuperOffice.CRM.Entities.Contact
-  commentId: T:SuperOffice.CRM.Entities.Contact
-  parent: SuperOffice.CRM.Entities
-  isExternal: true
-  name: Contact
-  nameWithType: Contact
-  fullName: SuperOffice.CRM.Entities.Contact
-- uid: SuperOffice.CRM.Entities
-  commentId: N:SuperOffice.CRM.Entities
-  isExternal: true
-  name: SuperOffice.CRM.Entities
-  nameWithType: SuperOffice.CRM.Entities
-  fullName: SuperOffice.CRM.Entities
-- uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson*
-  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson
-  isExternal: true
-  name: FormatPerson
-  nameWithType: AddressFormatter.FormatPerson
-  fullName: SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson
 - uid: SuperOffice.CRM.Rows.PersonRow
   commentId: T:SuperOffice.CRM.Rows.PersonRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.PersonRow.html
   name: PersonRow
   nameWithType: PersonRow
   fullName: SuperOffice.CRM.Rows.PersonRow
-- uid: SuperOffice.CRM.Entities.Person
-  commentId: T:SuperOffice.CRM.Entities.Person
-  parent: SuperOffice.CRM.Entities
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson
   isExternal: true
-  name: Person
-  nameWithType: Person
-  fullName: SuperOffice.CRM.Entities.Person
+  href: SuperOffice.CRM.Globalization.AddressFormatter.html#SuperOffice_CRM_Globalization_AddressFormatter_FormatPerson_SuperOffice_CRM_Rows_PersonRow_SuperOffice_CRM_Rows_AddressRow_
+  name: FormatPerson
+  nameWithType: AddressFormatter.FormatPerson
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.FormatPerson
 - uid: SuperOffice.CRM.Globalization.AddressFormatter.FormatterData*
   commentId: Overload:SuperOffice.CRM.Globalization.AddressFormatter.FormatterData
   isExternal: true
+  href: SuperOffice.CRM.Globalization.AddressFormatter.html#SuperOffice_CRM_Globalization_AddressFormatter_FormatterData
   name: FormatterData
   nameWithType: AddressFormatter.FormatterData
   fullName: SuperOffice.CRM.Globalization.AddressFormatter.FormatterData
@@ -648,6 +1613,27 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.AddressFormatter.Data
   parent: SuperOffice.CRM.Globalization
   isExternal: true
+  href: SuperOffice.CRM.Globalization.AddressFormatter.html
   name: AddressFormatter.Data
   nameWithType: AddressFormatter.Data
   fullName: SuperOffice.CRM.Globalization.AddressFormatter.Data
+  spec.csharp:
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter
+    name: AddressFormatter
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.AddressFormatter.html
+  - name: .
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.AddressFormatter.Data.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter
+    name: AddressFormatter
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.AddressFormatter.html
+  - name: .
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.AddressFormatter.Data.html

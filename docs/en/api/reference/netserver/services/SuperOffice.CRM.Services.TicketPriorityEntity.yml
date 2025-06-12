@@ -43,33 +43,54 @@ items:
   nameWithType: TicketPriorityEntity
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nEntity for a ticket priority. This entity describes the meta data for a ticket priority, and provides special operations on it.\n<p></p>\nCarrier object for TicketPriorityEntity.\nServices for the TicketPriorityEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Entity for a ticket priority. This entity describes the meta data for a ticket priority, and provides special operations on it.
+
+    <p></p>
+
+    Carrier object for TicketPriorityEntity.
+
+    Services for the TicketPriorityEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.IListAgent?text=List+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet TicketPriorityEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ListAgent();\n    var ticketPriorityEntity = agent.GetTicketPriorityEntity( 123 );\n }</code></pre>\n"
+  - >-
+    Get TicketPriorityEntity 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new ListAgent();
+       var ticketPriorityEntity = agent.GetTicketPriorityEntity( 123 );
+    }</code></pre>
   syntax:
-    content: 'public class TicketPriorityEntity : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class TicketPriorityEntity : Carrier
     content.vb: >-
-      Public Class TicketPriorityEntity
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class TicketPriorityEntity Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.ListAgent
-    commentId: T:SuperOffice.CRM.Services.ListAgent
   - linkId: SuperOffice.CRM.Services.IListAgent
     commentId: T:SuperOffice.CRM.Services.IListAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.TicketPriorityEntity.#ctor
   id: '#ctor'
@@ -81,21 +102,18 @@ items:
   nameWithType: TicketPriorityEntity.TicketPriorityEntity()
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TicketPriorityEntity()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public TicketPriorityEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TicketPriorityEntity.New()
+  fullName.vb: SuperOffice.CRM.Services.TicketPriorityEntity.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.ToString
   commentId: M:SuperOffice.CRM.Services.TicketPriorityEntity.ToString
   id: ToString
@@ -107,26 +125,18 @@ items:
   nameWithType: TicketPriorityEntity.ToString()
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.TicketPriorityEntity.ToString(System.String)
   id: ToString(System.String)
@@ -134,17 +144,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: TicketPriorityEntity.ToString(String)
-  fullName: SuperOffice.CRM.Services.TicketPriorityEntity.ToString(System.String)
+  name: ToString(string)
+  nameWithType: TicketPriorityEntity.ToString(string)
+  fullName: SuperOffice.CRM.Services.TicketPriorityEntity.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -156,10 +167,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TicketPriorityEntity.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.TicketPriorityEntity.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TicketPriorityId
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.TicketPriorityId
   id: TicketPriorityId
@@ -171,28 +181,28 @@ items:
   nameWithType: TicketPriorityEntity.TicketPriorityId
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TicketPriorityId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe primary key (auto-incremented) \n"
+  summary: The primary key (auto-incremented)
+  example: []
   syntax:
-    content: public virtual int TicketPriorityId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int TicketPriorityId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property TicketPriorityId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TicketPriorityId As Integer
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.TicketPriorityId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.Name
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.Name
   id: Name
@@ -204,28 +214,28 @@ items:
   nameWithType: TicketPriorityEntity.Name
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.Name
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe name of the priority. \n"
+  summary: The name of the priority.
+  example: []
   syntax:
-    content: public virtual string Name { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Name As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.Status
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.Status
   id: Status
@@ -237,28 +247,28 @@ items:
   nameWithType: TicketPriorityEntity.Status
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.Status
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe status (normal/deleted) of the priority. \n"
+  summary: The status (normal/deleted) of the priority.
+  example: []
   syntax:
-    content: public virtual TicketPriorityStatus Status { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual TicketPriorityStatus Status { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.TicketPriorityStatus
-    content.vb: Public Overridable Property Status As TicketPriorityStatus
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Status As TicketPriorityStatus
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.Status*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.Flags
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.Flags
   id: Flags
@@ -270,28 +280,28 @@ items:
   nameWithType: TicketPriorityEntity.Flags
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.Flags
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nA bitmask of flags. \n"
+  summary: A bitmask of flags.
+  example: []
   syntax:
-    content: public virtual TicketPriorityFlags Flags { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual TicketPriorityFlags Flags { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.TicketPriorityFlags
-    content.vb: Public Overridable Property Flags As TicketPriorityFlags
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Flags As TicketPriorityFlags
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.Flags*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.SortOrder
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.SortOrder
   id: SortOrder
@@ -303,28 +313,28 @@ items:
   nameWithType: TicketPriorityEntity.SortOrder
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.SortOrder
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nIndicates the sort order for this priority. 1 is first, 100 is last \n"
+  summary: Indicates the sort order for this priority. 1 is first, 100 is last
+  example: []
   syntax:
-    content: public virtual int SortOrder { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int SortOrder { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property SortOrder As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SortOrder As Integer
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.SortOrder*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TicketRead
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.TicketRead
   id: TicketRead
@@ -336,28 +346,28 @@ items:
   nameWithType: TicketPriorityEntity.TicketRead
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TicketRead
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThis field indicates what to do with the escalation chain when the request is read \n"
+  summary: This field indicates what to do with the escalation chain when the request is read
+  example: []
   syntax:
-    content: public virtual TicketPriorityEscalateEvent TicketRead { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual TicketPriorityEscalateEvent TicketRead { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.TicketPriorityEscalateEvent
-    content.vb: Public Overridable Property TicketRead As TicketPriorityEscalateEvent
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TicketRead As TicketPriorityEscalateEvent
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.TicketRead*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.ChangedOwner
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.ChangedOwner
   id: ChangedOwner
@@ -369,28 +379,28 @@ items:
   nameWithType: TicketPriorityEntity.ChangedOwner
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.ChangedOwner
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThis field indicates what to do with the escalation chain when the request changes owner (manually) \n"
+  summary: This field indicates what to do with the escalation chain when the request changes owner (manually)
+  example: []
   syntax:
-    content: public virtual TicketPriorityEscalateEvent ChangedOwner { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual TicketPriorityEscalateEvent ChangedOwner { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.TicketPriorityEscalateEvent
-    content.vb: Public Overridable Property ChangedOwner As TicketPriorityEscalateEvent
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ChangedOwner As TicketPriorityEscalateEvent
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.ChangedOwner*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TicketNewinfo
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.TicketNewinfo
   id: TicketNewinfo
@@ -402,28 +412,28 @@ items:
   nameWithType: TicketPriorityEntity.TicketNewinfo
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TicketNewinfo
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThis field indicates what to do with the escalation chain when the request gets new info \n"
+  summary: This field indicates what to do with the escalation chain when the request gets new info
+  example: []
   syntax:
-    content: public virtual TicketPriorityEscalateEvent TicketNewinfo { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual TicketPriorityEscalateEvent TicketNewinfo { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.TicketPriorityEscalateEvent
-    content.vb: Public Overridable Property TicketNewinfo As TicketPriorityEscalateEvent
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TicketNewinfo As TicketPriorityEscalateEvent
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.TicketNewinfo*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TicketClosed
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.TicketClosed
   id: TicketClosed
@@ -435,28 +445,28 @@ items:
   nameWithType: TicketPriorityEntity.TicketClosed
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TicketClosed
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThis field indicates what to do with the escalation chain when the request is closed \n"
+  summary: This field indicates what to do with the escalation chain when the request is closed
+  example: []
   syntax:
-    content: public virtual TicketPriorityEscalateEvent TicketClosed { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual TicketPriorityEscalateEvent TicketClosed { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.TicketPriorityEscalateEvent
-    content.vb: Public Overridable Property TicketClosed As TicketPriorityEscalateEvent
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TicketClosed As TicketPriorityEscalateEvent
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.TicketClosed*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TicketChangedPriority
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.TicketChangedPriority
   id: TicketChangedPriority
@@ -468,28 +478,28 @@ items:
   nameWithType: TicketPriorityEntity.TicketChangedPriority
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TicketChangedPriority
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThis field indicates what to do with the escalation chain when the request is changed into this priority \n"
+  summary: This field indicates what to do with the escalation chain when the request is changed into this priority
+  example: []
   syntax:
-    content: public virtual TicketPriorityEscalateEvent TicketChangedPriority { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual TicketPriorityEscalateEvent TicketChangedPriority { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.TicketPriorityEscalateEvent
-    content.vb: Public Overridable Property TicketChangedPriority As TicketPriorityEscalateEvent
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TicketChangedPriority As TicketPriorityEscalateEvent
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.TicketChangedPriority*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TicketNew
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.TicketNew
   id: TicketNew
@@ -501,28 +511,28 @@ items:
   nameWithType: TicketPriorityEntity.TicketNew
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TicketNew
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThis field indicates what to do with the escalation chain when a new request is registered \n"
+  summary: This field indicates what to do with the escalation chain when a new request is registered
+  example: []
   syntax:
-    content: public virtual TicketPriorityEscalateEvent TicketNew { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual TicketPriorityEscalateEvent TicketNew { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.TicketPriorityEscalateEvent
-    content.vb: Public Overridable Property TicketNew As TicketPriorityEscalateEvent
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TicketNew As TicketPriorityEscalateEvent
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.TicketNew*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.Deadline
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.Deadline
   id: Deadline
@@ -534,28 +544,28 @@ items:
   nameWithType: TicketPriorityEntity.Deadline
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.Deadline
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeadline to add if escalated (minutes) \n"
+  summary: Deadline to add if escalated (minutes)
+  example: []
   syntax:
-    content: public virtual int Deadline { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int Deadline { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property Deadline As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Deadline As Integer
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.Deadline*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.MonStart
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.MonStart
   id: MonStart
@@ -567,28 +577,28 @@ items:
   nameWithType: TicketPriorityEntity.MonStart
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.MonStart
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe work hour start for Mondays. Note that only the time part of the DateTime is used \n"
+  summary: The work hour start for Mondays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
-    content: public virtual DateTime MonStart { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime MonStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property MonStart As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property MonStart As Date
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.MonStart*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.MonStop
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.MonStop
   id: MonStop
@@ -600,28 +610,28 @@ items:
   nameWithType: TicketPriorityEntity.MonStop
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.MonStop
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe work hour start for Mondays. Note that only the time part of the DateTime is used \n"
+  summary: The work hour start for Mondays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
-    content: public virtual DateTime MonStop { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime MonStop { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property MonStop As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property MonStop As Date
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.MonStop*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TueStart
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.TueStart
   id: TueStart
@@ -633,28 +643,28 @@ items:
   nameWithType: TicketPriorityEntity.TueStart
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TueStart
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe work hour start for Tuesdays. Note that only the time part of the DateTime is used \n"
+  summary: The work hour start for Tuesdays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
-    content: public virtual DateTime TueStart { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime TueStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property TueStart As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TueStart As Date
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.TueStart*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TueStop
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.TueStop
   id: TueStop
@@ -666,28 +676,28 @@ items:
   nameWithType: TicketPriorityEntity.TueStop
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TueStop
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe work hour stop for Tuesdays. Note that only the time part of the DateTime is used \n"
+  summary: The work hour stop for Tuesdays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
-    content: public virtual DateTime TueStop { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime TueStop { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property TueStop As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TueStop As Date
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.TueStop*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.WedStart
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.WedStart
   id: WedStart
@@ -699,28 +709,28 @@ items:
   nameWithType: TicketPriorityEntity.WedStart
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.WedStart
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe work hour start for Wednesdays. Note that only the time part of the DateTime is used \n"
+  summary: The work hour start for Wednesdays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
-    content: public virtual DateTime WedStart { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime WedStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WedStart As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property WedStart As Date
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.WedStart*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.WedStop
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.WedStop
   id: WedStop
@@ -732,28 +742,28 @@ items:
   nameWithType: TicketPriorityEntity.WedStop
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.WedStop
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe work hour stop for Wednesdays. Note that only the time part of the DateTime is used \n"
+  summary: The work hour stop for Wednesdays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
-    content: public virtual DateTime WedStop { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime WedStop { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WedStop As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property WedStop As Date
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.WedStop*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.ThuStart
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.ThuStart
   id: ThuStart
@@ -765,28 +775,28 @@ items:
   nameWithType: TicketPriorityEntity.ThuStart
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.ThuStart
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe work hour start for Thursdays. Note that only the time part of the DateTime is used \n"
+  summary: The work hour start for Thursdays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
-    content: public virtual DateTime ThuStart { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime ThuStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ThuStart As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ThuStart As Date
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.ThuStart*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.ThuStop
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.ThuStop
   id: ThuStop
@@ -798,28 +808,28 @@ items:
   nameWithType: TicketPriorityEntity.ThuStop
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.ThuStop
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe work hour stop for Thursdays. Note that only the time part of the DateTime is used \n"
+  summary: The work hour stop for Thursdays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
-    content: public virtual DateTime ThuStop { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime ThuStop { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ThuStop As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ThuStop As Date
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.ThuStop*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.FriStart
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.FriStart
   id: FriStart
@@ -831,28 +841,28 @@ items:
   nameWithType: TicketPriorityEntity.FriStart
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.FriStart
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe work hour start for Fridays. Note that only the time part of the DateTime is used \n"
+  summary: The work hour start for Fridays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
-    content: public virtual DateTime FriStart { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime FriStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property FriStart As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FriStart As Date
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.FriStart*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.FriStop
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.FriStop
   id: FriStop
@@ -864,28 +874,28 @@ items:
   nameWithType: TicketPriorityEntity.FriStop
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.FriStop
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe work hour stop for Fridays. Note that only the time part of the DateTime is used \n"
+  summary: The work hour stop for Fridays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
-    content: public virtual DateTime FriStop { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime FriStop { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property FriStop As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FriStop As Date
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.FriStop*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.SatStart
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.SatStart
   id: SatStart
@@ -897,28 +907,28 @@ items:
   nameWithType: TicketPriorityEntity.SatStart
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.SatStart
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe work hour start for Saturdays. Note that only the time part of the DateTime is used \n"
+  summary: The work hour start for Saturdays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
-    content: public virtual DateTime SatStart { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime SatStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SatStart As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SatStart As Date
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.SatStart*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.SatStop
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.SatStop
   id: SatStop
@@ -930,28 +940,28 @@ items:
   nameWithType: TicketPriorityEntity.SatStop
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.SatStop
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe work hour stop for Saturdays. Note that only the time part of the DateTime is used \n"
+  summary: The work hour stop for Saturdays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
-    content: public virtual DateTime SatStop { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime SatStop { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SatStop As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SatStop As Date
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.SatStop*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.SunStart
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.SunStart
   id: SunStart
@@ -963,28 +973,28 @@ items:
   nameWithType: TicketPriorityEntity.SunStart
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.SunStart
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe work hour start for Sundays. Note that only the time part of the DateTime is used \n"
+  summary: The work hour start for Sundays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
-    content: public virtual DateTime SunStart { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime SunStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SunStart As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SunStart As Date
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.SunStart*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.SunStop
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.SunStop
   id: SunStop
@@ -996,28 +1006,28 @@ items:
   nameWithType: TicketPriorityEntity.SunStop
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.SunStop
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe work hour stop for Sundays. Note that only the time part of the DateTime is used \n"
+  summary: The work hour stop for Sundays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
-    content: public virtual DateTime SunStop { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime SunStop { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SunStop As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SunStop As Date
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.SunStop*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.NonDates
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.NonDates
   id: NonDates
@@ -1029,28 +1039,28 @@ items:
   nameWithType: TicketPriorityEntity.NonDates
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.NonDates
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year \n"
+  summary: Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year
+  example: []
   syntax:
-    content: public virtual DateTime[] NonDates { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime[] NonDates { get; set; }
     parameters: []
     return:
       type: System.DateTime[]
-    content.vb: Public Overridable Property NonDates As DateTime()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NonDates As Date()
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.NonDates*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.EscalationLevels
   commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.EscalationLevels
   id: EscalationLevels
@@ -1062,57 +1072,106 @@ items:
   nameWithType: TicketPriorityEntity.EscalationLevels
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.EscalationLevels
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nEscalation levels bound to the parent priority \n"
+  summary: Escalation levels bound to the parent priority
+  example: []
   syntax:
-    content: public virtual TicketPriorityEscalationLevelEntity[] EscalationLevels { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual TicketPriorityEscalationLevelEntity[] EscalationLevels { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity[]
-    content.vb: Public Overridable Property EscalationLevels As TicketPriorityEscalationLevelEntity()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property EscalationLevels As TicketPriorityEscalationLevelEntity()
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.EscalationLevels*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ListAgent
-  commentId: T:SuperOffice.CRM.Services.ListAgent
-  isExternal: true
-  name: ListAgent
-  nameWithType: ListAgent
-  fullName: SuperOffice.CRM.Services.ListAgent
 - uid: SuperOffice.CRM.Services.IListAgent
   commentId: T:SuperOffice.CRM.Services.IListAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html
   name: IListAgent
   nameWithType: IListAgent
   fullName: SuperOffice.CRM.Services.IListAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity__ctor
   name: TicketPriorityEntity
   nameWithType: TicketPriorityEntity.TicketPriorityEntity
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TicketPriorityEntity
+  nameWithType.vb: TicketPriorityEntity.New
+  fullName.vb: SuperOffice.CRM.Services.TicketPriorityEntity.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.ToString*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_ToString
   name: ToString
   nameWithType: TicketPriorityEntity.ToString
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.ToString
@@ -1120,18 +1179,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TicketPriorityId*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.TicketPriorityId
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_TicketPriorityId
   name: TicketPriorityId
   nameWithType: TicketPriorityEntity.TicketPriorityId
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TicketPriorityId
@@ -1139,18 +1197,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.Name*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.Name
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_Name
   name: Name
   nameWithType: TicketPriorityEntity.Name
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.Name
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.Status*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.Status
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_Status
   name: Status
   nameWithType: TicketPriorityEntity.Status
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.Status
@@ -1163,6 +1227,7 @@ references:
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.Flags*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.Flags
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_Flags
   name: Flags
   nameWithType: TicketPriorityEntity.Flags
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.Flags
@@ -1175,12 +1240,14 @@ references:
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.SortOrder*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.SortOrder
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_SortOrder
   name: SortOrder
   nameWithType: TicketPriorityEntity.SortOrder
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.SortOrder
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TicketRead*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.TicketRead
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_TicketRead
   name: TicketRead
   nameWithType: TicketPriorityEntity.TicketRead
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TicketRead
@@ -1192,168 +1259,194 @@ references:
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.ChangedOwner*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.ChangedOwner
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_ChangedOwner
   name: ChangedOwner
   nameWithType: TicketPriorityEntity.ChangedOwner
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.ChangedOwner
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TicketNewinfo*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.TicketNewinfo
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_TicketNewinfo
   name: TicketNewinfo
   nameWithType: TicketPriorityEntity.TicketNewinfo
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TicketNewinfo
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TicketClosed*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.TicketClosed
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_TicketClosed
   name: TicketClosed
   nameWithType: TicketPriorityEntity.TicketClosed
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TicketClosed
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TicketChangedPriority*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.TicketChangedPriority
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_TicketChangedPriority
   name: TicketChangedPriority
   nameWithType: TicketPriorityEntity.TicketChangedPriority
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TicketChangedPriority
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TicketNew*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.TicketNew
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_TicketNew
   name: TicketNew
   nameWithType: TicketPriorityEntity.TicketNew
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TicketNew
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.Deadline*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.Deadline
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_Deadline
   name: Deadline
   nameWithType: TicketPriorityEntity.Deadline
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.Deadline
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.MonStart*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.MonStart
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_MonStart
   name: MonStart
   nameWithType: TicketPriorityEntity.MonStart
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.MonStart
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.MonStop*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.MonStop
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_MonStop
   name: MonStop
   nameWithType: TicketPriorityEntity.MonStop
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.MonStop
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TueStart*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.TueStart
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_TueStart
   name: TueStart
   nameWithType: TicketPriorityEntity.TueStart
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TueStart
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TueStop*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.TueStop
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_TueStop
   name: TueStop
   nameWithType: TicketPriorityEntity.TueStop
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.TueStop
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.WedStart*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.WedStart
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_WedStart
   name: WedStart
   nameWithType: TicketPriorityEntity.WedStart
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.WedStart
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.WedStop*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.WedStop
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_WedStop
   name: WedStop
   nameWithType: TicketPriorityEntity.WedStop
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.WedStop
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.ThuStart*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.ThuStart
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_ThuStart
   name: ThuStart
   nameWithType: TicketPriorityEntity.ThuStart
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.ThuStart
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.ThuStop*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.ThuStop
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_ThuStop
   name: ThuStop
   nameWithType: TicketPriorityEntity.ThuStop
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.ThuStop
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.FriStart*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.FriStart
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_FriStart
   name: FriStart
   nameWithType: TicketPriorityEntity.FriStart
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.FriStart
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.FriStop*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.FriStop
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_FriStop
   name: FriStop
   nameWithType: TicketPriorityEntity.FriStop
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.FriStop
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.SatStart*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.SatStart
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_SatStart
   name: SatStart
   nameWithType: TicketPriorityEntity.SatStart
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.SatStart
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.SatStop*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.SatStop
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_SatStop
   name: SatStop
   nameWithType: TicketPriorityEntity.SatStop
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.SatStop
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.SunStart*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.SunStart
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_SunStart
   name: SunStart
   nameWithType: TicketPriorityEntity.SunStart
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.SunStart
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.SunStop*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.SunStop
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_SunStop
   name: SunStop
   nameWithType: TicketPriorityEntity.SunStop
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.SunStop
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.NonDates*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.NonDates
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_NonDates
   name: NonDates
   nameWithType: TicketPriorityEntity.NonDates
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.NonDates
 - uid: System.DateTime[]
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime[]
   nameWithType: DateTime[]
   fullName: System.DateTime[]
-  nameWithType.vb: DateTime()
-  fullName.vb: System.DateTime()
-  name.vb: DateTime()
+  nameWithType.vb: Date()
+  fullName.vb: Date()
+  name.vb: Date()
   spec.csharp:
   - uid: System.DateTime
     name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
+    name: Date
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.EscalationLevels*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.EscalationLevels
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEntity.html#SuperOffice_CRM_Services_TicketPriorityEntity_EscalationLevels
   name: EscalationLevels
   nameWithType: TicketPriorityEntity.EscalationLevels
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.EscalationLevels
 - uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity[]
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.html
   name: TicketPriorityEscalationLevelEntity[]
   nameWithType: TicketPriorityEscalationLevelEntity[]
   fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity[]
@@ -1363,18 +1456,14 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
     name: TicketPriorityEscalationLevelEntity
-    nameWithType: TicketPriorityEscalationLevelEntity
-    fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
     name: TicketPriorityEscalationLevelEntity
-    nameWithType: TicketPriorityEscalationLevelEntity
-    fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.html
+  - name: (
+  - name: )

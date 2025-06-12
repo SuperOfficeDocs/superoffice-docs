@@ -11,68 +11,44 @@ items:
   - SuperOffice.CRM.ReturnType.Other
   - SuperOffice.CRM.ReturnType.SoProtocol
   - SuperOffice.CRM.ReturnType.URL
-  - SuperOffice.CRM.ReturnType.value__
   langs:
   - csharp
   - vb
   name: ReturnType
   nameWithType: ReturnType
   fullName: SuperOffice.CRM.ReturnType
-  type: Class
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nHow should a return value from an API call or command be interpreted by the caller\n"
-  remarks: "\nTogether with the <xref href=\"SuperOffice.CRM.ReturnInfo\" data-throw-if-not-resolved=\"false\"></xref> data class, this type opens the possibility\nfor programming fairly complex workflows, with multiple roundtrips chained from one \nreturn to the next.\n<p></p>\nThe disadvantage is that it places a responsibility on the author for choosing which\nclients to support, and to what extent - noting that the number of clients is always\nincreasing, and that clients can have vastly different capabilities; from server-room\nsync processes that have no user interaction at all, to full-featured web or windows\nclients.\n"
-  syntax:
-    content: 'public sealed class ReturnType : Enum'
-    content.vb: >-
-      Public NotInheritable Class ReturnType
-          Inherits
+  summary: How should a return value from an API call or command be interpreted by the caller
+  remarks: >-
+    Together with the <xref href="SuperOffice.CRM.ReturnInfo" data-throw-if-not-resolved="false"></xref> data class, this type opens the possibility
 
-           Enum
-  inheritance:
-  - System.Object
+    for programming fairly complex workflows, with multiple roundtrips chained from one 
+
+    return to the next.
+
+    <p></p>
+
+    The disadvantage is that it places a responsibility on the author for choosing which
+
+    clients to support, and to what extent - noting that the number of clients is always
+
+    increasing, and that clients can have vastly different capabilities; from server-room
+
+    sync processes that have no user interaction at all, to full-featured web or windows
+
+    clients.
+  example: []
+  syntax:
+    content: public enum ReturnType
+    content.vb: Public Enum ReturnType
   extensionMethods:
   - SuperOffice.CRM.ReturnType.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ReturnType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.CRM.ReturnType.value__
-  commentId: F:SuperOffice.CRM.ReturnType.value__
-  id: value__
-  parent: SuperOffice.CRM.ReturnType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: ReturnType.value__
-  fullName: SuperOffice.CRM.ReturnType.value__
-  type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
-  assemblies:
-  - SuperOffice.Plugins
-  namespace: SuperOffice.CRM
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.ReturnType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ReturnType)
+  - SuperOffice.CRM.ReturnType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
 - uid: SuperOffice.CRM.ReturnType.None
   commentId: F:SuperOffice.CRM.ReturnType.None
   id: None
@@ -84,24 +60,26 @@ items:
   nameWithType: ReturnType.None
   fullName: SuperOffice.CRM.ReturnType.None
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n0: There is no return value to be parsed.\n"
+  summary: '0: There is no return value to be parsed.'
+  example: []
   syntax:
-    content: public const ReturnType None
+    content: >-
+      [EnumMember]
+
+      None = 0
     return:
       type: SuperOffice.CRM.ReturnType
-    content.vb: Public Const None As ReturnType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.ReturnType.Message
   commentId: F:SuperOffice.CRM.ReturnType.Message
   id: Message
@@ -113,24 +91,26 @@ items:
   nameWithType: ReturnType.Message
   fullName: SuperOffice.CRM.ReturnType.Message
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n1: The return value is a string, to be shown to the user as a message. A modal dialog box for example.\n"
+  summary: '1: The return value is a string, to be shown to the user as a message. A modal dialog box for example.'
+  example: []
   syntax:
-    content: public const ReturnType Message
+    content: >-
+      [EnumMember]
+
+      Message = 1
     return:
       type: SuperOffice.CRM.ReturnType
-    content.vb: Public Const Message As ReturnType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Message = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.ReturnType.SoProtocol
   commentId: F:SuperOffice.CRM.ReturnType.SoProtocol
   id: SoProtocol
@@ -142,24 +122,29 @@ items:
   nameWithType: ReturnType.SoProtocol
   fullName: SuperOffice.CRM.ReturnType.SoProtocol
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n2: SoProtocol. The return value is an soprotocol-compliant navigation string, to be parsed\naccording to the rules for soprotocol strings. e.g. &quot;contact.main?contact_id=123&quot;\n"
+  summary: >-
+    2: SoProtocol. The return value is an soprotocol-compliant navigation string, to be parsed
+
+    according to the rules for soprotocol strings. e.g. "contact.main?contact_id=123"
+  example: []
   syntax:
-    content: public const ReturnType SoProtocol
+    content: >-
+      [EnumMember]
+
+      SoProtocol = 2
     return:
       type: SuperOffice.CRM.ReturnType
-    content.vb: Public Const SoProtocol As ReturnType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SoProtocol = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.ReturnType.CustomGui
   commentId: F:SuperOffice.CRM.ReturnType.CustomGui
   id: CustomGui
@@ -171,24 +156,29 @@ items:
   nameWithType: ReturnType.CustomGui
   fullName: SuperOffice.CRM.ReturnType.CustomGui
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n3: The return value is the name of a custom GUI. The GetCustomGui method on the \ndocument plugin will be invoked, and the resulting GUI rendered.\n"
+  summary: >-
+    3: The return value is the name of a custom GUI. The GetCustomGui method on the 
+
+    document plugin will be invoked, and the resulting GUI rendered.
+  example: []
   syntax:
-    content: public const ReturnType CustomGui
+    content: >-
+      [EnumMember]
+
+      CustomGui = 3
     return:
       type: SuperOffice.CRM.ReturnType
-    content.vb: Public Const CustomGui As ReturnType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      CustomGui = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.ReturnType.Other
   commentId: F:SuperOffice.CRM.ReturnType.Other
   id: Other
@@ -200,24 +190,39 @@ items:
   nameWithType: ReturnType.Other
   fullName: SuperOffice.CRM.ReturnType.Other
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n4: The return value is intended for custom processing; this implies that the document plugin\nhas installed some component on the intended client that will intercept and handle\nthis return value. \n<br />Note that this requires advanced knowledge of the client and its\nconstruction and navigation. Also note that this will make the functionality client-specific,\nso that it may not be available or work as intended on clients not specifically\nsupported or known.\n"
+  summary: >-
+    4: The return value is intended for custom processing; this implies that the document plugin
+
+    has installed some component on the intended client that will intercept and handle
+
+    this return value. 
+
+    <br />Note that this requires advanced knowledge of the client and its
+
+    construction and navigation. Also note that this will make the functionality client-specific,
+
+    so that it may not be available or work as intended on clients not specifically
+
+    supported or known.
+  example: []
   syntax:
-    content: public const ReturnType Other
+    content: >-
+      [EnumMember]
+
+      Other = 4
     return:
       type: SuperOffice.CRM.ReturnType
-    content.vb: Public Const Other As ReturnType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Other = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.ReturnType.URL
   commentId: F:SuperOffice.CRM.ReturnType.URL
   id: URL
@@ -229,115 +234,278 @@ items:
   nameWithType: ReturnType.URL
   fullName: SuperOffice.CRM.ReturnType.URL
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\n5: The return value is a URL that should be opened in a new window.\n"
+  summary: '5: The return value is a URL that should be opened in a new window.'
+  example: []
   syntax:
-    content: public const ReturnType URL
+    content: >-
+      [EnumMember]
+
+      URL = 5
     return:
       type: SuperOffice.CRM.ReturnType
-    content.vb: Public Const URL As ReturnType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      URL = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
+- uid: SuperOffice.CRM.ReturnInfo
+  commentId: T:SuperOffice.CRM.ReturnInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.ReturnInfo.html
+  name: ReturnInfo
+  nameWithType: ReturnInfo
+  fullName: SuperOffice.CRM.ReturnInfo
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: SuperOffice.CRM.ReturnType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ReturnType, To>()
-  nameWithType: EnumUtil.MapEnums<ReturnType, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ReturnType, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ReturnType, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ReturnType, To)()
-  name.vb: MapEnums(Of ReturnType, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ReturnType, To>(ReturnType)
+  nameWithType: EnumUtil.MapEnums<ReturnType, To>(ReturnType)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ReturnType, To>(SuperOffice.CRM.ReturnType)
+  nameWithType.vb: EnumUtil.MapEnums(Of ReturnType, To)(ReturnType)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ReturnType, To)(SuperOffice.CRM.ReturnType)
+  name.vb: MapEnums(Of ReturnType, To)(ReturnType)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ReturnType, To>
-    nameWithType: EnumUtil.MapEnums<ReturnType, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ReturnType, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ReturnType)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ReturnType, To)
-    nameWithType: EnumUtil.MapEnums(Of ReturnType, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ReturnType, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ReturnType)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
+  - name: )
 - uid: SuperOffice.CRM.ReturnType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ReturnType, To>()
-  nameWithType: Converters.MapEnums<ReturnType, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ReturnType, To>()
-  nameWithType.vb: Converters.MapEnums(Of ReturnType, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ReturnType, To)()
-  name.vb: MapEnums(Of ReturnType, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ReturnType, To>(ReturnType)
+  nameWithType: Converters.MapEnums<ReturnType, To>(ReturnType)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ReturnType, To>(SuperOffice.CRM.ReturnType)
+  nameWithType.vb: Converters.MapEnums(Of ReturnType, To)(ReturnType)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ReturnType, To)(SuperOffice.CRM.ReturnType)
+  name.vb: MapEnums(Of ReturnType, To)(ReturnType)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ReturnType, To>
-    nameWithType: Converters.MapEnums<ReturnType, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ReturnType, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ReturnType)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ReturnType, To)
-    nameWithType: Converters.MapEnums(Of ReturnType, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ReturnType, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ReturnType)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
+  - name: )
+- uid: SuperOffice.CRM.ReturnType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ReturnType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ReturnType>(ReturnType, ReturnType)
+  nameWithType: ObjectExtensions.AssignByReflection<ReturnType>(ReturnType, ReturnType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ReturnType>(SuperOffice.CRM.ReturnType, SuperOffice.CRM.ReturnType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ReturnType)(ReturnType, ReturnType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ReturnType)(SuperOffice.CRM.ReturnType, SuperOffice.CRM.ReturnType)
+  name.vb: AssignByReflection(Of ReturnType)(ReturnType, ReturnType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ReturnType,SuperOffice.CRM.ReturnType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ReturnType,SuperOffice.CRM.ReturnType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
+  - name: )
+- uid: SuperOffice.CRM.ReturnType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ReturnType>(ReturnType)
+  nameWithType: ObjectExtensions.GraphCopy<ReturnType>(ReturnType)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ReturnType>(SuperOffice.CRM.ReturnType)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ReturnType)(ReturnType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ReturnType)(SuperOffice.CRM.ReturnType)
+  name.vb: GraphCopy(Of ReturnType)(ReturnType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ReturnType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ReturnType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.CRM.ReturnType.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -346,43 +514,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -391,58 +561,193 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.CRM.ReturnType
   commentId: T:SuperOffice.CRM.ReturnType
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ReturnType.html
   name: ReturnType
   nameWithType: ReturnType
   fullName: SuperOffice.CRM.ReturnType

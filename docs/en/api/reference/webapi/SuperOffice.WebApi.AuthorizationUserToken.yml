@@ -7,7 +7,7 @@ items:
   children:
   - SuperOffice.WebApi.AuthorizationUserToken.#ctor(System.String,System.String,System.String)
   - SuperOffice.WebApi.AuthorizationUserToken.GetAuthorization
-  - SuperOffice.WebApi.AuthorizationUserToken.RefreshAuthorization
+  - SuperOffice.WebApi.AuthorizationUserToken.RefreshAuthorizationAsync
   langs:
   - csharp
   - vb
@@ -15,30 +15,39 @@ items:
   nameWithType: AuthorizationUserToken
   fullName: SuperOffice.WebApi.AuthorizationUserToken
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi
-  summary: "\nUsername and password are used to get an access token from given username and password\nIf the access token is invalidated, will try to authenticate with username and password to get a new access token.\nThe current access token can be retrieved with <pre><code>var (_, accessToken) = authInstance.GetAuthorization();</code></pre>\n"
-  remarks: "\nIf the access token is omitted on construction, the first agent call will result in three requests:\n1. The first agent call which will fail\n2. A call to UserAgent.GetCurrentToken with the username and passwor to obtain an access token\n3. The original agent call which should now succeed with the new access token\n"
+  summary: >-
+    Username and password are used to get an access token from given username and password
+
+    If the access token is invalidated, will try to authenticate with username and password to get a new access token.
+
+    The current access token can be retrieved with <pre><code class="lang-csharp">var (_, accessToken) = authInstance.GetAuthorization();</code></pre>
+  remarks: >-
+    If the access token is omitted on construction, the first agent call will result in three requests:
+
+    1. The first agent call which will fail
+
+    2. A call to UserAgent.GetCurrentToken with the username and passwor to obtain an access token
+
+    3. The original agent call which should now succeed with the new access token
+  example: []
   syntax:
-    content: 'public class AuthorizationUserToken : Object, IAuthorization'
-    content.vb: >-
-      Public Class AuthorizationUserToken
-          Inherits Object
-          Implements IAuthorization
+    content: 'public class AuthorizationUserToken : IAuthorization'
+    content.vb: Public Class AuthorizationUserToken Implements IAuthorization
   inheritance:
   - System.Object
   implements:
   - SuperOffice.WebApi.Authorization.IAuthorization
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.AuthorizationUserToken.#ctor(System.String,System.String,System.String)
   commentId: M:SuperOffice.WebApi.AuthorizationUserToken.#ctor(System.String,System.String,System.String)
   id: '#ctor(System.String,System.String,System.String)'
@@ -46,17 +55,15 @@ items:
   langs:
   - csharp
   - vb
-  name: AuthorizationUserToken(String, String, String)
-  nameWithType: AuthorizationUserToken.AuthorizationUserToken(String, String, String)
-  fullName: SuperOffice.WebApi.AuthorizationUserToken.AuthorizationUserToken(System.String, System.String, System.String)
+  name: AuthorizationUserToken(string, string, string)
+  nameWithType: AuthorizationUserToken.AuthorizationUserToken(string, string, string)
+  fullName: SuperOffice.WebApi.AuthorizationUserToken.AuthorizationUserToken(string, string, string)
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public AuthorizationUserToken(string userName, string password, string accessToken = null)
     parameters:
@@ -71,10 +78,9 @@ items:
       description: 'Optional access token. Should be a 8A: style bearer token, same as what UserAgent.GetCurrentToken will deliver'
     content.vb: Public Sub New(userName As String, password As String, accessToken As String = Nothing)
   overload: SuperOffice.WebApi.AuthorizationUserToken.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: AuthorizationUserToken.New(String, String, String)
+  fullName.vb: SuperOffice.WebApi.AuthorizationUserToken.New(String, String, String)
+  name.vb: New(String, String, String)
 - uid: SuperOffice.WebApi.AuthorizationUserToken.GetAuthorization
   commentId: M:SuperOffice.WebApi.AuthorizationUserToken.GetAuthorization
   id: GetAuthorization
@@ -86,265 +92,533 @@ items:
   nameWithType: AuthorizationUserToken.GetAuthorization()
   fullName: SuperOffice.WebApi.AuthorizationUserToken.GetAuthorization()
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi
-  summary: "\n"
+  summary: ''
+  example: []
   syntax:
     content: public AuthenticationHeaderValue GetAuthorization()
     return:
       type: System.Net.Http.Headers.AuthenticationHeaderValue
-    content.vb: Public Function GetAuthorization As AuthenticationHeaderValue
+      description: ''
+    content.vb: Public Function GetAuthorization() As AuthenticationHeaderValue
   overload: SuperOffice.WebApi.AuthorizationUserToken.GetAuthorization*
-  implements:
-  - SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.WebApi.AuthorizationUserToken.RefreshAuthorization
-  commentId: P:SuperOffice.WebApi.AuthorizationUserToken.RefreshAuthorization
-  id: RefreshAuthorization
+- uid: SuperOffice.WebApi.AuthorizationUserToken.RefreshAuthorizationAsync
+  commentId: P:SuperOffice.WebApi.AuthorizationUserToken.RefreshAuthorizationAsync
+  id: RefreshAuthorizationAsync
   parent: SuperOffice.WebApi.AuthorizationUserToken
   langs:
   - csharp
   - vb
-  name: RefreshAuthorization
-  nameWithType: AuthorizationUserToken.RefreshAuthorization
-  fullName: SuperOffice.WebApi.AuthorizationUserToken.RefreshAuthorization
+  name: RefreshAuthorizationAsync
+  nameWithType: AuthorizationUserToken.RefreshAuthorizationAsync
+  fullName: SuperOffice.WebApi.AuthorizationUserToken.RefreshAuthorizationAsync
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi
-  summary: "\nTry to refresh this <xref href=\"SuperOffice.WebApi.Authorization.IAuthorization\" data-throw-if-not-resolved=\"false\"></xref> instance.\n"
+  summary: Try to refresh this <xref href="SuperOffice.WebApi.Authorization.IAuthorization" data-throw-if-not-resolved="false"></xref> instance.
+  example: []
   syntax:
-    content: public Func<ReAuthorizationArgs, IAuthorization> RefreshAuthorization { get; set; }
+    content: public Func<ReAuthorizationArgs, Task<IAuthorization>> RefreshAuthorizationAsync { get; set; }
     parameters: []
     return:
-      type: System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,SuperOffice.WebApi.Authorization.IAuthorization}
-    content.vb: Public Property RefreshAuthorization As Func(Of ReAuthorizationArgs, IAuthorization)
-  overload: SuperOffice.WebApi.AuthorizationUserToken.RefreshAuthorization*
-  implements:
-  - SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorization
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+      type: System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,System.Threading.Tasks.Task{SuperOffice.WebApi.Authorization.IAuthorization}}
+    content.vb: Public Property RefreshAuthorizationAsync As Func(Of ReAuthorizationArgs, Task(Of IAuthorization))
+  overload: SuperOffice.WebApi.AuthorizationUserToken.RefreshAuthorizationAsync*
 references:
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Authorization.IAuthorization
   commentId: T:SuperOffice.WebApi.Authorization.IAuthorization
   parent: SuperOffice.WebApi.Authorization
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.IAuthorization.html
   name: IAuthorization
   nameWithType: IAuthorization
   fullName: SuperOffice.WebApi.Authorization.IAuthorization
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Authorization
   commentId: N:SuperOffice.WebApi.Authorization
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Authorization
   nameWithType: SuperOffice.WebApi.Authorization
   fullName: SuperOffice.WebApi.Authorization
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization
+    name: Authorization
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization
+    name: Authorization
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.html
 - uid: SuperOffice.WebApi.AuthorizationUserToken.#ctor*
   commentId: Overload:SuperOffice.WebApi.AuthorizationUserToken.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.AuthorizationUserToken.html#SuperOffice_WebApi_AuthorizationUserToken__ctor_System_String_System_String_System_String_
   name: AuthorizationUserToken
   nameWithType: AuthorizationUserToken.AuthorizationUserToken
   fullName: SuperOffice.WebApi.AuthorizationUserToken.AuthorizationUserToken
+  nameWithType.vb: AuthorizationUserToken.New
+  fullName.vb: SuperOffice.WebApi.AuthorizationUserToken.New
+  name.vb: New
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.AuthorizationUserToken.GetAuthorization*
   commentId: Overload:SuperOffice.WebApi.AuthorizationUserToken.GetAuthorization
   isExternal: true
+  href: SuperOffice.WebApi.AuthorizationUserToken.html#SuperOffice_WebApi_AuthorizationUserToken_GetAuthorization
   name: GetAuthorization
   nameWithType: AuthorizationUserToken.GetAuthorization
   fullName: SuperOffice.WebApi.AuthorizationUserToken.GetAuthorization
-- uid: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
-  commentId: M:SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
-  parent: SuperOffice.WebApi.Authorization.IAuthorization
-  isExternal: true
-  name: GetAuthorization()
-  nameWithType: IAuthorization.GetAuthorization()
-  fullName: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization()
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
-    name: GetAuthorization
-    nameWithType: IAuthorization.GetAuthorization
-    fullName: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
-    name: GetAuthorization
-    nameWithType: IAuthorization.GetAuthorization
-    fullName: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Net.Http.Headers.AuthenticationHeaderValue
+  commentId: T:System.Net.Http.Headers.AuthenticationHeaderValue
+  parent: System.Net.Http.Headers
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.headers.authenticationheadervalue
   name: AuthenticationHeaderValue
   nameWithType: AuthenticationHeaderValue
   fullName: System.Net.Http.Headers.AuthenticationHeaderValue
-- uid: SuperOffice.WebApi.AuthorizationUserToken.RefreshAuthorization*
-  commentId: Overload:SuperOffice.WebApi.AuthorizationUserToken.RefreshAuthorization
+- uid: System.Net.Http.Headers
+  commentId: N:System.Net.Http.Headers
   isExternal: true
-  name: RefreshAuthorization
-  nameWithType: AuthorizationUserToken.RefreshAuthorization
-  fullName: SuperOffice.WebApi.AuthorizationUserToken.RefreshAuthorization
-- uid: SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorization
-  commentId: P:SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorization
-  parent: SuperOffice.WebApi.Authorization.IAuthorization
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http.Headers
+  nameWithType: System.Net.Http.Headers
+  fullName: System.Net.Http.Headers
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  - name: .
+  - uid: System.Net.Http.Headers
+    name: Headers
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.headers
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  - name: .
+  - uid: System.Net.Http.Headers
+    name: Headers
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.headers
+- uid: SuperOffice.WebApi.AuthorizationUserToken.RefreshAuthorizationAsync*
+  commentId: Overload:SuperOffice.WebApi.AuthorizationUserToken.RefreshAuthorizationAsync
   isExternal: true
-  name: RefreshAuthorization
-  nameWithType: IAuthorization.RefreshAuthorization
-  fullName: SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorization
-- uid: System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,SuperOffice.WebApi.Authorization.IAuthorization}
-  commentId: '!:System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,SuperOffice.WebApi.Authorization.IAuthorization}'
+  href: SuperOffice.WebApi.AuthorizationUserToken.html#SuperOffice_WebApi_AuthorizationUserToken_RefreshAuthorizationAsync
+  name: RefreshAuthorizationAsync
+  nameWithType: AuthorizationUserToken.RefreshAuthorizationAsync
+  fullName: SuperOffice.WebApi.AuthorizationUserToken.RefreshAuthorizationAsync
+- uid: System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,System.Threading.Tasks.Task{SuperOffice.WebApi.Authorization.IAuthorization}}
+  commentId: T:System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,System.Threading.Tasks.Task{SuperOffice.WebApi.Authorization.IAuthorization}}
+  parent: System
   definition: System.Func`2
-  name: Func<ReAuthorizationArgs, IAuthorization>
-  nameWithType: Func<ReAuthorizationArgs, IAuthorization>
-  fullName: System.Func<SuperOffice.WebApi.Authorization.ReAuthorizationArgs, SuperOffice.WebApi.Authorization.IAuthorization>
-  nameWithType.vb: Func(Of ReAuthorizationArgs, IAuthorization)
-  fullName.vb: System.Func(Of SuperOffice.WebApi.Authorization.ReAuthorizationArgs, SuperOffice.WebApi.Authorization.IAuthorization)
-  name.vb: Func(Of ReAuthorizationArgs, IAuthorization)
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<ReAuthorizationArgs, Task<IAuthorization>>
+  nameWithType: Func<ReAuthorizationArgs, Task<IAuthorization>>
+  fullName: System.Func<SuperOffice.WebApi.Authorization.ReAuthorizationArgs, System.Threading.Tasks.Task<SuperOffice.WebApi.Authorization.IAuthorization>>
+  nameWithType.vb: Func(Of ReAuthorizationArgs, Task(Of IAuthorization))
+  fullName.vb: System.Func(Of SuperOffice.WebApi.Authorization.ReAuthorizationArgs, System.Threading.Tasks.Task(Of SuperOffice.WebApi.Authorization.IAuthorization))
+  name.vb: Func(Of ReAuthorizationArgs, Task(Of IAuthorization))
   spec.csharp:
   - uid: System.Func`2
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Authorization.ReAuthorizationArgs
     name: ReAuthorizationArgs
-    nameWithType: ReAuthorizationArgs
-    fullName: SuperOffice.WebApi.Authorization.ReAuthorizationArgs
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.WebApi.Authorization.ReAuthorizationArgs.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
-    nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
+    href: SuperOffice.WebApi.Authorization.IAuthorization.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+  - name: '>'
   spec.vb:
   - uid: System.Func`2
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Authorization.ReAuthorizationArgs
     name: ReAuthorizationArgs
-    nameWithType: ReAuthorizationArgs
-    fullName: SuperOffice.WebApi.Authorization.ReAuthorizationArgs
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.WebApi.Authorization.ReAuthorizationArgs.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
-    nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
+    href: SuperOffice.WebApi.Authorization.IAuthorization.html
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: System.Func`2
+  commentId: T:System.Func`2
   isExternal: true
-  name: Func<, >
-  nameWithType: Func<, >
-  fullName: System.Func<, >
-  nameWithType.vb: Func(Of , )
-  fullName.vb: System.Func(Of , )
-  name.vb: Func(Of , )
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
   spec.csharp:
   - uid: System.Func`2
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Func`2
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )

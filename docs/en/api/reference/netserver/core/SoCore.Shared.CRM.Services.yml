@@ -21,6 +21,7 @@ references:
   commentId: T:SoCore.Shared.CRM.Services.TimeZoneInterpretation
   parent: SoCore.Shared.CRM.Services
   isExternal: true
+  href: SoCore.Shared.CRM.Services.TimeZoneInterpretation.html
   name: TimeZoneInterpretation
   nameWithType: TimeZoneInterpretation
   fullName: SoCore.Shared.CRM.Services.TimeZoneInterpretation
@@ -28,6 +29,7 @@ references:
   commentId: T:SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment
   parent: SoCore.Shared.CRM.Services
   isExternal: true
+  href: SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment.html
   name: TimeZoneDiaryAdjustment
   nameWithType: TimeZoneDiaryAdjustment
   fullName: SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment
@@ -35,12 +37,54 @@ references:
   commentId: T:SoCore.Shared.CRM.Services.TimeZoneHintAttribute
   parent: SoCore.Shared.CRM.Services
   isExternal: true
+  href: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.html
   name: TimeZoneHintAttribute
   nameWithType: TimeZoneHintAttribute
   fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
 - uid: SoCore.Shared.CRM.Services
   commentId: N:SoCore.Shared.CRM.Services
   isExternal: true
+  href: SoCore.html
   name: SoCore.Shared.CRM.Services
   nameWithType: SoCore.Shared.CRM.Services
   fullName: SoCore.Shared.CRM.Services
+  spec.csharp:
+  - uid: SoCore
+    name: SoCore
+    isExternal: true
+    href: SoCore.html
+  - name: .
+  - uid: SoCore.Shared
+    name: Shared
+    isExternal: true
+    href: SoCore.Shared.html
+  - name: .
+  - uid: SoCore.Shared.CRM
+    name: CRM
+    isExternal: true
+    href: SoCore.Shared.CRM.html
+  - name: .
+  - uid: SoCore.Shared.CRM.Services
+    name: Services
+    isExternal: true
+    href: SoCore.Shared.CRM.Services.html
+  spec.vb:
+  - uid: SoCore
+    name: SoCore
+    isExternal: true
+    href: SoCore.html
+  - name: .
+  - uid: SoCore.Shared
+    name: Shared
+    isExternal: true
+    href: SoCore.Shared.html
+  - name: .
+  - uid: SoCore.Shared.CRM
+    name: CRM
+    isExternal: true
+    href: SoCore.Shared.CRM.html
+  - name: .
+  - uid: SoCore.Shared.CRM.Services
+    name: Services
+    isExternal: true
+    href: SoCore.Shared.CRM.Services.html

@@ -8,9 +8,13 @@ items:
   - SuperOffice.Util.TargetHelper.BucketValues(System.Double[],System.Int32)
   - SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType(System.Int32)
   - SuperOffice.Util.TargetHelper.ConvertPeriodTypeToNumber(SuperOffice.Data.TargetPeriodType)
-  - SuperOffice.Util.TargetHelper.GetDefaultPeriodType
+  - SuperOffice.Util.TargetHelper.GetDefaultPeriodTypeAsync(System.Threading.CancellationToken)
   - SuperOffice.Util.TargetHelper.GetDefaultValues(SuperOffice.Data.TargetPeriodType)
   - SuperOffice.Util.TargetHelper.GetDefaultValues(System.Int32)
+  - SuperOffice.Util.TargetHelper.GetQueryForTargetGroup(System.Int32,SuperOffice.Data.TargetAssignementLevel,SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo@,SuperOffice.CRM.Data.TargetAssignmentValueTableInfo@)
+  - SuperOffice.Util.TargetHelper.GetTargetGroupIdForYear(System.Int32,SuperOffice.Data.TargetEntityType,System.Threading.CancellationToken)
+  - SuperOffice.Util.TargetHelper.GetTargetGroupIdForYearAndDimensionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.TargetHelper.GetTargetGroupYearAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.Util.TargetHelper.SpreadValues(System.Double[],System.Int32)
   - SuperOffice.Util.TargetHelper.TargetPeriod(System.DateTime,SuperOffice.Data.TargetPeriodType)
   langs:
@@ -20,55 +24,45 @@ items:
   nameWithType: TargetHelper
   fullName: SuperOffice.Util.TargetHelper
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: 'public static class TargetHelper : Object'
-    content.vb: >-
-      Public Module TargetHelper
-          Inherits Object
+    content: public static class TargetHelper
+    content.vb: Public Module TargetHelper
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
-- uid: SuperOffice.Util.TargetHelper.GetDefaultPeriodType
-  commentId: M:SuperOffice.Util.TargetHelper.GetDefaultPeriodType
-  id: GetDefaultPeriodType
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.Util.TargetHelper.GetDefaultPeriodTypeAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.TargetHelper.GetDefaultPeriodTypeAsync(System.Threading.CancellationToken)
+  id: GetDefaultPeriodTypeAsync(System.Threading.CancellationToken)
   parent: SuperOffice.Util.TargetHelper
   langs:
   - csharp
   - vb
-  name: GetDefaultPeriodType()
-  nameWithType: TargetHelper.GetDefaultPeriodType()
-  fullName: SuperOffice.Util.TargetHelper.GetDefaultPeriodType()
+  name: GetDefaultPeriodTypeAsync(CancellationToken)
+  nameWithType: TargetHelper.GetDefaultPeriodTypeAsync(CancellationToken)
+  fullName: SuperOffice.Util.TargetHelper.GetDefaultPeriodTypeAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public static TargetPeriodType GetDefaultPeriodType()
+    content: public static Task<TargetPeriodType> GetDefaultPeriodTypeAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.TargetPeriodType
-    content.vb: Public Shared Function GetDefaultPeriodType As TargetPeriodType
-  overload: SuperOffice.Util.TargetHelper.GetDefaultPeriodType*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+      type: System.Threading.Tasks.Task{SuperOffice.Data.TargetPeriodType}
+    content.vb: Public Shared Function GetDefaultPeriodTypeAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TargetPeriodType)
+  overload: SuperOffice.Util.TargetHelper.GetDefaultPeriodTypeAsync*
 - uid: SuperOffice.Util.TargetHelper.TargetPeriod(System.DateTime,SuperOffice.Data.TargetPeriodType)
   commentId: M:SuperOffice.Util.TargetHelper.TargetPeriod(System.DateTime,SuperOffice.Data.TargetPeriodType)
   id: TargetPeriod(System.DateTime,SuperOffice.Data.TargetPeriodType)
@@ -81,9 +75,6 @@ items:
   nameWithType: TargetHelper.TargetPeriod(DateTime, TargetPeriodType)
   fullName: SuperOffice.Util.TargetHelper.TargetPeriod(System.DateTime, SuperOffice.Data.TargetPeriodType)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
@@ -96,17 +87,11 @@ items:
       type: SuperOffice.Data.TargetPeriodType
     return:
       type: System.Int32
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function TargetPeriod(date As DateTime, periodType As TargetPeriodType) As Integer
+    content.vb: Public Shared Function TargetPeriod([date] As Date, periodType As TargetPeriodType) As Integer
   overload: SuperOffice.Util.TargetHelper.TargetPeriod*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: TargetHelper.TargetPeriod(Date, TargetPeriodType)
+  fullName.vb: SuperOffice.Util.TargetHelper.TargetPeriod(Date, SuperOffice.Data.TargetPeriodType)
+  name.vb: TargetPeriod(Date, TargetPeriodType)
 - uid: SuperOffice.Util.TargetHelper.ConvertPeriodTypeToNumber(SuperOffice.Data.TargetPeriodType)
   commentId: M:SuperOffice.Util.TargetHelper.ConvertPeriodTypeToNumber(SuperOffice.Data.TargetPeriodType)
   id: ConvertPeriodTypeToNumber(SuperOffice.Data.TargetPeriodType)
@@ -118,9 +103,6 @@ items:
   nameWithType: TargetHelper.ConvertPeriodTypeToNumber(TargetPeriodType)
   fullName: SuperOffice.Util.TargetHelper.ConvertPeriodTypeToNumber(SuperOffice.Data.TargetPeriodType)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
@@ -133,12 +115,6 @@ items:
       type: System.Int32
     content.vb: Public Shared Function ConvertPeriodTypeToNumber(periodType As TargetPeriodType) As Integer
   overload: SuperOffice.Util.TargetHelper.ConvertPeriodTypeToNumber*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType(System.Int32)
   commentId: M:SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType(System.Int32)
   id: ConvertNumberToPeriodType(System.Int32)
@@ -146,13 +122,10 @@ items:
   langs:
   - csharp
   - vb
-  name: ConvertNumberToPeriodType(Int32)
-  nameWithType: TargetHelper.ConvertNumberToPeriodType(Int32)
-  fullName: SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType(System.Int32)
+  name: ConvertNumberToPeriodType(int)
+  nameWithType: TargetHelper.ConvertNumberToPeriodType(int)
+  fullName: SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
@@ -165,12 +138,9 @@ items:
       type: SuperOffice.Data.TargetPeriodType
     content.vb: Public Shared Function ConvertNumberToPeriodType(number As Integer) As TargetPeriodType
   overload: SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: TargetHelper.ConvertNumberToPeriodType(Integer)
+  fullName.vb: SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType(Integer)
+  name.vb: ConvertNumberToPeriodType(Integer)
 - uid: SuperOffice.Util.TargetHelper.BucketValues(System.Double[],System.Int32)
   commentId: M:SuperOffice.Util.TargetHelper.BucketValues(System.Double[],System.Int32)
   id: BucketValues(System.Double[],System.Int32)
@@ -178,38 +148,32 @@ items:
   langs:
   - csharp
   - vb
-  name: BucketValues(Double[], Int32)
-  nameWithType: TargetHelper.BucketValues(Double[], Int32)
-  fullName: SuperOffice.Util.TargetHelper.BucketValues(System.Double[], System.Int32)
+  name: BucketValues(double[], int)
+  nameWithType: TargetHelper.BucketValues(double[], int)
+  fullName: SuperOffice.Util.TargetHelper.BucketValues(double[], int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
-  summary: "\nAggregates the values in input-collection.\n"
+  summary: Aggregates the values in input-collection.
+  example: []
   syntax:
     content: public static double[] BucketValues(double[] values, int bucketSize)
     parameters:
     - id: values
       type: System.Double[]
+      description: ''
     - id: bucketSize
       type: System.Int32
       description: How many values are aggregated together in the input-collection.
     return:
       type: System.Double[]
+      description: ''
     content.vb: Public Shared Function BucketValues(values As Double(), bucketSize As Integer) As Double()
   overload: SuperOffice.Util.TargetHelper.BucketValues*
-  nameWithType.vb: TargetHelper.BucketValues(Double(), Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Util.TargetHelper.BucketValues(System.Double(), System.Int32)
-  name.vb: BucketValues(Double(), Int32)
+  nameWithType.vb: TargetHelper.BucketValues(Double(), Integer)
+  fullName.vb: SuperOffice.Util.TargetHelper.BucketValues(Double(), Integer)
+  name.vb: BucketValues(Double(), Integer)
 - uid: SuperOffice.Util.TargetHelper.SpreadValues(System.Double[],System.Int32)
   commentId: M:SuperOffice.Util.TargetHelper.SpreadValues(System.Double[],System.Int32)
   id: SpreadValues(System.Double[],System.Int32)
@@ -217,38 +181,32 @@ items:
   langs:
   - csharp
   - vb
-  name: SpreadValues(Double[], Int32)
-  nameWithType: TargetHelper.SpreadValues(Double[], Int32)
-  fullName: SuperOffice.Util.TargetHelper.SpreadValues(System.Double[], System.Int32)
+  name: SpreadValues(double[], int)
+  nameWithType: TargetHelper.SpreadValues(double[], int)
+  fullName: SuperOffice.Util.TargetHelper.SpreadValues(double[], int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
-  summary: "\nDivides each value into several new values. Rounds up to nearest whole if value is positive, rounds down if value is negative.\n"
+  summary: Divides each value into several new values. Rounds up to nearest whole if value is positive, rounds down if value is negative.
+  example: []
   syntax:
     content: public static double[] SpreadValues(double[] values, int spreadSize)
     parameters:
     - id: values
       type: System.Double[]
+      description: ''
     - id: spreadSize
       type: System.Int32
       description: The amount of new values each value in input-collection is divided into.
     return:
       type: System.Double[]
+      description: ''
     content.vb: Public Shared Function SpreadValues(values As Double(), spreadSize As Integer) As Double()
   overload: SuperOffice.Util.TargetHelper.SpreadValues*
-  nameWithType.vb: TargetHelper.SpreadValues(Double(), Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Util.TargetHelper.SpreadValues(System.Double(), System.Int32)
-  name.vb: SpreadValues(Double(), Int32)
+  nameWithType.vb: TargetHelper.SpreadValues(Double(), Integer)
+  fullName.vb: SuperOffice.Util.TargetHelper.SpreadValues(Double(), Integer)
+  name.vb: SpreadValues(Double(), Integer)
 - uid: SuperOffice.Util.TargetHelper.GetDefaultValues(SuperOffice.Data.TargetPeriodType)
   commentId: M:SuperOffice.Util.TargetHelper.GetDefaultValues(SuperOffice.Data.TargetPeriodType)
   id: GetDefaultValues(SuperOffice.Data.TargetPeriodType)
@@ -260,9 +218,6 @@ items:
   nameWithType: TargetHelper.GetDefaultValues(TargetPeriodType)
   fullName: SuperOffice.Util.TargetHelper.GetDefaultValues(SuperOffice.Data.TargetPeriodType)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
@@ -275,12 +230,6 @@ items:
       type: System.Double[]
     content.vb: Public Shared Function GetDefaultValues(tpt As TargetPeriodType) As Double()
   overload: SuperOffice.Util.TargetHelper.GetDefaultValues*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Util.TargetHelper.GetDefaultValues(System.Int32)
   commentId: M:SuperOffice.Util.TargetHelper.GetDefaultValues(System.Int32)
   id: GetDefaultValues(System.Int32)
@@ -288,13 +237,10 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDefaultValues(Int32)
-  nameWithType: TargetHelper.GetDefaultValues(Int32)
-  fullName: SuperOffice.Util.TargetHelper.GetDefaultValues(System.Int32)
+  name: GetDefaultValues(int)
+  nameWithType: TargetHelper.GetDefaultValues(int)
+  fullName: SuperOffice.Util.TargetHelper.GetDefaultValues(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
@@ -307,122 +253,892 @@ items:
       type: System.Double[]
     content.vb: Public Shared Function GetDefaultValues(count As Integer) As Double()
   overload: SuperOffice.Util.TargetHelper.GetDefaultValues*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: TargetHelper.GetDefaultValues(Integer)
+  fullName.vb: SuperOffice.Util.TargetHelper.GetDefaultValues(Integer)
+  name.vb: GetDefaultValues(Integer)
+- uid: SuperOffice.Util.TargetHelper.GetTargetGroupYearAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.TargetHelper.GetTargetGroupYearAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTargetGroupYearAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.TargetHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTargetGroupYearAsync(int, CancellationToken)
+  nameWithType: TargetHelper.GetTargetGroupYearAsync(int, CancellationToken)
+  fullName: SuperOffice.Util.TargetHelper.GetTargetGroupYearAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static Task<int> GetTargetGroupYearAsync(int targetGroupId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: targetGroupId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function GetTargetGroupYearAsync(targetGroupId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Util.TargetHelper.GetTargetGroupYearAsync*
+  nameWithType.vb: TargetHelper.GetTargetGroupYearAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.TargetHelper.GetTargetGroupYearAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetTargetGroupYearAsync(Integer, CancellationToken)
+- uid: SuperOffice.Util.TargetHelper.GetTargetGroupIdForYearAndDimensionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.TargetHelper.GetTargetGroupIdForYearAndDimensionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetTargetGroupIdForYearAndDimensionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.TargetHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTargetGroupIdForYearAndDimensionAsync(int, int, CancellationToken)
+  nameWithType: TargetHelper.GetTargetGroupIdForYearAndDimensionAsync(int, int, CancellationToken)
+  fullName: SuperOffice.Util.TargetHelper.GetTargetGroupIdForYearAndDimensionAsync(int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static Task<int> GetTargetGroupIdForYearAndDimensionAsync(int targetYear, int dimensionId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: targetYear
+      type: System.Int32
+    - id: dimensionId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function GetTargetGroupIdForYearAndDimensionAsync(targetYear As Integer, dimensionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Util.TargetHelper.GetTargetGroupIdForYearAndDimensionAsync*
+  nameWithType.vb: TargetHelper.GetTargetGroupIdForYearAndDimensionAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.TargetHelper.GetTargetGroupIdForYearAndDimensionAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetTargetGroupIdForYearAndDimensionAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.Util.TargetHelper.GetTargetGroupIdForYear(System.Int32,SuperOffice.Data.TargetEntityType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.TargetHelper.GetTargetGroupIdForYear(System.Int32,SuperOffice.Data.TargetEntityType,System.Threading.CancellationToken)
+  id: GetTargetGroupIdForYear(System.Int32,SuperOffice.Data.TargetEntityType,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.TargetHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTargetGroupIdForYear(int, TargetEntityType, CancellationToken)
+  nameWithType: TargetHelper.GetTargetGroupIdForYear(int, TargetEntityType, CancellationToken)
+  fullName: SuperOffice.Util.TargetHelper.GetTargetGroupIdForYear(int, SuperOffice.Data.TargetEntityType, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static Task<int> GetTargetGroupIdForYear(int year, TargetEntityType entity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: year
+      type: System.Int32
+    - id: entity
+      type: SuperOffice.Data.TargetEntityType
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function GetTargetGroupIdForYear(year As Integer, entity As TargetEntityType, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Util.TargetHelper.GetTargetGroupIdForYear*
+  nameWithType.vb: TargetHelper.GetTargetGroupIdForYear(Integer, TargetEntityType, CancellationToken)
+  fullName.vb: SuperOffice.Util.TargetHelper.GetTargetGroupIdForYear(Integer, SuperOffice.Data.TargetEntityType, System.Threading.CancellationToken)
+  name.vb: GetTargetGroupIdForYear(Integer, TargetEntityType, CancellationToken)
+- uid: SuperOffice.Util.TargetHelper.GetQueryForTargetGroup(System.Int32,SuperOffice.Data.TargetAssignementLevel,SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo@,SuperOffice.CRM.Data.TargetAssignmentValueTableInfo@)
+  commentId: M:SuperOffice.Util.TargetHelper.GetQueryForTargetGroup(System.Int32,SuperOffice.Data.TargetAssignementLevel,SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo@,SuperOffice.CRM.Data.TargetAssignmentValueTableInfo@)
+  id: GetQueryForTargetGroup(System.Int32,SuperOffice.Data.TargetAssignementLevel,SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo@,SuperOffice.CRM.Data.TargetAssignmentValueTableInfo@)
+  parent: SuperOffice.Util.TargetHelper
+  langs:
+  - csharp
+  - vb
+  name: GetQueryForTargetGroup(int, TargetAssignementLevel, out TargetAssignmentInfoTableInfo, out TargetAssignmentValueTableInfo)
+  nameWithType: TargetHelper.GetQueryForTargetGroup(int, TargetAssignementLevel, out TargetAssignmentInfoTableInfo, out TargetAssignmentValueTableInfo)
+  fullName: SuperOffice.Util.TargetHelper.GetQueryForTargetGroup(int, SuperOffice.Data.TargetAssignementLevel, out SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo, out SuperOffice.CRM.Data.TargetAssignmentValueTableInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Get a select-query that retrieves all TargetAssignmentInfo-, TargetPeriod- and TargetAssignmentValue-rows related to the specified TargetGroup.
+  example: []
+  syntax:
+    content: public static TargetedSelect<TargetPeriodTableInfo> GetQueryForTargetGroup(int targetGroupId, TargetAssignementLevel assignmentLevel, out TargetAssignmentInfoTableInfo infoTable, out TargetAssignmentValueTableInfo valueTable)
+    parameters:
+    - id: targetGroupId
+      type: System.Int32
+      description: ''
+    - id: assignmentLevel
+      type: SuperOffice.Data.TargetAssignementLevel
+    - id: infoTable
+      type: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+      description: ''
+    - id: valueTable
+      type: SuperOffice.CRM.Data.TargetAssignmentValueTableInfo
+      description: ''
+    return:
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetPeriodTableInfo}
+      description: ''
+    content.vb: Public Shared Function GetQueryForTargetGroup(targetGroupId As Integer, assignmentLevel As TargetAssignementLevel, infoTable As TargetAssignmentInfoTableInfo, valueTable As TargetAssignmentValueTableInfo) As TargetedSelect(Of TargetPeriodTableInfo)
+  overload: SuperOffice.Util.TargetHelper.GetQueryForTargetGroup*
+  nameWithType.vb: TargetHelper.GetQueryForTargetGroup(Integer, TargetAssignementLevel, TargetAssignmentInfoTableInfo, TargetAssignmentValueTableInfo)
+  fullName.vb: SuperOffice.Util.TargetHelper.GetQueryForTargetGroup(Integer, SuperOffice.Data.TargetAssignementLevel, SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo, SuperOffice.CRM.Data.TargetAssignmentValueTableInfo)
+  name.vb: GetQueryForTargetGroup(Integer, TargetAssignementLevel, TargetAssignmentInfoTableInfo, TargetAssignmentValueTableInfo)
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.Util.TargetHelper.GetDefaultPeriodType*
-  commentId: Overload:SuperOffice.Util.TargetHelper.GetDefaultPeriodType
+- uid: SuperOffice.Util.TargetHelper.GetDefaultPeriodTypeAsync*
+  commentId: Overload:SuperOffice.Util.TargetHelper.GetDefaultPeriodTypeAsync
   isExternal: true
-  name: GetDefaultPeriodType
-  nameWithType: TargetHelper.GetDefaultPeriodType
-  fullName: SuperOffice.Util.TargetHelper.GetDefaultPeriodType
-- uid: SuperOffice.Data.TargetPeriodType
-  commentId: T:SuperOffice.Data.TargetPeriodType
-  parent: SuperOffice.Data
+  href: SuperOffice.Util.TargetHelper.html#SuperOffice_Util_TargetHelper_GetDefaultPeriodTypeAsync_System_Threading_CancellationToken_
+  name: GetDefaultPeriodTypeAsync
+  nameWithType: TargetHelper.GetDefaultPeriodTypeAsync
+  fullName: SuperOffice.Util.TargetHelper.GetDefaultPeriodTypeAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: TargetPeriodType
-  nameWithType: TargetPeriodType
-  fullName: SuperOffice.Data.TargetPeriodType
-- uid: SuperOffice.Data
-  commentId: N:SuperOffice.Data
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.TargetPeriodType}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.TargetPeriodType}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TargetPeriodType>
+  nameWithType: Task<TargetPeriodType>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.TargetPeriodType>
+  nameWithType.vb: Task(Of TargetPeriodType)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.TargetPeriodType)
+  name.vb: Task(Of TargetPeriodType)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.TargetPeriodType
+    name: TargetPeriodType
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.TargetPeriodType
+    name: TargetPeriodType
+    isExternal: true
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: SuperOffice.Data
-  nameWithType: SuperOffice.Data
-  fullName: SuperOffice.Data
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.Util.TargetHelper.TargetPeriod*
   commentId: Overload:SuperOffice.Util.TargetHelper.TargetPeriod
   isExternal: true
+  href: SuperOffice.Util.TargetHelper.html#SuperOffice_Util_TargetHelper_TargetPeriod_System_DateTime_SuperOffice_Data_TargetPeriodType_
   name: TargetPeriod
   nameWithType: TargetHelper.TargetPeriod
   fullName: SuperOffice.Util.TargetHelper.TargetPeriod
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.Data.TargetPeriodType
+  commentId: T:SuperOffice.Data.TargetPeriodType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TargetPeriodType.html
+  name: TargetPeriodType
+  nameWithType: TargetPeriodType
+  fullName: SuperOffice.Data.TargetPeriodType
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Util.TargetHelper.ConvertPeriodTypeToNumber*
   commentId: Overload:SuperOffice.Util.TargetHelper.ConvertPeriodTypeToNumber
   isExternal: true
+  href: SuperOffice.Util.TargetHelper.html#SuperOffice_Util_TargetHelper_ConvertPeriodTypeToNumber_SuperOffice_Data_TargetPeriodType_
   name: ConvertPeriodTypeToNumber
   nameWithType: TargetHelper.ConvertPeriodTypeToNumber
   fullName: SuperOffice.Util.TargetHelper.ConvertPeriodTypeToNumber
 - uid: SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType*
   commentId: Overload:SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType
   isExternal: true
+  href: SuperOffice.Util.TargetHelper.html#SuperOffice_Util_TargetHelper_ConvertNumberToPeriodType_System_Int32_
   name: ConvertNumberToPeriodType
   nameWithType: TargetHelper.ConvertNumberToPeriodType
   fullName: SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType
 - uid: SuperOffice.Util.TargetHelper.BucketValues*
   commentId: Overload:SuperOffice.Util.TargetHelper.BucketValues
   isExternal: true
+  href: SuperOffice.Util.TargetHelper.html#SuperOffice_Util_TargetHelper_BucketValues_System_Double___System_Int32_
   name: BucketValues
   nameWithType: TargetHelper.BucketValues
   fullName: SuperOffice.Util.TargetHelper.BucketValues
 - uid: System.Double[]
   isExternal: true
-  name: Double[]
-  nameWithType: Double[]
-  fullName: System.Double[]
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double[]
+  nameWithType: double[]
+  fullName: double[]
   nameWithType.vb: Double()
-  fullName.vb: System.Double()
+  fullName.vb: Double()
   name.vb: Double()
   spec.csharp:
   - uid: System.Double
-    name: Double
-    nameWithType: Double
-    fullName: System.Double
+    name: double
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Double
     name: Double
-    nameWithType: Double
-    fullName: System.Double
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: (
+  - name: )
 - uid: SuperOffice.Util.TargetHelper.SpreadValues*
   commentId: Overload:SuperOffice.Util.TargetHelper.SpreadValues
   isExternal: true
+  href: SuperOffice.Util.TargetHelper.html#SuperOffice_Util_TargetHelper_SpreadValues_System_Double___System_Int32_
   name: SpreadValues
   nameWithType: TargetHelper.SpreadValues
   fullName: SuperOffice.Util.TargetHelper.SpreadValues
 - uid: SuperOffice.Util.TargetHelper.GetDefaultValues*
   commentId: Overload:SuperOffice.Util.TargetHelper.GetDefaultValues
   isExternal: true
+  href: SuperOffice.Util.TargetHelper.html#SuperOffice_Util_TargetHelper_GetDefaultValues_SuperOffice_Data_TargetPeriodType_
   name: GetDefaultValues
   nameWithType: TargetHelper.GetDefaultValues
   fullName: SuperOffice.Util.TargetHelper.GetDefaultValues
+- uid: SuperOffice.Util.TargetHelper.GetTargetGroupYearAsync*
+  commentId: Overload:SuperOffice.Util.TargetHelper.GetTargetGroupYearAsync
+  isExternal: true
+  href: SuperOffice.Util.TargetHelper.html#SuperOffice_Util_TargetHelper_GetTargetGroupYearAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetTargetGroupYearAsync
+  nameWithType: TargetHelper.GetTargetGroupYearAsync
+  fullName: SuperOffice.Util.TargetHelper.GetTargetGroupYearAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.Util.TargetHelper.GetTargetGroupIdForYearAndDimensionAsync*
+  commentId: Overload:SuperOffice.Util.TargetHelper.GetTargetGroupIdForYearAndDimensionAsync
+  isExternal: true
+  href: SuperOffice.Util.TargetHelper.html#SuperOffice_Util_TargetHelper_GetTargetGroupIdForYearAndDimensionAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetTargetGroupIdForYearAndDimensionAsync
+  nameWithType: TargetHelper.GetTargetGroupIdForYearAndDimensionAsync
+  fullName: SuperOffice.Util.TargetHelper.GetTargetGroupIdForYearAndDimensionAsync
+- uid: SuperOffice.Util.TargetHelper.GetTargetGroupIdForYear*
+  commentId: Overload:SuperOffice.Util.TargetHelper.GetTargetGroupIdForYear
+  isExternal: true
+  href: SuperOffice.Util.TargetHelper.html#SuperOffice_Util_TargetHelper_GetTargetGroupIdForYear_System_Int32_SuperOffice_Data_TargetEntityType_System_Threading_CancellationToken_
+  name: GetTargetGroupIdForYear
+  nameWithType: TargetHelper.GetTargetGroupIdForYear
+  fullName: SuperOffice.Util.TargetHelper.GetTargetGroupIdForYear
+- uid: SuperOffice.Data.TargetEntityType
+  commentId: T:SuperOffice.Data.TargetEntityType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TargetEntityType.html
+  name: TargetEntityType
+  nameWithType: TargetEntityType
+  fullName: SuperOffice.Data.TargetEntityType
+- uid: SuperOffice.Util.TargetHelper.GetQueryForTargetGroup*
+  commentId: Overload:SuperOffice.Util.TargetHelper.GetQueryForTargetGroup
+  isExternal: true
+  href: SuperOffice.Util.TargetHelper.html#SuperOffice_Util_TargetHelper_GetQueryForTargetGroup_System_Int32_SuperOffice_Data_TargetAssignementLevel_SuperOffice_CRM_Data_TargetAssignmentInfoTableInfo__SuperOffice_CRM_Data_TargetAssignmentValueTableInfo__
+  name: GetQueryForTargetGroup
+  nameWithType: TargetHelper.GetQueryForTargetGroup
+  fullName: SuperOffice.Util.TargetHelper.GetQueryForTargetGroup
+- uid: SuperOffice.Data.TargetAssignementLevel
+  commentId: T:SuperOffice.Data.TargetAssignementLevel
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TargetAssignementLevel.html
+  name: TargetAssignementLevel
+  nameWithType: TargetAssignementLevel
+  fullName: SuperOffice.Data.TargetAssignementLevel
+- uid: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo.html
+  name: TargetAssignmentInfoTableInfo
+  nameWithType: TargetAssignmentInfoTableInfo
+  fullName: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+- uid: SuperOffice.CRM.Data.TargetAssignmentValueTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetAssignmentValueTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.TargetAssignmentValueTableInfo.html
+  name: TargetAssignmentValueTableInfo
+  nameWithType: TargetAssignmentValueTableInfo
+  fullName: SuperOffice.CRM.Data.TargetAssignmentValueTableInfo
+- uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetPeriodTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetPeriodTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedSelect`1
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  name: TargetedSelect<TargetPeriodTableInfo>
+  nameWithType: TargetedSelect<TargetPeriodTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TargetPeriodTableInfo>
+  nameWithType.vb: TargetedSelect(Of TargetPeriodTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TargetPeriodTableInfo)
+  name.vb: TargetedSelect(Of TargetPeriodTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.TargetPeriodTableInfo
+    name: TargetPeriodTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TargetPeriodTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.TargetPeriodTableInfo
+    name: TargetPeriodTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TargetPeriodTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+- uid: SuperOffice.Data.SQL.TargetedSelect`1
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  name: TargetedSelect<MainTableInfo>
+  nameWithType: TargetedSelect<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
+  nameWithType.vb: TargetedSelect(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo)
+  name.vb: TargetedSelect(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: <
+  - name: MainTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: MainTableInfo
+  - name: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html

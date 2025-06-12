@@ -5,7 +5,7 @@ items:
   id: WebhookSoftTriggerPlugin
   parent: SuperOffice.CRM.Webhooks
   children:
-  - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor
+  - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor(SuperOffice.CRM.Webhooks.IWebhookManager,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin})
   - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
   - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Name
   langs:
@@ -15,32 +15,34 @@ items:
   nameWithType: WebhookSoftTriggerPlugin
   fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
-  summary: "\nCreated by plugin system.\n"
+  summary: Created by plugin system.
+  example: []
   syntax:
     content: >-
       [SoftTriggerPlugin("WebhookSoftTriggerPlugin")]
 
-      public class WebhookSoftTriggerPlugin : Object, ISoftTriggerPlugin, IPlugin
+      public class WebhookSoftTriggerPlugin : ISoftTriggerPlugin
     content.vb: >-
       <SoftTriggerPlugin("WebhookSoftTriggerPlugin")>
 
-      Public Class WebhookSoftTriggerPlugin
-          Inherits Object
-          Implements ISoftTriggerPlugin, IPlugin
+      Public Class WebhookSoftTriggerPlugin Implements ISoftTriggerPlugin
   inheritance:
   - System.Object
   implements:
   - SuperOffice.Data.ISoftTriggerPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
-  - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.Data.SoftTriggerPluginAttribute
@@ -48,12 +50,6 @@ items:
     arguments:
     - type: System.String
       value: WebhookSoftTriggerPlugin
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Name
   commentId: F:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Name
   id: Name
@@ -65,9 +61,6 @@ items:
   nameWithType: WebhookSoftTriggerPlugin.Name
   fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Name
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
@@ -76,12 +69,32 @@ items:
     return:
       type: System.String
     content.vb: Public Const Name As String = "WebhookSoftTriggerPlugin"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor(SuperOffice.CRM.Webhooks.IWebhookManager,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin})
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor(SuperOffice.CRM.Webhooks.IWebhookManager,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin})
+  id: '#ctor(SuperOffice.CRM.Webhooks.IWebhookManager,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin})'
+  parent: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+  langs:
+  - csharp
+  - vb
+  name: WebhookSoftTriggerPlugin(IWebhookManager, ILogger<WebhookSoftTriggerPlugin>)
+  nameWithType: WebhookSoftTriggerPlugin.WebhookSoftTriggerPlugin(IWebhookManager, ILogger<WebhookSoftTriggerPlugin>)
+  fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.WebhookSoftTriggerPlugin(SuperOffice.CRM.Webhooks.IWebhookManager, Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin>)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  syntax:
+    content: public WebhookSoftTriggerPlugin(IWebhookManager webhookManager, ILogger<WebhookSoftTriggerPlugin> logger)
+    parameters:
+    - id: webhookManager
+      type: SuperOffice.CRM.Webhooks.IWebhookManager
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin}
+    content.vb: Public Sub New(webhookManager As IWebhookManager, logger As ILogger(Of WebhookSoftTriggerPlugin))
+  overload: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor*
+  nameWithType.vb: WebhookSoftTriggerPlugin.New(IWebhookManager, ILogger(Of WebhookSoftTriggerPlugin))
+  fullName.vb: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.New(SuperOffice.CRM.Webhooks.IWebhookManager, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin))
+  name.vb: New(IWebhookManager, ILogger(Of WebhookSoftTriggerPlugin))
 - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
   commentId: M:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
   id: Initialize(SuperOffice.Data.SoftTrigger)
@@ -93,12 +106,10 @@ items:
   nameWithType: WebhookSoftTriggerPlugin.Initialize(SoftTrigger)
   fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
+  example: []
   syntax:
     content: public void Initialize(SoftTrigger softTrigger)
     parameters:
@@ -108,217 +119,426 @@ items:
   overload: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize*
   implements:
   - SuperOffice.Data.ISoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor
-  commentId: M:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
-  langs:
-  - csharp
-  - vb
-  name: WebhookSoftTriggerPlugin()
-  nameWithType: WebhookSoftTriggerPlugin.WebhookSoftTriggerPlugin()
-  fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.WebhookSoftTriggerPlugin()
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Webhooks
-  syntax:
-    content: public WebhookSoftTriggerPlugin()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.CRM.Webhooks
   commentId: N:SuperOffice.CRM.Webhooks
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Webhooks
   nameWithType: SuperOffice.CRM.Webhooks
   fullName: SuperOffice.CRM.Webhooks
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Webhooks
+    name: Webhooks
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Webhooks
+    name: Webhooks
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.Data.ISoftTriggerPlugin
   commentId: T:SuperOffice.Data.ISoftTriggerPlugin
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.ISoftTriggerPlugin.html
   name: ISoftTriggerPlugin
   nameWithType: ISoftTriggerPlugin
   fullName: SuperOffice.Data.ISoftTriggerPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<WebhookSoftTriggerPlugin, To>()
-  nameWithType: EnumUtil.MapEnums<WebhookSoftTriggerPlugin, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of WebhookSoftTriggerPlugin, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To)()
-  name.vb: MapEnums(Of WebhookSoftTriggerPlugin, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<WebhookSoftTriggerPlugin, To>(WebhookSoftTriggerPlugin)
+  nameWithType: EnumUtil.MapEnums<WebhookSoftTriggerPlugin, To>(WebhookSoftTriggerPlugin)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To>(SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
+  nameWithType.vb: EnumUtil.MapEnums(Of WebhookSoftTriggerPlugin, To)(WebhookSoftTriggerPlugin)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To)(SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
+  name.vb: MapEnums(Of WebhookSoftTriggerPlugin, To)(WebhookSoftTriggerPlugin)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<WebhookSoftTriggerPlugin, To>
-    nameWithType: EnumUtil.MapEnums<WebhookSoftTriggerPlugin, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of WebhookSoftTriggerPlugin, To)
-    nameWithType: EnumUtil.MapEnums(Of WebhookSoftTriggerPlugin, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<WebhookSoftTriggerPlugin>(WebhookSoftTriggerPlugin)
-  nameWithType: ObjectExtensions.AssignByReflection<WebhookSoftTriggerPlugin>(WebhookSoftTriggerPlugin)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin>(SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WebhookSoftTriggerPlugin)(WebhookSoftTriggerPlugin)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)(SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
-  name.vb: AssignByReflection(Of WebhookSoftTriggerPlugin)(WebhookSoftTriggerPlugin)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<WebhookSoftTriggerPlugin>
-    nameWithType: ObjectExtensions.AssignByReflection<WebhookSoftTriggerPlugin>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
     name: WebhookSoftTriggerPlugin
-    nameWithType: WebhookSoftTriggerPlugin
-    fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of WebhookSoftTriggerPlugin)
-    nameWithType: ObjectExtensions.AssignByReflection(Of WebhookSoftTriggerPlugin)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
-    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
     name: WebhookSoftTriggerPlugin
-    nameWithType: WebhookSoftTriggerPlugin
-    fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
     isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<WebhookSoftTriggerPlugin>()
-  nameWithType: ObjectExtensions.GraphCopy<WebhookSoftTriggerPlugin>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of WebhookSoftTriggerPlugin)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)()
-  name.vb: GraphCopy(Of WebhookSoftTriggerPlugin)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<WebhookSoftTriggerPlugin>
-    nameWithType: ObjectExtensions.GraphCopy<WebhookSoftTriggerPlugin>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of WebhookSoftTriggerPlugin)
-    nameWithType: ObjectExtensions.GraphCopy(Of WebhookSoftTriggerPlugin)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+    name: WebhookSoftTriggerPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+    name: WebhookSoftTriggerPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.html
+  - name: )
 - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<WebhookSoftTriggerPlugin, To>()
-  nameWithType: Converters.MapEnums<WebhookSoftTriggerPlugin, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To>()
-  nameWithType.vb: Converters.MapEnums(Of WebhookSoftTriggerPlugin, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To)()
-  name.vb: MapEnums(Of WebhookSoftTriggerPlugin, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<WebhookSoftTriggerPlugin, To>(WebhookSoftTriggerPlugin)
+  nameWithType: Converters.MapEnums<WebhookSoftTriggerPlugin, To>(WebhookSoftTriggerPlugin)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To>(SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
+  nameWithType.vb: Converters.MapEnums(Of WebhookSoftTriggerPlugin, To)(WebhookSoftTriggerPlugin)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To)(SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
+  name.vb: MapEnums(Of WebhookSoftTriggerPlugin, To)(WebhookSoftTriggerPlugin)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<WebhookSoftTriggerPlugin, To>
-    nameWithType: Converters.MapEnums<WebhookSoftTriggerPlugin, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+    name: WebhookSoftTriggerPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+    name: WebhookSoftTriggerPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of WebhookSoftTriggerPlugin, To)
-    nameWithType: Converters.MapEnums(Of WebhookSoftTriggerPlugin, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+    name: WebhookSoftTriggerPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+    name: WebhookSoftTriggerPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -327,140 +547,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -469,63 +594,212 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.html#SuperOffice_CRM_Webhooks_WebhookSoftTriggerPlugin__ctor_SuperOffice_CRM_Webhooks_IWebhookManager_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_Webhooks_WebhookSoftTriggerPlugin__
+  name: WebhookSoftTriggerPlugin
+  nameWithType: WebhookSoftTriggerPlugin.WebhookSoftTriggerPlugin
+  fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.WebhookSoftTriggerPlugin
+  nameWithType.vb: WebhookSoftTriggerPlugin.New
+  fullName.vb: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.New
+  name.vb: New
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager
+  commentId: T:SuperOffice.CRM.Webhooks.IWebhookManager
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.IWebhookManager.html
+  name: IWebhookManager
+  nameWithType: IWebhookManager
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<WebhookSoftTriggerPlugin>
+  nameWithType: ILogger<WebhookSoftTriggerPlugin>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin>
+  nameWithType.vb: ILogger(Of WebhookSoftTriggerPlugin)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
+  name.vb: ILogger(Of WebhookSoftTriggerPlugin)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+    name: WebhookSoftTriggerPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+    name: WebhookSoftTriggerPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.html
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize*
   commentId: Overload:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize
   isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.html#SuperOffice_CRM_Webhooks_WebhookSoftTriggerPlugin_Initialize_SuperOffice_Data_SoftTrigger_
   name: Initialize
   nameWithType: WebhookSoftTriggerPlugin.Initialize
   fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize
@@ -533,53 +807,37 @@ references:
   commentId: M:SuperOffice.Data.ISoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
   parent: SuperOffice.Data.ISoftTriggerPlugin
   isExternal: true
+  href: SuperOffice.Data.ISoftTriggerPlugin.html#SuperOffice_Data_ISoftTriggerPlugin_Initialize_SuperOffice_Data_SoftTrigger_
   name: Initialize(SoftTrigger)
   nameWithType: ISoftTriggerPlugin.Initialize(SoftTrigger)
   fullName: SuperOffice.Data.ISoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
   spec.csharp:
   - uid: SuperOffice.Data.ISoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
     name: Initialize
-    nameWithType: ISoftTriggerPlugin.Initialize
-    fullName: SuperOffice.Data.ISoftTriggerPlugin.Initialize
     isExternal: true
+    href: SuperOffice.Data.ISoftTriggerPlugin.html#SuperOffice_Data_ISoftTriggerPlugin_Initialize_SuperOffice_Data_SoftTrigger_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SoftTrigger
     name: SoftTrigger
-    nameWithType: SoftTrigger
-    fullName: SuperOffice.Data.SoftTrigger
     isExternal: true
+    href: SuperOffice.Data.SoftTrigger.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.ISoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
     name: Initialize
-    nameWithType: ISoftTriggerPlugin.Initialize
-    fullName: SuperOffice.Data.ISoftTriggerPlugin.Initialize
     isExternal: true
+    href: SuperOffice.Data.ISoftTriggerPlugin.html#SuperOffice_Data_ISoftTriggerPlugin_Initialize_SuperOffice_Data_SoftTrigger_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SoftTrigger
     name: SoftTrigger
-    nameWithType: SoftTrigger
-    fullName: SuperOffice.Data.SoftTrigger
     isExternal: true
+    href: SuperOffice.Data.SoftTrigger.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SoftTrigger
   commentId: T:SuperOffice.Data.SoftTrigger
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.SoftTrigger.html
   name: SoftTrigger
   nameWithType: SoftTrigger
   fullName: SuperOffice.Data.SoftTrigger
-- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor*
-  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor
-  isExternal: true
-  name: WebhookSoftTriggerPlugin
-  nameWithType: WebhookSoftTriggerPlugin.WebhookSoftTriggerPlugin
-  fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.WebhookSoftTriggerPlugin

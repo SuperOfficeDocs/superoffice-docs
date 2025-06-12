@@ -14,9 +14,9 @@ items:
   - SuperOffice.CRM.Services.UserInfo.Rank
   - SuperOffice.CRM.Services.UserInfo.RoleName
   - SuperOffice.CRM.Services.UserInfo.RoleTooltip
-  - SuperOffice.CRM.Services.UserInfo.Tooltip
   - SuperOffice.CRM.Services.UserInfo.ToString
   - SuperOffice.CRM.Services.UserInfo.ToString(System.String)
+  - SuperOffice.CRM.Services.UserInfo.Tooltip
   - SuperOffice.CRM.Services.UserInfo.UserGroupId
   - SuperOffice.CRM.Services.UserInfo.UserGroupName
   - SuperOffice.CRM.Services.UserInfo.UserGroupTooltip
@@ -30,33 +30,50 @@ items:
   nameWithType: UserInfo
   fullName: SuperOffice.CRM.Services.UserInfo
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCarrier object for UserInfo.\nServices for the UserInfo Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IUserAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Carrier object for UserInfo.
+
+    Services for the UserInfo Carrier is available from the <xref href="SuperOffice.CRM.Services.IUserAgent?text=User+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet UserInfo 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new UserAgent();\n    var userInfo = agent.GetUserInfo( 123 );\n }</code></pre>\n"
+  - >-
+    Get UserInfo 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new UserAgent();
+       var userInfo = agent.GetUserInfo( 123 );
+    }</code></pre>
   syntax:
-    content: 'public class UserInfo : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class UserInfo : Carrier
     content.vb: >-
-      Public Class UserInfo
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class UserInfo Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.UserAgent
-    commentId: T:SuperOffice.CRM.Services.UserAgent
   - linkId: SuperOffice.CRM.Services.IUserAgent
     commentId: T:SuperOffice.CRM.Services.IUserAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.UserInfo.#ctor
   commentId: M:SuperOffice.CRM.Services.UserInfo.#ctor
   id: '#ctor'
@@ -68,21 +85,18 @@ items:
   nameWithType: UserInfo.UserInfo()
   fullName: SuperOffice.CRM.Services.UserInfo.UserInfo()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public UserInfo()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.UserInfo.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: UserInfo.New()
+  fullName.vb: SuperOffice.CRM.Services.UserInfo.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.UserInfo.ToString
   commentId: M:SuperOffice.CRM.Services.UserInfo.ToString
   id: ToString
@@ -94,26 +108,18 @@ items:
   nameWithType: UserInfo.ToString()
   fullName: SuperOffice.CRM.Services.UserInfo.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.UserInfo.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.UserInfo.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.UserInfo.ToString(System.String)
   id: ToString(System.String)
@@ -121,17 +127,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: UserInfo.ToString(String)
-  fullName: SuperOffice.CRM.Services.UserInfo.ToString(System.String)
+  name: ToString(string)
+  nameWithType: UserInfo.ToString(string)
+  fullName: SuperOffice.CRM.Services.UserInfo.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -143,10 +150,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.UserInfo.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: UserInfo.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.UserInfo.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.UserInfo.Deleted
   commentId: P:SuperOffice.CRM.Services.UserInfo.Deleted
   id: Deleted
@@ -158,28 +164,28 @@ items:
   nameWithType: UserInfo.Deleted
   fullName: SuperOffice.CRM.Services.UserInfo.Deleted
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nIf true, the user is retired and should have no rights, not appear in lists, etc. \n"
+  summary: If true, the user is retired and should have no rights, not appear in lists, etc.
+  example: []
   syntax:
-    content: public virtual bool Deleted { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool Deleted { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property Deleted As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Deleted As Boolean
   overload: SuperOffice.CRM.Services.UserInfo.Deleted*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserInfo.UserInfoId
   commentId: P:SuperOffice.CRM.Services.UserInfo.UserInfoId
   id: UserInfoId
@@ -191,28 +197,28 @@ items:
   nameWithType: UserInfo.UserInfoId
   fullName: SuperOffice.CRM.Services.UserInfo.UserInfoId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int UserInfoId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int UserInfoId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property UserInfoId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UserInfoId As Integer
   overload: SuperOffice.CRM.Services.UserInfo.UserInfoId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserInfo.UserName
   commentId: P:SuperOffice.CRM.Services.UserInfo.UserName
   id: UserName
@@ -224,28 +230,28 @@ items:
   nameWithType: UserInfo.UserName
   fullName: SuperOffice.CRM.Services.UserInfo.UserName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInitials, also login name, possibly database user name \n"
+  summary: Initials, also login name, possibly database user name
+  example: []
   syntax:
-    content: public virtual string UserName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string UserName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property UserName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UserName As String
   overload: SuperOffice.CRM.Services.UserInfo.UserName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserInfo.PersonId
   commentId: P:SuperOffice.CRM.Services.UserInfo.PersonId
   id: PersonId
@@ -257,28 +263,28 @@ items:
   nameWithType: UserInfo.PersonId
   fullName: SuperOffice.CRM.Services.UserInfo.PersonId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOwning person record \n"
+  summary: Owning person record
+  example: []
   syntax:
-    content: public virtual int PersonId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int PersonId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property PersonId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PersonId As Integer
   overload: SuperOffice.CRM.Services.UserInfo.PersonId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserInfo.Rank
   commentId: P:SuperOffice.CRM.Services.UserInfo.Rank
   id: Rank
@@ -290,28 +296,28 @@ items:
   nameWithType: UserInfo.Rank
   fullName: SuperOffice.CRM.Services.UserInfo.Rank
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRank order  \n"
+  summary: Rank order
+  example: []
   syntax:
-    content: public virtual short Rank { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short Rank { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property Rank As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Rank As Short
   overload: SuperOffice.CRM.Services.UserInfo.Rank*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserInfo.Tooltip
   commentId: P:SuperOffice.CRM.Services.UserInfo.Tooltip
   id: Tooltip
@@ -323,28 +329,28 @@ items:
   nameWithType: UserInfo.Tooltip
   fullName: SuperOffice.CRM.Services.UserInfo.Tooltip
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTooltip or other description \n"
+  summary: Tooltip or other description
+  example: []
   syntax:
-    content: public virtual string Tooltip { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Tooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Tooltip As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Tooltip As String
   overload: SuperOffice.CRM.Services.UserInfo.Tooltip*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserInfo.UserGroupId
   commentId: P:SuperOffice.CRM.Services.UserInfo.UserGroupId
   id: UserGroupId
@@ -356,28 +362,28 @@ items:
   nameWithType: UserInfo.UserGroupId
   fullName: SuperOffice.CRM.Services.UserInfo.UserGroupId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary group membership, see UserGroupLink for secondary memberships \n"
+  summary: Primary group membership, see UserGroupLink for secondary memberships
+  example: []
   syntax:
-    content: public virtual int UserGroupId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int UserGroupId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property UserGroupId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UserGroupId As Integer
   overload: SuperOffice.CRM.Services.UserInfo.UserGroupId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserInfo.EjUserId
   commentId: P:SuperOffice.CRM.Services.UserInfo.EjUserId
   id: EjUserId
@@ -389,28 +395,28 @@ items:
   nameWithType: UserInfo.EjUserId
   fullName: SuperOffice.CRM.Services.UserInfo.EjUserId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nID of the ej user record corresponding to this associate; 0 for associates that are not ej users \n"
+  summary: ID of the ej user record corresponding to this associate; 0 for associates that are not ej users
+  example: []
   syntax:
-    content: public virtual int EjUserId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int EjUserId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property EjUserId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property EjUserId As Integer
   overload: SuperOffice.CRM.Services.UserInfo.EjUserId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserInfo.UserType
   commentId: P:SuperOffice.CRM.Services.UserInfo.UserType
   id: UserType
@@ -422,28 +428,28 @@ items:
   nameWithType: UserInfo.UserType
   fullName: SuperOffice.CRM.Services.UserInfo.UserType
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual UserType UserType { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual UserType UserType { get; set; }
     parameters: []
     return:
       type: SuperOffice.License.UserType
-    content.vb: Public Overridable Property UserType As UserType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UserType As UserType
   overload: SuperOffice.CRM.Services.UserInfo.UserType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserInfo.GrantedLicenses
   commentId: P:SuperOffice.CRM.Services.UserInfo.GrantedLicenses
   id: GrantedLicenses
@@ -455,28 +461,28 @@ items:
   nameWithType: UserInfo.GrantedLicenses
   fullName: SuperOffice.CRM.Services.UserInfo.GrantedLicenses
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual string[] GrantedLicenses { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string[] GrantedLicenses { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: Public Overridable Property GrantedLicenses As String()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property GrantedLicenses As String()
   overload: SuperOffice.CRM.Services.UserInfo.GrantedLicenses*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserInfo.CanLogon
   commentId: P:SuperOffice.CRM.Services.UserInfo.CanLogon
   id: CanLogon
@@ -488,28 +494,28 @@ items:
   nameWithType: UserInfo.CanLogon
   fullName: SuperOffice.CRM.Services.UserInfo.CanLogon
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual bool CanLogon { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool CanLogon { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property CanLogon As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CanLogon As Boolean
   overload: SuperOffice.CRM.Services.UserInfo.CanLogon*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserInfo.RoleName
   commentId: P:SuperOffice.CRM.Services.UserInfo.RoleName
   id: RoleName
@@ -521,28 +527,28 @@ items:
   nameWithType: UserInfo.RoleName
   fullName: SuperOffice.CRM.Services.UserInfo.RoleName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual string RoleName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string RoleName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property RoleName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RoleName As String
   overload: SuperOffice.CRM.Services.UserInfo.RoleName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserInfo.RoleTooltip
   commentId: P:SuperOffice.CRM.Services.UserInfo.RoleTooltip
   id: RoleTooltip
@@ -554,28 +560,28 @@ items:
   nameWithType: UserInfo.RoleTooltip
   fullName: SuperOffice.CRM.Services.UserInfo.RoleTooltip
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual string RoleTooltip { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string RoleTooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property RoleTooltip As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RoleTooltip As String
   overload: SuperOffice.CRM.Services.UserInfo.RoleTooltip*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserInfo.UserGroupName
   commentId: P:SuperOffice.CRM.Services.UserInfo.UserGroupName
   id: UserGroupName
@@ -587,28 +593,28 @@ items:
   nameWithType: UserInfo.UserGroupName
   fullName: SuperOffice.CRM.Services.UserInfo.UserGroupName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual string UserGroupName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string UserGroupName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property UserGroupName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UserGroupName As String
   overload: SuperOffice.CRM.Services.UserInfo.UserGroupName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.UserInfo.UserGroupTooltip
   commentId: P:SuperOffice.CRM.Services.UserInfo.UserGroupTooltip
   id: UserGroupTooltip
@@ -620,57 +626,106 @@ items:
   nameWithType: UserInfo.UserGroupTooltip
   fullName: SuperOffice.CRM.Services.UserInfo.UserGroupTooltip
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public virtual string UserGroupTooltip { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string UserGroupTooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property UserGroupTooltip As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UserGroupTooltip As String
   overload: SuperOffice.CRM.Services.UserInfo.UserGroupTooltip*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.UserAgent
-  commentId: T:SuperOffice.CRM.Services.UserAgent
-  isExternal: true
-  name: UserAgent
-  nameWithType: UserAgent
-  fullName: SuperOffice.CRM.Services.UserAgent
 - uid: SuperOffice.CRM.Services.IUserAgent
   commentId: T:SuperOffice.CRM.Services.IUserAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html
   name: IUserAgent
   nameWithType: IUserAgent
   fullName: SuperOffice.CRM.Services.IUserAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.UserInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo__ctor
   name: UserInfo
   nameWithType: UserInfo.UserInfo
   fullName: SuperOffice.CRM.Services.UserInfo.UserInfo
+  nameWithType.vb: UserInfo.New
+  fullName.vb: SuperOffice.CRM.Services.UserInfo.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.UserInfo.ToString*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo_ToString
   name: ToString
   nameWithType: UserInfo.ToString
   fullName: SuperOffice.CRM.Services.UserInfo.ToString
@@ -678,18 +733,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.UserInfo.Deleted*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.Deleted
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo_Deleted
   name: Deleted
   nameWithType: UserInfo.Deleted
   fullName: SuperOffice.CRM.Services.UserInfo.Deleted
@@ -697,12 +751,17 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.UserInfo.UserInfoId*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.UserInfoId
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo_UserInfoId
   name: UserInfoId
   nameWithType: UserInfo.UserInfoId
   fullName: SuperOffice.CRM.Services.UserInfo.UserInfoId
@@ -710,24 +769,31 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.UserInfo.UserName*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.UserName
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo_UserName
   name: UserName
   nameWithType: UserInfo.UserName
   fullName: SuperOffice.CRM.Services.UserInfo.UserName
 - uid: SuperOffice.CRM.Services.UserInfo.PersonId*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.PersonId
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo_PersonId
   name: PersonId
   nameWithType: UserInfo.PersonId
   fullName: SuperOffice.CRM.Services.UserInfo.PersonId
 - uid: SuperOffice.CRM.Services.UserInfo.Rank*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.Rank
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo_Rank
   name: Rank
   nameWithType: UserInfo.Rank
   fullName: SuperOffice.CRM.Services.UserInfo.Rank
@@ -735,30 +801,38 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Services.UserInfo.Tooltip*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.Tooltip
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo_Tooltip
   name: Tooltip
   nameWithType: UserInfo.Tooltip
   fullName: SuperOffice.CRM.Services.UserInfo.Tooltip
 - uid: SuperOffice.CRM.Services.UserInfo.UserGroupId*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.UserGroupId
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo_UserGroupId
   name: UserGroupId
   nameWithType: UserInfo.UserGroupId
   fullName: SuperOffice.CRM.Services.UserInfo.UserGroupId
 - uid: SuperOffice.CRM.Services.UserInfo.EjUserId*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.EjUserId
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo_EjUserId
   name: EjUserId
   nameWithType: UserInfo.EjUserId
   fullName: SuperOffice.CRM.Services.UserInfo.EjUserId
 - uid: SuperOffice.CRM.Services.UserInfo.UserType*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.UserType
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo_UserType
   name: UserType
   nameWithType: UserInfo.UserType
   fullName: SuperOffice.CRM.Services.UserInfo.UserType
@@ -770,62 +844,65 @@ references:
 - uid: SuperOffice.CRM.Services.UserInfo.GrantedLicenses*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.GrantedLicenses
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo_GrantedLicenses
   name: GrantedLicenses
   nameWithType: UserInfo.GrantedLicenses
   fullName: SuperOffice.CRM.Services.UserInfo.GrantedLicenses
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.UserInfo.CanLogon*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.CanLogon
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo_CanLogon
   name: CanLogon
   nameWithType: UserInfo.CanLogon
   fullName: SuperOffice.CRM.Services.UserInfo.CanLogon
 - uid: SuperOffice.CRM.Services.UserInfo.RoleName*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.RoleName
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo_RoleName
   name: RoleName
   nameWithType: UserInfo.RoleName
   fullName: SuperOffice.CRM.Services.UserInfo.RoleName
 - uid: SuperOffice.CRM.Services.UserInfo.RoleTooltip*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.RoleTooltip
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo_RoleTooltip
   name: RoleTooltip
   nameWithType: UserInfo.RoleTooltip
   fullName: SuperOffice.CRM.Services.UserInfo.RoleTooltip
 - uid: SuperOffice.CRM.Services.UserInfo.UserGroupName*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.UserGroupName
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo_UserGroupName
   name: UserGroupName
   nameWithType: UserInfo.UserGroupName
   fullName: SuperOffice.CRM.Services.UserInfo.UserGroupName
 - uid: SuperOffice.CRM.Services.UserInfo.UserGroupTooltip*
   commentId: Overload:SuperOffice.CRM.Services.UserInfo.UserGroupTooltip
   isExternal: true
+  href: SuperOffice.CRM.Services.UserInfo.html#SuperOffice_CRM_Services_UserInfo_UserGroupTooltip
   name: UserGroupTooltip
   nameWithType: UserInfo.UserGroupTooltip
   fullName: SuperOffice.CRM.Services.UserInfo.UserGroupTooltip

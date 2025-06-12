@@ -24,64 +24,24 @@ items:
   - SuperOffice.WebApi.Data.BlobLinkType.RefreshToken
   - SuperOffice.WebApi.Data.BlobLinkType.StatusMonitorImage
   - SuperOffice.WebApi.Data.BlobLinkType.Thumbnail
-  - SuperOffice.WebApi.Data.BlobLinkType.value__
   langs:
   - csharp
   - vb
   name: BlobLinkType
   nameWithType: BlobLinkType
   fullName: SuperOffice.WebApi.Data.BlobLinkType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe link type, often synonymous with the blob type, of a BinaryObjectLink row\nThis Enum is used by:  BinaryObjectLink.linkType\n"
-  syntax:
-    content: 'public sealed class BlobLinkType : Enum'
-    content.vb: >-
-      Public NotInheritable Class BlobLinkType
-          Inherits
+  summary: >-
+    The link type, often synonymous with the blob type, of a BinaryObjectLink row
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.BlobLinkType.value__
-  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.BlobLinkType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: BlobLinkType.value__
-  fullName: SuperOffice.WebApi.Data.BlobLinkType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  BinaryObjectLink.linkType
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum BlobLinkType : short'
+    content.vb: Public Enum BlobLinkType As Short
 - uid: SuperOffice.WebApi.Data.BlobLinkType.PersonImage
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.PersonImage
   id: PersonImage
@@ -93,24 +53,26 @@ items:
   nameWithType: BlobLinkType.PersonImage
   fullName: SuperOffice.WebApi.Data.BlobLinkType.PersonImage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Portrait picture of a person\n"
+  summary: '1: Portrait picture of a person'
+  example: []
   syntax:
-    content: public const BlobLinkType PersonImage
+    content: >-
+      [EnumMember]
+
+      PersonImage = 1
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const PersonImage As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PersonImage = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.ProjectImage
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.ProjectImage
   id: ProjectImage
@@ -122,24 +84,26 @@ items:
   nameWithType: BlobLinkType.ProjectImage
   fullName: SuperOffice.WebApi.Data.BlobLinkType.ProjectImage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Picture bound to a project\n"
+  summary: '2: Picture bound to a project'
+  example: []
   syntax:
-    content: public const BlobLinkType ProjectImage
+    content: >-
+      [EnumMember]
+
+      ProjectImage = 2
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const ProjectImage As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ProjectImage = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.EventImage
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.EventImage
   id: EventImage
@@ -151,24 +115,26 @@ items:
   nameWithType: BlobLinkType.EventImage
   fullName: SuperOffice.WebApi.Data.BlobLinkType.EventImage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Picture used for a project of type Event, in the Audience client\n"
+  summary: '3: Picture used for a project of type Event, in the Audience client'
+  example: []
   syntax:
-    content: public const BlobLinkType EventImage
+    content: >-
+      [EnumMember]
+
+      EventImage = 3
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const EventImage As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      EventImage = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.Thumbnail
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.Thumbnail
   id: Thumbnail
@@ -180,24 +146,26 @@ items:
   nameWithType: BlobLinkType.Thumbnail
   fullName: SuperOffice.WebApi.Data.BlobLinkType.Thumbnail
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Generic thumbnail - not used?\n"
+  summary: '4: Generic thumbnail - not used?'
+  example: []
   syntax:
-    content: public const BlobLinkType Thumbnail
+    content: >-
+      [EnumMember]
+
+      Thumbnail = 4
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const Thumbnail As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Thumbnail = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.StatusMonitorImage
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.StatusMonitorImage
   id: StatusMonitorImage
@@ -209,24 +177,26 @@ items:
   nameWithType: BlobLinkType.StatusMonitorImage
   fullName: SuperOffice.WebApi.Data.BlobLinkType.StatusMonitorImage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Watermark image for a Status Monitor in Sales Intelligence\n"
+  summary: '5: Watermark image for a Status Monitor in Sales Intelligence'
+  example: []
   syntax:
-    content: public const BlobLinkType StatusMonitorImage
+    content: >-
+      [EnumMember]
+
+      StatusMonitorImage = 5
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const StatusMonitorImage As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      StatusMonitorImage = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.BatchTask
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.BatchTask
   id: BatchTask
@@ -238,24 +208,26 @@ items:
   nameWithType: BlobLinkType.BatchTask
   fullName: SuperOffice.WebApi.Data.BlobLinkType.BatchTask
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: Information related to a BatchTask in NetServer\n"
+  summary: '6: Information related to a BatchTask in NetServer'
+  example: []
   syntax:
-    content: public const BlobLinkType BatchTask
+    content: >-
+      [EnumMember]
+
+      BatchTask = 6
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const BatchTask As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      BatchTask = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.ProductImage
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.ProductImage
   id: ProductImage
@@ -267,24 +239,26 @@ items:
   nameWithType: BlobLinkType.ProductImage
   fullName: SuperOffice.WebApi.Data.BlobLinkType.ProductImage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: Image (possibly more than one, differentiated by rank) of a Product; exactly one row should have rank=1\n"
+  summary: '7: Image (possibly more than one, differentiated by rank) of a Product; exactly one row should have rank=1'
+  example: []
   syntax:
-    content: public const BlobLinkType ProductImage
+    content: >-
+      [EnumMember]
+
+      ProductImage = 7
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const ProductImage As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ProductImage = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.ProductThumbnail
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.ProductThumbnail
   id: ProductThumbnail
@@ -296,24 +270,26 @@ items:
   nameWithType: BlobLinkType.ProductThumbnail
   fullName: SuperOffice.WebApi.Data.BlobLinkType.ProductThumbnail
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Thumbnail image for a product, only one allowed per product\n"
+  summary: '8: Thumbnail image for a product, only one allowed per product'
+  example: []
   syntax:
-    content: public const BlobLinkType ProductThumbnail
+    content: >-
+      [EnumMember]
+
+      ProductThumbnail = 8
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const ProductThumbnail As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ProductThumbnail = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.QuoteLineImage
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.QuoteLineImage
   id: QuoteLineImage
@@ -325,24 +301,26 @@ items:
   nameWithType: BlobLinkType.QuoteLineImage
   fullName: SuperOffice.WebApi.Data.BlobLinkType.QuoteLineImage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n9: Image (possibly more than one, differentiated by rank) of a Product image for a quote line, only one allowed per quote line\n"
+  summary: '9: Image (possibly more than one, differentiated by rank) of a Product image for a quote line, only one allowed per quote line'
+  example: []
   syntax:
-    content: public const BlobLinkType QuoteLineImage
+    content: >-
+      [EnumMember]
+
+      QuoteLineImage = 9
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const QuoteLineImage As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteLineImage = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.QuoteLineThumbnail
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.QuoteLineThumbnail
   id: QuoteLineThumbnail
@@ -354,24 +332,26 @@ items:
   nameWithType: BlobLinkType.QuoteLineThumbnail
   fullName: SuperOffice.WebApi.Data.BlobLinkType.QuoteLineThumbnail
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n10: Thumbnail image for a quote line, only one allowed per quote line\n"
+  summary: '10: Thumbnail image for a quote line, only one allowed per quote line'
+  example: []
   syntax:
-    content: public const BlobLinkType QuoteLineThumbnail
+    content: >-
+      [EnumMember]
+
+      QuoteLineThumbnail = 10
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const QuoteLineThumbnail As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteLineThumbnail = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.AccessToken
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.AccessToken
   id: AccessToken
@@ -383,24 +363,26 @@ items:
   nameWithType: BlobLinkType.AccessToken
   fullName: SuperOffice.WebApi.Data.BlobLinkType.AccessToken
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n11: Access Token used by Cloud Documents for accessing external services\n"
+  summary: '11: Access Token used by Cloud Documents for accessing external services'
+  example: []
   syntax:
-    content: public const BlobLinkType AccessToken
+    content: >-
+      [EnumMember]
+
+      AccessToken = 11
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const AccessToken As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AccessToken = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.RefreshToken
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.RefreshToken
   id: RefreshToken
@@ -412,24 +394,26 @@ items:
   nameWithType: BlobLinkType.RefreshToken
   fullName: SuperOffice.WebApi.Data.BlobLinkType.RefreshToken
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n12: Refresh Token used by Cloud Documents for accessing external services\n"
+  summary: '12: Refresh Token used by Cloud Documents for accessing external services'
+  example: []
   syntax:
-    content: public const BlobLinkType RefreshToken
+    content: >-
+      [EnumMember]
+
+      RefreshToken = 12
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const RefreshToken As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      RefreshToken = 12
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.Dashboard
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.Dashboard
   id: Dashboard
@@ -441,24 +425,26 @@ items:
   nameWithType: BlobLinkType.Dashboard
   fullName: SuperOffice.WebApi.Data.BlobLinkType.Dashboard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n13: Dashboard\n"
+  summary: '13: Dashboard'
+  example: []
   syntax:
-    content: public const BlobLinkType Dashboard
+    content: >-
+      [EnumMember]
+
+      Dashboard = 13
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const Dashboard As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Dashboard = 13
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.DashboardTile
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.DashboardTile
   id: DashboardTile
@@ -470,24 +456,26 @@ items:
   nameWithType: BlobLinkType.DashboardTile
   fullName: SuperOffice.WebApi.Data.BlobLinkType.DashboardTile
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n14: Dashboard tile\n"
+  summary: '14: Dashboard tile'
+  example: []
   syntax:
-    content: public const BlobLinkType DashboardTile
+    content: >-
+      [EnumMember]
+
+      DashboardTile = 14
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const DashboardTile As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DashboardTile = 14
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.ChatTopicImage
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.ChatTopicImage
   id: ChatTopicImage
@@ -499,24 +487,26 @@ items:
   nameWithType: BlobLinkType.ChatTopicImage
   fullName: SuperOffice.WebApi.Data.BlobLinkType.ChatTopicImage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n15: Chat topic image\n"
+  summary: '15: Chat topic image'
+  example: []
   syntax:
-    content: public const BlobLinkType ChatTopicImage
+    content: >-
+      [EnumMember]
+
+      ChatTopicImage = 15
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const ChatTopicImage As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ChatTopicImage = 15
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.FormsBackgroundImage
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.FormsBackgroundImage
   id: FormsBackgroundImage
@@ -528,24 +518,26 @@ items:
   nameWithType: BlobLinkType.FormsBackgroundImage
   fullName: SuperOffice.WebApi.Data.BlobLinkType.FormsBackgroundImage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n16: Forms background image\n"
+  summary: '16: Forms background image'
+  example: []
   syntax:
-    content: public const BlobLinkType FormsBackgroundImage
+    content: >-
+      [EnumMember]
+
+      FormsBackgroundImage = 16
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const FormsBackgroundImage As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      FormsBackgroundImage = 16
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.ContactImage
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.ContactImage
   id: ContactImage
@@ -557,24 +549,26 @@ items:
   nameWithType: BlobLinkType.ContactImage
   fullName: SuperOffice.WebApi.Data.BlobLinkType.ContactImage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n17: Contact logo image\n"
+  summary: '17: Contact logo image'
+  example: []
   syntax:
-    content: public const BlobLinkType ContactImage
+    content: >-
+      [EnumMember]
+
+      ContactImage = 17
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const ContactImage As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ContactImage = 17
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.DashboardHtmlTileData
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.DashboardHtmlTileData
   id: DashboardHtmlTileData
@@ -586,24 +580,26 @@ items:
   nameWithType: BlobLinkType.DashboardHtmlTileData
   fullName: SuperOffice.WebApi.Data.BlobLinkType.DashboardHtmlTileData
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n18: HTML data for dashboard tiles\n"
+  summary: '18: HTML data for dashboard tiles'
+  example: []
   syntax:
-    content: public const BlobLinkType DashboardHtmlTileData
+    content: >-
+      [EnumMember]
+
+      DashboardHtmlTileData = 18
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const DashboardHtmlTileData As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DashboardHtmlTileData = 18
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BlobLinkType.ExtraTableIcon
   commentId: F:SuperOffice.WebApi.Data.BlobLinkType.ExtraTableIcon
   id: ExtraTableIcon
@@ -615,55 +611,69 @@ items:
   nameWithType: BlobLinkType.ExtraTableIcon
   fullName: SuperOffice.WebApi.Data.BlobLinkType.ExtraTableIcon
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n19: Extra table icon\n"
+  summary: '19: Extra table icon'
+  example: []
   syntax:
-    content: public const BlobLinkType ExtraTableIcon
+    content: >-
+      [EnumMember]
+
+      ExtraTableIcon = 19
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
-    content.vb: Public Const ExtraTableIcon As BlobLinkType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ExtraTableIcon = 19
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.BlobLinkType
   commentId: T:SuperOffice.WebApi.Data.BlobLinkType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.BlobLinkType.html
   name: BlobLinkType
   nameWithType: BlobLinkType
   fullName: SuperOffice.WebApi.Data.BlobLinkType

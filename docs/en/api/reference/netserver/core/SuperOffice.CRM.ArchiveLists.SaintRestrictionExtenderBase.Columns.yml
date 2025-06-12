@@ -39,67 +39,29 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfTicketsInPeriod2
   - SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfTicketsInPeriod3
   - SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.SaintStatus
-  - SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.value__
   langs:
   - csharp
   - vb
   name: SaintRestrictionExtenderBase.Columns
   nameWithType: SaintRestrictionExtenderBase.Columns
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-  type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
+  type: Enum
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nDefinition of saint counter columns, with values that correspond to published criterion ID&apos;s\nused by the SIX.win client\n"
-  syntax:
-    content: 'public sealed class Columns : Enum'
-    content.vb: >-
-      Public NotInheritable Class Columns
-          Inherits
+  summary: >-
+    Definition of saint counter columns, with values that correspond to published criterion ID's
 
-           Enum
-  inheritance:
-  - System.Object
+    used by the SIX.win client
+  example: []
+  syntax:
+    content: public enum SaintRestrictionExtenderBase.Columns
+    content.vb: Public Enum SaintRestrictionExtenderBase.Columns
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.value__
-  commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.value__
-  id: value__
-  parent: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: SaintRestrictionExtenderBase.Columns.value__
-  fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.value__
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.ArchiveLists
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+  - SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.SuperOffice.Util.ObjectExtensions.GraphCopy``1
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfActivities
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfActivities
   id: NumberOfActivities
@@ -111,23 +73,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfActivities
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfActivities
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfActivities
+    content: NumberOfActivities = 8388608
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfActivities As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfActivitiesInPeriod
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfActivitiesInPeriod
   id: NumberOfActivitiesInPeriod
@@ -139,23 +91,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfActivitiesInPeriod
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfActivitiesInPeriod
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfActivitiesInPeriod
+    content: NumberOfActivitiesInPeriod = 8388864
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfActivitiesInPeriod As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedActivities
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedActivities
   id: NumberOfNotCompletedActivities
@@ -167,23 +109,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedActivities
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedActivities
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfNotCompletedActivities
+    content: NumberOfNotCompletedActivities = 8389120
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfNotCompletedActivities As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedActivitiesInPeriod
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedActivitiesInPeriod
   id: NumberOfNotCompletedActivitiesInPeriod
@@ -195,23 +127,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedActivitiesInPeriod
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedActivitiesInPeriod
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfNotCompletedActivitiesInPeriod
+    content: NumberOfNotCompletedActivitiesInPeriod = 8389376
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfNotCompletedActivitiesInPeriod As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastActivity
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastActivity
   id: LastActivity
@@ -223,23 +145,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.LastActivity
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastActivity
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns LastActivity
+    content: LastActivity = 8389632
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const LastActivity As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastCompletedActivity
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastCompletedActivity
   id: LastCompletedActivity
@@ -251,23 +163,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.LastCompletedActivity
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastCompletedActivity
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns LastCompletedActivity
+    content: LastCompletedActivity = 8389888
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const LastCompletedActivity As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastDoByActivity
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastDoByActivity
   id: LastDoByActivity
@@ -279,23 +181,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.LastDoByActivity
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastDoByActivity
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns LastDoByActivity
+    content: LastDoByActivity = 8390144
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const LastDoByActivity As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfActivitiesInPeriod2
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfActivitiesInPeriod2
   id: NumberOfActivitiesInPeriod2
@@ -307,23 +199,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfActivitiesInPeriod2
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfActivitiesInPeriod2
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfActivitiesInPeriod2
+    content: NumberOfActivitiesInPeriod2 = 8392192
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfActivitiesInPeriod2 As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedActivitiesInPeriod2
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedActivitiesInPeriod2
   id: NumberOfNotCompletedActivitiesInPeriod2
@@ -335,23 +217,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedActivitiesInPeriod2
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedActivitiesInPeriod2
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfNotCompletedActivitiesInPeriod2
+    content: NumberOfNotCompletedActivitiesInPeriod2 = 8392448
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfNotCompletedActivitiesInPeriod2 As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfActivitiesInPeriod3
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfActivitiesInPeriod3
   id: NumberOfActivitiesInPeriod3
@@ -363,23 +235,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfActivitiesInPeriod3
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfActivitiesInPeriod3
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfActivitiesInPeriod3
+    content: NumberOfActivitiesInPeriod3 = 8392704
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfActivitiesInPeriod3 As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedActivitiesInPeriod3
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedActivitiesInPeriod3
   id: NumberOfNotCompletedActivitiesInPeriod3
@@ -391,23 +253,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedActivitiesInPeriod3
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedActivitiesInPeriod3
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfNotCompletedActivitiesInPeriod3
+    content: NumberOfNotCompletedActivitiesInPeriod3 = 8392960
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfNotCompletedActivitiesInPeriod3 As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfSales
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfSales
   id: NumberOfSales
@@ -419,23 +271,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfSales
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfSales
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfSales
+    content: NumberOfSales = 8390400
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfSales As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfSalesInPeriod
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfSalesInPeriod
   id: NumberOfSalesInPeriod
@@ -447,23 +289,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfSalesInPeriod
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfSalesInPeriod
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfSalesInPeriod
+    content: NumberOfSalesInPeriod = 8390656
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfSalesInPeriod As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedSales
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedSales
   id: NumberOfNotCompletedSales
@@ -475,23 +307,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedSales
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedSales
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfNotCompletedSales
+    content: NumberOfNotCompletedSales = 8390912
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfNotCompletedSales As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedSalesInPeriod
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedSalesInPeriod
   id: NumberOfNotCompletedSalesInPeriod
@@ -503,23 +325,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedSalesInPeriod
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedSalesInPeriod
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfNotCompletedSalesInPeriod
+    content: NumberOfNotCompletedSalesInPeriod = 8391168
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfNotCompletedSalesInPeriod As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastSale
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastSale
   id: LastSale
@@ -531,23 +343,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.LastSale
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastSale
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns LastSale
+    content: LastSale = 8391424
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const LastSale As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastCompletedSale
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastCompletedSale
   id: LastCompletedSale
@@ -559,23 +361,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.LastCompletedSale
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastCompletedSale
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns LastCompletedSale
+    content: LastCompletedSale = 8391680
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const LastCompletedSale As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastDoBySale
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastDoBySale
   id: LastDoBySale
@@ -587,23 +379,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.LastDoBySale
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastDoBySale
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns LastDoBySale
+    content: LastDoBySale = 8391936
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const LastDoBySale As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfSalesInPeriod2
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfSalesInPeriod2
   id: NumberOfSalesInPeriod2
@@ -615,23 +397,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfSalesInPeriod2
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfSalesInPeriod2
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfSalesInPeriod2
+    content: NumberOfSalesInPeriod2 = 8393216
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfSalesInPeriod2 As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedSalesInPeriod2
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedSalesInPeriod2
   id: NumberOfNotCompletedSalesInPeriod2
@@ -643,23 +415,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedSalesInPeriod2
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedSalesInPeriod2
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfNotCompletedSalesInPeriod2
+    content: NumberOfNotCompletedSalesInPeriod2 = 8393472
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfNotCompletedSalesInPeriod2 As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfSalesInPeriod3
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfSalesInPeriod3
   id: NumberOfSalesInPeriod3
@@ -671,23 +433,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfSalesInPeriod3
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfSalesInPeriod3
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfSalesInPeriod3
+    content: NumberOfSalesInPeriod3 = 8393728
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfSalesInPeriod3 As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedSalesInPeriod3
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedSalesInPeriod3
   id: NumberOfNotCompletedSalesInPeriod3
@@ -699,23 +451,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedSalesInPeriod3
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedSalesInPeriod3
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfNotCompletedSalesInPeriod3
+    content: NumberOfNotCompletedSalesInPeriod3 = 8393984
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfNotCompletedSalesInPeriod3 As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfTickets
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfTickets
   id: NumberOfTickets
@@ -727,23 +469,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfTickets
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfTickets
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfTickets
+    content: NumberOfTickets = 8394240
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfTickets As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfTicketsInPeriod
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfTicketsInPeriod
   id: NumberOfTicketsInPeriod
@@ -755,23 +487,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfTicketsInPeriod
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfTicketsInPeriod
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfTicketsInPeriod
+    content: NumberOfTicketsInPeriod = 8394496
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfTicketsInPeriod As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedTickets
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedTickets
   id: NumberOfNotCompletedTickets
@@ -783,23 +505,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedTickets
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedTickets
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfNotCompletedTickets
+    content: NumberOfNotCompletedTickets = 8394752
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfNotCompletedTickets As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedTicketsInPeriod
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedTicketsInPeriod
   id: NumberOfNotCompletedTicketsInPeriod
@@ -811,23 +523,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedTicketsInPeriod
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedTicketsInPeriod
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfNotCompletedTicketsInPeriod
+    content: NumberOfNotCompletedTicketsInPeriod = 8395008
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfNotCompletedTicketsInPeriod As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastTicket
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastTicket
   id: LastTicket
@@ -839,23 +541,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.LastTicket
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastTicket
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns LastTicket
+    content: LastTicket = 8395264
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const LastTicket As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastCompletedTicket
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastCompletedTicket
   id: LastCompletedTicket
@@ -867,23 +559,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.LastCompletedTicket
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastCompletedTicket
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns LastCompletedTicket
+    content: LastCompletedTicket = 8395520
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const LastCompletedTicket As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastDoByTicket
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastDoByTicket
   id: LastDoByTicket
@@ -895,23 +577,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.LastDoByTicket
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.LastDoByTicket
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns LastDoByTicket
+    content: LastDoByTicket = 8395776
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const LastDoByTicket As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfTicketsInPeriod2
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfTicketsInPeriod2
   id: NumberOfTicketsInPeriod2
@@ -923,23 +595,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfTicketsInPeriod2
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfTicketsInPeriod2
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfTicketsInPeriod2
+    content: NumberOfTicketsInPeriod2 = 8396032
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfTicketsInPeriod2 As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedTicketsInPeriod2
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedTicketsInPeriod2
   id: NumberOfNotCompletedTicketsInPeriod2
@@ -951,23 +613,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedTicketsInPeriod2
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedTicketsInPeriod2
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfNotCompletedTicketsInPeriod2
+    content: NumberOfNotCompletedTicketsInPeriod2 = 8396288
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfNotCompletedTicketsInPeriod2 As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfTicketsInPeriod3
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfTicketsInPeriod3
   id: NumberOfTicketsInPeriod3
@@ -979,23 +631,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfTicketsInPeriod3
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfTicketsInPeriod3
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfTicketsInPeriod3
+    content: NumberOfTicketsInPeriod3 = 8396544
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfTicketsInPeriod3 As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedTicketsInPeriod3
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedTicketsInPeriod3
   id: NumberOfNotCompletedTicketsInPeriod3
@@ -1007,23 +649,13 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedTicketsInPeriod3
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.NumberOfNotCompletedTicketsInPeriod3
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns NumberOfNotCompletedTicketsInPeriod3
+    content: NumberOfNotCompletedTicketsInPeriod3 = 8396800
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const NumberOfNotCompletedTicketsInPeriod3 As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.SaintStatus
   commentId: F:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.SaintStatus
   id: SaintStatus
@@ -1035,114 +667,267 @@ items:
   nameWithType: SaintRestrictionExtenderBase.Columns.SaintStatus
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.SaintStatus
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const SaintRestrictionExtenderBase.Columns SaintStatus
+    content: SaintStatus = 8912896
     return:
       type: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
-    content.vb: Public Const SaintStatus As SaintRestrictionExtenderBase.Columns
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SaintRestrictionExtenderBase.Columns, To>()
-  nameWithType: EnumUtil.MapEnums<SaintRestrictionExtenderBase.Columns, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SaintRestrictionExtenderBase.Columns, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns, To)()
-  name.vb: MapEnums(Of SaintRestrictionExtenderBase.Columns, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<Columns, To>(Columns)
+  nameWithType: EnumUtil.MapEnums<SaintRestrictionExtenderBase.Columns, To>(SaintRestrictionExtenderBase.Columns)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns, To>(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+  nameWithType.vb: EnumUtil.MapEnums(Of SaintRestrictionExtenderBase.Columns, To)(SaintRestrictionExtenderBase.Columns)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns, To)(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+  name.vb: MapEnums(Of Columns, To)(Columns)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SaintRestrictionExtenderBase.Columns, To>
-    nameWithType: EnumUtil.MapEnums<SaintRestrictionExtenderBase.Columns, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SaintRestrictionExtenderBase.Columns, To)
-    nameWithType: EnumUtil.MapEnums(Of SaintRestrictionExtenderBase.Columns, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SaintRestrictionExtenderBase.Columns, To>()
-  nameWithType: Converters.MapEnums<SaintRestrictionExtenderBase.Columns, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns, To>()
-  nameWithType.vb: Converters.MapEnums(Of SaintRestrictionExtenderBase.Columns, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns, To)()
-  name.vb: MapEnums(Of SaintRestrictionExtenderBase.Columns, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<Columns, To>(Columns)
+  nameWithType: Converters.MapEnums<SaintRestrictionExtenderBase.Columns, To>(SaintRestrictionExtenderBase.Columns)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns, To>(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+  nameWithType.vb: Converters.MapEnums(Of SaintRestrictionExtenderBase.Columns, To)(SaintRestrictionExtenderBase.Columns)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns, To)(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+  name.vb: MapEnums(Of Columns, To)(Columns)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SaintRestrictionExtenderBase.Columns, To>
-    nameWithType: Converters.MapEnums<SaintRestrictionExtenderBase.Columns, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SaintRestrictionExtenderBase.Columns, To)
-    nameWithType: Converters.MapEnums(Of SaintRestrictionExtenderBase.Columns, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<Columns>(Columns, Columns)
+  nameWithType: ObjectExtensions.AssignByReflection<SaintRestrictionExtenderBase.Columns>(SaintRestrictionExtenderBase.Columns, SaintRestrictionExtenderBase.Columns)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns>(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns, SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SaintRestrictionExtenderBase.Columns)(SaintRestrictionExtenderBase.Columns, SaintRestrictionExtenderBase.Columns)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns, SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+  name.vb: AssignByReflection(Of Columns)(Columns, Columns)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns,SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns,SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<Columns>(Columns)
+  nameWithType: ObjectExtensions.GraphCopy<SaintRestrictionExtenderBase.Columns>(SaintRestrictionExtenderBase.Columns)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns>(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SaintRestrictionExtenderBase.Columns)(SaintRestrictionExtenderBase.Columns)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+  name.vb: GraphCopy(Of Columns)(Columns)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1151,43 +936,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1196,58 +983,213 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
   commentId: T:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.html
   name: SaintRestrictionExtenderBase.Columns
   nameWithType: SaintRestrictionExtenderBase.Columns
   fullName: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase
+    name: SaintRestrictionExtenderBase
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase
+    name: SaintRestrictionExtenderBase
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns
+    name: Columns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.Columns.html

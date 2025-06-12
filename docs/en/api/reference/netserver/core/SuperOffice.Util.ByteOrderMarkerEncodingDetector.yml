@@ -22,33 +22,29 @@ items:
   nameWithType: ByteOrderMarkerEncodingDetector
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: 'public class ByteOrderMarkerEncodingDetector : Object, ITextEncodingDetector'
-    content.vb: >-
-      Public Class ByteOrderMarkerEncodingDetector
-          Inherits Object
-          Implements ITextEncodingDetector
+    content: 'public class ByteOrderMarkerEncodingDetector : ITextEncodingDetector'
+    content.vb: Public Class ByteOrderMarkerEncodingDetector Implements ITextEncodingDetector
   inheritance:
   - System.Object
   implements:
   - SuperOffice.Util.ITextEncodingDetector
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Util.ByteOrderMarkerEncodingDetector.EnumUtil.MapEnums``2
+  - SuperOffice.Util.ByteOrderMarkerEncodingDetector.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Util.ByteOrderMarkerEncodingDetector.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
   - SuperOffice.Util.ByteOrderMarkerEncodingDetector.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.Util.ByteOrderMarkerEncodingDetector.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF8
   commentId: F:SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF8
   id: UTF8
@@ -60,9 +56,6 @@ items:
   nameWithType: ByteOrderMarkerEncodingDetector.UTF8
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF8
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -71,14 +64,6 @@ items:
     return:
       type: System.Byte[]
     content.vb: Public Shared ReadOnly UTF8 As Byte()
-  modifiers.csharp:
-  - public
-  - static
-  - readonly
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF16BE
   commentId: F:SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF16BE
   id: UTF16BE
@@ -90,9 +75,6 @@ items:
   nameWithType: ByteOrderMarkerEncodingDetector.UTF16BE
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF16BE
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -101,14 +83,6 @@ items:
     return:
       type: System.Byte[]
     content.vb: Public Shared ReadOnly UTF16BE As Byte()
-  modifiers.csharp:
-  - public
-  - static
-  - readonly
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF16LE
   commentId: F:SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF16LE
   id: UTF16LE
@@ -120,9 +94,6 @@ items:
   nameWithType: ByteOrderMarkerEncodingDetector.UTF16LE
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF16LE
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -131,14 +102,6 @@ items:
     return:
       type: System.Byte[]
     content.vb: Public Shared ReadOnly UTF16LE As Byte()
-  modifiers.csharp:
-  - public
-  - static
-  - readonly
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF32LE
   commentId: F:SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF32LE
   id: UTF32LE
@@ -150,9 +113,6 @@ items:
   nameWithType: ByteOrderMarkerEncodingDetector.UTF32LE
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF32LE
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -161,14 +121,6 @@ items:
     return:
       type: System.Byte[]
     content.vb: Public Shared ReadOnly UTF32LE As Byte()
-  modifiers.csharp:
-  - public
-  - static
-  - readonly
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF7t1
   commentId: F:SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF7t1
   id: UTF7t1
@@ -180,9 +132,6 @@ items:
   nameWithType: ByteOrderMarkerEncodingDetector.UTF7t1
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF7t1
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -191,14 +140,6 @@ items:
     return:
       type: System.Byte[]
     content.vb: Public Shared ReadOnly UTF7t1 As Byte()
-  modifiers.csharp:
-  - public
-  - static
-  - readonly
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF7t2
   commentId: F:SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF7t2
   id: UTF7t2
@@ -210,9 +151,6 @@ items:
   nameWithType: ByteOrderMarkerEncodingDetector.UTF7t2
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF7t2
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -221,14 +159,6 @@ items:
     return:
       type: System.Byte[]
     content.vb: Public Shared ReadOnly UTF7t2 As Byte()
-  modifiers.csharp:
-  - public
-  - static
-  - readonly
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF7t3
   commentId: F:SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF7t3
   id: UTF7t3
@@ -240,9 +170,6 @@ items:
   nameWithType: ByteOrderMarkerEncodingDetector.UTF7t3
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF7t3
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -251,14 +178,6 @@ items:
     return:
       type: System.Byte[]
     content.vb: Public Shared ReadOnly UTF7t3 As Byte()
-  modifiers.csharp:
-  - public
-  - static
-  - readonly
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF7t4
   commentId: F:SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF7t4
   id: UTF7t4
@@ -270,9 +189,6 @@ items:
   nameWithType: ByteOrderMarkerEncodingDetector.UTF7t4
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF7t4
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -281,14 +197,6 @@ items:
     return:
       type: System.Byte[]
     content.vb: Public Shared ReadOnly UTF7t4 As Byte()
-  modifiers.csharp:
-  - public
-  - static
-  - readonly
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.DetectFrom(System.Byte[])
   commentId: M:SuperOffice.Util.ByteOrderMarkerEncodingDetector.DetectFrom(System.Byte[])
   id: DetectFrom(System.Byte[])
@@ -296,16 +204,14 @@ items:
   langs:
   - csharp
   - vb
-  name: DetectFrom(Byte[])
-  nameWithType: ByteOrderMarkerEncodingDetector.DetectFrom(Byte[])
-  fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.DetectFrom(System.Byte[])
+  name: DetectFrom(byte[])
+  nameWithType: ByteOrderMarkerEncodingDetector.DetectFrom(byte[])
+  fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.DetectFrom(byte[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
+  example: []
   syntax:
     content: public Encoding DetectFrom(byte[] bytes)
     parameters:
@@ -318,11 +224,7 @@ items:
   implements:
   - SuperOffice.Util.ITextEncodingDetector.DetectFrom(System.Byte[])
   nameWithType.vb: ByteOrderMarkerEncodingDetector.DetectFrom(Byte())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Util.ByteOrderMarkerEncodingDetector.DetectFrom(System.Byte())
+  fullName.vb: SuperOffice.Util.ByteOrderMarkerEncodingDetector.DetectFrom(Byte())
   name.vb: DetectFrom(Byte())
 - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.#ctor
   commentId: M:SuperOffice.Util.ByteOrderMarkerEncodingDetector.#ctor
@@ -335,196 +237,505 @@ items:
   nameWithType: ByteOrderMarkerEncodingDetector.ByteOrderMarkerEncodingDetector()
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.ByteOrderMarkerEncodingDetector()
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public ByteOrderMarkerEncodingDetector()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.Util.ByteOrderMarkerEncodingDetector.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ByteOrderMarkerEncodingDetector.New()
+  fullName.vb: SuperOffice.Util.ByteOrderMarkerEncodingDetector.New()
+  name.vb: New()
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.Util.ITextEncodingDetector
   commentId: T:SuperOffice.Util.ITextEncodingDetector
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.ITextEncodingDetector.html
   name: ITextEncodingDetector
   nameWithType: ITextEncodingDetector
   fullName: SuperOffice.Util.ITextEncodingDetector
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ByteOrderMarkerEncodingDetector, To>()
-  nameWithType: EnumUtil.MapEnums<ByteOrderMarkerEncodingDetector, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.ByteOrderMarkerEncodingDetector, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ByteOrderMarkerEncodingDetector, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.ByteOrderMarkerEncodingDetector, To)()
-  name.vb: MapEnums(Of ByteOrderMarkerEncodingDetector, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ByteOrderMarkerEncodingDetector, To>(ByteOrderMarkerEncodingDetector)
+  nameWithType: EnumUtil.MapEnums<ByteOrderMarkerEncodingDetector, To>(ByteOrderMarkerEncodingDetector)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.ByteOrderMarkerEncodingDetector, To>(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+  nameWithType.vb: EnumUtil.MapEnums(Of ByteOrderMarkerEncodingDetector, To)(ByteOrderMarkerEncodingDetector)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.ByteOrderMarkerEncodingDetector, To)(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+  name.vb: MapEnums(Of ByteOrderMarkerEncodingDetector, To)(ByteOrderMarkerEncodingDetector)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ByteOrderMarkerEncodingDetector, To>
-    nameWithType: EnumUtil.MapEnums<ByteOrderMarkerEncodingDetector, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Util.ByteOrderMarkerEncodingDetector, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ByteOrderMarkerEncodingDetector, To)
-    nameWithType: EnumUtil.MapEnums(Of ByteOrderMarkerEncodingDetector, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.ByteOrderMarkerEncodingDetector, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ByteOrderMarkerEncodingDetector>(ByteOrderMarkerEncodingDetector)
-  nameWithType: ObjectExtensions.AssignByReflection<ByteOrderMarkerEncodingDetector>(ByteOrderMarkerEncodingDetector)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.ByteOrderMarkerEncodingDetector>(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ByteOrderMarkerEncodingDetector)(ByteOrderMarkerEncodingDetector)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.ByteOrderMarkerEncodingDetector)(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
-  name.vb: AssignByReflection(Of ByteOrderMarkerEncodingDetector)(ByteOrderMarkerEncodingDetector)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ByteOrderMarkerEncodingDetector>
-    nameWithType: ObjectExtensions.AssignByReflection<ByteOrderMarkerEncodingDetector>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.ByteOrderMarkerEncodingDetector>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
     name: ByteOrderMarkerEncodingDetector
-    nameWithType: ByteOrderMarkerEncodingDetector
-    fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ByteOrderMarkerEncodingDetector)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ByteOrderMarkerEncodingDetector)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.ByteOrderMarkerEncodingDetector)
-    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
     name: ByteOrderMarkerEncodingDetector
-    nameWithType: ByteOrderMarkerEncodingDetector
-    fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector
     isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ByteOrderMarkerEncodingDetector>()
-  nameWithType: ObjectExtensions.GraphCopy<ByteOrderMarkerEncodingDetector>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.ByteOrderMarkerEncodingDetector>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ByteOrderMarkerEncodingDetector)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.ByteOrderMarkerEncodingDetector)()
-  name.vb: GraphCopy(Of ByteOrderMarkerEncodingDetector)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ByteOrderMarkerEncodingDetector>
-    nameWithType: ObjectExtensions.GraphCopy<ByteOrderMarkerEncodingDetector>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.ByteOrderMarkerEncodingDetector>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ByteOrderMarkerEncodingDetector)
-    nameWithType: ObjectExtensions.GraphCopy(Of ByteOrderMarkerEncodingDetector)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+    name: ByteOrderMarkerEncodingDetector
+    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+    name: ByteOrderMarkerEncodingDetector
+    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
+  - name: )
 - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ByteOrderMarkerEncodingDetector, To>()
-  nameWithType: Converters.MapEnums<ByteOrderMarkerEncodingDetector, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.ByteOrderMarkerEncodingDetector, To>()
-  nameWithType.vb: Converters.MapEnums(Of ByteOrderMarkerEncodingDetector, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.ByteOrderMarkerEncodingDetector, To)()
-  name.vb: MapEnums(Of ByteOrderMarkerEncodingDetector, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ByteOrderMarkerEncodingDetector, To>(ByteOrderMarkerEncodingDetector)
+  nameWithType: Converters.MapEnums<ByteOrderMarkerEncodingDetector, To>(ByteOrderMarkerEncodingDetector)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.ByteOrderMarkerEncodingDetector, To>(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+  nameWithType.vb: Converters.MapEnums(Of ByteOrderMarkerEncodingDetector, To)(ByteOrderMarkerEncodingDetector)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.ByteOrderMarkerEncodingDetector, To)(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+  name.vb: MapEnums(Of ByteOrderMarkerEncodingDetector, To)(ByteOrderMarkerEncodingDetector)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ByteOrderMarkerEncodingDetector, To>
-    nameWithType: Converters.MapEnums<ByteOrderMarkerEncodingDetector, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.ByteOrderMarkerEncodingDetector, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+    name: ByteOrderMarkerEncodingDetector
+    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+    name: ByteOrderMarkerEncodingDetector
+    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ByteOrderMarkerEncodingDetector, To)
-    nameWithType: Converters.MapEnums(Of ByteOrderMarkerEncodingDetector, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.ByteOrderMarkerEncodingDetector, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+    name: ByteOrderMarkerEncodingDetector
+    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+    name: ByteOrderMarkerEncodingDetector
+    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
+  - name: )
+- uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ByteOrderMarkerEncodingDetector>(ByteOrderMarkerEncodingDetector, ByteOrderMarkerEncodingDetector)
+  nameWithType: ObjectExtensions.AssignByReflection<ByteOrderMarkerEncodingDetector>(ByteOrderMarkerEncodingDetector, ByteOrderMarkerEncodingDetector)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.ByteOrderMarkerEncodingDetector>(SuperOffice.Util.ByteOrderMarkerEncodingDetector, SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ByteOrderMarkerEncodingDetector)(ByteOrderMarkerEncodingDetector, ByteOrderMarkerEncodingDetector)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.ByteOrderMarkerEncodingDetector)(SuperOffice.Util.ByteOrderMarkerEncodingDetector, SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+  name.vb: AssignByReflection(Of ByteOrderMarkerEncodingDetector)(ByteOrderMarkerEncodingDetector, ByteOrderMarkerEncodingDetector)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.ByteOrderMarkerEncodingDetector,SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+    name: ByteOrderMarkerEncodingDetector
+    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+    name: ByteOrderMarkerEncodingDetector
+    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+    name: ByteOrderMarkerEncodingDetector
+    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.ByteOrderMarkerEncodingDetector,SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+    name: ByteOrderMarkerEncodingDetector
+    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+    name: ByteOrderMarkerEncodingDetector
+    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+    name: ByteOrderMarkerEncodingDetector
+    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
+  - name: )
+- uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ByteOrderMarkerEncodingDetector>(ByteOrderMarkerEncodingDetector)
+  nameWithType: ObjectExtensions.GraphCopy<ByteOrderMarkerEncodingDetector>(ByteOrderMarkerEncodingDetector)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.ByteOrderMarkerEncodingDetector>(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ByteOrderMarkerEncodingDetector)(ByteOrderMarkerEncodingDetector)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.ByteOrderMarkerEncodingDetector)(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+  name.vb: GraphCopy(Of ByteOrderMarkerEncodingDetector)(ByteOrderMarkerEncodingDetector)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+    name: ByteOrderMarkerEncodingDetector
+    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+    name: ByteOrderMarkerEncodingDetector
+    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.ByteOrderMarkerEncodingDetector)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+    name: ByteOrderMarkerEncodingDetector
+    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+    name: ByteOrderMarkerEncodingDetector
+    isExternal: true
+    href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -533,140 +744,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -675,76 +791,188 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.Byte[]
   isExternal: true
-  name: Byte[]
-  nameWithType: Byte[]
-  fullName: System.Byte[]
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
   nameWithType.vb: Byte()
-  fullName.vb: System.Byte()
+  fullName.vb: Byte()
   name.vb: Byte()
   spec.csharp:
   - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
+    name: byte
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Byte
     name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
 - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.DetectFrom*
   commentId: Overload:SuperOffice.Util.ByteOrderMarkerEncodingDetector.DetectFrom
   isExternal: true
+  href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html#SuperOffice_Util_ByteOrderMarkerEncodingDetector_DetectFrom_System_Byte___
   name: DetectFrom
   nameWithType: ByteOrderMarkerEncodingDetector.DetectFrom
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.DetectFrom
@@ -752,60 +980,81 @@ references:
   commentId: M:SuperOffice.Util.ITextEncodingDetector.DetectFrom(System.Byte[])
   parent: SuperOffice.Util.ITextEncodingDetector
   isExternal: true
-  name: DetectFrom(Byte[])
-  nameWithType: ITextEncodingDetector.DetectFrom(Byte[])
-  fullName: SuperOffice.Util.ITextEncodingDetector.DetectFrom(System.Byte[])
+  href: SuperOffice.Util.ITextEncodingDetector.html#SuperOffice_Util_ITextEncodingDetector_DetectFrom_System_Byte___
+  name: DetectFrom(byte[])
+  nameWithType: ITextEncodingDetector.DetectFrom(byte[])
+  fullName: SuperOffice.Util.ITextEncodingDetector.DetectFrom(byte[])
   nameWithType.vb: ITextEncodingDetector.DetectFrom(Byte())
-  fullName.vb: SuperOffice.Util.ITextEncodingDetector.DetectFrom(System.Byte())
+  fullName.vb: SuperOffice.Util.ITextEncodingDetector.DetectFrom(Byte())
   name.vb: DetectFrom(Byte())
   spec.csharp:
   - uid: SuperOffice.Util.ITextEncodingDetector.DetectFrom(System.Byte[])
     name: DetectFrom
-    nameWithType: ITextEncodingDetector.DetectFrom
-    fullName: SuperOffice.Util.ITextEncodingDetector.DetectFrom
     isExternal: true
+    href: SuperOffice.Util.ITextEncodingDetector.html#SuperOffice_Util_ITextEncodingDetector_DetectFrom_System_Byte___
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
+    name: byte
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ITextEncodingDetector.DetectFrom(System.Byte[])
     name: DetectFrom
-    nameWithType: ITextEncodingDetector.DetectFrom
-    fullName: SuperOffice.Util.ITextEncodingDetector.DetectFrom
     isExternal: true
+    href: SuperOffice.Util.ITextEncodingDetector.html#SuperOffice_Util_ITextEncodingDetector_DetectFrom_System_Byte___
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Byte
     name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: System.Text.Encoding
+  commentId: T:System.Text.Encoding
+  parent: System.Text
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding
   name: Encoding
   nameWithType: Encoding
   fullName: System.Text.Encoding
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
 - uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector.#ctor*
   commentId: Overload:SuperOffice.Util.ByteOrderMarkerEncodingDetector.#ctor
   isExternal: true
+  href: SuperOffice.Util.ByteOrderMarkerEncodingDetector.html#SuperOffice_Util_ByteOrderMarkerEncodingDetector__ctor
   name: ByteOrderMarkerEncodingDetector
   nameWithType: ByteOrderMarkerEncodingDetector.ByteOrderMarkerEncodingDetector
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.ByteOrderMarkerEncodingDetector
+  nameWithType.vb: ByteOrderMarkerEncodingDetector.New
+  fullName.vb: SuperOffice.Util.ByteOrderMarkerEncodingDetector.New
+  name.vb: New

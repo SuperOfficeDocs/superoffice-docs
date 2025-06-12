@@ -1,0 +1,32 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  id: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.ErpActorTypeProvider
+  - SuperOffice.CRM.Lists.ErpSyncListsProvider
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+  type: Namespace
+  assemblies:
+  - SuperOffice.Services.Implementation
+references:
+- uid: SuperOffice.CRM.Lists.ErpActorTypeProvider
+  commentId: T:SuperOffice.CRM.Lists.ErpActorTypeProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.ErpActorTypeProvider.html
+  name: ErpActorTypeProvider
+  nameWithType: ErpActorTypeProvider
+  fullName: SuperOffice.CRM.Lists.ErpActorTypeProvider
+- uid: SuperOffice.CRM.Lists.ErpSyncListsProvider
+  commentId: T:SuperOffice.CRM.Lists.ErpSyncListsProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.ErpSyncListsProvider.html
+  name: ErpSyncListsProvider
+  nameWithType: ErpSyncListsProvider
+  fullName: SuperOffice.CRM.Lists.ErpSyncListsProvider

@@ -24,13 +24,13 @@ items:
   - SuperOffice.License.SoModuleLicenseNames.RemoteTravel
   - SuperOffice.License.SoModuleLicenseNames.ReporterStudio
   - SuperOffice.License.SoModuleLicenseNames.Repstudio
-  - SuperOffice.License.SoModuleLicenseNames.saint
   - SuperOffice.License.SoModuleLicenseNames.Satellite
   - SuperOffice.License.SoModuleLicenseNames.Server
   - SuperOffice.License.SoModuleLicenseNames.SyncEngine
   - SuperOffice.License.SoModuleLicenseNames.Travel
   - SuperOffice.License.SoModuleLicenseNames.WebLogin
   - SuperOffice.License.SoModuleLicenseNames.WinLogin
+  - SuperOffice.License.SoModuleLicenseNames.saint
   langs:
   - csharp
   - vb
@@ -38,26 +38,36 @@ items:
   nameWithType: SoModuleLicenseNames
   fullName: SuperOffice.License.SoModuleLicenseNames
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
   syntax:
-    content: 'public static class SoModuleLicenseNames : Object'
+    content: >-
+      [Obsolete("Use SuperOffice.License.SoLicenseNames instead", true)]
+
+      public static class SoModuleLicenseNames
     content.vb: >-
+      <Obsolete("Use SuperOffice.License.SoLicenseNames instead", True)>
+
       Public Module SoModuleLicenseNames
-          Inherits Object
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use SuperOffice.License.SoLicenseNames instead
+    - type: System.Boolean
+      value: true
 - uid: SuperOffice.License.SoModuleLicenseNames.ModuleOwner
   commentId: F:SuperOffice.License.SoModuleLicenseNames.ModuleOwner
   id: ModuleOwner
@@ -69,9 +79,6 @@ items:
   nameWithType: SoModuleLicenseNames.ModuleOwner
   fullName: SuperOffice.License.SoModuleLicenseNames.ModuleOwner
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
@@ -80,12 +87,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const ModuleOwner As String = "SuperOffice"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.Server
   commentId: F:SuperOffice.License.SoModuleLicenseNames.Server
   id: Server
@@ -97,24 +98,16 @@ items:
   nameWithType: SoModuleLicenseNames.Server
   fullName: SuperOffice.License.SoModuleLicenseNames.Server
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice Site license\n"
+  summary: SuperOffice Site license
+  example: []
   syntax:
     content: public const string Server = "server"
     return:
       type: System.String
     content.vb: Public Const Server As String = "server"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.ExpanderKey
   commentId: F:SuperOffice.License.SoModuleLicenseNames.ExpanderKey
   id: ExpanderKey
@@ -126,24 +119,16 @@ items:
   nameWithType: SoModuleLicenseNames.ExpanderKey
   fullName: SuperOffice.License.SoModuleLicenseNames.ExpanderKey
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice Expander Key\n"
+  summary: SuperOffice Expander Key
+  example: []
   syntax:
     content: public const string ExpanderKey = "expander-key"
     return:
       type: System.String
     content.vb: Public Const ExpanderKey As String = "expander-key"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.Audience
   commentId: F:SuperOffice.License.SoModuleLicenseNames.Audience
   id: Audience
@@ -155,24 +140,16 @@ items:
   nameWithType: SoModuleLicenseNames.Audience
   fullName: SuperOffice.License.SoModuleLicenseNames.Audience
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice Audience license\n"
+  summary: SuperOffice Audience license
+  example: []
   syntax:
     content: public const string Audience = "audience"
     return:
       type: System.String
     content.vb: Public Const Audience As String = "audience"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.Collaboration
   commentId: F:SuperOffice.License.SoModuleLicenseNames.Collaboration
   id: Collaboration
@@ -184,24 +161,16 @@ items:
   nameWithType: SoModuleLicenseNames.Collaboration
   fullName: SuperOffice.License.SoModuleLicenseNames.Collaboration
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice Collaboration license\n"
+  summary: SuperOffice Collaboration license
+  example: []
   syntax:
     content: public const string Collaboration = "collaboration"
     return:
       type: System.String
     content.vb: Public Const Collaboration As String = "collaboration"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.Integration
   commentId: F:SuperOffice.License.SoModuleLicenseNames.Integration
   id: Integration
@@ -213,24 +182,16 @@ items:
   nameWithType: SoModuleLicenseNames.Integration
   fullName: SuperOffice.License.SoModuleLicenseNames.Integration
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice	Enterprise Integration license\n"
+  summary: SuperOffice	Enterprise Integration license
+  example: []
   syntax:
     content: public const string Integration = "integration"
     return:
       type: System.String
     content.vb: Public Const Integration As String = "integration"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.Demo
   commentId: F:SuperOffice.License.SoModuleLicenseNames.Demo
   id: Demo
@@ -242,24 +203,16 @@ items:
   nameWithType: SoModuleLicenseNames.Demo
   fullName: SuperOffice.License.SoModuleLicenseNames.Demo
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice	Demo Site License\n"
+  summary: SuperOffice	Demo Site License
+  example: []
   syntax:
     content: public const string Demo = "demo"
     return:
       type: System.String
     content.vb: Public Const Demo As String = "demo"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.Repstudio
   commentId: F:SuperOffice.License.SoModuleLicenseNames.Repstudio
   id: Repstudio
@@ -271,24 +224,16 @@ items:
   nameWithType: SoModuleLicenseNames.Repstudio
   fullName: SuperOffice.License.SoModuleLicenseNames.Repstudio
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice	Reporter Studio\n"
+  summary: SuperOffice	Reporter Studio
+  example: []
   syntax:
     content: public const string Repstudio = "repstudio"
     return:
       type: System.String
     content.vb: Public Const Repstudio As String = "repstudio"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.NotesMailLink
   commentId: F:SuperOffice.License.SoModuleLicenseNames.NotesMailLink
   id: NotesMailLink
@@ -300,24 +245,16 @@ items:
   nameWithType: SoModuleLicenseNames.NotesMailLink
   fullName: SuperOffice.License.SoModuleLicenseNames.NotesMailLink
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice	Notes Mail Link\n"
+  summary: SuperOffice	Notes Mail Link
+  example: []
   syntax:
     content: public const string NotesMailLink = "notes-mail-link"
     return:
       type: System.String
     content.vb: Public Const NotesMailLink As String = "notes-mail-link"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.saint
   commentId: F:SuperOffice.License.SoModuleLicenseNames.saint
   id: saint
@@ -329,24 +266,16 @@ items:
   nameWithType: SoModuleLicenseNames.saint
   fullName: SuperOffice.License.SoModuleLicenseNames.saint
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice	Sales Intelligence (SAINT)\n"
+  summary: SuperOffice	Sales Intelligence (SAINT)
+  example: []
   syntax:
     content: public const string saint = "saint"
     return:
       type: System.String
     content.vb: Public Const saint As String = "saint"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.OnlineStandard
   commentId: F:SuperOffice.License.SoModuleLicenseNames.OnlineStandard
   id: OnlineStandard
@@ -358,24 +287,16 @@ items:
   nameWithType: SoModuleLicenseNames.OnlineStandard
   fullName: SuperOffice.License.SoModuleLicenseNames.OnlineStandard
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nOnline, standard edition\n"
+  summary: Online, standard edition
+  example: []
   syntax:
     content: public const string OnlineStandard = "OnlineStandard"
     return:
       type: System.String
     content.vb: Public Const OnlineStandard As String = "OnlineStandard"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.OnlineProfessional
   commentId: F:SuperOffice.License.SoModuleLicenseNames.OnlineProfessional
   id: OnlineProfessional
@@ -387,24 +308,16 @@ items:
   nameWithType: SoModuleLicenseNames.OnlineProfessional
   fullName: SuperOffice.License.SoModuleLicenseNames.OnlineProfessional
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nOnline, professional edition\n"
+  summary: Online, professional edition
+  example: []
   syntax:
     content: public const string OnlineProfessional = "OnlineProfessional"
     return:
       type: System.String
     content.vb: Public Const OnlineProfessional As String = "OnlineProfessional"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.Area
   commentId: F:SuperOffice.License.SoModuleLicenseNames.Area
   id: Area
@@ -416,24 +329,16 @@ items:
   nameWithType: SoModuleLicenseNames.Area
   fullName: SuperOffice.License.SoModuleLicenseNames.Area
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice	Area Management License\n"
+  summary: SuperOffice	Area Management License
+  example: []
   syntax:
     content: public const string Area = "area"
     return:
       type: System.String
     content.vb: Public Const Area As String = "area"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.Satellite
   commentId: F:SuperOffice.License.SoModuleLicenseNames.Satellite
   id: Satellite
@@ -445,24 +350,16 @@ items:
   nameWithType: SoModuleLicenseNames.Satellite
   fullName: SuperOffice.License.SoModuleLicenseNames.Satellite
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice	Satellite License\n"
+  summary: SuperOffice	Satellite License
+  example: []
   syntax:
     content: public const string Satellite = "sat"
     return:
       type: System.String
     content.vb: Public Const Satellite As String = "sat"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.Login
   commentId: F:SuperOffice.License.SoModuleLicenseNames.Login
   id: Login
@@ -474,24 +371,16 @@ items:
   nameWithType: SoModuleLicenseNames.Login
   fullName: SuperOffice.License.SoModuleLicenseNames.Login
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice	Login Right\n"
+  summary: SuperOffice	Login Right
+  example: []
   syntax:
     content: public const string Login = "client"
     return:
       type: System.String
     content.vb: Public Const Login As String = "client"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.WinLogin
   commentId: F:SuperOffice.License.SoModuleLicenseNames.WinLogin
   id: WinLogin
@@ -503,24 +392,16 @@ items:
   nameWithType: SoModuleLicenseNames.WinLogin
   fullName: SuperOffice.License.SoModuleLicenseNames.WinLogin
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice	Windows Client\n"
+  summary: SuperOffice	Windows Client
+  example: []
   syntax:
     content: public const string WinLogin = "winclient"
     return:
       type: System.String
     content.vb: Public Const WinLogin As String = "winclient"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.WebLogin
   commentId: F:SuperOffice.License.SoModuleLicenseNames.WebLogin
   id: WebLogin
@@ -532,24 +413,16 @@ items:
   nameWithType: SoModuleLicenseNames.WebLogin
   fullName: SuperOffice.License.SoModuleLicenseNames.WebLogin
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice	Web Client\n"
+  summary: SuperOffice	Web Client
+  example: []
   syntax:
     content: public const string WebLogin = "webclient"
     return:
       type: System.String
     content.vb: Public Const WebLogin As String = "webclient"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.NetClient
   commentId: F:SuperOffice.License.SoModuleLicenseNames.NetClient
   id: NetClient
@@ -561,24 +434,16 @@ items:
   nameWithType: SoModuleLicenseNames.NetClient
   fullName: SuperOffice.License.SoModuleLicenseNames.NetClient
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice	Extended Login\n"
+  summary: SuperOffice	Extended Login
+  example: []
   syntax:
     content: public const string NetClient = "netclient"
     return:
       type: System.String
     content.vb: Public Const NetClient As String = "netclient"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.RemoteTravel
   commentId: F:SuperOffice.License.SoModuleLicenseNames.RemoteTravel
   id: RemoteTravel
@@ -590,24 +455,16 @@ items:
   nameWithType: SoModuleLicenseNames.RemoteTravel
   fullName: SuperOffice.License.SoModuleLicenseNames.RemoteTravel
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nThe user is licensed to use remote travel.\n"
+  summary: The user is licensed to use remote travel.
+  example: []
   syntax:
     content: public const string RemoteTravel = "remote-travel"
     return:
       type: System.String
     content.vb: Public Const RemoteTravel As String = "remote-travel"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.SyncEngine
   commentId: F:SuperOffice.License.SoModuleLicenseNames.SyncEngine
   id: SyncEngine
@@ -619,24 +476,16 @@ items:
   nameWithType: SoModuleLicenseNames.SyncEngine
   fullName: SuperOffice.License.SoModuleLicenseNames.SyncEngine
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice	Sync Engine\n"
+  summary: SuperOffice	Sync Engine
+  example: []
   syntax:
     content: public const string SyncEngine = "sync-engine"
     return:
       type: System.String
     content.vb: Public Const SyncEngine As String = "sync-engine"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.Pocket
   commentId: F:SuperOffice.License.SoModuleLicenseNames.Pocket
   id: Pocket
@@ -648,24 +497,16 @@ items:
   nameWithType: SoModuleLicenseNames.Pocket
   fullName: SuperOffice.License.SoModuleLicenseNames.Pocket
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nThe user is licensed to log on to Pocket CRM\n"
+  summary: The user is licensed to log on to Pocket CRM
+  example: []
   syntax:
     content: public const string Pocket = "pocket"
     return:
       type: System.String
     content.vb: Public Const Pocket As String = "pocket"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.ConfidentialAppointment
   commentId: F:SuperOffice.License.SoModuleLicenseNames.ConfidentialAppointment
   id: ConfidentialAppointment
@@ -677,24 +518,16 @@ items:
   nameWithType: SoModuleLicenseNames.ConfidentialAppointment
   fullName: SuperOffice.License.SoModuleLicenseNames.ConfidentialAppointment
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nSuperOffice	Can set Private\n"
+  summary: SuperOffice	Can set Private
+  example: []
   syntax:
     content: public const string ConfidentialAppointment = "visible-for"
     return:
       type: System.String
     content.vb: Public Const ConfidentialAppointment As String = "visible-for"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.Publish
   commentId: F:SuperOffice.License.SoModuleLicenseNames.Publish
   id: Publish
@@ -706,24 +539,16 @@ items:
   nameWithType: SoModuleLicenseNames.Publish
   fullName: SuperOffice.License.SoModuleLicenseNames.Publish
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nCan set Publish\n"
+  summary: Can set Publish
+  example: []
   syntax:
     content: public const string Publish = "publish"
     return:
       type: System.String
     content.vb: Public Const Publish As String = "publish"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.Travel
   commentId: F:SuperOffice.License.SoModuleLicenseNames.Travel
   id: Travel
@@ -735,24 +560,16 @@ items:
   nameWithType: SoModuleLicenseNames.Travel
   fullName: SuperOffice.License.SoModuleLicenseNames.Travel
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nCan Travel\n"
+  summary: Can Travel
+  example: []
   syntax:
     content: public const string Travel = "travel"
     return:
       type: System.String
     content.vb: Public Const Travel As String = "travel"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.ReporterStudio
   commentId: F:SuperOffice.License.SoModuleLicenseNames.ReporterStudio
   id: ReporterStudio
@@ -764,24 +581,16 @@ items:
   nameWithType: SoModuleLicenseNames.ReporterStudio
   fullName: SuperOffice.License.SoModuleLicenseNames.ReporterStudio
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nThe user is licensed to use reporter studio.\n"
+  summary: The user is licensed to use reporter studio.
+  example: []
   syntax:
     content: public const string ReporterStudio = "repstudio-user"
     return:
       type: System.String
     content.vb: Public Const ReporterStudio As String = "repstudio-user"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.License.SoModuleLicenseNames.CreateExternalPerson
   commentId: F:SuperOffice.License.SoModuleLicenseNames.CreateExternalPerson
   id: CreateExternalPerson
@@ -793,41 +602,278 @@ items:
   nameWithType: SoModuleLicenseNames.CreateExternalPerson
   fullName: SuperOffice.License.SoModuleLicenseNames.CreateExternalPerson
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.License
-  summary: "\nCan admin external users\n"
+  summary: Can admin external users
+  example: []
   syntax:
     content: public static string CreateExternalPerson
     return:
       type: System.String
     content.vb: Public Shared CreateExternalPerson As String
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 references:
 - uid: SuperOffice.License
   commentId: N:SuperOffice.License
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.License
   nameWithType: SuperOffice.License
   fullName: SuperOffice.License
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.License
+    name: License
+    isExternal: true
+    href: SuperOffice.License.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.License
+    name: License
+    isExternal: true
+    href: SuperOffice.License.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -835,6 +881,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

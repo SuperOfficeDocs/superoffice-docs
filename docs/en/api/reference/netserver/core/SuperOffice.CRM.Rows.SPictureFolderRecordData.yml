@@ -23,33 +23,41 @@ items:
   nameWithType: SPictureFolderRecordData
   fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the s_picture_folder table.\n"
-  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.SPictureFolderRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.SPictureFolderTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  summary: >-
+    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
+
+    to a row from the s_picture_folder table.
+  remarks: >-
+    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.SPictureFolderRow" data-throw-if-not-resolved="false"></xref> object when
+
+    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
+
+    since they carry the corresponding <xref href="SuperOffice.CRM.Data.SPictureFolderTableInfo" data-throw-if-not-resolved="false"></xref> object, which
+
+    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
+  example: []
   syntax:
-    content: 'public class SPictureFolderRecordData : Object'
-    content.vb: >-
-      Public Class SPictureFolderRecordData
-          Inherits Object
+    content: public class SPictureFolderRecordData
+    content.vb: Public Class SPictureFolderRecordData
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.SPictureFolderRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.SPictureFolderRecordData.SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SPictureFolderRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.SPictureFolderRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SPictureFolderRecordData)
   - SuperOffice.CRM.Rows.SPictureFolderRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SPictureFolderRecordData.SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.SPictureFolderRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.SPictureFolderId
   commentId: F:SuperOffice.CRM.Rows.SPictureFolderRecordData.SPictureFolderId
   id: SPictureFolderId
@@ -61,22 +69,16 @@ items:
   nameWithType: SPictureFolderRecordData.SPictureFolderId
   fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData.SPictureFolderId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
     content: public int SPictureFolderId
     return:
       type: System.Int32
     content.vb: Public SPictureFolderId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.Name
   commentId: F:SuperOffice.CRM.Rows.SPictureFolderRecordData.Name
   id: Name
@@ -88,22 +90,16 @@ items:
   nameWithType: SPictureFolderRecordData.Name
   fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData.Name
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nName of folder \n"
+  summary: Name of folder
+  example: []
   syntax:
     content: public string Name
     return:
       type: System.String
     content.vb: Public Name As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.ParentId
   commentId: F:SuperOffice.CRM.Rows.SPictureFolderRecordData.ParentId
   id: ParentId
@@ -115,22 +111,16 @@ items:
   nameWithType: SPictureFolderRecordData.ParentId
   fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData.ParentId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe parent id for this folder. -1 for root folders \n"
+  summary: The parent id for this folder. -1 for root folders
+  example: []
   syntax:
     content: public int ParentId
     return:
       type: System.Int32
     content.vb: Public ParentId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.Description
   commentId: F:SuperOffice.CRM.Rows.SPictureFolderRecordData.Description
   id: Description
@@ -142,22 +132,16 @@ items:
   nameWithType: SPictureFolderRecordData.Description
   fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData.Description
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nA description of the folder \n"
+  summary: A description of the folder
+  example: []
   syntax:
     content: public string Description
     return:
       type: System.String
     content.vb: Public Description As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.FolderType
   commentId: F:SuperOffice.CRM.Rows.SPictureFolderRecordData.FolderType
   id: FolderType
@@ -169,22 +153,16 @@ items:
   nameWithType: SPictureFolderRecordData.FolderType
   fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData.FolderType
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nIndicates which type of folder this is \n"
+  summary: Indicates which type of folder this is
+  example: []
   syntax:
     content: public short FolderType
     return:
       type: System.Int16
     content.vb: Public FolderType As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.SPictureFolderRecordData.Registered
   id: Registered
@@ -196,22 +174,16 @@ items:
   nameWithType: SPictureFolderRecordData.Registered
   fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nRegistered when in UTC.  \n"
+  summary: Registered when in UTC.
+  example: []
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Registered As Date
 - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.SPictureFolderRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -223,22 +195,16 @@ items:
   nameWithType: SPictureFolderRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nRegistered by whom \n"
+  summary: Registered by whom
+  example: []
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.SPictureFolderRecordData.Updated
   id: Updated
@@ -250,22 +216,16 @@ items:
   nameWithType: SPictureFolderRecordData.Updated
   fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLast updated when in UTC.  \n"
+  summary: Last updated when in UTC.
+  example: []
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Updated As Date
 - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.SPictureFolderRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -277,22 +237,16 @@ items:
   nameWithType: SPictureFolderRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLast updated by whom \n"
+  summary: Last updated by whom
+  example: []
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.SPictureFolderRecordData.UpdatedCount
   id: UpdatedCount
@@ -304,22 +258,16 @@ items:
   nameWithType: SPictureFolderRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nNumber of updates made to this record \n"
+  summary: Number of updates made to this record
+  example: []
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.SPictureFolderRecordData.#ctor
   id: '#ctor'
@@ -331,220 +279,602 @@ items:
   nameWithType: SPictureFolderRecordData.SPictureFolderRecordData()
   fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData.SPictureFolderRecordData()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public SPictureFolderRecordData()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Rows.SPictureFolderRecordData.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SPictureFolderRecordData.New()
+  fullName.vb: SuperOffice.CRM.Rows.SPictureFolderRecordData.New()
+  name.vb: New()
 references:
+- uid: SuperOffice.CRM.Rows.SPictureFolderRow
+  commentId: T:SuperOffice.CRM.Rows.SPictureFolderRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SPictureFolderRow.html
+  name: SPictureFolderRow
+  nameWithType: SPictureFolderRow
+  fullName: SuperOffice.CRM.Rows.SPictureFolderRow
+- uid: SuperOffice.CRM.Data.SPictureFolderTableInfo
+  commentId: T:SuperOffice.CRM.Data.SPictureFolderTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.SPictureFolderTableInfo.html
+  name: SPictureFolderTableInfo
+  nameWithType: SPictureFolderTableInfo
+  fullName: SuperOffice.CRM.Data.SPictureFolderTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SPictureFolderRecordData, To>()
-  nameWithType: EnumUtil.MapEnums<SPictureFolderRecordData, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SPictureFolderRecordData, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SPictureFolderRecordData, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SPictureFolderRecordData, To)()
-  name.vb: MapEnums(Of SPictureFolderRecordData, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SPictureFolderRecordData, To>(SPictureFolderRecordData)
+  nameWithType: EnumUtil.MapEnums<SPictureFolderRecordData, To>(SPictureFolderRecordData)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SPictureFolderRecordData, To>(SuperOffice.CRM.Rows.SPictureFolderRecordData)
+  nameWithType.vb: EnumUtil.MapEnums(Of SPictureFolderRecordData, To)(SPictureFolderRecordData)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SPictureFolderRecordData, To)(SuperOffice.CRM.Rows.SPictureFolderRecordData)
+  name.vb: MapEnums(Of SPictureFolderRecordData, To)(SPictureFolderRecordData)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SPictureFolderRecordData, To>
-    nameWithType: EnumUtil.MapEnums<SPictureFolderRecordData, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SPictureFolderRecordData, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.SPictureFolderRecordData)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SPictureFolderRecordData, To)
-    nameWithType: EnumUtil.MapEnums(Of SPictureFolderRecordData, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SPictureFolderRecordData, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SPictureFolderRecordData)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<SPictureFolderRecordData>(SPictureFolderRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<SPictureFolderRecordData>(SPictureFolderRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SPictureFolderRecordData>(SuperOffice.CRM.Rows.SPictureFolderRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SPictureFolderRecordData)(SPictureFolderRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SPictureFolderRecordData)(SuperOffice.CRM.Rows.SPictureFolderRecordData)
-  name.vb: AssignByReflection(Of SPictureFolderRecordData)(SPictureFolderRecordData)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<SPictureFolderRecordData>
-    nameWithType: ObjectExtensions.AssignByReflection<SPictureFolderRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SPictureFolderRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
     name: SPictureFolderRecordData
-    nameWithType: SPictureFolderRecordData
-    fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of SPictureFolderRecordData)
-    nameWithType: ObjectExtensions.AssignByReflection(Of SPictureFolderRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SPictureFolderRecordData)
-    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
     name: SPictureFolderRecordData
-    nameWithType: SPictureFolderRecordData
-    fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<SPictureFolderRecordData>()
-  nameWithType: ObjectExtensions.GraphCopy<SPictureFolderRecordData>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SPictureFolderRecordData>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SPictureFolderRecordData)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SPictureFolderRecordData)()
-  name.vb: GraphCopy(Of SPictureFolderRecordData)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<SPictureFolderRecordData>
-    nameWithType: ObjectExtensions.GraphCopy<SPictureFolderRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SPictureFolderRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of SPictureFolderRecordData)
-    nameWithType: ObjectExtensions.GraphCopy(Of SPictureFolderRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SPictureFolderRecordData)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.SPictureFolderRecordData)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureFolderRecordData)
+  - name: (
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureFolderRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureFolderRecordData)
-  name: ToInsert()
-  nameWithType: SPictureFolderRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureFolderRecordData,System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.html#SuperOffice_CRM_Rows_SPictureFolderRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_SPictureFolderRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(SPictureFolderRecordData, CancellationToken)
+  nameWithType: SPictureFolderRecordDataExtensions.ToInsertAsync(SPictureFolderRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureFolderRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SPictureFolderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureFolderRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.html#SuperOffice_CRM_Rows_SPictureFolderRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_SPictureFolderRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SPictureFolderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureFolderRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.html#SuperOffice_CRM_Rows_SPictureFolderRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_SPictureFolderRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SPictureFolderRecordData, To>()
-  nameWithType: Converters.MapEnums<SPictureFolderRecordData, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SPictureFolderRecordData, To>()
-  nameWithType.vb: Converters.MapEnums(Of SPictureFolderRecordData, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SPictureFolderRecordData, To)()
-  name.vb: MapEnums(Of SPictureFolderRecordData, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SPictureFolderRecordData, To>(SPictureFolderRecordData)
+  nameWithType: Converters.MapEnums<SPictureFolderRecordData, To>(SPictureFolderRecordData)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SPictureFolderRecordData, To>(SuperOffice.CRM.Rows.SPictureFolderRecordData)
+  nameWithType.vb: Converters.MapEnums(Of SPictureFolderRecordData, To)(SPictureFolderRecordData)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SPictureFolderRecordData, To)(SuperOffice.CRM.Rows.SPictureFolderRecordData)
+  name.vb: MapEnums(Of SPictureFolderRecordData, To)(SPictureFolderRecordData)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SPictureFolderRecordData, To>
-    nameWithType: Converters.MapEnums<SPictureFolderRecordData, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SPictureFolderRecordData, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.SPictureFolderRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SPictureFolderRecordData, To)
-    nameWithType: Converters.MapEnums(Of SPictureFolderRecordData, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SPictureFolderRecordData, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.SPictureFolderRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SPictureFolderRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<SPictureFolderRecordData>(SPictureFolderRecordData, SPictureFolderRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<SPictureFolderRecordData>(SPictureFolderRecordData, SPictureFolderRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SPictureFolderRecordData>(SuperOffice.CRM.Rows.SPictureFolderRecordData, SuperOffice.CRM.Rows.SPictureFolderRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SPictureFolderRecordData)(SPictureFolderRecordData, SPictureFolderRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SPictureFolderRecordData)(SuperOffice.CRM.Rows.SPictureFolderRecordData, SuperOffice.CRM.Rows.SPictureFolderRecordData)
+  name.vb: AssignByReflection(Of SPictureFolderRecordData)(SPictureFolderRecordData, SPictureFolderRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SPictureFolderRecordData,SuperOffice.CRM.Rows.SPictureFolderRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SPictureFolderRecordData,SuperOffice.CRM.Rows.SPictureFolderRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<SPictureFolderRecordData>(SPictureFolderRecordData)
+  nameWithType: ObjectExtensions.GraphCopy<SPictureFolderRecordData>(SPictureFolderRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SPictureFolderRecordData>(SuperOffice.CRM.Rows.SPictureFolderRecordData)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SPictureFolderRecordData)(SPictureFolderRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SPictureFolderRecordData)(SuperOffice.CRM.Rows.SPictureFolderRecordData)
+  name.vb: GraphCopy(Of SPictureFolderRecordData)(SPictureFolderRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.SPictureFolderRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.SPictureFolderRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
+    name: SPictureFolderRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -553,187 +883,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+- uid: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureFolderRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureFolderRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
+  href: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.html#SuperOffice_CRM_Rows_SPictureFolderRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_SPictureFolderRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(SPictureFolderRecordData, CancellationToken)
+  nameWithType: SPictureFolderRecordDataExtensions.ToInsertAsync(SPictureFolderRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureFolderRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureFolderRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.html#SuperOffice_CRM_Rows_SPictureFolderRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_SPictureFolderRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureFolderRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureFolderRecordData)
-  isExternal: true
-  name: ToInsert(SPictureFolderRecordData)
-  nameWithType: SPictureFolderRecordDataExtensions.ToInsert(SPictureFolderRecordData)
-  fullName: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureFolderRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureFolderRecordData)
-    name: ToInsert
-    nameWithType: SPictureFolderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsert
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
     name: SPictureFolderRecordData
-    nameWithType: SPictureFolderRecordData
-    fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureFolderRecordData)
-    name: ToInsert
-    nameWithType: SPictureFolderRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SPictureFolderRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.html#SuperOffice_CRM_Rows_SPictureFolderRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_SPictureFolderRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData
     name: SPictureFolderRecordData
-    nameWithType: SPictureFolderRecordData
-    fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions
   commentId: T:SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions.html
   name: SPictureFolderRecordDataExtensions
   nameWithType: SPictureFolderRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.SPictureFolderRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -742,82 +979,239 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Rows.SPictureFolderRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.SPictureFolderRecordData.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Rows.SPictureFolderRecordData.html#SuperOffice_CRM_Rows_SPictureFolderRecordData__ctor
   name: SPictureFolderRecordData
   nameWithType: SPictureFolderRecordData.SPictureFolderRecordData
   fullName: SuperOffice.CRM.Rows.SPictureFolderRecordData.SPictureFolderRecordData
+  nameWithType.vb: SPictureFolderRecordData.New
+  fullName.vb: SuperOffice.CRM.Rows.SPictureFolderRecordData.New
+  name.vb: New

@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.Data
   children:
   - SuperOffice.Data.ScopedSystemEvent.#ctor(SuperOffice.CRM.Rows.SystemEventRow,System.Boolean)
-  - SuperOffice.Data.ScopedSystemEvent.Dispose
+  - SuperOffice.Data.ScopedSystemEvent.DisposeAsync
   - SuperOffice.Data.ScopedSystemEvent.IsNew
   - SuperOffice.Data.ScopedSystemEvent.OnDispose
   - SuperOffice.Data.ScopedSystemEvent.Row
@@ -17,31 +17,27 @@ items:
   nameWithType: ScopedSystemEvent
   fullName: SuperOffice.Data.ScopedSystemEvent
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: 'public class ScopedSystemEvent : Object, IDisposable'
-    content.vb: >-
-      Public Class ScopedSystemEvent
-          Inherits Object
-          Implements IDisposable
+    content: 'public class ScopedSystemEvent : IAsyncDisposable'
+    content.vb: Public Class ScopedSystemEvent Implements IAsyncDisposable
   inheritance:
   - System.Object
   implements:
-  - System.IDisposable
+  - System.IAsyncDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.ScopedSystemEvent.EnumUtil.MapEnums``2
   - SuperOffice.Data.ScopedSystemEvent.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.Data.ScopedSystemEvent.#ctor(SuperOffice.CRM.Rows.SystemEventRow,System.Boolean)
   commentId: M:SuperOffice.Data.ScopedSystemEvent.#ctor(SuperOffice.CRM.Rows.SystemEventRow,System.Boolean)
   id: '#ctor(SuperOffice.CRM.Rows.SystemEventRow,System.Boolean)'
@@ -49,13 +45,10 @@ items:
   langs:
   - csharp
   - vb
-  name: ScopedSystemEvent(SystemEventRow, Boolean)
-  nameWithType: ScopedSystemEvent.ScopedSystemEvent(SystemEventRow, Boolean)
-  fullName: SuperOffice.Data.ScopedSystemEvent.ScopedSystemEvent(SuperOffice.CRM.Rows.SystemEventRow, System.Boolean)
+  name: ScopedSystemEvent(SystemEventRow, bool)
+  nameWithType: ScopedSystemEvent.ScopedSystemEvent(SystemEventRow, bool)
+  fullName: SuperOffice.Data.ScopedSystemEvent.ScopedSystemEvent(SuperOffice.CRM.Rows.SystemEventRow, bool)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -68,35 +61,29 @@ items:
       type: System.Boolean
     content.vb: Public Sub New(row As SystemEventRow, isNew As Boolean)
   overload: SuperOffice.Data.ScopedSystemEvent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.Data.ScopedSystemEvent.Dispose
-  commentId: M:SuperOffice.Data.ScopedSystemEvent.Dispose
-  id: Dispose
+  nameWithType.vb: ScopedSystemEvent.New(SystemEventRow, Boolean)
+  fullName.vb: SuperOffice.Data.ScopedSystemEvent.New(SuperOffice.CRM.Rows.SystemEventRow, Boolean)
+  name.vb: New(SystemEventRow, Boolean)
+- uid: SuperOffice.Data.ScopedSystemEvent.DisposeAsync
+  commentId: M:SuperOffice.Data.ScopedSystemEvent.DisposeAsync
+  id: DisposeAsync
   parent: SuperOffice.Data.ScopedSystemEvent
   langs:
   - csharp
   - vb
-  name: Dispose()
-  nameWithType: ScopedSystemEvent.Dispose()
-  fullName: SuperOffice.Data.ScopedSystemEvent.Dispose()
+  name: DisposeAsync()
+  nameWithType: ScopedSystemEvent.DisposeAsync()
+  fullName: SuperOffice.Data.ScopedSystemEvent.DisposeAsync()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public void Dispose()
-    content.vb: Public Sub Dispose
-  overload: SuperOffice.Data.ScopedSystemEvent.Dispose*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public ValueTask DisposeAsync()
+    return:
+      type: System.Threading.Tasks.ValueTask
+    content.vb: Public Function DisposeAsync() As ValueTask
+  overload: SuperOffice.Data.ScopedSystemEvent.DisposeAsync*
 - uid: SuperOffice.Data.ScopedSystemEvent.Row
   commentId: P:SuperOffice.Data.ScopedSystemEvent.Row
   id: Row
@@ -108,9 +95,6 @@ items:
   nameWithType: ScopedSystemEvent.Row
   fullName: SuperOffice.Data.ScopedSystemEvent.Row
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -121,12 +105,6 @@ items:
       type: SuperOffice.CRM.Rows.SystemEventRow
     content.vb: Public ReadOnly Property Row As SystemEventRow
   overload: SuperOffice.Data.ScopedSystemEvent.Row*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Data.ScopedSystemEvent.IsNew
   commentId: P:SuperOffice.Data.ScopedSystemEvent.IsNew
   id: IsNew
@@ -138,13 +116,14 @@ items:
   nameWithType: ScopedSystemEvent.IsNew
   fullName: SuperOffice.Data.ScopedSystemEvent.IsNew
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nTrue if this is a new system event record.\nFalse indicates that the event already existed\n"
+  summary: >-
+    True if this is a new system event record.
+
+    False indicates that the event already existed
+  example: []
   syntax:
     content: public bool IsNew { get; }
     parameters: []
@@ -152,12 +131,6 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsNew As Boolean
   overload: SuperOffice.Data.ScopedSystemEvent.IsNew*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Data.ScopedSystemEvent.OnDispose
   commentId: P:SuperOffice.Data.ScopedSystemEvent.OnDispose
   id: OnDispose
@@ -169,13 +142,11 @@ items:
   nameWithType: ScopedSystemEvent.OnDispose
   fullName: SuperOffice.Data.ScopedSystemEvent.OnDispose
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nDo something extra on dispose. The event row is deleted before this call.\n"
+  summary: Do something extra on dispose. The event row is deleted before this call.
+  example: []
   syntax:
     content: public Action OnDispose { get; set; }
     parameters: []
@@ -183,108 +154,386 @@ items:
       type: System.Action
     content.vb: Public Property OnDispose As Action
   overload: SuperOffice.Data.ScopedSystemEvent.OnDispose*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IAsyncDisposable
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  name: IAsyncDisposable
+  nameWithType: IAsyncDisposable
+  fullName: System.IAsyncDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.ScopedSystemEvent.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ScopedSystemEvent, To>()
-  nameWithType: EnumUtil.MapEnums<ScopedSystemEvent, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.ScopedSystemEvent, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ScopedSystemEvent, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ScopedSystemEvent, To)()
-  name.vb: MapEnums(Of ScopedSystemEvent, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ScopedSystemEvent, To>(ScopedSystemEvent)
+  nameWithType: EnumUtil.MapEnums<ScopedSystemEvent, To>(ScopedSystemEvent)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ScopedSystemEvent, To>(SuperOffice.Data.ScopedSystemEvent)
+  nameWithType.vb: EnumUtil.MapEnums(Of ScopedSystemEvent, To)(ScopedSystemEvent)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ScopedSystemEvent, To)(SuperOffice.Data.ScopedSystemEvent)
+  name.vb: MapEnums(Of ScopedSystemEvent, To)(ScopedSystemEvent)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ScopedSystemEvent, To>
-    nameWithType: EnumUtil.MapEnums<ScopedSystemEvent, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.ScopedSystemEvent, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ScopedSystemEvent)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.ScopedSystemEvent
+    name: ScopedSystemEvent
+    isExternal: true
+    href: SuperOffice.Data.ScopedSystemEvent.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.ScopedSystemEvent
+    name: ScopedSystemEvent
+    isExternal: true
+    href: SuperOffice.Data.ScopedSystemEvent.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ScopedSystemEvent, To)
-    nameWithType: EnumUtil.MapEnums(Of ScopedSystemEvent, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ScopedSystemEvent, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ScopedSystemEvent)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ScopedSystemEvent
+    name: ScopedSystemEvent
+    isExternal: true
+    href: SuperOffice.Data.ScopedSystemEvent.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.ScopedSystemEvent
+    name: ScopedSystemEvent
+    isExternal: true
+    href: SuperOffice.Data.ScopedSystemEvent.html
+  - name: )
 - uid: SuperOffice.Data.ScopedSystemEvent.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ScopedSystemEvent, To>()
-  nameWithType: Converters.MapEnums<ScopedSystemEvent, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ScopedSystemEvent, To>()
-  nameWithType.vb: Converters.MapEnums(Of ScopedSystemEvent, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ScopedSystemEvent, To)()
-  name.vb: MapEnums(Of ScopedSystemEvent, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ScopedSystemEvent, To>(ScopedSystemEvent)
+  nameWithType: Converters.MapEnums<ScopedSystemEvent, To>(ScopedSystemEvent)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ScopedSystemEvent, To>(SuperOffice.Data.ScopedSystemEvent)
+  nameWithType.vb: Converters.MapEnums(Of ScopedSystemEvent, To)(ScopedSystemEvent)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ScopedSystemEvent, To)(SuperOffice.Data.ScopedSystemEvent)
+  name.vb: MapEnums(Of ScopedSystemEvent, To)(ScopedSystemEvent)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ScopedSystemEvent, To>
-    nameWithType: Converters.MapEnums<ScopedSystemEvent, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ScopedSystemEvent, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ScopedSystemEvent)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.ScopedSystemEvent
+    name: ScopedSystemEvent
+    isExternal: true
+    href: SuperOffice.Data.ScopedSystemEvent.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.ScopedSystemEvent
+    name: ScopedSystemEvent
+    isExternal: true
+    href: SuperOffice.Data.ScopedSystemEvent.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ScopedSystemEvent, To)
-    nameWithType: Converters.MapEnums(Of ScopedSystemEvent, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ScopedSystemEvent, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ScopedSystemEvent)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ScopedSystemEvent
+    name: ScopedSystemEvent
+    isExternal: true
+    href: SuperOffice.Data.ScopedSystemEvent.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.ScopedSystemEvent
+    name: ScopedSystemEvent
+    isExternal: true
+    href: SuperOffice.Data.ScopedSystemEvent.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -293,43 +542,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -338,57 +589,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Data.ScopedSystemEvent.#ctor*
   commentId: Overload:SuperOffice.Data.ScopedSystemEvent.#ctor
   isExternal: true
+  href: SuperOffice.Data.ScopedSystemEvent.html#SuperOffice_Data_ScopedSystemEvent__ctor_SuperOffice_CRM_Rows_SystemEventRow_System_Boolean_
   name: ScopedSystemEvent
   nameWithType: ScopedSystemEvent.ScopedSystemEvent
   fullName: SuperOffice.Data.ScopedSystemEvent.ScopedSystemEvent
+  nameWithType.vb: ScopedSystemEvent.New
+  fullName.vb: SuperOffice.Data.ScopedSystemEvent.New
+  name.vb: New
 - uid: SuperOffice.CRM.Rows.SystemEventRow
   commentId: T:SuperOffice.CRM.Rows.SystemEventRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.SystemEventRow.html
   name: SystemEventRow
   nameWithType: SystemEventRow
   fullName: SuperOffice.CRM.Rows.SystemEventRow
@@ -396,41 +684,128 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-- uid: SuperOffice.Data.ScopedSystemEvent.Dispose*
-  commentId: Overload:SuperOffice.Data.ScopedSystemEvent.Dispose
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: SuperOffice.Data.ScopedSystemEvent.DisposeAsync*
+  commentId: Overload:SuperOffice.Data.ScopedSystemEvent.DisposeAsync
   isExternal: true
-  name: Dispose
-  nameWithType: ScopedSystemEvent.Dispose
-  fullName: SuperOffice.Data.ScopedSystemEvent.Dispose
+  href: SuperOffice.Data.ScopedSystemEvent.html#SuperOffice_Data_ScopedSystemEvent_DisposeAsync
+  name: DisposeAsync
+  nameWithType: ScopedSystemEvent.DisposeAsync
+  fullName: SuperOffice.Data.ScopedSystemEvent.DisposeAsync
+- uid: System.Threading.Tasks.ValueTask
+  commentId: T:System.Threading.Tasks.ValueTask
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask
+  name: ValueTask
+  nameWithType: ValueTask
+  fullName: System.Threading.Tasks.ValueTask
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.Data.ScopedSystemEvent.Row*
   commentId: Overload:SuperOffice.Data.ScopedSystemEvent.Row
   isExternal: true
+  href: SuperOffice.Data.ScopedSystemEvent.html#SuperOffice_Data_ScopedSystemEvent_Row
   name: Row
   nameWithType: ScopedSystemEvent.Row
   fullName: SuperOffice.Data.ScopedSystemEvent.Row
 - uid: SuperOffice.Data.ScopedSystemEvent.IsNew*
   commentId: Overload:SuperOffice.Data.ScopedSystemEvent.IsNew
   isExternal: true
+  href: SuperOffice.Data.ScopedSystemEvent.html#SuperOffice_Data_ScopedSystemEvent_IsNew
   name: IsNew
   nameWithType: ScopedSystemEvent.IsNew
   fullName: SuperOffice.Data.ScopedSystemEvent.IsNew
 - uid: SuperOffice.Data.ScopedSystemEvent.OnDispose*
   commentId: Overload:SuperOffice.Data.ScopedSystemEvent.OnDispose
   isExternal: true
+  href: SuperOffice.Data.ScopedSystemEvent.html#SuperOffice_Data_ScopedSystemEvent_OnDispose
   name: OnDispose
   nameWithType: ScopedSystemEvent.OnDispose
   fullName: SuperOffice.Data.ScopedSystemEvent.OnDispose
 - uid: System.Action
+  commentId: T:System.Action
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
   name: Action
   nameWithType: Action
   fullName: System.Action

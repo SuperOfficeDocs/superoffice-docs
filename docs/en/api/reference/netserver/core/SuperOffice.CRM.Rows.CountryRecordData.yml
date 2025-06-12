@@ -43,33 +43,41 @@ items:
   nameWithType: CountryRecordData
   fullName: SuperOffice.CRM.Rows.CountryRecordData
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the country table.\n"
-  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.CountryRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.CountryTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  summary: >-
+    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
+
+    to a row from the country table.
+  remarks: >-
+    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.CountryRow" data-throw-if-not-resolved="false"></xref> object when
+
+    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
+
+    since they carry the corresponding <xref href="SuperOffice.CRM.Data.CountryTableInfo" data-throw-if-not-resolved="false"></xref> object, which
+
+    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
+  example: []
   syntax:
-    content: 'public class CountryRecordData : Object'
-    content.vb: >-
-      Public Class CountryRecordData
-          Inherits Object
+    content: public class CountryRecordData
+    content.vb: Public Class CountryRecordData
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.CountryRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CountryRecordData)
   - SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Rows.CountryRecordData.CountryId
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.CountryId
   id: CountryId
@@ -81,22 +89,16 @@ items:
   nameWithType: CountryRecordData.CountryId
   fullName: SuperOffice.CRM.Rows.CountryRecordData.CountryId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
     content: public int CountryId
     return:
       type: System.Int32
     content.vb: Public CountryId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.Name
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.Name
   id: Name
@@ -108,22 +110,16 @@ items:
   nameWithType: CountryRecordData.Name
   fullName: SuperOffice.CRM.Rows.CountryRecordData.Name
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nName of country in installed language \n"
+  summary: Name of country in installed language
+  example: []
   syntax:
     content: public string Name
     return:
       type: System.String
     content.vb: Public Name As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.Rank
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.Rank
   id: Rank
@@ -135,22 +131,16 @@ items:
   nameWithType: CountryRecordData.Rank
   fullName: SuperOffice.CRM.Rows.CountryRecordData.Rank
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nRank order  \n"
+  summary: Rank order
+  example: []
   syntax:
     content: public short Rank
     return:
       type: System.Int16
     content.vb: Public Rank As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.Tooltip
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.Tooltip
   id: Tooltip
@@ -162,22 +152,16 @@ items:
   nameWithType: CountryRecordData.Tooltip
   fullName: SuperOffice.CRM.Rows.CountryRecordData.Tooltip
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nTooltip or other description \n"
+  summary: Tooltip or other description
+  example: []
   syntax:
     content: public string Tooltip
     return:
       type: System.String
     content.vb: Public Tooltip As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.Deleted
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.Deleted
   id: Deleted
@@ -189,22 +173,16 @@ items:
   nameWithType: CountryRecordData.Deleted
   fullName: SuperOffice.CRM.Rows.CountryRecordData.Deleted
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists \n"
+  summary: 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists
+  example: []
   syntax:
     content: public short Deleted
     return:
       type: System.Int16
     content.vb: Public Deleted As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.EnglishName
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.EnglishName
   id: EnglishName
@@ -216,22 +194,16 @@ items:
   nameWithType: CountryRecordData.EnglishName
   fullName: SuperOffice.CRM.Rows.CountryRecordData.EnglishName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nName of country in english \n"
+  summary: Name of country in english
+  example: []
   syntax:
     content: public string EnglishName
     return:
       type: System.String
     content.vb: Public EnglishName As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.ZipPrefix
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.ZipPrefix
   id: ZipPrefix
@@ -243,22 +215,16 @@ items:
   nameWithType: CountryRecordData.ZipPrefix
   fullName: SuperOffice.CRM.Rows.CountryRecordData.ZipPrefix
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nN- DK- etc. \n"
+  summary: N- DK- etc.
+  example: []
   syntax:
     content: public string ZipPrefix
     return:
       type: System.String
     content.vb: Public ZipPrefix As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.FlagresId
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.FlagresId
   id: FlagresId
@@ -270,22 +236,16 @@ items:
   nameWithType: CountryRecordData.FlagresId
   fullName: SuperOffice.CRM.Rows.CountryRecordData.FlagresId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nResource ID of flag graphic \n"
+  summary: Resource ID of flag graphic
+  example: []
   syntax:
     content: public uint FlagresId
     return:
       type: System.UInt32
     content.vb: Public FlagresId As UInteger
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.AddressLayout
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.AddressLayout
   id: AddressLayout
@@ -297,22 +257,16 @@ items:
   nameWithType: CountryRecordData.AddressLayout
   fullName: SuperOffice.CRM.Rows.CountryRecordData.AddressLayout
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPoints to address format used in the GUI \n"
+  summary: Points to address format used in the GUI
+  example: []
   syntax:
     content: public int AddressLayout
     return:
       type: System.Int32
     content.vb: Public AddressLayout As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.AddressLayoutDomestic
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.AddressLayoutDomestic
   id: AddressLayoutDomestic
@@ -324,22 +278,16 @@ items:
   nameWithType: CountryRecordData.AddressLayoutDomestic
   fullName: SuperOffice.CRM.Rows.CountryRecordData.AddressLayoutDomestic
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPoints to address format used for labels to own country \n"
+  summary: Points to address format used for labels to own country
+  example: []
   syntax:
     content: public int AddressLayoutDomestic
     return:
       type: System.Int32
     content.vb: Public AddressLayoutDomestic As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.AddressLayoutForeign
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.AddressLayoutForeign
   id: AddressLayoutForeign
@@ -351,22 +299,16 @@ items:
   nameWithType: CountryRecordData.AddressLayoutForeign
   fullName: SuperOffice.CRM.Rows.CountryRecordData.AddressLayoutForeign
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPoints to address format used for labels to other countries than own country \n"
+  summary: Points to address format used for labels to other countries than own country
+  example: []
   syntax:
     content: public int AddressLayoutForeign
     return:
       type: System.Int32
     content.vb: Public AddressLayoutForeign As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.CurrencyId
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.CurrencyId
   id: CurrencyId
@@ -378,22 +320,16 @@ items:
   nameWithType: CountryRecordData.CurrencyId
   fullName: SuperOffice.CRM.Rows.CountryRecordData.CurrencyId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nDefault currency for this country \n"
+  summary: Default currency for this country
+  example: []
   syntax:
     content: public int CurrencyId
     return:
       type: System.Int32
     content.vb: Public CurrencyId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.OrgNrText
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.OrgNrText
   id: OrgNrText
@@ -405,22 +341,16 @@ items:
   nameWithType: CountryRecordData.OrgNrText
   fullName: SuperOffice.CRM.Rows.CountryRecordData.OrgNrText
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLead text for organisation field \n"
+  summary: Lead text for organisation field
+  example: []
   syntax:
     content: public string OrgNrText
     return:
       type: System.String
     content.vb: Public OrgNrText As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.DomainName
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.DomainName
   id: DomainName
@@ -432,22 +362,16 @@ items:
   nameWithType: CountryRecordData.DomainName
   fullName: SuperOffice.CRM.Rows.CountryRecordData.DomainName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nDefault Web domain identifier (.no, .uk, etc; but without the dot) \n"
+  summary: Default Web domain identifier (.no, .uk, etc; but without the dot)
+  example: []
   syntax:
     content: public string DomainName
     return:
       type: System.String
     content.vb: Public DomainName As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.Registered
   id: Registered
@@ -459,22 +383,16 @@ items:
   nameWithType: CountryRecordData.Registered
   fullName: SuperOffice.CRM.Rows.CountryRecordData.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nRegistered when in UTC.  \n"
+  summary: Registered when in UTC.
+  example: []
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Registered As Date
 - uid: SuperOffice.CRM.Rows.CountryRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -486,22 +404,16 @@ items:
   nameWithType: CountryRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.CountryRecordData.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nRegistered by whom \n"
+  summary: Registered by whom
+  example: []
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.Updated
   id: Updated
@@ -513,22 +425,16 @@ items:
   nameWithType: CountryRecordData.Updated
   fullName: SuperOffice.CRM.Rows.CountryRecordData.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLast updated when in UTC.  \n"
+  summary: Last updated when in UTC.
+  example: []
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Updated As Date
 - uid: SuperOffice.CRM.Rows.CountryRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -540,22 +446,16 @@ items:
   nameWithType: CountryRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.CountryRecordData.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLast updated by whom \n"
+  summary: Last updated by whom
+  example: []
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.UpdatedCount
   id: UpdatedCount
@@ -567,22 +467,16 @@ items:
   nameWithType: CountryRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.CountryRecordData.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nNumber of updates made to this record \n"
+  summary: Number of updates made to this record
+  example: []
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.DefaultLcid
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.DefaultLcid
   id: DefaultLcid
@@ -594,22 +488,16 @@ items:
   nameWithType: CountryRecordData.DefaultLcid
   fullName: SuperOffice.CRM.Rows.CountryRecordData.DefaultLcid
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLCID code in .NET, this should be the defaultLcid of the language that has the isDefault flag set in the LanguageInforCountry link table \n"
+  summary: LCID code in .NET, this should be the defaultLcid of the language that has the isDefault flag set in the LanguageInforCountry link table
+  example: []
   syntax:
     content: public uint DefaultLcid
     return:
       type: System.UInt32
     content.vb: Public DefaultLcid As UInteger
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.DialInPrefix
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.DialInPrefix
   id: DialInPrefix
@@ -621,22 +509,16 @@ items:
   nameWithType: CountryRecordData.DialInPrefix
   fullName: SuperOffice.CRM.Rows.CountryRecordData.DialInPrefix
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPrefix for dialing into the country from outside (country code) \n"
+  summary: Prefix for dialing into the country from outside (country code)
+  example: []
   syntax:
     content: public string DialInPrefix
     return:
       type: System.String
     content.vb: Public DialInPrefix As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.DialOutPrefix
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.DialOutPrefix
   id: DialOutPrefix
@@ -648,22 +530,16 @@ items:
   nameWithType: CountryRecordData.DialOutPrefix
   fullName: SuperOffice.CRM.Rows.CountryRecordData.DialOutPrefix
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPrefix for dialling out of the country, voice call \n"
+  summary: Prefix for dialling out of the country, voice call
+  example: []
   syntax:
     content: public string DialOutPrefix
     return:
       type: System.String
     content.vb: Public DialOutPrefix As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.InterAreaPrefix
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.InterAreaPrefix
   id: InterAreaPrefix
@@ -675,22 +551,16 @@ items:
   nameWithType: CountryRecordData.InterAreaPrefix
   fullName: SuperOffice.CRM.Rows.CountryRecordData.InterAreaPrefix
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPrefix for inter-area dialling in the country \n"
+  summary: Prefix for inter-area dialling in the country
+  example: []
   syntax:
     content: public string InterAreaPrefix
     return:
       type: System.String
     content.vb: Public InterAreaPrefix As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.CustomPhoneDesc
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.CustomPhoneDesc
   id: CustomPhoneDesc
@@ -702,22 +572,16 @@ items:
   nameWithType: CountryRecordData.CustomPhoneDesc
   fullName: SuperOffice.CRM.Rows.CountryRecordData.CustomPhoneDesc
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nCustom phone description, if any (comes from ISO/ITU documents) \n"
+  summary: Custom phone description, if any (comes from ISO/ITU documents)
+  example: []
   syntax:
     content: public string CustomPhoneDesc
     return:
       type: System.String
     content.vb: Public CustomPhoneDesc As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.PhonePartOfNA
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.PhonePartOfNA
   id: PhonePartOfNA
@@ -729,22 +593,16 @@ items:
   nameWithType: CountryRecordData.PhonePartOfNA
   fullName: SuperOffice.CRM.Rows.CountryRecordData.PhonePartOfNA
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nIs the phone system part of the North American system \n"
+  summary: Is the phone system part of the North American system
+  example: []
   syntax:
     content: public short PhonePartOfNA
     return:
       type: System.Int16
     content.vb: Public PhonePartOfNA As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.IsBuiltIn
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.IsBuiltIn
   id: IsBuiltIn
@@ -756,22 +614,16 @@ items:
   nameWithType: CountryRecordData.IsBuiltIn
   fullName: SuperOffice.CRM.Rows.CountryRecordData.IsBuiltIn
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nIs this record populated by SuperOffice priming data? \n"
+  summary: Is this record populated by SuperOffice priming data?
+  example: []
   syntax:
     content: public short IsBuiltIn
     return:
       type: System.Int16
     content.vb: Public IsBuiltIn As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.IsoNumber
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.IsoNumber
   id: IsoNumber
@@ -783,22 +635,16 @@ items:
   nameWithType: CountryRecordData.IsoNumber
   fullName: SuperOffice.CRM.Rows.CountryRecordData.IsoNumber
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe primary key used by ISO to identify countries when they have a revolution and change their name from Upper Volta to Burkina Faso :-) \n"
+  summary: The primary key used by ISO to identify countries when they have a revolution and change their name from Upper Volta to Burkina Faso :-)
+  example: []
   syntax:
     content: public uint IsoNumber
     return:
       type: System.UInt32
     content.vb: Public IsoNumber As UInteger
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.Abbrev3
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.Abbrev3
   id: Abbrev3
@@ -810,22 +656,16 @@ items:
   nameWithType: CountryRecordData.Abbrev3
   fullName: SuperOffice.CRM.Rows.CountryRecordData.Abbrev3
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nISO 3-letter abbreviation \n"
+  summary: ISO 3-letter abbreviation
+  example: []
   syntax:
     content: public string Abbrev3
     return:
       type: System.String
     content.vb: Public Abbrev3 As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.Abbrev2
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.Abbrev2
   id: Abbrev2
@@ -837,22 +677,16 @@ items:
   nameWithType: CountryRecordData.Abbrev2
   fullName: SuperOffice.CRM.Rows.CountryRecordData.Abbrev2
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nISO 2-letter abbreviation \n"
+  summary: ISO 2-letter abbreviation
+  example: []
   syntax:
     content: public string Abbrev2
     return:
       type: System.String
     content.vb: Public Abbrev2 As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.TzLocationId
   commentId: F:SuperOffice.CRM.Rows.CountryRecordData.TzLocationId
   id: TzLocationId
@@ -864,22 +698,16 @@ items:
   nameWithType: CountryRecordData.TzLocationId
   fullName: SuperOffice.CRM.Rows.CountryRecordData.TzLocationId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nDefault timezone location for this country \n"
+  summary: Default timezone location for this country
+  example: []
   syntax:
     content: public int TzLocationId
     return:
       type: System.Int32
     content.vb: Public TzLocationId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.CountryRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.CountryRecordData.#ctor
   id: '#ctor'
@@ -891,220 +719,602 @@ items:
   nameWithType: CountryRecordData.CountryRecordData()
   fullName: SuperOffice.CRM.Rows.CountryRecordData.CountryRecordData()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public CountryRecordData()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Rows.CountryRecordData.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: CountryRecordData.New()
+  fullName.vb: SuperOffice.CRM.Rows.CountryRecordData.New()
+  name.vb: New()
 references:
+- uid: SuperOffice.CRM.Rows.CountryRow
+  commentId: T:SuperOffice.CRM.Rows.CountryRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CountryRow.html
+  name: CountryRow
+  nameWithType: CountryRow
+  fullName: SuperOffice.CRM.Rows.CountryRow
+- uid: SuperOffice.CRM.Data.CountryTableInfo
+  commentId: T:SuperOffice.CRM.Data.CountryTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.CountryTableInfo.html
+  name: CountryTableInfo
+  nameWithType: CountryTableInfo
+  fullName: SuperOffice.CRM.Data.CountryTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Rows.CountryRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<CountryRecordData, To>()
-  nameWithType: EnumUtil.MapEnums<CountryRecordData, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.CountryRecordData, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of CountryRecordData, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.CountryRecordData, To)()
-  name.vb: MapEnums(Of CountryRecordData, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<CountryRecordData, To>(CountryRecordData)
+  nameWithType: EnumUtil.MapEnums<CountryRecordData, To>(CountryRecordData)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.CountryRecordData, To>(SuperOffice.CRM.Rows.CountryRecordData)
+  nameWithType.vb: EnumUtil.MapEnums(Of CountryRecordData, To)(CountryRecordData)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.CountryRecordData, To)(SuperOffice.CRM.Rows.CountryRecordData)
+  name.vb: MapEnums(Of CountryRecordData, To)(CountryRecordData)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<CountryRecordData, To>
-    nameWithType: EnumUtil.MapEnums<CountryRecordData, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.CountryRecordData, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.CountryRecordData)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of CountryRecordData, To)
-    nameWithType: EnumUtil.MapEnums(Of CountryRecordData, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.CountryRecordData, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CountryRecordData)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<CountryRecordData>(CountryRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<CountryRecordData>(CountryRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.CountryRecordData>(SuperOffice.CRM.Rows.CountryRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CountryRecordData)(CountryRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.CountryRecordData)(SuperOffice.CRM.Rows.CountryRecordData)
-  name.vb: AssignByReflection(Of CountryRecordData)(CountryRecordData)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<CountryRecordData>
-    nameWithType: ObjectExtensions.AssignByReflection<CountryRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.CountryRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Rows.CountryRecordData
     name: CountryRecordData
-    nameWithType: CountryRecordData
-    fullName: SuperOffice.CRM.Rows.CountryRecordData
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of CountryRecordData)
-    nameWithType: ObjectExtensions.AssignByReflection(Of CountryRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.CountryRecordData)
-    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.CountryRecordData
     name: CountryRecordData
-    nameWithType: CountryRecordData
-    fullName: SuperOffice.CRM.Rows.CountryRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<CountryRecordData>()
-  nameWithType: ObjectExtensions.GraphCopy<CountryRecordData>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.CountryRecordData>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of CountryRecordData)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.CountryRecordData)()
-  name.vb: GraphCopy(Of CountryRecordData)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<CountryRecordData>
-    nameWithType: ObjectExtensions.GraphCopy<CountryRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.CountryRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of CountryRecordData)
-    nameWithType: ObjectExtensions.GraphCopy(Of CountryRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.CountryRecordData)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.CountryRecordData)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CountryRecordData)
+  - name: (
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CountryRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.CountryRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CountryRecordData)
-  name: ToInsert()
-  nameWithType: CountryRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CountryRecordData,System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Rows.CountryRecordDataExtensions.html#SuperOffice_CRM_Rows_CountryRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_CountryRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(CountryRecordData, CancellationToken)
+  nameWithType: CountryRecordDataExtensions.ToInsertAsync(CountryRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CountryRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: CountryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CountryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordDataExtensions.html#SuperOffice_CRM_Rows_CountryRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_CountryRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: CountryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CountryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordDataExtensions.html#SuperOffice_CRM_Rows_CountryRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_CountryRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<CountryRecordData, To>()
-  nameWithType: Converters.MapEnums<CountryRecordData, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.CountryRecordData, To>()
-  nameWithType.vb: Converters.MapEnums(Of CountryRecordData, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.CountryRecordData, To)()
-  name.vb: MapEnums(Of CountryRecordData, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<CountryRecordData, To>(CountryRecordData)
+  nameWithType: Converters.MapEnums<CountryRecordData, To>(CountryRecordData)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.CountryRecordData, To>(SuperOffice.CRM.Rows.CountryRecordData)
+  nameWithType.vb: Converters.MapEnums(Of CountryRecordData, To)(CountryRecordData)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.CountryRecordData, To)(SuperOffice.CRM.Rows.CountryRecordData)
+  name.vb: MapEnums(Of CountryRecordData, To)(CountryRecordData)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<CountryRecordData, To>
-    nameWithType: Converters.MapEnums<CountryRecordData, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.CountryRecordData, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.CountryRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of CountryRecordData, To)
-    nameWithType: Converters.MapEnums(Of CountryRecordData, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.CountryRecordData, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.CountryRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CountryRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<CountryRecordData>(CountryRecordData, CountryRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<CountryRecordData>(CountryRecordData, CountryRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.CountryRecordData>(SuperOffice.CRM.Rows.CountryRecordData, SuperOffice.CRM.Rows.CountryRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CountryRecordData)(CountryRecordData, CountryRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.CountryRecordData)(SuperOffice.CRM.Rows.CountryRecordData, SuperOffice.CRM.Rows.CountryRecordData)
+  name.vb: AssignByReflection(Of CountryRecordData)(CountryRecordData, CountryRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CountryRecordData,SuperOffice.CRM.Rows.CountryRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CountryRecordData,SuperOffice.CRM.Rows.CountryRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<CountryRecordData>(CountryRecordData)
+  nameWithType: ObjectExtensions.GraphCopy<CountryRecordData>(CountryRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.CountryRecordData>(SuperOffice.CRM.Rows.CountryRecordData)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CountryRecordData)(CountryRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.CountryRecordData)(SuperOffice.CRM.Rows.CountryRecordData)
+  name.vb: GraphCopy(Of CountryRecordData)(CountryRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.CountryRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.CountryRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1113,187 +1323,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+- uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CountryRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CountryRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
+  href: SuperOffice.CRM.Rows.CountryRecordDataExtensions.html#SuperOffice_CRM_Rows_CountryRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_CountryRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(CountryRecordData, CancellationToken)
+  nameWithType: CountryRecordDataExtensions.ToInsertAsync(CountryRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CountryRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+  - uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CountryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordDataExtensions.html#SuperOffice_CRM_Rows_CountryRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_CountryRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CountryRecordData)
-  commentId: M:SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CountryRecordData)
-  isExternal: true
-  name: ToInsert(CountryRecordData)
-  nameWithType: CountryRecordDataExtensions.ToInsert(CountryRecordData)
-  fullName: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CountryRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CountryRecordData)
-    name: ToInsert
-    nameWithType: CountryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.CountryRecordData
     name: CountryRecordData
-    nameWithType: CountryRecordData
-    fullName: SuperOffice.CRM.Rows.CountryRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CountryRecordData)
-    name: ToInsert
-    nameWithType: CountryRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.CountryRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordDataExtensions.html#SuperOffice_CRM_Rows_CountryRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_CountryRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.CountryRecordData
     name: CountryRecordData
-    nameWithType: CountryRecordData
-    fullName: SuperOffice.CRM.Rows.CountryRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.CountryRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions
   commentId: T:SuperOffice.CRM.Rows.CountryRecordDataExtensions
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.CountryRecordDataExtensions.html
   name: CountryRecordDataExtensions
   nameWithType: CountryRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.CountryRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1302,89 +1419,250 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: System.UInt32
   commentId: T:System.UInt32
   parent: System
   isExternal: true
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Rows.CountryRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.CountryRecordData.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Rows.CountryRecordData.html#SuperOffice_CRM_Rows_CountryRecordData__ctor
   name: CountryRecordData
   nameWithType: CountryRecordData.CountryRecordData
   fullName: SuperOffice.CRM.Rows.CountryRecordData.CountryRecordData
+  nameWithType.vb: CountryRecordData.New
+  fullName.vb: SuperOffice.CRM.Rows.CountryRecordData.New
+  name.vb: New

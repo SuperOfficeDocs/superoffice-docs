@@ -19,11 +19,11 @@ items:
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_MsFilter_NewPriority
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Person_TicketPriorityId
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_SLink_TicketPriority
+  - SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketAlert_Priority
+  - SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
+  - SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_OrigPriority
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_Priority
-  - SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketAlert_Priority
-  - SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
-  - SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStart
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStop
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.Name
@@ -54,14 +54,21 @@ items:
   nameWithType: TicketPriorityTableInfo
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTable &apos;ticket_priority&apos;: This table contains the ticket priorities.\n"
-  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetTicketPriorityInfo()\"></see>.\n"
+  summary: "Table 'ticket_priority': This table contains the ticket priorities."
+  remarks: >-
+    An instance of this class represents one instance of this table in an SQL statement. In most
+
+    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
+
+    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
+
+    then you will need multiple instances. <br />
+
+    Instances of this class are created by calling TablesInfo.GetTicketPriorityInfo().
+  example: []
   syntax:
     content: >-
       [DatabaseTable("ticket_priority")]
@@ -70,9 +77,7 @@ items:
     content.vb: >-
       <DatabaseTable("ticket_priority")>
 
-      Public Class TicketPriorityTableInfo
-          Inherits TableInfo
-          Implements ICloneable
+      Public Class TicketPriorityTableInfo Inherits TableInfo Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.TableInfo
@@ -93,6 +98,12 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -102,12 +113,6 @@ items:
     arguments:
     - type: System.String
       value: ticket_priority
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.DictionaryTableName
   commentId: F:SuperOffice.CRM.Data.TicketPriorityTableInfo.DictionaryTableName
   id: DictionaryTableName
@@ -119,24 +124,16 @@ items:
   nameWithType: TicketPriorityTableInfo.DictionaryTableName
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.DictionaryTableName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nConceptual name of table TicketPriority in the database dictionary: ticket_priority\n"
+  summary: 'Conceptual name of table TicketPriority in the database dictionary: ticket_priority'
+  example: []
   syntax:
     content: public const string DictionaryTableName = "ticket_priority"
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "ticket_priority"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -148,13 +145,14 @@ items:
   nameWithType: TicketPriorityTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.DictionaryTableNumber
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTable number for table TicketPriority in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  summary: >-
+    Table number for table TicketPriority in the database dictionary; potentially changes between databases, but
+
+    always the same over the lifetime of any single database
+  example: []
   syntax:
     content: public int DictionaryTableNumber { get; }
     parameters: []
@@ -162,12 +160,6 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.DictionaryTableNumber*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.RuntimeDefinition
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.RuntimeDefinition
   id: RuntimeDefinition
@@ -179,28 +171,32 @@ items:
   nameWithType: TicketPriorityTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.RuntimeDefinition
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
   syntax:
-    content: public static SoTable RuntimeDefinition { get; }
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.RuntimeDefinition*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.Definition
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.Definition
   id: Definition
@@ -212,13 +208,11 @@ items:
   nameWithType: TicketPriorityTableInfo.Definition
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.Definition
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
   syntax:
     content: public override SoTable Definition { get; }
     parameters: []
@@ -227,14 +221,6 @@ items:
     content.vb: Public Overrides ReadOnly Property Definition As SoTable
   overridden: SuperOffice.Data.SQL.TableInfo.Definition
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.Definition*
-  modifiers.csharp:
-  - public
-  - override
-  - get
-  modifiers.vb:
-  - Public
-  - Overrides
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketPriorityId
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketPriorityId
   id: TicketPriorityId
@@ -246,13 +232,14 @@ items:
   nameWithType: TicketPriorityTableInfo.TicketPriorityId
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketPriorityId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;id&apos; in table &apos;ticket_priority&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe primary key (auto-incremented)\n"
+  summary: >-
+    Field 'id' in table 'ticket_priority': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The primary key (auto-incremented)
+  example: []
   syntax:
     content: public Int32FieldInfo TicketPriorityId { get; }
     parameters: []
@@ -260,12 +247,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property TicketPriorityId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketPriorityId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.Name
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.Name
   id: Name
@@ -277,13 +258,14 @@ items:
   nameWithType: TicketPriorityTableInfo.Name
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.Name
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;name&apos; in table &apos;ticket_priority&apos;: Dictionary type String[65], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe name of the priority.\n"
+  summary: >-
+    Field 'name' in table 'ticket_priority': Dictionary type String[65], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The name of the priority.
+  example: []
   syntax:
     content: public StringFieldInfo Name { get; }
     parameters: []
@@ -291,12 +273,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Name As StringFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.Name*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.Status
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.Status
   id: Status
@@ -308,13 +284,14 @@ items:
   nameWithType: TicketPriorityTableInfo.Status
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.Status
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;status&apos; in table &apos;ticket_priority&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.TicketPriorityStatus\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe status (normal/deleted) of the priority.\n"
+  summary: >-
+    Field 'status' in table 'ticket_priority': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.TicketPriorityStatus" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The status (normal/deleted) of the priority.
+  example: []
   syntax:
     content: public TicketPriorityStatusFieldInfo Status { get; }
     parameters: []
@@ -322,12 +299,6 @@ items:
       type: SuperOffice.Data.SQL.TicketPriorityStatusFieldInfo
     content.vb: Public ReadOnly Property Status As TicketPriorityStatusFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.Status*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.Flags
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.Flags
   id: Flags
@@ -339,13 +310,14 @@ items:
   nameWithType: TicketPriorityTableInfo.Flags
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.Flags
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;flags&apos; in table &apos;ticket_priority&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.TicketPriorityFlags\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nA bitmask of flags.\n"
+  summary: >-
+    Field 'flags' in table 'ticket_priority': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.TicketPriorityFlags" data-throw-if-not-resolved="false"></xref><p></p>
+
+    A bitmask of flags.
+  example: []
   syntax:
     content: public TicketPriorityFlagsFieldInfo Flags { get; }
     parameters: []
@@ -353,12 +325,6 @@ items:
       type: SuperOffice.Data.SQL.TicketPriorityFlagsFieldInfo
     content.vb: Public ReadOnly Property Flags As TicketPriorityFlagsFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.Flags*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStart
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStart
   id: MonStart
@@ -370,13 +336,14 @@ items:
   nameWithType: TicketPriorityTableInfo.MonStart
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStart
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;mon_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour start for Mondays. Note that only the time part of the DateTime is used\n"
+  summary: >-
+    Field 'mon_start' in table 'ticket_priority': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The work hour start for Mondays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
     content: public DateTimeFieldInfo MonStart { get; }
     parameters: []
@@ -384,12 +351,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property MonStart As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStart*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStop
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStop
   id: MonStop
@@ -401,13 +362,14 @@ items:
   nameWithType: TicketPriorityTableInfo.MonStop
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStop
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;mon_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour start for Mondays. Note that only the time part of the DateTime is used\n"
+  summary: >-
+    Field 'mon_stop' in table 'ticket_priority': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The work hour start for Mondays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
     content: public DateTimeFieldInfo MonStop { get; }
     parameters: []
@@ -415,12 +377,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property MonStop As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStop*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.TueStart
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.TueStart
   id: TueStart
@@ -432,13 +388,14 @@ items:
   nameWithType: TicketPriorityTableInfo.TueStart
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.TueStart
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;tue_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour start for Tuesdays. Note that only the time part of the DateTime is used\n"
+  summary: >-
+    Field 'tue_start' in table 'ticket_priority': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The work hour start for Tuesdays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
     content: public DateTimeFieldInfo TueStart { get; }
     parameters: []
@@ -446,12 +403,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property TueStart As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.TueStart*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.TueStop
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.TueStop
   id: TueStop
@@ -463,13 +414,14 @@ items:
   nameWithType: TicketPriorityTableInfo.TueStop
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.TueStop
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;tue_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour stop for Tuesdays. Note that only the time part of the DateTime is used\n"
+  summary: >-
+    Field 'tue_stop' in table 'ticket_priority': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The work hour stop for Tuesdays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
     content: public DateTimeFieldInfo TueStop { get; }
     parameters: []
@@ -477,12 +429,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property TueStop As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.TueStop*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.WedStart
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.WedStart
   id: WedStart
@@ -494,13 +440,14 @@ items:
   nameWithType: TicketPriorityTableInfo.WedStart
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.WedStart
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;wed_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour start for Wednesdays. Note that only the time part of the DateTime is used\n"
+  summary: >-
+    Field 'wed_start' in table 'ticket_priority': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The work hour start for Wednesdays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
     content: public DateTimeFieldInfo WedStart { get; }
     parameters: []
@@ -508,12 +455,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property WedStart As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.WedStart*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.WedStop
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.WedStop
   id: WedStop
@@ -525,13 +466,14 @@ items:
   nameWithType: TicketPriorityTableInfo.WedStop
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.WedStop
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;wed_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour stop for Wednesdays. Note that only the time part of the DateTime is used\n"
+  summary: >-
+    Field 'wed_stop' in table 'ticket_priority': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The work hour stop for Wednesdays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
     content: public DateTimeFieldInfo WedStop { get; }
     parameters: []
@@ -539,12 +481,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property WedStop As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.WedStop*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.ThuStart
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.ThuStart
   id: ThuStart
@@ -556,13 +492,14 @@ items:
   nameWithType: TicketPriorityTableInfo.ThuStart
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.ThuStart
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;thu_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour start for Thursdays. Note that only the time part of the DateTime is used\n"
+  summary: >-
+    Field 'thu_start' in table 'ticket_priority': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The work hour start for Thursdays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
     content: public DateTimeFieldInfo ThuStart { get; }
     parameters: []
@@ -570,12 +507,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property ThuStart As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.ThuStart*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.ThuStop
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.ThuStop
   id: ThuStop
@@ -587,13 +518,14 @@ items:
   nameWithType: TicketPriorityTableInfo.ThuStop
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.ThuStop
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;thu_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour stop for Thursdays. Note that only the time part of the DateTime is used\n"
+  summary: >-
+    Field 'thu_stop' in table 'ticket_priority': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The work hour stop for Thursdays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
     content: public DateTimeFieldInfo ThuStop { get; }
     parameters: []
@@ -601,12 +533,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property ThuStop As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.ThuStop*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.FriStart
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.FriStart
   id: FriStart
@@ -618,13 +544,14 @@ items:
   nameWithType: TicketPriorityTableInfo.FriStart
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.FriStart
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;fri_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour start for Fridays. Note that only the time part of the DateTime is used\n"
+  summary: >-
+    Field 'fri_start' in table 'ticket_priority': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The work hour start for Fridays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
     content: public DateTimeFieldInfo FriStart { get; }
     parameters: []
@@ -632,12 +559,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property FriStart As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.FriStart*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.FriStop
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.FriStop
   id: FriStop
@@ -649,13 +570,14 @@ items:
   nameWithType: TicketPriorityTableInfo.FriStop
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.FriStop
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;fri_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour stop for Fridays. Note that only the time part of the DateTime is used\n"
+  summary: >-
+    Field 'fri_stop' in table 'ticket_priority': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The work hour stop for Fridays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
     content: public DateTimeFieldInfo FriStop { get; }
     parameters: []
@@ -663,12 +585,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property FriStop As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.FriStop*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.SatStart
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.SatStart
   id: SatStart
@@ -680,13 +596,14 @@ items:
   nameWithType: TicketPriorityTableInfo.SatStart
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.SatStart
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;sat_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour start for Saturdays. Note that only the time part of the DateTime is used\n"
+  summary: >-
+    Field 'sat_start' in table 'ticket_priority': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The work hour start for Saturdays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
     content: public DateTimeFieldInfo SatStart { get; }
     parameters: []
@@ -694,12 +611,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property SatStart As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.SatStart*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.SatStop
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.SatStop
   id: SatStop
@@ -711,13 +622,14 @@ items:
   nameWithType: TicketPriorityTableInfo.SatStop
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.SatStop
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;sat_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour stop for Saturdays. Note that only the time part of the DateTime is used\n"
+  summary: >-
+    Field 'sat_stop' in table 'ticket_priority': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The work hour stop for Saturdays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
     content: public DateTimeFieldInfo SatStop { get; }
     parameters: []
@@ -725,12 +637,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property SatStop As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.SatStop*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.SunStart
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.SunStart
   id: SunStart
@@ -742,13 +648,14 @@ items:
   nameWithType: TicketPriorityTableInfo.SunStart
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.SunStart
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;sun_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour start for Sundays. Note that only the time part of the DateTime is used\n"
+  summary: >-
+    Field 'sun_start' in table 'ticket_priority': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The work hour start for Sundays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
     content: public DateTimeFieldInfo SunStart { get; }
     parameters: []
@@ -756,12 +663,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property SunStart As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.SunStart*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.SunStop
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.SunStop
   id: SunStop
@@ -773,13 +674,14 @@ items:
   nameWithType: TicketPriorityTableInfo.SunStop
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.SunStop
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;sun_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour stop for Sundays. Note that only the time part of the DateTime is used\n"
+  summary: >-
+    Field 'sun_stop' in table 'ticket_priority': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The work hour stop for Sundays. Note that only the time part of the DateTime is used
+  example: []
   syntax:
     content: public DateTimeFieldInfo SunStop { get; }
     parameters: []
@@ -787,12 +689,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property SunStop As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.SunStop*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.NonDates
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.NonDates
   id: NonDates
@@ -804,13 +700,14 @@ items:
   nameWithType: TicketPriorityTableInfo.NonDates
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.NonDates
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;non_dates&apos; in table &apos;ticket_priority&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nA comma separated list of dates (dd/mm) which should be excluded from the timeframe.\n"
+  summary: >-
+    Field 'non_dates' in table 'ticket_priority': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    A comma separated list of dates (dd/mm) which should be excluded from the timeframe.
+  example: []
   syntax:
     content: public StringFieldInfo NonDates { get; }
     parameters: []
@@ -818,12 +715,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property NonDates As StringFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.NonDates*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.Deadline
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.Deadline
   id: Deadline
@@ -835,13 +726,14 @@ items:
   nameWithType: TicketPriorityTableInfo.Deadline
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.Deadline
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;deadline&apos; in table &apos;ticket_priority&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDeadline to add if escalated (minutes)\n"
+  summary: >-
+    Field 'deadline' in table 'ticket_priority': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Deadline to add if escalated (minutes)
+  example: []
   syntax:
     content: public Int32FieldInfo Deadline { get; }
     parameters: []
@@ -849,12 +741,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Deadline As Int32FieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.Deadline*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.SortOrder
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.SortOrder
   id: SortOrder
@@ -866,13 +752,14 @@ items:
   nameWithType: TicketPriorityTableInfo.SortOrder
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.SortOrder
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;sort_order&apos; in table &apos;ticket_priority&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIndicates the sort order for this priority. 1 is first, 100 is last\n"
+  summary: >-
+    Field 'sort_order' in table 'ticket_priority': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Indicates the sort order for this priority. 1 is first, 100 is last
+  example: []
   syntax:
     content: public Int32FieldInfo SortOrder { get; }
     parameters: []
@@ -880,12 +767,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property SortOrder As Int32FieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.SortOrder*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketRead
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketRead
   id: TicketRead
@@ -897,13 +778,14 @@ items:
   nameWithType: TicketPriorityTableInfo.TicketRead
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketRead
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;ticket_read&apos; in table &apos;ticket_priority&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThis field indicates what to do with the escalation chain when the request is read\n"
+  summary: >-
+    Field 'ticket_read' in table 'ticket_priority': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.TicketPriorityEscalateEvent" data-throw-if-not-resolved="false"></xref><p></p>
+
+    This field indicates what to do with the escalation chain when the request is read
+  example: []
   syntax:
     content: public TicketPriorityEscalateEventFieldInfo TicketRead { get; }
     parameters: []
@@ -911,12 +793,6 @@ items:
       type: SuperOffice.Data.SQL.TicketPriorityEscalateEventFieldInfo
     content.vb: Public ReadOnly Property TicketRead As TicketPriorityEscalateEventFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketRead*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.ChangedOwner
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.ChangedOwner
   id: ChangedOwner
@@ -928,13 +804,14 @@ items:
   nameWithType: TicketPriorityTableInfo.ChangedOwner
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.ChangedOwner
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;changed_owner&apos; in table &apos;ticket_priority&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThis field indicates what to do with the escalation chain when the request changes owner (manually)\n"
+  summary: >-
+    Field 'changed_owner' in table 'ticket_priority': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.TicketPriorityEscalateEvent" data-throw-if-not-resolved="false"></xref><p></p>
+
+    This field indicates what to do with the escalation chain when the request changes owner (manually)
+  example: []
   syntax:
     content: public TicketPriorityEscalateEventFieldInfo ChangedOwner { get; }
     parameters: []
@@ -942,12 +819,6 @@ items:
       type: SuperOffice.Data.SQL.TicketPriorityEscalateEventFieldInfo
     content.vb: Public ReadOnly Property ChangedOwner As TicketPriorityEscalateEventFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.ChangedOwner*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketNewinfo
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketNewinfo
   id: TicketNewinfo
@@ -959,13 +830,14 @@ items:
   nameWithType: TicketPriorityTableInfo.TicketNewinfo
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketNewinfo
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;ticket_newinfo&apos; in table &apos;ticket_priority&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThis field indicates what to do with the escalation chain when the request gets new info\n"
+  summary: >-
+    Field 'ticket_newinfo' in table 'ticket_priority': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.TicketPriorityEscalateEvent" data-throw-if-not-resolved="false"></xref><p></p>
+
+    This field indicates what to do with the escalation chain when the request gets new info
+  example: []
   syntax:
     content: public TicketPriorityEscalateEventFieldInfo TicketNewinfo { get; }
     parameters: []
@@ -973,12 +845,6 @@ items:
       type: SuperOffice.Data.SQL.TicketPriorityEscalateEventFieldInfo
     content.vb: Public ReadOnly Property TicketNewinfo As TicketPriorityEscalateEventFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketNewinfo*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketClosed
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketClosed
   id: TicketClosed
@@ -990,13 +856,14 @@ items:
   nameWithType: TicketPriorityTableInfo.TicketClosed
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketClosed
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;ticket_closed&apos; in table &apos;ticket_priority&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThis field indicates what to do with the escalation chain when the request is closed\n"
+  summary: >-
+    Field 'ticket_closed' in table 'ticket_priority': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.TicketPriorityEscalateEvent" data-throw-if-not-resolved="false"></xref><p></p>
+
+    This field indicates what to do with the escalation chain when the request is closed
+  example: []
   syntax:
     content: public TicketPriorityEscalateEventFieldInfo TicketClosed { get; }
     parameters: []
@@ -1004,12 +871,6 @@ items:
       type: SuperOffice.Data.SQL.TicketPriorityEscalateEventFieldInfo
     content.vb: Public ReadOnly Property TicketClosed As TicketPriorityEscalateEventFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketClosed*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketChangedPriority
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketChangedPriority
   id: TicketChangedPriority
@@ -1021,13 +882,14 @@ items:
   nameWithType: TicketPriorityTableInfo.TicketChangedPriority
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketChangedPriority
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;ticket_changed_priority&apos; in table &apos;ticket_priority&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThis field indicates what to do with the escalation chain when the request is changed into this priority\n"
+  summary: >-
+    Field 'ticket_changed_priority' in table 'ticket_priority': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.TicketPriorityEscalateEvent" data-throw-if-not-resolved="false"></xref><p></p>
+
+    This field indicates what to do with the escalation chain when the request is changed into this priority
+  example: []
   syntax:
     content: public TicketPriorityEscalateEventFieldInfo TicketChangedPriority { get; }
     parameters: []
@@ -1035,12 +897,6 @@ items:
       type: SuperOffice.Data.SQL.TicketPriorityEscalateEventFieldInfo
     content.vb: Public ReadOnly Property TicketChangedPriority As TicketPriorityEscalateEventFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketChangedPriority*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketNew
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketNew
   id: TicketNew
@@ -1052,13 +908,14 @@ items:
   nameWithType: TicketPriorityTableInfo.TicketNew
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketNew
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;ticket_new&apos; in table &apos;ticket_priority&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThis field indicates what to do with the escalation chain when a new request is registered\n"
+  summary: >-
+    Field 'ticket_new' in table 'ticket_priority': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.TicketPriorityEscalateEvent" data-throw-if-not-resolved="false"></xref><p></p>
+
+    This field indicates what to do with the escalation chain when a new request is registered
+  example: []
   syntax:
     content: public TicketPriorityEscalateEventFieldInfo TicketNew { get; }
     parameters: []
@@ -1066,12 +923,6 @@ items:
       type: SuperOffice.Data.SQL.TicketPriorityEscalateEventFieldInfo
     content.vb: Public ReadOnly Property TicketNew As TicketPriorityEscalateEventFieldInfo
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketNew*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Contact_TicketPriorityId
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Contact_TicketPriorityId
   id: LeftOuterJoin_Contact_TicketPriorityId
@@ -1083,13 +934,11 @@ items:
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_Contact_TicketPriorityId
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Contact_TicketPriorityId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key TicketPriorityId on this table, to Contact.<xref href=\"SuperOffice.CRM.Data.ContactTableInfo.TicketPriorityId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key TicketPriorityId on this table, to Contact.<xref href="SuperOffice.CRM.Data.ContactTableInfo.TicketPriorityId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<ContactTableInfo> LeftOuterJoin_Contact_TicketPriorityId { get; }
     parameters: []
@@ -1097,12 +946,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ContactTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Contact_TicketPriorityId As TargetedLeftOuterJoin(Of ContactTableInfo)
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Contact_TicketPriorityId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Person_TicketPriorityId
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Person_TicketPriorityId
   id: LeftOuterJoin_Person_TicketPriorityId
@@ -1114,13 +957,11 @@ items:
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_Person_TicketPriorityId
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Person_TicketPriorityId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key TicketPriorityId on this table, to Person.<xref href=\"SuperOffice.CRM.Data.PersonTableInfo.TicketPriorityId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key TicketPriorityId on this table, to Person.<xref href="SuperOffice.CRM.Data.PersonTableInfo.TicketPriorityId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<PersonTableInfo> LeftOuterJoin_Person_TicketPriorityId { get; }
     parameters: []
@@ -1128,12 +969,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PersonTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Person_TicketPriorityId As TargetedLeftOuterJoin(Of PersonTableInfo)
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Person_TicketPriorityId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_Priority
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_Priority
   id: LeftOuterJoin_Ticket_Priority
@@ -1145,13 +980,11 @@ items:
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_Ticket_Priority
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_Priority
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key TicketPriorityId on this table, to Ticket.<xref href=\"SuperOffice.CRM.Data.TicketTableInfo.Priority\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key TicketPriorityId on this table, to Ticket.<xref href="SuperOffice.CRM.Data.TicketTableInfo.Priority" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<TicketTableInfo> LeftOuterJoin_Ticket_Priority { get; }
     parameters: []
@@ -1159,12 +992,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Ticket_Priority As TargetedLeftOuterJoin(Of TicketTableInfo)
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_Priority*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_OrigPriority
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_OrigPriority
   id: LeftOuterJoin_Ticket_OrigPriority
@@ -1176,13 +1003,11 @@ items:
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_Ticket_OrigPriority
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_OrigPriority
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key TicketPriorityId on this table, to Ticket.<xref href=\"SuperOffice.CRM.Data.TicketTableInfo.OrigPriority\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key TicketPriorityId on this table, to Ticket.<xref href="SuperOffice.CRM.Data.TicketTableInfo.OrigPriority" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<TicketTableInfo> LeftOuterJoin_Ticket_OrigPriority { get; }
     parameters: []
@@ -1190,12 +1015,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Ticket_OrigPriority As TargetedLeftOuterJoin(Of TicketTableInfo)
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_OrigPriority*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_MailInFilter_Priority
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_MailInFilter_Priority
   id: LeftOuterJoin_MailInFilter_Priority
@@ -1207,13 +1026,11 @@ items:
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_MailInFilter_Priority
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_MailInFilter_Priority
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key TicketPriorityId on this table, to MailInFilter.<xref href=\"SuperOffice.CRM.Data.MailInFilterTableInfo.Priority\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key TicketPriorityId on this table, to MailInFilter.<xref href="SuperOffice.CRM.Data.MailInFilterTableInfo.Priority" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<MailInFilterTableInfo> LeftOuterJoin_MailInFilter_Priority { get; }
     parameters: []
@@ -1221,12 +1038,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.MailInFilterTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_MailInFilter_Priority As TargetedLeftOuterJoin(Of MailInFilterTableInfo)
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_MailInFilter_Priority*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketAlert_Priority
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketAlert_Priority
   id: LeftOuterJoin_TicketAlert_Priority
@@ -1238,13 +1049,11 @@ items:
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_TicketAlert_Priority
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketAlert_Priority
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key TicketPriorityId on this table, to TicketAlert.<xref href=\"SuperOffice.CRM.Data.TicketAlertTableInfo.Priority\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key TicketPriorityId on this table, to TicketAlert.<xref href="SuperOffice.CRM.Data.TicketAlertTableInfo.Priority" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<TicketAlertTableInfo> LeftOuterJoin_TicketAlert_Priority { get; }
     parameters: []
@@ -1252,12 +1061,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketAlertTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_TicketAlert_Priority As TargetedLeftOuterJoin(Of TicketAlertTableInfo)
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketAlert_Priority*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_MsFilter_NewPriority
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_MsFilter_NewPriority
   id: LeftOuterJoin_MsFilter_NewPriority
@@ -1269,13 +1072,11 @@ items:
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_MsFilter_NewPriority
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_MsFilter_NewPriority
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key TicketPriorityId on this table, to MsFilter.<xref href=\"SuperOffice.CRM.Data.MsFilterTableInfo.NewPriority\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key TicketPriorityId on this table, to MsFilter.<xref href="SuperOffice.CRM.Data.MsFilterTableInfo.NewPriority" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<MsFilterTableInfo> LeftOuterJoin_MsFilter_NewPriority { get; }
     parameters: []
@@ -1283,12 +1084,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.MsFilterTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_MsFilter_NewPriority As TargetedLeftOuterJoin(Of MsFilterTableInfo)
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_MsFilter_NewPriority*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_ChatTopic_PriorityId
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_ChatTopic_PriorityId
   id: LeftOuterJoin_ChatTopic_PriorityId
@@ -1300,13 +1095,11 @@ items:
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_ChatTopic_PriorityId
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_ChatTopic_PriorityId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key TicketPriorityId on this table, to ChatTopic.<xref href=\"SuperOffice.CRM.Data.ChatTopicTableInfo.PriorityId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key TicketPriorityId on this table, to ChatTopic.<xref href="SuperOffice.CRM.Data.ChatTopicTableInfo.PriorityId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<ChatTopicTableInfo> LeftOuterJoin_ChatTopic_PriorityId { get; }
     parameters: []
@@ -1314,12 +1107,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatTopicTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_ChatTopic_PriorityId As TargetedLeftOuterJoin(Of ChatTopicTableInfo)
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_ChatTopic_PriorityId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_SLink_TicketPriority
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_SLink_TicketPriority
   id: LeftOuterJoin_SLink_TicketPriority
@@ -1331,13 +1118,11 @@ items:
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_SLink_TicketPriority
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_SLink_TicketPriority
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key TicketPriorityId on this table, to SLink.<xref href=\"SuperOffice.CRM.Data.SLinkTableInfo.TicketPriority\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key TicketPriorityId on this table, to SLink.<xref href="SuperOffice.CRM.Data.SLinkTableInfo.TicketPriority" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<SLinkTableInfo> LeftOuterJoin_SLink_TicketPriority { get; }
     parameters: []
@@ -1345,12 +1130,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SLinkTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_SLink_TicketPriority As TargetedLeftOuterJoin(Of SLinkTableInfo)
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_SLink_TicketPriority*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
   id: LeftOuterJoin_TicketType_DefaultPriority
@@ -1362,13 +1141,11 @@ items:
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key TicketPriorityId on this table, to TicketType.<xref href=\"SuperOffice.CRM.Data.TicketTypeTableInfo.DefaultPriority\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key TicketPriorityId on this table, to TicketType.<xref href="SuperOffice.CRM.Data.TicketTypeTableInfo.DefaultPriority" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<TicketTypeTableInfo> LeftOuterJoin_TicketType_DefaultPriority { get; }
     parameters: []
@@ -1376,12 +1153,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypeTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_TicketType_DefaultPriority As TargetedLeftOuterJoin(Of TicketTypeTableInfo)
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
   commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
   id: LeftOuterJoin_TicketTypePriority_TicketPriorityId
@@ -1393,13 +1164,11 @@ items:
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key TicketPriorityId on this table, to TicketTypePriority.<xref href=\"SuperOffice.CRM.Data.TicketTypePriorityTableInfo.TicketPriorityId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key TicketPriorityId on this table, to TicketTypePriority.<xref href="SuperOffice.CRM.Data.TicketTypePriorityTableInfo.TicketPriorityId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<TicketTypePriorityTableInfo> LeftOuterJoin_TicketTypePriority_TicketPriorityId { get; }
     parameters: []
@@ -1407,35 +1176,68 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypePriorityTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_TicketTypePriority_TicketPriorityId As TargetedLeftOuterJoin(Of TicketTypePriorityTableInfo)
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -1443,241 +1245,185 @@ references:
   commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   name: ToString()
   nameWithType: TableInfo.ToString()
   fullName: SuperOffice.Data.SQL.TableInfo.ToString()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
-    nameWithType: TableInfo.ToString
-    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
-    nameWithType: TableInfo.ToString
-    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: RegisterFields(FieldInfo[])
-  nameWithType: TableInfo.RegisterFields(FieldInfo[])
-  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
-  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
-  name.vb: RegisterFields(FieldInfo())
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  name: RegisterFields(params FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(ParamArray FieldInfo())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
-    nameWithType: TableInfo.RegisterFields
-    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: params
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: '['
+  - name: ']'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
-    nameWithType: TableInfo.RegisterFields
-    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: ParamArray
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   name: FieldInfoFromSoField(SoField)
   nameWithType: TableInfo.FieldInfoFromSoField(SoField)
   fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
-    nameWithType: TableInfo.FieldInfoFromSoField
-    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
-    nameWithType: SoField
-    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
-    nameWithType: TableInfo.FieldInfoFromSoField
-    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
-    nameWithType: SoField
-    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.Clone
   commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   name: Clone()
   nameWithType: TableInfo.Clone()
   fullName: SuperOffice.Data.SQL.TableInfo.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
-    nameWithType: TableInfo.Clone
-    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
-    nameWithType: TableInfo.Clone
-    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   name: IsSameTable(TableInfo)
   nameWithType: TableInfo.IsSameTable(TableInfo)
   fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
-    nameWithType: TableInfo.IsSameTable
-    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
-    nameWithType: TableInfo.IsSameTable
-    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: FindField(String)
-  nameWithType: TableInfo.FindField(String)
-  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  name: FindField(string)
+  nameWithType: TableInfo.FindField(string)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
+  nameWithType.vb: TableInfo.FindField(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
+  name.vb: FindField(String)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
-    nameWithType: TableInfo.FindField
-    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
-    nameWithType: TableInfo.FindField
-    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.ProtAll
   commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
@@ -1685,6 +1431,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
   name: HashCheckFields
   nameWithType: TableInfo.HashCheckFields
   fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
@@ -1692,6 +1439,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
   name: TableName
   nameWithType: TableInfo.TableName
   fullName: SuperOffice.Data.SQL.TableInfo.TableName
@@ -1699,6 +1447,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
@@ -1706,6 +1455,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
   name: IsDictionaryTable
   nameWithType: TableInfo.IsDictionaryTable
   fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
@@ -1713,6 +1463,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
   name: All
   nameWithType: TableInfo.All
   fullName: SuperOffice.Data.SQL.TableInfo.All
@@ -1720,136 +1471,389 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: Item[String]
-  nameWithType: TableInfo.Item[String]
-  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
-  nameWithType.vb: TableInfo.Item(String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-  name.vb: Item(String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string]
+  nameWithType: TableInfo.this[string]
+  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
+  nameWithType.vb: TableInfo.this[](String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
+  name.vb: this[](String)
   spec.csharp:
-  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: Item
-    nameWithType: TableInfo.Item
-    fullName: SuperOffice.Data.SQL.TableInfo.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: Item
-    nameWithType: TableInfo.Item
-    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    name: this[]
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<TicketPriorityTableInfo, To>()
-  nameWithType: EnumUtil.MapEnums<TicketPriorityTableInfo, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.TicketPriorityTableInfo, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of TicketPriorityTableInfo, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.TicketPriorityTableInfo, To)()
-  name.vb: MapEnums(Of TicketPriorityTableInfo, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<TicketPriorityTableInfo, To>(TicketPriorityTableInfo)
+  nameWithType: EnumUtil.MapEnums<TicketPriorityTableInfo, To>(TicketPriorityTableInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.TicketPriorityTableInfo, To>(SuperOffice.CRM.Data.TicketPriorityTableInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketPriorityTableInfo, To)(TicketPriorityTableInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.TicketPriorityTableInfo, To)(SuperOffice.CRM.Data.TicketPriorityTableInfo)
+  name.vb: MapEnums(Of TicketPriorityTableInfo, To)(TicketPriorityTableInfo)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<TicketPriorityTableInfo, To>
-    nameWithType: EnumUtil.MapEnums<TicketPriorityTableInfo, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.TicketPriorityTableInfo, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.TicketPriorityTableInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo
+    name: TicketPriorityTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo
+    name: TicketPriorityTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of TicketPriorityTableInfo, To)
-    nameWithType: EnumUtil.MapEnums(Of TicketPriorityTableInfo, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.TicketPriorityTableInfo, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.TicketPriorityTableInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo
+    name: TicketPriorityTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo
+    name: TicketPriorityTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<TicketPriorityTableInfo, To>()
-  nameWithType: Converters.MapEnums<TicketPriorityTableInfo, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.TicketPriorityTableInfo, To>()
-  nameWithType.vb: Converters.MapEnums(Of TicketPriorityTableInfo, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.TicketPriorityTableInfo, To)()
-  name.vb: MapEnums(Of TicketPriorityTableInfo, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<TicketPriorityTableInfo, To>(TicketPriorityTableInfo)
+  nameWithType: Converters.MapEnums<TicketPriorityTableInfo, To>(TicketPriorityTableInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.TicketPriorityTableInfo, To>(SuperOffice.CRM.Data.TicketPriorityTableInfo)
+  nameWithType.vb: Converters.MapEnums(Of TicketPriorityTableInfo, To)(TicketPriorityTableInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.TicketPriorityTableInfo, To)(SuperOffice.CRM.Data.TicketPriorityTableInfo)
+  name.vb: MapEnums(Of TicketPriorityTableInfo, To)(TicketPriorityTableInfo)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<TicketPriorityTableInfo, To>
-    nameWithType: Converters.MapEnums<TicketPriorityTableInfo, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.TicketPriorityTableInfo, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.TicketPriorityTableInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo
+    name: TicketPriorityTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo
+    name: TicketPriorityTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of TicketPriorityTableInfo, To)
-    nameWithType: Converters.MapEnums(Of TicketPriorityTableInfo, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.TicketPriorityTableInfo, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.TicketPriorityTableInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo
+    name: TicketPriorityTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo
+    name: TicketPriorityTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1858,43 +1862,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1903,57 +1909,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.DictionaryTableNumber
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_DictionaryTableNumber
   name: DictionaryTableNumber
   nameWithType: TicketPriorityTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.DictionaryTableNumber
@@ -1961,12 +2004,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.RuntimeDefinition
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_RuntimeDefinition
   name: RuntimeDefinition
   nameWithType: TicketPriorityTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.RuntimeDefinition
@@ -1974,31 +2022,66 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
 - uid: SuperOffice.Data.SQL.TableInfo.Definition
   commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
   name: Definition
   nameWithType: TableInfo.Definition
   fullName: SuperOffice.Data.SQL.TableInfo.Definition
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.Definition*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.Definition
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_Definition
   name: Definition
   nameWithType: TicketPriorityTableInfo.Definition
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.Definition
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketPriorityId*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketPriorityId
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_TicketPriorityId
   name: TicketPriorityId
   nameWithType: TicketPriorityTableInfo.TicketPriorityId
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketPriorityId
@@ -2006,12 +2089,14 @@ references:
   commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.Int32FieldInfo.html
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.Name*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.Name
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_Name
   name: Name
   nameWithType: TicketPriorityTableInfo.Name
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.Name
@@ -2019,12 +2104,22 @@ references:
   commentId: T:SuperOffice.Data.SQL.StringFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.StringFieldInfo.html
   name: StringFieldInfo
   nameWithType: StringFieldInfo
   fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.Data.TicketPriorityStatus
+  commentId: T:SuperOffice.Data.TicketPriorityStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TicketPriorityStatus.html
+  name: TicketPriorityStatus
+  nameWithType: TicketPriorityStatus
+  fullName: SuperOffice.Data.TicketPriorityStatus
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.Status*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.Status
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_Status
   name: Status
   nameWithType: TicketPriorityTableInfo.Status
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.Status
@@ -2032,12 +2127,49 @@ references:
   commentId: T:SuperOffice.Data.SQL.TicketPriorityStatusFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TicketPriorityStatusFieldInfo.html
   name: TicketPriorityStatusFieldInfo
   nameWithType: TicketPriorityStatusFieldInfo
   fullName: SuperOffice.Data.SQL.TicketPriorityStatusFieldInfo
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.Data.TicketPriorityFlags
+  commentId: T:SuperOffice.Data.TicketPriorityFlags
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TicketPriorityFlags.html
+  name: TicketPriorityFlags
+  nameWithType: TicketPriorityFlags
+  fullName: SuperOffice.Data.TicketPriorityFlags
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.Flags*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.Flags
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_Flags
   name: Flags
   nameWithType: TicketPriorityTableInfo.Flags
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.Flags
@@ -2045,12 +2177,25 @@ references:
   commentId: T:SuperOffice.Data.SQL.TicketPriorityFlagsFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TicketPriorityFlagsFieldInfo.html
   name: TicketPriorityFlagsFieldInfo
   nameWithType: TicketPriorityFlagsFieldInfo
   fullName: SuperOffice.Data.SQL.TicketPriorityFlagsFieldInfo
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStart*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStart
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_MonStart
   name: MonStart
   nameWithType: TicketPriorityTableInfo.MonStart
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStart
@@ -2058,108 +2203,134 @@ references:
   commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
   name: DateTimeFieldInfo
   nameWithType: DateTimeFieldInfo
   fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStop*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStop
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_MonStop
   name: MonStop
   nameWithType: TicketPriorityTableInfo.MonStop
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStop
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.TueStart*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.TueStart
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_TueStart
   name: TueStart
   nameWithType: TicketPriorityTableInfo.TueStart
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.TueStart
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.TueStop*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.TueStop
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_TueStop
   name: TueStop
   nameWithType: TicketPriorityTableInfo.TueStop
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.TueStop
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.WedStart*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.WedStart
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_WedStart
   name: WedStart
   nameWithType: TicketPriorityTableInfo.WedStart
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.WedStart
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.WedStop*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.WedStop
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_WedStop
   name: WedStop
   nameWithType: TicketPriorityTableInfo.WedStop
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.WedStop
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.ThuStart*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.ThuStart
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_ThuStart
   name: ThuStart
   nameWithType: TicketPriorityTableInfo.ThuStart
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.ThuStart
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.ThuStop*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.ThuStop
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_ThuStop
   name: ThuStop
   nameWithType: TicketPriorityTableInfo.ThuStop
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.ThuStop
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.FriStart*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.FriStart
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_FriStart
   name: FriStart
   nameWithType: TicketPriorityTableInfo.FriStart
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.FriStart
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.FriStop*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.FriStop
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_FriStop
   name: FriStop
   nameWithType: TicketPriorityTableInfo.FriStop
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.FriStop
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.SatStart*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.SatStart
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_SatStart
   name: SatStart
   nameWithType: TicketPriorityTableInfo.SatStart
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.SatStart
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.SatStop*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.SatStop
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_SatStop
   name: SatStop
   nameWithType: TicketPriorityTableInfo.SatStop
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.SatStop
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.SunStart*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.SunStart
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_SunStart
   name: SunStart
   nameWithType: TicketPriorityTableInfo.SunStart
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.SunStart
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.SunStop*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.SunStop
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_SunStop
   name: SunStop
   nameWithType: TicketPriorityTableInfo.SunStop
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.SunStop
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.NonDates*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.NonDates
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_NonDates
   name: NonDates
   nameWithType: TicketPriorityTableInfo.NonDates
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.NonDates
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.Deadline*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.Deadline
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_Deadline
   name: Deadline
   nameWithType: TicketPriorityTableInfo.Deadline
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.Deadline
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.SortOrder*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.SortOrder
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_SortOrder
   name: SortOrder
   nameWithType: TicketPriorityTableInfo.SortOrder
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.SortOrder
+- uid: SuperOffice.Data.TicketPriorityEscalateEvent
+  commentId: T:SuperOffice.Data.TicketPriorityEscalateEvent
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TicketPriorityEscalateEvent.html
+  name: TicketPriorityEscalateEvent
+  nameWithType: TicketPriorityEscalateEvent
+  fullName: SuperOffice.Data.TicketPriorityEscalateEvent
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketRead*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketRead
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_TicketRead
   name: TicketRead
   nameWithType: TicketPriorityTableInfo.TicketRead
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketRead
@@ -2167,42 +2338,56 @@ references:
   commentId: T:SuperOffice.Data.SQL.TicketPriorityEscalateEventFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TicketPriorityEscalateEventFieldInfo.html
   name: TicketPriorityEscalateEventFieldInfo
   nameWithType: TicketPriorityEscalateEventFieldInfo
   fullName: SuperOffice.Data.SQL.TicketPriorityEscalateEventFieldInfo
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.ChangedOwner*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.ChangedOwner
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_ChangedOwner
   name: ChangedOwner
   nameWithType: TicketPriorityTableInfo.ChangedOwner
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.ChangedOwner
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketNewinfo*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketNewinfo
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_TicketNewinfo
   name: TicketNewinfo
   nameWithType: TicketPriorityTableInfo.TicketNewinfo
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketNewinfo
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketClosed*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketClosed
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_TicketClosed
   name: TicketClosed
   nameWithType: TicketPriorityTableInfo.TicketClosed
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketClosed
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketChangedPriority*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketChangedPriority
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_TicketChangedPriority
   name: TicketChangedPriority
   nameWithType: TicketPriorityTableInfo.TicketChangedPriority
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketChangedPriority
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketNew*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketNew
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_TicketNew
   name: TicketNew
   nameWithType: TicketPriorityTableInfo.TicketNew
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.TicketNew
+- uid: SuperOffice.CRM.Data.ContactTableInfo.TicketPriorityId
+  commentId: P:SuperOffice.CRM.Data.ContactTableInfo.TicketPriorityId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ContactTableInfo.html#SuperOffice_CRM_Data_ContactTableInfo_TicketPriorityId
+  name: TicketPriorityId
+  nameWithType: ContactTableInfo.TicketPriorityId
+  fullName: SuperOffice.CRM.Data.ContactTableInfo.TicketPriorityId
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Contact_TicketPriorityId*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Contact_TicketPriorityId
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_LeftOuterJoin_Contact_TicketPriorityId
   name: LeftOuterJoin_Contact_TicketPriorityId
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_Contact_TicketPriorityId
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Contact_TicketPriorityId
@@ -2210,6 +2395,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ContactTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<ContactTableInfo>
   nameWithType: TargetedLeftOuterJoin<ContactTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ContactTableInfo>
@@ -2219,40 +2405,31 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.ContactTableInfo
     name: ContactTableInfo
-    nameWithType: ContactTableInfo
-    fullName: SuperOffice.CRM.Data.ContactTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.ContactTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.ContactTableInfo
     name: ContactTableInfo
-    nameWithType: ContactTableInfo
-    fullName: SuperOffice.CRM.Data.ContactTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.ContactTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TargetTableInfo>
   nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
@@ -2262,36 +2439,32 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.PersonTableInfo.TicketPriorityId
+  commentId: P:SuperOffice.CRM.Data.PersonTableInfo.TicketPriorityId
+  isExternal: true
+  href: SuperOffice.CRM.Data.PersonTableInfo.html#SuperOffice_CRM_Data_PersonTableInfo_TicketPriorityId
+  name: TicketPriorityId
+  nameWithType: PersonTableInfo.TicketPriorityId
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.TicketPriorityId
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Person_TicketPriorityId*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Person_TicketPriorityId
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_LeftOuterJoin_Person_TicketPriorityId
   name: LeftOuterJoin_Person_TicketPriorityId
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_Person_TicketPriorityId
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Person_TicketPriorityId
@@ -2299,6 +2472,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PersonTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<PersonTableInfo>
   nameWithType: TargetedLeftOuterJoin<PersonTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.PersonTableInfo>
@@ -2308,40 +2482,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.PersonTableInfo
     name: PersonTableInfo
-    nameWithType: PersonTableInfo
-    fullName: SuperOffice.CRM.Data.PersonTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.PersonTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.PersonTableInfo
     name: PersonTableInfo
-    nameWithType: PersonTableInfo
-    fullName: SuperOffice.CRM.Data.PersonTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.PersonTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.TicketTableInfo.Priority
+  commentId: P:SuperOffice.CRM.Data.TicketTableInfo.Priority
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketTableInfo.html#SuperOffice_CRM_Data_TicketTableInfo_Priority
+  name: Priority
+  nameWithType: TicketTableInfo.Priority
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.Priority
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_Priority*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_Priority
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_LeftOuterJoin_Ticket_Priority
   name: LeftOuterJoin_Ticket_Priority
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_Ticket_Priority
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_Priority
@@ -2349,6 +2521,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TicketTableInfo>
   nameWithType: TargetedLeftOuterJoin<TicketTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TicketTableInfo>
@@ -2358,46 +2531,52 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.TicketTableInfo
     name: TicketTableInfo
-    nameWithType: TicketTableInfo
-    fullName: SuperOffice.CRM.Data.TicketTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TicketTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.TicketTableInfo
     name: TicketTableInfo
-    nameWithType: TicketTableInfo
-    fullName: SuperOffice.CRM.Data.TicketTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TicketTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.TicketTableInfo.OrigPriority
+  commentId: P:SuperOffice.CRM.Data.TicketTableInfo.OrigPriority
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketTableInfo.html#SuperOffice_CRM_Data_TicketTableInfo_OrigPriority
+  name: OrigPriority
+  nameWithType: TicketTableInfo.OrigPriority
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.OrigPriority
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_OrigPriority*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_OrigPriority
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_LeftOuterJoin_Ticket_OrigPriority
   name: LeftOuterJoin_Ticket_OrigPriority
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_Ticket_OrigPriority
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_OrigPriority
+- uid: SuperOffice.CRM.Data.MailInFilterTableInfo.Priority
+  commentId: P:SuperOffice.CRM.Data.MailInFilterTableInfo.Priority
+  isExternal: true
+  href: SuperOffice.CRM.Data.MailInFilterTableInfo.html#SuperOffice_CRM_Data_MailInFilterTableInfo_Priority
+  name: Priority
+  nameWithType: MailInFilterTableInfo.Priority
+  fullName: SuperOffice.CRM.Data.MailInFilterTableInfo.Priority
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_MailInFilter_Priority*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_MailInFilter_Priority
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_LeftOuterJoin_MailInFilter_Priority
   name: LeftOuterJoin_MailInFilter_Priority
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_MailInFilter_Priority
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_MailInFilter_Priority
@@ -2405,6 +2584,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.MailInFilterTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<MailInFilterTableInfo>
   nameWithType: TargetedLeftOuterJoin<MailInFilterTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.MailInFilterTableInfo>
@@ -2414,40 +2594,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.MailInFilterTableInfo
     name: MailInFilterTableInfo
-    nameWithType: MailInFilterTableInfo
-    fullName: SuperOffice.CRM.Data.MailInFilterTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.MailInFilterTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.MailInFilterTableInfo
     name: MailInFilterTableInfo
-    nameWithType: MailInFilterTableInfo
-    fullName: SuperOffice.CRM.Data.MailInFilterTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.MailInFilterTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.TicketAlertTableInfo.Priority
+  commentId: P:SuperOffice.CRM.Data.TicketAlertTableInfo.Priority
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketAlertTableInfo.html#SuperOffice_CRM_Data_TicketAlertTableInfo_Priority
+  name: Priority
+  nameWithType: TicketAlertTableInfo.Priority
+  fullName: SuperOffice.CRM.Data.TicketAlertTableInfo.Priority
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketAlert_Priority*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketAlert_Priority
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_LeftOuterJoin_TicketAlert_Priority
   name: LeftOuterJoin_TicketAlert_Priority
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_TicketAlert_Priority
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketAlert_Priority
@@ -2455,6 +2633,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketAlertTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TicketAlertTableInfo>
   nameWithType: TargetedLeftOuterJoin<TicketAlertTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TicketAlertTableInfo>
@@ -2464,40 +2643,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.TicketAlertTableInfo
     name: TicketAlertTableInfo
-    nameWithType: TicketAlertTableInfo
-    fullName: SuperOffice.CRM.Data.TicketAlertTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TicketAlertTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.TicketAlertTableInfo
     name: TicketAlertTableInfo
-    nameWithType: TicketAlertTableInfo
-    fullName: SuperOffice.CRM.Data.TicketAlertTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TicketAlertTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.MsFilterTableInfo.NewPriority
+  commentId: P:SuperOffice.CRM.Data.MsFilterTableInfo.NewPriority
+  isExternal: true
+  href: SuperOffice.CRM.Data.MsFilterTableInfo.html#SuperOffice_CRM_Data_MsFilterTableInfo_NewPriority
+  name: NewPriority
+  nameWithType: MsFilterTableInfo.NewPriority
+  fullName: SuperOffice.CRM.Data.MsFilterTableInfo.NewPriority
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_MsFilter_NewPriority*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_MsFilter_NewPriority
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_LeftOuterJoin_MsFilter_NewPriority
   name: LeftOuterJoin_MsFilter_NewPriority
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_MsFilter_NewPriority
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_MsFilter_NewPriority
@@ -2505,6 +2682,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.MsFilterTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<MsFilterTableInfo>
   nameWithType: TargetedLeftOuterJoin<MsFilterTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.MsFilterTableInfo>
@@ -2514,40 +2692,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.MsFilterTableInfo
     name: MsFilterTableInfo
-    nameWithType: MsFilterTableInfo
-    fullName: SuperOffice.CRM.Data.MsFilterTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.MsFilterTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.MsFilterTableInfo
     name: MsFilterTableInfo
-    nameWithType: MsFilterTableInfo
-    fullName: SuperOffice.CRM.Data.MsFilterTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.MsFilterTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.PriorityId
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.PriorityId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ChatTopicTableInfo.html#SuperOffice_CRM_Data_ChatTopicTableInfo_PriorityId
+  name: PriorityId
+  nameWithType: ChatTopicTableInfo.PriorityId
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.PriorityId
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_ChatTopic_PriorityId*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_ChatTopic_PriorityId
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_LeftOuterJoin_ChatTopic_PriorityId
   name: LeftOuterJoin_ChatTopic_PriorityId
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_ChatTopic_PriorityId
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_ChatTopic_PriorityId
@@ -2555,6 +2731,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatTopicTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<ChatTopicTableInfo>
   nameWithType: TargetedLeftOuterJoin<ChatTopicTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ChatTopicTableInfo>
@@ -2564,40 +2741,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.ChatTopicTableInfo
     name: ChatTopicTableInfo
-    nameWithType: ChatTopicTableInfo
-    fullName: SuperOffice.CRM.Data.ChatTopicTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.ChatTopicTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.ChatTopicTableInfo
     name: ChatTopicTableInfo
-    nameWithType: ChatTopicTableInfo
-    fullName: SuperOffice.CRM.Data.ChatTopicTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.ChatTopicTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.TicketPriority
+  commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.TicketPriority
+  isExternal: true
+  href: SuperOffice.CRM.Data.SLinkTableInfo.html#SuperOffice_CRM_Data_SLinkTableInfo_TicketPriority
+  name: TicketPriority
+  nameWithType: SLinkTableInfo.TicketPriority
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.TicketPriority
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_SLink_TicketPriority*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_SLink_TicketPriority
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_LeftOuterJoin_SLink_TicketPriority
   name: LeftOuterJoin_SLink_TicketPriority
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_SLink_TicketPriority
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_SLink_TicketPriority
@@ -2605,6 +2780,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SLinkTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<SLinkTableInfo>
   nameWithType: TargetedLeftOuterJoin<SLinkTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.SLinkTableInfo>
@@ -2614,40 +2790,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.SLinkTableInfo
     name: SLinkTableInfo
-    nameWithType: SLinkTableInfo
-    fullName: SuperOffice.CRM.Data.SLinkTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.SLinkTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.SLinkTableInfo
     name: SLinkTableInfo
-    nameWithType: SLinkTableInfo
-    fullName: SuperOffice.CRM.Data.SLinkTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.SLinkTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.DefaultPriority
+  commentId: P:SuperOffice.CRM.Data.TicketTypeTableInfo.DefaultPriority
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketTypeTableInfo.html#SuperOffice_CRM_Data_TicketTypeTableInfo_DefaultPriority
+  name: DefaultPriority
+  nameWithType: TicketTypeTableInfo.DefaultPriority
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.DefaultPriority
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_LeftOuterJoin_TicketType_DefaultPriority
   name: LeftOuterJoin_TicketType_DefaultPriority
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
@@ -2655,6 +2829,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypeTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TicketTypeTableInfo>
   nameWithType: TargetedLeftOuterJoin<TicketTypeTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TicketTypeTableInfo>
@@ -2664,40 +2839,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.TicketTypeTableInfo
     name: TicketTypeTableInfo
-    nameWithType: TicketTypeTableInfo
-    fullName: SuperOffice.CRM.Data.TicketTypeTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TicketTypeTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.TicketTypeTableInfo
     name: TicketTypeTableInfo
-    nameWithType: TicketTypeTableInfo
-    fullName: SuperOffice.CRM.Data.TicketTypeTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TicketTypeTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.TicketTypePriorityTableInfo.TicketPriorityId
+  commentId: P:SuperOffice.CRM.Data.TicketTypePriorityTableInfo.TicketPriorityId
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketTypePriorityTableInfo.html#SuperOffice_CRM_Data_TicketTypePriorityTableInfo_TicketPriorityId
+  name: TicketPriorityId
+  nameWithType: TicketTypePriorityTableInfo.TicketPriorityId
+  fullName: SuperOffice.CRM.Data.TicketTypePriorityTableInfo.TicketPriorityId
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId*
   commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
   isExternal: true
+  href: SuperOffice.CRM.Data.TicketPriorityTableInfo.html#SuperOffice_CRM_Data_TicketPriorityTableInfo_LeftOuterJoin_TicketTypePriority_TicketPriorityId
   name: LeftOuterJoin_TicketTypePriority_TicketPriorityId
   nameWithType: TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
@@ -2705,6 +2878,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypePriorityTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TicketTypePriorityTableInfo>
   nameWithType: TargetedLeftOuterJoin<TicketTypePriorityTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TicketTypePriorityTableInfo>
@@ -2714,34 +2888,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.TicketTypePriorityTableInfo
     name: TicketTypePriorityTableInfo
-    nameWithType: TicketTypePriorityTableInfo
-    fullName: SuperOffice.CRM.Data.TicketTypePriorityTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TicketTypePriorityTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.TicketTypePriorityTableInfo
     name: TicketTypePriorityTableInfo
-    nameWithType: TicketTypePriorityTableInfo
-    fullName: SuperOffice.CRM.Data.TicketTypePriorityTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.TicketTypePriorityTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )

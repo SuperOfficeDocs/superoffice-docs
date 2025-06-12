@@ -16,24 +16,16 @@ items:
   nameWithType: IImportAgent
   fullName: SuperOffice.WebApi.Agents.IImportAgent
   type: Interface
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nThis agent can be used to import data into the system\n"
+  summary: This agent can be used to import data into the system
+  example: []
   syntax:
     content: 'public interface IImportAgent : IDisposable'
-    content.vb: >-
-      Public Interface IImportAgent
-          Inherits IDisposable
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+    content.vb: Public Interface IImportAgent Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
 - uid: SuperOffice.WebApi.Agents.IImportAgent.PreviewImportAsync(SuperOffice.WebApi.Data.ImportLine[],System.String[],System.String,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IImportAgent.PreviewImportAsync(SuperOffice.WebApi.Data.ImportLine[],System.String[],System.String,System.String,SuperOffice.WebApi.RequestOptions)
   id: PreviewImportAsync(SuperOffice.WebApi.Data.ImportLine[],System.String[],System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -41,17 +33,15 @@ items:
   langs:
   - csharp
   - vb
-  name: PreviewImportAsync(ImportLine[], String[], String, String, RequestOptions)
-  nameWithType: IImportAgent.PreviewImportAsync(ImportLine[], String[], String, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IImportAgent.PreviewImportAsync(SuperOffice.WebApi.Data.ImportLine[], System.String[], System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  name: PreviewImportAsync(ImportLine[], string[], string, string, RequestOptions)
+  nameWithType: IImportAgent.PreviewImportAsync(ImportLine[], string[], string, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IImportAgent.PreviewImportAsync(SuperOffice.WebApi.Data.ImportLine[], string[], string, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nPreview the import\n"
+  summary: Preview the import
+  example: []
   syntax:
     content: Task<ImportLine[]> PreviewImportAsync(ImportLine[] importLines, string[] columnDefinition, string culture, string context, RequestOptions requestOptions = null)
     parameters:
@@ -69,14 +59,14 @@ items:
       description: Optional context for the import.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ImportLine[]}
       description: An array of the the rows that can be imported, manipulated according to Import rules given
     content.vb: Function PreviewImportAsync(importLines As ImportLine(), columnDefinition As String(), culture As String, context As String, requestOptions As RequestOptions = Nothing) As Task(Of ImportLine())
   overload: SuperOffice.WebApi.Agents.IImportAgent.PreviewImportAsync*
   nameWithType.vb: IImportAgent.PreviewImportAsync(ImportLine(), String(), String, String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IImportAgent.PreviewImportAsync(SuperOffice.WebApi.Data.ImportLine(), System.String(), System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IImportAgent.PreviewImportAsync(SuperOffice.WebApi.Data.ImportLine(), String(), String, String, SuperOffice.WebApi.RequestOptions)
   name.vb: PreviewImportAsync(ImportLine(), String(), String, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IImportAgent.SaveImportAsync(SuperOffice.WebApi.Data.ImportLine[],System.String[],System.Boolean,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IImportAgent.SaveImportAsync(SuperOffice.WebApi.Data.ImportLine[],System.String[],System.Boolean,System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -85,17 +75,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveImportAsync(ImportLine[], String[], Boolean, String, String, RequestOptions)
-  nameWithType: IImportAgent.SaveImportAsync(ImportLine[], String[], Boolean, String, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IImportAgent.SaveImportAsync(SuperOffice.WebApi.Data.ImportLine[], System.String[], System.Boolean, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  name: SaveImportAsync(ImportLine[], string[], bool, string, string, RequestOptions)
+  nameWithType: IImportAgent.SaveImportAsync(ImportLine[], string[], bool, string, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IImportAgent.SaveImportAsync(SuperOffice.WebApi.Data.ImportLine[], string[], bool, string, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nDo the actual import\n"
+  summary: Do the actual import
+  example: []
   syntax:
     content: Task<int[]> SaveImportAsync(ImportLine[] importLines, string[] columnDefinition, bool createSelection, string culture, string context, RequestOptions requestOptions = null)
     parameters:
@@ -116,14 +104,14 @@ items:
       description: Optional context for the import.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Int32[]}
       description: 'First part: the id of the selection created after the import, 0 if no selection is created. Second part: The number of rows actually imported'
     content.vb: Function SaveImportAsync(importLines As ImportLine(), columnDefinition As String(), createSelection As Boolean, culture As String, context As String, requestOptions As RequestOptions = Nothing) As Task(Of Integer())
   overload: SuperOffice.WebApi.Agents.IImportAgent.SaveImportAsync*
   nameWithType.vb: IImportAgent.SaveImportAsync(ImportLine(), String(), Boolean, String, String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IImportAgent.SaveImportAsync(SuperOffice.WebApi.Data.ImportLine(), System.String(), System.Boolean, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IImportAgent.SaveImportAsync(SuperOffice.WebApi.Data.ImportLine(), String(), Boolean, String, String, SuperOffice.WebApi.RequestOptions)
   name.vb: SaveImportAsync(ImportLine(), String(), Boolean, String, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IImportAgent.CreateDefaultImportLineAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IImportAgent.CreateDefaultImportLineAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -132,17 +120,15 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateDefaultImportLineAsync(Int32, RequestOptions)
-  nameWithType: IImportAgent.CreateDefaultImportLineAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IImportAgent.CreateDefaultImportLineAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: CreateDefaultImportLineAsync(int, RequestOptions)
+  nameWithType: IImportAgent.CreateDefaultImportLineAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IImportAgent.CreateDefaultImportLineAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nCreate a new empty import row with x count of values\n"
+  summary: Create a new empty import row with x count of values
+  example: []
   syntax:
     content: Task<ImportLine> CreateDefaultImportLineAsync(int countColumns, RequestOptions requestOptions = null)
     parameters:
@@ -151,12 +137,15 @@ items:
       description: The count of values that will can be filled out
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ImportLine}
       description: A new ImportLine
     content.vb: Function CreateDefaultImportLineAsync(countColumns As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ImportLine)
   overload: SuperOffice.WebApi.Agents.IImportAgent.CreateDefaultImportLineAsync*
+  nameWithType.vb: IImportAgent.CreateDefaultImportLineAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IImportAgent.CreateDefaultImportLineAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateDefaultImportLineAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IImportAgent.CreateErpImportDataAsync(SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IImportAgent.CreateErpImportDataAsync(SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
   id: CreateErpImportDataAsync(SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
@@ -164,17 +153,15 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateErpImportDataAsync(ArchiveRestrictionInfo[], String[], Int32, ErpActorType, RequestOptions)
-  nameWithType: IImportAgent.CreateErpImportDataAsync(ArchiveRestrictionInfo[], String[], Int32, ErpActorType, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IImportAgent.CreateErpImportDataAsync(SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], System.String[], System.Int32, SuperOffice.WebApi.Data.ErpActorType, SuperOffice.WebApi.RequestOptions)
+  name: CreateErpImportDataAsync(ArchiveRestrictionInfo[], string[], int, ErpActorType, RequestOptions)
+  nameWithType: IImportAgent.CreateErpImportDataAsync(ArchiveRestrictionInfo[], string[], int, ErpActorType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IImportAgent.CreateErpImportDataAsync(SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], string[], int, SuperOffice.WebApi.Data.ErpActorType, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nPopulates the ImportLines and columnDefs basedfrom erp system\n"
+  summary: Populates the ImportLines and columnDefs basedfrom erp system
+  example: []
   syntax:
     content: Task<ImportErpData> CreateErpImportDataAsync(ArchiveRestrictionInfo[] restriction, string[] columns, int connectionId, ErpActorType erpActorType, RequestOptions requestOptions = null)
     parameters:
@@ -192,30 +179,100 @@ items:
       description: Erp Actor type
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ImportErpData}
       description: The ImportLines and ColumnDefs
     content.vb: Function CreateErpImportDataAsync(restriction As ArchiveRestrictionInfo(), columns As String(), connectionId As Integer, erpActorType As ErpActorType, requestOptions As RequestOptions = Nothing) As Task(Of ImportErpData)
   overload: SuperOffice.WebApi.Agents.IImportAgent.CreateErpImportDataAsync*
-  nameWithType.vb: IImportAgent.CreateErpImportDataAsync(ArchiveRestrictionInfo(), String(), Int32, ErpActorType, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IImportAgent.CreateErpImportDataAsync(SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), System.String(), System.Int32, SuperOffice.WebApi.Data.ErpActorType, SuperOffice.WebApi.RequestOptions)
-  name.vb: CreateErpImportDataAsync(ArchiveRestrictionInfo(), String(), Int32, ErpActorType, RequestOptions)
+  nameWithType.vb: IImportAgent.CreateErpImportDataAsync(ArchiveRestrictionInfo(), String(), Integer, ErpActorType, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IImportAgent.CreateErpImportDataAsync(SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), String(), Integer, SuperOffice.WebApi.Data.ErpActorType, SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateErpImportDataAsync(ArchiveRestrictionInfo(), String(), Integer, ErpActorType, RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi.Agents.IImportAgent.PreviewImportAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IImportAgent.PreviewImportAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IImportAgent.html#SuperOffice_WebApi_Agents_IImportAgent_PreviewImportAsync_SuperOffice_WebApi_Data_ImportLine___System_String___System_String_System_String_SuperOffice_WebApi_RequestOptions_
   name: PreviewImportAsync
   nameWithType: IImportAgent.PreviewImportAsync
   fullName: SuperOffice.WebApi.Agents.IImportAgent.PreviewImportAsync
 - uid: SuperOffice.WebApi.Data.ImportLine[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.ImportLine.html
   name: ImportLine[]
   nameWithType: ImportLine[]
   fullName: SuperOffice.WebApi.Data.ImportLine[]
@@ -225,64 +282,64 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ImportLine
     name: ImportLine
-    nameWithType: ImportLine
-    fullName: SuperOffice.WebApi.Data.ImportLine
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ImportLine.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ImportLine
     name: ImportLine
-    nameWithType: ImportLine
-    fullName: SuperOffice.WebApi.Data.ImportLine
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ImportLine.html
+  - name: (
+  - name: )
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ImportLine[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ImportLine[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ImportLine[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ImportLine[]>
   nameWithType: Task<ImportLine[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ImportLine[]>
@@ -292,96 +349,127 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ImportLine
     name: ImportLine
-    nameWithType: ImportLine
-    fullName: SuperOffice.WebApi.Data.ImportLine
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ImportLine.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.ImportLine
     name: ImportLine
-    nameWithType: ImportLine
-    fullName: SuperOffice.WebApi.Data.ImportLine
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ImportLine.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: )
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: System.Threading.Tasks.Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: System.Threading.Tasks.Task(Of )
-  name.vb: Task(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.WebApi.Agents.IImportAgent.SaveImportAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IImportAgent.SaveImportAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IImportAgent.html#SuperOffice_WebApi_Agents_IImportAgent_SaveImportAsync_SuperOffice_WebApi_Data_ImportLine___System_String___System_Boolean_System_String_System_String_SuperOffice_WebApi_RequestOptions_
   name: SaveImportAsync
   nameWithType: IImportAgent.SaveImportAsync
   fullName: SuperOffice.WebApi.Agents.IImportAgent.SaveImportAsync
@@ -389,61 +477,56 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: System.Threading.Tasks.Task{System.Int32[]}
-  commentId: '!:System.Threading.Tasks.Task{System.Int32[]}'
+  commentId: T:System.Threading.Tasks.Task{System.Int32[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<Int32[]>
-  nameWithType: Task<Int32[]>
-  fullName: System.Threading.Tasks.Task<System.Int32[]>
-  nameWithType.vb: Task(Of Int32())
-  fullName.vb: System.Threading.Tasks.Task(Of System.Int32())
-  name.vb: Task(Of Int32())
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int[]>
+  nameWithType: Task<int[]>
+  fullName: System.Threading.Tasks.Task<int[]>
+  nameWithType.vb: Task(Of Integer())
+  fullName.vb: System.Threading.Tasks.Task(Of Integer())
+  name.vb: Task(Of Integer())
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IImportAgent.CreateDefaultImportLineAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IImportAgent.CreateDefaultImportLineAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IImportAgent.html#SuperOffice_WebApi_Agents_IImportAgent_CreateDefaultImportLineAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultImportLineAsync
   nameWithType: IImportAgent.CreateDefaultImportLineAsync
   fullName: SuperOffice.WebApi.Agents.IImportAgent.CreateDefaultImportLineAsync
@@ -451,12 +534,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ImportLine}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ImportLine}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ImportLine}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ImportLine>
   nameWithType: Task<ImportLine>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ImportLine>
@@ -466,45 +555,37 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ImportLine
     name: ImportLine
-    nameWithType: ImportLine
-    fullName: SuperOffice.WebApi.Data.ImportLine
     isExternal: true
+    href: SuperOffice.WebApi.Data.ImportLine.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.ImportLine
     name: ImportLine
-    nameWithType: ImportLine
-    fullName: SuperOffice.WebApi.Data.ImportLine
     isExternal: true
+    href: SuperOffice.WebApi.Data.ImportLine.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IImportAgent.CreateErpImportDataAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IImportAgent.CreateErpImportDataAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IImportAgent.html#SuperOffice_WebApi_Agents_IImportAgent_CreateErpImportDataAsync_SuperOffice_WebApi_Data_ArchiveRestrictionInfo___System_String___System_Int32_SuperOffice_WebApi_Data_ErpActorType_SuperOffice_WebApi_RequestOptions_
   name: CreateErpImportDataAsync
   nameWithType: IImportAgent.CreateErpImportDataAsync
   fullName: SuperOffice.WebApi.Agents.IImportAgent.CreateErpImportDataAsync
 - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.html
   name: ArchiveRestrictionInfo[]
   nameWithType: ArchiveRestrictionInfo[]
   fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
@@ -514,31 +595,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
-    nameWithType: ArchiveRestrictionInfo
-    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
-    nameWithType: ArchiveRestrictionInfo
-    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.html
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Data.ErpActorType
   commentId: T:SuperOffice.WebApi.Data.ErpActorType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.ErpActorType.html
   name: ErpActorType
   nameWithType: ErpActorType
   fullName: SuperOffice.WebApi.Data.ErpActorType
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ImportErpData}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ImportErpData}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ImportErpData}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ImportErpData>
   nameWithType: Task<ImportErpData>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ImportErpData>
@@ -548,40 +628,61 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ImportErpData
     name: ImportErpData
-    nameWithType: ImportErpData
-    fullName: SuperOffice.WebApi.Data.ImportErpData
     isExternal: true
+    href: SuperOffice.WebApi.Data.ImportErpData.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.ImportErpData
     name: ImportErpData
-    nameWithType: ImportErpData
-    fullName: SuperOffice.WebApi.Data.ImportErpData
     isExternal: true
+    href: SuperOffice.WebApi.Data.ImportErpData.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html

@@ -12,39 +12,60 @@ items:
   nameWithType: IRelationEntityCarrier
   fullName: SuperOffice.CRM.Services.IRelationEntityCarrier
   type: Interface
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   syntax:
     content: 'public interface IRelationEntityCarrier : ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier'
-    content.vb: >-
-      Public Interface IRelationEntityCarrier
-          Inherits ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier
+    content.vb: Public Interface IRelationEntityCarrier Inherits ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier
   inheritedMembers:
   - SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
   - SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
   - SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
   - SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
   commentId: P:SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
   parent: SuperOffice.CRM.Services.ILinksContainerEntityCarrier
   isExternal: true
+  href: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.html#SuperOffice_CRM_Services_ILinksContainerEntityCarrier_Links
   name: Links
   nameWithType: ILinksContainerEntityCarrier.Links
   fullName: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
@@ -52,6 +73,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
   parent: SuperOffice.CRM.Services.IProjectRelationEntityCarrier
   isExternal: true
+  href: SuperOffice.CRM.Services.IProjectRelationEntityCarrier.html#SuperOffice_CRM_Services_IProjectRelationEntityCarrier_Project
   name: Project
   nameWithType: IProjectRelationEntityCarrier.Project
   fullName: SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
@@ -59,6 +81,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
   parent: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
   isExternal: true
+  href: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.html#SuperOffice_CRM_Services_IContactPersonRelationEntityCarrier_Contact
   name: Contact
   nameWithType: IContactPersonRelationEntityCarrier.Contact
   fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
@@ -66,6 +89,7 @@ references:
   commentId: P:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
   parent: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
   isExternal: true
+  href: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.html#SuperOffice_CRM_Services_IContactPersonRelationEntityCarrier_Person
   name: Person
   nameWithType: IContactPersonRelationEntityCarrier.Person
   fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
@@ -73,6 +97,7 @@ references:
   commentId: T:SuperOffice.CRM.Services.ILinksContainerEntityCarrier
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.html
   name: ILinksContainerEntityCarrier
   nameWithType: ILinksContainerEntityCarrier
   fullName: SuperOffice.CRM.Services.ILinksContainerEntityCarrier
@@ -80,6 +105,7 @@ references:
   commentId: T:SuperOffice.CRM.Services.IProjectRelationEntityCarrier
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IProjectRelationEntityCarrier.html
   name: IProjectRelationEntityCarrier
   nameWithType: IProjectRelationEntityCarrier
   fullName: SuperOffice.CRM.Services.IProjectRelationEntityCarrier
@@ -87,6 +113,7 @@ references:
   commentId: T:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.html
   name: IContactPersonRelationEntityCarrier
   nameWithType: IContactPersonRelationEntityCarrier
   fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier

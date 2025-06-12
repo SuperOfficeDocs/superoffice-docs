@@ -1,0 +1,507 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.INSPrincipalAccessor
+  commentId: T:SuperOffice.Security.Principal.INSPrincipalAccessor
+  id: INSPrincipalAccessor
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.INSPrincipalAccessor.SignIn(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.Security.Principal.INSPrincipalAccessor.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal,System.Boolean)
+  - SuperOffice.Security.Principal.INSPrincipalAccessor.SignOut
+  - SuperOffice.Security.Principal.INSPrincipalAccessor.User
+  langs:
+  - csharp
+  - vb
+  name: INSPrincipalAccessor
+  nameWithType: INSPrincipalAccessor
+  fullName: SuperOffice.Security.Principal.INSPrincipalAccessor
+  type: Interface
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Accessor for NetServer's current user.
+  example: []
+  syntax:
+    content: public interface INSPrincipalAccessor
+    content.vb: Public Interface INSPrincipalAccessor
+  extensionMethods:
+  - SuperOffice.Security.Principal.INSPrincipalAccessor.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.INSPrincipalAccessor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Security.Principal.INSPrincipalAccessor.SignIn(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.Security.Principal.INSPrincipalAccessor.SignIn(System.Security.Claims.ClaimsPrincipal)
+  id: SignIn(System.Security.Claims.ClaimsPrincipal)
+  parent: SuperOffice.Security.Principal.INSPrincipalAccessor
+  langs:
+  - csharp
+  - vb
+  name: SignIn(ClaimsPrincipal)
+  nameWithType: INSPrincipalAccessor.SignIn(ClaimsPrincipal)
+  fullName: SuperOffice.Security.Principal.INSPrincipalAccessor.SignIn(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Sign in with the current user.
+  example: []
+  syntax:
+    content: void SignIn(ClaimsPrincipal user)
+    parameters:
+    - id: user
+      type: System.Security.Claims.ClaimsPrincipal
+      description: ''
+    content.vb: Sub SignIn(user As ClaimsPrincipal)
+  overload: SuperOffice.Security.Principal.INSPrincipalAccessor.SignIn*
+- uid: SuperOffice.Security.Principal.INSPrincipalAccessor.SignOut
+  commentId: M:SuperOffice.Security.Principal.INSPrincipalAccessor.SignOut
+  id: SignOut
+  parent: SuperOffice.Security.Principal.INSPrincipalAccessor
+  langs:
+  - csharp
+  - vb
+  name: SignOut()
+  nameWithType: INSPrincipalAccessor.SignOut()
+  fullName: SuperOffice.Security.Principal.INSPrincipalAccessor.SignOut()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Sign out the current user.
+  example: []
+  syntax:
+    content: void SignOut()
+    content.vb: Sub SignOut()
+  overload: SuperOffice.Security.Principal.INSPrincipalAccessor.SignOut*
+- uid: SuperOffice.Security.Principal.INSPrincipalAccessor.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal,System.Boolean)
+  commentId: M:SuperOffice.Security.Principal.INSPrincipalAccessor.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal,System.Boolean)
+  id: SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal,System.Boolean)
+  parent: SuperOffice.Security.Principal.INSPrincipalAccessor
+  langs:
+  - csharp
+  - vb
+  name: SignInWithTemporaryUser(ClaimsPrincipal, bool)
+  nameWithType: INSPrincipalAccessor.SignInWithTemporaryUser(ClaimsPrincipal, bool)
+  fullName: SuperOffice.Security.Principal.INSPrincipalAccessor.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal, bool)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Sign in with a temporary user
+  example: []
+  syntax:
+    content: IDisposable SignInWithTemporaryUser(ClaimsPrincipal user, bool forceCleanStack = false)
+    parameters:
+    - id: user
+      type: System.Security.Claims.ClaimsPrincipal
+      description: User to set as temporary user
+    - id: forceCleanStack
+      type: System.Boolean
+      description: >-
+        If true, the current user stack will be cleared for the corrent
+
+        async local context, before setting the current user.
+    return:
+      type: System.IDisposable
+      description: Disposing the result dispoes of the current user and popps the stack
+    content.vb: Function SignInWithTemporaryUser(user As ClaimsPrincipal, forceCleanStack As Boolean = False) As IDisposable
+  overload: SuperOffice.Security.Principal.INSPrincipalAccessor.SignInWithTemporaryUser*
+  nameWithType.vb: INSPrincipalAccessor.SignInWithTemporaryUser(ClaimsPrincipal, Boolean)
+  fullName.vb: SuperOffice.Security.Principal.INSPrincipalAccessor.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal, Boolean)
+  name.vb: SignInWithTemporaryUser(ClaimsPrincipal, Boolean)
+- uid: SuperOffice.Security.Principal.INSPrincipalAccessor.User
+  commentId: P:SuperOffice.Security.Principal.INSPrincipalAccessor.User
+  id: User
+  parent: SuperOffice.Security.Principal.INSPrincipalAccessor
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: INSPrincipalAccessor.User
+  fullName: SuperOffice.Security.Principal.INSPrincipalAccessor.User
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Get the current user-
+  example: []
+  syntax:
+    content: ClaimsPrincipal User { get; }
+    parameters: []
+    return:
+      type: System.Security.Claims.ClaimsPrincipal
+    content.vb: ReadOnly Property User As ClaimsPrincipal
+  overload: SuperOffice.Security.Principal.INSPrincipalAccessor.User*
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
+- uid: SuperOffice.Security.Principal.INSPrincipalAccessor.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<INSPrincipalAccessor, To>(INSPrincipalAccessor)
+  nameWithType: EnumUtil.MapEnums<INSPrincipalAccessor, To>(INSPrincipalAccessor)
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.INSPrincipalAccessor, To>(SuperOffice.Security.Principal.INSPrincipalAccessor)
+  nameWithType.vb: EnumUtil.MapEnums(Of INSPrincipalAccessor, To)(INSPrincipalAccessor)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.INSPrincipalAccessor, To)(SuperOffice.Security.Principal.INSPrincipalAccessor)
+  name.vb: MapEnums(Of INSPrincipalAccessor, To)(INSPrincipalAccessor)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Principal.INSPrincipalAccessor)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Security.Principal.INSPrincipalAccessor
+    name: INSPrincipalAccessor
+    isExternal: true
+    href: SuperOffice.Security.Principal.INSPrincipalAccessor.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Security.Principal.INSPrincipalAccessor
+    name: INSPrincipalAccessor
+    isExternal: true
+    href: SuperOffice.Security.Principal.INSPrincipalAccessor.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Principal.INSPrincipalAccessor)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Principal.INSPrincipalAccessor
+    name: INSPrincipalAccessor
+    isExternal: true
+    href: SuperOffice.Security.Principal.INSPrincipalAccessor.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Security.Principal.INSPrincipalAccessor
+    name: INSPrincipalAccessor
+    isExternal: true
+    href: SuperOffice.Security.Principal.INSPrincipalAccessor.html
+  - name: )
+- uid: SuperOffice.Security.Principal.INSPrincipalAccessor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<INSPrincipalAccessor, To>(INSPrincipalAccessor)
+  nameWithType: Converters.MapEnums<INSPrincipalAccessor, To>(INSPrincipalAccessor)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.INSPrincipalAccessor, To>(SuperOffice.Security.Principal.INSPrincipalAccessor)
+  nameWithType.vb: Converters.MapEnums(Of INSPrincipalAccessor, To)(INSPrincipalAccessor)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.INSPrincipalAccessor, To)(SuperOffice.Security.Principal.INSPrincipalAccessor)
+  name.vb: MapEnums(Of INSPrincipalAccessor, To)(INSPrincipalAccessor)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Principal.INSPrincipalAccessor)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Security.Principal.INSPrincipalAccessor
+    name: INSPrincipalAccessor
+    isExternal: true
+    href: SuperOffice.Security.Principal.INSPrincipalAccessor.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Security.Principal.INSPrincipalAccessor
+    name: INSPrincipalAccessor
+    isExternal: true
+    href: SuperOffice.Security.Principal.INSPrincipalAccessor.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Principal.INSPrincipalAccessor)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Principal.INSPrincipalAccessor
+    name: INSPrincipalAccessor
+    isExternal: true
+    href: SuperOffice.Security.Principal.INSPrincipalAccessor.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Security.Principal.INSPrincipalAccessor
+    name: INSPrincipalAccessor
+    isExternal: true
+    href: SuperOffice.Security.Principal.INSPrincipalAccessor.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Security.Principal.INSPrincipalAccessor.SignIn*
+  commentId: Overload:SuperOffice.Security.Principal.INSPrincipalAccessor.SignIn
+  isExternal: true
+  href: SuperOffice.Security.Principal.INSPrincipalAccessor.html#SuperOffice_Security_Principal_INSPrincipalAccessor_SignIn_System_Security_Claims_ClaimsPrincipal_
+  name: SignIn
+  nameWithType: INSPrincipalAccessor.SignIn
+  fullName: SuperOffice.Security.Principal.INSPrincipalAccessor.SignIn
+- uid: System.Security.Claims.ClaimsPrincipal
+  commentId: T:System.Security.Claims.ClaimsPrincipal
+  parent: System.Security.Claims
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: System.Security.Claims.ClaimsPrincipal
+- uid: System.Security.Claims
+  commentId: N:System.Security.Claims
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Security.Claims
+  nameWithType: System.Security.Claims
+  fullName: System.Security.Claims
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Claims
+    name: Claims
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Claims
+    name: Claims
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims
+- uid: SuperOffice.Security.Principal.INSPrincipalAccessor.SignOut*
+  commentId: Overload:SuperOffice.Security.Principal.INSPrincipalAccessor.SignOut
+  isExternal: true
+  href: SuperOffice.Security.Principal.INSPrincipalAccessor.html#SuperOffice_Security_Principal_INSPrincipalAccessor_SignOut
+  name: SignOut
+  nameWithType: INSPrincipalAccessor.SignOut
+  fullName: SuperOffice.Security.Principal.INSPrincipalAccessor.SignOut
+- uid: SuperOffice.Security.Principal.INSPrincipalAccessor.SignInWithTemporaryUser*
+  commentId: Overload:SuperOffice.Security.Principal.INSPrincipalAccessor.SignInWithTemporaryUser
+  isExternal: true
+  href: SuperOffice.Security.Principal.INSPrincipalAccessor.html#SuperOffice_Security_Principal_INSPrincipalAccessor_SignInWithTemporaryUser_System_Security_Claims_ClaimsPrincipal_System_Boolean_
+  name: SignInWithTemporaryUser
+  nameWithType: INSPrincipalAccessor.SignInWithTemporaryUser
+  fullName: SuperOffice.Security.Principal.INSPrincipalAccessor.SignInWithTemporaryUser
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Security.Principal.INSPrincipalAccessor.User*
+  commentId: Overload:SuperOffice.Security.Principal.INSPrincipalAccessor.User
+  isExternal: true
+  href: SuperOffice.Security.Principal.INSPrincipalAccessor.html#SuperOffice_Security_Principal_INSPrincipalAccessor_User
+  name: User
+  nameWithType: INSPrincipalAccessor.User
+  fullName: SuperOffice.Security.Principal.INSPrincipalAccessor.User

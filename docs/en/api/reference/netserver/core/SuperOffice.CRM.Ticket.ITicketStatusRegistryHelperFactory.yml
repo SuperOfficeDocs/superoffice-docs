@@ -1,0 +1,465 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+  commentId: T:SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+  id: ITicketStatusRegistryHelperFactory
+  parent: SuperOffice.CRM.Ticket
+  children:
+  - SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.CreateAsync(System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: ITicketStatusRegistryHelperFactory
+  nameWithType: ITicketStatusRegistryHelperFactory
+  fullName: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+  type: Interface
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public interface ITicketStatusRegistryHelperFactory
+    content.vb: Public Interface ITicketStatusRegistryHelperFactory
+  extensionMethods:
+  - SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.CreateAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.CreateAsync(System.Threading.CancellationToken)
+  id: CreateAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(CancellationToken)
+  nameWithType: ITicketStatusRegistryHelperFactory.CreateAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.CreateAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: Task<ITicketStatusRegistryHelper> CreateAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper}
+    content.vb: Function CreateAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ITicketStatusRegistryHelper)
+  overload: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.CreateAsync*
+references:
+- uid: SuperOffice.CRM.Ticket
+  commentId: N:SuperOffice.CRM.Ticket
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Ticket
+  nameWithType: SuperOffice.CRM.Ticket
+  fullName: SuperOffice.CRM.Ticket
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Ticket
+    name: Ticket
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Ticket
+    name: Ticket
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.html
+- uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ITicketStatusRegistryHelperFactory, To>(ITicketStatusRegistryHelperFactory)
+  nameWithType: EnumUtil.MapEnums<ITicketStatusRegistryHelperFactory, To>(ITicketStatusRegistryHelperFactory)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory, To>(SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory)
+  nameWithType.vb: EnumUtil.MapEnums(Of ITicketStatusRegistryHelperFactory, To)(ITicketStatusRegistryHelperFactory)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory, To)(SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory)
+  name.vb: MapEnums(Of ITicketStatusRegistryHelperFactory, To)(ITicketStatusRegistryHelperFactory)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+    name: ITicketStatusRegistryHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+    name: ITicketStatusRegistryHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+    name: ITicketStatusRegistryHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+    name: ITicketStatusRegistryHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.html
+  - name: )
+- uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ITicketStatusRegistryHelperFactory, To>(ITicketStatusRegistryHelperFactory)
+  nameWithType: Converters.MapEnums<ITicketStatusRegistryHelperFactory, To>(ITicketStatusRegistryHelperFactory)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory, To>(SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory)
+  nameWithType.vb: Converters.MapEnums(Of ITicketStatusRegistryHelperFactory, To)(ITicketStatusRegistryHelperFactory)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory, To)(SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory)
+  name.vb: MapEnums(Of ITicketStatusRegistryHelperFactory, To)(ITicketStatusRegistryHelperFactory)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+    name: ITicketStatusRegistryHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+    name: ITicketStatusRegistryHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+    name: ITicketStatusRegistryHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+    name: ITicketStatusRegistryHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.CreateAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.CreateAsync
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.html#SuperOffice_CRM_Ticket_ITicketStatusRegistryHelperFactory_CreateAsync_System_Threading_CancellationToken_
+  name: CreateAsync
+  nameWithType: ITicketStatusRegistryHelperFactory.CreateAsync
+  fullName: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.CreateAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ITicketStatusRegistryHelper>
+  nameWithType: Task<ITicketStatusRegistryHelper>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper>
+  nameWithType.vb: Task(Of ITicketStatusRegistryHelper)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper)
+  name.vb: Task(Of ITicketStatusRegistryHelper)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper
+    name: ITicketStatusRegistryHelper
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper
+    name: ITicketStatusRegistryHelper
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

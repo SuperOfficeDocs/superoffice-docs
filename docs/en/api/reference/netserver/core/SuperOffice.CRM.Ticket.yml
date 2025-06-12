@@ -5,6 +5,8 @@ items:
   id: SuperOffice.CRM.Ticket
   children:
   - SuperOffice.CRM.Ticket.DaySchedule
+  - SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper
+  - SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
   - SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
   - SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
   - SuperOffice.CRM.Ticket.TicketAlertHelper
@@ -15,6 +17,7 @@ items:
   - SuperOffice.CRM.Ticket.TicketOwnerResolver
   - SuperOffice.CRM.Ticket.TicketPriorityResolver
   - SuperOffice.CRM.Ticket.TicketStatusRegistryHelper
+  - SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
   - SuperOffice.CRM.Ticket.WeekSchedule
   langs:
   - csharp
@@ -24,17 +27,49 @@ items:
   fullName: SuperOffice.CRM.Ticket
   type: Namespace
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
 references:
+- uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelper
+  commentId: T:SuperOffice.CRM.Ticket.TicketStatusRegistryHelper
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketStatusRegistryHelper.html
+  name: TicketStatusRegistryHelper
+  nameWithType: TicketStatusRegistryHelper
+  fullName: SuperOffice.CRM.Ticket.TicketStatusRegistryHelper
+- uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
+  commentId: T:SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.html
+  name: TicketStatusRegistryHelperFactory
+  nameWithType: TicketStatusRegistryHelperFactory
+  fullName: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
 - uid: SuperOffice.CRM.Ticket.DaySchedule
   commentId: T:SuperOffice.CRM.Ticket.DaySchedule
   isExternal: true
+  href: SuperOffice.CRM.Ticket.DaySchedule.html
   name: DaySchedule
   nameWithType: DaySchedule
   fullName: SuperOffice.CRM.Ticket.DaySchedule
+- uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+  commentId: T:SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+  parent: SuperOffice.CRM.Ticket
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.html
+  name: ITicketStatusRegistryHelperFactory
+  nameWithType: ITicketStatusRegistryHelperFactory
+  fullName: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+- uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper
+  commentId: T:SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper
+  parent: SuperOffice.CRM.Ticket
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper.html
+  name: ITicketStatusRegistryHelper
+  nameWithType: ITicketStatusRegistryHelper
+  fullName: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper
 - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
   commentId: T:SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
   isExternal: true
+  href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.html
   name: LiveUiStatisticsHelper
   nameWithType: LiveUiStatisticsHelper
   fullName: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
@@ -42,12 +77,34 @@ references:
   commentId: T:SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
   parent: SuperOffice.CRM.Ticket
   isExternal: true
+  href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.html
   name: LiveUiStatisticsHelper.AccumulationType
   nameWithType: LiveUiStatisticsHelper.AccumulationType
   fullName: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
+  spec.csharp:
+  - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
+    name: LiveUiStatisticsHelper
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
+    name: AccumulationType
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
+    name: LiveUiStatisticsHelper
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
+    name: AccumulationType
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType.html
 - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
   commentId: T:SuperOffice.CRM.Ticket.TicketAlertHelper
   isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
   name: TicketAlertHelper
   nameWithType: TicketAlertHelper
   fullName: SuperOffice.CRM.Ticket.TicketAlertHelper
@@ -55,12 +112,14 @@ references:
   commentId: T:SuperOffice.CRM.Ticket.TicketChangeData
   parent: SuperOffice.CRM.Ticket
   isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketChangeData.html
   name: TicketChangeData
   nameWithType: TicketChangeData
   fullName: SuperOffice.CRM.Ticket.TicketChangeData
 - uid: SuperOffice.CRM.Ticket.TicketChangeNotificator
   commentId: T:SuperOffice.CRM.Ticket.TicketChangeNotificator
   isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketChangeNotificator.html
   name: TicketChangeNotificator
   nameWithType: TicketChangeNotificator
   fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator
@@ -68,6 +127,7 @@ references:
   commentId: T:SuperOffice.CRM.Ticket.TicketData
   parent: SuperOffice.CRM.Ticket
   isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketData.html
   name: TicketData
   nameWithType: TicketData
   fullName: SuperOffice.CRM.Ticket.TicketData
@@ -75,36 +135,65 @@ references:
   commentId: T:SuperOffice.CRM.Ticket.TicketHelper
   parent: SuperOffice.CRM.Ticket
   isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketHelper.html
   name: TicketHelper
   nameWithType: TicketHelper
   fullName: SuperOffice.CRM.Ticket.TicketHelper
 - uid: SuperOffice.CRM.Ticket.TicketOwnerResolver
   commentId: T:SuperOffice.CRM.Ticket.TicketOwnerResolver
   isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketOwnerResolver.html
   name: TicketOwnerResolver
   nameWithType: TicketOwnerResolver
   fullName: SuperOffice.CRM.Ticket.TicketOwnerResolver
 - uid: SuperOffice.CRM.Ticket.TicketPriorityResolver
   commentId: T:SuperOffice.CRM.Ticket.TicketPriorityResolver
   isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketPriorityResolver.html
   name: TicketPriorityResolver
   nameWithType: TicketPriorityResolver
   fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver
-- uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelper
-  commentId: T:SuperOffice.CRM.Ticket.TicketStatusRegistryHelper
-  isExternal: true
-  name: TicketStatusRegistryHelper
-  nameWithType: TicketStatusRegistryHelper
-  fullName: SuperOffice.CRM.Ticket.TicketStatusRegistryHelper
 - uid: SuperOffice.CRM.Ticket.WeekSchedule
   commentId: T:SuperOffice.CRM.Ticket.WeekSchedule
   isExternal: true
+  href: SuperOffice.CRM.Ticket.WeekSchedule.html
   name: WeekSchedule
   nameWithType: WeekSchedule
   fullName: SuperOffice.CRM.Ticket.WeekSchedule
 - uid: SuperOffice.CRM.Ticket
   commentId: N:SuperOffice.CRM.Ticket
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Ticket
   nameWithType: SuperOffice.CRM.Ticket
   fullName: SuperOffice.CRM.Ticket
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Ticket
+    name: Ticket
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Ticket
+    name: Ticket
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.html

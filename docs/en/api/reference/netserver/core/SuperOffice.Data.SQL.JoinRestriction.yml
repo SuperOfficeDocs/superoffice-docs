@@ -30,38 +30,31 @@ items:
   nameWithType: JoinRestriction
   fullName: SuperOffice.Data.SQL.JoinRestriction
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nJoinRestriction implements the collection part of the join-clause.\n"
+  summary: JoinRestriction implements the collection part of the join-clause.
+  example: []
   syntax:
-    content: 'public sealed class JoinRestriction : Object, IEnumerable<JoinCompare>, IEnumerable, ICloneable'
-    content.vb: >-
-      Public NotInheritable Class JoinRestriction
-          Inherits Object
-          Implements IEnumerable(Of JoinCompare), IEnumerable, ICloneable
+    content: 'public sealed class JoinRestriction : IEnumerable<JoinCompare>, IEnumerable, ICloneable'
+    content.vb: Public NotInheritable Class JoinRestriction Implements IEnumerable(Of JoinCompare), IEnumerable, ICloneable
   inheritance:
   - System.Object
   implements:
   - System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.JoinCompare}
   - System.Collections.IEnumerable
   - System.ICloneable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
   extensionMethods:
   - SuperOffice.Data.SQL.JoinRestriction.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SQL.JoinRestriction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Data.SQL.JoinRestriction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.JoinRestriction)
   - SuperOffice.Data.SQL.JoinRestriction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.Data.SQL.JoinRestriction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
 - uid: SuperOffice.Data.SQL.JoinRestriction.#ctor
   commentId: M:SuperOffice.Data.SQL.JoinRestriction.#ctor
   id: '#ctor'
@@ -73,21 +66,18 @@ items:
   nameWithType: JoinRestriction.JoinRestriction()
   fullName: SuperOffice.Data.SQL.JoinRestriction.JoinRestriction()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nInitializes a new instance of the <xref href=\"SuperOffice.Data.SQL.JoinRestriction\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  summary: Initializes a new instance of the <xref href="SuperOffice.Data.SQL.JoinRestriction" data-throw-if-not-resolved="false"></xref> class.
+  example: []
   syntax:
     content: public JoinRestriction()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.Data.SQL.JoinRestriction.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: JoinRestriction.New()
+  fullName.vb: SuperOffice.Data.SQL.JoinRestriction.New()
+  name.vb: New()
 - uid: SuperOffice.Data.SQL.JoinRestriction.GetNumberOfItems
   commentId: M:SuperOffice.Data.SQL.JoinRestriction.GetNumberOfItems
   id: GetNumberOfItems
@@ -99,23 +89,18 @@ items:
   nameWithType: JoinRestriction.GetNumberOfItems()
   fullName: SuperOffice.Data.SQL.JoinRestriction.GetNumberOfItems()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nReturns number of items in the join-clause.\n"
+  summary: Returns number of items in the join-clause.
+  example: []
   syntax:
     content: public int GetNumberOfItems()
     return:
       type: System.Int32
-    content.vb: Public Function GetNumberOfItems As Integer
+      description: ''
+    content.vb: Public Function GetNumberOfItems() As Integer
   overload: SuperOffice.Data.SQL.JoinRestriction.GetNumberOfItems*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.JoinRestriction.LeftOuterJoin(SuperOffice.Data.SQL.Equal)
   commentId: M:SuperOffice.Data.SQL.JoinRestriction.LeftOuterJoin(SuperOffice.Data.SQL.Equal)
   id: LeftOuterJoin(SuperOffice.Data.SQL.Equal)
@@ -127,13 +112,11 @@ items:
   nameWithType: JoinRestriction.LeftOuterJoin(Equal)
   fullName: SuperOffice.Data.SQL.JoinRestriction.LeftOuterJoin(SuperOffice.Data.SQL.Equal)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nAdd-function for the Left Outer Join\n"
+  summary: Add-function for the Left Outer Join
+  example: []
   syntax:
     content: public void LeftOuterJoin(Equal comp)
     parameters:
@@ -142,10 +125,6 @@ items:
       description: The Compare-parameter.
     content.vb: Public Sub LeftOuterJoin(comp As Equal)
   overload: SuperOffice.Data.SQL.JoinRestriction.LeftOuterJoin*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.JoinRestriction.LeftOuterJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
   commentId: M:SuperOffice.Data.SQL.JoinRestriction.LeftOuterJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
   id: LeftOuterJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
@@ -157,13 +136,11 @@ items:
   nameWithType: JoinRestriction.LeftOuterJoin(Equal, Restriction)
   fullName: SuperOffice.Data.SQL.JoinRestriction.LeftOuterJoin(SuperOffice.Data.SQL.Equal, SuperOffice.Data.SQL.Restriction)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nAdd-function for the Left Outer Join with two parameters.\n"
+  summary: Add-function for the Left Outer Join with two parameters.
+  example: []
   syntax:
     content: public void LeftOuterJoin(Equal comp, Restriction res)
     parameters:
@@ -175,10 +152,6 @@ items:
       description: The Restriction-parameter
     content.vb: Public Sub LeftOuterJoin(comp As Equal, res As Restriction)
   overload: SuperOffice.Data.SQL.JoinRestriction.LeftOuterJoin*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.JoinRestriction.InnerJoin(SuperOffice.Data.SQL.Equal)
   commentId: M:SuperOffice.Data.SQL.JoinRestriction.InnerJoin(SuperOffice.Data.SQL.Equal)
   id: InnerJoin(SuperOffice.Data.SQL.Equal)
@@ -190,13 +163,11 @@ items:
   nameWithType: JoinRestriction.InnerJoin(Equal)
   fullName: SuperOffice.Data.SQL.JoinRestriction.InnerJoin(SuperOffice.Data.SQL.Equal)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nAdd-function for the Inner Join\n"
+  summary: Add-function for the Inner Join
+  example: []
   syntax:
     content: public void InnerJoin(Equal comp)
     parameters:
@@ -205,10 +176,6 @@ items:
       description: The Compare-parameter.
     content.vb: Public Sub InnerJoin(comp As Equal)
   overload: SuperOffice.Data.SQL.JoinRestriction.InnerJoin*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.JoinRestriction.InnerJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
   commentId: M:SuperOffice.Data.SQL.JoinRestriction.InnerJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
   id: InnerJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
@@ -220,13 +187,11 @@ items:
   nameWithType: JoinRestriction.InnerJoin(Equal, Restriction)
   fullName: SuperOffice.Data.SQL.JoinRestriction.InnerJoin(SuperOffice.Data.SQL.Equal, SuperOffice.Data.SQL.Restriction)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nAdd-function for the Inner Join with two parameters.\n"
+  summary: Add-function for the Inner Join with two parameters.
+  example: []
   syntax:
     content: public void InnerJoin(Equal comp, Restriction res)
     parameters:
@@ -238,10 +203,6 @@ items:
       description: The Restriction-parameter
     content.vb: Public Sub InnerJoin(comp As Equal, res As Restriction)
   overload: SuperOffice.Data.SQL.JoinRestriction.InnerJoin*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.JoinRestriction.RightOuterJoin(SuperOffice.Data.SQL.Equal)
   commentId: M:SuperOffice.Data.SQL.JoinRestriction.RightOuterJoin(SuperOffice.Data.SQL.Equal)
   id: RightOuterJoin(SuperOffice.Data.SQL.Equal)
@@ -253,13 +214,11 @@ items:
   nameWithType: JoinRestriction.RightOuterJoin(Equal)
   fullName: SuperOffice.Data.SQL.JoinRestriction.RightOuterJoin(SuperOffice.Data.SQL.Equal)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nAdd-function for the Right Outer Join.\n"
+  summary: Add-function for the Right Outer Join.
+  example: []
   syntax:
     content: public void RightOuterJoin(Equal comp)
     parameters:
@@ -268,10 +227,6 @@ items:
       description: The Compare-parameter.
     content.vb: Public Sub RightOuterJoin(comp As Equal)
   overload: SuperOffice.Data.SQL.JoinRestriction.RightOuterJoin*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.JoinRestriction.AppendJoinRestriction(SuperOffice.Data.SQL.JoinRestriction)
   commentId: M:SuperOffice.Data.SQL.JoinRestriction.AppendJoinRestriction(SuperOffice.Data.SQL.JoinRestriction)
   id: AppendJoinRestriction(SuperOffice.Data.SQL.JoinRestriction)
@@ -283,13 +238,11 @@ items:
   nameWithType: JoinRestriction.AppendJoinRestriction(JoinRestriction)
   fullName: SuperOffice.Data.SQL.JoinRestriction.AppendJoinRestriction(SuperOffice.Data.SQL.JoinRestriction)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nAppend joins from another joinrestriction.\n"
+  summary: Append joins from another joinrestriction.
+  example: []
   syntax:
     content: public void AppendJoinRestriction(JoinRestriction joinRestriction)
     parameters:
@@ -298,10 +251,6 @@ items:
       description: JoinRestriction holding the joins to append.
     content.vb: Public Sub AppendJoinRestriction(joinRestriction As JoinRestriction)
   overload: SuperOffice.Data.SQL.JoinRestriction.AppendJoinRestriction*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.JoinRestriction.AddJoin``1(SuperOffice.Data.SQL.TargetedInnerJoin{``0})
   commentId: M:SuperOffice.Data.SQL.JoinRestriction.AddJoin``1(SuperOffice.Data.SQL.TargetedInnerJoin{``0})
   id: AddJoin``1(SuperOffice.Data.SQL.TargetedInnerJoin{``0})
@@ -313,17 +262,13 @@ items:
   nameWithType: JoinRestriction.AddJoin<TargetTableInfo>(TargetedInnerJoin<TargetTableInfo>)
   fullName: SuperOffice.Data.SQL.JoinRestriction.AddJoin<TargetTableInfo>(SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nAdd a pre-generated inner join to the querys join restriction list\n"
+  summary: Add a pre-generated inner join to the querys join restriction list
+  example: []
   syntax:
-    content: >-
-      public TargetTableInfo AddJoin<TargetTableInfo>(TargetedInnerJoin<TargetTableInfo> join)
-          where TargetTableInfo : TableInfo
+    content: 'public TargetTableInfo AddJoin<TargetTableInfo>(TargetedInnerJoin<TargetTableInfo> join) where TargetTableInfo : TableInfo'
     parameters:
     - id: join
       type: SuperOffice.Data.SQL.TargetedInnerJoin{{TargetTableInfo}}
@@ -337,10 +282,6 @@ items:
     content.vb: Public Function AddJoin(Of TargetTableInfo As TableInfo)(join As TargetedInnerJoin(Of TargetTableInfo)) As TargetTableInfo
   overload: SuperOffice.Data.SQL.JoinRestriction.AddJoin*
   nameWithType.vb: JoinRestriction.AddJoin(Of TargetTableInfo)(TargetedInnerJoin(Of TargetTableInfo))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
   fullName.vb: SuperOffice.Data.SQL.JoinRestriction.AddJoin(Of TargetTableInfo)(SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo))
   name.vb: AddJoin(Of TargetTableInfo)(TargetedInnerJoin(Of TargetTableInfo))
 - uid: SuperOffice.Data.SQL.JoinRestriction.AddJoin``1(SuperOffice.Data.SQL.TargetedLeftOuterJoin{``0})
@@ -354,17 +295,13 @@ items:
   nameWithType: JoinRestriction.AddJoin<TargetTableInfo>(TargetedLeftOuterJoin<TargetTableInfo>)
   fullName: SuperOffice.Data.SQL.JoinRestriction.AddJoin<TargetTableInfo>(SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nAdd a pre-generated left outer join to the querys join restriction list\n"
+  summary: Add a pre-generated left outer join to the querys join restriction list
+  example: []
   syntax:
-    content: >-
-      public TargetTableInfo AddJoin<TargetTableInfo>(TargetedLeftOuterJoin<TargetTableInfo> join)
-          where TargetTableInfo : TableInfo
+    content: 'public TargetTableInfo AddJoin<TargetTableInfo>(TargetedLeftOuterJoin<TargetTableInfo> join) where TargetTableInfo : TableInfo'
     parameters:
     - id: join
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{{TargetTableInfo}}
@@ -378,10 +315,6 @@ items:
     content.vb: Public Function AddJoin(Of TargetTableInfo As TableInfo)(join As TargetedLeftOuterJoin(Of TargetTableInfo)) As TargetTableInfo
   overload: SuperOffice.Data.SQL.JoinRestriction.AddJoin*
   nameWithType.vb: JoinRestriction.AddJoin(Of TargetTableInfo)(TargetedLeftOuterJoin(Of TargetTableInfo))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
   fullName.vb: SuperOffice.Data.SQL.JoinRestriction.AddJoin(Of TargetTableInfo)(SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo))
   name.vb: AddJoin(Of TargetTableInfo)(TargetedLeftOuterJoin(Of TargetTableInfo))
 - uid: SuperOffice.Data.SQL.JoinRestriction.RightOuterJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
@@ -395,13 +328,11 @@ items:
   nameWithType: JoinRestriction.RightOuterJoin(Equal, Restriction)
   fullName: SuperOffice.Data.SQL.JoinRestriction.RightOuterJoin(SuperOffice.Data.SQL.Equal, SuperOffice.Data.SQL.Restriction)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nAdd-function for the Right Outer Join with two parameters.\n"
+  summary: Add-function for the Right Outer Join with two parameters.
+  example: []
   syntax:
     content: public void RightOuterJoin(Equal comp, Restriction res)
     parameters:
@@ -413,10 +344,6 @@ items:
       description: The Restriction-parameter
     content.vb: Public Sub RightOuterJoin(comp As Equal, res As Restriction)
   overload: SuperOffice.Data.SQL.JoinRestriction.RightOuterJoin*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.JoinRestriction.Remove(SuperOffice.Data.SQL.JoinCompare)
   commentId: M:SuperOffice.Data.SQL.JoinRestriction.Remove(SuperOffice.Data.SQL.JoinCompare)
   id: Remove(SuperOffice.Data.SQL.JoinCompare)
@@ -428,24 +355,19 @@ items:
   nameWithType: JoinRestriction.Remove(JoinCompare)
   fullName: SuperOffice.Data.SQL.JoinRestriction.Remove(SuperOffice.Data.SQL.JoinCompare)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nRemove a join from the join collection\n"
+  summary: Remove a join from the join collection
+  example: []
   syntax:
     content: public void Remove(JoinCompare join)
     parameters:
     - id: join
       type: SuperOffice.Data.SQL.JoinCompare
+      description: ''
     content.vb: Public Sub Remove(join As JoinCompare)
   overload: SuperOffice.Data.SQL.JoinRestriction.Remove*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.JoinRestriction.Replace(SuperOffice.Data.SQL.JoinCompare,SuperOffice.Data.SQL.JoinCompare)
   commentId: M:SuperOffice.Data.SQL.JoinRestriction.Replace(SuperOffice.Data.SQL.JoinCompare,SuperOffice.Data.SQL.JoinCompare)
   id: Replace(SuperOffice.Data.SQL.JoinCompare,SuperOffice.Data.SQL.JoinCompare)
@@ -457,9 +379,6 @@ items:
   nameWithType: JoinRestriction.Replace(JoinCompare, JoinCompare)
   fullName: SuperOffice.Data.SQL.JoinRestriction.Replace(SuperOffice.Data.SQL.JoinCompare, SuperOffice.Data.SQL.JoinCompare)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
@@ -472,10 +391,6 @@ items:
       type: SuperOffice.Data.SQL.JoinCompare
     content.vb: Public Sub Replace(original As JoinCompare, replacement As JoinCompare)
   overload: SuperOffice.Data.SQL.JoinRestriction.Replace*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.JoinRestriction.GetEnumerator
   commentId: M:SuperOffice.Data.SQL.JoinRestriction.GetEnumerator
   id: GetEnumerator
@@ -487,24 +402,20 @@ items:
   nameWithType: JoinRestriction.GetEnumerator()
   fullName: SuperOffice.Data.SQL.JoinRestriction.GetEnumerator()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nReturns an enumerator that iterates through a collection.\n"
+  summary: Returns an enumerator that iterates through a collection.
+  example: []
   syntax:
     content: public IEnumerator GetEnumerator()
     return:
       type: System.Collections.IEnumerator
-      description: "\nAn <xref href=\"System.Collections.IEnumerator\" data-throw-if-not-resolved=\"false\"></xref> object that can be used to iterate through the collection.\n"
-    content.vb: Public Function GetEnumerator As IEnumerator
+      description: An <xref href="System.Collections.IEnumerator" data-throw-if-not-resolved="false"></xref> object that can be used to iterate through the collection.
+    content.vb: Public Function GetEnumerator() As IEnumerator
   overload: SuperOffice.Data.SQL.JoinRestriction.GetEnumerator*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  implements:
+  - System.Collections.IEnumerable.GetEnumerator
 - uid: SuperOffice.Data.SQL.JoinRestriction.Clone
   commentId: M:SuperOffice.Data.SQL.JoinRestriction.Clone
   id: Clone
@@ -516,24 +427,20 @@ items:
   nameWithType: JoinRestriction.Clone()
   fullName: SuperOffice.Data.SQL.JoinRestriction.Clone()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nCreates a new object that is a copy of the current instance.\n"
+  summary: Creates a new object that is a copy of the current instance.
+  example: []
   syntax:
     content: public object Clone()
     return:
       type: System.Object
-      description: "\nA new object that is a copy of this instance.\n"
-    content.vb: Public Function Clone As Object
+      description: A new object that is a copy of this instance.
+    content.vb: Public Function Clone() As Object
   overload: SuperOffice.Data.SQL.JoinRestriction.Clone*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  implements:
+  - System.ICloneable.Clone
 - uid: SuperOffice.Data.SQL.JoinRestriction.ToString
   commentId: M:SuperOffice.Data.SQL.JoinRestriction.ToString
   id: ToString
@@ -545,26 +452,19 @@ items:
   nameWithType: JoinRestriction.ToString()
   fullName: SuperOffice.Data.SQL.JoinRestriction.ToString()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nString output: joins\n"
+  summary: 'String output: joins'
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: '...'
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
   overload: SuperOffice.Data.SQL.JoinRestriction.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.Data.SQL.JoinRestriction.Joins
   commentId: P:SuperOffice.Data.SQL.JoinRestriction.Joins
   id: Joins
@@ -576,13 +476,11 @@ items:
   nameWithType: JoinRestriction.Joins
   fullName: SuperOffice.Data.SQL.JoinRestriction.Joins
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nGet/Set an ArrayList of <xref href=\"SuperOffice.Data.SQL.JoinRestriction\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  summary: Get/Set an ArrayList of <xref href="SuperOffice.Data.SQL.JoinRestriction" data-throw-if-not-resolved="false"></xref>
+  example: []
   syntax:
     content: public List<JoinCompare> Joins { get; }
     parameters: []
@@ -590,12 +488,6 @@ items:
       type: System.Collections.Generic.List{SuperOffice.Data.SQL.JoinCompare}
     content.vb: Public ReadOnly Property Joins As List(Of JoinCompare)
   overload: SuperOffice.Data.SQL.JoinRestriction.Joins*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Data.SQL.JoinRestriction.Item(System.Int32)
   commentId: P:SuperOffice.Data.SQL.JoinRestriction.Item(System.Int32)
   id: Item(System.Int32)
@@ -603,17 +495,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Item[Int32]
-  nameWithType: JoinRestriction.Item[Int32]
-  fullName: SuperOffice.Data.SQL.JoinRestriction.Item[System.Int32]
+  name: this[int]
+  nameWithType: JoinRestriction.this[int]
+  fullName: SuperOffice.Data.SQL.JoinRestriction.this[int]
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nGet a JoinCompare at index \n"
+  summary: Get a JoinCompare at index
+  example: []
   syntax:
     content: public JoinCompare this[int index] { get; }
     parameters:
@@ -621,34 +511,65 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.Data.SQL.JoinCompare
-    content.vb: Public ReadOnly Property Item(index As Integer) As JoinCompare
+    content.vb: Public ReadOnly Default Property this[](index As Integer) As JoinCompare
   overload: SuperOffice.Data.SQL.JoinRestriction.Item*
-  nameWithType.vb: JoinRestriction.Item(Int32)
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-  fullName.vb: SuperOffice.Data.SQL.JoinRestriction.Item(System.Int32)
-  name.vb: Item(Int32)
+  nameWithType.vb: JoinRestriction.this[](Integer)
+  fullName.vb: SuperOffice.Data.SQL.JoinRestriction.this[](Integer)
+  name.vb: this[](Integer)
 references:
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.JoinCompare}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.JoinCompare}'
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.JoinCompare}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<JoinCompare>
   nameWithType: IEnumerable<JoinCompare>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.JoinCompare>
@@ -658,240 +579,529 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.Data.SQL.JoinCompare
     name: JoinCompare
-    nameWithType: JoinCompare
-    fullName: SuperOffice.Data.SQL.JoinCompare
     isExternal: true
+    href: SuperOffice.Data.SQL.JoinCompare.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.Data.SQL.JoinCompare
     name: JoinCompare
-    nameWithType: JoinCompare
-    fullName: SuperOffice.Data.SQL.JoinCompare
     isExternal: true
+    href: SuperOffice.Data.SQL.JoinCompare.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
   name: IEnumerable
   nameWithType: IEnumerable
   fullName: System.Collections.IEnumerable
 - uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SQL.JoinRestriction.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<JoinRestriction, To>()
-  nameWithType: EnumUtil.MapEnums<JoinRestriction, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.JoinRestriction, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of JoinRestriction, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.JoinRestriction, To)()
-  name.vb: MapEnums(Of JoinRestriction, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<JoinRestriction, To>(JoinRestriction)
+  nameWithType: EnumUtil.MapEnums<JoinRestriction, To>(JoinRestriction)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.JoinRestriction, To>(SuperOffice.Data.SQL.JoinRestriction)
+  nameWithType.vb: EnumUtil.MapEnums(Of JoinRestriction, To)(JoinRestriction)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.JoinRestriction, To)(SuperOffice.Data.SQL.JoinRestriction)
+  name.vb: MapEnums(Of JoinRestriction, To)(JoinRestriction)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<JoinRestriction, To>
-    nameWithType: EnumUtil.MapEnums<JoinRestriction, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.JoinRestriction, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.JoinRestriction)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of JoinRestriction, To)
-    nameWithType: EnumUtil.MapEnums(Of JoinRestriction, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.JoinRestriction, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.SQL.JoinRestriction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.JoinRestriction)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<JoinRestriction>(JoinRestriction)
-  nameWithType: ObjectExtensions.AssignByReflection<JoinRestriction>(JoinRestriction)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.JoinRestriction>(SuperOffice.Data.SQL.JoinRestriction)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of JoinRestriction)(JoinRestriction)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.JoinRestriction)(SuperOffice.Data.SQL.JoinRestriction)
-  name.vb: AssignByReflection(Of JoinRestriction)(JoinRestriction)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<JoinRestriction>
-    nameWithType: ObjectExtensions.AssignByReflection<JoinRestriction>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.JoinRestriction>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.Data.SQL.JoinRestriction
     name: JoinRestriction
-    nameWithType: JoinRestriction
-    fullName: SuperOffice.Data.SQL.JoinRestriction
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of JoinRestriction)
-    nameWithType: ObjectExtensions.AssignByReflection(Of JoinRestriction)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.JoinRestriction)
-    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.JoinRestriction
     name: JoinRestriction
-    nameWithType: JoinRestriction
-    fullName: SuperOffice.Data.SQL.JoinRestriction
     isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.SQL.JoinRestriction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<JoinRestriction>()
-  nameWithType: ObjectExtensions.GraphCopy<JoinRestriction>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.JoinRestriction>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of JoinRestriction)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.JoinRestriction)()
-  name.vb: GraphCopy(Of JoinRestriction)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<JoinRestriction>
-    nameWithType: ObjectExtensions.GraphCopy<JoinRestriction>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.JoinRestriction>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of JoinRestriction)
-    nameWithType: ObjectExtensions.GraphCopy(Of JoinRestriction)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.JoinRestriction)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.JoinRestriction)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.JoinRestriction
+    name: JoinRestriction
+    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.JoinRestriction
+    name: JoinRestriction
+    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
+  - name: )
 - uid: SuperOffice.Data.SQL.JoinRestriction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<JoinRestriction, To>()
-  nameWithType: Converters.MapEnums<JoinRestriction, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.JoinRestriction, To>()
-  nameWithType.vb: Converters.MapEnums(Of JoinRestriction, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.JoinRestriction, To)()
-  name.vb: MapEnums(Of JoinRestriction, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<JoinRestriction, To>(JoinRestriction)
+  nameWithType: Converters.MapEnums<JoinRestriction, To>(JoinRestriction)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.JoinRestriction, To>(SuperOffice.Data.SQL.JoinRestriction)
+  nameWithType.vb: Converters.MapEnums(Of JoinRestriction, To)(JoinRestriction)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.JoinRestriction, To)(SuperOffice.Data.SQL.JoinRestriction)
+  name.vb: MapEnums(Of JoinRestriction, To)(JoinRestriction)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<JoinRestriction, To>
-    nameWithType: Converters.MapEnums<JoinRestriction, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.JoinRestriction, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.JoinRestriction)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.SQL.JoinRestriction
+    name: JoinRestriction
+    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.SQL.JoinRestriction
+    name: JoinRestriction
+    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of JoinRestriction, To)
-    nameWithType: Converters.MapEnums(Of JoinRestriction, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.JoinRestriction, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.JoinRestriction)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.JoinRestriction
+    name: JoinRestriction
+    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.JoinRestriction
+    name: JoinRestriction
+    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
+  - name: )
+- uid: SuperOffice.Data.SQL.JoinRestriction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.JoinRestriction)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<JoinRestriction>(JoinRestriction, JoinRestriction)
+  nameWithType: ObjectExtensions.AssignByReflection<JoinRestriction>(JoinRestriction, JoinRestriction)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.JoinRestriction>(SuperOffice.Data.SQL.JoinRestriction, SuperOffice.Data.SQL.JoinRestriction)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of JoinRestriction)(JoinRestriction, JoinRestriction)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.JoinRestriction)(SuperOffice.Data.SQL.JoinRestriction, SuperOffice.Data.SQL.JoinRestriction)
+  name.vb: AssignByReflection(Of JoinRestriction)(JoinRestriction, JoinRestriction)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.JoinRestriction,SuperOffice.Data.SQL.JoinRestriction)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.SQL.JoinRestriction
+    name: JoinRestriction
+    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.JoinRestriction
+    name: JoinRestriction
+    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SQL.JoinRestriction
+    name: JoinRestriction
+    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.JoinRestriction,SuperOffice.Data.SQL.JoinRestriction)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.JoinRestriction
+    name: JoinRestriction
+    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.JoinRestriction
+    name: JoinRestriction
+    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SQL.JoinRestriction
+    name: JoinRestriction
+    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
+  - name: )
+- uid: SuperOffice.Data.SQL.JoinRestriction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<JoinRestriction>(JoinRestriction)
+  nameWithType: ObjectExtensions.GraphCopy<JoinRestriction>(JoinRestriction)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.JoinRestriction>(SuperOffice.Data.SQL.JoinRestriction)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of JoinRestriction)(JoinRestriction)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.JoinRestriction)(SuperOffice.Data.SQL.JoinRestriction)
+  name.vb: GraphCopy(Of JoinRestriction)(JoinRestriction)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SQL.JoinRestriction)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.SQL.JoinRestriction
+    name: JoinRestriction
+    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.JoinRestriction
+    name: JoinRestriction
+    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SQL.JoinRestriction)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.JoinRestriction
+    name: JoinRestriction
+    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.JoinRestriction
+    name: JoinRestriction
+    isExternal: true
+    href: SuperOffice.Data.SQL.JoinRestriction.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -900,140 +1110,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1042,62 +1157,210 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.Data.SQL.JoinRestriction
+  commentId: T:SuperOffice.Data.SQL.JoinRestriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.JoinRestriction.html
+  name: JoinRestriction
+  nameWithType: JoinRestriction
+  fullName: SuperOffice.Data.SQL.JoinRestriction
 - uid: SuperOffice.Data.SQL.JoinRestriction.#ctor*
   commentId: Overload:SuperOffice.Data.SQL.JoinRestriction.#ctor
   isExternal: true
+  href: SuperOffice.Data.SQL.JoinRestriction.html#SuperOffice_Data_SQL_JoinRestriction__ctor
   name: JoinRestriction
   nameWithType: JoinRestriction.JoinRestriction
   fullName: SuperOffice.Data.SQL.JoinRestriction.JoinRestriction
+  nameWithType.vb: JoinRestriction.New
+  fullName.vb: SuperOffice.Data.SQL.JoinRestriction.New
+  name.vb: New
 - uid: SuperOffice.Data.SQL.JoinRestriction.GetNumberOfItems*
   commentId: Overload:SuperOffice.Data.SQL.JoinRestriction.GetNumberOfItems
   isExternal: true
+  href: SuperOffice.Data.SQL.JoinRestriction.html#SuperOffice_Data_SQL_JoinRestriction_GetNumberOfItems
   name: GetNumberOfItems
   nameWithType: JoinRestriction.GetNumberOfItems
   fullName: SuperOffice.Data.SQL.JoinRestriction.GetNumberOfItems
@@ -1105,12 +1368,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.Data.SQL.JoinRestriction.LeftOuterJoin*
   commentId: Overload:SuperOffice.Data.SQL.JoinRestriction.LeftOuterJoin
   isExternal: true
+  href: SuperOffice.Data.SQL.JoinRestriction.html#SuperOffice_Data_SQL_JoinRestriction_LeftOuterJoin_SuperOffice_Data_SQL_Equal_
   name: LeftOuterJoin
   nameWithType: JoinRestriction.LeftOuterJoin
   fullName: SuperOffice.Data.SQL.JoinRestriction.LeftOuterJoin
@@ -1118,6 +1386,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.Equal
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.Equal.html
   name: Equal
   nameWithType: Equal
   fullName: SuperOffice.Data.SQL.Equal
@@ -1125,37 +1394,35 @@ references:
   commentId: T:SuperOffice.Data.SQL.Restriction
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.Restriction.html
   name: Restriction
   nameWithType: Restriction
   fullName: SuperOffice.Data.SQL.Restriction
 - uid: SuperOffice.Data.SQL.JoinRestriction.InnerJoin*
   commentId: Overload:SuperOffice.Data.SQL.JoinRestriction.InnerJoin
   isExternal: true
+  href: SuperOffice.Data.SQL.JoinRestriction.html#SuperOffice_Data_SQL_JoinRestriction_InnerJoin_SuperOffice_Data_SQL_Equal_
   name: InnerJoin
   nameWithType: JoinRestriction.InnerJoin
   fullName: SuperOffice.Data.SQL.JoinRestriction.InnerJoin
 - uid: SuperOffice.Data.SQL.JoinRestriction.RightOuterJoin*
   commentId: Overload:SuperOffice.Data.SQL.JoinRestriction.RightOuterJoin
   isExternal: true
+  href: SuperOffice.Data.SQL.JoinRestriction.html#SuperOffice_Data_SQL_JoinRestriction_RightOuterJoin_SuperOffice_Data_SQL_Equal_
   name: RightOuterJoin
   nameWithType: JoinRestriction.RightOuterJoin
   fullName: SuperOffice.Data.SQL.JoinRestriction.RightOuterJoin
 - uid: SuperOffice.Data.SQL.JoinRestriction.AppendJoinRestriction*
   commentId: Overload:SuperOffice.Data.SQL.JoinRestriction.AppendJoinRestriction
   isExternal: true
+  href: SuperOffice.Data.SQL.JoinRestriction.html#SuperOffice_Data_SQL_JoinRestriction_AppendJoinRestriction_SuperOffice_Data_SQL_JoinRestriction_
   name: AppendJoinRestriction
   nameWithType: JoinRestriction.AppendJoinRestriction
   fullName: SuperOffice.Data.SQL.JoinRestriction.AppendJoinRestriction
-- uid: SuperOffice.Data.SQL.JoinRestriction
-  commentId: T:SuperOffice.Data.SQL.JoinRestriction
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: JoinRestriction
-  nameWithType: JoinRestriction
-  fullName: SuperOffice.Data.SQL.JoinRestriction
 - uid: SuperOffice.Data.SQL.JoinRestriction.AddJoin*
   commentId: Overload:SuperOffice.Data.SQL.JoinRestriction.AddJoin
   isExternal: true
+  href: SuperOffice.Data.SQL.JoinRestriction.html#SuperOffice_Data_SQL_JoinRestriction_AddJoin__1_SuperOffice_Data_SQL_TargetedInnerJoin___0__
   name: AddJoin
   nameWithType: JoinRestriction.AddJoin
   fullName: SuperOffice.Data.SQL.JoinRestriction.AddJoin
@@ -1163,6 +1430,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{``0}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TargetTableInfo>
   nameWithType: TargetedInnerJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
@@ -1172,33 +1440,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: '{TargetTableInfo}'
   commentId: '!:TargetTableInfo'
   definition: TargetTableInfo
@@ -1208,6 +1464,7 @@ references:
 - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TargetTableInfo>
   nameWithType: TargetedInnerJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
@@ -1217,33 +1474,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: TargetTableInfo
   name: TargetTableInfo
   nameWithType: TargetTableInfo
@@ -1252,6 +1497,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{``0}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TargetTableInfo>
   nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
@@ -1261,36 +1507,25 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TargetTableInfo>
   nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
@@ -1300,36 +1535,25 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.JoinRestriction.Remove*
   commentId: Overload:SuperOffice.Data.SQL.JoinRestriction.Remove
   isExternal: true
+  href: SuperOffice.Data.SQL.JoinRestriction.html#SuperOffice_Data_SQL_JoinRestriction_Remove_SuperOffice_Data_SQL_JoinCompare_
   name: Remove
   nameWithType: JoinRestriction.Remove
   fullName: SuperOffice.Data.SQL.JoinRestriction.Remove
@@ -1337,35 +1561,111 @@ references:
   commentId: T:SuperOffice.Data.SQL.JoinCompare
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.JoinCompare.html
   name: JoinCompare
   nameWithType: JoinCompare
   fullName: SuperOffice.Data.SQL.JoinCompare
 - uid: SuperOffice.Data.SQL.JoinRestriction.Replace*
   commentId: Overload:SuperOffice.Data.SQL.JoinRestriction.Replace
   isExternal: true
+  href: SuperOffice.Data.SQL.JoinRestriction.html#SuperOffice_Data_SQL_JoinRestriction_Replace_SuperOffice_Data_SQL_JoinCompare_SuperOffice_Data_SQL_JoinCompare_
   name: Replace
   nameWithType: JoinRestriction.Replace
   fullName: SuperOffice.Data.SQL.JoinRestriction.Replace
-- uid: SuperOffice.Data.SQL.JoinRestriction.GetEnumerator*
-  commentId: Overload:SuperOffice.Data.SQL.JoinRestriction.GetEnumerator
-  isExternal: true
-  name: GetEnumerator
-  nameWithType: JoinRestriction.GetEnumerator
-  fullName: SuperOffice.Data.SQL.JoinRestriction.GetEnumerator
 - uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
+- uid: SuperOffice.Data.SQL.JoinRestriction.GetEnumerator*
+  commentId: Overload:SuperOffice.Data.SQL.JoinRestriction.GetEnumerator
+  isExternal: true
+  href: SuperOffice.Data.SQL.JoinRestriction.html#SuperOffice_Data_SQL_JoinRestriction_GetEnumerator
+  name: GetEnumerator
+  nameWithType: JoinRestriction.GetEnumerator
+  fullName: SuperOffice.Data.SQL.JoinRestriction.GetEnumerator
+- uid: System.Collections.IEnumerable.GetEnumerator
+  commentId: M:System.Collections.IEnumerable.GetEnumerator
+  parent: System.Collections.IEnumerable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable.GetEnumerator()
+  fullName: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SQL.JoinRestriction.Clone*
   commentId: Overload:SuperOffice.Data.SQL.JoinRestriction.Clone
   isExternal: true
+  href: SuperOffice.Data.SQL.JoinRestriction.html#SuperOffice_Data_SQL_JoinRestriction_Clone
   name: Clone
   nameWithType: JoinRestriction.Clone
   fullName: SuperOffice.Data.SQL.JoinRestriction.Clone
+- uid: System.ICloneable.Clone
+  commentId: M:System.ICloneable.Clone
+  parent: System.ICloneable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
+  name: Clone()
+  nameWithType: ICloneable.Clone()
+  fullName: System.ICloneable.Clone()
+  spec.csharp:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SQL.JoinRestriction.ToString*
   commentId: Overload:SuperOffice.Data.SQL.JoinRestriction.ToString
   isExternal: true
+  href: SuperOffice.Data.SQL.JoinRestriction.html#SuperOffice_Data_SQL_JoinRestriction_ToString
   name: ToString
   nameWithType: JoinRestriction.ToString
   fullName: SuperOffice.Data.SQL.JoinRestriction.ToString
@@ -1373,18 +1673,25 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Data.SQL.JoinRestriction.Joins*
   commentId: Overload:SuperOffice.Data.SQL.JoinRestriction.Joins
   isExternal: true
+  href: SuperOffice.Data.SQL.JoinRestriction.html#SuperOffice_Data_SQL_JoinRestriction_Joins
   name: Joins
   nameWithType: JoinRestriction.Joins
   fullName: SuperOffice.Data.SQL.JoinRestriction.Joins
 - uid: System.Collections.Generic.List{SuperOffice.Data.SQL.JoinCompare}
-  commentId: '!:System.Collections.Generic.List{SuperOffice.Data.SQL.JoinCompare}'
+  commentId: T:System.Collections.Generic.List{SuperOffice.Data.SQL.JoinCompare}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<JoinCompare>
   nameWithType: List<JoinCompare>
   fullName: System.Collections.Generic.List<SuperOffice.Data.SQL.JoinCompare>
@@ -1394,78 +1701,62 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.Data.SQL.JoinCompare
     name: JoinCompare
-    nameWithType: JoinCompare
-    fullName: SuperOffice.Data.SQL.JoinCompare
     isExternal: true
+    href: SuperOffice.Data.SQL.JoinCompare.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.Data.SQL.JoinCompare
     name: JoinCompare
-    nameWithType: JoinCompare
-    fullName: SuperOffice.Data.SQL.JoinCompare
     isExternal: true
+    href: SuperOffice.Data.SQL.JoinCompare.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<>
-  nameWithType: List<>
-  fullName: System.Collections.Generic.List<>
-  nameWithType.vb: List(Of )
-  fullName.vb: System.Collections.Generic.List(Of )
-  name.vb: List(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.JoinRestriction.Item*
   commentId: Overload:SuperOffice.Data.SQL.JoinRestriction.Item
   isExternal: true
-  name: Item
-  nameWithType: JoinRestriction.Item
-  fullName: SuperOffice.Data.SQL.JoinRestriction.Item
+  href: SuperOffice.Data.SQL.JoinRestriction.html#SuperOffice_Data_SQL_JoinRestriction_Item_System_Int32_
+  name: this
+  nameWithType: JoinRestriction.this
+  fullName: SuperOffice.Data.SQL.JoinRestriction.this
+  nameWithType.vb: JoinRestriction.this[]
+  fullName.vb: SuperOffice.Data.SQL.JoinRestriction.this[]
+  name.vb: this[]

@@ -1,0 +1,1002 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.ParallelizedProcessor
+  commentId: T:SuperOffice.Threading.ParallelizedProcessor
+  id: ParallelizedProcessor
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.ParallelizedProcessor.#ctor
+  - SuperOffice.Threading.ParallelizedProcessor.Cleanup
+  - SuperOffice.Threading.ParallelizedProcessor.ExecuteAsync(SuperOffice.Threading.IParallelizedProcessorControlPlane,System.Threading.CancellationToken)
+  - SuperOffice.Threading.ParallelizedProcessor.Id
+  - SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync(System.Threading.CancellationToken)
+  - SuperOffice.Threading.ParallelizedProcessor._controlPlane
+  langs:
+  - csharp
+  - vb
+  name: ParallelizedProcessor
+  nameWithType: ParallelizedProcessor
+  fullName: SuperOffice.Threading.ParallelizedProcessor
+  type: Class
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: >-
+    Base class for processing that can be run in parallel and controlled by the
+
+    <xref href="SuperOffice.Threading.IParallelizedProcessorControlPlane" data-throw-if-not-resolved="false"></xref>.  This is typically an instance of
+
+    <xref href="SuperOffice.Threading.ParallelProcessor%601" data-throw-if-not-resolved="false"></xref>.
+  remarks: >-
+    Class implementing this abstract classes are responsible for processing parts in parallel,
+
+    by implementint the abstract method <xref href="SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync(System.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public abstract class ParallelizedProcessor
+    content.vb: Public MustInherit Class ParallelizedProcessor
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Threading.ParallelizedProcessor.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.ParallelizedProcessor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Threading.ParallelizedProcessor._controlPlane
+  commentId: F:SuperOffice.Threading.ParallelizedProcessor._controlPlane
+  id: _controlPlane
+  parent: SuperOffice.Threading.ParallelizedProcessor
+  langs:
+  - csharp
+  - vb
+  name: _controlPlane
+  nameWithType: ParallelizedProcessor._controlPlane
+  fullName: SuperOffice.Threading.ParallelizedProcessor._controlPlane
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Controle plane for the processor.
+  example: []
+  syntax:
+    content: protected IParallelizedProcessorControlPlane _controlPlane
+    return:
+      type: SuperOffice.Threading.IParallelizedProcessorControlPlane
+    content.vb: Protected _controlPlane As IParallelizedProcessorControlPlane
+- uid: SuperOffice.Threading.ParallelizedProcessor.#ctor
+  commentId: M:SuperOffice.Threading.ParallelizedProcessor.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Threading.ParallelizedProcessor
+  langs:
+  - csharp
+  - vb
+  name: ParallelizedProcessor()
+  nameWithType: ParallelizedProcessor.ParallelizedProcessor()
+  fullName: SuperOffice.Threading.ParallelizedProcessor.ParallelizedProcessor()
+  type: Constructor
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: protected ParallelizedProcessor()
+    content.vb: Protected Sub New()
+  overload: SuperOffice.Threading.ParallelizedProcessor.#ctor*
+  nameWithType.vb: ParallelizedProcessor.New()
+  fullName.vb: SuperOffice.Threading.ParallelizedProcessor.New()
+  name.vb: New()
+- uid: SuperOffice.Threading.ParallelizedProcessor.ExecuteAsync(SuperOffice.Threading.IParallelizedProcessorControlPlane,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.ParallelizedProcessor.ExecuteAsync(SuperOffice.Threading.IParallelizedProcessorControlPlane,System.Threading.CancellationToken)
+  id: ExecuteAsync(SuperOffice.Threading.IParallelizedProcessorControlPlane,System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.ParallelizedProcessor
+  langs:
+  - csharp
+  - vb
+  name: ExecuteAsync(IParallelizedProcessorControlPlane, CancellationToken)
+  nameWithType: ParallelizedProcessor.ExecuteAsync(IParallelizedProcessorControlPlane, CancellationToken)
+  fullName: SuperOffice.Threading.ParallelizedProcessor.ExecuteAsync(SuperOffice.Threading.IParallelizedProcessorControlPlane, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Called by the <xref href="SuperOffice.Threading.ParallelProcessor%601" data-throw-if-not-resolved="false"></xref> to start processing.
+  remarks: >-
+    Processing should continue as long as cancellation is not requested or
+
+    <xref href="SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)" data-throw-if-not-resolved="false"></xref> returns false.
+
+    Any exception occuring while processing, shoudl be reported to the control plane using
+
+    <xref href="SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(SuperOffice.Threading.ParallelizedProcessor%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.  When processing
+
+    has ended, for any reason, the control plane should be notified by calling
+
+    <xref href="SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)" data-throw-if-not-resolved="false"></xref>.  This will alse ensure that
+
+    New tasks are started up as needed.
+  example: []
+  syntax:
+    content: public Task ExecuteAsync(IParallelizedProcessorControlPlane controlPlane, CancellationToken cancellationToken)
+    parameters:
+    - id: controlPlane
+      type: SuperOffice.Threading.IParallelizedProcessorControlPlane
+      description: Control plane backing the processing.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function ExecuteAsync(controlPlane As IParallelizedProcessorControlPlane, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.Threading.ParallelizedProcessor.ExecuteAsync*
+- uid: SuperOffice.Threading.ParallelizedProcessor.Cleanup
+  commentId: M:SuperOffice.Threading.ParallelizedProcessor.Cleanup
+  id: Cleanup
+  parent: SuperOffice.Threading.ParallelizedProcessor
+  langs:
+  - csharp
+  - vb
+  name: Cleanup()
+  nameWithType: ParallelizedProcessor.Cleanup()
+  fullName: SuperOffice.Threading.ParallelizedProcessor.Cleanup()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Virtual method that can be overridden by the derived class to perform cleanup when processing is done.
+  example: []
+  syntax:
+    content: protected virtual void Cleanup()
+    content.vb: Protected Overridable Sub Cleanup()
+  overload: SuperOffice.Threading.ParallelizedProcessor.Cleanup*
+- uid: SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync(System.Threading.CancellationToken)
+  id: ProcessPartAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.ParallelizedProcessor
+  langs:
+  - csharp
+  - vb
+  name: ProcessPartAsync(CancellationToken)
+  nameWithType: ParallelizedProcessor.ProcessPartAsync(CancellationToken)
+  fullName: SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Abstract method that must be implemented by the derived class to process a part of the work.
+  example: []
+  syntax:
+    content: public abstract Task ProcessPartAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: Work should be safely terminated on cancellation.  This is typically set when service is instructed to stop.
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public MustOverride Function ProcessPartAsync(cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync*
+- uid: SuperOffice.Threading.ParallelizedProcessor.Id
+  commentId: P:SuperOffice.Threading.ParallelizedProcessor.Id
+  id: Id
+  parent: SuperOffice.Threading.ParallelizedProcessor
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ParallelizedProcessor.Id
+  fullName: SuperOffice.Threading.ParallelizedProcessor.Id
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Process-wide uniqe identifier. of the processor.  Counter starts at 0, and is incremented for each new instance.
+  example: []
+  syntax:
+    content: public int Id { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Id As Integer
+  overload: SuperOffice.Threading.ParallelizedProcessor.Id*
+references:
+- uid: SuperOffice.Threading.IParallelizedProcessorControlPlane
+  commentId: T:SuperOffice.Threading.IParallelizedProcessorControlPlane
+  parent: SuperOffice.Threading
+  isExternal: true
+  href: SuperOffice.Threading.IParallelizedProcessorControlPlane.html
+  name: IParallelizedProcessorControlPlane
+  nameWithType: IParallelizedProcessorControlPlane
+  fullName: SuperOffice.Threading.IParallelizedProcessorControlPlane
+- uid: SuperOffice.Threading.ParallelProcessor`1
+  commentId: T:SuperOffice.Threading.ParallelProcessor`1
+  isExternal: true
+  href: SuperOffice.Threading.ParallelProcessor-1.html
+  name: ParallelProcessor<TParallelizedProcessor>
+  nameWithType: ParallelProcessor<TParallelizedProcessor>
+  fullName: SuperOffice.Threading.ParallelProcessor<TParallelizedProcessor>
+  nameWithType.vb: ParallelProcessor(Of TParallelizedProcessor)
+  fullName.vb: SuperOffice.Threading.ParallelProcessor(Of TParallelizedProcessor)
+  name.vb: ParallelProcessor(Of TParallelizedProcessor)
+  spec.csharp:
+  - uid: SuperOffice.Threading.ParallelProcessor`1
+    name: ParallelProcessor
+    isExternal: true
+    href: SuperOffice.Threading.ParallelProcessor-1.html
+  - name: <
+  - name: TParallelizedProcessor
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.ParallelProcessor`1
+    name: ParallelProcessor
+    isExternal: true
+    href: SuperOffice.Threading.ParallelProcessor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TParallelizedProcessor
+  - name: )
+- uid: SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync(System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.Threading.ParallelizedProcessor.html#SuperOffice_Threading_ParallelizedProcessor_ProcessPartAsync_System_Threading_CancellationToken_
+  name: ProcessPartAsync(CancellationToken)
+  nameWithType: ParallelizedProcessor.ProcessPartAsync(CancellationToken)
+  fullName: SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync(System.Threading.CancellationToken)
+    name: ProcessPartAsync
+    isExternal: true
+    href: SuperOffice.Threading.ParallelizedProcessor.html#SuperOffice_Threading_ParallelizedProcessor_ProcessPartAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync(System.Threading.CancellationToken)
+    name: ProcessPartAsync
+    isExternal: true
+    href: SuperOffice.Threading.ParallelizedProcessor.html#SuperOffice_Threading_ParallelizedProcessor_ProcessPartAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.Threading.ParallelizedProcessor.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ParallelizedProcessor, To>(ParallelizedProcessor)
+  nameWithType: EnumUtil.MapEnums<ParallelizedProcessor, To>(ParallelizedProcessor)
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.ParallelizedProcessor, To>(SuperOffice.Threading.ParallelizedProcessor)
+  nameWithType.vb: EnumUtil.MapEnums(Of ParallelizedProcessor, To)(ParallelizedProcessor)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.ParallelizedProcessor, To)(SuperOffice.Threading.ParallelizedProcessor)
+  name.vb: MapEnums(Of ParallelizedProcessor, To)(ParallelizedProcessor)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.ParallelizedProcessor)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    isExternal: true
+    href: SuperOffice.Threading.ParallelizedProcessor.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    isExternal: true
+    href: SuperOffice.Threading.ParallelizedProcessor.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.ParallelizedProcessor)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    isExternal: true
+    href: SuperOffice.Threading.ParallelizedProcessor.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    isExternal: true
+    href: SuperOffice.Threading.ParallelizedProcessor.html
+  - name: )
+- uid: SuperOffice.Threading.ParallelizedProcessor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ParallelizedProcessor, To>(ParallelizedProcessor)
+  nameWithType: Converters.MapEnums<ParallelizedProcessor, To>(ParallelizedProcessor)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.ParallelizedProcessor, To>(SuperOffice.Threading.ParallelizedProcessor)
+  nameWithType.vb: Converters.MapEnums(Of ParallelizedProcessor, To)(ParallelizedProcessor)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.ParallelizedProcessor, To)(SuperOffice.Threading.ParallelizedProcessor)
+  name.vb: MapEnums(Of ParallelizedProcessor, To)(ParallelizedProcessor)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.ParallelizedProcessor)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    isExternal: true
+    href: SuperOffice.Threading.ParallelizedProcessor.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    isExternal: true
+    href: SuperOffice.Threading.ParallelizedProcessor.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.ParallelizedProcessor)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    isExternal: true
+    href: SuperOffice.Threading.ParallelizedProcessor.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    isExternal: true
+    href: SuperOffice.Threading.ParallelizedProcessor.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Threading.ParallelizedProcessor.#ctor*
+  commentId: Overload:SuperOffice.Threading.ParallelizedProcessor.#ctor
+  isExternal: true
+  href: SuperOffice.Threading.ParallelizedProcessor.html#SuperOffice_Threading_ParallelizedProcessor__ctor
+  name: ParallelizedProcessor
+  nameWithType: ParallelizedProcessor.ParallelizedProcessor
+  fullName: SuperOffice.Threading.ParallelizedProcessor.ParallelizedProcessor
+  nameWithType.vb: ParallelizedProcessor.New
+  fullName.vb: SuperOffice.Threading.ParallelizedProcessor.New
+  name.vb: New
+- uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+  commentId: M:SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+  isExternal: true
+  href: SuperOffice.Threading.IParallelizedProcessorControlPlane.html#SuperOffice_Threading_IParallelizedProcessorControlPlane_ShouldProcessorContinue_SuperOffice_Threading_ParallelizedProcessor_
+  name: ShouldProcessorContinue(ParallelizedProcessor)
+  nameWithType: IParallelizedProcessorControlPlane.ShouldProcessorContinue(ParallelizedProcessor)
+  fullName: SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+    name: ShouldProcessorContinue
+    isExternal: true
+    href: SuperOffice.Threading.IParallelizedProcessorControlPlane.html#SuperOffice_Threading_IParallelizedProcessorControlPlane_ShouldProcessorContinue_SuperOffice_Threading_ParallelizedProcessor_
+  - name: (
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    isExternal: true
+    href: SuperOffice.Threading.ParallelizedProcessor.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ShouldProcessorContinue(SuperOffice.Threading.ParallelizedProcessor)
+    name: ShouldProcessorContinue
+    isExternal: true
+    href: SuperOffice.Threading.IParallelizedProcessorControlPlane.html#SuperOffice_Threading_IParallelizedProcessorControlPlane_ShouldProcessorContinue_SuperOffice_Threading_ParallelizedProcessor_
+  - name: (
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    isExternal: true
+    href: SuperOffice.Threading.ParallelizedProcessor.html
+  - name: )
+- uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(SuperOffice.Threading.ParallelizedProcessor,System.Exception)
+  commentId: M:SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(SuperOffice.Threading.ParallelizedProcessor,System.Exception)
+  isExternal: true
+  href: SuperOffice.Threading.IParallelizedProcessorControlPlane.html#SuperOffice_Threading_IParallelizedProcessorControlPlane_ReportError_SuperOffice_Threading_ParallelizedProcessor_System_Exception_
+  name: ReportError(ParallelizedProcessor, Exception)
+  nameWithType: IParallelizedProcessorControlPlane.ReportError(ParallelizedProcessor, Exception)
+  fullName: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(SuperOffice.Threading.ParallelizedProcessor, System.Exception)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(SuperOffice.Threading.ParallelizedProcessor,System.Exception)
+    name: ReportError
+    isExternal: true
+    href: SuperOffice.Threading.IParallelizedProcessorControlPlane.html#SuperOffice_Threading_IParallelizedProcessorControlPlane_ReportError_SuperOffice_Threading_ParallelizedProcessor_System_Exception_
+  - name: (
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    isExternal: true
+    href: SuperOffice.Threading.ParallelizedProcessor.html
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportError(SuperOffice.Threading.ParallelizedProcessor,System.Exception)
+    name: ReportError
+    isExternal: true
+    href: SuperOffice.Threading.IParallelizedProcessorControlPlane.html#SuperOffice_Threading_IParallelizedProcessorControlPlane_ReportError_SuperOffice_Threading_ParallelizedProcessor_System_Exception_
+  - name: (
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    isExternal: true
+    href: SuperOffice.Threading.ParallelizedProcessor.html
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+  commentId: M:SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+  isExternal: true
+  href: SuperOffice.Threading.IParallelizedProcessorControlPlane.html#SuperOffice_Threading_IParallelizedProcessorControlPlane_ReportCompleted_SuperOffice_Threading_ParallelizedProcessor_
+  name: ReportCompleted(ParallelizedProcessor)
+  nameWithType: IParallelizedProcessorControlPlane.ReportCompleted(ParallelizedProcessor)
+  fullName: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+    name: ReportCompleted
+    isExternal: true
+    href: SuperOffice.Threading.IParallelizedProcessorControlPlane.html#SuperOffice_Threading_IParallelizedProcessorControlPlane_ReportCompleted_SuperOffice_Threading_ParallelizedProcessor_
+  - name: (
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    isExternal: true
+    href: SuperOffice.Threading.ParallelizedProcessor.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.IParallelizedProcessorControlPlane.ReportCompleted(SuperOffice.Threading.ParallelizedProcessor)
+    name: ReportCompleted
+    isExternal: true
+    href: SuperOffice.Threading.IParallelizedProcessorControlPlane.html#SuperOffice_Threading_IParallelizedProcessorControlPlane_ReportCompleted_SuperOffice_Threading_ParallelizedProcessor_
+  - name: (
+  - uid: SuperOffice.Threading.ParallelizedProcessor
+    name: ParallelizedProcessor
+    isExternal: true
+    href: SuperOffice.Threading.ParallelizedProcessor.html
+  - name: )
+- uid: SuperOffice.Threading.ParallelizedProcessor.ExecuteAsync*
+  commentId: Overload:SuperOffice.Threading.ParallelizedProcessor.ExecuteAsync
+  isExternal: true
+  href: SuperOffice.Threading.ParallelizedProcessor.html#SuperOffice_Threading_ParallelizedProcessor_ExecuteAsync_SuperOffice_Threading_IParallelizedProcessorControlPlane_System_Threading_CancellationToken_
+  name: ExecuteAsync
+  nameWithType: ParallelizedProcessor.ExecuteAsync
+  fullName: SuperOffice.Threading.ParallelizedProcessor.ExecuteAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.Threading.ParallelizedProcessor.Cleanup*
+  commentId: Overload:SuperOffice.Threading.ParallelizedProcessor.Cleanup
+  isExternal: true
+  href: SuperOffice.Threading.ParallelizedProcessor.html#SuperOffice_Threading_ParallelizedProcessor_Cleanup
+  name: Cleanup
+  nameWithType: ParallelizedProcessor.Cleanup
+  fullName: SuperOffice.Threading.ParallelizedProcessor.Cleanup
+- uid: SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync*
+  commentId: Overload:SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync
+  isExternal: true
+  href: SuperOffice.Threading.ParallelizedProcessor.html#SuperOffice_Threading_ParallelizedProcessor_ProcessPartAsync_System_Threading_CancellationToken_
+  name: ProcessPartAsync
+  nameWithType: ParallelizedProcessor.ProcessPartAsync
+  fullName: SuperOffice.Threading.ParallelizedProcessor.ProcessPartAsync
+- uid: SuperOffice.Threading.ParallelizedProcessor.Id*
+  commentId: Overload:SuperOffice.Threading.ParallelizedProcessor.Id
+  isExternal: true
+  href: SuperOffice.Threading.ParallelizedProcessor.html#SuperOffice_Threading_ParallelizedProcessor_Id
+  name: Id
+  nameWithType: ParallelizedProcessor.Id
+  fullName: SuperOffice.Threading.ParallelizedProcessor.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

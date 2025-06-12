@@ -5,10 +5,10 @@ items:
   id: UrlFormatter
   parent: SuperOffice.CRM.Globalization
   children:
-  - SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Entities.Contact)
-  - SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Entities.Person)
   - SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Rows.URLRow)
   - SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(System.String,System.String)
+  - SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddressAsync(SuperOffice.CRM.Entities.Contact,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddressAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
   - SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme(System.String)
   langs:
   - csharp
@@ -17,26 +17,22 @@ items:
   nameWithType: UrlFormatter
   fullName: SuperOffice.CRM.Globalization.UrlFormatter
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
   syntax:
-    content: 'public static class UrlFormatter : Object'
-    content.vb: >-
-      Public Module UrlFormatter
-          Inherits Object
+    content: public static class UrlFormatter
+    content.vb: Public Module UrlFormatter
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(System.String,System.String)
   commentId: M:SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(System.String,System.String)
   id: GetDisplayAddress(System.String,System.String)
@@ -44,13 +40,10 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDisplayAddress(String, String)
-  nameWithType: UrlFormatter.GetDisplayAddress(String, String)
-  fullName: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(System.String, System.String)
+  name: GetDisplayAddress(string, string)
+  nameWithType: UrlFormatter.GetDisplayAddress(string, string)
+  fullName: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(string, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
@@ -65,12 +58,9 @@ items:
       type: System.String
     content.vb: Public Shared Function GetDisplayAddress(url As String, description As String) As String
   overload: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: UrlFormatter.GetDisplayAddress(String, String)
+  fullName.vb: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(String, String)
+  name.vb: GetDisplayAddress(String, String)
 - uid: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Rows.URLRow)
   commentId: M:SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Rows.URLRow)
   id: GetDisplayAddress(SuperOffice.CRM.Rows.URLRow)
@@ -82,9 +72,6 @@ items:
   nameWithType: UrlFormatter.GetDisplayAddress(URLRow)
   fullName: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Rows.URLRow)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
@@ -97,76 +84,56 @@ items:
       type: System.String
     content.vb: Public Shared Function GetDisplayAddress(urlRow As URLRow) As String
   overload: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Entities.Contact)
-  commentId: M:SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Entities.Contact)
-  id: GetDisplayAddress(SuperOffice.CRM.Entities.Contact)
+- uid: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddressAsync(SuperOffice.CRM.Entities.Contact,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddressAsync(SuperOffice.CRM.Entities.Contact,System.Threading.CancellationToken)
+  id: GetDisplayAddressAsync(SuperOffice.CRM.Entities.Contact,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Globalization.UrlFormatter
   langs:
   - csharp
   - vb
-  name: GetDisplayAddress(Contact)
-  nameWithType: UrlFormatter.GetDisplayAddress(Contact)
-  fullName: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Entities.Contact)
+  name: GetDisplayAddressAsync(Contact, CancellationToken)
+  nameWithType: UrlFormatter.GetDisplayAddressAsync(Contact, CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddressAsync(SuperOffice.CRM.Entities.Contact, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
   syntax:
-    content: public static string GetDisplayAddress(Contact contact)
+    content: public static Task<string> GetDisplayAddressAsync(Contact contact, CancellationToken cancellationToken = default)
     parameters:
     - id: contact
       type: SuperOffice.CRM.Entities.Contact
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetDisplayAddress(contact As Contact) As String
-  overload: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Entities.Person)
-  commentId: M:SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Entities.Person)
-  id: GetDisplayAddress(SuperOffice.CRM.Entities.Person)
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetDisplayAddressAsync(contact As Contact, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddressAsync*
+- uid: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddressAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddressAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
+  id: GetDisplayAddressAsync(SuperOffice.CRM.Entities.Person,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Globalization.UrlFormatter
   langs:
   - csharp
   - vb
-  name: GetDisplayAddress(Person)
-  nameWithType: UrlFormatter.GetDisplayAddress(Person)
-  fullName: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Entities.Person)
+  name: GetDisplayAddressAsync(Person, CancellationToken)
+  nameWithType: UrlFormatter.GetDisplayAddressAsync(Person, CancellationToken)
+  fullName: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddressAsync(SuperOffice.CRM.Entities.Person, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
   syntax:
-    content: public static string GetDisplayAddress(Person person)
+    content: public static Task<string> GetDisplayAddressAsync(Person person, CancellationToken cancellationToken = default)
     parameters:
     - id: person
       type: SuperOffice.CRM.Entities.Person
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetDisplayAddress(person As Person) As String
-  overload: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetDisplayAddressAsync(person As Person, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddressAsync*
 - uid: SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme(System.String)
   commentId: M:SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme(System.String)
   id: StripUrlScheme(System.String)
@@ -174,13 +141,10 @@ items:
   langs:
   - csharp
   - vb
-  name: StripUrlScheme(String)
-  nameWithType: UrlFormatter.StripUrlScheme(String)
-  fullName: SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme(System.String)
+  name: StripUrlScheme(string)
+  nameWithType: UrlFormatter.StripUrlScheme(string)
+  fullName: SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
@@ -193,35 +157,288 @@ items:
       type: System.String
     content.vb: Public Shared Function StripUrlScheme(url As String) As String
   overload: SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: UrlFormatter.StripUrlScheme(String)
+  fullName.vb: SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme(String)
+  name.vb: StripUrlScheme(String)
 references:
 - uid: SuperOffice.CRM.Globalization
   commentId: N:SuperOffice.CRM.Globalization
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Globalization
   nameWithType: SuperOffice.CRM.Globalization
   fullName: SuperOffice.CRM.Globalization
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress*
   commentId: Overload:SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress
   isExternal: true
+  href: SuperOffice.CRM.Globalization.UrlFormatter.html#SuperOffice_CRM_Globalization_UrlFormatter_GetDisplayAddress_System_String_System_String_
   name: GetDisplayAddress
   nameWithType: UrlFormatter.GetDisplayAddress
   fullName: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress
@@ -229,45 +446,257 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Rows.URLRow
   commentId: T:SuperOffice.CRM.Rows.URLRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.URLRow.html
   name: URLRow
   nameWithType: URLRow
   fullName: SuperOffice.CRM.Rows.URLRow
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddressAsync*
+  commentId: Overload:SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddressAsync
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.UrlFormatter.html#SuperOffice_CRM_Globalization_UrlFormatter_GetDisplayAddressAsync_SuperOffice_CRM_Entities_Contact_System_Threading_CancellationToken_
+  name: GetDisplayAddressAsync
+  nameWithType: UrlFormatter.GetDisplayAddressAsync
+  fullName: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddressAsync
 - uid: SuperOffice.CRM.Entities.Contact
   commentId: T:SuperOffice.CRM.Entities.Contact
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.Contact.html
   name: Contact
   nameWithType: Contact
   fullName: SuperOffice.CRM.Entities.Contact
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.CRM.Entities.Person
   commentId: T:SuperOffice.CRM.Entities.Person
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.Person.html
   name: Person
   nameWithType: Person
   fullName: SuperOffice.CRM.Entities.Person
 - uid: SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme*
   commentId: Overload:SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme
   isExternal: true
+  href: SuperOffice.CRM.Globalization.UrlFormatter.html#SuperOffice_CRM_Globalization_UrlFormatter_StripUrlScheme_System_String_
   name: StripUrlScheme
   nameWithType: UrlFormatter.StripUrlScheme
   fullName: SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme

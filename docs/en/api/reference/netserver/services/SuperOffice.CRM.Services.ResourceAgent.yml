@@ -5,12 +5,13 @@ items:
   id: ResourceAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.ResourceAgent.#ctor
-  - SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
-  - SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution(System.String,System.String)
-  - SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
-  - SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
-  - SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Services.ResourceAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.ResourceAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitutionAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitutionAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutionsAsync(System.String[],System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActiveAsync(System.String[],System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitutionAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -18,57 +19,106 @@ items:
   nameWithType: ResourceAgent
   fullName: SuperOffice.CRM.Services.ResourceAgent
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nFacade for the Resource Agent\nString resource substitution management.\n"
-  example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ResourceAgent agent = new ResourceAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  summary: >-
+    Proxy class for the Resource Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
   syntax:
-    content: 'public class ResourceAgent : AgentBase<IResourceAgent>, IDisposable, IResourceAgent, IAgent'
-    content.vb: >-
-      Public Class ResourceAgent
-          Inherits AgentBase(Of IResourceAgent)
-          Implements IDisposable, IResourceAgent, IAgent
+    content: 'public class ResourceAgent : IResourceAgent, IAgent'
+    content.vb: Public Class ResourceAgent Implements IResourceAgent, IAgent
   inheritance:
   - System.Object
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}
   implements:
-  - System.IDisposable
   - SuperOffice.CRM.Services.IResourceAgent
   - SuperOffice.CRM.Services.IAgent
   inheritedMembers:
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}.Dispose
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}.InnerAgent
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
-  id: SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.ResourceAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.ResourceAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.ResourceAgent
   langs:
   - csharp
   - vb
-  name: SetResourceSubstitution(String, String, String, Boolean)
-  nameWithType: ResourceAgent.SetResourceSubstitution(String, String, String, Boolean)
-  fullName: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution(System.String, System.String, System.String, System.Boolean)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
+  name: ResourceAgent(IResourceOverrideImplementation, ISoRequestItemsAccessor)
+  nameWithType: ResourceAgent.ResourceAgent(IResourceOverrideImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.ResourceAgent.ResourceAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nCreate or update a resource substitution\n"
   syntax:
-    content: public void SetResourceSubstitution(string resourceName, string resourceValues, string culture, bool isActive)
+    content: public ResourceAgent(IResourceOverrideImplementation resourceOverrideImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: resourceOverrideImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(resourceOverrideImplementation As IResourceOverrideImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.ResourceAgent.#ctor*
+  nameWithType.vb: ResourceAgent.New(IResourceOverrideImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IResourceOverrideImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.ResourceAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.ResourceAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  parent: SuperOffice.CRM.Services.ResourceAgent
+  langs:
+  - csharp
+  - vb
+  name: ResourceAgent(IResourceOverrideImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: ResourceAgent.ResourceAgent(IResourceOverrideImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.ResourceAgent.ResourceAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public ResourceAgent(IResourceOverrideImplementation resourceOverrideImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: resourceOverrideImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(resourceOverrideImplementation As IResourceOverrideImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.ResourceAgent.#ctor*
+  nameWithType.vb: ResourceAgent.New(IResourceOverrideImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IResourceOverrideImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitutionAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitutionAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: SetResourceSubstitutionAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ResourceAgent
+  langs:
+  - csharp
+  - vb
+  name: SetResourceSubstitutionAsync(string, string, string, bool, CancellationToken)
+  nameWithType: ResourceAgent.SetResourceSubstitutionAsync(string, string, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitutionAsync(string, string, string, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Create or update a resource substitution
+  example: []
+  syntax:
+    content: public Task SetResourceSubstitutionAsync(string resourceName, string resourceValues, string culture, bool isActive, CancellationToken cancellationToken = default)
     parameters:
     - id: resourceName
       type: System.String
@@ -82,34 +132,37 @@ items:
     - id: isActive
       type: System.Boolean
       description: Is the subsitution now active
-    content.vb: Public Sub SetResourceSubstitution(resourceName As String, resourceValues As String, culture As String, isActive As Boolean)
-  overload: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function SetResourceSubstitutionAsync(resourceName As String, resourceValues As String, culture As String, isActive As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitutionAsync*
   implements:
-  - SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution(System.String,System.String)
-  id: DeleteResourceSubstitution(System.String,System.String)
+  - SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitutionAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: ResourceAgent.SetResourceSubstitutionAsync(String, String, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitutionAsync(String, String, String, Boolean, System.Threading.CancellationToken)
+  name.vb: SetResourceSubstitutionAsync(String, String, String, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitutionAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitutionAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: DeleteResourceSubstitutionAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ResourceAgent
   langs:
   - csharp
   - vb
-  name: DeleteResourceSubstitution(String, String)
-  nameWithType: ResourceAgent.DeleteResourceSubstitution(String, String)
-  fullName: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution(System.String, System.String)
+  name: DeleteResourceSubstitutionAsync(string, string, CancellationToken)
+  nameWithType: ResourceAgent.DeleteResourceSubstitutionAsync(string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitutionAsync(string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nPermanentely delete a resource substitution for one or more cultures\n"
+  summary: Permanentely delete a resource substitution for one or more cultures
+  example: []
   syntax:
-    content: public void DeleteResourceSubstitution(string resourceName, string culture)
+    content: public Task DeleteResourceSubstitutionAsync(string resourceName, string culture, CancellationToken cancellationToken = default)
     parameters:
     - id: resourceName
       type: System.String
@@ -117,34 +170,37 @@ items:
     - id: culture
       type: System.String
       description: The .NET culture string; if blank, then ALL substitutions for this resource will be dropped
-    content.vb: Public Sub DeleteResourceSubstitution(resourceName As String, culture As String)
-  overload: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteResourceSubstitutionAsync(resourceName As String, culture As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitutionAsync*
   implements:
-  - SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(System.String,System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
-  id: ActivateResourceSubstitution(System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitutionAsync(System.String,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: ResourceAgent.DeleteResourceSubstitutionAsync(String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitutionAsync(String, String, System.Threading.CancellationToken)
+  name.vb: DeleteResourceSubstitutionAsync(String, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitutionAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitutionAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: ActivateResourceSubstitutionAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ResourceAgent
   langs:
   - csharp
   - vb
-  name: ActivateResourceSubstitution(String, String, Boolean)
-  nameWithType: ResourceAgent.ActivateResourceSubstitution(String, String, Boolean)
-  fullName: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution(System.String, System.String, System.Boolean)
+  name: ActivateResourceSubstitutionAsync(string, string, bool, CancellationToken)
+  nameWithType: ResourceAgent.ActivateResourceSubstitutionAsync(string, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitutionAsync(string, string, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nActivate or deactive a resource substitution for one or more cultures\n"
+  summary: Activate or deactive a resource substitution for one or more cultures
+  example: []
   syntax:
-    content: public void ActivateResourceSubstitution(string resourceName, string culture, bool isActive)
+    content: public Task ActivateResourceSubstitutionAsync(string resourceName, string culture, bool isActive, CancellationToken cancellationToken = default)
     parameters:
     - id: resourceName
       type: System.String
@@ -155,34 +211,37 @@ items:
     - id: isActive
       type: System.Boolean
       description: New status of override
-    content.vb: Public Sub ActivateResourceSubstitution(resourceName As String, culture As String, isActive As Boolean)
-  overload: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function ActivateResourceSubstitutionAsync(resourceName As String, culture As String, isActive As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitutionAsync*
   implements:
-  - SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
-  id: GetResourceSubstitutions(System.String[],System.String,System.Boolean)
+  - SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitutionAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: ResourceAgent.ActivateResourceSubstitutionAsync(String, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitutionAsync(String, String, Boolean, System.Threading.CancellationToken)
+  name.vb: ActivateResourceSubstitutionAsync(String, String, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutionsAsync(System.String[],System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutionsAsync(System.String[],System.String,System.Boolean,System.Threading.CancellationToken)
+  id: GetResourceSubstitutionsAsync(System.String[],System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ResourceAgent
   langs:
   - csharp
   - vb
-  name: GetResourceSubstitutions(String[], String, Boolean)
-  nameWithType: ResourceAgent.GetResourceSubstitutions(String[], String, Boolean)
-  fullName: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions(System.String[], System.String, System.Boolean)
+  name: GetResourceSubstitutionsAsync(string[], string, bool, CancellationToken)
+  nameWithType: ResourceAgent.GetResourceSubstitutionsAsync(string[], string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutionsAsync(string[], string, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet substitutions for some or all resources for one culture\n"
+  summary: Get substitutions for some or all resources for one culture
+  example: []
   syntax:
-    content: public ResourceOverride[] GetResourceSubstitutions(string[] resourceNames, string culture, bool activeOnly)
+    content: public Task<ResourceOverride[]> GetResourceSubstitutionsAsync(string[] resourceNames, string culture, bool activeOnly, CancellationToken cancellationToken = default)
     parameters:
     - id: resourceNames
       type: System.String[]
@@ -193,40 +252,37 @@ items:
     - id: activeOnly
       type: System.Boolean
       description: If true, then only resources with active substitutions will be returned; if false then ALL existing overrides will be returned
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.ResourceOverride[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ResourceOverride[]}
       description: Array of override objects, empty if there are none
-    content.vb: Public Function GetResourceSubstitutions(resourceNames As String(), culture As String, activeOnly As Boolean) As ResourceOverride()
-  overload: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions*
+    content.vb: Public Function GetResourceSubstitutionsAsync(resourceNames As String(), culture As String, activeOnly As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of ResourceOverride())
+  overload: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutionsAsync*
   implements:
-  - SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
-  nameWithType.vb: ResourceAgent.GetResourceSubstitutions(String(), String, Boolean)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions(System.String(), System.String, System.Boolean)
-  name.vb: GetResourceSubstitutions(String(), String, Boolean)
-- uid: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
-  commentId: M:SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
-  id: IsResourceSubstitutionActive(System.String[],System.String)
+  - SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutionsAsync(System.String[],System.String,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: ResourceAgent.GetResourceSubstitutionsAsync(String(), String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutionsAsync(String(), String, Boolean, System.Threading.CancellationToken)
+  name.vb: GetResourceSubstitutionsAsync(String(), String, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActiveAsync(System.String[],System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActiveAsync(System.String[],System.String,System.Threading.CancellationToken)
+  id: IsResourceSubstitutionActiveAsync(System.String[],System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ResourceAgent
   langs:
   - csharp
   - vb
-  name: IsResourceSubstitutionActive(String[], String)
-  nameWithType: ResourceAgent.IsResourceSubstitutionActive(String[], String)
-  fullName: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive(System.String[], System.String)
+  name: IsResourceSubstitutionActiveAsync(string[], string, CancellationToken)
+  nameWithType: ResourceAgent.IsResourceSubstitutionActiveAsync(string[], string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActiveAsync(string[], string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nDetermine if resource substitution/override is active, globally or for a subset of resources/cultures\n"
+  summary: Determine if resource substitution/override is active, globally or for a subset of resources/cultures
+  example: []
   syntax:
-    content: public ResourceOverride[] IsResourceSubstitutionActive(string[] resourceNames, string culture)
+    content: public Task<ResourceOverride[]> IsResourceSubstitutionActiveAsync(string[] resourceNames, string culture, CancellationToken cancellationToken = default)
     parameters:
     - id: resourceNames
       type: System.String[]
@@ -234,105 +290,73 @@ items:
     - id: culture
       type: System.String
       description: .NET culture string; if empty, then get for all cultures (unless resourceName
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.ResourceOverride[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ResourceOverride[]}
       description: Array of override objects, empty if there are none; the ResourceValue member is not set by this call
-    content.vb: Public Function IsResourceSubstitutionActive(resourceNames As String(), culture As String) As ResourceOverride()
-  overload: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive*
+    content.vb: Public Function IsResourceSubstitutionActiveAsync(resourceNames As String(), culture As String, cancellationToken As CancellationToken = Nothing) As Task(Of ResourceOverride())
+  overload: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActiveAsync*
   implements:
-  - SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
-  nameWithType.vb: ResourceAgent.IsResourceSubstitutionActive(String(), String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive(System.String(), System.String)
-  name.vb: IsResourceSubstitutionActive(String(), String)
-- uid: SuperOffice.CRM.Services.ResourceAgent.#ctor
-  commentId: M:SuperOffice.CRM.Services.ResourceAgent.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Services.ResourceAgent
-  langs:
-  - csharp
-  - vb
-  name: ResourceAgent()
-  nameWithType: ResourceAgent.ResourceAgent()
-  fullName: SuperOffice.CRM.Services.ResourceAgent.ResourceAgent()
-  type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  syntax:
-    content: public ResourceAgent()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Services.ResourceAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActiveAsync(System.String[],System.String,System.Threading.CancellationToken)
+  nameWithType.vb: ResourceAgent.IsResourceSubstitutionActiveAsync(String(), String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActiveAsync(String(), String, System.Threading.CancellationToken)
+  name.vb: IsResourceSubstitutionActiveAsync(String(), String, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}
-  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}
-  parent: SuperOffice.CRM.Services
-  definition: SuperOffice.CRM.Services.AgentBase`1
-  name: AgentBase<IResourceAgent>
-  nameWithType: AgentBase<IResourceAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IResourceAgent>
-  nameWithType.vb: AgentBase(Of IResourceAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IResourceAgent)
-  name.vb: AgentBase(Of IResourceAgent)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Services.IResourceAgent
-    name: IResourceAgent
-    nameWithType: IResourceAgent
-    fullName: SuperOffice.CRM.Services.IResourceAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Services.IResourceAgent
-    name: IResourceAgent
-    nameWithType: IResourceAgent
-    fullName: SuperOffice.CRM.Services.IResourceAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IDisposable
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.IResourceAgent
   commentId: T:SuperOffice.CRM.Services.IResourceAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IResourceAgent.html
   name: IResourceAgent
   nameWithType: IResourceAgent
   fullName: SuperOffice.CRM.Services.IResourceAgent
@@ -340,602 +364,891 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}.Dispose
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  name: Dispose()
-  nameWithType: AgentBase<IResourceAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IResourceAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of IResourceAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IResourceAgent).Dispose()
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<IResourceAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IResourceAgent>.Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of IResourceAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IResourceAgent).Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}.InnerAgent
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  name: InnerAgent
-  nameWithType: AgentBase<IResourceAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IResourceAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of IResourceAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IResourceAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.AgentBase`1
-  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
-  name: AgentBase<TAgent>
-  nameWithType: AgentBase<TAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
-  nameWithType.vb: AgentBase(Of TAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
-  name.vb: AgentBase(Of TAgent)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: Dispose()
-  nameWithType: AgentBase<TAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of TAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<TAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of TAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: InnerAgent
-  nameWithType: AgentBase<TAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution*
-  commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
   isExternal: true
-  name: SetResourceSubstitution
-  nameWithType: ResourceAgent.SetResourceSubstitution
-  fullName: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution
-- uid: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ResourceAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.ResourceAgent.html#SuperOffice_CRM_Services_ResourceAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IResourceOverrideImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: ResourceAgent
+  nameWithType: ResourceAgent.ResourceAgent
+  fullName: SuperOffice.CRM.Services.ResourceAgent.ResourceAgent
+  nameWithType.vb: ResourceAgent.New
+  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation.html
+  name: IResourceOverrideImplementation
+  nameWithType: IResourceOverrideImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IResourceOverrideImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitutionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitutionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ResourceAgent.html#SuperOffice_CRM_Services_ResourceAgent_SetResourceSubstitutionAsync_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  name: SetResourceSubstitutionAsync
+  nameWithType: ResourceAgent.SetResourceSubstitutionAsync
+  fullName: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitutionAsync
+- uid: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitutionAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitutionAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IResourceAgent
   isExternal: true
-  name: SetResourceSubstitution(String, String, String, Boolean)
-  nameWithType: IResourceAgent.SetResourceSubstitution(String, String, String, Boolean)
-  fullName: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(System.String, System.String, System.String, System.Boolean)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SetResourceSubstitutionAsync(string, string, string, bool, CancellationToken)
+  nameWithType: IResourceAgent.SetResourceSubstitutionAsync(string, string, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitutionAsync(string, string, string, bool, System.Threading.CancellationToken)
+  nameWithType.vb: IResourceAgent.SetResourceSubstitutionAsync(String, String, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitutionAsync(String, String, String, Boolean, System.Threading.CancellationToken)
+  name.vb: SetResourceSubstitutionAsync(String, String, String, Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
-    name: SetResourceSubstitution
-    nameWithType: IResourceAgent.SetResourceSubstitution
-    fullName: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution
+  - uid: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitutionAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: SetResourceSubstitutionAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
-    name: SetResourceSubstitution
-    nameWithType: IResourceAgent.SetResourceSubstitution
-    fullName: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution
+  - uid: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitutionAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: SetResourceSubstitutionAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System
-  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution*
-  commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: DeleteResourceSubstitution
-  nameWithType: ResourceAgent.DeleteResourceSubstitution
-  fullName: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution
-- uid: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(System.String,System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitutionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitutionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ResourceAgent.html#SuperOffice_CRM_Services_ResourceAgent_DeleteResourceSubstitutionAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: DeleteResourceSubstitutionAsync
+  nameWithType: ResourceAgent.DeleteResourceSubstitutionAsync
+  fullName: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitutionAsync
+- uid: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitutionAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitutionAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IResourceAgent
   isExternal: true
-  name: DeleteResourceSubstitution(String, String)
-  nameWithType: IResourceAgent.DeleteResourceSubstitution(String, String)
-  fullName: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(System.String, System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: DeleteResourceSubstitutionAsync(string, string, CancellationToken)
+  nameWithType: IResourceAgent.DeleteResourceSubstitutionAsync(string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitutionAsync(string, string, System.Threading.CancellationToken)
+  nameWithType.vb: IResourceAgent.DeleteResourceSubstitutionAsync(String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitutionAsync(String, String, System.Threading.CancellationToken)
+  name.vb: DeleteResourceSubstitutionAsync(String, String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(System.String,System.String)
-    name: DeleteResourceSubstitution
-    nameWithType: IResourceAgent.DeleteResourceSubstitution
-    fullName: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution
+  - uid: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitutionAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: DeleteResourceSubstitutionAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(System.String,System.String)
-    name: DeleteResourceSubstitution
-    nameWithType: IResourceAgent.DeleteResourceSubstitution
-    fullName: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution
+  - uid: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitutionAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: DeleteResourceSubstitutionAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution*
-  commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution
+- uid: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitutionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitutionAsync
   isExternal: true
-  name: ActivateResourceSubstitution
-  nameWithType: ResourceAgent.ActivateResourceSubstitution
-  fullName: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution
-- uid: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
+  href: SuperOffice.CRM.Services.ResourceAgent.html#SuperOffice_CRM_Services_ResourceAgent_ActivateResourceSubstitutionAsync_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  name: ActivateResourceSubstitutionAsync
+  nameWithType: ResourceAgent.ActivateResourceSubstitutionAsync
+  fullName: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitutionAsync
+- uid: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitutionAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitutionAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IResourceAgent
   isExternal: true
-  name: ActivateResourceSubstitution(String, String, Boolean)
-  nameWithType: IResourceAgent.ActivateResourceSubstitution(String, String, Boolean)
-  fullName: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(System.String, System.String, System.Boolean)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ActivateResourceSubstitutionAsync(string, string, bool, CancellationToken)
+  nameWithType: IResourceAgent.ActivateResourceSubstitutionAsync(string, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitutionAsync(string, string, bool, System.Threading.CancellationToken)
+  nameWithType.vb: IResourceAgent.ActivateResourceSubstitutionAsync(String, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitutionAsync(String, String, Boolean, System.Threading.CancellationToken)
+  name.vb: ActivateResourceSubstitutionAsync(String, String, Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
-    name: ActivateResourceSubstitution
-    nameWithType: IResourceAgent.ActivateResourceSubstitution
-    fullName: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution
+  - uid: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitutionAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: ActivateResourceSubstitutionAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
-    name: ActivateResourceSubstitution
-    nameWithType: IResourceAgent.ActivateResourceSubstitution
-    fullName: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution
+  - uid: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitutionAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: ActivateResourceSubstitutionAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions*
-  commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions
+- uid: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutionsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutionsAsync
   isExternal: true
-  name: GetResourceSubstitutions
-  nameWithType: ResourceAgent.GetResourceSubstitutions
-  fullName: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions
-- uid: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
+  href: SuperOffice.CRM.Services.ResourceAgent.html#SuperOffice_CRM_Services_ResourceAgent_GetResourceSubstitutionsAsync_System_String___System_String_System_Boolean_System_Threading_CancellationToken_
+  name: GetResourceSubstitutionsAsync
+  nameWithType: ResourceAgent.GetResourceSubstitutionsAsync
+  fullName: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutionsAsync
+- uid: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutionsAsync(System.String[],System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutionsAsync(System.String[],System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IResourceAgent
   isExternal: true
-  name: GetResourceSubstitutions(String[], String, Boolean)
-  nameWithType: IResourceAgent.GetResourceSubstitutions(String[], String, Boolean)
-  fullName: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String[], System.String, System.Boolean)
-  nameWithType.vb: IResourceAgent.GetResourceSubstitutions(String(), String, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String(), System.String, System.Boolean)
-  name.vb: GetResourceSubstitutions(String(), String, Boolean)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetResourceSubstitutionsAsync(string[], string, bool, CancellationToken)
+  nameWithType: IResourceAgent.GetResourceSubstitutionsAsync(string[], string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutionsAsync(string[], string, bool, System.Threading.CancellationToken)
+  nameWithType.vb: IResourceAgent.GetResourceSubstitutionsAsync(String(), String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutionsAsync(String(), String, Boolean, System.Threading.CancellationToken)
+  name.vb: GetResourceSubstitutionsAsync(String(), String, Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
-    name: GetResourceSubstitutions
-    nameWithType: IResourceAgent.GetResourceSubstitutions
-    fullName: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions
+  - uid: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutionsAsync(System.String[],System.String,System.Boolean,System.Threading.CancellationToken)
+    name: GetResourceSubstitutionsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
-    name: GetResourceSubstitutions
-    nameWithType: IResourceAgent.GetResourceSubstitutions
-    fullName: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions
+  - uid: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutionsAsync(System.String[],System.String,System.Boolean,System.Threading.CancellationToken)
+    name: GetResourceSubstitutionsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.ResourceOverride[]
-  isExternal: true
-  name: ResourceOverride[]
-  nameWithType: ResourceOverride[]
-  fullName: SuperOffice.CRM.Services.ResourceOverride[]
-  nameWithType.vb: ResourceOverride()
-  fullName.vb: SuperOffice.CRM.Services.ResourceOverride()
-  name.vb: ResourceOverride()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ResourceOverride[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ResourceOverride[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResourceOverride[]>
+  nameWithType: Task<ResourceOverride[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ResourceOverride[]>
+  nameWithType.vb: Task(Of ResourceOverride())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ResourceOverride())
+  name.vb: Task(Of ResourceOverride())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.CRM.Services.ResourceOverride
     name: ResourceOverride
-    nameWithType: ResourceOverride
-    fullName: SuperOffice.CRM.Services.ResourceOverride
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.ResourceOverride.html
+  - name: '['
+  - name: ']'
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Services.ResourceOverride
     name: ResourceOverride
-    nameWithType: ResourceOverride
-    fullName: SuperOffice.CRM.Services.ResourceOverride
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive*
-  commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive
+    href: SuperOffice.CRM.Services.ResourceOverride.html
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: IsResourceSubstitutionActive
-  nameWithType: ResourceAgent.IsResourceSubstitutionActive
-  fullName: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive
-- uid: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
-  commentId: M:SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActiveAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActiveAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ResourceAgent.html#SuperOffice_CRM_Services_ResourceAgent_IsResourceSubstitutionActiveAsync_System_String___System_String_System_Threading_CancellationToken_
+  name: IsResourceSubstitutionActiveAsync
+  nameWithType: ResourceAgent.IsResourceSubstitutionActiveAsync
+  fullName: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActiveAsync
+- uid: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActiveAsync(System.String[],System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActiveAsync(System.String[],System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IResourceAgent
   isExternal: true
-  name: IsResourceSubstitutionActive(String[], String)
-  nameWithType: IResourceAgent.IsResourceSubstitutionActive(String[], String)
-  fullName: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String[], System.String)
-  nameWithType.vb: IResourceAgent.IsResourceSubstitutionActive(String(), String)
-  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String(), System.String)
-  name.vb: IsResourceSubstitutionActive(String(), String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: IsResourceSubstitutionActiveAsync(string[], string, CancellationToken)
+  nameWithType: IResourceAgent.IsResourceSubstitutionActiveAsync(string[], string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActiveAsync(string[], string, System.Threading.CancellationToken)
+  nameWithType.vb: IResourceAgent.IsResourceSubstitutionActiveAsync(String(), String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActiveAsync(String(), String, System.Threading.CancellationToken)
+  name.vb: IsResourceSubstitutionActiveAsync(String(), String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
-    name: IsResourceSubstitutionActive
-    nameWithType: IResourceAgent.IsResourceSubstitutionActive
-    fullName: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive
+  - uid: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActiveAsync(System.String[],System.String,System.Threading.CancellationToken)
+    name: IsResourceSubstitutionActiveAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
-    name: IsResourceSubstitutionActive
-    nameWithType: IResourceAgent.IsResourceSubstitutionActive
-    fullName: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive
+  - uid: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActiveAsync(System.String[],System.String,System.Threading.CancellationToken)
+    name: IsResourceSubstitutionActiveAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.ResourceAgent.#ctor*
-  commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.#ctor
-  isExternal: true
-  name: ResourceAgent
-  nameWithType: ResourceAgent.ResourceAgent
-  fullName: SuperOffice.CRM.Services.ResourceAgent.ResourceAgent
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )

@@ -16,27 +16,24 @@ items:
   nameWithType: ExpressionUtil
   fullName: SuperOffice.Util.ExpressionUtil
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nClass used to manipulate C# Expression-trees.\n"
+  summary: Class used to manipulate C# Expression-trees.
+  example: []
   syntax:
-    content: 'public static class ExpressionUtil : Object'
-    content.vb: >-
-      Public Module ExpressionUtil
-          Inherits Object
+    content: public static class ExpressionUtil
+    content.vb: Public Module ExpressionUtil
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.Util.ExpressionUtil.GetSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
   commentId: M:SuperOffice.Util.ExpressionUtil.GetSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
   id: GetSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
@@ -48,32 +45,28 @@ items:
   nameWithType: ExpressionUtil.GetSetter<T, U>(Expression<Func<T, U>>)
   fullName: SuperOffice.Util.ExpressionUtil.GetSetter<T, U>(System.Linq.Expressions.Expression<System.Func<T, U>>)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nConverts a i => i.Property accessor-expression into a (i,v) => i.Property = value setter-expression.\n"
+  summary: Converts a i =&gt; i.Property accessor-expression into a (i,v) =&gt; i.Property = value setter-expression.
+  example: []
   syntax:
     content: public static Action<T, U> GetSetter<T, U>(Expression<Func<T, U>> expression)
     parameters:
     - id: expression
       type: System.Linq.Expressions.Expression{System.Func{{T},{U}}}
+      description: ''
     typeParameters:
     - id: T
+      description: ''
     - id: U
+      description: ''
     return:
       type: System.Action{{T},{U}}
+      description: ''
     content.vb: Public Shared Function GetSetter(Of T, U)(expression As Expression(Of Func(Of T, U))) As Action(Of T, U)
   overload: SuperOffice.Util.ExpressionUtil.GetSetter*
   nameWithType.vb: ExpressionUtil.GetSetter(Of T, U)(Expression(Of Func(Of T, U)))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.Util.ExpressionUtil.GetSetter(Of T, U)(System.Linq.Expressions.Expression(Of System.Func(Of T, U)))
   name.vb: GetSetter(Of T, U)(Expression(Of Func(Of T, U)))
 - uid: SuperOffice.Util.ExpressionUtil.GetSetter``2(System.Linq.Expressions.Expression{System.Func{``1}})
@@ -87,32 +80,32 @@ items:
   nameWithType: ExpressionUtil.GetSetter<T, U>(Expression<Func<U>>)
   fullName: SuperOffice.Util.ExpressionUtil.GetSetter<T, U>(System.Linq.Expressions.Expression<System.Func<U>>)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nConverts a parameterless accessor-expression into a value-only setter-expression.\nCan be used for implicit self expressions like () => Property\nOr explicit instance expressions like () => instance.Property.\n"
+  summary: >-
+    Converts a parameterless accessor-expression into a value-only setter-expression.
+
+    Can be used for implicit self expressions like () =&gt; Property
+
+    Or explicit instance expressions like () =&gt; instance.Property.
+  example: []
   syntax:
     content: public static Action<U> GetSetter<T, U>(Expression<Func<U>> expression)
     parameters:
     - id: expression
       type: System.Linq.Expressions.Expression{System.Func{{U}}}
+      description: ''
     typeParameters:
     - id: T
     - id: U
+      description: ''
     return:
       type: System.Action{{U}}
+      description: ''
     content.vb: Public Shared Function GetSetter(Of T, U)(expression As Expression(Of Func(Of U))) As Action(Of U)
   overload: SuperOffice.Util.ExpressionUtil.GetSetter*
   nameWithType.vb: ExpressionUtil.GetSetter(Of T, U)(Expression(Of Func(Of U)))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.Util.ExpressionUtil.GetSetter(Of T, U)(System.Linq.Expressions.Expression(Of System.Func(Of U)))
   name.vb: GetSetter(Of T, U)(Expression(Of Func(Of U)))
 - uid: SuperOffice.Util.ExpressionUtil.GetInstanceProvider``2(System.Linq.Expressions.Expression{System.Func{``1}})
@@ -126,33 +119,30 @@ items:
   nameWithType: ExpressionUtil.GetInstanceProvider<T, U>(Expression<Func<U>>)
   fullName: SuperOffice.Util.ExpressionUtil.GetInstanceProvider<T, U>(System.Linq.Expressions.Expression<System.Func<U>>)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nTakes an expression of the type () => instance.Member\nand returns a function providing the instance only.\n"
+  summary: >-
+    Takes an expression of the type () =&gt; instance.Member
+
+    and returns a function providing the instance only.
+  example: []
   syntax:
     content: public static Func<T> GetInstanceProvider<T, U>(Expression<Func<U>> expression)
     parameters:
     - id: expression
       type: System.Linq.Expressions.Expression{System.Func{{U}}}
+      description: ''
     typeParameters:
     - id: T
       description: Type of instance
     - id: U
     return:
       type: System.Func{{T}}
+      description: ''
     content.vb: Public Shared Function GetInstanceProvider(Of T, U)(expression As Expression(Of Func(Of U))) As Func(Of T)
   overload: SuperOffice.Util.ExpressionUtil.GetInstanceProvider*
   nameWithType.vb: ExpressionUtil.GetInstanceProvider(Of T, U)(Expression(Of Func(Of U)))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.Util.ExpressionUtil.GetInstanceProvider(Of T, U)(System.Linq.Expressions.Expression(Of System.Func(Of U)))
   name.vb: GetInstanceProvider(Of T, U)(Expression(Of Func(Of U)))
 - uid: SuperOffice.Util.ExpressionUtil.GetMemberName``1(System.Linq.Expressions.Expression{System.Func{``0}})
@@ -166,62 +156,305 @@ items:
   nameWithType: ExpressionUtil.GetMemberName<T>(Expression<Func<T>>)
   fullName: SuperOffice.Util.ExpressionUtil.GetMemberName<T>(System.Linq.Expressions.Expression<System.Func<T>>)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nReturns the name of the member which the expression is pointing at.\n"
+  summary: Returns the name of the member which the expression is pointing at.
+  example: []
   syntax:
     content: public static string GetMemberName<T>(Expression<Func<T>> expression)
     parameters:
     - id: expression
       type: System.Linq.Expressions.Expression{System.Func{{T}}}
+      description: ''
     typeParameters:
     - id: T
+      description: ''
     return:
       type: System.String
+      description: ''
     content.vb: Public Shared Function GetMemberName(Of T)(expression As Expression(Of Func(Of T))) As String
   overload: SuperOffice.Util.ExpressionUtil.GetMemberName*
   nameWithType.vb: ExpressionUtil.GetMemberName(Of T)(Expression(Of Func(Of T)))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.Util.ExpressionUtil.GetMemberName(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
   name.vb: GetMemberName(Of T)(Expression(Of Func(Of T)))
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Util.ExpressionUtil.GetSetter*
   commentId: Overload:SuperOffice.Util.ExpressionUtil.GetSetter
   isExternal: true
+  href: SuperOffice.Util.ExpressionUtil.html#SuperOffice_Util_ExpressionUtil_GetSetter__2_System_Linq_Expressions_Expression_System_Func___0___1___
   name: GetSetter
   nameWithType: ExpressionUtil.GetSetter
   fullName: SuperOffice.Util.ExpressionUtil.GetSetter
 - uid: System.Linq.Expressions.Expression{System.Func{{T},{U}}}
-  commentId: '!:System.Linq.Expressions.Expression{System.Func{``0,``1}}'
+  commentId: T:System.Linq.Expressions.Expression{System.Func{``0,``1}}
+  parent: System.Linq.Expressions
   definition: System.Linq.Expressions.Expression`1
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
   name: Expression<Func<T, U>>
   nameWithType: Expression<Func<T, U>>
   fullName: System.Linq.Expressions.Expression<System.Func<T, U>>
@@ -231,70 +464,46 @@ references:
   spec.csharp:
   - uid: System.Linq.Expressions.Expression`1
     name: Expression
-    nameWithType: Expression
-    fullName: System.Linq.Expressions.Expression
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Func`2
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
   - name: <
-    nameWithType: <
-    fullName: <
   - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: U
-    nameWithType: U
-    fullName: U
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Linq.Expressions.Expression`1
     name: Expression
-    nameWithType: Expression
-    fullName: System.Linq.Expressions.Expression
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Func`2
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
   - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: U
-    nameWithType: U
-    fullName: U
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Action{{T},{U}}
-  commentId: '!:System.Action{``0,``1}'
+  commentId: T:System.Action{``0,``1}
+  parent: System
   definition: System.Action`2
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
   name: Action<T, U>
   nameWithType: Action<T, U>
   fullName: System.Action<T, U>
@@ -304,136 +513,131 @@ references:
   spec.csharp:
   - uid: System.Action`2
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
   - name: <
-    nameWithType: <
-    fullName: <
   - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: U
-    nameWithType: U
-    fullName: U
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Action`2
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
   - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: U
-    nameWithType: U
-    fullName: U
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Linq.Expressions.Expression`1
+  commentId: T:System.Linq.Expressions.Expression`1
   isExternal: true
-  name: Expression<>
-  nameWithType: Expression<>
-  fullName: System.Linq.Expressions.Expression<>
-  nameWithType.vb: Expression(Of )
-  fullName.vb: System.Linq.Expressions.Expression(Of )
-  name.vb: Expression(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: Expression<TDelegate>
+  nameWithType: Expression<TDelegate>
+  fullName: System.Linq.Expressions.Expression<TDelegate>
+  nameWithType.vb: Expression(Of TDelegate)
+  fullName.vb: System.Linq.Expressions.Expression(Of TDelegate)
+  name.vb: Expression(Of TDelegate)
   spec.csharp:
   - uid: System.Linq.Expressions.Expression`1
     name: Expression
-    nameWithType: Expression
-    fullName: System.Linq.Expressions.Expression
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TDelegate
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Linq.Expressions.Expression`1
     name: Expression
-    nameWithType: Expression
-    fullName: System.Linq.Expressions.Expression
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDelegate
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Linq.Expressions
+  commentId: N:System.Linq.Expressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Linq.Expressions
+  nameWithType: System.Linq.Expressions
+  fullName: System.Linq.Expressions
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+  - name: .
+  - uid: System.Linq.Expressions
+    name: Expressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+  - name: .
+  - uid: System.Linq.Expressions
+    name: Expressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions
 - uid: System.Action`2
+  commentId: T:System.Action`2
   isExternal: true
-  name: Action<, >
-  nameWithType: Action<, >
-  fullName: System.Action<, >
-  nameWithType.vb: Action(Of , )
-  fullName.vb: System.Action(Of , )
-  name.vb: Action(Of , )
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<T1, T2>
+  nameWithType: Action<T1, T2>
+  fullName: System.Action<T1, T2>
+  nameWithType.vb: Action(Of T1, T2)
+  fullName.vb: System.Action(Of T1, T2)
+  name.vb: Action(Of T1, T2)
   spec.csharp:
   - uid: System.Action`2
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Action`2
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Linq.Expressions.Expression{System.Func{{U}}}
-  commentId: '!:System.Linq.Expressions.Expression{System.Func{``1}}'
+  commentId: T:System.Linq.Expressions.Expression{System.Func{``1}}
+  parent: System.Linq.Expressions
   definition: System.Linq.Expressions.Expression`1
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
   name: Expression<Func<U>>
   nameWithType: Expression<Func<U>>
   fullName: System.Linq.Expressions.Expression<System.Func<U>>
@@ -443,58 +647,40 @@ references:
   spec.csharp:
   - uid: System.Linq.Expressions.Expression`1
     name: Expression
-    nameWithType: Expression
-    fullName: System.Linq.Expressions.Expression
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
-    nameWithType: <
-    fullName: <
   - name: U
-    nameWithType: U
-    fullName: U
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Linq.Expressions.Expression`1
     name: Expression
-    nameWithType: Expression
-    fullName: System.Linq.Expressions.Expression
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
   - name: U
-    nameWithType: U
-    fullName: U
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Action{{U}}
-  commentId: '!:System.Action{``1}'
+  commentId: T:System.Action{``1}
+  parent: System
   definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
   name: Action<U>
   nameWithType: Action<U>
   fullName: System.Action<U>
@@ -504,80 +690,61 @@ references:
   spec.csharp:
   - uid: System.Action`1
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
-    nameWithType: <
-    fullName: <
   - name: U
-    nameWithType: U
-    fullName: U
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
   - name: U
-    nameWithType: U
-    fullName: U
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Action`1
+  commentId: T:System.Action`1
   isExternal: true
-  name: Action<>
-  nameWithType: Action<>
-  fullName: System.Action<>
-  nameWithType.vb: Action(Of )
-  fullName.vb: System.Action(Of )
-  name.vb: Action(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
   spec.csharp:
   - uid: System.Action`1
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Util.ExpressionUtil.GetInstanceProvider*
   commentId: Overload:SuperOffice.Util.ExpressionUtil.GetInstanceProvider
   isExternal: true
+  href: SuperOffice.Util.ExpressionUtil.html#SuperOffice_Util_ExpressionUtil_GetInstanceProvider__2_System_Linq_Expressions_Expression_System_Func___1___
   name: GetInstanceProvider
   nameWithType: ExpressionUtil.GetInstanceProvider
   fullName: SuperOffice.Util.ExpressionUtil.GetInstanceProvider
 - uid: System.Func{{T}}
-  commentId: '!:System.Func{`0}'
+  commentId: T:System.Func{`0}
+  parent: System
   definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
   name: Func<T>
   nameWithType: Func<T>
   fullName: System.Func<T>
@@ -587,80 +754,61 @@ references:
   spec.csharp:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
-    nameWithType: <
-    fullName: <
   - name: T
-    nameWithType: T
-    fullName: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
   - name: T
-    nameWithType: T
-    fullName: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Func`1
+  commentId: T:System.Func`1
   isExternal: true
-  name: Func<>
-  nameWithType: Func<>
-  fullName: System.Func<>
-  nameWithType.vb: Func(Of )
-  fullName.vb: System.Func(Of )
-  name.vb: Func(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
   spec.csharp:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Util.ExpressionUtil.GetMemberName*
   commentId: Overload:SuperOffice.Util.ExpressionUtil.GetMemberName
   isExternal: true
+  href: SuperOffice.Util.ExpressionUtil.html#SuperOffice_Util_ExpressionUtil_GetMemberName__1_System_Linq_Expressions_Expression_System_Func___0___
   name: GetMemberName
   nameWithType: ExpressionUtil.GetMemberName
   fullName: SuperOffice.Util.ExpressionUtil.GetMemberName
 - uid: System.Linq.Expressions.Expression{System.Func{{T}}}
-  commentId: '!:System.Linq.Expressions.Expression{System.Func{``0}}'
+  commentId: T:System.Linq.Expressions.Expression{System.Func{``0}}
+  parent: System.Linq.Expressions
   definition: System.Linq.Expressions.Expression`1
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
   name: Expression<Func<T>>
   nameWithType: Expression<Func<T>>
   fullName: System.Linq.Expressions.Expression<System.Func<T>>
@@ -670,59 +818,43 @@ references:
   spec.csharp:
   - uid: System.Linq.Expressions.Expression`1
     name: Expression
-    nameWithType: Expression
-    fullName: System.Linq.Expressions.Expression
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
-    nameWithType: <
-    fullName: <
   - name: T
-    nameWithType: T
-    fullName: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Linq.Expressions.Expression`1
     name: Expression
-    nameWithType: Expression
-    fullName: System.Linq.Expressions.Expression
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
   - name: T
-    nameWithType: T
-    fullName: T
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

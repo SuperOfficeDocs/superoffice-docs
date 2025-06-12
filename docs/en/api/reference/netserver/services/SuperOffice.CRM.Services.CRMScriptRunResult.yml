@@ -24,31 +24,40 @@ items:
   nameWithType: CRMScriptRunResult
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nObject for returning result from a CRMScript\n<p></p>\nCarrier object for CRMScriptRunResult.\nServices for the CRMScriptRunResult Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICRMScriptAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Object for returning result from a CRMScript
+
+    <p></p>
+
+    Carrier object for CRMScriptRunResult.
+
+    Services for the CRMScriptRunResult Carrier is available from the <xref href="SuperOffice.CRM.Services.ICRMScriptAgent?text=CRMScript+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class CRMScriptRunResult : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class CRMScriptRunResult : Carrier
     content.vb: >-
-      Public Class CRMScriptRunResult
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class CRMScriptRunResult Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.CRMScriptAgent
-    commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
   - linkId: SuperOffice.CRM.Services.ICRMScriptAgent
     commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.#ctor
   commentId: M:SuperOffice.CRM.Services.CRMScriptRunResult.#ctor
   id: '#ctor'
@@ -60,21 +69,18 @@ items:
   nameWithType: CRMScriptRunResult.CRMScriptRunResult()
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.CRMScriptRunResult()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public CRMScriptRunResult()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.CRMScriptRunResult.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: CRMScriptRunResult.New()
+  fullName.vb: SuperOffice.CRM.Services.CRMScriptRunResult.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.ToString
   commentId: M:SuperOffice.CRM.Services.CRMScriptRunResult.ToString
   id: ToString
@@ -86,26 +92,18 @@ items:
   nameWithType: CRMScriptRunResult.ToString()
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.CRMScriptRunResult.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.CRMScriptRunResult.ToString(System.String)
   id: ToString(System.String)
@@ -113,17 +111,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: CRMScriptRunResult.ToString(String)
-  fullName: SuperOffice.CRM.Services.CRMScriptRunResult.ToString(System.String)
+  name: ToString(string)
+  nameWithType: CRMScriptRunResult.ToString(string)
+  fullName: SuperOffice.CRM.Services.CRMScriptRunResult.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -135,10 +134,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.CRMScriptRunResult.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: CRMScriptRunResult.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.CRMScriptRunResult.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.Output
   commentId: P:SuperOffice.CRM.Services.CRMScriptRunResult.Output
   id: Output
@@ -150,28 +148,28 @@ items:
   nameWithType: CRMScriptRunResult.Output
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.Output
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe output from the script, normally from a print or printLine statement \n"
+  summary: The output from the script, normally from a print or printLine statement
+  example: []
   syntax:
-    content: public virtual string Output { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Output { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Output As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Output As String
   overload: SuperOffice.CRM.Services.CRMScriptRunResult.Output*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.Parameters
   commentId: P:SuperOffice.CRM.Services.CRMScriptRunResult.Parameters
   id: Parameters
@@ -183,28 +181,28 @@ items:
   nameWithType: CRMScriptRunResult.Parameters
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.Parameters
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe parameters/variables that might have been modified by the script \n"
+  summary: The parameters/variables that might have been modified by the script
+  example: []
   syntax:
-    content: public virtual StringDictionary Parameters { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual StringDictionary Parameters { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.StringDictionary
-    content.vb: Public Overridable Property Parameters As StringDictionary
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Parameters As StringDictionary
   overload: SuperOffice.CRM.Services.CRMScriptRunResult.Parameters*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.TraceRun
   commentId: P:SuperOffice.CRM.Services.CRMScriptRunResult.TraceRun
   id: TraceRun
@@ -216,28 +214,28 @@ items:
   nameWithType: CRMScriptRunResult.TraceRun
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.TraceRun
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nContains the trace information from the script execution \n"
+  summary: Contains the trace information from the script execution
+  example: []
   syntax:
-    content: public virtual CRMScriptTraceRun TraceRun { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual CRMScriptTraceRun TraceRun { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.CRMScriptTraceRun
-    content.vb: Public Overridable Property TraceRun As CRMScriptTraceRun
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TraceRun As CRMScriptTraceRun
   overload: SuperOffice.CRM.Services.CRMScriptRunResult.TraceRun*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.Eventdata
   commentId: P:SuperOffice.CRM.Services.CRMScriptRunResult.Eventdata
   id: Eventdata
@@ -249,28 +247,28 @@ items:
   nameWithType: CRMScriptRunResult.Eventdata
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.Eventdata
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe EventData instance after script execution with output values \n"
+  summary: The EventData instance after script execution with output values
+  example: []
   syntax:
-    content: public virtual EventData Eventdata { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual EventData Eventdata { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.EventData
-    content.vb: Public Overridable Property Eventdata As EventData
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Eventdata As EventData
   overload: SuperOffice.CRM.Services.CRMScriptRunResult.Eventdata*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.Success
   commentId: P:SuperOffice.CRM.Services.CRMScriptRunResult.Success
   id: Success
@@ -282,28 +280,28 @@ items:
   nameWithType: CRMScriptRunResult.Success
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.Success
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nIndicates if the script was executed successfully, or if it failed. In case of failing, the error members will contain more information \n"
+  summary: Indicates if the script was executed successfully, or if it failed. In case of failing, the error members will contain more information
+  example: []
   syntax:
-    content: public virtual bool Success { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool Success { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property Success As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Success As Boolean
   overload: SuperOffice.CRM.Services.CRMScriptRunResult.Success*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.ErrorInformation
   commentId: P:SuperOffice.CRM.Services.CRMScriptRunResult.ErrorInformation
   id: ErrorInformation
@@ -315,28 +313,28 @@ items:
   nameWithType: CRMScriptRunResult.ErrorInformation
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.ErrorInformation
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nContains error information if the execution failed \n"
+  summary: Contains error information if the execution failed
+  example: []
   syntax:
-    content: public virtual CRMScriptErrorInfo ErrorInformation { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual CRMScriptErrorInfo ErrorInformation { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.CRMScriptErrorInfo
-    content.vb: Public Overridable Property ErrorInformation As CRMScriptErrorInfo
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ErrorInformation As CRMScriptErrorInfo
   overload: SuperOffice.CRM.Services.CRMScriptRunResult.ErrorInformation*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.StatusCode
   commentId: P:SuperOffice.CRM.Services.CRMScriptRunResult.StatusCode
   id: StatusCode
@@ -348,28 +346,28 @@ items:
   nameWithType: CRMScriptRunResult.StatusCode
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.StatusCode
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe status code which is available to be returned from Typescript scripts \n"
+  summary: The status code which is available to be returned from Typescript scripts
+  example: []
   syntax:
-    content: public virtual int StatusCode { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int StatusCode { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property StatusCode As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property StatusCode As Integer
   overload: SuperOffice.CRM.Services.CRMScriptRunResult.StatusCode*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.StatusMessage
   commentId: P:SuperOffice.CRM.Services.CRMScriptRunResult.StatusMessage
   id: StatusMessage
@@ -381,28 +379,28 @@ items:
   nameWithType: CRMScriptRunResult.StatusMessage
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.StatusMessage
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAn additional status message that can be sent along with the status code \n"
+  summary: An additional status message that can be sent along with the status code
+  example: []
   syntax:
-    content: public virtual string StatusMessage { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string StatusMessage { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property StatusMessage As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property StatusMessage As String
   overload: SuperOffice.CRM.Services.CRMScriptRunResult.StatusMessage*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.Headers
   commentId: P:SuperOffice.CRM.Services.CRMScriptRunResult.Headers
   id: Headers
@@ -414,57 +412,106 @@ items:
   nameWithType: CRMScriptRunResult.Headers
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.Headers
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOptional result headers for context that supports it \n"
+  summary: Optional result headers for context that supports it
+  example: []
   syntax:
-    content: public virtual StringDictionary Headers { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual StringDictionary Headers { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.StringDictionary
-    content.vb: Public Overridable Property Headers As StringDictionary
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Headers As StringDictionary
   overload: SuperOffice.CRM.Services.CRMScriptRunResult.Headers*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.CRMScriptAgent
-  commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
-  isExternal: true
-  name: CRMScriptAgent
-  nameWithType: CRMScriptAgent
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent
   commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ICRMScriptAgent.html
   name: ICRMScriptAgent
   nameWithType: ICRMScriptAgent
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptRunResult.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptRunResult.html#SuperOffice_CRM_Services_CRMScriptRunResult__ctor
   name: CRMScriptRunResult
   nameWithType: CRMScriptRunResult.CRMScriptRunResult
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.CRMScriptRunResult
+  nameWithType.vb: CRMScriptRunResult.New
+  fullName.vb: SuperOffice.CRM.Services.CRMScriptRunResult.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.ToString*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptRunResult.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptRunResult.html#SuperOffice_CRM_Services_CRMScriptRunResult_ToString
   name: ToString
   nameWithType: CRMScriptRunResult.ToString
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.ToString
@@ -472,24 +519,24 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.Output*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptRunResult.Output
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptRunResult.html#SuperOffice_CRM_Services_CRMScriptRunResult_Output
   name: Output
   nameWithType: CRMScriptRunResult.Output
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.Output
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.Parameters*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptRunResult.Parameters
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptRunResult.html#SuperOffice_CRM_Services_CRMScriptRunResult_Parameters
   name: Parameters
   nameWithType: CRMScriptRunResult.Parameters
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.Parameters
@@ -501,6 +548,7 @@ references:
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.TraceRun*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptRunResult.TraceRun
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptRunResult.html#SuperOffice_CRM_Services_CRMScriptRunResult_TraceRun
   name: TraceRun
   nameWithType: CRMScriptRunResult.TraceRun
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.TraceRun
@@ -508,12 +556,14 @@ references:
   commentId: T:SuperOffice.CRM.Services.CRMScriptTraceRun
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptTraceRun.html
   name: CRMScriptTraceRun
   nameWithType: CRMScriptTraceRun
   fullName: SuperOffice.CRM.Services.CRMScriptTraceRun
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.Eventdata*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptRunResult.Eventdata
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptRunResult.html#SuperOffice_CRM_Services_CRMScriptRunResult_Eventdata
   name: Eventdata
   nameWithType: CRMScriptRunResult.Eventdata
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.Eventdata
@@ -521,12 +571,14 @@ references:
   commentId: T:SuperOffice.CRM.Services.EventData
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.EventData.html
   name: EventData
   nameWithType: EventData
   fullName: SuperOffice.CRM.Services.EventData
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.Success*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptRunResult.Success
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptRunResult.html#SuperOffice_CRM_Services_CRMScriptRunResult_Success
   name: Success
   nameWithType: CRMScriptRunResult.Success
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.Success
@@ -534,12 +586,17 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.ErrorInformation*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptRunResult.ErrorInformation
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptRunResult.html#SuperOffice_CRM_Services_CRMScriptRunResult_ErrorInformation
   name: ErrorInformation
   nameWithType: CRMScriptRunResult.ErrorInformation
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.ErrorInformation
@@ -547,12 +604,14 @@ references:
   commentId: T:SuperOffice.CRM.Services.CRMScriptErrorInfo
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptErrorInfo.html
   name: CRMScriptErrorInfo
   nameWithType: CRMScriptErrorInfo
   fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.StatusCode*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptRunResult.StatusCode
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptRunResult.html#SuperOffice_CRM_Services_CRMScriptRunResult_StatusCode
   name: StatusCode
   nameWithType: CRMScriptRunResult.StatusCode
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.StatusCode
@@ -560,18 +619,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.StatusMessage*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptRunResult.StatusMessage
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptRunResult.html#SuperOffice_CRM_Services_CRMScriptRunResult_StatusMessage
   name: StatusMessage
   nameWithType: CRMScriptRunResult.StatusMessage
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.StatusMessage
 - uid: SuperOffice.CRM.Services.CRMScriptRunResult.Headers*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptRunResult.Headers
   isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptRunResult.html#SuperOffice_CRM_Services_CRMScriptRunResult_Headers
   name: Headers
   nameWithType: CRMScriptRunResult.Headers
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult.Headers

@@ -5,14 +5,14 @@ items:
   id: EntityManagementFunctions
   parent: SuperOffice.CRM.Entities
   children:
-  - SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContact(System.Int32,System.String,System.String,System.Boolean)
-  - SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSave(SuperOffice.CRM.Entities.Person,System.DateTime,System.Boolean)
-  - SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContacts(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)
-  - SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersons(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,System.Boolean)
-  - SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjects(System.Int32,System.Int32,System.Boolean,System.Boolean)
-  - SuperOffice.CRM.Entities.EntityManagementFunctions.MovePerson(System.Int32,System.Int32,System.DateTime,System.Boolean)
-  - SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLog(System.Int32)
-  - SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge(System.Int32,System.Int32,System.Boolean,System.Action{System.String})
+  - SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContactAsync(System.Int32,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSaveAsync(SuperOffice.CRM.Entities.Person,System.DateTime,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContactsAsync(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersonsAsync(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjectsAsync(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.EntityManagementFunctions.MovePersonAsync(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLogAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMergeAsync(System.Int32,System.Int32,System.Boolean,System.Action{System.String},System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -20,80 +20,86 @@ items:
   nameWithType: EntityManagementFunctions
   fullName: SuperOffice.CRM.Entities.EntityManagementFunctions
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nMove, merge and copy contact, person and project; as well as replay such events on behalf of travel\n"
-  remarks: "\nThe public Copy and Merge methods are the outside entrypoints, as well as the generic PerformOperationFromLog.\n<p></p>\nOperations are not logged to traveltransactionlog, but instead to mergemovelog, from where they can be replayed.\nNote that move/merge are not supported on child databases, only on central (once you got out of sync with crossing\noperations, there would be no way back).\n"
+  summary: Move, merge and copy contact, person and project; as well as replay such events on behalf of travel
+  remarks: >-
+    The public Copy and Merge methods are the outside entrypoints, as well as the generic PerformOperationFromLog.
+
+    <p></p>
+
+    Operations are not logged to traveltransactionlog, but instead to mergemovelog, from where they can be replayed.
+
+    Note that move/merge are not supported on child databases, only on central (once you got out of sync with crossing
+
+    operations, there would be no way back).
+  example: []
   syntax:
-    content: 'public static class EntityManagementFunctions : Object'
-    content.vb: >-
-      Public Module EntityManagementFunctions
-          Inherits Object
+    content: public static class EntityManagementFunctions
+    content.vb: Public Module EntityManagementFunctions
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLog(System.Int32)
-  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLog(System.Int32)
-  id: PerformOperationFromLog(System.Int32)
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLogAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLogAsync(System.Int32,System.Threading.CancellationToken)
+  id: PerformOperationFromLogAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.EntityManagementFunctions
   langs:
   - csharp
   - vb
-  name: PerformOperationFromLog(Int32)
-  nameWithType: EntityManagementFunctions.PerformOperationFromLog(Int32)
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLog(System.Int32)
+  name: PerformOperationFromLogAsync(int, CancellationToken)
+  nameWithType: EntityManagementFunctions.PerformOperationFromLogAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLogAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nPerform a move/merge operation from a MergeMoveLog entry\nUsed for merging from a travel database\n"
+  summary: >-
+    Perform a move/merge operation from a MergeMoveLog entry
+
+    Used for merging from a travel database
+  example: []
   syntax:
-    content: public static void PerformOperationFromLog(int logId)
+    content: public static Task PerformOperationFromLogAsync(int logId, CancellationToken cancellationToken)
     parameters:
     - id: logId
       type: System.Int32
       description: The id of the log entry containing the move/merge operation
-    content.vb: Public Shared Sub PerformOperationFromLog(logId As Integer)
-  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLog*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContacts(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContacts(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)
-  id: MergeContacts(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function PerformOperationFromLogAsync(logId As Integer, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLogAsync*
+  nameWithType.vb: EntityManagementFunctions.PerformOperationFromLogAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLogAsync(Integer, System.Threading.CancellationToken)
+  name.vb: PerformOperationFromLogAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContactsAsync(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContactsAsync(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  id: MergeContactsAsync(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.EntityManagementFunctions
   langs:
   - csharp
   - vb
-  name: MergeContacts(Int32, Int32, Boolean, Boolean, Boolean)
-  nameWithType: EntityManagementFunctions.MergeContacts(Int32, Int32, Boolean, Boolean, Boolean)
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContacts(System.Int32, System.Int32, System.Boolean, System.Boolean, System.Boolean)
+  name: MergeContactsAsync(int, int, bool, bool, bool, CancellationToken)
+  nameWithType: EntityManagementFunctions.MergeContactsAsync(int, int, bool, bool, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContactsAsync(int, int, bool, bool, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nMerge two contacts. The destination contact will remain.\n"
+  summary: Merge two contacts. The destination contact will remain.
+  example: []
   syntax:
-    content: public static void MergeContacts(int sourceContactId, int destinationContactId, bool mergeIdenticalPersons, bool replaceEmptyFieldsOnDestination, bool logOperation)
+    content: public static Task MergeContactsAsync(int sourceContactId, int destinationContactId, bool mergeIdenticalPersons, bool replaceEmptyFieldsOnDestination, bool logOperation, CancellationToken cancellationToken = default)
     parameters:
     - id: sourceContactId
       type: System.Int32
@@ -108,34 +114,34 @@ items:
       type: System.Boolean
     - id: logOperation
       type: System.Boolean
-    content.vb: Public Shared Sub MergeContacts(sourceContactId As Integer, destinationContactId As Integer, mergeIdenticalPersons As Boolean, replaceEmptyFieldsOnDestination As Boolean, logOperation As Boolean)
-  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContacts*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSave(SuperOffice.CRM.Entities.Person,System.DateTime,System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSave(SuperOffice.CRM.Entities.Person,System.DateTime,System.Boolean)
-  id: DisconnectPersonNoSave(SuperOffice.CRM.Entities.Person,System.DateTime,System.Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Shared Function MergeContactsAsync(sourceContactId As Integer, destinationContactId As Integer, mergeIdenticalPersons As Boolean, replaceEmptyFieldsOnDestination As Boolean, logOperation As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContactsAsync*
+  nameWithType.vb: EntityManagementFunctions.MergeContactsAsync(Integer, Integer, Boolean, Boolean, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContactsAsync(Integer, Integer, Boolean, Boolean, Boolean, System.Threading.CancellationToken)
+  name.vb: MergeContactsAsync(Integer, Integer, Boolean, Boolean, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSaveAsync(SuperOffice.CRM.Entities.Person,System.DateTime,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSaveAsync(SuperOffice.CRM.Entities.Person,System.DateTime,System.Boolean,System.Threading.CancellationToken)
+  id: DisconnectPersonNoSaveAsync(SuperOffice.CRM.Entities.Person,System.DateTime,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.EntityManagementFunctions
   langs:
   - csharp
   - vb
-  name: DisconnectPersonNoSave(Person, DateTime, Boolean)
-  nameWithType: EntityManagementFunctions.DisconnectPersonNoSave(Person, DateTime, Boolean)
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSave(SuperOffice.CRM.Entities.Person, System.DateTime, System.Boolean)
+  name: DisconnectPersonNoSaveAsync(Person, DateTime, bool, CancellationToken)
+  nameWithType: EntityManagementFunctions.DisconnectPersonNoSaveAsync(Person, DateTime, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSaveAsync(SuperOffice.CRM.Entities.Person, System.DateTime, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nDisconnect a person from its contact\n"
+  summary: Disconnect a person from its contact
+  example: []
   syntax:
-    content: public static void DisconnectPersonNoSave(Person person, DateTime moveAfterDate, bool logOperation = true)
+    content: public static Task DisconnectPersonNoSaveAsync(Person person, DateTime moveAfterDate, bool logOperation = true, CancellationToken cancellationToken = default)
     parameters:
     - id: person
       type: SuperOffice.CRM.Entities.Person
@@ -145,34 +151,33 @@ items:
       description: Only move activites after this date
     - id: logOperation
       type: System.Boolean
-    content.vb: Public Shared Sub DisconnectPersonNoSave(person As Person, moveAfterDate As DateTime, logOperation As Boolean = True)
-  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSave*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MovePerson(System.Int32,System.Int32,System.DateTime,System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.MovePerson(System.Int32,System.Int32,System.DateTime,System.Boolean)
-  id: MovePerson(System.Int32,System.Int32,System.DateTime,System.Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function DisconnectPersonNoSaveAsync(person As Person, moveAfterDate As Date, logOperation As Boolean = True, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSaveAsync*
+  nameWithType.vb: EntityManagementFunctions.DisconnectPersonNoSaveAsync(Person, Date, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSaveAsync(SuperOffice.CRM.Entities.Person, Date, Boolean, System.Threading.CancellationToken)
+  name.vb: DisconnectPersonNoSaveAsync(Person, Date, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MovePersonAsync(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.MovePersonAsync(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Threading.CancellationToken)
+  id: MovePersonAsync(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.EntityManagementFunctions
   langs:
   - csharp
   - vb
-  name: MovePerson(Int32, Int32, DateTime, Boolean)
-  nameWithType: EntityManagementFunctions.MovePerson(Int32, Int32, DateTime, Boolean)
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MovePerson(System.Int32, System.Int32, System.DateTime, System.Boolean)
+  name: MovePersonAsync(int, int, DateTime, bool, CancellationToken)
+  nameWithType: EntityManagementFunctions.MovePersonAsync(int, int, DateTime, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MovePersonAsync(int, int, System.DateTime, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nMove a person to a specified contact\n"
+  summary: Move a person to a specified contact
+  example: []
   syntax:
-    content: public static void MovePerson(int personId, int destinationContactId, DateTime moveAfterDate, bool logOperation)
+    content: public static Task MovePersonAsync(int personId, int destinationContactId, DateTime moveAfterDate, bool logOperation, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
@@ -183,34 +188,33 @@ items:
       description: Only move activites after this date
     - id: logOperation
       type: System.Boolean
-    content.vb: Public Shared Sub MovePerson(personId As Integer, destinationContactId As Integer, moveAfterDate As DateTime, logOperation As Boolean)
-  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.MovePerson*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersons(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersons(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,System.Boolean)
-  id: MergePersons(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,System.Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function MovePersonAsync(personId As Integer, destinationContactId As Integer, moveAfterDate As Date, logOperation As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.MovePersonAsync*
+  nameWithType.vb: EntityManagementFunctions.MovePersonAsync(Integer, Integer, Date, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.EntityManagementFunctions.MovePersonAsync(Integer, Integer, Date, Boolean, System.Threading.CancellationToken)
+  name.vb: MovePersonAsync(Integer, Integer, Date, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersonsAsync(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersonsAsync(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  id: MergePersonsAsync(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.EntityManagementFunctions
   langs:
   - csharp
   - vb
-  name: MergePersons(Int32, Int32, DateTime, Boolean, Boolean, Boolean)
-  nameWithType: EntityManagementFunctions.MergePersons(Int32, Int32, DateTime, Boolean, Boolean, Boolean)
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersons(System.Int32, System.Int32, System.DateTime, System.Boolean, System.Boolean, System.Boolean)
+  name: MergePersonsAsync(int, int, DateTime, bool, bool, bool, CancellationToken)
+  nameWithType: EntityManagementFunctions.MergePersonsAsync(int, int, DateTime, bool, bool, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersonsAsync(int, int, System.DateTime, bool, bool, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nMerge two persons\n"
+  summary: Merge two persons
+  example: []
   syntax:
-    content: public static void MergePersons(int sourcePersonId, int destinationPersonId, DateTime moveAfterDate, bool deleteSource, bool replaceEmptyFieldsOnDestination, bool logOperation)
+    content: public static Task MergePersonsAsync(int sourcePersonId, int destinationPersonId, DateTime moveAfterDate, bool deleteSource, bool replaceEmptyFieldsOnDestination, bool logOperation, CancellationToken cancellationToken = default)
     parameters:
     - id: sourcePersonId
       type: System.Int32
@@ -221,38 +225,36 @@ items:
       description: Only move activities after this date
     - id: deleteSource
       type: System.Boolean
-      description: 'If true the source will be deleted instead of retired and activities before moveAfterDate will have their personId set to 0 '
+      description: If true the source will be deleted instead of retired and activities before moveAfterDate will have their personId set to 0
     - id: replaceEmptyFieldsOnDestination
       type: System.Boolean
     - id: logOperation
       type: System.Boolean
-    content.vb: Public Shared Sub MergePersons(sourcePersonId As Integer, destinationPersonId As Integer, moveAfterDate As DateTime, deleteSource As Boolean, replaceEmptyFieldsOnDestination As Boolean, logOperation As Boolean)
-  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersons*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge(System.Int32,System.Int32,System.Boolean,System.Action{System.String})
-  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge(System.Int32,System.Int32,System.Boolean,System.Action{System.String})
-  id: UpdateConsentPersonForMerge(System.Int32,System.Int32,System.Boolean,System.Action{System.String})
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function MergePersonsAsync(sourcePersonId As Integer, destinationPersonId As Integer, moveAfterDate As Date, deleteSource As Boolean, replaceEmptyFieldsOnDestination As Boolean, logOperation As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersonsAsync*
+  nameWithType.vb: EntityManagementFunctions.MergePersonsAsync(Integer, Integer, Date, Boolean, Boolean, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersonsAsync(Integer, Integer, Date, Boolean, Boolean, Boolean, System.Threading.CancellationToken)
+  name.vb: MergePersonsAsync(Integer, Integer, Date, Boolean, Boolean, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMergeAsync(System.Int32,System.Int32,System.Boolean,System.Action{System.String},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMergeAsync(System.Int32,System.Int32,System.Boolean,System.Action{System.String},System.Threading.CancellationToken)
+  id: UpdateConsentPersonForMergeAsync(System.Int32,System.Int32,System.Boolean,System.Action{System.String},System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.EntityManagementFunctions
   langs:
   - csharp
   - vb
-  name: UpdateConsentPersonForMerge(Int32, Int32, Boolean, Action<String>)
-  nameWithType: EntityManagementFunctions.UpdateConsentPersonForMerge(Int32, Int32, Boolean, Action<String>)
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge(System.Int32, System.Int32, System.Boolean, System.Action<System.String>)
+  name: UpdateConsentPersonForMergeAsync(int, int, bool, Action<string>, CancellationToken)
+  nameWithType: EntityManagementFunctions.UpdateConsentPersonForMergeAsync(int, int, bool, Action<string>, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMergeAsync(int, int, bool, System.Action<string>, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static void UpdateConsentPersonForMerge(int sourcePersonId, int destinationPersonId, bool deleteSource, Action<string> markAsManuallyHandled)
+    content: public static Task UpdateConsentPersonForMergeAsync(int sourcePersonId, int destinationPersonId, bool deleteSource, Action<string> markAsManuallyHandled, CancellationToken cancellationToken = default)
     parameters:
     - id: sourcePersonId
       type: System.Int32
@@ -262,37 +264,33 @@ items:
       type: System.Boolean
     - id: markAsManuallyHandled
       type: System.Action{System.String}
-    content.vb: Public Shared Sub UpdateConsentPersonForMerge(sourcePersonId As Integer, destinationPersonId As Integer, deleteSource As Boolean, markAsManuallyHandled As Action(Of String))
-  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge*
-  nameWithType.vb: EntityManagementFunctions.UpdateConsentPersonForMerge(Int32, Int32, Boolean, Action(Of String))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge(System.Int32, System.Int32, System.Boolean, System.Action(Of System.String))
-  name.vb: UpdateConsentPersonForMerge(Int32, Int32, Boolean, Action(Of String))
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjects(System.Int32,System.Int32,System.Boolean,System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjects(System.Int32,System.Int32,System.Boolean,System.Boolean)
-  id: MergeProjects(System.Int32,System.Int32,System.Boolean,System.Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function UpdateConsentPersonForMergeAsync(sourcePersonId As Integer, destinationPersonId As Integer, deleteSource As Boolean, markAsManuallyHandled As Action(Of String), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMergeAsync*
+  nameWithType.vb: EntityManagementFunctions.UpdateConsentPersonForMergeAsync(Integer, Integer, Boolean, Action(Of String), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMergeAsync(Integer, Integer, Boolean, System.Action(Of String), System.Threading.CancellationToken)
+  name.vb: UpdateConsentPersonForMergeAsync(Integer, Integer, Boolean, Action(Of String), CancellationToken)
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjectsAsync(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjectsAsync(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  id: MergeProjectsAsync(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.EntityManagementFunctions
   langs:
   - csharp
   - vb
-  name: MergeProjects(Int32, Int32, Boolean, Boolean)
-  nameWithType: EntityManagementFunctions.MergeProjects(Int32, Int32, Boolean, Boolean)
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjects(System.Int32, System.Int32, System.Boolean, System.Boolean)
+  name: MergeProjectsAsync(int, int, bool, bool, CancellationToken)
+  nameWithType: EntityManagementFunctions.MergeProjectsAsync(int, int, bool, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjectsAsync(int, int, bool, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nMerge two projects\n"
+  summary: Merge two projects
+  example: []
   syntax:
-    content: public static void MergeProjects(int sourceProjectId, int destinationProjectId, bool replaceEmptyFieldsOnDestination, bool logOperation)
+    content: public static Task MergeProjectsAsync(int sourceProjectId, int destinationProjectId, bool replaceEmptyFieldsOnDestination, bool logOperation, CancellationToken cancellationToken = default)
     parameters:
     - id: sourceProjectId
       type: System.Int32
@@ -303,34 +301,34 @@ items:
       description: Fill in empty fields on destination from source
     - id: logOperation
       type: System.Boolean
-    content.vb: Public Shared Sub MergeProjects(sourceProjectId As Integer, destinationProjectId As Integer, replaceEmptyFieldsOnDestination As Boolean, logOperation As Boolean)
-  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjects*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContact(System.Int32,System.String,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContact(System.Int32,System.String,System.String,System.Boolean)
-  id: CopyContact(System.Int32,System.String,System.String,System.Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Shared Function MergeProjectsAsync(sourceProjectId As Integer, destinationProjectId As Integer, replaceEmptyFieldsOnDestination As Boolean, logOperation As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjectsAsync*
+  nameWithType.vb: EntityManagementFunctions.MergeProjectsAsync(Integer, Integer, Boolean, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjectsAsync(Integer, Integer, Boolean, Boolean, System.Threading.CancellationToken)
+  name.vb: MergeProjectsAsync(Integer, Integer, Boolean, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContactAsync(System.Int32,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContactAsync(System.Int32,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: CopyContactAsync(System.Int32,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Entities.EntityManagementFunctions
   langs:
   - csharp
   - vb
-  name: CopyContact(Int32, String, String, Boolean)
-  nameWithType: EntityManagementFunctions.CopyContact(Int32, String, String, Boolean)
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContact(System.Int32, System.String, System.String, System.Boolean)
+  name: CopyContactAsync(int, string, string, bool, CancellationToken)
+  nameWithType: EntityManagementFunctions.CopyContactAsync(int, string, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContactAsync(int, string, string, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nCopy a contact. Activities and related data will be ignored\n"
+  summary: Copy a contact. Activities and related data will be ignored
+  example: []
   syntax:
-    content: public static int CopyContact(int sourceContactId, string destinationContactName, string destinationContactDepartment, bool copyPersons)
+    content: public static Task<int> CopyContactAsync(int sourceContactId, string destinationContactName, string destinationContactDepartment, bool copyPersons, CancellationToken cancellationToken = default)
     parameters:
     - id: sourceContactId
       type: System.Int32
@@ -342,196 +340,602 @@ items:
     - id: copyPersons
       type: System.Boolean
       description: If true, persons will be copied from source contact
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Id of copied contact
-    content.vb: Public Shared Function CopyContact(sourceContactId As Integer, destinationContactName As String, destinationContactDepartment As String, copyPersons As Boolean) As Integer
-  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContact*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+    content.vb: Public Shared Function CopyContactAsync(sourceContactId As Integer, destinationContactName As String, destinationContactDepartment As String, copyPersons As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContactAsync*
+  nameWithType.vb: EntityManagementFunctions.CopyContactAsync(Integer, String, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContactAsync(Integer, String, String, Boolean, System.Threading.CancellationToken)
+  name.vb: CopyContactAsync(Integer, String, String, Boolean, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLog*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLog
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLogAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLogAsync
   isExternal: true
-  name: PerformOperationFromLog
-  nameWithType: EntityManagementFunctions.PerformOperationFromLog
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLog
+  href: SuperOffice.CRM.Entities.EntityManagementFunctions.html#SuperOffice_CRM_Entities_EntityManagementFunctions_PerformOperationFromLogAsync_System_Int32_System_Threading_CancellationToken_
+  name: PerformOperationFromLogAsync
+  nameWithType: EntityManagementFunctions.PerformOperationFromLogAsync
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLogAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContacts*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContacts
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: MergeContacts
-  nameWithType: EntityManagementFunctions.MergeContacts
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContacts
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContactsAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContactsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.EntityManagementFunctions.html#SuperOffice_CRM_Entities_EntityManagementFunctions_MergeContactsAsync_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Threading_CancellationToken_
+  name: MergeContactsAsync
+  nameWithType: EntityManagementFunctions.MergeContactsAsync
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContactsAsync
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSave*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSave
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSaveAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSaveAsync
   isExternal: true
-  name: DisconnectPersonNoSave
-  nameWithType: EntityManagementFunctions.DisconnectPersonNoSave
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSave
+  href: SuperOffice.CRM.Entities.EntityManagementFunctions.html#SuperOffice_CRM_Entities_EntityManagementFunctions_DisconnectPersonNoSaveAsync_SuperOffice_CRM_Entities_Person_System_DateTime_System_Boolean_System_Threading_CancellationToken_
+  name: DisconnectPersonNoSaveAsync
+  nameWithType: EntityManagementFunctions.DisconnectPersonNoSaveAsync
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSaveAsync
 - uid: SuperOffice.CRM.Entities.Person
   commentId: T:SuperOffice.CRM.Entities.Person
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.Person.html
   name: Person
   nameWithType: Person
   fullName: SuperOffice.CRM.Entities.Person
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MovePerson*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.MovePerson
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MovePersonAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.MovePersonAsync
   isExternal: true
-  name: MovePerson
-  nameWithType: EntityManagementFunctions.MovePerson
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MovePerson
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersons*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersons
+  href: SuperOffice.CRM.Entities.EntityManagementFunctions.html#SuperOffice_CRM_Entities_EntityManagementFunctions_MovePersonAsync_System_Int32_System_Int32_System_DateTime_System_Boolean_System_Threading_CancellationToken_
+  name: MovePersonAsync
+  nameWithType: EntityManagementFunctions.MovePersonAsync
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MovePersonAsync
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersonsAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersonsAsync
   isExternal: true
-  name: MergePersons
-  nameWithType: EntityManagementFunctions.MergePersons
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersons
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge
+  href: SuperOffice.CRM.Entities.EntityManagementFunctions.html#SuperOffice_CRM_Entities_EntityManagementFunctions_MergePersonsAsync_System_Int32_System_Int32_System_DateTime_System_Boolean_System_Boolean_System_Boolean_System_Threading_CancellationToken_
+  name: MergePersonsAsync
+  nameWithType: EntityManagementFunctions.MergePersonsAsync
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersonsAsync
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMergeAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMergeAsync
   isExternal: true
-  name: UpdateConsentPersonForMerge
-  nameWithType: EntityManagementFunctions.UpdateConsentPersonForMerge
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge
+  href: SuperOffice.CRM.Entities.EntityManagementFunctions.html#SuperOffice_CRM_Entities_EntityManagementFunctions_UpdateConsentPersonForMergeAsync_System_Int32_System_Int32_System_Boolean_System_Action_System_String__System_Threading_CancellationToken_
+  name: UpdateConsentPersonForMergeAsync
+  nameWithType: EntityManagementFunctions.UpdateConsentPersonForMergeAsync
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMergeAsync
 - uid: System.Action{System.String}
-  commentId: '!:System.Action{System.String}'
+  commentId: T:System.Action{System.String}
+  parent: System
   definition: System.Action`1
-  name: Action<String>
-  nameWithType: Action<String>
-  fullName: System.Action<System.String>
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<string>
+  nameWithType: Action<string>
+  fullName: System.Action<string>
   nameWithType.vb: Action(Of String)
-  fullName.vb: System.Action(Of System.String)
+  fullName.vb: System.Action(Of String)
   name.vb: Action(Of String)
   spec.csharp:
   - uid: System.Action`1
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Action`1
+  commentId: T:System.Action`1
   isExternal: true
-  name: Action<>
-  nameWithType: Action<>
-  fullName: System.Action<>
-  nameWithType.vb: Action(Of )
-  fullName.vb: System.Action(Of )
-  name.vb: Action(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
   spec.csharp:
   - uid: System.Action`1
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjects*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjects
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjectsAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjectsAsync
   isExternal: true
-  name: MergeProjects
-  nameWithType: EntityManagementFunctions.MergeProjects
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjects
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContact*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContact
+  href: SuperOffice.CRM.Entities.EntityManagementFunctions.html#SuperOffice_CRM_Entities_EntityManagementFunctions_MergeProjectsAsync_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Threading_CancellationToken_
+  name: MergeProjectsAsync
+  nameWithType: EntityManagementFunctions.MergeProjectsAsync
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjectsAsync
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContactAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContactAsync
   isExternal: true
-  name: CopyContact
-  nameWithType: EntityManagementFunctions.CopyContact
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContact
+  href: SuperOffice.CRM.Entities.EntityManagementFunctions.html#SuperOffice_CRM_Entities_EntityManagementFunctions_CopyContactAsync_System_Int32_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  name: CopyContactAsync
+  nameWithType: EntityManagementFunctions.CopyContactAsync
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContactAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )

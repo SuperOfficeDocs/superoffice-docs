@@ -1,0 +1,582 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  commentId: T:SuperOffice.Diagnostics.IServiceCallsRepository
+  id: IServiceCallsRepository
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.IServiceCallsRepository.Add(System.String,System.String,System.String,System.String,System.ValueTuple{System.String,System.Object}[])
+  - SuperOffice.Diagnostics.IServiceCallsRepository.All
+  - SuperOffice.Diagnostics.IServiceCallsRepository.Remove(System.Guid)
+  langs:
+  - csharp
+  - vb
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+  type: Interface
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  summary: Repository for currently executing service calls
+  example: []
+  syntax:
+    content: public interface IServiceCallsRepository
+    content.vb: Public Interface IServiceCallsRepository
+  extensionMethods:
+  - SuperOffice.Diagnostics.IServiceCallsRepository.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.IServiceCallsRepository.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository.Add(System.String,System.String,System.String,System.String,System.ValueTuple{System.String,System.Object}[])
+  commentId: M:SuperOffice.Diagnostics.IServiceCallsRepository.Add(System.String,System.String,System.String,System.String,System.ValueTuple{System.String,System.Object}[])
+  id: Add(System.String,System.String,System.String,System.String,System.ValueTuple{System.String,System.Object}[])
+  parent: SuperOffice.Diagnostics.IServiceCallsRepository
+  langs:
+  - csharp
+  - vb
+  name: Add(string, string, string, string, params (string parameter, object argument)[])
+  nameWithType: IServiceCallsRepository.Add(string, string, string, string, params (string parameter, object argument)[])
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository.Add(string, string, string, string, params (string parameter, object argument)[])
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: Guid Add(string agent, string method, string databaseContext, string user, params (string parameter, object argument)[] parameters)
+    parameters:
+    - id: agent
+      type: System.String
+    - id: method
+      type: System.String
+    - id: databaseContext
+      type: System.String
+    - id: user
+      type: System.String
+    - id: parameters
+      type: System.ValueTuple{System.String,System.Object}[]
+    return:
+      type: System.Guid
+    content.vb: Function Add(agent As String, method As String, databaseContext As String, user As String, ParamArray parameters As (parameter As String, argument As Object)()) As Guid
+  overload: SuperOffice.Diagnostics.IServiceCallsRepository.Add*
+  nameWithType.vb: IServiceCallsRepository.Add(String, String, String, String, ParamArray (parameter As String, argument As Object)())
+  fullName.vb: SuperOffice.Diagnostics.IServiceCallsRepository.Add(String, String, String, String, ParamArray (parameter As String, argument As Object)())
+  name.vb: Add(String, String, String, String, ParamArray (parameter As String, argument As Object)())
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository.Remove(System.Guid)
+  commentId: M:SuperOffice.Diagnostics.IServiceCallsRepository.Remove(System.Guid)
+  id: Remove(System.Guid)
+  parent: SuperOffice.Diagnostics.IServiceCallsRepository
+  langs:
+  - csharp
+  - vb
+  name: Remove(Guid)
+  nameWithType: IServiceCallsRepository.Remove(Guid)
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository.Remove(System.Guid)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: void Remove(Guid serviceCall)
+    parameters:
+    - id: serviceCall
+      type: System.Guid
+    content.vb: Sub Remove(serviceCall As Guid)
+  overload: SuperOffice.Diagnostics.IServiceCallsRepository.Remove*
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository.All
+  commentId: P:SuperOffice.Diagnostics.IServiceCallsRepository.All
+  id: All
+  parent: SuperOffice.Diagnostics.IServiceCallsRepository
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: IServiceCallsRepository.All
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository.All
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  summary: Gets all currenty executing service calls.
+  example: []
+  syntax:
+    content: IEnumerable<ServiceCall> All { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Diagnostics.ServiceCall}
+    content.vb: ReadOnly Property All As IEnumerable(Of ServiceCall)
+  overload: SuperOffice.Diagnostics.IServiceCallsRepository.All*
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IServiceCallsRepository, To>(IServiceCallsRepository)
+  nameWithType: EnumUtil.MapEnums<IServiceCallsRepository, To>(IServiceCallsRepository)
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.IServiceCallsRepository, To>(SuperOffice.Diagnostics.IServiceCallsRepository)
+  nameWithType.vb: EnumUtil.MapEnums(Of IServiceCallsRepository, To)(IServiceCallsRepository)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.IServiceCallsRepository, To)(SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: MapEnums(Of IServiceCallsRepository, To)(IServiceCallsRepository)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.IServiceCallsRepository)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.IServiceCallsRepository
+    name: IServiceCallsRepository
+    isExternal: true
+    href: SuperOffice.Diagnostics.IServiceCallsRepository.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Diagnostics.IServiceCallsRepository
+    name: IServiceCallsRepository
+    isExternal: true
+    href: SuperOffice.Diagnostics.IServiceCallsRepository.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.IServiceCallsRepository)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.IServiceCallsRepository
+    name: IServiceCallsRepository
+    isExternal: true
+    href: SuperOffice.Diagnostics.IServiceCallsRepository.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.IServiceCallsRepository
+    name: IServiceCallsRepository
+    isExternal: true
+    href: SuperOffice.Diagnostics.IServiceCallsRepository.html
+  - name: )
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IServiceCallsRepository, To>(IServiceCallsRepository)
+  nameWithType: Converters.MapEnums<IServiceCallsRepository, To>(IServiceCallsRepository)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.IServiceCallsRepository, To>(SuperOffice.Diagnostics.IServiceCallsRepository)
+  nameWithType.vb: Converters.MapEnums(Of IServiceCallsRepository, To)(IServiceCallsRepository)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.IServiceCallsRepository, To)(SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: MapEnums(Of IServiceCallsRepository, To)(IServiceCallsRepository)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.IServiceCallsRepository)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.IServiceCallsRepository
+    name: IServiceCallsRepository
+    isExternal: true
+    href: SuperOffice.Diagnostics.IServiceCallsRepository.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Diagnostics.IServiceCallsRepository
+    name: IServiceCallsRepository
+    isExternal: true
+    href: SuperOffice.Diagnostics.IServiceCallsRepository.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.IServiceCallsRepository)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.IServiceCallsRepository
+    name: IServiceCallsRepository
+    isExternal: true
+    href: SuperOffice.Diagnostics.IServiceCallsRepository.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.IServiceCallsRepository
+    name: IServiceCallsRepository
+    isExternal: true
+    href: SuperOffice.Diagnostics.IServiceCallsRepository.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository.Add*
+  commentId: Overload:SuperOffice.Diagnostics.IServiceCallsRepository.Add
+  isExternal: true
+  href: SuperOffice.Diagnostics.IServiceCallsRepository.html#SuperOffice_Diagnostics_IServiceCallsRepository_Add_System_String_System_String_System_String_System_String_System_ValueTuple_System_String_System_Object____
+  name: Add
+  nameWithType: IServiceCallsRepository.Add
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository.Add
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.ValueTuple{System.String,System.Object}[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: (string parameter, object argument)[]
+  nameWithType: (string parameter, object argument)[]
+  fullName: (string parameter, object argument)[]
+  nameWithType.vb: (parameter As String, argument As Object)()
+  fullName.vb: (parameter As String, argument As Object)()
+  name.vb: (parameter As String, argument As Object)()
+  spec.csharp:
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Object}.parameter
+    name: parameter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.object-.parameter
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Object}.argument
+    name: argument
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.object-.argument
+  - name: )
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{System.String,System.Object}.parameter
+    name: parameter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.object-.parameter
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Object}.argument
+    name: argument
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.object-.argument
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: (
+  - name: )
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository.Remove*
+  commentId: Overload:SuperOffice.Diagnostics.IServiceCallsRepository.Remove
+  isExternal: true
+  href: SuperOffice.Diagnostics.IServiceCallsRepository.html#SuperOffice_Diagnostics_IServiceCallsRepository_Remove_System_Guid_
+  name: Remove
+  nameWithType: IServiceCallsRepository.Remove
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository.Remove
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository.All*
+  commentId: Overload:SuperOffice.Diagnostics.IServiceCallsRepository.All
+  isExternal: true
+  href: SuperOffice.Diagnostics.IServiceCallsRepository.html#SuperOffice_Diagnostics_IServiceCallsRepository_All
+  name: All
+  nameWithType: IServiceCallsRepository.All
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository.All
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Diagnostics.ServiceCall}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Diagnostics.ServiceCall}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<ServiceCall>
+  nameWithType: IEnumerable<ServiceCall>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Diagnostics.ServiceCall>
+  nameWithType.vb: IEnumerable(Of ServiceCall)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Diagnostics.ServiceCall)
+  name.vb: IEnumerable(Of ServiceCall)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SuperOffice.Diagnostics.ServiceCall
+    name: ServiceCall
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCall.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.ServiceCall
+    name: ServiceCall
+    isExternal: true
+    href: SuperOffice.Diagnostics.ServiceCall.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

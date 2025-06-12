@@ -18,27 +18,26 @@ items:
   nameWithType: SoEventRecorder
   fullName: SuperOffice.Diagnostics.SoEventRecorder
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nData recorder to keep track of actions being carried out. \nContent of the data recorder is amended in logs when logging errors and warnings.\n"
+  summary: >-
+    Data recorder to keep track of actions being carried out. 
+     Content of the data recorder is amended in logs when logging errors and warnings.
+  example: []
   syntax:
-    content: 'public static class SoEventRecorder : Object'
-    content.vb: >-
-      Public Module SoEventRecorder
-          Inherits Object
+    content: public static class SoEventRecorder
+    content.vb: Public Module SoEventRecorder
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.Diagnostics.SoEventRecorder.RecordState(SuperOffice.Diagnostics.SoEventRecorder.NetServerState)
   commentId: M:SuperOffice.Diagnostics.SoEventRecorder.RecordState(SuperOffice.Diagnostics.SoEventRecorder.NetServerState)
   id: RecordState(SuperOffice.Diagnostics.SoEventRecorder.NetServerState)
@@ -46,13 +45,10 @@ items:
   langs:
   - csharp
   - vb
-  name: RecordState(SoEventRecorder.NetServerState)
+  name: RecordState(NetServerState)
   nameWithType: SoEventRecorder.RecordState(SoEventRecorder.NetServerState)
   fullName: SuperOffice.Diagnostics.SoEventRecorder.RecordState(SuperOffice.Diagnostics.SoEventRecorder.NetServerState)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
@@ -63,12 +59,6 @@ items:
       type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
     content.vb: Public Shared Sub RecordState(state As SoEventRecorder.NetServerState)
   overload: SuperOffice.Diagnostics.SoEventRecorder.RecordState*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Diagnostics.SoEventRecorder.RecordPermanentEvent(System.String,System.String)
   commentId: M:SuperOffice.Diagnostics.SoEventRecorder.RecordPermanentEvent(System.String,System.String)
   id: RecordPermanentEvent(System.String,System.String)
@@ -76,17 +66,15 @@ items:
   langs:
   - csharp
   - vb
-  name: RecordPermanentEvent(String, String)
-  nameWithType: SoEventRecorder.RecordPermanentEvent(String, String)
-  fullName: SuperOffice.Diagnostics.SoEventRecorder.RecordPermanentEvent(System.String, System.String)
+  name: RecordPermanentEvent(string, string)
+  nameWithType: SoEventRecorder.RecordPermanentEvent(string, string)
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.RecordPermanentEvent(string, string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nRecord a permanent event that is kept in memory for the duration of the process.\n"
+  summary: Record a permanent event that is kept in memory for the duration of the process.
+  example: []
   syntax:
     content: public static void RecordPermanentEvent(string category, string message)
     parameters:
@@ -98,12 +86,9 @@ items:
       description: Message
     content.vb: Public Shared Sub RecordPermanentEvent(category As String, message As String)
   overload: SuperOffice.Diagnostics.SoEventRecorder.RecordPermanentEvent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoEventRecorder.RecordPermanentEvent(String, String)
+  fullName.vb: SuperOffice.Diagnostics.SoEventRecorder.RecordPermanentEvent(String, String)
+  name.vb: RecordPermanentEvent(String, String)
 - uid: SuperOffice.Diagnostics.SoEventRecorder.RecordEvent(System.String,System.String)
   commentId: M:SuperOffice.Diagnostics.SoEventRecorder.RecordEvent(System.String,System.String)
   id: RecordEvent(System.String,System.String)
@@ -111,17 +96,15 @@ items:
   langs:
   - csharp
   - vb
-  name: RecordEvent(String, String)
-  nameWithType: SoEventRecorder.RecordEvent(String, String)
-  fullName: SuperOffice.Diagnostics.SoEventRecorder.RecordEvent(System.String, System.String)
+  name: RecordEvent(string, string)
+  nameWithType: SoEventRecorder.RecordEvent(string, string)
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.RecordEvent(string, string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nRecord an event.  Only the last 100 within the category is kept.\n"
+  summary: Record an event.  Only the last 100 within the category is kept.
+  example: []
   syntax:
     content: public static void RecordEvent(string category, string message)
     parameters:
@@ -133,12 +116,9 @@ items:
       description: Message
     content.vb: Public Shared Sub RecordEvent(category As String, message As String)
   overload: SuperOffice.Diagnostics.SoEventRecorder.RecordEvent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoEventRecorder.RecordEvent(String, String)
+  fullName.vb: SuperOffice.Diagnostics.SoEventRecorder.RecordEvent(String, String)
+  name.vb: RecordEvent(String, String)
 - uid: SuperOffice.Diagnostics.SoEventRecorder.GetAllEvents
   commentId: M:SuperOffice.Diagnostics.SoEventRecorder.GetAllEvents
   id: GetAllEvents
@@ -150,26 +130,18 @@ items:
   nameWithType: SoEventRecorder.GetAllEvents()
   fullName: SuperOffice.Diagnostics.SoEventRecorder.GetAllEvents()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nGet all recorded events\n"
+  summary: Get all recorded events
+  example: []
   syntax:
     content: public static IEnumerable<SoEventRecorder.SoRecordedEvent> GetAllEvents()
     return:
       type: System.Collections.Generic.IEnumerable{SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent}
       description: Dictionary containing all recorded events.
-    content.vb: Public Shared Function GetAllEvents As IEnumerable(Of SoEventRecorder.SoRecordedEvent)
+    content.vb: Public Shared Function GetAllEvents() As IEnumerable(Of SoEventRecorder.SoRecordedEvent)
   overload: SuperOffice.Diagnostics.SoEventRecorder.GetAllEvents*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Diagnostics.SoEventRecorder.GetAllEventsAsString
   commentId: M:SuperOffice.Diagnostics.SoEventRecorder.GetAllEventsAsString
   id: GetAllEventsAsString
@@ -181,25 +153,18 @@ items:
   nameWithType: SoEventRecorder.GetAllEventsAsString()
   fullName: SuperOffice.Diagnostics.SoEventRecorder.GetAllEventsAsString()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nString containing all recorded events.\n"
+  summary: String containing all recorded events.
+  example: []
   syntax:
     content: public static string GetAllEventsAsString()
     return:
       type: System.String
-    content.vb: Public Shared Function GetAllEventsAsString As String
+      description: ''
+    content.vb: Public Shared Function GetAllEventsAsString() As String
   overload: SuperOffice.Diagnostics.SoEventRecorder.GetAllEventsAsString*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Diagnostics.SoEventRecorder.State
   commentId: P:SuperOffice.Diagnostics.SoEventRecorder.State
   id: State
@@ -211,13 +176,11 @@ items:
   nameWithType: SoEventRecorder.State
   fullName: SuperOffice.Diagnostics.SoEventRecorder.State
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nObtain the current state of NetServer\n"
+  summary: Obtain the current state of NetServer
+  example: []
   syntax:
     content: public static SoEventRecorder.NetServerState State { get; }
     parameters: []
@@ -225,37 +188,275 @@ items:
       type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
     content.vb: Public Shared ReadOnly Property State As SoEventRecorder.NetServerState
   overload: SuperOffice.Diagnostics.SoEventRecorder.State*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 references:
 - uid: SuperOffice.Diagnostics
   commentId: N:SuperOffice.Diagnostics
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Diagnostics
   nameWithType: SuperOffice.Diagnostics
   fullName: SuperOffice.Diagnostics
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Diagnostics.SoEventRecorder.RecordState*
   commentId: Overload:SuperOffice.Diagnostics.SoEventRecorder.RecordState
   isExternal: true
+  href: SuperOffice.Diagnostics.SoEventRecorder.html#SuperOffice_Diagnostics_SoEventRecorder_RecordState_SuperOffice_Diagnostics_SoEventRecorder_NetServerState_
   name: RecordState
   nameWithType: SoEventRecorder.RecordState
   fullName: SuperOffice.Diagnostics.SoEventRecorder.RecordState
@@ -263,12 +464,34 @@ references:
   commentId: T:SuperOffice.Diagnostics.SoEventRecorder.NetServerState
   parent: SuperOffice.Diagnostics
   isExternal: true
+  href: SuperOffice.Diagnostics.SoEventRecorder.html
   name: SoEventRecorder.NetServerState
   nameWithType: SoEventRecorder.NetServerState
   fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.SoEventRecorder
+    name: SoEventRecorder
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoEventRecorder.html
+  - name: .
+  - uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    name: NetServerState
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.html
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.SoEventRecorder
+    name: SoEventRecorder
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoEventRecorder.html
+  - name: .
+  - uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    name: NetServerState
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.html
 - uid: SuperOffice.Diagnostics.SoEventRecorder.RecordPermanentEvent*
   commentId: Overload:SuperOffice.Diagnostics.SoEventRecorder.RecordPermanentEvent
   isExternal: true
+  href: SuperOffice.Diagnostics.SoEventRecorder.html#SuperOffice_Diagnostics_SoEventRecorder_RecordPermanentEvent_System_String_System_String_
   name: RecordPermanentEvent
   nameWithType: SoEventRecorder.RecordPermanentEvent
   fullName: SuperOffice.Diagnostics.SoEventRecorder.RecordPermanentEvent
@@ -276,24 +499,32 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Diagnostics.SoEventRecorder.RecordEvent*
   commentId: Overload:SuperOffice.Diagnostics.SoEventRecorder.RecordEvent
   isExternal: true
+  href: SuperOffice.Diagnostics.SoEventRecorder.html#SuperOffice_Diagnostics_SoEventRecorder_RecordEvent_System_String_System_String_
   name: RecordEvent
   nameWithType: SoEventRecorder.RecordEvent
   fullName: SuperOffice.Diagnostics.SoEventRecorder.RecordEvent
 - uid: SuperOffice.Diagnostics.SoEventRecorder.GetAllEvents*
   commentId: Overload:SuperOffice.Diagnostics.SoEventRecorder.GetAllEvents
   isExternal: true
+  href: SuperOffice.Diagnostics.SoEventRecorder.html#SuperOffice_Diagnostics_SoEventRecorder_GetAllEvents
   name: GetAllEvents
   nameWithType: SoEventRecorder.GetAllEvents
   fullName: SuperOffice.Diagnostics.SoEventRecorder.GetAllEvents
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent}'
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<SoEventRecorder.SoRecordedEvent>
   nameWithType: IEnumerable<SoEventRecorder.SoRecordedEvent>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent>
@@ -303,84 +534,113 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
-    name: SoEventRecorder.SoRecordedEvent
-    nameWithType: SoEventRecorder.SoRecordedEvent
-    fullName: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
+  - uid: SuperOffice.Diagnostics.SoEventRecorder
+    name: SoEventRecorder
     isExternal: true
+    href: SuperOffice.Diagnostics.SoEventRecorder.html
+  - name: .
+  - uid: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
+    name: SoRecordedEvent
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.SoEventRecorder
+    name: SoEventRecorder
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoEventRecorder.html
+  - name: .
   - uid: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
-    name: SoEventRecorder.SoRecordedEvent
-    nameWithType: SoEventRecorder.SoRecordedEvent
-    fullName: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
+    name: SoRecordedEvent
     isExternal: true
+    href: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.Diagnostics.SoEventRecorder.GetAllEventsAsString*
   commentId: Overload:SuperOffice.Diagnostics.SoEventRecorder.GetAllEventsAsString
   isExternal: true
+  href: SuperOffice.Diagnostics.SoEventRecorder.html#SuperOffice_Diagnostics_SoEventRecorder_GetAllEventsAsString
   name: GetAllEventsAsString
   nameWithType: SoEventRecorder.GetAllEventsAsString
   fullName: SuperOffice.Diagnostics.SoEventRecorder.GetAllEventsAsString
 - uid: SuperOffice.Diagnostics.SoEventRecorder.State*
   commentId: Overload:SuperOffice.Diagnostics.SoEventRecorder.State
   isExternal: true
+  href: SuperOffice.Diagnostics.SoEventRecorder.html#SuperOffice_Diagnostics_SoEventRecorder_State
   name: State
   nameWithType: SoEventRecorder.State
   fullName: SuperOffice.Diagnostics.SoEventRecorder.State

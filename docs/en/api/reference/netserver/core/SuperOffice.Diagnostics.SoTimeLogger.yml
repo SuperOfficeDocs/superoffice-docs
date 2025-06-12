@@ -21,36 +21,32 @@ items:
   nameWithType: SoTimeLogger
   fullName: SuperOffice.Diagnostics.SoTimeLogger
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nDisposable class used for logging timing operations being carried out by NetServer\n"
-  remarks: "Start timings using <xref href=\"SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType%2cSystem.String%2cSuperOffice.Diagnostics.DeferredToString)\" data-throw-if-not-resolved=\"false\"></xref>.  \nTimings are logged to file if the Time logging is turned on in the configuration file."
+  summary: Disposable class used for logging timing operations being carried out by NetServer
+  remarks: >-
+    Start timings using <xref href="SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType%2cSystem.String%2cSuperOffice.Diagnostics.DeferredToString)" data-throw-if-not-resolved="false"></xref>.  
+                Timings are logged to file if the Time logging is turned on in the configuration file.
+  example: []
   syntax:
-    content: 'public sealed class SoTimeLogger : Object, ISoTimeRecorderContext, IDisposable'
-    content.vb: >-
-      Public NotInheritable Class SoTimeLogger
-          Inherits Object
-          Implements ISoTimeRecorderContext, IDisposable
+    content: 'public sealed class SoTimeLogger : ISoTimeRecorderContext, IDisposable'
+    content.vb: Public NotInheritable Class SoTimeLogger Implements ISoTimeRecorderContext, IDisposable
   inheritance:
   - System.Object
   implements:
   - SuperOffice.Diagnostics.ISoTimeRecorderContext
   - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
   extensionMethods:
   - SuperOffice.Diagnostics.SoTimeLogger.EnumUtil.MapEnums``2
   - SuperOffice.Diagnostics.SoTimeLogger.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
 - uid: SuperOffice.Diagnostics.SoTimeLogger.#ctor(System.String,System.Func{System.String})
   commentId: M:SuperOffice.Diagnostics.SoTimeLogger.#ctor(System.String,System.Func{System.String})
   id: '#ctor(System.String,System.Func{System.String})'
@@ -58,17 +54,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SoTimeLogger(String, Func<String>)
-  nameWithType: SoTimeLogger.SoTimeLogger(String, Func<String>)
-  fullName: SuperOffice.Diagnostics.SoTimeLogger.SoTimeLogger(System.String, System.Func<System.String>)
+  name: SoTimeLogger(string, Func<string>)
+  nameWithType: SoTimeLogger.SoTimeLogger(string, Func<string>)
+  fullName: SuperOffice.Diagnostics.SoTimeLogger.SoTimeLogger(string, System.Func<string>)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate a new timer object and start measuring time.\n"
+  summary: Create a new timer object and start measuring time.
+  example: []
   syntax:
     content: public SoTimeLogger(string category, Func<string> description)
     parameters:
@@ -80,13 +74,9 @@ items:
       description: Information about what is currently being timed.
     content.vb: Public Sub New(category As String, description As Func(Of String))
   overload: SuperOffice.Diagnostics.SoTimeLogger.#ctor*
-  nameWithType.vb: SoTimeLogger.SoTimeLogger(String, Func(Of String))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Diagnostics.SoTimeLogger.SoTimeLogger(System.String, System.Func(Of System.String))
-  name.vb: SoTimeLogger(String, Func(Of String))
+  nameWithType.vb: SoTimeLogger.New(String, Func(Of String))
+  fullName.vb: SuperOffice.Diagnostics.SoTimeLogger.New(String, System.Func(Of String))
+  name.vb: New(String, Func(Of String))
 - uid: SuperOffice.Diagnostics.SoTimeLogger.Split(System.Func{System.String})
   commentId: M:SuperOffice.Diagnostics.SoTimeLogger.Split(System.Func{System.String})
   id: Split(System.Func{System.String})
@@ -94,17 +84,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Split(Func<String>)
-  nameWithType: SoTimeLogger.Split(Func<String>)
-  fullName: SuperOffice.Diagnostics.SoTimeLogger.Split(System.Func<System.String>)
+  name: Split(Func<string>)
+  nameWithType: SoTimeLogger.Split(Func<string>)
+  fullName: SuperOffice.Diagnostics.SoTimeLogger.Split(System.Func<string>)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nPerform a split operation to see how long time was spent since the the timer was started.\n"
+  summary: Perform a split operation to see how long time was spent since the the timer was started.
+  example: []
   syntax:
     content: public void Split(Func<string> description)
     parameters:
@@ -116,11 +104,7 @@ items:
   implements:
   - SuperOffice.Diagnostics.ISoTimeRecorderContext.Split(System.Func{System.String})
   nameWithType.vb: SoTimeLogger.Split(Func(Of String))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Diagnostics.SoTimeLogger.Split(System.Func(Of System.String))
+  fullName.vb: SuperOffice.Diagnostics.SoTimeLogger.Split(System.Func(Of String))
   name.vb: Split(Func(Of String))
 - uid: SuperOffice.Diagnostics.SoTimeLogger.Lap(System.Func{System.String})
   commentId: M:SuperOffice.Diagnostics.SoTimeLogger.Lap(System.Func{System.String})
@@ -129,17 +113,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Lap(Func<String>)
-  nameWithType: SoTimeLogger.Lap(Func<String>)
-  fullName: SuperOffice.Diagnostics.SoTimeLogger.Lap(System.Func<System.String>)
+  name: Lap(Func<string>)
+  nameWithType: SoTimeLogger.Lap(Func<string>)
+  fullName: SuperOffice.Diagnostics.SoTimeLogger.Lap(System.Func<string>)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nPerform a lap operation and see the time since the previous lap.\n"
+  summary: Perform a lap operation and see the time since the previous lap.
+  example: []
   syntax:
     content: public void Lap(Func<string> description)
     parameters:
@@ -151,11 +133,7 @@ items:
   implements:
   - SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap(System.Func{System.String})
   nameWithType.vb: SoTimeLogger.Lap(Func(Of String))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Diagnostics.SoTimeLogger.Lap(System.Func(Of System.String))
+  fullName.vb: SuperOffice.Diagnostics.SoTimeLogger.Lap(System.Func(Of String))
   name.vb: Lap(Func(Of String))
 - uid: SuperOffice.Diagnostics.SoTimeLogger.End
   commentId: M:SuperOffice.Diagnostics.SoTimeLogger.End
@@ -168,23 +146,17 @@ items:
   nameWithType: SoTimeLogger.End()
   fullName: SuperOffice.Diagnostics.SoTimeLogger.End()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nStop the timer and obtain the time since the start of the timing.\n"
+  summary: Stop the timer and obtain the time since the start of the timing.
+  example: []
   syntax:
     content: public void End()
-    content.vb: Public Sub
+    content.vb: Public Sub [End]()
   overload: SuperOffice.Diagnostics.SoTimeLogger.End*
   implements:
   - SuperOffice.Diagnostics.ISoTimeRecorderContext.End
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Diagnostics.SoTimeLogger.Dispose
   commentId: M:SuperOffice.Diagnostics.SoTimeLogger.Dispose
   id: Dispose
@@ -196,20 +168,16 @@ items:
   nameWithType: SoTimeLogger.Dispose()
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Dispose()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
+  example: []
   syntax:
     content: public void Dispose()
-    content.vb: Public Sub Dispose
+    content.vb: Public Sub Dispose()
   overload: SuperOffice.Diagnostics.SoTimeLogger.Dispose*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  implements:
+  - System.IDisposable.Dispose
 - uid: SuperOffice.Diagnostics.SoTimeLogger.Stop
   commentId: M:SuperOffice.Diagnostics.SoTimeLogger.Stop
   id: Stop
@@ -221,22 +189,27 @@ items:
   nameWithType: SoTimeLogger.Stop()
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Stop()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
-    content: public static void Stop()
-    content.vb: Public Shared Sub Stop
+    content: >-
+      [Obsolete("Background processing now stops by itself", false)]
+
+      public static void Stop()
+    content.vb: >-
+      <Obsolete("Background processing now stops by itself", False)>
+
+      Public Shared Sub [Stop]()
   overload: SuperOffice.Diagnostics.SoTimeLogger.Stop*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Background processing now stops by itself
+    - type: System.Boolean
+      value: false
 - uid: SuperOffice.Diagnostics.SoTimeLogger.Increment
   commentId: M:SuperOffice.Diagnostics.SoTimeLogger.Increment
   id: Increment
@@ -248,22 +221,17 @@ items:
   nameWithType: SoTimeLogger.Increment()
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Increment()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
+  summary: Increment the build in counter
+  example: []
   syntax:
     content: public void Increment()
-    content.vb: Public Sub Increment
+    content.vb: Public Sub Increment()
   overload: SuperOffice.Diagnostics.SoTimeLogger.Increment*
   implements:
   - SuperOffice.Diagnostics.ISoTimeRecorderContext.Increment
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Diagnostics.SoTimeLogger.Count
   commentId: P:SuperOffice.Diagnostics.SoTimeLogger.Count
   id: Count
@@ -275,9 +243,6 @@ items:
   nameWithType: SoTimeLogger.Count
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Count
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
@@ -288,12 +253,6 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property Count As Integer
   overload: SuperOffice.Diagnostics.SoTimeLogger.Count*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Diagnostics.SoTimeLogger.Elapsed
   commentId: P:SuperOffice.Diagnostics.SoTimeLogger.Elapsed
   id: Elapsed
@@ -305,13 +264,11 @@ items:
   nameWithType: SoTimeLogger.Elapsed
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Elapsed
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nGet the elapsed time without further ado.\n"
+  summary: Get the elapsed time without further ado.
+  example: []
   syntax:
     content: public TimeSpan Elapsed { get; }
     parameters: []
@@ -319,115 +276,429 @@ items:
       type: System.TimeSpan
     content.vb: Public ReadOnly Property Elapsed As TimeSpan
   overload: SuperOffice.Diagnostics.SoTimeLogger.Elapsed*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
+- uid: SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType,System.String,SuperOffice.Diagnostics.DeferredToString)
+  commentId: M:SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType,System.String,SuperOffice.Diagnostics.DeferredToString)
+  isExternal: true
+  href: SuperOffice.Diagnostics.SoTimer.html#SuperOffice_Diagnostics_SoTimer_Start_SuperOffice_Diagnostics_SoTimerType_System_String_SuperOffice_Diagnostics_DeferredToString_
+  name: Start(SoTimerType, string, DeferredToString)
+  nameWithType: SoTimer.Start(SoTimerType, string, DeferredToString)
+  fullName: SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType, string, SuperOffice.Diagnostics.DeferredToString)
+  nameWithType.vb: SoTimer.Start(SoTimerType, String, DeferredToString)
+  fullName.vb: SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType, String, SuperOffice.Diagnostics.DeferredToString)
+  name.vb: Start(SoTimerType, String, DeferredToString)
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType,System.String,SuperOffice.Diagnostics.DeferredToString)
+    name: Start
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoTimer.html#SuperOffice_Diagnostics_SoTimer_Start_SuperOffice_Diagnostics_SoTimerType_System_String_SuperOffice_Diagnostics_DeferredToString_
+  - name: (
+  - uid: SuperOffice.Diagnostics.SoTimerType
+    name: SoTimerType
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoTimerType.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Diagnostics.DeferredToString
+    name: DeferredToString
+    isExternal: true
+    href: SuperOffice.Diagnostics.DeferredToString.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType,System.String,SuperOffice.Diagnostics.DeferredToString)
+    name: Start
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoTimer.html#SuperOffice_Diagnostics_SoTimer_Start_SuperOffice_Diagnostics_SoTimerType_System_String_SuperOffice_Diagnostics_DeferredToString_
+  - name: (
+  - uid: SuperOffice.Diagnostics.SoTimerType
+    name: SoTimerType
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoTimerType.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Diagnostics.DeferredToString
+    name: DeferredToString
+    isExternal: true
+    href: SuperOffice.Diagnostics.DeferredToString.html
+  - name: )
 - uid: SuperOffice.Diagnostics
   commentId: N:SuperOffice.Diagnostics
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Diagnostics
   nameWithType: SuperOffice.Diagnostics
   fullName: SuperOffice.Diagnostics
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext
   commentId: T:SuperOffice.Diagnostics.ISoTimeRecorderContext
   parent: SuperOffice.Diagnostics
   isExternal: true
+  href: SuperOffice.Diagnostics.ISoTimeRecorderContext.html
   name: ISoTimeRecorderContext
   nameWithType: ISoTimeRecorderContext
   fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext
 - uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
 - uid: SuperOffice.Diagnostics.SoTimeLogger.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SoTimeLogger, To>()
-  nameWithType: EnumUtil.MapEnums<SoTimeLogger, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SoTimeLogger, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SoTimeLogger, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SoTimeLogger, To)()
-  name.vb: MapEnums(Of SoTimeLogger, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SoTimeLogger, To>(SoTimeLogger)
+  nameWithType: EnumUtil.MapEnums<SoTimeLogger, To>(SoTimeLogger)
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SoTimeLogger, To>(SuperOffice.Diagnostics.SoTimeLogger)
+  nameWithType.vb: EnumUtil.MapEnums(Of SoTimeLogger, To)(SoTimeLogger)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SoTimeLogger, To)(SuperOffice.Diagnostics.SoTimeLogger)
+  name.vb: MapEnums(Of SoTimeLogger, To)(SoTimeLogger)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SoTimeLogger, To>
-    nameWithType: EnumUtil.MapEnums<SoTimeLogger, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SoTimeLogger, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.SoTimeLogger)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.SoTimeLogger
+    name: SoTimeLogger
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoTimeLogger.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Diagnostics.SoTimeLogger
+    name: SoTimeLogger
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoTimeLogger.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SoTimeLogger, To)
-    nameWithType: EnumUtil.MapEnums(Of SoTimeLogger, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SoTimeLogger, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.SoTimeLogger)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.SoTimeLogger
+    name: SoTimeLogger
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoTimeLogger.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.SoTimeLogger
+    name: SoTimeLogger
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoTimeLogger.html
+  - name: )
 - uid: SuperOffice.Diagnostics.SoTimeLogger.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SoTimeLogger, To>()
-  nameWithType: Converters.MapEnums<SoTimeLogger, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SoTimeLogger, To>()
-  nameWithType.vb: Converters.MapEnums(Of SoTimeLogger, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SoTimeLogger, To)()
-  name.vb: MapEnums(Of SoTimeLogger, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SoTimeLogger, To>(SoTimeLogger)
+  nameWithType: Converters.MapEnums<SoTimeLogger, To>(SoTimeLogger)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SoTimeLogger, To>(SuperOffice.Diagnostics.SoTimeLogger)
+  nameWithType.vb: Converters.MapEnums(Of SoTimeLogger, To)(SoTimeLogger)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SoTimeLogger, To)(SuperOffice.Diagnostics.SoTimeLogger)
+  name.vb: MapEnums(Of SoTimeLogger, To)(SoTimeLogger)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SoTimeLogger, To>
-    nameWithType: Converters.MapEnums<SoTimeLogger, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SoTimeLogger, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.SoTimeLogger)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.SoTimeLogger
+    name: SoTimeLogger
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoTimeLogger.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Diagnostics.SoTimeLogger
+    name: SoTimeLogger
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoTimeLogger.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SoTimeLogger, To)
-    nameWithType: Converters.MapEnums(Of SoTimeLogger, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SoTimeLogger, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.SoTimeLogger)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.SoTimeLogger
+    name: SoTimeLogger
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoTimeLogger.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.SoTimeLogger
+    name: SoTimeLogger
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoTimeLogger.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -436,43 +707,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -481,144 +754,167 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Diagnostics.SoTimeLogger.#ctor*
   commentId: Overload:SuperOffice.Diagnostics.SoTimeLogger.#ctor
   isExternal: true
+  href: SuperOffice.Diagnostics.SoTimeLogger.html#SuperOffice_Diagnostics_SoTimeLogger__ctor_System_String_System_Func_System_String__
   name: SoTimeLogger
   nameWithType: SoTimeLogger.SoTimeLogger
   fullName: SuperOffice.Diagnostics.SoTimeLogger.SoTimeLogger
+  nameWithType.vb: SoTimeLogger.New
+  fullName.vb: SuperOffice.Diagnostics.SoTimeLogger.New
+  name.vb: New
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Func{System.String}
-  commentId: '!:System.Func{System.String}'
+  commentId: T:System.Func{System.String}
+  parent: System
   definition: System.Func`1
-  name: Func<String>
-  nameWithType: Func<String>
-  fullName: System.Func<System.String>
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<string>
+  nameWithType: Func<string>
+  fullName: System.Func<string>
   nameWithType.vb: Func(Of String)
-  fullName.vb: System.Func(Of System.String)
+  fullName.vb: System.Func(Of String)
   name.vb: Func(Of String)
   spec.csharp:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Func`1
+  commentId: T:System.Func`1
   isExternal: true
-  name: Func<>
-  nameWithType: Func<>
-  fullName: System.Func<>
-  nameWithType.vb: Func(Of )
-  fullName.vb: System.Func(Of )
-  name.vb: Func(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
   spec.csharp:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Diagnostics.SoTimeLogger.Split*
   commentId: Overload:SuperOffice.Diagnostics.SoTimeLogger.Split
   isExternal: true
+  href: SuperOffice.Diagnostics.SoTimeLogger.html#SuperOffice_Diagnostics_SoTimeLogger_Split_System_Func_System_String__
   name: Split
   nameWithType: SoTimeLogger.Split
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Split
@@ -626,71 +922,53 @@ references:
   commentId: M:SuperOffice.Diagnostics.ISoTimeRecorderContext.Split(System.Func{System.String})
   parent: SuperOffice.Diagnostics.ISoTimeRecorderContext
   isExternal: true
-  name: Split(Func<String>)
-  nameWithType: ISoTimeRecorderContext.Split(Func<String>)
-  fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split(System.Func<System.String>)
+  href: SuperOffice.Diagnostics.ISoTimeRecorderContext.html#SuperOffice_Diagnostics_ISoTimeRecorderContext_Split_System_Func_System_String__
+  name: Split(Func<string>)
+  nameWithType: ISoTimeRecorderContext.Split(Func<string>)
+  fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split(System.Func<string>)
   nameWithType.vb: ISoTimeRecorderContext.Split(Func(Of String))
-  fullName.vb: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split(System.Func(Of System.String))
+  fullName.vb: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split(System.Func(Of String))
   name.vb: Split(Func(Of String))
   spec.csharp:
   - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split(System.Func{System.String})
     name: Split
-    nameWithType: ISoTimeRecorderContext.Split
-    fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split
     isExternal: true
+    href: SuperOffice.Diagnostics.ISoTimeRecorderContext.html#SuperOffice_Diagnostics_ISoTimeRecorderContext_Split_System_Func_System_String__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split(System.Func{System.String})
     name: Split
-    nameWithType: ISoTimeRecorderContext.Split
-    fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split
     isExternal: true
+    href: SuperOffice.Diagnostics.ISoTimeRecorderContext.html#SuperOffice_Diagnostics_ISoTimeRecorderContext_Split_System_Func_System_String__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Diagnostics.SoTimeLogger.Lap*
   commentId: Overload:SuperOffice.Diagnostics.SoTimeLogger.Lap
   isExternal: true
+  href: SuperOffice.Diagnostics.SoTimeLogger.html#SuperOffice_Diagnostics_SoTimeLogger_Lap_System_Func_System_String__
   name: Lap
   nameWithType: SoTimeLogger.Lap
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Lap
@@ -698,71 +976,53 @@ references:
   commentId: M:SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap(System.Func{System.String})
   parent: SuperOffice.Diagnostics.ISoTimeRecorderContext
   isExternal: true
-  name: Lap(Func<String>)
-  nameWithType: ISoTimeRecorderContext.Lap(Func<String>)
-  fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap(System.Func<System.String>)
+  href: SuperOffice.Diagnostics.ISoTimeRecorderContext.html#SuperOffice_Diagnostics_ISoTimeRecorderContext_Lap_System_Func_System_String__
+  name: Lap(Func<string>)
+  nameWithType: ISoTimeRecorderContext.Lap(Func<string>)
+  fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap(System.Func<string>)
   nameWithType.vb: ISoTimeRecorderContext.Lap(Func(Of String))
-  fullName.vb: SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap(System.Func(Of System.String))
+  fullName.vb: SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap(System.Func(Of String))
   name.vb: Lap(Func(Of String))
   spec.csharp:
   - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap(System.Func{System.String})
     name: Lap
-    nameWithType: ISoTimeRecorderContext.Lap
-    fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap
     isExternal: true
+    href: SuperOffice.Diagnostics.ISoTimeRecorderContext.html#SuperOffice_Diagnostics_ISoTimeRecorderContext_Lap_System_Func_System_String__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap(System.Func{System.String})
     name: Lap
-    nameWithType: ISoTimeRecorderContext.Lap
-    fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap
     isExternal: true
+    href: SuperOffice.Diagnostics.ISoTimeRecorderContext.html#SuperOffice_Diagnostics_ISoTimeRecorderContext_Lap_System_Func_System_String__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Diagnostics.SoTimeLogger.End*
   commentId: Overload:SuperOffice.Diagnostics.SoTimeLogger.End
   isExternal: true
+  href: SuperOffice.Diagnostics.SoTimeLogger.html#SuperOffice_Diagnostics_SoTimeLogger_End
   name: End
   nameWithType: SoTimeLogger.End
   fullName: SuperOffice.Diagnostics.SoTimeLogger.End
@@ -770,48 +1030,64 @@ references:
   commentId: M:SuperOffice.Diagnostics.ISoTimeRecorderContext.End
   parent: SuperOffice.Diagnostics.ISoTimeRecorderContext
   isExternal: true
+  href: SuperOffice.Diagnostics.ISoTimeRecorderContext.html#SuperOffice_Diagnostics_ISoTimeRecorderContext_End
   name: End()
   nameWithType: ISoTimeRecorderContext.End()
   fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.End()
   spec.csharp:
   - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.End
     name: End
-    nameWithType: ISoTimeRecorderContext.End
-    fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.End
     isExternal: true
+    href: SuperOffice.Diagnostics.ISoTimeRecorderContext.html#SuperOffice_Diagnostics_ISoTimeRecorderContext_End
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.End
     name: End
-    nameWithType: ISoTimeRecorderContext.End
-    fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.End
     isExternal: true
+    href: SuperOffice.Diagnostics.ISoTimeRecorderContext.html#SuperOffice_Diagnostics_ISoTimeRecorderContext_End
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Diagnostics.SoTimeLogger.Dispose*
   commentId: Overload:SuperOffice.Diagnostics.SoTimeLogger.Dispose
   isExternal: true
+  href: SuperOffice.Diagnostics.SoTimeLogger.html#SuperOffice_Diagnostics_SoTimeLogger_Dispose
   name: Dispose
   nameWithType: SoTimeLogger.Dispose
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
 - uid: SuperOffice.Diagnostics.SoTimeLogger.Stop*
   commentId: Overload:SuperOffice.Diagnostics.SoTimeLogger.Stop
   isExternal: true
+  href: SuperOffice.Diagnostics.SoTimeLogger.html#SuperOffice_Diagnostics_SoTimeLogger_Stop
   name: Stop
   nameWithType: SoTimeLogger.Stop
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Stop
 - uid: SuperOffice.Diagnostics.SoTimeLogger.Increment*
   commentId: Overload:SuperOffice.Diagnostics.SoTimeLogger.Increment
   isExternal: true
+  href: SuperOffice.Diagnostics.SoTimeLogger.html#SuperOffice_Diagnostics_SoTimeLogger_Increment
   name: Increment
   nameWithType: SoTimeLogger.Increment
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Increment
@@ -819,36 +1095,28 @@ references:
   commentId: M:SuperOffice.Diagnostics.ISoTimeRecorderContext.Increment
   parent: SuperOffice.Diagnostics.ISoTimeRecorderContext
   isExternal: true
+  href: SuperOffice.Diagnostics.ISoTimeRecorderContext.html#SuperOffice_Diagnostics_ISoTimeRecorderContext_Increment
   name: Increment()
   nameWithType: ISoTimeRecorderContext.Increment()
   fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Increment()
   spec.csharp:
   - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.Increment
     name: Increment
-    nameWithType: ISoTimeRecorderContext.Increment
-    fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Increment
     isExternal: true
+    href: SuperOffice.Diagnostics.ISoTimeRecorderContext.html#SuperOffice_Diagnostics_ISoTimeRecorderContext_Increment
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.Increment
     name: Increment
-    nameWithType: ISoTimeRecorderContext.Increment
-    fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Increment
     isExternal: true
+    href: SuperOffice.Diagnostics.ISoTimeRecorderContext.html#SuperOffice_Diagnostics_ISoTimeRecorderContext_Increment
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Diagnostics.SoTimeLogger.Count*
   commentId: Overload:SuperOffice.Diagnostics.SoTimeLogger.Count
   isExternal: true
+  href: SuperOffice.Diagnostics.SoTimeLogger.html#SuperOffice_Diagnostics_SoTimeLogger_Count
   name: Count
   nameWithType: SoTimeLogger.Count
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Count
@@ -856,17 +1124,25 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.Diagnostics.SoTimeLogger.Elapsed*
   commentId: Overload:SuperOffice.Diagnostics.SoTimeLogger.Elapsed
   isExternal: true
+  href: SuperOffice.Diagnostics.SoTimeLogger.html#SuperOffice_Diagnostics_SoTimeLogger_Elapsed
   name: Elapsed
   nameWithType: SoTimeLogger.Elapsed
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Elapsed
 - uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: System.TimeSpan

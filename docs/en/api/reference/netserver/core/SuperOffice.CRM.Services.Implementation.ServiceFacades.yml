@@ -19,12 +19,14 @@ references:
 - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacadeRequestHeader
   commentId: T:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacadeRequestHeader
   isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacadeRequestHeader.html
   name: ServiceFacadeRequestHeader
   nameWithType: ServiceFacadeRequestHeader
   fullName: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacadeRequestHeader
 - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
   commentId: T:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
   isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.html
   name: ServiceFacade
   nameWithType: ServiceFacade
   fullName: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade

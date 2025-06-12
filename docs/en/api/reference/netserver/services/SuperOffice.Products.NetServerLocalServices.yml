@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Products.NetServerLocalServices
+  commentId: T:SuperOffice.Products.NetServerLocalServices
+  id: NetServerLocalServices
+  parent: SuperOffice.Products
+  children:
+  - SuperOffice.Products.NetServerLocalServices.#ctor
+  - SuperOffice.Products.NetServerLocalServices.ModuleName
+  langs:
+  - csharp
+  - vb
+  name: NetServerLocalServices
+  nameWithType: NetServerLocalServices
+  fullName: SuperOffice.Products.NetServerLocalServices
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.Products
+  summary: ''
+  example: []
+  syntax:
+    content: 'public sealed class NetServerLocalServices : Product'
+    content.vb: Public NotInheritable Class NetServerLocalServices Inherits Product
+  inheritance:
+  - System.Object
+- uid: SuperOffice.Products.NetServerLocalServices.#ctor
+  commentId: M:SuperOffice.Products.NetServerLocalServices.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Products.NetServerLocalServices
+  langs:
+  - csharp
+  - vb
+  name: NetServerLocalServices()
+  nameWithType: NetServerLocalServices.NetServerLocalServices()
+  fullName: SuperOffice.Products.NetServerLocalServices.NetServerLocalServices()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.Products
+  syntax:
+    content: public NetServerLocalServices()
+    content.vb: Public Sub New()
+  overload: SuperOffice.Products.NetServerLocalServices.#ctor*
+  nameWithType.vb: NetServerLocalServices.New()
+  fullName.vb: SuperOffice.Products.NetServerLocalServices.New()
+  name.vb: New()
+- uid: SuperOffice.Products.NetServerLocalServices.ModuleName
+  commentId: P:SuperOffice.Products.NetServerLocalServices.ModuleName
+  id: ModuleName
+  parent: SuperOffice.Products.NetServerLocalServices
+  langs:
+  - csharp
+  - vb
+  name: ModuleName
+  nameWithType: NetServerLocalServices.ModuleName
+  fullName: SuperOffice.Products.NetServerLocalServices.ModuleName
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.Products
+  summary: ''
+  example: []
+  syntax:
+    content: public override string ModuleName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property ModuleName As String
+  overload: SuperOffice.Products.NetServerLocalServices.ModuleName*
+references:
+- uid: SuperOffice.Products
+  commentId: N:SuperOffice.Products
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Products
+  nameWithType: SuperOffice.Products
+  fullName: SuperOffice.Products
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Products
+    name: Products
+    isExternal: true
+    href: SuperOffice.Products.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Products
+    name: Products
+    isExternal: true
+    href: SuperOffice.Products.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Products.NetServerLocalServices.#ctor*
+  commentId: Overload:SuperOffice.Products.NetServerLocalServices.#ctor
+  isExternal: true
+  href: SuperOffice.Products.NetServerLocalServices.html#SuperOffice_Products_NetServerLocalServices__ctor
+  name: NetServerLocalServices
+  nameWithType: NetServerLocalServices.NetServerLocalServices
+  fullName: SuperOffice.Products.NetServerLocalServices.NetServerLocalServices
+  nameWithType.vb: NetServerLocalServices.New
+  fullName.vb: SuperOffice.Products.NetServerLocalServices.New
+  name.vb: New
+- uid: SuperOffice.Products.NetServerLocalServices.ModuleName*
+  commentId: Overload:SuperOffice.Products.NetServerLocalServices.ModuleName
+  isExternal: true
+  href: SuperOffice.Products.NetServerLocalServices.html#SuperOffice_Products_NetServerLocalServices_ModuleName
+  name: ModuleName
+  nameWithType: NetServerLocalServices.ModuleName
+  fullName: SuperOffice.Products.NetServerLocalServices.ModuleName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

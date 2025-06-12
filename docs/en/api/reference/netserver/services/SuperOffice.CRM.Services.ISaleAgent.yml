@@ -5,48 +5,48 @@ items:
   id: ISaleAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[])
-  - SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate
-  - SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity
-  - SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder
-  - SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary
-  - SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntity(System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder(System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders(System.Int32[])
-  - SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunities(System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate(System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStage(System.Int32,System.Boolean)
-  - SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact(System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage(System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.GetRecentSales(System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.GetSale(System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.GetSaleEntity(System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.GetSaleList(System.Int32[])
-  - SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus)
-  - SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContact(System.Int32,System.Boolean)
-  - SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPerson(System.Int32,System.Boolean)
-  - SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholder(System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById(System.Int32[])
-  - SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList(System.Int32[])
-  - SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholders(System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate(System.Int32,System.DateTime,System.DateTime)
-  - SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact(System.Int32,System.DateTime,System.DateTime)
-  - SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup(System.Int32,System.DateTime,System.DateTime)
-  - SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSales(System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.HasGuide(System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.HasGuideActivities(System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting(System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.IsNumberValid(System.Int32,System.String)
-  - SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote(System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
-  - SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
-  - SuperOffice.CRM.Services.ISaleAgent.SetAsLost(System.Int32[])
-  - SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason(System.Int32[],System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.SetAsSold(System.Int32[])
-  - SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason(System.Int32[],System.Int32)
-  - SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
-  - SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  - SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholdersAsync(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDateAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholderAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummaryAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholderAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholdersAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunitiesAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetNextDueDateAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStageAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContactAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStageAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetRecentSalesAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetSaleAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetSaleEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetSaleListAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderByIdAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderListAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholdersAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetSalesByDateAsync(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContactAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPersonAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociateAsync(System.Int32,System.DateTime,System.DateTime,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContactAsync(System.Int32,System.DateTime,System.DateTime,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroupAsync(System.Int32,System.DateTime,System.DateTime,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSalesAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.HasGuideActivitiesAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.HasGuideAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSettingAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.IsNumberValidAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompletedAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.SaleHasQuoteAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntityAsync(SuperOffice.CRM.Services.SaleEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholderAsync(SuperOffice.CRM.Services.SaleStakeholder,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.SetAsLostAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReasonAsync(System.Int32[],System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.SetAsSoldAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReasonAsync(System.Int32[],System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholdersAsync(SuperOffice.CRM.Services.SaleStakeholder[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntityAsync(SuperOffice.CRM.Services.SaleEntity,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -54,15 +54,28 @@ items:
   nameWithType: ISaleAgent
   fullName: SuperOffice.CRM.Services.ISaleAgent
   type: Interface
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInterface for the Sale Agent\nSale data services\n"
+  summary: >-
+    Interface for the Sale Agent
+
+    Sale data services
   example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (SaleAgent agent = new SaleAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  - >-
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       using (SaleAgent agent = new SaleAgent())
+       {
+          // call methods on agent here...
+       }
+    }</code></pre>
   syntax:
     content: >-
       [Agent("Sale Agent", "Interface for the Sale Agent. Sale data services")]
@@ -71,8 +84,7 @@ items:
     content.vb: >-
       <Agent("Sale Agent", "Interface for the Sale Agent. Sale data services")>
 
-      Public Interface ISaleAgent
-          Inherits IAgent
+      Public Interface ISaleAgent Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -81,467 +93,516 @@ items:
       value: Sale Agent
     - type: System.String
       value: Interface for the Sale Agent. Sale data services
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
-- uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity
-  id: CreateDefaultSaleEntity
+- uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultSaleEntityAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultSaleEntity()
-  nameWithType: ISaleAgent.CreateDefaultSaleEntity()
-  fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity()
+  name: CreateDefaultSaleEntityAsync(CancellationToken)
+  nameWithType: ISaleAgent.CreateDefaultSaleEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntityAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new SaleEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Loading default values into a new SaleEntity.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: SaleEntity CreateDefaultSaleEntity()
+    content: Task<SaleEntity> CreateDefaultSaleEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SaleEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleEntity}
       description: New SaleEntity with default values
-    content.vb: Function CreateDefaultSaleEntity As SaleEntity
-  overload: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity*
-- uid: SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
-  id: SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+    content.vb: Function CreateDefaultSaleEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of SaleEntity)
+  overload: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntityAsync*
+- uid: SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntityAsync(SuperOffice.CRM.Services.SaleEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntityAsync(SuperOffice.CRM.Services.SaleEntity,System.Threading.CancellationToken)
+  id: SaveSaleEntityAsync(SuperOffice.CRM.Services.SaleEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: SaveSaleEntity(SaleEntity)
-  nameWithType: ISaleAgent.SaveSaleEntity(SaleEntity)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  name: SaveSaleEntityAsync(SaleEntity, CancellationToken)
+  nameWithType: ISaleAgent.SaveSaleEntityAsync(SaleEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntityAsync(SuperOffice.CRM.Services.SaleEntity, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing SaleEntity or creates a new SaleEntity if the id parameter is empty\n"
+  summary: Updates the existing SaleEntity or creates a new SaleEntity if the id parameter is empty
+  example: []
   syntax:
-    content: SaleEntity SaveSaleEntity(SaleEntity saleEntity)
+    content: Task<SaleEntity> SaveSaleEntityAsync(SaleEntity saleEntity, CancellationToken cancellationToken = default)
     parameters:
     - id: saleEntity
       type: SuperOffice.CRM.Services.SaleEntity
       description: The SaleEntity that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SaleEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleEntity}
       description: New or updated SaleEntity
-    content.vb: Function SaveSaleEntity(saleEntity As SaleEntity) As SaleEntity
-  overload: SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity*
-- uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntity(System.Int32)
-  id: DeleteSaleEntity(System.Int32)
+    content.vb: Function SaveSaleEntityAsync(saleEntity As SaleEntity, cancellationToken As CancellationToken = Nothing) As Task(Of SaleEntity)
+  overload: SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntityAsync*
+- uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteSaleEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: DeleteSaleEntity(Int32)
-  nameWithType: ISaleAgent.DeleteSaleEntity(Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntity(System.Int32)
+  name: DeleteSaleEntityAsync(int, CancellationToken)
+  nameWithType: ISaleAgent.DeleteSaleEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntityAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the SaleEntity\n"
+  summary: Deletes the SaleEntity
+  example: []
   syntax:
-    content: void DeleteSaleEntity(int saleEntityId)
+    content: Task DeleteSaleEntityAsync(int saleEntityId, CancellationToken cancellationToken = default)
     parameters:
     - id: saleEntityId
       type: System.Int32
       description: The identity of the SaleEntity
-    content.vb: Sub DeleteSaleEntity(saleEntityId As Integer)
-  overload: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntity*
-- uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder
-  id: CreateDefaultSaleStakeholder
-  parent: SuperOffice.CRM.Services.ISaleAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultSaleStakeholder()
-  nameWithType: ISaleAgent.CreateDefaultSaleStakeholder()
-  fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new SaleStakeholder.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
-  syntax:
-    content: SaleStakeholder CreateDefaultSaleStakeholder()
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SaleStakeholder
-      description: New SaleStakeholder with default values
-    content.vb: Function CreateDefaultSaleStakeholder As SaleStakeholder
-  overload: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder*
-- uid: SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
-  id: SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteSaleEntityAsync(saleEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntityAsync*
+  nameWithType.vb: ISaleAgent.DeleteSaleEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteSaleEntityAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholderAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholderAsync(System.Threading.CancellationToken)
+  id: CreateDefaultSaleStakeholderAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: SaveSaleStakeholder(SaleStakeholder)
-  nameWithType: ISaleAgent.SaveSaleStakeholder(SaleStakeholder)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
+  name: CreateDefaultSaleStakeholderAsync(CancellationToken)
+  nameWithType: ISaleAgent.CreateDefaultSaleStakeholderAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholderAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing SaleStakeholder or creates a new SaleStakeholder if the id parameter is empty\n"
+  summary: >-
+    Loading default values into a new SaleStakeholder.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: SaleStakeholder SaveSaleStakeholder(SaleStakeholder saleStakeholder)
+    content: Task<SaleStakeholder> CreateDefaultSaleStakeholderAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder}
+      description: New SaleStakeholder with default values
+    content.vb: Function CreateDefaultSaleStakeholderAsync(cancellationToken As CancellationToken = Nothing) As Task(Of SaleStakeholder)
+  overload: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholderAsync*
+- uid: SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholderAsync(SuperOffice.CRM.Services.SaleStakeholder,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholderAsync(SuperOffice.CRM.Services.SaleStakeholder,System.Threading.CancellationToken)
+  id: SaveSaleStakeholderAsync(SuperOffice.CRM.Services.SaleStakeholder,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveSaleStakeholderAsync(SaleStakeholder, CancellationToken)
+  nameWithType: ISaleAgent.SaveSaleStakeholderAsync(SaleStakeholder, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholderAsync(SuperOffice.CRM.Services.SaleStakeholder, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing SaleStakeholder or creates a new SaleStakeholder if the id parameter is empty
+  example: []
+  syntax:
+    content: Task<SaleStakeholder> SaveSaleStakeholderAsync(SaleStakeholder saleStakeholder, CancellationToken cancellationToken = default)
     parameters:
     - id: saleStakeholder
       type: SuperOffice.CRM.Services.SaleStakeholder
       description: The SaleStakeholder that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SaleStakeholder
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder}
       description: New or updated SaleStakeholder
-    content.vb: Function SaveSaleStakeholder(saleStakeholder As SaleStakeholder) As SaleStakeholder
-  overload: SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder*
-- uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder(System.Int32)
-  id: DeleteSaleStakeholder(System.Int32)
+    content.vb: Function SaveSaleStakeholderAsync(saleStakeholder As SaleStakeholder, cancellationToken As CancellationToken = Nothing) As Task(Of SaleStakeholder)
+  overload: SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholderAsync*
+- uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholderAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholderAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteSaleStakeholderAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: DeleteSaleStakeholder(Int32)
-  nameWithType: ISaleAgent.DeleteSaleStakeholder(Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder(System.Int32)
+  name: DeleteSaleStakeholderAsync(int, CancellationToken)
+  nameWithType: ISaleAgent.DeleteSaleStakeholderAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholderAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the SaleStakeholder\n"
+  summary: Deletes the SaleStakeholder
+  example: []
   syntax:
-    content: void DeleteSaleStakeholder(int saleStakeholderId)
+    content: Task DeleteSaleStakeholderAsync(int saleStakeholderId, CancellationToken cancellationToken = default)
     parameters:
     - id: saleStakeholderId
       type: System.Int32
       description: The identity of the SaleStakeholder
-    content.vb: Sub DeleteSaleStakeholder(saleStakeholderId As Integer)
-  overload: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder*
-- uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary
-  id: CreateDefaultSaleSummary
-  parent: SuperOffice.CRM.Services.ISaleAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultSaleSummary()
-  nameWithType: ISaleAgent.CreateDefaultSaleSummary()
-  fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new SaleSummary.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
-  syntax:
-    content: SaleSummary CreateDefaultSaleSummary()
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SaleSummary
-      description: New SaleSummary with default values
-    content.vb: Function CreateDefaultSaleSummary As SaleSummary
-  overload: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary*
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSale(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSale(System.Int32)
-  id: GetSale(System.Int32)
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteSaleStakeholderAsync(saleStakeholderId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholderAsync*
+  nameWithType.vb: ISaleAgent.DeleteSaleStakeholderAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholderAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteSaleStakeholderAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummaryAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummaryAsync(System.Threading.CancellationToken)
+  id: CreateDefaultSaleSummaryAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetSale(Int32)
-  nameWithType: ISaleAgent.GetSale(Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSale(System.Int32)
+  name: CreateDefaultSaleSummaryAsync(CancellationToken)
+  nameWithType: ISaleAgent.CreateDefaultSaleSummaryAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummaryAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a Sale object.                        \n"
+  summary: >-
+    Loading default values into a new SaleSummary.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: Sale GetSale(int saleId)
+    content: Task<SaleSummary> CreateDefaultSaleSummaryAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleSummary}
+      description: New SaleSummary with default values
+    content.vb: Function CreateDefaultSaleSummaryAsync(cancellationToken As CancellationToken = Nothing) As Task(Of SaleSummary)
+  overload: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummaryAsync*
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetSaleAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSaleAsync(int, CancellationToken)
+  nameWithType: ISaleAgent.GetSaleAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Gets a Sale object.
+  example: []
+  syntax:
+    content: Task<Sale> GetSaleAsync(int saleId, CancellationToken cancellationToken = default)
     parameters:
     - id: saleId
       type: System.Int32
       description: The identifier of the Sale object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Sale
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Sale}
       description: Sale
-    content.vb: Function GetSale(saleId As Integer) As Sale
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetSale*
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleEntity(System.Int32)
-  id: GetSaleEntity(System.Int32)
+    content.vb: Function GetSaleAsync(saleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Sale)
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetSaleAsync*
+  nameWithType.vb: ISaleAgent.GetSaleAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSaleAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetSaleAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetSaleEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetSaleEntity(Int32)
-  nameWithType: ISaleAgent.GetSaleEntity(Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntity(System.Int32)
+  name: GetSaleEntityAsync(int, CancellationToken)
+  nameWithType: ISaleAgent.GetSaleEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntityAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a SaleEntity object.                        \n"
+  summary: Gets a SaleEntity object.
+  example: []
   syntax:
-    content: SaleEntity GetSaleEntity(int saleEntityId)
+    content: Task<SaleEntity> GetSaleEntityAsync(int saleEntityId, CancellationToken cancellationToken = default)
     parameters:
     - id: saleEntityId
       type: System.Int32
       description: The identifier of the SaleEntity object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SaleEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleEntity}
       description: SaleEntity
-    content.vb: Function GetSaleEntity(saleEntityId As Integer) As SaleEntity
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntity*
-- uid: SuperOffice.CRM.Services.ISaleAgent.HasGuide(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.HasGuide(System.Int32)
-  id: HasGuide(System.Int32)
+    content.vb: Function GetSaleEntityAsync(saleEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of SaleEntity)
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntityAsync*
+  nameWithType.vb: ISaleAgent.GetSaleEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetSaleEntityAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.HasGuideAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.HasGuideAsync(System.Int32,System.Threading.CancellationToken)
+  id: HasGuideAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: HasGuide(Int32)
-  nameWithType: ISaleAgent.HasGuide(Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.HasGuide(System.Int32)
+  name: HasGuideAsync(int, CancellationToken)
+  nameWithType: ISaleAgent.HasGuideAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.HasGuideAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDoes this sale have a sale guide associated with its sale type?\n"
+  summary: Does this sale have a sale guide associated with its sale type?
+  example: []
   syntax:
-    content: bool HasGuide(int saleId)
+    content: Task<bool> HasGuideAsync(int saleId, CancellationToken cancellationToken = default)
     parameters:
     - id: saleId
       type: System.Int32
       description: Sale id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: True if the sale has a guide
-    content.vb: Function HasGuide(saleId As Integer) As Boolean
-  overload: SuperOffice.CRM.Services.ISaleAgent.HasGuide*
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate(System.Int32)
-  id: GetNextDueDate(System.Int32)
+    content.vb: Function HasGuideAsync(saleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.ISaleAgent.HasGuideAsync*
+  nameWithType.vb: ISaleAgent.HasGuideAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.HasGuideAsync(Integer, System.Threading.CancellationToken)
+  name.vb: HasGuideAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetNextDueDateAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetNextDueDateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetNextDueDate(Int32)
-  nameWithType: ISaleAgent.GetNextDueDate(Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate(System.Int32)
+  name: GetNextDueDateAsync(int, CancellationToken)
+  nameWithType: ISaleAgent.GetNextDueDateAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDateAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets the next due date for a sale. The next due date is the next future appointment that is not completed.\n"
+  summary: Gets the next due date for a sale. The next due date is the next future appointment that is not completed.
+  example: []
   syntax:
-    content: DateTime GetNextDueDate(int saleId)
+    content: Task<DateTime> GetNextDueDateAsync(int saleId, CancellationToken cancellationToken = default)
     parameters:
     - id: saleId
       type: System.Int32
       description: Sale id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.DateTime
+      type: System.Threading.Tasks.Task{System.DateTime}
       description: Next due date for the given sale.
-    content.vb: Function GetNextDueDate(saleId As Integer) As DateTime
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate*
-- uid: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate
-  id: BatchUpdateNextDueDate
+    content.vb: Function GetNextDueDateAsync(saleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Date)
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDateAsync*
+  nameWithType.vb: ISaleAgent.GetNextDueDateAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDateAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetNextDueDateAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDateAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDateAsync(System.Threading.CancellationToken)
+  id: BatchUpdateNextDueDateAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: BatchUpdateNextDueDate()
-  nameWithType: ISaleAgent.BatchUpdateNextDueDate()
-  fullName: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate()
+  name: BatchUpdateNextDueDateAsync(CancellationToken)
+  nameWithType: ISaleAgent.BatchUpdateNextDueDateAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDateAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRe-calculate all the next due dates\n"
+  summary: Re-calculate all the next due dates
+  example: []
   syntax:
-    content: void BatchUpdateNextDueDate()
-    content.vb: Sub BatchUpdateNextDueDate
-  overload: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate*
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStage(System.Int32,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStage(System.Int32,System.Boolean)
-  id: GetNextSaleStage(System.Int32,System.Boolean)
+    content: Task BatchUpdateNextDueDateAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function BatchUpdateNextDueDateAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDateAsync*
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStageAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStageAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  id: GetNextSaleStageAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetNextSaleStage(Int32, Boolean)
-  nameWithType: ISaleAgent.GetNextSaleStage(Int32, Boolean)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStage(System.Int32, System.Boolean)
+  name: GetNextSaleStageAsync(int, bool, CancellationToken)
+  nameWithType: ISaleAgent.GetNextSaleStageAsync(int, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStageAsync(int, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets the next (not deleted) sale stage id if the current stage is deleted. If the current stage is not deleted, the CurrentStageId is returned\n"
+  summary: Gets the next (not deleted) sale stage id if the current stage is deleted. If the current stage is not deleted, the CurrentStageId is returned
+  example: []
   syntax:
-    content: int GetNextSaleStage(int saleId, bool includeCurrentStage)
+    content: Task<int> GetNextSaleStageAsync(int saleId, bool includeCurrentStage, CancellationToken cancellationToken = default)
     parameters:
     - id: saleId
       type: System.Int32
+      description: ''
     - id: includeCurrentStage
       type: System.Boolean
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Function GetNextSaleStage(saleId As Integer, includeCurrentStage As Boolean) As Integer
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStage*
-- uid: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivities(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.HasGuideActivities(System.Int32)
-  id: HasGuideActivities(System.Int32)
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: ''
+    content.vb: Function GetNextSaleStageAsync(saleId As Integer, includeCurrentStage As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStageAsync*
+  nameWithType.vb: ISaleAgent.GetNextSaleStageAsync(Integer, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStageAsync(Integer, Boolean, System.Threading.CancellationToken)
+  name.vb: GetNextSaleStageAsync(Integer, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivitiesAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.HasGuideActivitiesAsync(System.Int32,System.Threading.CancellationToken)
+  id: HasGuideActivitiesAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: HasGuideActivities(Int32)
-  nameWithType: ISaleAgent.HasGuideActivities(Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivities(System.Int32)
+  name: HasGuideActivitiesAsync(int, CancellationToken)
+  nameWithType: ISaleAgent.HasGuideActivitiesAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivitiesAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: bool HasGuideActivities(int saleId)
+    content: Task<bool> HasGuideActivitiesAsync(int saleId, CancellationToken cancellationToken = default)
     parameters:
     - id: saleId
       type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Function HasGuideActivities(saleId As Integer) As Boolean
-  overload: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivities*
-- uid: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
-  id: OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
+    content.vb: Function HasGuideActivitiesAsync(saleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivitiesAsync*
+  nameWithType.vb: ISaleAgent.HasGuideActivitiesAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivitiesAsync(Integer, System.Threading.CancellationToken)
+  name.vb: HasGuideActivitiesAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompletedAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompletedAsync(System.Int32,System.Threading.CancellationToken)
+  id: OfferAutoNextStageOnApppointmentCompletedAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: OfferAutoNextStageOnApppointmentCompleted(Int32)
-  nameWithType: ISaleAgent.OfferAutoNextStageOnApppointmentCompleted(Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  name: OfferAutoNextStageOnApppointmentCompletedAsync(int, CancellationToken)
+  nameWithType: ISaleAgent.OfferAutoNextStageOnApppointmentCompletedAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompletedAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: bool OfferAutoNextStageOnApppointmentCompleted(int appointmentId)
+    content: Task<bool> OfferAutoNextStageOnApppointmentCompletedAsync(int appointmentId, CancellationToken cancellationToken = default)
     parameters:
     - id: appointmentId
       type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Function OfferAutoNextStageOnApppointmentCompleted(appointmentId As Integer) As Boolean
-  overload: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted*
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage(System.Int32)
-  id: GetProbabilityFromStage(System.Int32)
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
+    content.vb: Function OfferAutoNextStageOnApppointmentCompletedAsync(appointmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompletedAsync*
+  nameWithType.vb: ISaleAgent.OfferAutoNextStageOnApppointmentCompletedAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompletedAsync(Integer, System.Threading.CancellationToken)
+  name.vb: OfferAutoNextStageOnApppointmentCompletedAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStageAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStageAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetProbabilityFromStageAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetProbabilityFromStage(Int32)
-  nameWithType: ISaleAgent.GetProbabilityFromStage(Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage(System.Int32)
+  name: GetProbabilityFromStageAsync(int, CancellationToken)
+  nameWithType: ISaleAgent.GetProbabilityFromStageAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStageAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet the probability percentage for a given sale stage\n"
+  summary: Get the probability percentage for a given sale stage
+  example: []
   syntax:
-    content: int GetProbabilityFromStage(int stageId)
+    content: Task<int> GetProbabilityFromStageAsync(int stageId, CancellationToken cancellationToken = default)
     parameters:
     - id: stageId
       type: System.Int32
       description: Probability list id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Probability percentage
-    content.vb: Function GetProbabilityFromStage(stageId As Integer) As Integer
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage*
-- uid: SuperOffice.CRM.Services.ISaleAgent.IsNumberValid(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.IsNumberValid(System.Int32,System.String)
-  id: IsNumberValid(System.Int32,System.String)
+    content.vb: Function GetProbabilityFromStageAsync(stageId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStageAsync*
+  nameWithType.vb: ISaleAgent.GetProbabilityFromStageAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStageAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetProbabilityFromStageAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.IsNumberValidAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.IsNumberValidAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: IsNumberValidAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: IsNumberValid(Int32, String)
-  nameWithType: ISaleAgent.IsNumberValid(Int32, String)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.IsNumberValid(System.Int32, System.String)
+  name: IsNumberValidAsync(int, string, CancellationToken)
+  nameWithType: ISaleAgent.IsNumberValidAsync(int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.IsNumberValidAsync(int, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nChecks if the number is unique or required.  The setting is configured from admin under system options.\n"
+  summary: Checks if the number is unique or required.  The setting is configured from admin under system options.
+  example: []
   syntax:
-    content: bool IsNumberValid(int contactId, string number)
+    content: Task<bool> IsNumberValidAsync(int contactId, string number, CancellationToken cancellationToken = default)
     parameters:
     - id: contactId
       type: System.Int32
@@ -549,235 +610,258 @@ items:
     - id: number
       type: System.String
       description: Number value to check for uniqueness/required
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: True if the number is valid
-    content.vb: Function IsNumberValid(contactId As Integer, number As String) As Boolean
-  overload: SuperOffice.CRM.Services.ISaleAgent.IsNumberValid*
-- uid: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[])
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[])
-  id: AddSaleStakeholders(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[])
+    content.vb: Function IsNumberValidAsync(contactId As Integer, number As String, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.ISaleAgent.IsNumberValidAsync*
+  nameWithType.vb: ISaleAgent.IsNumberValidAsync(Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.IsNumberValidAsync(Integer, String, System.Threading.CancellationToken)
+  name.vb: IsNumberValidAsync(Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholdersAsync(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholdersAsync(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[],System.Threading.CancellationToken)
+  id: AddSaleStakeholdersAsync(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: AddSaleStakeholders(Int32, SaleStakeholder[])
-  nameWithType: ISaleAgent.AddSaleStakeholders(Int32, SaleStakeholder[])
-  fullName: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders(System.Int32, SuperOffice.CRM.Services.SaleStakeholder[])
+  name: AddSaleStakeholdersAsync(int, SaleStakeholder[], CancellationToken)
+  nameWithType: ISaleAgent.AddSaleStakeholdersAsync(int, SaleStakeholder[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholdersAsync(int, SuperOffice.CRM.Services.SaleStakeholder[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: void AddSaleStakeholders(int saleId, SaleStakeholder[] saleStakeholders)
+    content: Task AddSaleStakeholdersAsync(int saleId, SaleStakeholder[] saleStakeholders, CancellationToken cancellationToken = default)
     parameters:
     - id: saleId
       type: System.Int32
+      description: ''
     - id: saleStakeholders
       type: SuperOffice.CRM.Services.SaleStakeholder[]
-    content.vb: Sub AddSaleStakeholders(saleId As Integer, saleStakeholders As SaleStakeholder())
-  overload: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders*
-  nameWithType.vb: ISaleAgent.AddSaleStakeholders(Int32, SaleStakeholder())
-  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders(System.Int32, SuperOffice.CRM.Services.SaleStakeholder())
-  name.vb: AddSaleStakeholders(Int32, SaleStakeholder())
-- uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders(System.Int32[])
-  id: DeleteSaleStakeholders(System.Int32[])
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function AddSaleStakeholdersAsync(saleId As Integer, saleStakeholders As SaleStakeholder(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholdersAsync*
+  nameWithType.vb: ISaleAgent.AddSaleStakeholdersAsync(Integer, SaleStakeholder(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholdersAsync(Integer, SuperOffice.CRM.Services.SaleStakeholder(), System.Threading.CancellationToken)
+  name.vb: AddSaleStakeholdersAsync(Integer, SaleStakeholder(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholdersAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholdersAsync(System.Int32[],System.Threading.CancellationToken)
+  id: DeleteSaleStakeholdersAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: DeleteSaleStakeholders(Int32[])
-  nameWithType: ISaleAgent.DeleteSaleStakeholders(Int32[])
-  fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders(System.Int32[])
+  name: DeleteSaleStakeholdersAsync(int[], CancellationToken)
+  nameWithType: ISaleAgent.DeleteSaleStakeholdersAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholdersAsync(int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: void DeleteSaleStakeholders(int[] saleStakeholderIds)
+    content: Task DeleteSaleStakeholdersAsync(int[] saleStakeholderIds, CancellationToken cancellationToken = default)
     parameters:
     - id: saleStakeholderIds
       type: System.Int32[]
-    content.vb: Sub DeleteSaleStakeholders(saleStakeholderIds As Integer())
-  overload: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders*
-  nameWithType.vb: ISaleAgent.DeleteSaleStakeholders(Int32())
-  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders(System.Int32())
-  name.vb: DeleteSaleStakeholders(Int32())
-- uid: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting(System.Int32)
-  id: HasStakeholderSetting(System.Int32)
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function DeleteSaleStakeholdersAsync(saleStakeholderIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholdersAsync*
+  nameWithType.vb: ISaleAgent.DeleteSaleStakeholdersAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholdersAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: DeleteSaleStakeholdersAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSettingAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSettingAsync(System.Int32,System.Threading.CancellationToken)
+  id: HasStakeholderSettingAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: HasStakeholderSetting(Int32)
-  nameWithType: ISaleAgent.HasStakeholderSetting(Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting(System.Int32)
+  name: HasStakeholderSettingAsync(int, CancellationToken)
+  nameWithType: ISaleAgent.HasStakeholderSettingAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSettingAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: bool HasStakeholderSetting(int saleId)
+    content: Task<bool> HasStakeholderSettingAsync(int saleId, CancellationToken cancellationToken = default)
     parameters:
     - id: saleId
       type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Function HasStakeholderSetting(saleId As Integer) As Boolean
-  overload: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting*
-- uid: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
-  id: ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
+    content.vb: Function HasStakeholderSettingAsync(saleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSettingAsync*
+  nameWithType.vb: ISaleAgent.HasStakeholderSettingAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSettingAsync(Integer, System.Threading.CancellationToken)
+  name.vb: HasStakeholderSettingAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntityAsync(SuperOffice.CRM.Services.SaleEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntityAsync(SuperOffice.CRM.Services.SaleEntity,System.Threading.CancellationToken)
+  id: ValidateSaleEntityAsync(SuperOffice.CRM.Services.SaleEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: ValidateSaleEntity(SaleEntity)
-  nameWithType: ISaleAgent.ValidateSaleEntity(SaleEntity)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  name: ValidateSaleEntityAsync(SaleEntity, CancellationToken)
+  nameWithType: ISaleAgent.ValidateSaleEntityAsync(SaleEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntityAsync(SuperOffice.CRM.Services.SaleEntity, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCheck that entity is ready for saving, return error messages by field.\n"
+  summary: Check that entity is ready for saving, return error messages by field.
+  example: []
   syntax:
-    content: StringDictionary ValidateSaleEntity(SaleEntity saleEntity)
+    content: Task<StringDictionary> ValidateSaleEntityAsync(SaleEntity saleEntity, CancellationToken cancellationToken = default)
     parameters:
     - id: saleEntity
       type: SuperOffice.CRM.Services.SaleEntity
       description: Entity to be checked for errors.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.StringDictionary
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
       description: Error messages tagged by field.
-    content.vb: Function ValidateSaleEntity(saleEntity As SaleEntity) As StringDictionary
-  overload: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity*
-- uid: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote(System.Int32)
-  id: SaleHasQuote(System.Int32)
+    content.vb: Function ValidateSaleEntityAsync(saleEntity As SaleEntity, cancellationToken As CancellationToken = Nothing) As Task(Of StringDictionary)
+  overload: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntityAsync*
+- uid: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuoteAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SaleHasQuoteAsync(System.Int32,System.Threading.CancellationToken)
+  id: SaleHasQuoteAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: SaleHasQuote(Int32)
-  nameWithType: ISaleAgent.SaleHasQuote(Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote(System.Int32)
+  name: SaleHasQuoteAsync(int, CancellationToken)
+  nameWithType: ISaleAgent.SaleHasQuoteAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuoteAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns true is the sale has a quote\n"
+  summary: Returns true is the sale has a quote
+  example: []
   syntax:
-    content: bool SaleHasQuote(int saleId)
+    content: Task<bool> SaleHasQuoteAsync(int saleId, CancellationToken cancellationToken = default)
     parameters:
     - id: saleId
       type: System.Int32
       description: The id of the sale
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: True if the sale has a quote
-    content.vb: Function SaleHasQuote(saleId As Integer) As Boolean
-  overload: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote*
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleList(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleList(System.Int32[])
-  id: GetSaleList(System.Int32[])
+    content.vb: Function SaleHasQuoteAsync(saleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuoteAsync*
+  nameWithType.vb: ISaleAgent.SaleHasQuoteAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuoteAsync(Integer, System.Threading.CancellationToken)
+  name.vb: SaleHasQuoteAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleListAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleListAsync(System.Int32[],System.Threading.CancellationToken)
+  id: GetSaleListAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetSaleList(Int32[])
-  nameWithType: ISaleAgent.GetSaleList(Int32[])
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleList(System.Int32[])
+  name: GetSaleListAsync(int[], CancellationToken)
+  nameWithType: ISaleAgent.GetSaleListAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleListAsync(int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets an array of Sale objects.                        \n"
+  summary: Gets an array of Sale objects.
+  example: []
   syntax:
-    content: Sale[] GetSaleList(int[] saleIds)
+    content: Task<Sale[]> GetSaleListAsync(int[] saleIds, CancellationToken cancellationToken = default)
     parameters:
     - id: saleIds
       type: System.Int32[]
       description: The identifiers of the Sale object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Sale[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Sale[]}
       description: Array of Sale objects
-    content.vb: Function GetSaleList(saleIds As Integer()) As Sale()
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetSaleList*
-  nameWithType.vb: ISaleAgent.GetSaleList(Int32())
-  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSaleList(System.Int32())
-  name.vb: GetSaleList(Int32())
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunities(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunities(System.Int32)
-  id: GetMyOpportunities(System.Int32)
+    content.vb: Function GetSaleListAsync(saleIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Sale())
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetSaleListAsync*
+  nameWithType.vb: ISaleAgent.GetSaleListAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSaleListAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: GetSaleListAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunitiesAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunitiesAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetMyOpportunitiesAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetMyOpportunities(Int32)
-  nameWithType: ISaleAgent.GetMyOpportunities(Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunities(System.Int32)
+  name: GetMyOpportunitiesAsync(int, CancellationToken)
+  nameWithType: ISaleAgent.GetMyOpportunitiesAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunitiesAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturning the opportunities (open sales) belonging to the user currently logged on\n"
+  summary: Returning the opportunities (open sales) belonging to the user currently logged on
+  example: []
   syntax:
-    content: Sale[] GetMyOpportunities(int count)
+    content: Task<Sale[]> GetMyOpportunitiesAsync(int count, CancellationToken cancellationToken = default)
     parameters:
     - id: count
       type: System.Int32
       description: The number of sales that is returned. -1 returns all.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Sale[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Sale[]}
       description: Array of open sales (opportunities).
-    content.vb: Function GetMyOpportunities(count As Integer) As Sale()
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunities*
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetRecentSales(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetRecentSales(System.Int32,System.Int32)
-  id: GetRecentSales(System.Int32,System.Int32)
+    content.vb: Function GetMyOpportunitiesAsync(count As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Sale())
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunitiesAsync*
+  nameWithType.vb: ISaleAgent.GetMyOpportunitiesAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunitiesAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetMyOpportunitiesAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetRecentSalesAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetRecentSalesAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetRecentSalesAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetRecentSales(Int32, Int32)
-  nameWithType: ISaleAgent.GetRecentSales(Int32, Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetRecentSales(System.Int32, System.Int32)
+  name: GetRecentSalesAsync(int, int, CancellationToken)
+  nameWithType: ISaleAgent.GetRecentSalesAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetRecentSalesAsync(int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the latest sales (that are sold) limited by their amount. The result is sorted descending with the latest first. If the amount is -1, the amount restriction is omitted.\n"
+  summary: Returns the latest sales (that are sold) limited by their amount. The result is sorted descending with the latest first. If the amount is -1, the amount restriction is omitted.
+  example: []
   syntax:
-    content: Sale[] GetRecentSales(int amountLimit, int count)
+    content: Task<Sale[]> GetRecentSalesAsync(int amountLimit, int count, CancellationToken cancellationToken = default)
     parameters:
     - id: amountLimit
       type: System.Int32
@@ -785,31 +869,34 @@ items:
     - id: count
       type: System.Int32
       description: The maximum number of items to return. If -1 all are returned.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Sale[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Sale[]}
       description: Array of all recent sales.
-    content.vb: Function GetRecentSales(amountLimit As Integer, count As Integer) As Sale()
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetRecentSales*
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSales(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSales(System.Int32,System.Int32)
-  id: GetUpcomingSales(System.Int32,System.Int32)
+    content.vb: Function GetRecentSalesAsync(amountLimit As Integer, count As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Sale())
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetRecentSalesAsync*
+  nameWithType.vb: ISaleAgent.GetRecentSalesAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetRecentSalesAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetRecentSalesAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSalesAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSalesAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetUpcomingSalesAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetUpcomingSales(Int32, Int32)
-  nameWithType: ISaleAgent.GetUpcomingSales(Int32, Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSales(System.Int32, System.Int32)
+  name: GetUpcomingSalesAsync(int, int, CancellationToken)
+  nameWithType: ISaleAgent.GetUpcomingSalesAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSalesAsync(int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns all open sales, sorted descending with the latest first.  If the weigthed amount is -1, the amount restriction is omitted.\n"
+  summary: Returns all open sales, sorted descending with the latest first.  If the weigthed amount is -1, the amount restriction is omitted.
+  example: []
   syntax:
-    content: Sale[] GetUpcomingSales(int weightedAmountLimit, int count)
+    content: Task<Sale[]> GetUpcomingSalesAsync(int weightedAmountLimit, int count, CancellationToken cancellationToken = default)
     parameters:
     - id: weightedAmountLimit
       type: System.Int32
@@ -817,31 +904,34 @@ items:
     - id: count
       type: System.Int32
       description: The maximum number of items to return. If -1 all are returned.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Sale[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Sale[]}
       description: Array of upcoming sales.
-    content.vb: Function GetUpcomingSales(weightedAmountLimit As Integer, count As Integer) As Sale()
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSales*
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus)
-  id: GetSalesByDate(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus)
+    content.vb: Function GetUpcomingSalesAsync(weightedAmountLimit As Integer, count As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Sale())
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSalesAsync*
+  nameWithType.vb: ISaleAgent.GetUpcomingSalesAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSalesAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetUpcomingSalesAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDateAsync(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSalesByDateAsync(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus,System.Threading.CancellationToken)
+  id: GetSalesByDateAsync(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetSalesByDate(DateTime, DateTime, Int32, SaleStatus)
-  nameWithType: ISaleAgent.GetSalesByDate(DateTime, DateTime, Int32, SaleStatus)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate(System.DateTime, System.DateTime, System.Int32, SuperOffice.Data.SaleStatus)
+  name: GetSalesByDateAsync(DateTime, DateTime, int, SaleStatus, CancellationToken)
+  nameWithType: ISaleAgent.GetSalesByDateAsync(DateTime, DateTime, int, SaleStatus, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDateAsync(System.DateTime, System.DateTime, int, SuperOffice.Data.SaleStatus, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns all sales within a time period. The sales array can be limited by amount and status.\n"
+  summary: Returns all sales within a time period. The sales array can be limited by amount and status.
+  example: []
   syntax:
-    content: Sale[] GetSalesByDate(DateTime fromDate, DateTime toDate, int amountLimit, SaleStatus status)
+    content: Task<Sale[]> GetSalesByDateAsync(DateTime fromDate, DateTime toDate, int amountLimit, SaleStatus status, CancellationToken cancellationToken = default)
     parameters:
     - id: fromDate
       type: System.DateTime
@@ -855,89 +945,98 @@ items:
     - id: status
       type: SuperOffice.Data.SaleStatus
       description: The sale status (Lost, Open, Sold, Unknown). SaleStatus.Unknown means no status filtering.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Sale[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Sale[]}
       description: Array of sales.
-    content.vb: Function GetSalesByDate(fromDate As DateTime, toDate As DateTime, amountLimit As Integer, status As SaleStatus) As Sale()
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate*
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact(System.Int32)
-  id: GetOpenSalesForContact(System.Int32)
+    content.vb: Function GetSalesByDateAsync(fromDate As Date, toDate As Date, amountLimit As Integer, status As SaleStatus, cancellationToken As CancellationToken = Nothing) As Task(Of Sale())
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDateAsync*
+  nameWithType.vb: ISaleAgent.GetSalesByDateAsync(Date, Date, Integer, SaleStatus, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDateAsync(Date, Date, Integer, SuperOffice.Data.SaleStatus, System.Threading.CancellationToken)
+  name.vb: GetSalesByDateAsync(Date, Date, Integer, SaleStatus, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContactAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContactAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetOpenSalesForContactAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetOpenSalesForContact(Int32)
-  nameWithType: ISaleAgent.GetOpenSalesForContact(Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact(System.Int32)
+  name: GetOpenSalesForContactAsync(int, CancellationToken)
+  nameWithType: ISaleAgent.GetOpenSalesForContactAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContactAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns all open sales for the contact provided.\n"
+  summary: Returns all open sales for the contact provided.
+  example: []
   syntax:
-    content: Sale[] GetOpenSalesForContact(int contactId)
+    content: Task<Sale[]> GetOpenSalesForContactAsync(int contactId, CancellationToken cancellationToken = default)
     parameters:
     - id: contactId
       type: System.Int32
       description: The ID of the contact whose sales we want.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Sale[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Sale[]}
       description: Aray of sales.
-    content.vb: Function GetOpenSalesForContact(contactId As Integer) As Sale()
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact*
-- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsSold(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SetAsSold(System.Int32[])
-  id: SetAsSold(System.Int32[])
+    content.vb: Function GetOpenSalesForContactAsync(contactId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Sale())
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContactAsync*
+  nameWithType.vb: ISaleAgent.GetOpenSalesForContactAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContactAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetOpenSalesForContactAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SetAsSoldAsync(System.Int32[],System.Threading.CancellationToken)
+  id: SetAsSoldAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: SetAsSold(Int32[])
-  nameWithType: ISaleAgent.SetAsSold(Int32[])
-  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsSold(System.Int32[])
+  name: SetAsSoldAsync(int[], CancellationToken)
+  nameWithType: ISaleAgent.SetAsSoldAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldAsync(int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nChange the status of one or more Sales to Sold. Note that this does not mark them as Completed.\n"
+  summary: Change the status of one or more Sales to Sold. Note that this does not mark them as Completed.
+  example: []
   syntax:
-    content: void SetAsSold(int[] saleIds)
+    content: Task SetAsSoldAsync(int[] saleIds, CancellationToken cancellationToken = default)
     parameters:
     - id: saleIds
       type: System.Int32[]
       description: Array of sale ids to be marked as lost. All the normal write access rules apply.
-    content.vb: Sub SetAsSold(saleIds As Integer())
-  overload: SuperOffice.CRM.Services.ISaleAgent.SetAsSold*
-  nameWithType.vb: ISaleAgent.SetAsSold(Int32())
-  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.SetAsSold(System.Int32())
-  name.vb: SetAsSold(Int32())
-- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason(System.Int32[],System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason(System.Int32[],System.Int32)
-  id: SetAsSoldWithReason(System.Int32[],System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SetAsSoldAsync(saleIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldAsync*
+  nameWithType.vb: ISaleAgent.SetAsSoldAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: SetAsSoldAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReasonAsync(System.Int32[],System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReasonAsync(System.Int32[],System.Int32,System.Threading.CancellationToken)
+  id: SetAsSoldWithReasonAsync(System.Int32[],System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: SetAsSoldWithReason(Int32[], Int32)
-  nameWithType: ISaleAgent.SetAsSoldWithReason(Int32[], Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason(System.Int32[], System.Int32)
+  name: SetAsSoldWithReasonAsync(int[], int, CancellationToken)
+  nameWithType: ISaleAgent.SetAsSoldWithReasonAsync(int[], int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReasonAsync(int[], int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nChange the status of one or more Sales to Sold. Note that this does not mark them as Completed.\n"
+  summary: Change the status of one or more Sales to Sold. Note that this does not mark them as Completed.
+  example: []
   syntax:
-    content: void SetAsSoldWithReason(int[] saleIds, int reasonId)
+    content: Task SetAsSoldWithReasonAsync(int[] saleIds, int reasonId, CancellationToken cancellationToken = default)
     parameters:
     - id: saleIds
       type: System.Int32[]
@@ -945,60 +1044,66 @@ items:
     - id: reasonId
       type: System.Int32
       description: The ID of the sold reason.
-    content.vb: Sub SetAsSoldWithReason(saleIds As Integer(), reasonId As Integer)
-  overload: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason*
-  nameWithType.vb: ISaleAgent.SetAsSoldWithReason(Int32(), Int32)
-  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason(System.Int32(), System.Int32)
-  name.vb: SetAsSoldWithReason(Int32(), Int32)
-- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsLost(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SetAsLost(System.Int32[])
-  id: SetAsLost(System.Int32[])
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SetAsSoldWithReasonAsync(saleIds As Integer(), reasonId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReasonAsync*
+  nameWithType.vb: ISaleAgent.SetAsSoldWithReasonAsync(Integer(), Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReasonAsync(Integer(), Integer, System.Threading.CancellationToken)
+  name.vb: SetAsSoldWithReasonAsync(Integer(), Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsLostAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SetAsLostAsync(System.Int32[],System.Threading.CancellationToken)
+  id: SetAsLostAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: SetAsLost(Int32[])
-  nameWithType: ISaleAgent.SetAsLost(Int32[])
-  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsLost(System.Int32[])
+  name: SetAsLostAsync(int[], CancellationToken)
+  nameWithType: ISaleAgent.SetAsLostAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsLostAsync(int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nChange the status of one or more sales to Lost. Note that this does not affect the Completed state of the sale.\n"
+  summary: Change the status of one or more sales to Lost. Note that this does not affect the Completed state of the sale.
+  example: []
   syntax:
-    content: void SetAsLost(int[] saleIds)
+    content: Task SetAsLostAsync(int[] saleIds, CancellationToken cancellationToken = default)
     parameters:
     - id: saleIds
       type: System.Int32[]
       description: Array of sale ids to be marked as lost. All normal write access rules apply.
-    content.vb: Sub SetAsLost(saleIds As Integer())
-  overload: SuperOffice.CRM.Services.ISaleAgent.SetAsLost*
-  nameWithType.vb: ISaleAgent.SetAsLost(Int32())
-  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.SetAsLost(System.Int32())
-  name.vb: SetAsLost(Int32())
-- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason(System.Int32[],System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason(System.Int32[],System.Int32)
-  id: SetAsLostWithReason(System.Int32[],System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SetAsLostAsync(saleIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ISaleAgent.SetAsLostAsync*
+  nameWithType.vb: ISaleAgent.SetAsLostAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.SetAsLostAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: SetAsLostAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReasonAsync(System.Int32[],System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReasonAsync(System.Int32[],System.Int32,System.Threading.CancellationToken)
+  id: SetAsLostWithReasonAsync(System.Int32[],System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: SetAsLostWithReason(Int32[], Int32)
-  nameWithType: ISaleAgent.SetAsLostWithReason(Int32[], Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason(System.Int32[], System.Int32)
+  name: SetAsLostWithReasonAsync(int[], int, CancellationToken)
+  nameWithType: ISaleAgent.SetAsLostWithReasonAsync(int[], int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReasonAsync(int[], int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nChange the status of one or more sales to Lost. Note that this does not affect the Completed state of the sale.\n"
+  summary: Change the status of one or more sales to Lost. Note that this does not affect the Completed state of the sale.
+  example: []
   syntax:
-    content: void SetAsLostWithReason(int[] saleIds, int reasonId)
+    content: Task SetAsLostWithReasonAsync(int[] saleIds, int reasonId, CancellationToken cancellationToken = default)
     parameters:
     - id: saleIds
       type: System.Int32[]
@@ -1006,31 +1111,34 @@ items:
     - id: reasonId
       type: System.Int32
       description: The ID of the lost reason.
-    content.vb: Sub SetAsLostWithReason(saleIds As Integer(), reasonId As Integer)
-  overload: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason*
-  nameWithType.vb: ISaleAgent.SetAsLostWithReason(Int32(), Int32)
-  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason(System.Int32(), System.Int32)
-  name.vb: SetAsLostWithReason(Int32(), Int32)
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContact(System.Int32,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContact(System.Int32,System.Boolean)
-  id: GetSalesFromContact(System.Int32,System.Boolean)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SetAsLostWithReasonAsync(saleIds As Integer(), reasonId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReasonAsync*
+  nameWithType.vb: ISaleAgent.SetAsLostWithReasonAsync(Integer(), Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReasonAsync(Integer(), Integer, System.Threading.CancellationToken)
+  name.vb: SetAsLostWithReasonAsync(Integer(), Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContactAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContactAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  id: GetSalesFromContactAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetSalesFromContact(Int32, Boolean)
-  nameWithType: ISaleAgent.GetSalesFromContact(Int32, Boolean)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContact(System.Int32, System.Boolean)
+  name: GetSalesFromContactAsync(int, bool, CancellationToken)
+  nameWithType: ISaleAgent.GetSalesFromContactAsync(int, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContactAsync(int, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns all sales for the contact provided.\n"
+  summary: Returns all sales for the contact provided.
+  example: []
   syntax:
-    content: Sale[] GetSalesFromContact(int contactId, bool onlyOpenSales)
+    content: Task<Sale[]> GetSalesFromContactAsync(int contactId, bool onlyOpenSales, CancellationToken cancellationToken = default)
     parameters:
     - id: contactId
       type: System.Int32
@@ -1038,31 +1146,34 @@ items:
     - id: onlyOpenSales
       type: System.Boolean
       description: If true, only get open sales.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Sale[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Sale[]}
       description: List of sales matching query
-    content.vb: Function GetSalesFromContact(contactId As Integer, onlyOpenSales As Boolean) As Sale()
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContact*
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPerson(System.Int32,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPerson(System.Int32,System.Boolean)
-  id: GetSalesFromPerson(System.Int32,System.Boolean)
+    content.vb: Function GetSalesFromContactAsync(contactId As Integer, onlyOpenSales As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of Sale())
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContactAsync*
+  nameWithType.vb: ISaleAgent.GetSalesFromContactAsync(Integer, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContactAsync(Integer, Boolean, System.Threading.CancellationToken)
+  name.vb: GetSalesFromContactAsync(Integer, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPersonAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPersonAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  id: GetSalesFromPersonAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetSalesFromPerson(Int32, Boolean)
-  nameWithType: ISaleAgent.GetSalesFromPerson(Int32, Boolean)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPerson(System.Int32, System.Boolean)
+  name: GetSalesFromPersonAsync(int, bool, CancellationToken)
+  nameWithType: ISaleAgent.GetSalesFromPersonAsync(int, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPersonAsync(int, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns all sales for the person provided.\n"
+  summary: Returns all sales for the person provided.
+  example: []
   syntax:
-    content: Sale[] GetSalesFromPerson(int personId, bool onlyOpenSales)
+    content: Task<Sale[]> GetSalesFromPersonAsync(int personId, bool onlyOpenSales, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
@@ -1070,429 +1181,866 @@ items:
     - id: onlyOpenSales
       type: System.Boolean
       description: If true, only get open sales.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Sale[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Sale[]}
       description: List of sales matching query
-    content.vb: Function GetSalesFromPerson(personId As Integer, onlyOpenSales As Boolean) As Sale()
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPerson*
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholder(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholder(System.Int32)
-  id: GetSaleStakeholder(System.Int32)
+    content.vb: Function GetSalesFromPersonAsync(personId As Integer, onlyOpenSales As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of Sale())
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPersonAsync*
+  nameWithType.vb: ISaleAgent.GetSalesFromPersonAsync(Integer, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPersonAsync(Integer, Boolean, System.Threading.CancellationToken)
+  name.vb: GetSalesFromPersonAsync(Integer, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetSaleStakeholderAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetSaleStakeholder(Int32)
-  nameWithType: ISaleAgent.GetSaleStakeholder(Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholder(System.Int32)
+  name: GetSaleStakeholderAsync(int, CancellationToken)
+  nameWithType: ISaleAgent.GetSaleStakeholderAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a SaleStakeholder object.                        \n"
+  summary: Gets a SaleStakeholder object.
+  example: []
   syntax:
-    content: SaleStakeholder GetSaleStakeholder(int saleStakeholderId)
+    content: Task<SaleStakeholder> GetSaleStakeholderAsync(int saleStakeholderId, CancellationToken cancellationToken = default)
     parameters:
     - id: saleStakeholderId
       type: System.Int32
       description: The identifier of the SaleStakeholder object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SaleStakeholder
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder}
       description: SaleStakeholder
-    content.vb: Function GetSaleStakeholder(saleStakeholderId As Integer) As SaleStakeholder
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholder*
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList(System.Int32[])
-  id: GetSaleStakeholderList(System.Int32[])
+    content.vb: Function GetSaleStakeholderAsync(saleStakeholderId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of SaleStakeholder)
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderAsync*
+  nameWithType.vb: ISaleAgent.GetSaleStakeholderAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetSaleStakeholderAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderListAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderListAsync(System.Int32[],System.Threading.CancellationToken)
+  id: GetSaleStakeholderListAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetSaleStakeholderList(Int32[])
-  nameWithType: ISaleAgent.GetSaleStakeholderList(Int32[])
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList(System.Int32[])
+  name: GetSaleStakeholderListAsync(int[], CancellationToken)
+  nameWithType: ISaleAgent.GetSaleStakeholderListAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderListAsync(int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets an array of SaleStakeholder objects.                        \n"
+  summary: Gets an array of SaleStakeholder objects.
+  example: []
   syntax:
-    content: SaleStakeholder[] GetSaleStakeholderList(int[] saleStakeholderIds)
+    content: Task<SaleStakeholder[]> GetSaleStakeholderListAsync(int[] saleStakeholderIds, CancellationToken cancellationToken = default)
     parameters:
     - id: saleStakeholderIds
       type: System.Int32[]
       description: The identifiers of the SaleStakeholder object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SaleStakeholder[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder[]}
       description: Array of SaleStakeholder objects
-    content.vb: Function GetSaleStakeholderList(saleStakeholderIds As Integer()) As SaleStakeholder()
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList*
-  nameWithType.vb: ISaleAgent.GetSaleStakeholderList(Int32())
-  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList(System.Int32())
-  name.vb: GetSaleStakeholderList(Int32())
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholders(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholders(System.Int32)
-  id: GetSaleStakeholders(System.Int32)
+    content.vb: Function GetSaleStakeholderListAsync(saleStakeholderIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of SaleStakeholder())
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderListAsync*
+  nameWithType.vb: ISaleAgent.GetSaleStakeholderListAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderListAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: GetSaleStakeholderListAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholdersAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholdersAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetSaleStakeholdersAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetSaleStakeholders(Int32)
-  nameWithType: ISaleAgent.GetSaleStakeholders(Int32)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholders(System.Int32)
+  name: GetSaleStakeholdersAsync(int, CancellationToken)
+  nameWithType: ISaleAgent.GetSaleStakeholdersAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholdersAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: SaleStakeholder[] GetSaleStakeholders(int saleId)
+    content: Task<SaleStakeholder[]> GetSaleStakeholdersAsync(int saleId, CancellationToken cancellationToken = default)
     parameters:
     - id: saleId
       type: System.Int32
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SaleStakeholder[]
-    content.vb: Function GetSaleStakeholders(saleId As Integer) As SaleStakeholder()
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholders*
-- uid: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
-  id: UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder[]}
+      description: ''
+    content.vb: Function GetSaleStakeholdersAsync(saleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of SaleStakeholder())
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholdersAsync*
+  nameWithType.vb: ISaleAgent.GetSaleStakeholdersAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholdersAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetSaleStakeholdersAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholdersAsync(SuperOffice.CRM.Services.SaleStakeholder[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholdersAsync(SuperOffice.CRM.Services.SaleStakeholder[],System.Threading.CancellationToken)
+  id: UpdateSaleStakeholdersAsync(SuperOffice.CRM.Services.SaleStakeholder[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: UpdateSaleStakeholders(SaleStakeholder[])
-  nameWithType: ISaleAgent.UpdateSaleStakeholders(SaleStakeholder[])
-  fullName: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
+  name: UpdateSaleStakeholdersAsync(SaleStakeholder[], CancellationToken)
+  nameWithType: ISaleAgent.UpdateSaleStakeholdersAsync(SaleStakeholder[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholdersAsync(SuperOffice.CRM.Services.SaleStakeholder[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: SaleStakeholder[] UpdateSaleStakeholders(SaleStakeholder[] stakeholders)
+    content: Task<SaleStakeholder[]> UpdateSaleStakeholdersAsync(SaleStakeholder[] stakeholders, CancellationToken cancellationToken = default)
     parameters:
     - id: stakeholders
       type: SuperOffice.CRM.Services.SaleStakeholder[]
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SaleStakeholder[]
-    content.vb: Function UpdateSaleStakeholders(stakeholders As SaleStakeholder()) As SaleStakeholder()
-  overload: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders*
-  nameWithType.vb: ISaleAgent.UpdateSaleStakeholders(SaleStakeholder())
-  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder())
-  name.vb: UpdateSaleStakeholders(SaleStakeholder())
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById(System.Int32[])
-  id: GetSaleStakeholderById(System.Int32[])
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder[]}
+      description: ''
+    content.vb: Function UpdateSaleStakeholdersAsync(stakeholders As SaleStakeholder(), cancellationToken As CancellationToken = Nothing) As Task(Of SaleStakeholder())
+  overload: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholdersAsync*
+  nameWithType.vb: ISaleAgent.UpdateSaleStakeholdersAsync(SaleStakeholder(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholdersAsync(SuperOffice.CRM.Services.SaleStakeholder(), System.Threading.CancellationToken)
+  name.vb: UpdateSaleStakeholdersAsync(SaleStakeholder(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderByIdAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderByIdAsync(System.Int32[],System.Threading.CancellationToken)
+  id: GetSaleStakeholderByIdAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetSaleStakeholderById(Int32[])
-  nameWithType: ISaleAgent.GetSaleStakeholderById(Int32[])
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById(System.Int32[])
+  name: GetSaleStakeholderByIdAsync(int[], CancellationToken)
+  nameWithType: ISaleAgent.GetSaleStakeholderByIdAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderByIdAsync(int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: SaleStakeholder[] GetSaleStakeholderById(int[] saleStakeholderIds)
+    content: Task<SaleStakeholder[]> GetSaleStakeholderByIdAsync(int[] saleStakeholderIds, CancellationToken cancellationToken = default)
     parameters:
     - id: saleStakeholderIds
       type: System.Int32[]
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SaleStakeholder[]
-    content.vb: Function GetSaleStakeholderById(saleStakeholderIds As Integer()) As SaleStakeholder()
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById*
-  nameWithType.vb: ISaleAgent.GetSaleStakeholderById(Int32())
-  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById(System.Int32())
-  name.vb: GetSaleStakeholderById(Int32())
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate(System.Int32,System.DateTime,System.DateTime)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate(System.Int32,System.DateTime,System.DateTime)
-  id: GetSummaryByAssociate(System.Int32,System.DateTime,System.DateTime)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder[]}
+      description: ''
+    content.vb: Function GetSaleStakeholderByIdAsync(saleStakeholderIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of SaleStakeholder())
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderByIdAsync*
+  nameWithType.vb: ISaleAgent.GetSaleStakeholderByIdAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderByIdAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: GetSaleStakeholderByIdAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociateAsync(System.Int32,System.DateTime,System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociateAsync(System.Int32,System.DateTime,System.DateTime,System.Threading.CancellationToken)
+  id: GetSummaryByAssociateAsync(System.Int32,System.DateTime,System.DateTime,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetSummaryByAssociate(Int32, DateTime, DateTime)
-  nameWithType: ISaleAgent.GetSummaryByAssociate(Int32, DateTime, DateTime)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate(System.Int32, System.DateTime, System.DateTime)
+  name: GetSummaryByAssociateAsync(int, DateTime, DateTime, CancellationToken)
+  nameWithType: ISaleAgent.GetSummaryByAssociateAsync(int, DateTime, DateTime, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociateAsync(int, System.DateTime, System.DateTime, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: SaleSummary GetSummaryByAssociate(int associateId, DateTime fromDate, DateTime toDate)
+    content: Task<SaleSummary> GetSummaryByAssociateAsync(int associateId, DateTime fromDate, DateTime toDate, CancellationToken cancellationToken = default)
     parameters:
     - id: associateId
       type: System.Int32
+      description: ''
     - id: fromDate
       type: System.DateTime
+      description: ''
     - id: toDate
       type: System.DateTime
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SaleSummary
-    content.vb: Function GetSummaryByAssociate(associateId As Integer, fromDate As DateTime, toDate As DateTime) As SaleSummary
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate*
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup(System.Int32,System.DateTime,System.DateTime)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup(System.Int32,System.DateTime,System.DateTime)
-  id: GetSummaryByGroup(System.Int32,System.DateTime,System.DateTime)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleSummary}
+      description: ''
+    content.vb: Function GetSummaryByAssociateAsync(associateId As Integer, fromDate As Date, toDate As Date, cancellationToken As CancellationToken = Nothing) As Task(Of SaleSummary)
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociateAsync*
+  nameWithType.vb: ISaleAgent.GetSummaryByAssociateAsync(Integer, Date, Date, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociateAsync(Integer, Date, Date, System.Threading.CancellationToken)
+  name.vb: GetSummaryByAssociateAsync(Integer, Date, Date, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroupAsync(System.Int32,System.DateTime,System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroupAsync(System.Int32,System.DateTime,System.DateTime,System.Threading.CancellationToken)
+  id: GetSummaryByGroupAsync(System.Int32,System.DateTime,System.DateTime,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetSummaryByGroup(Int32, DateTime, DateTime)
-  nameWithType: ISaleAgent.GetSummaryByGroup(Int32, DateTime, DateTime)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup(System.Int32, System.DateTime, System.DateTime)
+  name: GetSummaryByGroupAsync(int, DateTime, DateTime, CancellationToken)
+  nameWithType: ISaleAgent.GetSummaryByGroupAsync(int, DateTime, DateTime, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroupAsync(int, System.DateTime, System.DateTime, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: SaleSummary GetSummaryByGroup(int groupId, DateTime fromDate, DateTime toDate)
+    content: Task<SaleSummary> GetSummaryByGroupAsync(int groupId, DateTime fromDate, DateTime toDate, CancellationToken cancellationToken = default)
     parameters:
     - id: groupId
       type: System.Int32
+      description: ''
     - id: fromDate
       type: System.DateTime
+      description: ''
     - id: toDate
       type: System.DateTime
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SaleSummary
-    content.vb: Function GetSummaryByGroup(groupId As Integer, fromDate As DateTime, toDate As DateTime) As SaleSummary
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup*
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact(System.Int32,System.DateTime,System.DateTime)
-  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact(System.Int32,System.DateTime,System.DateTime)
-  id: GetSummaryByContact(System.Int32,System.DateTime,System.DateTime)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleSummary}
+      description: ''
+    content.vb: Function GetSummaryByGroupAsync(groupId As Integer, fromDate As Date, toDate As Date, cancellationToken As CancellationToken = Nothing) As Task(Of SaleSummary)
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroupAsync*
+  nameWithType.vb: ISaleAgent.GetSummaryByGroupAsync(Integer, Date, Date, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroupAsync(Integer, Date, Date, System.Threading.CancellationToken)
+  name.vb: GetSummaryByGroupAsync(Integer, Date, Date, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContactAsync(System.Int32,System.DateTime,System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContactAsync(System.Int32,System.DateTime,System.DateTime,System.Threading.CancellationToken)
+  id: GetSummaryByContactAsync(System.Int32,System.DateTime,System.DateTime,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ISaleAgent
   langs:
   - csharp
   - vb
-  name: GetSummaryByContact(Int32, DateTime, DateTime)
-  nameWithType: ISaleAgent.GetSummaryByContact(Int32, DateTime, DateTime)
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact(System.Int32, System.DateTime, System.DateTime)
+  name: GetSummaryByContactAsync(int, DateTime, DateTime, CancellationToken)
+  nameWithType: ISaleAgent.GetSummaryByContactAsync(int, DateTime, DateTime, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContactAsync(int, System.DateTime, System.DateTime, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: SaleSummary GetSummaryByContact(int contactId, DateTime fromDate, DateTime toDate)
+    content: Task<SaleSummary> GetSummaryByContactAsync(int contactId, DateTime fromDate, DateTime toDate, CancellationToken cancellationToken = default)
     parameters:
     - id: contactId
       type: System.Int32
+      description: ''
     - id: fromDate
       type: System.DateTime
+      description: ''
     - id: toDate
       type: System.DateTime
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.SaleSummary
-    content.vb: Function GetSummaryByContact(contactId As Integer, fromDate As DateTime, toDate As DateTime) As SaleSummary
-  overload: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleSummary}
+      description: ''
+    content.vb: Function GetSummaryByContactAsync(contactId As Integer, fromDate As Date, toDate As Date, cancellationToken As CancellationToken = Nothing) As Task(Of SaleSummary)
+  overload: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContactAsync*
+  nameWithType.vb: ISaleAgent.GetSummaryByContactAsync(Integer, Date, Date, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContactAsync(Integer, Date, Date, System.Threading.CancellationToken)
+  name.vb: GetSummaryByContactAsync(Integer, Date, Date, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntityAsync
   isExternal: true
-  name: CreateDefaultSaleEntity
-  nameWithType: ISaleAgent.CreateDefaultSaleEntity
-  fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_CreateDefaultSaleEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultSaleEntityAsync
+  nameWithType: ISaleAgent.CreateDefaultSaleEntityAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntityAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SaleEntity>
+  nameWithType: Task<SaleEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SaleEntity>
+  nameWithType.vb: Task(Of SaleEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SaleEntity)
+  name.vb: Task(Of SaleEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.SaleEntity
+    name: SaleEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.SaleEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.SaleEntity
+    name: SaleEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.SaleEntity.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_SaveSaleEntityAsync_SuperOffice_CRM_Services_SaleEntity_System_Threading_CancellationToken_
+  name: SaveSaleEntityAsync
+  nameWithType: ISaleAgent.SaveSaleEntityAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntityAsync
 - uid: SuperOffice.CRM.Services.SaleEntity
   commentId: T:SuperOffice.CRM.Services.SaleEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.SaleEntity.html
   name: SaleEntity
   nameWithType: SaleEntity
   fullName: SuperOffice.CRM.Services.SaleEntity
-- uid: SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity
+- uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntityAsync
   isExternal: true
-  name: SaveSaleEntity
-  nameWithType: ISaleAgent.SaveSaleEntity
-  fullName: SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity
-- uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntity
-  isExternal: true
-  name: DeleteSaleEntity
-  nameWithType: ISaleAgent.DeleteSaleEntity
-  fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntity
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_DeleteSaleEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteSaleEntityAsync
+  nameWithType: ISaleAgent.DeleteSaleEntityAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntityAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder
+- uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholderAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholderAsync
   isExternal: true
-  name: CreateDefaultSaleStakeholder
-  nameWithType: ISaleAgent.CreateDefaultSaleStakeholder
-  fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_CreateDefaultSaleStakeholderAsync_System_Threading_CancellationToken_
+  name: CreateDefaultSaleStakeholderAsync
+  nameWithType: ISaleAgent.CreateDefaultSaleStakeholderAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholderAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SaleStakeholder>
+  nameWithType: Task<SaleStakeholder>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SaleStakeholder>
+  nameWithType.vb: Task(Of SaleStakeholder)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SaleStakeholder)
+  name.vb: Task(Of SaleStakeholder)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    isExternal: true
+    href: SuperOffice.CRM.Services.SaleStakeholder.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    isExternal: true
+    href: SuperOffice.CRM.Services.SaleStakeholder.html
+  - name: )
+- uid: SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholderAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholderAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_SaveSaleStakeholderAsync_SuperOffice_CRM_Services_SaleStakeholder_System_Threading_CancellationToken_
+  name: SaveSaleStakeholderAsync
+  nameWithType: ISaleAgent.SaveSaleStakeholderAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholderAsync
 - uid: SuperOffice.CRM.Services.SaleStakeholder
   commentId: T:SuperOffice.CRM.Services.SaleStakeholder
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.SaleStakeholder.html
   name: SaleStakeholder
   nameWithType: SaleStakeholder
   fullName: SuperOffice.CRM.Services.SaleStakeholder
-- uid: SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder
+- uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholderAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholderAsync
   isExternal: true
-  name: SaveSaleStakeholder
-  nameWithType: ISaleAgent.SaveSaleStakeholder
-  fullName: SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder
-- uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_DeleteSaleStakeholderAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteSaleStakeholderAsync
+  nameWithType: ISaleAgent.DeleteSaleStakeholderAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholderAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummaryAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummaryAsync
   isExternal: true
-  name: DeleteSaleStakeholder
-  nameWithType: ISaleAgent.DeleteSaleStakeholder
-  fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder
-- uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_CreateDefaultSaleSummaryAsync_System_Threading_CancellationToken_
+  name: CreateDefaultSaleSummaryAsync
+  nameWithType: ISaleAgent.CreateDefaultSaleSummaryAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummaryAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleSummary}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleSummary}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SaleSummary>
+  nameWithType: Task<SaleSummary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SaleSummary>
+  nameWithType.vb: Task(Of SaleSummary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SaleSummary)
+  name.vb: Task(Of SaleSummary)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.SaleSummary
+    name: SaleSummary
+    isExternal: true
+    href: SuperOffice.CRM.Services.SaleSummary.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.SaleSummary
+    name: SaleSummary
+    isExternal: true
+    href: SuperOffice.CRM.Services.SaleSummary.html
+  - name: )
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSaleAsync
   isExternal: true
-  name: CreateDefaultSaleSummary
-  nameWithType: ISaleAgent.CreateDefaultSaleSummary
-  fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary
-- uid: SuperOffice.CRM.Services.SaleSummary
-  commentId: T:SuperOffice.CRM.Services.SaleSummary
-  parent: SuperOffice.CRM.Services
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetSaleAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetSaleAsync
+  nameWithType: ISaleAgent.GetSaleAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Sale}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Sale}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Sale>
+  nameWithType: Task<Sale>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Sale>
+  nameWithType.vb: Task(Of Sale)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Sale)
+  name.vb: Task(Of Sale)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.Sale
+    name: Sale
+    isExternal: true
+    href: SuperOffice.CRM.Services.Sale.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.Sale
+    name: Sale
+    isExternal: true
+    href: SuperOffice.CRM.Services.Sale.html
+  - name: )
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSaleEntityAsync
   isExternal: true
-  name: SaleSummary
-  nameWithType: SaleSummary
-  fullName: SuperOffice.CRM.Services.SaleSummary
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSale*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSale
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetSaleEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetSaleEntityAsync
+  nameWithType: ISaleAgent.GetSaleEntityAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntityAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.HasGuideAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.HasGuideAsync
   isExternal: true
-  name: GetSale
-  nameWithType: ISaleAgent.GetSale
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSale
-- uid: SuperOffice.CRM.Services.Sale
-  commentId: T:SuperOffice.CRM.Services.Sale
-  parent: SuperOffice.CRM.Services
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_HasGuideAsync_System_Int32_System_Threading_CancellationToken_
+  name: HasGuideAsync
+  nameWithType: ISaleAgent.HasGuideAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.HasGuideAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetNextDueDateAsync
   isExternal: true
-  name: Sale
-  nameWithType: Sale
-  fullName: SuperOffice.CRM.Services.Sale
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSaleEntity
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetNextDueDateAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetNextDueDateAsync
+  nameWithType: ISaleAgent.GetNextDueDateAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDateAsync
+- uid: System.Threading.Tasks.Task{System.DateTime}
+  commentId: T:System.Threading.Tasks.Task{System.DateTime}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DateTime>
+  nameWithType: Task<DateTime>
+  fullName: System.Threading.Tasks.Task<System.DateTime>
+  nameWithType.vb: Task(Of Date)
+  fullName.vb: System.Threading.Tasks.Task(Of Date)
+  name.vb: Task(Of Date)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
+- uid: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDateAsync
   isExternal: true
-  name: GetSaleEntity
-  nameWithType: ISaleAgent.GetSaleEntity
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntity
-- uid: SuperOffice.CRM.Services.ISaleAgent.HasGuide*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.HasGuide
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_BatchUpdateNextDueDateAsync_System_Threading_CancellationToken_
+  name: BatchUpdateNextDueDateAsync
+  nameWithType: ISaleAgent.BatchUpdateNextDueDateAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDateAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStageAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStageAsync
   isExternal: true
-  name: HasGuide
-  nameWithType: ISaleAgent.HasGuide
-  fullName: SuperOffice.CRM.Services.ISaleAgent.HasGuide
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetNextSaleStageAsync_System_Int32_System_Boolean_System_Threading_CancellationToken_
+  name: GetNextSaleStageAsync
+  nameWithType: ISaleAgent.GetNextSaleStageAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStageAsync
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivitiesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.HasGuideActivitiesAsync
   isExternal: true
-  name: GetNextDueDate
-  nameWithType: ISaleAgent.GetNextDueDate
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate
-- uid: System.DateTime
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_HasGuideActivitiesAsync_System_Int32_System_Threading_CancellationToken_
+  name: HasGuideActivitiesAsync
+  nameWithType: ISaleAgent.HasGuideActivitiesAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivitiesAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompletedAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompletedAsync
   isExternal: true
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_OfferAutoNextStageOnApppointmentCompletedAsync_System_Int32_System_Threading_CancellationToken_
+  name: OfferAutoNextStageOnApppointmentCompletedAsync
+  nameWithType: ISaleAgent.OfferAutoNextStageOnApppointmentCompletedAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompletedAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStageAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStageAsync
   isExternal: true
-  name: BatchUpdateNextDueDate
-  nameWithType: ISaleAgent.BatchUpdateNextDueDate
-  fullName: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStage*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStage
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetProbabilityFromStageAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetProbabilityFromStageAsync
+  nameWithType: ISaleAgent.GetProbabilityFromStageAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStageAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.IsNumberValidAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.IsNumberValidAsync
   isExternal: true
-  name: GetNextSaleStage
-  nameWithType: ISaleAgent.GetNextSaleStage
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStage
-- uid: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivities*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.HasGuideActivities
-  isExternal: true
-  name: HasGuideActivities
-  nameWithType: ISaleAgent.HasGuideActivities
-  fullName: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivities
-- uid: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted
-  isExternal: true
-  name: OfferAutoNextStageOnApppointmentCompleted
-  nameWithType: ISaleAgent.OfferAutoNextStageOnApppointmentCompleted
-  fullName: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage
-  isExternal: true
-  name: GetProbabilityFromStage
-  nameWithType: ISaleAgent.GetProbabilityFromStage
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage
-- uid: SuperOffice.CRM.Services.ISaleAgent.IsNumberValid*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.IsNumberValid
-  isExternal: true
-  name: IsNumberValid
-  nameWithType: ISaleAgent.IsNumberValid
-  fullName: SuperOffice.CRM.Services.ISaleAgent.IsNumberValid
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_IsNumberValidAsync_System_Int32_System_String_System_Threading_CancellationToken_
+  name: IsNumberValidAsync
+  nameWithType: ISaleAgent.IsNumberValidAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.IsNumberValidAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholdersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholdersAsync
   isExternal: true
-  name: AddSaleStakeholders
-  nameWithType: ISaleAgent.AddSaleStakeholders
-  fullName: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_AddSaleStakeholdersAsync_System_Int32_SuperOffice_CRM_Services_SaleStakeholder___System_Threading_CancellationToken_
+  name: AddSaleStakeholdersAsync
+  nameWithType: ISaleAgent.AddSaleStakeholdersAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholdersAsync
 - uid: SuperOffice.CRM.Services.SaleStakeholder[]
   isExternal: true
+  href: SuperOffice.CRM.Services.SaleStakeholder.html
   name: SaleStakeholder[]
   nameWithType: SaleStakeholder[]
   fullName: SuperOffice.CRM.Services.SaleStakeholder[]
@@ -1502,224 +2050,332 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.SaleStakeholder
     name: SaleStakeholder
-    nameWithType: SaleStakeholder
-    fullName: SuperOffice.CRM.Services.SaleStakeholder
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.SaleStakeholder.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.SaleStakeholder
     name: SaleStakeholder
-    nameWithType: SaleStakeholder
-    fullName: SuperOffice.CRM.Services.SaleStakeholder
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders
+    href: SuperOffice.CRM.Services.SaleStakeholder.html
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholdersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholdersAsync
   isExternal: true
-  name: DeleteSaleStakeholders
-  nameWithType: ISaleAgent.DeleteSaleStakeholders
-  fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_DeleteSaleStakeholdersAsync_System_Int32___System_Threading_CancellationToken_
+  name: DeleteSaleStakeholdersAsync
+  nameWithType: ISaleAgent.DeleteSaleStakeholdersAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholdersAsync
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSettingAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSettingAsync
   isExternal: true
-  name: HasStakeholderSetting
-  nameWithType: ISaleAgent.HasStakeholderSetting
-  fullName: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting
-- uid: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_HasStakeholderSettingAsync_System_Int32_System_Threading_CancellationToken_
+  name: HasStakeholderSettingAsync
+  nameWithType: ISaleAgent.HasStakeholderSettingAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSettingAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntityAsync
   isExternal: true
-  name: ValidateSaleEntity
-  nameWithType: ISaleAgent.ValidateSaleEntity
-  fullName: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity
-- uid: SuperOffice.CRM.Services.StringDictionary
-  isExternal: true
-  name: StringDictionary
-  nameWithType: StringDictionary
-  fullName: SuperOffice.CRM.Services.StringDictionary
-- uid: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote
-  isExternal: true
-  name: SaleHasQuote
-  nameWithType: ISaleAgent.SaleHasQuote
-  fullName: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleList*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSaleList
-  isExternal: true
-  name: GetSaleList
-  nameWithType: ISaleAgent.GetSaleList
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleList
-- uid: SuperOffice.CRM.Services.Sale[]
-  isExternal: true
-  name: Sale[]
-  nameWithType: Sale[]
-  fullName: SuperOffice.CRM.Services.Sale[]
-  nameWithType.vb: Sale()
-  fullName.vb: SuperOffice.CRM.Services.Sale()
-  name.vb: Sale()
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_ValidateSaleEntityAsync_SuperOffice_CRM_Services_SaleEntity_System_Threading_CancellationToken_
+  name: ValidateSaleEntityAsync
+  nameWithType: ISaleAgent.ValidateSaleEntityAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<StringDictionary>
+  nameWithType: Task<StringDictionary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.StringDictionary>
+  nameWithType.vb: Task(Of StringDictionary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.StringDictionary)
+  name.vb: Task(Of StringDictionary)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.Sale
-    name: Sale
-    nameWithType: Sale
-    fullName: SuperOffice.CRM.Services.Sale
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    isExternal: true
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    isExternal: true
+  - name: )
+- uid: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuoteAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.SaleHasQuoteAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_SaleHasQuoteAsync_System_Int32_System_Threading_CancellationToken_
+  name: SaleHasQuoteAsync
+  nameWithType: ISaleAgent.SaleHasQuoteAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuoteAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSaleListAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetSaleListAsync_System_Int32___System_Threading_CancellationToken_
+  name: GetSaleListAsync
+  nameWithType: ISaleAgent.GetSaleListAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleListAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Sale[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Sale[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Sale[]>
+  nameWithType: Task<Sale[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Sale[]>
+  nameWithType.vb: Task(Of Sale())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Sale())
+  name.vb: Task(Of Sale())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.CRM.Services.Sale
     name: Sale
-    nameWithType: Sale
-    fullName: SuperOffice.CRM.Services.Sale
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunities*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunities
+    href: SuperOffice.CRM.Services.Sale.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.Sale
+    name: Sale
+    isExternal: true
+    href: SuperOffice.CRM.Services.Sale.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunitiesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunitiesAsync
   isExternal: true
-  name: GetMyOpportunities
-  nameWithType: ISaleAgent.GetMyOpportunities
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunities
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetRecentSales*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetRecentSales
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetMyOpportunitiesAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetMyOpportunitiesAsync
+  nameWithType: ISaleAgent.GetMyOpportunitiesAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunitiesAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetRecentSalesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetRecentSalesAsync
   isExternal: true
-  name: GetRecentSales
-  nameWithType: ISaleAgent.GetRecentSales
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetRecentSales
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSales*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSales
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetRecentSalesAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetRecentSalesAsync
+  nameWithType: ISaleAgent.GetRecentSalesAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetRecentSalesAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSalesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSalesAsync
   isExternal: true
-  name: GetUpcomingSales
-  nameWithType: ISaleAgent.GetUpcomingSales
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSales
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetUpcomingSalesAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetUpcomingSalesAsync
+  nameWithType: ISaleAgent.GetUpcomingSalesAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSalesAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSalesByDateAsync
   isExternal: true
-  name: GetSalesByDate
-  nameWithType: ISaleAgent.GetSalesByDate
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetSalesByDateAsync_System_DateTime_System_DateTime_System_Int32_SuperOffice_Data_SaleStatus_System_Threading_CancellationToken_
+  name: GetSalesByDateAsync
+  nameWithType: ISaleAgent.GetSalesByDateAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDateAsync
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.Data.SaleStatus
   isExternal: true
   name: SaleStatus
   nameWithType: SaleStatus
   fullName: SuperOffice.Data.SaleStatus
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContactAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContactAsync
   isExternal: true
-  name: GetOpenSalesForContact
-  nameWithType: ISaleAgent.GetOpenSalesForContact
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact
-- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsSold*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.SetAsSold
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetOpenSalesForContactAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetOpenSalesForContactAsync
+  nameWithType: ISaleAgent.GetOpenSalesForContactAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContactAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.SetAsSoldAsync
   isExternal: true
-  name: SetAsSold
-  nameWithType: ISaleAgent.SetAsSold
-  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsSold
-- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_SetAsSoldAsync_System_Int32___System_Threading_CancellationToken_
+  name: SetAsSoldAsync
+  nameWithType: ISaleAgent.SetAsSoldAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReasonAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReasonAsync
   isExternal: true
-  name: SetAsSoldWithReason
-  nameWithType: ISaleAgent.SetAsSoldWithReason
-  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason
-- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsLost*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.SetAsLost
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_SetAsSoldWithReasonAsync_System_Int32___System_Int32_System_Threading_CancellationToken_
+  name: SetAsSoldWithReasonAsync
+  nameWithType: ISaleAgent.SetAsSoldWithReasonAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReasonAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsLostAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.SetAsLostAsync
   isExternal: true
-  name: SetAsLost
-  nameWithType: ISaleAgent.SetAsLost
-  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsLost
-- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_SetAsLostAsync_System_Int32___System_Threading_CancellationToken_
+  name: SetAsLostAsync
+  nameWithType: ISaleAgent.SetAsLostAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsLostAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReasonAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReasonAsync
   isExternal: true
-  name: SetAsLostWithReason
-  nameWithType: ISaleAgent.SetAsLostWithReason
-  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContact*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContact
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_SetAsLostWithReasonAsync_System_Int32___System_Int32_System_Threading_CancellationToken_
+  name: SetAsLostWithReasonAsync
+  nameWithType: ISaleAgent.SetAsLostWithReasonAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReasonAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContactAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContactAsync
   isExternal: true
-  name: GetSalesFromContact
-  nameWithType: ISaleAgent.GetSalesFromContact
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContact
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPerson*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPerson
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetSalesFromContactAsync_System_Int32_System_Boolean_System_Threading_CancellationToken_
+  name: GetSalesFromContactAsync
+  nameWithType: ISaleAgent.GetSalesFromContactAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromContactAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPersonAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPersonAsync
   isExternal: true
-  name: GetSalesFromPerson
-  nameWithType: ISaleAgent.GetSalesFromPerson
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPerson
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholder*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholder
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetSalesFromPersonAsync_System_Int32_System_Boolean_System_Threading_CancellationToken_
+  name: GetSalesFromPersonAsync
+  nameWithType: ISaleAgent.GetSalesFromPersonAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesFromPersonAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderAsync
   isExternal: true
-  name: GetSaleStakeholder
-  nameWithType: ISaleAgent.GetSaleStakeholder
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholder
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetSaleStakeholderAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetSaleStakeholderAsync
+  nameWithType: ISaleAgent.GetSaleStakeholderAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderListAsync
   isExternal: true
-  name: GetSaleStakeholderList
-  nameWithType: ISaleAgent.GetSaleStakeholderList
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholders*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholders
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetSaleStakeholderListAsync_System_Int32___System_Threading_CancellationToken_
+  name: GetSaleStakeholderListAsync
+  nameWithType: ISaleAgent.GetSaleStakeholderListAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderListAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaleStakeholder[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SaleStakeholder[]>
+  nameWithType: Task<SaleStakeholder[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SaleStakeholder[]>
+  nameWithType.vb: Task(Of SaleStakeholder())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SaleStakeholder())
+  name.vb: Task(Of SaleStakeholder())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    isExternal: true
+    href: SuperOffice.CRM.Services.SaleStakeholder.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    isExternal: true
+    href: SuperOffice.CRM.Services.SaleStakeholder.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholdersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholdersAsync
   isExternal: true
-  name: GetSaleStakeholders
-  nameWithType: ISaleAgent.GetSaleStakeholders
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholders
-- uid: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetSaleStakeholdersAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetSaleStakeholdersAsync
+  nameWithType: ISaleAgent.GetSaleStakeholdersAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholdersAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholdersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholdersAsync
   isExternal: true
-  name: UpdateSaleStakeholders
-  nameWithType: ISaleAgent.UpdateSaleStakeholders
-  fullName: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_UpdateSaleStakeholdersAsync_SuperOffice_CRM_Services_SaleStakeholder___System_Threading_CancellationToken_
+  name: UpdateSaleStakeholdersAsync
+  nameWithType: ISaleAgent.UpdateSaleStakeholdersAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholdersAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderByIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderByIdAsync
   isExternal: true
-  name: GetSaleStakeholderById
-  nameWithType: ISaleAgent.GetSaleStakeholderById
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetSaleStakeholderByIdAsync_System_Int32___System_Threading_CancellationToken_
+  name: GetSaleStakeholderByIdAsync
+  nameWithType: ISaleAgent.GetSaleStakeholderByIdAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderByIdAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociateAsync
   isExternal: true
-  name: GetSummaryByAssociate
-  nameWithType: ISaleAgent.GetSummaryByAssociate
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetSummaryByAssociateAsync_System_Int32_System_DateTime_System_DateTime_System_Threading_CancellationToken_
+  name: GetSummaryByAssociateAsync
+  nameWithType: ISaleAgent.GetSummaryByAssociateAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociateAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroupAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroupAsync
   isExternal: true
-  name: GetSummaryByGroup
-  nameWithType: ISaleAgent.GetSummaryByGroup
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup
-- uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact*
-  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetSummaryByGroupAsync_System_Int32_System_DateTime_System_DateTime_System_Threading_CancellationToken_
+  name: GetSummaryByGroupAsync
+  nameWithType: ISaleAgent.GetSummaryByGroupAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroupAsync
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContactAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContactAsync
   isExternal: true
-  name: GetSummaryByContact
-  nameWithType: ISaleAgent.GetSummaryByContact
-  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_GetSummaryByContactAsync_System_Int32_System_DateTime_System_DateTime_System_Threading_CancellationToken_
+  name: GetSummaryByContactAsync
+  nameWithType: ISaleAgent.GetSummaryByContactAsync
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContactAsync

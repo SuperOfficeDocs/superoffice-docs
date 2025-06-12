@@ -5,6 +5,7 @@ items:
   id: FieldDataType
   parent: SuperOffice.Data
   children:
+  - SuperOffice.Data.FieldDataType.Undefined
   - SuperOffice.Data.FieldDataType.dbBlob
   - SuperOffice.Data.FieldDataType.dbDateLocal
   - SuperOffice.Data.FieldDataType.dbDateTimeLocal
@@ -23,68 +24,41 @@ items:
   - SuperOffice.Data.FieldDataType.dbTimeLocal
   - SuperOffice.Data.FieldDataType.dbUInt
   - SuperOffice.Data.FieldDataType.dbUShort
-  - SuperOffice.Data.FieldDataType.Undefined
-  - SuperOffice.Data.FieldDataType.value__
   langs:
   - csharp
   - vb
   name: FieldDataType
   nameWithType: FieldDataType
   fullName: SuperOffice.Data.FieldDataType
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Enum
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nDatatype of the field in the database\n"
+  summary: Datatype of the field in the database
+  example: []
   syntax:
-    content: 'public sealed class FieldDataType : Enum'
-    content.vb: >-
-      Public NotInheritable Class FieldDataType
-          Inherits
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
 
-           Enum
-  inheritance:
-  - System.Object
+      public enum FieldDataType
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Enum FieldDataType
   extensionMethods:
   - SuperOffice.Data.FieldDataType.EnumUtil.MapEnums``2
   - SuperOffice.Data.FieldDataType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.FieldDataType.value__
-  commentId: F:SuperOffice.Data.FieldDataType.value__
-  id: value__
-  parent: SuperOffice.Data.FieldDataType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: FieldDataType.value__
-  fullName: SuperOffice.Data.FieldDataType.value__
-  type: Field
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.Data.FieldDataType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FieldDataType)
+  - SuperOffice.Data.FieldDataType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.Data.FieldDataType.Undefined
   commentId: F:SuperOffice.Data.FieldDataType.Undefined
   id: Undefined
@@ -96,24 +70,26 @@ items:
   nameWithType: FieldDataType.Undefined
   fullName: SuperOffice.Data.FieldDataType.Undefined
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n0: Undefined data type (error)\n"
+  summary: '0: Undefined data type (error)'
+  example: []
   syntax:
-    content: public const FieldDataType Undefined
+    content: >-
+      [EnumMember]
+
+      Undefined = 0
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const Undefined As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Undefined = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbShortId
   commentId: F:SuperOffice.Data.FieldDataType.dbShortId
   id: dbShortId
@@ -125,24 +101,26 @@ items:
   nameWithType: FieldDataType.dbShortId
   fullName: SuperOffice.Data.FieldDataType.dbShortId
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1: Short integer (e.g. System.Int16) id.\n"
+  summary: '1: Short integer (e.g. System.Int16) id.'
+  example: []
   syntax:
-    content: public const FieldDataType dbShortId
+    content: >-
+      [EnumMember]
+
+      dbShortId = 1
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbShortId As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbShortId = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbDateTimeUTC
   commentId: F:SuperOffice.Data.FieldDataType.dbDateTimeUTC
   id: dbDateTimeUTC
@@ -154,24 +132,26 @@ items:
   nameWithType: FieldDataType.dbDateTimeUTC
   fullName: SuperOffice.Data.FieldDataType.dbDateTimeUTC
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n2: DateTime ( e.g. seconds since 01.01.1970) in UTC stored as an integer value in the database.\n"
+  summary: '2: DateTime ( e.g. seconds since 01.01.1970) in UTC stored as an integer value in the database.'
+  example: []
   syntax:
-    content: public const FieldDataType dbDateTimeUTC
+    content: >-
+      [EnumMember]
+
+      dbDateTimeUTC = 2
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbDateTimeUTC As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbDateTimeUTC = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbDouble
   commentId: F:SuperOffice.Data.FieldDataType.dbDouble
   id: dbDouble
@@ -183,24 +163,26 @@ items:
   nameWithType: FieldDataType.dbDouble
   fullName: SuperOffice.Data.FieldDataType.dbDouble
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n3: Double precision real (e.g. System.Double) value.\n"
+  summary: '3: Double precision real (e.g. System.Double) value.'
+  example: []
   syntax:
-    content: public const FieldDataType dbDouble
+    content: >-
+      [EnumMember]
+
+      dbDouble = 3
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbDouble As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbDouble = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbInt
   commentId: F:SuperOffice.Data.FieldDataType.dbInt
   id: dbInt
@@ -212,24 +194,26 @@ items:
   nameWithType: FieldDataType.dbInt
   fullName: SuperOffice.Data.FieldDataType.dbInt
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n4: Integer (e.g. System.Int32) value.\n"
+  summary: '4: Integer (e.g. System.Int32) value.'
+  example: []
   syntax:
-    content: public const FieldDataType dbInt
+    content: >-
+      [EnumMember]
+
+      dbInt = 4
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbInt As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbInt = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbIntId
   commentId: F:SuperOffice.Data.FieldDataType.dbIntId
   id: dbIntId
@@ -241,24 +225,26 @@ items:
   nameWithType: FieldDataType.dbIntId
   fullName: SuperOffice.Data.FieldDataType.dbIntId
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n5: Integer (e.g. System.Int32) id.\n"
+  summary: '5: Integer (e.g. System.Int32) id.'
+  example: []
   syntax:
-    content: public const FieldDataType dbIntId
+    content: >-
+      [EnumMember]
+
+      dbIntId = 5
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbIntId As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbIntId = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbDateTimeLocal
   commentId: F:SuperOffice.Data.FieldDataType.dbDateTimeLocal
   id: dbDateTimeLocal
@@ -270,24 +256,26 @@ items:
   nameWithType: FieldDataType.dbDateTimeLocal
   fullName: SuperOffice.Data.FieldDataType.dbDateTimeLocal
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n6: DateTime ( e.g. seconds since 01.01.1970) in Local time stored as an integer value in the database.\n"
+  summary: '6: DateTime ( e.g. seconds since 01.01.1970) in Local time stored as an integer value in the database.'
+  example: []
   syntax:
-    content: public const FieldDataType dbDateTimeLocal
+    content: >-
+      [EnumMember]
+
+      dbDateTimeLocal = 6
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbDateTimeLocal As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbDateTimeLocal = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbUShort
   commentId: F:SuperOffice.Data.FieldDataType.dbUShort
   id: dbUShort
@@ -299,24 +287,26 @@ items:
   nameWithType: FieldDataType.dbUShort
   fullName: SuperOffice.Data.FieldDataType.dbUShort
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n7: Unsigned short integer (e.g. System.UInt16) value\n"
+  summary: '7: Unsigned short integer (e.g. System.UInt16) value'
+  example: []
   syntax:
-    content: public const FieldDataType dbUShort
+    content: >-
+      [EnumMember]
+
+      dbUShort = 7
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbUShort As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbUShort = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbShort
   commentId: F:SuperOffice.Data.FieldDataType.dbShort
   id: dbShort
@@ -328,24 +318,26 @@ items:
   nameWithType: FieldDataType.dbShort
   fullName: SuperOffice.Data.FieldDataType.dbShort
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n8: Short integer (e.g. System.Int16) value\n"
+  summary: '8: Short integer (e.g. System.Int16) value'
+  example: []
   syntax:
-    content: public const FieldDataType dbShort
+    content: >-
+      [EnumMember]
+
+      dbShort = 8
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbShort As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbShort = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbNull
   commentId: F:SuperOffice.Data.FieldDataType.dbNull
   id: dbNull
@@ -357,24 +349,26 @@ items:
   nameWithType: FieldDataType.dbNull
   fullName: SuperOffice.Data.FieldDataType.dbNull
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n9: This is not a value\n"
+  summary: '9: This is not a value'
+  example: []
   syntax:
-    content: public const FieldDataType dbNull
+    content: >-
+      [EnumMember]
+
+      dbNull = 9
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbNull As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbNull = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbUInt
   commentId: F:SuperOffice.Data.FieldDataType.dbUInt
   id: dbUInt
@@ -386,24 +380,26 @@ items:
   nameWithType: FieldDataType.dbUInt
   fullName: SuperOffice.Data.FieldDataType.dbUInt
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n10: Unsigned integer (e.g. System.UInt32) id\n"
+  summary: '10: Unsigned integer (e.g. System.UInt32) id'
+  example: []
   syntax:
-    content: public const FieldDataType dbUInt
+    content: >-
+      [EnumMember]
+
+      dbUInt = 10
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbUInt As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbUInt = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbBlob
   commentId: F:SuperOffice.Data.FieldDataType.dbBlob
   id: dbBlob
@@ -415,24 +411,26 @@ items:
   nameWithType: FieldDataType.dbBlob
   fullName: SuperOffice.Data.FieldDataType.dbBlob
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n11: Blob in hte database\n"
+  summary: '11: Blob in hte database'
+  example: []
   syntax:
-    content: public const FieldDataType dbBlob
+    content: >-
+      [EnumMember]
+
+      dbBlob = 11
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbBlob As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbBlob = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbStringBlob
   commentId: F:SuperOffice.Data.FieldDataType.dbStringBlob
   id: dbStringBlob
@@ -444,24 +442,26 @@ items:
   nameWithType: FieldDataType.dbStringBlob
   fullName: SuperOffice.Data.FieldDataType.dbStringBlob
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n12: Long string (e.g. System.String) stored as a (text) blob in the database\n"
+  summary: '12: Long string (e.g. System.String) stored as a (text) blob in the database'
+  example: []
   syntax:
-    content: public const FieldDataType dbStringBlob
+    content: >-
+      [EnumMember]
+
+      dbStringBlob = 12
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbStringBlob As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbStringBlob = 12
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbString
   commentId: F:SuperOffice.Data.FieldDataType.dbString
   id: dbString
@@ -473,24 +473,26 @@ items:
   nameWithType: FieldDataType.dbString
   fullName: SuperOffice.Data.FieldDataType.dbString
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n13: String (e.g. System.String) preferebly stored as a variable lenght string in the database.  The Length can be up to (e.g. not including) 256 characters long depending upon the datatype.\n"
+  summary: '13: String (e.g. System.String) preferebly stored as a variable lenght string in the database.  The Length can be up to (e.g. not including) 256 characters long depending upon the datatype.'
+  example: []
   syntax:
-    content: public const FieldDataType dbString
+    content: >-
+      [EnumMember]
+
+      dbString = 13
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbString As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbString = 13
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbExtendedDateTimeLocal
   commentId: F:SuperOffice.Data.FieldDataType.dbExtendedDateTimeLocal
   id: dbExtendedDateTimeLocal
@@ -502,24 +504,26 @@ items:
   nameWithType: FieldDataType.dbExtendedDateTimeLocal
   fullName: SuperOffice.Data.FieldDataType.dbExtendedDateTimeLocal
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n14: DateTime, stored as a real datetime in the database, with extended range. Local time zone\n"
+  summary: '14: DateTime, stored as a real datetime in the database, with extended range. Local time zone'
+  example: []
   syntax:
-    content: public const FieldDataType dbExtendedDateTimeLocal
+    content: >-
+      [EnumMember]
+
+      dbExtendedDateTimeLocal = 14
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbExtendedDateTimeLocal As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbExtendedDateTimeLocal = 14
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbExtendedDateTimeUTC
   commentId: F:SuperOffice.Data.FieldDataType.dbExtendedDateTimeUTC
   id: dbExtendedDateTimeUTC
@@ -531,24 +535,26 @@ items:
   nameWithType: FieldDataType.dbExtendedDateTimeUTC
   fullName: SuperOffice.Data.FieldDataType.dbExtendedDateTimeUTC
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n15: DateTime, stored as a real datetime in the database, with extended range. UTC  time\n"
+  summary: '15: DateTime, stored as a real datetime in the database, with extended range. UTC  time'
+  example: []
   syntax:
-    content: public const FieldDataType dbExtendedDateTimeUTC
+    content: >-
+      [EnumMember]
+
+      dbExtendedDateTimeUTC = 15
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbExtendedDateTimeUTC As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbExtendedDateTimeUTC = 15
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbTimeLocal
   commentId: F:SuperOffice.Data.FieldDataType.dbTimeLocal
   id: dbTimeLocal
@@ -560,24 +566,26 @@ items:
   nameWithType: FieldDataType.dbTimeLocal
   fullName: SuperOffice.Data.FieldDataType.dbTimeLocal
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n16: Time, stored as a datetime in the database, with date value that should be ignored. This time is not timezone converted/sensitive\n"
+  summary: '16: Time, stored as a datetime in the database, with date value that should be ignored. This time is not timezone converted/sensitive'
+  example: []
   syntax:
-    content: public const FieldDataType dbTimeLocal
+    content: >-
+      [EnumMember]
+
+      dbTimeLocal = 16
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbTimeLocal As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbTimeLocal = 16
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbDateLocal
   commentId: F:SuperOffice.Data.FieldDataType.dbDateLocal
   id: dbDateLocal
@@ -589,24 +597,26 @@ items:
   nameWithType: FieldDataType.dbDateLocal
   fullName: SuperOffice.Data.FieldDataType.dbDateLocal
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n17: Date, stored as a datetime in the database, with time value that should be ignored. This time is not timezone converted/sensitive\n"
+  summary: '17: Date, stored as a datetime in the database, with time value that should be ignored. This time is not timezone converted/sensitive'
+  example: []
   syntax:
-    content: public const FieldDataType dbDateLocal
+    content: >-
+      [EnumMember]
+
+      dbDateLocal = 17
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbDateLocal As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbDateLocal = 17
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.FieldDataType.dbIntIdArr
   commentId: F:SuperOffice.Data.FieldDataType.dbIntIdArr
   id: dbIntIdArr
@@ -618,115 +628,300 @@ items:
   nameWithType: FieldDataType.dbIntIdArr
   fullName: SuperOffice.Data.FieldDataType.dbIntIdArr
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n18: Array if int&apos;s that represent ID&apos;s (foreign keys). Stored encoded as a long string, with each int becoming a word that can be fulltext indexed\n"
+  summary: "18: Array if int's that represent ID's (foreign keys). Stored encoded as a long string, with each int becoming a word that can be fulltext indexed"
+  example: []
   syntax:
-    content: public const FieldDataType dbIntIdArr
+    content: >-
+      [EnumMember]
+
+      dbIntIdArr = 18
     return:
       type: SuperOffice.Data.FieldDataType
-    content.vb: Public Const dbIntIdArr As FieldDataType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      dbIntIdArr = 18
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.FieldDataType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<FieldDataType, To>()
-  nameWithType: EnumUtil.MapEnums<FieldDataType, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.FieldDataType, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of FieldDataType, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.FieldDataType, To)()
-  name.vb: MapEnums(Of FieldDataType, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<FieldDataType, To>(FieldDataType)
+  nameWithType: EnumUtil.MapEnums<FieldDataType, To>(FieldDataType)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.FieldDataType, To>(SuperOffice.Data.FieldDataType)
+  nameWithType.vb: EnumUtil.MapEnums(Of FieldDataType, To)(FieldDataType)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.FieldDataType, To)(SuperOffice.Data.FieldDataType)
+  name.vb: MapEnums(Of FieldDataType, To)(FieldDataType)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<FieldDataType, To>
-    nameWithType: EnumUtil.MapEnums<FieldDataType, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.FieldDataType, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.FieldDataType)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of FieldDataType, To)
-    nameWithType: EnumUtil.MapEnums(Of FieldDataType, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.FieldDataType, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.FieldDataType)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
+  - name: )
 - uid: SuperOffice.Data.FieldDataType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<FieldDataType, To>()
-  nameWithType: Converters.MapEnums<FieldDataType, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.FieldDataType, To>()
-  nameWithType.vb: Converters.MapEnums(Of FieldDataType, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.FieldDataType, To)()
-  name.vb: MapEnums(Of FieldDataType, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<FieldDataType, To>(FieldDataType)
+  nameWithType: Converters.MapEnums<FieldDataType, To>(FieldDataType)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.FieldDataType, To>(SuperOffice.Data.FieldDataType)
+  nameWithType.vb: Converters.MapEnums(Of FieldDataType, To)(FieldDataType)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.FieldDataType, To)(SuperOffice.Data.FieldDataType)
+  name.vb: MapEnums(Of FieldDataType, To)(FieldDataType)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<FieldDataType, To>
-    nameWithType: Converters.MapEnums<FieldDataType, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.FieldDataType, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.FieldDataType)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of FieldDataType, To)
-    nameWithType: Converters.MapEnums(Of FieldDataType, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.FieldDataType, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.FieldDataType)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
+  - name: )
+- uid: SuperOffice.Data.FieldDataType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FieldDataType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<FieldDataType>(FieldDataType, FieldDataType)
+  nameWithType: ObjectExtensions.AssignByReflection<FieldDataType>(FieldDataType, FieldDataType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.FieldDataType>(SuperOffice.Data.FieldDataType, SuperOffice.Data.FieldDataType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FieldDataType)(FieldDataType, FieldDataType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.FieldDataType)(SuperOffice.Data.FieldDataType, SuperOffice.Data.FieldDataType)
+  name.vb: AssignByReflection(Of FieldDataType)(FieldDataType, FieldDataType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FieldDataType,SuperOffice.Data.FieldDataType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FieldDataType,SuperOffice.Data.FieldDataType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
+  - name: )
+- uid: SuperOffice.Data.FieldDataType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<FieldDataType>(FieldDataType)
+  nameWithType: ObjectExtensions.GraphCopy<FieldDataType>(FieldDataType)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.FieldDataType>(SuperOffice.Data.FieldDataType)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FieldDataType)(FieldDataType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.FieldDataType)(SuperOffice.Data.FieldDataType)
+  name.vb: GraphCopy(Of FieldDataType)(FieldDataType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.FieldDataType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.FieldDataType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+    href: SuperOffice.Data.FieldDataType.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -735,43 +930,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -780,58 +977,222 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.FieldDataType
   commentId: T:SuperOffice.Data.FieldDataType
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.FieldDataType.html
   name: FieldDataType
   nameWithType: FieldDataType
   fullName: SuperOffice.Data.FieldDataType

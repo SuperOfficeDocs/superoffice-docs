@@ -21,24 +21,28 @@ references:
 - uid: SuperOffice.Diagnostics.Logging.ILoggerProviderPluginAttribute
   commentId: T:SuperOffice.Diagnostics.Logging.ILoggerProviderPluginAttribute
   isExternal: true
+  href: SuperOffice.Diagnostics.Logging.ILoggerProviderPluginAttribute.html
   name: ILoggerProviderPluginAttribute
   nameWithType: ILoggerProviderPluginAttribute
   fullName: SuperOffice.Diagnostics.Logging.ILoggerProviderPluginAttribute
 - uid: SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin
   commentId: T:SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin
   isExternal: true
+  href: SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin.html
   name: ILoggerProviderPlugin
   nameWithType: ILoggerProviderPlugin
   fullName: SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin
 - uid: SuperOffice.Diagnostics.Logging.SoMetricsPluginAttribute
   commentId: T:SuperOffice.Diagnostics.Logging.SoMetricsPluginAttribute
   isExternal: true
+  href: SuperOffice.Diagnostics.Logging.SoMetricsPluginAttribute.html
   name: SoMetricsPluginAttribute
   nameWithType: SoMetricsPluginAttribute
   fullName: SuperOffice.Diagnostics.Logging.SoMetricsPluginAttribute
 - uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
   commentId: T:SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
   isExternal: true
+  href: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.html
   name: ISoMetricsPlugin
   nameWithType: ISoMetricsPlugin
   fullName: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin

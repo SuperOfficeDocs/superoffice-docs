@@ -25,31 +25,40 @@ items:
   nameWithType: ErpSyncDefaultValue
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nContains default value information for one ERP field\n<p></p>\nCarrier object for ErpSyncDefaultValue.\nServices for the ErpSyncDefaultValue Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IErpSyncAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Contains default value information for one ERP field
+
+    <p></p>
+
+    Carrier object for ErpSyncDefaultValue.
+
+    Services for the ErpSyncDefaultValue Carrier is available from the <xref href="SuperOffice.CRM.Services.IErpSyncAgent?text=ErpSync+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class ErpSyncDefaultValue : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class ErpSyncDefaultValue : Carrier
     content.vb: >-
-      Public Class ErpSyncDefaultValue
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class ErpSyncDefaultValue Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.ErpSyncAgent
-    commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
   - linkId: SuperOffice.CRM.Services.IErpSyncAgent
     commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.#ctor
   commentId: M:SuperOffice.CRM.Services.ErpSyncDefaultValue.#ctor
   id: '#ctor'
@@ -61,21 +70,18 @@ items:
   nameWithType: ErpSyncDefaultValue.ErpSyncDefaultValue()
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.ErpSyncDefaultValue()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public ErpSyncDefaultValue()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.ErpSyncDefaultValue.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ErpSyncDefaultValue.New()
+  fullName.vb: SuperOffice.CRM.Services.ErpSyncDefaultValue.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.ToString
   commentId: M:SuperOffice.CRM.Services.ErpSyncDefaultValue.ToString
   id: ToString
@@ -87,26 +93,18 @@ items:
   nameWithType: ErpSyncDefaultValue.ToString()
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.ErpSyncDefaultValue.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ErpSyncDefaultValue.ToString(System.String)
   id: ToString(System.String)
@@ -114,17 +112,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: ErpSyncDefaultValue.ToString(String)
-  fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.ToString(System.String)
+  name: ToString(string)
+  nameWithType: ErpSyncDefaultValue.ToString(string)
+  fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -136,10 +135,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ErpSyncDefaultValue.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ErpSyncDefaultValue.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.ErpSyncDefaultValue.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.ErpFieldId
   commentId: P:SuperOffice.CRM.Services.ErpSyncDefaultValue.ErpFieldId
   id: ErpFieldId
@@ -151,28 +149,28 @@ items:
   nameWithType: ErpSyncDefaultValue.ErpFieldId
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.ErpFieldId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int ErpFieldId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int ErpFieldId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property ErpFieldId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ErpFieldId As Integer
   overload: SuperOffice.CRM.Services.ErpSyncDefaultValue.ErpFieldId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.DefaultValue
   commentId: P:SuperOffice.CRM.Services.ErpSyncDefaultValue.DefaultValue
   id: DefaultValue
@@ -184,28 +182,28 @@ items:
   nameWithType: ErpSyncDefaultValue.DefaultValue
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.DefaultValue
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault value, stored using CultureDataFormatter format if it is not a string \n"
+  summary: Default value, stored using CultureDataFormatter format if it is not a string
+  example: []
   syntax:
-    content: public virtual string DefaultValue { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string DefaultValue { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property DefaultValue As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DefaultValue As String
   overload: SuperOffice.CRM.Services.ErpSyncDefaultValue.DefaultValue*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.HasFirstSyncDefaultValue
   commentId: P:SuperOffice.CRM.Services.ErpSyncDefaultValue.HasFirstSyncDefaultValue
   id: HasFirstSyncDefaultValue
@@ -217,28 +215,28 @@ items:
   nameWithType: ErpSyncDefaultValue.HasFirstSyncDefaultValue
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.HasFirstSyncDefaultValue
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nShould a default value be set on first sync \n"
+  summary: Should a default value be set on first sync
+  example: []
   syntax:
-    content: public virtual bool HasFirstSyncDefaultValue { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool HasFirstSyncDefaultValue { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property HasFirstSyncDefaultValue As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property HasFirstSyncDefaultValue As Boolean
   overload: SuperOffice.CRM.Services.ErpSyncDefaultValue.HasFirstSyncDefaultValue*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.FirstSyncDefaultValue
   commentId: P:SuperOffice.CRM.Services.ErpSyncDefaultValue.FirstSyncDefaultValue
   id: FirstSyncDefaultValue
@@ -250,28 +248,28 @@ items:
   nameWithType: ErpSyncDefaultValue.FirstSyncDefaultValue
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.FirstSyncDefaultValue
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe default value to be set, can be blank \n"
+  summary: The default value to be set, can be blank
+  example: []
   syntax:
-    content: public virtual string FirstSyncDefaultValue { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string FirstSyncDefaultValue { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property FirstSyncDefaultValue As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FirstSyncDefaultValue As String
   overload: SuperOffice.CRM.Services.ErpSyncDefaultValue.FirstSyncDefaultValue*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.PromptUser
   commentId: P:SuperOffice.CRM.Services.ErpSyncDefaultValue.PromptUser
   id: PromptUser
@@ -283,28 +281,28 @@ items:
   nameWithType: ErpSyncDefaultValue.PromptUser
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.PromptUser
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nShould the field be shown in the first-sync GUI; independent of whether a default value should be set \n"
+  summary: Should the field be shown in the first-sync GUI; independent of whether a default value should be set
+  example: []
   syntax:
-    content: public virtual bool PromptUser { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool PromptUser { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property PromptUser As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PromptUser As Boolean
   overload: SuperOffice.CRM.Services.ErpSyncDefaultValue.PromptUser*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.Mandatory
   commentId: P:SuperOffice.CRM.Services.ErpSyncDefaultValue.Mandatory
   id: Mandatory
@@ -316,28 +314,28 @@ items:
   nameWithType: ErpSyncDefaultValue.Mandatory
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.Mandatory
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nShould the user be forced to set a value (the Erp Connector may declare fields mandatory as well) \n"
+  summary: Should the user be forced to set a value (the Erp Connector may declare fields mandatory as well)
+  example: []
   syntax:
-    content: public virtual bool Mandatory { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool Mandatory { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property Mandatory As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Mandatory As Boolean
   overload: SuperOffice.CRM.Services.ErpSyncDefaultValue.Mandatory*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.ErpFieldKey
   commentId: P:SuperOffice.CRM.Services.ErpSyncDefaultValue.ErpFieldKey
   id: ErpFieldKey
@@ -349,28 +347,28 @@ items:
   nameWithType: ErpSyncDefaultValue.ErpFieldKey
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.ErpFieldKey
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe ERP field key \n"
+  summary: The ERP field key
+  example: []
   syntax:
-    content: public virtual string ErpFieldKey { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ErpFieldKey { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ErpFieldKey As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ErpFieldKey As String
   overload: SuperOffice.CRM.Services.ErpSyncDefaultValue.ErpFieldKey*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.FieldType
   commentId: P:SuperOffice.CRM.Services.ErpSyncDefaultValue.FieldType
   id: FieldType
@@ -382,28 +380,28 @@ items:
   nameWithType: ErpSyncDefaultValue.FieldType
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.FieldType
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nField type \n"
+  summary: Field type
+  example: []
   syntax:
-    content: public virtual FieldMetadataType FieldType { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual FieldMetadataType FieldType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.FieldMetadataType
-    content.vb: Public Overridable Property FieldType As FieldMetadataType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FieldType As FieldMetadataType
   overload: SuperOffice.CRM.Services.ErpSyncDefaultValue.FieldType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.ListName
   commentId: P:SuperOffice.CRM.Services.ErpSyncDefaultValue.ListName
   id: ListName
@@ -415,28 +413,28 @@ items:
   nameWithType: ErpSyncDefaultValue.ListName
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.ListName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe ERP list name, if the field has a list of values supplied by the ERP Connector \n"
+  summary: The ERP list name, if the field has a list of values supplied by the ERP Connector
+  example: []
   syntax:
-    content: public virtual string ListName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ListName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ListName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ListName As String
   overload: SuperOffice.CRM.Services.ErpSyncDefaultValue.ListName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.Access
   commentId: P:SuperOffice.CRM.Services.ErpSyncDefaultValue.Access
   id: Access
@@ -448,57 +446,106 @@ items:
   nameWithType: ErpSyncDefaultValue.Access
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.Access
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAccess restrictions for the field \n"
+  summary: Access restrictions for the field
+  example: []
   syntax:
-    content: public virtual FieldAccess Access { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual FieldAccess Access { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.FieldAccess
-    content.vb: Public Overridable Property Access As FieldAccess
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Access As FieldAccess
   overload: SuperOffice.CRM.Services.ErpSyncDefaultValue.Access*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ErpSyncAgent
-  commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
-  isExternal: true
-  name: ErpSyncAgent
-  nameWithType: ErpSyncAgent
-  fullName: SuperOffice.CRM.Services.ErpSyncAgent
 - uid: SuperOffice.CRM.Services.IErpSyncAgent
   commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IErpSyncAgent.html
   name: IErpSyncAgent
   nameWithType: IErpSyncAgent
   fullName: SuperOffice.CRM.Services.IErpSyncAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncDefaultValue.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncDefaultValue.html#SuperOffice_CRM_Services_ErpSyncDefaultValue__ctor
   name: ErpSyncDefaultValue
   nameWithType: ErpSyncDefaultValue.ErpSyncDefaultValue
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.ErpSyncDefaultValue
+  nameWithType.vb: ErpSyncDefaultValue.New
+  fullName.vb: SuperOffice.CRM.Services.ErpSyncDefaultValue.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncDefaultValue.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncDefaultValue.html#SuperOffice_CRM_Services_ErpSyncDefaultValue_ToString
   name: ToString
   nameWithType: ErpSyncDefaultValue.ToString
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.ToString
@@ -506,18 +553,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.ErpFieldId*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncDefaultValue.ErpFieldId
   isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncDefaultValue.html#SuperOffice_CRM_Services_ErpSyncDefaultValue_ErpFieldId
   name: ErpFieldId
   nameWithType: ErpSyncDefaultValue.ErpFieldId
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.ErpFieldId
@@ -525,18 +571,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.DefaultValue*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncDefaultValue.DefaultValue
   isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncDefaultValue.html#SuperOffice_CRM_Services_ErpSyncDefaultValue_DefaultValue
   name: DefaultValue
   nameWithType: ErpSyncDefaultValue.DefaultValue
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.DefaultValue
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.HasFirstSyncDefaultValue*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncDefaultValue.HasFirstSyncDefaultValue
   isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncDefaultValue.html#SuperOffice_CRM_Services_ErpSyncDefaultValue_HasFirstSyncDefaultValue
   name: HasFirstSyncDefaultValue
   nameWithType: ErpSyncDefaultValue.HasFirstSyncDefaultValue
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.HasFirstSyncDefaultValue
@@ -544,36 +596,45 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.FirstSyncDefaultValue*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncDefaultValue.FirstSyncDefaultValue
   isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncDefaultValue.html#SuperOffice_CRM_Services_ErpSyncDefaultValue_FirstSyncDefaultValue
   name: FirstSyncDefaultValue
   nameWithType: ErpSyncDefaultValue.FirstSyncDefaultValue
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.FirstSyncDefaultValue
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.PromptUser*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncDefaultValue.PromptUser
   isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncDefaultValue.html#SuperOffice_CRM_Services_ErpSyncDefaultValue_PromptUser
   name: PromptUser
   nameWithType: ErpSyncDefaultValue.PromptUser
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.PromptUser
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.Mandatory*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncDefaultValue.Mandatory
   isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncDefaultValue.html#SuperOffice_CRM_Services_ErpSyncDefaultValue_Mandatory
   name: Mandatory
   nameWithType: ErpSyncDefaultValue.Mandatory
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.Mandatory
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.ErpFieldKey*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncDefaultValue.ErpFieldKey
   isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncDefaultValue.html#SuperOffice_CRM_Services_ErpSyncDefaultValue_ErpFieldKey
   name: ErpFieldKey
   nameWithType: ErpSyncDefaultValue.ErpFieldKey
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.ErpFieldKey
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.FieldType*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncDefaultValue.FieldType
   isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncDefaultValue.html#SuperOffice_CRM_Services_ErpSyncDefaultValue_FieldType
   name: FieldType
   nameWithType: ErpSyncDefaultValue.FieldType
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.FieldType
@@ -585,12 +646,14 @@ references:
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.ListName*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncDefaultValue.ListName
   isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncDefaultValue.html#SuperOffice_CRM_Services_ErpSyncDefaultValue_ListName
   name: ListName
   nameWithType: ErpSyncDefaultValue.ListName
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.ListName
 - uid: SuperOffice.CRM.Services.ErpSyncDefaultValue.Access*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncDefaultValue.Access
   isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncDefaultValue.html#SuperOffice_CRM_Services_ErpSyncDefaultValue_Access
   name: Access
   nameWithType: ErpSyncDefaultValue.Access
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue.Access

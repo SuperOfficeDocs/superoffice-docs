@@ -11,64 +11,21 @@ items:
   - SuperOffice.WebApi.Data.UserType.ResourceAssociate
   - SuperOffice.WebApi.Data.UserType.SystemAssociate
   - SuperOffice.WebApi.Data.UserType.Unknown
-  - SuperOffice.WebApi.Data.UserType.value__
   langs:
   - csharp
   - vb
   name: UserType
   nameWithType: UserType
   fullName: SuperOffice.WebApi.Data.UserType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nType of user (or resource). Mapps functionally to associate type - but with different binary values.\n"
+  summary: Type of user (or resource). Mapps functionally to associate type - but with different binary values.
+  example: []
   syntax:
-    content: 'public sealed class UserType : Enum'
-    content.vb: >-
-      Public NotInheritable Class UserType
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.UserType.value__
-  commentId: F:SuperOffice.WebApi.Data.UserType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.UserType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: UserType.value__
-  fullName: SuperOffice.WebApi.Data.UserType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum UserType
+    content.vb: Public Enum UserType
 - uid: SuperOffice.WebApi.Data.UserType.Unknown
   commentId: F:SuperOffice.WebApi.Data.UserType.Unknown
   id: Unknown
@@ -80,24 +37,26 @@ items:
   nameWithType: UserType.Unknown
   fullName: SuperOffice.WebApi.Data.UserType.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: \n"
+  summary: '0:'
+  example: []
   syntax:
-    content: public const UserType Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.UserType
-    content.vb: Public Const Unknown As UserType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UserType.InternalAssociate
   commentId: F:SuperOffice.WebApi.Data.UserType.InternalAssociate
   id: InternalAssociate
@@ -109,24 +68,26 @@ items:
   nameWithType: UserType.InternalAssociate
   fullName: SuperOffice.WebApi.Data.UserType.InternalAssociate
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Employee\n"
+  summary: '1: Employee'
+  example: []
   syntax:
-    content: public const UserType InternalAssociate
+    content: >-
+      [EnumMember]
+
+      InternalAssociate = 1
     return:
       type: SuperOffice.WebApi.Data.UserType
-    content.vb: Public Const InternalAssociate As UserType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      InternalAssociate = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UserType.ResourceAssociate
   commentId: F:SuperOffice.WebApi.Data.UserType.ResourceAssociate
   id: ResourceAssociate
@@ -138,24 +99,26 @@ items:
   nameWithType: UserType.ResourceAssociate
   fullName: SuperOffice.WebApi.Data.UserType.ResourceAssociate
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Resource - meeting room, projector or other bookable resource\n"
+  summary: '2: Resource - meeting room, projector or other bookable resource'
+  example: []
   syntax:
-    content: public const UserType ResourceAssociate
+    content: >-
+      [EnumMember]
+
+      ResourceAssociate = 2
     return:
       type: SuperOffice.WebApi.Data.UserType
-    content.vb: Public Const ResourceAssociate As UserType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ResourceAssociate = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UserType.ExternalAssociate
   commentId: F:SuperOffice.WebApi.Data.UserType.ExternalAssociate
   id: ExternalAssociate
@@ -167,24 +130,26 @@ items:
   nameWithType: UserType.ExternalAssociate
   fullName: SuperOffice.WebApi.Data.UserType.ExternalAssociate
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: External person\n"
+  summary: '3: External person'
+  example: []
   syntax:
-    content: public const UserType ExternalAssociate
+    content: >-
+      [EnumMember]
+
+      ExternalAssociate = 3
     return:
       type: SuperOffice.WebApi.Data.UserType
-    content.vb: Public Const ExternalAssociate As UserType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ExternalAssociate = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UserType.AnonymousAssociate
   commentId: F:SuperOffice.WebApi.Data.UserType.AnonymousAssociate
   id: AnonymousAssociate
@@ -196,24 +161,26 @@ items:
   nameWithType: UserType.AnonymousAssociate
   fullName: SuperOffice.WebApi.Data.UserType.AnonymousAssociate
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Anonymous user - used by applications that does not require logins\n"
+  summary: '4: Anonymous user - used by applications that does not require logins'
+  example: []
   syntax:
-    content: public const UserType AnonymousAssociate
+    content: >-
+      [EnumMember]
+
+      AnonymousAssociate = 4
     return:
       type: SuperOffice.WebApi.Data.UserType
-    content.vb: Public Const AnonymousAssociate As UserType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AnonymousAssociate = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UserType.SystemAssociate
   commentId: F:SuperOffice.WebApi.Data.UserType.SystemAssociate
   id: SystemAssociate
@@ -225,55 +192,69 @@ items:
   nameWithType: UserType.SystemAssociate
   fullName: SuperOffice.WebApi.Data.UserType.SystemAssociate
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: System user - mainly used for integrations or administration.  This user is not goverened sentry\n"
+  summary: '5: System user - mainly used for integrations or administration.  This user is not goverened sentry'
+  example: []
   syntax:
-    content: public const UserType SystemAssociate
+    content: >-
+      [EnumMember]
+
+      SystemAssociate = 5
     return:
       type: SuperOffice.WebApi.Data.UserType
-    content.vb: Public Const SystemAssociate As UserType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SystemAssociate = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.UserType
   commentId: T:SuperOffice.WebApi.Data.UserType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.UserType.html
   name: UserType
   nameWithType: UserType
   fullName: SuperOffice.WebApi.Data.UserType

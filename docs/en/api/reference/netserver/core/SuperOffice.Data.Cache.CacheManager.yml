@@ -5,11 +5,24 @@ items:
   id: CacheManager
   parent: SuperOffice.Data.Cache
   children:
-  - SuperOffice.Data.Cache.CacheManager.Dispose
-  - SuperOffice.Data.Cache.CacheManager.Get(System.Type)
-  - SuperOffice.Data.Cache.CacheManager.Get``1
+  - SuperOffice.Data.Cache.CacheManager.#ctor(SuperOffice.Factory.DatabaseInstanceContainer,Microsoft.Extensions.Options.IOptions{SuperOffice.Configuration.ConfigFile.OnlineConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheManager})
+  - SuperOffice.Data.Cache.CacheManager.AddAutoDisableTables(System.String[])
+  - SuperOffice.Data.Cache.CacheManager.CacheCheckTimer
+  - SuperOffice.Data.Cache.CacheManager.Flush(SuperOffice.Data.Cache.CacheBaseV2[])
+  - SuperOffice.Data.Cache.CacheManager.Flush``1
+  - SuperOffice.Data.Cache.CacheManager.ForceRefreshTimer
+  - SuperOffice.Data.Cache.CacheManager.GetAllCacheNames
+  - SuperOffice.Data.Cache.CacheManager.GetAllCachesByTableNames
   - SuperOffice.Data.Cache.CacheManager.GetAllCachesInContext
+  - SuperOffice.Data.Cache.CacheManager.GetOrCreateAsync``1(System.Threading.CancellationToken)
+  - SuperOffice.Data.Cache.CacheManager.GetOrCreate``1
+  - SuperOffice.Data.Cache.CacheManager.InstanceDispose
   - SuperOffice.Data.Cache.CacheManager.IsAutoUpdateDisabled(System.String)
+  - SuperOffice.Data.Cache.CacheManager.RegisterAsync(SuperOffice.Data.Cache.CacheBaseV2,System.Threading.CancellationToken)
+  - SuperOffice.Data.Cache.CacheManager.RegisterAsync(System.String[],System.Threading.CancellationToken)
+  - SuperOffice.Data.Cache.CacheManager.RegisterCacheInvalidationAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.Data.Cache.CacheManager.RemoveAutoDisableTablesAsync(System.String[],System.Threading.CancellationToken)
+  - SuperOffice.Data.Cache.CacheManager.Unregister(SuperOffice.Data.Cache.CacheBaseV2)
   langs:
   - csharp
   - vb
@@ -17,138 +30,124 @@ items:
   nameWithType: CacheManager
   fullName: SuperOffice.Data.Cache.CacheManager
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data.Cache
-  summary: "\nUtility class for dealing with caches.\n"
+  summary: Utility class for dealing with caches.
+  example: []
   syntax:
-    content: >-
-      [SoInject("Database")]
-
-      public class CacheManager : Object, IDisposable
-    content.vb: >-
-      <SoInject("Database")>
-
-      Public Class CacheManager
-          Inherits Object
-          Implements IDisposable
+    content: 'public class CacheManager : ICacheManager'
+    content.vb: Public Class CacheManager Implements ICacheManager
   inheritance:
   - System.Object
   implements:
-  - System.IDisposable
+  - SuperOffice.Data.Cache.ICacheManager
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.Cache.CacheManager.EnumUtil.MapEnums``2
   - SuperOffice.Data.Cache.CacheManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: SuperOffice.Factory.SoInjectAttribute
-    ctor: SuperOffice.Factory.SoInjectAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Database
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.Data.Cache.CacheManager.Dispose
-  commentId: M:SuperOffice.Data.Cache.CacheManager.Dispose
-  id: Dispose
+- uid: SuperOffice.Data.Cache.CacheManager.#ctor(SuperOffice.Factory.DatabaseInstanceContainer,Microsoft.Extensions.Options.IOptions{SuperOffice.Configuration.ConfigFile.OnlineConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheManager})
+  commentId: M:SuperOffice.Data.Cache.CacheManager.#ctor(SuperOffice.Factory.DatabaseInstanceContainer,Microsoft.Extensions.Options.IOptions{SuperOffice.Configuration.ConfigFile.OnlineConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheManager})
+  id: '#ctor(SuperOffice.Factory.DatabaseInstanceContainer,Microsoft.Extensions.Options.IOptions{SuperOffice.Configuration.ConfigFile.OnlineConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheManager})'
   parent: SuperOffice.Data.Cache.CacheManager
   langs:
   - csharp
   - vb
-  name: Dispose()
-  nameWithType: CacheManager.Dispose()
-  fullName: SuperOffice.Data.Cache.CacheManager.Dispose()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
+  name: CacheManager(DatabaseInstanceContainer, IOptions<OnlineConfiguration>, ILogger<CacheManager>)
+  nameWithType: CacheManager.CacheManager(DatabaseInstanceContainer, IOptions<ConfigFile.OnlineConfiguration>, ILogger<CacheManager>)
+  fullName: SuperOffice.Data.Cache.CacheManager.CacheManager(SuperOffice.Factory.DatabaseInstanceContainer, Microsoft.Extensions.Options.IOptions<SuperOffice.Configuration.ConfigFile.OnlineConfiguration>, Microsoft.Extensions.Logging.ILogger<SuperOffice.Data.Cache.CacheManager>)
+  type: Constructor
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data.Cache
   syntax:
-    content: public void Dispose()
-    content.vb: Public Sub Dispose
-  overload: SuperOffice.Data.Cache.CacheManager.Dispose*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.Data.Cache.CacheManager.Get(System.Type)
-  commentId: M:SuperOffice.Data.Cache.CacheManager.Get(System.Type)
-  id: Get(System.Type)
-  parent: SuperOffice.Data.Cache.CacheManager
-  langs:
-  - csharp
-  - vb
-  name: Get(Type)
-  nameWithType: CacheManager.Get(Type)
-  fullName: SuperOffice.Data.Cache.CacheManager.Get(System.Type)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data.Cache
-  summary: "\nGet a cache given its&apos; type.\n"
-  syntax:
-    content: public CacheBaseV2 Get(Type cacheType)
+    content: public CacheManager(DatabaseInstanceContainer cacheContainer, IOptions<ConfigFile.OnlineConfiguration> onlineConfiguration, ILogger<CacheManager> logger)
     parameters:
-    - id: cacheType
-      type: System.Type
-      description: Type of the cache
-    return:
-      type: SuperOffice.Data.Cache.CacheBaseV2
-      description: Instance of the given cache
-    content.vb: Public Function Get(cacheType As Type) As CacheBaseV2
-  overload: SuperOffice.Data.Cache.CacheManager.Get*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.Data.Cache.CacheManager.Get``1
-  commentId: M:SuperOffice.Data.Cache.CacheManager.Get``1
-  id: Get``1
+    - id: cacheContainer
+      type: SuperOffice.Factory.DatabaseInstanceContainer
+    - id: onlineConfiguration
+      type: Microsoft.Extensions.Options.IOptions{SuperOffice.Configuration.ConfigFile.OnlineConfiguration}
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheManager}
+    content.vb: Public Sub New(cacheContainer As DatabaseInstanceContainer, onlineConfiguration As IOptions(Of ConfigFile.OnlineConfiguration), logger As ILogger(Of CacheManager))
+  overload: SuperOffice.Data.Cache.CacheManager.#ctor*
+  nameWithType.vb: CacheManager.New(DatabaseInstanceContainer, IOptions(Of ConfigFile.OnlineConfiguration), ILogger(Of CacheManager))
+  fullName.vb: SuperOffice.Data.Cache.CacheManager.New(SuperOffice.Factory.DatabaseInstanceContainer, Microsoft.Extensions.Options.IOptions(Of SuperOffice.Configuration.ConfigFile.OnlineConfiguration), Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Data.Cache.CacheManager))
+  name.vb: New(DatabaseInstanceContainer, IOptions(Of OnlineConfiguration), ILogger(Of CacheManager))
+- uid: SuperOffice.Data.Cache.CacheManager.InstanceDispose
+  commentId: M:SuperOffice.Data.Cache.CacheManager.InstanceDispose
+  id: InstanceDispose
   parent: SuperOffice.Data.Cache.CacheManager
   langs:
   - csharp
   - vb
-  name: Get<T>()
-  nameWithType: CacheManager.Get<T>()
-  fullName: SuperOffice.Data.Cache.CacheManager.Get<T>()
+  name: InstanceDispose()
+  nameWithType: CacheManager.InstanceDispose()
+  fullName: SuperOffice.Data.Cache.CacheManager.InstanceDispose()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data.Cache
-  summary: "\nGet a cache given its type.\n"
+  example: []
+  syntax:
+    content: public void InstanceDispose()
+    content.vb: Public Sub InstanceDispose()
+  overload: SuperOffice.Data.Cache.CacheManager.InstanceDispose*
+- uid: SuperOffice.Data.Cache.CacheManager.GetOrCreateAsync``1(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheManager.GetOrCreateAsync``1(System.Threading.CancellationToken)
+  id: GetOrCreateAsync``1(System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Cache.CacheManager
+  langs:
+  - csharp
+  - vb
+  name: GetOrCreateAsync<T>(CancellationToken)
+  nameWithType: CacheManager.GetOrCreateAsync<T>(CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheManager.GetOrCreateAsync<T>(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Cache
+  summary: Get a cache given its' type, or create it if a instance is not found.
+  example: []
   syntax:
     content: >-
-      public T Get<T>()
-          where T : CacheBaseV2
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public ValueTask<T> GetOrCreateAsync<T>(CancellationToken cancellationToken = default) where T : CacheBaseV2
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     typeParameters:
     - id: T
       description: Type of the cache
     return:
-      type: '{T}'
+      type: System.Threading.Tasks.ValueTask{{T}}
       description: Instance of the given cache
-    content.vb: Public Function Get(Of T As CacheBaseV2) As T
-  overload: SuperOffice.Data.Cache.CacheManager.Get*
-  nameWithType.vb: CacheManager.Get(Of T)()
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Data.Cache.CacheManager.Get(Of T)()
-  name.vb: Get(Of T)()
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function GetOrCreateAsync(Of T As CacheBaseV2)(cancellationToken As CancellationToken = Nothing) As ValueTask(Of T)
+  overload: SuperOffice.Data.Cache.CacheManager.GetOrCreateAsync*
+  implements:
+  - SuperOffice.Data.Cache.ICacheManager.GetOrCreateAsync``1(System.Threading.CancellationToken)
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: CacheManager.GetOrCreateAsync(Of T)(CancellationToken)
+  fullName.vb: SuperOffice.Data.Cache.CacheManager.GetOrCreateAsync(Of T)(System.Threading.CancellationToken)
+  name.vb: GetOrCreateAsync(Of T)(CancellationToken)
 - uid: SuperOffice.Data.Cache.CacheManager.GetAllCachesInContext
   commentId: M:SuperOffice.Data.Cache.CacheManager.GetAllCachesInContext
   id: GetAllCachesInContext
@@ -160,22 +159,313 @@ items:
   nameWithType: CacheManager.GetAllCachesInContext()
   fullName: SuperOffice.Data.Cache.CacheManager.GetAllCachesInContext()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data.Cache
+  example: []
   syntax:
-    content: public IEnumerable<IFlushableV2> GetAllCachesInContext()
+    content: public IEnumerable<CacheBaseV2> GetAllCachesInContext()
     return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.Cache.IFlushableV2}
-    content.vb: Public Function GetAllCachesInContext As IEnumerable(Of IFlushableV2)
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.Cache.CacheBaseV2}
+    content.vb: Public Function GetAllCachesInContext() As IEnumerable(Of CacheBaseV2)
   overload: SuperOffice.Data.Cache.CacheManager.GetAllCachesInContext*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  implements:
+  - SuperOffice.Data.Cache.ICacheManager.GetAllCachesInContext
+- uid: SuperOffice.Data.Cache.CacheManager.GetAllCacheNames
+  commentId: M:SuperOffice.Data.Cache.CacheManager.GetAllCacheNames
+  id: GetAllCacheNames
+  parent: SuperOffice.Data.Cache.CacheManager
+  langs:
+  - csharp
+  - vb
+  name: GetAllCacheNames()
+  nameWithType: CacheManager.GetAllCacheNames()
+  fullName: SuperOffice.Data.Cache.CacheManager.GetAllCacheNames()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Cache
+  summary: Returns names of all caches, not just the tables
+  example: []
+  syntax:
+    content: public IEnumerable<string> GetAllCacheNames()
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: ''
+    content.vb: Public Function GetAllCacheNames() As IEnumerable(Of String)
+  overload: SuperOffice.Data.Cache.CacheManager.GetAllCacheNames*
+- uid: SuperOffice.Data.Cache.CacheManager.RegisterAsync(SuperOffice.Data.Cache.CacheBaseV2,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheManager.RegisterAsync(SuperOffice.Data.Cache.CacheBaseV2,System.Threading.CancellationToken)
+  id: RegisterAsync(SuperOffice.Data.Cache.CacheBaseV2,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Cache.CacheManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterAsync(CacheBaseV2, CancellationToken)
+  nameWithType: CacheManager.RegisterAsync(CacheBaseV2, CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheManager.RegisterAsync(SuperOffice.Data.Cache.CacheBaseV2, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Cache
+  summary: Register a cache within the caching system.  This is typically called by the <xref href="SuperOffice.Data.Cache.CacheBaseV2" data-throw-if-not-resolved="false"></xref> cache base class.
+  remarks: >-
+    An intended side effect is to get the primary key of the corresponding row in the CacheInvalidation table.
+
+    Missing rows are not a problem; they will cause the row to be inserted the first time we want to
+
+    <b>register</b> an invalidation (due to a SoftTrigger notification)
+  example: []
+  syntax:
+    content: public Task RegisterAsync(CacheBaseV2 cache, CancellationToken cancellationToken = default)
+    parameters:
+    - id: cache
+      type: SuperOffice.Data.Cache.CacheBaseV2
+      description: Cache to register.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function RegisterAsync(cache As CacheBaseV2, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.Cache.CacheManager.RegisterAsync*
+- uid: SuperOffice.Data.Cache.CacheManager.RegisterAsync(System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheManager.RegisterAsync(System.String[],System.Threading.CancellationToken)
+  id: RegisterAsync(System.String[],System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Cache.CacheManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterAsync(string[], CancellationToken)
+  nameWithType: CacheManager.RegisterAsync(string[], CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheManager.RegisterAsync(string[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Cache
+  example: []
+  syntax:
+    content: public Task RegisterAsync(string[] cachedTables, CancellationToken cancellationToken = default)
+    parameters:
+    - id: cachedTables
+      type: System.String[]
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function RegisterAsync(cachedTables As String(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.Cache.CacheManager.RegisterAsync*
+  nameWithType.vb: CacheManager.RegisterAsync(String(), CancellationToken)
+  fullName.vb: SuperOffice.Data.Cache.CacheManager.RegisterAsync(String(), System.Threading.CancellationToken)
+  name.vb: RegisterAsync(String(), CancellationToken)
+- uid: SuperOffice.Data.Cache.CacheManager.RegisterCacheInvalidationAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheManager.RegisterCacheInvalidationAsync(System.String,System.Threading.CancellationToken)
+  id: RegisterCacheInvalidationAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Cache.CacheManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterCacheInvalidationAsync(string, CancellationToken)
+  nameWithType: CacheManager.RegisterCacheInvalidationAsync(string, CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheManager.RegisterCacheInvalidationAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Cache
+  summary: Register (by writing to the CacheInvalidation table) that a cached table has been changed
+  remarks: >-
+    When a cache is instantiated, it registers with us and we retrieve its CacheInvalidation key(s). Therefore,
+
+    if _generationCache does not have it, it's <b>probable</b> but not certain that we need
+
+    to insert a row. Conversely, if we do have it then it's <b>very probable</b> that such a row exists and
+
+    should be updated. <br />
+
+    We might be wrong in both cases due to external changes to the database, so the strategy is try one/try the other
+
+    in any case; what varies is what we try first.
+  example: []
+  syntax:
+    content: public Task RegisterCacheInvalidationAsync(string tableName, CancellationToken cancellationToken = default)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function RegisterCacheInvalidationAsync(tableName As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.Cache.CacheManager.RegisterCacheInvalidationAsync*
+  nameWithType.vb: CacheManager.RegisterCacheInvalidationAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.Data.Cache.CacheManager.RegisterCacheInvalidationAsync(String, System.Threading.CancellationToken)
+  name.vb: RegisterCacheInvalidationAsync(String, CancellationToken)
+- uid: SuperOffice.Data.Cache.CacheManager.Flush``1
+  commentId: M:SuperOffice.Data.Cache.CacheManager.Flush``1
+  id: Flush``1
+  parent: SuperOffice.Data.Cache.CacheManager
+  langs:
+  - csharp
+  - vb
+  name: Flush<T>()
+  nameWithType: CacheManager.Flush<T>()
+  fullName: SuperOffice.Data.Cache.CacheManager.Flush<T>()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Cache
+  summary: >-
+    Removes the cache instance from the system so it'll be queued for GC, next time we request the
+
+    cache it will be recreated.
+  example: []
+  syntax:
+    content: 'public void Flush<T>() where T : CacheBaseV2'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub Flush(Of T As CacheBaseV2)()
+  overload: SuperOffice.Data.Cache.CacheManager.Flush*
+  implements:
+  - SuperOffice.Data.Cache.ICacheManager.Flush``1
+  nameWithType.vb: CacheManager.Flush(Of T)()
+  fullName.vb: SuperOffice.Data.Cache.CacheManager.Flush(Of T)()
+  name.vb: Flush(Of T)()
+- uid: SuperOffice.Data.Cache.CacheManager.Flush(SuperOffice.Data.Cache.CacheBaseV2[])
+  commentId: M:SuperOffice.Data.Cache.CacheManager.Flush(SuperOffice.Data.Cache.CacheBaseV2[])
+  id: Flush(SuperOffice.Data.Cache.CacheBaseV2[])
+  parent: SuperOffice.Data.Cache.CacheManager
+  langs:
+  - csharp
+  - vb
+  name: Flush(params CacheBaseV2[])
+  nameWithType: CacheManager.Flush(params CacheBaseV2[])
+  fullName: SuperOffice.Data.Cache.CacheManager.Flush(params SuperOffice.Data.Cache.CacheBaseV2[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Cache
+  summary: >-
+    Removes the cache instance from the system so it'll be queued for GC, next time we request the
+
+    cache it will be recreated.
+  example: []
+  syntax:
+    content: public void Flush(params CacheBaseV2[] caches)
+    parameters:
+    - id: caches
+      type: SuperOffice.Data.Cache.CacheBaseV2[]
+    content.vb: Public Sub Flush(ParamArray caches As CacheBaseV2())
+  overload: SuperOffice.Data.Cache.CacheManager.Flush*
+  implements:
+  - SuperOffice.Data.Cache.ICacheManager.Flush(SuperOffice.Data.Cache.CacheBaseV2[])
+  nameWithType.vb: CacheManager.Flush(ParamArray CacheBaseV2())
+  fullName.vb: SuperOffice.Data.Cache.CacheManager.Flush(ParamArray SuperOffice.Data.Cache.CacheBaseV2())
+  name.vb: Flush(ParamArray CacheBaseV2())
+- uid: SuperOffice.Data.Cache.CacheManager.Unregister(SuperOffice.Data.Cache.CacheBaseV2)
+  commentId: M:SuperOffice.Data.Cache.CacheManager.Unregister(SuperOffice.Data.Cache.CacheBaseV2)
+  id: Unregister(SuperOffice.Data.Cache.CacheBaseV2)
+  parent: SuperOffice.Data.Cache.CacheManager
+  langs:
+  - csharp
+  - vb
+  name: Unregister(CacheBaseV2)
+  nameWithType: CacheManager.Unregister(CacheBaseV2)
+  fullName: SuperOffice.Data.Cache.CacheManager.Unregister(SuperOffice.Data.Cache.CacheBaseV2)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Cache
+  summary: Unregisters a cache from the cache system. Next time you get a cache it will be a new instance with fresh data.
+  example: []
+  syntax:
+    content: public void Unregister(CacheBaseV2 cache)
+    parameters:
+    - id: cache
+      type: SuperOffice.Data.Cache.CacheBaseV2
+      description: Cache to unregister.
+    content.vb: Public Sub Unregister(cache As CacheBaseV2)
+  overload: SuperOffice.Data.Cache.CacheManager.Unregister*
+- uid: SuperOffice.Data.Cache.CacheManager.GetAllCachesByTableNames
+  commentId: M:SuperOffice.Data.Cache.CacheManager.GetAllCachesByTableNames
+  id: GetAllCachesByTableNames
+  parent: SuperOffice.Data.Cache.CacheManager
+  langs:
+  - csharp
+  - vb
+  name: GetAllCachesByTableNames()
+  nameWithType: CacheManager.GetAllCachesByTableNames()
+  fullName: SuperOffice.Data.Cache.CacheManager.GetAllCachesByTableNames()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Cache
+  summary: Get a lookup that leads from table name to caches dependent on that table
+  remarks: " fetch all the caches we currently have in-memory in the current Context\r\ncaches are indexed preferably by their dependent-table names; or if there are none (what??), by the cache class name"
+  example: []
+  syntax:
+    content: public ILookup<string, CacheBaseV2> GetAllCachesByTableNames()
+    return:
+      type: System.Linq.ILookup{System.String,SuperOffice.Data.Cache.CacheBaseV2}
+      description: ''
+    content.vb: Public Function GetAllCachesByTableNames() As ILookup(Of String, CacheBaseV2)
+  overload: SuperOffice.Data.Cache.CacheManager.GetAllCachesByTableNames*
+- uid: SuperOffice.Data.Cache.CacheManager.AddAutoDisableTables(System.String[])
+  commentId: M:SuperOffice.Data.Cache.CacheManager.AddAutoDisableTables(System.String[])
+  id: AddAutoDisableTables(System.String[])
+  parent: SuperOffice.Data.Cache.CacheManager
+  langs:
+  - csharp
+  - vb
+  name: AddAutoDisableTables(string[])
+  nameWithType: CacheManager.AddAutoDisableTables(string[])
+  fullName: SuperOffice.Data.Cache.CacheManager.AddAutoDisableTables(string[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Cache
+  summary: Enter scope - disable auto-update of caches depending on any of the given tables by incrementing the disable-count
+  example: []
+  syntax:
+    content: public void AddAutoDisableTables(string[] namesToDisable)
+    parameters:
+    - id: namesToDisable
+      type: System.String[]
+      description: ''
+    content.vb: Public Sub AddAutoDisableTables(namesToDisable As String())
+  overload: SuperOffice.Data.Cache.CacheManager.AddAutoDisableTables*
+  nameWithType.vb: CacheManager.AddAutoDisableTables(String())
+  fullName.vb: SuperOffice.Data.Cache.CacheManager.AddAutoDisableTables(String())
+  name.vb: AddAutoDisableTables(String())
+- uid: SuperOffice.Data.Cache.CacheManager.RemoveAutoDisableTablesAsync(System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheManager.RemoveAutoDisableTablesAsync(System.String[],System.Threading.CancellationToken)
+  id: RemoveAutoDisableTablesAsync(System.String[],System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Cache.CacheManager
+  langs:
+  - csharp
+  - vb
+  name: RemoveAutoDisableTablesAsync(string[], CancellationToken)
+  nameWithType: CacheManager.RemoveAutoDisableTablesAsync(string[], CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheManager.RemoveAutoDisableTablesAsync(string[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Cache
+  summary: Exit scope - decrement disable-count of each given table; update each dependent cache <b>once</b>; wait for cache update to complete
+  example: []
+  syntax:
+    content: public Task RemoveAutoDisableTablesAsync(string[] namesToReenable, CancellationToken cancellationToken = default)
+    parameters:
+    - id: namesToReenable
+      type: System.String[]
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function RemoveAutoDisableTablesAsync(namesToReenable As String(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.Cache.CacheManager.RemoveAutoDisableTablesAsync*
+  nameWithType.vb: CacheManager.RemoveAutoDisableTablesAsync(String(), CancellationToken)
+  fullName.vb: SuperOffice.Data.Cache.CacheManager.RemoveAutoDisableTablesAsync(String(), System.Threading.CancellationToken)
+  name.vb: RemoveAutoDisableTablesAsync(String(), CancellationToken)
 - uid: SuperOffice.Data.Cache.CacheManager.IsAutoUpdateDisabled(System.String)
   commentId: M:SuperOffice.Data.Cache.CacheManager.IsAutoUpdateDisabled(System.String)
   id: IsAutoUpdateDisabled(System.String)
@@ -183,126 +473,501 @@ items:
   langs:
   - csharp
   - vb
-  name: IsAutoUpdateDisabled(String)
-  nameWithType: CacheManager.IsAutoUpdateDisabled(String)
-  fullName: SuperOffice.Data.Cache.CacheManager.IsAutoUpdateDisabled(System.String)
+  name: IsAutoUpdateDisabled(string)
+  nameWithType: CacheManager.IsAutoUpdateDisabled(string)
+  fullName: SuperOffice.Data.Cache.CacheManager.IsAutoUpdateDisabled(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data.Cache
-  summary: "\nDetermine if automatic updates are disabled for a particular table (not a particular cache!)\n"
+  summary: Determine if automatic updates are disabled for a particular table (not a particular cache!)
+  example: []
   syntax:
     content: public bool IsAutoUpdateDisabled(string tableName)
     parameters:
     - id: tableName
       type: System.String
+      description: ''
     return:
       type: System.Boolean
+      description: ''
     content.vb: Public Function IsAutoUpdateDisabled(tableName As String) As Boolean
   overload: SuperOffice.Data.Cache.CacheManager.IsAutoUpdateDisabled*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  implements:
+  - SuperOffice.Data.Cache.ICacheManager.IsAutoUpdateDisabled(System.String)
+  nameWithType.vb: CacheManager.IsAutoUpdateDisabled(String)
+  fullName.vb: SuperOffice.Data.Cache.CacheManager.IsAutoUpdateDisabled(String)
+  name.vb: IsAutoUpdateDisabled(String)
+- uid: SuperOffice.Data.Cache.CacheManager.GetOrCreate``1
+  commentId: M:SuperOffice.Data.Cache.CacheManager.GetOrCreate``1
+  id: GetOrCreate``1
+  parent: SuperOffice.Data.Cache.CacheManager
+  langs:
+  - csharp
+  - vb
+  name: GetOrCreate<T>()
+  nameWithType: CacheManager.GetOrCreate<T>()
+  fullName: SuperOffice.Data.Cache.CacheManager.GetOrCreate<T>()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Cache
+  summary: Get a cache given its' type, or create it if a instance is not found.
+  example: []
+  syntax:
+    content: 'public T GetOrCreate<T>() where T : CacheBaseV2'
+    typeParameters:
+    - id: T
+      description: Type of the cache
+    return:
+      type: '{T}'
+      description: Instance of the given cache
+    content.vb: Public Function GetOrCreate(Of T As CacheBaseV2)() As T
+  overload: SuperOffice.Data.Cache.CacheManager.GetOrCreate*
+  implements:
+  - SuperOffice.Data.Cache.ICacheManager.GetOrCreate``1
+  nameWithType.vb: CacheManager.GetOrCreate(Of T)()
+  fullName.vb: SuperOffice.Data.Cache.CacheManager.GetOrCreate(Of T)()
+  name.vb: GetOrCreate(Of T)()
+- uid: SuperOffice.Data.Cache.CacheManager.CacheCheckTimer
+  commentId: P:SuperOffice.Data.Cache.CacheManager.CacheCheckTimer
+  id: CacheCheckTimer
+  parent: SuperOffice.Data.Cache.CacheManager
+  langs:
+  - csharp
+  - vb
+  name: CacheCheckTimer
+  nameWithType: CacheManager.CacheCheckTimer
+  fullName: SuperOffice.Data.Cache.CacheManager.CacheCheckTimer
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Cache
+  summary: Timer to synchronize caches with CacheInvalidationTableInfo.
+  example: []
+  syntax:
+    content: public Timer CacheCheckTimer { get; }
+    parameters: []
+    return:
+      type: System.Timers.Timer
+    content.vb: Public ReadOnly Property CacheCheckTimer As Timer
+  overload: SuperOffice.Data.Cache.CacheManager.CacheCheckTimer*
+- uid: SuperOffice.Data.Cache.CacheManager.ForceRefreshTimer
+  commentId: P:SuperOffice.Data.Cache.CacheManager.ForceRefreshTimer
+  id: ForceRefreshTimer
+  parent: SuperOffice.Data.Cache.CacheManager
+  langs:
+  - csharp
+  - vb
+  name: ForceRefreshTimer
+  nameWithType: CacheManager.ForceRefreshTimer
+  fullName: SuperOffice.Data.Cache.CacheManager.ForceRefreshTimer
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Cache
+  summary: Timer to force cache refresh.
+  example: []
+  syntax:
+    content: public Timer ForceRefreshTimer { get; }
+    parameters: []
+    return:
+      type: System.Timers.Timer
+    content.vb: Public ReadOnly Property ForceRefreshTimer As Timer
+  overload: SuperOffice.Data.Cache.CacheManager.ForceRefreshTimer*
 references:
 - uid: SuperOffice.Data.Cache
   commentId: N:SuperOffice.Data.Cache
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.Cache
   nameWithType: SuperOffice.Data.Cache
   fullName: SuperOffice.Data.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.Data.Cache.ICacheManager
+  commentId: T:SuperOffice.Data.Cache.ICacheManager
+  parent: SuperOffice.Data.Cache
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  href: SuperOffice.Data.Cache.ICacheManager.html
+  name: ICacheManager
+  nameWithType: ICacheManager
+  fullName: SuperOffice.Data.Cache.ICacheManager
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.Cache.CacheManager.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<CacheManager, To>()
-  nameWithType: EnumUtil.MapEnums<CacheManager, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.CacheManager, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of CacheManager, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.CacheManager, To)()
-  name.vb: MapEnums(Of CacheManager, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<CacheManager, To>(CacheManager)
+  nameWithType: EnumUtil.MapEnums<CacheManager, To>(CacheManager)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.CacheManager, To>(SuperOffice.Data.Cache.CacheManager)
+  nameWithType.vb: EnumUtil.MapEnums(Of CacheManager, To)(CacheManager)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.CacheManager, To)(SuperOffice.Data.Cache.CacheManager)
+  name.vb: MapEnums(Of CacheManager, To)(CacheManager)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<CacheManager, To>
-    nameWithType: EnumUtil.MapEnums<CacheManager, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.CacheManager, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.Cache.CacheManager)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.Cache.CacheManager
+    name: CacheManager
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheManager.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.Cache.CacheManager
+    name: CacheManager
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheManager.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of CacheManager, To)
-    nameWithType: EnumUtil.MapEnums(Of CacheManager, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.CacheManager, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.Cache.CacheManager)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Cache.CacheManager
+    name: CacheManager
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheManager.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.Cache.CacheManager
+    name: CacheManager
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheManager.html
+  - name: )
 - uid: SuperOffice.Data.Cache.CacheManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<CacheManager, To>()
-  nameWithType: Converters.MapEnums<CacheManager, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.CacheManager, To>()
-  nameWithType.vb: Converters.MapEnums(Of CacheManager, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.CacheManager, To)()
-  name.vb: MapEnums(Of CacheManager, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<CacheManager, To>(CacheManager)
+  nameWithType: Converters.MapEnums<CacheManager, To>(CacheManager)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.CacheManager, To>(SuperOffice.Data.Cache.CacheManager)
+  nameWithType.vb: Converters.MapEnums(Of CacheManager, To)(CacheManager)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.CacheManager, To)(SuperOffice.Data.Cache.CacheManager)
+  name.vb: MapEnums(Of CacheManager, To)(CacheManager)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<CacheManager, To>
-    nameWithType: Converters.MapEnums<CacheManager, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.CacheManager, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.Cache.CacheManager)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.Cache.CacheManager
+    name: CacheManager
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheManager.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.Cache.CacheManager
+    name: CacheManager
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheManager.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of CacheManager, To)
-    nameWithType: Converters.MapEnums(Of CacheManager, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.CacheManager, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.Cache.CacheManager)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Cache.CacheManager
+    name: CacheManager
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheManager.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.Cache.CacheManager
+    name: CacheManager
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheManager.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -311,43 +976,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -356,71 +1023,1059 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.Data.Cache.CacheManager.Dispose*
-  commentId: Overload:SuperOffice.Data.Cache.CacheManager.Dispose
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Data.Cache.CacheManager.#ctor*
+  commentId: Overload:SuperOffice.Data.Cache.CacheManager.#ctor
   isExternal: true
-  name: Dispose
-  nameWithType: CacheManager.Dispose
-  fullName: SuperOffice.Data.Cache.CacheManager.Dispose
-- uid: SuperOffice.Data.Cache.CacheManager.Get*
-  commentId: Overload:SuperOffice.Data.Cache.CacheManager.Get
+  href: SuperOffice.Data.Cache.CacheManager.html#SuperOffice_Data_Cache_CacheManager__ctor_SuperOffice_Factory_DatabaseInstanceContainer_Microsoft_Extensions_Options_IOptions_SuperOffice_Configuration_ConfigFile_OnlineConfiguration__Microsoft_Extensions_Logging_ILogger_SuperOffice_Data_Cache_CacheManager__
+  name: CacheManager
+  nameWithType: CacheManager.CacheManager
+  fullName: SuperOffice.Data.Cache.CacheManager.CacheManager
+  nameWithType.vb: CacheManager.New
+  fullName.vb: SuperOffice.Data.Cache.CacheManager.New
+  name.vb: New
+- uid: SuperOffice.Factory.DatabaseInstanceContainer
+  commentId: T:SuperOffice.Factory.DatabaseInstanceContainer
+  parent: SuperOffice.Factory
   isExternal: true
-  name: Get
-  nameWithType: CacheManager.Get
-  fullName: SuperOffice.Data.Cache.CacheManager.Get
-- uid: System.Type
+  name: DatabaseInstanceContainer
+  nameWithType: DatabaseInstanceContainer
+  fullName: SuperOffice.Factory.DatabaseInstanceContainer
+- uid: Microsoft.Extensions.Options.IOptions{SuperOffice.Configuration.ConfigFile.OnlineConfiguration}
+  commentId: T:Microsoft.Extensions.Options.IOptions{SuperOffice.Configuration.ConfigFile.OnlineConfiguration}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptions`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  name: IOptions<ConfigFile.OnlineConfiguration>
+  nameWithType: IOptions<ConfigFile.OnlineConfiguration>
+  fullName: Microsoft.Extensions.Options.IOptions<SuperOffice.Configuration.ConfigFile.OnlineConfiguration>
+  nameWithType.vb: IOptions(Of ConfigFile.OnlineConfiguration)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+  name.vb: IOptions(Of ConfigFile.OnlineConfiguration)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile
+    name: ConfigFile
+    isExternal: true
+  - name: .
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile
+    name: ConfigFile
+    isExternal: true
+  - name: .
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheManager}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheManager}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<CacheManager>
+  nameWithType: ILogger<CacheManager>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.Data.Cache.CacheManager>
+  nameWithType.vb: ILogger(Of CacheManager)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Data.Cache.CacheManager)
+  name.vb: ILogger(Of CacheManager)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.Data.Cache.CacheManager
+    name: CacheManager
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheManager.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Cache.CacheManager
+    name: CacheManager
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheManager.html
+  - name: )
+- uid: SuperOffice.Factory
+  commentId: N:SuperOffice.Factory
   isExternal: true
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
+  href: SuperOffice.html
+  name: SuperOffice.Factory
+  nameWithType: SuperOffice.Factory
+  fullName: SuperOffice.Factory
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Factory
+    name: Factory
+    isExternal: true
+    href: SuperOffice.Factory.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Factory
+    name: Factory
+    isExternal: true
+    href: SuperOffice.Factory.html
+- uid: Microsoft.Extensions.Options.IOptions`1
+  commentId: T:Microsoft.Extensions.Options.IOptions`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  name: IOptions<TOptions>
+  nameWithType: IOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<TOptions>
+  nameWithType.vb: IOptions(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of TOptions)
+  name.vb: IOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  - name: <
+  - name: TOptions
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOptions
+  - name: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Options
+    name: Options
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Options
+    name: Options
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: SuperOffice.Data.Cache.CacheManager.InstanceDispose*
+  commentId: Overload:SuperOffice.Data.Cache.CacheManager.InstanceDispose
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheManager.html#SuperOffice_Data_Cache_CacheManager_InstanceDispose
+  name: InstanceDispose
+  nameWithType: CacheManager.InstanceDispose
+  fullName: SuperOffice.Data.Cache.CacheManager.InstanceDispose
+- uid: SuperOffice.Data.Cache.CacheManager.GetOrCreateAsync*
+  commentId: Overload:SuperOffice.Data.Cache.CacheManager.GetOrCreateAsync
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheManager.html#SuperOffice_Data_Cache_CacheManager_GetOrCreateAsync__1_System_Threading_CancellationToken_
+  name: GetOrCreateAsync
+  nameWithType: CacheManager.GetOrCreateAsync
+  fullName: SuperOffice.Data.Cache.CacheManager.GetOrCreateAsync
+- uid: SuperOffice.Data.Cache.ICacheManager.GetOrCreateAsync``1(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.ICacheManager.GetOrCreateAsync``1(System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Cache.ICacheManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetOrCreateAsync<T>(CancellationToken)
+  nameWithType: ICacheManager.GetOrCreateAsync<T>(CancellationToken)
+  fullName: SuperOffice.Data.Cache.ICacheManager.GetOrCreateAsync<T>(System.Threading.CancellationToken)
+  nameWithType.vb: ICacheManager.GetOrCreateAsync(Of T)(CancellationToken)
+  fullName.vb: SuperOffice.Data.Cache.ICacheManager.GetOrCreateAsync(Of T)(System.Threading.CancellationToken)
+  name.vb: GetOrCreateAsync(Of T)(CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.ICacheManager.GetOrCreateAsync``1(System.Threading.CancellationToken)
+    name: GetOrCreateAsync
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.ICacheManager.GetOrCreateAsync``1(System.Threading.CancellationToken)
+    name: GetOrCreateAsync
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.ValueTask{{T}}
+  commentId: T:System.Threading.Tasks.ValueTask{``0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.ValueTask`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  name: ValueTask<T>
+  nameWithType: ValueTask<T>
+  fullName: System.Threading.Tasks.ValueTask<T>
+  nameWithType.vb: ValueTask(Of T)
+  fullName.vb: System.Threading.Tasks.ValueTask(Of T)
+  name.vb: ValueTask(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.ValueTask`1
+  commentId: T:System.Threading.Tasks.ValueTask`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  name: ValueTask<TResult>
+  nameWithType: ValueTask<TResult>
+  fullName: System.Threading.Tasks.ValueTask<TResult>
+  nameWithType.vb: ValueTask(Of TResult)
+  fullName.vb: System.Threading.Tasks.ValueTask(Of TResult)
+  name.vb: ValueTask(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.Data.Cache.CacheManager.GetAllCachesInContext*
+  commentId: Overload:SuperOffice.Data.Cache.CacheManager.GetAllCachesInContext
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheManager.html#SuperOffice_Data_Cache_CacheManager_GetAllCachesInContext
+  name: GetAllCachesInContext
+  nameWithType: CacheManager.GetAllCachesInContext
+  fullName: SuperOffice.Data.Cache.CacheManager.GetAllCachesInContext
+- uid: SuperOffice.Data.Cache.ICacheManager.GetAllCachesInContext
+  commentId: M:SuperOffice.Data.Cache.ICacheManager.GetAllCachesInContext
+  parent: SuperOffice.Data.Cache.ICacheManager
+  isExternal: true
+  name: GetAllCachesInContext()
+  nameWithType: ICacheManager.GetAllCachesInContext()
+  fullName: SuperOffice.Data.Cache.ICacheManager.GetAllCachesInContext()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.ICacheManager.GetAllCachesInContext
+    name: GetAllCachesInContext
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.ICacheManager.GetAllCachesInContext
+    name: GetAllCachesInContext
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.Cache.CacheBaseV2}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.Cache.CacheBaseV2}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<CacheBaseV2>
+  nameWithType: IEnumerable<CacheBaseV2>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.Cache.CacheBaseV2>
+  nameWithType.vb: IEnumerable(Of CacheBaseV2)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.Cache.CacheBaseV2)
+  name.vb: IEnumerable(Of CacheBaseV2)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SuperOffice.Data.Cache.CacheBaseV2
+    name: CacheBaseV2
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Cache.CacheBaseV2
+    name: CacheBaseV2
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.Data.Cache.CacheManager.GetAllCacheNames*
+  commentId: Overload:SuperOffice.Data.Cache.CacheManager.GetAllCacheNames
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheManager.html#SuperOffice_Data_Cache_CacheManager_GetAllCacheNames
+  name: GetAllCacheNames
+  nameWithType: CacheManager.GetAllCacheNames
+  fullName: SuperOffice.Data.Cache.CacheManager.GetAllCacheNames
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2
   commentId: T:SuperOffice.Data.Cache.CacheBaseV2
   parent: SuperOffice.Data.Cache
   isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html
   name: CacheBaseV2
   nameWithType: CacheBaseV2
   fullName: SuperOffice.Data.Cache.CacheBaseV2
+- uid: SuperOffice.Data.Cache.CacheManager.RegisterAsync*
+  commentId: Overload:SuperOffice.Data.Cache.CacheManager.RegisterAsync
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheManager.html#SuperOffice_Data_Cache_CacheManager_RegisterAsync_SuperOffice_Data_Cache_CacheBaseV2_System_Threading_CancellationToken_
+  name: RegisterAsync
+  nameWithType: CacheManager.RegisterAsync
+  fullName: SuperOffice.Data.Cache.CacheManager.RegisterAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.Cache.CacheManager.RegisterCacheInvalidationAsync*
+  commentId: Overload:SuperOffice.Data.Cache.CacheManager.RegisterCacheInvalidationAsync
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheManager.html#SuperOffice_Data_Cache_CacheManager_RegisterCacheInvalidationAsync_System_String_System_Threading_CancellationToken_
+  name: RegisterCacheInvalidationAsync
+  nameWithType: CacheManager.RegisterCacheInvalidationAsync
+  fullName: SuperOffice.Data.Cache.CacheManager.RegisterCacheInvalidationAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Data.Cache.CacheManager.Flush*
+  commentId: Overload:SuperOffice.Data.Cache.CacheManager.Flush
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheManager.html#SuperOffice_Data_Cache_CacheManager_Flush__1
+  name: Flush
+  nameWithType: CacheManager.Flush
+  fullName: SuperOffice.Data.Cache.CacheManager.Flush
+- uid: SuperOffice.Data.Cache.ICacheManager.Flush``1
+  commentId: M:SuperOffice.Data.Cache.ICacheManager.Flush``1
+  parent: SuperOffice.Data.Cache.ICacheManager
+  isExternal: true
+  name: Flush<T>()
+  nameWithType: ICacheManager.Flush<T>()
+  fullName: SuperOffice.Data.Cache.ICacheManager.Flush<T>()
+  nameWithType.vb: ICacheManager.Flush(Of T)()
+  fullName.vb: SuperOffice.Data.Cache.ICacheManager.Flush(Of T)()
+  name.vb: Flush(Of T)()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.ICacheManager.Flush``1
+    name: Flush
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.ICacheManager.Flush``1
+    name: Flush
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.Cache.ICacheManager.Flush(SuperOffice.Data.Cache.CacheBaseV2[])
+  commentId: M:SuperOffice.Data.Cache.ICacheManager.Flush(SuperOffice.Data.Cache.CacheBaseV2[])
+  parent: SuperOffice.Data.Cache.ICacheManager
+  isExternal: true
+  name: Flush(params CacheBaseV2[])
+  nameWithType: ICacheManager.Flush(params CacheBaseV2[])
+  fullName: SuperOffice.Data.Cache.ICacheManager.Flush(params SuperOffice.Data.Cache.CacheBaseV2[])
+  nameWithType.vb: ICacheManager.Flush(ParamArray CacheBaseV2())
+  fullName.vb: SuperOffice.Data.Cache.ICacheManager.Flush(ParamArray SuperOffice.Data.Cache.CacheBaseV2())
+  name.vb: Flush(ParamArray CacheBaseV2())
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.ICacheManager.Flush(SuperOffice.Data.Cache.CacheBaseV2[])
+    name: Flush
+    isExternal: true
+  - name: (
+  - name: params
+  - name: " "
+  - uid: SuperOffice.Data.Cache.CacheBaseV2
+    name: CacheBaseV2
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.ICacheManager.Flush(SuperOffice.Data.Cache.CacheBaseV2[])
+    name: Flush
+    isExternal: true
+  - name: (
+  - name: ParamArray
+  - name: " "
+  - uid: SuperOffice.Data.Cache.CacheBaseV2
+    name: CacheBaseV2
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.Data.Cache.CacheBaseV2[]
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html
+  name: CacheBaseV2[]
+  nameWithType: CacheBaseV2[]
+  fullName: SuperOffice.Data.Cache.CacheBaseV2[]
+  nameWithType.vb: CacheBaseV2()
+  fullName.vb: SuperOffice.Data.Cache.CacheBaseV2()
+  name.vb: CacheBaseV2()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2
+    name: CacheBaseV2
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2
+    name: CacheBaseV2
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.Cache.CacheManager.Unregister*
+  commentId: Overload:SuperOffice.Data.Cache.CacheManager.Unregister
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheManager.html#SuperOffice_Data_Cache_CacheManager_Unregister_SuperOffice_Data_Cache_CacheBaseV2_
+  name: Unregister
+  nameWithType: CacheManager.Unregister
+  fullName: SuperOffice.Data.Cache.CacheManager.Unregister
+- uid: SuperOffice.Data.Cache.CacheManager.GetAllCachesByTableNames*
+  commentId: Overload:SuperOffice.Data.Cache.CacheManager.GetAllCachesByTableNames
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheManager.html#SuperOffice_Data_Cache_CacheManager_GetAllCachesByTableNames
+  name: GetAllCachesByTableNames
+  nameWithType: CacheManager.GetAllCachesByTableNames
+  fullName: SuperOffice.Data.Cache.CacheManager.GetAllCachesByTableNames
+- uid: System.Linq.ILookup{System.String,SuperOffice.Data.Cache.CacheBaseV2}
+  commentId: T:System.Linq.ILookup{System.String,SuperOffice.Data.Cache.CacheBaseV2}
+  parent: System.Linq
+  definition: System.Linq.ILookup`2
+  href: https://learn.microsoft.com/dotnet/api/system.linq.ilookup-2
+  name: ILookup<string, CacheBaseV2>
+  nameWithType: ILookup<string, CacheBaseV2>
+  fullName: System.Linq.ILookup<string, SuperOffice.Data.Cache.CacheBaseV2>
+  nameWithType.vb: ILookup(Of String, CacheBaseV2)
+  fullName.vb: System.Linq.ILookup(Of String, SuperOffice.Data.Cache.CacheBaseV2)
+  name.vb: ILookup(Of String, CacheBaseV2)
+  spec.csharp:
+  - uid: System.Linq.ILookup`2
+    name: ILookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.ilookup-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Cache.CacheBaseV2
+    name: CacheBaseV2
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.ILookup`2
+    name: ILookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.ilookup-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Cache.CacheBaseV2
+    name: CacheBaseV2
+    isExternal: true
+  - name: )
+- uid: System.Linq.ILookup`2
+  commentId: T:System.Linq.ILookup`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.ilookup-2
+  name: ILookup<TKey, TElement>
+  nameWithType: ILookup<TKey, TElement>
+  fullName: System.Linq.ILookup<TKey, TElement>
+  nameWithType.vb: ILookup(Of TKey, TElement)
+  fullName.vb: System.Linq.ILookup(Of TKey, TElement)
+  name.vb: ILookup(Of TKey, TElement)
+  spec.csharp:
+  - uid: System.Linq.ILookup`2
+    name: ILookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.ilookup-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.ILookup`2
+    name: ILookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.ilookup-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+- uid: System.Linq
+  commentId: N:System.Linq
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Linq
+  nameWithType: System.Linq
+  fullName: System.Linq
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+- uid: SuperOffice.Data.Cache.CacheManager.AddAutoDisableTables*
+  commentId: Overload:SuperOffice.Data.Cache.CacheManager.AddAutoDisableTables
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheManager.html#SuperOffice_Data_Cache_CacheManager_AddAutoDisableTables_System_String___
+  name: AddAutoDisableTables
+  nameWithType: CacheManager.AddAutoDisableTables
+  fullName: SuperOffice.Data.Cache.CacheManager.AddAutoDisableTables
+- uid: SuperOffice.Data.Cache.CacheManager.RemoveAutoDisableTablesAsync*
+  commentId: Overload:SuperOffice.Data.Cache.CacheManager.RemoveAutoDisableTablesAsync
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheManager.html#SuperOffice_Data_Cache_CacheManager_RemoveAutoDisableTablesAsync_System_String___System_Threading_CancellationToken_
+  name: RemoveAutoDisableTablesAsync
+  nameWithType: CacheManager.RemoveAutoDisableTablesAsync
+  fullName: SuperOffice.Data.Cache.CacheManager.RemoveAutoDisableTablesAsync
+- uid: SuperOffice.Data.Cache.CacheManager.IsAutoUpdateDisabled*
+  commentId: Overload:SuperOffice.Data.Cache.CacheManager.IsAutoUpdateDisabled
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheManager.html#SuperOffice_Data_Cache_CacheManager_IsAutoUpdateDisabled_System_String_
+  name: IsAutoUpdateDisabled
+  nameWithType: CacheManager.IsAutoUpdateDisabled
+  fullName: SuperOffice.Data.Cache.CacheManager.IsAutoUpdateDisabled
+- uid: SuperOffice.Data.Cache.ICacheManager.IsAutoUpdateDisabled(System.String)
+  commentId: M:SuperOffice.Data.Cache.ICacheManager.IsAutoUpdateDisabled(System.String)
+  parent: SuperOffice.Data.Cache.ICacheManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: IsAutoUpdateDisabled(string)
+  nameWithType: ICacheManager.IsAutoUpdateDisabled(string)
+  fullName: SuperOffice.Data.Cache.ICacheManager.IsAutoUpdateDisabled(string)
+  nameWithType.vb: ICacheManager.IsAutoUpdateDisabled(String)
+  fullName.vb: SuperOffice.Data.Cache.ICacheManager.IsAutoUpdateDisabled(String)
+  name.vb: IsAutoUpdateDisabled(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.ICacheManager.IsAutoUpdateDisabled(System.String)
+    name: IsAutoUpdateDisabled
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.ICacheManager.IsAutoUpdateDisabled(System.String)
+    name: IsAutoUpdateDisabled
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.Data.Cache.CacheManager.GetOrCreate*
+  commentId: Overload:SuperOffice.Data.Cache.CacheManager.GetOrCreate
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheManager.html#SuperOffice_Data_Cache_CacheManager_GetOrCreate__1
+  name: GetOrCreate
+  nameWithType: CacheManager.GetOrCreate
+  fullName: SuperOffice.Data.Cache.CacheManager.GetOrCreate
+- uid: SuperOffice.Data.Cache.ICacheManager.GetOrCreate``1
+  commentId: M:SuperOffice.Data.Cache.ICacheManager.GetOrCreate``1
+  parent: SuperOffice.Data.Cache.ICacheManager
+  isExternal: true
+  name: GetOrCreate<T>()
+  nameWithType: ICacheManager.GetOrCreate<T>()
+  fullName: SuperOffice.Data.Cache.ICacheManager.GetOrCreate<T>()
+  nameWithType.vb: ICacheManager.GetOrCreate(Of T)()
+  fullName.vb: SuperOffice.Data.Cache.ICacheManager.GetOrCreate(Of T)()
+  name.vb: GetOrCreate(Of T)()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.ICacheManager.GetOrCreate``1
+    name: GetOrCreate
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.ICacheManager.GetOrCreate``1
+    name: GetOrCreate
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
 - uid: '{T}'
   commentId: '!:T'
   definition: T
@@ -431,110 +2086,52 @@ references:
   name: T
   nameWithType: T
   fullName: T
-- uid: SuperOffice.Data.Cache.CacheManager.GetAllCachesInContext*
-  commentId: Overload:SuperOffice.Data.Cache.CacheManager.GetAllCachesInContext
+- uid: SuperOffice.Data.Cache.CacheManager.CacheCheckTimer*
+  commentId: Overload:SuperOffice.Data.Cache.CacheManager.CacheCheckTimer
   isExternal: true
-  name: GetAllCachesInContext
-  nameWithType: CacheManager.GetAllCachesInContext
-  fullName: SuperOffice.Data.Cache.CacheManager.GetAllCachesInContext
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.Cache.IFlushableV2}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.Cache.IFlushableV2}'
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<IFlushableV2>
-  nameWithType: IEnumerable<IFlushableV2>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.Cache.IFlushableV2>
-  nameWithType.vb: IEnumerable(Of IFlushableV2)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.Cache.IFlushableV2)
-  name.vb: IEnumerable(Of IFlushableV2)
+  href: SuperOffice.Data.Cache.CacheManager.html#SuperOffice_Data_Cache_CacheManager_CacheCheckTimer
+  name: CacheCheckTimer
+  nameWithType: CacheManager.CacheCheckTimer
+  fullName: SuperOffice.Data.Cache.CacheManager.CacheCheckTimer
+- uid: System.Timers.Timer
+  commentId: T:System.Timers.Timer
+  parent: System.Timers
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timers.timer
+  name: Timer
+  nameWithType: Timer
+  fullName: System.Timers.Timer
+- uid: System.Timers
+  commentId: N:System.Timers
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Timers
+  nameWithType: System.Timers
+  fullName: System.Timers
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System
+    name: System
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.Cache.IFlushableV2
-    name: IFlushableV2
-    nameWithType: IFlushableV2
-    fullName: SuperOffice.Data.Cache.IFlushableV2
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Timers
+    name: Timers
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: https://learn.microsoft.com/dotnet/api/system.timers
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System
+    name: System
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.Cache.IFlushableV2
-    name: IFlushableV2
-    nameWithType: IFlushableV2
-    fullName: SuperOffice.Data.Cache.IFlushableV2
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Timers
+    name: Timers
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable`1
+    href: https://learn.microsoft.com/dotnet/api/system.timers
+- uid: SuperOffice.Data.Cache.CacheManager.ForceRefreshTimer*
+  commentId: Overload:SuperOffice.Data.Cache.CacheManager.ForceRefreshTimer
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
-  spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Cache.CacheManager.IsAutoUpdateDisabled*
-  commentId: Overload:SuperOffice.Data.Cache.CacheManager.IsAutoUpdateDisabled
-  isExternal: true
-  name: IsAutoUpdateDisabled
-  nameWithType: CacheManager.IsAutoUpdateDisabled
-  fullName: SuperOffice.Data.Cache.CacheManager.IsAutoUpdateDisabled
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: SuperOffice.Data.Cache.CacheManager.html#SuperOffice_Data_Cache_CacheManager_ForceRefreshTimer
+  name: ForceRefreshTimer
+  nameWithType: CacheManager.ForceRefreshTimer
+  fullName: SuperOffice.Data.Cache.CacheManager.ForceRefreshTimer

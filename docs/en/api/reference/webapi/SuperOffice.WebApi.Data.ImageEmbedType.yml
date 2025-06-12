@@ -7,64 +7,21 @@ items:
   children:
   - SuperOffice.WebApi.Data.ImageEmbedType.Inline
   - SuperOffice.WebApi.Data.ImageEmbedType.Link
-  - SuperOffice.WebApi.Data.ImageEmbedType.value__
   langs:
   - csharp
   - vb
   name: ImageEmbedType
   nameWithType: ImageEmbedType
   fullName: SuperOffice.WebApi.Data.ImageEmbedType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEmbedded images type\n"
+  summary: Embedded images type
+  example: []
   syntax:
-    content: 'public sealed class ImageEmbedType : Enum'
-    content.vb: >-
-      Public NotInheritable Class ImageEmbedType
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.ImageEmbedType.value__
-  commentId: F:SuperOffice.WebApi.Data.ImageEmbedType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.ImageEmbedType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: ImageEmbedType.value__
-  fullName: SuperOffice.WebApi.Data.ImageEmbedType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum ImageEmbedType
+    content.vb: Public Enum ImageEmbedType
 - uid: SuperOffice.WebApi.Data.ImageEmbedType.Link
   commentId: F:SuperOffice.WebApi.Data.ImageEmbedType.Link
   id: Link
@@ -76,24 +33,26 @@ items:
   nameWithType: ImageEmbedType.Link
   fullName: SuperOffice.WebApi.Data.ImageEmbedType.Link
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Link image via href.\n"
+  summary: '0: Link image via href.'
+  example: []
   syntax:
-    content: public const ImageEmbedType Link
+    content: >-
+      [EnumMember]
+
+      Link = 0
     return:
       type: SuperOffice.WebApi.Data.ImageEmbedType
-    content.vb: Public Const Link As ImageEmbedType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Link = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ImageEmbedType.Inline
   commentId: F:SuperOffice.WebApi.Data.ImageEmbedType.Inline
   id: Inline
@@ -105,55 +64,69 @@ items:
   nameWithType: ImageEmbedType.Inline
   fullName: SuperOffice.WebApi.Data.ImageEmbedType.Inline
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Inline image via base64 encoded data in document.\n"
+  summary: '1: Inline image via base64 encoded data in document.'
+  example: []
   syntax:
-    content: public const ImageEmbedType Inline
+    content: >-
+      [EnumMember]
+
+      Inline = 1
     return:
       type: SuperOffice.WebApi.Data.ImageEmbedType
-    content.vb: Public Const Inline As ImageEmbedType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Inline = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.ImageEmbedType
   commentId: T:SuperOffice.WebApi.Data.ImageEmbedType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.ImageEmbedType.html
   name: ImageEmbedType
   nameWithType: ImageEmbedType
   fullName: SuperOffice.WebApi.Data.ImageEmbedType

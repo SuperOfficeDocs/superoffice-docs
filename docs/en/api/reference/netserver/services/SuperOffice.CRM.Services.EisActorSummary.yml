@@ -19,26 +19,33 @@ items:
   nameWithType: EisActorSummary
   fullName: SuperOffice.CRM.Services.EisActorSummary
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCarrier object for EisActorSummary.\nServices for the EisActorSummary Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IErpSyncAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Carrier object for EisActorSummary.
+
+    Services for the EisActorSummary Carrier is available from the <xref href="SuperOffice.CRM.Services.IErpSyncAgent?text=ErpSync+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class EisActorSummary : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class EisActorSummary : Carrier
     content.vb: >-
-      Public Class EisActorSummary
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class EisActorSummary Inherits Carrier
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.EisActorSummary.#ctor
   commentId: M:SuperOffice.CRM.Services.EisActorSummary.#ctor
   id: '#ctor'
@@ -50,21 +57,18 @@ items:
   nameWithType: EisActorSummary.EisActorSummary()
   fullName: SuperOffice.CRM.Services.EisActorSummary.EisActorSummary()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public EisActorSummary()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.EisActorSummary.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: EisActorSummary.New()
+  fullName.vb: SuperOffice.CRM.Services.EisActorSummary.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.EisActorSummary.ToString
   commentId: M:SuperOffice.CRM.Services.EisActorSummary.ToString
   id: ToString
@@ -76,26 +80,18 @@ items:
   nameWithType: EisActorSummary.ToString()
   fullName: SuperOffice.CRM.Services.EisActorSummary.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.EisActorSummary.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.EisActorSummary.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.EisActorSummary.ToString(System.String)
   id: ToString(System.String)
@@ -103,17 +99,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: EisActorSummary.ToString(String)
-  fullName: SuperOffice.CRM.Services.EisActorSummary.ToString(System.String)
+  name: ToString(string)
+  nameWithType: EisActorSummary.ToString(string)
+  fullName: SuperOffice.CRM.Services.EisActorSummary.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -125,10 +122,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.EisActorSummary.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: EisActorSummary.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.EisActorSummary.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.EisActorSummary.ActorType
   commentId: P:SuperOffice.CRM.Services.EisActorSummary.ActorType
   id: ActorType
@@ -140,26 +136,28 @@ items:
   nameWithType: EisActorSummary.ActorType
   fullName: SuperOffice.CRM.Services.EisActorSummary.ActorType
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nActor type\n"
+  summary: Actor type
+  example: []
   syntax:
-    content: public ErpActorType ActorType { get; set; }
+    content: >-
+      [DataMember]
+
+      public ErpActorType ActorType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ErpActorType
-    content.vb: Public Property ActorType As ErpActorType
+    content.vb: >-
+      <DataMember>
+
+      Public Property ActorType As ErpActorType
   overload: SuperOffice.CRM.Services.EisActorSummary.ActorType*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.EisActorSummary.HasMappings
   commentId: P:SuperOffice.CRM.Services.EisActorSummary.HasMappings
   id: HasMappings
@@ -171,26 +169,28 @@ items:
   nameWithType: EisActorSummary.HasMappings
   fullName: SuperOffice.CRM.Services.EisActorSummary.HasMappings
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDoes this actor type have field mappings\n"
+  summary: Does this actor type have field mappings
+  example: []
   syntax:
-    content: public bool HasMappings { get; set; }
+    content: >-
+      [DataMember]
+
+      public bool HasMappings { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Property HasMappings As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Property HasMappings As Boolean
   overload: SuperOffice.CRM.Services.EisActorSummary.HasMappings*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.EisActorSummary.Defaults
   commentId: P:SuperOffice.CRM.Services.EisActorSummary.Defaults
   id: Defaults
@@ -202,26 +202,28 @@ items:
   nameWithType: EisActorSummary.Defaults
   fullName: SuperOffice.CRM.Services.EisActorSummary.Defaults
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nA summary of fields that have defaults/rules for link creation\n"
+  summary: A summary of fields that have defaults/rules for link creation
+  example: []
   syntax:
-    content: public string Defaults { get; set; }
+    content: >-
+      [DataMember]
+
+      public string Defaults { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Defaults As String
+    content.vb: >-
+      <DataMember>
+
+      Public Property Defaults As String
   overload: SuperOffice.CRM.Services.EisActorSummary.Defaults*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.EisActorSummary.Mappings
   commentId: P:SuperOffice.CRM.Services.EisActorSummary.Mappings
   id: Mappings
@@ -233,42 +235,106 @@ items:
   nameWithType: EisActorSummary.Mappings
   fullName: SuperOffice.CRM.Services.EisActorSummary.Mappings
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nA summary of fields that have mappings to or from the ERP system\n"
+  summary: A summary of fields that have mappings to or from the ERP system
+  example: []
   syntax:
-    content: public string Mappings { get; set; }
+    content: >-
+      [DataMember]
+
+      public string Mappings { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Mappings As String
+    content.vb: >-
+      <DataMember>
+
+      Public Property Mappings As String
   overload: SuperOffice.CRM.Services.EisActorSummary.Mappings*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
+- uid: SuperOffice.CRM.Services.IErpSyncAgent
+  commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IErpSyncAgent.html
+  name: IErpSyncAgent
+  nameWithType: IErpSyncAgent
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.EisActorSummary.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.EisActorSummary.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.EisActorSummary.html#SuperOffice_CRM_Services_EisActorSummary__ctor
   name: EisActorSummary
   nameWithType: EisActorSummary.EisActorSummary
   fullName: SuperOffice.CRM.Services.EisActorSummary.EisActorSummary
+  nameWithType.vb: EisActorSummary.New
+  fullName.vb: SuperOffice.CRM.Services.EisActorSummary.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.EisActorSummary.ToString*
   commentId: Overload:SuperOffice.CRM.Services.EisActorSummary.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.EisActorSummary.html#SuperOffice_CRM_Services_EisActorSummary_ToString
   name: ToString
   nameWithType: EisActorSummary.ToString
   fullName: SuperOffice.CRM.Services.EisActorSummary.ToString
@@ -276,18 +342,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.EisActorSummary.ActorType*
   commentId: Overload:SuperOffice.CRM.Services.EisActorSummary.ActorType
   isExternal: true
+  href: SuperOffice.CRM.Services.EisActorSummary.html#SuperOffice_CRM_Services_EisActorSummary_ActorType
   name: ActorType
   nameWithType: EisActorSummary.ActorType
   fullName: SuperOffice.CRM.Services.EisActorSummary.ActorType
@@ -299,6 +364,7 @@ references:
 - uid: SuperOffice.CRM.Services.EisActorSummary.HasMappings*
   commentId: Overload:SuperOffice.CRM.Services.EisActorSummary.HasMappings
   isExternal: true
+  href: SuperOffice.CRM.Services.EisActorSummary.html#SuperOffice_CRM_Services_EisActorSummary_HasMappings
   name: HasMappings
   nameWithType: EisActorSummary.HasMappings
   fullName: SuperOffice.CRM.Services.EisActorSummary.HasMappings
@@ -306,18 +372,24 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.EisActorSummary.Defaults*
   commentId: Overload:SuperOffice.CRM.Services.EisActorSummary.Defaults
   isExternal: true
+  href: SuperOffice.CRM.Services.EisActorSummary.html#SuperOffice_CRM_Services_EisActorSummary_Defaults
   name: Defaults
   nameWithType: EisActorSummary.Defaults
   fullName: SuperOffice.CRM.Services.EisActorSummary.Defaults
 - uid: SuperOffice.CRM.Services.EisActorSummary.Mappings*
   commentId: Overload:SuperOffice.CRM.Services.EisActorSummary.Mappings
   isExternal: true
+  href: SuperOffice.CRM.Services.EisActorSummary.html#SuperOffice_CRM_Services_EisActorSummary_Mappings
   name: Mappings
   nameWithType: EisActorSummary.Mappings
   fullName: SuperOffice.CRM.Services.EisActorSummary.Mappings

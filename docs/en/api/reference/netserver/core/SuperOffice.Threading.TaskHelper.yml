@@ -1,0 +1,718 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.TaskHelper
+  commentId: T:SuperOffice.Threading.TaskHelper
+  id: TaskHelper
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.TaskHelper.RunInUserContext(System.Action,System.Threading.CancellationToken)
+  - SuperOffice.Threading.TaskHelper.RunInUserContext(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Threading.CancellationToken)
+  - SuperOffice.Threading.TaskHelper.RunInUserContext(System.Func{System.Threading.Tasks.Task},System.Threading.CancellationToken)
+  - SuperOffice.Threading.TaskHelper.WaitAsync(System.Threading.Tasks.Task,System.Threading.CancellationToken)
+  - SuperOffice.Threading.TaskHelper.WaitForAllRunningTasksAsync(System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: TaskHelper
+  nameWithType: TaskHelper
+  fullName: SuperOffice.Threading.TaskHelper
+  type: Class
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public static class TaskHelper
+    content.vb: Public Module TaskHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.Threading.TaskHelper.WaitAsync(System.Threading.Tasks.Task,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.TaskHelper.WaitAsync(System.Threading.Tasks.Task,System.Threading.CancellationToken)
+  id: WaitAsync(System.Threading.Tasks.Task,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: SuperOffice.Threading.TaskHelper
+  langs:
+  - csharp
+  - vb
+  name: WaitAsync(Task, CancellationToken)
+  nameWithType: TaskHelper.WaitAsync(Task, CancellationToken)
+  fullName: SuperOffice.Threading.TaskHelper.WaitAsync(System.Threading.Tasks.Task, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: >-
+    Alternative to System.Threading.Tasks.Task.WaitAsync which is only available on NET5+, attach this to a task that might not have a cancellation token
+
+    https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task.whenany?view=net-8.0
+  example: []
+  syntax:
+    content: public static Task WaitAsync(this Task task, CancellationToken cancellationToken)
+    parameters:
+    - id: task
+      type: System.Threading.Tasks.Task
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function WaitAsync(task As Task, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.Threading.TaskHelper.WaitAsync*
+- uid: SuperOffice.Threading.TaskHelper.RunInUserContext(System.Action,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.TaskHelper.RunInUserContext(System.Action,System.Threading.CancellationToken)
+  id: RunInUserContext(System.Action,System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.TaskHelper
+  langs:
+  - csharp
+  - vb
+  name: RunInUserContext(Action, CancellationToken)
+  nameWithType: TaskHelper.RunInUserContext(Action, CancellationToken)
+  fullName: SuperOffice.Threading.TaskHelper.RunInUserContext(System.Action, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Perform a Task.Run while ensuring that NetServer's contexts is taken care of and disposed request scoped instances are not used.
+  remarks: >-
+    Execute the work in a task.  This task supports that it starts in the context of a request, or other operation, where the scope
+
+    is disposed before the task is completed.  Information about the logged in user is handled as well.
+  example: []
+  syntax:
+    content: public static Task RunInUserContext(Action action, CancellationToken cancellationToken = default)
+    parameters:
+    - id: action
+      type: System.Action
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: Task that is safe not to await for.
+    content.vb: Public Shared Function RunInUserContext(action As Action, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Threading.TaskHelper.RunInUserContext*
+- uid: SuperOffice.Threading.TaskHelper.RunInUserContext(System.Func{System.Threading.Tasks.Task},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.TaskHelper.RunInUserContext(System.Func{System.Threading.Tasks.Task},System.Threading.CancellationToken)
+  id: RunInUserContext(System.Func{System.Threading.Tasks.Task},System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.TaskHelper
+  langs:
+  - csharp
+  - vb
+  name: RunInUserContext(Func<Task>, CancellationToken)
+  nameWithType: TaskHelper.RunInUserContext(Func<Task>, CancellationToken)
+  fullName: SuperOffice.Threading.TaskHelper.RunInUserContext(System.Func<System.Threading.Tasks.Task>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Perform a Task.Run while ensuring that NetServer's contexts is taken care of and disposed request scoped instances are not used.
+  remarks: >-
+    Execute the work in a task.  This task supports that it starts in the context of a request, or other operation, where the scope
+
+    is disposed before the task is completed.  Information about the logged in user is handled as well.
+  example: []
+  syntax:
+    content: public static Task RunInUserContext(Func<Task> action, CancellationToken cancellationToken = default)
+    parameters:
+    - id: action
+      type: System.Func{System.Threading.Tasks.Task}
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: Task that is safe not to await for.
+    content.vb: Public Shared Function RunInUserContext(action As Func(Of Task), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Threading.TaskHelper.RunInUserContext*
+  nameWithType.vb: TaskHelper.RunInUserContext(Func(Of Task), CancellationToken)
+  fullName.vb: SuperOffice.Threading.TaskHelper.RunInUserContext(System.Func(Of System.Threading.Tasks.Task), System.Threading.CancellationToken)
+  name.vb: RunInUserContext(Func(Of Task), CancellationToken)
+- uid: SuperOffice.Threading.TaskHelper.RunInUserContext(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.TaskHelper.RunInUserContext(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Threading.CancellationToken)
+  id: RunInUserContext(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.TaskHelper
+  langs:
+  - csharp
+  - vb
+  name: RunInUserContext(Func<CancellationToken, Task>, CancellationToken)
+  nameWithType: TaskHelper.RunInUserContext(Func<CancellationToken, Task>, CancellationToken)
+  fullName: SuperOffice.Threading.TaskHelper.RunInUserContext(System.Func<System.Threading.CancellationToken, System.Threading.Tasks.Task>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Perform a Task.Run while ensuring that NetServer's contexts is taken care of and disposed request scoped instances are not used.
+  remarks: >-
+    Execute the work in a task.  This task supports that it starts in the context of a request, or other operation, where the scope
+
+    is disposed before the task is completed.  Information about the logged in user is handled as well.
+  example: []
+  syntax:
+    content: public static Task RunInUserContext(Func<CancellationToken, Task> action, CancellationToken cancellationToken = default)
+    parameters:
+    - id: action
+      type: System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task}
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: Task that is safe not to await for.
+    content.vb: Public Shared Function RunInUserContext(action As Func(Of CancellationToken, Task), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Threading.TaskHelper.RunInUserContext*
+  nameWithType.vb: TaskHelper.RunInUserContext(Func(Of CancellationToken, Task), CancellationToken)
+  fullName.vb: SuperOffice.Threading.TaskHelper.RunInUserContext(System.Func(Of System.Threading.CancellationToken, System.Threading.Tasks.Task), System.Threading.CancellationToken)
+  name.vb: RunInUserContext(Func(Of CancellationToken, Task), CancellationToken)
+- uid: SuperOffice.Threading.TaskHelper.WaitForAllRunningTasksAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.TaskHelper.WaitForAllRunningTasksAsync(System.Threading.CancellationToken)
+  id: WaitForAllRunningTasksAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.TaskHelper
+  langs:
+  - csharp
+  - vb
+  name: WaitForAllRunningTasksAsync(CancellationToken)
+  nameWithType: TaskHelper.WaitForAllRunningTasksAsync(CancellationToken)
+  fullName: SuperOffice.Threading.TaskHelper.WaitForAllRunningTasksAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Wait for all currently running tasks to comlete
+  example: []
+  syntax:
+    content: public static Task WaitForAllRunningTasksAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Shared Function WaitForAllRunningTasksAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Threading.TaskHelper.WaitForAllRunningTasksAsync*
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Threading.TaskHelper.WaitAsync*
+  commentId: Overload:SuperOffice.Threading.TaskHelper.WaitAsync
+  isExternal: true
+  href: SuperOffice.Threading.TaskHelper.html#SuperOffice_Threading_TaskHelper_WaitAsync_System_Threading_Tasks_Task_System_Threading_CancellationToken_
+  name: WaitAsync
+  nameWithType: TaskHelper.WaitAsync
+  fullName: SuperOffice.Threading.TaskHelper.WaitAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: SuperOffice.Threading.TaskHelper.RunInUserContext*
+  commentId: Overload:SuperOffice.Threading.TaskHelper.RunInUserContext
+  isExternal: true
+  href: SuperOffice.Threading.TaskHelper.html#SuperOffice_Threading_TaskHelper_RunInUserContext_System_Action_System_Threading_CancellationToken_
+  name: RunInUserContext
+  nameWithType: TaskHelper.RunInUserContext
+  fullName: SuperOffice.Threading.TaskHelper.RunInUserContext
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System.Func{System.Threading.Tasks.Task}
+  commentId: T:System.Func{System.Threading.Tasks.Task}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<Task>
+  nameWithType: Func<Task>
+  fullName: System.Func<System.Threading.Tasks.Task>
+  nameWithType.vb: Func(Of Task)
+  fullName.vb: System.Func(Of System.Threading.Tasks.Task)
+  name.vb: Func(Of Task)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task}
+  commentId: T:System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<CancellationToken, Task>
+  nameWithType: Func<CancellationToken, Task>
+  fullName: System.Func<System.Threading.CancellationToken, System.Threading.Tasks.Task>
+  nameWithType.vb: Func(Of CancellationToken, Task)
+  fullName.vb: System.Func(Of System.Threading.CancellationToken, System.Threading.Tasks.Task)
+  name.vb: Func(Of CancellationToken, Task)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: SuperOffice.Threading.TaskHelper.WaitForAllRunningTasksAsync*
+  commentId: Overload:SuperOffice.Threading.TaskHelper.WaitForAllRunningTasksAsync
+  isExternal: true
+  href: SuperOffice.Threading.TaskHelper.html#SuperOffice_Threading_TaskHelper_WaitForAllRunningTasksAsync_System_Threading_CancellationToken_
+  name: WaitForAllRunningTasksAsync
+  nameWithType: TaskHelper.WaitForAllRunningTasksAsync
+  fullName: SuperOffice.Threading.TaskHelper.WaitForAllRunningTasksAsync

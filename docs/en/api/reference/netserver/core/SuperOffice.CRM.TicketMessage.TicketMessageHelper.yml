@@ -5,8 +5,8 @@ items:
   id: TicketMessageHelper
   parent: SuperOffice.CRM.TicketMessage
   children:
-  - SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachments(System.String,System.Int32)
-  - SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContent(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean)
+  - SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachmentsAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContentAsync(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.TicketMessage.TicketMessageHelper.Html2Text(System.String)
   langs:
   - csharp
@@ -15,26 +15,22 @@ items:
   nameWithType: TicketMessageHelper
   fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.TicketMessage
   syntax:
-    content: 'public static class TicketMessageHelper : Object'
-    content.vb: >-
-      Public Module TicketMessageHelper
-          Inherits Object
+    content: public static class TicketMessageHelper
+    content.vb: Public Module TicketMessageHelper
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper.Html2Text(System.String)
   commentId: M:SuperOffice.CRM.TicketMessage.TicketMessageHelper.Html2Text(System.String)
   id: Html2Text(System.String)
@@ -42,17 +38,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Html2Text(String)
-  nameWithType: TicketMessageHelper.Html2Text(String)
-  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.Html2Text(System.String)
+  name: Html2Text(string)
+  nameWithType: TicketMessageHelper.Html2Text(string)
+  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.Html2Text(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.TicketMessage
-  summary: "\nCreate a plain text version of the html, suitable for email\n"
+  summary: Create a plain text version of the html, suitable for email
+  example: []
   syntax:
     content: public static string Html2Text(string content)
     parameters:
@@ -64,31 +58,25 @@ items:
       description: The plain text version
     content.vb: Public Shared Function Html2Text(content As String) As String
   overload: SuperOffice.CRM.TicketMessage.TicketMessageHelper.Html2Text*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContent(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean)
-  commentId: M:SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContent(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean)
-  id: GetDefaultMessageContent(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean)
+  nameWithType.vb: TicketMessageHelper.Html2Text(String)
+  fullName.vb: SuperOffice.CRM.TicketMessage.TicketMessageHelper.Html2Text(String)
+  name.vb: Html2Text(String)
+- uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContentAsync(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContentAsync(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean,System.Threading.CancellationToken)
+  id: GetDefaultMessageContentAsync(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.TicketMessage.TicketMessageHelper
   langs:
   - csharp
   - vb
-  name: GetDefaultMessageContent(Int32, MessageActionType, Int32, Int32, Boolean)
-  nameWithType: TicketMessageHelper.GetDefaultMessageContent(Int32, MessageActionType, Int32, Int32, Boolean)
-  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContent(System.Int32, SuperOffice.Data.MessageActionType, System.Int32, System.Int32, System.Boolean)
+  name: GetDefaultMessageContentAsync(int, MessageActionType, int, int, bool, CancellationToken)
+  nameWithType: TicketMessageHelper.GetDefaultMessageContentAsync(int, MessageActionType, int, int, bool, CancellationToken)
+  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContentAsync(int, SuperOffice.Data.MessageActionType, int, int, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.TicketMessage
   syntax:
-    content: public static TicketMessageContent GetDefaultMessageContent(int ticketId, MessageActionType messageActionType, int ticketMessageId, int ticketTypeId = 0, bool skipSignature = false)
+    content: public static Task<TicketMessageContent> GetDefaultMessageContentAsync(int ticketId, MessageActionType messageActionType, int ticketMessageId, int ticketTypeId = 0, bool skipSignature = false, CancellationToken cancellationToken = default)
     parameters:
     - id: ticketId
       type: System.Int32
@@ -100,71 +88,324 @@ items:
       type: System.Int32
     - id: skipSignature
       type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.TicketMessage.TicketMessageContent
-    content.vb: Public Shared Function GetDefaultMessageContent(ticketId As Integer, messageActionType As MessageActionType, ticketMessageId As Integer, ticketTypeId As Integer = 0, skipSignature As Boolean = False) As TicketMessageContent
-  overload: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachments(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachments(System.String,System.Int32)
-  id: FindAndInsertInlineAttachments(System.String,System.Int32)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.TicketMessage.TicketMessageContent}
+    content.vb: Public Shared Function GetDefaultMessageContentAsync(ticketId As Integer, messageActionType As MessageActionType, ticketMessageId As Integer, ticketTypeId As Integer = 0, skipSignature As Boolean = False, cancellationToken As CancellationToken = Nothing) As Task(Of TicketMessageContent)
+  overload: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContentAsync*
+  nameWithType.vb: TicketMessageHelper.GetDefaultMessageContentAsync(Integer, MessageActionType, Integer, Integer, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContentAsync(Integer, SuperOffice.Data.MessageActionType, Integer, Integer, Boolean, System.Threading.CancellationToken)
+  name.vb: GetDefaultMessageContentAsync(Integer, MessageActionType, Integer, Integer, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachmentsAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachmentsAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: FindAndInsertInlineAttachmentsAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.TicketMessage.TicketMessageHelper
   langs:
   - csharp
   - vb
-  name: FindAndInsertInlineAttachments(String, Int32)
-  nameWithType: TicketMessageHelper.FindAndInsertInlineAttachments(String, Int32)
-  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachments(System.String, System.Int32)
+  name: FindAndInsertInlineAttachmentsAsync(string, int, CancellationToken)
+  nameWithType: TicketMessageHelper.FindAndInsertInlineAttachmentsAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachmentsAsync(string, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.TicketMessage
   syntax:
-    content: public static void FindAndInsertInlineAttachments(string content, int ticketMessageId)
+    content: public static Task FindAndInsertInlineAttachmentsAsync(string content, int ticketMessageId, CancellationToken cancellationToken = default)
     parameters:
     - id: content
       type: System.String
     - id: ticketMessageId
       type: System.Int32
-    content.vb: Public Shared Sub FindAndInsertInlineAttachments(content As String, ticketMessageId As Integer)
-  overload: SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachments*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function FindAndInsertInlineAttachmentsAsync(content As String, ticketMessageId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachmentsAsync*
+  nameWithType.vb: TicketMessageHelper.FindAndInsertInlineAttachmentsAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachmentsAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: FindAndInsertInlineAttachmentsAsync(String, Integer, CancellationToken)
 references:
 - uid: SuperOffice.CRM.TicketMessage
   commentId: N:SuperOffice.CRM.TicketMessage
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.TicketMessage
   nameWithType: SuperOffice.CRM.TicketMessage
   fullName: SuperOffice.CRM.TicketMessage
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.TicketMessage
+    name: TicketMessage
+    isExternal: true
+    href: SuperOffice.CRM.TicketMessage.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.TicketMessage
+    name: TicketMessage
+    isExternal: true
+    href: SuperOffice.CRM.TicketMessage.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper.Html2Text*
   commentId: Overload:SuperOffice.CRM.TicketMessage.TicketMessageHelper.Html2Text
   isExternal: true
+  href: SuperOffice.CRM.TicketMessage.TicketMessageHelper.html#SuperOffice_CRM_TicketMessage_TicketMessageHelper_Html2Text_System_String_
   name: Html2Text
   nameWithType: TicketMessageHelper.Html2Text
   fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.Html2Text
@@ -172,26 +413,36 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContent*
-  commentId: Overload:SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContent
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContentAsync*
+  commentId: Overload:SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContentAsync
   isExternal: true
-  name: GetDefaultMessageContent
-  nameWithType: TicketMessageHelper.GetDefaultMessageContent
-  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContent
+  href: SuperOffice.CRM.TicketMessage.TicketMessageHelper.html#SuperOffice_CRM_TicketMessage_TicketMessageHelper_GetDefaultMessageContentAsync_System_Int32_SuperOffice_Data_MessageActionType_System_Int32_System_Int32_System_Boolean_System_Threading_CancellationToken_
+  name: GetDefaultMessageContentAsync
+  nameWithType: TicketMessageHelper.GetDefaultMessageContentAsync
+  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContentAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.Data.MessageActionType
   commentId: T:SuperOffice.Data.MessageActionType
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.MessageActionType.html
   name: MessageActionType
   nameWithType: MessageActionType
   fullName: SuperOffice.Data.MessageActionType
@@ -199,25 +450,187 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.TicketMessage.TicketMessageContent
-  commentId: T:SuperOffice.CRM.TicketMessage.TicketMessageContent
-  parent: SuperOffice.CRM.TicketMessage
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: TicketMessageContent
-  nameWithType: TicketMessageContent
-  fullName: SuperOffice.CRM.TicketMessage.TicketMessageContent
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.TicketMessage.TicketMessageContent}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.TicketMessage.TicketMessageContent}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TicketMessageContent>
+  nameWithType: Task<TicketMessageContent>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.TicketMessage.TicketMessageContent>
+  nameWithType.vb: Task(Of TicketMessageContent)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.TicketMessage.TicketMessageContent)
+  name.vb: Task(Of TicketMessageContent)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.TicketMessage.TicketMessageContent
+    name: TicketMessageContent
+    isExternal: true
+    href: SuperOffice.CRM.TicketMessage.TicketMessageContent.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.TicketMessage.TicketMessageContent
+    name: TicketMessageContent
+    isExternal: true
+    href: SuperOffice.CRM.TicketMessage.TicketMessageContent.html
+  - name: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachments*
-  commentId: Overload:SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachments
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: FindAndInsertInlineAttachments
-  nameWithType: TicketMessageHelper.FindAndInsertInlineAttachments
-  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachments
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachmentsAsync*
+  commentId: Overload:SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachmentsAsync
+  isExternal: true
+  href: SuperOffice.CRM.TicketMessage.TicketMessageHelper.html#SuperOffice_CRM_TicketMessage_TicketMessageHelper_FindAndInsertInlineAttachmentsAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  name: FindAndInsertInlineAttachmentsAsync
+  nameWithType: TicketMessageHelper.FindAndInsertInlineAttachmentsAsync
+  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachmentsAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task

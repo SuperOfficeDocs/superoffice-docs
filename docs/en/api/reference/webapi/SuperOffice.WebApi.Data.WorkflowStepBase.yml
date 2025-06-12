@@ -18,18 +18,75 @@ items:
   nameWithType: WorkflowStepBase
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for WorkflowStepBase.\nWorkflow step carrier.    \n"
+  summary: >-
+    Carrier object for WorkflowStepBase.
+
+    Workflow step carrier.
+  example: []
   syntax:
-    content: 'public class WorkflowStepBase : Object'
+    content: >-
+      [KnownType(typeof(WorkflowStepAddToList))]
+
+      [KnownType(typeof(WorkflowStepCreateFollowUp))]
+
+      [KnownType(typeof(WorkflowStepCreateRequest))]
+
+      [KnownType(typeof(WorkflowStepCreateSale))]
+
+      [KnownType(typeof(WorkflowStepNotifyByEmail))]
+
+      [KnownType(typeof(WorkflowStepNotifyBySMS))]
+
+      [KnownType(typeof(WorkflowStepRemoveFromList))]
+
+      [KnownType(typeof(WorkflowStepRunScript))]
+
+      [KnownType(typeof(WorkflowStepSendEmail))]
+
+      [KnownType(typeof(WorkflowStepSendSMS))]
+
+      [KnownType(typeof(WorkflowStepSplit))]
+
+      [KnownType(typeof(WorkflowStepUpdateParticipant))]
+
+      [KnownType(typeof(WorkflowStepWaitForAction))]
+
+      [KnownType(typeof(WorkflowStepWaitForTime))]
+
+      public class WorkflowStepBase
     content.vb: >-
+      <KnownType(GetType(WorkflowStepAddToList))>
+
+      <KnownType(GetType(WorkflowStepCreateFollowUp))>
+
+      <KnownType(GetType(WorkflowStepCreateRequest))>
+
+      <KnownType(GetType(WorkflowStepCreateSale))>
+
+      <KnownType(GetType(WorkflowStepNotifyByEmail))>
+
+      <KnownType(GetType(WorkflowStepNotifyBySMS))>
+
+      <KnownType(GetType(WorkflowStepRemoveFromList))>
+
+      <KnownType(GetType(WorkflowStepRunScript))>
+
+      <KnownType(GetType(WorkflowStepSendEmail))>
+
+      <KnownType(GetType(WorkflowStepSendSMS))>
+
+      <KnownType(GetType(WorkflowStepSplit))>
+
+      <KnownType(GetType(WorkflowStepUpdateParticipant))>
+
+      <KnownType(GetType(WorkflowStepWaitForAction))>
+
+      <KnownType(GetType(WorkflowStepWaitForTime))>
+
       Public Class WorkflowStepBase
-          Inherits Object
   seealso:
   - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
     commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
@@ -50,12 +107,85 @@ items:
   - SuperOffice.WebApi.Data.WorkflowStepUpdateParticipant
   - SuperOffice.WebApi.Data.WorkflowStepWaitForAction
   - SuperOffice.WebApi.Data.WorkflowStepWaitForTime
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.WebApi.Data.WorkflowStepAddToList
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.WebApi.Data.WorkflowStepCreateRequest
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.WebApi.Data.WorkflowStepNotifyBySMS
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.WebApi.Data.WorkflowStepRemoveFromList
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.WebApi.Data.WorkflowStepRunScript
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.WebApi.Data.WorkflowStepSendEmail
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.WebApi.Data.WorkflowStepSendSMS
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.WebApi.Data.WorkflowStepSplit
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.WebApi.Data.WorkflowStepUpdateParticipant
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.WebApi.Data.WorkflowStepWaitForAction
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.WebApi.Data.WorkflowStepWaitForTime
 - uid: SuperOffice.WebApi.Data.WorkflowStepBase.#ctor
   commentId: M:SuperOffice.WebApi.Data.WorkflowStepBase.#ctor
   id: '#ctor'
@@ -67,21 +197,18 @@ items:
   nameWithType: WorkflowStepBase.WorkflowStepBase()
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepBase()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public WorkflowStepBase()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.WorkflowStepBase.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: WorkflowStepBase.New()
+  fullName.vb: SuperOffice.WebApi.Data.WorkflowStepBase.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
   id: WorkflowStepId
@@ -93,13 +220,11 @@ items:
   nameWithType: WorkflowStepBase.WorkflowStepId
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPrimary key\n"
+  summary: Primary key
+  example: []
   syntax:
     content: public virtual int WorkflowStepId { get; set; }
     parameters: []
@@ -107,14 +232,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property WorkflowStepId As Integer
   overload: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
   id: WorkflowId
@@ -126,13 +243,11 @@ items:
   nameWithType: WorkflowStepBase.WorkflowId
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe workflow to connect to\n"
+  summary: The workflow to connect to
+  example: []
   syntax:
     content: public virtual int WorkflowId { get; set; }
     parameters: []
@@ -140,14 +255,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property WorkflowId As Integer
   overload: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
   id: StepType_String
@@ -159,29 +266,36 @@ items:
   nameWithType: WorkflowStepBase.StepType_String
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nStep type\nRaw string enum value.\n"
+  summary: >-
+    Step type
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string StepType_String { get; set; }
+    content: >-
+      [JsonProperty("StepType")]
+
+      public string StepType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property StepType_String As String
+    content.vb: >-
+      <JsonProperty("StepType")>
+
+      Public Property StepType_String As String
   overload: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
     commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: StepType
 - uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType
   id: StepType
@@ -193,29 +307,34 @@ items:
   nameWithType: WorkflowStepBase.StepType
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nStep type\nNULL if unknown enum value.\n"
+  summary: >-
+    Step type
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<WorkflowStepType> StepType { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public WorkflowStepType? StepType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.WorkflowStepType}
-    content.vb: Public Property StepType As Nullable(Of WorkflowStepType)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property StepType As WorkflowStepType?
   overload: SuperOffice.WebApi.Data.WorkflowStepBase.StepType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
     commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.Rank
   id: Rank
@@ -227,13 +346,11 @@ items:
   nameWithType: WorkflowStepBase.Rank
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nStep order\n"
+  summary: Step order
+  example: []
   syntax:
     content: public virtual int Rank { get; set; }
     parameters: []
@@ -241,49 +358,302 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Rank As Integer
   overload: SuperOffice.WebApi.Data.WorkflowStepBase.Rank*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.WorkflowAgent.html
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: SuperOffice.WebApi.Agents.WorkflowAgent
-  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: WorkflowAgent
-  nameWithType: WorkflowAgent
-  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.WorkflowStepBase.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepBase.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase__ctor
   name: WorkflowStepBase
   nameWithType: WorkflowStepBase.WorkflowStepBase
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepBase
+  nameWithType.vb: WorkflowStepBase.New
+  fullName.vb: SuperOffice.WebApi.Data.WorkflowStepBase.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_WorkflowStepId
   name: WorkflowStepId
   nameWithType: WorkflowStepBase.WorkflowStepId
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
@@ -291,139 +661,121 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_WorkflowId
   name: WorkflowId
   nameWithType: WorkflowStepBase.WorkflowId
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String*
-  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
-  isExternal: true
-  name: StepType_String
-  nameWithType: WorkflowStepBase.StepType_String
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
 - uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType
   parent: SuperOffice.WebApi.Data.WorkflowStepBase
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_StepType
   name: StepType
   nameWithType: WorkflowStepBase.StepType
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_StepType_String
+  name: StepType_String
+  nameWithType: WorkflowStepBase.StepType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.WorkflowStepBase
   commentId: T:SuperOffice.WebApi.Data.WorkflowStepBase
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepBase.html
   name: WorkflowStepBase
   nameWithType: WorkflowStepBase
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType*
-  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepBase.StepType
-  isExternal: true
-  name: StepType
-  nameWithType: WorkflowStepBase.StepType
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
 - uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
   parent: SuperOffice.WebApi.Data.WorkflowStepBase
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_StepType_String
   name: StepType_String
   nameWithType: WorkflowStepBase.StepType_String
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
-- uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowStepType}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WorkflowStepType}'
-  definition: System.Nullable`1
-  name: Nullable<WorkflowStepType>
-  nameWithType: Nullable<WorkflowStepType>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.WorkflowStepType>
-  nameWithType.vb: Nullable(Of WorkflowStepType)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WorkflowStepType)
-  name.vb: Nullable(Of WorkflowStepType)
-  spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.WorkflowStepType
-    name: WorkflowStepType
-    nameWithType: WorkflowStepType
-    fullName: SuperOffice.WebApi.Data.WorkflowStepType
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.WorkflowStepType
-    name: WorkflowStepType
-    nameWithType: WorkflowStepType
-    fullName: SuperOffice.WebApi.Data.WorkflowStepType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Nullable`1
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepBase.StepType
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_StepType
+  name: StepType
+  nameWithType: WorkflowStepBase.StepType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+- uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowStepType}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.WorkflowStepType}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.WorkflowStepType.html
+  name: WorkflowStepType?
+  nameWithType: WorkflowStepType?
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.WorkflowStepType
+    name: WorkflowStepType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.WorkflowStepType.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.WorkflowStepType
+    name: WorkflowStepType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.WorkflowStepType.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Data.WorkflowStepBase.Rank*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepBase.Rank
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_Rank
   name: Rank
   nameWithType: WorkflowStepBase.Rank
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.Rank

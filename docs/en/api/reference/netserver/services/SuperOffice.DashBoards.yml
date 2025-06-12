@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DashBoards
+  commentId: N:SuperOffice.DashBoards
+  id: SuperOffice.DashBoards
+  children:
+  - SuperOffice.DashBoards.UpdateState
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.DashBoards
+  nameWithType: SuperOffice.DashBoards
+  fullName: SuperOffice.DashBoards
+  type: Namespace
+  assemblies:
+  - SuperOffice.Services.Implementation
+references:
+- uid: SuperOffice.DashBoards.UpdateState
+  commentId: T:SuperOffice.DashBoards.UpdateState
+  isExternal: true
+  href: SuperOffice.DashBoards.UpdateState.html
+  name: UpdateState
+  nameWithType: UpdateState
+  fullName: SuperOffice.DashBoards.UpdateState

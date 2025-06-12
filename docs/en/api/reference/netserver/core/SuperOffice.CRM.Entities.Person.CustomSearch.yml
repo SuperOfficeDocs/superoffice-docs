@@ -17,19 +17,14 @@ items:
   nameWithType: Person.CustomSearch
   fullName: SuperOffice.CRM.Entities.Person.CustomSearch
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nClass representing a custom search on table &apos;Person&apos;.\n"
+  summary: Class representing a custom search on table 'Person'.
+  example: []
   syntax:
-    content: 'public sealed class CustomSearch : Person.PersonIdx<PersonRow.CustomSearch>, ISentryIgnorable'
-    content.vb: >-
-      Public NotInheritable Class CustomSearch
-          Inherits Person.PersonIdx(Of PersonRow.CustomSearch)
-          Implements ISentryIgnorable
+    content: 'public sealed class Person.CustomSearch : Person.PersonIdx<PersonRow.CustomSearch>, ISentryIgnorable'
+    content.vb: Public NotInheritable Class Person.CustomSearch Inherits Person.PersonIdx(Of PersonRow.CustomSearch) Implements ISentryIgnorable
   inheritance:
   - System.Object
   - SuperOffice.CRM.Entities.EntityIdxBase
@@ -41,19 +36,17 @@ items:
   - SuperOffice.CRM.Security.ISentryIgnorable
   inheritedMembers:
   - SuperOffice.CRM.Entities.Person.PersonIdx{SuperOffice.CRM.Rows.PersonRow.CustomSearch}.RowIdx
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
   extensionMethods:
   - SuperOffice.CRM.Entities.Person.CustomSearch.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.Person.CustomSearch.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Entities.Person.CustomSearch.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Person.CustomSearch)
   - SuperOffice.CRM.Entities.Person.CustomSearch.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Entities.Person.CustomSearch.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
 - uid: SuperOffice.CRM.Entities.Person.CustomSearch.#ctor
   commentId: M:SuperOffice.CRM.Entities.Person.CustomSearch.#ctor
   id: '#ctor'
@@ -65,21 +58,18 @@ items:
   nameWithType: Person.CustomSearch.CustomSearch()
   fullName: SuperOffice.CRM.Entities.Person.CustomSearch.CustomSearch()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nConstructor for class Person.CustomSearch\n"
+  summary: Constructor for class Person.CustomSearch
+  example: []
   syntax:
     content: public CustomSearch()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Entities.Person.CustomSearch.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: Person.CustomSearch.New()
+  fullName.vb: SuperOffice.CRM.Entities.Person.CustomSearch.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Entities.Person.CustomSearch.RestrictionAnd(SuperOffice.Data.SQL.Restriction)
   commentId: M:SuperOffice.CRM.Entities.Person.CustomSearch.RestrictionAnd(SuperOffice.Data.SQL.Restriction)
   id: RestrictionAnd(SuperOffice.Data.SQL.Restriction)
@@ -91,25 +81,24 @@ items:
   nameWithType: Person.CustomSearch.RestrictionAnd(Restriction)
   fullName: SuperOffice.CRM.Entities.Person.CustomSearch.RestrictionAnd(SuperOffice.Data.SQL.Restriction)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nCalling this method is equivalent to the statement Restriction = Restriction.And( &lt;argument> ),\nincluding protection against null Restrictions. Use it as a convenient shorthand if you are building\ncomplex restrictions out of smaller parts.\n"
+  summary: >-
+    Calling this method is equivalent to the statement Restriction = Restriction.And( &lt;argument&gt; ),
+
+    including protection against null Restrictions. Use it as a convenient shorthand if you are building
+
+    complex restrictions out of smaller parts.
+  example: []
   syntax:
     content: public void RestrictionAnd(Restriction rightHandSide)
     parameters:
     - id: rightHandSide
       type: SuperOffice.Data.SQL.Restriction
-      description: The right-hand side of the AND, the left-hand side is this objects&apos; current Restriction.
+      description: The right-hand side of the AND, the left-hand side is this objects' current Restriction.
     content.vb: Public Sub RestrictionAnd(rightHandSide As Restriction)
   overload: SuperOffice.CRM.Entities.Person.CustomSearch.RestrictionAnd*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Person.CustomSearch.RestrictionOr(SuperOffice.Data.SQL.Restriction)
   commentId: M:SuperOffice.CRM.Entities.Person.CustomSearch.RestrictionOr(SuperOffice.Data.SQL.Restriction)
   id: RestrictionOr(SuperOffice.Data.SQL.Restriction)
@@ -121,25 +110,24 @@ items:
   nameWithType: Person.CustomSearch.RestrictionOr(Restriction)
   fullName: SuperOffice.CRM.Entities.Person.CustomSearch.RestrictionOr(SuperOffice.Data.SQL.Restriction)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nCalling this method is equivalent to the statement Restriction = Restriction.Or( &lt;argument> ),\nincluding protection against null Restrictions. Use it as a convenient shorthand if you are building\ncomplex restrictions out of smaller parts.\n"
+  summary: >-
+    Calling this method is equivalent to the statement Restriction = Restriction.Or( &lt;argument&gt; ),
+
+    including protection against null Restrictions. Use it as a convenient shorthand if you are building
+
+    complex restrictions out of smaller parts.
+  example: []
   syntax:
     content: public void RestrictionOr(Restriction rightHandSide)
     parameters:
     - id: rightHandSide
       type: SuperOffice.Data.SQL.Restriction
-      description: The right-hand side of the OR, the left-hand side is this objects&apos; current Restriction.
+      description: The right-hand side of the OR, the left-hand side is this objects' current Restriction.
     content.vb: Public Sub RestrictionOr(rightHandSide As Restriction)
   overload: SuperOffice.CRM.Entities.Person.CustomSearch.RestrictionOr*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Person.CustomSearch.Restriction
   commentId: P:SuperOffice.CRM.Entities.Person.CustomSearch.Restriction
   id: Restriction
@@ -151,13 +139,11 @@ items:
   nameWithType: Person.CustomSearch.Restriction
   fullName: SuperOffice.CRM.Entities.Person.CustomSearch.Restriction
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nRestriction (e.g. sql: WHERE) for the select statement.\n"
+  summary: 'Restriction (e.g. sql: WHERE) for the select statement.'
+  example: []
   syntax:
     content: public Restriction Restriction { get; set; }
     parameters: []
@@ -166,12 +152,6 @@ items:
       description: <xref href="SuperOffice.CRM.Entities.Person.CustomSearch.Restriction" data-throw-if-not-resolved="false"></xref>Object holding the restrictions for the select statement.
     content.vb: Public Property Restriction As Restriction
   overload: SuperOffice.CRM.Entities.Person.CustomSearch.Restriction*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Entities.Person.CustomSearch.OrderBy
   commentId: P:SuperOffice.CRM.Entities.Person.CustomSearch.OrderBy
   id: OrderBy
@@ -183,13 +163,11 @@ items:
   nameWithType: Person.CustomSearch.OrderBy
   fullName: SuperOffice.CRM.Entities.Person.CustomSearch.OrderBy
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "\nImplementation of the OrderBy clause.\n"
+  summary: Implementation of the OrderBy clause.
+  example: []
   syntax:
     content: public OrderBy OrderBy { get; }
     parameters: []
@@ -197,30 +175,60 @@ items:
       type: SuperOffice.Data.SQL.OrderBy
     content.vb: Public ReadOnly Property OrderBy As OrderBy
   overload: SuperOffice.CRM.Entities.Person.CustomSearch.OrderBy*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Entities.EntityIdxBase
   commentId: T:SuperOffice.CRM.Entities.EntityIdxBase
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.EntityIdxBase.html
   name: EntityIdxBase
   nameWithType: EntityIdxBase
   fullName: SuperOffice.CRM.Entities.EntityIdxBase
@@ -228,6 +236,7 @@ references:
   commentId: T:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.PersonTableInfo,SuperOffice.CRM.Rows.PersonRow.PersonRowIdxBase}
   parent: SuperOffice.CRM.Entities
   definition: SuperOffice.CRM.Entities.EntityIdxBase`2
+  href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
   name: EntityIdxBase<PersonTableInfo, PersonRow.PersonRowIdxBase>
   nameWithType: EntityIdxBase<PersonTableInfo, PersonRow.PersonRowIdxBase>
   fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.PersonTableInfo, SuperOffice.CRM.Rows.PersonRow.PersonRowIdxBase>
@@ -237,71 +246,110 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
     name: EntityIdxBase
-    nameWithType: EntityIdxBase
-    fullName: SuperOffice.CRM.Entities.EntityIdxBase
     isExternal: true
+    href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.PersonTableInfo
     name: PersonTableInfo
-    nameWithType: PersonTableInfo
-    fullName: SuperOffice.CRM.Data.PersonTableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Data.PersonTableInfo.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.PersonRow
+    name: PersonRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PersonRow.html
+  - name: .
   - uid: SuperOffice.CRM.Rows.PersonRow.PersonRowIdxBase
-    name: PersonRow.PersonRowIdxBase
-    nameWithType: PersonRow.PersonRowIdxBase
-    fullName: SuperOffice.CRM.Rows.PersonRow.PersonRowIdxBase
+    name: PersonRowIdxBase
     isExternal: true
+    href: SuperOffice.CRM.Rows.PersonRow.PersonRowIdxBase.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
     name: EntityIdxBase
-    nameWithType: EntityIdxBase
-    fullName: SuperOffice.CRM.Entities.EntityIdxBase
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.PersonTableInfo
     name: PersonTableInfo
-    nameWithType: PersonTableInfo
-    fullName: SuperOffice.CRM.Data.PersonTableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Data.PersonTableInfo.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.PersonRow
+    name: PersonRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PersonRow.html
+  - name: .
   - uid: SuperOffice.CRM.Rows.PersonRow.PersonRowIdxBase
-    name: PersonRow.PersonRowIdxBase
-    nameWithType: PersonRow.PersonRowIdxBase
-    fullName: SuperOffice.CRM.Rows.PersonRow.PersonRowIdxBase
+    name: PersonRowIdxBase
     isExternal: true
+    href: SuperOffice.CRM.Rows.PersonRow.PersonRowIdxBase.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Entities.Person.PersonIdxBase
   commentId: T:SuperOffice.CRM.Entities.Person.PersonIdxBase
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.Person.html
   name: Person.PersonIdxBase
   nameWithType: Person.PersonIdxBase
   fullName: SuperOffice.CRM.Entities.Person.PersonIdxBase
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.Person
+    name: Person
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities.Person.PersonIdxBase
+    name: PersonIdxBase
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.PersonIdxBase.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.Person
+    name: Person
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities.Person.PersonIdxBase
+    name: PersonIdxBase
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.PersonIdxBase.html
 - uid: SuperOffice.CRM.Entities.Person.PersonIdx
   commentId: T:SuperOffice.CRM.Entities.Person.PersonIdx
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.Person.html
   name: Person.PersonIdx
   nameWithType: Person.PersonIdx
   fullName: SuperOffice.CRM.Entities.Person.PersonIdx
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.Person
+    name: Person
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities.Person.PersonIdx
+    name: PersonIdx
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.PersonIdx.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.Person
+    name: Person
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities.Person.PersonIdx
+    name: PersonIdx
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.PersonIdx.html
 - uid: SuperOffice.CRM.Entities.Person.PersonIdx{SuperOffice.CRM.Rows.PersonRow.CustomSearch}
   commentId: T:SuperOffice.CRM.Entities.Person.PersonIdx{SuperOffice.CRM.Rows.PersonRow.CustomSearch}
   parent: SuperOffice.CRM.Entities
   definition: SuperOffice.CRM.Entities.Person.PersonIdx`1
+  href: SuperOffice.CRM.Entities.Person.html
   name: Person.PersonIdx<PersonRow.CustomSearch>
   nameWithType: Person.PersonIdx<PersonRow.CustomSearch>
   fullName: SuperOffice.CRM.Entities.Person.PersonIdx<SuperOffice.CRM.Rows.PersonRow.CustomSearch>
@@ -309,43 +357,54 @@ references:
   fullName.vb: SuperOffice.CRM.Entities.Person.PersonIdx(Of SuperOffice.CRM.Rows.PersonRow.CustomSearch)
   name.vb: Person.PersonIdx(Of PersonRow.CustomSearch)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.Person.PersonIdx`1
-    name: Person.PersonIdx
-    nameWithType: Person.PersonIdx
-    fullName: SuperOffice.CRM.Entities.Person.PersonIdx
+  - uid: SuperOffice.CRM.Entities.Person
+    name: Person
     isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities.Person.PersonIdx`1
+    name: PersonIdx
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.PersonIdx-1.html
   - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Rows.PersonRow.CustomSearch
-    name: PersonRow.CustomSearch
-    nameWithType: PersonRow.CustomSearch
-    fullName: SuperOffice.CRM.Rows.PersonRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.PersonRow
+    name: PersonRow
     isExternal: true
+    href: SuperOffice.CRM.Rows.PersonRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.PersonRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PersonRow.CustomSearch.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
+  - uid: SuperOffice.CRM.Entities.Person
+    name: Person
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: .
   - uid: SuperOffice.CRM.Entities.Person.PersonIdx`1
-    name: Person.PersonIdx
-    nameWithType: Person.PersonIdx
-    fullName: SuperOffice.CRM.Entities.Person.PersonIdx
+    name: PersonIdx
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.CRM.Entities.Person.PersonIdx-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.PersonRow
+    name: PersonRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PersonRow.html
+  - name: .
   - uid: SuperOffice.CRM.Rows.PersonRow.CustomSearch
-    name: PersonRow.CustomSearch
-    nameWithType: PersonRow.CustomSearch
-    fullName: SuperOffice.CRM.Rows.PersonRow.CustomSearch
+    name: CustomSearch
     isExternal: true
+    href: SuperOffice.CRM.Rows.PersonRow.CustomSearch.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.ISentryIgnorable
   commentId: T:SuperOffice.CRM.Security.ISentryIgnorable
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.ISentryIgnorable.html
   name: ISentryIgnorable
   nameWithType: ISentryIgnorable
   fullName: SuperOffice.CRM.Security.ISentryIgnorable
@@ -353,166 +412,430 @@ references:
   commentId: P:SuperOffice.CRM.Entities.Person.PersonIdx{SuperOffice.CRM.Rows.PersonRow.CustomSearch}.RowIdx
   parent: SuperOffice.CRM.Entities.Person.PersonIdx{SuperOffice.CRM.Rows.PersonRow.CustomSearch}
   definition: SuperOffice.CRM.Entities.Person.PersonIdx`1.RowIdx
+  href: SuperOffice.CRM.Entities.Person.PersonIdx-1.html#SuperOffice_CRM_Entities_Person_PersonIdx_1_RowIdx
   name: RowIdx
   nameWithType: Person.PersonIdx<PersonRow.CustomSearch>.RowIdx
   fullName: SuperOffice.CRM.Entities.Person.PersonIdx<SuperOffice.CRM.Rows.PersonRow.CustomSearch>.RowIdx
   nameWithType.vb: Person.PersonIdx(Of PersonRow.CustomSearch).RowIdx
   fullName.vb: SuperOffice.CRM.Entities.Person.PersonIdx(Of SuperOffice.CRM.Rows.PersonRow.CustomSearch).RowIdx
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Entities.Person.CustomSearch.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<Person.CustomSearch, To>()
-  nameWithType: EnumUtil.MapEnums<Person.CustomSearch, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Person.CustomSearch, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of Person.CustomSearch, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Person.CustomSearch, To)()
-  name.vb: MapEnums(Of Person.CustomSearch, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<CustomSearch, To>(CustomSearch)
+  nameWithType: EnumUtil.MapEnums<Person.CustomSearch, To>(Person.CustomSearch)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Person.CustomSearch, To>(SuperOffice.CRM.Entities.Person.CustomSearch)
+  nameWithType.vb: EnumUtil.MapEnums(Of Person.CustomSearch, To)(Person.CustomSearch)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Person.CustomSearch, To)(SuperOffice.CRM.Entities.Person.CustomSearch)
+  name.vb: MapEnums(Of CustomSearch, To)(CustomSearch)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<Person.CustomSearch, To>
-    nameWithType: EnumUtil.MapEnums<Person.CustomSearch, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Person.CustomSearch, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.Person.CustomSearch)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of Person.CustomSearch, To)
-    nameWithType: EnumUtil.MapEnums(Of Person.CustomSearch, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Person.CustomSearch, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.Person.CustomSearch.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Person.CustomSearch)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<Person.CustomSearch>(Person.CustomSearch)
-  nameWithType: ObjectExtensions.AssignByReflection<Person.CustomSearch>(Person.CustomSearch)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.Person.CustomSearch>(SuperOffice.CRM.Entities.Person.CustomSearch)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of Person.CustomSearch)(Person.CustomSearch)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.Person.CustomSearch)(SuperOffice.CRM.Entities.Person.CustomSearch)
-  name.vb: AssignByReflection(Of Person.CustomSearch)(Person.CustomSearch)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<Person.CustomSearch>
-    nameWithType: ObjectExtensions.AssignByReflection<Person.CustomSearch>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.Person.CustomSearch>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Entities.Person.CustomSearch
-    name: Person.CustomSearch
-    nameWithType: Person.CustomSearch
-    fullName: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of Person.CustomSearch)
-    nameWithType: ObjectExtensions.AssignByReflection(Of Person.CustomSearch)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.Person.CustomSearch)
-    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Entities.Person.CustomSearch
-    name: Person.CustomSearch
-    nameWithType: Person.CustomSearch
-    fullName: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
     isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.Person.CustomSearch.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<Person.CustomSearch>()
-  nameWithType: ObjectExtensions.GraphCopy<Person.CustomSearch>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.Person.CustomSearch>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of Person.CustomSearch)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.Person.CustomSearch)()
-  name.vb: GraphCopy(Of Person.CustomSearch)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<Person.CustomSearch>
-    nameWithType: ObjectExtensions.GraphCopy<Person.CustomSearch>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.Person.CustomSearch>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of Person.CustomSearch)
-    nameWithType: ObjectExtensions.GraphCopy(Of Person.CustomSearch)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.Person.CustomSearch)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.Person.CustomSearch)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
+  - name: )
 - uid: SuperOffice.CRM.Entities.Person.CustomSearch.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<Person.CustomSearch, To>()
-  nameWithType: Converters.MapEnums<Person.CustomSearch, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Person.CustomSearch, To>()
-  nameWithType.vb: Converters.MapEnums(Of Person.CustomSearch, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Person.CustomSearch, To)()
-  name.vb: MapEnums(Of Person.CustomSearch, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<CustomSearch, To>(CustomSearch)
+  nameWithType: Converters.MapEnums<Person.CustomSearch, To>(Person.CustomSearch)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Person.CustomSearch, To>(SuperOffice.CRM.Entities.Person.CustomSearch)
+  nameWithType.vb: Converters.MapEnums(Of Person.CustomSearch, To)(Person.CustomSearch)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Person.CustomSearch, To)(SuperOffice.CRM.Entities.Person.CustomSearch)
+  name.vb: MapEnums(Of CustomSearch, To)(CustomSearch)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<Person.CustomSearch, To>
-    nameWithType: Converters.MapEnums<Person.CustomSearch, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Person.CustomSearch, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.Person.CustomSearch)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of Person.CustomSearch, To)
-    nameWithType: Converters.MapEnums(Of Person.CustomSearch, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Person.CustomSearch, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.Person.CustomSearch)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.Person.CustomSearch.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Person.CustomSearch)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<CustomSearch>(CustomSearch, CustomSearch)
+  nameWithType: ObjectExtensions.AssignByReflection<Person.CustomSearch>(Person.CustomSearch, Person.CustomSearch)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.Person.CustomSearch>(SuperOffice.CRM.Entities.Person.CustomSearch, SuperOffice.CRM.Entities.Person.CustomSearch)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of Person.CustomSearch)(Person.CustomSearch, Person.CustomSearch)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.Person.CustomSearch)(SuperOffice.CRM.Entities.Person.CustomSearch, SuperOffice.CRM.Entities.Person.CustomSearch)
+  name.vb: AssignByReflection(Of CustomSearch)(CustomSearch, CustomSearch)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Person.CustomSearch,SuperOffice.CRM.Entities.Person.CustomSearch)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Person.CustomSearch,SuperOffice.CRM.Entities.Person.CustomSearch)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.Person.CustomSearch.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<CustomSearch>(CustomSearch)
+  nameWithType: ObjectExtensions.GraphCopy<Person.CustomSearch>(Person.CustomSearch)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.Person.CustomSearch>(SuperOffice.CRM.Entities.Person.CustomSearch)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of Person.CustomSearch)(Person.CustomSearch)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.Person.CustomSearch)(SuperOffice.CRM.Entities.Person.CustomSearch)
+  name.vb: GraphCopy(Of CustomSearch)(CustomSearch)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Entities.Person.CustomSearch)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Entities.Person.CustomSearch)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Person.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.CustomSearch.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
   commentId: T:SuperOffice.CRM.Entities.EntityIdxBase`2
   isExternal: true
+  href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
   name: EntityIdxBase<TTableInfo, TIdx>
   nameWithType: EntityIdxBase<TTableInfo, TIdx>
   fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>
@@ -522,48 +845,31 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
     name: EntityIdxBase
-    nameWithType: EntityIdxBase
-    fullName: SuperOffice.CRM.Entities.EntityIdxBase
     isExternal: true
+    href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TTableInfo
-    nameWithType: TTableInfo
-    fullName: TTableInfo
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TIdx
-    nameWithType: TIdx
-    fullName: TIdx
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
     name: EntityIdxBase
-    nameWithType: EntityIdxBase
-    fullName: SuperOffice.CRM.Entities.EntityIdxBase
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TTableInfo
-    nameWithType: TTableInfo
-    fullName: TTableInfo
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: TIdx
-    nameWithType: TIdx
-    fullName: TIdx
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Entities.Person.PersonIdx`1
   commentId: T:SuperOffice.CRM.Entities.Person.PersonIdx`1
   isExternal: true
+  href: SuperOffice.CRM.Entities.Person.html
   name: Person.PersonIdx<TIdx>
   nameWithType: Person.PersonIdx<TIdx>
   fullName: SuperOffice.CRM.Entities.Person.PersonIdx<TIdx>
@@ -571,44 +877,74 @@ references:
   fullName.vb: SuperOffice.CRM.Entities.Person.PersonIdx(Of TIdx)
   name.vb: Person.PersonIdx(Of TIdx)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.Person.PersonIdx`1
-    name: Person.PersonIdx
-    nameWithType: Person.PersonIdx
-    fullName: SuperOffice.CRM.Entities.Person.PersonIdx
+  - uid: SuperOffice.CRM.Entities.Person
+    name: Person
     isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities.Person.PersonIdx`1
+    name: PersonIdx
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.PersonIdx-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TIdx
-    nameWithType: TIdx
-    fullName: TIdx
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.Person.PersonIdx`1
-    name: Person.PersonIdx
-    nameWithType: Person.PersonIdx
-    fullName: SuperOffice.CRM.Entities.Person.PersonIdx
+  - uid: SuperOffice.CRM.Entities.Person
+    name: Person
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities.Person.PersonIdx`1
+    name: PersonIdx
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.PersonIdx-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TIdx
-    nameWithType: TIdx
-    fullName: TIdx
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.CRM.Security.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.CRM.Security.html
 - uid: SuperOffice.CRM.Entities.Person.PersonIdx`1.RowIdx
   commentId: P:SuperOffice.CRM.Entities.Person.PersonIdx`1.RowIdx
   isExternal: true
+  href: SuperOffice.CRM.Entities.Person.PersonIdx-1.html#SuperOffice_CRM_Entities_Person_PersonIdx_1_RowIdx
   name: RowIdx
   nameWithType: Person.PersonIdx<TIdx>.RowIdx
   fullName: SuperOffice.CRM.Entities.Person.PersonIdx<TIdx>.RowIdx
@@ -617,6 +953,7 @@ references:
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -625,140 +962,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -767,62 +1009,202 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.CRM.Entities.Person.CustomSearch.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.Person.CustomSearch.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Entities.Person.CustomSearch.html#SuperOffice_CRM_Entities_Person_CustomSearch__ctor
   name: CustomSearch
   nameWithType: Person.CustomSearch.CustomSearch
   fullName: SuperOffice.CRM.Entities.Person.CustomSearch.CustomSearch
+  nameWithType.vb: Person.CustomSearch.New
+  fullName.vb: SuperOffice.CRM.Entities.Person.CustomSearch.New
+  name.vb: New
 - uid: SuperOffice.CRM.Entities.Person.CustomSearch.RestrictionAnd*
   commentId: Overload:SuperOffice.CRM.Entities.Person.CustomSearch.RestrictionAnd
   isExternal: true
+  href: SuperOffice.CRM.Entities.Person.CustomSearch.html#SuperOffice_CRM_Entities_Person_CustomSearch_RestrictionAnd_SuperOffice_Data_SQL_Restriction_
   name: RestrictionAnd
   nameWithType: Person.CustomSearch.RestrictionAnd
   fullName: SuperOffice.CRM.Entities.Person.CustomSearch.RestrictionAnd
@@ -830,30 +1212,72 @@ references:
   commentId: T:SuperOffice.Data.SQL.Restriction
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.Restriction.html
   name: Restriction
   nameWithType: Restriction
   fullName: SuperOffice.Data.SQL.Restriction
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.CRM.Entities.Person.CustomSearch.RestrictionOr*
   commentId: Overload:SuperOffice.CRM.Entities.Person.CustomSearch.RestrictionOr
   isExternal: true
+  href: SuperOffice.CRM.Entities.Person.CustomSearch.html#SuperOffice_CRM_Entities_Person_CustomSearch_RestrictionOr_SuperOffice_Data_SQL_Restriction_
   name: RestrictionOr
   nameWithType: Person.CustomSearch.RestrictionOr
   fullName: SuperOffice.CRM.Entities.Person.CustomSearch.RestrictionOr
+- uid: SuperOffice.CRM.Entities.Person.CustomSearch.Restriction
+  commentId: P:SuperOffice.CRM.Entities.Person.CustomSearch.Restriction
+  isExternal: true
+  href: SuperOffice.CRM.Entities.Person.CustomSearch.html#SuperOffice_CRM_Entities_Person_CustomSearch_Restriction
+  name: Restriction
+  nameWithType: Person.CustomSearch.Restriction
+  fullName: SuperOffice.CRM.Entities.Person.CustomSearch.Restriction
 - uid: SuperOffice.CRM.Entities.Person.CustomSearch.Restriction*
   commentId: Overload:SuperOffice.CRM.Entities.Person.CustomSearch.Restriction
   isExternal: true
+  href: SuperOffice.CRM.Entities.Person.CustomSearch.html#SuperOffice_CRM_Entities_Person_CustomSearch_Restriction
   name: Restriction
   nameWithType: Person.CustomSearch.Restriction
   fullName: SuperOffice.CRM.Entities.Person.CustomSearch.Restriction
 - uid: SuperOffice.CRM.Entities.Person.CustomSearch.OrderBy*
   commentId: Overload:SuperOffice.CRM.Entities.Person.CustomSearch.OrderBy
   isExternal: true
+  href: SuperOffice.CRM.Entities.Person.CustomSearch.html#SuperOffice_CRM_Entities_Person_CustomSearch_OrderBy
   name: OrderBy
   nameWithType: Person.CustomSearch.OrderBy
   fullName: SuperOffice.CRM.Entities.Person.CustomSearch.OrderBy
@@ -861,6 +1285,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.OrderBy
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.OrderBy.html
   name: OrderBy
   nameWithType: OrderBy
   fullName: SuperOffice.Data.SQL.OrderBy

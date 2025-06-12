@@ -1,0 +1,560 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+  id: ConfigFile.ITestEnvironmentConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableCRMScriptHttp
+  - SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableErpSync
+  - SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableInbox
+  - SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableMailings
+  - SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnablePocketNotifications
+  - SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableQuoteConnector
+  - SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableServiceSendMails
+  - SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.IsTestEnvironment
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.ITestEnvironmentConfiguration
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+  type: Interface
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: >-
+    Configuration for test environment
+
+    Created in Database scope
+  example: []
+  syntax:
+    content: public interface ConfigFile.ITestEnvironmentConfiguration
+    content.vb: Public Interface ConfigFile.ITestEnvironmentConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.IsTestEnvironment
+  commentId: P:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.IsTestEnvironment
+  id: IsTestEnvironment
+  parent: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: IsTestEnvironment
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration.IsTestEnvironment
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.IsTestEnvironment
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Is this a Test Environment (where some functions are turned off by default)
+  example: []
+  syntax:
+    content: bool IsTestEnvironment { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsTestEnvironment As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.IsTestEnvironment*
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnablePocketNotifications
+  commentId: P:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnablePocketNotifications
+  id: EnablePocketNotifications
+  parent: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EnablePocketNotifications
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration.EnablePocketNotifications
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnablePocketNotifications
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Allow notifications to be sent for pocket
+  example: []
+  syntax:
+    content: bool EnablePocketNotifications { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property EnablePocketNotifications As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnablePocketNotifications*
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableMailings
+  commentId: P:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableMailings
+  id: EnableMailings
+  parent: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EnableMailings
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration.EnableMailings
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableMailings
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Allow mailings in service
+  example: []
+  syntax:
+    content: bool EnableMailings { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property EnableMailings As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableMailings*
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableServiceSendMails
+  commentId: P:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableServiceSendMails
+  id: EnableServiceSendMails
+  parent: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EnableServiceSendMails
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration.EnableServiceSendMails
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableServiceSendMails
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Allow sending mails from service
+  example: []
+  syntax:
+    content: bool EnableServiceSendMails { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property EnableServiceSendMails As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableServiceSendMails*
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableCRMScriptHttp
+  commentId: P:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableCRMScriptHttp
+  id: EnableCRMScriptHttp
+  parent: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EnableCRMScriptHttp
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration.EnableCRMScriptHttp
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableCRMScriptHttp
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Allow making HTTP calls from service
+  example: []
+  syntax:
+    content: bool EnableCRMScriptHttp { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property EnableCRMScriptHttp As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableCRMScriptHttp*
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableInbox
+  commentId: P:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableInbox
+  id: EnableInbox
+  parent: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EnableInbox
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration.EnableInbox
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableInbox
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Enable Inbox
+  example: []
+  syntax:
+    content: bool EnableInbox { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property EnableInbox As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableInbox*
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableErpSync
+  commentId: P:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableErpSync
+  id: EnableErpSync
+  parent: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EnableErpSync
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration.EnableErpSync
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableErpSync
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Enable Erp Sync
+  example: []
+  syntax:
+    content: bool EnableErpSync { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property EnableErpSync As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableErpSync*
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableQuoteConnector
+  commentId: P:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableQuoteConnector
+  id: EnableQuoteConnector
+  parent: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EnableQuoteConnector
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration.EnableQuoteConnector
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableQuoteConnector
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Enable Quote Connector to remote systems
+  example: []
+  syntax:
+    content: bool EnableQuoteConnector { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property EnableQuoteConnector As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableQuoteConnector*
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ITestEnvironmentConfiguration, To>(ITestEnvironmentConfiguration)
+  nameWithType: EnumUtil.MapEnums<ConfigFile.ITestEnvironmentConfiguration, To>(ConfigFile.ITestEnvironmentConfiguration)
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration, To>(SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration)
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.ITestEnvironmentConfiguration, To)(ConfigFile.ITestEnvironmentConfiguration)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration, To)(SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration)
+  name.vb: MapEnums(Of ITestEnvironmentConfiguration, To)(ITestEnvironmentConfiguration)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+    name: ITestEnvironmentConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+    name: ITestEnvironmentConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+    name: ITestEnvironmentConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+    name: ITestEnvironmentConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.html
+  - name: )
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ITestEnvironmentConfiguration, To>(ITestEnvironmentConfiguration)
+  nameWithType: Converters.MapEnums<ConfigFile.ITestEnvironmentConfiguration, To>(ConfigFile.ITestEnvironmentConfiguration)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration, To>(SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration)
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.ITestEnvironmentConfiguration, To)(ConfigFile.ITestEnvironmentConfiguration)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration, To)(SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration)
+  name.vb: MapEnums(Of ITestEnvironmentConfiguration, To)(ITestEnvironmentConfiguration)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+    name: ITestEnvironmentConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+    name: ITestEnvironmentConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+    name: ITestEnvironmentConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
+    name: ITestEnvironmentConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.IsTestEnvironment*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.IsTestEnvironment
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.html#SuperOffice_Configuration_ConfigFile_ITestEnvironmentConfiguration_IsTestEnvironment
+  name: IsTestEnvironment
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration.IsTestEnvironment
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.IsTestEnvironment
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnablePocketNotifications*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnablePocketNotifications
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.html#SuperOffice_Configuration_ConfigFile_ITestEnvironmentConfiguration_EnablePocketNotifications
+  name: EnablePocketNotifications
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration.EnablePocketNotifications
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnablePocketNotifications
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableMailings*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableMailings
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.html#SuperOffice_Configuration_ConfigFile_ITestEnvironmentConfiguration_EnableMailings
+  name: EnableMailings
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration.EnableMailings
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableMailings
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableServiceSendMails*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableServiceSendMails
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.html#SuperOffice_Configuration_ConfigFile_ITestEnvironmentConfiguration_EnableServiceSendMails
+  name: EnableServiceSendMails
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration.EnableServiceSendMails
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableServiceSendMails
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableCRMScriptHttp*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableCRMScriptHttp
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.html#SuperOffice_Configuration_ConfigFile_ITestEnvironmentConfiguration_EnableCRMScriptHttp
+  name: EnableCRMScriptHttp
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration.EnableCRMScriptHttp
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableCRMScriptHttp
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableInbox*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableInbox
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.html#SuperOffice_Configuration_ConfigFile_ITestEnvironmentConfiguration_EnableInbox
+  name: EnableInbox
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration.EnableInbox
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableInbox
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableErpSync*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableErpSync
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.html#SuperOffice_Configuration_ConfigFile_ITestEnvironmentConfiguration_EnableErpSync
+  name: EnableErpSync
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration.EnableErpSync
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableErpSync
+- uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableQuoteConnector*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableQuoteConnector
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.html#SuperOffice_Configuration_ConfigFile_ITestEnvironmentConfiguration_EnableQuoteConnector
+  name: EnableQuoteConnector
+  nameWithType: ConfigFile.ITestEnvironmentConfiguration.EnableQuoteConnector
+  fullName: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration.EnableQuoteConnector

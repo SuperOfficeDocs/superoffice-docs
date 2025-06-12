@@ -33,11 +33,12 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation
   type: Namespace
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
 references:
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationLevel
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.AggregationLevel
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationLevel.html
   name: AggregationLevel
   nameWithType: AggregationLevel
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationLevel
@@ -45,54 +46,63 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
   parent: SuperOffice.CRM.ArchiveLists.Aggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.html
   name: AggregationPluginBase
   nameWithType: AggregationPluginBase
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationProvider2
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.AggregationProvider2
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationProvider2.html
   name: AggregationProvider2
   nameWithType: AggregationProvider2
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationProvider2
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AvgAggregation
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.AvgAggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.AvgAggregation.html
   name: AvgAggregation
   nameWithType: AvgAggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AvgAggregation
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.CountAggregation
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.CountAggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.CountAggregation.html
   name: CountAggregation
   nameWithType: CountAggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.CountAggregation
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.CountAllAggregation
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.CountAllAggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.CountAllAggregation.html
   name: CountAllAggregation
   nameWithType: CountAllAggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.CountAllAggregation
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.html
   name: CurrencyAggregation
   nameWithType: CurrencyAggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.html
   name: DatePartAggregation
   nameWithType: DatePartAggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.ExpressionAggregation
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.ExpressionAggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.ExpressionAggregation.html
   name: ExpressionAggregation
   nameWithType: ExpressionAggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.ExpressionAggregation
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.GroupAggregation
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.GroupAggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.GroupAggregation.html
   name: GroupAggregation
   nameWithType: GroupAggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.GroupAggregation
@@ -100,6 +110,7 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
   parent: SuperOffice.CRM.ArchiveLists.Aggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.html
   name: IAggregationPlugin
   nameWithType: IAggregationPlugin
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
@@ -107,6 +118,7 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationScalarPlugin
   parent: SuperOffice.CRM.ArchiveLists.Aggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationScalarPlugin.html
   name: IAggregationScalarPlugin
   nameWithType: IAggregationScalarPlugin
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationScalarPlugin
@@ -114,6 +126,7 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin
   parent: SuperOffice.CRM.ArchiveLists.Aggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.html
   name: IAggregationTwoPassPlugin
   nameWithType: IAggregationTwoPassPlugin
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin
@@ -121,54 +134,103 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginAttribute
   parent: SuperOffice.CRM.ArchiveLists.Aggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginAttribute.html
   name: AggregationPluginAttribute
   nameWithType: AggregationPluginAttribute
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginAttribute
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.MaxAggregation
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.MaxAggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.MaxAggregation.html
   name: MaxAggregation
   nameWithType: MaxAggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.MaxAggregation
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.MedianAggregation
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.MedianAggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.MedianAggregation.html
   name: MedianAggregation
   nameWithType: MedianAggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.MedianAggregation
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.MinAggregation
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.MinAggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.MinAggregation.html
   name: MinAggregation
   nameWithType: MinAggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.MinAggregation
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.NoAggregation
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.NoAggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.NoAggregation.html
   name: NoAggregation
   nameWithType: NoAggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.NoAggregation
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.PercentOfTotalAggregation
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.PercentOfTotalAggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.PercentOfTotalAggregation.html
   name: PercentOfTotalAggregation
   nameWithType: PercentOfTotalAggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.PercentOfTotalAggregation
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.SumAggregation
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.SumAggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.SumAggregation.html
   name: SumAggregation
   nameWithType: SumAggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.SumAggregation
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.WeightedAmountAggregation
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.WeightedAmountAggregation
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Aggregation.WeightedAmountAggregation.html
   name: WeightedAmountAggregation
   nameWithType: WeightedAmountAggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.WeightedAmountAggregation
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation
   commentId: N:SuperOffice.CRM.ArchiveLists.Aggregation
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists.Aggregation
   nameWithType: SuperOffice.CRM.ArchiveLists.Aggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation
+    name: Aggregation
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Aggregation.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation
+    name: Aggregation
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.Aggregation.html

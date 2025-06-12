@@ -20,24 +20,16 @@ items:
   nameWithType: IAssociateAgent
   fullName: SuperOffice.WebApi.Agents.IAssociateAgent
   type: Interface
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nAssociate utilities, notes, not user admininstration\n"
+  summary: Associate utilities, notes, not user admininstration
+  example: []
   syntax:
     content: 'public interface IAssociateAgent : IDisposable'
-    content.vb: >-
-      Public Interface IAssociateAgent
-          Inherits IDisposable
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+    content.vb: Public Interface IAssociateAgent Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
 - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetAssociateAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -45,17 +37,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAssociateAsync(Int32, RequestOptions)
-  nameWithType: IAssociateAgent.GetAssociateAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetAssociateAsync(int, RequestOptions)
+  nameWithType: IAssociateAgent.GetAssociateAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets a specific Associate object.                        \n"
+  summary: Gets a specific Associate object.
+  example: []
   syntax:
     content: Task<Associate> GetAssociateAsync(int associateId, RequestOptions requestOptions = null)
     parameters:
@@ -64,12 +54,15 @@ items:
       description: The identifier of the Associate object
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate}
       description: Associate
     content.vb: Function GetAssociateAsync(associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Associate)
   overload: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync*
+  nameWithType.vb: IAssociateAgent.GetAssociateAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetAssociateAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetAssociateByPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -77,17 +70,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAssociateByPersonIdAsync(Int32, RequestOptions)
-  nameWithType: IAssociateAgent.GetAssociateByPersonIdAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetAssociateByPersonIdAsync(int, RequestOptions)
+  nameWithType: IAssociateAgent.GetAssociateByPersonIdAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturns the associate that belongs to this person if the person is an associate.\n"
+  summary: Returns the associate that belongs to this person if the person is an associate.
+  example: []
   syntax:
     content: Task<Associate> GetAssociateByPersonIdAsync(int personId, RequestOptions requestOptions = null)
     parameters:
@@ -96,12 +87,15 @@ items:
       description: The person id
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate}
       description: Associate if person is associate
     content.vb: Function GetAssociateByPersonIdAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Associate)
   overload: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync*
+  nameWithType.vb: IAssociateAgent.GetAssociateByPersonIdAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetAssociateByPersonIdAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetNoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -109,17 +103,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetNoteAsync(Int32, RequestOptions)
-  nameWithType: IAssociateAgent.GetNoteAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetNoteAsync(int, RequestOptions)
+  nameWithType: IAssociateAgent.GetNoteAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturns an array of strings(notepad pages).\n"
+  summary: Returns an array of strings(notepad pages).
+  example: []
   syntax:
     content: Task<string[]> GetNoteAsync(int associateId, RequestOptions requestOptions = null)
     parameters:
@@ -128,12 +120,15 @@ items:
       description: The associate id
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String[]}
       description: Returns an array of strings(notepad pages).
     content.vb: Function GetNoteAsync(associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of String())
   overload: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync*
+  nameWithType.vb: IAssociateAgent.GetNoteAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetNoteAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
   id: SaveNoteAsync(System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
@@ -141,17 +136,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveNoteAsync(Int32, String[], RequestOptions)
-  nameWithType: IAssociateAgent.SaveNoteAsync(Int32, String[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(System.Int32, System.String[], SuperOffice.WebApi.RequestOptions)
+  name: SaveNoteAsync(int, string[], RequestOptions)
+  nameWithType: IAssociateAgent.SaveNoteAsync(int, string[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(int, string[], SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSaves an array of strings(notepad pages).\n"
+  summary: Saves an array of strings(notepad pages).
+  example: []
   syntax:
     content: Task SaveNoteAsync(int associateId, string[] note, RequestOptions requestOptions = null)
     parameters:
@@ -163,14 +156,15 @@ items:
       description: The array of strings(notepad pages).
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: Function SaveNoteAsync(associateId As Integer, note As String(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync*
-  nameWithType.vb: IAssociateAgent.SaveNoteAsync(Int32, String(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(System.Int32, System.String(), SuperOffice.WebApi.RequestOptions)
-  name.vb: SaveNoteAsync(Int32, String(), RequestOptions)
+  nameWithType.vb: IAssociateAgent.SaveNoteAsync(Integer, String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(Integer, String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SaveNoteAsync(Integer, String(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
   id: GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
@@ -182,19 +176,17 @@ items:
   nameWithType: IAssociateAgent.GetEncryptionKeyAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet unique key made from AssociateId and dbTag used for local storage encryption operations.\n"
+  summary: Get unique key made from AssociateId and dbTag used for local storage encryption operations.
+  example: []
   syntax:
     content: Task<string> GetEncryptionKeyAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: encryptionKey
@@ -207,17 +199,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAssociateListAsync(Int32[], RequestOptions)
-  nameWithType: IAssociateAgent.GetAssociateListAsync(Int32[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  name: GetAssociateListAsync(int[], RequestOptions)
+  nameWithType: IAssociateAgent.GetAssociateListAsync(int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync(int[], SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets an array of specific Associate objects.                        \n"
+  summary: Gets an array of specific Associate objects.
+  example: []
   syntax:
     content: Task<Associate[]> GetAssociateListAsync(int[] associateIds, RequestOptions requestOptions = null)
     parameters:
@@ -226,15 +216,15 @@ items:
       description: The identifiers of the Associate object
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate[]}
       description: Array of Associate objects
     content.vb: Function GetAssociateListAsync(associateIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Associate())
   overload: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync*
-  nameWithType.vb: IAssociateAgent.GetAssociateListAsync(Int32(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
-  name.vb: GetAssociateListAsync(Int32(), RequestOptions)
+  nameWithType.vb: IAssociateAgent.GetAssociateListAsync(Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync(Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetAssociateListAsync(Integer(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetAssociatesByGroupAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -242,17 +232,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAssociatesByGroupAsync(Int32, Int32, RequestOptions)
-  nameWithType: IAssociateAgent.GetAssociatesByGroupAsync(Int32, Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetAssociatesByGroupAsync(int, int, RequestOptions)
+  nameWithType: IAssociateAgent.GetAssociatesByGroupAsync(int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync(int, int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nMethod that returns a array of associate , based on DiaryGroupType and groupId. The differernt types are, Userdefined, Usergroup and ResourceHeadings\n"
+  summary: Method that returns a array of associate , based on DiaryGroupType and groupId. The differernt types are, Userdefined, Usergroup and ResourceHeadings
+  example: []
   syntax:
     content: Task<Associate[]> GetAssociatesByGroupAsync(int groupId, int type, RequestOptions requestOptions = null)
     parameters:
@@ -264,12 +252,15 @@ items:
       description: The type of group. See DiaryGroupType
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate[]}
       description: Array of associate
     content.vb: Function GetAssociatesByGroupAsync(groupId As Integer, type As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Associate())
   overload: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync*
+  nameWithType.vb: IAssociateAgent.GetAssociatesByGroupAsync(Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync(Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetAssociatesByGroupAsync(Integer, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: LogOffWindowsUsersAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -277,17 +268,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogOffWindowsUsersAsync(Int32[], RequestOptions)
-  nameWithType: IAssociateAgent.LogOffWindowsUsersAsync(Int32[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  name: LogOffWindowsUsersAsync(int[], RequestOptions)
+  nameWithType: IAssociateAgent.LogOffWindowsUsersAsync(int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(int[], SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nMethod that logs off associates that are logged on to the win client\n"
+  summary: Method that logs off associates that are logged on to the win client
+  example: []
   syntax:
     content: Task LogOffWindowsUsersAsync(int[] associateIds, RequestOptions requestOptions = null)
     parameters:
@@ -296,25 +285,94 @@ items:
       description: The ids of the associates that shall be logged off
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: A void return
     content.vb: Function LogOffWindowsUsersAsync(associateIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync*
-  nameWithType.vb: IAssociateAgent.LogOffWindowsUsersAsync(Int32(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
-  name.vb: LogOffWindowsUsersAsync(Int32(), RequestOptions)
+  nameWithType.vb: IAssociateAgent.LogOffWindowsUsersAsync(Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: LogOffWindowsUsersAsync(Integer(), RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAssociateAgent.html#SuperOffice_WebApi_Agents_IAssociateAgent_GetAssociateAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetAssociateAsync
   nameWithType: IAssociateAgent.GetAssociateAsync
   fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync
@@ -322,19 +380,26 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<Associate>
   nameWithType: Task<Associate>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Associate>
@@ -344,269 +409,287 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.Associate
     name: Associate
-    nameWithType: Associate
-    fullName: SuperOffice.WebApi.Data.Associate
     isExternal: true
+    href: SuperOffice.WebApi.Data.Associate.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.Associate
     name: Associate
-    nameWithType: Associate
-    fullName: SuperOffice.WebApi.Data.Associate
     isExternal: true
+    href: SuperOffice.WebApi.Data.Associate.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: System.Threading.Tasks.Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: System.Threading.Tasks.Task(Of )
-  name.vb: Task(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAssociateAgent.html#SuperOffice_WebApi_Agents_IAssociateAgent_GetAssociateByPersonIdAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetAssociateByPersonIdAsync
   nameWithType: IAssociateAgent.GetAssociateByPersonIdAsync
   fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync
 - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAssociateAgent.html#SuperOffice_WebApi_Agents_IAssociateAgent_GetNoteAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetNoteAsync
   nameWithType: IAssociateAgent.GetNoteAsync
   fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync
 - uid: System.Threading.Tasks.Task{System.String[]}
-  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
+  commentId: T:System.Threading.Tasks.Task{System.String[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<String[]>
-  nameWithType: Task<String[]>
-  fullName: System.Threading.Tasks.Task<System.String[]>
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string[]>
+  nameWithType: Task<string[]>
+  fullName: System.Threading.Tasks.Task<string[]>
   nameWithType.vb: Task(Of String())
-  fullName.vb: System.Threading.Tasks.Task(Of System.String())
+  fullName.vb: System.Threading.Tasks.Task(Of String())
   name.vb: Task(Of String())
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAssociateAgent.html#SuperOffice_WebApi_Agents_IAssociateAgent_SaveNoteAsync_System_Int32_System_String___SuperOffice_WebApi_RequestOptions_
   name: SaveNoteAsync
   nameWithType: IAssociateAgent.SaveNoteAsync
   fullName: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAssociateAgent.html#SuperOffice_WebApi_Agents_IAssociateAgent_GetEncryptionKeyAsync_SuperOffice_WebApi_RequestOptions_
   name: GetEncryptionKeyAsync
   nameWithType: IAssociateAgent.GetEncryptionKeyAsync
   fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync
 - uid: System.Threading.Tasks.Task{System.String}
-  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<String>
-  nameWithType: Task<String>
-  fullName: System.Threading.Tasks.Task<System.String>
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
   nameWithType.vb: Task(Of String)
-  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
   name.vb: Task(Of String)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAssociateAgent.html#SuperOffice_WebApi_Agents_IAssociateAgent_GetAssociateListAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
   name: GetAssociateListAsync
   nameWithType: IAssociateAgent.GetAssociateListAsync
   fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<Associate[]>
   nameWithType: Task<Associate[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Associate[]>
@@ -616,52 +699,42 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.Associate
     name: Associate
-    nameWithType: Associate
-    fullName: SuperOffice.WebApi.Data.Associate
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.Associate.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.Associate
     name: Associate
-    nameWithType: Associate
-    fullName: SuperOffice.WebApi.Data.Associate
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.Associate.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAssociateAgent.html#SuperOffice_WebApi_Agents_IAssociateAgent_GetAssociatesByGroupAsync_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetAssociatesByGroupAsync
   nameWithType: IAssociateAgent.GetAssociatesByGroupAsync
   fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync
 - uid: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IAssociateAgent.html#SuperOffice_WebApi_Agents_IAssociateAgent_LogOffWindowsUsersAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
   name: LogOffWindowsUsersAsync
   nameWithType: IAssociateAgent.LogOffWindowsUsersAsync
   fullName: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync

@@ -17,31 +17,40 @@ items:
   nameWithType: ResolvedPerson
   fullName: SuperOffice.CRM.Services.ResolvedPerson
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe Person Service. The service implements all services working with the Person object.\n<p></p>\nCarrier object for ResolvedPerson.\nServices for the ResolvedPerson Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IPersonAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    The Person Service. The service implements all services working with the Person object.
+
+    <p></p>
+
+    Carrier object for ResolvedPerson.
+
+    Services for the ResolvedPerson Carrier is available from the <xref href="SuperOffice.CRM.Services.IPersonAgent?text=Person+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class ResolvedPerson : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class ResolvedPerson : Carrier
     content.vb: >-
-      Public Class ResolvedPerson
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class ResolvedPerson Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.PersonAgent
-    commentId: T:SuperOffice.CRM.Services.PersonAgent
   - linkId: SuperOffice.CRM.Services.IPersonAgent
     commentId: T:SuperOffice.CRM.Services.IPersonAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.ResolvedPerson.#ctor
   commentId: M:SuperOffice.CRM.Services.ResolvedPerson.#ctor
   id: '#ctor'
@@ -53,21 +62,18 @@ items:
   nameWithType: ResolvedPerson.ResolvedPerson()
   fullName: SuperOffice.CRM.Services.ResolvedPerson.ResolvedPerson()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public ResolvedPerson()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.ResolvedPerson.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ResolvedPerson.New()
+  fullName.vb: SuperOffice.CRM.Services.ResolvedPerson.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.ResolvedPerson.ToString
   commentId: M:SuperOffice.CRM.Services.ResolvedPerson.ToString
   id: ToString
@@ -79,26 +85,18 @@ items:
   nameWithType: ResolvedPerson.ToString()
   fullName: SuperOffice.CRM.Services.ResolvedPerson.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.ResolvedPerson.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.ResolvedPerson.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ResolvedPerson.ToString(System.String)
   id: ToString(System.String)
@@ -106,17 +104,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: ResolvedPerson.ToString(String)
-  fullName: SuperOffice.CRM.Services.ResolvedPerson.ToString(System.String)
+  name: ToString(string)
+  nameWithType: ResolvedPerson.ToString(string)
+  fullName: SuperOffice.CRM.Services.ResolvedPerson.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -128,10 +127,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ResolvedPerson.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ResolvedPerson.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.ResolvedPerson.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.ResolvedPerson.Person
   commentId: P:SuperOffice.CRM.Services.ResolvedPerson.Person
   id: Person
@@ -143,28 +141,28 @@ items:
   nameWithType: ResolvedPerson.Person
   fullName: SuperOffice.CRM.Services.ResolvedPerson.Person
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe resolved PersonEntity instance. \n"
+  summary: The resolved PersonEntity instance.
+  example: []
   syntax:
-    content: public virtual PersonEntity Person { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual PersonEntity Person { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.PersonEntity
-    content.vb: Public Overridable Property Person As PersonEntity
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Person As PersonEntity
   overload: SuperOffice.CRM.Services.ResolvedPerson.Person*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ResolvedPerson.PersonCreated
   commentId: P:SuperOffice.CRM.Services.ResolvedPerson.PersonCreated
   id: PersonCreated
@@ -176,57 +174,106 @@ items:
   nameWithType: ResolvedPerson.PersonCreated
   fullName: SuperOffice.CRM.Services.ResolvedPerson.PersonCreated
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nIndicates if the resolved person was created or not. \n"
+  summary: Indicates if the resolved person was created or not.
+  example: []
   syntax:
-    content: public virtual bool PersonCreated { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool PersonCreated { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property PersonCreated As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PersonCreated As Boolean
   overload: SuperOffice.CRM.Services.ResolvedPerson.PersonCreated*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.PersonAgent
-  commentId: T:SuperOffice.CRM.Services.PersonAgent
-  isExternal: true
-  name: PersonAgent
-  nameWithType: PersonAgent
-  fullName: SuperOffice.CRM.Services.PersonAgent
 - uid: SuperOffice.CRM.Services.IPersonAgent
   commentId: T:SuperOffice.CRM.Services.IPersonAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IPersonAgent.html
   name: IPersonAgent
   nameWithType: IPersonAgent
   fullName: SuperOffice.CRM.Services.IPersonAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ResolvedPerson.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ResolvedPerson.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.ResolvedPerson.html#SuperOffice_CRM_Services_ResolvedPerson__ctor
   name: ResolvedPerson
   nameWithType: ResolvedPerson.ResolvedPerson
   fullName: SuperOffice.CRM.Services.ResolvedPerson.ResolvedPerson
+  nameWithType.vb: ResolvedPerson.New
+  fullName.vb: SuperOffice.CRM.Services.ResolvedPerson.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.ResolvedPerson.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ResolvedPerson.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.ResolvedPerson.html#SuperOffice_CRM_Services_ResolvedPerson_ToString
   name: ToString
   nameWithType: ResolvedPerson.ToString
   fullName: SuperOffice.CRM.Services.ResolvedPerson.ToString
@@ -234,18 +281,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.ResolvedPerson.Person*
   commentId: Overload:SuperOffice.CRM.Services.ResolvedPerson.Person
   isExternal: true
+  href: SuperOffice.CRM.Services.ResolvedPerson.html#SuperOffice_CRM_Services_ResolvedPerson_Person
   name: Person
   nameWithType: ResolvedPerson.Person
   fullName: SuperOffice.CRM.Services.ResolvedPerson.Person
@@ -253,12 +299,14 @@ references:
   commentId: T:SuperOffice.CRM.Services.PersonEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.PersonEntity.html
   name: PersonEntity
   nameWithType: PersonEntity
   fullName: SuperOffice.CRM.Services.PersonEntity
 - uid: SuperOffice.CRM.Services.ResolvedPerson.PersonCreated*
   commentId: Overload:SuperOffice.CRM.Services.ResolvedPerson.PersonCreated
   isExternal: true
+  href: SuperOffice.CRM.Services.ResolvedPerson.html#SuperOffice_CRM_Services_ResolvedPerson_PersonCreated
   name: PersonCreated
   nameWithType: ResolvedPerson.PersonCreated
   fullName: SuperOffice.CRM.Services.ResolvedPerson.PersonCreated
@@ -266,6 +314,10 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

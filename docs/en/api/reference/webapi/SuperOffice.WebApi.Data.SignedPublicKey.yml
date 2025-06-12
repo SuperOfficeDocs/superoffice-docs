@@ -9,8 +9,8 @@ items:
   - SuperOffice.WebApi.Data.SignedPublicKey.ExpiryDate
   - SuperOffice.WebApi.Data.SignedPublicKey.Key
   - SuperOffice.WebApi.Data.SignedPublicKey.OwnerName
-  - SuperOffice.WebApi.Data.SignedPublicKey.Signature
   - SuperOffice.WebApi.Data.SignedPublicKey.SignDate
+  - SuperOffice.WebApi.Data.SignedPublicKey.Signature
   langs:
   - csharp
   - vb
@@ -18,29 +18,30 @@ items:
   nameWithType: SignedPublicKey
   fullName: SuperOffice.WebApi.Data.SignedPublicKey
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for SignedPublicKey.\nRepresents all licenses for this owner at this site.    \n"
+  summary: >-
+    Carrier object for SignedPublicKey.
+
+    Represents all licenses for this owner at this site.
+  example: []
   syntax:
-    content: 'public class SignedPublicKey : Object'
-    content.vb: >-
-      Public Class SignedPublicKey
-          Inherits Object
+    content: public class SignedPublicKey
+    content.vb: Public Class SignedPublicKey
   seealso:
   - linkId: SuperOffice.WebApi.Agents.LicenseAgent
     commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.SignedPublicKey.#ctor
   commentId: M:SuperOffice.WebApi.Data.SignedPublicKey.#ctor
   id: '#ctor'
@@ -52,21 +53,18 @@ items:
   nameWithType: SignedPublicKey.SignedPublicKey()
   fullName: SuperOffice.WebApi.Data.SignedPublicKey.SignedPublicKey()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public SignedPublicKey()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.SignedPublicKey.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SignedPublicKey.New()
+  fullName.vb: SuperOffice.WebApi.Data.SignedPublicKey.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.SignedPublicKey.OwnerName
   commentId: P:SuperOffice.WebApi.Data.SignedPublicKey.OwnerName
   id: OwnerName
@@ -78,13 +76,11 @@ items:
   nameWithType: SignedPublicKey.OwnerName
   fullName: SuperOffice.WebApi.Data.SignedPublicKey.OwnerName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe name of the module owner, not visible in GUI but used in the code. OwnerName SUPEROFFICE is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.\n"
+  summary: The name of the module owner, not visible in GUI but used in the code. OwnerName SUPEROFFICE is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.
+  example: []
   syntax:
     content: public virtual string OwnerName { get; set; }
     parameters: []
@@ -92,14 +88,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property OwnerName As String
   overload: SuperOffice.WebApi.Data.SignedPublicKey.OwnerName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.SignedPublicKey.SignDate
   commentId: P:SuperOffice.WebApi.Data.SignedPublicKey.SignDate
   id: SignDate
@@ -111,28 +99,18 @@ items:
   nameWithType: SignedPublicKey.SignDate
   fullName: SuperOffice.WebApi.Data.SignedPublicKey.SignDate
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDate when the the public key was signed. No Timezone.\n"
+  summary: Date when the the public key was signed. No Timezone.
+  example: []
   syntax:
     content: public virtual DateTime SignDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SignDate As DateTime
+    content.vb: Public Overridable Property SignDate As Date
   overload: SuperOffice.WebApi.Data.SignedPublicKey.SignDate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.SignedPublicKey.ExpiryDate
   commentId: P:SuperOffice.WebApi.Data.SignedPublicKey.ExpiryDate
   id: ExpiryDate
@@ -144,28 +122,18 @@ items:
   nameWithType: SignedPublicKey.ExpiryDate
   fullName: SuperOffice.WebApi.Data.SignedPublicKey.ExpiryDate
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDate when the signature expires. No Timezone.\n"
+  summary: Date when the signature expires. No Timezone.
+  example: []
   syntax:
     content: public virtual DateTime ExpiryDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ExpiryDate As DateTime
+    content.vb: Public Overridable Property ExpiryDate As Date
   overload: SuperOffice.WebApi.Data.SignedPublicKey.ExpiryDate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.SignedPublicKey.Key
   commentId: P:SuperOffice.WebApi.Data.SignedPublicKey.Key
   id: Key
@@ -177,13 +145,11 @@ items:
   nameWithType: SignedPublicKey.Key
   fullName: SuperOffice.WebApi.Data.SignedPublicKey.Key
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPublic key held by module owner.\n"
+  summary: Public key held by module owner.
+  example: []
   syntax:
     content: public virtual DSAParameters Key { get; set; }
     parameters: []
@@ -191,14 +157,6 @@ items:
       type: System.Security.Cryptography.DSAParameters
     content.vb: Public Overridable Property Key As DSAParameters
   overload: SuperOffice.WebApi.Data.SignedPublicKey.Key*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.SignedPublicKey.Signature
   commentId: P:SuperOffice.WebApi.Data.SignedPublicKey.Signature
   id: Signature
@@ -210,13 +168,11 @@ items:
   nameWithType: SignedPublicKey.Signature
   fullName: SuperOffice.WebApi.Data.SignedPublicKey.Signature
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nSignature - Base64 encoded value\n"
+  summary: Signature - Base64 encoded value
+  example: []
   syntax:
     content: public virtual string Signature { get; set; }
     parameters: []
@@ -224,49 +180,302 @@ items:
       type: System.String
     content.vb: Public Overridable Property Signature As String
   overload: SuperOffice.WebApi.Data.SignedPublicKey.Signature*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.LicenseAgent
+  commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.LicenseAgent.html
+  name: LicenseAgent
+  nameWithType: LicenseAgent
+  fullName: SuperOffice.WebApi.Agents.LicenseAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: SuperOffice.WebApi.Agents.LicenseAgent
-  commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: LicenseAgent
-  nameWithType: LicenseAgent
-  fullName: SuperOffice.WebApi.Agents.LicenseAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.SignedPublicKey.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.SignedPublicKey.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.SignedPublicKey.html#SuperOffice_WebApi_Data_SignedPublicKey__ctor
   name: SignedPublicKey
   nameWithType: SignedPublicKey.SignedPublicKey
   fullName: SuperOffice.WebApi.Data.SignedPublicKey.SignedPublicKey
+  nameWithType.vb: SignedPublicKey.New
+  fullName.vb: SuperOffice.WebApi.Data.SignedPublicKey.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.SignedPublicKey.OwnerName*
   commentId: Overload:SuperOffice.WebApi.Data.SignedPublicKey.OwnerName
   isExternal: true
+  href: SuperOffice.WebApi.Data.SignedPublicKey.html#SuperOffice_WebApi_Data_SignedPublicKey_OwnerName
   name: OwnerName
   nameWithType: SignedPublicKey.OwnerName
   fullName: SuperOffice.WebApi.Data.SignedPublicKey.OwnerName
@@ -274,41 +483,94 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.SignedPublicKey.SignDate*
   commentId: Overload:SuperOffice.WebApi.Data.SignedPublicKey.SignDate
   isExternal: true
+  href: SuperOffice.WebApi.Data.SignedPublicKey.html#SuperOffice_WebApi_Data_SignedPublicKey_SignDate
   name: SignDate
   nameWithType: SignedPublicKey.SignDate
   fullName: SuperOffice.WebApi.Data.SignedPublicKey.SignDate
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.WebApi.Data.SignedPublicKey.ExpiryDate*
   commentId: Overload:SuperOffice.WebApi.Data.SignedPublicKey.ExpiryDate
   isExternal: true
+  href: SuperOffice.WebApi.Data.SignedPublicKey.html#SuperOffice_WebApi_Data_SignedPublicKey_ExpiryDate
   name: ExpiryDate
   nameWithType: SignedPublicKey.ExpiryDate
   fullName: SuperOffice.WebApi.Data.SignedPublicKey.ExpiryDate
 - uid: SuperOffice.WebApi.Data.SignedPublicKey.Key*
   commentId: Overload:SuperOffice.WebApi.Data.SignedPublicKey.Key
   isExternal: true
+  href: SuperOffice.WebApi.Data.SignedPublicKey.html#SuperOffice_WebApi_Data_SignedPublicKey_Key
   name: Key
   nameWithType: SignedPublicKey.Key
   fullName: SuperOffice.WebApi.Data.SignedPublicKey.Key
 - uid: System.Security.Cryptography.DSAParameters
-  commentId: '!:System.Security.Cryptography.DSAParameters'
+  commentId: T:System.Security.Cryptography.DSAParameters
+  parent: System.Security.Cryptography
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.cryptography.dsaparameters
   name: DSAParameters
   nameWithType: DSAParameters
   fullName: System.Security.Cryptography.DSAParameters
+- uid: System.Security.Cryptography
+  commentId: N:System.Security.Cryptography
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Security.Cryptography
+  nameWithType: System.Security.Cryptography
+  fullName: System.Security.Cryptography
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Cryptography
+    name: Cryptography
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.cryptography
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Cryptography
+    name: Cryptography
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.cryptography
 - uid: SuperOffice.WebApi.Data.SignedPublicKey.Signature*
   commentId: Overload:SuperOffice.WebApi.Data.SignedPublicKey.Signature
   isExternal: true
+  href: SuperOffice.WebApi.Data.SignedPublicKey.html#SuperOffice_WebApi_Data_SignedPublicKey_Signature
   name: Signature
   nameWithType: SignedPublicKey.Signature
   fullName: SuperOffice.WebApi.Data.SignedPublicKey.Signature

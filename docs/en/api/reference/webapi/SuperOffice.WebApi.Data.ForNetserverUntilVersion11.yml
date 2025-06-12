@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  commentId: N:SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  id: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  children:
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileEntityType
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOption
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_CreateNewFromTemplateRequest
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDashboardTilesRequest
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDashboardsRequest
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDataRequest
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDataWithSelectionRequest
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetStandardDashboardTileFromChartIdRequest
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_SetTileRequest
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.TileData
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  nameWithType: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  type: Namespace
+  assemblies:
+  - SuperOffice.WebApi
+references:
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard.html
+  name: Dashboard
+  nameWithType: Dashboard
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDashboardsRequest
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDashboardsRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDashboardsRequest.html
+  name: Dashboard_GetDashboardsRequest
+  nameWithType: Dashboard_GetDashboardsRequest
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDashboardsRequest
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_SetTileRequest
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_SetTileRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_SetTileRequest.html
+  name: Dashboard_SetTileRequest
+  nameWithType: Dashboard_SetTileRequest
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_SetTileRequest
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile.html
+  name: DashboardTile
+  nameWithType: DashboardTile
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDashboardTilesRequest
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDashboardTilesRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDashboardTilesRequest.html
+  name: Dashboard_GetDashboardTilesRequest
+  nameWithType: Dashboard_GetDashboardTilesRequest
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDashboardTilesRequest
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetStandardDashboardTileFromChartIdRequest
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetStandardDashboardTileFromChartIdRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetStandardDashboardTileFromChartIdRequest.html
+  name: Dashboard_GetStandardDashboardTileFromChartIdRequest
+  nameWithType: Dashboard_GetStandardDashboardTileFromChartIdRequest
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetStandardDashboardTileFromChartIdRequest
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDataRequest
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDataRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDataRequest.html
+  name: Dashboard_GetDataRequest
+  nameWithType: Dashboard_GetDataRequest
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDataRequest
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_CreateNewFromTemplateRequest
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_CreateNewFromTemplateRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_CreateNewFromTemplateRequest.html
+  name: Dashboard_CreateNewFromTemplateRequest
+  nameWithType: Dashboard_CreateNewFromTemplateRequest
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_CreateNewFromTemplateRequest
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDataWithSelectionRequest
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDataWithSelectionRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDataWithSelectionRequest.html
+  name: Dashboard_GetDataWithSelectionRequest
+  nameWithType: Dashboard_GetDataWithSelectionRequest
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDataWithSelectionRequest
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOption
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOption
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOption.html
+  name: DashboardTileOption
+  nameWithType: DashboardTileOption
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOption
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.TileData
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.TileData
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.TileData.html
+  name: TileData
+  nameWithType: TileData
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.TileData
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.html
+  name: DashboardLayout
+  nameWithType: DashboardLayout
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.html
+  name: DashboardTileType
+  nameWithType: DashboardTileType
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileEntityType
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileEntityType
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileEntityType.html
+  name: DashboardTileEntityType
+  nameWithType: DashboardTileEntityType
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileEntityType
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType.html
+  name: DashboardTileOptionType
+  nameWithType: DashboardTileOptionType
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  commentId: N:SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  nameWithType: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+    name: ForNetserverUntilVersion11
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+    name: ForNetserverUntilVersion11
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.html

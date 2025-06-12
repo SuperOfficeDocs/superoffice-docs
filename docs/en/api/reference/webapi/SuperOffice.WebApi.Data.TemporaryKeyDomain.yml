@@ -12,7 +12,6 @@ items:
   - SuperOffice.WebApi.Data.TemporaryKeyDomain.PublicFaq
   - SuperOffice.WebApi.Data.TemporaryKeyDomain.RegisterCustomerCenterEmailVerification
   - SuperOffice.WebApi.Data.TemporaryKeyDomain.Unknown
-  - SuperOffice.WebApi.Data.TemporaryKeyDomain.value__
   - SuperOffice.WebApi.Data.TemporaryKeyDomain.ViewTicketInCustomerCenter
   langs:
   - csharp
@@ -20,57 +19,18 @@ items:
   name: TemporaryKeyDomain
   nameWithType: TemporaryKeyDomain
   fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDomains for temporary keys.\nThis Enum is used by:  TemporaryKey.domain\n"
-  syntax:
-    content: 'public sealed class TemporaryKeyDomain : Enum'
-    content.vb: >-
-      Public NotInheritable Class TemporaryKeyDomain
-          Inherits
+  summary: >-
+    Domains for temporary keys.
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.value__
-  commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.TemporaryKeyDomain
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: TemporaryKeyDomain.value__
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  TemporaryKey.domain
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum TemporaryKeyDomain : short'
+    content.vb: Public Enum TemporaryKeyDomain As Short
 - uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.Unknown
   commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.Unknown
   id: Unknown
@@ -82,24 +42,26 @@ items:
   nameWithType: TemporaryKeyDomain.Unknown
   fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Unknown\n"
+  summary: '0: Unknown'
+  example: []
   syntax:
-    content: public const TemporaryKeyDomain Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.TemporaryKeyDomain
-    content.vb: Public Const Unknown As TemporaryKeyDomain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.MailingRecipient
   commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.MailingRecipient
   id: MailingRecipient
@@ -111,24 +73,26 @@ items:
   nameWithType: TemporaryKeyDomain.MailingRecipient
   fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.MailingRecipient
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Mailing recipient.\n"
+  summary: '1: Mailing recipient.'
+  example: []
   syntax:
-    content: public const TemporaryKeyDomain MailingRecipient
+    content: >-
+      [EnumMember]
+
+      MailingRecipient = 1
     return:
       type: SuperOffice.WebApi.Data.TemporaryKeyDomain
-    content.vb: Public Const MailingRecipient As TemporaryKeyDomain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      MailingRecipient = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.FormSubmitterRecipient
   commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.FormSubmitterRecipient
   id: FormSubmitterRecipient
@@ -140,24 +104,26 @@ items:
   nameWithType: TemporaryKeyDomain.FormSubmitterRecipient
   fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.FormSubmitterRecipient
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Form submission recipient\n"
+  summary: '2: Form submission recipient'
+  example: []
   syntax:
-    content: public const TemporaryKeyDomain FormSubmitterRecipient
+    content: >-
+      [EnumMember]
+
+      FormSubmitterRecipient = 2
     return:
       type: SuperOffice.WebApi.Data.TemporaryKeyDomain
-    content.vb: Public Const FormSubmitterRecipient As TemporaryKeyDomain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      FormSubmitterRecipient = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.ViewTicketInCustomerCenter
   commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.ViewTicketInCustomerCenter
   id: ViewTicketInCustomerCenter
@@ -169,24 +135,26 @@ items:
   nameWithType: TemporaryKeyDomain.ViewTicketInCustomerCenter
   fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.ViewTicketInCustomerCenter
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: View request in customer center\n"
+  summary: '3: View request in customer center'
+  example: []
   syntax:
-    content: public const TemporaryKeyDomain ViewTicketInCustomerCenter
+    content: >-
+      [EnumMember]
+
+      ViewTicketInCustomerCenter = 3
     return:
       type: SuperOffice.WebApi.Data.TemporaryKeyDomain
-    content.vb: Public Const ViewTicketInCustomerCenter As TemporaryKeyDomain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ViewTicketInCustomerCenter = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.LoginCustomerCenter
   commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.LoginCustomerCenter
   id: LoginCustomerCenter
@@ -198,24 +166,26 @@ items:
   nameWithType: TemporaryKeyDomain.LoginCustomerCenter
   fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.LoginCustomerCenter
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Customer center login key\n"
+  summary: '4: Customer center login key'
+  example: []
   syntax:
-    content: public const TemporaryKeyDomain LoginCustomerCenter
+    content: >-
+      [EnumMember]
+
+      LoginCustomerCenter = 4
     return:
       type: SuperOffice.WebApi.Data.TemporaryKeyDomain
-    content.vb: Public Const LoginCustomerCenter As TemporaryKeyDomain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      LoginCustomerCenter = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.PublicFaq
   commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.PublicFaq
   id: PublicFaq
@@ -227,24 +197,26 @@ items:
   nameWithType: TemporaryKeyDomain.PublicFaq
   fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.PublicFaq
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Customer center public faq key\n"
+  summary: '5: Customer center public faq key'
+  example: []
   syntax:
-    content: public const TemporaryKeyDomain PublicFaq
+    content: >-
+      [EnumMember]
+
+      PublicFaq = 5
     return:
       type: SuperOffice.WebApi.Data.TemporaryKeyDomain
-    content.vb: Public Const PublicFaq As TemporaryKeyDomain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PublicFaq = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.ChangePasswordCustomerCenter
   commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.ChangePasswordCustomerCenter
   id: ChangePasswordCustomerCenter
@@ -256,24 +228,26 @@ items:
   nameWithType: TemporaryKeyDomain.ChangePasswordCustomerCenter
   fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.ChangePasswordCustomerCenter
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: Customer center change password key\n"
+  summary: '6: Customer center change password key'
+  example: []
   syntax:
-    content: public const TemporaryKeyDomain ChangePasswordCustomerCenter
+    content: >-
+      [EnumMember]
+
+      ChangePasswordCustomerCenter = 6
     return:
       type: SuperOffice.WebApi.Data.TemporaryKeyDomain
-    content.vb: Public Const ChangePasswordCustomerCenter As TemporaryKeyDomain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ChangePasswordCustomerCenter = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.RegisterCustomerCenterEmailVerification
   commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.RegisterCustomerCenterEmailVerification
   id: RegisterCustomerCenterEmailVerification
@@ -285,55 +259,69 @@ items:
   nameWithType: TemporaryKeyDomain.RegisterCustomerCenterEmailVerification
   fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.RegisterCustomerCenterEmailVerification
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: Customer center register email verification\n"
+  summary: '7: Customer center register email verification'
+  example: []
   syntax:
-    content: public const TemporaryKeyDomain RegisterCustomerCenterEmailVerification
+    content: >-
+      [EnumMember]
+
+      RegisterCustomerCenterEmailVerification = 7
     return:
       type: SuperOffice.WebApi.Data.TemporaryKeyDomain
-    content.vb: Public Const RegisterCustomerCenterEmailVerification As TemporaryKeyDomain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      RegisterCustomerCenterEmailVerification = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.TemporaryKeyDomain
   commentId: T:SuperOffice.WebApi.Data.TemporaryKeyDomain
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.TemporaryKeyDomain.html
   name: TemporaryKeyDomain
   nameWithType: TemporaryKeyDomain
   fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain

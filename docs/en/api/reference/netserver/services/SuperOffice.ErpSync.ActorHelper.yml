@@ -1,0 +1,1109 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.ActorHelper
+  commentId: T:SuperOffice.ErpSync.ActorHelper
+  id: ActorHelper
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.ActorHelper.BreakActorLinkAsync(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.ActorHelper.CreateActorLinkAsync(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.ActorHelper.CreateActorLinkAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.ActorHelper.GetCrmActorTypeAsync(System.Int32,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.ActorHelper.GetDefaultActortypeMapping(SuperOffice.Data.ErpActorType)
+  - SuperOffice.ErpSync.ActorHelper.GetDefaultErpFieldsAndValuesAsync(System.Int32,SuperOffice.Data.ErpActorType,System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.ActorHelper.GetMappedErpActorTypesAsync(System.Int32,System.Threading.CancellationToken,SuperOffice.Data.CrmActorType[])
+  - SuperOffice.ErpSync.ActorHelper.RemoveCrmFields(SuperOffice.ErpSync.ErpSyncActorFieldCollection,System.String[])
+  langs:
+  - csharp
+  - vb
+  name: ActorHelper
+  nameWithType: ActorHelper
+  fullName: SuperOffice.ErpSync.ActorHelper
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public static class ActorHelper
+    content.vb: Public Module ActorHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.ErpSync.ActorHelper.GetDefaultActortypeMapping(SuperOffice.Data.ErpActorType)
+  commentId: M:SuperOffice.ErpSync.ActorHelper.GetDefaultActortypeMapping(SuperOffice.Data.ErpActorType)
+  id: GetDefaultActortypeMapping(SuperOffice.Data.ErpActorType)
+  parent: SuperOffice.ErpSync.ActorHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultActortypeMapping(ErpActorType)
+  nameWithType: ActorHelper.GetDefaultActortypeMapping(ErpActorType)
+  fullName: SuperOffice.ErpSync.ActorHelper.GetDefaultActortypeMapping(SuperOffice.Data.ErpActorType)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Gets the default actor type mapping between ErpActorType and CrmActorType
+  example: []
+  syntax:
+    content: public static CrmActorType GetDefaultActortypeMapping(ErpActorType actorType)
+    parameters:
+    - id: actorType
+      type: SuperOffice.Data.ErpActorType
+      description: ''
+    return:
+      type: SuperOffice.Data.CrmActorType
+      description: ''
+    content.vb: Public Shared Function GetDefaultActortypeMapping(actorType As ErpActorType) As CrmActorType
+  overload: SuperOffice.ErpSync.ActorHelper.GetDefaultActortypeMapping*
+- uid: SuperOffice.ErpSync.ActorHelper.GetMappedErpActorTypesAsync(System.Int32,System.Threading.CancellationToken,SuperOffice.Data.CrmActorType[])
+  commentId: M:SuperOffice.ErpSync.ActorHelper.GetMappedErpActorTypesAsync(System.Int32,System.Threading.CancellationToken,SuperOffice.Data.CrmActorType[])
+  id: GetMappedErpActorTypesAsync(System.Int32,System.Threading.CancellationToken,SuperOffice.Data.CrmActorType[])
+  parent: SuperOffice.ErpSync.ActorHelper
+  langs:
+  - csharp
+  - vb
+  name: GetMappedErpActorTypesAsync(int, CancellationToken, params CrmActorType[])
+  nameWithType: ActorHelper.GetMappedErpActorTypesAsync(int, CancellationToken, params CrmActorType[])
+  fullName: SuperOffice.ErpSync.ActorHelper.GetMappedErpActorTypesAsync(int, System.Threading.CancellationToken, params SuperOffice.Data.CrmActorType[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Retrieves all ErpActorTypes that are mapped to a specific CrmActorType for this connection
+  example: []
+  syntax:
+    content: public static Task<ErpActorType[]> GetMappedErpActorTypesAsync(int erpConnectionId, CancellationToken cancellationToken, params CrmActorType[] crmActorTypes)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    - id: crmActorTypes
+      type: SuperOffice.Data.CrmActorType[]
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.ErpActorType[]}
+      description: ''
+    content.vb: Public Shared Function GetMappedErpActorTypesAsync(erpConnectionId As Integer, cancellationToken As CancellationToken, ParamArray crmActorTypes As CrmActorType()) As Task(Of ErpActorType())
+  overload: SuperOffice.ErpSync.ActorHelper.GetMappedErpActorTypesAsync*
+  nameWithType.vb: ActorHelper.GetMappedErpActorTypesAsync(Integer, CancellationToken, ParamArray CrmActorType())
+  fullName.vb: SuperOffice.ErpSync.ActorHelper.GetMappedErpActorTypesAsync(Integer, System.Threading.CancellationToken, ParamArray SuperOffice.Data.CrmActorType())
+  name.vb: GetMappedErpActorTypesAsync(Integer, CancellationToken, ParamArray CrmActorType())
+- uid: SuperOffice.ErpSync.ActorHelper.GetCrmActorTypeAsync(System.Int32,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.ActorHelper.GetCrmActorTypeAsync(System.Int32,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
+  id: GetCrmActorTypeAsync(System.Int32,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.ActorHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCrmActorTypeAsync(int, ErpActorType, CancellationToken)
+  nameWithType: ActorHelper.GetCrmActorTypeAsync(int, ErpActorType, CancellationToken)
+  fullName: SuperOffice.ErpSync.ActorHelper.GetCrmActorTypeAsync(int, SuperOffice.Data.ErpActorType, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Retrieves all ErpActorTypes that are mapped to a specific CrmActorType for this connection
+  example: []
+  syntax:
+    content: public static Task<CrmActorType> GetCrmActorTypeAsync(int erpConnectionId, ErpActorType erpActorType, CancellationToken cancellationToken)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+    - id: erpActorType
+      type: SuperOffice.Data.ErpActorType
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.CrmActorType}
+      description: ''
+    content.vb: Public Shared Function GetCrmActorTypeAsync(erpConnectionId As Integer, erpActorType As ErpActorType, cancellationToken As CancellationToken) As Task(Of CrmActorType)
+  overload: SuperOffice.ErpSync.ActorHelper.GetCrmActorTypeAsync*
+  nameWithType.vb: ActorHelper.GetCrmActorTypeAsync(Integer, ErpActorType, CancellationToken)
+  fullName.vb: SuperOffice.ErpSync.ActorHelper.GetCrmActorTypeAsync(Integer, SuperOffice.Data.ErpActorType, System.Threading.CancellationToken)
+  name.vb: GetCrmActorTypeAsync(Integer, ErpActorType, CancellationToken)
+- uid: SuperOffice.ErpSync.ActorHelper.BreakActorLinkAsync(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.ActorHelper.BreakActorLinkAsync(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.Threading.CancellationToken)
+  id: BreakActorLinkAsync(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.ActorHelper
+  langs:
+  - csharp
+  - vb
+  name: BreakActorLinkAsync(int, int, CrmActorType, CancellationToken)
+  nameWithType: ActorHelper.BreakActorLinkAsync(int, int, CrmActorType, CancellationToken)
+  fullName: SuperOffice.ErpSync.ActorHelper.BreakActorLinkAsync(int, int, SuperOffice.Data.CrmActorType, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Breaks a link between a CRM and ERP actor.
+  example: []
+  syntax:
+    content: public static Task<bool> BreakActorLinkAsync(int erpConnectionId, int crmRecordId, CrmActorType actorType, CancellationToken cancellationToken)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: ''
+    - id: crmRecordId
+      type: System.Int32
+      description: ''
+    - id: actorType
+      type: SuperOffice.Data.CrmActorType
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
+    content.vb: Public Shared Function BreakActorLinkAsync(erpConnectionId As Integer, crmRecordId As Integer, actorType As CrmActorType, cancellationToken As CancellationToken) As Task(Of Boolean)
+  overload: SuperOffice.ErpSync.ActorHelper.BreakActorLinkAsync*
+  nameWithType.vb: ActorHelper.BreakActorLinkAsync(Integer, Integer, CrmActorType, CancellationToken)
+  fullName.vb: SuperOffice.ErpSync.ActorHelper.BreakActorLinkAsync(Integer, Integer, SuperOffice.Data.CrmActorType, System.Threading.CancellationToken)
+  name.vb: BreakActorLinkAsync(Integer, Integer, CrmActorType, CancellationToken)
+- uid: SuperOffice.ErpSync.ActorHelper.CreateActorLinkAsync(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.ActorHelper.CreateActorLinkAsync(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
+  id: CreateActorLinkAsync(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.ActorHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateActorLinkAsync(int, int, CrmActorType, string, ErpActorType, CancellationToken)
+  nameWithType: ActorHelper.CreateActorLinkAsync(int, int, CrmActorType, string, ErpActorType, CancellationToken)
+  fullName: SuperOffice.ErpSync.ActorHelper.CreateActorLinkAsync(int, int, SuperOffice.Data.CrmActorType, string, SuperOffice.Data.ErpActorType, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Creates a new link between a CRM and ERP actor
+  example: []
+  syntax:
+    content: public static Task<bool> CreateActorLinkAsync(int erpConnectionId, int crmRecordId, CrmActorType crmActorType, string erpKey, ErpActorType erpActorType, CancellationToken cancellationToken)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: ''
+    - id: crmRecordId
+      type: System.Int32
+      description: ''
+    - id: crmActorType
+      type: SuperOffice.Data.CrmActorType
+      description: ''
+    - id: erpKey
+      type: System.String
+      description: ''
+    - id: erpActorType
+      type: SuperOffice.Data.ErpActorType
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
+    content.vb: Public Shared Function CreateActorLinkAsync(erpConnectionId As Integer, crmRecordId As Integer, crmActorType As CrmActorType, erpKey As String, erpActorType As ErpActorType, cancellationToken As CancellationToken) As Task(Of Boolean)
+  overload: SuperOffice.ErpSync.ActorHelper.CreateActorLinkAsync*
+  nameWithType.vb: ActorHelper.CreateActorLinkAsync(Integer, Integer, CrmActorType, String, ErpActorType, CancellationToken)
+  fullName.vb: SuperOffice.ErpSync.ActorHelper.CreateActorLinkAsync(Integer, Integer, SuperOffice.Data.CrmActorType, String, SuperOffice.Data.ErpActorType, System.Threading.CancellationToken)
+  name.vb: CreateActorLinkAsync(Integer, Integer, CrmActorType, String, ErpActorType, CancellationToken)
+- uid: SuperOffice.ErpSync.ActorHelper.CreateActorLinkAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.ActorHelper.CreateActorLinkAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
+  id: CreateActorLinkAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.ActorHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateActorLinkAsync(int, int, int, string, ErpActorType, CancellationToken)
+  nameWithType: ActorHelper.CreateActorLinkAsync(int, int, int, string, ErpActorType, CancellationToken)
+  fullName: SuperOffice.ErpSync.ActorHelper.CreateActorLinkAsync(int, int, int, string, SuperOffice.Data.ErpActorType, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Creates a new link between a CRM and ERP actor
+  example: []
+  syntax:
+    content: public static Task<bool> CreateActorLinkAsync(int erpConnectionId, int crmRecordId, int crmTableId, string erpKey, ErpActorType erpActorType, CancellationToken cancellationToken)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: ''
+    - id: crmRecordId
+      type: System.Int32
+      description: ''
+    - id: crmTableId
+      type: System.Int32
+      description: ''
+    - id: erpKey
+      type: System.String
+      description: ''
+    - id: erpActorType
+      type: SuperOffice.Data.ErpActorType
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
+    content.vb: Public Shared Function CreateActorLinkAsync(erpConnectionId As Integer, crmRecordId As Integer, crmTableId As Integer, erpKey As String, erpActorType As ErpActorType, cancellationToken As CancellationToken) As Task(Of Boolean)
+  overload: SuperOffice.ErpSync.ActorHelper.CreateActorLinkAsync*
+  nameWithType.vb: ActorHelper.CreateActorLinkAsync(Integer, Integer, Integer, String, ErpActorType, CancellationToken)
+  fullName.vb: SuperOffice.ErpSync.ActorHelper.CreateActorLinkAsync(Integer, Integer, Integer, String, SuperOffice.Data.ErpActorType, System.Threading.CancellationToken)
+  name.vb: CreateActorLinkAsync(Integer, Integer, Integer, String, ErpActorType, CancellationToken)
+- uid: SuperOffice.ErpSync.ActorHelper.GetDefaultErpFieldsAndValuesAsync(System.Int32,SuperOffice.Data.ErpActorType,System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.ActorHelper.GetDefaultErpFieldsAndValuesAsync(System.Int32,SuperOffice.Data.ErpActorType,System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  id: GetDefaultErpFieldsAndValuesAsync(System.Int32,SuperOffice.Data.ErpActorType,System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.ActorHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultErpFieldsAndValuesAsync(int, ErpActorType, Dictionary<string, string>, ErpSyncActor, CancellationToken)
+  nameWithType: ActorHelper.GetDefaultErpFieldsAndValuesAsync(int, ErpActorType, Dictionary<string, string>, ErpSyncActor, CancellationToken)
+  fullName: SuperOffice.ErpSync.ActorHelper.GetDefaultErpFieldsAndValuesAsync(int, SuperOffice.Data.ErpActorType, System.Collections.Generic.Dictionary<string, string>, SuperOffice.ErpSync.ErpSyncActor, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public static Task<Dictionary<string, string>> GetDefaultErpFieldsAndValuesAsync(int erpConnectionId, ErpActorType erpActorType, Dictionary<string, string> existingValues, ErpSyncActor erpSyncActor, CancellationToken cancellationToken)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+    - id: erpActorType
+      type: SuperOffice.Data.ErpActorType
+    - id: existingValues
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    - id: erpSyncActor
+      type: SuperOffice.ErpSync.ErpSyncActor
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,System.String}}
+    content.vb: Public Shared Function GetDefaultErpFieldsAndValuesAsync(erpConnectionId As Integer, erpActorType As ErpActorType, existingValues As Dictionary(Of String, String), erpSyncActor As ErpSyncActor, cancellationToken As CancellationToken) As Task(Of Dictionary(Of String, String))
+  overload: SuperOffice.ErpSync.ActorHelper.GetDefaultErpFieldsAndValuesAsync*
+  nameWithType.vb: ActorHelper.GetDefaultErpFieldsAndValuesAsync(Integer, ErpActorType, Dictionary(Of String, String), ErpSyncActor, CancellationToken)
+  fullName.vb: SuperOffice.ErpSync.ActorHelper.GetDefaultErpFieldsAndValuesAsync(Integer, SuperOffice.Data.ErpActorType, System.Collections.Generic.Dictionary(Of String, String), SuperOffice.ErpSync.ErpSyncActor, System.Threading.CancellationToken)
+  name.vb: GetDefaultErpFieldsAndValuesAsync(Integer, ErpActorType, Dictionary(Of String, String), ErpSyncActor, CancellationToken)
+- uid: SuperOffice.ErpSync.ActorHelper.RemoveCrmFields(SuperOffice.ErpSync.ErpSyncActorFieldCollection,System.String[])
+  commentId: M:SuperOffice.ErpSync.ActorHelper.RemoveCrmFields(SuperOffice.ErpSync.ErpSyncActorFieldCollection,System.String[])
+  id: RemoveCrmFields(SuperOffice.ErpSync.ErpSyncActorFieldCollection,System.String[])
+  parent: SuperOffice.ErpSync.ActorHelper
+  langs:
+  - csharp
+  - vb
+  name: RemoveCrmFields(ErpSyncActorFieldCollection, params string[])
+  nameWithType: ActorHelper.RemoveCrmFields(ErpSyncActorFieldCollection, params string[])
+  fullName: SuperOffice.ErpSync.ActorHelper.RemoveCrmFields(SuperOffice.ErpSync.ErpSyncActorFieldCollection, params string[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public static ErpSyncActorFieldCollection RemoveCrmFields(ErpSyncActorFieldCollection collection, params string[] fields)
+    parameters:
+    - id: collection
+      type: SuperOffice.ErpSync.ErpSyncActorFieldCollection
+    - id: fields
+      type: System.String[]
+    return:
+      type: SuperOffice.ErpSync.ErpSyncActorFieldCollection
+    content.vb: Public Shared Function RemoveCrmFields(collection As ErpSyncActorFieldCollection, ParamArray fields As String()) As ErpSyncActorFieldCollection
+  overload: SuperOffice.ErpSync.ActorHelper.RemoveCrmFields*
+  nameWithType.vb: ActorHelper.RemoveCrmFields(ErpSyncActorFieldCollection, ParamArray String())
+  fullName.vb: SuperOffice.ErpSync.ActorHelper.RemoveCrmFields(SuperOffice.ErpSync.ErpSyncActorFieldCollection, ParamArray String())
+  name.vb: RemoveCrmFields(ErpSyncActorFieldCollection, ParamArray String())
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ActorHelper.GetDefaultActortypeMapping*
+  commentId: Overload:SuperOffice.ErpSync.ActorHelper.GetDefaultActortypeMapping
+  isExternal: true
+  href: SuperOffice.ErpSync.ActorHelper.html#SuperOffice_ErpSync_ActorHelper_GetDefaultActortypeMapping_SuperOffice_Data_ErpActorType_
+  name: GetDefaultActortypeMapping
+  nameWithType: ActorHelper.GetDefaultActortypeMapping
+  fullName: SuperOffice.ErpSync.ActorHelper.GetDefaultActortypeMapping
+- uid: SuperOffice.Data.ErpActorType
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.Data.ErpActorType
+- uid: SuperOffice.Data.CrmActorType
+  isExternal: true
+  name: CrmActorType
+  nameWithType: CrmActorType
+  fullName: SuperOffice.Data.CrmActorType
+- uid: SuperOffice.ErpSync.ActorHelper.GetMappedErpActorTypesAsync*
+  commentId: Overload:SuperOffice.ErpSync.ActorHelper.GetMappedErpActorTypesAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.ActorHelper.html#SuperOffice_ErpSync_ActorHelper_GetMappedErpActorTypesAsync_System_Int32_System_Threading_CancellationToken_SuperOffice_Data_CrmActorType___
+  name: GetMappedErpActorTypesAsync
+  nameWithType: ActorHelper.GetMappedErpActorTypesAsync
+  fullName: SuperOffice.ErpSync.ActorHelper.GetMappedErpActorTypesAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: SuperOffice.Data.CrmActorType[]
+  isExternal: true
+  name: CrmActorType[]
+  nameWithType: CrmActorType[]
+  fullName: SuperOffice.Data.CrmActorType[]
+  nameWithType.vb: CrmActorType()
+  fullName.vb: SuperOffice.Data.CrmActorType()
+  name.vb: CrmActorType()
+  spec.csharp:
+  - uid: SuperOffice.Data.CrmActorType
+    name: CrmActorType
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.CrmActorType
+    name: CrmActorType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.ErpActorType[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.ErpActorType[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ErpActorType[]>
+  nameWithType: Task<ErpActorType[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.ErpActorType[]>
+  nameWithType.vb: Task(Of ErpActorType())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.ErpActorType())
+  name.vb: Task(Of ErpActorType())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.ErpSync.ActorHelper.GetCrmActorTypeAsync*
+  commentId: Overload:SuperOffice.ErpSync.ActorHelper.GetCrmActorTypeAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.ActorHelper.html#SuperOffice_ErpSync_ActorHelper_GetCrmActorTypeAsync_System_Int32_SuperOffice_Data_ErpActorType_System_Threading_CancellationToken_
+  name: GetCrmActorTypeAsync
+  nameWithType: ActorHelper.GetCrmActorTypeAsync
+  fullName: SuperOffice.ErpSync.ActorHelper.GetCrmActorTypeAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.CrmActorType}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.CrmActorType}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CrmActorType>
+  nameWithType: Task<CrmActorType>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.CrmActorType>
+  nameWithType.vb: Task(Of CrmActorType)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.CrmActorType)
+  name.vb: Task(Of CrmActorType)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.CrmActorType
+    name: CrmActorType
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.CrmActorType
+    name: CrmActorType
+    isExternal: true
+  - name: )
+- uid: SuperOffice.ErpSync.ActorHelper.BreakActorLinkAsync*
+  commentId: Overload:SuperOffice.ErpSync.ActorHelper.BreakActorLinkAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.ActorHelper.html#SuperOffice_ErpSync_ActorHelper_BreakActorLinkAsync_System_Int32_System_Int32_SuperOffice_Data_CrmActorType_System_Threading_CancellationToken_
+  name: BreakActorLinkAsync
+  nameWithType: ActorHelper.BreakActorLinkAsync
+  fullName: SuperOffice.ErpSync.ActorHelper.BreakActorLinkAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.ErpSync.ActorHelper.CreateActorLinkAsync*
+  commentId: Overload:SuperOffice.ErpSync.ActorHelper.CreateActorLinkAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.ActorHelper.html#SuperOffice_ErpSync_ActorHelper_CreateActorLinkAsync_System_Int32_System_Int32_SuperOffice_Data_CrmActorType_System_String_SuperOffice_Data_ErpActorType_System_Threading_CancellationToken_
+  name: CreateActorLinkAsync
+  nameWithType: ActorHelper.CreateActorLinkAsync
+  fullName: SuperOffice.ErpSync.ActorHelper.CreateActorLinkAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.ErpSync.ActorHelper.GetDefaultErpFieldsAndValuesAsync*
+  commentId: Overload:SuperOffice.ErpSync.ActorHelper.GetDefaultErpFieldsAndValuesAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.ActorHelper.html#SuperOffice_ErpSync_ActorHelper_GetDefaultErpFieldsAndValuesAsync_System_Int32_SuperOffice_Data_ErpActorType_System_Collections_Generic_Dictionary_System_String_System_String__SuperOffice_ErpSync_ErpSyncActor_System_Threading_CancellationToken_
+  name: GetDefaultErpFieldsAndValuesAsync
+  nameWithType: ActorHelper.GetDefaultErpFieldsAndValuesAsync
+  fullName: SuperOffice.ErpSync.ActorHelper.GetDefaultErpFieldsAndValuesAsync
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, string>
+  nameWithType: Dictionary<string, string>
+  fullName: System.Collections.Generic.Dictionary<string, string>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.ErpSync.ErpSyncActor
+  commentId: T:SuperOffice.ErpSync.ErpSyncActor
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActor.html
+  name: ErpSyncActor
+  nameWithType: ErpSyncActor
+  fullName: SuperOffice.ErpSync.ErpSyncActor
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,System.String}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,System.String}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Dictionary<string, string>>
+  nameWithType: Task<Dictionary<string, string>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<string, string>>
+  nameWithType.vb: Task(Of Dictionary(Of String, String))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.Dictionary(Of String, String))
+  name.vb: Task(Of Dictionary(Of String, String))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.ErpSync.ActorHelper.RemoveCrmFields*
+  commentId: Overload:SuperOffice.ErpSync.ActorHelper.RemoveCrmFields
+  isExternal: true
+  href: SuperOffice.ErpSync.ActorHelper.html#SuperOffice_ErpSync_ActorHelper_RemoveCrmFields_SuperOffice_ErpSync_ErpSyncActorFieldCollection_System_String___
+  name: RemoveCrmFields
+  nameWithType: ActorHelper.RemoveCrmFields
+  fullName: SuperOffice.ErpSync.ActorHelper.RemoveCrmFields
+- uid: SuperOffice.ErpSync.ErpSyncActorFieldCollection
+  commentId: T:SuperOffice.ErpSync.ErpSyncActorFieldCollection
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorFieldCollection.html
+  name: ErpSyncActorFieldCollection
+  nameWithType: ErpSyncActorFieldCollection
+  fullName: SuperOffice.ErpSync.ErpSyncActorFieldCollection
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )

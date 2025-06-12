@@ -210,27 +210,24 @@ items:
   nameWithType: MimeTypes
   fullName: SuperOffice.Util.MimeTypes
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nClass containing mime-type constants.\n"
+  summary: Class containing mime-type constants.
+  example: []
   syntax:
-    content: 'public static class MimeTypes : Object'
-    content.vb: >-
-      Public Module MimeTypes
-          Inherits Object
+    content: public static class MimeTypes
+    content.vb: Public Module MimeTypes
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.Util.MimeTypes.Ai
   commentId: F:SuperOffice.Util.MimeTypes.Ai
   id: Ai
@@ -242,9 +239,6 @@ items:
   nameWithType: MimeTypes.Ai
   fullName: SuperOffice.Util.MimeTypes.Ai
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -253,12 +247,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ai As String = "application/postscript"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Aif
   commentId: F:SuperOffice.Util.MimeTypes.Aif
   id: Aif
@@ -270,9 +258,6 @@ items:
   nameWithType: MimeTypes.Aif
   fullName: SuperOffice.Util.MimeTypes.Aif
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -281,12 +266,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Aif As String = "audio/x-aiff"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Aifc
   commentId: F:SuperOffice.Util.MimeTypes.Aifc
   id: Aifc
@@ -298,9 +277,6 @@ items:
   nameWithType: MimeTypes.Aifc
   fullName: SuperOffice.Util.MimeTypes.Aifc
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -309,12 +285,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Aifc As String = "audio/x-aiff"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Aiff
   commentId: F:SuperOffice.Util.MimeTypes.Aiff
   id: Aiff
@@ -326,9 +296,6 @@ items:
   nameWithType: MimeTypes.Aiff
   fullName: SuperOffice.Util.MimeTypes.Aiff
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -337,12 +304,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Aiff As String = "audio/x-aiff"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Asc
   commentId: F:SuperOffice.Util.MimeTypes.Asc
   id: Asc
@@ -354,9 +315,6 @@ items:
   nameWithType: MimeTypes.Asc
   fullName: SuperOffice.Util.MimeTypes.Asc
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -365,12 +323,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Asc As String = "text/plain"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Atom
   commentId: F:SuperOffice.Util.MimeTypes.Atom
   id: Atom
@@ -382,9 +334,6 @@ items:
   nameWithType: MimeTypes.Atom
   fullName: SuperOffice.Util.MimeTypes.Atom
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -393,12 +342,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Atom As String = "application/atom+xml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Au
   commentId: F:SuperOffice.Util.MimeTypes.Au
   id: Au
@@ -410,9 +353,6 @@ items:
   nameWithType: MimeTypes.Au
   fullName: SuperOffice.Util.MimeTypes.Au
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -421,12 +361,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Au As String = "audio/basic"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Avi
   commentId: F:SuperOffice.Util.MimeTypes.Avi
   id: Avi
@@ -438,9 +372,6 @@ items:
   nameWithType: MimeTypes.Avi
   fullName: SuperOffice.Util.MimeTypes.Avi
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -449,12 +380,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Avi As String = "video/x-msvideo"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Bcpio
   commentId: F:SuperOffice.Util.MimeTypes.Bcpio
   id: Bcpio
@@ -466,9 +391,6 @@ items:
   nameWithType: MimeTypes.Bcpio
   fullName: SuperOffice.Util.MimeTypes.Bcpio
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -477,12 +399,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Bcpio As String = "application/x-bcpio"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Bin
   commentId: F:SuperOffice.Util.MimeTypes.Bin
   id: Bin
@@ -494,9 +410,6 @@ items:
   nameWithType: MimeTypes.Bin
   fullName: SuperOffice.Util.MimeTypes.Bin
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -505,12 +418,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Bin As String = "application/octet-stream"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Bmp
   commentId: F:SuperOffice.Util.MimeTypes.Bmp
   id: Bmp
@@ -522,9 +429,6 @@ items:
   nameWithType: MimeTypes.Bmp
   fullName: SuperOffice.Util.MimeTypes.Bmp
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -533,12 +437,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Bmp As String = "image/bmp"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Cdf
   commentId: F:SuperOffice.Util.MimeTypes.Cdf
   id: Cdf
@@ -550,9 +448,6 @@ items:
   nameWithType: MimeTypes.Cdf
   fullName: SuperOffice.Util.MimeTypes.Cdf
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -561,12 +456,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Cdf As String = "application/x-netcdf"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Cgm
   commentId: F:SuperOffice.Util.MimeTypes.Cgm
   id: Cgm
@@ -578,9 +467,6 @@ items:
   nameWithType: MimeTypes.Cgm
   fullName: SuperOffice.Util.MimeTypes.Cgm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -589,12 +475,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Cgm As String = "image/cgm"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Class
   commentId: F:SuperOffice.Util.MimeTypes.Class
   id: Class
@@ -606,9 +486,6 @@ items:
   nameWithType: MimeTypes.Class
   fullName: SuperOffice.Util.MimeTypes.Class
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -617,12 +494,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Class As String = "application/octet-stream"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Cpio
   commentId: F:SuperOffice.Util.MimeTypes.Cpio
   id: Cpio
@@ -634,9 +505,6 @@ items:
   nameWithType: MimeTypes.Cpio
   fullName: SuperOffice.Util.MimeTypes.Cpio
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -645,12 +513,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Cpio As String = "application/x-cpio"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Cpt
   commentId: F:SuperOffice.Util.MimeTypes.Cpt
   id: Cpt
@@ -662,9 +524,6 @@ items:
   nameWithType: MimeTypes.Cpt
   fullName: SuperOffice.Util.MimeTypes.Cpt
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -673,12 +532,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Cpt As String = "application/mac-compactpro"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Csh
   commentId: F:SuperOffice.Util.MimeTypes.Csh
   id: Csh
@@ -690,9 +543,6 @@ items:
   nameWithType: MimeTypes.Csh
   fullName: SuperOffice.Util.MimeTypes.Csh
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -701,12 +551,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Csh As String = "application/x-csh"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Css
   commentId: F:SuperOffice.Util.MimeTypes.Css
   id: Css
@@ -718,9 +562,6 @@ items:
   nameWithType: MimeTypes.Css
   fullName: SuperOffice.Util.MimeTypes.Css
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -729,12 +570,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Css As String = "text/css"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Dcr
   commentId: F:SuperOffice.Util.MimeTypes.Dcr
   id: Dcr
@@ -746,9 +581,6 @@ items:
   nameWithType: MimeTypes.Dcr
   fullName: SuperOffice.Util.MimeTypes.Dcr
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -757,12 +589,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Dcr As String = "application/x-director"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Dif
   commentId: F:SuperOffice.Util.MimeTypes.Dif
   id: Dif
@@ -774,9 +600,6 @@ items:
   nameWithType: MimeTypes.Dif
   fullName: SuperOffice.Util.MimeTypes.Dif
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -785,12 +608,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Dif As String = "video/x-dv"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Dir
   commentId: F:SuperOffice.Util.MimeTypes.Dir
   id: Dir
@@ -802,9 +619,6 @@ items:
   nameWithType: MimeTypes.Dir
   fullName: SuperOffice.Util.MimeTypes.Dir
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -813,12 +627,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Dir As String = "application/x-director"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Djv
   commentId: F:SuperOffice.Util.MimeTypes.Djv
   id: Djv
@@ -830,9 +638,6 @@ items:
   nameWithType: MimeTypes.Djv
   fullName: SuperOffice.Util.MimeTypes.Djv
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -841,12 +646,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Djv As String = "image/vnd.djvu"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Djvu
   commentId: F:SuperOffice.Util.MimeTypes.Djvu
   id: Djvu
@@ -858,9 +657,6 @@ items:
   nameWithType: MimeTypes.Djvu
   fullName: SuperOffice.Util.MimeTypes.Djvu
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -869,12 +665,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Djvu As String = "image/vnd.djvu"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Dll
   commentId: F:SuperOffice.Util.MimeTypes.Dll
   id: Dll
@@ -886,9 +676,6 @@ items:
   nameWithType: MimeTypes.Dll
   fullName: SuperOffice.Util.MimeTypes.Dll
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -897,12 +684,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Dll As String = "application/octet-stream"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Dmg
   commentId: F:SuperOffice.Util.MimeTypes.Dmg
   id: Dmg
@@ -914,9 +695,6 @@ items:
   nameWithType: MimeTypes.Dmg
   fullName: SuperOffice.Util.MimeTypes.Dmg
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -925,12 +703,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Dmg As String = "application/octet-stream"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Dms
   commentId: F:SuperOffice.Util.MimeTypes.Dms
   id: Dms
@@ -942,9 +714,6 @@ items:
   nameWithType: MimeTypes.Dms
   fullName: SuperOffice.Util.MimeTypes.Dms
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -953,12 +722,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Dms As String = "application/octet-stream"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Doc
   commentId: F:SuperOffice.Util.MimeTypes.Doc
   id: Doc
@@ -970,9 +733,6 @@ items:
   nameWithType: MimeTypes.Doc
   fullName: SuperOffice.Util.MimeTypes.Doc
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -981,12 +741,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Doc As String = "application/msword"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Docx
   commentId: F:SuperOffice.Util.MimeTypes.Docx
   id: Docx
@@ -998,9 +752,6 @@ items:
   nameWithType: MimeTypes.Docx
   fullName: SuperOffice.Util.MimeTypes.Docx
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1009,12 +760,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Docx As String = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Dotx
   commentId: F:SuperOffice.Util.MimeTypes.Dotx
   id: Dotx
@@ -1026,9 +771,6 @@ items:
   nameWithType: MimeTypes.Dotx
   fullName: SuperOffice.Util.MimeTypes.Dotx
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1037,12 +779,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Dotx As String = "application/vnd.openxmlformats-officedocument.wordprocessingml.template"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Docm
   commentId: F:SuperOffice.Util.MimeTypes.Docm
   id: Docm
@@ -1054,9 +790,6 @@ items:
   nameWithType: MimeTypes.Docm
   fullName: SuperOffice.Util.MimeTypes.Docm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1065,12 +798,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Docm As String = "application/vnd.ms-word.document.macroEnabled.12"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Dotm
   commentId: F:SuperOffice.Util.MimeTypes.Dotm
   id: Dotm
@@ -1082,9 +809,6 @@ items:
   nameWithType: MimeTypes.Dotm
   fullName: SuperOffice.Util.MimeTypes.Dotm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1093,12 +817,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Dotm As String = "application/vnd.ms-word.template.macroEnabled.12"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Dtd
   commentId: F:SuperOffice.Util.MimeTypes.Dtd
   id: Dtd
@@ -1110,9 +828,6 @@ items:
   nameWithType: MimeTypes.Dtd
   fullName: SuperOffice.Util.MimeTypes.Dtd
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1121,12 +836,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Dtd As String = "application/xml-dtd"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Dv
   commentId: F:SuperOffice.Util.MimeTypes.Dv
   id: Dv
@@ -1138,9 +847,6 @@ items:
   nameWithType: MimeTypes.Dv
   fullName: SuperOffice.Util.MimeTypes.Dv
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1149,12 +855,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Dv As String = "video/x-dv"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Dvi
   commentId: F:SuperOffice.Util.MimeTypes.Dvi
   id: Dvi
@@ -1166,9 +866,6 @@ items:
   nameWithType: MimeTypes.Dvi
   fullName: SuperOffice.Util.MimeTypes.Dvi
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1177,12 +874,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Dvi As String = "application/x-dvi"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Dxr
   commentId: F:SuperOffice.Util.MimeTypes.Dxr
   id: Dxr
@@ -1194,9 +885,6 @@ items:
   nameWithType: MimeTypes.Dxr
   fullName: SuperOffice.Util.MimeTypes.Dxr
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1205,12 +893,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Dxr As String = "application/x-director"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Eps
   commentId: F:SuperOffice.Util.MimeTypes.Eps
   id: Eps
@@ -1222,9 +904,6 @@ items:
   nameWithType: MimeTypes.Eps
   fullName: SuperOffice.Util.MimeTypes.Eps
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1233,12 +912,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Eps As String = "application/postscript"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Etx
   commentId: F:SuperOffice.Util.MimeTypes.Etx
   id: Etx
@@ -1250,9 +923,6 @@ items:
   nameWithType: MimeTypes.Etx
   fullName: SuperOffice.Util.MimeTypes.Etx
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1261,12 +931,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Etx As String = "text/x-setext"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Exe
   commentId: F:SuperOffice.Util.MimeTypes.Exe
   id: Exe
@@ -1278,9 +942,6 @@ items:
   nameWithType: MimeTypes.Exe
   fullName: SuperOffice.Util.MimeTypes.Exe
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1289,12 +950,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Exe As String = "application/octet-stream"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ez
   commentId: F:SuperOffice.Util.MimeTypes.Ez
   id: Ez
@@ -1306,9 +961,6 @@ items:
   nameWithType: MimeTypes.Ez
   fullName: SuperOffice.Util.MimeTypes.Ez
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1317,12 +969,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ez As String = "application/andrew-inset"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Gif
   commentId: F:SuperOffice.Util.MimeTypes.Gif
   id: Gif
@@ -1334,9 +980,6 @@ items:
   nameWithType: MimeTypes.Gif
   fullName: SuperOffice.Util.MimeTypes.Gif
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1345,12 +988,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Gif As String = "image/gif"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Gram
   commentId: F:SuperOffice.Util.MimeTypes.Gram
   id: Gram
@@ -1362,9 +999,6 @@ items:
   nameWithType: MimeTypes.Gram
   fullName: SuperOffice.Util.MimeTypes.Gram
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1373,12 +1007,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Gram As String = "application/srgs"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Grxml
   commentId: F:SuperOffice.Util.MimeTypes.Grxml
   id: Grxml
@@ -1390,9 +1018,6 @@ items:
   nameWithType: MimeTypes.Grxml
   fullName: SuperOffice.Util.MimeTypes.Grxml
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1401,12 +1026,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Grxml As String = "application/srgs+xml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Gtar
   commentId: F:SuperOffice.Util.MimeTypes.Gtar
   id: Gtar
@@ -1418,9 +1037,6 @@ items:
   nameWithType: MimeTypes.Gtar
   fullName: SuperOffice.Util.MimeTypes.Gtar
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1429,12 +1045,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Gtar As String = "application/x-gtar"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Hdf
   commentId: F:SuperOffice.Util.MimeTypes.Hdf
   id: Hdf
@@ -1446,9 +1056,6 @@ items:
   nameWithType: MimeTypes.Hdf
   fullName: SuperOffice.Util.MimeTypes.Hdf
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1457,12 +1064,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Hdf As String = "application/x-hdf"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Hqx
   commentId: F:SuperOffice.Util.MimeTypes.Hqx
   id: Hqx
@@ -1474,9 +1075,6 @@ items:
   nameWithType: MimeTypes.Hqx
   fullName: SuperOffice.Util.MimeTypes.Hqx
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1485,12 +1083,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Hqx As String = "application/mac-binhex40"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Htm
   commentId: F:SuperOffice.Util.MimeTypes.Htm
   id: Htm
@@ -1502,9 +1094,6 @@ items:
   nameWithType: MimeTypes.Htm
   fullName: SuperOffice.Util.MimeTypes.Htm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1513,12 +1102,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Htm As String = "text/html"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Html
   commentId: F:SuperOffice.Util.MimeTypes.Html
   id: Html
@@ -1530,9 +1113,6 @@ items:
   nameWithType: MimeTypes.Html
   fullName: SuperOffice.Util.MimeTypes.Html
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1541,12 +1121,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Html As String = "text/html"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ice
   commentId: F:SuperOffice.Util.MimeTypes.Ice
   id: Ice
@@ -1558,9 +1132,6 @@ items:
   nameWithType: MimeTypes.Ice
   fullName: SuperOffice.Util.MimeTypes.Ice
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1569,12 +1140,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ice As String = "x-conference/x-cooltalk"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ico
   commentId: F:SuperOffice.Util.MimeTypes.Ico
   id: Ico
@@ -1586,9 +1151,6 @@ items:
   nameWithType: MimeTypes.Ico
   fullName: SuperOffice.Util.MimeTypes.Ico
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1597,12 +1159,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ico As String = "image/x-icon"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ics
   commentId: F:SuperOffice.Util.MimeTypes.Ics
   id: Ics
@@ -1614,9 +1170,6 @@ items:
   nameWithType: MimeTypes.Ics
   fullName: SuperOffice.Util.MimeTypes.Ics
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1625,12 +1178,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ics As String = "text/calendar"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ief
   commentId: F:SuperOffice.Util.MimeTypes.Ief
   id: Ief
@@ -1642,9 +1189,6 @@ items:
   nameWithType: MimeTypes.Ief
   fullName: SuperOffice.Util.MimeTypes.Ief
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1653,12 +1197,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ief As String = "image/ief"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ifb
   commentId: F:SuperOffice.Util.MimeTypes.Ifb
   id: Ifb
@@ -1670,9 +1208,6 @@ items:
   nameWithType: MimeTypes.Ifb
   fullName: SuperOffice.Util.MimeTypes.Ifb
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1681,12 +1216,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ifb As String = "text/calendar"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Iges
   commentId: F:SuperOffice.Util.MimeTypes.Iges
   id: Iges
@@ -1698,9 +1227,6 @@ items:
   nameWithType: MimeTypes.Iges
   fullName: SuperOffice.Util.MimeTypes.Iges
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1709,12 +1235,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Iges As String = "model/iges"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Igs
   commentId: F:SuperOffice.Util.MimeTypes.Igs
   id: Igs
@@ -1726,9 +1246,6 @@ items:
   nameWithType: MimeTypes.Igs
   fullName: SuperOffice.Util.MimeTypes.Igs
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1737,12 +1254,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Igs As String = "model/iges"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Jnlp
   commentId: F:SuperOffice.Util.MimeTypes.Jnlp
   id: Jnlp
@@ -1754,9 +1265,6 @@ items:
   nameWithType: MimeTypes.Jnlp
   fullName: SuperOffice.Util.MimeTypes.Jnlp
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1765,12 +1273,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Jnlp As String = "application/x-java-jnlp-file"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Jp2
   commentId: F:SuperOffice.Util.MimeTypes.Jp2
   id: Jp2
@@ -1782,9 +1284,6 @@ items:
   nameWithType: MimeTypes.Jp2
   fullName: SuperOffice.Util.MimeTypes.Jp2
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1793,12 +1292,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Jp2 As String = "image/jp2"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Jpe
   commentId: F:SuperOffice.Util.MimeTypes.Jpe
   id: Jpe
@@ -1810,9 +1303,6 @@ items:
   nameWithType: MimeTypes.Jpe
   fullName: SuperOffice.Util.MimeTypes.Jpe
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1821,12 +1311,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Jpe As String = "image/jpeg"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Jpeg
   commentId: F:SuperOffice.Util.MimeTypes.Jpeg
   id: Jpeg
@@ -1838,9 +1322,6 @@ items:
   nameWithType: MimeTypes.Jpeg
   fullName: SuperOffice.Util.MimeTypes.Jpeg
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1849,12 +1330,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Jpeg As String = "image/jpeg"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Jpg
   commentId: F:SuperOffice.Util.MimeTypes.Jpg
   id: Jpg
@@ -1866,9 +1341,6 @@ items:
   nameWithType: MimeTypes.Jpg
   fullName: SuperOffice.Util.MimeTypes.Jpg
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1877,12 +1349,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Jpg As String = "image/jpeg"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Js
   commentId: F:SuperOffice.Util.MimeTypes.Js
   id: Js
@@ -1894,9 +1360,6 @@ items:
   nameWithType: MimeTypes.Js
   fullName: SuperOffice.Util.MimeTypes.Js
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1905,12 +1368,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Js As String = "application/x-javascript"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Kar
   commentId: F:SuperOffice.Util.MimeTypes.Kar
   id: Kar
@@ -1922,9 +1379,6 @@ items:
   nameWithType: MimeTypes.Kar
   fullName: SuperOffice.Util.MimeTypes.Kar
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1933,12 +1387,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Kar As String = "audio/midi"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Latex
   commentId: F:SuperOffice.Util.MimeTypes.Latex
   id: Latex
@@ -1950,9 +1398,6 @@ items:
   nameWithType: MimeTypes.Latex
   fullName: SuperOffice.Util.MimeTypes.Latex
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1961,12 +1406,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Latex As String = "application/x-latex"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Lha
   commentId: F:SuperOffice.Util.MimeTypes.Lha
   id: Lha
@@ -1978,9 +1417,6 @@ items:
   nameWithType: MimeTypes.Lha
   fullName: SuperOffice.Util.MimeTypes.Lha
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -1989,12 +1425,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Lha As String = "application/octet-stream"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Lzh
   commentId: F:SuperOffice.Util.MimeTypes.Lzh
   id: Lzh
@@ -2006,9 +1436,6 @@ items:
   nameWithType: MimeTypes.Lzh
   fullName: SuperOffice.Util.MimeTypes.Lzh
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2017,12 +1444,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Lzh As String = "application/octet-stream"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.M3U
   commentId: F:SuperOffice.Util.MimeTypes.M3U
   id: M3U
@@ -2034,9 +1455,6 @@ items:
   nameWithType: MimeTypes.M3U
   fullName: SuperOffice.Util.MimeTypes.M3U
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2045,12 +1463,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const M3U As String = "audio/x-mpegurl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.M4A
   commentId: F:SuperOffice.Util.MimeTypes.M4A
   id: M4A
@@ -2062,9 +1474,6 @@ items:
   nameWithType: MimeTypes.M4A
   fullName: SuperOffice.Util.MimeTypes.M4A
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2073,12 +1482,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const M4A As String = "audio/mp4a-latm"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.M4B
   commentId: F:SuperOffice.Util.MimeTypes.M4B
   id: M4B
@@ -2090,9 +1493,6 @@ items:
   nameWithType: MimeTypes.M4B
   fullName: SuperOffice.Util.MimeTypes.M4B
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2101,12 +1501,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const M4B As String = "audio/mp4a-latm"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.M4P
   commentId: F:SuperOffice.Util.MimeTypes.M4P
   id: M4P
@@ -2118,9 +1512,6 @@ items:
   nameWithType: MimeTypes.M4P
   fullName: SuperOffice.Util.MimeTypes.M4P
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2129,12 +1520,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const M4P As String = "audio/mp4a-latm"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.M4U
   commentId: F:SuperOffice.Util.MimeTypes.M4U
   id: M4U
@@ -2146,9 +1531,6 @@ items:
   nameWithType: MimeTypes.M4U
   fullName: SuperOffice.Util.MimeTypes.M4U
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2157,12 +1539,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const M4U As String = "video/vnd.mpegurl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.M4V
   commentId: F:SuperOffice.Util.MimeTypes.M4V
   id: M4V
@@ -2174,9 +1550,6 @@ items:
   nameWithType: MimeTypes.M4V
   fullName: SuperOffice.Util.MimeTypes.M4V
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2185,12 +1558,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const M4V As String = "video/x-m4v"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Mac
   commentId: F:SuperOffice.Util.MimeTypes.Mac
   id: Mac
@@ -2202,9 +1569,6 @@ items:
   nameWithType: MimeTypes.Mac
   fullName: SuperOffice.Util.MimeTypes.Mac
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2213,12 +1577,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Mac As String = "image/x-macpaint"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Man
   commentId: F:SuperOffice.Util.MimeTypes.Man
   id: Man
@@ -2230,9 +1588,6 @@ items:
   nameWithType: MimeTypes.Man
   fullName: SuperOffice.Util.MimeTypes.Man
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2241,12 +1596,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Man As String = "application/x-troff-man"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Mathml
   commentId: F:SuperOffice.Util.MimeTypes.Mathml
   id: Mathml
@@ -2258,9 +1607,6 @@ items:
   nameWithType: MimeTypes.Mathml
   fullName: SuperOffice.Util.MimeTypes.Mathml
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2269,12 +1615,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Mathml As String = "application/mathml+xml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Me
   commentId: F:SuperOffice.Util.MimeTypes.Me
   id: Me
@@ -2286,9 +1626,6 @@ items:
   nameWithType: MimeTypes.Me
   fullName: SuperOffice.Util.MimeTypes.Me
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2297,12 +1634,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Me As String = "application/x-troff-me"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Mesh
   commentId: F:SuperOffice.Util.MimeTypes.Mesh
   id: Mesh
@@ -2314,9 +1645,6 @@ items:
   nameWithType: MimeTypes.Mesh
   fullName: SuperOffice.Util.MimeTypes.Mesh
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2325,12 +1653,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Mesh As String = "model/mesh"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Mid
   commentId: F:SuperOffice.Util.MimeTypes.Mid
   id: Mid
@@ -2342,9 +1664,6 @@ items:
   nameWithType: MimeTypes.Mid
   fullName: SuperOffice.Util.MimeTypes.Mid
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2353,12 +1672,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Mid As String = "audio/midi"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Midi
   commentId: F:SuperOffice.Util.MimeTypes.Midi
   id: Midi
@@ -2370,9 +1683,6 @@ items:
   nameWithType: MimeTypes.Midi
   fullName: SuperOffice.Util.MimeTypes.Midi
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2381,12 +1691,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Midi As String = "audio/midi"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Mif
   commentId: F:SuperOffice.Util.MimeTypes.Mif
   id: Mif
@@ -2398,9 +1702,6 @@ items:
   nameWithType: MimeTypes.Mif
   fullName: SuperOffice.Util.MimeTypes.Mif
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2409,12 +1710,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Mif As String = "application/vnd.mif"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Mov
   commentId: F:SuperOffice.Util.MimeTypes.Mov
   id: Mov
@@ -2426,9 +1721,6 @@ items:
   nameWithType: MimeTypes.Mov
   fullName: SuperOffice.Util.MimeTypes.Mov
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2437,12 +1729,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Mov As String = "video/quicktime"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Movie
   commentId: F:SuperOffice.Util.MimeTypes.Movie
   id: Movie
@@ -2454,9 +1740,6 @@ items:
   nameWithType: MimeTypes.Movie
   fullName: SuperOffice.Util.MimeTypes.Movie
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2465,12 +1748,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Movie As String = "video/x-sgi-movie"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Mp2
   commentId: F:SuperOffice.Util.MimeTypes.Mp2
   id: Mp2
@@ -2482,9 +1759,6 @@ items:
   nameWithType: MimeTypes.Mp2
   fullName: SuperOffice.Util.MimeTypes.Mp2
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2493,12 +1767,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Mp2 As String = "audio/mpeg"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Mp3
   commentId: F:SuperOffice.Util.MimeTypes.Mp3
   id: Mp3
@@ -2510,9 +1778,6 @@ items:
   nameWithType: MimeTypes.Mp3
   fullName: SuperOffice.Util.MimeTypes.Mp3
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2521,12 +1786,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Mp3 As String = "audio/mpeg"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Mp4
   commentId: F:SuperOffice.Util.MimeTypes.Mp4
   id: Mp4
@@ -2538,9 +1797,6 @@ items:
   nameWithType: MimeTypes.Mp4
   fullName: SuperOffice.Util.MimeTypes.Mp4
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2549,12 +1805,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Mp4 As String = "video/mp4"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Mpe
   commentId: F:SuperOffice.Util.MimeTypes.Mpe
   id: Mpe
@@ -2566,9 +1816,6 @@ items:
   nameWithType: MimeTypes.Mpe
   fullName: SuperOffice.Util.MimeTypes.Mpe
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2577,12 +1824,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Mpe As String = "video/mpeg"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Mpeg
   commentId: F:SuperOffice.Util.MimeTypes.Mpeg
   id: Mpeg
@@ -2594,9 +1835,6 @@ items:
   nameWithType: MimeTypes.Mpeg
   fullName: SuperOffice.Util.MimeTypes.Mpeg
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2605,12 +1843,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Mpeg As String = "video/mpeg"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Mpg
   commentId: F:SuperOffice.Util.MimeTypes.Mpg
   id: Mpg
@@ -2622,9 +1854,6 @@ items:
   nameWithType: MimeTypes.Mpg
   fullName: SuperOffice.Util.MimeTypes.Mpg
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2633,12 +1862,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Mpg As String = "video/mpeg"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Mpga
   commentId: F:SuperOffice.Util.MimeTypes.Mpga
   id: Mpga
@@ -2650,9 +1873,6 @@ items:
   nameWithType: MimeTypes.Mpga
   fullName: SuperOffice.Util.MimeTypes.Mpga
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2661,12 +1881,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Mpga As String = "audio/mpeg"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ms
   commentId: F:SuperOffice.Util.MimeTypes.Ms
   id: Ms
@@ -2678,9 +1892,6 @@ items:
   nameWithType: MimeTypes.Ms
   fullName: SuperOffice.Util.MimeTypes.Ms
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2689,12 +1900,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ms As String = "application/x-troff-ms"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Msh
   commentId: F:SuperOffice.Util.MimeTypes.Msh
   id: Msh
@@ -2706,9 +1911,6 @@ items:
   nameWithType: MimeTypes.Msh
   fullName: SuperOffice.Util.MimeTypes.Msh
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2717,12 +1919,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Msh As String = "model/mesh"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Mxu
   commentId: F:SuperOffice.Util.MimeTypes.Mxu
   id: Mxu
@@ -2734,9 +1930,6 @@ items:
   nameWithType: MimeTypes.Mxu
   fullName: SuperOffice.Util.MimeTypes.Mxu
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2745,12 +1938,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Mxu As String = "video/vnd.mpegurl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Nc
   commentId: F:SuperOffice.Util.MimeTypes.Nc
   id: Nc
@@ -2762,9 +1949,6 @@ items:
   nameWithType: MimeTypes.Nc
   fullName: SuperOffice.Util.MimeTypes.Nc
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2773,12 +1957,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Nc As String = "application/x-netcdf"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Oda
   commentId: F:SuperOffice.Util.MimeTypes.Oda
   id: Oda
@@ -2790,9 +1968,6 @@ items:
   nameWithType: MimeTypes.Oda
   fullName: SuperOffice.Util.MimeTypes.Oda
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2801,12 +1976,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Oda As String = "application/oda"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Odt
   commentId: F:SuperOffice.Util.MimeTypes.Odt
   id: Odt
@@ -2818,9 +1987,6 @@ items:
   nameWithType: MimeTypes.Odt
   fullName: SuperOffice.Util.MimeTypes.Odt
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2829,12 +1995,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Odt As String = "application/vnd.oasis.opendocument.text"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ods
   commentId: F:SuperOffice.Util.MimeTypes.Ods
   id: Ods
@@ -2846,9 +2006,6 @@ items:
   nameWithType: MimeTypes.Ods
   fullName: SuperOffice.Util.MimeTypes.Ods
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2857,12 +2014,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ods As String = "application/vnd.oasis.opendocument.spreadsheet"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Odp
   commentId: F:SuperOffice.Util.MimeTypes.Odp
   id: Odp
@@ -2874,9 +2025,6 @@ items:
   nameWithType: MimeTypes.Odp
   fullName: SuperOffice.Util.MimeTypes.Odp
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2885,12 +2033,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Odp As String = "application/vnd.oasis.opendocument.presentation"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ogg
   commentId: F:SuperOffice.Util.MimeTypes.Ogg
   id: Ogg
@@ -2902,9 +2044,6 @@ items:
   nameWithType: MimeTypes.Ogg
   fullName: SuperOffice.Util.MimeTypes.Ogg
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2913,12 +2052,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ogg As String = "application/ogg"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Pbm
   commentId: F:SuperOffice.Util.MimeTypes.Pbm
   id: Pbm
@@ -2930,9 +2063,6 @@ items:
   nameWithType: MimeTypes.Pbm
   fullName: SuperOffice.Util.MimeTypes.Pbm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2941,12 +2071,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Pbm As String = "image/x-portable-bitmap"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Pct
   commentId: F:SuperOffice.Util.MimeTypes.Pct
   id: Pct
@@ -2958,9 +2082,6 @@ items:
   nameWithType: MimeTypes.Pct
   fullName: SuperOffice.Util.MimeTypes.Pct
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2969,12 +2090,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Pct As String = "image/pict"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Pdb
   commentId: F:SuperOffice.Util.MimeTypes.Pdb
   id: Pdb
@@ -2986,9 +2101,6 @@ items:
   nameWithType: MimeTypes.Pdb
   fullName: SuperOffice.Util.MimeTypes.Pdb
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -2997,12 +2109,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Pdb As String = "chemical/x-pdb"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Pdf
   commentId: F:SuperOffice.Util.MimeTypes.Pdf
   id: Pdf
@@ -3014,9 +2120,6 @@ items:
   nameWithType: MimeTypes.Pdf
   fullName: SuperOffice.Util.MimeTypes.Pdf
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3025,12 +2128,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Pdf As String = "application/pdf"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Pgm
   commentId: F:SuperOffice.Util.MimeTypes.Pgm
   id: Pgm
@@ -3042,9 +2139,6 @@ items:
   nameWithType: MimeTypes.Pgm
   fullName: SuperOffice.Util.MimeTypes.Pgm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3053,12 +2147,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Pgm As String = "image/x-portable-graymap"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Pgn
   commentId: F:SuperOffice.Util.MimeTypes.Pgn
   id: Pgn
@@ -3070,9 +2158,6 @@ items:
   nameWithType: MimeTypes.Pgn
   fullName: SuperOffice.Util.MimeTypes.Pgn
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3081,12 +2166,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Pgn As String = "application/x-chess-pgn"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Pic
   commentId: F:SuperOffice.Util.MimeTypes.Pic
   id: Pic
@@ -3098,9 +2177,6 @@ items:
   nameWithType: MimeTypes.Pic
   fullName: SuperOffice.Util.MimeTypes.Pic
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3109,12 +2185,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Pic As String = "image/pict"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Pict
   commentId: F:SuperOffice.Util.MimeTypes.Pict
   id: Pict
@@ -3126,9 +2196,6 @@ items:
   nameWithType: MimeTypes.Pict
   fullName: SuperOffice.Util.MimeTypes.Pict
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3137,12 +2204,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Pict As String = "image/pict"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Png
   commentId: F:SuperOffice.Util.MimeTypes.Png
   id: Png
@@ -3154,9 +2215,6 @@ items:
   nameWithType: MimeTypes.Png
   fullName: SuperOffice.Util.MimeTypes.Png
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3165,12 +2223,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Png As String = "image/png"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Pnm
   commentId: F:SuperOffice.Util.MimeTypes.Pnm
   id: Pnm
@@ -3182,9 +2234,6 @@ items:
   nameWithType: MimeTypes.Pnm
   fullName: SuperOffice.Util.MimeTypes.Pnm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3193,12 +2242,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Pnm As String = "image/x-portable-anymap"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Pnt
   commentId: F:SuperOffice.Util.MimeTypes.Pnt
   id: Pnt
@@ -3210,9 +2253,6 @@ items:
   nameWithType: MimeTypes.Pnt
   fullName: SuperOffice.Util.MimeTypes.Pnt
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3221,12 +2261,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Pnt As String = "image/x-macpaint"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Pntg
   commentId: F:SuperOffice.Util.MimeTypes.Pntg
   id: Pntg
@@ -3238,9 +2272,6 @@ items:
   nameWithType: MimeTypes.Pntg
   fullName: SuperOffice.Util.MimeTypes.Pntg
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3249,12 +2280,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Pntg As String = "image/x-macpaint"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ppm
   commentId: F:SuperOffice.Util.MimeTypes.Ppm
   id: Ppm
@@ -3266,9 +2291,6 @@ items:
   nameWithType: MimeTypes.Ppm
   fullName: SuperOffice.Util.MimeTypes.Ppm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3277,12 +2299,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ppm As String = "image/x-portable-pixmap"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ppt
   commentId: F:SuperOffice.Util.MimeTypes.Ppt
   id: Ppt
@@ -3294,9 +2310,6 @@ items:
   nameWithType: MimeTypes.Ppt
   fullName: SuperOffice.Util.MimeTypes.Ppt
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3305,12 +2318,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ppt As String = "application/vnd.ms-powerpoint"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Pptx
   commentId: F:SuperOffice.Util.MimeTypes.Pptx
   id: Pptx
@@ -3322,9 +2329,6 @@ items:
   nameWithType: MimeTypes.Pptx
   fullName: SuperOffice.Util.MimeTypes.Pptx
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3333,12 +2337,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Pptx As String = "application/vnd.openxmlformats-officedocument.presentationml.presentation"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Potx
   commentId: F:SuperOffice.Util.MimeTypes.Potx
   id: Potx
@@ -3350,9 +2348,6 @@ items:
   nameWithType: MimeTypes.Potx
   fullName: SuperOffice.Util.MimeTypes.Potx
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3361,12 +2356,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Potx As String = "application/vnd.openxmlformats-officedocument.presentationml.template"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ppsx
   commentId: F:SuperOffice.Util.MimeTypes.Ppsx
   id: Ppsx
@@ -3378,9 +2367,6 @@ items:
   nameWithType: MimeTypes.Ppsx
   fullName: SuperOffice.Util.MimeTypes.Ppsx
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3389,12 +2375,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ppsx As String = "application/vnd.openxmlformats-officedocument.presentationml.slideshow"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ppam
   commentId: F:SuperOffice.Util.MimeTypes.Ppam
   id: Ppam
@@ -3406,9 +2386,6 @@ items:
   nameWithType: MimeTypes.Ppam
   fullName: SuperOffice.Util.MimeTypes.Ppam
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3417,12 +2394,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ppam As String = "application/vnd.ms-powerpoint.addin.macroEnabled.12"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Pptm
   commentId: F:SuperOffice.Util.MimeTypes.Pptm
   id: Pptm
@@ -3434,9 +2405,6 @@ items:
   nameWithType: MimeTypes.Pptm
   fullName: SuperOffice.Util.MimeTypes.Pptm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3445,12 +2413,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Pptm As String = "application/vnd.ms-powerpoint.presentation.macroEnabled.12"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Potm
   commentId: F:SuperOffice.Util.MimeTypes.Potm
   id: Potm
@@ -3462,9 +2424,6 @@ items:
   nameWithType: MimeTypes.Potm
   fullName: SuperOffice.Util.MimeTypes.Potm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3473,12 +2432,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Potm As String = "application/vnd.ms-powerpoint.template.macroEnabled.12"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ppsm
   commentId: F:SuperOffice.Util.MimeTypes.Ppsm
   id: Ppsm
@@ -3490,9 +2443,6 @@ items:
   nameWithType: MimeTypes.Ppsm
   fullName: SuperOffice.Util.MimeTypes.Ppsm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3501,12 +2451,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ppsm As String = "application/vnd.ms-powerpoint.slideshow.macroEnabled.12"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ps
   commentId: F:SuperOffice.Util.MimeTypes.Ps
   id: Ps
@@ -3518,9 +2462,6 @@ items:
   nameWithType: MimeTypes.Ps
   fullName: SuperOffice.Util.MimeTypes.Ps
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3529,12 +2470,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ps As String = "application/postscript"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Qt
   commentId: F:SuperOffice.Util.MimeTypes.Qt
   id: Qt
@@ -3546,9 +2481,6 @@ items:
   nameWithType: MimeTypes.Qt
   fullName: SuperOffice.Util.MimeTypes.Qt
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3557,12 +2489,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Qt As String = "video/quicktime"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Qti
   commentId: F:SuperOffice.Util.MimeTypes.Qti
   id: Qti
@@ -3574,9 +2500,6 @@ items:
   nameWithType: MimeTypes.Qti
   fullName: SuperOffice.Util.MimeTypes.Qti
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3585,12 +2508,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Qti As String = "image/x-quicktime"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Qtif
   commentId: F:SuperOffice.Util.MimeTypes.Qtif
   id: Qtif
@@ -3602,9 +2519,6 @@ items:
   nameWithType: MimeTypes.Qtif
   fullName: SuperOffice.Util.MimeTypes.Qtif
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3613,12 +2527,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Qtif As String = "image/x-quicktime"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ra
   commentId: F:SuperOffice.Util.MimeTypes.Ra
   id: Ra
@@ -3630,9 +2538,6 @@ items:
   nameWithType: MimeTypes.Ra
   fullName: SuperOffice.Util.MimeTypes.Ra
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3641,12 +2546,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ra As String = "audio/x-pn-realaudio"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ram
   commentId: F:SuperOffice.Util.MimeTypes.Ram
   id: Ram
@@ -3658,9 +2557,6 @@ items:
   nameWithType: MimeTypes.Ram
   fullName: SuperOffice.Util.MimeTypes.Ram
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3669,12 +2565,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ram As String = "audio/x-pn-realaudio"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ras
   commentId: F:SuperOffice.Util.MimeTypes.Ras
   id: Ras
@@ -3686,9 +2576,6 @@ items:
   nameWithType: MimeTypes.Ras
   fullName: SuperOffice.Util.MimeTypes.Ras
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3697,12 +2584,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ras As String = "image/x-cmu-raster"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Rdf
   commentId: F:SuperOffice.Util.MimeTypes.Rdf
   id: Rdf
@@ -3714,9 +2595,6 @@ items:
   nameWithType: MimeTypes.Rdf
   fullName: SuperOffice.Util.MimeTypes.Rdf
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3725,12 +2603,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Rdf As String = "application/rdf+xml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Rgb
   commentId: F:SuperOffice.Util.MimeTypes.Rgb
   id: Rgb
@@ -3742,9 +2614,6 @@ items:
   nameWithType: MimeTypes.Rgb
   fullName: SuperOffice.Util.MimeTypes.Rgb
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3753,12 +2622,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Rgb As String = "image/x-rgb"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Rm
   commentId: F:SuperOffice.Util.MimeTypes.Rm
   id: Rm
@@ -3770,9 +2633,6 @@ items:
   nameWithType: MimeTypes.Rm
   fullName: SuperOffice.Util.MimeTypes.Rm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3781,12 +2641,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Rm As String = "application/vnd.rn-realmedia"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Roff
   commentId: F:SuperOffice.Util.MimeTypes.Roff
   id: Roff
@@ -3798,9 +2652,6 @@ items:
   nameWithType: MimeTypes.Roff
   fullName: SuperOffice.Util.MimeTypes.Roff
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3809,12 +2660,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Roff As String = "application/x-troff"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Rtf
   commentId: F:SuperOffice.Util.MimeTypes.Rtf
   id: Rtf
@@ -3826,9 +2671,6 @@ items:
   nameWithType: MimeTypes.Rtf
   fullName: SuperOffice.Util.MimeTypes.Rtf
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3837,12 +2679,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Rtf As String = "text/rtf"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Rtx
   commentId: F:SuperOffice.Util.MimeTypes.Rtx
   id: Rtx
@@ -3854,9 +2690,6 @@ items:
   nameWithType: MimeTypes.Rtx
   fullName: SuperOffice.Util.MimeTypes.Rtx
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3865,12 +2698,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Rtx As String = "text/richtext"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Sgm
   commentId: F:SuperOffice.Util.MimeTypes.Sgm
   id: Sgm
@@ -3882,9 +2709,6 @@ items:
   nameWithType: MimeTypes.Sgm
   fullName: SuperOffice.Util.MimeTypes.Sgm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3893,12 +2717,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Sgm As String = "text/sgml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Sgml
   commentId: F:SuperOffice.Util.MimeTypes.Sgml
   id: Sgml
@@ -3910,9 +2728,6 @@ items:
   nameWithType: MimeTypes.Sgml
   fullName: SuperOffice.Util.MimeTypes.Sgml
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3921,12 +2736,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Sgml As String = "text/sgml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Sh
   commentId: F:SuperOffice.Util.MimeTypes.Sh
   id: Sh
@@ -3938,9 +2747,6 @@ items:
   nameWithType: MimeTypes.Sh
   fullName: SuperOffice.Util.MimeTypes.Sh
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3949,12 +2755,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Sh As String = "application/x-sh"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Shar
   commentId: F:SuperOffice.Util.MimeTypes.Shar
   id: Shar
@@ -3966,9 +2766,6 @@ items:
   nameWithType: MimeTypes.Shar
   fullName: SuperOffice.Util.MimeTypes.Shar
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -3977,12 +2774,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Shar As String = "application/x-shar"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Silo
   commentId: F:SuperOffice.Util.MimeTypes.Silo
   id: Silo
@@ -3994,9 +2785,6 @@ items:
   nameWithType: MimeTypes.Silo
   fullName: SuperOffice.Util.MimeTypes.Silo
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4005,12 +2793,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Silo As String = "model/mesh"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Sit
   commentId: F:SuperOffice.Util.MimeTypes.Sit
   id: Sit
@@ -4022,9 +2804,6 @@ items:
   nameWithType: MimeTypes.Sit
   fullName: SuperOffice.Util.MimeTypes.Sit
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4033,12 +2812,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Sit As String = "application/x-stuffit"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Skd
   commentId: F:SuperOffice.Util.MimeTypes.Skd
   id: Skd
@@ -4050,9 +2823,6 @@ items:
   nameWithType: MimeTypes.Skd
   fullName: SuperOffice.Util.MimeTypes.Skd
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4061,12 +2831,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Skd As String = "application/x-koan"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Skm
   commentId: F:SuperOffice.Util.MimeTypes.Skm
   id: Skm
@@ -4078,9 +2842,6 @@ items:
   nameWithType: MimeTypes.Skm
   fullName: SuperOffice.Util.MimeTypes.Skm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4089,12 +2850,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Skm As String = "application/x-koan"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Skp
   commentId: F:SuperOffice.Util.MimeTypes.Skp
   id: Skp
@@ -4106,9 +2861,6 @@ items:
   nameWithType: MimeTypes.Skp
   fullName: SuperOffice.Util.MimeTypes.Skp
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4117,12 +2869,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Skp As String = "application/x-koan"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Skt
   commentId: F:SuperOffice.Util.MimeTypes.Skt
   id: Skt
@@ -4134,9 +2880,6 @@ items:
   nameWithType: MimeTypes.Skt
   fullName: SuperOffice.Util.MimeTypes.Skt
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4145,12 +2888,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Skt As String = "application/x-koan"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Smi
   commentId: F:SuperOffice.Util.MimeTypes.Smi
   id: Smi
@@ -4162,9 +2899,6 @@ items:
   nameWithType: MimeTypes.Smi
   fullName: SuperOffice.Util.MimeTypes.Smi
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4173,12 +2907,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Smi As String = "application/smil"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Smil
   commentId: F:SuperOffice.Util.MimeTypes.Smil
   id: Smil
@@ -4190,9 +2918,6 @@ items:
   nameWithType: MimeTypes.Smil
   fullName: SuperOffice.Util.MimeTypes.Smil
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4201,12 +2926,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Smil As String = "application/smil"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Snd
   commentId: F:SuperOffice.Util.MimeTypes.Snd
   id: Snd
@@ -4218,9 +2937,6 @@ items:
   nameWithType: MimeTypes.Snd
   fullName: SuperOffice.Util.MimeTypes.Snd
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4229,12 +2945,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Snd As String = "audio/basic"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.So
   commentId: F:SuperOffice.Util.MimeTypes.So
   id: So
@@ -4246,9 +2956,6 @@ items:
   nameWithType: MimeTypes.So
   fullName: SuperOffice.Util.MimeTypes.So
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4257,12 +2964,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const So As String = "application/octet-stream"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Spl
   commentId: F:SuperOffice.Util.MimeTypes.Spl
   id: Spl
@@ -4274,9 +2975,6 @@ items:
   nameWithType: MimeTypes.Spl
   fullName: SuperOffice.Util.MimeTypes.Spl
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4285,12 +2983,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Spl As String = "application/x-futuresplash"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Src
   commentId: F:SuperOffice.Util.MimeTypes.Src
   id: Src
@@ -4302,9 +2994,6 @@ items:
   nameWithType: MimeTypes.Src
   fullName: SuperOffice.Util.MimeTypes.Src
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4313,12 +3002,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Src As String = "application/x-wais-source"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Sv4Cpio
   commentId: F:SuperOffice.Util.MimeTypes.Sv4Cpio
   id: Sv4Cpio
@@ -4330,9 +3013,6 @@ items:
   nameWithType: MimeTypes.Sv4Cpio
   fullName: SuperOffice.Util.MimeTypes.Sv4Cpio
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4341,12 +3021,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Sv4Cpio As String = "application/x-sv4cpio"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Sv4Crc
   commentId: F:SuperOffice.Util.MimeTypes.Sv4Crc
   id: Sv4Crc
@@ -4358,9 +3032,6 @@ items:
   nameWithType: MimeTypes.Sv4Crc
   fullName: SuperOffice.Util.MimeTypes.Sv4Crc
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4369,12 +3040,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Sv4Crc As String = "application/x-sv4crc"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Svg
   commentId: F:SuperOffice.Util.MimeTypes.Svg
   id: Svg
@@ -4386,9 +3051,6 @@ items:
   nameWithType: MimeTypes.Svg
   fullName: SuperOffice.Util.MimeTypes.Svg
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4397,12 +3059,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Svg As String = "image/svg+xml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Swf
   commentId: F:SuperOffice.Util.MimeTypes.Swf
   id: Swf
@@ -4414,9 +3070,6 @@ items:
   nameWithType: MimeTypes.Swf
   fullName: SuperOffice.Util.MimeTypes.Swf
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4425,12 +3078,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Swf As String = "application/x-shockwave-flash"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.T
   commentId: F:SuperOffice.Util.MimeTypes.T
   id: T
@@ -4442,9 +3089,6 @@ items:
   nameWithType: MimeTypes.T
   fullName: SuperOffice.Util.MimeTypes.T
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4453,12 +3097,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const T As String = "application/x-troff"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Tar
   commentId: F:SuperOffice.Util.MimeTypes.Tar
   id: Tar
@@ -4470,9 +3108,6 @@ items:
   nameWithType: MimeTypes.Tar
   fullName: SuperOffice.Util.MimeTypes.Tar
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4481,12 +3116,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Tar As String = "application/x-tar"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Tcl
   commentId: F:SuperOffice.Util.MimeTypes.Tcl
   id: Tcl
@@ -4498,9 +3127,6 @@ items:
   nameWithType: MimeTypes.Tcl
   fullName: SuperOffice.Util.MimeTypes.Tcl
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4509,12 +3135,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Tcl As String = "application/x-tcl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Tex
   commentId: F:SuperOffice.Util.MimeTypes.Tex
   id: Tex
@@ -4526,9 +3146,6 @@ items:
   nameWithType: MimeTypes.Tex
   fullName: SuperOffice.Util.MimeTypes.Tex
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4537,12 +3154,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Tex As String = "application/x-tex"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Texi
   commentId: F:SuperOffice.Util.MimeTypes.Texi
   id: Texi
@@ -4554,9 +3165,6 @@ items:
   nameWithType: MimeTypes.Texi
   fullName: SuperOffice.Util.MimeTypes.Texi
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4565,12 +3173,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Texi As String = "application/x-texinfo"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Texinfo
   commentId: F:SuperOffice.Util.MimeTypes.Texinfo
   id: Texinfo
@@ -4582,9 +3184,6 @@ items:
   nameWithType: MimeTypes.Texinfo
   fullName: SuperOffice.Util.MimeTypes.Texinfo
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4593,12 +3192,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Texinfo As String = "application/x-texinfo"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Tif
   commentId: F:SuperOffice.Util.MimeTypes.Tif
   id: Tif
@@ -4610,9 +3203,6 @@ items:
   nameWithType: MimeTypes.Tif
   fullName: SuperOffice.Util.MimeTypes.Tif
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4621,12 +3211,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Tif As String = "image/tiff"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Tiff
   commentId: F:SuperOffice.Util.MimeTypes.Tiff
   id: Tiff
@@ -4638,9 +3222,6 @@ items:
   nameWithType: MimeTypes.Tiff
   fullName: SuperOffice.Util.MimeTypes.Tiff
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4649,12 +3230,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Tiff As String = "image/tiff"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Tr
   commentId: F:SuperOffice.Util.MimeTypes.Tr
   id: Tr
@@ -4666,9 +3241,6 @@ items:
   nameWithType: MimeTypes.Tr
   fullName: SuperOffice.Util.MimeTypes.Tr
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4677,12 +3249,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Tr As String = "application/x-troff"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Tsv
   commentId: F:SuperOffice.Util.MimeTypes.Tsv
   id: Tsv
@@ -4694,9 +3260,6 @@ items:
   nameWithType: MimeTypes.Tsv
   fullName: SuperOffice.Util.MimeTypes.Tsv
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4705,12 +3268,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Tsv As String = "text/tab-separated-values"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Txt
   commentId: F:SuperOffice.Util.MimeTypes.Txt
   id: Txt
@@ -4722,9 +3279,6 @@ items:
   nameWithType: MimeTypes.Txt
   fullName: SuperOffice.Util.MimeTypes.Txt
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4733,12 +3287,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Txt As String = "text/plain"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Ustar
   commentId: F:SuperOffice.Util.MimeTypes.Ustar
   id: Ustar
@@ -4750,9 +3298,6 @@ items:
   nameWithType: MimeTypes.Ustar
   fullName: SuperOffice.Util.MimeTypes.Ustar
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4761,12 +3306,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Ustar As String = "application/x-ustar"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Vcd
   commentId: F:SuperOffice.Util.MimeTypes.Vcd
   id: Vcd
@@ -4778,9 +3317,6 @@ items:
   nameWithType: MimeTypes.Vcd
   fullName: SuperOffice.Util.MimeTypes.Vcd
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4789,12 +3325,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Vcd As String = "application/x-cdlink"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Vrml
   commentId: F:SuperOffice.Util.MimeTypes.Vrml
   id: Vrml
@@ -4806,9 +3336,6 @@ items:
   nameWithType: MimeTypes.Vrml
   fullName: SuperOffice.Util.MimeTypes.Vrml
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4817,12 +3344,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Vrml As String = "model/vrml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Vxml
   commentId: F:SuperOffice.Util.MimeTypes.Vxml
   id: Vxml
@@ -4834,9 +3355,6 @@ items:
   nameWithType: MimeTypes.Vxml
   fullName: SuperOffice.Util.MimeTypes.Vxml
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4845,12 +3363,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Vxml As String = "application/voicexml+xml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Wav
   commentId: F:SuperOffice.Util.MimeTypes.Wav
   id: Wav
@@ -4862,9 +3374,6 @@ items:
   nameWithType: MimeTypes.Wav
   fullName: SuperOffice.Util.MimeTypes.Wav
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4873,12 +3382,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Wav As String = "audio/x-wav"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Wbmp
   commentId: F:SuperOffice.Util.MimeTypes.Wbmp
   id: Wbmp
@@ -4890,9 +3393,6 @@ items:
   nameWithType: MimeTypes.Wbmp
   fullName: SuperOffice.Util.MimeTypes.Wbmp
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4901,12 +3401,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Wbmp As String = "image/vnd.wap.wbmp"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Wbmxl
   commentId: F:SuperOffice.Util.MimeTypes.Wbmxl
   id: Wbmxl
@@ -4918,9 +3412,6 @@ items:
   nameWithType: MimeTypes.Wbmxl
   fullName: SuperOffice.Util.MimeTypes.Wbmxl
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4929,12 +3420,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Wbmxl As String = "application/vnd.wap.wbxml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Wml
   commentId: F:SuperOffice.Util.MimeTypes.Wml
   id: Wml
@@ -4946,9 +3431,6 @@ items:
   nameWithType: MimeTypes.Wml
   fullName: SuperOffice.Util.MimeTypes.Wml
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4957,12 +3439,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Wml As String = "text/vnd.wap.wml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Wmlc
   commentId: F:SuperOffice.Util.MimeTypes.Wmlc
   id: Wmlc
@@ -4974,9 +3450,6 @@ items:
   nameWithType: MimeTypes.Wmlc
   fullName: SuperOffice.Util.MimeTypes.Wmlc
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -4985,12 +3458,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Wmlc As String = "application/vnd.wap.wmlc"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Wmls
   commentId: F:SuperOffice.Util.MimeTypes.Wmls
   id: Wmls
@@ -5002,9 +3469,6 @@ items:
   nameWithType: MimeTypes.Wmls
   fullName: SuperOffice.Util.MimeTypes.Wmls
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5013,12 +3477,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Wmls As String = "text/vnd.wap.wmlscript"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Wmlsc
   commentId: F:SuperOffice.Util.MimeTypes.Wmlsc
   id: Wmlsc
@@ -5030,9 +3488,6 @@ items:
   nameWithType: MimeTypes.Wmlsc
   fullName: SuperOffice.Util.MimeTypes.Wmlsc
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5041,12 +3496,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Wmlsc As String = "application/vnd.wap.wmlscriptc"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Wrl
   commentId: F:SuperOffice.Util.MimeTypes.Wrl
   id: Wrl
@@ -5058,9 +3507,6 @@ items:
   nameWithType: MimeTypes.Wrl
   fullName: SuperOffice.Util.MimeTypes.Wrl
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5069,12 +3515,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Wrl As String = "model/vrml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xbm
   commentId: F:SuperOffice.Util.MimeTypes.Xbm
   id: Xbm
@@ -5086,9 +3526,6 @@ items:
   nameWithType: MimeTypes.Xbm
   fullName: SuperOffice.Util.MimeTypes.Xbm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5097,12 +3534,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xbm As String = "image/x-xbitmap"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xht
   commentId: F:SuperOffice.Util.MimeTypes.Xht
   id: Xht
@@ -5114,9 +3545,6 @@ items:
   nameWithType: MimeTypes.Xht
   fullName: SuperOffice.Util.MimeTypes.Xht
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5125,12 +3553,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xht As String = "application/xhtml+xml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xhtml
   commentId: F:SuperOffice.Util.MimeTypes.Xhtml
   id: Xhtml
@@ -5142,9 +3564,6 @@ items:
   nameWithType: MimeTypes.Xhtml
   fullName: SuperOffice.Util.MimeTypes.Xhtml
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5153,12 +3572,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xhtml As String = "application/xhtml+xml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xls
   commentId: F:SuperOffice.Util.MimeTypes.Xls
   id: Xls
@@ -5170,9 +3583,6 @@ items:
   nameWithType: MimeTypes.Xls
   fullName: SuperOffice.Util.MimeTypes.Xls
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5181,12 +3591,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xls As String = "application/vnd.ms-excel"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xml
   commentId: F:SuperOffice.Util.MimeTypes.Xml
   id: Xml
@@ -5198,9 +3602,6 @@ items:
   nameWithType: MimeTypes.Xml
   fullName: SuperOffice.Util.MimeTypes.Xml
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5209,12 +3610,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xml As String = "application/xml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xpm
   commentId: F:SuperOffice.Util.MimeTypes.Xpm
   id: Xpm
@@ -5226,9 +3621,6 @@ items:
   nameWithType: MimeTypes.Xpm
   fullName: SuperOffice.Util.MimeTypes.Xpm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5237,12 +3629,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xpm As String = "image/x-xpixmap"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xsl
   commentId: F:SuperOffice.Util.MimeTypes.Xsl
   id: Xsl
@@ -5254,9 +3640,6 @@ items:
   nameWithType: MimeTypes.Xsl
   fullName: SuperOffice.Util.MimeTypes.Xsl
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5265,12 +3648,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xsl As String = "application/xml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xlsx
   commentId: F:SuperOffice.Util.MimeTypes.Xlsx
   id: Xlsx
@@ -5282,9 +3659,6 @@ items:
   nameWithType: MimeTypes.Xlsx
   fullName: SuperOffice.Util.MimeTypes.Xlsx
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5293,12 +3667,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xlsx As String = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xltx
   commentId: F:SuperOffice.Util.MimeTypes.Xltx
   id: Xltx
@@ -5310,9 +3678,6 @@ items:
   nameWithType: MimeTypes.Xltx
   fullName: SuperOffice.Util.MimeTypes.Xltx
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5321,12 +3686,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xltx As String = "application/vnd.openxmlformats-officedocument.spreadsheetml.template"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xlsm
   commentId: F:SuperOffice.Util.MimeTypes.Xlsm
   id: Xlsm
@@ -5338,9 +3697,6 @@ items:
   nameWithType: MimeTypes.Xlsm
   fullName: SuperOffice.Util.MimeTypes.Xlsm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5349,12 +3705,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xlsm As String = "application/vnd.ms-excel.sheet.macroEnabled.12"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xltm
   commentId: F:SuperOffice.Util.MimeTypes.Xltm
   id: Xltm
@@ -5366,9 +3716,6 @@ items:
   nameWithType: MimeTypes.Xltm
   fullName: SuperOffice.Util.MimeTypes.Xltm
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5377,12 +3724,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xltm As String = "application/vnd.ms-excel.template.macroEnabled.12"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xlam
   commentId: F:SuperOffice.Util.MimeTypes.Xlam
   id: Xlam
@@ -5394,9 +3735,6 @@ items:
   nameWithType: MimeTypes.Xlam
   fullName: SuperOffice.Util.MimeTypes.Xlam
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5405,12 +3743,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xlam As String = "application/vnd.ms-excel.addin.macroEnabled.12"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xlsb
   commentId: F:SuperOffice.Util.MimeTypes.Xlsb
   id: Xlsb
@@ -5422,9 +3754,6 @@ items:
   nameWithType: MimeTypes.Xlsb
   fullName: SuperOffice.Util.MimeTypes.Xlsb
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5433,12 +3762,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xlsb As String = "application/vnd.ms-excel.sheet.binary.macroEnabled.12"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xslt
   commentId: F:SuperOffice.Util.MimeTypes.Xslt
   id: Xslt
@@ -5450,9 +3773,6 @@ items:
   nameWithType: MimeTypes.Xslt
   fullName: SuperOffice.Util.MimeTypes.Xslt
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5461,12 +3781,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xslt As String = "application/xslt+xml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xul
   commentId: F:SuperOffice.Util.MimeTypes.Xul
   id: Xul
@@ -5478,9 +3792,6 @@ items:
   nameWithType: MimeTypes.Xul
   fullName: SuperOffice.Util.MimeTypes.Xul
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5489,12 +3800,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xul As String = "application/vnd.mozilla.xul+xml"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xwd
   commentId: F:SuperOffice.Util.MimeTypes.Xwd
   id: Xwd
@@ -5506,9 +3811,6 @@ items:
   nameWithType: MimeTypes.Xwd
   fullName: SuperOffice.Util.MimeTypes.Xwd
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5517,12 +3819,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xwd As String = "image/x-xwindowdump"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Xyz
   commentId: F:SuperOffice.Util.MimeTypes.Xyz
   id: Xyz
@@ -5534,9 +3830,6 @@ items:
   nameWithType: MimeTypes.Xyz
   fullName: SuperOffice.Util.MimeTypes.Xyz
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5545,12 +3838,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Xyz As String = "chemical/x-xyz"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Zip
   commentId: F:SuperOffice.Util.MimeTypes.Zip
   id: Zip
@@ -5562,9 +3849,6 @@ items:
   nameWithType: MimeTypes.Zip
   fullName: SuperOffice.Util.MimeTypes.Zip
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5573,12 +3857,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Zip As String = "application/zip"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.OctetStream
   commentId: F:SuperOffice.Util.MimeTypes.OctetStream
   id: OctetStream
@@ -5590,9 +3868,6 @@ items:
   nameWithType: MimeTypes.OctetStream
   fullName: SuperOffice.Util.MimeTypes.OctetStream
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5601,12 +3876,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const OctetStream As String = "application/octet-stream"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Unknown
   commentId: F:SuperOffice.Util.MimeTypes.Unknown
   id: Unknown
@@ -5618,9 +3887,6 @@ items:
   nameWithType: MimeTypes.Unknown
   fullName: SuperOffice.Util.MimeTypes.Unknown
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5629,12 +3895,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Unknown As String = "unknown/unknown"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.GoogleFolder
   commentId: F:SuperOffice.Util.MimeTypes.GoogleFolder
   id: GoogleFolder
@@ -5646,9 +3906,6 @@ items:
   nameWithType: MimeTypes.GoogleFolder
   fullName: SuperOffice.Util.MimeTypes.GoogleFolder
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5657,12 +3914,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const GoogleFolder As String = "application/vnd.google-apps.folder"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Gsheet
   commentId: F:SuperOffice.Util.MimeTypes.Gsheet
   id: Gsheet
@@ -5674,9 +3925,6 @@ items:
   nameWithType: MimeTypes.Gsheet
   fullName: SuperOffice.Util.MimeTypes.Gsheet
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5685,12 +3933,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Gsheet As String = "application/vnd.google-apps.spreadsheet"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Gdoc
   commentId: F:SuperOffice.Util.MimeTypes.Gdoc
   id: Gdoc
@@ -5702,9 +3944,6 @@ items:
   nameWithType: MimeTypes.Gdoc
   fullName: SuperOffice.Util.MimeTypes.Gdoc
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5713,12 +3952,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Gdoc As String = "application/vnd.google-apps.document"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Gslides
   commentId: F:SuperOffice.Util.MimeTypes.Gslides
   id: Gslides
@@ -5730,9 +3963,6 @@ items:
   nameWithType: MimeTypes.Gslides
   fullName: SuperOffice.Util.MimeTypes.Gslides
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5741,12 +3971,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Gslides As String = "application/vnd.google-apps.presentation"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.Util.MimeTypes.Json
   commentId: F:SuperOffice.Util.MimeTypes.Json
   id: Json
@@ -5758,9 +3982,6 @@ items:
   nameWithType: MimeTypes.Json
   fullName: SuperOffice.Util.MimeTypes.Json
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -5769,29 +3990,268 @@ items:
     return:
       type: System.String
     content.vb: Public Const Json As String = "application/json"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -5799,6 +4259,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

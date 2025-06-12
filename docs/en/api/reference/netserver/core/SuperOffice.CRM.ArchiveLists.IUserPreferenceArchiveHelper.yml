@@ -1,0 +1,710 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
+  commentId: T:SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
+  id: IUserPreferenceArchiveHelper
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetDatabaseName(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetLevelEntityName(SuperOffice.Data.PreferenceLevel)
+  - SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetLevelName(SuperOffice.Data.PreferenceLevel)
+  - SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetOwnerName(SuperOffice.Data.PreferenceLevel,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetPreferenceValueAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IUserPreferenceArchiveHelper
+  nameWithType: IUserPreferenceArchiveHelper
+  fullName: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
+  type: Interface
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public interface IUserPreferenceArchiveHelper
+    content.vb: Public Interface IUserPreferenceArchiveHelper
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetDatabaseName(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetDatabaseName(System.Int32)
+  id: GetDatabaseName(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDatabaseName(int)
+  nameWithType: IUserPreferenceArchiveHelper.GetDatabaseName(int)
+  fullName: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetDatabaseName(int)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: string GetDatabaseName(int ownerId)
+    parameters:
+    - id: ownerId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Function GetDatabaseName(ownerId As Integer) As String
+  overload: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetDatabaseName*
+  nameWithType.vb: IUserPreferenceArchiveHelper.GetDatabaseName(Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetDatabaseName(Integer)
+  name.vb: GetDatabaseName(Integer)
+- uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetLevelEntityName(SuperOffice.Data.PreferenceLevel)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetLevelEntityName(SuperOffice.Data.PreferenceLevel)
+  id: GetLevelEntityName(SuperOffice.Data.PreferenceLevel)
+  parent: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
+  langs:
+  - csharp
+  - vb
+  name: GetLevelEntityName(PreferenceLevel)
+  nameWithType: IUserPreferenceArchiveHelper.GetLevelEntityName(PreferenceLevel)
+  fullName: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetLevelEntityName(SuperOffice.Data.PreferenceLevel)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: string GetLevelEntityName(PreferenceLevel deflevel)
+    parameters:
+    - id: deflevel
+      type: SuperOffice.Data.PreferenceLevel
+    return:
+      type: System.String
+    content.vb: Function GetLevelEntityName(deflevel As PreferenceLevel) As String
+  overload: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetLevelEntityName*
+- uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetLevelName(SuperOffice.Data.PreferenceLevel)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetLevelName(SuperOffice.Data.PreferenceLevel)
+  id: GetLevelName(SuperOffice.Data.PreferenceLevel)
+  parent: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
+  langs:
+  - csharp
+  - vb
+  name: GetLevelName(PreferenceLevel)
+  nameWithType: IUserPreferenceArchiveHelper.GetLevelName(PreferenceLevel)
+  fullName: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetLevelName(SuperOffice.Data.PreferenceLevel)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: string GetLevelName(PreferenceLevel deflevel)
+    parameters:
+    - id: deflevel
+      type: SuperOffice.Data.PreferenceLevel
+    return:
+      type: System.String
+    content.vb: Function GetLevelName(deflevel As PreferenceLevel) As String
+  overload: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetLevelName*
+- uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetOwnerName(SuperOffice.Data.PreferenceLevel,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetOwnerName(SuperOffice.Data.PreferenceLevel,System.Int32)
+  id: GetOwnerName(SuperOffice.Data.PreferenceLevel,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
+  langs:
+  - csharp
+  - vb
+  name: GetOwnerName(PreferenceLevel, int)
+  nameWithType: IUserPreferenceArchiveHelper.GetOwnerName(PreferenceLevel, int)
+  fullName: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetOwnerName(SuperOffice.Data.PreferenceLevel, int)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: string GetOwnerName(PreferenceLevel deflevel, int ownerId)
+    parameters:
+    - id: deflevel
+      type: SuperOffice.Data.PreferenceLevel
+    - id: ownerId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Function GetOwnerName(deflevel As PreferenceLevel, ownerId As Integer) As String
+  overload: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetOwnerName*
+  nameWithType.vb: IUserPreferenceArchiveHelper.GetOwnerName(PreferenceLevel, Integer)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetOwnerName(SuperOffice.Data.PreferenceLevel, Integer)
+  name.vb: GetOwnerName(PreferenceLevel, Integer)
+- uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetPreferenceValueAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetPreferenceValueAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: GetPreferenceValueAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
+  langs:
+  - csharp
+  - vb
+  name: GetPreferenceValueAsync(string, string, string, CancellationToken)
+  nameWithType: IUserPreferenceArchiveHelper.GetPreferenceValueAsync(string, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetPreferenceValueAsync(string, string, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Task<(string value, string tooltip)> GetPreferenceValueAsync(string section, string key, string rawValue, CancellationToken cancellationToken = default)
+    parameters:
+    - id: section
+      type: System.String
+    - id: key
+      type: System.String
+    - id: rawValue
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.String}}
+    content.vb: Function GetPreferenceValueAsync(section As String, key As String, rawValue As String, cancellationToken As CancellationToken = Nothing) As Task(Of (value As String, tooltip As String))
+  overload: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetPreferenceValueAsync*
+  nameWithType.vb: IUserPreferenceArchiveHelper.GetPreferenceValueAsync(String, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetPreferenceValueAsync(String, String, String, System.Threading.CancellationToken)
+  name.vb: GetPreferenceValueAsync(String, String, String, CancellationToken)
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+- uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IUserPreferenceArchiveHelper, To>(IUserPreferenceArchiveHelper)
+  nameWithType: EnumUtil.MapEnums<IUserPreferenceArchiveHelper, To>(IUserPreferenceArchiveHelper)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper, To>(SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper)
+  nameWithType.vb: EnumUtil.MapEnums(Of IUserPreferenceArchiveHelper, To)(IUserPreferenceArchiveHelper)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper, To)(SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper)
+  name.vb: MapEnums(Of IUserPreferenceArchiveHelper, To)(IUserPreferenceArchiveHelper)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
+    name: IUserPreferenceArchiveHelper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
+    name: IUserPreferenceArchiveHelper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
+    name: IUserPreferenceArchiveHelper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
+    name: IUserPreferenceArchiveHelper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.html
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IUserPreferenceArchiveHelper, To>(IUserPreferenceArchiveHelper)
+  nameWithType: Converters.MapEnums<IUserPreferenceArchiveHelper, To>(IUserPreferenceArchiveHelper)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper, To>(SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper)
+  nameWithType.vb: Converters.MapEnums(Of IUserPreferenceArchiveHelper, To)(IUserPreferenceArchiveHelper)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper, To)(SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper)
+  name.vb: MapEnums(Of IUserPreferenceArchiveHelper, To)(IUserPreferenceArchiveHelper)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
+    name: IUserPreferenceArchiveHelper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
+    name: IUserPreferenceArchiveHelper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
+    name: IUserPreferenceArchiveHelper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
+    name: IUserPreferenceArchiveHelper
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetDatabaseName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetDatabaseName
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.html#SuperOffice_CRM_ArchiveLists_IUserPreferenceArchiveHelper_GetDatabaseName_System_Int32_
+  name: GetDatabaseName
+  nameWithType: IUserPreferenceArchiveHelper.GetDatabaseName
+  fullName: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetDatabaseName
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetLevelEntityName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetLevelEntityName
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.html#SuperOffice_CRM_ArchiveLists_IUserPreferenceArchiveHelper_GetLevelEntityName_SuperOffice_Data_PreferenceLevel_
+  name: GetLevelEntityName
+  nameWithType: IUserPreferenceArchiveHelper.GetLevelEntityName
+  fullName: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetLevelEntityName
+- uid: SuperOffice.Data.PreferenceLevel
+  commentId: T:SuperOffice.Data.PreferenceLevel
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.PreferenceLevel.html
+  name: PreferenceLevel
+  nameWithType: PreferenceLevel
+  fullName: SuperOffice.Data.PreferenceLevel
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetLevelName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetLevelName
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.html#SuperOffice_CRM_ArchiveLists_IUserPreferenceArchiveHelper_GetLevelName_SuperOffice_Data_PreferenceLevel_
+  name: GetLevelName
+  nameWithType: IUserPreferenceArchiveHelper.GetLevelName
+  fullName: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetLevelName
+- uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetOwnerName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetOwnerName
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.html#SuperOffice_CRM_ArchiveLists_IUserPreferenceArchiveHelper_GetOwnerName_SuperOffice_Data_PreferenceLevel_System_Int32_
+  name: GetOwnerName
+  nameWithType: IUserPreferenceArchiveHelper.GetOwnerName
+  fullName: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetOwnerName
+- uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetPreferenceValueAsync*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetPreferenceValueAsync
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.html#SuperOffice_CRM_ArchiveLists_IUserPreferenceArchiveHelper_GetPreferenceValueAsync_System_String_System_String_System_String_System_Threading_CancellationToken_
+  name: GetPreferenceValueAsync
+  nameWithType: IUserPreferenceArchiveHelper.GetPreferenceValueAsync
+  fullName: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper.GetPreferenceValueAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.String}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.String,System.String}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(string value, string tooltip)>
+  nameWithType: Task<(string value, string tooltip)>
+  fullName: System.Threading.Tasks.Task<(string value, string tooltip)>
+  nameWithType.vb: Task(Of (value As String, tooltip As String))
+  fullName.vb: System.Threading.Tasks.Task(Of (value As String, tooltip As String))
+  name.vb: Task(Of (value As String, tooltip As String))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String}.value
+    name: value
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.value
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String}.tooltip
+    name: tooltip
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.tooltip
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.ValueTuple{System.String,System.String}.value
+    name: value
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.value
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String}.tooltip
+    name: tooltip
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.tooltip
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

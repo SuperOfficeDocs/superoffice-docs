@@ -1,0 +1,477 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+  id: IDuplicateDetectorFactory
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  children:
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.CreateDuplicateDetector(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: IDuplicateDetectorFactory
+  nameWithType: IDuplicateDetectorFactory
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+  type: Interface
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Data.Util.Duplicates
+  summary: Responsible for creating instances of <xref href="SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public interface IDuplicateDetectorFactory
+    content.vb: Public Interface IDuplicateDetectorFactory
+  extensionMethods:
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.CreateDuplicateDetector(System.Type)
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.CreateDuplicateDetector(System.Type)
+  id: CreateDuplicateDetector(System.Type)
+  parent: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateDuplicateDetector(Type)
+  nameWithType: IDuplicateDetectorFactory.CreateDuplicateDetector(Type)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.CreateDuplicateDetector(System.Type)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Data.Util.Duplicates
+  summary: Create instance of duplcate detector providing reference to type of rule interface inheriting from <xref href="SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: IDuplicateDetector CreateDuplicateDetector(Type ruleInterfaceType)
+    parameters:
+    - id: ruleInterfaceType
+      type: System.Type
+      description: Type of detector based on rule interface.  Rule interface must inherit from <xref href="SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule" data-throw-if-not-resolved="false"></xref>
+    return:
+      type: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
+      description: Instance of duplicate detector
+    content.vb: Function CreateDuplicateDetector(ruleInterfaceType As Type) As IDuplicateDetector
+  overload: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.CreateDuplicateDetector*
+references:
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector.html
+  name: IDuplicateDetector
+  nameWithType: IDuplicateDetector
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetector
+- uid: SuperOffice.CRM.Data.Util.Duplicates
+  commentId: N:SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data.Util.Duplicates
+  nameWithType: SuperOffice.CRM.Data.Util.Duplicates
+  fullName: SuperOffice.CRM.Data.Util.Duplicates
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util.Duplicates
+    name: Duplicates
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.Util.Duplicates
+    name: Duplicates
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.html
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IDuplicateDetectorFactory, To>(IDuplicateDetectorFactory)
+  nameWithType: EnumUtil.MapEnums<IDuplicateDetectorFactory, To>(IDuplicateDetectorFactory)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory, To>(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  nameWithType.vb: EnumUtil.MapEnums(Of IDuplicateDetectorFactory, To)(IDuplicateDetectorFactory)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory, To)(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  name.vb: MapEnums(Of IDuplicateDetectorFactory, To)(IDuplicateDetectorFactory)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+    name: IDuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+    name: IDuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+    name: IDuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+    name: IDuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  - name: )
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  parent: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions
+  definition: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactoryExtensions_CreateDuplicateDetector__1_SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_
+  name: CreateDuplicateDetector<TDuplicateRule>(IDuplicateDetectorFactory)
+  nameWithType: IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector<TDuplicateRule>(IDuplicateDetectorFactory)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector<TDuplicateRule>(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  nameWithType.vb: IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector(Of TDuplicateRule)(IDuplicateDetectorFactory)
+  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector(Of TDuplicateRule)(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  name.vb: CreateDuplicateDetector(Of TDuplicateRule)(IDuplicateDetectorFactory)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+    name: CreateDuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactoryExtensions_CreateDuplicateDetector__1_SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_
+  - name: <
+  - name: TDuplicateRule
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+    name: IDuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+    name: CreateDuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactoryExtensions_CreateDuplicateDetector__1_SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDuplicateRule
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+    name: IDuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  - name: )
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IDuplicateDetectorFactory, To>(IDuplicateDetectorFactory)
+  nameWithType: Converters.MapEnums<IDuplicateDetectorFactory, To>(IDuplicateDetectorFactory)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory, To>(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  nameWithType.vb: Converters.MapEnums(Of IDuplicateDetectorFactory, To)(IDuplicateDetectorFactory)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory, To)(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  name.vb: MapEnums(Of IDuplicateDetectorFactory, To)(IDuplicateDetectorFactory)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+    name: IDuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+    name: IDuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+    name: IDuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+    name: IDuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactoryExtensions_CreateDuplicateDetector__1_SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_
+  name: CreateDuplicateDetector<TDuplicateRule>(IDuplicateDetectorFactory)
+  nameWithType: IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector<TDuplicateRule>(IDuplicateDetectorFactory)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector<TDuplicateRule>(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  nameWithType.vb: IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector(Of TDuplicateRule)(IDuplicateDetectorFactory)
+  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector(Of TDuplicateRule)(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+  name.vb: CreateDuplicateDetector(Of TDuplicateRule)(IDuplicateDetectorFactory)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+    name: CreateDuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactoryExtensions_CreateDuplicateDetector__1_SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_
+  - name: <
+  - name: TDuplicateRule
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+    name: IDuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.CreateDuplicateDetector``1(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory)
+    name: CreateDuplicateDetector
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactoryExtensions_CreateDuplicateDetector__1_SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDuplicateRule
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory
+    name: IDuplicateDetectorFactory
+    isExternal: true
+    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html
+  - name: )
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions.html
+  name: IDuplicateDetectorFactoryExtensions
+  nameWithType: IDuplicateDetectorFactoryExtensions
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactoryExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html
+  name: IDuplicateRule
+  nameWithType: IDuplicateRule
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.CreateDuplicateDetector*
+  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.CreateDuplicateDetector
+  isExternal: true
+  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateDetectorFactory_CreateDuplicateDetector_System_Type_
+  name: CreateDuplicateDetector
+  nameWithType: IDuplicateDetectorFactory.CreateDuplicateDetector
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateDetectorFactory.CreateDuplicateDetector
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

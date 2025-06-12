@@ -5,39 +5,39 @@ items:
   id: RowDefaulter
   parent: SuperOffice.CRM.Rows
   children:
-  - SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValue(SuperOffice.CRM.Rows.MDOType)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ContactRow)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.DocumentRow)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.DocumentRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,System.Int32)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ProjectRow)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ProjectRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.RelationsRow)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SaleRow)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SaleRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SelectionRow)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SelectionRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TableRowBase)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow,SuperOffice.CRM.Rows.DefaulterStrategy)
+  - SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValueAsync(SuperOffice.CRM.Rows.MDOType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ContactRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.DocumentRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.EjCategoryRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.EjCategoryRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ProjectRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ProjectRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SaleRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SaleRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SelectionRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SelectionRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketPriorityRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketPriorityRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketStatusRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketStatusRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketTypeRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketTypeRow,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -45,86 +45,84 @@ items:
   nameWithType: RowDefaulter
   fullName: SuperOffice.CRM.Rows.RowDefaulter
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nDefaulter for HDB row objects.  \n"
-  remarks: "\nThis defaulter does not know anything about relations, hence the \ncontacts country is not applied on the person and the appointment&apos;s \ntext is not set on hte related text object.\n"
+  summary: Defaulter for HDB row objects.
+  remarks: >-
+    This defaulter does not know anything about relations, hence the 
+
+    contacts country is not applied on the person and the appointment's 
+
+    text is not set on hte related text object.
   example:
-  - "\nTakes a HDB Row object and set default values..\n<pre><code>ContactRow row; // Some row\nRowDefaulter.SetDefaults(row);</code></pre>\n"
+  - >-
+    Takes a HDB Row object and set default values..
+
+    <pre><code class="lang-csharp">ContactRow row; // Some row
+
+    RowDefaulter.SetDefaultsAsync(row);</code></pre>
   syntax:
-    content: 'public sealed class RowDefaulter : Object'
-    content.vb: >-
-      Public NotInheritable Class RowDefaulter
-          Inherits Object
+    content: public sealed class RowDefaulter
+    content.vb: Public NotInheritable Class RowDefaulter
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
   extensionMethods:
   - SuperOffice.CRM.Rows.RowDefaulter.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.RowDefaulter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TableRowBase)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TableRowBase)
-  id: SetDefaults(SuperOffice.CRM.Rows.TableRowBase)
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(TableRowBase)
-  nameWithType: RowDefaulter.SetDefaults(TableRowBase)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TableRowBase)
+  name: SetDefaultsAsync(TableRowBase, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(TableRowBase, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TableRowBase, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a row.  This default implementation does nothing.\n"
+  summary: Set default values for a row.  This default implementation does nothing.
+  example: []
   syntax:
-    content: public static void SetDefaults(TableRowBase row)
+    content: public static Task SetDefaultsAsync(TableRowBase row, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.TableRowBase
       description: The row to set default values on.
-    content.vb: Public Shared Sub SetDefaults(row As TableRowBase)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As TableRowBase, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(TableRowBase, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(TableRowBase, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(TableRowBase, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(TableRowBase, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a row.  This default implementation does nothing.\n"
+  summary: Set default values for a row.  This default implementation does nothing.
+  example: []
   syntax:
-    content: public static void SetDefaults(TableRowBase row, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(TableRowBase row, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.TableRowBase
@@ -132,66 +130,61 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(row As TableRowBase, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow)
-  id: SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As TableRowBase, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketPriorityRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketPriorityRow,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.TicketPriorityRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(TicketPriorityRow)
-  nameWithType: RowDefaulter.SetDefaults(TicketPriorityRow)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow)
+  name: SetDefaultsAsync(TicketPriorityRow, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(TicketPriorityRow, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketPriorityRow, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a TicketPriorityRow\n"
+  summary: Set default values for a TicketPriorityRow
+  example: []
   syntax:
-    content: public static void SetDefaults(TicketPriorityRow row)
+    content: public static Task SetDefaultsAsync(TicketPriorityRow row, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.TicketPriorityRow
       description: The row to set default values on.
-    content.vb: Public Shared Sub SetDefaults(row As TicketPriorityRow)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As TicketPriorityRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketPriorityRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketPriorityRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.TicketPriorityRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(TicketPriorityRow, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(TicketPriorityRow, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(TicketPriorityRow, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(TicketPriorityRow, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketPriorityRow, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a TicketPriorityRow.\nImplementation correctly sets all default values, like sortOrder, start/stop dates, etc.\n"
+  summary: >-
+    Set default values for a TicketPriorityRow.
+
+    Implementation correctly sets all default values, like sortOrder, start/stop dates, etc.
+  example: []
   syntax:
-    content: public static void SetDefaults(TicketPriorityRow row, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(TicketPriorityRow row, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.TicketPriorityRow
@@ -199,66 +192,58 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(row As TicketPriorityRow, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow)
-  id: SetDefaults(SuperOffice.CRM.Rows.AppointmentRow)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As TicketPriorityRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(AppointmentRow)
-  nameWithType: RowDefaulter.SetDefaults(AppointmentRow)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow)
+  name: SetDefaultsAsync(AppointmentRow, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(AppointmentRow, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.AppointmentRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(AppointmentRow row)
+    content: public static Task SetDefaultsAsync(AppointmentRow row, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.AppointmentRow
       description: The row to set default values on.
-    content.vb: Public Shared Sub SetDefaults(row As AppointmentRow)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As AppointmentRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(AppointmentRow, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(AppointmentRow, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(AppointmentRow, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(AppointmentRow, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.AppointmentRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(AppointmentRow row, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(AppointmentRow row, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.AppointmentRow
@@ -266,34 +251,33 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(row As AppointmentRow, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType)
-  id: SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As AppointmentRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(AppointmentRow, TaskType)
-  nameWithType: RowDefaulter.SetDefaults(AppointmentRow, TaskType)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.Data.TaskType)
+  name: SetDefaultsAsync(AppointmentRow, TaskType, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(AppointmentRow, TaskType, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.Data.TaskType, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object.\nOverwrites existing values\n"
+  summary: >-
+    Set default values for a <xref href="SuperOffice.CRM.Rows.AppointmentRow" data-throw-if-not-resolved="false"></xref> object.
+
+    Overwrites existing values
+  example: []
   syntax:
-    content: public static void SetDefaults(AppointmentRow row, TaskType type)
+    content: public static Task SetDefaultsAsync(AppointmentRow row, TaskType type, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.AppointmentRow
@@ -301,34 +285,33 @@ items:
     - id: type
       type: SuperOffice.Data.TaskType
       description: The type of appointment
-    content.vb: Public Shared Sub SetDefaults(row As AppointmentRow, type As TaskType)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As AppointmentRow, type As TaskType, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(AppointmentRow, TaskType, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(AppointmentRow, TaskType, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.Data.TaskType, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(AppointmentRow, TaskType, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(AppointmentRow, TaskType, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.Data.TaskType, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object.\nOverwrites existing values\n"
+  summary: >-
+    Set default values for a <xref href="SuperOffice.CRM.Rows.AppointmentRow" data-throw-if-not-resolved="false"></xref> object.
+
+    Overwrites existing values
+  example: []
   syntax:
-    content: public static void SetDefaults(AppointmentRow row, TaskType type, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(AppointmentRow row, TaskType type, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.AppointmentRow
@@ -339,66 +322,58 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(row As AppointmentRow, type As TaskType, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ContactRow)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ContactRow)
-  id: SetDefaults(SuperOffice.CRM.Rows.ContactRow)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As AppointmentRow, type As TaskType, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ContactRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ContactRow,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.ContactRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(ContactRow)
-  nameWithType: RowDefaulter.SetDefaults(ContactRow)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ContactRow)
+  name: SetDefaultsAsync(ContactRow, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(ContactRow, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ContactRow, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.ContactRows\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.ContactRows" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(ContactRow row)
+    content: public static Task SetDefaultsAsync(ContactRow row, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.ContactRow
       description: The row to set default values on.
-    content.vb: Public Shared Sub SetDefaults(row As ContactRow)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As ContactRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(ContactRow, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(ContactRow, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ContactRow, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(ContactRow, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(ContactRow, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ContactRow, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.ContactRows\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.ContactRows" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(ContactRow row, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(ContactRow row, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.ContactRow
@@ -406,66 +381,58 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(row As ContactRow, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow)
-  id: SetDefaults(SuperOffice.CRM.Rows.PersonRow)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As ContactRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(PersonRow)
-  nameWithType: RowDefaulter.SetDefaults(PersonRow)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow)
+  name: SetDefaultsAsync(PersonRow, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(PersonRow, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.PersonRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.PersonRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(PersonRow row)
+    content: public static Task SetDefaultsAsync(PersonRow row, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.PersonRow
       description: The row to set default values on.
-    content.vb: Public Shared Sub SetDefaults(row As PersonRow)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As PersonRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(PersonRow, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(PersonRow, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(PersonRow, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(PersonRow, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.PersonRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.PersonRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(PersonRow row, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(PersonRow row, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.PersonRow
@@ -473,68 +440,63 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(row As PersonRow, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,System.Int32)
-  id: SetDefaults(SuperOffice.CRM.Rows.PersonRow,System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As PersonRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,System.Int32,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(PersonRow, Int32)
-  nameWithType: RowDefaulter.SetDefaults(PersonRow, Int32)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow, System.Int32)
+  name: SetDefaultsAsync(PersonRow, int, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(PersonRow, int, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.PersonRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.PersonRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(PersonRow row, int contactId)
+    content: public static Task SetDefaultsAsync(PersonRow row, int contactId, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.PersonRow
       description: The row to set default values on.
     - id: contactId
       type: System.Int32
-    content.vb: Public Shared Sub SetDefaults(row As PersonRow, contactId As Integer)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.PersonRow,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As PersonRow, contactId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+  nameWithType.vb: RowDefaulter.SetDefaultsAsync(PersonRow, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow, Integer, System.Threading.CancellationToken)
+  name.vb: SetDefaultsAsync(PersonRow, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(PersonRow, Int32, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(PersonRow, Int32, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow, System.Int32, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(PersonRow, int, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(PersonRow, int, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow, int, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.PersonRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.PersonRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(PersonRow row, int contactId, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(PersonRow row, int contactId, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.PersonRow
@@ -544,66 +506,61 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(row As PersonRow, contactId As Integer, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow)
-  id: SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As PersonRow, contactId As Integer, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+  nameWithType.vb: RowDefaulter.SetDefaultsAsync(PersonRow, Integer, DefaulterStrategy, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow, Integer, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
+  name.vb: SetDefaultsAsync(PersonRow, Integer, DefaulterStrategy, CancellationToken)
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketStatusRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketStatusRow,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.TicketStatusRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(TicketStatusRow)
-  nameWithType: RowDefaulter.SetDefaults(TicketStatusRow)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow)
+  name: SetDefaultsAsync(TicketStatusRow, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(TicketStatusRow, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketStatusRow, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.TicketStatusRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.TicketStatusRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(TicketStatusRow row)
+    content: public static Task SetDefaultsAsync(TicketStatusRow row, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.TicketStatusRow
       description: The row to set default values on.
-    content.vb: Public Shared Sub SetDefaults(row As TicketStatusRow)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As TicketStatusRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketStatusRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketStatusRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.TicketStatusRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(TicketStatusRow, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(TicketStatusRow, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(TicketStatusRow, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(TicketStatusRow, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketStatusRow, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.TicketStatusRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.TicketStatusRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(TicketStatusRow row, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(TicketStatusRow row, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.TicketStatusRow
@@ -611,66 +568,58 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(row As TicketStatusRow, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow)
-  id: SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As TicketStatusRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketTypeRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketTypeRow,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.TicketTypeRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(TicketTypeRow)
-  nameWithType: RowDefaulter.SetDefaults(TicketTypeRow)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow)
+  name: SetDefaultsAsync(TicketTypeRow, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(TicketTypeRow, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketTypeRow, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.TicketTypeRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.TicketTypeRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(TicketTypeRow row)
+    content: public static Task SetDefaultsAsync(TicketTypeRow row, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.TicketTypeRow
       description: The row to set default values on.
-    content.vb: Public Shared Sub SetDefaults(row As TicketTypeRow)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As TicketTypeRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketTypeRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketTypeRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.TicketTypeRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(TicketTypeRow, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(TicketTypeRow, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(TicketTypeRow, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(TicketTypeRow, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketTypeRow, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.TicketTypeRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.TicketTypeRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(TicketTypeRow row, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(TicketTypeRow row, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.TicketTypeRow
@@ -678,66 +627,58 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(row As TicketTypeRow, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow)
-  id: SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As TicketTypeRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.EjCategoryRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.EjCategoryRow,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.EjCategoryRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(EjCategoryRow)
-  nameWithType: RowDefaulter.SetDefaults(EjCategoryRow)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow)
+  name: SetDefaultsAsync(EjCategoryRow, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(EjCategoryRow, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.EjCategoryRow, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.EjCategoryRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.EjCategoryRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(EjCategoryRow row)
+    content: public static Task SetDefaultsAsync(EjCategoryRow row, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.EjCategoryRow
       description: The row to set default values on.
-    content.vb: Public Shared Sub SetDefaults(row As EjCategoryRow)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As EjCategoryRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.EjCategoryRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.EjCategoryRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.EjCategoryRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(EjCategoryRow, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(EjCategoryRow, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(EjCategoryRow, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(EjCategoryRow, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.EjCategoryRow, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.EjCategoryRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.EjCategoryRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(EjCategoryRow row, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(EjCategoryRow row, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.EjCategoryRow
@@ -745,34 +686,30 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(row As EjCategoryRow, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow)
-  id: SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As EjCategoryRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(PersonRow, ContactRow)
-  nameWithType: RowDefaulter.SetDefaults(PersonRow, ContactRow)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow, SuperOffice.CRM.Rows.ContactRow)
+  name: SetDefaultsAsync(PersonRow, ContactRow, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(PersonRow, ContactRow, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow, SuperOffice.CRM.Rows.ContactRow, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.PersonRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.PersonRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(PersonRow row, ContactRow contact)
+    content: public static Task SetDefaultsAsync(PersonRow row, ContactRow contact, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.PersonRow
@@ -780,34 +717,30 @@ items:
     - id: contact
       type: SuperOffice.CRM.Rows.ContactRow
       description: The contact row that contains default data.
-    content.vb: Public Shared Sub SetDefaults(row As PersonRow, contact As ContactRow)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As PersonRow, contact As ContactRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(PersonRow, ContactRow, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(PersonRow, ContactRow, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow, SuperOffice.CRM.Rows.ContactRow, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(PersonRow, ContactRow, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(PersonRow, ContactRow, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow, SuperOffice.CRM.Rows.ContactRow, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.PersonRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.PersonRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(PersonRow row, ContactRow contact, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(PersonRow row, ContactRow contact, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.PersonRow
@@ -818,66 +751,58 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(row As PersonRow, contact As ContactRow, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ProjectRow)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ProjectRow)
-  id: SetDefaults(SuperOffice.CRM.Rows.ProjectRow)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As PersonRow, contact As ContactRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ProjectRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ProjectRow,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.ProjectRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(ProjectRow)
-  nameWithType: RowDefaulter.SetDefaults(ProjectRow)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ProjectRow)
+  name: SetDefaultsAsync(ProjectRow, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(ProjectRow, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ProjectRow, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.ProjectRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.ProjectRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(ProjectRow row)
+    content: public static Task SetDefaultsAsync(ProjectRow row, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.ProjectRow
       description: The row to set default values on.
-    content.vb: Public Shared Sub SetDefaults(row As ProjectRow)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ProjectRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ProjectRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.ProjectRow,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As ProjectRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ProjectRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ProjectRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.ProjectRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(ProjectRow, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(ProjectRow, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ProjectRow, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(ProjectRow, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(ProjectRow, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ProjectRow, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.ProjectRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.ProjectRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(ProjectRow row, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(ProjectRow row, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.ProjectRow
@@ -885,66 +810,58 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(row As ProjectRow, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SaleRow)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SaleRow)
-  id: SetDefaults(SuperOffice.CRM.Rows.SaleRow)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As ProjectRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SaleRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SaleRow,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.SaleRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(SaleRow)
-  nameWithType: RowDefaulter.SetDefaults(SaleRow)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SaleRow)
+  name: SetDefaultsAsync(SaleRow, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(SaleRow, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SaleRow, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.SaleRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.SaleRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(SaleRow row)
+    content: public static Task SetDefaultsAsync(SaleRow row, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.SaleRow
       description: The row to set default values on.
-    content.vb: Public Shared Sub SetDefaults(row As SaleRow)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SaleRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SaleRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.SaleRow,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As SaleRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SaleRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SaleRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.SaleRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(SaleRow, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(SaleRow, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SaleRow, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(SaleRow, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(SaleRow, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SaleRow, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.SaleRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.SaleRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(SaleRow row, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(SaleRow row, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.SaleRow
@@ -952,66 +869,58 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(row As SaleRow, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SelectionRow)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SelectionRow)
-  id: SetDefaults(SuperOffice.CRM.Rows.SelectionRow)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As SaleRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SelectionRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SelectionRow,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.SelectionRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(SelectionRow)
-  nameWithType: RowDefaulter.SetDefaults(SelectionRow)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SelectionRow)
+  name: SetDefaultsAsync(SelectionRow, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(SelectionRow, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SelectionRow, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.SelectionRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.SelectionRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(SelectionRow row)
+    content: public static Task SetDefaultsAsync(SelectionRow row, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.SelectionRow
       description: The row to set default values on.
-    content.vb: Public Shared Sub SetDefaults(row As SelectionRow)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SelectionRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SelectionRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.SelectionRow,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As SelectionRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SelectionRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SelectionRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.SelectionRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(SelectionRow, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(SelectionRow, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SelectionRow, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(SelectionRow, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(SelectionRow, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SelectionRow, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.SelectionRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.SelectionRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(SelectionRow row, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(SelectionRow row, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.SelectionRow
@@ -1019,66 +928,58 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(row As SelectionRow, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.DocumentRow)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.DocumentRow)
-  id: SetDefaults(SuperOffice.CRM.Rows.DocumentRow)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As SelectionRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(DocumentRow)
-  nameWithType: RowDefaulter.SetDefaults(DocumentRow)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.DocumentRow)
+  name: SetDefaultsAsync(DocumentRow, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(DocumentRow, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.DocumentRow, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.DocumentRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.DocumentRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(DocumentRow row)
+    content: public static Task SetDefaultsAsync(DocumentRow row, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.DocumentRow
       description: The row to set default values on.
-    content.vb: Public Shared Sub SetDefaults(row As DocumentRow)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.DocumentRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.DocumentRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.DocumentRow,SuperOffice.CRM.Rows.DefaulterStrategy)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As DocumentRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.DocumentRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.DocumentRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.DocumentRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(DocumentRow, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(DocumentRow, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.DocumentRow, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(DocumentRow, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(DocumentRow, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.DocumentRow, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.DocumentRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.DocumentRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
   syntax:
-    content: public static void SetDefaults(DocumentRow row, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(DocumentRow row, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.DocumentRow
@@ -1086,205 +987,461 @@ items:
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(row As DocumentRow, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.RelationsRow)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.RelationsRow)
-  id: SetDefaults(SuperOffice.CRM.Rows.RelationsRow)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As DocumentRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(RelationsRow)
-  nameWithType: RowDefaulter.SetDefaults(RelationsRow)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.RelationsRow)
+  name: SetDefaultsAsync(RelationsRow, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(RelationsRow, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.RelationsRow, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.RelationsRow\" data-throw-if-not-resolved=\"false\"></xref> object: associate id, group id, end date\n"
+  summary: 'Set default values for a <xref href="SuperOffice.CRM.Rows.RelationsRow" data-throw-if-not-resolved="false"></xref> object: associate id, group id, end date'
+  example: []
   syntax:
-    content: public static void SetDefaults(RelationsRow row)
+    content: public static Task SetDefaultsAsync(RelationsRow row, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.RelationsRow
-    content.vb: Public Shared Sub SetDefaults(row As RelationsRow)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.DefaulterStrategy)
-  id: SetDefaults(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.DefaulterStrategy)
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As RelationsRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: SetDefaults(RelationsRow, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(RelationsRow, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.RelationsRow, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaultsAsync(RelationsRow, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(RelationsRow, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.RelationsRow, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.RelationsRow\" data-throw-if-not-resolved=\"false\"></xref> object: associate id, group id, end date\n"
+  summary: 'Set default values for a <xref href="SuperOffice.CRM.Rows.RelationsRow" data-throw-if-not-resolved="false"></xref> object: associate id, group id, end date'
+  example: []
   syntax:
-    content: public static void SetDefaults(RelationsRow row, DefaulterStrategy strategy)
+    content: public static Task SetDefaultsAsync(RelationsRow row, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.RelationsRow
+      description: ''
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
-    content.vb: Public Shared Sub SetDefaults(row As RelationsRow, strategy As DefaulterStrategy)
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValue(SuperOffice.CRM.Rows.MDOType)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValue(SuperOffice.CRM.Rows.MDOType)
-  id: GetDefaultMDOValue(SuperOffice.CRM.Rows.MDOType)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As RelationsRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValueAsync(SuperOffice.CRM.Rows.MDOType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValueAsync(SuperOffice.CRM.Rows.MDOType,System.Threading.CancellationToken)
+  id: GetDefaultMDOValueAsync(SuperOffice.CRM.Rows.MDOType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.RowDefaulter
   langs:
   - csharp
   - vb
-  name: GetDefaultMDOValue(MDOType)
-  nameWithType: RowDefaulter.GetDefaultMDOValue(MDOType)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValue(SuperOffice.CRM.Rows.MDOType)
+  name: GetDefaultMDOValueAsync(MDOType, CancellationToken)
+  nameWithType: RowDefaulter.GetDefaultMDOValueAsync(MDOType, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValueAsync(SuperOffice.CRM.Rows.MDOType, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nGet default value for an MDO List.\n"
+  summary: Get default value for an MDO List.
+  example: []
   syntax:
-    content: public static int GetDefaultMDOValue(MDOType mdoType)
+    content: public static Task<int> GetDefaultMDOValueAsync(MDOType mdoType, CancellationToken cancellationToken = default)
     parameters:
     - id: mdoType
       type: SuperOffice.CRM.Rows.MDOType
       description: Type of MDO list to get the default value for.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Default value for the MDO list.
-    content.vb: Public Shared Function GetDefaultMDOValue(mdoType As MDOType) As Integer
-  overload: SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValue*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+    content.vb: Public Shared Function GetDefaultMDOValueAsync(mdoType As MDOType, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValueAsync*
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Rows.RowDefaulter.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<RowDefaulter, To>()
-  nameWithType: EnumUtil.MapEnums<RowDefaulter, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RowDefaulter, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of RowDefaulter, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RowDefaulter, To)()
-  name.vb: MapEnums(Of RowDefaulter, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<RowDefaulter, To>(RowDefaulter)
+  nameWithType: EnumUtil.MapEnums<RowDefaulter, To>(RowDefaulter)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RowDefaulter, To>(SuperOffice.CRM.Rows.RowDefaulter)
+  nameWithType.vb: EnumUtil.MapEnums(Of RowDefaulter, To)(RowDefaulter)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RowDefaulter, To)(SuperOffice.CRM.Rows.RowDefaulter)
+  name.vb: MapEnums(Of RowDefaulter, To)(RowDefaulter)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<RowDefaulter, To>
-    nameWithType: EnumUtil.MapEnums<RowDefaulter, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RowDefaulter, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.RowDefaulter)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.RowDefaulter
+    name: RowDefaulter
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RowDefaulter.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.RowDefaulter
+    name: RowDefaulter
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RowDefaulter.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of RowDefaulter, To)
-    nameWithType: EnumUtil.MapEnums(Of RowDefaulter, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RowDefaulter, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.RowDefaulter)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.RowDefaulter
+    name: RowDefaulter
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RowDefaulter.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.RowDefaulter
+    name: RowDefaulter
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RowDefaulter.html
+  - name: )
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<RowDefaulter, To>()
-  nameWithType: Converters.MapEnums<RowDefaulter, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RowDefaulter, To>()
-  nameWithType.vb: Converters.MapEnums(Of RowDefaulter, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RowDefaulter, To)()
-  name.vb: MapEnums(Of RowDefaulter, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<RowDefaulter, To>(RowDefaulter)
+  nameWithType: Converters.MapEnums<RowDefaulter, To>(RowDefaulter)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RowDefaulter, To>(SuperOffice.CRM.Rows.RowDefaulter)
+  nameWithType.vb: Converters.MapEnums(Of RowDefaulter, To)(RowDefaulter)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RowDefaulter, To)(SuperOffice.CRM.Rows.RowDefaulter)
+  name.vb: MapEnums(Of RowDefaulter, To)(RowDefaulter)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<RowDefaulter, To>
-    nameWithType: Converters.MapEnums<RowDefaulter, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RowDefaulter, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.RowDefaulter)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.RowDefaulter
+    name: RowDefaulter
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RowDefaulter.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.RowDefaulter
+    name: RowDefaulter
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RowDefaulter.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of RowDefaulter, To)
-    nameWithType: Converters.MapEnums(Of RowDefaulter, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RowDefaulter, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.RowDefaulter)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.RowDefaulter
+    name: RowDefaulter
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RowDefaulter.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.RowDefaulter
+    name: RowDefaulter
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RowDefaulter.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1293,43 +1450,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1338,64 +1497,179 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  commentId: Overload:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync
   isExternal: true
-  name: SetDefaults
-  nameWithType: RowDefaulter.SetDefaults
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults
+  href: SuperOffice.CRM.Rows.RowDefaulter.html#SuperOffice_CRM_Rows_RowDefaulter_SetDefaultsAsync_SuperOffice_CRM_Rows_TableRowBase_System_Threading_CancellationToken_
+  name: SetDefaultsAsync
+  nameWithType: RowDefaulter.SetDefaultsAsync
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync
 - uid: SuperOffice.CRM.Rows.TableRowBase
   commentId: T:SuperOffice.CRM.Rows.TableRowBase
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.TableRowBase.html
   name: TableRowBase
   nameWithType: TableRowBase
   fullName: SuperOffice.CRM.Rows.TableRowBase
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.CRM.Rows.DefaulterStrategy
   commentId: T:SuperOffice.CRM.Rows.DefaulterStrategy
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.DefaulterStrategy.html
   name: DefaulterStrategy
   nameWithType: DefaulterStrategy
   fullName: SuperOffice.CRM.Rows.DefaulterStrategy
@@ -1403,6 +1677,7 @@ references:
   commentId: T:SuperOffice.CRM.Rows.TicketPriorityRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.TicketPriorityRow.html
   name: TicketPriorityRow
   nameWithType: TicketPriorityRow
   fullName: SuperOffice.CRM.Rows.TicketPriorityRow
@@ -1410,6 +1685,7 @@ references:
   commentId: T:SuperOffice.CRM.Rows.AppointmentRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.AppointmentRow.html
   name: AppointmentRow
   nameWithType: AppointmentRow
   fullName: SuperOffice.CRM.Rows.AppointmentRow
@@ -1417,19 +1693,50 @@ references:
   commentId: T:SuperOffice.Data.TaskType
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.TaskType.html
   name: TaskType
   nameWithType: TaskType
   fullName: SuperOffice.Data.TaskType
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.CRM.Rows.ContactRows
+  commentId: T:SuperOffice.CRM.Rows.ContactRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ContactRows.html
+  name: ContactRows
+  nameWithType: ContactRows
+  fullName: SuperOffice.CRM.Rows.ContactRows
 - uid: SuperOffice.CRM.Rows.ContactRow
   commentId: T:SuperOffice.CRM.Rows.ContactRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.ContactRow.html
   name: ContactRow
   nameWithType: ContactRow
   fullName: SuperOffice.CRM.Rows.ContactRow
@@ -1437,6 +1744,7 @@ references:
   commentId: T:SuperOffice.CRM.Rows.PersonRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.PersonRow.html
   name: PersonRow
   nameWithType: PersonRow
   fullName: SuperOffice.CRM.Rows.PersonRow
@@ -1444,13 +1752,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Rows.TicketStatusRow
   commentId: T:SuperOffice.CRM.Rows.TicketStatusRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.TicketStatusRow.html
   name: TicketStatusRow
   nameWithType: TicketStatusRow
   fullName: SuperOffice.CRM.Rows.TicketStatusRow
@@ -1458,6 +1771,7 @@ references:
   commentId: T:SuperOffice.CRM.Rows.TicketTypeRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.TicketTypeRow.html
   name: TicketTypeRow
   nameWithType: TicketTypeRow
   fullName: SuperOffice.CRM.Rows.TicketTypeRow
@@ -1465,6 +1779,7 @@ references:
   commentId: T:SuperOffice.CRM.Rows.EjCategoryRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.EjCategoryRow.html
   name: EjCategoryRow
   nameWithType: EjCategoryRow
   fullName: SuperOffice.CRM.Rows.EjCategoryRow
@@ -1472,6 +1787,7 @@ references:
   commentId: T:SuperOffice.CRM.Rows.ProjectRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.ProjectRow.html
   name: ProjectRow
   nameWithType: ProjectRow
   fullName: SuperOffice.CRM.Rows.ProjectRow
@@ -1479,6 +1795,7 @@ references:
   commentId: T:SuperOffice.CRM.Rows.SaleRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.SaleRow.html
   name: SaleRow
   nameWithType: SaleRow
   fullName: SuperOffice.CRM.Rows.SaleRow
@@ -1486,6 +1803,7 @@ references:
   commentId: T:SuperOffice.CRM.Rows.SelectionRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.SelectionRow.html
   name: SelectionRow
   nameWithType: SelectionRow
   fullName: SuperOffice.CRM.Rows.SelectionRow
@@ -1493,6 +1811,7 @@ references:
   commentId: T:SuperOffice.CRM.Rows.DocumentRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.DocumentRow.html
   name: DocumentRow
   nameWithType: DocumentRow
   fullName: SuperOffice.CRM.Rows.DocumentRow
@@ -1500,19 +1819,85 @@ references:
   commentId: T:SuperOffice.CRM.Rows.RelationsRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.RelationsRow.html
   name: RelationsRow
   nameWithType: RelationsRow
   fullName: SuperOffice.CRM.Rows.RelationsRow
-- uid: SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValue*
-  commentId: Overload:SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValue
+- uid: SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValueAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValueAsync
   isExternal: true
-  name: GetDefaultMDOValue
-  nameWithType: RowDefaulter.GetDefaultMDOValue
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValue
+  href: SuperOffice.CRM.Rows.RowDefaulter.html#SuperOffice_CRM_Rows_RowDefaulter_GetDefaultMDOValueAsync_SuperOffice_CRM_Rows_MDOType_System_Threading_CancellationToken_
+  name: GetDefaultMDOValueAsync
+  nameWithType: RowDefaulter.GetDefaultMDOValueAsync
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValueAsync
 - uid: SuperOffice.CRM.Rows.MDOType
   commentId: T:SuperOffice.CRM.Rows.MDOType
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.MDOType.html
   name: MDOType
   nameWithType: MDOType
   fullName: SuperOffice.CRM.Rows.MDOType
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )

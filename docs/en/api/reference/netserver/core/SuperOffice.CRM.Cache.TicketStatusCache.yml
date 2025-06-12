@@ -5,9 +5,10 @@ items:
   id: TicketStatusCache
   parent: SuperOffice.CRM.Cache
   children:
-  - SuperOffice.CRM.Cache.TicketStatusCache.GetCurrent
+  - SuperOffice.CRM.Cache.TicketStatusCache.#ctor
   - SuperOffice.CRM.Cache.TicketStatusCache.GetTicketStatus(System.Int16)
   - SuperOffice.CRM.Cache.TicketStatusCache.OnLoad
+  - SuperOffice.CRM.Cache.TicketStatusCache.OnLoadAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Cache.TicketStatusCache.TableNames
   langs:
   - csharp
@@ -16,55 +17,48 @@ items:
   nameWithType: TicketStatusCache
   fullName: SuperOffice.CRM.Cache.TicketStatusCache
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nCache holding information about ticket statuses\n"
+  summary: Cache holding information about ticket statuses
+  example: []
   syntax:
     content: >-
-      [CacheV2("Database", 0)]
+      [CacheV2(0)]
 
-      public class TicketStatusCache : CacheBaseV2, IFlushableV2, IDisposable
+      public class TicketStatusCache : CacheBaseV2
     content.vb: >-
-      <CacheV2("Database", 0)>
+      <CacheV2(0)>
 
-      Public Class TicketStatusCache
-          Inherits CacheBaseV2
-          Implements IFlushableV2, IDisposable
+      Public Class TicketStatusCache Inherits CacheBaseV2
   inheritance:
   - System.Object
   - SuperOffice.Data.Cache.CacheBaseV2
-  implements:
-  - SuperOffice.Data.Cache.IFlushableV2
-  - System.IDisposable
   inheritedMembers:
-  - SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
-  - SuperOffice.Data.Cache.CacheBaseV2.Dispose
-  - SuperOffice.Data.Cache.CacheBaseV2.Flush
+  - SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+  - SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
   - SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
-  - SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+  - SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.Cache.CacheBaseV2.Load
   - SuperOffice.Data.Cache.CacheBaseV2.Disposed
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Cache.TicketStatusCache.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Cache.TicketStatusCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.CRM.Cache.TicketStatusCache.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Cache.TicketStatusCache)
+  - SuperOffice.CRM.Cache.TicketStatusCache.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   attributes:
   - type: SuperOffice.Data.Cache.CacheV2Attribute
-    ctor: SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.String,System.Int32)
+    ctor: SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.Int32)
     arguments:
-    - type: System.String
-      value: Database
     - type: System.Int32
       value: 0
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Cache.TicketStatusCache.GetTicketStatus(System.Int16)
   commentId: M:SuperOffice.CRM.Cache.TicketStatusCache.GetTicketStatus(System.Int16)
   id: GetTicketStatus(System.Int16)
@@ -72,13 +66,10 @@ items:
   langs:
   - csharp
   - vb
-  name: GetTicketStatus(Int16)
-  nameWithType: TicketStatusCache.GetTicketStatus(Int16)
-  fullName: SuperOffice.CRM.Cache.TicketStatusCache.GetTicketStatus(System.Int16)
+  name: GetTicketStatus(short)
+  nameWithType: TicketStatusCache.GetTicketStatus(short)
+  fullName: SuperOffice.CRM.Cache.TicketStatusCache.GetTicketStatus(short)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
@@ -91,10 +82,48 @@ items:
       type: SuperOffice.CRM.Rows.TicketStatusRecordData
     content.vb: Public Function GetTicketStatus(id As Short) As TicketStatusRecordData
   overload: SuperOffice.CRM.Cache.TicketStatusCache.GetTicketStatus*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TicketStatusCache.GetTicketStatus(Short)
+  fullName.vb: SuperOffice.CRM.Cache.TicketStatusCache.GetTicketStatus(Short)
+  name.vb: GetTicketStatus(Short)
+- uid: SuperOffice.CRM.Cache.TicketStatusCache.OnLoadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Cache.TicketStatusCache.OnLoadAsync(System.Threading.CancellationToken)
+  id: OnLoadAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Cache.TicketStatusCache
+  langs:
+  - csharp
+  - vb
+  name: OnLoadAsync(CancellationToken)
+  nameWithType: TicketStatusCache.OnLoadAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Cache.TicketStatusCache.OnLoadAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  example: []
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      protected override Task OnLoadAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Protected Overrides Function OnLoadAsync(cancellationToken As CancellationToken) As Task
+  overridden: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Cache.TicketStatusCache.OnLoadAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
 - uid: SuperOffice.CRM.Cache.TicketStatusCache.OnLoad
   commentId: M:SuperOffice.CRM.Cache.TicketStatusCache.OnLoad
   id: OnLoad
@@ -106,52 +135,36 @@ items:
   nameWithType: TicketStatusCache.OnLoad()
   fullName: SuperOffice.CRM.Cache.TicketStatusCache.OnLoad()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
+  example: []
   syntax:
     content: protected override void OnLoad()
-    content.vb: Protected Overrides Sub OnLoad
+    content.vb: Protected Overrides Sub OnLoad()
   overridden: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
   overload: SuperOffice.CRM.Cache.TicketStatusCache.OnLoad*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
-- uid: SuperOffice.CRM.Cache.TicketStatusCache.GetCurrent
-  commentId: M:SuperOffice.CRM.Cache.TicketStatusCache.GetCurrent
-  id: GetCurrent
+- uid: SuperOffice.CRM.Cache.TicketStatusCache.#ctor
+  commentId: M:SuperOffice.CRM.Cache.TicketStatusCache.#ctor
+  id: '#ctor'
   parent: SuperOffice.CRM.Cache.TicketStatusCache
   langs:
   - csharp
   - vb
-  name: GetCurrent()
-  nameWithType: TicketStatusCache.GetCurrent()
-  fullName: SuperOffice.CRM.Cache.TicketStatusCache.GetCurrent()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
+  name: TicketStatusCache()
+  nameWithType: TicketStatusCache.TicketStatusCache()
+  fullName: SuperOffice.CRM.Cache.TicketStatusCache.TicketStatusCache()
+  type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
   syntax:
-    content: public static TicketStatusCache GetCurrent()
-    return:
-      type: SuperOffice.CRM.Cache.TicketStatusCache
-    content.vb: Public Shared Function GetCurrent As TicketStatusCache
-  overload: SuperOffice.CRM.Cache.TicketStatusCache.GetCurrent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+    content: public TicketStatusCache()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Cache.TicketStatusCache.#ctor*
+  nameWithType.vb: TicketStatusCache.New()
+  fullName.vb: SuperOffice.CRM.Cache.TicketStatusCache.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Cache.TicketStatusCache.TableNames
   commentId: P:SuperOffice.CRM.Cache.TicketStatusCache.TableNames
   id: TableNames
@@ -163,12 +176,14 @@ items:
   nameWithType: TicketStatusCache.TableNames
   fullName: SuperOffice.CRM.Cache.TicketStatusCache.TableNames
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
+  summary: >-
+    Gets the names of the table data that are cached in this cache. When these tables are updated
+
+    the cache will be disposed so a new cache instance can take its place.
+  example: []
   syntax:
     content: protected override IEnumerable<string> TableNames { get; }
     parameters: []
@@ -177,368 +192,715 @@ items:
     content.vb: Protected Overrides ReadOnly Property TableNames As IEnumerable(Of String)
   overridden: SuperOffice.Data.Cache.CacheBaseV2.TableNames
   overload: SuperOffice.CRM.Cache.TicketStatusCache.TableNames*
-  modifiers.csharp:
-  - protected
-  - override
-  - get
-  modifiers.vb:
-  - Protected
-  - Overrides
-  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Cache
   commentId: N:SuperOffice.CRM.Cache
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Cache
   nameWithType: SuperOffice.CRM.Cache
   fullName: SuperOffice.CRM.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.Data.Cache.CacheBaseV2
   commentId: T:SuperOffice.Data.Cache.CacheBaseV2
   parent: SuperOffice.Data.Cache
   isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html
   name: CacheBaseV2
   nameWithType: CacheBaseV2
   fullName: SuperOffice.Data.Cache.CacheBaseV2
-- uid: SuperOffice.Data.Cache.IFlushableV2
-  commentId: T:SuperOffice.Data.Cache.IFlushableV2
-  parent: SuperOffice.Data.Cache
-  isExternal: true
-  name: IFlushableV2
-  nameWithType: IFlushableV2
-  fullName: SuperOffice.Data.Cache.IFlushableV2
-- uid: System.IDisposable
-  isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
-- uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+- uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: IsCacheInvalidated(String, Int32, PrivateSave)
-  nameWithType: CacheBaseV2.IsCacheInvalidated(String, Int32, PrivateSave)
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String, System.Int32, SuperOffice.Data.SQL.PrivateSave)
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_IsCacheInvalidatedAsync_System_String_System_Int32_SuperOffice_Data_SQL_PrivateSave_System_Threading_CancellationToken_
+  name: IsCacheInvalidatedAsync(string, int, PrivateSave, CancellationToken)
+  nameWithType: CacheBaseV2.IsCacheInvalidatedAsync(string, int, PrivateSave, CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(string, int, SuperOffice.Data.SQL.PrivateSave, System.Threading.CancellationToken)
+  nameWithType.vb: CacheBaseV2.IsCacheInvalidatedAsync(String, Integer, PrivateSave, CancellationToken)
+  fullName.vb: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(String, Integer, SuperOffice.Data.SQL.PrivateSave, System.Threading.CancellationToken)
+  name.vb: IsCacheInvalidatedAsync(String, Integer, PrivateSave, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
-    name: IsCacheInvalidated
-    nameWithType: CacheBaseV2.IsCacheInvalidated
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+    name: IsCacheInvalidatedAsync
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_IsCacheInvalidatedAsync_System_String_System_Int32_SuperOffice_Data_SQL_PrivateSave_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.SQL.PrivateSave
     name: PrivateSave
-    nameWithType: PrivateSave
-    fullName: SuperOffice.Data.SQL.PrivateSave
     isExternal: true
+    href: SuperOffice.Data.SQL.PrivateSave.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
-    name: IsCacheInvalidated
-    nameWithType: CacheBaseV2.IsCacheInvalidated
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+    name: IsCacheInvalidatedAsync
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_IsCacheInvalidatedAsync_System_String_System_Int32_SuperOffice_Data_SQL_PrivateSave_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.SQL.PrivateSave
     name: PrivateSave
-    nameWithType: PrivateSave
-    fullName: SuperOffice.Data.SQL.PrivateSave
     isExternal: true
+    href: SuperOffice.Data.SQL.PrivateSave.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Dispose
+- uid: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: Dispose()
-  nameWithType: CacheBaseV2.Dispose()
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose()
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_InstanceDispose
+  name: InstanceDispose()
+  nameWithType: CacheBaseV2.InstanceDispose()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose()
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
-    name: Dispose
-    nameWithType: CacheBaseV2.Dispose
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
+    name: InstanceDispose
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_InstanceDispose
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
-    name: Dispose
-    nameWithType: CacheBaseV2.Dispose
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
+    name: InstanceDispose
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_InstanceDispose
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Flush
-  parent: SuperOffice.Data.Cache.CacheBaseV2
-  isExternal: true
-  name: Flush()
-  nameWithType: CacheBaseV2.Flush()
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush()
-  spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
-    name: Flush
-    nameWithType: CacheBaseV2.Flush
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
-    name: Flush
-    nameWithType: CacheBaseV2.Flush
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_BeginDisableAutoUpdate
   name: BeginDisableAutoUpdate()
   nameWithType: CacheBaseV2.BeginDisableAutoUpdate()
   fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate()
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     name: BeginDisableAutoUpdate
-    nameWithType: CacheBaseV2.BeginDisableAutoUpdate
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_BeginDisableAutoUpdate
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     name: BeginDisableAutoUpdate
-    nameWithType: CacheBaseV2.BeginDisableAutoUpdate
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_BeginDisableAutoUpdate
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+- uid: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: GetCurrent<T>()
-  nameWithType: CacheBaseV2.GetCurrent<T>()
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent<T>()
-  nameWithType.vb: CacheBaseV2.GetCurrent(Of T)()
-  fullName.vb: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent(Of T)()
-  name.vb: GetCurrent(Of T)()
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_LoadAsync_System_Threading_CancellationToken_
+  name: LoadAsync(CancellationToken)
+  nameWithType: CacheBaseV2.LoadAsync(CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
-    name: GetCurrent<T>
-    nameWithType: CacheBaseV2.GetCurrent<T>
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent<T>
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
+    name: LoadAsync
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_LoadAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
-    name: GetCurrent(Of T)
-    nameWithType: CacheBaseV2.GetCurrent(Of T)
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent(Of T)
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
+    name: LoadAsync
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_LoadAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Load
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Load
   name: Load()
   nameWithType: CacheBaseV2.Load()
   fullName: SuperOffice.Data.Cache.CacheBaseV2.Load()
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
     name: Load
-    nameWithType: CacheBaseV2.Load
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Load
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
     name: Load
-    nameWithType: CacheBaseV2.Load
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Load
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.Disposed
   commentId: P:SuperOffice.Data.Cache.CacheBaseV2.Disposed
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Disposed
   name: Disposed
   nameWithType: CacheBaseV2.Disposed
   fullName: SuperOffice.Data.Cache.CacheBaseV2.Disposed
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Cache.TicketStatusCache.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<TicketStatusCache, To>()
-  nameWithType: EnumUtil.MapEnums<TicketStatusCache, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Cache.TicketStatusCache, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of TicketStatusCache, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Cache.TicketStatusCache, To)()
-  name.vb: MapEnums(Of TicketStatusCache, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<TicketStatusCache, To>(TicketStatusCache)
+  nameWithType: EnumUtil.MapEnums<TicketStatusCache, To>(TicketStatusCache)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Cache.TicketStatusCache, To>(SuperOffice.CRM.Cache.TicketStatusCache)
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketStatusCache, To)(TicketStatusCache)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Cache.TicketStatusCache, To)(SuperOffice.CRM.Cache.TicketStatusCache)
+  name.vb: MapEnums(Of TicketStatusCache, To)(TicketStatusCache)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<TicketStatusCache, To>
-    nameWithType: EnumUtil.MapEnums<TicketStatusCache, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Cache.TicketStatusCache, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Cache.TicketStatusCache)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of TicketStatusCache, To)
-    nameWithType: EnumUtil.MapEnums(Of TicketStatusCache, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Cache.TicketStatusCache, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Cache.TicketStatusCache)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  - name: )
 - uid: SuperOffice.CRM.Cache.TicketStatusCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<TicketStatusCache, To>()
-  nameWithType: Converters.MapEnums<TicketStatusCache, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Cache.TicketStatusCache, To>()
-  nameWithType.vb: Converters.MapEnums(Of TicketStatusCache, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Cache.TicketStatusCache, To)()
-  name.vb: MapEnums(Of TicketStatusCache, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<TicketStatusCache, To>(TicketStatusCache)
+  nameWithType: Converters.MapEnums<TicketStatusCache, To>(TicketStatusCache)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Cache.TicketStatusCache, To>(SuperOffice.CRM.Cache.TicketStatusCache)
+  nameWithType.vb: Converters.MapEnums(Of TicketStatusCache, To)(TicketStatusCache)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Cache.TicketStatusCache, To)(SuperOffice.CRM.Cache.TicketStatusCache)
+  name.vb: MapEnums(Of TicketStatusCache, To)(TicketStatusCache)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<TicketStatusCache, To>
-    nameWithType: Converters.MapEnums<TicketStatusCache, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Cache.TicketStatusCache, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Cache.TicketStatusCache)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of TicketStatusCache, To)
-    nameWithType: Converters.MapEnums(Of TicketStatusCache, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Cache.TicketStatusCache, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Cache.TicketStatusCache)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  - name: )
+- uid: SuperOffice.CRM.Cache.TicketStatusCache.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Cache.TicketStatusCache)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<TicketStatusCache>(TicketStatusCache, TicketStatusCache)
+  nameWithType: ObjectExtensions.AssignByReflection<TicketStatusCache>(TicketStatusCache, TicketStatusCache)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Cache.TicketStatusCache>(SuperOffice.CRM.Cache.TicketStatusCache, SuperOffice.CRM.Cache.TicketStatusCache)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketStatusCache)(TicketStatusCache, TicketStatusCache)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Cache.TicketStatusCache)(SuperOffice.CRM.Cache.TicketStatusCache, SuperOffice.CRM.Cache.TicketStatusCache)
+  name.vb: AssignByReflection(Of TicketStatusCache)(TicketStatusCache, TicketStatusCache)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Cache.TicketStatusCache,SuperOffice.CRM.Cache.TicketStatusCache)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Cache.TicketStatusCache,SuperOffice.CRM.Cache.TicketStatusCache)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  - name: )
+- uid: SuperOffice.CRM.Cache.TicketStatusCache.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<TicketStatusCache>(TicketStatusCache)
+  nameWithType: ObjectExtensions.GraphCopy<TicketStatusCache>(TicketStatusCache)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Cache.TicketStatusCache>(SuperOffice.CRM.Cache.TicketStatusCache)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketStatusCache)(TicketStatusCache)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Cache.TicketStatusCache)(SuperOffice.CRM.Cache.TicketStatusCache)
+  name.vb: GraphCopy(Of TicketStatusCache)(TicketStatusCache)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Cache.TicketStatusCache)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Cache.TicketStatusCache)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Cache.TicketStatusCache
+    name: TicketStatusCache
+    isExternal: true
+    href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.Cache
   commentId: N:SuperOffice.Data.Cache
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.Cache
   nameWithType: SuperOffice.Data.Cache
   fullName: SuperOffice.Data.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -547,43 +909,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -592,50 +956,192 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.CRM.Cache.TicketStatusCache.GetTicketStatus*
   commentId: Overload:SuperOffice.CRM.Cache.TicketStatusCache.GetTicketStatus
   isExternal: true
+  href: SuperOffice.CRM.Cache.TicketStatusCache.html#SuperOffice_CRM_Cache_TicketStatusCache_GetTicketStatus_System_Int16_
   name: GetTicketStatus
   nameWithType: TicketStatusCache.GetTicketStatus
   fullName: SuperOffice.CRM.Cache.TicketStatusCache.GetTicketStatus
@@ -643,163 +1149,326 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Rows.TicketStatusRecordData
   commentId: T:SuperOffice.CRM.Rows.TicketStatusRecordData
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.TicketStatusRecordData.html
   name: TicketStatusRecordData
   nameWithType: TicketStatusRecordData
   fullName: SuperOffice.CRM.Rows.TicketStatusRecordData
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnLoadAsync_System_Threading_CancellationToken_
+  name: OnLoadAsync(CancellationToken)
+  nameWithType: CacheBaseV2.OnLoadAsync(CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+    name: OnLoadAsync
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnLoadAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+    name: OnLoadAsync
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnLoadAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Cache.TicketStatusCache.OnLoadAsync*
+  commentId: Overload:SuperOffice.CRM.Cache.TicketStatusCache.OnLoadAsync
+  isExternal: true
+  href: SuperOffice.CRM.Cache.TicketStatusCache.html#SuperOffice_CRM_Cache_TicketStatusCache_OnLoadAsync_System_Threading_CancellationToken_
+  name: OnLoadAsync
+  nameWithType: TicketStatusCache.OnLoadAsync
+  fullName: SuperOffice.CRM.Cache.TicketStatusCache.OnLoadAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.OnLoad
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnLoad
   name: OnLoad()
   nameWithType: CacheBaseV2.OnLoad()
   fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad()
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
     name: OnLoad
-    nameWithType: CacheBaseV2.OnLoad
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnLoad
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
     name: OnLoad
-    nameWithType: CacheBaseV2.OnLoad
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnLoad
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Cache.TicketStatusCache.OnLoad*
   commentId: Overload:SuperOffice.CRM.Cache.TicketStatusCache.OnLoad
   isExternal: true
+  href: SuperOffice.CRM.Cache.TicketStatusCache.html#SuperOffice_CRM_Cache_TicketStatusCache_OnLoad
   name: OnLoad
   nameWithType: TicketStatusCache.OnLoad
   fullName: SuperOffice.CRM.Cache.TicketStatusCache.OnLoad
-- uid: SuperOffice.CRM.Cache.TicketStatusCache.GetCurrent*
-  commentId: Overload:SuperOffice.CRM.Cache.TicketStatusCache.GetCurrent
+- uid: SuperOffice.CRM.Cache.TicketStatusCache.#ctor*
+  commentId: Overload:SuperOffice.CRM.Cache.TicketStatusCache.#ctor
   isExternal: true
-  name: GetCurrent
-  nameWithType: TicketStatusCache.GetCurrent
-  fullName: SuperOffice.CRM.Cache.TicketStatusCache.GetCurrent
-- uid: SuperOffice.CRM.Cache.TicketStatusCache
-  commentId: T:SuperOffice.CRM.Cache.TicketStatusCache
-  parent: SuperOffice.CRM.Cache
-  isExternal: true
+  href: SuperOffice.CRM.Cache.TicketStatusCache.html#SuperOffice_CRM_Cache_TicketStatusCache__ctor
   name: TicketStatusCache
-  nameWithType: TicketStatusCache
-  fullName: SuperOffice.CRM.Cache.TicketStatusCache
+  nameWithType: TicketStatusCache.TicketStatusCache
+  fullName: SuperOffice.CRM.Cache.TicketStatusCache.TicketStatusCache
+  nameWithType.vb: TicketStatusCache.New
+  fullName.vb: SuperOffice.CRM.Cache.TicketStatusCache.New
+  name.vb: New
 - uid: SuperOffice.Data.Cache.CacheBaseV2.TableNames
   commentId: P:SuperOffice.Data.Cache.CacheBaseV2.TableNames
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_TableNames
   name: TableNames
   nameWithType: CacheBaseV2.TableNames
   fullName: SuperOffice.Data.Cache.CacheBaseV2.TableNames
 - uid: SuperOffice.CRM.Cache.TicketStatusCache.TableNames*
   commentId: Overload:SuperOffice.CRM.Cache.TicketStatusCache.TableNames
   isExternal: true
+  href: SuperOffice.CRM.Cache.TicketStatusCache.html#SuperOffice_CRM_Cache_TicketStatusCache_TableNames
   name: TableNames
   nameWithType: TicketStatusCache.TableNames
   fullName: SuperOffice.CRM.Cache.TicketStatusCache.TableNames
 - uid: System.Collections.Generic.IEnumerable{System.String}
-  commentId: '!:System.Collections.Generic.IEnumerable{System.String}'
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<String>
-  nameWithType: IEnumerable<String>
-  fullName: System.Collections.Generic.IEnumerable<System.String>
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
   nameWithType.vb: IEnumerable(Of String)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
   name.vb: IEnumerable(Of String)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

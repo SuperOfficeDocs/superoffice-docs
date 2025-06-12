@@ -24,8 +24,8 @@ items:
   - SuperOffice.CRM.Tooltips.FilterTooltipPlugin
   - SuperOffice.CRM.Tooltips.InterestTooltipPlugin
   - SuperOffice.CRM.Tooltips.KbEntryTooltipPlugin
-  - SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
   - SuperOffice.CRM.Tooltips.MDOTooltipPlugin
+  - SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
   - SuperOffice.CRM.Tooltips.ModuleLicenseTooltipPlugin
   - SuperOffice.CRM.Tooltips.NavigatorButtonTooltipPlugin
   - SuperOffice.CRM.Tooltips.NoteTooltipBase
@@ -64,107 +64,124 @@ items:
   fullName: SuperOffice.CRM.Tooltips
   type: Namespace
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
 references:
 - uid: SuperOffice.CRM.Tooltips.ActivityTypeTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.ActivityTypeTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.ActivityTypeTooltipPlugin.html
   name: ActivityTypeTooltipPlugin
   nameWithType: ActivityTypeTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.ActivityTypeTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.AppointmentMotherTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.AppointmentMotherTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.AppointmentMotherTooltipPlugin.html
   name: AppointmentMotherTooltipPlugin
   nameWithType: AppointmentMotherTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.AppointmentMotherTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.AppointmentTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.AppointmentTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.AppointmentTooltipPlugin.html
   name: AppointmentTooltipPlugin
   nameWithType: AppointmentTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.AppointmentTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.AssociateTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.AssociateTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.AssociateTooltipPlugin.html
   name: AssociateTooltipPlugin
   nameWithType: AssociateTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.AssociateTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.CalendarDayTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.CalendarDayTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.CalendarDayTooltipPlugin.html
   name: CalendarDayTooltipPlugin
   nameWithType: CalendarDayTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.CalendarDayTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.ChatSessionTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.ChatSessionTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.ChatSessionTooltipPlugin.html
   name: ChatSessionTooltipPlugin
   nameWithType: ChatSessionTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.ChatSessionTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.ConflictTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.ConflictTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.ConflictTooltipPlugin.html
   name: ConflictTooltipPlugin
   nameWithType: ConflictTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.ConflictTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.ConsentPurposeTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.ConsentPurposeTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.ConsentPurposeTooltipPlugin.html
   name: ConsentPurposeTooltipPlugin
   nameWithType: ConsentPurposeTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.ConsentPurposeTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.ConsentTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.ConsentTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.ConsentTooltipPlugin.html
   name: ConsentTooltipPlugin
   nameWithType: ConsentTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.ConsentTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.ContactTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.ContactTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.ContactTooltipPlugin.html
   name: ContactTooltipPlugin
   nameWithType: ContactTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.ContactTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.DashboardTileTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.DashboardTileTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.DashboardTileTooltipPlugin.html
   name: DashboardTileTooltipPlugin
   nameWithType: DashboardTileTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.DashboardTileTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.DashboardTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.DashboardTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.DashboardTooltipPlugin.html
   name: DashboardTooltipPlugin
   nameWithType: DashboardTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.DashboardTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.DocumentTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.DocumentTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.DocumentTooltipPlugin.html
   name: DocumentTooltipPlugin
   nameWithType: DocumentTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.DocumentTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.EjCategoryTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.EjCategoryTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.EjCategoryTooltipPlugin.html
   name: EjCategoryTooltipPlugin
   nameWithType: EjCategoryTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.EjCategoryTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.EmailTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.EmailTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.EmailTooltipPlugin.html
   name: EmailTooltipPlugin
   nameWithType: EmailTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.EmailTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.FilterTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.FilterTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.FilterTooltipPlugin.html
   name: FilterTooltipPlugin
   nameWithType: FilterTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.FilterTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.InterestTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.InterestTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.InterestTooltipPlugin.html
   name: InterestTooltipPlugin
   nameWithType: InterestTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.InterestTooltipPlugin
@@ -172,36 +189,42 @@ references:
   commentId: T:SuperOffice.CRM.Tooltips.TooltipPluginAttribute
   parent: SuperOffice.CRM.Tooltips
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.TooltipPluginAttribute.html
   name: TooltipPluginAttribute
   nameWithType: TooltipPluginAttribute
   fullName: SuperOffice.CRM.Tooltips.TooltipPluginAttribute
 - uid: SuperOffice.CRM.Tooltips.KbEntryTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.KbEntryTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.KbEntryTooltipPlugin.html
   name: KbEntryTooltipPlugin
   nameWithType: KbEntryTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.KbEntryTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.html
   name: MailItemTooltipPlugin
   nameWithType: MailItemTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.MDOTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.MDOTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.MDOTooltipPlugin.html
   name: MDOTooltipPlugin
   nameWithType: MDOTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.MDOTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.ModuleLicenseTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.ModuleLicenseTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.ModuleLicenseTooltipPlugin.html
   name: ModuleLicenseTooltipPlugin
   nameWithType: ModuleLicenseTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.ModuleLicenseTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.NavigatorButtonTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.NavigatorButtonTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.NavigatorButtonTooltipPlugin.html
   name: NavigatorButtonTooltipPlugin
   nameWithType: NavigatorButtonTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.NavigatorButtonTooltipPlugin
@@ -209,144 +232,168 @@ references:
   commentId: T:SuperOffice.CRM.Tooltips.NoteTooltipBase
   parent: SuperOffice.CRM.Tooltips
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.NoteTooltipBase.html
   name: NoteTooltipBase
   nameWithType: NoteTooltipBase
   fullName: SuperOffice.CRM.Tooltips.NoteTooltipBase
 - uid: SuperOffice.CRM.Tooltips.ProjectNoteTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.ProjectNoteTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.ProjectNoteTooltipPlugin.html
   name: ProjectNoteTooltipPlugin
   nameWithType: ProjectNoteTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.ProjectNoteTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.SelectionNoteTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.SelectionNoteTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.SelectionNoteTooltipPlugin.html
   name: SelectionNoteTooltipPlugin
   nameWithType: SelectionNoteTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.SelectionNoteTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.ContactNoteTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.ContactNoteTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.ContactNoteTooltipPlugin.html
   name: ContactNoteTooltipPlugin
   nameWithType: ContactNoteTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.ContactNoteTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.AppointmentNoteTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.AppointmentNoteTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.AppointmentNoteTooltipPlugin.html
   name: AppointmentNoteTooltipPlugin
   nameWithType: AppointmentNoteTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.AppointmentNoteTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.PersonNoteTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.PersonNoteTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.PersonNoteTooltipPlugin.html
   name: PersonNoteTooltipPlugin
   nameWithType: PersonNoteTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.PersonNoteTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.SaleNoteTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.SaleNoteTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.SaleNoteTooltipPlugin.html
   name: SaleNoteTooltipPlugin
   nameWithType: SaleNoteTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.SaleNoteTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.PersonTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.PersonTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.PersonTooltipPlugin.html
   name: PersonTooltipPlugin
   nameWithType: PersonTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.PersonTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.PhoneTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.PhoneTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.PhoneTooltipPlugin.html
   name: PhoneTooltipPlugin
   nameWithType: PhoneTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.PhoneTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.ProductTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.ProductTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.ProductTooltipPlugin.html
   name: ProductTooltipPlugin
   nameWithType: ProductTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.ProductTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.ProjectMemberTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.ProjectMemberTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.ProjectMemberTooltipPlugin.html
   name: ProjectMemberTooltipPlugin
   nameWithType: ProjectMemberTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.ProjectMemberTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.ProjectTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.ProjectTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.ProjectTooltipPlugin.html
   name: ProjectTooltipPlugin
   nameWithType: ProjectTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.ProjectTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.QuoteLineTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.QuoteLineTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.QuoteLineTooltipPlugin.html
   name: QuoteLineTooltipPlugin
   nameWithType: QuoteLineTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.QuoteLineTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.QuoteVersionTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.QuoteVersionTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.QuoteVersionTooltipPlugin.html
   name: QuoteVersionTooltipPlugin
   nameWithType: QuoteVersionTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.QuoteVersionTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.SaleStakeholderTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.SaleStakeholderTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.SaleStakeholderTooltipPlugin.html
   name: SaleStakeholderTooltipPlugin
   nameWithType: SaleStakeholderTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.SaleStakeholderTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.SaleTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.SaleTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.SaleTooltipPlugin.html
   name: SaleTooltipPlugin
   nameWithType: SaleTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.SaleTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.SelectionTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.SelectionTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.SelectionTooltipPlugin.html
   name: SelectionTooltipPlugin
   nameWithType: SelectionTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.SelectionTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.TextTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.TextTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.TextTooltipPlugin.html
   name: TextTooltipPlugin
   nameWithType: TextTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.TextTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.TicketPriorityTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.TicketPriorityTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.TicketPriorityTooltipPlugin.html
   name: TicketPriorityTooltipPlugin
   nameWithType: TicketPriorityTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.TicketPriorityTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.TicketReadStatusTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.TicketReadStatusTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.TicketReadStatusTooltipPlugin.html
   name: TicketReadStatusTooltipPlugin
   nameWithType: TicketReadStatusTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.TicketReadStatusTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.TicketStatusTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.TicketStatusTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.TicketStatusTooltipPlugin.html
   name: TicketStatusTooltipPlugin
   nameWithType: TicketStatusTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.TicketStatusTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.TicketTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.TicketTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.TicketTooltipPlugin.html
   name: TicketTooltipPlugin
   nameWithType: TicketTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.TicketTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.TicketTypeTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.TicketTypeTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.TicketTypeTooltipPlugin.html
   name: TicketTypeTooltipPlugin
   nameWithType: TicketTypeTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.TicketTypeTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.TimeZoneTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.TimeZoneTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.TimeZoneTooltipPlugin.html
   name: TimeZoneTooltipPlugin
   nameWithType: TimeZoneTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.TimeZoneTooltipPlugin
@@ -354,36 +401,72 @@ references:
   commentId: T:SuperOffice.CRM.Tooltips.TooltipPluginBase
   parent: SuperOffice.CRM.Tooltips
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.TooltipPluginBase.html
   name: TooltipPluginBase
   nameWithType: TooltipPluginBase
   fullName: SuperOffice.CRM.Tooltips.TooltipPluginBase
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
   commentId: T:SuperOffice.CRM.Tooltips.TooltipPluginHelper
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
   name: TooltipPluginHelper
   nameWithType: TooltipPluginHelper
   fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper
 - uid: SuperOffice.CRM.Tooltips.TooltipProvider
   commentId: T:SuperOffice.CRM.Tooltips.TooltipProvider
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.TooltipProvider.html
   name: TooltipProvider
   nameWithType: TooltipProvider
   fullName: SuperOffice.CRM.Tooltips.TooltipProvider
 - uid: SuperOffice.CRM.Tooltips.UdefFieldTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.UdefFieldTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.UdefFieldTooltipPlugin.html
   name: UdefFieldTooltipPlugin
   nameWithType: UdefFieldTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.UdefFieldTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.WorkflowTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.WorkflowTooltipPlugin
   isExternal: true
+  href: SuperOffice.CRM.Tooltips.WorkflowTooltipPlugin.html
   name: WorkflowTooltipPlugin
   nameWithType: WorkflowTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.WorkflowTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips
   commentId: N:SuperOffice.CRM.Tooltips
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Tooltips
   nameWithType: SuperOffice.CRM.Tooltips
   fullName: SuperOffice.CRM.Tooltips
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Tooltips
+    name: Tooltips
+    isExternal: true
+    href: SuperOffice.CRM.Tooltips.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Tooltips
+    name: Tooltips
+    isExternal: true
+    href: SuperOffice.CRM.Tooltips.html

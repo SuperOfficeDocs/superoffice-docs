@@ -19,24 +19,16 @@ items:
   nameWithType: INumberAllocationAgent
   fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent
   type: Interface
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nThis agent can be used to manage number allocation\n"
+  summary: This agent can be used to manage number allocation
+  example: []
   syntax:
     content: 'public interface INumberAllocationAgent : IDisposable'
-    content.vb: >-
-      Public Interface INumberAllocationAgent
-          Inherits IDisposable
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+    content.vb: Public Interface INumberAllocationAgent Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
 - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.CreateDefaultRefCountEntityAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.INumberAllocationAgent.CreateDefaultRefCountEntityAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultRefCountEntityAsync(SuperOffice.WebApi.RequestOptions)
@@ -48,19 +40,20 @@ items:
   nameWithType: INumberAllocationAgent.CreateDefaultRefCountEntityAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.CreateDefaultRefCountEntityAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet default values into a new RefCountEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Set default values into a new RefCountEntity.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
     content: Task<RefCountEntity> CreateDefaultRefCountEntityAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RefCountEntity}
       description: A blank RefCountEntity
@@ -77,13 +70,11 @@ items:
   nameWithType: INumberAllocationAgent.SaveRefCountEntityAsync(RefCountEntity, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.WebApi.Data.RefCountEntity, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nUpdates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is 0. \n"
+  summary: Updates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is 0.
+  example: []
   syntax:
     content: Task<RefCountEntity> SaveRefCountEntityAsync(RefCountEntity refCountEntity, RequestOptions requestOptions = null)
     parameters:
@@ -92,7 +83,7 @@ items:
       description: The RefCountEntity that is saved.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RefCountEntity}
       description: New or updated RefCountEntity
@@ -105,17 +96,15 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteRefCountEntityAsync(Int32, RequestOptions)
-  nameWithType: INumberAllocationAgent.DeleteRefCountEntityAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.DeleteRefCountEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: DeleteRefCountEntityAsync(int, RequestOptions)
+  nameWithType: INumberAllocationAgent.DeleteRefCountEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.DeleteRefCountEntityAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nDeletes the RefCountEntity\n"
+  summary: Deletes the RefCountEntity
+  example: []
   syntax:
     content: Task DeleteRefCountEntityAsync(int refCountEntityId, RequestOptions requestOptions = null)
     parameters:
@@ -124,11 +113,14 @@ items:
       description: The identity of the RefCountEntity
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
     content.vb: Function DeleteRefCountEntityAsync(refCountEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.INumberAllocationAgent.DeleteRefCountEntityAsync*
+  nameWithType.vb: INumberAllocationAgent.DeleteRefCountEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.INumberAllocationAgent.DeleteRefCountEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteRefCountEntityAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetRefCountEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -136,17 +128,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetRefCountEntityAsync(Int32, RequestOptions)
-  nameWithType: INumberAllocationAgent.GetRefCountEntityAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetRefCountEntityAsync(int, RequestOptions)
+  nameWithType: INumberAllocationAgent.GetRefCountEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets a specific RefCountEntity object.                        \n"
+  summary: Gets a specific RefCountEntity object.
+  example: []
   syntax:
     content: Task<RefCountEntity> GetRefCountEntityAsync(int refCountEntityId, RequestOptions requestOptions = null)
     parameters:
@@ -155,12 +145,15 @@ items:
       description: The identifier of the RefCountEntity object
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RefCountEntity}
       description: RefCountEntity
     content.vb: Function GetRefCountEntityAsync(refCountEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of RefCountEntity)
   overload: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync*
+  nameWithType.vb: INumberAllocationAgent.GetRefCountEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetRefCountEntityAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.WebApi.Data.RefCountEntity,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.WebApi.Data.RefCountEntity,SuperOffice.WebApi.RequestOptions)
   id: SaveDefaultNumberingAsync(SuperOffice.WebApi.Data.RefCountEntity,SuperOffice.WebApi.RequestOptions)
@@ -172,13 +165,11 @@ items:
   nameWithType: INumberAllocationAgent.SaveDefaultNumberingAsync(RefCountEntity, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.WebApi.Data.RefCountEntity, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSaves default numbering values in preferences\n"
+  summary: Saves default numbering values in preferences
+  example: []
   syntax:
     content: Task SaveDefaultNumberingAsync(RefCountEntity refCountEntity, RequestOptions requestOptions = null)
     parameters:
@@ -187,7 +178,7 @@ items:
       description: The refCountEntity that holds the values that will be saved
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: void
@@ -204,19 +195,17 @@ items:
   nameWithType: INumberAllocationAgent.GetNumberEachTemplateAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetNumberEachTemplateAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturns true or false if Automatically create new counters for new document templates\n"
+  summary: Returns true or false if Automatically create new counters for new document templates
+  example: []
   syntax:
     content: Task<bool> GetNumberEachTemplateAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: Is NumberEachTemplate?
@@ -229,17 +218,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SetNumberEachTemplateAsync(Boolean, RequestOptions)
-  nameWithType: INumberAllocationAgent.SetNumberEachTemplateAsync(Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.SetNumberEachTemplateAsync(System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name: SetNumberEachTemplateAsync(bool, RequestOptions)
+  nameWithType: INumberAllocationAgent.SetNumberEachTemplateAsync(bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.SetNumberEachTemplateAsync(bool, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSaves true or false if Automatically create new counters for new document templates\n"
+  summary: Saves true or false if Automatically create new counters for new document templates
+  example: []
   syntax:
     content: Task SetNumberEachTemplateAsync(bool setValue, RequestOptions requestOptions = null)
     parameters:
@@ -248,22 +235,94 @@ items:
       description: true or false if Automatically create new counters for new document templates
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: void
     content.vb: Function SetNumberEachTemplateAsync(setValue As Boolean, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.INumberAllocationAgent.SetNumberEachTemplateAsync*
+  nameWithType.vb: INumberAllocationAgent.SetNumberEachTemplateAsync(Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.INumberAllocationAgent.SetNumberEachTemplateAsync(Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetNumberEachTemplateAsync(Boolean, RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.CreateDefaultRefCountEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.INumberAllocationAgent.CreateDefaultRefCountEntityAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.INumberAllocationAgent.html#SuperOffice_WebApi_Agents_INumberAllocationAgent_CreateDefaultRefCountEntityAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultRefCountEntityAsync
   nameWithType: INumberAllocationAgent.CreateDefaultRefCountEntityAsync
   fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.CreateDefaultRefCountEntityAsync
@@ -271,12 +330,15 @@ references:
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RefCountEntity}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RefCountEntity}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RefCountEntity}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<RefCountEntity>
   nameWithType: Task<RefCountEntity>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.RefCountEntity>
@@ -286,84 +348,123 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.RefCountEntity
     name: RefCountEntity
-    nameWithType: RefCountEntity
-    fullName: SuperOffice.WebApi.Data.RefCountEntity
     isExternal: true
+    href: SuperOffice.WebApi.Data.RefCountEntity.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.RefCountEntity
     name: RefCountEntity
-    nameWithType: RefCountEntity
-    fullName: SuperOffice.WebApi.Data.RefCountEntity
     isExternal: true
+    href: SuperOffice.WebApi.Data.RefCountEntity.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: System.Threading.Tasks.Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: System.Threading.Tasks.Task(Of )
-  name.vb: Task(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveRefCountEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveRefCountEntityAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.INumberAllocationAgent.html#SuperOffice_WebApi_Agents_INumberAllocationAgent_SaveRefCountEntityAsync_SuperOffice_WebApi_Data_RefCountEntity_SuperOffice_WebApi_RequestOptions_
   name: SaveRefCountEntityAsync
   nameWithType: INumberAllocationAgent.SaveRefCountEntityAsync
   fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveRefCountEntityAsync
@@ -371,18 +472,51 @@ references:
   commentId: T:SuperOffice.WebApi.Data.RefCountEntity
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.RefCountEntity.html
   name: RefCountEntity
   nameWithType: RefCountEntity
   fullName: SuperOffice.WebApi.Data.RefCountEntity
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.DeleteRefCountEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.INumberAllocationAgent.DeleteRefCountEntityAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.INumberAllocationAgent.html#SuperOffice_WebApi_Agents_INumberAllocationAgent_DeleteRefCountEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: DeleteRefCountEntityAsync
   nameWithType: INumberAllocationAgent.DeleteRefCountEntityAsync
   fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.DeleteRefCountEntityAsync
@@ -390,84 +524,81 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.INumberAllocationAgent.html#SuperOffice_WebApi_Agents_INumberAllocationAgent_GetRefCountEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetRefCountEntityAsync
   nameWithType: INumberAllocationAgent.GetRefCountEntityAsync
   fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync
 - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveDefaultNumberingAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveDefaultNumberingAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.INumberAllocationAgent.html#SuperOffice_WebApi_Agents_INumberAllocationAgent_SaveDefaultNumberingAsync_SuperOffice_WebApi_Data_RefCountEntity_SuperOffice_WebApi_RequestOptions_
   name: SaveDefaultNumberingAsync
   nameWithType: INumberAllocationAgent.SaveDefaultNumberingAsync
   fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveDefaultNumberingAsync
 - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetNumberEachTemplateAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.INumberAllocationAgent.GetNumberEachTemplateAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.INumberAllocationAgent.html#SuperOffice_WebApi_Agents_INumberAllocationAgent_GetNumberEachTemplateAsync_SuperOffice_WebApi_RequestOptions_
   name: GetNumberEachTemplateAsync
   nameWithType: INumberAllocationAgent.GetNumberEachTemplateAsync
   fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetNumberEachTemplateAsync
 - uid: System.Threading.Tasks.Task{System.Boolean}
-  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<Boolean>
-  nameWithType: Task<Boolean>
-  fullName: System.Threading.Tasks.Task<System.Boolean>
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
   nameWithType.vb: Task(Of Boolean)
-  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
   name.vb: Task(Of Boolean)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.SetNumberEachTemplateAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.INumberAllocationAgent.SetNumberEachTemplateAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.INumberAllocationAgent.html#SuperOffice_WebApi_Agents_INumberAllocationAgent_SetNumberEachTemplateAsync_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: SetNumberEachTemplateAsync
   nameWithType: INumberAllocationAgent.SetNumberEachTemplateAsync
   fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.SetNumberEachTemplateAsync
@@ -475,6 +606,10 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

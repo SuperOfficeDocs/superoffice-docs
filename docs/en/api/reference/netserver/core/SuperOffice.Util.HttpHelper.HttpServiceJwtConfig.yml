@@ -22,30 +22,27 @@ items:
   nameWithType: HttpHelper.HttpServiceJwtConfig
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: 'public class HttpServiceJwtConfig : Object'
-    content.vb: >-
-      Public Class HttpServiceJwtConfig
-          Inherits Object
+    content: public class HttpHelper.HttpServiceJwtConfig
+    content.vb: Public Class HttpHelper.HttpServiceJwtConfig
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.EnumUtil.MapEnums``2
+  - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.#ctor
   commentId: M:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.#ctor
   id: '#ctor'
@@ -57,20 +54,16 @@ items:
   nameWithType: HttpHelper.HttpServiceJwtConfig.HttpServiceJwtConfig()
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HttpServiceJwtConfig()
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public HttpServiceJwtConfig()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: HttpHelper.HttpServiceJwtConfig.New()
+  fullName.vb: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.New()
+  name.vb: New()
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Issuer
   commentId: P:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Issuer
   id: Issuer
@@ -82,9 +75,6 @@ items:
   nameWithType: HttpHelper.HttpServiceJwtConfig.Issuer
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Issuer
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -95,12 +85,6 @@ items:
       type: System.String
     content.vb: Public Property Issuer As String
   overload: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Issuer*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Audience
   commentId: P:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Audience
   id: Audience
@@ -112,9 +96,6 @@ items:
   nameWithType: HttpHelper.HttpServiceJwtConfig.Audience
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Audience
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -125,12 +106,6 @@ items:
       type: System.String
     content.vb: Public Property Audience As String
   overload: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Audience*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SigningKey
   commentId: P:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SigningKey
   id: SigningKey
@@ -142,9 +117,6 @@ items:
   nameWithType: HttpHelper.HttpServiceJwtConfig.SigningKey
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SigningKey
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -155,12 +127,6 @@ items:
       type: System.String
     content.vb: Public Property SigningKey As String
   overload: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SigningKey*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RequiresClaims
   commentId: P:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RequiresClaims
   id: RequiresClaims
@@ -172,9 +138,6 @@ items:
   nameWithType: HttpHelper.HttpServiceJwtConfig.RequiresClaims
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RequiresClaims
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -185,12 +148,6 @@ items:
       type: System.Boolean
     content.vb: Public Property RequiresClaims As Boolean
   overload: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RequiresClaims*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Timeout
   commentId: P:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Timeout
   id: Timeout
@@ -202,9 +159,6 @@ items:
   nameWithType: HttpHelper.HttpServiceJwtConfig.Timeout
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Timeout
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -215,12 +169,6 @@ items:
       type: System.Int32
     content.vb: Public Property Timeout As Integer
   overload: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Timeout*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.VideoMeetings
   commentId: P:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.VideoMeetings
   id: VideoMeetings
@@ -232,9 +180,6 @@ items:
   nameWithType: HttpHelper.HttpServiceJwtConfig.VideoMeetings
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.VideoMeetings
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -245,14 +190,6 @@ items:
       type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
     content.vb: Public Shared ReadOnly Property VideoMeetings As HttpHelper.HttpServiceJwtConfig
   overload: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.VideoMeetings*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User
   commentId: P:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User
   id: HugoAI_User
@@ -264,9 +201,6 @@ items:
   nameWithType: HttpHelper.HttpServiceJwtConfig.HugoAI_User
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -277,14 +211,6 @@ items:
       type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
     content.vb: Public Shared ReadOnly Property HugoAI_User As HttpHelper.HttpServiceJwtConfig
   overload: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI
   commentId: P:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI
   id: HugoAI
@@ -296,9 +222,6 @@ items:
   nameWithType: HttpHelper.HttpServiceJwtConfig.HugoAI
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -309,14 +232,6 @@ items:
       type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
     content.vb: Public Shared ReadOnly Property HugoAI As HttpHelper.HttpServiceJwtConfig
   overload: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.ZFD
   commentId: P:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.ZFD
   id: ZFD
@@ -328,13 +243,11 @@ items:
   nameWithType: HttpHelper.HttpServiceJwtConfig.ZFD
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.ZFD
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nHttpService configuration for ZeroFootprintDocuments service\n"
+  summary: HttpService configuration for ZeroFootprintDocuments service
+  example: []
   syntax:
     content: public static HttpHelper.HttpServiceJwtConfig ZFD { get; }
     parameters: []
@@ -342,183 +255,487 @@ items:
       type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
     content.vb: Public Shared ReadOnly Property ZFD As HttpHelper.HttpServiceJwtConfig
   overload: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.ZFD*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<HttpHelper.HttpServiceJwtConfig, To>()
-  nameWithType: EnumUtil.MapEnums<HttpHelper.HttpServiceJwtConfig, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of HttpHelper.HttpServiceJwtConfig, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, To)()
-  name.vb: MapEnums(Of HttpHelper.HttpServiceJwtConfig, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<HttpServiceJwtConfig, To>(HttpServiceJwtConfig)
+  nameWithType: EnumUtil.MapEnums<HttpHelper.HttpServiceJwtConfig, To>(HttpHelper.HttpServiceJwtConfig)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, To>(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+  nameWithType.vb: EnumUtil.MapEnums(Of HttpHelper.HttpServiceJwtConfig, To)(HttpHelper.HttpServiceJwtConfig)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, To)(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+  name.vb: MapEnums(Of HttpServiceJwtConfig, To)(HttpServiceJwtConfig)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<HttpHelper.HttpServiceJwtConfig, To>
-    nameWithType: EnumUtil.MapEnums<HttpHelper.HttpServiceJwtConfig, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of HttpHelper.HttpServiceJwtConfig, To)
-    nameWithType: EnumUtil.MapEnums(Of HttpHelper.HttpServiceJwtConfig, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<HttpHelper.HttpServiceJwtConfig>(HttpHelper.HttpServiceJwtConfig)
-  nameWithType: ObjectExtensions.AssignByReflection<HttpHelper.HttpServiceJwtConfig>(HttpHelper.HttpServiceJwtConfig)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.HttpHelper.HttpServiceJwtConfig>(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of HttpHelper.HttpServiceJwtConfig)(HttpHelper.HttpServiceJwtConfig)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
-  name.vb: AssignByReflection(Of HttpHelper.HttpServiceJwtConfig)(HttpHelper.HttpServiceJwtConfig)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<HttpHelper.HttpServiceJwtConfig>
-    nameWithType: ObjectExtensions.AssignByReflection<HttpHelper.HttpServiceJwtConfig>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.HttpHelper.HttpServiceJwtConfig>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
-    name: HttpHelper.HttpServiceJwtConfig
-    nameWithType: HttpHelper.HttpServiceJwtConfig
-    fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of HttpHelper.HttpServiceJwtConfig)
-    nameWithType: ObjectExtensions.AssignByReflection(Of HttpHelper.HttpServiceJwtConfig)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
-    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
-    name: HttpHelper.HttpServiceJwtConfig
-    nameWithType: HttpHelper.HttpServiceJwtConfig
-    fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
     isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<HttpHelper.HttpServiceJwtConfig>()
-  nameWithType: ObjectExtensions.GraphCopy<HttpHelper.HttpServiceJwtConfig>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.HttpHelper.HttpServiceJwtConfig>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of HttpHelper.HttpServiceJwtConfig)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)()
-  name.vb: GraphCopy(Of HttpHelper.HttpServiceJwtConfig)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<HttpHelper.HttpServiceJwtConfig>
-    nameWithType: ObjectExtensions.GraphCopy<HttpHelper.HttpServiceJwtConfig>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.HttpHelper.HttpServiceJwtConfig>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of HttpHelper.HttpServiceJwtConfig)
-    nameWithType: ObjectExtensions.GraphCopy(Of HttpHelper.HttpServiceJwtConfig)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  - name: )
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<HttpHelper.HttpServiceJwtConfig, To>()
-  nameWithType: Converters.MapEnums<HttpHelper.HttpServiceJwtConfig, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, To>()
-  nameWithType.vb: Converters.MapEnums(Of HttpHelper.HttpServiceJwtConfig, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, To)()
-  name.vb: MapEnums(Of HttpHelper.HttpServiceJwtConfig, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<HttpServiceJwtConfig, To>(HttpServiceJwtConfig)
+  nameWithType: Converters.MapEnums<HttpHelper.HttpServiceJwtConfig, To>(HttpHelper.HttpServiceJwtConfig)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, To>(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+  nameWithType.vb: Converters.MapEnums(Of HttpHelper.HttpServiceJwtConfig, To)(HttpHelper.HttpServiceJwtConfig)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, To)(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+  name.vb: MapEnums(Of HttpServiceJwtConfig, To)(HttpServiceJwtConfig)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<HttpHelper.HttpServiceJwtConfig, To>
-    nameWithType: Converters.MapEnums<HttpHelper.HttpServiceJwtConfig, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of HttpHelper.HttpServiceJwtConfig, To)
-    nameWithType: Converters.MapEnums(Of HttpHelper.HttpServiceJwtConfig, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  - name: )
+- uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<HttpServiceJwtConfig>(HttpServiceJwtConfig, HttpServiceJwtConfig)
+  nameWithType: ObjectExtensions.AssignByReflection<HttpHelper.HttpServiceJwtConfig>(HttpHelper.HttpServiceJwtConfig, HttpHelper.HttpServiceJwtConfig)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.HttpHelper.HttpServiceJwtConfig>(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of HttpHelper.HttpServiceJwtConfig)(HttpHelper.HttpServiceJwtConfig, HttpHelper.HttpServiceJwtConfig)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+  name.vb: AssignByReflection(Of HttpServiceJwtConfig)(HttpServiceJwtConfig, HttpServiceJwtConfig)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  - name: )
+- uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<HttpServiceJwtConfig>(HttpServiceJwtConfig)
+  nameWithType: ObjectExtensions.GraphCopy<HttpHelper.HttpServiceJwtConfig>(HttpHelper.HttpServiceJwtConfig)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.HttpHelper.HttpServiceJwtConfig>(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of HttpHelper.HttpServiceJwtConfig)(HttpHelper.HttpServiceJwtConfig)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+  name.vb: GraphCopy(Of HttpServiceJwtConfig)(HttpServiceJwtConfig)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -527,140 +744,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -669,56 +791,175 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.#ctor*
   commentId: Overload:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.#ctor
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html#SuperOffice_Util_HttpHelper_HttpServiceJwtConfig__ctor
   name: HttpServiceJwtConfig
   nameWithType: HttpHelper.HttpServiceJwtConfig.HttpServiceJwtConfig
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HttpServiceJwtConfig
+  nameWithType.vb: HttpHelper.HttpServiceJwtConfig.New
+  fullName.vb: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.New
+  name.vb: New
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Issuer*
   commentId: Overload:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Issuer
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html#SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_Issuer
   name: Issuer
   nameWithType: HttpHelper.HttpServiceJwtConfig.Issuer
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Issuer
@@ -726,24 +967,31 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Audience*
   commentId: Overload:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Audience
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html#SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_Audience
   name: Audience
   nameWithType: HttpHelper.HttpServiceJwtConfig.Audience
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Audience
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SigningKey*
   commentId: Overload:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SigningKey
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html#SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_SigningKey
   name: SigningKey
   nameWithType: HttpHelper.HttpServiceJwtConfig.SigningKey
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SigningKey
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RequiresClaims*
   commentId: Overload:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RequiresClaims
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html#SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_RequiresClaims
   name: RequiresClaims
   nameWithType: HttpHelper.HttpServiceJwtConfig.RequiresClaims
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RequiresClaims
@@ -751,12 +999,17 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Timeout*
   commentId: Overload:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Timeout
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html#SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_Timeout
   name: Timeout
   nameWithType: HttpHelper.HttpServiceJwtConfig.Timeout
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Timeout
@@ -764,12 +1017,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.VideoMeetings*
   commentId: Overload:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.VideoMeetings
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html#SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_VideoMeetings
   name: VideoMeetings
   nameWithType: HttpHelper.HttpServiceJwtConfig.VideoMeetings
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.VideoMeetings
@@ -777,24 +1035,48 @@ references:
   commentId: T:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.html
   name: HttpHelper.HttpServiceJwtConfig
   nameWithType: HttpHelper.HttpServiceJwtConfig
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+  spec.csharp:
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: .
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  spec.vb:
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: .
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User*
   commentId: Overload:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html#SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_HugoAI_User
   name: HugoAI_User
   nameWithType: HttpHelper.HttpServiceJwtConfig.HugoAI_User
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI*
   commentId: Overload:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html#SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_HugoAI
   name: HugoAI
   nameWithType: HttpHelper.HttpServiceJwtConfig.HugoAI
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.ZFD*
   commentId: Overload:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.ZFD
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html#SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_ZFD
   name: ZFD
   nameWithType: HttpHelper.HttpServiceJwtConfig.ZFD
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.ZFD

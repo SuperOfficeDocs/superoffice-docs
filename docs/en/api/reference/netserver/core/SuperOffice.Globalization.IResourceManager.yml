@@ -13,25 +13,17 @@ items:
   nameWithType: IResourceManager
   fullName: SuperOffice.Globalization.IResourceManager
   type: Interface
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "\nInterface used in DI constructs to make Resource Manager accessible\n"
+  summary: Interface used in DI constructs to make Resource Manager accessible
+  example: []
   syntax:
     content: public interface IResourceManager
     content.vb: Public Interface IResourceManager
   extensionMethods:
   - SuperOffice.Globalization.IResourceManager.EnumUtil.MapEnums``2
   - SuperOffice.Globalization.IResourceManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
 - uid: SuperOffice.Globalization.IResourceManager.GetString(System.String,System.String)
   commentId: M:SuperOffice.Globalization.IResourceManager.GetString(System.String,System.String)
   id: GetString(System.String,System.String)
@@ -39,17 +31,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetString(String, String)
-  nameWithType: IResourceManager.GetString(String, String)
-  fullName: SuperOffice.Globalization.IResourceManager.GetString(System.String, System.String)
+  name: GetString(string, string)
+  nameWithType: IResourceManager.GetString(string, string)
+  fullName: SuperOffice.Globalization.IResourceManager.GetString(string, string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "\nGet the translated string for a resource\n"
+  summary: Get the translated string for a resource
+  example: []
   syntax:
     content: string GetString(string resourceName, string culturename)
     parameters:
@@ -58,90 +48,153 @@ items:
       description: Name of resource; see the <xref href="SuperOffice.Globalization.RC" data-throw-if-not-resolved="false"></xref> class for generated symbol constants
     - id: culturename
       type: System.String
-      description: Name of culture, such as &apos;nb-no&apos;; or leave empty to get the current culture as set by middleware
+      description: Name of culture, such as 'nb-no'; or leave empty to get the current culture as set by middleware
     return:
       type: System.String
       description: Translated string, if known
     content.vb: Function GetString(resourceName As String, culturename As String) As String
   overload: SuperOffice.Globalization.IResourceManager.GetString*
+  nameWithType.vb: IResourceManager.GetString(String, String)
+  fullName.vb: SuperOffice.Globalization.IResourceManager.GetString(String, String)
+  name.vb: GetString(String, String)
 references:
 - uid: SuperOffice.Globalization
   commentId: N:SuperOffice.Globalization
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Globalization
   nameWithType: SuperOffice.Globalization
   fullName: SuperOffice.Globalization
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.Globalization.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.Globalization.html
 - uid: SuperOffice.Globalization.IResourceManager.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<IResourceManager, To>()
-  nameWithType: EnumUtil.MapEnums<IResourceManager, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Globalization.IResourceManager, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of IResourceManager, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Globalization.IResourceManager, To)()
-  name.vb: MapEnums(Of IResourceManager, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IResourceManager, To>(IResourceManager)
+  nameWithType: EnumUtil.MapEnums<IResourceManager, To>(IResourceManager)
+  fullName: EnumUtil.MapEnums<SuperOffice.Globalization.IResourceManager, To>(SuperOffice.Globalization.IResourceManager)
+  nameWithType.vb: EnumUtil.MapEnums(Of IResourceManager, To)(IResourceManager)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Globalization.IResourceManager, To)(SuperOffice.Globalization.IResourceManager)
+  name.vb: MapEnums(Of IResourceManager, To)(IResourceManager)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<IResourceManager, To>
-    nameWithType: EnumUtil.MapEnums<IResourceManager, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Globalization.IResourceManager, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Globalization.IResourceManager)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Globalization.IResourceManager
+    name: IResourceManager
+    isExternal: true
+    href: SuperOffice.Globalization.IResourceManager.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Globalization.IResourceManager
+    name: IResourceManager
+    isExternal: true
+    href: SuperOffice.Globalization.IResourceManager.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of IResourceManager, To)
-    nameWithType: EnumUtil.MapEnums(Of IResourceManager, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Globalization.IResourceManager, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Globalization.IResourceManager)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Globalization.IResourceManager
+    name: IResourceManager
+    isExternal: true
+    href: SuperOffice.Globalization.IResourceManager.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Globalization.IResourceManager
+    name: IResourceManager
+    isExternal: true
+    href: SuperOffice.Globalization.IResourceManager.html
+  - name: )
 - uid: SuperOffice.Globalization.IResourceManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<IResourceManager, To>()
-  nameWithType: Converters.MapEnums<IResourceManager, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.IResourceManager, To>()
-  nameWithType.vb: Converters.MapEnums(Of IResourceManager, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.IResourceManager, To)()
-  name.vb: MapEnums(Of IResourceManager, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IResourceManager, To>(IResourceManager)
+  nameWithType: Converters.MapEnums<IResourceManager, To>(IResourceManager)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.IResourceManager, To>(SuperOffice.Globalization.IResourceManager)
+  nameWithType.vb: Converters.MapEnums(Of IResourceManager, To)(IResourceManager)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.IResourceManager, To)(SuperOffice.Globalization.IResourceManager)
+  name.vb: MapEnums(Of IResourceManager, To)(IResourceManager)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<IResourceManager, To>
-    nameWithType: Converters.MapEnums<IResourceManager, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.IResourceManager, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Globalization.IResourceManager)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Globalization.IResourceManager
+    name: IResourceManager
+    isExternal: true
+    href: SuperOffice.Globalization.IResourceManager.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Globalization.IResourceManager
+    name: IResourceManager
+    isExternal: true
+    href: SuperOffice.Globalization.IResourceManager.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of IResourceManager, To)
-    nameWithType: Converters.MapEnums(Of IResourceManager, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.IResourceManager, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Globalization.IResourceManager)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Globalization.IResourceManager
+    name: IResourceManager
+    isExternal: true
+    href: SuperOffice.Globalization.IResourceManager.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Globalization.IResourceManager
+    name: IResourceManager
+    isExternal: true
+    href: SuperOffice.Globalization.IResourceManager.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -150,43 +203,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -195,50 +250,90 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Globalization.RC
+  commentId: T:SuperOffice.Globalization.RC
+  isExternal: true
+  href: SuperOffice.Globalization.RC.html
+  name: RC
+  nameWithType: RC
+  fullName: SuperOffice.Globalization.RC
 - uid: SuperOffice.Globalization.IResourceManager.GetString*
   commentId: Overload:SuperOffice.Globalization.IResourceManager.GetString
   isExternal: true
+  href: SuperOffice.Globalization.IResourceManager.html#SuperOffice_Globalization_IResourceManager_GetString_System_String_System_String_
   name: GetString
   nameWithType: IResourceManager.GetString
   fullName: SuperOffice.Globalization.IResourceManager.GetString
@@ -246,12 +341,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System

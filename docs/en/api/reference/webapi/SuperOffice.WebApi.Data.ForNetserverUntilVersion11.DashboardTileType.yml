@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+  id: DashboardTileType
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  children:
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.Bignum
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.Chart
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.List
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.None
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.Web
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileType
+  nameWithType: DashboardTileType
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: Dashboard tile type
+  example: []
+  syntax:
+    content: public enum DashboardTileType
+    content.vb: Public Enum DashboardTileType
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.None
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DashboardTileType.None
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.None
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: '0: Unknown layout'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      None = 0
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.Chart
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.Chart
+  id: Chart
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+  langs:
+  - csharp
+  - vb
+  name: Chart
+  nameWithType: DashboardTileType.Chart
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.Chart
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: '1: Chart tile'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Chart = 1
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+    content.vb: >-
+      <EnumMember>
+
+      Chart = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.Web
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.Web
+  id: Web
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+  langs:
+  - csharp
+  - vb
+  name: Web
+  nameWithType: DashboardTileType.Web
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.Web
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: '2: Web tile'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Web = 2
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+    content.vb: >-
+      <EnumMember>
+
+      Web = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.List
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.List
+  id: List
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: DashboardTileType.List
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.List
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: '3: List tile'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      List = 3
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+    content.vb: >-
+      <EnumMember>
+
+      List = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.Bignum
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.Bignum
+  id: Bignum
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+  langs:
+  - csharp
+  - vb
+  name: Bignum
+  nameWithType: DashboardTileType.Bignum
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.Bignum
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: '4: Number tile'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Bignum = 4
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+    content.vb: >-
+      <EnumMember>
+
+      Bignum = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  commentId: N:SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  nameWithType: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+    name: ForNetserverUntilVersion11
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+    name: ForNetserverUntilVersion11
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.html
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType.html
+  name: DashboardTileType
+  nameWithType: DashboardTileType
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType

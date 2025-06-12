@@ -15,31 +15,26 @@ items:
   nameWithType: WindowsIdentityHelper
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Util
-  summary: "\nUtility class for WindowsIdentity\n"
+  summary: Utility class for WindowsIdentity
+  example: []
   syntax:
-    content: 'public sealed class WindowsIdentityHelper : Object'
-    content.vb: >-
-      Public NotInheritable Class WindowsIdentityHelper
-          Inherits Object
+    content: public sealed class WindowsIdentityHelper
+    content.vb: Public NotInheritable Class WindowsIdentityHelper
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
   extensionMethods:
   - SuperOffice.Security.Util.WindowsIdentityHelper.EnumUtil.MapEnums``2
   - SuperOffice.Security.Util.WindowsIdentityHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser(System.String,System.String,System.String,SuperOffice.Security.Util.WindowsIdentityHelper.LogonType,SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
   commentId: M:SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser(System.String,System.String,System.String,SuperOffice.Security.Util.WindowsIdentityHelper.LogonType,SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
   id: LogonUser(System.String,System.String,System.String,SuperOffice.Security.Util.WindowsIdentityHelper.LogonType,SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
@@ -47,29 +42,58 @@ items:
   langs:
   - csharp
   - vb
-  name: LogonUser(String, String, String, WindowsIdentityHelper.LogonType, WindowsIdentityHelper.LogonProvider)
-  nameWithType: WindowsIdentityHelper.LogonUser(String, String, String, WindowsIdentityHelper.LogonType, WindowsIdentityHelper.LogonProvider)
-  fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser(System.String, System.String, System.String, SuperOffice.Security.Util.WindowsIdentityHelper.LogonType, SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
+  name: LogonUser(string, string, string, LogonType, LogonProvider)
+  nameWithType: WindowsIdentityHelper.LogonUser(string, string, string, WindowsIdentityHelper.LogonType, WindowsIdentityHelper.LogonProvider)
+  fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser(string, string, string, SuperOffice.Security.Util.WindowsIdentityHelper.LogonType, SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Util
-  summary: "\nThe LogonUser function attempts to log a user on to the local computer, that is, to the computer from \nwhich LogonUser was called. You cannot use LogonUser to log on to a remote computer. You specify the \nuser with a user name and domain, and authenticate the user with a clear-text password. If the \nfunction succeeds, you receive a WindowsIdentity that represents the logged-on user.\n"
+  summary: >-
+    The LogonUser function attempts to log a user on to the local computer, that is, to the computer from 
+
+    which LogonUser was called. You cannot use LogonUser to log on to a remote computer. You specify the 
+
+    user with a user name and domain, and authenticate the user with a clear-text password. If the 
+
+    function succeeds, you receive a WindowsIdentity that represents the logged-on user.
   remarks: For further reference, se the platform SDK (e.g. Advapi32.lib and advapi32.dll) for method LogonUser.
   example:
-  - "\nExample of using this method to impersonate a user:\n<pre><code>WindowsIdentity tmpUser = WindowsIdentityHelper.LogonUser\n                          (\n                            myUserName, \n                            myDomain, \n                            myPassword, \n                            WindowsIdentityHelper.LogonType.NetworkCleartext\n                            WindowsIdentityHelper.LogonProvider.Default\n                          );\nWindowsImpersonationContext wic = tmpUser.Impersonate();\n\n// Do my stuff as someone else\n\nwic.Undo()</code></pre>\n"
+  - >-
+    Example of using this method to impersonate a user:
+
+    <pre><code class="lang-csharp">WindowsIdentity tmpUser = WindowsIdentityHelper.LogonUser
+                              (
+                                myUserName, 
+                                myDomain, 
+                                myPassword, 
+                                WindowsIdentityHelper.LogonType.NetworkCleartext
+                                WindowsIdentityHelper.LogonProvider.Default
+                              );
+    WindowsImpersonationContext wic = tmpUser.Impersonate();
+
+
+    // Do my stuff as someone else
+
+
+    wic.Undo()</code></pre>
   syntax:
     content: public static WindowsIdentity LogonUser(string userName, string domain, string password, WindowsIdentityHelper.LogonType logonType, WindowsIdentityHelper.LogonProvider logonProvider)
     parameters:
     - id: userName
       type: System.String
-      description: "\nThis is the name of the user account to log on to. If you use the UPN format, user@DNS_domain_name, \nthe domain parameter must be null.\nIf the username is empty this method will return the WindowsIdentity of the current user.\n"
+      description: >-
+        This is the name of the user account to log on to. If you use the UPN format, user@DNS_domain_name, 
+
+        the domain parameter must be null.
+
+        If the username is empty this method will return the WindowsIdentity of the current user.
     - id: domain
       type: System.String
-      description: "\nIf this parameter is NULL, the user name must be specified in UPN format. If this parameter is \n&quot;.&quot;, the function validates the account using only the local account database."
+      description: >-
+        If this parameter is NULL, the user name must be specified in UPN format. If this parameter is 
+
+        ".", the function validates the account using only the local account database.
     - id: password
       type: System.String
       description: Clear-text password for the user account specified by userName.
@@ -78,7 +102,7 @@ items:
       description: Specifies the type of logon operation to perform.
     - id: logonProvider
       type: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-      description: 'Specifies the logon provider. '
+      description: Specifies the logon provider.
     return:
       type: System.Security.Principal.WindowsIdentity
       description: WindowsIdentity representing the logged on user
@@ -88,12 +112,9 @@ items:
   - type: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
     commentId: T:SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
     description: Thrown if the user fails to log on.
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: WindowsIdentityHelper.LogonUser(String, String, String, WindowsIdentityHelper.LogonType, WindowsIdentityHelper.LogonProvider)
+  fullName.vb: SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser(String, String, String, SuperOffice.Security.Util.WindowsIdentityHelper.LogonType, SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
+  name.vb: LogonUser(String, String, String, LogonType, LogonProvider)
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.TryLogonUser(System.String,System.String,System.String,SuperOffice.Security.Util.WindowsIdentityHelper.LogonType,SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
   commentId: M:SuperOffice.Security.Util.WindowsIdentityHelper.TryLogonUser(System.String,System.String,System.String,SuperOffice.Security.Util.WindowsIdentityHelper.LogonType,SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
   id: TryLogonUser(System.String,System.String,System.String,SuperOffice.Security.Util.WindowsIdentityHelper.LogonType,SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
@@ -101,26 +122,30 @@ items:
   langs:
   - csharp
   - vb
-  name: TryLogonUser(String, String, String, WindowsIdentityHelper.LogonType, WindowsIdentityHelper.LogonProvider)
-  nameWithType: WindowsIdentityHelper.TryLogonUser(String, String, String, WindowsIdentityHelper.LogonType, WindowsIdentityHelper.LogonProvider)
-  fullName: SuperOffice.Security.Util.WindowsIdentityHelper.TryLogonUser(System.String, System.String, System.String, SuperOffice.Security.Util.WindowsIdentityHelper.LogonType, SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
+  name: TryLogonUser(string, string, string, LogonType, LogonProvider)
+  nameWithType: WindowsIdentityHelper.TryLogonUser(string, string, string, WindowsIdentityHelper.LogonType, WindowsIdentityHelper.LogonProvider)
+  fullName: SuperOffice.Security.Util.WindowsIdentityHelper.TryLogonUser(string, string, string, SuperOffice.Security.Util.WindowsIdentityHelper.LogonType, SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Util
-  summary: "\nAttempt to log on to the local computer. Same functionality as <xref href=\"SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser(System.String%2cSystem.String%2cSystem.String%2cSystem.Int32%2cSystem.Int32%2cSystem.Int32%40)\" data-throw-if-not-resolved=\"false\"></xref>, but does not throw exceptions on failure (null return)\n"
+  summary: Attempt to log on to the local computer. Same functionality as <xref href="SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser(System.String%2cSystem.String%2cSystem.String%2cSystem.Int32%2cSystem.Int32%2cSystem.Int32%40)" data-throw-if-not-resolved="false"></xref>, but does not throw exceptions on failure (null return)
+  example: []
   syntax:
     content: public static WindowsIdentity TryLogonUser(string userName, string domain, string password, WindowsIdentityHelper.LogonType logonType, WindowsIdentityHelper.LogonProvider logonProvider)
     parameters:
     - id: userName
       type: System.String
-      description: "\nThis is the name of the user account to log on to. If you use the UPN format, user@DNS_domain_name, \nthe domain parameter must be null. \n"
+      description: >-
+        This is the name of the user account to log on to. If you use the UPN format, user@DNS_domain_name, 
+
+        the domain parameter must be null.
     - id: domain
       type: System.String
-      description: "\nIf this parameter is NULL, the user name must be specified in UPN format. If this parameter is \n&quot;.&quot;, the function validates the account using only the local account database."
+      description: >-
+        If this parameter is NULL, the user name must be specified in UPN format. If this parameter is 
+
+        ".", the function validates the account using only the local account database.
     - id: password
       type: System.String
       description: Clear-text password for the user account specified by userName.
@@ -129,18 +154,15 @@ items:
       description: Specifies the type of logon operation to perform.
     - id: logonProvider
       type: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-      description: 'Specifies the logon provider. '
+      description: Specifies the logon provider.
     return:
       type: System.Security.Principal.WindowsIdentity
-      description: WindowsIdentity representing the logged on user; or <strong>null</strong> if the logon failed for any reason
+      description: WindowsIdentity representing the logged on user; or <b>null</b> if the logon failed for any reason
     content.vb: Public Shared Function TryLogonUser(userName As String, domain As String, password As String, logonType As WindowsIdentityHelper.LogonType, logonProvider As WindowsIdentityHelper.LogonProvider) As WindowsIdentity
   overload: SuperOffice.Security.Util.WindowsIdentityHelper.TryLogonUser*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: WindowsIdentityHelper.TryLogonUser(String, String, String, WindowsIdentityHelper.LogonType, WindowsIdentityHelper.LogonProvider)
+  fullName.vb: SuperOffice.Security.Util.WindowsIdentityHelper.TryLogonUser(String, String, String, SuperOffice.Security.Util.WindowsIdentityHelper.LogonType, SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
+  name.vb: TryLogonUser(String, String, String, LogonType, LogonProvider)
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.GetErrorMessage
   commentId: M:SuperOffice.Security.Util.WindowsIdentityHelper.GetErrorMessage
   id: GetErrorMessage
@@ -152,117 +174,379 @@ items:
   nameWithType: WindowsIdentityHelper.GetErrorMessage()
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.GetErrorMessage()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Util
-  summary: "\nGet an error message through the underlying  Platform SDK.\n"
+  summary: Get an error message through the underlying  Platform SDK.
+  example: []
   syntax:
     content: public static string GetErrorMessage()
     return:
       type: System.String
       description: Error message as returned from the operating system.
-    content.vb: Public Shared Function GetErrorMessage As String
+    content.vb: Public Shared Function GetErrorMessage() As String
   overload: SuperOffice.Security.Util.WindowsIdentityHelper.GetErrorMessage*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 references:
 - uid: SuperOffice.Security.Util
   commentId: N:SuperOffice.Security.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Security.Util
   nameWithType: SuperOffice.Security.Util
   fullName: SuperOffice.Security.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Security.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Security.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<WindowsIdentityHelper, To>()
-  nameWithType: EnumUtil.MapEnums<WindowsIdentityHelper, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Security.Util.WindowsIdentityHelper, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of WindowsIdentityHelper, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Util.WindowsIdentityHelper, To)()
-  name.vb: MapEnums(Of WindowsIdentityHelper, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<WindowsIdentityHelper, To>(WindowsIdentityHelper)
+  nameWithType: EnumUtil.MapEnums<WindowsIdentityHelper, To>(WindowsIdentityHelper)
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Util.WindowsIdentityHelper, To>(SuperOffice.Security.Util.WindowsIdentityHelper)
+  nameWithType.vb: EnumUtil.MapEnums(Of WindowsIdentityHelper, To)(WindowsIdentityHelper)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Util.WindowsIdentityHelper, To)(SuperOffice.Security.Util.WindowsIdentityHelper)
+  name.vb: MapEnums(Of WindowsIdentityHelper, To)(WindowsIdentityHelper)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<WindowsIdentityHelper, To>
-    nameWithType: EnumUtil.MapEnums<WindowsIdentityHelper, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Security.Util.WindowsIdentityHelper, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Util.WindowsIdentityHelper)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of WindowsIdentityHelper, To)
-    nameWithType: EnumUtil.MapEnums(Of WindowsIdentityHelper, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Util.WindowsIdentityHelper, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Util.WindowsIdentityHelper)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: )
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<WindowsIdentityHelper, To>()
-  nameWithType: Converters.MapEnums<WindowsIdentityHelper, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Util.WindowsIdentityHelper, To>()
-  nameWithType.vb: Converters.MapEnums(Of WindowsIdentityHelper, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Util.WindowsIdentityHelper, To)()
-  name.vb: MapEnums(Of WindowsIdentityHelper, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<WindowsIdentityHelper, To>(WindowsIdentityHelper)
+  nameWithType: Converters.MapEnums<WindowsIdentityHelper, To>(WindowsIdentityHelper)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Util.WindowsIdentityHelper, To>(SuperOffice.Security.Util.WindowsIdentityHelper)
+  nameWithType.vb: Converters.MapEnums(Of WindowsIdentityHelper, To)(WindowsIdentityHelper)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Util.WindowsIdentityHelper, To)(SuperOffice.Security.Util.WindowsIdentityHelper)
+  name.vb: MapEnums(Of WindowsIdentityHelper, To)(WindowsIdentityHelper)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<WindowsIdentityHelper, To>
-    nameWithType: Converters.MapEnums<WindowsIdentityHelper, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Util.WindowsIdentityHelper, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Util.WindowsIdentityHelper)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of WindowsIdentityHelper, To)
-    nameWithType: Converters.MapEnums(Of WindowsIdentityHelper, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Util.WindowsIdentityHelper, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Util.WindowsIdentityHelper)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -271,43 +555,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -316,94 +602,239 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser*
-  commentId: Overload:SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser
-  isExternal: true
-  name: LogonUser
-  nameWithType: WindowsIdentityHelper.LogonUser
-  fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
   commentId: T:SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
   isExternal: true
+  href: SuperOffice.Security.Util.WindowsIdentityHelper.html
   name: WindowsIdentityHelper.WindowsIdentityHelperException
   nameWithType: WindowsIdentityHelper.WindowsIdentityHelperException
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
+  spec.csharp:
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: .
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
+    name: WindowsIdentityHelperException
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException.html
+  spec.vb:
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: .
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
+    name: WindowsIdentityHelperException
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException.html
+- uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser*
+  commentId: Overload:SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser
+  isExternal: true
+  href: SuperOffice.Security.Util.WindowsIdentityHelper.html#SuperOffice_Security_Util_WindowsIdentityHelper_LogonUser_System_String_System_String_System_String_SuperOffice_Security_Util_WindowsIdentityHelper_LogonType_SuperOffice_Security_Util_WindowsIdentityHelper_LogonProvider_
+  name: LogonUser
+  nameWithType: WindowsIdentityHelper.LogonUser
+  fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
   commentId: T:SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
   parent: SuperOffice.Security.Util
   isExternal: true
+  href: SuperOffice.Security.Util.WindowsIdentityHelper.html
   name: WindowsIdentityHelper.LogonType
   nameWithType: WindowsIdentityHelper.LogonType
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+  spec.csharp:
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: .
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+    name: LogonType
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.html
+  spec.vb:
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: .
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+    name: LogonType
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.html
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
   commentId: T:SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
   parent: SuperOffice.Security.Util
   isExternal: true
+  href: SuperOffice.Security.Util.WindowsIdentityHelper.html
   name: WindowsIdentityHelper.LogonProvider
   nameWithType: WindowsIdentityHelper.LogonProvider
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
+  spec.csharp:
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: .
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
+    name: LogonProvider
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
+  spec.vb:
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
+    name: WindowsIdentityHelper
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
+  - name: .
+  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
+    name: LogonProvider
+    isExternal: true
+    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
 - uid: System.Security.Principal.WindowsIdentity
+  commentId: T:System.Security.Principal.WindowsIdentity
+  parent: System.Security.Principal
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.principal.windowsidentity
   name: WindowsIdentity
   nameWithType: WindowsIdentity
   fullName: System.Security.Principal.WindowsIdentity
+- uid: System.Security.Principal
+  commentId: N:System.Security.Principal
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Security.Principal
+  nameWithType: System.Security.Principal
+  fullName: System.Security.Principal
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Principal
+    name: Principal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.principal
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Principal
+    name: Principal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.principal
+- uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser(System.String,System.String,System.String,System.Int32,System.Int32,System.Int32@)
+  commentId: M:SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser(System.String,System.String,System.String,System.Int32,System.Int32,System.Int32@)
+  isExternal: true
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.TryLogonUser*
   commentId: Overload:SuperOffice.Security.Util.WindowsIdentityHelper.TryLogonUser
   isExternal: true
+  href: SuperOffice.Security.Util.WindowsIdentityHelper.html#SuperOffice_Security_Util_WindowsIdentityHelper_TryLogonUser_System_String_System_String_System_String_SuperOffice_Security_Util_WindowsIdentityHelper_LogonType_SuperOffice_Security_Util_WindowsIdentityHelper_LogonProvider_
   name: TryLogonUser
   nameWithType: WindowsIdentityHelper.TryLogonUser
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.TryLogonUser
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.GetErrorMessage*
   commentId: Overload:SuperOffice.Security.Util.WindowsIdentityHelper.GetErrorMessage
   isExternal: true
+  href: SuperOffice.Security.Util.WindowsIdentityHelper.html#SuperOffice_Security_Util_WindowsIdentityHelper_GetErrorMessage
   name: GetErrorMessage
   nameWithType: WindowsIdentityHelper.GetErrorMessage
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.GetErrorMessage

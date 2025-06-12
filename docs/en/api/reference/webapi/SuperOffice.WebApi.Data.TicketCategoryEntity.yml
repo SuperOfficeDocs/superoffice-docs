@@ -35,20 +35,25 @@ items:
   nameWithType: TicketCategoryEntity
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for TicketCategoryEntity.\nThis entity describes the meta data for a ticket category, and provides special operations on it.    \n"
+  summary: >-
+    Carrier object for TicketCategoryEntity.
+
+    This entity describes the meta data for a ticket category, and provides special operations on it.
   example:
-  - "\nGet TicketCategoryEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar ticketCategoryEntity = agent.GetTicketCategoryEntity( 123 );</code></pre>\n"
+  - >-
+    Get TicketCategoryEntity 123 using the WebApi client:
+
+    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
+
+    var agent = new ListAgent(configuration);
+
+    var ticketCategoryEntity = agent.GetTicketCategoryEntity( 123 );</code></pre>
   syntax:
     content: 'public class TicketCategoryEntity : Carrier'
-    content.vb: >-
-      Public Class TicketCategoryEntity
-          Inherits Carrier
+    content.vb: Public Class TicketCategoryEntity Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.ListAgent
     commentId: T:SuperOffice.WebApi.Agents.ListAgent
@@ -58,12 +63,13 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.#ctor
   commentId: M:SuperOffice.WebApi.Data.TicketCategoryEntity.#ctor
   id: '#ctor'
@@ -75,21 +81,18 @@ items:
   nameWithType: TicketCategoryEntity.TicketCategoryEntity()
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.TicketCategoryEntity()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public TicketCategoryEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TicketCategoryEntity.New()
+  fullName.vb: SuperOffice.WebApi.Data.TicketCategoryEntity.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.TicketCategoryId
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.TicketCategoryId
   id: TicketCategoryId
@@ -101,13 +104,11 @@ items:
   nameWithType: TicketCategoryEntity.TicketCategoryId
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.TicketCategoryId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe id of the ticket category. (primary key)\n"
+  summary: The id of the ticket category. (primary key)
+  example: []
   syntax:
     content: public virtual int TicketCategoryId { get; set; }
     parameters: []
@@ -115,14 +116,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TicketCategoryId As Integer
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.TicketCategoryId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ParentId
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.ParentId
   id: ParentId
@@ -134,13 +127,11 @@ items:
   nameWithType: TicketCategoryEntity.ParentId
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.ParentId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe parent category for this category. -1 if this is a toplevel category.\n"
+  summary: The parent category for this category. -1 if this is a toplevel category.
+  example: []
   syntax:
     content: public virtual int ParentId { get; set; }
     parameters: []
@@ -148,14 +139,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ParentId As Integer
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.ParentId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.Name
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.Name
   id: Name
@@ -167,13 +150,11 @@ items:
   nameWithType: TicketCategoryEntity.Name
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.Name
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe (short) name of this category. E.g. &amp;apos;support&amp;apos;.\n"
+  summary: The (short) name of this category. E.g. &amp;apos;support&amp;apos;.
+  example: []
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -181,14 +162,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.Fullname
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.Fullname
   id: Fullname
@@ -200,13 +173,11 @@ items:
   nameWithType: TicketCategoryEntity.Fullname
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.Fullname
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe fullname (compiled from parents&amp;apos; names) for this category. E.g. &amp;apos;norway/product A/support&amp;apos;.\n"
+  summary: The fullname (compiled from parents&amp;apos; names) for this category. E.g. &amp;apos;norway/product A/support&amp;apos;.
+  example: []
   syntax:
     content: public virtual string Fullname { get; set; }
     parameters: []
@@ -214,14 +185,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Fullname As String
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.Fullname*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.CategoryMaster
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.CategoryMaster
   id: CategoryMaster
@@ -233,13 +196,11 @@ items:
   nameWithType: TicketCategoryEntity.CategoryMaster
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.CategoryMaster
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe user associated with this category.\n"
+  summary: The user associated with this category.
+  example: []
   syntax:
     content: public virtual int CategoryMaster { get; set; }
     parameters: []
@@ -247,14 +208,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property CategoryMaster As Integer
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.CategoryMaster*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags_String
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.Flags_String
   id: Flags_String
@@ -266,29 +219,36 @@ items:
   nameWithType: TicketCategoryEntity.Flags_String
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nA bitmask representing flags for this category.\nRaw string enum value.\n"
+  summary: >-
+    A bitmask representing flags for this category.
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string Flags_String { get; set; }
+    content: >-
+      [JsonProperty("Flags")]
+
+      public string Flags_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Flags_String As String
+    content.vb: >-
+      <JsonProperty("Flags")>
+
+      Public Property Flags_String As String
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags
     commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.Flags
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Flags
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.Flags
   id: Flags
@@ -300,29 +260,34 @@ items:
   nameWithType: TicketCategoryEntity.Flags
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nA bitmask representing flags for this category.\nNULL if unknown enum value.\n"
+  summary: >-
+    A bitmask representing flags for this category.
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<TicketCategoryFlags> Flags { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public TicketCategoryFlags? Flags { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.TicketCategoryFlags}
-    content.vb: Public Property Flags As Nullable(Of TicketCategoryFlags)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property Flags As TicketCategoryFlags?
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags_String
     commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.Flags_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String
   id: DelegateMethod_String
@@ -334,29 +299,36 @@ items:
   nameWithType: TicketCategoryEntity.DelegateMethod_String
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAn integer indicating the delegation method for this category.\nRaw string enum value.\n"
+  summary: >-
+    An integer indicating the delegation method for this category.
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string DelegateMethod_String { get; set; }
+    content: >-
+      [JsonProperty("DelegateMethod")]
+
+      public string DelegateMethod_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property DelegateMethod_String As String
+    content.vb: >-
+      <JsonProperty("DelegateMethod")>
+
+      Public Property DelegateMethod_String As String
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod
     commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DelegateMethod
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod
   id: DelegateMethod
@@ -368,29 +340,34 @@ items:
   nameWithType: TicketCategoryEntity.DelegateMethod
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAn integer indicating the delegation method for this category.\nNULL if unknown enum value.\n"
+  summary: >-
+    An integer indicating the delegation method for this category.
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<TicketCategoryDelegateMethod> DelegateMethod { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public TicketCategoryDelegateMethod? DelegateMethod { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.TicketCategoryDelegateMethod}
-    content.vb: Public Property DelegateMethod As Nullable(Of TicketCategoryDelegateMethod)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property DelegateMethod As TicketCategoryDelegateMethod?
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String
     commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ExternalName
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.ExternalName
   id: ExternalName
@@ -402,13 +379,11 @@ items:
   nameWithType: TicketCategoryEntity.ExternalName
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.ExternalName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe external name for this category, used for the customer frontend.\n"
+  summary: The external name for this category, used for the customer frontend.
+  example: []
   syntax:
     content: public virtual string ExternalName { get; set; }
     parameters: []
@@ -416,14 +391,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property ExternalName As String
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.ExternalName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus_String
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus_String
   id: ClosingStatus_String
@@ -435,29 +402,36 @@ items:
   nameWithType: TicketCategoryEntity.ClosingStatus_String
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDetermines the default status used in the GUI when creating a ticket\nRaw string enum value.\n"
+  summary: >-
+    Determines the default status used in the GUI when creating a ticket
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string ClosingStatus_String { get; set; }
+    content: >-
+      [JsonProperty("ClosingStatus")]
+
+      public string ClosingStatus_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property ClosingStatus_String As String
+    content.vb: >-
+      <JsonProperty("ClosingStatus")>
+
+      Public Property ClosingStatus_String As String
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus
     commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ClosingStatus
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus
   id: ClosingStatus
@@ -469,29 +443,34 @@ items:
   nameWithType: TicketCategoryEntity.ClosingStatus
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDetermines the default status used in the GUI when creating a ticket\nNULL if unknown enum value.\n"
+  summary: >-
+    Determines the default status used in the GUI when creating a ticket
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<TicketCategoryClosingStatus> ClosingStatus { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public TicketCategoryClosingStatus? ClosingStatus { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.TicketCategoryClosingStatus}
-    content.vb: Public Property ClosingStatus As Nullable(Of TicketCategoryClosingStatus)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property ClosingStatus As TicketCategoryClosingStatus?
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus_String
     commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus_String
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus_String
   id: MsgClosingStatus_String
@@ -503,29 +482,36 @@ items:
   nameWithType: TicketCategoryEntity.MsgClosingStatus_String
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDetermines the default status used in the GUI when adding a request to a ticket\nRaw string enum value.\n"
+  summary: >-
+    Determines the default status used in the GUI when adding a request to a ticket
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string MsgClosingStatus_String { get; set; }
+    content: >-
+      [JsonProperty("MsgClosingStatus")]
+
+      public string MsgClosingStatus_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property MsgClosingStatus_String As String
+    content.vb: >-
+      <JsonProperty("MsgClosingStatus")>
+
+      Public Property MsgClosingStatus_String As String
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus
     commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: MsgClosingStatus
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus
   id: MsgClosingStatus
@@ -537,29 +523,34 @@ items:
   nameWithType: TicketCategoryEntity.MsgClosingStatus
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDetermines the default status used in the GUI when adding a request to a ticket\nNULL if unknown enum value.\n"
+  summary: >-
+    Determines the default status used in the GUI when adding a request to a ticket
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<TicketCategoryClosingStatus> MsgClosingStatus { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public TicketCategoryClosingStatus? MsgClosingStatus { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.TicketCategoryClosingStatus}
-    content.vb: Public Property MsgClosingStatus As Nullable(Of TicketCategoryClosingStatus)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property MsgClosingStatus As TicketCategoryClosingStatus?
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus_String
     commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.AssignmentLag
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.AssignmentLag
   id: AssignmentLag
@@ -571,13 +562,11 @@ items:
   nameWithType: TicketCategoryEntity.AssignmentLag
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.AssignmentLag
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nNumber of minutes we shall override the assignment if a customer sends consecutive messages to this category\n"
+  summary: Number of minutes we shall override the assignment if a customer sends consecutive messages to this category
+  example: []
   syntax:
     content: public virtual int AssignmentLag { get; set; }
     parameters: []
@@ -585,14 +574,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property AssignmentLag As Integer
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.AssignmentLag*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ReplyTemplate
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.ReplyTemplate
   id: ReplyTemplate
@@ -604,13 +585,11 @@ items:
   nameWithType: TicketCategoryEntity.ReplyTemplate
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.ReplyTemplate
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nReply template to merge with messages posted in this category\n"
+  summary: Reply template to merge with messages posted in this category
+  example: []
   syntax:
     content: public virtual int ReplyTemplate { get; set; }
     parameters: []
@@ -618,14 +597,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ReplyTemplate As Integer
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.ReplyTemplate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.NotificationEmail
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.NotificationEmail
   id: NotificationEmail
@@ -637,13 +608,11 @@ items:
   nameWithType: TicketCategoryEntity.NotificationEmail
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.NotificationEmail
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nComma separated list of addresses to notify when requests are redelegated to (unassigned) in this category.\n"
+  summary: Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category.
+  example: []
   syntax:
     content: public virtual string NotificationEmail { get; set; }
     parameters: []
@@ -651,14 +620,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property NotificationEmail As String
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.NotificationEmail*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultTicketStatus
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultTicketStatus
   id: DefaultTicketStatus
@@ -670,13 +631,11 @@ items:
   nameWithType: TicketCategoryEntity.DefaultTicketStatus
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultTicketStatus
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault status for new tickets, if 0 then there is a fallback to a user-dependent value\n"
+  summary: Default status for new tickets, if 0 then there is a fallback to a user-dependent value
+  example: []
   syntax:
     content: public virtual TicketStatusEntity DefaultTicketStatus { get; set; }
     parameters: []
@@ -684,14 +643,6 @@ items:
       type: SuperOffice.WebApi.Data.TicketStatusEntity
     content.vb: Public Overridable Property DefaultTicketStatus As TicketStatusEntity
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultTicketStatus*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultMessageStatus
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultMessageStatus
   id: DefaultMessageStatus
@@ -703,13 +654,11 @@ items:
   nameWithType: TicketCategoryEntity.DefaultMessageStatus
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultMessageStatus
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault status for new messages, if 0 then there is a fallback to a user-dependent value\n"
+  summary: Default status for new messages, if 0 then there is a fallback to a user-dependent value
+  example: []
   syntax:
     content: public virtual TicketStatusEntity DefaultMessageStatus { get; set; }
     parameters: []
@@ -717,14 +666,6 @@ items:
       type: SuperOffice.WebApi.Data.TicketStatusEntity
     content.vb: Public Overridable Property DefaultMessageStatus As TicketStatusEntity
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultMessageStatus*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.EffectiveReplyTemplateId
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.EffectiveReplyTemplateId
   id: EffectiveReplyTemplateId
@@ -736,13 +677,11 @@ items:
   nameWithType: TicketCategoryEntity.EffectiveReplyTemplateId
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.EffectiveReplyTemplateId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nId of reply template to merge into messages, whose ticket belongs to this category. Also takes into account &apos;Apply to subcategories&apos; on parent categories. This is a calculated, readonly field.\n"
+  summary: Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field.
+  example: []
   syntax:
     content: public virtual int EffectiveReplyTemplateId { get; set; }
     parameters: []
@@ -750,14 +689,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property EffectiveReplyTemplateId As Integer
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.EffectiveReplyTemplateId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields
   id: ExtraFields
@@ -769,14 +700,34 @@ items:
   nameWithType: TicketCategoryEntity.ExtraFields
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDeprecated: Use <xref href=\"SuperOffice.WebApi.Data.TicketCategoryEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nExtra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.\nThe value string is the encoded value: &quot;[I:123]&quot; or &quot;[DT:2019-09-11]&quot;.\n"
-  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n       [Plug-in name].[Property name]\n       Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \nThis is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \nand hence we would ensure an unique key if this field is used.\nExample: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n   [Table name].[Field name]\n   Example: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
+  summary: >-
+    Deprecated: Use <xref href="SuperOffice.WebApi.Data.TicketCategoryEntity.CustomFields" data-throw-if-not-resolved="false"></xref> instead.
+
+    Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.
+
+    The value string is the encoded value: "[I:123]" or "[DT:2019-09-11]".
+  remarks: >-
+    The naming convention of the key string is as follows:
+
+    <table><tbody><tr><td class="term">Plug-in data</td><td class="description">
+           [Plug-in name].[Property name]
+           Example: DocumentPlugin.DocumentType
+           </td></tr><tr><td class="term">Foreign key data</td><td class="description">
+           The device identity is appended directly to the device name if it exists. 
+        This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, 
+        and hence we would ensure an unique key if this field is used.
+        Example: Audience.SecretService.DefaultCountry
+        </td></tr><tr><td class="term">User defined table data</td><td class="description">
+           [Table name].[Field name]
+           Example: Phunneling.AggregatedSales
+           </td></tr><tr><td class="term">Other</td><td class="description">
+           Other data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. 
+           We also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).
+           </td></tr></tbody></table>
+  example: []
   syntax:
     content: public virtual StringDictionary ExtraFields { get; set; }
     parameters: []
@@ -784,14 +735,6 @@ items:
       type: SuperOffice.WebApi.Data.StringDictionary
     content.vb: Public Overridable Property ExtraFields As StringDictionary
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.CustomFields
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.CustomFields
   id: CustomFields
@@ -803,14 +746,30 @@ items:
   nameWithType: TicketCategoryEntity.CustomFields
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.CustomFields
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nUdef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.\nCustom fields combines user defined fields and extra fields into one bucket. \nThe individual <xref href=\"SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields\" data-throw-if-not-resolved=\"false\"></xref> and <see cref=\"!:UserDefinedFields\">UserDefinedFields</see> properties are deprecated in favor of this\ncombined collection.\nThe value string is the encoded value: &quot;[I:123]&quot; or &quot;[DT:2019-09-11]&quot;.\n"
-  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n       [Extra field name]<p></p>\n       Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\nExample: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
+  summary: >-
+    Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.
+
+    Custom fields combines user defined fields and extra fields into one bucket. 
+
+    The individual <xref href="SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields" data-throw-if-not-resolved="false"></xref> and UserDefinedFields properties are deprecated in favor of this
+
+    combined collection.
+
+    The value string is the encoded value: "[I:123]" or "[DT:2019-09-11]".
+  remarks: >-
+    The naming convention of the key string is as follows:
+
+    <table><tbody><tr><td class="term">Extra field data</td><td class="description">
+           [Extra field name]<p></p>
+           Example: <pre><code class="lang-csharp">'x_gorp' = '[I:123]'</code></pre>
+           </td></tr><tr><td class="term">User defined field data</td><td class="description">
+           [Prog-id name]<p></p>
+        Example: <pre><code class="lang-csharp">'SuperOffice:1' = '[I:123]'</code></pre><p></p>
+           </td></tr></tbody></table>
+  example: []
   syntax:
     content: public virtual StringDictionary CustomFields { get; set; }
     parameters: []
@@ -818,32 +777,67 @@ items:
       type: SuperOffice.WebApi.Data.StringDictionary
     content.vb: Public Overridable Property CustomFields As StringDictionary
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.CustomFields*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ListAgent.html
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -851,6 +845,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -858,30 +853,250 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: SuperOffice.WebApi.Agents.ListAgent
-  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: ListAgent
-  nameWithType: ListAgent
-  fullName: SuperOffice.WebApi.Agents.ListAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity__ctor
   name: TicketCategoryEntity
   nameWithType: TicketCategoryEntity.TicketCategoryEntity
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.TicketCategoryEntity
+  nameWithType.vb: TicketCategoryEntity.New
+  fullName.vb: SuperOffice.WebApi.Data.TicketCategoryEntity.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.TicketCategoryId*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.TicketCategoryId
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_TicketCategoryId
   name: TicketCategoryId
   nameWithType: TicketCategoryEntity.TicketCategoryId
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.TicketCategoryId
@@ -889,18 +1104,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ParentId*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.ParentId
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_ParentId
   name: ParentId
   nameWithType: TicketCategoryEntity.ParentId
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.ParentId
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.Name*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.Name
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_Name
   name: Name
   nameWithType: TicketCategoryEntity.Name
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.Name
@@ -908,287 +1129,259 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.Fullname*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.Fullname
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_Fullname
   name: Fullname
   nameWithType: TicketCategoryEntity.Fullname
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.Fullname
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.CategoryMaster*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.CategoryMaster
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_CategoryMaster
   name: CategoryMaster
   nameWithType: TicketCategoryEntity.CategoryMaster
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.CategoryMaster
-- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags_String*
-  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.Flags_String
-  isExternal: true
-  name: Flags_String
-  nameWithType: TicketCategoryEntity.Flags_String
-  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags_String
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.Flags
   isExternal: true
-- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags*
-  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.Flags
-  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_Flags
   name: Flags
   nameWithType: TicketCategoryEntity.Flags
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags
+- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.Flags_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_Flags_String
+  name: Flags_String
+  nameWithType: TicketCategoryEntity.Flags_String
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags_String
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags_String
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.Flags_String
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_Flags_String
+  name: Flags_String
+  nameWithType: TicketCategoryEntity.Flags_String
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags_String
+- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.Flags
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_Flags
+  name: Flags
+  nameWithType: TicketCategoryEntity.Flags
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.Flags
 - uid: System.Nullable{SuperOffice.WebApi.Data.TicketCategoryFlags}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TicketCategoryFlags}'
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.TicketCategoryFlags}
+  parent: System
   definition: System.Nullable`1
-  name: Nullable<TicketCategoryFlags>
-  nameWithType: Nullable<TicketCategoryFlags>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.TicketCategoryFlags>
-  nameWithType.vb: Nullable(Of TicketCategoryFlags)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TicketCategoryFlags)
-  name.vb: Nullable(Of TicketCategoryFlags)
+  href: SuperOffice.WebApi.Data.TicketCategoryFlags.html
+  name: TicketCategoryFlags?
+  nameWithType: TicketCategoryFlags?
+  fullName: SuperOffice.WebApi.Data.TicketCategoryFlags?
   spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.TicketCategoryFlags
     name: TicketCategoryFlags
-    nameWithType: TicketCategoryFlags
-    fullName: SuperOffice.WebApi.Data.TicketCategoryFlags
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.WebApi.Data.TicketCategoryFlags.html
+  - name: '?'
   spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.TicketCategoryFlags
     name: TicketCategoryFlags
-    nameWithType: TicketCategoryFlags
-    fullName: SuperOffice.WebApi.Data.TicketCategoryFlags
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.WebApi.Data.TicketCategoryFlags.html
+  - name: '?'
 - uid: System.Nullable`1
+  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String*
-  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String
-  isExternal: true
-  name: DelegateMethod_String
-  nameWithType: TicketCategoryEntity.DelegateMethod_String
-  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod
   isExternal: true
-- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod*
-  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod
-  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_DelegateMethod
   name: DelegateMethod
   nameWithType: TicketCategoryEntity.DelegateMethod
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod
+- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_DelegateMethod_String
+  name: DelegateMethod_String
+  nameWithType: TicketCategoryEntity.DelegateMethod_String
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_DelegateMethod_String
+  name: DelegateMethod_String
+  nameWithType: TicketCategoryEntity.DelegateMethod_String
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String
+- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_DelegateMethod
+  name: DelegateMethod
+  nameWithType: TicketCategoryEntity.DelegateMethod
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod
 - uid: System.Nullable{SuperOffice.WebApi.Data.TicketCategoryDelegateMethod}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TicketCategoryDelegateMethod}'
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.TicketCategoryDelegateMethod}
+  parent: System
   definition: System.Nullable`1
-  name: Nullable<TicketCategoryDelegateMethod>
-  nameWithType: Nullable<TicketCategoryDelegateMethod>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.TicketCategoryDelegateMethod>
-  nameWithType.vb: Nullable(Of TicketCategoryDelegateMethod)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TicketCategoryDelegateMethod)
-  name.vb: Nullable(Of TicketCategoryDelegateMethod)
+  href: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.html
+  name: TicketCategoryDelegateMethod?
+  nameWithType: TicketCategoryDelegateMethod?
+  fullName: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod?
   spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
     name: TicketCategoryDelegateMethod
-    nameWithType: TicketCategoryDelegateMethod
-    fullName: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.html
+  - name: '?'
   spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
     name: TicketCategoryDelegateMethod
-    nameWithType: TicketCategoryDelegateMethod
-    fullName: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.html
+  - name: '?'
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ExternalName*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.ExternalName
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_ExternalName
   name: ExternalName
   nameWithType: TicketCategoryEntity.ExternalName
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.ExternalName
-- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus_String*
-  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus_String
-  isExternal: true
-  name: ClosingStatus_String
-  nameWithType: TicketCategoryEntity.ClosingStatus_String
-  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus_String
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus
   isExternal: true
-- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus*
-  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus
-  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_ClosingStatus
   name: ClosingStatus
   nameWithType: TicketCategoryEntity.ClosingStatus
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus
+- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_ClosingStatus_String
+  name: ClosingStatus_String
+  nameWithType: TicketCategoryEntity.ClosingStatus_String
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus_String
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus_String
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus_String
   isExternal: true
-- uid: System.Nullable{SuperOffice.WebApi.Data.TicketCategoryClosingStatus}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TicketCategoryClosingStatus}'
-  definition: System.Nullable`1
-  name: Nullable<TicketCategoryClosingStatus>
-  nameWithType: Nullable<TicketCategoryClosingStatus>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.TicketCategoryClosingStatus>
-  nameWithType.vb: Nullable(Of TicketCategoryClosingStatus)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TicketCategoryClosingStatus)
-  name.vb: Nullable(Of TicketCategoryClosingStatus)
-  spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
-    name: TicketCategoryClosingStatus
-    nameWithType: TicketCategoryClosingStatus
-    fullName: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
-    name: TicketCategoryClosingStatus
-    nameWithType: TicketCategoryClosingStatus
-    fullName: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus_String*
-  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus_String
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_ClosingStatus_String
+  name: ClosingStatus_String
+  nameWithType: TicketCategoryEntity.ClosingStatus_String
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus_String
+- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus
   isExternal: true
-  name: MsgClosingStatus_String
-  nameWithType: TicketCategoryEntity.MsgClosingStatus_String
-  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus_String
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_ClosingStatus
+  name: ClosingStatus
+  nameWithType: TicketCategoryEntity.ClosingStatus
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus
+- uid: System.Nullable{SuperOffice.WebApi.Data.TicketCategoryClosingStatus}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.TicketCategoryClosingStatus}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.TicketCategoryClosingStatus.html
+  name: TicketCategoryClosingStatus?
+  nameWithType: TicketCategoryClosingStatus?
+  fullName: SuperOffice.WebApi.Data.TicketCategoryClosingStatus?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
+    name: TicketCategoryClosingStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketCategoryClosingStatus.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
+    name: TicketCategoryClosingStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketCategoryClosingStatus.html
+  - name: '?'
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus
   isExternal: true
-- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus*
-  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus
-  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_MsgClosingStatus
   name: MsgClosingStatus
   nameWithType: TicketCategoryEntity.MsgClosingStatus
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus
+- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_MsgClosingStatus_String
+  name: MsgClosingStatus_String
+  nameWithType: TicketCategoryEntity.MsgClosingStatus_String
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus_String
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus_String
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus_String
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_MsgClosingStatus_String
+  name: MsgClosingStatus_String
+  nameWithType: TicketCategoryEntity.MsgClosingStatus_String
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus_String
+- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_MsgClosingStatus
+  name: MsgClosingStatus
+  nameWithType: TicketCategoryEntity.MsgClosingStatus
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.MsgClosingStatus
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.AssignmentLag*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.AssignmentLag
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_AssignmentLag
   name: AssignmentLag
   nameWithType: TicketCategoryEntity.AssignmentLag
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.AssignmentLag
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ReplyTemplate*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.ReplyTemplate
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_ReplyTemplate
   name: ReplyTemplate
   nameWithType: TicketCategoryEntity.ReplyTemplate
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.ReplyTemplate
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.NotificationEmail*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.NotificationEmail
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_NotificationEmail
   name: NotificationEmail
   nameWithType: TicketCategoryEntity.NotificationEmail
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.NotificationEmail
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultTicketStatus*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultTicketStatus
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_DefaultTicketStatus
   name: DefaultTicketStatus
   nameWithType: TicketCategoryEntity.DefaultTicketStatus
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultTicketStatus
@@ -1196,24 +1389,35 @@ references:
   commentId: T:SuperOffice.WebApi.Data.TicketStatusEntity
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketStatusEntity.html
   name: TicketStatusEntity
   nameWithType: TicketStatusEntity
   fullName: SuperOffice.WebApi.Data.TicketStatusEntity
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultMessageStatus*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultMessageStatus
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_DefaultMessageStatus
   name: DefaultMessageStatus
   nameWithType: TicketCategoryEntity.DefaultMessageStatus
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultMessageStatus
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.EffectiveReplyTemplateId*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.EffectiveReplyTemplateId
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_EffectiveReplyTemplateId
   name: EffectiveReplyTemplateId
   nameWithType: TicketCategoryEntity.EffectiveReplyTemplateId
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.EffectiveReplyTemplateId
+- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.CustomFields
+  commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.CustomFields
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_CustomFields
+  name: CustomFields
+  nameWithType: TicketCategoryEntity.CustomFields
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.CustomFields
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_ExtraFields
   name: ExtraFields
   nameWithType: TicketCategoryEntity.ExtraFields
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields
@@ -1221,12 +1425,21 @@ references:
   commentId: T:SuperOffice.WebApi.Data.StringDictionary
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.StringDictionary.html
   name: StringDictionary
   nameWithType: StringDictionary
   fullName: SuperOffice.WebApi.Data.StringDictionary
+- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields
+  commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_ExtraFields
+  name: ExtraFields
+  nameWithType: TicketCategoryEntity.ExtraFields
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.CustomFields*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.CustomFields
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryEntity.html#SuperOffice_WebApi_Data_TicketCategoryEntity_CustomFields
   name: CustomFields
   nameWithType: TicketCategoryEntity.CustomFields
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.CustomFields

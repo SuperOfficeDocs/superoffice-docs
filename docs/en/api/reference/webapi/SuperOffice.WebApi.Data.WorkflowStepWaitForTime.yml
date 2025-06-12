@@ -19,18 +19,17 @@ items:
   nameWithType: WorkflowStepWaitForTime
   fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for WorkflowStepWaitForTime.\nStep in workflow that waits for time.    \n"
+  summary: >-
+    Carrier object for WorkflowStepWaitForTime.
+
+    Step in workflow that waits for time.
+  example: []
   syntax:
     content: 'public class WorkflowStepWaitForTime : WorkflowStepBase'
-    content.vb: >-
-      Public Class WorkflowStepWaitForTime
-          Inherits WorkflowStepBase
+    content.vb: Public Class WorkflowStepWaitForTime Inherits WorkflowStepBase
   seealso:
   - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
     commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
@@ -43,12 +42,13 @@ items:
   - SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
   - SuperOffice.WebApi.Data.WorkflowStepBase.StepType
   - SuperOffice.WebApi.Data.WorkflowStepBase.Rank
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.#ctor
   commentId: M:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.#ctor
   id: '#ctor'
@@ -60,21 +60,18 @@ items:
   nameWithType: WorkflowStepWaitForTime.WorkflowStepWaitForTime()
   fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.WorkflowStepWaitForTime()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public WorkflowStepWaitForTime()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: WorkflowStepWaitForTime.New()
+  fullName.vb: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm_String
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm_String
   id: TimeWaitAlgorithm_String
@@ -86,29 +83,36 @@ items:
   nameWithType: WorkflowStepWaitForTime.TimeWaitAlgorithm_String
   fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWaiting algorithm\nRaw string enum value.\n"
+  summary: >-
+    Waiting algorithm
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string TimeWaitAlgorithm_String { get; set; }
+    content: >-
+      [JsonProperty("TimeWaitAlgorithm")]
+
+      public string TimeWaitAlgorithm_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property TimeWaitAlgorithm_String As String
+    content.vb: >-
+      <JsonProperty("TimeWaitAlgorithm")>
+
+      Public Property TimeWaitAlgorithm_String As String
   overload: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm
     commentId: P:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TimeWaitAlgorithm
 - uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm
   id: TimeWaitAlgorithm
@@ -120,29 +124,34 @@ items:
   nameWithType: WorkflowStepWaitForTime.TimeWaitAlgorithm
   fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWaiting algorithm\nNULL if unknown enum value.\n"
+  summary: >-
+    Waiting algorithm
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<WorkflowTimeWaitAlgorithm> TimeWaitAlgorithm { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public WorkflowTimeWaitAlgorithm? TimeWaitAlgorithm { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm}
-    content.vb: Public Property TimeWaitAlgorithm As Nullable(Of WorkflowTimeWaitAlgorithm)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property TimeWaitAlgorithm As WorkflowTimeWaitAlgorithm?
   overload: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm*
   seealso:
   - linkId: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm_String
     commentId: P:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.NumIntervals
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.NumIntervals
   id: NumIntervals
@@ -154,13 +163,11 @@ items:
   nameWithType: WorkflowStepWaitForTime.NumIntervals
   fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.NumIntervals
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe given number of intervals to wait, if this algorithm is selected\n"
+  summary: The given number of intervals to wait, if this algorithm is selected
+  example: []
   syntax:
     content: public virtual int NumIntervals { get; set; }
     parameters: []
@@ -168,14 +175,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property NumIntervals As Integer
   overload: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.NumIntervals*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType_String
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType_String
   id: IntervalType_String
@@ -187,29 +186,36 @@ items:
   nameWithType: WorkflowStepWaitForTime.IntervalType_String
   fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nInterval type (Minutes, days, weeks...)\nRaw string enum value.\n"
+  summary: >-
+    Interval type (Minutes, days, weeks...)
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string IntervalType_String { get; set; }
+    content: >-
+      [JsonProperty("IntervalType")]
+
+      public string IntervalType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property IntervalType_String As String
+    content.vb: >-
+      <JsonProperty("IntervalType")>
+
+      Public Property IntervalType_String As String
   overload: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType
     commentId: P:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: IntervalType
 - uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType
   id: IntervalType
@@ -221,29 +227,34 @@ items:
   nameWithType: WorkflowStepWaitForTime.IntervalType
   fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nInterval type (Minutes, days, weeks...)\nNULL if unknown enum value.\n"
+  summary: >-
+    Interval type (Minutes, days, weeks...)
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<WorkflowTimeWaitIntervalType> IntervalType { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public WorkflowTimeWaitIntervalType? IntervalType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType}
-    content.vb: Public Property IntervalType As Nullable(Of WorkflowTimeWaitIntervalType)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property IntervalType As WorkflowTimeWaitIntervalType?
   overload: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType_String
     commentId: P:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.Until
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.Until
   id: Until
@@ -255,13 +266,11 @@ items:
   nameWithType: WorkflowStepWaitForTime.Until
   fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.Until
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWait until specific datetime, in [DT: ] format, interpreted in workflow time zone\n"
+  summary: 'Wait until specific datetime, in [DT: ] format, interpreted in workflow time zone'
+  example: []
   syntax:
     content: public virtual string Until { get; set; }
     parameters: []
@@ -269,32 +278,67 @@ items:
       type: System.String
     content.vb: Public Overridable Property Until As String
   overload: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.Until*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.WorkflowAgent.html
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Data.WorkflowStepBase
   commentId: T:SuperOffice.WebApi.Data.WorkflowStepBase
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepBase.html
   name: WorkflowStepBase
   nameWithType: WorkflowStepBase
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase
@@ -302,6 +346,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
   parent: SuperOffice.WebApi.Data.WorkflowStepBase
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_WorkflowStepId
   name: WorkflowStepId
   nameWithType: WorkflowStepBase.WorkflowStepId
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
@@ -309,6 +354,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
   parent: SuperOffice.WebApi.Data.WorkflowStepBase
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_WorkflowId
   name: WorkflowId
   nameWithType: WorkflowStepBase.WorkflowId
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
@@ -316,6 +362,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
   parent: SuperOffice.WebApi.Data.WorkflowStepBase
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_StepType_String
   name: StepType_String
   nameWithType: WorkflowStepBase.StepType_String
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
@@ -323,6 +370,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType
   parent: SuperOffice.WebApi.Data.WorkflowStepBase
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_StepType
   name: StepType
   nameWithType: WorkflowStepBase.StepType
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
@@ -330,136 +378,337 @@ references:
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.Rank
   parent: SuperOffice.WebApi.Data.WorkflowStepBase
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_Rank
   name: Rank
   nameWithType: WorkflowStepBase.Rank
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
-- uid: SuperOffice.WebApi.Agents.WorkflowAgent
-  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: WorkflowAgent
-  nameWithType: WorkflowAgent
-  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.html#SuperOffice_WebApi_Data_WorkflowStepWaitForTime__ctor
   name: WorkflowStepWaitForTime
   nameWithType: WorkflowStepWaitForTime.WorkflowStepWaitForTime
   fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.WorkflowStepWaitForTime
-- uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm_String*
-  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm_String
-  isExternal: true
-  name: TimeWaitAlgorithm_String
-  nameWithType: WorkflowStepWaitForTime.TimeWaitAlgorithm_String
-  fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm_String
+  nameWithType.vb: WorkflowStepWaitForTime.New
+  fullName.vb: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.html#SuperOffice_WebApi_Data_WorkflowStepWaitForTime_TimeWaitAlgorithm
+  name: TimeWaitAlgorithm
+  nameWithType: WorkflowStepWaitForTime.TimeWaitAlgorithm
+  fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm
+- uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm_String*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.html#SuperOffice_WebApi_Data_WorkflowStepWaitForTime_TimeWaitAlgorithm_String
+  name: TimeWaitAlgorithm_String
+  nameWithType: WorkflowStepWaitForTime.TimeWaitAlgorithm_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm_String
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm*
-  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm
-  isExternal: true
-  name: TimeWaitAlgorithm
-  nameWithType: WorkflowStepWaitForTime.TimeWaitAlgorithm
-  fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm_String
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm_String
   isExternal: true
-- uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm}'
-  definition: System.Nullable`1
-  name: Nullable<WorkflowTimeWaitAlgorithm>
-  nameWithType: Nullable<WorkflowTimeWaitAlgorithm>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm>
-  nameWithType.vb: Nullable(Of WorkflowTimeWaitAlgorithm)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm)
-  name.vb: Nullable(Of WorkflowTimeWaitAlgorithm)
-  spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    nameWithType: WorkflowTimeWaitAlgorithm
-    fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    nameWithType: WorkflowTimeWaitAlgorithm
-    fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Nullable`1
+  href: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.html#SuperOffice_WebApi_Data_WorkflowStepWaitForTime_TimeWaitAlgorithm_String
+  name: TimeWaitAlgorithm_String
+  nameWithType: WorkflowStepWaitForTime.TimeWaitAlgorithm_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm_String
+- uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  href: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.html#SuperOffice_WebApi_Data_WorkflowStepWaitForTime_TimeWaitAlgorithm
+  name: TimeWaitAlgorithm
+  nameWithType: WorkflowStepWaitForTime.TimeWaitAlgorithm
+  fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.TimeWaitAlgorithm
+- uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.html
+  name: WorkflowTimeWaitAlgorithm?
+  nameWithType: WorkflowTimeWaitAlgorithm?
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
+    name: WorkflowTimeWaitAlgorithm
+    isExternal: true
+    href: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
+    name: WorkflowTimeWaitAlgorithm
+    isExternal: true
+    href: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.NumIntervals*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.NumIntervals
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.html#SuperOffice_WebApi_Data_WorkflowStepWaitForTime_NumIntervals
   name: NumIntervals
   nameWithType: WorkflowStepWaitForTime.NumIntervals
   fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.NumIntervals
@@ -467,73 +716,65 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType_String*
-  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType_String
-  isExternal: true
-  name: IntervalType_String
-  nameWithType: WorkflowStepWaitForTime.IntervalType_String
-  fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType_String
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType
   isExternal: true
-- uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType*
-  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType
-  isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.html#SuperOffice_WebApi_Data_WorkflowStepWaitForTime_IntervalType
   name: IntervalType
   nameWithType: WorkflowStepWaitForTime.IntervalType
   fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType
+- uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.html#SuperOffice_WebApi_Data_WorkflowStepWaitForTime_IntervalType_String
+  name: IntervalType_String
+  nameWithType: WorkflowStepWaitForTime.IntervalType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType_String
 - uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType_String
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType_String
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.html#SuperOffice_WebApi_Data_WorkflowStepWaitForTime_IntervalType_String
+  name: IntervalType_String
+  nameWithType: WorkflowStepWaitForTime.IntervalType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType_String
+- uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType
+  isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.html#SuperOffice_WebApi_Data_WorkflowStepWaitForTime_IntervalType
+  name: IntervalType
+  nameWithType: WorkflowStepWaitForTime.IntervalType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.IntervalType
 - uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType}'
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType}
+  parent: System
   definition: System.Nullable`1
-  name: Nullable<WorkflowTimeWaitIntervalType>
-  nameWithType: Nullable<WorkflowTimeWaitIntervalType>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType>
-  nameWithType.vb: Nullable(Of WorkflowTimeWaitIntervalType)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType)
-  name.vb: Nullable(Of WorkflowTimeWaitIntervalType)
+  href: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.html
+  name: WorkflowTimeWaitIntervalType?
+  nameWithType: WorkflowTimeWaitIntervalType?
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType?
   spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
     name: WorkflowTimeWaitIntervalType
-    nameWithType: WorkflowTimeWaitIntervalType
-    fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.html
+  - name: '?'
   spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
     name: WorkflowTimeWaitIntervalType
-    nameWithType: WorkflowTimeWaitIntervalType
-    fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.html
+  - name: '?'
 - uid: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.Until*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepWaitForTime.Until
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.html#SuperOffice_WebApi_Data_WorkflowStepWaitForTime_Until
   name: Until
   nameWithType: WorkflowStepWaitForTime.Until
   fullName: SuperOffice.WebApi.Data.WorkflowStepWaitForTime.Until

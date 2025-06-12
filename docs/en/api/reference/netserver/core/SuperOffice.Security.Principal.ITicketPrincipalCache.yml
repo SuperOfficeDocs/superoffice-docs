@@ -1,0 +1,492 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.ITicketPrincipalCache
+  commentId: T:SuperOffice.Security.Principal.ITicketPrincipalCache
+  id: ITicketPrincipalCache
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.ITicketPrincipalCache.CachePrincipal(System.String,System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.Security.Principal.ITicketPrincipalCache.Flush
+  - SuperOffice.Security.Principal.ITicketPrincipalCache.TryGetCachedPrincipal(System.String,System.Security.Claims.ClaimsPrincipal@)
+  langs:
+  - csharp
+  - vb
+  name: ITicketPrincipalCache
+  nameWithType: ITicketPrincipalCache
+  fullName: SuperOffice.Security.Principal.ITicketPrincipalCache
+  type: Interface
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: >-
+    Interface called by authenticaiton system <xref href="SuperOffice.SoContext" data-throw-if-not-resolved="false"></xref> to handle cached user principles.
+
+    Caching is done with user authenticating with ticket.
+  example: []
+  syntax:
+    content: public interface ITicketPrincipalCache
+    content.vb: Public Interface ITicketPrincipalCache
+  extensionMethods:
+  - SuperOffice.Security.Principal.ITicketPrincipalCache.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.ITicketPrincipalCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Security.Principal.ITicketPrincipalCache.CachePrincipal(System.String,System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.Security.Principal.ITicketPrincipalCache.CachePrincipal(System.String,System.Security.Claims.ClaimsPrincipal)
+  id: CachePrincipal(System.String,System.Security.Claims.ClaimsPrincipal)
+  parent: SuperOffice.Security.Principal.ITicketPrincipalCache
+  langs:
+  - csharp
+  - vb
+  name: CachePrincipal(string, ClaimsPrincipal)
+  nameWithType: ITicketPrincipalCache.CachePrincipal(string, ClaimsPrincipal)
+  fullName: SuperOffice.Security.Principal.ITicketPrincipalCache.CachePrincipal(string, System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Cach a user principal and users info session state
+  example: []
+  syntax:
+    content: void CachePrincipal(string ticket, ClaimsPrincipal principal)
+    parameters:
+    - id: ticket
+      type: System.String
+      description: Ticket for user to cache
+    - id: principal
+      type: System.Security.Claims.ClaimsPrincipal
+      description: User's principal
+    content.vb: Sub CachePrincipal(ticket As String, principal As ClaimsPrincipal)
+  overload: SuperOffice.Security.Principal.ITicketPrincipalCache.CachePrincipal*
+  nameWithType.vb: ITicketPrincipalCache.CachePrincipal(String, ClaimsPrincipal)
+  fullName.vb: SuperOffice.Security.Principal.ITicketPrincipalCache.CachePrincipal(String, System.Security.Claims.ClaimsPrincipal)
+  name.vb: CachePrincipal(String, ClaimsPrincipal)
+- uid: SuperOffice.Security.Principal.ITicketPrincipalCache.Flush
+  commentId: M:SuperOffice.Security.Principal.ITicketPrincipalCache.Flush
+  id: Flush
+  parent: SuperOffice.Security.Principal.ITicketPrincipalCache
+  langs:
+  - csharp
+  - vb
+  name: Flush()
+  nameWithType: ITicketPrincipalCache.Flush()
+  fullName: SuperOffice.Security.Principal.ITicketPrincipalCache.Flush()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Flush the user cache
+  example: []
+  syntax:
+    content: void Flush()
+    content.vb: Sub Flush()
+  overload: SuperOffice.Security.Principal.ITicketPrincipalCache.Flush*
+- uid: SuperOffice.Security.Principal.ITicketPrincipalCache.TryGetCachedPrincipal(System.String,System.Security.Claims.ClaimsPrincipal@)
+  commentId: M:SuperOffice.Security.Principal.ITicketPrincipalCache.TryGetCachedPrincipal(System.String,System.Security.Claims.ClaimsPrincipal@)
+  id: TryGetCachedPrincipal(System.String,System.Security.Claims.ClaimsPrincipal@)
+  parent: SuperOffice.Security.Principal.ITicketPrincipalCache
+  langs:
+  - csharp
+  - vb
+  name: TryGetCachedPrincipal(string, out ClaimsPrincipal)
+  nameWithType: ITicketPrincipalCache.TryGetCachedPrincipal(string, out ClaimsPrincipal)
+  fullName: SuperOffice.Security.Principal.ITicketPrincipalCache.TryGetCachedPrincipal(string, out System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Try to obtain users cahced information based on ticket
+  example: []
+  syntax:
+    content: bool TryGetCachedPrincipal(string ticket, out ClaimsPrincipal principal)
+    parameters:
+    - id: ticket
+      type: System.String
+      description: Tiocket to look up
+    - id: principal
+      type: System.Security.Claims.ClaimsPrincipal
+      description: Resolved principal
+    return:
+      type: System.Boolean
+      description: True if a ceched user was obtained.
+    content.vb: Function TryGetCachedPrincipal(ticket As String, principal As ClaimsPrincipal) As Boolean
+  overload: SuperOffice.Security.Principal.ITicketPrincipalCache.TryGetCachedPrincipal*
+  nameWithType.vb: ITicketPrincipalCache.TryGetCachedPrincipal(String, ClaimsPrincipal)
+  fullName.vb: SuperOffice.Security.Principal.ITicketPrincipalCache.TryGetCachedPrincipal(String, System.Security.Claims.ClaimsPrincipal)
+  name.vb: TryGetCachedPrincipal(String, ClaimsPrincipal)
+references:
+- uid: SuperOffice.SoContext
+  commentId: T:SuperOffice.SoContext
+  isExternal: true
+  href: SuperOffice.SoContext.html
+  name: SoContext
+  nameWithType: SoContext
+  fullName: SuperOffice.SoContext
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
+- uid: SuperOffice.Security.Principal.ITicketPrincipalCache.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ITicketPrincipalCache, To>(ITicketPrincipalCache)
+  nameWithType: EnumUtil.MapEnums<ITicketPrincipalCache, To>(ITicketPrincipalCache)
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.ITicketPrincipalCache, To>(SuperOffice.Security.Principal.ITicketPrincipalCache)
+  nameWithType.vb: EnumUtil.MapEnums(Of ITicketPrincipalCache, To)(ITicketPrincipalCache)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.ITicketPrincipalCache, To)(SuperOffice.Security.Principal.ITicketPrincipalCache)
+  name.vb: MapEnums(Of ITicketPrincipalCache, To)(ITicketPrincipalCache)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Principal.ITicketPrincipalCache)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Security.Principal.ITicketPrincipalCache
+    name: ITicketPrincipalCache
+    isExternal: true
+    href: SuperOffice.Security.Principal.ITicketPrincipalCache.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Security.Principal.ITicketPrincipalCache
+    name: ITicketPrincipalCache
+    isExternal: true
+    href: SuperOffice.Security.Principal.ITicketPrincipalCache.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Principal.ITicketPrincipalCache)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Principal.ITicketPrincipalCache
+    name: ITicketPrincipalCache
+    isExternal: true
+    href: SuperOffice.Security.Principal.ITicketPrincipalCache.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Security.Principal.ITicketPrincipalCache
+    name: ITicketPrincipalCache
+    isExternal: true
+    href: SuperOffice.Security.Principal.ITicketPrincipalCache.html
+  - name: )
+- uid: SuperOffice.Security.Principal.ITicketPrincipalCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ITicketPrincipalCache, To>(ITicketPrincipalCache)
+  nameWithType: Converters.MapEnums<ITicketPrincipalCache, To>(ITicketPrincipalCache)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.ITicketPrincipalCache, To>(SuperOffice.Security.Principal.ITicketPrincipalCache)
+  nameWithType.vb: Converters.MapEnums(Of ITicketPrincipalCache, To)(ITicketPrincipalCache)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.ITicketPrincipalCache, To)(SuperOffice.Security.Principal.ITicketPrincipalCache)
+  name.vb: MapEnums(Of ITicketPrincipalCache, To)(ITicketPrincipalCache)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Principal.ITicketPrincipalCache)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Security.Principal.ITicketPrincipalCache
+    name: ITicketPrincipalCache
+    isExternal: true
+    href: SuperOffice.Security.Principal.ITicketPrincipalCache.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Security.Principal.ITicketPrincipalCache
+    name: ITicketPrincipalCache
+    isExternal: true
+    href: SuperOffice.Security.Principal.ITicketPrincipalCache.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Principal.ITicketPrincipalCache)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Principal.ITicketPrincipalCache
+    name: ITicketPrincipalCache
+    isExternal: true
+    href: SuperOffice.Security.Principal.ITicketPrincipalCache.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Security.Principal.ITicketPrincipalCache
+    name: ITicketPrincipalCache
+    isExternal: true
+    href: SuperOffice.Security.Principal.ITicketPrincipalCache.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Security.Principal.ITicketPrincipalCache.CachePrincipal*
+  commentId: Overload:SuperOffice.Security.Principal.ITicketPrincipalCache.CachePrincipal
+  isExternal: true
+  href: SuperOffice.Security.Principal.ITicketPrincipalCache.html#SuperOffice_Security_Principal_ITicketPrincipalCache_CachePrincipal_System_String_System_Security_Claims_ClaimsPrincipal_
+  name: CachePrincipal
+  nameWithType: ITicketPrincipalCache.CachePrincipal
+  fullName: SuperOffice.Security.Principal.ITicketPrincipalCache.CachePrincipal
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Security.Claims.ClaimsPrincipal
+  commentId: T:System.Security.Claims.ClaimsPrincipal
+  parent: System.Security.Claims
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: System.Security.Claims.ClaimsPrincipal
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Security.Claims
+  commentId: N:System.Security.Claims
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Security.Claims
+  nameWithType: System.Security.Claims
+  fullName: System.Security.Claims
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Claims
+    name: Claims
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Claims
+    name: Claims
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims
+- uid: SuperOffice.Security.Principal.ITicketPrincipalCache.Flush*
+  commentId: Overload:SuperOffice.Security.Principal.ITicketPrincipalCache.Flush
+  isExternal: true
+  href: SuperOffice.Security.Principal.ITicketPrincipalCache.html#SuperOffice_Security_Principal_ITicketPrincipalCache_Flush
+  name: Flush
+  nameWithType: ITicketPrincipalCache.Flush
+  fullName: SuperOffice.Security.Principal.ITicketPrincipalCache.Flush
+- uid: SuperOffice.Security.Principal.ITicketPrincipalCache.TryGetCachedPrincipal*
+  commentId: Overload:SuperOffice.Security.Principal.ITicketPrincipalCache.TryGetCachedPrincipal
+  isExternal: true
+  href: SuperOffice.Security.Principal.ITicketPrincipalCache.html#SuperOffice_Security_Principal_ITicketPrincipalCache_TryGetCachedPrincipal_System_String_System_Security_Claims_ClaimsPrincipal__
+  name: TryGetCachedPrincipal
+  nameWithType: ITicketPrincipalCache.TryGetCachedPrincipal
+  fullName: SuperOffice.Security.Principal.ITicketPrincipalCache.TryGetCachedPrincipal
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

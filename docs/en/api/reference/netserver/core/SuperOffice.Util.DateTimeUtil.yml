@@ -16,26 +16,22 @@ items:
   nameWithType: DateTimeUtil
   fullName: SuperOffice.Util.DateTimeUtil
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: 'public static class DateTimeUtil : Object'
-    content.vb: >-
-      Public Module DateTimeUtil
-          Inherits Object
+    content: public static class DateTimeUtil
+    content.vb: Public Module DateTimeUtil
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.Util.DateTimeUtil.GetStartTime(System.DateTime,SuperOffice.Util.DateTimeSearchType)
   commentId: M:SuperOffice.Util.DateTimeUtil.GetStartTime(System.DateTime,SuperOffice.Util.DateTimeSearchType)
   id: GetStartTime(System.DateTime,SuperOffice.Util.DateTimeSearchType)
@@ -47,9 +43,6 @@ items:
   nameWithType: DateTimeUtil.GetStartTime(DateTime, DateTimeSearchType)
   fullName: SuperOffice.Util.DateTimeUtil.GetStartTime(System.DateTime, SuperOffice.Util.DateTimeSearchType)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
@@ -62,14 +55,11 @@ items:
       type: SuperOffice.Util.DateTimeSearchType
     return:
       type: System.DateTime
-    content.vb: Public Shared Function GetStartTime(time As DateTime, type As DateTimeSearchType) As DateTime
+    content.vb: Public Shared Function GetStartTime(time As Date, type As DateTimeSearchType) As Date
   overload: SuperOffice.Util.DateTimeUtil.GetStartTime*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: DateTimeUtil.GetStartTime(Date, DateTimeSearchType)
+  fullName.vb: SuperOffice.Util.DateTimeUtil.GetStartTime(Date, SuperOffice.Util.DateTimeSearchType)
+  name.vb: GetStartTime(Date, DateTimeSearchType)
 - uid: SuperOffice.Util.DateTimeUtil.GetEndTime(System.DateTime,SuperOffice.Util.DateTimeSearchType)
   commentId: M:SuperOffice.Util.DateTimeUtil.GetEndTime(System.DateTime,SuperOffice.Util.DateTimeSearchType)
   id: GetEndTime(System.DateTime,SuperOffice.Util.DateTimeSearchType)
@@ -81,9 +71,6 @@ items:
   nameWithType: DateTimeUtil.GetEndTime(DateTime, DateTimeSearchType)
   fullName: SuperOffice.Util.DateTimeUtil.GetEndTime(System.DateTime, SuperOffice.Util.DateTimeSearchType)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
@@ -96,14 +83,11 @@ items:
       type: SuperOffice.Util.DateTimeSearchType
     return:
       type: System.DateTime
-    content.vb: Public Shared Function GetEndTime(time As DateTime, type As DateTimeSearchType) As DateTime
+    content.vb: Public Shared Function GetEndTime(time As Date, type As DateTimeSearchType) As Date
   overload: SuperOffice.Util.DateTimeUtil.GetEndTime*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: DateTimeUtil.GetEndTime(Date, DateTimeSearchType)
+  fullName.vb: SuperOffice.Util.DateTimeUtil.GetEndTime(Date, SuperOffice.Util.DateTimeSearchType)
+  name.vb: GetEndTime(Date, DateTimeSearchType)
 - uid: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate(System.DateTime,System.DateTime)
   commentId: M:SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate(System.DateTime,System.DateTime)
   id: ToStringWithConditionalDate(System.DateTime,System.DateTime)
@@ -115,13 +99,16 @@ items:
   nameWithType: DateTimeUtil.ToStringWithConditionalDate(DateTime, DateTime)
   fullName: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate(System.DateTime, System.DateTime)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
-  summary: "\nConvert the given datetime to string, using the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref>. \nIf the date part\nis the same as the date of the reference, do not prepend the date; otherwise do prepend the date\n"
+  summary: >-
+    Convert the given datetime to string, using the <xref href="SuperOffice.CRM.Globalization.CultureDataFormatter" data-throw-if-not-resolved="false"></xref>. 
+
+    If the date part
+
+    is the same as the date of the reference, do not prepend the date; otherwise do prepend the date
+  example: []
   syntax:
     content: public static string ToStringWithConditionalDate(DateTime dateTime, DateTime reference)
     parameters:
@@ -134,14 +121,11 @@ items:
     return:
       type: System.String
       description: Either date + time or just time
-    content.vb: Public Shared Function ToStringWithConditionalDate(dateTime As DateTime, reference As DateTime) As String
+    content.vb: Public Shared Function ToStringWithConditionalDate(dateTime As Date, reference As Date) As String
   overload: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: DateTimeUtil.ToStringWithConditionalDate(Date, Date)
+  fullName.vb: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate(Date, Date)
+  name.vb: ToStringWithConditionalDate(Date, Date)
 - uid: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate(System.DateTime)
   commentId: M:SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate(System.DateTime)
   id: ToStringWithConditionalDate(System.DateTime)
@@ -153,13 +137,16 @@ items:
   nameWithType: DateTimeUtil.ToStringWithConditionalDate(DateTime)
   fullName: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate(System.DateTime)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
-  summary: "\nConvert the given datetime to string, using the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref>. \nIf the date part\nis the same as today, do not prepend the date; otherwise do prepend the date\n"
+  summary: >-
+    Convert the given datetime to string, using the <xref href="SuperOffice.CRM.Globalization.CultureDataFormatter" data-throw-if-not-resolved="false"></xref>. 
+
+    If the date part
+
+    is the same as today, do not prepend the date; otherwise do prepend the date
+  example: []
   syntax:
     content: public static string ToStringWithConditionalDate(DateTime dateTime)
     parameters:
@@ -169,61 +156,320 @@ items:
     return:
       type: System.String
       description: Either date + time or just time
-    content.vb: Public Shared Function ToStringWithConditionalDate(dateTime As DateTime) As String
+    content.vb: Public Shared Function ToStringWithConditionalDate(dateTime As Date) As String
   overload: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: DateTimeUtil.ToStringWithConditionalDate(Date)
+  fullName.vb: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate(Date)
+  name.vb: ToStringWithConditionalDate(Date)
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Util.DateTimeUtil.GetStartTime*
   commentId: Overload:SuperOffice.Util.DateTimeUtil.GetStartTime
   isExternal: true
+  href: SuperOffice.Util.DateTimeUtil.html#SuperOffice_Util_DateTimeUtil_GetStartTime_System_DateTime_SuperOffice_Util_DateTimeSearchType_
   name: GetStartTime
   nameWithType: DateTimeUtil.GetStartTime
   fullName: SuperOffice.Util.DateTimeUtil.GetStartTime
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.Util.DateTimeSearchType
   commentId: T:SuperOffice.Util.DateTimeSearchType
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.DateTimeSearchType.html
   name: DateTimeSearchType
   nameWithType: DateTimeSearchType
   fullName: SuperOffice.Util.DateTimeSearchType
 - uid: SuperOffice.Util.DateTimeUtil.GetEndTime*
   commentId: Overload:SuperOffice.Util.DateTimeUtil.GetEndTime
   isExternal: true
+  href: SuperOffice.Util.DateTimeUtil.html#SuperOffice_Util_DateTimeUtil_GetEndTime_System_DateTime_SuperOffice_Util_DateTimeSearchType_
   name: GetEndTime
   nameWithType: DateTimeUtil.GetEndTime
   fullName: SuperOffice.Util.DateTimeUtil.GetEndTime
+- uid: SuperOffice.CRM.Globalization.CultureDataFormatter
+  commentId: T:SuperOffice.CRM.Globalization.CultureDataFormatter
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html
+  name: CultureDataFormatter
+  nameWithType: CultureDataFormatter
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter
 - uid: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate*
   commentId: Overload:SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate
   isExternal: true
+  href: SuperOffice.Util.DateTimeUtil.html#SuperOffice_Util_DateTimeUtil_ToStringWithConditionalDate_System_DateTime_System_DateTime_
   name: ToStringWithConditionalDate
   nameWithType: DateTimeUtil.ToStringWithConditionalDate
   fullName: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate
@@ -231,6 +477,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -16,64 +16,34 @@ items:
   - SuperOffice.WebApi.Data.TicketAlertAction.ActionSmsCustomer
   - SuperOffice.WebApi.Data.TicketAlertAction.ActionSmsUser
   - SuperOffice.WebApi.Data.TicketAlertAction.UndefinedValue2
-  - SuperOffice.WebApi.Data.TicketAlertAction.value__
   langs:
   - csharp
   - vb
   name: TicketAlertAction
   nameWithType: TicketAlertAction
   fullName: SuperOffice.WebApi.Data.TicketAlertAction
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nBitmask available ticket alert action\nThis Enum consists of flag values that can be combined.\n"
-  syntax:
-    content: 'public sealed class TicketAlertAction : Enum'
-    content.vb: >-
-      Public NotInheritable Class TicketAlertAction
-          Inherits
+  summary: >-
+    Bitmask available ticket alert action
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.TicketAlertAction.value__
-  commentId: F:SuperOffice.WebApi.Data.TicketAlertAction.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.TicketAlertAction
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: TicketAlertAction.value__
-  fullName: SuperOffice.WebApi.Data.TicketAlertAction.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum consists of flag values that can be combined.
+  example: []
   syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: >-
+      [Flags]
+
+      public enum TicketAlertAction
+    content.vb: >-
+      <Flags>
+
+      Public Enum TicketAlertAction
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketAlertAction.ActionDelegate
   commentId: F:SuperOffice.WebApi.Data.TicketAlertAction.ActionDelegate
   id: ActionDelegate
@@ -85,24 +55,26 @@ items:
   nameWithType: TicketAlertAction.ActionDelegate
   fullName: SuperOffice.WebApi.Data.TicketAlertAction.ActionDelegate
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Controls Reassign\n"
+  summary: '1: Controls Reassign'
+  example: []
   syntax:
-    content: public const TicketAlertAction ActionDelegate
+    content: >-
+      [EnumMember]
+
+      ActionDelegate = 1
     return:
       type: SuperOffice.WebApi.Data.TicketAlertAction
-    content.vb: Public Const ActionDelegate As TicketAlertAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActionDelegate = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketAlertAction.UndefinedValue2
   commentId: F:SuperOffice.WebApi.Data.TicketAlertAction.UndefinedValue2
   id: UndefinedValue2
@@ -114,24 +86,26 @@ items:
   nameWithType: TicketAlertAction.UndefinedValue2
   fullName: SuperOffice.WebApi.Data.TicketAlertAction.UndefinedValue2
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Undefined and generated value 2\n"
+  summary: '2: Undefined and generated value 2'
+  example: []
   syntax:
-    content: public const TicketAlertAction UndefinedValue2
+    content: >-
+      [EnumMember]
+
+      UndefinedValue2 = 2
     return:
       type: SuperOffice.WebApi.Data.TicketAlertAction
-    content.vb: Public Const UndefinedValue2 As TicketAlertAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UndefinedValue2 = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketAlertAction.ActionEmail
   commentId: F:SuperOffice.WebApi.Data.TicketAlertAction.ActionEmail
   id: ActionEmail
@@ -143,24 +117,26 @@ items:
   nameWithType: TicketAlertAction.ActionEmail
   fullName: SuperOffice.WebApi.Data.TicketAlertAction.ActionEmail
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Controls Email others\n"
+  summary: '4: Controls Email others'
+  example: []
   syntax:
-    content: public const TicketAlertAction ActionEmail
+    content: >-
+      [EnumMember]
+
+      ActionEmail = 4
     return:
       type: SuperOffice.WebApi.Data.TicketAlertAction
-    content.vb: Public Const ActionEmail As TicketAlertAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActionEmail = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketAlertAction.ActionEmailCustomer
   commentId: F:SuperOffice.WebApi.Data.TicketAlertAction.ActionEmailCustomer
   id: ActionEmailCustomer
@@ -172,24 +148,26 @@ items:
   nameWithType: TicketAlertAction.ActionEmailCustomer
   fullName: SuperOffice.WebApi.Data.TicketAlertAction.ActionEmailCustomer
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Controls Email Contact\n"
+  summary: '8: Controls Email Contact'
+  example: []
   syntax:
-    content: public const TicketAlertAction ActionEmailCustomer
+    content: >-
+      [EnumMember]
+
+      ActionEmailCustomer = 8
     return:
       type: SuperOffice.WebApi.Data.TicketAlertAction
-    content.vb: Public Const ActionEmailCustomer As TicketAlertAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActionEmailCustomer = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketAlertAction.ActionEmailUser
   commentId: F:SuperOffice.WebApi.Data.TicketAlertAction.ActionEmailUser
   id: ActionEmailUser
@@ -201,24 +179,26 @@ items:
   nameWithType: TicketAlertAction.ActionEmailUser
   fullName: SuperOffice.WebApi.Data.TicketAlertAction.ActionEmailUser
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n16: Controls Email User\n"
+  summary: '16: Controls Email User'
+  example: []
   syntax:
-    content: public const TicketAlertAction ActionEmailUser
+    content: >-
+      [EnumMember]
+
+      ActionEmailUser = 16
     return:
       type: SuperOffice.WebApi.Data.TicketAlertAction
-    content.vb: Public Const ActionEmailUser As TicketAlertAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActionEmailUser = 16
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketAlertAction.ActionEmailCategoryMaster
   commentId: F:SuperOffice.WebApi.Data.TicketAlertAction.ActionEmailCategoryMaster
   id: ActionEmailCategoryMaster
@@ -230,24 +210,26 @@ items:
   nameWithType: TicketAlertAction.ActionEmailCategoryMaster
   fullName: SuperOffice.WebApi.Data.TicketAlertAction.ActionEmailCategoryMaster
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n32: Controls Email Category administrator\n"
+  summary: '32: Controls Email Category administrator'
+  example: []
   syntax:
-    content: public const TicketAlertAction ActionEmailCategoryMaster
+    content: >-
+      [EnumMember]
+
+      ActionEmailCategoryMaster = 32
     return:
       type: SuperOffice.WebApi.Data.TicketAlertAction
-    content.vb: Public Const ActionEmailCategoryMaster As TicketAlertAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActionEmailCategoryMaster = 32
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketAlertAction.ActionSms
   commentId: F:SuperOffice.WebApi.Data.TicketAlertAction.ActionSms
   id: ActionSms
@@ -259,24 +241,26 @@ items:
   nameWithType: TicketAlertAction.ActionSms
   fullName: SuperOffice.WebApi.Data.TicketAlertAction.ActionSms
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n64: Controls SMS others\n"
+  summary: '64: Controls SMS others'
+  example: []
   syntax:
-    content: public const TicketAlertAction ActionSms
+    content: >-
+      [EnumMember]
+
+      ActionSms = 64
     return:
       type: SuperOffice.WebApi.Data.TicketAlertAction
-    content.vb: Public Const ActionSms As TicketAlertAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActionSms = 64
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketAlertAction.ActionSmsCustomer
   commentId: F:SuperOffice.WebApi.Data.TicketAlertAction.ActionSmsCustomer
   id: ActionSmsCustomer
@@ -288,24 +272,26 @@ items:
   nameWithType: TicketAlertAction.ActionSmsCustomer
   fullName: SuperOffice.WebApi.Data.TicketAlertAction.ActionSmsCustomer
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n128: Controls SMS Contact\n"
+  summary: '128: Controls SMS Contact'
+  example: []
   syntax:
-    content: public const TicketAlertAction ActionSmsCustomer
+    content: >-
+      [EnumMember]
+
+      ActionSmsCustomer = 128
     return:
       type: SuperOffice.WebApi.Data.TicketAlertAction
-    content.vb: Public Const ActionSmsCustomer As TicketAlertAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActionSmsCustomer = 128
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketAlertAction.ActionSmsUser
   commentId: F:SuperOffice.WebApi.Data.TicketAlertAction.ActionSmsUser
   id: ActionSmsUser
@@ -317,24 +303,26 @@ items:
   nameWithType: TicketAlertAction.ActionSmsUser
   fullName: SuperOffice.WebApi.Data.TicketAlertAction.ActionSmsUser
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n256: Controls SMS User\n"
+  summary: '256: Controls SMS User'
+  example: []
   syntax:
-    content: public const TicketAlertAction ActionSmsUser
+    content: >-
+      [EnumMember]
+
+      ActionSmsUser = 256
     return:
       type: SuperOffice.WebApi.Data.TicketAlertAction
-    content.vb: Public Const ActionSmsUser As TicketAlertAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActionSmsUser = 256
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketAlertAction.ActionSmsCategoryMaster
   commentId: F:SuperOffice.WebApi.Data.TicketAlertAction.ActionSmsCategoryMaster
   id: ActionSmsCategoryMaster
@@ -346,24 +334,26 @@ items:
   nameWithType: TicketAlertAction.ActionSmsCategoryMaster
   fullName: SuperOffice.WebApi.Data.TicketAlertAction.ActionSmsCategoryMaster
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n512: Controls SMS Category administrator\n"
+  summary: '512: Controls SMS Category administrator'
+  example: []
   syntax:
-    content: public const TicketAlertAction ActionSmsCategoryMaster
+    content: >-
+      [EnumMember]
+
+      ActionSmsCategoryMaster = 512
     return:
       type: SuperOffice.WebApi.Data.TicketAlertAction
-    content.vb: Public Const ActionSmsCategoryMaster As TicketAlertAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActionSmsCategoryMaster = 512
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketAlertAction.ActionScript
   commentId: F:SuperOffice.WebApi.Data.TicketAlertAction.ActionScript
   id: ActionScript
@@ -375,55 +365,69 @@ items:
   nameWithType: TicketAlertAction.ActionScript
   fullName: SuperOffice.WebApi.Data.TicketAlertAction.ActionScript
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1024: Controls Script\n"
+  summary: '1024: Controls Script'
+  example: []
   syntax:
-    content: public const TicketAlertAction ActionScript
+    content: >-
+      [EnumMember]
+
+      ActionScript = 1024
     return:
       type: SuperOffice.WebApi.Data.TicketAlertAction
-    content.vb: Public Const ActionScript As TicketAlertAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActionScript = 1024
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.TicketAlertAction
   commentId: T:SuperOffice.WebApi.Data.TicketAlertAction
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketAlertAction.html
   name: TicketAlertAction
   nameWithType: TicketAlertAction
   fullName: SuperOffice.WebApi.Data.TicketAlertAction

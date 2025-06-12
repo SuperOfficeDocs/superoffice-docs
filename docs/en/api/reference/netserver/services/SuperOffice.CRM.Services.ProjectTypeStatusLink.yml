@@ -6,13 +6,13 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.ProjectTypeStatusLink.#ctor
-  - SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjectTypeStatusLinkId
   - SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusId
   - SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusName
   - SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusTooltip
   - SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeId
   - SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeName
   - SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeTooltip
+  - SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjectTypeStatusLinkId
   - SuperOffice.CRM.Services.ProjectTypeStatusLink.ToString
   - SuperOffice.CRM.Services.ProjectTypeStatusLink.ToString(System.String)
   langs:
@@ -22,26 +22,30 @@ items:
   nameWithType: ProjectTypeStatusLink
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCarrier object for ProjectTypeStatusLink.\n"
+  summary: Carrier object for ProjectTypeStatusLink.
+  example: []
   syntax:
-    content: 'public class ProjectTypeStatusLink : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class ProjectTypeStatusLink : Carrier
     content.vb: >-
-      Public Class ProjectTypeStatusLink
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class ProjectTypeStatusLink Inherits Carrier
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.#ctor
   commentId: M:SuperOffice.CRM.Services.ProjectTypeStatusLink.#ctor
   id: '#ctor'
@@ -53,21 +57,18 @@ items:
   nameWithType: ProjectTypeStatusLink.ProjectTypeStatusLink()
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjectTypeStatusLink()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public ProjectTypeStatusLink()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.ProjectTypeStatusLink.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProjectTypeStatusLink.New()
+  fullName.vb: SuperOffice.CRM.Services.ProjectTypeStatusLink.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ToString
   commentId: M:SuperOffice.CRM.Services.ProjectTypeStatusLink.ToString
   id: ToString
@@ -79,26 +80,18 @@ items:
   nameWithType: ProjectTypeStatusLink.ToString()
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.ProjectTypeStatusLink.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ProjectTypeStatusLink.ToString(System.String)
   id: ToString(System.String)
@@ -106,17 +99,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: ProjectTypeStatusLink.ToString(String)
-  fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ToString(System.String)
+  name: ToString(string)
+  nameWithType: ProjectTypeStatusLink.ToString(string)
+  fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -128,10 +122,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ProjectTypeStatusLink.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProjectTypeStatusLink.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.ProjectTypeStatusLink.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjectTypeStatusLinkId
   commentId: P:SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjectTypeStatusLinkId
   id: ProjectTypeStatusLinkId
@@ -143,28 +136,28 @@ items:
   nameWithType: ProjectTypeStatusLink.ProjectTypeStatusLinkId
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjectTypeStatusLinkId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int ProjectTypeStatusLinkId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int ProjectTypeStatusLinkId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property ProjectTypeStatusLinkId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ProjectTypeStatusLinkId As Integer
   overload: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjectTypeStatusLinkId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeId
   commentId: P:SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeId
   id: ProjTypeId
@@ -176,28 +169,28 @@ items:
   nameWithType: ProjectTypeStatusLink.ProjTypeId
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int ProjTypeId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int ProjTypeId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property ProjTypeId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ProjTypeId As Integer
   overload: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeName
   commentId: P:SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeName
   id: ProjTypeName
@@ -209,28 +202,28 @@ items:
   nameWithType: ProjectTypeStatusLink.ProjTypeName
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe list item \n"
+  summary: The list item
+  example: []
   syntax:
-    content: public virtual string ProjTypeName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ProjTypeName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ProjTypeName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ProjTypeName As String
   overload: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeTooltip
   commentId: P:SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeTooltip
   id: ProjTypeTooltip
@@ -242,28 +235,28 @@ items:
   nameWithType: ProjectTypeStatusLink.ProjTypeTooltip
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeTooltip
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTooltip or other description \n"
+  summary: Tooltip or other description
+  example: []
   syntax:
-    content: public virtual string ProjTypeTooltip { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ProjTypeTooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ProjTypeTooltip As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ProjTypeTooltip As String
   overload: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeTooltip*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusId
   commentId: P:SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusId
   id: ProjStatusId
@@ -275,28 +268,28 @@ items:
   nameWithType: ProjectTypeStatusLink.ProjStatusId
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int ProjStatusId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int ProjStatusId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property ProjStatusId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ProjStatusId As Integer
   overload: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusName
   commentId: P:SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusName
   id: ProjStatusName
@@ -308,28 +301,28 @@ items:
   nameWithType: ProjectTypeStatusLink.ProjStatusName
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe list item \n"
+  summary: The list item
+  example: []
   syntax:
-    content: public virtual string ProjStatusName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ProjStatusName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ProjStatusName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ProjStatusName As String
   overload: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusTooltip
   commentId: P:SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusTooltip
   id: ProjStatusTooltip
@@ -341,44 +334,98 @@ items:
   nameWithType: ProjectTypeStatusLink.ProjStatusTooltip
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusTooltip
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTooltip or other description \n"
+  summary: Tooltip or other description
+  example: []
   syntax:
-    content: public virtual string ProjStatusTooltip { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ProjStatusTooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ProjStatusTooltip As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ProjStatusTooltip As String
   overload: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusTooltip*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ProjectTypeStatusLink.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.ProjectTypeStatusLink.html#SuperOffice_CRM_Services_ProjectTypeStatusLink__ctor
   name: ProjectTypeStatusLink
   nameWithType: ProjectTypeStatusLink.ProjectTypeStatusLink
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjectTypeStatusLink
+  nameWithType.vb: ProjectTypeStatusLink.New
+  fullName.vb: SuperOffice.CRM.Services.ProjectTypeStatusLink.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ProjectTypeStatusLink.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.ProjectTypeStatusLink.html#SuperOffice_CRM_Services_ProjectTypeStatusLink_ToString
   name: ToString
   nameWithType: ProjectTypeStatusLink.ToString
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ToString
@@ -386,18 +433,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjectTypeStatusLinkId*
   commentId: Overload:SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjectTypeStatusLinkId
   isExternal: true
+  href: SuperOffice.CRM.Services.ProjectTypeStatusLink.html#SuperOffice_CRM_Services_ProjectTypeStatusLink_ProjectTypeStatusLinkId
   name: ProjectTypeStatusLinkId
   nameWithType: ProjectTypeStatusLink.ProjectTypeStatusLinkId
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjectTypeStatusLinkId
@@ -405,42 +451,52 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeId*
   commentId: Overload:SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeId
   isExternal: true
+  href: SuperOffice.CRM.Services.ProjectTypeStatusLink.html#SuperOffice_CRM_Services_ProjectTypeStatusLink_ProjTypeId
   name: ProjTypeId
   nameWithType: ProjectTypeStatusLink.ProjTypeId
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeId
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeName*
   commentId: Overload:SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeName
   isExternal: true
+  href: SuperOffice.CRM.Services.ProjectTypeStatusLink.html#SuperOffice_CRM_Services_ProjectTypeStatusLink_ProjTypeName
   name: ProjTypeName
   nameWithType: ProjectTypeStatusLink.ProjTypeName
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeName
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeTooltip*
   commentId: Overload:SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeTooltip
   isExternal: true
+  href: SuperOffice.CRM.Services.ProjectTypeStatusLink.html#SuperOffice_CRM_Services_ProjectTypeStatusLink_ProjTypeTooltip
   name: ProjTypeTooltip
   nameWithType: ProjectTypeStatusLink.ProjTypeTooltip
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjTypeTooltip
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusId*
   commentId: Overload:SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusId
   isExternal: true
+  href: SuperOffice.CRM.Services.ProjectTypeStatusLink.html#SuperOffice_CRM_Services_ProjectTypeStatusLink_ProjStatusId
   name: ProjStatusId
   nameWithType: ProjectTypeStatusLink.ProjStatusId
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusId
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusName*
   commentId: Overload:SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusName
   isExternal: true
+  href: SuperOffice.CRM.Services.ProjectTypeStatusLink.html#SuperOffice_CRM_Services_ProjectTypeStatusLink_ProjStatusName
   name: ProjStatusName
   nameWithType: ProjectTypeStatusLink.ProjStatusName
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusName
 - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusTooltip*
   commentId: Overload:SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusTooltip
   isExternal: true
+  href: SuperOffice.CRM.Services.ProjectTypeStatusLink.html#SuperOffice_CRM_Services_ProjectTypeStatusLink_ProjStatusTooltip
   name: ProjStatusTooltip
   nameWithType: ProjectTypeStatusLink.ProjStatusTooltip
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink.ProjStatusTooltip

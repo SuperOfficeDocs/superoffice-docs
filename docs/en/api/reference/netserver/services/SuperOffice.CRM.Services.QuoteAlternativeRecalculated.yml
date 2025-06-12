@@ -18,31 +18,40 @@ items:
   nameWithType: QuoteAlternativeRecalculated
   fullName: SuperOffice.CRM.Services.QuoteAlternativeRecalculated
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe QuoteAlternativeRecalculated is returned after a call to RecalculateQuoteAlternative. It contains flags indicating changes to quote alternative and quote lines.\n<p></p>\nCarrier object for QuoteAlternativeRecalculated.\nServices for the QuoteAlternativeRecalculated Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    The QuoteAlternativeRecalculated is returned after a call to RecalculateQuoteAlternative. It contains flags indicating changes to quote alternative and quote lines.
+
+    <p></p>
+
+    Carrier object for QuoteAlternativeRecalculated.
+
+    Services for the QuoteAlternativeRecalculated Carrier is available from the <xref href="SuperOffice.CRM.Services.IQuoteAgent?text=Quote+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class QuoteAlternativeRecalculated : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class QuoteAlternativeRecalculated : Carrier
     content.vb: >-
-      Public Class QuoteAlternativeRecalculated
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class QuoteAlternativeRecalculated Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.QuoteAgent
-    commentId: T:SuperOffice.CRM.Services.QuoteAgent
   - linkId: SuperOffice.CRM.Services.IQuoteAgent
     commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.#ctor
   commentId: M:SuperOffice.CRM.Services.QuoteAlternativeRecalculated.#ctor
   id: '#ctor'
@@ -54,21 +63,18 @@ items:
   nameWithType: QuoteAlternativeRecalculated.QuoteAlternativeRecalculated()
   fullName: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.QuoteAlternativeRecalculated()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public QuoteAlternativeRecalculated()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: QuoteAlternativeRecalculated.New()
+  fullName.vb: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ToString
   commentId: M:SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ToString
   id: ToString
@@ -80,26 +86,18 @@ items:
   nameWithType: QuoteAlternativeRecalculated.ToString()
   fullName: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ToString(System.String)
   id: ToString(System.String)
@@ -107,17 +105,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: QuoteAlternativeRecalculated.ToString(String)
-  fullName: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ToString(System.String)
+  name: ToString(string)
+  nameWithType: QuoteAlternativeRecalculated.ToString(string)
+  fullName: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -129,10 +128,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: QuoteAlternativeRecalculated.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.QuoteLinesHasChanged
   commentId: P:SuperOffice.CRM.Services.QuoteAlternativeRecalculated.QuoteLinesHasChanged
   id: QuoteLinesHasChanged
@@ -144,28 +142,28 @@ items:
   nameWithType: QuoteAlternativeRecalculated.QuoteLinesHasChanged
   fullName: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.QuoteLinesHasChanged
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nIf true any of the quotelines for the alternative has been changed. \n"
+  summary: If true any of the quotelines for the alternative has been changed.
+  example: []
   syntax:
-    content: public virtual bool QuoteLinesHasChanged { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool QuoteLinesHasChanged { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property QuoteLinesHasChanged As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property QuoteLinesHasChanged As Boolean
   overload: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.QuoteLinesHasChanged*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ChangedQuoteAlternative
   commentId: P:SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ChangedQuoteAlternative
   id: ChangedQuoteAlternative
@@ -177,28 +175,28 @@ items:
   nameWithType: QuoteAlternativeRecalculated.ChangedQuoteAlternative
   fullName: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ChangedQuoteAlternative
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe recalculated QuoteAlternative \n"
+  summary: The recalculated QuoteAlternative
+  example: []
   syntax:
-    content: public virtual QuoteAlternative ChangedQuoteAlternative { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual QuoteAlternative ChangedQuoteAlternative { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.QuoteAlternative
-    content.vb: Public Overridable Property ChangedQuoteAlternative As QuoteAlternative
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ChangedQuoteAlternative As QuoteAlternative
   overload: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ChangedQuoteAlternative*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.Changes
   commentId: P:SuperOffice.CRM.Services.QuoteAlternativeRecalculated.Changes
   id: Changes
@@ -210,57 +208,106 @@ items:
   nameWithType: QuoteAlternativeRecalculated.Changes
   fullName: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.Changes
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTablename/recordid of data changed by this method \n"
+  summary: Tablename/recordid of data changed by this method
+  example: []
   syntax:
-    content: public virtual ChangedData Changes { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual ChangedData Changes { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.ChangedData
-    content.vb: Public Overridable Property Changes As ChangedData
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Changes As ChangedData
   overload: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.Changes*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.QuoteAgent
-  commentId: T:SuperOffice.CRM.Services.QuoteAgent
-  isExternal: true
-  name: QuoteAgent
-  nameWithType: QuoteAgent
-  fullName: SuperOffice.CRM.Services.QuoteAgent
 - uid: SuperOffice.CRM.Services.IQuoteAgent
   commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IQuoteAgent.html
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.QuoteAlternativeRecalculated.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.html#SuperOffice_CRM_Services_QuoteAlternativeRecalculated__ctor
   name: QuoteAlternativeRecalculated
   nameWithType: QuoteAlternativeRecalculated.QuoteAlternativeRecalculated
   fullName: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.QuoteAlternativeRecalculated
+  nameWithType.vb: QuoteAlternativeRecalculated.New
+  fullName.vb: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ToString*
   commentId: Overload:SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.html#SuperOffice_CRM_Services_QuoteAlternativeRecalculated_ToString
   name: ToString
   nameWithType: QuoteAlternativeRecalculated.ToString
   fullName: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ToString
@@ -268,18 +315,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.QuoteLinesHasChanged*
   commentId: Overload:SuperOffice.CRM.Services.QuoteAlternativeRecalculated.QuoteLinesHasChanged
   isExternal: true
+  href: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.html#SuperOffice_CRM_Services_QuoteAlternativeRecalculated_QuoteLinesHasChanged
   name: QuoteLinesHasChanged
   nameWithType: QuoteAlternativeRecalculated.QuoteLinesHasChanged
   fullName: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.QuoteLinesHasChanged
@@ -287,12 +333,17 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ChangedQuoteAlternative*
   commentId: Overload:SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ChangedQuoteAlternative
   isExternal: true
+  href: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.html#SuperOffice_CRM_Services_QuoteAlternativeRecalculated_ChangedQuoteAlternative
   name: ChangedQuoteAlternative
   nameWithType: QuoteAlternativeRecalculated.ChangedQuoteAlternative
   fullName: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.ChangedQuoteAlternative
@@ -300,12 +351,14 @@ references:
   commentId: T:SuperOffice.CRM.Services.QuoteAlternative
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.QuoteAlternative.html
   name: QuoteAlternative
   nameWithType: QuoteAlternative
   fullName: SuperOffice.CRM.Services.QuoteAlternative
 - uid: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.Changes*
   commentId: Overload:SuperOffice.CRM.Services.QuoteAlternativeRecalculated.Changes
   isExternal: true
+  href: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.html#SuperOffice_CRM_Services_QuoteAlternativeRecalculated_Changes
   name: Changes
   nameWithType: QuoteAlternativeRecalculated.Changes
   fullName: SuperOffice.CRM.Services.QuoteAlternativeRecalculated.Changes
@@ -313,6 +366,7 @@ references:
   commentId: T:SuperOffice.CRM.Services.ChangedData
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ChangedData.html
   name: ChangedData
   nameWithType: ChangedData
   fullName: SuperOffice.CRM.Services.ChangedData

@@ -8,67 +8,45 @@ items:
   - SuperOffice.ErpSync.FieldAccessInfoWS.Mandatory
   - SuperOffice.ErpSync.FieldAccessInfoWS.Normal
   - SuperOffice.ErpSync.FieldAccessInfoWS.ReadOnly
-  - SuperOffice.ErpSync.FieldAccessInfoWS.value__
   langs:
   - csharp
   - vb
   name: FieldAccessInfoWS
   nameWithType: FieldAccessInfoWS
   fullName: SuperOffice.ErpSync.FieldAccessInfoWS
-  type: Class
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\nAccess restrictions and mandatory status, if any\n<br />Note: Enum is mirrored in C++ code, update iEnum.h when it changes\n<br />Note #2: Enum is mirrored in data model (Enums.cs), which also needs to be updated if this changes\n"
-  syntax:
-    content: 'public sealed class FieldAccessInfoWS : Enum'
-    content.vb: >-
-      Public NotInheritable Class FieldAccessInfoWS
-          Inherits
+  summary: >-
+    Access restrictions and mandatory status, if any
 
-           Enum
-  inheritance:
-  - System.Object
+    <br />Note: Enum is mirrored in C++ code, update iEnum.h when it changes
+
+    <br />Note #2: Enum is mirrored in data model (Enums.cs), which also needs to be updated if this changes
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/EIS/Connector/1.0")]
+
+      public enum FieldAccessInfoWS
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/EIS/Connector/1.0")>
+
+      Public Enum FieldAccessInfoWS
   extensionMethods:
   - SuperOffice.ErpSync.FieldAccessInfoWS.EnumUtil.MapEnums``2
   - SuperOffice.ErpSync.FieldAccessInfoWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.ErpSync.FieldAccessInfoWS.value__
-  commentId: F:SuperOffice.ErpSync.FieldAccessInfoWS.value__
-  id: value__
-  parent: SuperOffice.ErpSync.FieldAccessInfoWS
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: FieldAccessInfoWS.value__
-  fullName: SuperOffice.ErpSync.FieldAccessInfoWS.value__
-  type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
-  assemblies:
-  - SuperOffice.Plugins
-  namespace: SuperOffice.ErpSync
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.ErpSync.FieldAccessInfoWS.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.FieldAccessInfoWS)
+  - SuperOffice.ErpSync.FieldAccessInfoWS.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/EIS/Connector/1.0
 - uid: SuperOffice.ErpSync.FieldAccessInfoWS.Normal
   commentId: F:SuperOffice.ErpSync.FieldAccessInfoWS.Normal
   id: Normal
@@ -80,24 +58,26 @@ items:
   nameWithType: FieldAccessInfoWS.Normal
   fullName: SuperOffice.ErpSync.FieldAccessInfoWS.Normal
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\nNormal field, no particular restrictions\n"
+  summary: Normal field, no particular restrictions
+  example: []
   syntax:
-    content: public const FieldAccessInfoWS Normal
+    content: >-
+      [EnumMember]
+
+      Normal = 0
     return:
       type: SuperOffice.ErpSync.FieldAccessInfoWS
-    content.vb: Public Const Normal As FieldAccessInfoWS
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Normal = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.ErpSync.FieldAccessInfoWS.Mandatory
   commentId: F:SuperOffice.ErpSync.FieldAccessInfoWS.Mandatory
   id: Mandatory
@@ -109,24 +89,26 @@ items:
   nameWithType: FieldAccessInfoWS.Mandatory
   fullName: SuperOffice.ErpSync.FieldAccessInfoWS.Mandatory
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\nThis field is mandatory\n"
+  summary: This field is mandatory
+  example: []
   syntax:
-    content: public const FieldAccessInfoWS Mandatory
+    content: >-
+      [EnumMember]
+
+      Mandatory = 1
     return:
       type: SuperOffice.ErpSync.FieldAccessInfoWS
-    content.vb: Public Const Mandatory As FieldAccessInfoWS
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Mandatory = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.ErpSync.FieldAccessInfoWS.ReadOnly
   commentId: F:SuperOffice.ErpSync.FieldAccessInfoWS.ReadOnly
   id: ReadOnly
@@ -138,115 +120,270 @@ items:
   nameWithType: FieldAccessInfoWS.ReadOnly
   fullName: SuperOffice.ErpSync.FieldAccessInfoWS.ReadOnly
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\nThis field is read-only\n"
+  summary: This field is read-only
+  example: []
   syntax:
-    content: public const FieldAccessInfoWS ReadOnly
+    content: >-
+      [EnumMember]
+
+      ReadOnly = 2
     return:
       type: SuperOffice.ErpSync.FieldAccessInfoWS
-    content.vb: Public Const ReadOnly As FieldAccessInfoWS
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReadOnly = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.ErpSync
   commentId: N:SuperOffice.ErpSync
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync
   nameWithType: SuperOffice.ErpSync
   fullName: SuperOffice.ErpSync
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
 - uid: SuperOffice.ErpSync.FieldAccessInfoWS.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<FieldAccessInfoWS, To>()
-  nameWithType: EnumUtil.MapEnums<FieldAccessInfoWS, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.FieldAccessInfoWS, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of FieldAccessInfoWS, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.FieldAccessInfoWS, To)()
-  name.vb: MapEnums(Of FieldAccessInfoWS, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<FieldAccessInfoWS, To>(FieldAccessInfoWS)
+  nameWithType: EnumUtil.MapEnums<FieldAccessInfoWS, To>(FieldAccessInfoWS)
+  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.FieldAccessInfoWS, To>(SuperOffice.ErpSync.FieldAccessInfoWS)
+  nameWithType.vb: EnumUtil.MapEnums(Of FieldAccessInfoWS, To)(FieldAccessInfoWS)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.FieldAccessInfoWS, To)(SuperOffice.ErpSync.FieldAccessInfoWS)
+  name.vb: MapEnums(Of FieldAccessInfoWS, To)(FieldAccessInfoWS)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<FieldAccessInfoWS, To>
-    nameWithType: EnumUtil.MapEnums<FieldAccessInfoWS, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.FieldAccessInfoWS, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.ErpSync.FieldAccessInfoWS)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of FieldAccessInfoWS, To)
-    nameWithType: EnumUtil.MapEnums(Of FieldAccessInfoWS, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.ErpSync.FieldAccessInfoWS, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.ErpSync.FieldAccessInfoWS)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
+  - name: )
 - uid: SuperOffice.ErpSync.FieldAccessInfoWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<FieldAccessInfoWS, To>()
-  nameWithType: Converters.MapEnums<FieldAccessInfoWS, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.FieldAccessInfoWS, To>()
-  nameWithType.vb: Converters.MapEnums(Of FieldAccessInfoWS, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.FieldAccessInfoWS, To)()
-  name.vb: MapEnums(Of FieldAccessInfoWS, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<FieldAccessInfoWS, To>(FieldAccessInfoWS)
+  nameWithType: Converters.MapEnums<FieldAccessInfoWS, To>(FieldAccessInfoWS)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.FieldAccessInfoWS, To>(SuperOffice.ErpSync.FieldAccessInfoWS)
+  nameWithType.vb: Converters.MapEnums(Of FieldAccessInfoWS, To)(FieldAccessInfoWS)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.FieldAccessInfoWS, To)(SuperOffice.ErpSync.FieldAccessInfoWS)
+  name.vb: MapEnums(Of FieldAccessInfoWS, To)(FieldAccessInfoWS)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<FieldAccessInfoWS, To>
-    nameWithType: Converters.MapEnums<FieldAccessInfoWS, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.FieldAccessInfoWS, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.ErpSync.FieldAccessInfoWS)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of FieldAccessInfoWS, To)
-    nameWithType: Converters.MapEnums(Of FieldAccessInfoWS, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.FieldAccessInfoWS, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.ErpSync.FieldAccessInfoWS)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
+  - name: )
+- uid: SuperOffice.ErpSync.FieldAccessInfoWS.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.FieldAccessInfoWS)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<FieldAccessInfoWS>(FieldAccessInfoWS, FieldAccessInfoWS)
+  nameWithType: ObjectExtensions.AssignByReflection<FieldAccessInfoWS>(FieldAccessInfoWS, FieldAccessInfoWS)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.FieldAccessInfoWS>(SuperOffice.ErpSync.FieldAccessInfoWS, SuperOffice.ErpSync.FieldAccessInfoWS)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FieldAccessInfoWS)(FieldAccessInfoWS, FieldAccessInfoWS)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.FieldAccessInfoWS)(SuperOffice.ErpSync.FieldAccessInfoWS, SuperOffice.ErpSync.FieldAccessInfoWS)
+  name.vb: AssignByReflection(Of FieldAccessInfoWS)(FieldAccessInfoWS, FieldAccessInfoWS)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.FieldAccessInfoWS,SuperOffice.ErpSync.FieldAccessInfoWS)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.FieldAccessInfoWS,SuperOffice.ErpSync.FieldAccessInfoWS)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
+  - name: )
+- uid: SuperOffice.ErpSync.FieldAccessInfoWS.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<FieldAccessInfoWS>(FieldAccessInfoWS)
+  nameWithType: ObjectExtensions.GraphCopy<FieldAccessInfoWS>(FieldAccessInfoWS)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.FieldAccessInfoWS>(SuperOffice.ErpSync.FieldAccessInfoWS)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FieldAccessInfoWS)(FieldAccessInfoWS)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.FieldAccessInfoWS)(SuperOffice.ErpSync.FieldAccessInfoWS)
+  name.vb: GraphCopy(Of FieldAccessInfoWS)(FieldAccessInfoWS)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.ErpSync.FieldAccessInfoWS)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.ErpSync.FieldAccessInfoWS)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.ErpSync.FieldAccessInfoWS
+    name: FieldAccessInfoWS
+    isExternal: true
+    href: SuperOffice.ErpSync.FieldAccessInfoWS.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -255,43 +392,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -300,58 +439,193 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.ErpSync.FieldAccessInfoWS
   commentId: T:SuperOffice.ErpSync.FieldAccessInfoWS
   parent: SuperOffice.ErpSync
   isExternal: true
+  href: SuperOffice.ErpSync.FieldAccessInfoWS.html
   name: FieldAccessInfoWS
   nameWithType: FieldAccessInfoWS
   fullName: SuperOffice.ErpSync.FieldAccessInfoWS

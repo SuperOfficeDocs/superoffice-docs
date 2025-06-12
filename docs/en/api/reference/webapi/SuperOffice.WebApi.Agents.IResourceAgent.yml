@@ -17,24 +17,16 @@ items:
   nameWithType: IResourceAgent
   fullName: SuperOffice.WebApi.Agents.IResourceAgent
   type: Interface
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nString resource substitution management.\n"
+  summary: String resource substitution management.
+  example: []
   syntax:
     content: 'public interface IResourceAgent : IDisposable'
-    content.vb: >-
-      Public Interface IResourceAgent
-          Inherits IDisposable
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+    content.vb: Public Interface IResourceAgent Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
 - uid: SuperOffice.WebApi.Agents.IResourceAgent.SetResourceSubstitutionAsync(System.String,System.String,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IResourceAgent.SetResourceSubstitutionAsync(System.String,System.String,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: SetResourceSubstitutionAsync(System.String,System.String,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -42,17 +34,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SetResourceSubstitutionAsync(String, String, String, Boolean, RequestOptions)
-  nameWithType: IResourceAgent.SetResourceSubstitutionAsync(String, String, String, Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IResourceAgent.SetResourceSubstitutionAsync(System.String, System.String, System.String, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name: SetResourceSubstitutionAsync(string, string, string, bool, RequestOptions)
+  nameWithType: IResourceAgent.SetResourceSubstitutionAsync(string, string, string, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IResourceAgent.SetResourceSubstitutionAsync(string, string, string, bool, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nCreate or update a resource substitution\n"
+  summary: Create or update a resource substitution
+  example: []
   syntax:
     content: Task SetResourceSubstitutionAsync(string resourceName, string resourceValues, string culture, bool isActive, RequestOptions requestOptions = null)
     parameters:
@@ -70,12 +60,15 @@ items:
       description: Is the subsitution now active
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
     content.vb: Function SetResourceSubstitutionAsync(resourceName As String, resourceValues As String, culture As String, isActive As Boolean, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IResourceAgent.SetResourceSubstitutionAsync*
+  nameWithType.vb: IResourceAgent.SetResourceSubstitutionAsync(String, String, String, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IResourceAgent.SetResourceSubstitutionAsync(String, String, String, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetResourceSubstitutionAsync(String, String, String, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IResourceAgent.DeleteResourceSubstitutionAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IResourceAgent.DeleteResourceSubstitutionAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   id: DeleteResourceSubstitutionAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -83,17 +76,15 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteResourceSubstitutionAsync(String, String, RequestOptions)
-  nameWithType: IResourceAgent.DeleteResourceSubstitutionAsync(String, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IResourceAgent.DeleteResourceSubstitutionAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  name: DeleteResourceSubstitutionAsync(string, string, RequestOptions)
+  nameWithType: IResourceAgent.DeleteResourceSubstitutionAsync(string, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IResourceAgent.DeleteResourceSubstitutionAsync(string, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nPermanentely delete a resource substitution for one or more cultures\n"
+  summary: Permanentely delete a resource substitution for one or more cultures
+  example: []
   syntax:
     content: Task DeleteResourceSubstitutionAsync(string resourceName, string culture, RequestOptions requestOptions = null)
     parameters:
@@ -105,12 +96,15 @@ items:
       description: The .NET culture string; if blank, then ALL substitutions for this resource will be dropped
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
     content.vb: Function DeleteResourceSubstitutionAsync(resourceName As String, culture As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IResourceAgent.DeleteResourceSubstitutionAsync*
+  nameWithType.vb: IResourceAgent.DeleteResourceSubstitutionAsync(String, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IResourceAgent.DeleteResourceSubstitutionAsync(String, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteResourceSubstitutionAsync(String, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IResourceAgent.ActivateResourceSubstitutionAsync(System.String,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IResourceAgent.ActivateResourceSubstitutionAsync(System.String,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: ActivateResourceSubstitutionAsync(System.String,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -118,17 +112,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ActivateResourceSubstitutionAsync(String, String, Boolean, RequestOptions)
-  nameWithType: IResourceAgent.ActivateResourceSubstitutionAsync(String, String, Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IResourceAgent.ActivateResourceSubstitutionAsync(System.String, System.String, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name: ActivateResourceSubstitutionAsync(string, string, bool, RequestOptions)
+  nameWithType: IResourceAgent.ActivateResourceSubstitutionAsync(string, string, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IResourceAgent.ActivateResourceSubstitutionAsync(string, string, bool, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nActivate or deactive a resource substitution for one or more cultures\n"
+  summary: Activate or deactive a resource substitution for one or more cultures
+  example: []
   syntax:
     content: Task ActivateResourceSubstitutionAsync(string resourceName, string culture, bool isActive, RequestOptions requestOptions = null)
     parameters:
@@ -143,12 +135,15 @@ items:
       description: New status of override
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
     content.vb: Function ActivateResourceSubstitutionAsync(resourceName As String, culture As String, isActive As Boolean, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IResourceAgent.ActivateResourceSubstitutionAsync*
+  nameWithType.vb: IResourceAgent.ActivateResourceSubstitutionAsync(String, String, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IResourceAgent.ActivateResourceSubstitutionAsync(String, String, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: ActivateResourceSubstitutionAsync(String, String, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IResourceAgent.GetResourceSubstitutionsAsync(System.String[],System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IResourceAgent.GetResourceSubstitutionsAsync(System.String[],System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: GetResourceSubstitutionsAsync(System.String[],System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -156,17 +151,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetResourceSubstitutionsAsync(String[], String, Boolean, RequestOptions)
-  nameWithType: IResourceAgent.GetResourceSubstitutionsAsync(String[], String, Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IResourceAgent.GetResourceSubstitutionsAsync(System.String[], System.String, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name: GetResourceSubstitutionsAsync(string[], string, bool, RequestOptions)
+  nameWithType: IResourceAgent.GetResourceSubstitutionsAsync(string[], string, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IResourceAgent.GetResourceSubstitutionsAsync(string[], string, bool, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet substitutions for some or all resources for one culture\n"
+  summary: Get substitutions for some or all resources for one culture
+  example: []
   syntax:
     content: Task<ResourceOverride[]> GetResourceSubstitutionsAsync(string[] resourceNames, string culture, bool activeOnly, RequestOptions requestOptions = null)
     parameters:
@@ -181,14 +174,14 @@ items:
       description: If true, then only resources with active substitutions will be returned; if false then ALL existing overrides will be returned
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ResourceOverride[]}
       description: Array of override objects, empty if there are none
     content.vb: Function GetResourceSubstitutionsAsync(resourceNames As String(), culture As String, activeOnly As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of ResourceOverride())
   overload: SuperOffice.WebApi.Agents.IResourceAgent.GetResourceSubstitutionsAsync*
   nameWithType.vb: IResourceAgent.GetResourceSubstitutionsAsync(String(), String, Boolean, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IResourceAgent.GetResourceSubstitutionsAsync(System.String(), System.String, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IResourceAgent.GetResourceSubstitutionsAsync(String(), String, Boolean, SuperOffice.WebApi.RequestOptions)
   name.vb: GetResourceSubstitutionsAsync(String(), String, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IResourceAgent.IsResourceSubstitutionActiveAsync(System.String[],System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IResourceAgent.IsResourceSubstitutionActiveAsync(System.String[],System.String,SuperOffice.WebApi.RequestOptions)
@@ -197,17 +190,15 @@ items:
   langs:
   - csharp
   - vb
-  name: IsResourceSubstitutionActiveAsync(String[], String, RequestOptions)
-  nameWithType: IResourceAgent.IsResourceSubstitutionActiveAsync(String[], String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IResourceAgent.IsResourceSubstitutionActiveAsync(System.String[], System.String, SuperOffice.WebApi.RequestOptions)
+  name: IsResourceSubstitutionActiveAsync(string[], string, RequestOptions)
+  nameWithType: IResourceAgent.IsResourceSubstitutionActiveAsync(string[], string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IResourceAgent.IsResourceSubstitutionActiveAsync(string[], string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nDetermine if resource substitution/override is active, globally or for a subset of resources/cultures\n"
+  summary: Determine if resource substitution/override is active, globally or for a subset of resources/cultures
+  example: []
   syntax:
     content: Task<ResourceOverride[]> IsResourceSubstitutionActiveAsync(string[] resourceNames, string culture, RequestOptions requestOptions = null)
     parameters:
@@ -219,25 +210,94 @@ items:
       description: .NET culture string; if empty, then get for all cultures (unless resourceName
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ResourceOverride[]}
       description: Array of override objects, empty if there are none; the ResourceValue member is not set by this call
     content.vb: Function IsResourceSubstitutionActiveAsync(resourceNames As String(), culture As String, requestOptions As RequestOptions = Nothing) As Task(Of ResourceOverride())
   overload: SuperOffice.WebApi.Agents.IResourceAgent.IsResourceSubstitutionActiveAsync*
   nameWithType.vb: IResourceAgent.IsResourceSubstitutionActiveAsync(String(), String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IResourceAgent.IsResourceSubstitutionActiveAsync(System.String(), System.String, SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IResourceAgent.IsResourceSubstitutionActiveAsync(String(), String, SuperOffice.WebApi.RequestOptions)
   name.vb: IsResourceSubstitutionActiveAsync(String(), String, RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi.Agents.IResourceAgent.SetResourceSubstitutionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IResourceAgent.SetResourceSubstitutionAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IResourceAgent.html#SuperOffice_WebApi_Agents_IResourceAgent_SetResourceSubstitutionAsync_System_String_System_String_System_String_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: SetResourceSubstitutionAsync
   nameWithType: IResourceAgent.SetResourceSubstitutionAsync
   fullName: SuperOffice.WebApi.Agents.IResourceAgent.SetResourceSubstitutionAsync
@@ -245,87 +305,153 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.WebApi.Agents.IResourceAgent.DeleteResourceSubstitutionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IResourceAgent.DeleteResourceSubstitutionAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IResourceAgent.html#SuperOffice_WebApi_Agents_IResourceAgent_DeleteResourceSubstitutionAsync_System_String_System_String_SuperOffice_WebApi_RequestOptions_
   name: DeleteResourceSubstitutionAsync
   nameWithType: IResourceAgent.DeleteResourceSubstitutionAsync
   fullName: SuperOffice.WebApi.Agents.IResourceAgent.DeleteResourceSubstitutionAsync
 - uid: SuperOffice.WebApi.Agents.IResourceAgent.ActivateResourceSubstitutionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IResourceAgent.ActivateResourceSubstitutionAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IResourceAgent.html#SuperOffice_WebApi_Agents_IResourceAgent_ActivateResourceSubstitutionAsync_System_String_System_String_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: ActivateResourceSubstitutionAsync
   nameWithType: IResourceAgent.ActivateResourceSubstitutionAsync
   fullName: SuperOffice.WebApi.Agents.IResourceAgent.ActivateResourceSubstitutionAsync
 - uid: SuperOffice.WebApi.Agents.IResourceAgent.GetResourceSubstitutionsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IResourceAgent.GetResourceSubstitutionsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IResourceAgent.html#SuperOffice_WebApi_Agents_IResourceAgent_GetResourceSubstitutionsAsync_System_String___System_String_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: GetResourceSubstitutionsAsync
   nameWithType: IResourceAgent.GetResourceSubstitutionsAsync
   fullName: SuperOffice.WebApi.Agents.IResourceAgent.GetResourceSubstitutionsAsync
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ResourceOverride[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ResourceOverride[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ResourceOverride[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ResourceOverride[]>
   nameWithType: Task<ResourceOverride[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ResourceOverride[]>
@@ -335,84 +461,63 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ResourceOverride
     name: ResourceOverride
-    nameWithType: ResourceOverride
-    fullName: SuperOffice.WebApi.Data.ResourceOverride
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ResourceOverride.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.ResourceOverride
     name: ResourceOverride
-    nameWithType: ResourceOverride
-    fullName: SuperOffice.WebApi.Data.ResourceOverride
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ResourceOverride.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: System.Threading.Tasks.Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: System.Threading.Tasks.Task(Of )
-  name.vb: Task(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IResourceAgent.IsResourceSubstitutionActiveAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IResourceAgent.IsResourceSubstitutionActiveAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IResourceAgent.html#SuperOffice_WebApi_Agents_IResourceAgent_IsResourceSubstitutionActiveAsync_System_String___System_String_SuperOffice_WebApi_RequestOptions_
   name: IsResourceSubstitutionActiveAsync
   nameWithType: IResourceAgent.IsResourceSubstitutionActiveAsync
   fullName: SuperOffice.WebApi.Agents.IResourceAgent.IsResourceSubstitutionActiveAsync

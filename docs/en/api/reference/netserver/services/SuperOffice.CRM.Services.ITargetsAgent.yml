@@ -5,31 +5,31 @@ items:
   id: ITargetsAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment
-  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompany
-  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension(System.Int32)
-  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup(System.Int32)
-  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension(System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(System.Int32,System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension
-  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroup
-  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision
-  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistory
-  - SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension(System.Int32)
-  - SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup(System.Int32)
-  - SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel(System.Int32)
-  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32)
-  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimension(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimension(System.Int32)
-  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType(SuperOffice.Data.TargetEntityType)
-  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroup(System.Int32)
-  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYear(System.Int32,SuperOffice.Data.TargetEntityType)
-  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimension(System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds(System.Int32)
-  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistory(System.Int32)
-  - SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension(SuperOffice.CRM.Services.TargetDimension)
-  - SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup(SuperOffice.CRM.Services.TargetGroup)
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimensionAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroupAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimensionAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroupAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcelAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAsync(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityTypeAsync(SuperOffice.Data.TargetEntityType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAsync(System.Int32,SuperOffice.Data.TargetEntityType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIdsAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistoryAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimensionAsync(SuperOffice.CRM.Services.TargetDimension,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroupAsync(SuperOffice.CRM.Services.TargetGroup,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -37,15 +37,28 @@ items:
   nameWithType: ITargetsAgent
   fullName: SuperOffice.CRM.Services.ITargetsAgent
   type: Interface
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInterface for the Targets Agent\nAgent lets you configure targets, and retrieve targets\n"
+  summary: >-
+    Interface for the Targets Agent
+
+    Agent lets you configure targets, and retrieve targets
   example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (TargetsAgent agent = new TargetsAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  - >-
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       using (TargetsAgent agent = new TargetsAgent())
+       {
+          // call methods on agent here...
+       }
+    }</code></pre>
   syntax:
     content: >-
       [Agent("Targets Agent", "Interface for the Targets Agent. Agent lets you configure targets, and retrieve targets")]
@@ -54,8 +67,7 @@ items:
     content.vb: >-
       <Agent("Targets Agent", "Interface for the Targets Agent. Agent lets you configure targets, and retrieve targets")>
 
-      Public Interface ITargetsAgent
-          Inherits IAgent
+      Public Interface ITargetsAgent Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -64,321 +76,347 @@ items:
       value: Targets Agent
     - type: System.String
       value: Interface for the Targets Agent. Agent lets you configure targets, and retrieve targets
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment
-  id: CreateDefaultTargetAssignment
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentAsync(System.Threading.CancellationToken)
+  id: CreateDefaultTargetAssignmentAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultTargetAssignment()
-  nameWithType: ITargetsAgent.CreateDefaultTargetAssignment()
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment()
+  name: CreateDefaultTargetAssignmentAsync(CancellationToken)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new TargetAssignment.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Loading default values into a new TargetAssignment.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: TargetAssignment CreateDefaultTargetAssignment()
+    content: Task<TargetAssignment> CreateDefaultTargetAssignmentAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetAssignment
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetAssignment}
       description: New TargetAssignment with default values
-    content.vb: Function CreateDefaultTargetAssignment As TargetAssignment
-  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension
-  id: CreateDefaultTargetDimension
+    content.vb: Function CreateDefaultTargetAssignmentAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TargetAssignment)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentAsync*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimensionAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimensionAsync(System.Threading.CancellationToken)
+  id: CreateDefaultTargetDimensionAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultTargetDimension()
-  nameWithType: ITargetsAgent.CreateDefaultTargetDimension()
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension()
+  name: CreateDefaultTargetDimensionAsync(CancellationToken)
+  nameWithType: ITargetsAgent.CreateDefaultTargetDimensionAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimensionAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new TargetDimension.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Loading default values into a new TargetDimension.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: TargetDimension CreateDefaultTargetDimension()
+    content: Task<TargetDimension> CreateDefaultTargetDimensionAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetDimension
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetDimension}
       description: New TargetDimension with default values
-    content.vb: Function CreateDefaultTargetDimension As TargetDimension
-  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension(SuperOffice.CRM.Services.TargetDimension)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension(SuperOffice.CRM.Services.TargetDimension)
-  id: SaveTargetDimension(SuperOffice.CRM.Services.TargetDimension)
+    content.vb: Function CreateDefaultTargetDimensionAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TargetDimension)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimensionAsync*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimensionAsync(SuperOffice.CRM.Services.TargetDimension,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimensionAsync(SuperOffice.CRM.Services.TargetDimension,System.Threading.CancellationToken)
+  id: SaveTargetDimensionAsync(SuperOffice.CRM.Services.TargetDimension,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: SaveTargetDimension(TargetDimension)
-  nameWithType: ITargetsAgent.SaveTargetDimension(TargetDimension)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension(SuperOffice.CRM.Services.TargetDimension)
+  name: SaveTargetDimensionAsync(TargetDimension, CancellationToken)
+  nameWithType: ITargetsAgent.SaveTargetDimensionAsync(TargetDimension, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimensionAsync(SuperOffice.CRM.Services.TargetDimension, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing TargetDimension or creates a new TargetDimension if the id parameter is empty\n"
+  summary: Updates the existing TargetDimension or creates a new TargetDimension if the id parameter is empty
+  example: []
   syntax:
-    content: TargetDimension SaveTargetDimension(TargetDimension targetDimension)
+    content: Task<TargetDimension> SaveTargetDimensionAsync(TargetDimension targetDimension, CancellationToken cancellationToken = default)
     parameters:
     - id: targetDimension
       type: SuperOffice.CRM.Services.TargetDimension
       description: The TargetDimension that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetDimension
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetDimension}
       description: New or updated TargetDimension
-    content.vb: Function SaveTargetDimension(targetDimension As TargetDimension) As TargetDimension
-  overload: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension(System.Int32)
-  id: DeleteTargetDimension(System.Int32)
+    content.vb: Function SaveTargetDimensionAsync(targetDimension As TargetDimension, cancellationToken As CancellationToken = Nothing) As Task(Of TargetDimension)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimensionAsync*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimensionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimensionAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteTargetDimensionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: DeleteTargetDimension(Int32)
-  nameWithType: ITargetsAgent.DeleteTargetDimension(Int32)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension(System.Int32)
+  name: DeleteTargetDimensionAsync(int, CancellationToken)
+  nameWithType: ITargetsAgent.DeleteTargetDimensionAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimensionAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the TargetDimension\n"
+  summary: Deletes the TargetDimension
+  example: []
   syntax:
-    content: void DeleteTargetDimension(int targetDimensionId)
+    content: Task DeleteTargetDimensionAsync(int targetDimensionId, CancellationToken cancellationToken = default)
     parameters:
     - id: targetDimensionId
       type: System.Int32
       description: The identity of the TargetDimension
-    content.vb: Sub DeleteTargetDimension(targetDimensionId As Integer)
-  overload: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroup
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroup
-  id: CreateDefaultTargetGroup
-  parent: SuperOffice.CRM.Services.ITargetsAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultTargetGroup()
-  nameWithType: ITargetsAgent.CreateDefaultTargetGroup()
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroup()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new TargetGroup.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
-  syntax:
-    content: TargetGroup CreateDefaultTargetGroup()
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetGroup
-      description: New TargetGroup with default values
-    content.vb: Function CreateDefaultTargetGroup As TargetGroup
-  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroup*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup(SuperOffice.CRM.Services.TargetGroup)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup(SuperOffice.CRM.Services.TargetGroup)
-  id: SaveTargetGroup(SuperOffice.CRM.Services.TargetGroup)
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteTargetDimensionAsync(targetDimensionId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimensionAsync*
+  nameWithType.vb: ITargetsAgent.DeleteTargetDimensionAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimensionAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteTargetDimensionAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroupAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroupAsync(System.Threading.CancellationToken)
+  id: CreateDefaultTargetGroupAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: SaveTargetGroup(TargetGroup)
-  nameWithType: ITargetsAgent.SaveTargetGroup(TargetGroup)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup(SuperOffice.CRM.Services.TargetGroup)
+  name: CreateDefaultTargetGroupAsync(CancellationToken)
+  nameWithType: ITargetsAgent.CreateDefaultTargetGroupAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroupAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing TargetGroup or creates a new TargetGroup if the id parameter is empty\n"
+  summary: >-
+    Loading default values into a new TargetGroup.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: TargetGroup SaveTargetGroup(TargetGroup targetGroup)
+    content: Task<TargetGroup> CreateDefaultTargetGroupAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetGroup}
+      description: New TargetGroup with default values
+    content.vb: Function CreateDefaultTargetGroupAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TargetGroup)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroupAsync*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroupAsync(SuperOffice.CRM.Services.TargetGroup,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroupAsync(SuperOffice.CRM.Services.TargetGroup,System.Threading.CancellationToken)
+  id: SaveTargetGroupAsync(SuperOffice.CRM.Services.TargetGroup,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTargetGroupAsync(TargetGroup, CancellationToken)
+  nameWithType: ITargetsAgent.SaveTargetGroupAsync(TargetGroup, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroupAsync(SuperOffice.CRM.Services.TargetGroup, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing TargetGroup or creates a new TargetGroup if the id parameter is empty
+  example: []
+  syntax:
+    content: Task<TargetGroup> SaveTargetGroupAsync(TargetGroup targetGroup, CancellationToken cancellationToken = default)
     parameters:
     - id: targetGroup
       type: SuperOffice.CRM.Services.TargetGroup
       description: The TargetGroup that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetGroup
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetGroup}
       description: New or updated TargetGroup
-    content.vb: Function SaveTargetGroup(targetGroup As TargetGroup) As TargetGroup
-  overload: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup(System.Int32)
-  id: DeleteTargetGroup(System.Int32)
+    content.vb: Function SaveTargetGroupAsync(targetGroup As TargetGroup, cancellationToken As CancellationToken = Nothing) As Task(Of TargetGroup)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroupAsync*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroupAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroupAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteTargetGroupAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: DeleteTargetGroup(Int32)
-  nameWithType: ITargetsAgent.DeleteTargetGroup(Int32)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup(System.Int32)
+  name: DeleteTargetGroupAsync(int, CancellationToken)
+  nameWithType: ITargetsAgent.DeleteTargetGroupAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroupAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the TargetGroup\n"
+  summary: Deletes the TargetGroup
+  example: []
   syntax:
-    content: void DeleteTargetGroup(int targetGroupId)
+    content: Task DeleteTargetGroupAsync(int targetGroupId, CancellationToken cancellationToken = default)
     parameters:
     - id: targetGroupId
       type: System.Int32
       description: The identity of the TargetGroup
-    content.vb: Sub DeleteTargetGroup(targetGroupId As Integer)
-  overload: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision
-  id: CreateDefaultTargetRevision
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteTargetGroupAsync(targetGroupId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroupAsync*
+  nameWithType.vb: ITargetsAgent.DeleteTargetGroupAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroupAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteTargetGroupAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionAsync(System.Threading.CancellationToken)
+  id: CreateDefaultTargetRevisionAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultTargetRevision()
-  nameWithType: ITargetsAgent.CreateDefaultTargetRevision()
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision()
+  name: CreateDefaultTargetRevisionAsync(CancellationToken)
+  nameWithType: ITargetsAgent.CreateDefaultTargetRevisionAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new TargetRevision.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Loading default values into a new TargetRevision.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: TargetRevision CreateDefaultTargetRevision()
+    content: Task<TargetRevision> CreateDefaultTargetRevisionAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetRevision
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetRevision}
       description: New TargetRevision with default values
-    content.vb: Function CreateDefaultTargetRevision As TargetRevision
-  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistory
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistory
-  id: CreateDefaultTargetRevisionHistory
+    content.vb: Function CreateDefaultTargetRevisionAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TargetRevision)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionAsync*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync(System.Threading.CancellationToken)
+  id: CreateDefaultTargetRevisionHistoryAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultTargetRevisionHistory()
-  nameWithType: ITargetsAgent.CreateDefaultTargetRevisionHistory()
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistory()
+  name: CreateDefaultTargetRevisionHistoryAsync(CancellationToken)
+  nameWithType: ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new TargetRevisionHistory.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Loading default values into a new TargetRevisionHistory.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: TargetRevisionHistory CreateDefaultTargetRevisionHistory()
+    content: Task<TargetRevisionHistory> CreateDefaultTargetRevisionHistoryAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetRevisionHistory
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetRevisionHistory}
       description: New TargetRevisionHistory with default values
-    content.vb: Function CreateDefaultTargetRevisionHistory As TargetRevisionHistory
-  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistory*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompany
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompany
-  id: CreateDefaultTargetAssignmentForCompany
+    content.vb: Function CreateDefaultTargetRevisionHistoryAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TargetRevisionHistory)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync(System.Threading.CancellationToken)
+  id: CreateDefaultTargetAssignmentForCompanyAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultTargetAssignmentForCompany()
-  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompany()
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompany()
+  name: CreateDefaultTargetAssignmentForCompanyAsync(CancellationToken)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns a default target assignment for the owner company.\n"
+  summary: Returns a default target assignment for the owner company.
+  example: []
   syntax:
-    content: TargetAssignment CreateDefaultTargetAssignmentForCompany()
+    content: Task<TargetAssignment> CreateDefaultTargetAssignmentForCompanyAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetAssignment
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetAssignment}
       description: Default target assignment for the owner company.
-    content.vb: Function CreateDefaultTargetAssignmentForCompany As TargetAssignment
-  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompany*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup(System.Int32)
-  id: CreateDefaultTargetAssignmentForUserGroup(System.Int32)
+    content.vb: Function CreateDefaultTargetAssignmentForCompanyAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TargetAssignment)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync(System.Int32,System.Threading.CancellationToken)
+  id: CreateDefaultTargetAssignmentForUserGroupAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultTargetAssignmentForUserGroup(Int32)
-  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup(Int32)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup(System.Int32)
+  name: CreateDefaultTargetAssignmentForUserGroupAsync(int, CancellationToken)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns a default target assignment for the specified usergroup.\n"
+  summary: Returns a default target assignment for the specified usergroup.
+  example: []
   syntax:
-    content: TargetAssignment[] CreateDefaultTargetAssignmentForUserGroup(int userGroupId)
+    content: Task<TargetAssignment[]> CreateDefaultTargetAssignmentForUserGroupAsync(int userGroupId, CancellationToken cancellationToken = default)
     parameters:
     - id: userGroupId
       type: System.Int32
       description: The id of the UserGroup
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetAssignment[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetAssignment[]}
       description: Default target assignment for the specified usergroup.
-    content.vb: Function CreateDefaultTargetAssignmentForUserGroup(userGroupId As Integer) As TargetAssignment()
-  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32)
-  id: GetTargetAssignmentForYear(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32)
+    content.vb: Function CreateDefaultTargetAssignmentForUserGroupAsync(userGroupId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TargetAssignment())
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync*
+  nameWithType.vb: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync(Integer, System.Threading.CancellationToken)
+  name.vb: CreateDefaultTargetAssignmentForUserGroupAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAsync(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAsync(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32,System.Threading.CancellationToken)
+  id: GetTargetAssignmentForYearAsync(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: GetTargetAssignmentForYear(Int32, TargetEntityType, TargetLevel, Int32)
-  nameWithType: ITargetsAgent.GetTargetAssignmentForYear(Int32, TargetEntityType, TargetLevel, Int32)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear(System.Int32, SuperOffice.Data.TargetEntityType, SuperOffice.Data.TargetLevel, System.Int32)
+  name: GetTargetAssignmentForYearAsync(int, TargetEntityType, TargetLevel, int, CancellationToken)
+  nameWithType: ITargetsAgent.GetTargetAssignmentForYearAsync(int, TargetEntityType, TargetLevel, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAsync(int, SuperOffice.Data.TargetEntityType, SuperOffice.Data.TargetLevel, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the target assignment for the specified year and entity type.\n"
+  summary: Returns the target assignment for the specified year and entity type.
+  example: []
   syntax:
-    content: TargetAssignment GetTargetAssignmentForYear(int targetYear, TargetEntityType entityType, TargetLevel targetLevel, int id)
+    content: Task<TargetAssignment> GetTargetAssignmentForYearAsync(int targetYear, TargetEntityType entityType, TargetLevel targetLevel, int id, CancellationToken cancellationToken = default)
     parameters:
     - id: targetYear
       type: System.Int32
@@ -392,60 +430,66 @@ items:
     - id: id
       type: System.Int32
       description: Contact, UserGroup or Associate id.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetAssignment
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetAssignment}
       description: Target assignment for a specified entity for year and entity type. Null if not found.
-    content.vb: Function GetTargetAssignmentForYear(targetYear As Integer, entityType As TargetEntityType, targetLevel As TargetLevel, id As Integer) As TargetAssignment
-  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension(System.Int32)
-  id: CreateDefaultTargetAssignmentForCompanyWithDimension(System.Int32)
+    content.vb: Function GetTargetAssignmentForYearAsync(targetYear As Integer, entityType As TargetEntityType, targetLevel As TargetLevel, id As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TargetAssignment)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAsync*
+  nameWithType.vb: ITargetsAgent.GetTargetAssignmentForYearAsync(Integer, TargetEntityType, TargetLevel, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAsync(Integer, SuperOffice.Data.TargetEntityType, SuperOffice.Data.TargetLevel, Integer, System.Threading.CancellationToken)
+  name.vb: GetTargetAssignmentForYearAsync(Integer, TargetEntityType, TargetLevel, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(System.Int32,System.Threading.CancellationToken)
+  id: CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultTargetAssignmentForCompanyWithDimension(Int32)
-  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension(Int32)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension(System.Int32)
+  name: CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(int, CancellationToken)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns a default target assignment for the owner company, for the specified dimension.\n"
+  summary: Returns a default target assignment for the owner company, for the specified dimension.
+  example: []
   syntax:
-    content: TargetAssignment[] CreateDefaultTargetAssignmentForCompanyWithDimension(int targetDimensionId)
+    content: Task<TargetAssignment[]> CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(int targetDimensionId, CancellationToken cancellationToken = default)
     parameters:
     - id: targetDimensionId
       type: System.Int32
       description: The dimension id to use.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetAssignment[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetAssignment[]}
       description: Default target assignments for the owner company.
-    content.vb: Function CreateDefaultTargetAssignmentForCompanyWithDimension(targetDimensionId As Integer) As TargetAssignment()
-  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension(System.Int32,System.Int32)
-  id: CreateDefaultTargetAssignmentForUserGroupWithDimension(System.Int32,System.Int32)
+    content.vb: Function CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(targetDimensionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TargetAssignment())
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync*
+  nameWithType.vb: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(Integer, System.Threading.CancellationToken)
+  name.vb: CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultTargetAssignmentForUserGroupWithDimension(Int32, Int32)
-  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension(Int32, Int32)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension(System.Int32, System.Int32)
+  name: CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(int, int, CancellationToken)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns a default target assignment for the specified usergroup, for the specified dimension.\n"
+  summary: Returns a default target assignment for the specified usergroup, for the specified dimension.
+  example: []
   syntax:
-    content: TargetAssignment[] CreateDefaultTargetAssignmentForUserGroupWithDimension(int userGroupId, int targetDimensionId)
+    content: Task<TargetAssignment[]> CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(int userGroupId, int targetDimensionId, CancellationToken cancellationToken = default)
     parameters:
     - id: userGroupId
       type: System.Int32
@@ -453,31 +497,34 @@ items:
     - id: targetDimensionId
       type: System.Int32
       description: The dimension id to use.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetAssignment[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetAssignment[]}
       description: Default target assignment for the specified usergroup.
-    content.vb: Function CreateDefaultTargetAssignmentForUserGroupWithDimension(userGroupId As Integer, targetDimensionId As Integer) As TargetAssignment()
-  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimension(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimension(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32,System.Int32)
-  id: GetTargetAssignmentForYearAndDimension(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32,System.Int32)
+    content.vb: Function CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(userGroupId As Integer, targetDimensionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TargetAssignment())
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync*
+  nameWithType.vb: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetTargetAssignmentForYearAndDimensionAsync(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: GetTargetAssignmentForYearAndDimension(Int32, TargetEntityType, TargetLevel, Int32, Int32)
-  nameWithType: ITargetsAgent.GetTargetAssignmentForYearAndDimension(Int32, TargetEntityType, TargetLevel, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimension(System.Int32, SuperOffice.Data.TargetEntityType, SuperOffice.Data.TargetLevel, System.Int32, System.Int32)
+  name: GetTargetAssignmentForYearAndDimensionAsync(int, TargetEntityType, TargetLevel, int, int, CancellationToken)
+  nameWithType: ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync(int, TargetEntityType, TargetLevel, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync(int, SuperOffice.Data.TargetEntityType, SuperOffice.Data.TargetLevel, int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the target assignment for the specified year, entity type and dimension.\n"
+  summary: Returns the target assignment for the specified year, entity type and dimension.
+  example: []
   syntax:
-    content: TargetAssignment GetTargetAssignmentForYearAndDimension(int targetYear, TargetEntityType entityType, TargetLevel targetLevel, int id, int dimensionId)
+    content: Task<TargetAssignment> GetTargetAssignmentForYearAndDimensionAsync(int targetYear, TargetEntityType entityType, TargetLevel targetLevel, int id, int dimensionId, CancellationToken cancellationToken = default)
     parameters:
     - id: targetYear
       type: System.Int32
@@ -494,31 +541,34 @@ items:
     - id: dimensionId
       type: System.Int32
       description: Id of dimension.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetAssignment
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetAssignment}
       description: Target assignment for a specified entity for year and entity type. Null if not found.
-    content.vb: Function GetTargetAssignmentForYearAndDimension(targetYear As Integer, entityType As TargetEntityType, targetLevel As TargetLevel, id As Integer, dimensionId As Integer) As TargetAssignment
-  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimension*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(System.Int32,System.Int32)
-  id: CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(System.Int32,System.Int32)
+    content.vb: Function GetTargetAssignmentForYearAndDimensionAsync(targetYear As Integer, entityType As TargetEntityType, targetLevel As TargetLevel, id As Integer, dimensionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TargetAssignment)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync*
+  nameWithType.vb: ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync(Integer, TargetEntityType, TargetLevel, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync(Integer, SuperOffice.Data.TargetEntityType, SuperOffice.Data.TargetLevel, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetTargetAssignmentForYearAndDimensionAsync(Integer, TargetEntityType, TargetLevel, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(Int32, Int32)
-  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(Int32, Int32)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(System.Int32, System.Int32)
+  name: CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(int, int, CancellationToken)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns a default target assignment for the owner company, for the specified year and dimension.\n"
+  summary: Returns a default target assignment for the owner company, for the specified year and dimension.
+  example: []
   syntax:
-    content: TargetAssignment[] CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(int year, int targetDimensionId)
+    content: Task<TargetAssignment[]> CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(int year, int targetDimensionId, CancellationToken cancellationToken = default)
     parameters:
     - id: year
       type: System.Int32
@@ -526,31 +576,34 @@ items:
     - id: targetDimensionId
       type: System.Int32
       description: The dimension id to use.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetAssignment[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetAssignment[]}
       description: Default target assignments for the owner company.
-    content.vb: Function CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(year As Integer, targetDimensionId As Integer) As TargetAssignment()
-  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(System.Int32,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(System.Int32,System.Int32,System.Int32)
-  id: CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(System.Int32,System.Int32,System.Int32)
+    content.vb: Function CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(year As Integer, targetDimensionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TargetAssignment())
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync*
+  nameWithType.vb: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(Int32, Int32, Int32)
-  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(Int32, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(System.Int32, System.Int32, System.Int32)
+  name: CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(int, int, int, CancellationToken)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(int, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(int, int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns a default target assignment for the specified usergroup, for the specified year and dimension.\n"
+  summary: Returns a default target assignment for the specified usergroup, for the specified year and dimension.
+  example: []
   syntax:
-    content: TargetAssignment[] CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(int userGroupId, int year, int targetDimensionId)
+    content: Task<TargetAssignment[]> CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(int userGroupId, int year, int targetDimensionId, CancellationToken cancellationToken = default)
     parameters:
     - id: userGroupId
       type: System.Int32
@@ -561,147 +614,159 @@ items:
     - id: targetDimensionId
       type: System.Int32
       description: The dimension id to use.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetAssignment[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetAssignment[]}
       description: Default target assignment for the specified usergroup.
-    content.vb: Function CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(userGroupId As Integer, year As Integer, targetDimensionId As Integer) As TargetAssignment()
-  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimension(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimension(System.Int32)
-  id: GetTargetDimension(System.Int32)
+    content.vb: Function CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(userGroupId As Integer, year As Integer, targetDimensionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TargetAssignment())
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync*
+  nameWithType.vb: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(Integer, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(Integer, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(Integer, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTargetDimensionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: GetTargetDimension(Int32)
-  nameWithType: ITargetsAgent.GetTargetDimension(Int32)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimension(System.Int32)
+  name: GetTargetDimensionAsync(int, CancellationToken)
+  nameWithType: ITargetsAgent.GetTargetDimensionAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a TargetDimension object.                        \n"
+  summary: Gets a TargetDimension object.
+  example: []
   syntax:
-    content: TargetDimension GetTargetDimension(int targetDimensionId)
+    content: Task<TargetDimension> GetTargetDimensionAsync(int targetDimensionId, CancellationToken cancellationToken = default)
     parameters:
     - id: targetDimensionId
       type: System.Int32
       description: The identifier of the TargetDimension object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetDimension
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetDimension}
       description: TargetDimension
-    content.vb: Function GetTargetDimension(targetDimensionId As Integer) As TargetDimension
-  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimension*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType(SuperOffice.Data.TargetEntityType)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType(SuperOffice.Data.TargetEntityType)
-  id: GetTargetDimensionsForEntityType(SuperOffice.Data.TargetEntityType)
+    content.vb: Function GetTargetDimensionAsync(targetDimensionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TargetDimension)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionAsync*
+  nameWithType.vb: ITargetsAgent.GetTargetDimensionAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetTargetDimensionAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityTypeAsync(SuperOffice.Data.TargetEntityType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityTypeAsync(SuperOffice.Data.TargetEntityType,System.Threading.CancellationToken)
+  id: GetTargetDimensionsForEntityTypeAsync(SuperOffice.Data.TargetEntityType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: GetTargetDimensionsForEntityType(TargetEntityType)
-  nameWithType: ITargetsAgent.GetTargetDimensionsForEntityType(TargetEntityType)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType(SuperOffice.Data.TargetEntityType)
+  name: GetTargetDimensionsForEntityTypeAsync(TargetEntityType, CancellationToken)
+  nameWithType: ITargetsAgent.GetTargetDimensionsForEntityTypeAsync(TargetEntityType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityTypeAsync(SuperOffice.Data.TargetEntityType, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the target dimensions for the given entity type.\n"
+  summary: Returns the target dimensions for the given entity type.
+  example: []
   syntax:
-    content: TargetDimension[] GetTargetDimensionsForEntityType(TargetEntityType entityType)
+    content: Task<TargetDimension[]> GetTargetDimensionsForEntityTypeAsync(TargetEntityType entityType, CancellationToken cancellationToken = default)
     parameters:
     - id: entityType
       type: SuperOffice.Data.TargetEntityType
       description: Targeted entity type
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetDimension[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetDimension[]}
       description: Target dimensions for year and entity type.
-    content.vb: Function GetTargetDimensionsForEntityType(entityType As TargetEntityType) As TargetDimension()
-  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds(System.Int32)
-  id: GetTargetGroupIds(System.Int32)
+    content.vb: Function GetTargetDimensionsForEntityTypeAsync(entityType As TargetEntityType, cancellationToken As CancellationToken = Nothing) As Task(Of TargetDimension())
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityTypeAsync*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIdsAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIdsAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTargetGroupIdsAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: GetTargetGroupIds(Int32)
-  nameWithType: ITargetsAgent.GetTargetGroupIds(Int32)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds(System.Int32)
+  name: GetTargetGroupIdsAsync(int, CancellationToken)
+  nameWithType: ITargetsAgent.GetTargetGroupIdsAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIdsAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns ids of the target groups that use this dimension.\n"
+  summary: Returns ids of the target groups that use this dimension.
+  example: []
   syntax:
-    content: int[] GetTargetGroupIds(int targetDimensionId)
+    content: Task<int[]> GetTargetGroupIdsAsync(int targetDimensionId, CancellationToken cancellationToken = default)
     parameters:
     - id: targetDimensionId
       type: System.Int32
       description: The target dimension id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32[]
+      type: System.Threading.Tasks.Task{System.Int32[]}
       description: Target group ids.
-    content.vb: Function GetTargetGroupIds(targetDimensionId As Integer) As Integer()
-  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroup(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroup(System.Int32)
-  id: GetTargetGroup(System.Int32)
+    content.vb: Function GetTargetGroupIdsAsync(targetDimensionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer())
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIdsAsync*
+  nameWithType.vb: ITargetsAgent.GetTargetGroupIdsAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIdsAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetTargetGroupIdsAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTargetGroupAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: GetTargetGroup(Int32)
-  nameWithType: ITargetsAgent.GetTargetGroup(Int32)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroup(System.Int32)
+  name: GetTargetGroupAsync(int, CancellationToken)
+  nameWithType: ITargetsAgent.GetTargetGroupAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a TargetGroup object.                        \n"
+  summary: Gets a TargetGroup object.
+  example: []
   syntax:
-    content: TargetGroup GetTargetGroup(int targetGroupId)
+    content: Task<TargetGroup> GetTargetGroupAsync(int targetGroupId, CancellationToken cancellationToken = default)
     parameters:
     - id: targetGroupId
       type: System.Int32
       description: The identifier of the TargetGroup object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetGroup
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetGroup}
       description: TargetGroup
-    content.vb: Function GetTargetGroup(targetGroupId As Integer) As TargetGroup
-  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroup*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYear(System.Int32,SuperOffice.Data.TargetEntityType)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYear(System.Int32,SuperOffice.Data.TargetEntityType)
-  id: GetTargetGroupForYear(System.Int32,SuperOffice.Data.TargetEntityType)
+    content.vb: Function GetTargetGroupAsync(targetGroupId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TargetGroup)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupAsync*
+  nameWithType.vb: ITargetsAgent.GetTargetGroupAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetTargetGroupAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAsync(System.Int32,SuperOffice.Data.TargetEntityType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAsync(System.Int32,SuperOffice.Data.TargetEntityType,System.Threading.CancellationToken)
+  id: GetTargetGroupForYearAsync(System.Int32,SuperOffice.Data.TargetEntityType,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: GetTargetGroupForYear(Int32, TargetEntityType)
-  nameWithType: ITargetsAgent.GetTargetGroupForYear(Int32, TargetEntityType)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYear(System.Int32, SuperOffice.Data.TargetEntityType)
+  name: GetTargetGroupForYearAsync(int, TargetEntityType, CancellationToken)
+  nameWithType: ITargetsAgent.GetTargetGroupForYearAsync(int, TargetEntityType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAsync(int, SuperOffice.Data.TargetEntityType, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the target group for the specified year and entity type.\n"
+  summary: Returns the target group for the specified year and entity type.
+  example: []
   syntax:
-    content: TargetGroup GetTargetGroupForYear(int targetYear, TargetEntityType entityType)
+    content: Task<TargetGroup> GetTargetGroupForYearAsync(int targetYear, TargetEntityType entityType, CancellationToken cancellationToken = default)
     parameters:
     - id: targetYear
       type: System.Int32
@@ -709,59 +774,66 @@ items:
     - id: entityType
       type: SuperOffice.Data.TargetEntityType
       description: Targeted entity type
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetGroup
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetGroup}
       description: Target Group for year and entity type.
-    content.vb: Function GetTargetGroupForYear(targetYear As Integer, entityType As TargetEntityType) As TargetGroup
-  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYear*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel(System.Int32)
-  id: ExportTargetGroupToExcel(System.Int32)
+    content.vb: Function GetTargetGroupForYearAsync(targetYear As Integer, entityType As TargetEntityType, cancellationToken As CancellationToken = Nothing) As Task(Of TargetGroup)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAsync*
+  nameWithType.vb: ITargetsAgent.GetTargetGroupForYearAsync(Integer, TargetEntityType, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAsync(Integer, SuperOffice.Data.TargetEntityType, System.Threading.CancellationToken)
+  name.vb: GetTargetGroupForYearAsync(Integer, TargetEntityType, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcelAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcelAsync(System.Int32,System.Threading.CancellationToken)
+  id: ExportTargetGroupToExcelAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: ExportTargetGroupToExcel(Int32)
-  nameWithType: ITargetsAgent.ExportTargetGroupToExcel(Int32)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel(System.Int32)
+  name: ExportTargetGroupToExcelAsync(int, CancellationToken)
+  nameWithType: ITargetsAgent.ExportTargetGroupToExcelAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcelAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRenders the given targetgroup to excel, and returns the path to the temporary file.\n"
+  summary: Renders the given targetgroup to excel, and returns the path to the temporary file.
+  example: []
   syntax:
-    content: ExportArchiveResult ExportTargetGroupToExcel(int targetGroupId)
+    content: Task<ExportArchiveResult> ExportTargetGroupToExcelAsync(int targetGroupId, CancellationToken cancellationToken = default)
     parameters:
     - id: targetGroupId
       type: System.Int32
       description: The id of the targetgroup to be rendered to excel.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ExportArchiveResult
-    content.vb: Function ExportTargetGroupToExcel(targetGroupId As Integer) As ExportArchiveResult
-  overload: SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimension(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimension(System.Int32,System.Int32)
-  id: GetTargetGroupForYearAndDimension(System.Int32,System.Int32)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ExportArchiveResult}
+      description: ''
+    content.vb: Function ExportTargetGroupToExcelAsync(targetGroupId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ExportArchiveResult)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcelAsync*
+  nameWithType.vb: ITargetsAgent.ExportTargetGroupToExcelAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcelAsync(Integer, System.Threading.CancellationToken)
+  name.vb: ExportTargetGroupToExcelAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetTargetGroupForYearAndDimensionAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: GetTargetGroupForYearAndDimension(Int32, Int32)
-  nameWithType: ITargetsAgent.GetTargetGroupForYearAndDimension(Int32, Int32)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimension(System.Int32, System.Int32)
+  name: GetTargetGroupForYearAndDimensionAsync(int, int, CancellationToken)
+  nameWithType: ITargetsAgent.GetTargetGroupForYearAndDimensionAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync(int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the target group for the specified year and dimension.\n"
+  summary: Returns the target group for the specified year and dimension.
+  example: []
   syntax:
-    content: TargetGroup GetTargetGroupForYearAndDimension(int targetYear, int dimensionId)
+    content: Task<TargetGroup> GetTargetGroupForYearAndDimensionAsync(int targetYear, int dimensionId, CancellationToken cancellationToken = default)
     parameters:
     - id: targetYear
       type: System.Int32
@@ -769,193 +841,526 @@ items:
     - id: dimensionId
       type: System.Int32
       description: Targeted dimension Id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetGroup
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetGroup}
       description: Target Group for year and dimension.
-    content.vb: Function GetTargetGroupForYearAndDimension(targetYear As Integer, dimensionId As Integer) As TargetGroup
-  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimension*
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistory(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistory(System.Int32)
-  id: GetTargetRevisionHistory(System.Int32)
+    content.vb: Function GetTargetGroupForYearAndDimensionAsync(targetYear As Integer, dimensionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TargetGroup)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync*
+  nameWithType.vb: ITargetsAgent.GetTargetGroupForYearAndDimensionAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetTargetGroupForYearAndDimensionAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistoryAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistoryAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTargetRevisionHistoryAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITargetsAgent
   langs:
   - csharp
   - vb
-  name: GetTargetRevisionHistory(Int32)
-  nameWithType: ITargetsAgent.GetTargetRevisionHistory(Int32)
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistory(System.Int32)
+  name: GetTargetRevisionHistoryAsync(int, CancellationToken)
+  nameWithType: ITargetsAgent.GetTargetRevisionHistoryAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistoryAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the revision history for a given TargetAssignmentInfo in chronological order.\n"
+  summary: Returns the revision history for a given TargetAssignmentInfo in chronological order.
+  example: []
   syntax:
-    content: TargetRevisionHistory GetTargetRevisionHistory(int targetAssignmentInfoId)
+    content: Task<TargetRevisionHistory> GetTargetRevisionHistoryAsync(int targetAssignmentInfoId, CancellationToken cancellationToken = default)
     parameters:
     - id: targetAssignmentInfoId
       type: System.Int32
       description: Target assignment info id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.TargetRevisionHistory
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetRevisionHistory}
       description: Target revision history for the given TargetAssignmentInfo
-    content.vb: Function GetTargetRevisionHistory(targetAssignmentInfoId As Integer) As TargetRevisionHistory
-  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistory*
+    content.vb: Function GetTargetRevisionHistoryAsync(targetAssignmentInfoId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TargetRevisionHistory)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistoryAsync*
+  nameWithType.vb: ITargetsAgent.GetTargetRevisionHistoryAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistoryAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetTargetRevisionHistoryAsync(Integer, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentAsync
   isExternal: true
-  name: CreateDefaultTargetAssignment
-  nameWithType: ITargetsAgent.CreateDefaultTargetAssignment
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment
-- uid: SuperOffice.CRM.Services.TargetAssignment
-  commentId: T:SuperOffice.CRM.Services.TargetAssignment
-  parent: SuperOffice.CRM.Services
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_CreateDefaultTargetAssignmentAsync_System_Threading_CancellationToken_
+  name: CreateDefaultTargetAssignmentAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: TargetAssignment
-  nameWithType: TargetAssignment
-  fullName: SuperOffice.CRM.Services.TargetAssignment
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetAssignment}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetAssignment}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TargetAssignment>
+  nameWithType: Task<TargetAssignment>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TargetAssignment>
+  nameWithType.vb: Task(Of TargetAssignment)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TargetAssignment)
+  name.vb: Task(Of TargetAssignment)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.TargetAssignment
+    name: TargetAssignment
+    isExternal: true
+    href: SuperOffice.CRM.Services.TargetAssignment.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TargetAssignment
+    name: TargetAssignment
+    isExternal: true
+    href: SuperOffice.CRM.Services.TargetAssignment.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: CreateDefaultTargetDimension
-  nameWithType: ITargetsAgent.CreateDefaultTargetDimension
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimensionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimensionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_CreateDefaultTargetDimensionAsync_System_Threading_CancellationToken_
+  name: CreateDefaultTargetDimensionAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetDimensionAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimensionAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetDimension}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetDimension}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TargetDimension>
+  nameWithType: Task<TargetDimension>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TargetDimension>
+  nameWithType.vb: Task(Of TargetDimension)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TargetDimension)
+  name.vb: Task(Of TargetDimension)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.TargetDimension
+    name: TargetDimension
+    isExternal: true
+    href: SuperOffice.CRM.Services.TargetDimension.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TargetDimension
+    name: TargetDimension
+    isExternal: true
+    href: SuperOffice.CRM.Services.TargetDimension.html
+  - name: )
+- uid: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimensionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimensionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_SaveTargetDimensionAsync_SuperOffice_CRM_Services_TargetDimension_System_Threading_CancellationToken_
+  name: SaveTargetDimensionAsync
+  nameWithType: ITargetsAgent.SaveTargetDimensionAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimensionAsync
 - uid: SuperOffice.CRM.Services.TargetDimension
   commentId: T:SuperOffice.CRM.Services.TargetDimension
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetDimension.html
   name: TargetDimension
   nameWithType: TargetDimension
   fullName: SuperOffice.CRM.Services.TargetDimension
-- uid: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension
+- uid: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimensionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimensionAsync
   isExternal: true
-  name: SaveTargetDimension
-  nameWithType: ITargetsAgent.SaveTargetDimension
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension
-- uid: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension
-  isExternal: true
-  name: DeleteTargetDimension
-  nameWithType: ITargetsAgent.DeleteTargetDimension
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_DeleteTargetDimensionAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteTargetDimensionAsync
+  nameWithType: ITargetsAgent.DeleteTargetDimensionAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimensionAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroup*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroup
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroupAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroupAsync
   isExternal: true
-  name: CreateDefaultTargetGroup
-  nameWithType: ITargetsAgent.CreateDefaultTargetGroup
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroup
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_CreateDefaultTargetGroupAsync_System_Threading_CancellationToken_
+  name: CreateDefaultTargetGroupAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetGroupAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroupAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetGroup}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetGroup}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TargetGroup>
+  nameWithType: Task<TargetGroup>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TargetGroup>
+  nameWithType.vb: Task(Of TargetGroup)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TargetGroup)
+  name.vb: Task(Of TargetGroup)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.TargetGroup
+    name: TargetGroup
+    isExternal: true
+    href: SuperOffice.CRM.Services.TargetGroup.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TargetGroup
+    name: TargetGroup
+    isExternal: true
+    href: SuperOffice.CRM.Services.TargetGroup.html
+  - name: )
+- uid: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroupAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroupAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_SaveTargetGroupAsync_SuperOffice_CRM_Services_TargetGroup_System_Threading_CancellationToken_
+  name: SaveTargetGroupAsync
+  nameWithType: ITargetsAgent.SaveTargetGroupAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroupAsync
 - uid: SuperOffice.CRM.Services.TargetGroup
   commentId: T:SuperOffice.CRM.Services.TargetGroup
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.TargetGroup.html
   name: TargetGroup
   nameWithType: TargetGroup
   fullName: SuperOffice.CRM.Services.TargetGroup
-- uid: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup
+- uid: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroupAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroupAsync
   isExternal: true
-  name: SaveTargetGroup
-  nameWithType: ITargetsAgent.SaveTargetGroup
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup
-- uid: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_DeleteTargetGroupAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteTargetGroupAsync
+  nameWithType: ITargetsAgent.DeleteTargetGroupAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroupAsync
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionAsync
   isExternal: true
-  name: DeleteTargetGroup
-  nameWithType: ITargetsAgent.DeleteTargetGroup
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision
-  isExternal: true
-  name: CreateDefaultTargetRevision
-  nameWithType: ITargetsAgent.CreateDefaultTargetRevision
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision
-- uid: SuperOffice.CRM.Services.TargetRevision
-  commentId: T:SuperOffice.CRM.Services.TargetRevision
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: TargetRevision
-  nameWithType: TargetRevision
-  fullName: SuperOffice.CRM.Services.TargetRevision
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistory*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistory
-  isExternal: true
-  name: CreateDefaultTargetRevisionHistory
-  nameWithType: ITargetsAgent.CreateDefaultTargetRevisionHistory
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistory
-- uid: SuperOffice.CRM.Services.TargetRevisionHistory
-  commentId: T:SuperOffice.CRM.Services.TargetRevisionHistory
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: TargetRevisionHistory
-  nameWithType: TargetRevisionHistory
-  fullName: SuperOffice.CRM.Services.TargetRevisionHistory
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompany*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompany
-  isExternal: true
-  name: CreateDefaultTargetAssignmentForCompany
-  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompany
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompany
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup
-  isExternal: true
-  name: CreateDefaultTargetAssignmentForUserGroup
-  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup
-- uid: SuperOffice.CRM.Services.TargetAssignment[]
-  isExternal: true
-  name: TargetAssignment[]
-  nameWithType: TargetAssignment[]
-  fullName: SuperOffice.CRM.Services.TargetAssignment[]
-  nameWithType.vb: TargetAssignment()
-  fullName.vb: SuperOffice.CRM.Services.TargetAssignment()
-  name.vb: TargetAssignment()
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_CreateDefaultTargetRevisionAsync_System_Threading_CancellationToken_
+  name: CreateDefaultTargetRevisionAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetRevisionAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetRevision}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetRevision}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TargetRevision>
+  nameWithType: Task<TargetRevision>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TargetRevision>
+  nameWithType.vb: Task(Of TargetRevision)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TargetRevision)
+  name.vb: Task(Of TargetRevision)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.TargetAssignment
-    name: TargetAssignment
-    nameWithType: TargetAssignment
-    fullName: SuperOffice.CRM.Services.TargetAssignment
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.TargetRevision
+    name: TargetRevision
+    isExternal: true
+    href: SuperOffice.CRM.Services.TargetRevision.html
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TargetRevision
+    name: TargetRevision
+    isExternal: true
+    href: SuperOffice.CRM.Services.TargetRevision.html
+  - name: )
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_CreateDefaultTargetRevisionHistoryAsync_System_Threading_CancellationToken_
+  name: CreateDefaultTargetRevisionHistoryAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetRevisionHistory}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetRevisionHistory}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TargetRevisionHistory>
+  nameWithType: Task<TargetRevisionHistory>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TargetRevisionHistory>
+  nameWithType.vb: Task(Of TargetRevisionHistory)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TargetRevisionHistory)
+  name.vb: Task(Of TargetRevisionHistory)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.TargetRevisionHistory
+    name: TargetRevisionHistory
+    isExternal: true
+    href: SuperOffice.CRM.Services.TargetRevisionHistory.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TargetRevisionHistory
+    name: TargetRevisionHistory
+    isExternal: true
+    href: SuperOffice.CRM.Services.TargetRevisionHistory.html
+  - name: )
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_CreateDefaultTargetAssignmentForCompanyAsync_System_Threading_CancellationToken_
+  name: CreateDefaultTargetAssignmentForCompanyAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_CreateDefaultTargetAssignmentForUserGroupAsync_System_Int32_System_Threading_CancellationToken_
+  name: CreateDefaultTargetAssignmentForUserGroupAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetAssignment[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetAssignment[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TargetAssignment[]>
+  nameWithType: Task<TargetAssignment[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TargetAssignment[]>
+  nameWithType.vb: Task(Of TargetAssignment())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TargetAssignment())
+  name.vb: Task(Of TargetAssignment())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.CRM.Services.TargetAssignment
     name: TargetAssignment
-    nameWithType: TargetAssignment
-    fullName: SuperOffice.CRM.Services.TargetAssignment
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear
+    href: SuperOffice.CRM.Services.TargetAssignment.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TargetAssignment
+    name: TargetAssignment
+    isExternal: true
+    href: SuperOffice.CRM.Services.TargetAssignment.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAsync
   isExternal: true
-  name: GetTargetAssignmentForYear
-  nameWithType: ITargetsAgent.GetTargetAssignmentForYear
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_GetTargetAssignmentForYearAsync_System_Int32_SuperOffice_Data_TargetEntityType_SuperOffice_Data_TargetLevel_System_Int32_System_Threading_CancellationToken_
+  name: GetTargetAssignmentForYearAsync
+  nameWithType: ITargetsAgent.GetTargetAssignmentForYearAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAsync
 - uid: SuperOffice.Data.TargetEntityType
   isExternal: true
   name: TargetEntityType
@@ -966,140 +1371,207 @@ references:
   name: TargetLevel
   nameWithType: TargetLevel
   fullName: SuperOffice.Data.TargetLevel
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync
   isExternal: true
-  name: CreateDefaultTargetAssignmentForCompanyWithDimension
-  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_CreateDefaultTargetAssignmentForCompanyWithDimensionAsync_System_Int32_System_Threading_CancellationToken_
+  name: CreateDefaultTargetAssignmentForCompanyWithDimensionAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync
   isExternal: true
-  name: CreateDefaultTargetAssignmentForUserGroupWithDimension
-  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimension*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimension
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync
   isExternal: true
-  name: GetTargetAssignmentForYearAndDimension
-  nameWithType: ITargetsAgent.GetTargetAssignmentForYearAndDimension
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimension
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_GetTargetAssignmentForYearAndDimensionAsync_System_Int32_SuperOffice_Data_TargetEntityType_SuperOffice_Data_TargetLevel_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetTargetAssignmentForYearAndDimensionAsync
+  nameWithType: ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync
   isExternal: true
-  name: CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
-  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
-- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync
   isExternal: true
-  name: CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
-  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimension*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimension
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync_System_Int32_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionAsync
   isExternal: true
-  name: GetTargetDimension
-  nameWithType: ITargetsAgent.GetTargetDimension
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimension
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_GetTargetDimensionAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetTargetDimensionAsync
+  nameWithType: ITargetsAgent.GetTargetDimensionAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionAsync
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityTypeAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityTypeAsync
   isExternal: true
-  name: GetTargetDimensionsForEntityType
-  nameWithType: ITargetsAgent.GetTargetDimensionsForEntityType
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType
-- uid: SuperOffice.CRM.Services.TargetDimension[]
-  isExternal: true
-  name: TargetDimension[]
-  nameWithType: TargetDimension[]
-  fullName: SuperOffice.CRM.Services.TargetDimension[]
-  nameWithType.vb: TargetDimension()
-  fullName.vb: SuperOffice.CRM.Services.TargetDimension()
-  name.vb: TargetDimension()
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_GetTargetDimensionsForEntityTypeAsync_SuperOffice_Data_TargetEntityType_System_Threading_CancellationToken_
+  name: GetTargetDimensionsForEntityTypeAsync
+  nameWithType: ITargetsAgent.GetTargetDimensionsForEntityTypeAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityTypeAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetDimension[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TargetDimension[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TargetDimension[]>
+  nameWithType: Task<TargetDimension[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TargetDimension[]>
+  nameWithType.vb: Task(Of TargetDimension())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TargetDimension())
+  name.vb: Task(Of TargetDimension())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.CRM.Services.TargetDimension
     name: TargetDimension
-    nameWithType: TargetDimension
-    fullName: SuperOffice.CRM.Services.TargetDimension
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.TargetDimension.html
+  - name: '['
+  - name: ']'
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Services.TargetDimension
     name: TargetDimension
-    nameWithType: TargetDimension
-    fullName: SuperOffice.CRM.Services.TargetDimension
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds
+    href: SuperOffice.CRM.Services.TargetDimension.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIdsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIdsAsync
   isExternal: true
-  name: GetTargetGroupIds
-  nameWithType: ITargetsAgent.GetTargetGroupIds
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds
-- uid: System.Int32[]
-  isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_GetTargetGroupIdsAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetTargetGroupIdsAsync
+  nameWithType: ITargetsAgent.GetTargetGroupIdsAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIdsAsync
+- uid: System.Threading.Tasks.Task{System.Int32[]}
+  commentId: T:System.Threading.Tasks.Task{System.Int32[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int[]>
+  nameWithType: Task<int[]>
+  fullName: System.Threading.Tasks.Task<int[]>
+  nameWithType.vb: Task(Of Integer())
+  fullName.vb: System.Threading.Tasks.Task(Of Integer())
+  name.vb: Task(Of Integer())
   spec.csharp:
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: '>'
   spec.vb:
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroup*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroup
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupAsync
   isExternal: true
-  name: GetTargetGroup
-  nameWithType: ITargetsAgent.GetTargetGroup
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroup
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYear*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYear
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_GetTargetGroupAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetTargetGroupAsync
+  nameWithType: ITargetsAgent.GetTargetGroupAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupAsync
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAsync
   isExternal: true
-  name: GetTargetGroupForYear
-  nameWithType: ITargetsAgent.GetTargetGroupForYear
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYear
-- uid: SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_GetTargetGroupForYearAsync_System_Int32_SuperOffice_Data_TargetEntityType_System_Threading_CancellationToken_
+  name: GetTargetGroupForYearAsync
+  nameWithType: ITargetsAgent.GetTargetGroupForYearAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAsync
+- uid: SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcelAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcelAsync
   isExternal: true
-  name: ExportTargetGroupToExcel
-  nameWithType: ITargetsAgent.ExportTargetGroupToExcel
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel
-- uid: SuperOffice.CRM.Services.ExportArchiveResult
-  commentId: T:SuperOffice.CRM.Services.ExportArchiveResult
-  parent: SuperOffice.CRM.Services
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_ExportTargetGroupToExcelAsync_System_Int32_System_Threading_CancellationToken_
+  name: ExportTargetGroupToExcelAsync
+  nameWithType: ITargetsAgent.ExportTargetGroupToExcelAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcelAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ExportArchiveResult}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ExportArchiveResult}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ExportArchiveResult>
+  nameWithType: Task<ExportArchiveResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ExportArchiveResult>
+  nameWithType.vb: Task(Of ExportArchiveResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ExportArchiveResult)
+  name.vb: Task(Of ExportArchiveResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.ExportArchiveResult
+    name: ExportArchiveResult
+    isExternal: true
+    href: SuperOffice.CRM.Services.ExportArchiveResult.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ExportArchiveResult
+    name: ExportArchiveResult
+    isExternal: true
+    href: SuperOffice.CRM.Services.ExportArchiveResult.html
+  - name: )
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync
   isExternal: true
-  name: ExportArchiveResult
-  nameWithType: ExportArchiveResult
-  fullName: SuperOffice.CRM.Services.ExportArchiveResult
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimension*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimension
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_GetTargetGroupForYearAndDimensionAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetTargetGroupForYearAndDimensionAsync
+  nameWithType: ITargetsAgent.GetTargetGroupForYearAndDimensionAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistoryAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistoryAsync
   isExternal: true
-  name: GetTargetGroupForYearAndDimension
-  nameWithType: ITargetsAgent.GetTargetGroupForYearAndDimension
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimension
-- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistory*
-  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistory
-  isExternal: true
-  name: GetTargetRevisionHistory
-  nameWithType: ITargetsAgent.GetTargetRevisionHistory
-  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistory
+  href: SuperOffice.CRM.Services.ITargetsAgent.html#SuperOffice_CRM_Services_ITargetsAgent_GetTargetRevisionHistoryAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetTargetRevisionHistoryAsync
+  nameWithType: ITargetsAgent.GetTargetRevisionHistoryAsync
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistoryAsync

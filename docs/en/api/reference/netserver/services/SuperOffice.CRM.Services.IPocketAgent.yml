@@ -5,19 +5,19 @@ items:
   id: IPocketAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelection(System.Int32,System.String)
-  - SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs(System.String,System.DateTime,System.DateTime)
-  - SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData(System.String[],System.DateTime)
-  - SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice(System.String)
-  - SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices(System.Int32)
-  - SuperOffice.CRM.Services.IPocketAgent.NotificationHandled(SuperOffice.Data.NotificationEventType,System.Int32)
-  - SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled(SuperOffice.CRM.Services.NotificationEvent[])
-  - SuperOffice.CRM.Services.IPocketAgent.NotifyUsers(SuperOffice.Data.NotificationEventType,System.Int32)
-  - SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
-  - SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker
-  - SuperOffice.CRM.Services.IPocketAgent.SendPushNotification(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage)
-  - SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice(System.String,System.String)
-  - SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser(System.Int32,System.String)
+  - SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelectionAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDsAsync(System.String,System.DateTime,System.DateTime,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupDataAsync(System.String[],System.DateTime,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDeviceAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevicesAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPocketAgent.NotificationHandledAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPocketAgent.NotificationsHandledAsync(SuperOffice.CRM.Services.NotificationEvent[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPocketAgent.NotifyUsersAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotificationAsync(SuperOffice.CRM.Services.PocketDeviceInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBrokerAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPocketAgent.SendPushNotificationAsync(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDeviceAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUserAsync(System.Int32,System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -25,15 +25,28 @@ items:
   nameWithType: IPocketAgent
   fullName: SuperOffice.CRM.Services.IPocketAgent
   type: Interface
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInterface for the Pocket Agent\nAgent with Pocket specific functionality\n"
+  summary: >-
+    Interface for the Pocket Agent
+
+    Agent with Pocket specific functionality
   example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (PocketAgent agent = new PocketAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  - >-
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       using (PocketAgent agent = new PocketAgent())
+       {
+          // call methods on agent here...
+       }
+    }</code></pre>
   syntax:
     content: >-
       [Agent("Pocket Agent", "Interface for the Pocket Agent. Agent with Pocket specific functionality")]
@@ -42,8 +55,7 @@ items:
     content.vb: >-
       <Agent("Pocket Agent", "Interface for the Pocket Agent. Agent with Pocket specific functionality")>
 
-      Public Interface IPocketAgent
-          Inherits IAgent
+      Public Interface IPocketAgent Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -52,32 +64,24 @@ items:
       value: Pocket Agent
     - type: System.String
       value: Interface for the Pocket Agent. Agent with Pocket specific functionality
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
-- uid: SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs(System.String,System.DateTime,System.DateTime)
-  commentId: M:SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs(System.String,System.DateTime,System.DateTime)
-  id: GetMyCallerIDs(System.String,System.DateTime,System.DateTime)
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDsAsync(System.String,System.DateTime,System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDsAsync(System.String,System.DateTime,System.DateTime,System.Threading.CancellationToken)
+  id: GetMyCallerIDsAsync(System.String,System.DateTime,System.DateTime,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPocketAgent
   langs:
   - csharp
   - vb
-  name: GetMyCallerIDs(String, DateTime, DateTime)
-  nameWithType: IPocketAgent.GetMyCallerIDs(String, DateTime, DateTime)
-  fullName: SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs(System.String, System.DateTime, System.DateTime)
+  name: GetMyCallerIDsAsync(string, DateTime, DateTime, CancellationToken)
+  nameWithType: IPocketAgent.GetMyCallerIDsAsync(string, DateTime, DateTime, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDsAsync(string, System.DateTime, System.DateTime, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet caller ids that the current principal might be interested in (phone numbers of related persons in sales and appointments created/owned/touched by ourselves or colleagues in our primary group\n"
+  summary: Get caller ids that the current principal might be interested in (phone numbers of related persons in sales and appointments created/owned/touched by ourselves or colleagues in our primary group
+  example: []
   syntax:
-    content: CallerIDCollection GetMyCallerIDs(string lastHash, DateTime minDate, DateTime maxDate)
+    content: Task<CallerIDCollection> GetMyCallerIDsAsync(string lastHash, DateTime minDate, DateTime maxDate, CancellationToken cancellationToken = default)
     parameters:
     - id: lastHash
       type: System.String
@@ -88,31 +92,34 @@ items:
     - id: maxDate
       type: System.DateTime
       description: Only check activities before this date
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CallerIDCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CallerIDCollection}
       description: Collection of caller IDs, containing the hash of the caller ids
-    content.vb: Function GetMyCallerIDs(lastHash As String, minDate As DateTime, maxDate As DateTime) As CallerIDCollection
-  overload: SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs*
-- uid: SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelection(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelection(System.Int32,System.String)
-  id: GetCallerIDsFromSelection(System.Int32,System.String)
+    content.vb: Function GetMyCallerIDsAsync(lastHash As String, minDate As Date, maxDate As Date, cancellationToken As CancellationToken = Nothing) As Task(Of CallerIDCollection)
+  overload: SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDsAsync*
+  nameWithType.vb: IPocketAgent.GetMyCallerIDsAsync(String, Date, Date, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDsAsync(String, Date, Date, System.Threading.CancellationToken)
+  name.vb: GetMyCallerIDsAsync(String, Date, Date, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelectionAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelectionAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: GetCallerIDsFromSelectionAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPocketAgent
   langs:
   - csharp
   - vb
-  name: GetCallerIDsFromSelection(Int32, String)
-  nameWithType: IPocketAgent.GetCallerIDsFromSelection(Int32, String)
-  fullName: SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelection(System.Int32, System.String)
+  name: GetCallerIDsFromSelectionAsync(int, string, CancellationToken)
+  nameWithType: IPocketAgent.GetCallerIDsFromSelectionAsync(int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelectionAsync(int, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet caller ids from a selection. Queries the shadow selection of persons and companies, so selections of any kind can be used\n"
+  summary: Get caller ids from a selection. Queries the shadow selection of persons and companies, so selections of any kind can be used
+  example: []
   syntax:
-    content: CallerIDCollection GetCallerIDsFromSelection(int selectionId, string lastHash)
+    content: Task<CallerIDCollection> GetCallerIDsFromSelectionAsync(int selectionId, string lastHash, CancellationToken cancellationToken = default)
     parameters:
     - id: selectionId
       type: System.Int32
@@ -120,31 +127,34 @@ items:
     - id: lastHash
       type: System.String
       description: Hash for the previous call, used for checking if the same set of caller ids was sent in an earlier call, and returning null in that case
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.CallerIDCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CallerIDCollection}
       description: Collection of caller IDs, containing the hash of the caller ids
-    content.vb: Function GetCallerIDsFromSelection(selectionId As Integer, lastHash As String) As CallerIDCollection
-  overload: SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelection*
-- uid: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData(System.String[],System.DateTime)
-  commentId: M:SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData(System.String[],System.DateTime)
-  id: GetPocketStartupData(System.String[],System.DateTime)
+    content.vb: Function GetCallerIDsFromSelectionAsync(selectionId As Integer, lastHash As String, cancellationToken As CancellationToken = Nothing) As Task(Of CallerIDCollection)
+  overload: SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelectionAsync*
+  nameWithType.vb: IPocketAgent.GetCallerIDsFromSelectionAsync(Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelectionAsync(Integer, String, System.Threading.CancellationToken)
+  name.vb: GetCallerIDsFromSelectionAsync(Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupDataAsync(System.String[],System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupDataAsync(System.String[],System.DateTime,System.Threading.CancellationToken)
+  id: GetPocketStartupDataAsync(System.String[],System.DateTime,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPocketAgent
   langs:
   - csharp
   - vb
-  name: GetPocketStartupData(String[], DateTime)
-  nameWithType: IPocketAgent.GetPocketStartupData(String[], DateTime)
-  fullName: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData(System.String[], System.DateTime)
+  name: GetPocketStartupDataAsync(string[], DateTime, CancellationToken)
+  nameWithType: IPocketAgent.GetPocketStartupDataAsync(string[], DateTime, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupDataAsync(string[], System.DateTime, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: PocketStartupData GetPocketStartupData(string[] tables, DateTime currentClientTime)
+    content: Task<PocketStartupData> GetPocketStartupDataAsync(string[] tables, DateTime currentClientTime, CancellationToken cancellationToken = default)
     parameters:
     - id: tables
       type: System.String[]
@@ -152,88 +162,95 @@ items:
     - id: currentClientTime
       type: System.DateTime
       description: Current time on the client, used for overdue sale lookup having correct timezone relative to client
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PocketStartupData
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PocketStartupData}
       description: Startup data for pocket
-    content.vb: Function GetPocketStartupData(tables As String(), currentClientTime As DateTime) As PocketStartupData
-  overload: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData*
-  nameWithType.vb: IPocketAgent.GetPocketStartupData(String(), DateTime)
-  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData(System.String(), System.DateTime)
-  name.vb: GetPocketStartupData(String(), DateTime)
-- uid: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
-  commentId: M:SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
-  id: RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
+    content.vb: Function GetPocketStartupDataAsync(tables As String(), currentClientTime As Date, cancellationToken As CancellationToken = Nothing) As Task(Of PocketStartupData)
+  overload: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupDataAsync*
+  nameWithType.vb: IPocketAgent.GetPocketStartupDataAsync(String(), Date, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupDataAsync(String(), Date, System.Threading.CancellationToken)
+  name.vb: GetPocketStartupDataAsync(String(), Date, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotificationAsync(SuperOffice.CRM.Services.PocketDeviceInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotificationAsync(SuperOffice.CRM.Services.PocketDeviceInfo,System.Threading.CancellationToken)
+  id: RegisterDeviceForPushNotificationAsync(SuperOffice.CRM.Services.PocketDeviceInfo,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPocketAgent
   langs:
   - csharp
   - vb
-  name: RegisterDeviceForPushNotification(PocketDeviceInfo)
-  nameWithType: IPocketAgent.RegisterDeviceForPushNotification(PocketDeviceInfo)
-  fullName: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
+  name: RegisterDeviceForPushNotificationAsync(PocketDeviceInfo, CancellationToken)
+  nameWithType: IPocketAgent.RegisterDeviceForPushNotificationAsync(PocketDeviceInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotificationAsync(SuperOffice.CRM.Services.PocketDeviceInfo, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRegister a device that should receive push notifications when notable events occour\n"
+  summary: Register a device that should receive push notifications when notable events occour
+  example: []
   syntax:
-    content: void RegisterDeviceForPushNotification(PocketDeviceInfo deviceInfo)
+    content: Task RegisterDeviceForPushNotificationAsync(PocketDeviceInfo deviceInfo, CancellationToken cancellationToken = default)
     parameters:
     - id: deviceInfo
       type: SuperOffice.CRM.Services.PocketDeviceInfo
       description: Properties for the device to register
-    content.vb: Sub RegisterDeviceForPushNotification(deviceInfo As PocketDeviceInfo)
-  overload: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification*
-- uid: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices(System.Int32)
-  id: GetRegisteredDevices(System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function RegisterDeviceForPushNotificationAsync(deviceInfo As PocketDeviceInfo, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotificationAsync*
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevicesAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevicesAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetRegisteredDevicesAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPocketAgent
   langs:
   - csharp
   - vb
-  name: GetRegisteredDevices(Int32)
-  nameWithType: IPocketAgent.GetRegisteredDevices(Int32)
-  fullName: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices(System.Int32)
+  name: GetRegisteredDevicesAsync(int, CancellationToken)
+  nameWithType: IPocketAgent.GetRegisteredDevicesAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevicesAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRetrieve all registered devices for an associate\n"
+  summary: Retrieve all registered devices for an associate
+  example: []
   syntax:
-    content: PocketDeviceInfo[] GetRegisteredDevices(int associateId)
+    content: Task<PocketDeviceInfo[]> GetRegisteredDevicesAsync(int associateId, CancellationToken cancellationToken = default)
     parameters:
     - id: associateId
       type: System.Int32
       description: The user to get devices for
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PocketDeviceInfo[]
-    content.vb: Function GetRegisteredDevices(associateId As Integer) As PocketDeviceInfo()
-  overload: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices*
-- uid: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice(System.String,System.String)
-  id: SetPushNotificationTagsForDevice(System.String,System.String)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PocketDeviceInfo[]}
+      description: ''
+    content.vb: Function GetRegisteredDevicesAsync(associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PocketDeviceInfo())
+  overload: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevicesAsync*
+  nameWithType.vb: IPocketAgent.GetRegisteredDevicesAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevicesAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetRegisteredDevicesAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDeviceAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDeviceAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: SetPushNotificationTagsForDeviceAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPocketAgent
   langs:
   - csharp
   - vb
-  name: SetPushNotificationTagsForDevice(String, String)
-  nameWithType: IPocketAgent.SetPushNotificationTagsForDevice(String, String)
-  fullName: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice(System.String, System.String)
+  name: SetPushNotificationTagsForDeviceAsync(string, string, CancellationToken)
+  nameWithType: IPocketAgent.SetPushNotificationTagsForDeviceAsync(string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDeviceAsync(string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSpecify what kind of notification events a device should receive push notifications for\n"
+  summary: Specify what kind of notification events a device should receive push notifications for
+  example: []
   syntax:
-    content: void SetPushNotificationTagsForDevice(string deviceIdentifier, string tags)
+    content: Task SetPushNotificationTagsForDeviceAsync(string deviceIdentifier, string tags, CancellationToken cancellationToken = default)
     parameters:
     - id: deviceIdentifier
       type: System.String
@@ -241,28 +258,34 @@ items:
     - id: tags
       type: System.String
       description: A comma separated list of events this device should receive push events for
-    content.vb: Sub SetPushNotificationTagsForDevice(deviceIdentifier As String, tags As String)
-  overload: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice*
-- uid: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser(System.Int32,System.String)
-  id: SetPushNotificationTagsForUser(System.Int32,System.String)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SetPushNotificationTagsForDeviceAsync(deviceIdentifier As String, tags As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDeviceAsync*
+  nameWithType.vb: IPocketAgent.SetPushNotificationTagsForDeviceAsync(String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDeviceAsync(String, String, System.Threading.CancellationToken)
+  name.vb: SetPushNotificationTagsForDeviceAsync(String, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUserAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUserAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: SetPushNotificationTagsForUserAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPocketAgent
   langs:
   - csharp
   - vb
-  name: SetPushNotificationTagsForUser(Int32, String)
-  nameWithType: IPocketAgent.SetPushNotificationTagsForUser(Int32, String)
-  fullName: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser(System.Int32, System.String)
+  name: SetPushNotificationTagsForUserAsync(int, string, CancellationToken)
+  nameWithType: IPocketAgent.SetPushNotificationTagsForUserAsync(int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUserAsync(int, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSpecify what kind of notification events a user should receive push notifications for.  This will update all registerred devices for this user.\n"
+  summary: Specify what kind of notification events a user should receive push notifications for.  This will update all registerred devices for this user.
+  example: []
   syntax:
-    content: void SetPushNotificationTagsForUser(int associateId, string tags)
+    content: Task SetPushNotificationTagsForUserAsync(int associateId, string tags, CancellationToken cancellationToken = default)
     parameters:
     - id: associateId
       type: System.Int32
@@ -270,57 +293,66 @@ items:
     - id: tags
       type: System.String
       description: A comma separated list of events the associate should receive push events for
-    content.vb: Sub SetPushNotificationTagsForUser(associateId As Integer, tags As String)
-  overload: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser*
-- uid: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice(System.String)
-  commentId: M:SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice(System.String)
-  id: GetPushNotificationTagsForDevice(System.String)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SetPushNotificationTagsForUserAsync(associateId As Integer, tags As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUserAsync*
+  nameWithType.vb: IPocketAgent.SetPushNotificationTagsForUserAsync(Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUserAsync(Integer, String, System.Threading.CancellationToken)
+  name.vb: SetPushNotificationTagsForUserAsync(Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDeviceAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDeviceAsync(System.String,System.Threading.CancellationToken)
+  id: GetPushNotificationTagsForDeviceAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPocketAgent
   langs:
   - csharp
   - vb
-  name: GetPushNotificationTagsForDevice(String)
-  nameWithType: IPocketAgent.GetPushNotificationTagsForDevice(String)
-  fullName: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice(System.String)
+  name: GetPushNotificationTagsForDeviceAsync(string, CancellationToken)
+  nameWithType: IPocketAgent.GetPushNotificationTagsForDeviceAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDeviceAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRetrieve current tag value for a device\n"
+  summary: Retrieve current tag value for a device
+  example: []
   syntax:
-    content: string GetPushNotificationTagsForDevice(string deviceIdentifier)
+    content: Task<string> GetPushNotificationTagsForDeviceAsync(string deviceIdentifier, CancellationToken cancellationToken = default)
     parameters:
     - id: deviceIdentifier
       type: System.String
       description: The unique identifier of this device
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: A comma separated list of events this device should receive push events for
-    content.vb: Function GetPushNotificationTagsForDevice(deviceIdentifier As String) As String
-  overload: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice*
-- uid: SuperOffice.CRM.Services.IPocketAgent.SendPushNotification(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage)
-  commentId: M:SuperOffice.CRM.Services.IPocketAgent.SendPushNotification(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage)
-  id: SendPushNotification(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage)
+    content.vb: Function GetPushNotificationTagsForDeviceAsync(deviceIdentifier As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDeviceAsync*
+  nameWithType.vb: IPocketAgent.GetPushNotificationTagsForDeviceAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDeviceAsync(String, System.Threading.CancellationToken)
+  name.vb: GetPushNotificationTagsForDeviceAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPocketAgent.SendPushNotificationAsync(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.SendPushNotificationAsync(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage,System.Threading.CancellationToken)
+  id: SendPushNotificationAsync(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPocketAgent
   langs:
   - csharp
   - vb
-  name: SendPushNotification(Int32[], PocketNotificationMessage)
-  nameWithType: IPocketAgent.SendPushNotification(Int32[], PocketNotificationMessage)
-  fullName: SuperOffice.CRM.Services.IPocketAgent.SendPushNotification(System.Int32[], SuperOffice.CRM.Services.PocketNotificationMessage)
+  name: SendPushNotificationAsync(int[], PocketNotificationMessage, CancellationToken)
+  nameWithType: IPocketAgent.SendPushNotificationAsync(int[], PocketNotificationMessage, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.SendPushNotificationAsync(int[], SuperOffice.CRM.Services.PocketNotificationMessage, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSend a push notification to one or more associates\n"
+  summary: Send a push notification to one or more associates
+  example: []
   syntax:
-    content: void SendPushNotification(int[] associateIds, PocketNotificationMessage message)
+    content: Task SendPushNotificationAsync(int[] associateIds, PocketNotificationMessage message, CancellationToken cancellationToken = default)
     parameters:
     - id: associateIds
       type: System.Int32[]
@@ -328,53 +360,60 @@ items:
     - id: message
       type: SuperOffice.CRM.Services.PocketNotificationMessage
       description: The message to send
-    content.vb: Sub SendPushNotification(associateIds As Integer(), message As PocketNotificationMessage)
-  overload: SuperOffice.CRM.Services.IPocketAgent.SendPushNotification*
-  nameWithType.vb: IPocketAgent.SendPushNotification(Int32(), PocketNotificationMessage)
-  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.SendPushNotification(System.Int32(), SuperOffice.CRM.Services.PocketNotificationMessage)
-  name.vb: SendPushNotification(Int32(), PocketNotificationMessage)
-- uid: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker
-  commentId: M:SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker
-  id: RunAppointmentAlarmBroker
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SendPushNotificationAsync(associateIds As Integer(), message As PocketNotificationMessage, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPocketAgent.SendPushNotificationAsync*
+  nameWithType.vb: IPocketAgent.SendPushNotificationAsync(Integer(), PocketNotificationMessage, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.SendPushNotificationAsync(Integer(), SuperOffice.CRM.Services.PocketNotificationMessage, System.Threading.CancellationToken)
+  name.vb: SendPushNotificationAsync(Integer(), PocketNotificationMessage, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBrokerAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBrokerAsync(System.Threading.CancellationToken)
+  id: RunAppointmentAlarmBrokerAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPocketAgent
   langs:
   - csharp
   - vb
-  name: RunAppointmentAlarmBroker()
-  nameWithType: IPocketAgent.RunAppointmentAlarmBroker()
-  fullName: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker()
+  name: RunAppointmentAlarmBrokerAsync(CancellationToken)
+  nameWithType: IPocketAgent.RunAppointmentAlarmBrokerAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBrokerAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nExecute the AppointmentAlarmBroker once\n"
+  summary: Execute the AppointmentAlarmBroker once
+  example: []
   syntax:
-    content: void RunAppointmentAlarmBroker()
-    content.vb: Sub RunAppointmentAlarmBroker
-  overload: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker*
-- uid: SuperOffice.CRM.Services.IPocketAgent.NotifyUsers(SuperOffice.Data.NotificationEventType,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IPocketAgent.NotifyUsers(SuperOffice.Data.NotificationEventType,System.Int32)
-  id: NotifyUsers(SuperOffice.Data.NotificationEventType,System.Int32)
+    content: Task RunAppointmentAlarmBrokerAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function RunAppointmentAlarmBrokerAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBrokerAsync*
+- uid: SuperOffice.CRM.Services.IPocketAgent.NotifyUsersAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.NotifyUsersAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Threading.CancellationToken)
+  id: NotifyUsersAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPocketAgent
   langs:
   - csharp
   - vb
-  name: NotifyUsers(NotificationEventType, Int32)
-  nameWithType: IPocketAgent.NotifyUsers(NotificationEventType, Int32)
-  fullName: SuperOffice.CRM.Services.IPocketAgent.NotifyUsers(SuperOffice.Data.NotificationEventType, System.Int32)
+  name: NotifyUsersAsync(NotificationEventType, int, CancellationToken)
+  nameWithType: IPocketAgent.NotifyUsersAsync(NotificationEventType, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.NotifyUsersAsync(SuperOffice.Data.NotificationEventType, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nNotify users about a new or changed entity\n"
+  summary: Notify users about a new or changed entity
+  example: []
   syntax:
-    content: void NotifyUsers(NotificationEventType notificationEventType, int id)
+    content: Task NotifyUsersAsync(NotificationEventType notificationEventType, int id, CancellationToken cancellationToken = default)
     parameters:
     - id: notificationEventType
       type: SuperOffice.Data.NotificationEventType
@@ -382,28 +421,34 @@ items:
     - id: id
       type: System.Int32
       description: Id of entity to notify about
-    content.vb: Sub NotifyUsers(notificationEventType As NotificationEventType, id As Integer)
-  overload: SuperOffice.CRM.Services.IPocketAgent.NotifyUsers*
-- uid: SuperOffice.CRM.Services.IPocketAgent.NotificationHandled(SuperOffice.Data.NotificationEventType,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IPocketAgent.NotificationHandled(SuperOffice.Data.NotificationEventType,System.Int32)
-  id: NotificationHandled(SuperOffice.Data.NotificationEventType,System.Int32)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function NotifyUsersAsync(notificationEventType As NotificationEventType, id As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPocketAgent.NotifyUsersAsync*
+  nameWithType.vb: IPocketAgent.NotifyUsersAsync(NotificationEventType, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.NotifyUsersAsync(SuperOffice.Data.NotificationEventType, Integer, System.Threading.CancellationToken)
+  name.vb: NotifyUsersAsync(NotificationEventType, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPocketAgent.NotificationHandledAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.NotificationHandledAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Threading.CancellationToken)
+  id: NotificationHandledAsync(SuperOffice.Data.NotificationEventType,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPocketAgent
   langs:
   - csharp
   - vb
-  name: NotificationHandled(NotificationEventType, Int32)
-  nameWithType: IPocketAgent.NotificationHandled(NotificationEventType, Int32)
-  fullName: SuperOffice.CRM.Services.IPocketAgent.NotificationHandled(SuperOffice.Data.NotificationEventType, System.Int32)
+  name: NotificationHandledAsync(NotificationEventType, int, CancellationToken)
+  nameWithType: IPocketAgent.NotificationHandledAsync(NotificationEventType, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.NotificationHandledAsync(SuperOffice.Data.NotificationEventType, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nMark a notification as handled, so it can be cleaned up on other clients that have received the notification\n"
+  summary: Mark a notification as handled, so it can be cleaned up on other clients that have received the notification
+  example: []
   syntax:
-    content: void NotificationHandled(NotificationEventType notificationEventType, int id)
+    content: Task NotificationHandledAsync(NotificationEventType notificationEventType, int id, CancellationToken cancellationToken = default)
     parameters:
     - id: notificationEventType
       type: SuperOffice.Data.NotificationEventType
@@ -411,260 +456,539 @@ items:
     - id: id
       type: System.Int32
       description: Id of entity to notify about
-    content.vb: Sub NotificationHandled(notificationEventType As NotificationEventType, id As Integer)
-  overload: SuperOffice.CRM.Services.IPocketAgent.NotificationHandled*
-- uid: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled(SuperOffice.CRM.Services.NotificationEvent[])
-  commentId: M:SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled(SuperOffice.CRM.Services.NotificationEvent[])
-  id: NotificationsHandled(SuperOffice.CRM.Services.NotificationEvent[])
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function NotificationHandledAsync(notificationEventType As NotificationEventType, id As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPocketAgent.NotificationHandledAsync*
+  nameWithType.vb: IPocketAgent.NotificationHandledAsync(NotificationEventType, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.NotificationHandledAsync(SuperOffice.Data.NotificationEventType, Integer, System.Threading.CancellationToken)
+  name.vb: NotificationHandledAsync(NotificationEventType, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandledAsync(SuperOffice.CRM.Services.NotificationEvent[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.NotificationsHandledAsync(SuperOffice.CRM.Services.NotificationEvent[],System.Threading.CancellationToken)
+  id: NotificationsHandledAsync(SuperOffice.CRM.Services.NotificationEvent[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPocketAgent
   langs:
   - csharp
   - vb
-  name: NotificationsHandled(NotificationEvent[])
-  nameWithType: IPocketAgent.NotificationsHandled(NotificationEvent[])
-  fullName: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled(SuperOffice.CRM.Services.NotificationEvent[])
+  name: NotificationsHandledAsync(NotificationEvent[], CancellationToken)
+  nameWithType: IPocketAgent.NotificationsHandledAsync(NotificationEvent[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandledAsync(SuperOffice.CRM.Services.NotificationEvent[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nMark a set of notifications as handled, so they can be cleaned up on other clients that have received the notification\n"
+  summary: Mark a set of notifications as handled, so they can be cleaned up on other clients that have received the notification
+  example: []
   syntax:
-    content: void NotificationsHandled(NotificationEvent[] notificationEvents)
+    content: Task NotificationsHandledAsync(NotificationEvent[] notificationEvents, CancellationToken cancellationToken = default)
     parameters:
     - id: notificationEvents
       type: SuperOffice.CRM.Services.NotificationEvent[]
       description: List of notifications to mark as handled
-    content.vb: Sub NotificationsHandled(notificationEvents As NotificationEvent())
-  overload: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled*
-  nameWithType.vb: IPocketAgent.NotificationsHandled(NotificationEvent())
-  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled(SuperOffice.CRM.Services.NotificationEvent())
-  name.vb: NotificationsHandled(NotificationEvent())
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function NotificationsHandledAsync(notificationEvents As NotificationEvent(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandledAsync*
+  nameWithType.vb: IPocketAgent.NotificationsHandledAsync(NotificationEvent(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandledAsync(SuperOffice.CRM.Services.NotificationEvent(), System.Threading.CancellationToken)
+  name.vb: NotificationsHandledAsync(NotificationEvent(), CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs*
-  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDsAsync
   isExternal: true
-  name: GetMyCallerIDs
-  nameWithType: IPocketAgent.GetMyCallerIDs
-  fullName: SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs
+  href: SuperOffice.CRM.Services.IPocketAgent.html#SuperOffice_CRM_Services_IPocketAgent_GetMyCallerIDsAsync_System_String_System_DateTime_System_DateTime_System_Threading_CancellationToken_
+  name: GetMyCallerIDsAsync
+  nameWithType: IPocketAgent.GetMyCallerIDsAsync
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDsAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: SuperOffice.CRM.Services.CallerIDCollection
-  commentId: T:SuperOffice.CRM.Services.CallerIDCollection
-  parent: SuperOffice.CRM.Services
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: CallerIDCollection
-  nameWithType: CallerIDCollection
-  fullName: SuperOffice.CRM.Services.CallerIDCollection
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CallerIDCollection}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CallerIDCollection}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CallerIDCollection>
+  nameWithType: Task<CallerIDCollection>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CallerIDCollection>
+  nameWithType.vb: Task(Of CallerIDCollection)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CallerIDCollection)
+  name.vb: Task(Of CallerIDCollection)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.CallerIDCollection
+    name: CallerIDCollection
+    isExternal: true
+    href: SuperOffice.CRM.Services.CallerIDCollection.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.CallerIDCollection
+    name: CallerIDCollection
+    isExternal: true
+    href: SuperOffice.CRM.Services.CallerIDCollection.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelection*
-  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelection
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: GetCallerIDsFromSelection
-  nameWithType: IPocketAgent.GetCallerIDsFromSelection
-  fullName: SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelection
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelectionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelectionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IPocketAgent.html#SuperOffice_CRM_Services_IPocketAgent_GetCallerIDsFromSelectionAsync_System_Int32_System_String_System_Threading_CancellationToken_
+  name: GetCallerIDsFromSelectionAsync
+  nameWithType: IPocketAgent.GetCallerIDsFromSelectionAsync
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelectionAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData*
-  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupDataAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupDataAsync
   isExternal: true
-  name: GetPocketStartupData
-  nameWithType: IPocketAgent.GetPocketStartupData
-  fullName: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData
+  href: SuperOffice.CRM.Services.IPocketAgent.html#SuperOffice_CRM_Services_IPocketAgent_GetPocketStartupDataAsync_System_String___System_DateTime_System_Threading_CancellationToken_
+  name: GetPocketStartupDataAsync
+  nameWithType: IPocketAgent.GetPocketStartupDataAsync
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupDataAsync
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.PocketStartupData
-  commentId: T:SuperOffice.CRM.Services.PocketStartupData
-  parent: SuperOffice.CRM.Services
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PocketStartupData}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PocketStartupData}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PocketStartupData>
+  nameWithType: Task<PocketStartupData>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PocketStartupData>
+  nameWithType.vb: Task(Of PocketStartupData)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PocketStartupData)
+  name.vb: Task(Of PocketStartupData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.PocketStartupData
+    name: PocketStartupData
+    isExternal: true
+    href: SuperOffice.CRM.Services.PocketStartupData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.PocketStartupData
+    name: PocketStartupData
+    isExternal: true
+    href: SuperOffice.CRM.Services.PocketStartupData.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotificationAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotificationAsync
   isExternal: true
-  name: PocketStartupData
-  nameWithType: PocketStartupData
-  fullName: SuperOffice.CRM.Services.PocketStartupData
-- uid: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification*
-  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification
-  isExternal: true
-  name: RegisterDeviceForPushNotification
-  nameWithType: IPocketAgent.RegisterDeviceForPushNotification
-  fullName: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification
+  href: SuperOffice.CRM.Services.IPocketAgent.html#SuperOffice_CRM_Services_IPocketAgent_RegisterDeviceForPushNotificationAsync_SuperOffice_CRM_Services_PocketDeviceInfo_System_Threading_CancellationToken_
+  name: RegisterDeviceForPushNotificationAsync
+  nameWithType: IPocketAgent.RegisterDeviceForPushNotificationAsync
+  fullName: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotificationAsync
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo
   commentId: T:SuperOffice.CRM.Services.PocketDeviceInfo
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.PocketDeviceInfo.html
   name: PocketDeviceInfo
   nameWithType: PocketDeviceInfo
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo
-- uid: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices*
-  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: GetRegisteredDevices
-  nameWithType: IPocketAgent.GetRegisteredDevices
-  fullName: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices
-- uid: SuperOffice.CRM.Services.PocketDeviceInfo[]
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevicesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevicesAsync
   isExternal: true
-  name: PocketDeviceInfo[]
-  nameWithType: PocketDeviceInfo[]
-  fullName: SuperOffice.CRM.Services.PocketDeviceInfo[]
-  nameWithType.vb: PocketDeviceInfo()
-  fullName.vb: SuperOffice.CRM.Services.PocketDeviceInfo()
-  name.vb: PocketDeviceInfo()
+  href: SuperOffice.CRM.Services.IPocketAgent.html#SuperOffice_CRM_Services_IPocketAgent_GetRegisteredDevicesAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetRegisteredDevicesAsync
+  nameWithType: IPocketAgent.GetRegisteredDevicesAsync
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevicesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PocketDeviceInfo[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PocketDeviceInfo[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PocketDeviceInfo[]>
+  nameWithType: Task<PocketDeviceInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PocketDeviceInfo[]>
+  nameWithType.vb: Task(Of PocketDeviceInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PocketDeviceInfo())
+  name.vb: Task(Of PocketDeviceInfo())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.CRM.Services.PocketDeviceInfo
     name: PocketDeviceInfo
-    nameWithType: PocketDeviceInfo
-    fullName: SuperOffice.CRM.Services.PocketDeviceInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.PocketDeviceInfo.html
+  - name: '['
+  - name: ']'
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Services.PocketDeviceInfo
     name: PocketDeviceInfo
-    nameWithType: PocketDeviceInfo
-    fullName: SuperOffice.CRM.Services.PocketDeviceInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice*
-  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice
+    href: SuperOffice.CRM.Services.PocketDeviceInfo.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDeviceAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDeviceAsync
   isExternal: true
-  name: SetPushNotificationTagsForDevice
-  nameWithType: IPocketAgent.SetPushNotificationTagsForDevice
-  fullName: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice
-- uid: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser*
-  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser
+  href: SuperOffice.CRM.Services.IPocketAgent.html#SuperOffice_CRM_Services_IPocketAgent_SetPushNotificationTagsForDeviceAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: SetPushNotificationTagsForDeviceAsync
+  nameWithType: IPocketAgent.SetPushNotificationTagsForDeviceAsync
+  fullName: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDeviceAsync
+- uid: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUserAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUserAsync
   isExternal: true
-  name: SetPushNotificationTagsForUser
-  nameWithType: IPocketAgent.SetPushNotificationTagsForUser
-  fullName: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser
-- uid: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice*
-  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice
+  href: SuperOffice.CRM.Services.IPocketAgent.html#SuperOffice_CRM_Services_IPocketAgent_SetPushNotificationTagsForUserAsync_System_Int32_System_String_System_Threading_CancellationToken_
+  name: SetPushNotificationTagsForUserAsync
+  nameWithType: IPocketAgent.SetPushNotificationTagsForUserAsync
+  fullName: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUserAsync
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDeviceAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDeviceAsync
   isExternal: true
-  name: GetPushNotificationTagsForDevice
-  nameWithType: IPocketAgent.GetPushNotificationTagsForDevice
-  fullName: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice
-- uid: SuperOffice.CRM.Services.IPocketAgent.SendPushNotification*
-  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.SendPushNotification
+  href: SuperOffice.CRM.Services.IPocketAgent.html#SuperOffice_CRM_Services_IPocketAgent_GetPushNotificationTagsForDeviceAsync_System_String_System_Threading_CancellationToken_
+  name: GetPushNotificationTagsForDeviceAsync
+  nameWithType: IPocketAgent.GetPushNotificationTagsForDeviceAsync
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDeviceAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.CRM.Services.IPocketAgent.SendPushNotificationAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.SendPushNotificationAsync
   isExternal: true
-  name: SendPushNotification
-  nameWithType: IPocketAgent.SendPushNotification
-  fullName: SuperOffice.CRM.Services.IPocketAgent.SendPushNotification
+  href: SuperOffice.CRM.Services.IPocketAgent.html#SuperOffice_CRM_Services_IPocketAgent_SendPushNotificationAsync_System_Int32___SuperOffice_CRM_Services_PocketNotificationMessage_System_Threading_CancellationToken_
+  name: SendPushNotificationAsync
+  nameWithType: IPocketAgent.SendPushNotificationAsync
+  fullName: SuperOffice.CRM.Services.IPocketAgent.SendPushNotificationAsync
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.PocketNotificationMessage
   commentId: T:SuperOffice.CRM.Services.PocketNotificationMessage
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.PocketNotificationMessage.html
   name: PocketNotificationMessage
   nameWithType: PocketNotificationMessage
   fullName: SuperOffice.CRM.Services.PocketNotificationMessage
-- uid: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker*
-  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker
+- uid: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBrokerAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBrokerAsync
   isExternal: true
-  name: RunAppointmentAlarmBroker
-  nameWithType: IPocketAgent.RunAppointmentAlarmBroker
-  fullName: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker
-- uid: SuperOffice.CRM.Services.IPocketAgent.NotifyUsers*
-  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.NotifyUsers
+  href: SuperOffice.CRM.Services.IPocketAgent.html#SuperOffice_CRM_Services_IPocketAgent_RunAppointmentAlarmBrokerAsync_System_Threading_CancellationToken_
+  name: RunAppointmentAlarmBrokerAsync
+  nameWithType: IPocketAgent.RunAppointmentAlarmBrokerAsync
+  fullName: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBrokerAsync
+- uid: SuperOffice.CRM.Services.IPocketAgent.NotifyUsersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.NotifyUsersAsync
   isExternal: true
-  name: NotifyUsers
-  nameWithType: IPocketAgent.NotifyUsers
-  fullName: SuperOffice.CRM.Services.IPocketAgent.NotifyUsers
+  href: SuperOffice.CRM.Services.IPocketAgent.html#SuperOffice_CRM_Services_IPocketAgent_NotifyUsersAsync_SuperOffice_Data_NotificationEventType_System_Int32_System_Threading_CancellationToken_
+  name: NotifyUsersAsync
+  nameWithType: IPocketAgent.NotifyUsersAsync
+  fullName: SuperOffice.CRM.Services.IPocketAgent.NotifyUsersAsync
 - uid: SuperOffice.Data.NotificationEventType
   isExternal: true
   name: NotificationEventType
   nameWithType: NotificationEventType
   fullName: SuperOffice.Data.NotificationEventType
-- uid: SuperOffice.CRM.Services.IPocketAgent.NotificationHandled*
-  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.NotificationHandled
+- uid: SuperOffice.CRM.Services.IPocketAgent.NotificationHandledAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.NotificationHandledAsync
   isExternal: true
-  name: NotificationHandled
-  nameWithType: IPocketAgent.NotificationHandled
-  fullName: SuperOffice.CRM.Services.IPocketAgent.NotificationHandled
-- uid: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled*
-  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled
+  href: SuperOffice.CRM.Services.IPocketAgent.html#SuperOffice_CRM_Services_IPocketAgent_NotificationHandledAsync_SuperOffice_Data_NotificationEventType_System_Int32_System_Threading_CancellationToken_
+  name: NotificationHandledAsync
+  nameWithType: IPocketAgent.NotificationHandledAsync
+  fullName: SuperOffice.CRM.Services.IPocketAgent.NotificationHandledAsync
+- uid: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandledAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.NotificationsHandledAsync
   isExternal: true
-  name: NotificationsHandled
-  nameWithType: IPocketAgent.NotificationsHandled
-  fullName: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled
+  href: SuperOffice.CRM.Services.IPocketAgent.html#SuperOffice_CRM_Services_IPocketAgent_NotificationsHandledAsync_SuperOffice_CRM_Services_NotificationEvent___System_Threading_CancellationToken_
+  name: NotificationsHandledAsync
+  nameWithType: IPocketAgent.NotificationsHandledAsync
+  fullName: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandledAsync
 - uid: SuperOffice.CRM.Services.NotificationEvent[]
   isExternal: true
+  href: SuperOffice.CRM.Services.NotificationEvent.html
   name: NotificationEvent[]
   nameWithType: NotificationEvent[]
   fullName: SuperOffice.CRM.Services.NotificationEvent[]
@@ -674,18 +998,14 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.NotificationEvent
     name: NotificationEvent
-    nameWithType: NotificationEvent
-    fullName: SuperOffice.CRM.Services.NotificationEvent
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.NotificationEvent.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.NotificationEvent
     name: NotificationEvent
-    nameWithType: NotificationEvent
-    fullName: SuperOffice.CRM.Services.NotificationEvent
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.NotificationEvent.html
+  - name: (
+  - name: )

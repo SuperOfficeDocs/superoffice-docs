@@ -1,0 +1,2795 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  commentId: T:SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  id: CrmConnectionHandlerFacade
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.CreateActorAsync(SuperOffice.ErpSync.ErpSyncActor,SuperOffice.Data.ErpActorType)
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorAsync(System.Int32,System.Int32)
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorsAsync(SuperOffice.Data.ErpActorType,System.String[])
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConfigDataAsync
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConnectionIdAsync
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromInternalKeyIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromTableId(System.Int32)
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetErpConnectionIdAsync
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetInternalKeyAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListAsync(System.String)
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListItemsAsync(System.String,System.String[])
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetSupportedActorTypeFieldsAsync(SuperOffice.Data.ErpActorType)
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetSupportedActorTypesAsync
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetTableIdFromCrmActorType(SuperOffice.Data.CrmActorType)
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetUpdatedActorsAsync
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.OpenConnectionAsync(System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[])
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[],System.Boolean)
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionAsync(System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorByParentAsync(SuperOffice.Data.ErpActorType,System.String,SuperOffice.Data.ErpActorType,System.String)
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String)
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String,System.String[])
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetConnectionIdAsync(System.Guid)
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetErpConnectionIdAsync(System.Int32)
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.TestConnectionAsync
+  langs:
+  - csharp
+  - vb
+  name: CrmConnectionHandlerFacade
+  nameWithType: CrmConnectionHandlerFacade
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: 'public class CrmConnectionHandlerFacade : ConnectionHandlerFacadeBase'
+    content.vb: Public Class CrmConnectionHandlerFacade Inherits ConnectionHandlerFacadeBase
+  inheritance:
+  - System.Object
+  - SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  inheritedMembers:
+  - SuperOffice.ErpSync.ConnectionHandlerFacadeBase._ConnectionId
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConnectionIdAsync
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConnectionIdAsync
+  id: GetConnectionIdAsync
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: GetConnectionIdAsync()
+  nameWithType: CrmConnectionHandlerFacade.GetConnectionIdAsync()
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConnectionIdAsync()
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: >-
+    The connection ID identifying the CRM connection internally in EIS. Because we can only ever have one CRM connection, and because we don't need to store
+
+    the connection configuration data anywhere, this GUID does not have to persist between sessions, and can be generated every time the connection is opened.
+  example: []
+  syntax:
+    content: public override Task<Guid> GetConnectionIdAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.Guid}
+    content.vb: Public Overrides Function GetConnectionIdAsync() As Task(Of Guid)
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetConnectionIdAsync
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConnectionIdAsync*
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetConnectionIdAsync(System.Guid)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetConnectionIdAsync(System.Guid)
+  id: SetConnectionIdAsync(System.Guid)
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: SetConnectionIdAsync(Guid)
+  nameWithType: CrmConnectionHandlerFacade.SetConnectionIdAsync(Guid)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetConnectionIdAsync(System.Guid)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: >-
+    The connection ID identifying the CRM connection internally in EIS. Because we can only ever have one CRM connection, and because we don't need to store
+
+    the connection configuration data anywhere, this GUID does not have to persist between sessions, and can be generated every time the connection is opened.
+  example: []
+  syntax:
+    content: protected override Task SetConnectionIdAsync(Guid value)
+    parameters:
+    - id: value
+      type: System.Guid
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function SetConnectionIdAsync(value As Guid) As Task
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SetConnectionIdAsync(System.Guid)
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetConnectionIdAsync*
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetErpConnectionIdAsync
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetErpConnectionIdAsync
+  id: GetErpConnectionIdAsync
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: GetErpConnectionIdAsync()
+  nameWithType: CrmConnectionHandlerFacade.GetErpConnectionIdAsync()
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetErpConnectionIdAsync()
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: The CRM connection does not have an ErpConnectionId. This method will always return 0
+  example: []
+  syntax:
+    content: public override Task<int> GetErpConnectionIdAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Overrides Function GetErpConnectionIdAsync() As Task(Of Integer)
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetErpConnectionIdAsync
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetErpConnectionIdAsync*
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetErpConnectionIdAsync(System.Int32)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetErpConnectionIdAsync(System.Int32)
+  id: SetErpConnectionIdAsync(System.Int32)
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: SetErpConnectionIdAsync(int)
+  nameWithType: CrmConnectionHandlerFacade.SetErpConnectionIdAsync(int)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetErpConnectionIdAsync(int)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: The CRM connection does not have an ErpConnectionId. This method will always return 0
+  example: []
+  syntax:
+    content: protected override Task SetErpConnectionIdAsync(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function SetErpConnectionIdAsync(value As Integer) As Task
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SetErpConnectionIdAsync(System.Int32)
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetErpConnectionIdAsync*
+  nameWithType.vb: CrmConnectionHandlerFacade.SetErpConnectionIdAsync(Integer)
+  fullName.vb: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetErpConnectionIdAsync(Integer)
+  name.vb: SetErpConnectionIdAsync(Integer)
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConfigDataAsync
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConfigDataAsync
+  id: GetConfigDataAsync
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: GetConfigDataAsync()
+  nameWithType: CrmConnectionHandlerFacade.GetConfigDataAsync()
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConfigDataAsync()
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  example: []
+  syntax:
+    content: protected override Task<FieldMetadataInfo[]> GetConfigDataAsync()
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.FieldMetadataInfo[]}
+    content.vb: Protected Overrides Function GetConfigDataAsync() As Task(Of FieldMetadataInfo())
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetConfigDataAsync
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConfigDataAsync*
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionAsync(System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionAsync(System.Collections.Generic.Dictionary{System.String,System.String})
+  id: SaveConnectionAsync(System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: SaveConnectionAsync(Dictionary<string, string>)
+  nameWithType: CrmConnectionHandlerFacade.SaveConnectionAsync(Dictionary<string, string>)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionAsync(System.Collections.Generic.Dictionary<string, string>)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: ''
+  example: []
+  syntax:
+    content: public override Task<PluginResponseInfo> SaveConnectionAsync(Dictionary<string, string> connectionInfo)
+    parameters:
+    - id: connectionInfo
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.PluginResponseInfo}
+      description: ''
+    content.vb: Public Overrides Function SaveConnectionAsync(connectionInfo As Dictionary(Of String, String)) As Task(Of PluginResponseInfo)
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveConnectionAsync(System.Collections.Generic.Dictionary{System.String,System.String})
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionAsync*
+  nameWithType.vb: CrmConnectionHandlerFacade.SaveConnectionAsync(Dictionary(Of String, String))
+  fullName.vb: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionAsync(System.Collections.Generic.Dictionary(Of String, String))
+  name.vb: SaveConnectionAsync(Dictionary(Of String, String))
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.TestConnectionAsync
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.TestConnectionAsync
+  id: TestConnectionAsync
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: TestConnectionAsync()
+  nameWithType: CrmConnectionHandlerFacade.TestConnectionAsync()
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.TestConnectionAsync()
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Checks to see if the connection is active
+  example: []
+  syntax:
+    content: public override Task<PluginResponseInfo> TestConnectionAsync()
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.PluginResponseInfo}
+      description: ''
+    content.vb: Public Overrides Function TestConnectionAsync() As Task(Of PluginResponseInfo)
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.TestConnectionAsync
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.TestConnectionAsync*
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetSupportedActorTypesAsync
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetSupportedActorTypesAsync
+  id: GetSupportedActorTypesAsync
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: GetSupportedActorTypesAsync()
+  nameWithType: CrmConnectionHandlerFacade.GetSupportedActorTypesAsync()
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetSupportedActorTypesAsync()
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Retrieves supported actor types for the CRM connection
+  example: []
+  syntax:
+    content: public override Task<string[]> GetSupportedActorTypesAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.String[]}
+      description: ''
+    content.vb: Public Overrides Function GetSupportedActorTypesAsync() As Task(Of String())
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetSupportedActorTypesAsync
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetSupportedActorTypesAsync*
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetSupportedActorTypeFieldsAsync(SuperOffice.Data.ErpActorType)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetSupportedActorTypeFieldsAsync(SuperOffice.Data.ErpActorType)
+  id: GetSupportedActorTypeFieldsAsync(SuperOffice.Data.ErpActorType)
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: GetSupportedActorTypeFieldsAsync(ErpActorType)
+  nameWithType: CrmConnectionHandlerFacade.GetSupportedActorTypeFieldsAsync(ErpActorType)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetSupportedActorTypeFieldsAsync(SuperOffice.Data.ErpActorType)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Retrieves supported fields for a specific actor type
+  example: []
+  syntax:
+    content: public override Task<FieldMetadataInfo[]> GetSupportedActorTypeFieldsAsync(ErpActorType actorType)
+    parameters:
+    - id: actorType
+      type: SuperOffice.Data.ErpActorType
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.FieldMetadataInfo[]}
+      description: ''
+    content.vb: Public Overrides Function GetSupportedActorTypeFieldsAsync(actorType As ErpActorType) As Task(Of FieldMetadataInfo())
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetSupportedActorTypeFieldsAsync(SuperOffice.Data.ErpActorType)
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetSupportedActorTypeFieldsAsync*
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorsAsync(SuperOffice.Data.ErpActorType,System.String[])
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorsAsync(SuperOffice.Data.ErpActorType,System.String[])
+  id: GetActorsAsync(SuperOffice.Data.ErpActorType,System.String[])
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: GetActorsAsync(ErpActorType, string[])
+  nameWithType: CrmConnectionHandlerFacade.GetActorsAsync(ErpActorType, string[])
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorsAsync(SuperOffice.Data.ErpActorType, string[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Retrieves a specified set of actors. Will use the field mapping for the given actor type and connection.
+  example: []
+  syntax:
+    content: public override Task<ErpSyncActor[]> GetActorsAsync(ErpActorType actorType, string[] CrmKeys)
+    parameters:
+    - id: actorType
+      type: SuperOffice.Data.ErpActorType
+      description: ''
+    - id: CrmKeys
+      type: System.String[]
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ErpSync.ErpSyncActor[]}
+      description: ''
+    content.vb: Public Overrides Function GetActorsAsync(actorType As ErpActorType, CrmKeys As String()) As Task(Of ErpSyncActor())
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetActorsAsync(SuperOffice.Data.ErpActorType,System.String[])
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorsAsync*
+  nameWithType.vb: CrmConnectionHandlerFacade.GetActorsAsync(ErpActorType, String())
+  fullName.vb: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorsAsync(SuperOffice.Data.ErpActorType, String())
+  name.vb: GetActorsAsync(ErpActorType, String())
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String)
+  id: SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String)
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: SearchActorsAsync(ErpActorType, string)
+  nameWithType: CrmConnectionHandlerFacade.SearchActorsAsync(ErpActorType, string)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorsAsync(SuperOffice.Data.ErpActorType, string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Searches for actors using a given search string. Will use the field mapping for the given actor type and connection.
+  example: []
+  syntax:
+    content: public override Task<ErpSyncActor[]> SearchActorsAsync(ErpActorType actorType, string searchText)
+    parameters:
+    - id: actorType
+      type: SuperOffice.Data.ErpActorType
+      description: ''
+    - id: searchText
+      type: System.String
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ErpSync.ErpSyncActor[]}
+      description: ''
+    content.vb: Public Overrides Function SearchActorsAsync(actorType As ErpActorType, searchText As String) As Task(Of ErpSyncActor())
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String)
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorsAsync*
+  nameWithType.vb: CrmConnectionHandlerFacade.SearchActorsAsync(ErpActorType, String)
+  fullName.vb: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorsAsync(SuperOffice.Data.ErpActorType, String)
+  name.vb: SearchActorsAsync(ErpActorType, String)
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String,System.String[])
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String,System.String[])
+  id: SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String,System.String[])
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: SearchActorsAsync(ErpActorType, string, string[])
+  nameWithType: CrmConnectionHandlerFacade.SearchActorsAsync(ErpActorType, string, string[])
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorsAsync(SuperOffice.Data.ErpActorType, string, string[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  example: []
+  syntax:
+    content: public override Task<ErpSyncActor[]> SearchActorsAsync(ErpActorType actorType, string searchText, string[] fieldKeys)
+    parameters:
+    - id: actorType
+      type: SuperOffice.Data.ErpActorType
+    - id: searchText
+      type: System.String
+    - id: fieldKeys
+      type: System.String[]
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ErpSync.ErpSyncActor[]}
+    content.vb: Public Overrides Function SearchActorsAsync(actorType As ErpActorType, searchText As String, fieldKeys As String()) As Task(Of ErpSyncActor())
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String,System.String[])
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorsAsync*
+  nameWithType.vb: CrmConnectionHandlerFacade.SearchActorsAsync(ErpActorType, String, String())
+  fullName.vb: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorsAsync(SuperOffice.Data.ErpActorType, String, String())
+  name.vb: SearchActorsAsync(ErpActorType, String, String())
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorByParentAsync(SuperOffice.Data.ErpActorType,System.String,SuperOffice.Data.ErpActorType,System.String)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorByParentAsync(SuperOffice.Data.ErpActorType,System.String,SuperOffice.Data.ErpActorType,System.String)
+  id: SearchActorByParentAsync(SuperOffice.Data.ErpActorType,System.String,SuperOffice.Data.ErpActorType,System.String)
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: SearchActorByParentAsync(ErpActorType, string, ErpActorType, string)
+  nameWithType: CrmConnectionHandlerFacade.SearchActorByParentAsync(ErpActorType, string, ErpActorType, string)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorByParentAsync(SuperOffice.Data.ErpActorType, string, SuperOffice.Data.ErpActorType, string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Searches for actors with a specified parent actor using a given search string. Will use the field mapping for the given actor type and connection.
+  example: []
+  syntax:
+    content: public override Task<ErpSyncActor[]> SearchActorByParentAsync(ErpActorType actorType, string searchText, ErpActorType parentActorType, string parentActorErpKey)
+    parameters:
+    - id: actorType
+      type: SuperOffice.Data.ErpActorType
+      description: ''
+    - id: searchText
+      type: System.String
+      description: ''
+    - id: parentActorType
+      type: SuperOffice.Data.ErpActorType
+      description: ''
+    - id: parentActorErpKey
+      type: System.String
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ErpSync.ErpSyncActor[]}
+      description: ''
+    content.vb: Public Overrides Function SearchActorByParentAsync(actorType As ErpActorType, searchText As String, parentActorType As ErpActorType, parentActorErpKey As String) As Task(Of ErpSyncActor())
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorByParentAsync(SuperOffice.Data.ErpActorType,System.String,SuperOffice.Data.ErpActorType,System.String)
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorByParentAsync*
+  nameWithType.vb: CrmConnectionHandlerFacade.SearchActorByParentAsync(ErpActorType, String, ErpActorType, String)
+  fullName.vb: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorByParentAsync(SuperOffice.Data.ErpActorType, String, SuperOffice.Data.ErpActorType, String)
+  name.vb: SearchActorByParentAsync(ErpActorType, String, ErpActorType, String)
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.CreateActorAsync(SuperOffice.ErpSync.ErpSyncActor,SuperOffice.Data.ErpActorType)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.CreateActorAsync(SuperOffice.ErpSync.ErpSyncActor,SuperOffice.Data.ErpActorType)
+  id: CreateActorAsync(SuperOffice.ErpSync.ErpSyncActor,SuperOffice.Data.ErpActorType)
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: CreateActorAsync(ErpSyncActor, ErpActorType)
+  nameWithType: CrmConnectionHandlerFacade.CreateActorAsync(ErpSyncActor, ErpActorType)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.CreateActorAsync(SuperOffice.ErpSync.ErpSyncActor, SuperOffice.Data.ErpActorType)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Creates a new actor and returns the actor from the connection as if looks after the create operation (e.g. with a new ErpKey and timestamp, etc)
+  example: []
+  syntax:
+    content: public override Task<ErpSyncActor> CreateActorAsync(ErpSyncActor act, ErpActorType actorType)
+    parameters:
+    - id: act
+      type: SuperOffice.ErpSync.ErpSyncActor
+      description: ''
+    - id: actorType
+      type: SuperOffice.Data.ErpActorType
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ErpSync.ErpSyncActor}
+      description: ''
+    content.vb: Public Overrides Function CreateActorAsync(act As ErpSyncActor, actorType As ErpActorType) As Task(Of ErpSyncActor)
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.CreateActorAsync(SuperOffice.ErpSync.ErpSyncActor,SuperOffice.Data.ErpActorType)
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.CreateActorAsync*
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[])
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[])
+  id: SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[])
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: SaveActorsAsync(ErpSyncActor[])
+  nameWithType: CrmConnectionHandlerFacade.SaveActorsAsync(ErpSyncActor[])
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Saves a set of actors to the connection and returns those same actors with their updated values from the ERP system (new timestamp, possibly new field values, etc)
+  example: []
+  syntax:
+    content: public override Task<ErpSyncActor[]> SaveActorsAsync(ErpSyncActor[] actors)
+    parameters:
+    - id: actors
+      type: SuperOffice.ErpSync.ErpSyncActor[]
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ErpSync.ErpSyncActor[]}
+      description: ''
+    content.vb: Public Overrides Function SaveActorsAsync(actors As ErpSyncActor()) As Task(Of ErpSyncActor())
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[])
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorsAsync*
+  nameWithType.vb: CrmConnectionHandlerFacade.SaveActorsAsync(ErpSyncActor())
+  fullName.vb: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor())
+  name.vb: SaveActorsAsync(ErpSyncActor())
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[],System.Boolean)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[],System.Boolean)
+  id: SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[],System.Boolean)
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: SaveActorsAsync(ErpSyncActor[], bool)
+  nameWithType: CrmConnectionHandlerFacade.SaveActorsAsync(ErpSyncActor[], bool)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[], bool)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Saves a set of actors to the connection and returns those same actors with their updated values from the ERP system (new timestamp, possibly new field values, etc)
+  example: []
+  syntax:
+    content: public override Task<ErpSyncActor[]> SaveActorsAsync(ErpSyncActor[] actors, bool noBlankValues)
+    parameters:
+    - id: actors
+      type: SuperOffice.ErpSync.ErpSyncActor[]
+      description: ''
+    - id: noBlankValues
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ErpSync.ErpSyncActor[]}
+      description: ''
+    content.vb: Public Overrides Function SaveActorsAsync(actors As ErpSyncActor(), noBlankValues As Boolean) As Task(Of ErpSyncActor())
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[],System.Boolean)
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorsAsync*
+  nameWithType.vb: CrmConnectionHandlerFacade.SaveActorsAsync(ErpSyncActor(), Boolean)
+  fullName.vb: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor(), Boolean)
+  name.vb: SaveActorsAsync(ErpSyncActor(), Boolean)
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListAsync(System.String)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListAsync(System.String)
+  id: GetListAsync(System.String)
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: GetListAsync(string)
+  nameWithType: CrmConnectionHandlerFacade.GetListAsync(string)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListAsync(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Retrieves an entire list with a given name
+  example: []
+  syntax:
+    content: public override Task<Dictionary<string, string>> GetListAsync(string listName)
+    parameters:
+    - id: listName
+      type: System.String
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,System.String}}
+      description: ''
+    content.vb: Public Overrides Function GetListAsync(listName As String) As Task(Of Dictionary(Of String, String))
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetListAsync(System.String)
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListAsync*
+  nameWithType.vb: CrmConnectionHandlerFacade.GetListAsync(String)
+  fullName.vb: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListAsync(String)
+  name.vb: GetListAsync(String)
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetUpdatedActorsAsync
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetUpdatedActorsAsync
+  id: GetUpdatedActorsAsync
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: GetUpdatedActorsAsync()
+  nameWithType: CrmConnectionHandlerFacade.GetUpdatedActorsAsync()
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetUpdatedActorsAsync()
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Retrieves an entire list with a given name
+  example: []
+  syntax:
+    content: public override Task<ErpSyncActor[]> GetUpdatedActorsAsync()
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ErpSync.ErpSyncActor[]}
+      description: ''
+    content.vb: Public Overrides Function GetUpdatedActorsAsync() As Task(Of ErpSyncActor())
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetUpdatedActorsAsync
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetUpdatedActorsAsync*
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  id: SaveActorTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: SaveActorTimestampAsync(ErpSyncActor, CancellationToken)
+  nameWithType: CrmConnectionHandlerFacade.SaveActorTimestampAsync(ErpSyncActor, CancellationToken)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorTimestampAsync(SuperOffice.ErpSync.ErpSyncActor, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: If the timestamp of the given actor is larger than the currently stored timestamp from the database (ErpExternalKey row), the new timestamp is stored to the database.
+  example: []
+  syntax:
+    content: public override Task SaveActorTimestampAsync(ErpSyncActor act, CancellationToken cancellationToken = default)
+    parameters:
+    - id: act
+      type: SuperOffice.ErpSync.ErpSyncActor
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overrides Function SaveActorTimestampAsync(act As ErpSyncActor, cancellationToken As CancellationToken = Nothing) As Task
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorTimestampAsync*
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  id: SaveConnectionTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: SaveConnectionTimestampAsync(ErpSyncActor, CancellationToken)
+  nameWithType: CrmConnectionHandlerFacade.SaveConnectionTimestampAsync(ErpSyncActor, CancellationToken)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionTimestampAsync(SuperOffice.ErpSync.ErpSyncActor, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: If the timestamp of the given actor is larger than the currently stored timestamp from the database (ErpInternalKey row), the new timestamp is stored to the database.
+  example: []
+  syntax:
+    content: public override Task SaveConnectionTimestampAsync(ErpSyncActor act, CancellationToken cancellationToken = default)
+    parameters:
+    - id: act
+      type: SuperOffice.ErpSync.ErpSyncActor
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overrides Function SaveConnectionTimestampAsync(act As ErpSyncActor, cancellationToken As CancellationToken = Nothing) As Task
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveConnectionTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionTimestampAsync*
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListItemsAsync(System.String,System.String[])
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListItemsAsync(System.String,System.String[])
+  id: GetListItemsAsync(System.String,System.String[])
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: GetListItemsAsync(string, string[])
+  nameWithType: CrmConnectionHandlerFacade.GetListItemsAsync(string, string[])
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListItemsAsync(string, string[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Retrieves a specific set of list items from a given list
+  example: []
+  syntax:
+    content: public override Task<Dictionary<string, string>> GetListItemsAsync(string listName, string[] listItemKeys)
+    parameters:
+    - id: listName
+      type: System.String
+      description: ''
+    - id: listItemKeys
+      type: System.String[]
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,System.String}}
+      description: ''
+    content.vb: Public Overrides Function GetListItemsAsync(listName As String, listItemKeys As String()) As Task(Of Dictionary(Of String, String))
+  overridden: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetListItemsAsync(System.String,System.String[])
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListItemsAsync*
+  nameWithType.vb: CrmConnectionHandlerFacade.GetListItemsAsync(String, String())
+  fullName.vb: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListItemsAsync(String, String())
+  name.vb: GetListItemsAsync(String, String())
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.OpenConnectionAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.OpenConnectionAsync(System.Threading.CancellationToken)
+  id: OpenConnectionAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: OpenConnectionAsync(CancellationToken)
+  nameWithType: CrmConnectionHandlerFacade.OpenConnectionAsync(CancellationToken)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.OpenConnectionAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Opens or retrieves the CRM connection handler
+  example: []
+  syntax:
+    content: public static Task<CrmConnectionHandlerFacade> OpenConnectionAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ErpSync.CrmConnectionHandlerFacade}
+      description: ''
+    content.vb: Public Shared Function OpenConnectionAsync(cancellationToken As CancellationToken = Nothing) As Task(Of CrmConnectionHandlerFacade)
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.OpenConnectionAsync*
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetTableIdFromCrmActorType(SuperOffice.Data.CrmActorType)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetTableIdFromCrmActorType(SuperOffice.Data.CrmActorType)
+  id: GetTableIdFromCrmActorType(SuperOffice.Data.CrmActorType)
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: GetTableIdFromCrmActorType(CrmActorType)
+  nameWithType: CrmConnectionHandlerFacade.GetTableIdFromCrmActorType(CrmActorType)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetTableIdFromCrmActorType(SuperOffice.Data.CrmActorType)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public static int GetTableIdFromCrmActorType(CrmActorType crmActTp)
+    parameters:
+    - id: crmActTp
+      type: SuperOffice.Data.CrmActorType
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetTableIdFromCrmActorType(crmActTp As CrmActorType) As Integer
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetTableIdFromCrmActorType*
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromTableId(System.Int32)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromTableId(System.Int32)
+  id: GetCrmActorTypeFromTableId(System.Int32)
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: GetCrmActorTypeFromTableId(int)
+  nameWithType: CrmConnectionHandlerFacade.GetCrmActorTypeFromTableId(int)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromTableId(int)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public static CrmActorType GetCrmActorTypeFromTableId(int tableId)
+    parameters:
+    - id: tableId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.CrmActorType
+    content.vb: Public Shared Function GetCrmActorTypeFromTableId(tableId As Integer) As CrmActorType
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromTableId*
+  nameWithType.vb: CrmConnectionHandlerFacade.GetCrmActorTypeFromTableId(Integer)
+  fullName.vb: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromTableId(Integer)
+  name.vb: GetCrmActorTypeFromTableId(Integer)
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromInternalKeyIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromInternalKeyIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetCrmActorTypeFromInternalKeyIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: GetCrmActorTypeFromInternalKeyIdAsync(int, CancellationToken)
+  nameWithType: CrmConnectionHandlerFacade.GetCrmActorTypeFromInternalKeyIdAsync(int, CancellationToken)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromInternalKeyIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public static Task<CrmActorType> GetCrmActorTypeFromInternalKeyIdAsync(int internalKeyId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: internalKeyId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.CrmActorType}
+    content.vb: Public Shared Function GetCrmActorTypeFromInternalKeyIdAsync(internalKeyId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of CrmActorType)
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromInternalKeyIdAsync*
+  nameWithType.vb: CrmConnectionHandlerFacade.GetCrmActorTypeFromInternalKeyIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromInternalKeyIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetCrmActorTypeFromInternalKeyIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetInternalKeyAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetInternalKeyAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetInternalKeyAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: GetInternalKeyAsync(int, int, CancellationToken)
+  nameWithType: CrmConnectionHandlerFacade.GetInternalKeyAsync(int, int, CancellationToken)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetInternalKeyAsync(int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public static Task<int> GetInternalKeyAsync(int recordId, int tableId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: recordId
+      type: System.Int32
+    - id: tableId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function GetInternalKeyAsync(recordId As Integer, tableId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetInternalKeyAsync*
+  nameWithType.vb: CrmConnectionHandlerFacade.GetInternalKeyAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetInternalKeyAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetInternalKeyAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorAsync(System.Int32,System.Int32)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorAsync(System.Int32,System.Int32)
+  id: GetActorAsync(System.Int32,System.Int32)
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: GetActorAsync(int, int)
+  nameWithType: CrmConnectionHandlerFacade.GetActorAsync(int, int)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorAsync(int, int)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public Task<ErpSyncActor> GetActorAsync(int recordId, int tableId)
+    parameters:
+    - id: recordId
+      type: System.Int32
+    - id: tableId
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ErpSync.ErpSyncActor}
+    content.vb: Public Function GetActorAsync(recordId As Integer, tableId As Integer) As Task(Of ErpSyncActor)
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorAsync*
+  nameWithType.vb: CrmConnectionHandlerFacade.GetActorAsync(Integer, Integer)
+  fullName.vb: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorAsync(Integer, Integer)
+  name.vb: GetActorAsync(Integer, Integer)
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  commentId: T:SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html
+  name: ConnectionHandlerFacadeBase
+  nameWithType: ConnectionHandlerFacadeBase
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase._ConnectionId
+  commentId: F:SuperOffice.ErpSync.ConnectionHandlerFacadeBase._ConnectionId
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase__ConnectionId
+  name: _ConnectionId
+  nameWithType: ConnectionHandlerFacadeBase._ConnectionId
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase._ConnectionId
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetConnectionIdAsync
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetConnectionIdAsync
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetConnectionIdAsync
+  name: GetConnectionIdAsync()
+  nameWithType: ConnectionHandlerFacadeBase.GetConnectionIdAsync()
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetConnectionIdAsync()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetConnectionIdAsync
+    name: GetConnectionIdAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetConnectionIdAsync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetConnectionIdAsync
+    name: GetConnectionIdAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetConnectionIdAsync
+  - name: (
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConnectionIdAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConnectionIdAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_GetConnectionIdAsync
+  name: GetConnectionIdAsync
+  nameWithType: CrmConnectionHandlerFacade.GetConnectionIdAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConnectionIdAsync
+- uid: System.Threading.Tasks.Task{System.Guid}
+  commentId: T:System.Threading.Tasks.Task{System.Guid}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Guid>
+  nameWithType: Task<Guid>
+  fullName: System.Threading.Tasks.Task<System.Guid>
+  nameWithType.vb: Task(Of Guid)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Guid)
+  name.vb: Task(Of Guid)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SetConnectionIdAsync(System.Guid)
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SetConnectionIdAsync(System.Guid)
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SetConnectionIdAsync_System_Guid_
+  name: SetConnectionIdAsync(Guid)
+  nameWithType: ConnectionHandlerFacadeBase.SetConnectionIdAsync(Guid)
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SetConnectionIdAsync(System.Guid)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SetConnectionIdAsync(System.Guid)
+    name: SetConnectionIdAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SetConnectionIdAsync_System_Guid_
+  - name: (
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SetConnectionIdAsync(System.Guid)
+    name: SetConnectionIdAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SetConnectionIdAsync_System_Guid_
+  - name: (
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetConnectionIdAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetConnectionIdAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_SetConnectionIdAsync_System_Guid_
+  name: SetConnectionIdAsync
+  nameWithType: CrmConnectionHandlerFacade.SetConnectionIdAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetConnectionIdAsync
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetErpConnectionIdAsync
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetErpConnectionIdAsync
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetErpConnectionIdAsync
+  name: GetErpConnectionIdAsync()
+  nameWithType: ConnectionHandlerFacadeBase.GetErpConnectionIdAsync()
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetErpConnectionIdAsync()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetErpConnectionIdAsync
+    name: GetErpConnectionIdAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetErpConnectionIdAsync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetErpConnectionIdAsync
+    name: GetErpConnectionIdAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetErpConnectionIdAsync
+  - name: (
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetErpConnectionIdAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetErpConnectionIdAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_GetErpConnectionIdAsync
+  name: GetErpConnectionIdAsync
+  nameWithType: CrmConnectionHandlerFacade.GetErpConnectionIdAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetErpConnectionIdAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SetErpConnectionIdAsync(System.Int32)
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SetErpConnectionIdAsync(System.Int32)
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SetErpConnectionIdAsync_System_Int32_
+  name: SetErpConnectionIdAsync(int)
+  nameWithType: ConnectionHandlerFacadeBase.SetErpConnectionIdAsync(int)
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SetErpConnectionIdAsync(int)
+  nameWithType.vb: ConnectionHandlerFacadeBase.SetErpConnectionIdAsync(Integer)
+  fullName.vb: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SetErpConnectionIdAsync(Integer)
+  name.vb: SetErpConnectionIdAsync(Integer)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SetErpConnectionIdAsync(System.Int32)
+    name: SetErpConnectionIdAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SetErpConnectionIdAsync_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SetErpConnectionIdAsync(System.Int32)
+    name: SetErpConnectionIdAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SetErpConnectionIdAsync_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetErpConnectionIdAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetErpConnectionIdAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_SetErpConnectionIdAsync_System_Int32_
+  name: SetErpConnectionIdAsync
+  nameWithType: CrmConnectionHandlerFacade.SetErpConnectionIdAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SetErpConnectionIdAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetConfigDataAsync
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetConfigDataAsync
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetConfigDataAsync
+  name: GetConfigDataAsync()
+  nameWithType: ConnectionHandlerFacadeBase.GetConfigDataAsync()
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetConfigDataAsync()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetConfigDataAsync
+    name: GetConfigDataAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetConfigDataAsync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetConfigDataAsync
+    name: GetConfigDataAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetConfigDataAsync
+  - name: (
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConfigDataAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConfigDataAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_GetConfigDataAsync
+  name: GetConfigDataAsync
+  nameWithType: CrmConnectionHandlerFacade.GetConfigDataAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConfigDataAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.FieldMetadataInfo[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.FieldMetadataInfo[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FieldMetadataInfo[]>
+  nameWithType: Task<FieldMetadataInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.FieldMetadataInfo[]>
+  nameWithType.vb: Task(Of FieldMetadataInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.FieldMetadataInfo())
+  name.vb: Task(Of FieldMetadataInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveConnectionAsync(System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveConnectionAsync(System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SaveConnectionAsync_System_Collections_Generic_Dictionary_System_String_System_String__
+  name: SaveConnectionAsync(Dictionary<string, string>)
+  nameWithType: ConnectionHandlerFacadeBase.SaveConnectionAsync(Dictionary<string, string>)
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveConnectionAsync(System.Collections.Generic.Dictionary<string, string>)
+  nameWithType.vb: ConnectionHandlerFacadeBase.SaveConnectionAsync(Dictionary(Of String, String))
+  fullName.vb: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveConnectionAsync(System.Collections.Generic.Dictionary(Of String, String))
+  name.vb: SaveConnectionAsync(Dictionary(Of String, String))
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveConnectionAsync(System.Collections.Generic.Dictionary{System.String,System.String})
+    name: SaveConnectionAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SaveConnectionAsync_System_Collections_Generic_Dictionary_System_String_System_String__
+  - name: (
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveConnectionAsync(System.Collections.Generic.Dictionary{System.String,System.String})
+    name: SaveConnectionAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SaveConnectionAsync_System_Collections_Generic_Dictionary_System_String_System_String__
+  - name: (
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_SaveConnectionAsync_System_Collections_Generic_Dictionary_System_String_System_String__
+  name: SaveConnectionAsync
+  nameWithType: CrmConnectionHandlerFacade.SaveConnectionAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionAsync
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, string>
+  nameWithType: Dictionary<string, string>
+  fullName: System.Collections.Generic.Dictionary<string, string>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.PluginResponseInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.PluginResponseInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PluginResponseInfo>
+  nameWithType: Task<PluginResponseInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.PluginResponseInfo>
+  nameWithType.vb: Task(Of PluginResponseInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.PluginResponseInfo)
+  name.vb: Task(Of PluginResponseInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.PluginResponseInfo
+    name: PluginResponseInfo
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.PluginResponseInfo
+    name: PluginResponseInfo
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.TestConnectionAsync
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.TestConnectionAsync
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_TestConnectionAsync
+  name: TestConnectionAsync()
+  nameWithType: ConnectionHandlerFacadeBase.TestConnectionAsync()
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.TestConnectionAsync()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.TestConnectionAsync
+    name: TestConnectionAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_TestConnectionAsync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.TestConnectionAsync
+    name: TestConnectionAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_TestConnectionAsync
+  - name: (
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.TestConnectionAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.TestConnectionAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_TestConnectionAsync
+  name: TestConnectionAsync
+  nameWithType: CrmConnectionHandlerFacade.TestConnectionAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.TestConnectionAsync
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetSupportedActorTypesAsync
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetSupportedActorTypesAsync
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetSupportedActorTypesAsync
+  name: GetSupportedActorTypesAsync()
+  nameWithType: ConnectionHandlerFacadeBase.GetSupportedActorTypesAsync()
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetSupportedActorTypesAsync()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetSupportedActorTypesAsync
+    name: GetSupportedActorTypesAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetSupportedActorTypesAsync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetSupportedActorTypesAsync
+    name: GetSupportedActorTypesAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetSupportedActorTypesAsync
+  - name: (
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetSupportedActorTypesAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetSupportedActorTypesAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_GetSupportedActorTypesAsync
+  name: GetSupportedActorTypesAsync
+  nameWithType: CrmConnectionHandlerFacade.GetSupportedActorTypesAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetSupportedActorTypesAsync
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: T:System.Threading.Tasks.Task{System.String[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string[]>
+  nameWithType: Task<string[]>
+  fullName: System.Threading.Tasks.Task<string[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetSupportedActorTypeFieldsAsync(SuperOffice.Data.ErpActorType)
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetSupportedActorTypeFieldsAsync(SuperOffice.Data.ErpActorType)
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetSupportedActorTypeFieldsAsync_SuperOffice_Data_ErpActorType_
+  name: GetSupportedActorTypeFieldsAsync(ErpActorType)
+  nameWithType: ConnectionHandlerFacadeBase.GetSupportedActorTypeFieldsAsync(ErpActorType)
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetSupportedActorTypeFieldsAsync(SuperOffice.Data.ErpActorType)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetSupportedActorTypeFieldsAsync(SuperOffice.Data.ErpActorType)
+    name: GetSupportedActorTypeFieldsAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetSupportedActorTypeFieldsAsync_SuperOffice_Data_ErpActorType_
+  - name: (
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetSupportedActorTypeFieldsAsync(SuperOffice.Data.ErpActorType)
+    name: GetSupportedActorTypeFieldsAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetSupportedActorTypeFieldsAsync_SuperOffice_Data_ErpActorType_
+  - name: (
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetSupportedActorTypeFieldsAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetSupportedActorTypeFieldsAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_GetSupportedActorTypeFieldsAsync_SuperOffice_Data_ErpActorType_
+  name: GetSupportedActorTypeFieldsAsync
+  nameWithType: CrmConnectionHandlerFacade.GetSupportedActorTypeFieldsAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetSupportedActorTypeFieldsAsync
+- uid: SuperOffice.Data.ErpActorType
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.Data.ErpActorType
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetActorsAsync(SuperOffice.Data.ErpActorType,System.String[])
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetActorsAsync(SuperOffice.Data.ErpActorType,System.String[])
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetActorsAsync_SuperOffice_Data_ErpActorType_System_String___
+  name: GetActorsAsync(ErpActorType, string[])
+  nameWithType: ConnectionHandlerFacadeBase.GetActorsAsync(ErpActorType, string[])
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetActorsAsync(SuperOffice.Data.ErpActorType, string[])
+  nameWithType.vb: ConnectionHandlerFacadeBase.GetActorsAsync(ErpActorType, String())
+  fullName.vb: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetActorsAsync(SuperOffice.Data.ErpActorType, String())
+  name.vb: GetActorsAsync(ErpActorType, String())
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetActorsAsync(SuperOffice.Data.ErpActorType,System.String[])
+    name: GetActorsAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetActorsAsync_SuperOffice_Data_ErpActorType_System_String___
+  - name: (
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetActorsAsync(SuperOffice.Data.ErpActorType,System.String[])
+    name: GetActorsAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetActorsAsync_SuperOffice_Data_ErpActorType_System_String___
+  - name: (
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorsAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorsAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_GetActorsAsync_SuperOffice_Data_ErpActorType_System_String___
+  name: GetActorsAsync
+  nameWithType: CrmConnectionHandlerFacade.GetActorsAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorsAsync
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.ErpSync.ErpSyncActor[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.ErpSync.ErpSyncActor[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ErpSyncActor[]>
+  nameWithType: Task<ErpSyncActor[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.ErpSync.ErpSyncActor[]>
+  nameWithType.vb: Task(Of ErpSyncActor())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.ErpSync.ErpSyncActor())
+  name.vb: Task(Of ErpSyncActor())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.ErpSync.ErpSyncActor
+    name: ErpSyncActor
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActor.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.ErpSync.ErpSyncActor
+    name: ErpSyncActor
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActor.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String)
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String)
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SearchActorsAsync_SuperOffice_Data_ErpActorType_System_String_
+  name: SearchActorsAsync(ErpActorType, string)
+  nameWithType: ConnectionHandlerFacadeBase.SearchActorsAsync(ErpActorType, string)
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorsAsync(SuperOffice.Data.ErpActorType, string)
+  nameWithType.vb: ConnectionHandlerFacadeBase.SearchActorsAsync(ErpActorType, String)
+  fullName.vb: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorsAsync(SuperOffice.Data.ErpActorType, String)
+  name.vb: SearchActorsAsync(ErpActorType, String)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String)
+    name: SearchActorsAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SearchActorsAsync_SuperOffice_Data_ErpActorType_System_String_
+  - name: (
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String)
+    name: SearchActorsAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SearchActorsAsync_SuperOffice_Data_ErpActorType_System_String_
+  - name: (
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorsAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorsAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_SearchActorsAsync_SuperOffice_Data_ErpActorType_System_String_
+  name: SearchActorsAsync
+  nameWithType: CrmConnectionHandlerFacade.SearchActorsAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorsAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String,System.String[])
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String,System.String[])
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SearchActorsAsync_SuperOffice_Data_ErpActorType_System_String_System_String___
+  name: SearchActorsAsync(ErpActorType, string, string[])
+  nameWithType: ConnectionHandlerFacadeBase.SearchActorsAsync(ErpActorType, string, string[])
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorsAsync(SuperOffice.Data.ErpActorType, string, string[])
+  nameWithType.vb: ConnectionHandlerFacadeBase.SearchActorsAsync(ErpActorType, String, String())
+  fullName.vb: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorsAsync(SuperOffice.Data.ErpActorType, String, String())
+  name.vb: SearchActorsAsync(ErpActorType, String, String())
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String,System.String[])
+    name: SearchActorsAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SearchActorsAsync_SuperOffice_Data_ErpActorType_System_String_System_String___
+  - name: (
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorsAsync(SuperOffice.Data.ErpActorType,System.String,System.String[])
+    name: SearchActorsAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SearchActorsAsync_SuperOffice_Data_ErpActorType_System_String_System_String___
+  - name: (
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorByParentAsync(SuperOffice.Data.ErpActorType,System.String,SuperOffice.Data.ErpActorType,System.String)
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorByParentAsync(SuperOffice.Data.ErpActorType,System.String,SuperOffice.Data.ErpActorType,System.String)
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SearchActorByParentAsync_SuperOffice_Data_ErpActorType_System_String_SuperOffice_Data_ErpActorType_System_String_
+  name: SearchActorByParentAsync(ErpActorType, string, ErpActorType, string)
+  nameWithType: ConnectionHandlerFacadeBase.SearchActorByParentAsync(ErpActorType, string, ErpActorType, string)
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorByParentAsync(SuperOffice.Data.ErpActorType, string, SuperOffice.Data.ErpActorType, string)
+  nameWithType.vb: ConnectionHandlerFacadeBase.SearchActorByParentAsync(ErpActorType, String, ErpActorType, String)
+  fullName.vb: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorByParentAsync(SuperOffice.Data.ErpActorType, String, SuperOffice.Data.ErpActorType, String)
+  name.vb: SearchActorByParentAsync(ErpActorType, String, ErpActorType, String)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorByParentAsync(SuperOffice.Data.ErpActorType,System.String,SuperOffice.Data.ErpActorType,System.String)
+    name: SearchActorByParentAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SearchActorByParentAsync_SuperOffice_Data_ErpActorType_System_String_SuperOffice_Data_ErpActorType_System_String_
+  - name: (
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SearchActorByParentAsync(SuperOffice.Data.ErpActorType,System.String,SuperOffice.Data.ErpActorType,System.String)
+    name: SearchActorByParentAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SearchActorByParentAsync_SuperOffice_Data_ErpActorType_System_String_SuperOffice_Data_ErpActorType_System_String_
+  - name: (
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorByParentAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorByParentAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_SearchActorByParentAsync_SuperOffice_Data_ErpActorType_System_String_SuperOffice_Data_ErpActorType_System_String_
+  name: SearchActorByParentAsync
+  nameWithType: CrmConnectionHandlerFacade.SearchActorByParentAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SearchActorByParentAsync
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.CreateActorAsync(SuperOffice.ErpSync.ErpSyncActor,SuperOffice.Data.ErpActorType)
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.CreateActorAsync(SuperOffice.ErpSync.ErpSyncActor,SuperOffice.Data.ErpActorType)
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_CreateActorAsync_SuperOffice_ErpSync_ErpSyncActor_SuperOffice_Data_ErpActorType_
+  name: CreateActorAsync(ErpSyncActor, ErpActorType)
+  nameWithType: ConnectionHandlerFacadeBase.CreateActorAsync(ErpSyncActor, ErpActorType)
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.CreateActorAsync(SuperOffice.ErpSync.ErpSyncActor, SuperOffice.Data.ErpActorType)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.CreateActorAsync(SuperOffice.ErpSync.ErpSyncActor,SuperOffice.Data.ErpActorType)
+    name: CreateActorAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_CreateActorAsync_SuperOffice_ErpSync_ErpSyncActor_SuperOffice_Data_ErpActorType_
+  - name: (
+  - uid: SuperOffice.ErpSync.ErpSyncActor
+    name: ErpSyncActor
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActor.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.CreateActorAsync(SuperOffice.ErpSync.ErpSyncActor,SuperOffice.Data.ErpActorType)
+    name: CreateActorAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_CreateActorAsync_SuperOffice_ErpSync_ErpSyncActor_SuperOffice_Data_ErpActorType_
+  - name: (
+  - uid: SuperOffice.ErpSync.ErpSyncActor
+    name: ErpSyncActor
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActor.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    isExternal: true
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.CreateActorAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.CreateActorAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_CreateActorAsync_SuperOffice_ErpSync_ErpSyncActor_SuperOffice_Data_ErpActorType_
+  name: CreateActorAsync
+  nameWithType: CrmConnectionHandlerFacade.CreateActorAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.CreateActorAsync
+- uid: SuperOffice.ErpSync.ErpSyncActor
+  commentId: T:SuperOffice.ErpSync.ErpSyncActor
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActor.html
+  name: ErpSyncActor
+  nameWithType: ErpSyncActor
+  fullName: SuperOffice.ErpSync.ErpSyncActor
+- uid: System.Threading.Tasks.Task{SuperOffice.ErpSync.ErpSyncActor}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.ErpSync.ErpSyncActor}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ErpSyncActor>
+  nameWithType: Task<ErpSyncActor>
+  fullName: System.Threading.Tasks.Task<SuperOffice.ErpSync.ErpSyncActor>
+  nameWithType.vb: Task(Of ErpSyncActor)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.ErpSync.ErpSyncActor)
+  name.vb: Task(Of ErpSyncActor)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.ErpSync.ErpSyncActor
+    name: ErpSyncActor
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActor.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.ErpSync.ErpSyncActor
+    name: ErpSyncActor
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActor.html
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[])
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[])
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SaveActorsAsync_SuperOffice_ErpSync_ErpSyncActor___
+  name: SaveActorsAsync(ErpSyncActor[])
+  nameWithType: ConnectionHandlerFacadeBase.SaveActorsAsync(ErpSyncActor[])
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[])
+  nameWithType.vb: ConnectionHandlerFacadeBase.SaveActorsAsync(ErpSyncActor())
+  fullName.vb: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor())
+  name.vb: SaveActorsAsync(ErpSyncActor())
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[])
+    name: SaveActorsAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SaveActorsAsync_SuperOffice_ErpSync_ErpSyncActor___
+  - name: (
+  - uid: SuperOffice.ErpSync.ErpSyncActor
+    name: ErpSyncActor
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActor.html
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[])
+    name: SaveActorsAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SaveActorsAsync_SuperOffice_ErpSync_ErpSyncActor___
+  - name: (
+  - uid: SuperOffice.ErpSync.ErpSyncActor
+    name: ErpSyncActor
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActor.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorsAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorsAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_SaveActorsAsync_SuperOffice_ErpSync_ErpSyncActor___
+  name: SaveActorsAsync
+  nameWithType: CrmConnectionHandlerFacade.SaveActorsAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorsAsync
+- uid: SuperOffice.ErpSync.ErpSyncActor[]
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActor.html
+  name: ErpSyncActor[]
+  nameWithType: ErpSyncActor[]
+  fullName: SuperOffice.ErpSync.ErpSyncActor[]
+  nameWithType.vb: ErpSyncActor()
+  fullName.vb: SuperOffice.ErpSync.ErpSyncActor()
+  name.vb: ErpSyncActor()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ErpSyncActor
+    name: ErpSyncActor
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActor.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ErpSyncActor
+    name: ErpSyncActor
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActor.html
+  - name: (
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[],System.Boolean)
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[],System.Boolean)
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SaveActorsAsync_SuperOffice_ErpSync_ErpSyncActor___System_Boolean_
+  name: SaveActorsAsync(ErpSyncActor[], bool)
+  nameWithType: ConnectionHandlerFacadeBase.SaveActorsAsync(ErpSyncActor[], bool)
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[], bool)
+  nameWithType.vb: ConnectionHandlerFacadeBase.SaveActorsAsync(ErpSyncActor(), Boolean)
+  fullName.vb: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor(), Boolean)
+  name.vb: SaveActorsAsync(ErpSyncActor(), Boolean)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[],System.Boolean)
+    name: SaveActorsAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SaveActorsAsync_SuperOffice_ErpSync_ErpSyncActor___System_Boolean_
+  - name: (
+  - uid: SuperOffice.ErpSync.ErpSyncActor
+    name: ErpSyncActor
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActor.html
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorsAsync(SuperOffice.ErpSync.ErpSyncActor[],System.Boolean)
+    name: SaveActorsAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SaveActorsAsync_SuperOffice_ErpSync_ErpSyncActor___System_Boolean_
+  - name: (
+  - uid: SuperOffice.ErpSync.ErpSyncActor
+    name: ErpSyncActor
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActor.html
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetListAsync(System.String)
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetListAsync(System.String)
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetListAsync_System_String_
+  name: GetListAsync(string)
+  nameWithType: ConnectionHandlerFacadeBase.GetListAsync(string)
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetListAsync(string)
+  nameWithType.vb: ConnectionHandlerFacadeBase.GetListAsync(String)
+  fullName.vb: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetListAsync(String)
+  name.vb: GetListAsync(String)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetListAsync(System.String)
+    name: GetListAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetListAsync_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetListAsync(System.String)
+    name: GetListAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetListAsync_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_GetListAsync_System_String_
+  name: GetListAsync
+  nameWithType: CrmConnectionHandlerFacade.GetListAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,System.String}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,System.String}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Dictionary<string, string>>
+  nameWithType: Task<Dictionary<string, string>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<string, string>>
+  nameWithType.vb: Task(Of Dictionary(Of String, String))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.Dictionary(Of String, String))
+  name.vb: Task(Of Dictionary(Of String, String))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetUpdatedActorsAsync
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetUpdatedActorsAsync
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetUpdatedActorsAsync
+  name: GetUpdatedActorsAsync()
+  nameWithType: ConnectionHandlerFacadeBase.GetUpdatedActorsAsync()
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetUpdatedActorsAsync()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetUpdatedActorsAsync
+    name: GetUpdatedActorsAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetUpdatedActorsAsync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetUpdatedActorsAsync
+    name: GetUpdatedActorsAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetUpdatedActorsAsync
+  - name: (
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetUpdatedActorsAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetUpdatedActorsAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_GetUpdatedActorsAsync
+  name: GetUpdatedActorsAsync
+  nameWithType: CrmConnectionHandlerFacade.GetUpdatedActorsAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetUpdatedActorsAsync
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SaveActorTimestampAsync_SuperOffice_ErpSync_ErpSyncActor_System_Threading_CancellationToken_
+  name: SaveActorTimestampAsync(ErpSyncActor, CancellationToken)
+  nameWithType: ConnectionHandlerFacadeBase.SaveActorTimestampAsync(ErpSyncActor, CancellationToken)
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorTimestampAsync(SuperOffice.ErpSync.ErpSyncActor, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+    name: SaveActorTimestampAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SaveActorTimestampAsync_SuperOffice_ErpSync_ErpSyncActor_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.ErpSync.ErpSyncActor
+    name: ErpSyncActor
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActor.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveActorTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+    name: SaveActorTimestampAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SaveActorTimestampAsync_SuperOffice_ErpSync_ErpSyncActor_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.ErpSync.ErpSyncActor
+    name: ErpSyncActor
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActor.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorTimestampAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorTimestampAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_SaveActorTimestampAsync_SuperOffice_ErpSync_ErpSyncActor_System_Threading_CancellationToken_
+  name: SaveActorTimestampAsync
+  nameWithType: CrmConnectionHandlerFacade.SaveActorTimestampAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveActorTimestampAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveConnectionTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveConnectionTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SaveConnectionTimestampAsync_SuperOffice_ErpSync_ErpSyncActor_System_Threading_CancellationToken_
+  name: SaveConnectionTimestampAsync(ErpSyncActor, CancellationToken)
+  nameWithType: ConnectionHandlerFacadeBase.SaveConnectionTimestampAsync(ErpSyncActor, CancellationToken)
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveConnectionTimestampAsync(SuperOffice.ErpSync.ErpSyncActor, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveConnectionTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+    name: SaveConnectionTimestampAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SaveConnectionTimestampAsync_SuperOffice_ErpSync_ErpSyncActor_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.ErpSync.ErpSyncActor
+    name: ErpSyncActor
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActor.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.SaveConnectionTimestampAsync(SuperOffice.ErpSync.ErpSyncActor,System.Threading.CancellationToken)
+    name: SaveConnectionTimestampAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_SaveConnectionTimestampAsync_SuperOffice_ErpSync_ErpSyncActor_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.ErpSync.ErpSyncActor
+    name: ErpSyncActor
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActor.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionTimestampAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionTimestampAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_SaveConnectionTimestampAsync_SuperOffice_ErpSync_ErpSyncActor_System_Threading_CancellationToken_
+  name: SaveConnectionTimestampAsync
+  nameWithType: CrmConnectionHandlerFacade.SaveConnectionTimestampAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.SaveConnectionTimestampAsync
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetListItemsAsync(System.String,System.String[])
+  commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetListItemsAsync(System.String,System.String[])
+  parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetListItemsAsync_System_String_System_String___
+  name: GetListItemsAsync(string, string[])
+  nameWithType: ConnectionHandlerFacadeBase.GetListItemsAsync(string, string[])
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetListItemsAsync(string, string[])
+  nameWithType.vb: ConnectionHandlerFacadeBase.GetListItemsAsync(String, String())
+  fullName.vb: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetListItemsAsync(String, String())
+  name.vb: GetListItemsAsync(String, String())
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetListItemsAsync(System.String,System.String[])
+    name: GetListItemsAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetListItemsAsync_System_String_System_String___
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetListItemsAsync(System.String,System.String[])
+    name: GetListItemsAsync
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html#SuperOffice_ErpSync_ConnectionHandlerFacadeBase_GetListItemsAsync_System_String_System_String___
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListItemsAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListItemsAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_GetListItemsAsync_System_String_System_String___
+  name: GetListItemsAsync
+  nameWithType: CrmConnectionHandlerFacade.GetListItemsAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetListItemsAsync
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.OpenConnectionAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.OpenConnectionAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_OpenConnectionAsync_System_Threading_CancellationToken_
+  name: OpenConnectionAsync
+  nameWithType: CrmConnectionHandlerFacade.OpenConnectionAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.OpenConnectionAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.ErpSync.CrmConnectionHandlerFacade}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.ErpSync.CrmConnectionHandlerFacade}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CrmConnectionHandlerFacade>
+  nameWithType: Task<CrmConnectionHandlerFacade>
+  fullName: System.Threading.Tasks.Task<SuperOffice.ErpSync.CrmConnectionHandlerFacade>
+  nameWithType.vb: Task(Of CrmConnectionHandlerFacade)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.ErpSync.CrmConnectionHandlerFacade)
+  name.vb: Task(Of CrmConnectionHandlerFacade)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+    name: CrmConnectionHandlerFacade
+    isExternal: true
+    href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+    name: CrmConnectionHandlerFacade
+    isExternal: true
+    href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetTableIdFromCrmActorType*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetTableIdFromCrmActorType
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_GetTableIdFromCrmActorType_SuperOffice_Data_CrmActorType_
+  name: GetTableIdFromCrmActorType
+  nameWithType: CrmConnectionHandlerFacade.GetTableIdFromCrmActorType
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetTableIdFromCrmActorType
+- uid: SuperOffice.Data.CrmActorType
+  isExternal: true
+  name: CrmActorType
+  nameWithType: CrmActorType
+  fullName: SuperOffice.Data.CrmActorType
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromTableId*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromTableId
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_GetCrmActorTypeFromTableId_System_Int32_
+  name: GetCrmActorTypeFromTableId
+  nameWithType: CrmConnectionHandlerFacade.GetCrmActorTypeFromTableId
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromTableId
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromInternalKeyIdAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromInternalKeyIdAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_GetCrmActorTypeFromInternalKeyIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetCrmActorTypeFromInternalKeyIdAsync
+  nameWithType: CrmConnectionHandlerFacade.GetCrmActorTypeFromInternalKeyIdAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetCrmActorTypeFromInternalKeyIdAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.CrmActorType}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.CrmActorType}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CrmActorType>
+  nameWithType: Task<CrmActorType>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.CrmActorType>
+  nameWithType.vb: Task(Of CrmActorType)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.CrmActorType)
+  name.vb: Task(Of CrmActorType)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.CrmActorType
+    name: CrmActorType
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.CrmActorType
+    name: CrmActorType
+    isExternal: true
+  - name: )
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetInternalKeyAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetInternalKeyAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_GetInternalKeyAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetInternalKeyAsync
+  nameWithType: CrmConnectionHandlerFacade.GetInternalKeyAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetInternalKeyAsync
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorAsync*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorAsync
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade_GetActorAsync_System_Int32_System_Int32_
+  name: GetActorAsync
+  nameWithType: CrmConnectionHandlerFacade.GetActorAsync
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorAsync

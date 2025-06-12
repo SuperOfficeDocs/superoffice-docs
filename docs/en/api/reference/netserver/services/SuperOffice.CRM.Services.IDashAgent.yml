@@ -5,43 +5,43 @@ items:
   id: IDashAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard(System.Int32,SuperOffice.CRM.Services.DashTileDefinition)
-  - SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard(System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.IDashAgent.CopyTileSelection(System.Int32)
-  - SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity(System.String)
-  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDash
-  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
-  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme
-  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile
-  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinition
-  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash
-  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile
-  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity(System.String)
-  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity(System.String)
-  - SuperOffice.CRM.Services.IDashAgent.DeleteDash(System.Int32)
-  - SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme(System.Int32)
-  - SuperOffice.CRM.Services.IDashAgent.DeleteDashTile(System.Int32)
-  - SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition(System.Int32)
-  - SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard(System.Int32,System.String)
-  - SuperOffice.CRM.Services.IDashAgent.DuplicateTile(System.Int32,System.String)
-  - SuperOffice.CRM.Services.IDashAgent.GetDash(System.Int32)
-  - SuperOffice.CRM.Services.IDashAgent.GetDashCollection
-  - SuperOffice.CRM.Services.IDashAgent.GetDashList(System.Int32[])
-  - SuperOffice.CRM.Services.IDashAgent.GetDashTheme(System.Int32)
-  - SuperOffice.CRM.Services.IDashAgent.GetDashTile(System.Int32)
-  - SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition(System.Int32)
-  - SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml(System.Int32,System.String)
-  - SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList(System.Int32)
-  - SuperOffice.CRM.Services.IDashAgent.GetDashTiles(System.Int32)
-  - SuperOffice.CRM.Services.IDashAgent.GetPreviewDash(System.Int32)
-  - SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection(System.Int32)
-  - SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection(System.Int32)
-  - SuperOffice.CRM.Services.IDashAgent.SaveDash(SuperOffice.CRM.Services.Dash)
-  - SuperOffice.CRM.Services.IDashAgent.SaveDashTheme(SuperOffice.CRM.Services.DashTheme)
-  - SuperOffice.CRM.Services.IDashAgent.SaveDashTile(SuperOffice.CRM.Services.DashTile)
-  - SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinition(SuperOffice.CRM.Services.DashTileDefinition)
-  - SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(System.Int32,SuperOffice.CRM.Services.DashTileHtml[])
-  - SuperOffice.CRM.Services.IDashAgent.SaveDashTiles(System.Int32,SuperOffice.CRM.Services.DashTile[])
+  - SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboardAsync(System.Int32,SuperOffice.CRM.Services.DashTileDefinition,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.AddTileToDashboardAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.CopyTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntityAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollectionAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashThemeAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinitionAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTileAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntityAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntityAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.DeleteDashAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.DeleteDashThemeAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.DeleteDashTileAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinitionAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.DuplicateDashboardAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.DuplicateTileAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.GetDashAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.GetDashCollectionAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.GetDashListAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.GetDashThemeAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.GetDashTileAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinitionAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlListAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.GetDashTilesAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.GetPreviewDashAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.GetTempTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.SaveDashAsync(SuperOffice.CRM.Services.Dash,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.SaveDashThemeAsync(SuperOffice.CRM.Services.DashTheme,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.SaveDashTileAsync(SuperOffice.CRM.Services.DashTile,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinitionAsync(SuperOffice.CRM.Services.DashTileDefinition,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlListAsync(System.Int32,SuperOffice.CRM.Services.DashTileHtml[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.SaveDashTilesAsync(System.Int32,SuperOffice.CRM.Services.DashTile[],System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -49,15 +49,28 @@ items:
   nameWithType: IDashAgent
   fullName: SuperOffice.CRM.Services.IDashAgent
   type: Interface
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInterface for the Dash Agent\nAgent that lets you configure dashboard tiles and retrieve dashboard data\n"
+  summary: >-
+    Interface for the Dash Agent
+
+    Agent that lets you configure dashboard tiles and retrieve dashboard data
   example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (DashAgent agent = new DashAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  - >-
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       using (DashAgent agent = new DashAgent())
+       {
+          // call methods on agent here...
+       }
+    }</code></pre>
   syntax:
     content: >-
       [Agent("Dash Agent", "Interface for the Dash Agent. Agent that lets you configure dashboard tiles and retrieve dashboard data")]
@@ -66,8 +79,7 @@ items:
     content.vb: >-
       <Agent("Dash Agent", "Interface for the Dash Agent. Agent that lets you configure dashboard tiles and retrieve dashboard data")>
 
-      Public Interface IDashAgent
-          Inherits IAgent
+      Public Interface IDashAgent Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -76,456 +88,499 @@ items:
       value: Dash Agent
     - type: System.String
       value: Interface for the Dash Agent. Agent that lets you configure dashboard tiles and retrieve dashboard data
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDash
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDash
-  id: CreateDefaultDash
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashAsync(System.Threading.CancellationToken)
+  id: CreateDefaultDashAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultDash()
-  nameWithType: IDashAgent.CreateDefaultDash()
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDash()
+  name: CreateDefaultDashAsync(CancellationToken)
+  nameWithType: IDashAgent.CreateDefaultDashAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new Dash.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Loading default values into a new Dash.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: Dash CreateDefaultDash()
+    content: Task<Dash> CreateDefaultDashAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Dash
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Dash}
       description: New Dash with default values
-    content.vb: Function CreateDefaultDash As Dash
-  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDash*
-- uid: SuperOffice.CRM.Services.IDashAgent.SaveDash(SuperOffice.CRM.Services.Dash)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDash(SuperOffice.CRM.Services.Dash)
-  id: SaveDash(SuperOffice.CRM.Services.Dash)
+    content.vb: Function CreateDefaultDashAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Dash)
+  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashAsync*
+- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashAsync(SuperOffice.CRM.Services.Dash,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashAsync(SuperOffice.CRM.Services.Dash,System.Threading.CancellationToken)
+  id: SaveDashAsync(SuperOffice.CRM.Services.Dash,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: SaveDash(Dash)
-  nameWithType: IDashAgent.SaveDash(Dash)
-  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDash(SuperOffice.CRM.Services.Dash)
+  name: SaveDashAsync(Dash, CancellationToken)
+  nameWithType: IDashAgent.SaveDashAsync(Dash, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashAsync(SuperOffice.CRM.Services.Dash, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing Dash or creates a new Dash if the id parameter is empty\n"
+  summary: Updates the existing Dash or creates a new Dash if the id parameter is empty
+  example: []
   syntax:
-    content: Dash SaveDash(Dash dash)
+    content: Task<Dash> SaveDashAsync(Dash dash, CancellationToken cancellationToken = default)
     parameters:
     - id: dash
       type: SuperOffice.CRM.Services.Dash
       description: The Dash that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Dash
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Dash}
       description: New or updated Dash
-    content.vb: Function SaveDash(dash As Dash) As Dash
-  overload: SuperOffice.CRM.Services.IDashAgent.SaveDash*
-- uid: SuperOffice.CRM.Services.IDashAgent.DeleteDash(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.DeleteDash(System.Int32)
-  id: DeleteDash(System.Int32)
+    content.vb: Function SaveDashAsync(dash As Dash, cancellationToken As CancellationToken = Nothing) As Task(Of Dash)
+  overload: SuperOffice.CRM.Services.IDashAgent.SaveDashAsync*
+- uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.DeleteDashAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteDashAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: DeleteDash(Int32)
-  nameWithType: IDashAgent.DeleteDash(Int32)
-  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDash(System.Int32)
+  name: DeleteDashAsync(int, CancellationToken)
+  nameWithType: IDashAgent.DeleteDashAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the Dash\n"
+  summary: Deletes the Dash
+  example: []
   syntax:
-    content: void DeleteDash(int dashId)
+    content: Task DeleteDashAsync(int dashId, CancellationToken cancellationToken = default)
     parameters:
     - id: dashId
       type: System.Int32
       description: The identity of the Dash
-    content.vb: Sub DeleteDash(dashId As Integer)
-  overload: SuperOffice.CRM.Services.IDashAgent.DeleteDash*
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
-  id: CreateDefaultDashCollection
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteDashAsync(dashId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDashAgent.DeleteDashAsync*
+  nameWithType.vb: IDashAgent.DeleteDashAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.DeleteDashAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteDashAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollectionAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollectionAsync(System.Threading.CancellationToken)
+  id: CreateDefaultDashCollectionAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultDashCollection()
-  nameWithType: IDashAgent.CreateDefaultDashCollection()
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection()
+  name: CreateDefaultDashCollectionAsync(CancellationToken)
+  nameWithType: IDashAgent.CreateDefaultDashCollectionAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollectionAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new DashCollection.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Loading default values into a new DashCollection.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: DashCollection CreateDefaultDashCollection()
+    content: Task<DashCollection> CreateDefaultDashCollectionAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashCollection}
       description: New DashCollection with default values
-    content.vb: Function CreateDefaultDashCollection As DashCollection
-  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection*
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme
-  id: CreateDefaultDashTheme
+    content.vb: Function CreateDefaultDashCollectionAsync(cancellationToken As CancellationToken = Nothing) As Task(Of DashCollection)
+  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollectionAsync*
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashThemeAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashThemeAsync(System.Threading.CancellationToken)
+  id: CreateDefaultDashThemeAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultDashTheme()
-  nameWithType: IDashAgent.CreateDefaultDashTheme()
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme()
+  name: CreateDefaultDashThemeAsync(CancellationToken)
+  nameWithType: IDashAgent.CreateDefaultDashThemeAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashThemeAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new DashTheme.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Loading default values into a new DashTheme.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: DashTheme CreateDefaultDashTheme()
+    content: Task<DashTheme> CreateDefaultDashThemeAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTheme
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTheme}
       description: New DashTheme with default values
-    content.vb: Function CreateDefaultDashTheme As DashTheme
-  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme*
-- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTheme(SuperOffice.CRM.Services.DashTheme)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashTheme(SuperOffice.CRM.Services.DashTheme)
-  id: SaveDashTheme(SuperOffice.CRM.Services.DashTheme)
+    content.vb: Function CreateDefaultDashThemeAsync(cancellationToken As CancellationToken = Nothing) As Task(Of DashTheme)
+  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashThemeAsync*
+- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashThemeAsync(SuperOffice.CRM.Services.DashTheme,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashThemeAsync(SuperOffice.CRM.Services.DashTheme,System.Threading.CancellationToken)
+  id: SaveDashThemeAsync(SuperOffice.CRM.Services.DashTheme,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: SaveDashTheme(DashTheme)
-  nameWithType: IDashAgent.SaveDashTheme(DashTheme)
-  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTheme(SuperOffice.CRM.Services.DashTheme)
+  name: SaveDashThemeAsync(DashTheme, CancellationToken)
+  nameWithType: IDashAgent.SaveDashThemeAsync(DashTheme, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashThemeAsync(SuperOffice.CRM.Services.DashTheme, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing DashTheme or creates a new DashTheme if the id parameter is empty\n"
+  summary: Updates the existing DashTheme or creates a new DashTheme if the id parameter is empty
+  example: []
   syntax:
-    content: DashTheme SaveDashTheme(DashTheme dashTheme)
+    content: Task<DashTheme> SaveDashThemeAsync(DashTheme dashTheme, CancellationToken cancellationToken = default)
     parameters:
     - id: dashTheme
       type: SuperOffice.CRM.Services.DashTheme
       description: The DashTheme that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTheme
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTheme}
       description: New or updated DashTheme
-    content.vb: Function SaveDashTheme(dashTheme As DashTheme) As DashTheme
-  overload: SuperOffice.CRM.Services.IDashAgent.SaveDashTheme*
-- uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme(System.Int32)
-  id: DeleteDashTheme(System.Int32)
+    content.vb: Function SaveDashThemeAsync(dashTheme As DashTheme, cancellationToken As CancellationToken = Nothing) As Task(Of DashTheme)
+  overload: SuperOffice.CRM.Services.IDashAgent.SaveDashThemeAsync*
+- uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashThemeAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.DeleteDashThemeAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteDashThemeAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: DeleteDashTheme(Int32)
-  nameWithType: IDashAgent.DeleteDashTheme(Int32)
-  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme(System.Int32)
+  name: DeleteDashThemeAsync(int, CancellationToken)
+  nameWithType: IDashAgent.DeleteDashThemeAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashThemeAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the DashTheme\n"
+  summary: Deletes the DashTheme
+  example: []
   syntax:
-    content: void DeleteDashTheme(int dashThemeId)
+    content: Task DeleteDashThemeAsync(int dashThemeId, CancellationToken cancellationToken = default)
     parameters:
     - id: dashThemeId
       type: System.Int32
       description: The identity of the DashTheme
-    content.vb: Sub DeleteDashTheme(dashThemeId As Integer)
-  overload: SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme*
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile
-  id: CreateDefaultDashTile
-  parent: SuperOffice.CRM.Services.IDashAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultDashTile()
-  nameWithType: IDashAgent.CreateDefaultDashTile()
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new DashTile.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
-  syntax:
-    content: DashTile CreateDefaultDashTile()
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTile
-      description: New DashTile with default values
-    content.vb: Function CreateDefaultDashTile As DashTile
-  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile*
-- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTile(SuperOffice.CRM.Services.DashTile)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashTile(SuperOffice.CRM.Services.DashTile)
-  id: SaveDashTile(SuperOffice.CRM.Services.DashTile)
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteDashThemeAsync(dashThemeId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDashAgent.DeleteDashThemeAsync*
+  nameWithType.vb: IDashAgent.DeleteDashThemeAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.DeleteDashThemeAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteDashThemeAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileAsync(System.Threading.CancellationToken)
+  id: CreateDefaultDashTileAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: SaveDashTile(DashTile)
-  nameWithType: IDashAgent.SaveDashTile(DashTile)
-  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTile(SuperOffice.CRM.Services.DashTile)
+  name: CreateDefaultDashTileAsync(CancellationToken)
+  nameWithType: IDashAgent.CreateDefaultDashTileAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing DashTile or creates a new DashTile if the id parameter is empty\n"
+  summary: >-
+    Loading default values into a new DashTile.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: DashTile SaveDashTile(DashTile dashTile)
+    content: Task<DashTile> CreateDefaultDashTileAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTile}
+      description: New DashTile with default values
+    content.vb: Function CreateDefaultDashTileAsync(cancellationToken As CancellationToken = Nothing) As Task(Of DashTile)
+  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileAsync*
+- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTileAsync(SuperOffice.CRM.Services.DashTile,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashTileAsync(SuperOffice.CRM.Services.DashTile,System.Threading.CancellationToken)
+  id: SaveDashTileAsync(SuperOffice.CRM.Services.DashTile,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDashAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveDashTileAsync(DashTile, CancellationToken)
+  nameWithType: IDashAgent.SaveDashTileAsync(DashTile, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileAsync(SuperOffice.CRM.Services.DashTile, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing DashTile or creates a new DashTile if the id parameter is empty
+  example: []
+  syntax:
+    content: Task<DashTile> SaveDashTileAsync(DashTile dashTile, CancellationToken cancellationToken = default)
     parameters:
     - id: dashTile
       type: SuperOffice.CRM.Services.DashTile
       description: The DashTile that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTile
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTile}
       description: New or updated DashTile
-    content.vb: Function SaveDashTile(dashTile As DashTile) As DashTile
-  overload: SuperOffice.CRM.Services.IDashAgent.SaveDashTile*
-- uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashTile(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.DeleteDashTile(System.Int32)
-  id: DeleteDashTile(System.Int32)
+    content.vb: Function SaveDashTileAsync(dashTile As DashTile, cancellationToken As CancellationToken = Nothing) As Task(Of DashTile)
+  overload: SuperOffice.CRM.Services.IDashAgent.SaveDashTileAsync*
+- uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.DeleteDashTileAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteDashTileAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: DeleteDashTile(Int32)
-  nameWithType: IDashAgent.DeleteDashTile(Int32)
-  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTile(System.Int32)
+  name: DeleteDashTileAsync(int, CancellationToken)
+  nameWithType: IDashAgent.DeleteDashTileAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the DashTile\n"
+  summary: Deletes the DashTile
+  example: []
   syntax:
-    content: void DeleteDashTile(int dashTileId)
+    content: Task DeleteDashTileAsync(int dashTileId, CancellationToken cancellationToken = default)
     parameters:
     - id: dashTileId
       type: System.Int32
       description: The identity of the DashTile
-    content.vb: Sub DeleteDashTile(dashTileId As Integer)
-  overload: SuperOffice.CRM.Services.IDashAgent.DeleteDashTile*
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinition
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinition
-  id: CreateDefaultDashTileDefinition
-  parent: SuperOffice.CRM.Services.IDashAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultDashTileDefinition()
-  nameWithType: IDashAgent.CreateDefaultDashTileDefinition()
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinition()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new DashTileDefinition.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
-  syntax:
-    content: DashTileDefinition CreateDefaultDashTileDefinition()
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTileDefinition
-      description: New DashTileDefinition with default values
-    content.vb: Function CreateDefaultDashTileDefinition As DashTileDefinition
-  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinition*
-- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinition(SuperOffice.CRM.Services.DashTileDefinition)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinition(SuperOffice.CRM.Services.DashTileDefinition)
-  id: SaveDashTileDefinition(SuperOffice.CRM.Services.DashTileDefinition)
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteDashTileAsync(dashTileId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileAsync*
+  nameWithType.vb: IDashAgent.DeleteDashTileAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteDashTileAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinitionAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinitionAsync(System.Threading.CancellationToken)
+  id: CreateDefaultDashTileDefinitionAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: SaveDashTileDefinition(DashTileDefinition)
-  nameWithType: IDashAgent.SaveDashTileDefinition(DashTileDefinition)
-  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinition(SuperOffice.CRM.Services.DashTileDefinition)
+  name: CreateDefaultDashTileDefinitionAsync(CancellationToken)
+  nameWithType: IDashAgent.CreateDefaultDashTileDefinitionAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinitionAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing DashTileDefinition or creates a new DashTileDefinition if the id parameter is empty\n"
+  summary: >-
+    Loading default values into a new DashTileDefinition.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: DashTileDefinition SaveDashTileDefinition(DashTileDefinition dashTileDefinition)
+    content: Task<DashTileDefinition> CreateDefaultDashTileDefinitionAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTileDefinition}
+      description: New DashTileDefinition with default values
+    content.vb: Function CreateDefaultDashTileDefinitionAsync(cancellationToken As CancellationToken = Nothing) As Task(Of DashTileDefinition)
+  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinitionAsync*
+- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinitionAsync(SuperOffice.CRM.Services.DashTileDefinition,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinitionAsync(SuperOffice.CRM.Services.DashTileDefinition,System.Threading.CancellationToken)
+  id: SaveDashTileDefinitionAsync(SuperOffice.CRM.Services.DashTileDefinition,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDashAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveDashTileDefinitionAsync(DashTileDefinition, CancellationToken)
+  nameWithType: IDashAgent.SaveDashTileDefinitionAsync(DashTileDefinition, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinitionAsync(SuperOffice.CRM.Services.DashTileDefinition, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing DashTileDefinition or creates a new DashTileDefinition if the id parameter is empty
+  example: []
+  syntax:
+    content: Task<DashTileDefinition> SaveDashTileDefinitionAsync(DashTileDefinition dashTileDefinition, CancellationToken cancellationToken = default)
     parameters:
     - id: dashTileDefinition
       type: SuperOffice.CRM.Services.DashTileDefinition
       description: The DashTileDefinition that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTileDefinition
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTileDefinition}
       description: New or updated DashTileDefinition
-    content.vb: Function SaveDashTileDefinition(dashTileDefinition As DashTileDefinition) As DashTileDefinition
-  overload: SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinition*
-- uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition(System.Int32)
-  id: DeleteDashTileDefinition(System.Int32)
+    content.vb: Function SaveDashTileDefinitionAsync(dashTileDefinition As DashTileDefinition, cancellationToken As CancellationToken = Nothing) As Task(Of DashTileDefinition)
+  overload: SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinitionAsync*
+- uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinitionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinitionAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteDashTileDefinitionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: DeleteDashTileDefinition(Int32)
-  nameWithType: IDashAgent.DeleteDashTileDefinition(Int32)
-  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition(System.Int32)
+  name: DeleteDashTileDefinitionAsync(int, CancellationToken)
+  nameWithType: IDashAgent.DeleteDashTileDefinitionAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinitionAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the DashTileDefinition\n"
+  summary: Deletes the DashTileDefinition
+  example: []
   syntax:
-    content: void DeleteDashTileDefinition(int dashTileDefinitionId)
+    content: Task DeleteDashTileDefinitionAsync(int dashTileDefinitionId, CancellationToken cancellationToken = default)
     parameters:
     - id: dashTileDefinitionId
       type: System.Int32
       description: The identity of the DashTileDefinition
-    content.vb: Sub DeleteDashTileDefinition(dashTileDefinitionId As Integer)
-  overload: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition*
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash
-  id: CreateDefaultPreviewDash
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteDashTileDefinitionAsync(dashTileDefinitionId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinitionAsync*
+  nameWithType.vb: IDashAgent.DeleteDashTileDefinitionAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinitionAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteDashTileDefinitionAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashAsync(System.Threading.CancellationToken)
+  id: CreateDefaultPreviewDashAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultPreviewDash()
-  nameWithType: IDashAgent.CreateDefaultPreviewDash()
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash()
+  name: CreateDefaultPreviewDashAsync(CancellationToken)
+  nameWithType: IDashAgent.CreateDefaultPreviewDashAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new PreviewDash.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Loading default values into a new PreviewDash.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: PreviewDash CreateDefaultPreviewDash()
+    content: Task<PreviewDash> CreateDefaultPreviewDashAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreviewDash
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewDash}
       description: New PreviewDash with default values
-    content.vb: Function CreateDefaultPreviewDash As PreviewDash
-  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash*
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile
-  id: CreateDefaultPreviewDashTile
+    content.vb: Function CreateDefaultPreviewDashAsync(cancellationToken As CancellationToken = Nothing) As Task(Of PreviewDash)
+  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashAsync*
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTileAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTileAsync(System.Threading.CancellationToken)
+  id: CreateDefaultPreviewDashTileAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultPreviewDashTile()
-  nameWithType: IDashAgent.CreateDefaultPreviewDashTile()
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile()
+  name: CreateDefaultPreviewDashTileAsync(CancellationToken)
+  nameWithType: IDashAgent.CreateDefaultPreviewDashTileAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTileAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new PreviewDashTile.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Loading default values into a new PreviewDashTile.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
-    content: PreviewDashTile CreateDefaultPreviewDashTile()
+    content: Task<PreviewDashTile> CreateDefaultPreviewDashTileAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreviewDashTile
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewDashTile}
       description: New PreviewDashTile with default values
-    content.vb: Function CreateDefaultPreviewDashTile As PreviewDashTile
-  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile*
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDash(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDash(System.Int32)
-  id: GetDash(System.Int32)
+    content.vb: Function CreateDefaultPreviewDashTileAsync(cancellationToken As CancellationToken = Nothing) As Task(Of PreviewDashTile)
+  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTileAsync*
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetDashAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: GetDash(Int32)
-  nameWithType: IDashAgent.GetDash(Int32)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDash(System.Int32)
+  name: GetDashAsync(int, CancellationToken)
+  nameWithType: IDashAgent.GetDashAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a Dash object.                        \n"
+  summary: Gets a Dash object.
+  example: []
   syntax:
-    content: Dash GetDash(int dashId)
+    content: Task<Dash> GetDashAsync(int dashId, CancellationToken cancellationToken = default)
     parameters:
     - id: dashId
       type: System.Int32
       description: The identifier of the Dash object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Dash
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Dash}
       description: Dash
-    content.vb: Function GetDash(dashId As Integer) As Dash
-  overload: SuperOffice.CRM.Services.IDashAgent.GetDash*
-- uid: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard(System.Int32,System.Int32)
-  id: AddTileToDashboard(System.Int32,System.Int32)
+    content.vb: Function GetDashAsync(dashId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Dash)
+  overload: SuperOffice.CRM.Services.IDashAgent.GetDashAsync*
+  nameWithType.vb: IDashAgent.GetDashAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetDashAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboardAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.AddTileToDashboardAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: AddTileToDashboardAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: AddTileToDashboard(Int32, Int32)
-  nameWithType: IDashAgent.AddTileToDashboard(Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard(System.Int32, System.Int32)
+  name: AddTileToDashboardAsync(int, int, CancellationToken)
+  nameWithType: IDashAgent.AddTileToDashboardAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboardAsync(int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAdd a tile to a dashboard with next rank\n"
+  summary: Add a tile to a dashboard with next rank
+  example: []
   syntax:
-    content: DashTile AddTileToDashboard(int dashboardId, int dashTileDefinitionId)
+    content: Task<DashTile> AddTileToDashboardAsync(int dashboardId, int dashTileDefinitionId, CancellationToken cancellationToken = default)
     parameters:
     - id: dashboardId
       type: System.Int32
@@ -533,31 +588,34 @@ items:
     - id: dashTileDefinitionId
       type: System.Int32
       description: The id of the dashboard tile definition
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTile
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTile}
       description: The newly added tile
-    content.vb: Function AddTileToDashboard(dashboardId As Integer, dashTileDefinitionId As Integer) As DashTile
-  overload: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard*
-- uid: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard(System.Int32,SuperOffice.CRM.Services.DashTileDefinition)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard(System.Int32,SuperOffice.CRM.Services.DashTileDefinition)
-  id: AddNewTileToDashboard(System.Int32,SuperOffice.CRM.Services.DashTileDefinition)
+    content.vb: Function AddTileToDashboardAsync(dashboardId As Integer, dashTileDefinitionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of DashTile)
+  overload: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboardAsync*
+  nameWithType.vb: IDashAgent.AddTileToDashboardAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboardAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: AddTileToDashboardAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboardAsync(System.Int32,SuperOffice.CRM.Services.DashTileDefinition,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboardAsync(System.Int32,SuperOffice.CRM.Services.DashTileDefinition,System.Threading.CancellationToken)
+  id: AddNewTileToDashboardAsync(System.Int32,SuperOffice.CRM.Services.DashTileDefinition,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: AddNewTileToDashboard(Int32, DashTileDefinition)
-  nameWithType: IDashAgent.AddNewTileToDashboard(Int32, DashTileDefinition)
-  fullName: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard(System.Int32, SuperOffice.CRM.Services.DashTileDefinition)
+  name: AddNewTileToDashboardAsync(int, DashTileDefinition, CancellationToken)
+  nameWithType: IDashAgent.AddNewTileToDashboardAsync(int, DashTileDefinition, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboardAsync(int, SuperOffice.CRM.Services.DashTileDefinition, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAdd a new tile to a dashboard with next rank\n"
+  summary: Add a new tile to a dashboard with next rank
+  example: []
   syntax:
-    content: DashTile AddNewTileToDashboard(int dashboardId, DashTileDefinition dashTileDefinition)
+    content: Task<DashTile> AddNewTileToDashboardAsync(int dashboardId, DashTileDefinition dashTileDefinition, CancellationToken cancellationToken = default)
     parameters:
     - id: dashboardId
       type: System.Int32
@@ -565,31 +623,34 @@ items:
     - id: dashTileDefinition
       type: SuperOffice.CRM.Services.DashTileDefinition
       description: The tile definition data to add to the dashboard
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTile
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTile}
       description: The newly added tile
-    content.vb: Function AddNewTileToDashboard(dashboardId As Integer, dashTileDefinition As DashTileDefinition) As DashTile
-  overload: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard*
-- uid: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard(System.Int32,System.String)
-  id: DuplicateDashboard(System.Int32,System.String)
+    content.vb: Function AddNewTileToDashboardAsync(dashboardId As Integer, dashTileDefinition As DashTileDefinition, cancellationToken As CancellationToken = Nothing) As Task(Of DashTile)
+  overload: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboardAsync*
+  nameWithType.vb: IDashAgent.AddNewTileToDashboardAsync(Integer, DashTileDefinition, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboardAsync(Integer, SuperOffice.CRM.Services.DashTileDefinition, System.Threading.CancellationToken)
+  name.vb: AddNewTileToDashboardAsync(Integer, DashTileDefinition, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboardAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.DuplicateDashboardAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: DuplicateDashboardAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: DuplicateDashboard(Int32, String)
-  nameWithType: IDashAgent.DuplicateDashboard(Int32, String)
-  fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard(System.Int32, System.String)
+  name: DuplicateDashboardAsync(int, string, CancellationToken)
+  nameWithType: IDashAgent.DuplicateDashboardAsync(int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboardAsync(int, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDuplicate for the dashboard and all the sub elements\n"
+  summary: Duplicate for the dashboard and all the sub elements
+  example: []
   syntax:
-    content: Dash DuplicateDashboard(int dashboardId, string name)
+    content: Task<Dash> DuplicateDashboardAsync(int dashboardId, string name, CancellationToken cancellationToken = default)
     parameters:
     - id: dashboardId
       type: System.Int32
@@ -597,175 +658,188 @@ items:
     - id: name
       type: System.String
       description: The name of the new dashboard
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Dash
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Dash}
       description: New dashboard
-    content.vb: Function DuplicateDashboard(dashboardId As Integer, name As String) As Dash
-  overload: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard*
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashList(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashList(System.Int32[])
-  id: GetDashList(System.Int32[])
+    content.vb: Function DuplicateDashboardAsync(dashboardId As Integer, name As String, cancellationToken As CancellationToken = Nothing) As Task(Of Dash)
+  overload: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboardAsync*
+  nameWithType.vb: IDashAgent.DuplicateDashboardAsync(Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboardAsync(Integer, String, System.Threading.CancellationToken)
+  name.vb: DuplicateDashboardAsync(Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashListAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashListAsync(System.Int32[],System.Threading.CancellationToken)
+  id: GetDashListAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: GetDashList(Int32[])
-  nameWithType: IDashAgent.GetDashList(Int32[])
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashList(System.Int32[])
+  name: GetDashListAsync(int[], CancellationToken)
+  nameWithType: IDashAgent.GetDashListAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashListAsync(int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets the ordered list of dashboards\n"
+  summary: Gets the ordered list of dashboards
+  example: []
   syntax:
-    content: Dash[] GetDashList(int[] dashboards)
+    content: Task<Dash[]> GetDashListAsync(int[] dashboards, CancellationToken cancellationToken = default)
     parameters:
     - id: dashboards
       type: System.Int32[]
       description: List of dashboardIds
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.Dash[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Dash[]}
       description: List of dashboards
-    content.vb: Function GetDashList(dashboards As Integer()) As Dash()
-  overload: SuperOffice.CRM.Services.IDashAgent.GetDashList*
-  nameWithType.vb: IDashAgent.GetDashList(Int32())
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashList(System.Int32())
-  name.vb: GetDashList(Int32())
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashCollection
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashCollection
-  id: GetDashCollection
+    content.vb: Function GetDashListAsync(dashboards As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Dash())
+  overload: SuperOffice.CRM.Services.IDashAgent.GetDashListAsync*
+  nameWithType.vb: IDashAgent.GetDashListAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashListAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: GetDashListAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashCollectionAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashCollectionAsync(System.Threading.CancellationToken)
+  id: GetDashCollectionAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: GetDashCollection()
-  nameWithType: IDashAgent.GetDashCollection()
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashCollection()
+  name: GetDashCollectionAsync(CancellationToken)
+  nameWithType: IDashAgent.GetDashCollectionAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashCollectionAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a collection of dashboards for the current associate\n"
+  summary: Gets a collection of dashboards for the current associate
+  example: []
   syntax:
-    content: DashCollection GetDashCollection()
+    content: Task<DashCollection> GetDashCollectionAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashCollection
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashCollection}
       description: Dashboard collection
-    content.vb: Function GetDashCollection As DashCollection
-  overload: SuperOffice.CRM.Services.IDashAgent.GetDashCollection*
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTheme(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTheme(System.Int32)
-  id: GetDashTheme(System.Int32)
+    content.vb: Function GetDashCollectionAsync(cancellationToken As CancellationToken = Nothing) As Task(Of DashCollection)
+  overload: SuperOffice.CRM.Services.IDashAgent.GetDashCollectionAsync*
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashThemeAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashThemeAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetDashThemeAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: GetDashTheme(Int32)
-  nameWithType: IDashAgent.GetDashTheme(Int32)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTheme(System.Int32)
+  name: GetDashThemeAsync(int, CancellationToken)
+  nameWithType: IDashAgent.GetDashThemeAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashThemeAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a DashTheme object.                        \n"
+  summary: Gets a DashTheme object.
+  example: []
   syntax:
-    content: DashTheme GetDashTheme(int dashThemeId)
+    content: Task<DashTheme> GetDashThemeAsync(int dashThemeId, CancellationToken cancellationToken = default)
     parameters:
     - id: dashThemeId
       type: System.Int32
       description: The identifier of the DashTheme object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTheme
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTheme}
       description: DashTheme
-    content.vb: Function GetDashTheme(dashThemeId As Integer) As DashTheme
-  overload: SuperOffice.CRM.Services.IDashAgent.GetDashTheme*
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTile(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTile(System.Int32)
-  id: GetDashTile(System.Int32)
+    content.vb: Function GetDashThemeAsync(dashThemeId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of DashTheme)
+  overload: SuperOffice.CRM.Services.IDashAgent.GetDashThemeAsync*
+  nameWithType.vb: IDashAgent.GetDashThemeAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashThemeAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetDashThemeAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTileAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetDashTileAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: GetDashTile(Int32)
-  nameWithType: IDashAgent.GetDashTile(Int32)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTile(System.Int32)
+  name: GetDashTileAsync(int, CancellationToken)
+  nameWithType: IDashAgent.GetDashTileAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a DashTile object.                        \n"
+  summary: Gets a DashTile object.
+  example: []
   syntax:
-    content: DashTile GetDashTile(int dashTileId)
+    content: Task<DashTile> GetDashTileAsync(int dashTileId, CancellationToken cancellationToken = default)
     parameters:
     - id: dashTileId
       type: System.Int32
       description: The identifier of the DashTile object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTile
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTile}
       description: DashTile
-    content.vb: Function GetDashTile(dashTileId As Integer) As DashTile
-  overload: SuperOffice.CRM.Services.IDashAgent.GetDashTile*
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTiles(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTiles(System.Int32)
-  id: GetDashTiles(System.Int32)
+    content.vb: Function GetDashTileAsync(dashTileId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of DashTile)
+  overload: SuperOffice.CRM.Services.IDashAgent.GetDashTileAsync*
+  nameWithType.vb: IDashAgent.GetDashTileAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashTileAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetDashTileAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTilesAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTilesAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetDashTilesAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: GetDashTiles(Int32)
-  nameWithType: IDashAgent.GetDashTiles(Int32)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTiles(System.Int32)
+  name: GetDashTilesAsync(int, CancellationToken)
+  nameWithType: IDashAgent.GetDashTilesAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTilesAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets the ordered list of tiles for a dashboard\n"
+  summary: Gets the ordered list of tiles for a dashboard
+  example: []
   syntax:
-    content: DashTile[] GetDashTiles(int dashboardId)
+    content: Task<DashTile[]> GetDashTilesAsync(int dashboardId, CancellationToken cancellationToken = default)
     parameters:
     - id: dashboardId
       type: System.Int32
       description: The id of the dashboard
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTile[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTile[]}
       description: Ordered list of dashboard tiles
-    content.vb: Function GetDashTiles(dashboardId As Integer) As DashTile()
-  overload: SuperOffice.CRM.Services.IDashAgent.GetDashTiles*
-- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTiles(System.Int32,SuperOffice.CRM.Services.DashTile[])
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashTiles(System.Int32,SuperOffice.CRM.Services.DashTile[])
-  id: SaveDashTiles(System.Int32,SuperOffice.CRM.Services.DashTile[])
+    content.vb: Function GetDashTilesAsync(dashboardId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of DashTile())
+  overload: SuperOffice.CRM.Services.IDashAgent.GetDashTilesAsync*
+  nameWithType.vb: IDashAgent.GetDashTilesAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashTilesAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetDashTilesAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTilesAsync(System.Int32,SuperOffice.CRM.Services.DashTile[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashTilesAsync(System.Int32,SuperOffice.CRM.Services.DashTile[],System.Threading.CancellationToken)
+  id: SaveDashTilesAsync(System.Int32,SuperOffice.CRM.Services.DashTile[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: SaveDashTiles(Int32, DashTile[])
-  nameWithType: IDashAgent.SaveDashTiles(Int32, DashTile[])
-  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTiles(System.Int32, SuperOffice.CRM.Services.DashTile[])
+  name: SaveDashTilesAsync(int, DashTile[], CancellationToken)
+  nameWithType: IDashAgent.SaveDashTilesAsync(int, DashTile[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTilesAsync(int, SuperOffice.CRM.Services.DashTile[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSaves the ordered list of tiles for a dashboard\n"
+  summary: Saves the ordered list of tiles for a dashboard
+  example: []
   syntax:
-    content: void SaveDashTiles(int dashboardId, DashTile[] dashTiles)
+    content: Task SaveDashTilesAsync(int dashboardId, DashTile[] dashTiles, CancellationToken cancellationToken = default)
     parameters:
     - id: dashboardId
       type: System.Int32
@@ -773,176 +847,194 @@ items:
     - id: dashTiles
       type: SuperOffice.CRM.Services.DashTile[]
       description: The tiles in order
-    content.vb: Sub SaveDashTiles(dashboardId As Integer, dashTiles As DashTile())
-  overload: SuperOffice.CRM.Services.IDashAgent.SaveDashTiles*
-  nameWithType.vb: IDashAgent.SaveDashTiles(Int32, DashTile())
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.SaveDashTiles(System.Int32, SuperOffice.CRM.Services.DashTile())
-  name.vb: SaveDashTiles(Int32, DashTile())
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity(System.String)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity(System.String)
-  id: CreateDashTileSelectionFromEntity(System.String)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SaveDashTilesAsync(dashboardId As Integer, dashTiles As DashTile(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDashAgent.SaveDashTilesAsync*
+  nameWithType.vb: IDashAgent.SaveDashTilesAsync(Integer, DashTile(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.SaveDashTilesAsync(Integer, SuperOffice.CRM.Services.DashTile(), System.Threading.CancellationToken)
+  name.vb: SaveDashTilesAsync(Integer, DashTile(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntityAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntityAsync(System.String,System.Threading.CancellationToken)
+  id: CreateDashTileSelectionFromEntityAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: CreateDashTileSelectionFromEntity(String)
-  nameWithType: IDashAgent.CreateDashTileSelectionFromEntity(String)
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity(System.String)
+  name: CreateDashTileSelectionFromEntityAsync(string, CancellationToken)
+  nameWithType: IDashAgent.CreateDashTileSelectionFromEntityAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntityAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the id to a dashboard tile selection\n"
+  summary: Returns the id to a dashboard tile selection
+  example: []
   syntax:
-    content: int CreateDashTileSelectionFromEntity(string entityName)
+    content: Task<int> CreateDashTileSelectionFromEntityAsync(string entityName, CancellationToken cancellationToken = default)
     parameters:
     - id: entityName
       type: System.String
       description: The name of the entity to create a default selection for
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Selection Id
-    content.vb: Function CreateDashTileSelectionFromEntity(entityName As String) As Integer
-  overload: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity*
-- uid: SuperOffice.CRM.Services.IDashAgent.CopyTileSelection(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.CopyTileSelection(System.Int32)
-  id: CopyTileSelection(System.Int32)
+    content.vb: Function CreateDashTileSelectionFromEntityAsync(entityName As String, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntityAsync*
+  nameWithType.vb: IDashAgent.CreateDashTileSelectionFromEntityAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntityAsync(String, System.Threading.CancellationToken)
+  name.vb: CreateDashTileSelectionFromEntityAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.CopyTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.CopyTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
+  id: CopyTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: CopyTileSelection(Int32)
-  nameWithType: IDashAgent.CopyTileSelection(Int32)
-  fullName: SuperOffice.CRM.Services.IDashAgent.CopyTileSelection(System.Int32)
+  name: CopyTileSelectionAsync(int, CancellationToken)
+  nameWithType: IDashAgent.CopyTileSelectionAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.CopyTileSelectionAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCopy Tile Selection for the dashboard\n"
+  summary: Copy Tile Selection for the dashboard
+  example: []
   syntax:
-    content: int CopyTileSelection(int selectionId)
+    content: Task<int> CopyTileSelectionAsync(int selectionId, CancellationToken cancellationToken = default)
     parameters:
     - id: selectionId
       type: System.Int32
       description: The id of the selection to copy from
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Selection Id
-    content.vb: Function CopyTileSelection(selectionId As Integer) As Integer
-  overload: SuperOffice.CRM.Services.IDashAgent.CopyTileSelection*
-- uid: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection(System.Int32)
-  id: GetTempTileSelection(System.Int32)
+    content.vb: Function CopyTileSelectionAsync(selectionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.IDashAgent.CopyTileSelectionAsync*
+  nameWithType.vb: IDashAgent.CopyTileSelectionAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.CopyTileSelectionAsync(Integer, System.Threading.CancellationToken)
+  name.vb: CopyTileSelectionAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetTempTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTempTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: GetTempTileSelection(Int32)
-  nameWithType: IDashAgent.GetTempTileSelection(Int32)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection(System.Int32)
+  name: GetTempTileSelectionAsync(int, CancellationToken)
+  nameWithType: IDashAgent.GetTempTileSelectionAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelectionAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCopy selection to temporary personal tile selection\n"
+  summary: Copy selection to temporary personal tile selection
+  example: []
   syntax:
-    content: int GetTempTileSelection(int selectionId)
+    content: Task<int> GetTempTileSelectionAsync(int selectionId, CancellationToken cancellationToken = default)
     parameters:
     - id: selectionId
       type: System.Int32
       description: The id of the selection to copy from
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Selection Id
-    content.vb: Function GetTempTileSelection(selectionId As Integer) As Integer
-  overload: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection*
-- uid: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection(System.Int32)
-  id: GetSecondaryTempTileSelection(System.Int32)
+    content.vb: Function GetTempTileSelectionAsync(selectionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelectionAsync*
+  nameWithType.vb: IDashAgent.GetTempTileSelectionAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelectionAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetTempTileSelectionAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetSecondaryTempTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: GetSecondaryTempTileSelection(Int32)
-  nameWithType: IDashAgent.GetSecondaryTempTileSelection(Int32)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection(System.Int32)
+  name: GetSecondaryTempTileSelectionAsync(int, CancellationToken)
+  nameWithType: IDashAgent.GetSecondaryTempTileSelectionAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelectionAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCopy selection to secondary temporary personal tile selection\n"
+  summary: Copy selection to secondary temporary personal tile selection
+  example: []
   syntax:
-    content: int GetSecondaryTempTileSelection(int selectionId)
+    content: Task<int> GetSecondaryTempTileSelectionAsync(int selectionId, CancellationToken cancellationToken = default)
     parameters:
     - id: selectionId
       type: System.Int32
       description: The id of the selection to copy from
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Selection Id
-    content.vb: Function GetSecondaryTempTileSelection(selectionId As Integer) As Integer
-  overload: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection*
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity(System.String)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity(System.String)
-  id: CreateDefaultTileForEntity(System.String)
+    content.vb: Function GetSecondaryTempTileSelectionAsync(selectionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelectionAsync*
+  nameWithType.vb: IDashAgent.GetSecondaryTempTileSelectionAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelectionAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetSecondaryTempTileSelectionAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntityAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntityAsync(System.String,System.Threading.CancellationToken)
+  id: CreateDefaultTileForEntityAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultTileForEntity(String)
-  nameWithType: IDashAgent.CreateDefaultTileForEntity(String)
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity(System.String)
+  name: CreateDefaultTileForEntityAsync(string, CancellationToken)
+  nameWithType: IDashAgent.CreateDefaultTileForEntityAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntityAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSet Measure to CountAll and MeasureField to primary key field\n"
+  summary: Set Measure to CountAll and MeasureField to primary key field
+  example: []
   syntax:
-    content: DashTile CreateDefaultTileForEntity(string entityName)
+    content: Task<DashTile> CreateDefaultTileForEntityAsync(string entityName, CancellationToken cancellationToken = default)
     parameters:
     - id: entityName
       type: System.String
       description: Name of entity to use for primary key
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTile
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTile}
       description: Default
-    content.vb: Function CreateDefaultTileForEntity(entityName As String) As DashTile
-  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity*
-- uid: SuperOffice.CRM.Services.IDashAgent.DuplicateTile(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.DuplicateTile(System.Int32,System.String)
-  id: DuplicateTile(System.Int32,System.String)
+    content.vb: Function CreateDefaultTileForEntityAsync(entityName As String, cancellationToken As CancellationToken = Nothing) As Task(Of DashTile)
+  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntityAsync*
+  nameWithType.vb: IDashAgent.CreateDefaultTileForEntityAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntityAsync(String, System.Threading.CancellationToken)
+  name.vb: CreateDefaultTileForEntityAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.DuplicateTileAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.DuplicateTileAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: DuplicateTileAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: DuplicateTile(Int32, String)
-  nameWithType: IDashAgent.DuplicateTile(Int32, String)
-  fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateTile(System.Int32, System.String)
+  name: DuplicateTileAsync(int, string, CancellationToken)
+  nameWithType: IDashAgent.DuplicateTileAsync(int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateTileAsync(int, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDuplicate for the tile and all the sub elements\n"
+  summary: Duplicate for the tile and all the sub elements
+  example: []
   syntax:
-    content: DashTile DuplicateTile(int dashTileId, string name)
+    content: Task<DashTile> DuplicateTileAsync(int dashTileId, string name, CancellationToken cancellationToken = default)
     parameters:
     - id: dashTileId
       type: System.Int32
@@ -950,89 +1042,98 @@ items:
     - id: name
       type: System.String
       description: The name of the new tile
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTile
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTile}
       description: New tile
-    content.vb: Function DuplicateTile(dashTileId As Integer, name As String) As DashTile
-  overload: SuperOffice.CRM.Services.IDashAgent.DuplicateTile*
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition(System.Int32)
-  id: GetDashTileDefinition(System.Int32)
+    content.vb: Function DuplicateTileAsync(dashTileId As Integer, name As String, cancellationToken As CancellationToken = Nothing) As Task(Of DashTile)
+  overload: SuperOffice.CRM.Services.IDashAgent.DuplicateTileAsync*
+  nameWithType.vb: IDashAgent.DuplicateTileAsync(Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.DuplicateTileAsync(Integer, String, System.Threading.CancellationToken)
+  name.vb: DuplicateTileAsync(Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinitionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinitionAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetDashTileDefinitionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: GetDashTileDefinition(Int32)
-  nameWithType: IDashAgent.GetDashTileDefinition(Int32)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition(System.Int32)
+  name: GetDashTileDefinitionAsync(int, CancellationToken)
+  nameWithType: IDashAgent.GetDashTileDefinitionAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinitionAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a DashTileDefinition object.                        \n"
+  summary: Gets a DashTileDefinition object.
+  example: []
   syntax:
-    content: DashTileDefinition GetDashTileDefinition(int dashTileDefinitionId)
+    content: Task<DashTileDefinition> GetDashTileDefinitionAsync(int dashTileDefinitionId, CancellationToken cancellationToken = default)
     parameters:
     - id: dashTileDefinitionId
       type: System.Int32
       description: The identifier of the DashTileDefinition object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTileDefinition
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTileDefinition}
       description: DashTileDefinition
-    content.vb: Function GetDashTileDefinition(dashTileDefinitionId As Integer) As DashTileDefinition
-  overload: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition*
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity(System.String)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity(System.String)
-  id: CreateDefaultTileDefinitionForEntity(System.String)
+    content.vb: Function GetDashTileDefinitionAsync(dashTileDefinitionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of DashTileDefinition)
+  overload: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinitionAsync*
+  nameWithType.vb: IDashAgent.GetDashTileDefinitionAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinitionAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetDashTileDefinitionAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntityAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntityAsync(System.String,System.Threading.CancellationToken)
+  id: CreateDefaultTileDefinitionForEntityAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultTileDefinitionForEntity(String)
-  nameWithType: IDashAgent.CreateDefaultTileDefinitionForEntity(String)
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity(System.String)
+  name: CreateDefaultTileDefinitionForEntityAsync(string, CancellationToken)
+  nameWithType: IDashAgent.CreateDefaultTileDefinitionForEntityAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntityAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSet Measure to CountAll and MeasureField to primary key field\n"
+  summary: Set Measure to CountAll and MeasureField to primary key field
+  example: []
   syntax:
-    content: DashTileDefinition CreateDefaultTileDefinitionForEntity(string entityName)
+    content: Task<DashTileDefinition> CreateDefaultTileDefinitionForEntityAsync(string entityName, CancellationToken cancellationToken = default)
     parameters:
     - id: entityName
       type: System.String
       description: Name of entity to use for primary key
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTileDefinition
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTileDefinition}
       description: Default
-    content.vb: Function CreateDefaultTileDefinitionForEntity(entityName As String) As DashTileDefinition
-  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity*
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml(System.Int32,System.String)
-  id: GetDashTileHtml(System.Int32,System.String)
+    content.vb: Function CreateDefaultTileDefinitionForEntityAsync(entityName As String, cancellationToken As CancellationToken = Nothing) As Task(Of DashTileDefinition)
+  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntityAsync*
+  nameWithType.vb: IDashAgent.CreateDefaultTileDefinitionForEntityAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntityAsync(String, System.Threading.CancellationToken)
+  name.vb: CreateDefaultTileDefinitionForEntityAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: GetDashTileHtmlAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: GetDashTileHtml(Int32, String)
-  nameWithType: IDashAgent.GetDashTileHtml(Int32, String)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml(System.Int32, System.String)
+  name: GetDashTileHtmlAsync(int, string, CancellationToken)
+  nameWithType: IDashAgent.GetDashTileHtmlAsync(int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlAsync(int, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet HTML for a dashboard tile definition with TileType = HTML\n"
+  summary: Get HTML for a dashboard tile definition with TileType = HTML
+  example: []
   syntax:
-    content: DashTileHtml GetDashTileHtml(int dashboardTileDefinitionId, string languageCode)
+    content: Task<DashTileHtml> GetDashTileHtmlAsync(int dashboardTileDefinitionId, string languageCode, CancellationToken cancellationToken = default)
     parameters:
     - id: dashboardTileDefinitionId
       type: System.Int32
@@ -1040,59 +1141,66 @@ items:
     - id: languageCode
       type: System.String
       description: Preferred language code.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTileHtml
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTileHtml}
       description: HTML data
-    content.vb: Function GetDashTileHtml(dashboardTileDefinitionId As Integer, languageCode As String) As DashTileHtml
-  overload: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml*
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList(System.Int32)
-  id: GetDashTileHtmlList(System.Int32)
+    content.vb: Function GetDashTileHtmlAsync(dashboardTileDefinitionId As Integer, languageCode As String, cancellationToken As CancellationToken = Nothing) As Task(Of DashTileHtml)
+  overload: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlAsync*
+  nameWithType.vb: IDashAgent.GetDashTileHtmlAsync(Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlAsync(Integer, String, System.Threading.CancellationToken)
+  name.vb: GetDashTileHtmlAsync(Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlListAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlListAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetDashTileHtmlListAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: GetDashTileHtmlList(Int32)
-  nameWithType: IDashAgent.GetDashTileHtmlList(Int32)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList(System.Int32)
+  name: GetDashTileHtmlListAsync(int, CancellationToken)
+  nameWithType: IDashAgent.GetDashTileHtmlListAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlListAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet HTML for a dashboard tile definition with TileType = HTML. Retrieve a list with all registered languages.\n"
+  summary: Get HTML for a dashboard tile definition with TileType = HTML. Retrieve a list with all registered languages.
+  example: []
   syntax:
-    content: DashTileHtml[] GetDashTileHtmlList(int dashboardTileDefinitionId)
+    content: Task<DashTileHtml[]> GetDashTileHtmlListAsync(int dashboardTileDefinitionId, CancellationToken cancellationToken = default)
     parameters:
     - id: dashboardTileDefinitionId
       type: System.Int32
       description: The id of the dashboard tile definition
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTileHtml[]
-    content.vb: Function GetDashTileHtmlList(dashboardTileDefinitionId As Integer) As DashTileHtml()
-  overload: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList*
-- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(System.Int32,SuperOffice.CRM.Services.DashTileHtml[])
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(System.Int32,SuperOffice.CRM.Services.DashTileHtml[])
-  id: SaveDashTileHtmlList(System.Int32,SuperOffice.CRM.Services.DashTileHtml[])
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTileHtml[]}
+      description: ''
+    content.vb: Function GetDashTileHtmlListAsync(dashboardTileDefinitionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of DashTileHtml())
+  overload: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlListAsync*
+  nameWithType.vb: IDashAgent.GetDashTileHtmlListAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlListAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetDashTileHtmlListAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlListAsync(System.Int32,SuperOffice.CRM.Services.DashTileHtml[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlListAsync(System.Int32,SuperOffice.CRM.Services.DashTileHtml[],System.Threading.CancellationToken)
+  id: SaveDashTileHtmlListAsync(System.Int32,SuperOffice.CRM.Services.DashTileHtml[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: SaveDashTileHtmlList(Int32, DashTileHtml[])
-  nameWithType: IDashAgent.SaveDashTileHtmlList(Int32, DashTileHtml[])
-  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(System.Int32, SuperOffice.CRM.Services.DashTileHtml[])
+  name: SaveDashTileHtmlListAsync(int, DashTileHtml[], CancellationToken)
+  nameWithType: IDashAgent.SaveDashTileHtmlListAsync(int, DashTileHtml[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlListAsync(int, SuperOffice.CRM.Services.DashTileHtml[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSet the HTML data for a tile with TileType = HTML.\n"
+  summary: Set the HTML data for a tile with TileType = HTML.
+  example: []
   syntax:
-    content: DashTileHtml[] SaveDashTileHtmlList(int dashboardTileDefinitionId, DashTileHtml[] languages)
+    content: Task<DashTileHtml[]> SaveDashTileHtmlListAsync(int dashboardTileDefinitionId, DashTileHtml[] languages, CancellationToken cancellationToken = default)
     parameters:
     - id: dashboardTileDefinitionId
       type: System.Int32
@@ -1100,316 +1208,779 @@ items:
     - id: languages
       type: SuperOffice.CRM.Services.DashTileHtml[]
       description: List of HTML content per language
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.DashTileHtml[]
-    content.vb: Function SaveDashTileHtmlList(dashboardTileDefinitionId As Integer, languages As DashTileHtml()) As DashTileHtml()
-  overload: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList*
-  nameWithType.vb: IDashAgent.SaveDashTileHtmlList(Int32, DashTileHtml())
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(System.Int32, SuperOffice.CRM.Services.DashTileHtml())
-  name.vb: SaveDashTileHtmlList(Int32, DashTileHtml())
-- uid: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetPreviewDash(System.Int32)
-  id: GetPreviewDash(System.Int32)
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTileHtml[]}
+      description: ''
+    content.vb: Function SaveDashTileHtmlListAsync(dashboardTileDefinitionId As Integer, languages As DashTileHtml(), cancellationToken As CancellationToken = Nothing) As Task(Of DashTileHtml())
+  overload: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlListAsync*
+  nameWithType.vb: IDashAgent.SaveDashTileHtmlListAsync(Integer, DashTileHtml(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlListAsync(Integer, SuperOffice.CRM.Services.DashTileHtml(), System.Threading.CancellationToken)
+  name.vb: SaveDashTileHtmlListAsync(Integer, DashTileHtml(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.GetPreviewDashAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetPreviewDashAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetPreviewDashAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: GetPreviewDash(Int32)
-  nameWithType: IDashAgent.GetPreviewDash(Int32)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash(System.Int32)
+  name: GetPreviewDashAsync(int, CancellationToken)
+  nameWithType: IDashAgent.GetPreviewDashAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetPreviewDashAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet a dashboard from its id\n"
+  summary: Get a dashboard from its id
+  example: []
   syntax:
-    content: PreviewDash GetPreviewDash(int dashboardId)
+    content: Task<PreviewDash> GetPreviewDashAsync(int dashboardId, CancellationToken cancellationToken = default)
     parameters:
     - id: dashboardId
       type: System.Int32
       description: Dashboard ID
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.PreviewDash
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewDash}
       description: Dashboard suitable for preview
-    content.vb: Function GetPreviewDash(dashboardId As Integer) As PreviewDash
-  overload: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash*
+    content.vb: Function GetPreviewDashAsync(dashboardId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PreviewDash)
+  overload: SuperOffice.CRM.Services.IDashAgent.GetPreviewDashAsync*
+  nameWithType.vb: IDashAgent.GetPreviewDashAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetPreviewDashAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetPreviewDashAsync(Integer, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDash*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDash
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashAsync
   isExternal: true
-  name: CreateDefaultDash
-  nameWithType: IDashAgent.CreateDefaultDash
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDash
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashAsync_System_Threading_CancellationToken_
+  name: CreateDefaultDashAsync
+  nameWithType: IDashAgent.CreateDefaultDashAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Dash}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Dash}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Dash>
+  nameWithType: Task<Dash>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Dash>
+  nameWithType.vb: Task(Of Dash)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Dash)
+  name.vb: Task(Of Dash)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.Dash
+    name: Dash
+    isExternal: true
+    href: SuperOffice.CRM.Services.Dash.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.Dash
+    name: Dash
+    isExternal: true
+    href: SuperOffice.CRM.Services.Dash.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.SaveDashAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashAsync_SuperOffice_CRM_Services_Dash_System_Threading_CancellationToken_
+  name: SaveDashAsync
+  nameWithType: IDashAgent.SaveDashAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashAsync
 - uid: SuperOffice.CRM.Services.Dash
   commentId: T:SuperOffice.CRM.Services.Dash
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.Dash.html
   name: Dash
   nameWithType: Dash
   fullName: SuperOffice.CRM.Services.Dash
-- uid: SuperOffice.CRM.Services.IDashAgent.SaveDash*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.SaveDash
+- uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.DeleteDashAsync
   isExternal: true
-  name: SaveDash
-  nameWithType: IDashAgent.SaveDash
-  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDash
-- uid: SuperOffice.CRM.Services.IDashAgent.DeleteDash*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.DeleteDash
-  isExternal: true
-  name: DeleteDash
-  nameWithType: IDashAgent.DeleteDash
-  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDash
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DeleteDashAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteDashAsync
+  nameWithType: IDashAgent.DeleteDashAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollectionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollectionAsync
   isExternal: true
-  name: CreateDefaultDashCollection
-  nameWithType: IDashAgent.CreateDefaultDashCollection
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
-- uid: SuperOffice.CRM.Services.DashCollection
-  commentId: T:SuperOffice.CRM.Services.DashCollection
-  parent: SuperOffice.CRM.Services
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashCollectionAsync_System_Threading_CancellationToken_
+  name: CreateDefaultDashCollectionAsync
+  nameWithType: IDashAgent.CreateDefaultDashCollectionAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollectionAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashCollection}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashCollection}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DashCollection>
+  nameWithType: Task<DashCollection>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.DashCollection>
+  nameWithType.vb: Task(Of DashCollection)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.DashCollection)
+  name.vb: Task(Of DashCollection)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.DashCollection
+    name: DashCollection
+    isExternal: true
+    href: SuperOffice.CRM.Services.DashCollection.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.DashCollection
+    name: DashCollection
+    isExternal: true
+    href: SuperOffice.CRM.Services.DashCollection.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashThemeAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashThemeAsync
   isExternal: true
-  name: DashCollection
-  nameWithType: DashCollection
-  fullName: SuperOffice.CRM.Services.DashCollection
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashThemeAsync_System_Threading_CancellationToken_
+  name: CreateDefaultDashThemeAsync
+  nameWithType: IDashAgent.CreateDefaultDashThemeAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashThemeAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTheme}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTheme}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DashTheme>
+  nameWithType: Task<DashTheme>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.DashTheme>
+  nameWithType.vb: Task(Of DashTheme)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.DashTheme)
+  name.vb: Task(Of DashTheme)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.DashTheme
+    name: DashTheme
+    isExternal: true
+    href: SuperOffice.CRM.Services.DashTheme.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.DashTheme
+    name: DashTheme
+    isExternal: true
+    href: SuperOffice.CRM.Services.DashTheme.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashThemeAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.SaveDashThemeAsync
   isExternal: true
-  name: CreateDefaultDashTheme
-  nameWithType: IDashAgent.CreateDefaultDashTheme
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashThemeAsync_SuperOffice_CRM_Services_DashTheme_System_Threading_CancellationToken_
+  name: SaveDashThemeAsync
+  nameWithType: IDashAgent.SaveDashThemeAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashThemeAsync
 - uid: SuperOffice.CRM.Services.DashTheme
   commentId: T:SuperOffice.CRM.Services.DashTheme
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.DashTheme.html
   name: DashTheme
   nameWithType: DashTheme
   fullName: SuperOffice.CRM.Services.DashTheme
-- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTheme*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.SaveDashTheme
+- uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashThemeAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.DeleteDashThemeAsync
   isExternal: true
-  name: SaveDashTheme
-  nameWithType: IDashAgent.SaveDashTheme
-  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTheme
-- uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DeleteDashThemeAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteDashThemeAsync
+  nameWithType: IDashAgent.DeleteDashThemeAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashThemeAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileAsync
   isExternal: true
-  name: DeleteDashTheme
-  nameWithType: IDashAgent.DeleteDashTheme
-  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashTileAsync_System_Threading_CancellationToken_
+  name: CreateDefaultDashTileAsync
+  nameWithType: IDashAgent.CreateDefaultDashTileAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTile}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTile}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DashTile>
+  nameWithType: Task<DashTile>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.DashTile>
+  nameWithType.vb: Task(Of DashTile)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.DashTile)
+  name.vb: Task(Of DashTile)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.DashTile
+    name: DashTile
+    isExternal: true
+    href: SuperOffice.CRM.Services.DashTile.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.DashTile
+    name: DashTile
+    isExternal: true
+    href: SuperOffice.CRM.Services.DashTile.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTileAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.SaveDashTileAsync
   isExternal: true
-  name: CreateDefaultDashTile
-  nameWithType: IDashAgent.CreateDefaultDashTile
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTileAsync_SuperOffice_CRM_Services_DashTile_System_Threading_CancellationToken_
+  name: SaveDashTileAsync
+  nameWithType: IDashAgent.SaveDashTileAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileAsync
 - uid: SuperOffice.CRM.Services.DashTile
   commentId: T:SuperOffice.CRM.Services.DashTile
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.DashTile.html
   name: DashTile
   nameWithType: DashTile
   fullName: SuperOffice.CRM.Services.DashTile
-- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTile*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.SaveDashTile
+- uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.DeleteDashTileAsync
   isExternal: true
-  name: SaveDashTile
-  nameWithType: IDashAgent.SaveDashTile
-  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTile
-- uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashTile*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.DeleteDashTile
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DeleteDashTileAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteDashTileAsync
+  nameWithType: IDashAgent.DeleteDashTileAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinitionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinitionAsync
   isExternal: true
-  name: DeleteDashTile
-  nameWithType: IDashAgent.DeleteDashTile
-  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTile
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinition*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinition
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashTileDefinitionAsync_System_Threading_CancellationToken_
+  name: CreateDefaultDashTileDefinitionAsync
+  nameWithType: IDashAgent.CreateDefaultDashTileDefinitionAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinitionAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTileDefinition}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTileDefinition}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DashTileDefinition>
+  nameWithType: Task<DashTileDefinition>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.DashTileDefinition>
+  nameWithType.vb: Task(Of DashTileDefinition)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.DashTileDefinition)
+  name.vb: Task(Of DashTileDefinition)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.DashTileDefinition
+    name: DashTileDefinition
+    isExternal: true
+    href: SuperOffice.CRM.Services.DashTileDefinition.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.DashTileDefinition
+    name: DashTileDefinition
+    isExternal: true
+    href: SuperOffice.CRM.Services.DashTileDefinition.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinitionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinitionAsync
   isExternal: true
-  name: CreateDefaultDashTileDefinition
-  nameWithType: IDashAgent.CreateDefaultDashTileDefinition
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinition
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTileDefinitionAsync_SuperOffice_CRM_Services_DashTileDefinition_System_Threading_CancellationToken_
+  name: SaveDashTileDefinitionAsync
+  nameWithType: IDashAgent.SaveDashTileDefinitionAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinitionAsync
 - uid: SuperOffice.CRM.Services.DashTileDefinition
   commentId: T:SuperOffice.CRM.Services.DashTileDefinition
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.DashTileDefinition.html
   name: DashTileDefinition
   nameWithType: DashTileDefinition
   fullName: SuperOffice.CRM.Services.DashTileDefinition
-- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinition*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinition
+- uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinitionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinitionAsync
   isExternal: true
-  name: SaveDashTileDefinition
-  nameWithType: IDashAgent.SaveDashTileDefinition
-  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinition
-- uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DeleteDashTileDefinitionAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteDashTileDefinitionAsync
+  nameWithType: IDashAgent.DeleteDashTileDefinitionAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinitionAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashAsync
   isExternal: true
-  name: DeleteDashTileDefinition
-  nameWithType: IDashAgent.DeleteDashTileDefinition
-  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultPreviewDashAsync_System_Threading_CancellationToken_
+  name: CreateDefaultPreviewDashAsync
+  nameWithType: IDashAgent.CreateDefaultPreviewDashAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewDash}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewDash}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PreviewDash>
+  nameWithType: Task<PreviewDash>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PreviewDash>
+  nameWithType.vb: Task(Of PreviewDash)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PreviewDash)
+  name.vb: Task(Of PreviewDash)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.PreviewDash
+    name: PreviewDash
+    isExternal: true
+    href: SuperOffice.CRM.Services.PreviewDash.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.PreviewDash
+    name: PreviewDash
+    isExternal: true
+    href: SuperOffice.CRM.Services.PreviewDash.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTileAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTileAsync
   isExternal: true
-  name: CreateDefaultPreviewDash
-  nameWithType: IDashAgent.CreateDefaultPreviewDash
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash
-- uid: SuperOffice.CRM.Services.PreviewDash
-  commentId: T:SuperOffice.CRM.Services.PreviewDash
-  parent: SuperOffice.CRM.Services
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultPreviewDashTileAsync_System_Threading_CancellationToken_
+  name: CreateDefaultPreviewDashTileAsync
+  nameWithType: IDashAgent.CreateDefaultPreviewDashTileAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTileAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewDashTile}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewDashTile}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PreviewDashTile>
+  nameWithType: Task<PreviewDashTile>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PreviewDashTile>
+  nameWithType.vb: Task(Of PreviewDashTile)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PreviewDashTile)
+  name.vb: Task(Of PreviewDashTile)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.PreviewDashTile
+    name: PreviewDashTile
+    isExternal: true
+    href: SuperOffice.CRM.Services.PreviewDashTile.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.PreviewDashTile
+    name: PreviewDashTile
+    isExternal: true
+    href: SuperOffice.CRM.Services.PreviewDashTile.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashAsync
   isExternal: true
-  name: PreviewDash
-  nameWithType: PreviewDash
-  fullName: SuperOffice.CRM.Services.PreviewDash
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetDashAsync
+  nameWithType: IDashAgent.GetDashAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboardAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.AddTileToDashboardAsync
   isExternal: true
-  name: CreateDefaultPreviewDashTile
-  nameWithType: IDashAgent.CreateDefaultPreviewDashTile
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile
-- uid: SuperOffice.CRM.Services.PreviewDashTile
-  commentId: T:SuperOffice.CRM.Services.PreviewDashTile
-  parent: SuperOffice.CRM.Services
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_AddTileToDashboardAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: AddTileToDashboardAsync
+  nameWithType: IDashAgent.AddTileToDashboardAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboardAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboardAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboardAsync
   isExternal: true
-  name: PreviewDashTile
-  nameWithType: PreviewDashTile
-  fullName: SuperOffice.CRM.Services.PreviewDashTile
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDash*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDash
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_AddNewTileToDashboardAsync_System_Int32_SuperOffice_CRM_Services_DashTileDefinition_System_Threading_CancellationToken_
+  name: AddNewTileToDashboardAsync
+  nameWithType: IDashAgent.AddNewTileToDashboardAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboardAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboardAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.DuplicateDashboardAsync
   isExternal: true
-  name: GetDash
-  nameWithType: IDashAgent.GetDash
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDash
-- uid: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard
-  isExternal: true
-  name: AddTileToDashboard
-  nameWithType: IDashAgent.AddTileToDashboard
-  fullName: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard
-- uid: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard
-  isExternal: true
-  name: AddNewTileToDashboard
-  nameWithType: IDashAgent.AddNewTileToDashboard
-  fullName: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard
-- uid: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard
-  isExternal: true
-  name: DuplicateDashboard
-  nameWithType: IDashAgent.DuplicateDashboard
-  fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DuplicateDashboardAsync_System_Int32_System_String_System_Threading_CancellationToken_
+  name: DuplicateDashboardAsync
+  nameWithType: IDashAgent.DuplicateDashboardAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboardAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashList*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashList
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashListAsync
   isExternal: true
-  name: GetDashList
-  nameWithType: IDashAgent.GetDashList
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashList
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashListAsync_System_Int32___System_Threading_CancellationToken_
+  name: GetDashListAsync
+  nameWithType: IDashAgent.GetDashListAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashListAsync
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.Dash[]
-  isExternal: true
-  name: Dash[]
-  nameWithType: Dash[]
-  fullName: SuperOffice.CRM.Services.Dash[]
-  nameWithType.vb: Dash()
-  fullName.vb: SuperOffice.CRM.Services.Dash()
-  name.vb: Dash()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Dash[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Dash[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Dash[]>
+  nameWithType: Task<Dash[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Dash[]>
+  nameWithType.vb: Task(Of Dash())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Dash())
+  name.vb: Task(Of Dash())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.CRM.Services.Dash
     name: Dash
-    nameWithType: Dash
-    fullName: SuperOffice.CRM.Services.Dash
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.Dash.html
+  - name: '['
+  - name: ']'
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Services.Dash
     name: Dash
-    nameWithType: Dash
-    fullName: SuperOffice.CRM.Services.Dash
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashCollection*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashCollection
+    href: SuperOffice.CRM.Services.Dash.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashCollectionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashCollectionAsync
   isExternal: true
-  name: GetDashCollection
-  nameWithType: IDashAgent.GetDashCollection
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashCollection
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTheme*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashTheme
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashCollectionAsync_System_Threading_CancellationToken_
+  name: GetDashCollectionAsync
+  nameWithType: IDashAgent.GetDashCollectionAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashCollectionAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashThemeAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashThemeAsync
   isExternal: true
-  name: GetDashTheme
-  nameWithType: IDashAgent.GetDashTheme
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTheme
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTile*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashTile
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashThemeAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetDashThemeAsync
+  nameWithType: IDashAgent.GetDashThemeAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashThemeAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashTileAsync
   isExternal: true
-  name: GetDashTile
-  nameWithType: IDashAgent.GetDashTile
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTile
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTiles*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashTiles
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTileAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetDashTileAsync
+  nameWithType: IDashAgent.GetDashTileAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTilesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashTilesAsync
   isExternal: true
-  name: GetDashTiles
-  nameWithType: IDashAgent.GetDashTiles
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTiles
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTilesAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetDashTilesAsync
+  nameWithType: IDashAgent.GetDashTilesAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTilesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTile[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTile[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DashTile[]>
+  nameWithType: Task<DashTile[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.DashTile[]>
+  nameWithType.vb: Task(Of DashTile())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.DashTile())
+  name.vb: Task(Of DashTile())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.DashTile
+    name: DashTile
+    isExternal: true
+    href: SuperOffice.CRM.Services.DashTile.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.DashTile
+    name: DashTile
+    isExternal: true
+    href: SuperOffice.CRM.Services.DashTile.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTilesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.SaveDashTilesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTilesAsync_System_Int32_SuperOffice_CRM_Services_DashTile___System_Threading_CancellationToken_
+  name: SaveDashTilesAsync
+  nameWithType: IDashAgent.SaveDashTilesAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTilesAsync
 - uid: SuperOffice.CRM.Services.DashTile[]
   isExternal: true
+  href: SuperOffice.CRM.Services.DashTile.html
   name: DashTile[]
   nameWithType: DashTile[]
   fullName: SuperOffice.CRM.Services.DashTile[]
@@ -1419,96 +1990,206 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.DashTile
     name: DashTile
-    nameWithType: DashTile
-    fullName: SuperOffice.CRM.Services.DashTile
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.DashTile.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.DashTile
     name: DashTile
-    nameWithType: DashTile
-    fullName: SuperOffice.CRM.Services.DashTile
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTiles*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.SaveDashTiles
+    href: SuperOffice.CRM.Services.DashTile.html
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntityAsync
   isExternal: true
-  name: SaveDashTiles
-  nameWithType: IDashAgent.SaveDashTiles
-  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTiles
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDashTileSelectionFromEntityAsync_System_String_System_Threading_CancellationToken_
+  name: CreateDashTileSelectionFromEntityAsync
+  nameWithType: IDashAgent.CreateDashTileSelectionFromEntityAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntityAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.Services.IDashAgent.CopyTileSelectionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CopyTileSelectionAsync
   isExternal: true
-  name: CreateDashTileSelectionFromEntity
-  nameWithType: IDashAgent.CreateDashTileSelectionFromEntity
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity
-- uid: SuperOffice.CRM.Services.IDashAgent.CopyTileSelection*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CopyTileSelection
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CopyTileSelectionAsync_System_Int32_System_Threading_CancellationToken_
+  name: CopyTileSelectionAsync
+  nameWithType: IDashAgent.CopyTileSelectionAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.CopyTileSelectionAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelectionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetTempTileSelectionAsync
   isExternal: true
-  name: CopyTileSelection
-  nameWithType: IDashAgent.CopyTileSelection
-  fullName: SuperOffice.CRM.Services.IDashAgent.CopyTileSelection
-- uid: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetTempTileSelectionAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetTempTileSelectionAsync
+  nameWithType: IDashAgent.GetTempTileSelectionAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelectionAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelectionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelectionAsync
   isExternal: true
-  name: GetTempTileSelection
-  nameWithType: IDashAgent.GetTempTileSelection
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection
-- uid: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetSecondaryTempTileSelectionAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetSecondaryTempTileSelectionAsync
+  nameWithType: IDashAgent.GetSecondaryTempTileSelectionAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelectionAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntityAsync
   isExternal: true
-  name: GetSecondaryTempTileSelection
-  nameWithType: IDashAgent.GetSecondaryTempTileSelection
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultTileForEntityAsync_System_String_System_Threading_CancellationToken_
+  name: CreateDefaultTileForEntityAsync
+  nameWithType: IDashAgent.CreateDefaultTileForEntityAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntityAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.DuplicateTileAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.DuplicateTileAsync
   isExternal: true
-  name: CreateDefaultTileForEntity
-  nameWithType: IDashAgent.CreateDefaultTileForEntity
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity
-- uid: SuperOffice.CRM.Services.IDashAgent.DuplicateTile*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.DuplicateTile
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DuplicateTileAsync_System_Int32_System_String_System_Threading_CancellationToken_
+  name: DuplicateTileAsync
+  nameWithType: IDashAgent.DuplicateTileAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateTileAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinitionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinitionAsync
   isExternal: true
-  name: DuplicateTile
-  nameWithType: IDashAgent.DuplicateTile
-  fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateTile
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTileDefinitionAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetDashTileDefinitionAsync
+  nameWithType: IDashAgent.GetDashTileDefinitionAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinitionAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntityAsync
   isExternal: true
-  name: GetDashTileDefinition
-  nameWithType: IDashAgent.GetDashTileDefinition
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultTileDefinitionForEntityAsync_System_String_System_Threading_CancellationToken_
+  name: CreateDefaultTileDefinitionForEntityAsync
+  nameWithType: IDashAgent.CreateDefaultTileDefinitionForEntityAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntityAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlAsync
   isExternal: true
-  name: CreateDefaultTileDefinitionForEntity
-  nameWithType: IDashAgent.CreateDefaultTileDefinitionForEntity
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTileHtmlAsync_System_Int32_System_String_System_Threading_CancellationToken_
+  name: GetDashTileHtmlAsync
+  nameWithType: IDashAgent.GetDashTileHtmlAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTileHtml}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTileHtml}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DashTileHtml>
+  nameWithType: Task<DashTileHtml>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.DashTileHtml>
+  nameWithType.vb: Task(Of DashTileHtml)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.DashTileHtml)
+  name.vb: Task(Of DashTileHtml)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.DashTileHtml
+    name: DashTileHtml
+    isExternal: true
+    href: SuperOffice.CRM.Services.DashTileHtml.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.DashTileHtml
+    name: DashTileHtml
+    isExternal: true
+    href: SuperOffice.CRM.Services.DashTileHtml.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlListAsync
   isExternal: true
-  name: GetDashTileHtml
-  nameWithType: IDashAgent.GetDashTileHtml
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml
-- uid: SuperOffice.CRM.Services.DashTileHtml
-  commentId: T:SuperOffice.CRM.Services.DashTileHtml
-  parent: SuperOffice.CRM.Services
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTileHtmlListAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetDashTileHtmlListAsync
+  nameWithType: IDashAgent.GetDashTileHtmlListAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlListAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTileHtml[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.DashTileHtml[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DashTileHtml[]>
+  nameWithType: Task<DashTileHtml[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.DashTileHtml[]>
+  nameWithType.vb: Task(Of DashTileHtml())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.DashTileHtml())
+  name.vb: Task(Of DashTileHtml())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.DashTileHtml
+    name: DashTileHtml
+    isExternal: true
+    href: SuperOffice.CRM.Services.DashTileHtml.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.DashTileHtml
+    name: DashTileHtml
+    isExternal: true
+    href: SuperOffice.CRM.Services.DashTileHtml.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlListAsync
   isExternal: true
-  name: DashTileHtml
-  nameWithType: DashTileHtml
-  fullName: SuperOffice.CRM.Services.DashTileHtml
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList
-  isExternal: true
-  name: GetDashTileHtmlList
-  nameWithType: IDashAgent.GetDashTileHtmlList
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTileHtmlListAsync_System_Int32_SuperOffice_CRM_Services_DashTileHtml___System_Threading_CancellationToken_
+  name: SaveDashTileHtmlListAsync
+  nameWithType: IDashAgent.SaveDashTileHtmlListAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlListAsync
 - uid: SuperOffice.CRM.Services.DashTileHtml[]
   isExternal: true
+  href: SuperOffice.CRM.Services.DashTileHtml.html
   name: DashTileHtml[]
   nameWithType: DashTileHtml[]
   fullName: SuperOffice.CRM.Services.DashTileHtml[]
@@ -1518,30 +2199,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.DashTileHtml
     name: DashTileHtml
-    nameWithType: DashTileHtml
-    fullName: SuperOffice.CRM.Services.DashTileHtml
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.DashTileHtml.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.DashTileHtml
     name: DashTileHtml
-    nameWithType: DashTileHtml
-    fullName: SuperOffice.CRM.Services.DashTileHtml
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList
+    href: SuperOffice.CRM.Services.DashTileHtml.html
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.IDashAgent.GetPreviewDashAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetPreviewDashAsync
   isExternal: true
-  name: SaveDashTileHtmlList
-  nameWithType: IDashAgent.SaveDashTileHtmlList
-  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList
-- uid: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetPreviewDash
-  isExternal: true
-  name: GetPreviewDash
-  nameWithType: IDashAgent.GetPreviewDash
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetPreviewDashAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetPreviewDashAsync
+  nameWithType: IDashAgent.GetPreviewDashAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetPreviewDashAsync

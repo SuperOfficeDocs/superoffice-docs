@@ -37,27 +37,24 @@ items:
   nameWithType: DBC.EmailFlowFields
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for EmailFlow, A set of properties related to the email workflow.\n"
+  summary: Fields for EmailFlow, A set of properties related to the email workflow.
+  example: []
   syntax:
-    content: 'public static class EmailFlowFields : Object'
-    content.vb: >-
-      Public Module EmailFlowFields
-          Inherits Object
+    content: public static class DBC.EmailFlowFields
+    content.vb: Public Module DBC.EmailFlowFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.EmailFlowId
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.EmailFlowId
   id: EmailFlowId
@@ -69,24 +66,16 @@ items:
   nameWithType: DBC.EmailFlowFields.EmailFlowId
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.EmailFlowId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.EmailFlowId: Primary key\n"
+  summary: 'EmailFlow.EmailFlowId: Primary key'
+  example: []
   syntax:
     content: public const string EmailFlowId = "email_flow_id"
     return:
       type: System.String
     content.vb: Public Const EmailFlowId As String = "email_flow_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.WorkflowId
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.WorkflowId
   id: WorkflowId
@@ -98,24 +87,16 @@ items:
   nameWithType: DBC.EmailFlowFields.WorkflowId
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.WorkflowId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.WorkflowId: The workflow this emailflow belongs to\n"
+  summary: 'EmailFlow.WorkflowId: The workflow this emailflow belongs to'
+  example: []
   syntax:
     content: public const string WorkflowId = "workflow_id"
     return:
       type: System.String
     content.vb: Public Const WorkflowId As String = "workflow_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.ShipmentTypeId
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.ShipmentTypeId
   id: ShipmentTypeId
@@ -127,24 +108,16 @@ items:
   nameWithType: DBC.EmailFlowFields.ShipmentTypeId
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.ShipmentTypeId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.ShipmentTypeId: Mailing type (subscription type)\n"
+  summary: 'EmailFlow.ShipmentTypeId: Mailing type (subscription type)'
+  example: []
   syntax:
     content: public const string ShipmentTypeId = "shipment_type_id"
     return:
       type: System.String
     content.vb: Public Const ShipmentTypeId As String = "shipment_type_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.OverrideConsentSubscription
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.OverrideConsentSubscription
   id: OverrideConsentSubscription
@@ -156,24 +129,16 @@ items:
   nameWithType: DBC.EmailFlowFields.OverrideConsentSubscription
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.OverrideConsentSubscription
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.OverrideConsentSubscription: Override consent and subscription\n"
+  summary: 'EmailFlow.OverrideConsentSubscription: Override consent and subscription'
+  example: []
   syntax:
     content: public const string OverrideConsentSubscription = "override_consent_subscription"
     return:
       type: System.String
     content.vb: Public Const OverrideConsentSubscription As String = "override_consent_subscription"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.Registered
   id: Registered
@@ -185,24 +150,16 @@ items:
   nameWithType: DBC.EmailFlowFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.Registered: Registered when\n"
+  summary: 'EmailFlow.Registered: Registered when'
+  example: []
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -214,24 +171,16 @@ items:
   nameWithType: DBC.EmailFlowFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.RegisteredAssociateId: Registered by whom\n"
+  summary: 'EmailFlow.RegisteredAssociateId: Registered by whom'
+  example: []
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.Updated
   id: Updated
@@ -243,24 +192,16 @@ items:
   nameWithType: DBC.EmailFlowFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.Updated: Last updated when\n"
+  summary: 'EmailFlow.Updated: Last updated when'
+  example: []
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -272,24 +213,16 @@ items:
   nameWithType: DBC.EmailFlowFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.UpdatedAssociateId: Last updated by whom\n"
+  summary: 'EmailFlow.UpdatedAssociateId: Last updated by whom'
+  example: []
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.UpdatedCount
   id: UpdatedCount
@@ -301,24 +234,16 @@ items:
   nameWithType: DBC.EmailFlowFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.UpdatedCount: Number of updates made to this record\n"
+  summary: 'EmailFlow.UpdatedCount: Number of updates made to this record'
+  example: []
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.HierarchyId
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.HierarchyId
   id: HierarchyId
@@ -330,24 +255,16 @@ items:
   nameWithType: DBC.EmailFlowFields.HierarchyId
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.HierarchyId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.HierarchyId: This email flow is inside that hierarchy folder\n"
+  summary: 'EmailFlow.HierarchyId: This email flow is inside that hierarchy folder'
+  example: []
   syntax:
     content: public const string HierarchyId = "hierarchy_id"
     return:
       type: System.String
     content.vb: Public Const HierarchyId As String = "hierarchy_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.FromName
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.FromName
   id: FromName
@@ -359,24 +276,16 @@ items:
   nameWithType: DBC.EmailFlowFields.FromName
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.FromName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.FromName: Email From name\n"
+  summary: 'EmailFlow.FromName: Email From name'
+  example: []
   syntax:
     content: public const string FromName = "from_name"
     return:
       type: System.String
     content.vb: Public Const FromName As String = "from_name"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.FromAddr
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.FromAddr
   id: FromAddr
@@ -388,24 +297,16 @@ items:
   nameWithType: DBC.EmailFlowFields.FromAddr
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.FromAddr
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.FromAddr: Email From address: name@domain.com\n"
+  summary: 'EmailFlow.FromAddr: Email From address: name@domain.com'
+  example: []
   syntax:
     content: public const string FromAddr = "from_addr"
     return:
       type: System.String
     content.vb: Public Const FromAddr As String = "from_addr"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToAddr
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToAddr
   id: ReplyToAddr
@@ -417,24 +318,16 @@ items:
   nameWithType: DBC.EmailFlowFields.ReplyToAddr
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToAddr
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.ReplyToAddr: Reply to address, if different from From-address\n"
+  summary: 'EmailFlow.ReplyToAddr: Reply to address, if different from From-address'
+  example: []
   syntax:
     content: public const string ReplyToAddr = "reply_to_addr"
     return:
       type: System.String
     content.vb: Public Const ReplyToAddr As String = "reply_to_addr"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.SmsSender
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.SmsSender
   id: SmsSender
@@ -446,24 +339,16 @@ items:
   nameWithType: DBC.EmailFlowFields.SmsSender
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.SmsSender
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.SmsSender: SMS sender (number or name)\n"
+  summary: 'EmailFlow.SmsSender: SMS sender (number or name)'
+  example: []
   syntax:
     content: public const string SmsSender = "sms_sender"
     return:
       type: System.String
     content.vb: Public Const SmsSender As String = "sms_sender"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.UseTimeframe
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.UseTimeframe
   id: UseTimeframe
@@ -475,24 +360,16 @@ items:
   nameWithType: DBC.EmailFlowFields.UseTimeframe
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.UseTimeframe
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.UseTimeframe: Use sender timeframe settings, only send email/sms within the timeframe\n"
+  summary: 'EmailFlow.UseTimeframe: Use sender timeframe settings, only send email/sms within the timeframe'
+  example: []
   syntax:
     content: public const string UseTimeframe = "use_timeframe"
     return:
       type: System.String
     content.vb: Public Const UseTimeframe As String = "use_timeframe"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.SelectedDays
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.SelectedDays
   id: SelectedDays
@@ -504,24 +381,16 @@ items:
   nameWithType: DBC.EmailFlowFields.SelectedDays
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.SelectedDays
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.SelectedDays: Selected days (flags, so several days can be selected) for time frame\n"
+  summary: 'EmailFlow.SelectedDays: Selected days (flags, so several days can be selected) for time frame'
+  example: []
   syntax:
     content: public const string SelectedDays = "selected_days"
     return:
       type: System.String
     content.vb: Public Const SelectedDays As String = "selected_days"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.TimeframeStart
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.TimeframeStart
   id: TimeframeStart
@@ -533,24 +402,16 @@ items:
   nameWithType: DBC.EmailFlowFields.TimeframeStart
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.TimeframeStart
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.TimeframeStart: Start of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used\n"
+  summary: 'EmailFlow.TimeframeStart: Start of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used'
+  example: []
   syntax:
     content: public const string TimeframeStart = "timeframe_start"
     return:
       type: System.String
     content.vb: Public Const TimeframeStart As String = "timeframe_start"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.TimeframeEnd
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.TimeframeEnd
   id: TimeframeEnd
@@ -562,24 +423,16 @@ items:
   nameWithType: DBC.EmailFlowFields.TimeframeEnd
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.TimeframeEnd
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.TimeframeEnd: End of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used\n"
+  summary: 'EmailFlow.TimeframeEnd: End of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used'
+  example: []
   syntax:
     content: public const string TimeframeEnd = "timeframe_end"
     return:
       type: System.String
     content.vb: Public Const TimeframeEnd As String = "timeframe_end"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.UseGoogleAnalytics
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.UseGoogleAnalytics
   id: UseGoogleAnalytics
@@ -591,24 +444,16 @@ items:
   nameWithType: DBC.EmailFlowFields.UseGoogleAnalytics
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.UseGoogleAnalytics
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.UseGoogleAnalytics: Use Google Analytics\n"
+  summary: 'EmailFlow.UseGoogleAnalytics: Use Google Analytics'
+  example: []
   syntax:
     content: public const string UseGoogleAnalytics = "use_google_analytics"
     return:
       type: System.String
     content.vb: Public Const UseGoogleAnalytics As String = "use_google_analytics"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.GaSource
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.GaSource
   id: GaSource
@@ -620,24 +465,16 @@ items:
   nameWithType: DBC.EmailFlowFields.GaSource
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.GaSource
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.GaSource: GA Source\n"
+  summary: 'EmailFlow.GaSource: GA Source'
+  example: []
   syntax:
     content: public const string GaSource = "ga_source"
     return:
       type: System.String
     content.vb: Public Const GaSource As String = "ga_source"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.GaCampaign
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.GaCampaign
   id: GaCampaign
@@ -649,24 +486,16 @@ items:
   nameWithType: DBC.EmailFlowFields.GaCampaign
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.GaCampaign
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.GaCampaign: GA Campaign\n"
+  summary: 'EmailFlow.GaCampaign: GA Campaign'
+  example: []
   syntax:
     content: public const string GaCampaign = "ga_campaign"
     return:
       type: System.String
     content.vb: Public Const GaCampaign As String = "ga_campaign"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.FromType
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.FromType
   id: FromType
@@ -678,24 +507,16 @@ items:
   nameWithType: DBC.EmailFlowFields.FromType
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.FromType
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.FromType: Email/Mailing From field address algorithm\n"
+  summary: 'EmailFlow.FromType: Email/Mailing From field address algorithm'
+  example: []
   syntax:
     content: public const string FromType = "from_type"
     return:
       type: System.String
     content.vb: Public Const FromType As String = "from_type"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToType
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToType
   id: ReplyToType
@@ -707,24 +528,16 @@ items:
   nameWithType: DBC.EmailFlowFields.ReplyToType
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToType
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.ReplyToType: Email/Mailing Reply-To field address algorithm\n"
+  summary: 'EmailFlow.ReplyToType: Email/Mailing Reply-To field address algorithm'
+  example: []
   syntax:
     content: public const string ReplyToType = "reply_to_type"
     return:
       type: System.String
     content.vb: Public Const ReplyToType As String = "reply_to_type"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToName
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToName
   id: ReplyToName
@@ -736,24 +549,16 @@ items:
   nameWithType: DBC.EmailFlowFields.ReplyToName
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.ReplyToName: Email Reply-To name\n"
+  summary: 'EmailFlow.ReplyToName: Email Reply-To name'
+  example: []
   syntax:
     content: public const string ReplyToName = "reply_to_name"
     return:
       type: System.String
     content.vb: Public Const ReplyToName As String = "reply_to_name"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.MainMessageId
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.MainMessageId
   id: MainMessageId
@@ -765,41 +570,288 @@ items:
   nameWithType: DBC.EmailFlowFields.MainMessageId
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.MainMessageId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEmailFlow.MainMessageId: The main email message, used for thumbnail creation\n"
+  summary: 'EmailFlow.MainMessageId: The main email message, used for thumbnail creation'
+  example: []
   syntax:
     content: public const string MainMessageId = "main_message_id"
     return:
       type: System.String
     content.vb: Public Const MainMessageId As String = "main_message_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -807,6 +859,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -37,20 +37,22 @@ items:
   nameWithType: Contact
   fullName: SuperOffice.WebApi.Data.Contact
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for Contact.\n\n"
+  summary: Carrier object for Contact.
   example:
-  - "\nGet Contact 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ContactAgent(configuration);\nvar contact = agent.GetContact( 123 );</code></pre>\n"
+  - >-
+    Get Contact 123 using the WebApi client:
+
+    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
+
+    var agent = new ContactAgent(configuration);
+
+    var contact = agent.GetContact( 123 );</code></pre>
   syntax:
     content: 'public class Contact : Carrier'
-    content.vb: >-
-      Public Class Contact
-          Inherits Carrier
+    content.vb: Public Class Contact Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.ContactAgent
     commentId: T:SuperOffice.WebApi.Agents.ContactAgent
@@ -60,12 +62,13 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.Contact.#ctor
   commentId: M:SuperOffice.WebApi.Data.Contact.#ctor
   id: '#ctor'
@@ -77,21 +80,18 @@ items:
   nameWithType: Contact.Contact()
   fullName: SuperOffice.WebApi.Data.Contact.Contact()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public Contact()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.Contact.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: Contact.New()
+  fullName.vb: SuperOffice.WebApi.Data.Contact.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.Contact.ContactId
   commentId: P:SuperOffice.WebApi.Data.Contact.ContactId
   id: ContactId
@@ -103,13 +103,11 @@ items:
   nameWithType: Contact.ContactId
   fullName: SuperOffice.WebApi.Data.Contact.ContactId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPrimary key\n"
+  summary: Primary key
+  example: []
   syntax:
     content: public virtual int ContactId { get; set; }
     parameters: []
@@ -117,14 +115,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ContactId As Integer
   overload: SuperOffice.WebApi.Data.Contact.ContactId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.Name
   commentId: P:SuperOffice.WebApi.Data.Contact.Name
   id: Name
@@ -136,13 +126,11 @@ items:
   nameWithType: Contact.Name
   fullName: SuperOffice.WebApi.Data.Contact.Name
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nContact name\n"
+  summary: Contact name
+  example: []
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -150,14 +138,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.Contact.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.OrgNr
   commentId: P:SuperOffice.WebApi.Data.Contact.OrgNr
   id: OrgNr
@@ -169,13 +149,11 @@ items:
   nameWithType: Contact.OrgNr
   fullName: SuperOffice.WebApi.Data.Contact.OrgNr
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nVAT number or similar\n"
+  summary: VAT number or similar
+  example: []
   syntax:
     content: public virtual string OrgNr { get; set; }
     parameters: []
@@ -183,14 +161,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property OrgNr As String
   overload: SuperOffice.WebApi.Data.Contact.OrgNr*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.Department
   commentId: P:SuperOffice.WebApi.Data.Contact.Department
   id: Department
@@ -202,13 +172,11 @@ items:
   nameWithType: Contact.Department
   fullName: SuperOffice.WebApi.Data.Contact.Department
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDepartment\n"
+  summary: Department
+  example: []
   syntax:
     content: public virtual string Department { get; set; }
     parameters: []
@@ -216,14 +184,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Department As String
   overload: SuperOffice.WebApi.Data.Contact.Department*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.URL
   commentId: P:SuperOffice.WebApi.Data.Contact.URL
   id: URL
@@ -235,13 +195,11 @@ items:
   nameWithType: Contact.URL
   fullName: SuperOffice.WebApi.Data.Contact.URL
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe internet address to this contact\n"
+  summary: The internet address to this contact
+  example: []
   syntax:
     content: public virtual string URL { get; set; }
     parameters: []
@@ -249,14 +207,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property URL As String
   overload: SuperOffice.WebApi.Data.Contact.URL*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.City
   commentId: P:SuperOffice.WebApi.Data.Contact.City
   id: City
@@ -268,13 +218,11 @@ items:
   nameWithType: Contact.City
   fullName: SuperOffice.WebApi.Data.Contact.City
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCity corresponding to zip code\n"
+  summary: City corresponding to zip code
+  example: []
   syntax:
     content: public virtual string City { get; set; }
     parameters: []
@@ -282,14 +230,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property City As String
   overload: SuperOffice.WebApi.Data.Contact.City*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.DirectPhone
   commentId: P:SuperOffice.WebApi.Data.Contact.DirectPhone
   id: DirectPhone
@@ -301,13 +241,11 @@ items:
   nameWithType: Contact.DirectPhone
   fullName: SuperOffice.WebApi.Data.Contact.DirectPhone
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe contacts phone\n"
+  summary: The contacts phone
+  example: []
   syntax:
     content: public virtual string DirectPhone { get; set; }
     parameters: []
@@ -315,14 +253,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property DirectPhone As String
   overload: SuperOffice.WebApi.Data.Contact.DirectPhone*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.AssociateId
   commentId: P:SuperOffice.WebApi.Data.Contact.AssociateId
   id: AssociateId
@@ -334,13 +264,11 @@ items:
   nameWithType: Contact.AssociateId
   fullName: SuperOffice.WebApi.Data.Contact.AssociateId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nOur contact\n"
+  summary: Our contact
+  example: []
   syntax:
     content: public virtual int AssociateId { get; set; }
     parameters: []
@@ -348,14 +276,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property AssociateId As Integer
   overload: SuperOffice.WebApi.Data.Contact.AssociateId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.CountryId
   commentId: P:SuperOffice.WebApi.Data.Contact.CountryId
   id: CountryId
@@ -367,13 +287,11 @@ items:
   nameWithType: Contact.CountryId
   fullName: SuperOffice.WebApi.Data.Contact.CountryId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCountry\n"
+  summary: Country
+  example: []
   syntax:
     content: public virtual int CountryId { get; set; }
     parameters: []
@@ -381,14 +299,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property CountryId As Integer
   overload: SuperOffice.WebApi.Data.Contact.CountryId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.EmailAddress
   commentId: P:SuperOffice.WebApi.Data.Contact.EmailAddress
   id: EmailAddress
@@ -400,13 +310,11 @@ items:
   nameWithType: Contact.EmailAddress
   fullName: SuperOffice.WebApi.Data.Contact.EmailAddress
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe contact email address\n"
+  summary: The contact email address
+  example: []
   syntax:
     content: public virtual string EmailAddress { get; set; }
     parameters: []
@@ -414,14 +322,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property EmailAddress As String
   overload: SuperOffice.WebApi.Data.Contact.EmailAddress*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.Kananame
   commentId: P:SuperOffice.WebApi.Data.Contact.Kananame
   id: Kananame
@@ -433,13 +333,11 @@ items:
   nameWithType: Contact.Kananame
   fullName: SuperOffice.WebApi.Data.Contact.Kananame
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nContact kana name, used in Japanese versions only\n"
+  summary: Contact kana name, used in Japanese versions only
+  example: []
   syntax:
     content: public virtual string Kananame { get; set; }
     parameters: []
@@ -447,14 +345,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Kananame As String
   overload: SuperOffice.WebApi.Data.Contact.Kananame*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.EmailAddressName
   commentId: P:SuperOffice.WebApi.Data.Contact.EmailAddressName
   id: EmailAddressName
@@ -466,13 +356,11 @@ items:
   nameWithType: Contact.EmailAddressName
   fullName: SuperOffice.WebApi.Data.Contact.EmailAddressName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nVisible field\n"
+  summary: Visible field
+  example: []
   syntax:
     content: public virtual string EmailAddressName { get; set; }
     parameters: []
@@ -480,14 +368,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property EmailAddressName As String
   overload: SuperOffice.WebApi.Data.Contact.EmailAddressName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.URLName
   commentId: P:SuperOffice.WebApi.Data.Contact.URLName
   id: URLName
@@ -499,13 +379,11 @@ items:
   nameWithType: Contact.URLName
   fullName: SuperOffice.WebApi.Data.Contact.URLName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nVisible field\n"
+  summary: Visible field
+  example: []
   syntax:
     content: public virtual string URLName { get; set; }
     parameters: []
@@ -513,14 +391,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property URLName As String
   overload: SuperOffice.WebApi.Data.Contact.URLName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.AssociateFullName
   commentId: P:SuperOffice.WebApi.Data.Contact.AssociateFullName
   id: AssociateFullName
@@ -532,13 +402,11 @@ items:
   nameWithType: Contact.AssociateFullName
   fullName: SuperOffice.WebApi.Data.Contact.AssociateFullName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe associate&apos;s culture formatted fullname (firstname, middleName and lastname)\n"
+  summary: The associate's culture formatted fullname (firstname, middleName and lastname)
+  example: []
   syntax:
     content: public virtual string AssociateFullName { get; set; }
     parameters: []
@@ -546,14 +414,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property AssociateFullName As String
   overload: SuperOffice.WebApi.Data.Contact.AssociateFullName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.BusinessName
   commentId: P:SuperOffice.WebApi.Data.Contact.BusinessName
   id: BusinessName
@@ -565,13 +425,11 @@ items:
   nameWithType: Contact.BusinessName
   fullName: SuperOffice.WebApi.Data.Contact.BusinessName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe business list item name\n"
+  summary: The business list item name
+  example: []
   syntax:
     content: public virtual string BusinessName { get; set; }
     parameters: []
@@ -579,14 +437,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property BusinessName As String
   overload: SuperOffice.WebApi.Data.Contact.BusinessName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.CategoryName
   commentId: P:SuperOffice.WebApi.Data.Contact.CategoryName
   id: CategoryName
@@ -598,13 +448,11 @@ items:
   nameWithType: Contact.CategoryName
   fullName: SuperOffice.WebApi.Data.Contact.CategoryName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe category list item name\n"
+  summary: The category list item name
+  example: []
   syntax:
     content: public virtual string CategoryName { get; set; }
     parameters: []
@@ -612,14 +460,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property CategoryName As String
   overload: SuperOffice.WebApi.Data.Contact.CategoryName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.CountryName
   commentId: P:SuperOffice.WebApi.Data.Contact.CountryName
   id: CountryName
@@ -631,13 +471,11 @@ items:
   nameWithType: Contact.CountryName
   fullName: SuperOffice.WebApi.Data.Contact.CountryName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nName of country in installed language\n"
+  summary: Name of country in installed language
+  example: []
   syntax:
     content: public virtual string CountryName { get; set; }
     parameters: []
@@ -645,14 +483,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property CountryName As String
   overload: SuperOffice.WebApi.Data.Contact.CountryName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.Address
   commentId: P:SuperOffice.WebApi.Data.Contact.Address
   id: Address
@@ -664,13 +494,11 @@ items:
   nameWithType: Contact.Address
   fullName: SuperOffice.WebApi.Data.Contact.Address
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nContact address as  a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display. \n"
+  summary: Contact address as  a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display.
+  example: []
   syntax:
     content: public virtual Address Address { get; set; }
     parameters: []
@@ -678,14 +506,6 @@ items:
       type: SuperOffice.WebApi.Data.Address
     content.vb: Public Overridable Property Address As Address
   overload: SuperOffice.WebApi.Data.Contact.Address*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.FormattedAddress
   commentId: P:SuperOffice.WebApi.Data.Contact.FormattedAddress
   id: FormattedAddress
@@ -697,13 +517,11 @@ items:
   nameWithType: Contact.FormattedAddress
   fullName: SuperOffice.WebApi.Data.Contact.FormattedAddress
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe contact&apos;s address, formatted with linebreaks and spaces into a single string.\n"
+  summary: The contact's address, formatted with linebreaks and spaces into a single string.
+  example: []
   syntax:
     content: public virtual string FormattedAddress { get; set; }
     parameters: []
@@ -711,14 +529,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property FormattedAddress As String
   overload: SuperOffice.WebApi.Data.Contact.FormattedAddress*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.FullName
   commentId: P:SuperOffice.WebApi.Data.Contact.FullName
   id: FullName
@@ -730,13 +540,11 @@ items:
   nameWithType: Contact.FullName
   fullName: SuperOffice.WebApi.Data.Contact.FullName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public virtual string FullName { get; set; }
     parameters: []
@@ -744,14 +552,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property FullName As String
   overload: SuperOffice.WebApi.Data.Contact.FullName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.IsOwnerContact
   commentId: P:SuperOffice.WebApi.Data.Contact.IsOwnerContact
   id: IsOwnerContact
@@ -763,13 +563,11 @@ items:
   nameWithType: Contact.IsOwnerContact
   fullName: SuperOffice.WebApi.Data.Contact.IsOwnerContact
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIs the contact an owner contact.  This means that all persons on this contact can on only be internal users and not external users.\n"
+  summary: Is the contact an owner contact.  This means that all persons on this contact can on only be internal users and not external users.
+  example: []
   syntax:
     content: public virtual bool IsOwnerContact { get; set; }
     parameters: []
@@ -777,14 +575,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsOwnerContact As Boolean
   overload: SuperOffice.WebApi.Data.Contact.IsOwnerContact*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.ActiveErpLinks
   commentId: P:SuperOffice.WebApi.Data.Contact.ActiveErpLinks
   id: ActiveErpLinks
@@ -796,13 +586,11 @@ items:
   nameWithType: Contact.ActiveErpLinks
   fullName: SuperOffice.WebApi.Data.Contact.ActiveErpLinks
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe number of active erp links\n"
+  summary: The number of active erp links
+  example: []
   syntax:
     content: public virtual int ActiveErpLinks { get; set; }
     parameters: []
@@ -810,14 +598,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ActiveErpLinks As Integer
   overload: SuperOffice.WebApi.Data.Contact.ActiveErpLinks*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.Number1
   commentId: P:SuperOffice.WebApi.Data.Contact.Number1
   id: Number1
@@ -829,13 +609,11 @@ items:
   nameWithType: Contact.Number1
   fullName: SuperOffice.WebApi.Data.Contact.Number1
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAlphanumeric user field\n"
+  summary: Alphanumeric user field
+  example: []
   syntax:
     content: public virtual string Number1 { get; set; }
     parameters: []
@@ -843,14 +621,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Number1 As String
   overload: SuperOffice.WebApi.Data.Contact.Number1*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.Contact.Number2
   commentId: P:SuperOffice.WebApi.Data.Contact.Number2
   id: Number2
@@ -862,13 +632,11 @@ items:
   nameWithType: Contact.Number2
   fullName: SuperOffice.WebApi.Data.Contact.Number2
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAlphanumeric user field\n"
+  summary: Alphanumeric user field
+  example: []
   syntax:
     content: public virtual string Number2 { get; set; }
     parameters: []
@@ -876,32 +644,67 @@ items:
       type: System.String
     content.vb: Public Overridable Property Number2 As String
   overload: SuperOffice.WebApi.Data.Contact.Number2*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.ContactAgent
+  commentId: T:SuperOffice.WebApi.Agents.ContactAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ContactAgent.html
+  name: ContactAgent
+  nameWithType: ContactAgent
+  fullName: SuperOffice.WebApi.Agents.ContactAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -909,6 +712,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -916,30 +720,250 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: SuperOffice.WebApi.Agents.ContactAgent
-  commentId: T:SuperOffice.WebApi.Agents.ContactAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: ContactAgent
-  nameWithType: ContactAgent
-  fullName: SuperOffice.WebApi.Agents.ContactAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.Contact.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact__ctor
   name: Contact
   nameWithType: Contact.Contact
   fullName: SuperOffice.WebApi.Data.Contact.Contact
+  nameWithType.vb: Contact.New
+  fullName.vb: SuperOffice.WebApi.Data.Contact.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.Contact.ContactId*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.ContactId
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_ContactId
   name: ContactId
   nameWithType: Contact.ContactId
   fullName: SuperOffice.WebApi.Data.Contact.ContactId
@@ -947,12 +971,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.Contact.Name*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.Name
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_Name
   name: Name
   nameWithType: Contact.Name
   fullName: SuperOffice.WebApi.Data.Contact.Name
@@ -960,102 +989,122 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.Contact.OrgNr*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.OrgNr
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_OrgNr
   name: OrgNr
   nameWithType: Contact.OrgNr
   fullName: SuperOffice.WebApi.Data.Contact.OrgNr
 - uid: SuperOffice.WebApi.Data.Contact.Department*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.Department
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_Department
   name: Department
   nameWithType: Contact.Department
   fullName: SuperOffice.WebApi.Data.Contact.Department
 - uid: SuperOffice.WebApi.Data.Contact.URL*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.URL
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_URL
   name: URL
   nameWithType: Contact.URL
   fullName: SuperOffice.WebApi.Data.Contact.URL
 - uid: SuperOffice.WebApi.Data.Contact.City*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.City
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_City
   name: City
   nameWithType: Contact.City
   fullName: SuperOffice.WebApi.Data.Contact.City
 - uid: SuperOffice.WebApi.Data.Contact.DirectPhone*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.DirectPhone
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_DirectPhone
   name: DirectPhone
   nameWithType: Contact.DirectPhone
   fullName: SuperOffice.WebApi.Data.Contact.DirectPhone
 - uid: SuperOffice.WebApi.Data.Contact.AssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.AssociateId
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_AssociateId
   name: AssociateId
   nameWithType: Contact.AssociateId
   fullName: SuperOffice.WebApi.Data.Contact.AssociateId
 - uid: SuperOffice.WebApi.Data.Contact.CountryId*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.CountryId
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_CountryId
   name: CountryId
   nameWithType: Contact.CountryId
   fullName: SuperOffice.WebApi.Data.Contact.CountryId
 - uid: SuperOffice.WebApi.Data.Contact.EmailAddress*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.EmailAddress
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_EmailAddress
   name: EmailAddress
   nameWithType: Contact.EmailAddress
   fullName: SuperOffice.WebApi.Data.Contact.EmailAddress
 - uid: SuperOffice.WebApi.Data.Contact.Kananame*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.Kananame
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_Kananame
   name: Kananame
   nameWithType: Contact.Kananame
   fullName: SuperOffice.WebApi.Data.Contact.Kananame
 - uid: SuperOffice.WebApi.Data.Contact.EmailAddressName*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.EmailAddressName
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_EmailAddressName
   name: EmailAddressName
   nameWithType: Contact.EmailAddressName
   fullName: SuperOffice.WebApi.Data.Contact.EmailAddressName
 - uid: SuperOffice.WebApi.Data.Contact.URLName*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.URLName
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_URLName
   name: URLName
   nameWithType: Contact.URLName
   fullName: SuperOffice.WebApi.Data.Contact.URLName
 - uid: SuperOffice.WebApi.Data.Contact.AssociateFullName*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.AssociateFullName
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_AssociateFullName
   name: AssociateFullName
   nameWithType: Contact.AssociateFullName
   fullName: SuperOffice.WebApi.Data.Contact.AssociateFullName
 - uid: SuperOffice.WebApi.Data.Contact.BusinessName*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.BusinessName
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_BusinessName
   name: BusinessName
   nameWithType: Contact.BusinessName
   fullName: SuperOffice.WebApi.Data.Contact.BusinessName
 - uid: SuperOffice.WebApi.Data.Contact.CategoryName*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.CategoryName
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_CategoryName
   name: CategoryName
   nameWithType: Contact.CategoryName
   fullName: SuperOffice.WebApi.Data.Contact.CategoryName
 - uid: SuperOffice.WebApi.Data.Contact.CountryName*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.CountryName
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_CountryName
   name: CountryName
   nameWithType: Contact.CountryName
   fullName: SuperOffice.WebApi.Data.Contact.CountryName
 - uid: SuperOffice.WebApi.Data.Contact.Address*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.Address
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_Address
   name: Address
   nameWithType: Contact.Address
   fullName: SuperOffice.WebApi.Data.Contact.Address
@@ -1063,24 +1112,28 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Address
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Address.html
   name: Address
   nameWithType: Address
   fullName: SuperOffice.WebApi.Data.Address
 - uid: SuperOffice.WebApi.Data.Contact.FormattedAddress*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.FormattedAddress
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_FormattedAddress
   name: FormattedAddress
   nameWithType: Contact.FormattedAddress
   fullName: SuperOffice.WebApi.Data.Contact.FormattedAddress
 - uid: SuperOffice.WebApi.Data.Contact.FullName*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.FullName
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_FullName
   name: FullName
   nameWithType: Contact.FullName
   fullName: SuperOffice.WebApi.Data.Contact.FullName
 - uid: SuperOffice.WebApi.Data.Contact.IsOwnerContact*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.IsOwnerContact
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_IsOwnerContact
   name: IsOwnerContact
   nameWithType: Contact.IsOwnerContact
   fullName: SuperOffice.WebApi.Data.Contact.IsOwnerContact
@@ -1088,24 +1141,31 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.WebApi.Data.Contact.ActiveErpLinks*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.ActiveErpLinks
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_ActiveErpLinks
   name: ActiveErpLinks
   nameWithType: Contact.ActiveErpLinks
   fullName: SuperOffice.WebApi.Data.Contact.ActiveErpLinks
 - uid: SuperOffice.WebApi.Data.Contact.Number1*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.Number1
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_Number1
   name: Number1
   nameWithType: Contact.Number1
   fullName: SuperOffice.WebApi.Data.Contact.Number1
 - uid: SuperOffice.WebApi.Data.Contact.Number2*
   commentId: Overload:SuperOffice.WebApi.Data.Contact.Number2
   isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html#SuperOffice_WebApi_Data_Contact_Number2
   name: Number2
   nameWithType: Contact.Number2
   fullName: SuperOffice.WebApi.Data.Contact.Number2

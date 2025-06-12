@@ -1,0 +1,1184 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.IInterestHelper
+  commentId: T:SuperOffice.CRM.Entities.IInterestHelper
+  id: IInterestHelper
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.IInterestHelper.ConstructAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IInterestHelper.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IInterestHelper.GetRootItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IInterestHelper.HistoryInfo
+  - SuperOffice.CRM.Entities.IInterestHelper.IsItemSelected(System.Int32)
+  - SuperOffice.CRM.Entities.IInterestHelper.OnActiveInterestsChanged
+  - SuperOffice.CRM.Entities.IInterestHelper.RefreshAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IInterestHelper.SelectedHeadingItems
+  - SuperOffice.CRM.Entities.IInterestHelper.SelectedRootItems
+  - SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(SuperOffice.CRM.Lists.ISelectableListItem,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(SuperOffice.CRM.Lists.ISoList,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IInterestHelper
+  nameWithType: IInterestHelper
+  fullName: SuperOffice.CRM.Entities.IInterestHelper
+  type: Interface
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public interface IInterestHelper
+    content.vb: Public Interface IInterestHelper
+  extensionMethods:
+  - SuperOffice.CRM.Entities.IInterestHelper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.IInterestHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.Entities.IInterestHelper.GetRootItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IInterestHelper.GetRootItemsAsync(System.Threading.CancellationToken)
+  id: GetRootItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IInterestHelper
+  langs:
+  - csharp
+  - vb
+  name: GetRootItemsAsync(CancellationToken)
+  nameWithType: IInterestHelper.GetRootItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.GetRootItemsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task<List<ISoListItem>> GetRootItemsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}}
+    content.vb: Function GetRootItemsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of List(Of ISoListItem))
+  overload: SuperOffice.CRM.Entities.IInterestHelper.GetRootItemsAsync*
+- uid: SuperOffice.CRM.Entities.IInterestHelper.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IInterestHelper.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  id: GetHeadingItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IInterestHelper
+  langs:
+  - csharp
+  - vb
+  name: GetHeadingItemsAsync(CancellationToken)
+  nameWithType: IInterestHelper.GetHeadingItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task<List<ISoListHeading>> GetHeadingItemsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}}
+    content.vb: Function GetHeadingItemsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of List(Of ISoListHeading))
+  overload: SuperOffice.CRM.Entities.IInterestHelper.GetHeadingItemsAsync*
+- uid: SuperOffice.CRM.Entities.IInterestHelper.IsItemSelected(System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.IInterestHelper.IsItemSelected(System.Int32)
+  id: IsItemSelected(System.Int32)
+  parent: SuperOffice.CRM.Entities.IInterestHelper
+  langs:
+  - csharp
+  - vb
+  name: IsItemSelected(int)
+  nameWithType: IInterestHelper.IsItemSelected(int)
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.IsItemSelected(int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool IsItemSelected(int interestId)
+    parameters:
+    - id: interestId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Function IsItemSelected(interestId As Integer) As Boolean
+  overload: SuperOffice.CRM.Entities.IInterestHelper.IsItemSelected*
+  nameWithType.vb: IInterestHelper.IsItemSelected(Integer)
+  fullName.vb: SuperOffice.CRM.Entities.IInterestHelper.IsItemSelected(Integer)
+  name.vb: IsItemSelected(Integer)
+- uid: SuperOffice.CRM.Entities.IInterestHelper.RefreshAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IInterestHelper.RefreshAsync(System.Threading.CancellationToken)
+  id: RefreshAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IInterestHelper
+  langs:
+  - csharp
+  - vb
+  name: RefreshAsync(CancellationToken)
+  nameWithType: IInterestHelper.RefreshAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.RefreshAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task RefreshAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RefreshAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IInterestHelper.RefreshAsync*
+- uid: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  id: SetItemSelectionAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IInterestHelper
+  langs:
+  - csharp
+  - vb
+  name: SetItemSelectionAsync(int, bool, CancellationToken)
+  nameWithType: IInterestHelper.SetItemSelectionAsync(int, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(int, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task SetItemSelectionAsync(int interestId, bool isSelected, CancellationToken cancellationToken = default)
+    parameters:
+    - id: interestId
+      type: System.Int32
+    - id: isSelected
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetItemSelectionAsync(interestId As Integer, isSelected As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync*
+  nameWithType.vb: IInterestHelper.SetItemSelectionAsync(Integer, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(Integer, Boolean, System.Threading.CancellationToken)
+  name.vb: SetItemSelectionAsync(Integer, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(SuperOffice.CRM.Lists.ISelectableListItem,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(SuperOffice.CRM.Lists.ISelectableListItem,System.Threading.CancellationToken)
+  id: SetItemSelectionAsync(SuperOffice.CRM.Lists.ISelectableListItem,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IInterestHelper
+  langs:
+  - csharp
+  - vb
+  name: SetItemSelectionAsync(ISelectableListItem, CancellationToken)
+  nameWithType: IInterestHelper.SetItemSelectionAsync(ISelectableListItem, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(SuperOffice.CRM.Lists.ISelectableListItem, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task SetItemSelectionAsync(ISelectableListItem item, CancellationToken cancellationToken = default)
+    parameters:
+    - id: item
+      type: SuperOffice.CRM.Lists.ISelectableListItem
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetItemSelectionAsync(item As ISelectableListItem, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync*
+- uid: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(SuperOffice.CRM.Lists.ISoList,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(SuperOffice.CRM.Lists.ISoList,System.Threading.CancellationToken)
+  id: SetItemSelectionAsync(SuperOffice.CRM.Lists.ISoList,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IInterestHelper
+  langs:
+  - csharp
+  - vb
+  name: SetItemSelectionAsync(ISoList, CancellationToken)
+  nameWithType: IInterestHelper.SetItemSelectionAsync(ISoList, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(SuperOffice.CRM.Lists.ISoList, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task SetItemSelectionAsync(ISoList list, CancellationToken cancellationToken = default)
+    parameters:
+    - id: list
+      type: SuperOffice.CRM.Lists.ISoList
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetItemSelectionAsync(list As ISoList, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync*
+- uid: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem},System.Threading.CancellationToken)
+  id: SetItemSelectionAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem},System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IInterestHelper
+  langs:
+  - csharp
+  - vb
+  name: SetItemSelectionAsync(List<ISelectableListItem>, CancellationToken)
+  nameWithType: IInterestHelper.SetItemSelectionAsync(List<ISelectableListItem>, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISelectableListItem>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task SetItemSelectionAsync(List<ISelectableListItem> items, CancellationToken cancellationToken = default)
+    parameters:
+    - id: items
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetItemSelectionAsync(items As List(Of ISelectableListItem), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync*
+  nameWithType.vb: IInterestHelper.SetItemSelectionAsync(List(Of ISelectableListItem), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISelectableListItem), System.Threading.CancellationToken)
+  name.vb: SetItemSelectionAsync(List(Of ISelectableListItem), CancellationToken)
+- uid: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Threading.CancellationToken)
+  id: SetItemSelectionAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IInterestHelper
+  langs:
+  - csharp
+  - vb
+  name: SetItemSelectionAsync(List<ISoListItem>, CancellationToken)
+  nameWithType: IInterestHelper.SetItemSelectionAsync(List<ISoListItem>, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task SetItemSelectionAsync(List<ISoListItem> selectableItems, CancellationToken cancellationToken = default)
+    parameters:
+    - id: selectableItems
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetItemSelectionAsync(selectableItems As List(Of ISoListItem), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync*
+  nameWithType.vb: IInterestHelper.SetItemSelectionAsync(List(Of ISoListItem), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem), System.Threading.CancellationToken)
+  name.vb: SetItemSelectionAsync(List(Of ISoListItem), CancellationToken)
+- uid: SuperOffice.CRM.Entities.IInterestHelper.ConstructAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IInterestHelper.ConstructAsync(System.Threading.CancellationToken)
+  id: ConstructAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IInterestHelper
+  langs:
+  - csharp
+  - vb
+  name: ConstructAsync(CancellationToken)
+  nameWithType: IInterestHelper.ConstructAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.ConstructAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: Task ConstructAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ConstructAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IInterestHelper.ConstructAsync*
+- uid: SuperOffice.CRM.Entities.IInterestHelper.HistoryInfo
+  commentId: P:SuperOffice.CRM.Entities.IInterestHelper.HistoryInfo
+  id: HistoryInfo
+  parent: SuperOffice.CRM.Entities.IInterestHelper
+  langs:
+  - csharp
+  - vb
+  name: HistoryInfo
+  nameWithType: IInterestHelper.HistoryInfo
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.HistoryInfo
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: HistoryInfo HistoryInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Lists.HistoryInfo
+    content.vb: ReadOnly Property HistoryInfo As HistoryInfo
+  overload: SuperOffice.CRM.Entities.IInterestHelper.HistoryInfo*
+- uid: SuperOffice.CRM.Entities.IInterestHelper.SelectedHeadingItems
+  commentId: P:SuperOffice.CRM.Entities.IInterestHelper.SelectedHeadingItems
+  id: SelectedHeadingItems
+  parent: SuperOffice.CRM.Entities.IInterestHelper
+  langs:
+  - csharp
+  - vb
+  name: SelectedHeadingItems
+  nameWithType: IInterestHelper.SelectedHeadingItems
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.SelectedHeadingItems
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: List<ISoListHeading> SelectedHeadingItems { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
+    content.vb: ReadOnly Property SelectedHeadingItems As List(Of ISoListHeading)
+  overload: SuperOffice.CRM.Entities.IInterestHelper.SelectedHeadingItems*
+- uid: SuperOffice.CRM.Entities.IInterestHelper.SelectedRootItems
+  commentId: P:SuperOffice.CRM.Entities.IInterestHelper.SelectedRootItems
+  id: SelectedRootItems
+  parent: SuperOffice.CRM.Entities.IInterestHelper
+  langs:
+  - csharp
+  - vb
+  name: SelectedRootItems
+  nameWithType: IInterestHelper.SelectedRootItems
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.SelectedRootItems
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: List<ISoListItem> SelectedRootItems { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+    content.vb: ReadOnly Property SelectedRootItems As List(Of ISoListItem)
+  overload: SuperOffice.CRM.Entities.IInterestHelper.SelectedRootItems*
+- uid: SuperOffice.CRM.Entities.IInterestHelper.OnActiveInterestsChanged
+  commentId: E:SuperOffice.CRM.Entities.IInterestHelper.OnActiveInterestsChanged
+  id: OnActiveInterestsChanged
+  parent: SuperOffice.CRM.Entities.IInterestHelper
+  langs:
+  - csharp
+  - vb
+  name: OnActiveInterestsChanged
+  nameWithType: IInterestHelper.OnActiveInterestsChanged
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.OnActiveInterestsChanged
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: event ActiveInterestsChanged OnActiveInterestsChanged
+    return:
+      type: SuperOffice.CRM.Entities.ActiveInterestsChanged
+    content.vb: Event OnActiveInterestsChanged As ActiveInterestsChanged
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+- uid: SuperOffice.CRM.Entities.IInterestHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IInterestHelper, To>(IInterestHelper)
+  nameWithType: EnumUtil.MapEnums<IInterestHelper, To>(IInterestHelper)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.IInterestHelper, To>(SuperOffice.CRM.Entities.IInterestHelper)
+  nameWithType.vb: EnumUtil.MapEnums(Of IInterestHelper, To)(IInterestHelper)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.IInterestHelper, To)(SuperOffice.CRM.Entities.IInterestHelper)
+  name.vb: MapEnums(Of IInterestHelper, To)(IInterestHelper)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.IInterestHelper)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.IInterestHelper
+    name: IInterestHelper
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IInterestHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Entities.IInterestHelper
+    name: IInterestHelper
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IInterestHelper.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.IInterestHelper)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.IInterestHelper
+    name: IInterestHelper
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IInterestHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.IInterestHelper
+    name: IInterestHelper
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IInterestHelper.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.IInterestHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IInterestHelper, To>(IInterestHelper)
+  nameWithType: Converters.MapEnums<IInterestHelper, To>(IInterestHelper)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.IInterestHelper, To>(SuperOffice.CRM.Entities.IInterestHelper)
+  nameWithType.vb: Converters.MapEnums(Of IInterestHelper, To)(IInterestHelper)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.IInterestHelper, To)(SuperOffice.CRM.Entities.IInterestHelper)
+  name.vb: MapEnums(Of IInterestHelper, To)(IInterestHelper)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.IInterestHelper)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Entities.IInterestHelper
+    name: IInterestHelper
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IInterestHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Entities.IInterestHelper
+    name: IInterestHelper
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IInterestHelper.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.IInterestHelper)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.IInterestHelper
+    name: IInterestHelper
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IInterestHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Entities.IInterestHelper
+    name: IInterestHelper
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IInterestHelper.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Entities.IInterestHelper.GetRootItemsAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IInterestHelper.GetRootItemsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IInterestHelper.html#SuperOffice_CRM_Entities_IInterestHelper_GetRootItemsAsync_System_Threading_CancellationToken_
+  name: GetRootItemsAsync
+  nameWithType: IInterestHelper.GetRootItemsAsync
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.GetRootItemsAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<ISoListItem>>
+  nameWithType: Task<List<ISoListItem>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>>
+  nameWithType.vb: Task(Of List(Of ISoListItem))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
+  name.vb: Task(Of List(Of ISoListItem))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListItem.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListItem.html
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Entities.IInterestHelper.GetHeadingItemsAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IInterestHelper.GetHeadingItemsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IInterestHelper.html#SuperOffice_CRM_Entities_IInterestHelper_GetHeadingItemsAsync_System_Threading_CancellationToken_
+  name: GetHeadingItemsAsync
+  nameWithType: IInterestHelper.GetHeadingItemsAsync
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.GetHeadingItemsAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<ISoListHeading>>
+  nameWithType: Task<List<ISoListHeading>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListHeading>>
+  nameWithType.vb: Task(Of List(Of ISoListHeading))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListHeading))
+  name.vb: Task(Of List(Of ISoListHeading))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.Lists.ISoListHeading
+    name: ISoListHeading
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListHeading.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.ISoListHeading
+    name: ISoListHeading
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListHeading.html
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Entities.IInterestHelper.IsItemSelected*
+  commentId: Overload:SuperOffice.CRM.Entities.IInterestHelper.IsItemSelected
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IInterestHelper.html#SuperOffice_CRM_Entities_IInterestHelper_IsItemSelected_System_Int32_
+  name: IsItemSelected
+  nameWithType: IInterestHelper.IsItemSelected
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.IsItemSelected
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Entities.IInterestHelper.RefreshAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IInterestHelper.RefreshAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IInterestHelper.html#SuperOffice_CRM_Entities_IInterestHelper_RefreshAsync_System_Threading_CancellationToken_
+  name: RefreshAsync
+  nameWithType: IInterestHelper.RefreshAsync
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.RefreshAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IInterestHelper.html#SuperOffice_CRM_Entities_IInterestHelper_SetItemSelectionAsync_System_Int32_System_Boolean_System_Threading_CancellationToken_
+  name: SetItemSelectionAsync
+  nameWithType: IInterestHelper.SetItemSelectionAsync
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.SetItemSelectionAsync
+- uid: SuperOffice.CRM.Lists.ISelectableListItem
+  commentId: T:SuperOffice.CRM.Lists.ISelectableListItem
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  href: SuperOffice.CRM.Lists.ISelectableListItem.html
+  name: ISelectableListItem
+  nameWithType: ISelectableListItem
+  fullName: SuperOffice.CRM.Lists.ISelectableListItem
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Lists
+    name: Lists
+    isExternal: true
+    href: SuperOffice.CRM.Lists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Lists
+    name: Lists
+    isExternal: true
+    href: SuperOffice.CRM.Lists.html
+- uid: SuperOffice.CRM.Lists.ISoList
+  commentId: T:SuperOffice.CRM.Lists.ISoList
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  href: SuperOffice.CRM.Lists.ISoList.html
+  name: ISoList
+  nameWithType: ISoList
+  fullName: SuperOffice.CRM.Lists.ISoList
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ISelectableListItem>
+  nameWithType: List<ISelectableListItem>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISelectableListItem>
+  nameWithType.vb: List(Of ISelectableListItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISelectableListItem)
+  name.vb: List(Of ISelectableListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.Lists.ISelectableListItem
+    name: ISelectableListItem
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.ISelectableListItem
+    name: ISelectableListItem
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ISoListItem>
+  nameWithType: List<ISoListItem>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>
+  nameWithType.vb: List(Of ISoListItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem)
+  name.vb: List(Of ISoListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListItem.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListItem.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.IInterestHelper.ConstructAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.IInterestHelper.ConstructAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IInterestHelper.html#SuperOffice_CRM_Entities_IInterestHelper_ConstructAsync_System_Threading_CancellationToken_
+  name: ConstructAsync
+  nameWithType: IInterestHelper.ConstructAsync
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.ConstructAsync
+- uid: SuperOffice.CRM.Entities.IInterestHelper.HistoryInfo*
+  commentId: Overload:SuperOffice.CRM.Entities.IInterestHelper.HistoryInfo
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IInterestHelper.html#SuperOffice_CRM_Entities_IInterestHelper_HistoryInfo
+  name: HistoryInfo
+  nameWithType: IInterestHelper.HistoryInfo
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.HistoryInfo
+- uid: SuperOffice.CRM.Lists.HistoryInfo
+  commentId: T:SuperOffice.CRM.Lists.HistoryInfo
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  href: SuperOffice.CRM.Lists.HistoryInfo.html
+  name: HistoryInfo
+  nameWithType: HistoryInfo
+  fullName: SuperOffice.CRM.Lists.HistoryInfo
+- uid: SuperOffice.CRM.Entities.IInterestHelper.SelectedHeadingItems*
+  commentId: Overload:SuperOffice.CRM.Entities.IInterestHelper.SelectedHeadingItems
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IInterestHelper.html#SuperOffice_CRM_Entities_IInterestHelper_SelectedHeadingItems
+  name: SelectedHeadingItems
+  nameWithType: IInterestHelper.SelectedHeadingItems
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.SelectedHeadingItems
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ISoListHeading>
+  nameWithType: List<ISoListHeading>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListHeading>
+  nameWithType.vb: List(Of ISoListHeading)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListHeading)
+  name.vb: List(Of ISoListHeading)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.Lists.ISoListHeading
+    name: ISoListHeading
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListHeading.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.ISoListHeading
+    name: ISoListHeading
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListHeading.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.IInterestHelper.SelectedRootItems*
+  commentId: Overload:SuperOffice.CRM.Entities.IInterestHelper.SelectedRootItems
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IInterestHelper.html#SuperOffice_CRM_Entities_IInterestHelper_SelectedRootItems
+  name: SelectedRootItems
+  nameWithType: IInterestHelper.SelectedRootItems
+  fullName: SuperOffice.CRM.Entities.IInterestHelper.SelectedRootItems
+- uid: SuperOffice.CRM.Entities.ActiveInterestsChanged
+  commentId: T:SuperOffice.CRM.Entities.ActiveInterestsChanged
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.CRM.Entities.ActiveInterestsChanged.html
+  name: ActiveInterestsChanged
+  nameWithType: ActiveInterestsChanged
+  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged

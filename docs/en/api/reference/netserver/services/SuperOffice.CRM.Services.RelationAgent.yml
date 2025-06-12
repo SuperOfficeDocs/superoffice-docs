@@ -5,11 +5,12 @@ items:
   id: RelationAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.RelationAgent.#ctor
-  - SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntity
-  - SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation(System.Int32)
-  - SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity(System.Int32)
-  - SuperOffice.CRM.Services.RelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
+  - SuperOffice.CRM.Services.RelationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.RelationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.RelationAgent.DeleteContactRelationAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.RelationAgent.SaveContactRelationAsync(SuperOffice.CRM.Services.ContactRelationEntity,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -17,255 +18,274 @@ items:
   nameWithType: RelationAgent
   fullName: SuperOffice.CRM.Services.RelationAgent
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nFacade for the Relation Agent\nContact/Person relations\n"
-  example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (RelationAgent agent = new RelationAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  summary: >-
+    Proxy class for the Relation Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
   syntax:
-    content: 'public class RelationAgent : AgentBase<IRelationAgent>, IDisposable, IRelationAgent, IAgent'
-    content.vb: >-
-      Public Class RelationAgent
-          Inherits AgentBase(Of IRelationAgent)
-          Implements IDisposable, IRelationAgent, IAgent
+    content: 'public class RelationAgent : IRelationAgent, IAgent'
+    content.vb: Public Class RelationAgent Implements IRelationAgent, IAgent
   inheritance:
   - System.Object
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}
   implements:
-  - System.IDisposable
   - SuperOffice.CRM.Services.IRelationAgent
   - SuperOffice.CRM.Services.IAgent
   inheritedMembers:
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}.Dispose
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}.InnerAgent
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntity
-  commentId: M:SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntity
-  id: CreateDefaultContactRelationEntity
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.RelationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.RelationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.RelationAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultContactRelationEntity()
-  nameWithType: RelationAgent.CreateDefaultContactRelationEntity()
-  fullName: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntity()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
+  name: RelationAgent(IContactRelationEntityImplementation, ISoRequestItemsAccessor)
+  nameWithType: RelationAgent.RelationAgent(IContactRelationEntityImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.RelationAgent.RelationAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new ContactRelationEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
-    content: public ContactRelationEntity CreateDefaultContactRelationEntity()
+    content: public RelationAgent(IContactRelationEntityImplementation contactRelationEntityImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: contactRelationEntityImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(contactRelationEntityImplementation As IContactRelationEntityImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.RelationAgent.#ctor*
+  nameWithType.vb: RelationAgent.New(IContactRelationEntityImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.RelationAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IContactRelationEntityImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.RelationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.RelationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  parent: SuperOffice.CRM.Services.RelationAgent
+  langs:
+  - csharp
+  - vb
+  name: RelationAgent(IContactRelationEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: RelationAgent.RelationAgent(IContactRelationEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.RelationAgent.RelationAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public RelationAgent(IContactRelationEntityImplementation contactRelationEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: contactRelationEntityImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(contactRelationEntityImplementation As IContactRelationEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.RelationAgent.#ctor*
+  nameWithType.vb: RelationAgent.New(IContactRelationEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.RelationAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IContactRelationEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.RelationAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultContactRelationEntityAsync(CancellationToken)
+  nameWithType: RelationAgent.CreateDefaultContactRelationEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Loading default values into a new ContactRelationEntity.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
+  syntax:
+    content: public Task<ContactRelationEntity> CreateDefaultContactRelationEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ContactRelationEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactRelationEntity}
       description: New ContactRelationEntity with default values
-    content.vb: Public Function CreateDefaultContactRelationEntity As ContactRelationEntity
-  overload: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntity*
+    content.vb: Public Function CreateDefaultContactRelationEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ContactRelationEntity)
+  overload: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntityAsync*
   implements:
-  - SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity(System.Int32)
-  id: GetContactRelationEntity(System.Int32)
+  - SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetContactRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.RelationAgent
   langs:
   - csharp
   - vb
-  name: GetContactRelationEntity(Int32)
-  nameWithType: RelationAgent.GetContactRelationEntity(Int32)
-  fullName: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity(System.Int32)
+  name: GetContactRelationEntityAsync(int, CancellationToken)
+  nameWithType: RelationAgent.GetContactRelationEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntityAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a ContactRelationEntity object.                        \n"
+  summary: Gets a ContactRelationEntity object.
+  example: []
   syntax:
-    content: public ContactRelationEntity GetContactRelationEntity(int contactRelationEntityId)
+    content: public Task<ContactRelationEntity> GetContactRelationEntityAsync(int contactRelationEntityId, CancellationToken cancellationToken = default)
     parameters:
     - id: contactRelationEntityId
       type: System.Int32
       description: The identifier of the ContactRelationEntity object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ContactRelationEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactRelationEntity}
       description: ContactRelationEntity
-    content.vb: Public Function GetContactRelationEntity(contactRelationEntityId As Integer) As ContactRelationEntity
-  overload: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity*
+    content.vb: Public Function GetContactRelationEntityAsync(contactRelationEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ContactRelationEntity)
+  overload: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntityAsync*
   implements:
-  - SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.RelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
-  commentId: M:SuperOffice.CRM.Services.RelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
-  id: SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
+  - SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: RelationAgent.GetContactRelationEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetContactRelationEntityAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.RelationAgent.SaveContactRelationAsync(SuperOffice.CRM.Services.ContactRelationEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.RelationAgent.SaveContactRelationAsync(SuperOffice.CRM.Services.ContactRelationEntity,System.Threading.CancellationToken)
+  id: SaveContactRelationAsync(SuperOffice.CRM.Services.ContactRelationEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.RelationAgent
   langs:
   - csharp
   - vb
-  name: SaveContactRelation(ContactRelationEntity)
-  nameWithType: RelationAgent.SaveContactRelation(ContactRelationEntity)
-  fullName: SuperOffice.CRM.Services.RelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
+  name: SaveContactRelationAsync(ContactRelationEntity, CancellationToken)
+  nameWithType: RelationAgent.SaveContactRelationAsync(ContactRelationEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.RelationAgent.SaveContactRelationAsync(SuperOffice.CRM.Services.ContactRelationEntity, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nCreates a new or updates an existing contact relation.\n"
+  summary: Creates a new or updates an existing contact relation.
+  example: []
   syntax:
-    content: public ContactRelationEntity SaveContactRelation(ContactRelationEntity contactRelationEntity)
+    content: public Task<ContactRelationEntity> SaveContactRelationAsync(ContactRelationEntity contactRelationEntity, CancellationToken cancellationToken = default)
     parameters:
     - id: contactRelationEntity
       type: SuperOffice.CRM.Services.ContactRelationEntity
       description: Relation to save
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.ContactRelationEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactRelationEntity}
       description: Saved relation
-    content.vb: Public Function SaveContactRelation(contactRelationEntity As ContactRelationEntity) As ContactRelationEntity
-  overload: SuperOffice.CRM.Services.RelationAgent.SaveContactRelation*
+    content.vb: Public Function SaveContactRelationAsync(contactRelationEntity As ContactRelationEntity, cancellationToken As CancellationToken = Nothing) As Task(Of ContactRelationEntity)
+  overload: SuperOffice.CRM.Services.RelationAgent.SaveContactRelationAsync*
   implements:
-  - SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation(System.Int32)
-  id: DeleteContactRelation(System.Int32)
+  - SuperOffice.CRM.Services.IRelationAgent.SaveContactRelationAsync(SuperOffice.CRM.Services.ContactRelationEntity,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelationAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.RelationAgent.DeleteContactRelationAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteContactRelationAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.RelationAgent
   langs:
   - csharp
   - vb
-  name: DeleteContactRelation(Int32)
-  nameWithType: RelationAgent.DeleteContactRelation(Int32)
-  fullName: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation(System.Int32)
+  name: DeleteContactRelationAsync(int, CancellationToken)
+  nameWithType: RelationAgent.DeleteContactRelationAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelationAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the spesified contact relation.\n"
+  summary: Deletes the spesified contact relation.
+  example: []
   syntax:
-    content: public void DeleteContactRelation(int contactRelationEntityId)
+    content: public Task DeleteContactRelationAsync(int contactRelationEntityId, CancellationToken cancellationToken = default)
     parameters:
     - id: contactRelationEntityId
       type: System.Int32
       description: Relation to delete
-    content.vb: Public Sub DeleteContactRelation(contactRelationEntityId As Integer)
-  overload: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function DeleteContactRelationAsync(contactRelationEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelationAsync*
   implements:
-  - SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.RelationAgent.#ctor
-  commentId: M:SuperOffice.CRM.Services.RelationAgent.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Services.RelationAgent
-  langs:
-  - csharp
-  - vb
-  name: RelationAgent()
-  nameWithType: RelationAgent.RelationAgent()
-  fullName: SuperOffice.CRM.Services.RelationAgent.RelationAgent()
-  type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  syntax:
-    content: public RelationAgent()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Services.RelationAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelationAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: RelationAgent.DeleteContactRelationAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelationAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteContactRelationAsync(Integer, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}
-  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}
-  parent: SuperOffice.CRM.Services
-  definition: SuperOffice.CRM.Services.AgentBase`1
-  name: AgentBase<IRelationAgent>
-  nameWithType: AgentBase<IRelationAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IRelationAgent>
-  nameWithType.vb: AgentBase(Of IRelationAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IRelationAgent)
-  name.vb: AgentBase(Of IRelationAgent)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Services.IRelationAgent
-    name: IRelationAgent
-    nameWithType: IRelationAgent
-    fullName: SuperOffice.CRM.Services.IRelationAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Services.IRelationAgent
-    name: IRelationAgent
-    nameWithType: IRelationAgent
-    fullName: SuperOffice.CRM.Services.IRelationAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IDisposable
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.IRelationAgent
   commentId: T:SuperOffice.CRM.Services.IRelationAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IRelationAgent.html
   name: IRelationAgent
   nameWithType: IRelationAgent
   fullName: SuperOffice.CRM.Services.IRelationAgent
@@ -273,331 +293,675 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}.Dispose
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  name: Dispose()
-  nameWithType: AgentBase<IRelationAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IRelationAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of IRelationAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IRelationAgent).Dispose()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<IRelationAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IRelationAgent>.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of IRelationAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IRelationAgent).Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}.InnerAgent
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  name: InnerAgent
-  nameWithType: AgentBase<IRelationAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IRelationAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of IRelationAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IRelationAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.AgentBase`1
-  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: AgentBase<TAgent>
-  nameWithType: AgentBase<TAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
-  nameWithType.vb: AgentBase(Of TAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
-  name.vb: AgentBase(Of TAgent)
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.RelationAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.RelationAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.RelationAgent.html#SuperOffice_CRM_Services_RelationAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IContactRelationEntityImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: RelationAgent
+  nameWithType: RelationAgent.RelationAgent
+  fullName: SuperOffice.CRM.Services.RelationAgent.RelationAgent
+  nameWithType.vb: RelationAgent.New
+  fullName.vb: SuperOffice.CRM.Services.RelationAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation.html
+  name: IContactRelationEntityImplementation
+  nameWithType: IContactRelationEntityImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.RelationAgent.html#SuperOffice_CRM_Services_RelationAgent_CreateDefaultContactRelationEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultContactRelationEntityAsync
+  nameWithType: RelationAgent.CreateDefaultContactRelationEntityAsync
+  fullName: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntityAsync
+- uid: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IRelationAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultContactRelationEntityAsync(CancellationToken)
+  nameWithType: IRelationAgent.CreateDefaultContactRelationEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultContactRelationEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultContactRelationEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactRelationEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactRelationEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ContactRelationEntity>
+  nameWithType: Task<ContactRelationEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ContactRelationEntity>
+  nameWithType.vb: Task(Of ContactRelationEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ContactRelationEntity)
+  name.vb: Task(Of ContactRelationEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+  - uid: SuperOffice.CRM.Services.ContactRelationEntity
+    name: ContactRelationEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ContactRelationEntity.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ContactRelationEntity
+    name: ContactRelationEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ContactRelationEntity.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: Dispose()
-  nameWithType: AgentBase<TAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of TAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<TAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+  - uid: System
+    name: System
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of TAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+  - uid: System
+    name: System
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
   isExternal: true
-  name: InnerAgent
-  nameWithType: AgentBase<TAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntity*
-  commentId: Overload:SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntity
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntityAsync
   isExternal: true
-  name: CreateDefaultContactRelationEntity
-  nameWithType: RelationAgent.CreateDefaultContactRelationEntity
-  fullName: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntity
-- uid: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
-  commentId: M:SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
+  href: SuperOffice.CRM.Services.RelationAgent.html#SuperOffice_CRM_Services_RelationAgent_GetContactRelationEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetContactRelationEntityAsync
+  nameWithType: RelationAgent.GetContactRelationEntityAsync
+  fullName: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntityAsync
+- uid: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IRelationAgent
   isExternal: true
-  name: CreateDefaultContactRelationEntity()
-  nameWithType: IRelationAgent.CreateDefaultContactRelationEntity()
-  fullName: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetContactRelationEntityAsync(int, CancellationToken)
+  nameWithType: IRelationAgent.GetContactRelationEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IRelationAgent.GetContactRelationEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetContactRelationEntityAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
-    name: CreateDefaultContactRelationEntity
-    nameWithType: IRelationAgent.CreateDefaultContactRelationEntity
-    fullName: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
+  - uid: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetContactRelationEntityAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
-    name: CreateDefaultContactRelationEntity
-    nameWithType: IRelationAgent.CreateDefaultContactRelationEntity
-    fullName: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.ContactRelationEntity
-  commentId: T:SuperOffice.CRM.Services.ContactRelationEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ContactRelationEntity
-  nameWithType: ContactRelationEntity
-  fullName: SuperOffice.CRM.Services.ContactRelationEntity
-- uid: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity*
-  commentId: Overload:SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity
-  isExternal: true
-  name: GetContactRelationEntity
-  nameWithType: RelationAgent.GetContactRelationEntity
-  fullName: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity
-- uid: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
-  parent: SuperOffice.CRM.Services.IRelationAgent
-  isExternal: true
-  name: GetContactRelationEntity(Int32)
-  nameWithType: IRelationAgent.GetContactRelationEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
-    name: GetContactRelationEntity
-    nameWithType: IRelationAgent.GetContactRelationEntity
-    fullName: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
-    name: GetContactRelationEntity
-    nameWithType: IRelationAgent.GetContactRelationEntity
-    fullName: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity
+  - uid: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetContactRelationEntityAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System
-  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.RelationAgent.SaveContactRelationAsync*
+  commentId: Overload:SuperOffice.CRM.Services.RelationAgent.SaveContactRelationAsync
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.RelationAgent.SaveContactRelation*
-  commentId: Overload:SuperOffice.CRM.Services.RelationAgent.SaveContactRelation
-  isExternal: true
-  name: SaveContactRelation
-  nameWithType: RelationAgent.SaveContactRelation
-  fullName: SuperOffice.CRM.Services.RelationAgent.SaveContactRelation
-- uid: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
-  commentId: M:SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
+  href: SuperOffice.CRM.Services.RelationAgent.html#SuperOffice_CRM_Services_RelationAgent_SaveContactRelationAsync_SuperOffice_CRM_Services_ContactRelationEntity_System_Threading_CancellationToken_
+  name: SaveContactRelationAsync
+  nameWithType: RelationAgent.SaveContactRelationAsync
+  fullName: SuperOffice.CRM.Services.RelationAgent.SaveContactRelationAsync
+- uid: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelationAsync(SuperOffice.CRM.Services.ContactRelationEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IRelationAgent.SaveContactRelationAsync(SuperOffice.CRM.Services.ContactRelationEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IRelationAgent
   isExternal: true
-  name: SaveContactRelation(ContactRelationEntity)
-  nameWithType: IRelationAgent.SaveContactRelation(ContactRelationEntity)
-  fullName: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SaveContactRelationAsync(ContactRelationEntity, CancellationToken)
+  nameWithType: IRelationAgent.SaveContactRelationAsync(ContactRelationEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelationAsync(SuperOffice.CRM.Services.ContactRelationEntity, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
-    name: SaveContactRelation
-    nameWithType: IRelationAgent.SaveContactRelation
-    fullName: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation
+  - uid: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelationAsync(SuperOffice.CRM.Services.ContactRelationEntity,System.Threading.CancellationToken)
+    name: SaveContactRelationAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.ContactRelationEntity
     name: ContactRelationEntity
-    nameWithType: ContactRelationEntity
-    fullName: SuperOffice.CRM.Services.ContactRelationEntity
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
-    name: SaveContactRelation
-    nameWithType: IRelationAgent.SaveContactRelation
-    fullName: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation
+  - uid: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelationAsync(SuperOffice.CRM.Services.ContactRelationEntity,System.Threading.CancellationToken)
+    name: SaveContactRelationAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.ContactRelationEntity
     name: ContactRelationEntity
-    nameWithType: ContactRelationEntity
-    fullName: SuperOffice.CRM.Services.ContactRelationEntity
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation*
-  commentId: Overload:SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation
+- uid: SuperOffice.CRM.Services.ContactRelationEntity
+  commentId: T:SuperOffice.CRM.Services.ContactRelationEntity
+  parent: SuperOffice.CRM.Services
   isExternal: true
-  name: DeleteContactRelation
-  nameWithType: RelationAgent.DeleteContactRelation
-  fullName: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation
-- uid: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(System.Int32)
+  href: SuperOffice.CRM.Services.ContactRelationEntity.html
+  name: ContactRelationEntity
+  nameWithType: ContactRelationEntity
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity
+- uid: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelationAsync*
+  commentId: Overload:SuperOffice.CRM.Services.RelationAgent.DeleteContactRelationAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.RelationAgent.html#SuperOffice_CRM_Services_RelationAgent_DeleteContactRelationAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteContactRelationAsync
+  nameWithType: RelationAgent.DeleteContactRelationAsync
+  fullName: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelationAsync
+- uid: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelationAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelationAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IRelationAgent
   isExternal: true
-  name: DeleteContactRelation(Int32)
-  nameWithType: IRelationAgent.DeleteContactRelation(Int32)
-  fullName: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DeleteContactRelationAsync(int, CancellationToken)
+  nameWithType: IRelationAgent.DeleteContactRelationAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelationAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IRelationAgent.DeleteContactRelationAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelationAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteContactRelationAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(System.Int32)
-    name: DeleteContactRelation
-    nameWithType: IRelationAgent.DeleteContactRelation
-    fullName: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation
+  - uid: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelationAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteContactRelationAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(System.Int32)
-    name: DeleteContactRelation
-    nameWithType: IRelationAgent.DeleteContactRelation
-    fullName: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation
+  - uid: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelationAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteContactRelationAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.RelationAgent.#ctor*
-  commentId: Overload:SuperOffice.CRM.Services.RelationAgent.#ctor
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: RelationAgent
-  nameWithType: RelationAgent.RelationAgent
-  fullName: SuperOffice.CRM.Services.RelationAgent.RelationAgent
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task

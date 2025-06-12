@@ -33,33 +33,41 @@ items:
   nameWithType: FormRecordData
   fullName: SuperOffice.CRM.Rows.FormRecordData
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the form table.\n"
-  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.FormRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.FormTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  summary: >-
+    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
+
+    to a row from the form table.
+  remarks: >-
+    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.FormRow" data-throw-if-not-resolved="false"></xref> object when
+
+    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
+
+    since they carry the corresponding <xref href="SuperOffice.CRM.Data.FormTableInfo" data-throw-if-not-resolved="false"></xref> object, which
+
+    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
+  example: []
   syntax:
-    content: 'public class FormRecordData : Object'
-    content.vb: >-
-      Public Class FormRecordData
-          Inherits Object
+    content: public class FormRecordData
+    content.vb: Public Class FormRecordData
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.FormRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.FormRecordData.SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.FormRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.FormRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FormRecordData)
   - SuperOffice.CRM.Rows.FormRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.FormRecordData.SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.FormRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Rows.FormRecordData.FormId
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.FormId
   id: FormId
@@ -71,22 +79,16 @@ items:
   nameWithType: FormRecordData.FormId
   fullName: SuperOffice.CRM.Rows.FormRecordData.FormId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
     content: public int FormId
     return:
       type: System.Int32
     content.vb: Public FormId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.Name
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.Name
   id: Name
@@ -98,22 +100,16 @@ items:
   nameWithType: FormRecordData.Name
   fullName: SuperOffice.CRM.Rows.FormRecordData.Name
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe name of this form \n"
+  summary: The name of this form
+  example: []
   syntax:
     content: public string Name
     return:
       type: System.String
     content.vb: Public Name As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.Description
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.Description
   id: Description
@@ -125,22 +121,16 @@ items:
   nameWithType: FormRecordData.Description
   fullName: SuperOffice.CRM.Rows.FormRecordData.Description
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nDetailed description \n"
+  summary: Detailed description
+  example: []
   syntax:
     content: public string Description
     return:
       type: System.String
     content.vb: Public Description As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.Config
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.Config
   id: Config
@@ -152,22 +142,16 @@ items:
   nameWithType: FormRecordData.Config
   fullName: SuperOffice.CRM.Rows.FormRecordData.Config
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe JSON-formatted config of this form \n"
+  summary: The JSON-formatted config of this form
+  example: []
   syntax:
     content: public string Config
     return:
       type: System.String
     content.vb: Public Config As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.FolderId
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.FolderId
   id: FolderId
@@ -179,22 +163,16 @@ items:
   nameWithType: FormRecordData.FolderId
   fullName: SuperOffice.CRM.Rows.FormRecordData.FolderId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe folder which this form belongs to. -1 indicates that the shipment is on the root \n"
+  summary: The folder which this form belongs to. -1 indicates that the shipment is on the root
+  example: []
   syntax:
     content: public int FolderId
     return:
       type: System.Int32
     content.vb: Public FolderId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.ScriptId
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.ScriptId
   id: ScriptId
@@ -206,22 +184,16 @@ items:
   nameWithType: FormRecordData.ScriptId
   fullName: SuperOffice.CRM.Rows.FormRecordData.ScriptId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe CRMScript Macro which will be run when the form is submitted. \n"
+  summary: The CRMScript Macro which will be run when the form is submitted.
+  example: []
   syntax:
     content: public int ScriptId
     return:
       type: System.Int32
     content.vb: Public ScriptId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.ResponseShipmentId
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.ResponseShipmentId
   id: ResponseShipmentId
@@ -233,22 +205,16 @@ items:
   nameWithType: FormRecordData.ResponseShipmentId
   fullName: SuperOffice.CRM.Rows.FormRecordData.ResponseShipmentId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe id of the s_shipment that is used to send the response mails \n"
+  summary: The id of the s_shipment that is used to send the response mails
+  example: []
   syntax:
     content: public int ResponseShipmentId
     return:
       type: System.Int32
     content.vb: Public ResponseShipmentId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.Registered
   id: Registered
@@ -260,22 +226,16 @@ items:
   nameWithType: FormRecordData.Registered
   fullName: SuperOffice.CRM.Rows.FormRecordData.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nRegistered when in UTC.  \n"
+  summary: Registered when in UTC.
+  example: []
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Registered As Date
 - uid: SuperOffice.CRM.Rows.FormRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -287,22 +247,16 @@ items:
   nameWithType: FormRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.FormRecordData.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nRegistered by whom \n"
+  summary: Registered by whom
+  example: []
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.Updated
   id: Updated
@@ -314,22 +268,16 @@ items:
   nameWithType: FormRecordData.Updated
   fullName: SuperOffice.CRM.Rows.FormRecordData.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLast updated when in UTC.  \n"
+  summary: Last updated when in UTC.
+  example: []
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Updated As Date
 - uid: SuperOffice.CRM.Rows.FormRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -341,22 +289,16 @@ items:
   nameWithType: FormRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.FormRecordData.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nLast updated by whom \n"
+  summary: Last updated by whom
+  example: []
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.UpdatedCount
   id: UpdatedCount
@@ -368,22 +310,16 @@ items:
   nameWithType: FormRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.FormRecordData.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nNumber of updates made to this record \n"
+  summary: Number of updates made to this record
+  example: []
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.Active
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.Active
   id: Active
@@ -395,22 +331,16 @@ items:
   nameWithType: FormRecordData.Active
   fullName: SuperOffice.CRM.Rows.FormRecordData.Active
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nIndicates if this form is active and available for customers \n"
+  summary: Indicates if this form is active and available for customers
+  example: []
   syntax:
     content: public short Active
     return:
       type: System.Int16
     content.vb: Public Active As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.Expires
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.Expires
   id: Expires
@@ -422,22 +352,16 @@ items:
   nameWithType: FormRecordData.Expires
   fullName: SuperOffice.CRM.Rows.FormRecordData.Expires
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nAfter this datetime, the form will become inactive \n"
+  summary: After this datetime, the form will become inactive
+  example: []
   syntax:
     content: public DateTime Expires
     return:
       type: System.DateTime
-    content.vb: Public Expires As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Expires As Date
 - uid: SuperOffice.CRM.Rows.FormRecordData.MaxSubmits
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.MaxSubmits
   id: MaxSubmits
@@ -449,22 +373,16 @@ items:
   nameWithType: FormRecordData.MaxSubmits
   fullName: SuperOffice.CRM.Rows.FormRecordData.MaxSubmits
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nAfter this number of submits, the form will become inactive \n"
+  summary: After this number of submits, the form will become inactive
+  example: []
   syntax:
     content: public int MaxSubmits
     return:
       type: System.Int32
     content.vb: Public MaxSubmits As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.Type
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.Type
   id: Type
@@ -476,22 +394,16 @@ items:
   nameWithType: FormRecordData.Type
   fullName: SuperOffice.CRM.Rows.FormRecordData.Type
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nWhat kind of form is this? Indicates if this is a normal form or a template \n"
+  summary: What kind of form is this? Indicates if this is a normal form or a template
+  example: []
   syntax:
     content: public FormType Type
     return:
       type: SuperOffice.Data.FormType
     content.vb: Public Type As FormType
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.Recipe
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.Recipe
   id: Recipe
@@ -503,22 +415,16 @@ items:
   nameWithType: FormRecordData.Recipe
   fullName: SuperOffice.CRM.Rows.FormRecordData.Recipe
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe JSON-formatted recipe of this form \n"
+  summary: The JSON-formatted recipe of this form
+  example: []
   syntax:
     content: public string Recipe
     return:
       type: System.String
     content.vb: Public Recipe As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.GroupId
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.GroupId
   id: GroupId
@@ -530,22 +436,16 @@ items:
   nameWithType: FormRecordData.GroupId
   fullName: SuperOffice.CRM.Rows.FormRecordData.GroupId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe group which this form belongs to. \n"
+  summary: The group which this form belongs to.
+  example: []
   syntax:
     content: public int GroupId
     return:
       type: System.Int32
     content.vb: Public GroupId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.FormKey
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.FormKey
   id: FormKey
@@ -557,22 +457,16 @@ items:
   nameWithType: FormRecordData.FormKey
   fullName: SuperOffice.CRM.Rows.FormRecordData.FormKey
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nA short string used as unique id to access this form \n"
+  summary: A short string used as unique id to access this form
+  example: []
   syntax:
     content: public string FormKey
     return:
       type: System.String
     content.vb: Public FormKey As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.NewTicket
   commentId: F:SuperOffice.CRM.Rows.FormRecordData.NewTicket
   id: NewTicket
@@ -584,22 +478,16 @@ items:
   nameWithType: FormRecordData.NewTicket
   fullName: SuperOffice.CRM.Rows.FormRecordData.NewTicket
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nTrue if this form creates a new ticket \n"
+  summary: True if this form creates a new ticket
+  example: []
   syntax:
     content: public short NewTicket
     return:
       type: System.Int16
     content.vb: Public NewTicket As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.FormRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.FormRecordData.#ctor
   id: '#ctor'
@@ -611,220 +499,602 @@ items:
   nameWithType: FormRecordData.FormRecordData()
   fullName: SuperOffice.CRM.Rows.FormRecordData.FormRecordData()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public FormRecordData()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Rows.FormRecordData.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: FormRecordData.New()
+  fullName.vb: SuperOffice.CRM.Rows.FormRecordData.New()
+  name.vb: New()
 references:
+- uid: SuperOffice.CRM.Rows.FormRow
+  commentId: T:SuperOffice.CRM.Rows.FormRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.FormRow.html
+  name: FormRow
+  nameWithType: FormRow
+  fullName: SuperOffice.CRM.Rows.FormRow
+- uid: SuperOffice.CRM.Data.FormTableInfo
+  commentId: T:SuperOffice.CRM.Data.FormTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormTableInfo.html
+  name: FormTableInfo
+  nameWithType: FormTableInfo
+  fullName: SuperOffice.CRM.Data.FormTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Rows.FormRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<FormRecordData, To>()
-  nameWithType: EnumUtil.MapEnums<FormRecordData, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.FormRecordData, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of FormRecordData, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.FormRecordData, To)()
-  name.vb: MapEnums(Of FormRecordData, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<FormRecordData, To>(FormRecordData)
+  nameWithType: EnumUtil.MapEnums<FormRecordData, To>(FormRecordData)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.FormRecordData, To>(SuperOffice.CRM.Rows.FormRecordData)
+  nameWithType.vb: EnumUtil.MapEnums(Of FormRecordData, To)(FormRecordData)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.FormRecordData, To)(SuperOffice.CRM.Rows.FormRecordData)
+  name.vb: MapEnums(Of FormRecordData, To)(FormRecordData)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<FormRecordData, To>
-    nameWithType: EnumUtil.MapEnums<FormRecordData, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.FormRecordData, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.FormRecordData)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of FormRecordData, To)
-    nameWithType: EnumUtil.MapEnums(Of FormRecordData, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.FormRecordData, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.FormRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FormRecordData)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<FormRecordData>(FormRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<FormRecordData>(FormRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.FormRecordData>(SuperOffice.CRM.Rows.FormRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FormRecordData)(FormRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.FormRecordData)(SuperOffice.CRM.Rows.FormRecordData)
-  name.vb: AssignByReflection(Of FormRecordData)(FormRecordData)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<FormRecordData>
-    nameWithType: ObjectExtensions.AssignByReflection<FormRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.FormRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Rows.FormRecordData
     name: FormRecordData
-    nameWithType: FormRecordData
-    fullName: SuperOffice.CRM.Rows.FormRecordData
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of FormRecordData)
-    nameWithType: ObjectExtensions.AssignByReflection(Of FormRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.FormRecordData)
-    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.FormRecordData
     name: FormRecordData
-    nameWithType: FormRecordData
-    fullName: SuperOffice.CRM.Rows.FormRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.FormRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<FormRecordData>()
-  nameWithType: ObjectExtensions.GraphCopy<FormRecordData>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.FormRecordData>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of FormRecordData)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.FormRecordData)()
-  name.vb: GraphCopy(Of FormRecordData)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<FormRecordData>
-    nameWithType: ObjectExtensions.GraphCopy<FormRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.FormRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of FormRecordData)
-    nameWithType: ObjectExtensions.GraphCopy(Of FormRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.FormRecordData)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.FormRecordData)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.FormRecordData.SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FormRecordData)
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.FormRecordData.SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.FormRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FormRecordData)
-  name: ToInsert()
-  nameWithType: FormRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormRecordData,System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Rows.FormRecordDataExtensions.html#SuperOffice_CRM_Rows_FormRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_FormRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(FormRecordData, CancellationToken)
+  nameWithType: FormRecordDataExtensions.ToInsertAsync(FormRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: FormRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordDataExtensions.html#SuperOffice_CRM_Rows_FormRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_FormRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: FormRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordDataExtensions.html#SuperOffice_CRM_Rows_FormRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_FormRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.FormRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<FormRecordData, To>()
-  nameWithType: Converters.MapEnums<FormRecordData, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.FormRecordData, To>()
-  nameWithType.vb: Converters.MapEnums(Of FormRecordData, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.FormRecordData, To)()
-  name.vb: MapEnums(Of FormRecordData, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<FormRecordData, To>(FormRecordData)
+  nameWithType: Converters.MapEnums<FormRecordData, To>(FormRecordData)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.FormRecordData, To>(SuperOffice.CRM.Rows.FormRecordData)
+  nameWithType.vb: Converters.MapEnums(Of FormRecordData, To)(FormRecordData)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.FormRecordData, To)(SuperOffice.CRM.Rows.FormRecordData)
+  name.vb: MapEnums(Of FormRecordData, To)(FormRecordData)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<FormRecordData, To>
-    nameWithType: Converters.MapEnums<FormRecordData, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.FormRecordData, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.FormRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of FormRecordData, To)
-    nameWithType: Converters.MapEnums(Of FormRecordData, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.FormRecordData, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.FormRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.FormRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FormRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<FormRecordData>(FormRecordData, FormRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<FormRecordData>(FormRecordData, FormRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.FormRecordData>(SuperOffice.CRM.Rows.FormRecordData, SuperOffice.CRM.Rows.FormRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FormRecordData)(FormRecordData, FormRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.FormRecordData)(SuperOffice.CRM.Rows.FormRecordData, SuperOffice.CRM.Rows.FormRecordData)
+  name.vb: AssignByReflection(Of FormRecordData)(FormRecordData, FormRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FormRecordData,SuperOffice.CRM.Rows.FormRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FormRecordData,SuperOffice.CRM.Rows.FormRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.FormRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<FormRecordData>(FormRecordData)
+  nameWithType: ObjectExtensions.GraphCopy<FormRecordData>(FormRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.FormRecordData>(SuperOffice.CRM.Rows.FormRecordData)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FormRecordData)(FormRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.FormRecordData)(SuperOffice.CRM.Rows.FormRecordData)
+  name.vb: GraphCopy(Of FormRecordData)(FormRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.FormRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.FormRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormRecordData
+    name: FormRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -833,187 +1103,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+- uid: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
+  href: SuperOffice.CRM.Rows.FormRecordDataExtensions.html#SuperOffice_CRM_Rows_FormRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_FormRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(FormRecordData, CancellationToken)
+  nameWithType: FormRecordDataExtensions.ToInsertAsync(FormRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+  - uid: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordDataExtensions.html#SuperOffice_CRM_Rows_FormRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_FormRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FormRecordData)
-  commentId: M:SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FormRecordData)
-  isExternal: true
-  name: ToInsert(FormRecordData)
-  nameWithType: FormRecordDataExtensions.ToInsert(FormRecordData)
-  fullName: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FormRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FormRecordData)
-    name: ToInsert
-    nameWithType: FormRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsert
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.FormRecordData
     name: FormRecordData
-    nameWithType: FormRecordData
-    fullName: SuperOffice.CRM.Rows.FormRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FormRecordData)
-    name: ToInsert
-    nameWithType: FormRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.FormRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordDataExtensions.html#SuperOffice_CRM_Rows_FormRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_FormRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.FormRecordData
     name: FormRecordData
-    nameWithType: FormRecordData
-    fullName: SuperOffice.CRM.Rows.FormRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.FormRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.FormRecordDataExtensions
   commentId: T:SuperOffice.CRM.Rows.FormRecordDataExtensions
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.FormRecordDataExtensions.html
   name: FormRecordDataExtensions
   nameWithType: FormRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.FormRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1022,95 +1199,274 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.Data.FormType
   commentId: T:SuperOffice.Data.FormType
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.FormType.html
   name: FormType
   nameWithType: FormType
   fullName: SuperOffice.Data.FormType
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Rows.FormRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.FormRecordData.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Rows.FormRecordData.html#SuperOffice_CRM_Rows_FormRecordData__ctor
   name: FormRecordData
   nameWithType: FormRecordData.FormRecordData
   fullName: SuperOffice.CRM.Rows.FormRecordData.FormRecordData
+  nameWithType.vb: FormRecordData.New
+  fullName.vb: SuperOffice.CRM.Rows.FormRecordData.New
+  name.vb: New

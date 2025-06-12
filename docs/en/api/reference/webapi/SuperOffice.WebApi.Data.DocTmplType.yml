@@ -15,64 +15,24 @@ items:
   - SuperOffice.WebApi.Data.DocTmplType.SavedReport
   - SuperOffice.WebApi.Data.DocTmplType.Todo
   - SuperOffice.WebApi.Data.DocTmplType.Unknown
-  - SuperOffice.WebApi.Data.DocTmplType.value__
   langs:
   - csharp
   - vb
   name: DocTmplType
   nameWithType: DocTmplType
   fullName: SuperOffice.WebApi.Data.DocTmplType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nValue for field &apos;record_type&apos; in table &apos;doctmpl&apos;.\nThis Enum is used by:  DocTmpl.record_type\n"
-  syntax:
-    content: 'public sealed class DocTmplType : Enum'
-    content.vb: >-
-      Public NotInheritable Class DocTmplType
-          Inherits
+  summary: >-
+    Value for field 'record_type' in table 'doctmpl'.
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.DocTmplType.value__
-  commentId: F:SuperOffice.WebApi.Data.DocTmplType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.DocTmplType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: DocTmplType.value__
-  fullName: SuperOffice.WebApi.Data.DocTmplType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  DocTmpl.record_type
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum DocTmplType : short'
+    content.vb: Public Enum DocTmplType As Short
 - uid: SuperOffice.WebApi.Data.DocTmplType.Unknown
   commentId: F:SuperOffice.WebApi.Data.DocTmplType.Unknown
   id: Unknown
@@ -84,24 +44,26 @@ items:
   nameWithType: DocTmplType.Unknown
   fullName: SuperOffice.WebApi.Data.DocTmplType.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: The document type is unknown/undecided\n"
+  summary: '0: The document type is unknown/undecided'
+  example: []
   syntax:
-    content: public const DocTmplType Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.DocTmplType
-    content.vb: Public Const Unknown As DocTmplType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DocTmplType.Appointment
   commentId: F:SuperOffice.WebApi.Data.DocTmplType.Appointment
   id: Appointment
@@ -113,24 +75,26 @@ items:
   nameWithType: DocTmplType.Appointment
   fullName: SuperOffice.WebApi.Data.DocTmplType.Appointment
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: (not used for document templates)\n"
+  summary: '1: (not used for document templates)'
+  example: []
   syntax:
-    content: public const DocTmplType Appointment
+    content: >-
+      [EnumMember]
+
+      Appointment = 1
     return:
       type: SuperOffice.WebApi.Data.DocTmplType
-    content.vb: Public Const Appointment As DocTmplType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Appointment = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DocTmplType.Document
   commentId: F:SuperOffice.WebApi.Data.DocTmplType.Document
   id: Document
@@ -142,24 +106,26 @@ items:
   nameWithType: DocTmplType.Document
   fullName: SuperOffice.WebApi.Data.DocTmplType.Document
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Generic text document (for instance, a letter)\n"
+  summary: '2: Generic text document (for instance, a letter)'
+  example: []
   syntax:
-    content: public const DocTmplType Document
+    content: >-
+      [EnumMember]
+
+      Document = 2
     return:
       type: SuperOffice.WebApi.Data.DocTmplType
-    content.vb: Public Const Document As DocTmplType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Document = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DocTmplType.Email
   commentId: F:SuperOffice.WebApi.Data.DocTmplType.Email
   id: Email
@@ -171,24 +137,26 @@ items:
   nameWithType: DocTmplType.Email
   fullName: SuperOffice.WebApi.Data.DocTmplType.Email
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Email message\n"
+  summary: '3: Email message'
+  example: []
   syntax:
-    content: public const DocTmplType Email
+    content: >-
+      [EnumMember]
+
+      Email = 3
     return:
       type: SuperOffice.WebApi.Data.DocTmplType
-    content.vb: Public Const Email As DocTmplType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Email = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DocTmplType.Fax
   commentId: F:SuperOffice.WebApi.Data.DocTmplType.Fax
   id: Fax
@@ -200,24 +168,26 @@ items:
   nameWithType: DocTmplType.Fax
   fullName: SuperOffice.WebApi.Data.DocTmplType.Fax
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Facsimile\n"
+  summary: '4: Facsimile'
+  example: []
   syntax:
-    content: public const DocTmplType Fax
+    content: >-
+      [EnumMember]
+
+      Fax = 4
     return:
       type: SuperOffice.WebApi.Data.DocTmplType
-    content.vb: Public Const Fax As DocTmplType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Fax = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DocTmplType.Phone
   commentId: F:SuperOffice.WebApi.Data.DocTmplType.Phone
   id: Phone
@@ -229,24 +199,26 @@ items:
   nameWithType: DocTmplType.Phone
   fullName: SuperOffice.WebApi.Data.DocTmplType.Phone
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: (not used for document templates)\n"
+  summary: '5: (not used for document templates)'
+  example: []
   syntax:
-    content: public const DocTmplType Phone
+    content: >-
+      [EnumMember]
+
+      Phone = 5
     return:
       type: SuperOffice.WebApi.Data.DocTmplType
-    content.vb: Public Const Phone As DocTmplType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Phone = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DocTmplType.Todo
   commentId: F:SuperOffice.WebApi.Data.DocTmplType.Todo
   id: Todo
@@ -258,24 +230,26 @@ items:
   nameWithType: DocTmplType.Todo
   fullName: SuperOffice.WebApi.Data.DocTmplType.Todo
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: (not used for document templates)\n"
+  summary: '6: (not used for document templates)'
+  example: []
   syntax:
-    content: public const DocTmplType Todo
+    content: >-
+      [EnumMember]
+
+      Todo = 6
     return:
       type: SuperOffice.WebApi.Data.DocTmplType
-    content.vb: Public Const Todo As DocTmplType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Todo = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DocTmplType.MergeDraft
   commentId: F:SuperOffice.WebApi.Data.DocTmplType.MergeDraft
   id: MergeDraft
@@ -287,24 +261,26 @@ items:
   nameWithType: DocTmplType.MergeDraft
   fullName: SuperOffice.WebApi.Data.DocTmplType.MergeDraft
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: Template for mailmerge operations\n"
+  summary: '7: Template for mailmerge operations'
+  example: []
   syntax:
-    content: public const DocTmplType MergeDraft
+    content: >-
+      [EnumMember]
+
+      MergeDraft = 7
     return:
       type: SuperOffice.WebApi.Data.DocTmplType
-    content.vb: Public Const MergeDraft As DocTmplType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      MergeDraft = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DocTmplType.MergeFinal
   commentId: F:SuperOffice.WebApi.Data.DocTmplType.MergeFinal
   id: MergeFinal
@@ -316,24 +292,26 @@ items:
   nameWithType: DocTmplType.MergeFinal
   fullName: SuperOffice.WebApi.Data.DocTmplType.MergeFinal
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Result of a mailmerge operation\n"
+  summary: '8: Result of a mailmerge operation'
+  example: []
   syntax:
-    content: public const DocTmplType MergeFinal
+    content: >-
+      [EnumMember]
+
+      MergeFinal = 8
     return:
       type: SuperOffice.WebApi.Data.DocTmplType
-    content.vb: Public Const MergeFinal As DocTmplType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      MergeFinal = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DocTmplType.SavedReport
   commentId: F:SuperOffice.WebApi.Data.DocTmplType.SavedReport
   id: SavedReport
@@ -345,55 +323,69 @@ items:
   nameWithType: DocTmplType.SavedReport
   fullName: SuperOffice.WebApi.Data.DocTmplType.SavedReport
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n9: Saved result of running a report (output from Reporter)\n"
+  summary: '9: Saved result of running a report (output from Reporter)'
+  example: []
   syntax:
-    content: public const DocTmplType SavedReport
+    content: >-
+      [EnumMember]
+
+      SavedReport = 9
     return:
       type: SuperOffice.WebApi.Data.DocTmplType
-    content.vb: Public Const SavedReport As DocTmplType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SavedReport = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.DocTmplType
   commentId: T:SuperOffice.WebApi.Data.DocTmplType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.DocTmplType.html
   name: DocTmplType
   nameWithType: DocTmplType
   fullName: SuperOffice.WebApi.Data.DocTmplType

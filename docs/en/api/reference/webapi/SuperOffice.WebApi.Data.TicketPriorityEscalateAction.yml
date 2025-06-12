@@ -11,64 +11,21 @@ items:
   - SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionNew
   - SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionNewInfo
   - SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionRead
-  - SuperOffice.WebApi.Data.TicketPriorityEscalateAction.value__
   langs:
   - csharp
   - vb
   name: TicketPriorityEscalateAction
   nameWithType: TicketPriorityEscalateAction
   fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe different types of escalate actions that can be set\n"
+  summary: The different types of escalate actions that can be set
+  example: []
   syntax:
-    content: 'public sealed class TicketPriorityEscalateAction : Enum'
-    content.vb: >-
-      Public NotInheritable Class TicketPriorityEscalateAction
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.value__
-  commentId: F:SuperOffice.WebApi.Data.TicketPriorityEscalateAction.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: TicketPriorityEscalateAction.value__
-  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum TicketPriorityEscalateAction
+    content.vb: Public Enum TicketPriorityEscalateAction
 - uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionRead
   commentId: F:SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionRead
   id: ActionRead
@@ -80,24 +37,26 @@ items:
   nameWithType: TicketPriorityEscalateAction.ActionRead
   fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionRead
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Triggers escalation on ticket read\n"
+  summary: '0: Triggers escalation on ticket read'
+  example: []
   syntax:
-    content: public const TicketPriorityEscalateAction ActionRead
+    content: >-
+      [EnumMember]
+
+      ActionRead = 0
     return:
       type: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
-    content.vb: Public Const ActionRead As TicketPriorityEscalateAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActionRead = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionChangedOwner
   commentId: F:SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionChangedOwner
   id: ActionChangedOwner
@@ -109,24 +68,26 @@ items:
   nameWithType: TicketPriorityEscalateAction.ActionChangedOwner
   fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionChangedOwner
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Triggers escalation on ticket owner change\n"
+  summary: '1: Triggers escalation on ticket owner change'
+  example: []
   syntax:
-    content: public const TicketPriorityEscalateAction ActionChangedOwner
+    content: >-
+      [EnumMember]
+
+      ActionChangedOwner = 1
     return:
       type: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
-    content.vb: Public Const ActionChangedOwner As TicketPriorityEscalateAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActionChangedOwner = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionNewInfo
   commentId: F:SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionNewInfo
   id: ActionNewInfo
@@ -138,24 +99,26 @@ items:
   nameWithType: TicketPriorityEscalateAction.ActionNewInfo
   fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionNewInfo
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Triggers escalation on ticket update\n"
+  summary: '2: Triggers escalation on ticket update'
+  example: []
   syntax:
-    content: public const TicketPriorityEscalateAction ActionNewInfo
+    content: >-
+      [EnumMember]
+
+      ActionNewInfo = 2
     return:
       type: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
-    content.vb: Public Const ActionNewInfo As TicketPriorityEscalateAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActionNewInfo = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionClosed
   commentId: F:SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionClosed
   id: ActionClosed
@@ -167,24 +130,26 @@ items:
   nameWithType: TicketPriorityEscalateAction.ActionClosed
   fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionClosed
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Triggers escalation on ticket close\n"
+  summary: '3: Triggers escalation on ticket close'
+  example: []
   syntax:
-    content: public const TicketPriorityEscalateAction ActionClosed
+    content: >-
+      [EnumMember]
+
+      ActionClosed = 3
     return:
       type: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
-    content.vb: Public Const ActionClosed As TicketPriorityEscalateAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActionClosed = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionChangedPriority
   commentId: F:SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionChangedPriority
   id: ActionChangedPriority
@@ -196,24 +161,26 @@ items:
   nameWithType: TicketPriorityEscalateAction.ActionChangedPriority
   fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionChangedPriority
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Triggers escalation on ticket priority change\n"
+  summary: '4: Triggers escalation on ticket priority change'
+  example: []
   syntax:
-    content: public const TicketPriorityEscalateAction ActionChangedPriority
+    content: >-
+      [EnumMember]
+
+      ActionChangedPriority = 4
     return:
       type: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
-    content.vb: Public Const ActionChangedPriority As TicketPriorityEscalateAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActionChangedPriority = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionNew
   commentId: F:SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionNew
   id: ActionNew
@@ -225,55 +192,69 @@ items:
   nameWithType: TicketPriorityEscalateAction.ActionNew
   fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionNew
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Triggers escalation on ticket creation\n"
+  summary: '5: Triggers escalation on ticket creation'
+  example: []
   syntax:
-    content: public const TicketPriorityEscalateAction ActionNew
+    content: >-
+      [EnumMember]
+
+      ActionNew = 5
     return:
       type: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
-    content.vb: Public Const ActionNew As TicketPriorityEscalateAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ActionNew = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
   commentId: T:SuperOffice.WebApi.Data.TicketPriorityEscalateAction
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.html
   name: TicketPriorityEscalateAction
   nameWithType: TicketPriorityEscalateAction
   fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction

@@ -5,9 +5,9 @@ items:
   id: ILspApi
   parent: SuperOffice.CRM.LspApiClient
   children:
-  - SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailings
-  - SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutbox
-  - SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlows
+  - SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailingsAsync
+  - SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutboxAsync
+  - SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlowsAsync
   langs:
   - csharp
   - vb
@@ -15,169 +15,238 @@ items:
   nameWithType: ILspApi
   fullName: SuperOffice.CRM.LspApiClient.ILspApi
   type: Interface
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.LspApiClient
-  summary: "\nPlugin interface for using the LocalServiceProxy API, for instance to nudge OC to start mailings from sodatabase classes.\nDoes not have to be in Plugins.dll as partners will not be implementing this kind of plugin.\nInterface and dummy/default implementation will be in sodatabase, while the online plugin that actually does something useful will be in an online dll\nand will be loaded on startup in the online environment\n"
+  summary: >-
+    Plugin interface for using the LocalServiceProxy API, for instance to nudge OC to start mailings from sodatabase classes.
+
+    Does not have to be in Plugins.dll as partners will not be implementing this kind of plugin.
+
+    Interface and dummy/default implementation will be in sodatabase, while the online plugin that actually does something useful will be in an online dll
+
+    and will be loaded on startup in the online environment
+  example: []
   syntax:
     content: public interface ILspApi
     content.vb: Public Interface ILspApi
   extensionMethods:
   - SuperOffice.CRM.LspApiClient.ILspApi.EnumUtil.MapEnums``2
   - SuperOffice.CRM.LspApiClient.ILspApi.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
-- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailings
-  commentId: M:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailings
-  id: TryNudgeCsMailings
+- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailingsAsync
+  commentId: M:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailingsAsync
+  id: TryNudgeCsMailingsAsync
   parent: SuperOffice.CRM.LspApiClient.ILspApi
   langs:
   - csharp
   - vb
-  name: TryNudgeCsMailings()
-  nameWithType: ILspApi.TryNudgeCsMailings()
-  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailings()
+  name: TryNudgeCsMailingsAsync()
+  nameWithType: ILspApi.TryNudgeCsMailingsAsync()
+  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailingsAsync()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.LspApiClient
-  summary: "\nAttempt to start mailings. Useful when we are ready to send and would prefer not to wait a minute or two.\n"
+  summary: Attempt to start mailings. Useful when we are ready to send and would prefer not to wait a minute or two.
+  example: []
   syntax:
-    content: void TryNudgeCsMailings()
-    content.vb: Sub TryNudgeCsMailings
-  overload: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailings*
-- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutbox
-  commentId: M:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutbox
-  id: TryNudgeCsOutbox
+    content: Task TryNudgeCsMailingsAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function TryNudgeCsMailingsAsync() As Task
+  overload: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailingsAsync*
+- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutboxAsync
+  commentId: M:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutboxAsync
+  id: TryNudgeCsOutboxAsync
   parent: SuperOffice.CRM.LspApiClient.ILspApi
   langs:
   - csharp
   - vb
-  name: TryNudgeCsOutbox()
-  nameWithType: ILspApi.TryNudgeCsOutbox()
-  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutbox()
+  name: TryNudgeCsOutboxAsync()
+  nameWithType: ILspApi.TryNudgeCsOutboxAsync()
+  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutboxAsync()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.LspApiClient
-  summary: "\nAttempt to start email/sms sending (not mailings). Useful when we are ready to send a message and would prefer not to wait a minute or two.\n"
+  summary: Attempt to start email/sms sending (not mailings). Useful when we are ready to send a message and would prefer not to wait a minute or two.
+  example: []
   syntax:
-    content: void TryNudgeCsOutbox()
-    content.vb: Sub TryNudgeCsOutbox
-  overload: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutbox*
-- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlows
-  commentId: M:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlows
-  id: TryNudgeEmailFlows
+    content: Task TryNudgeCsOutboxAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function TryNudgeCsOutboxAsync() As Task
+  overload: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutboxAsync*
+- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlowsAsync
+  commentId: M:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlowsAsync
+  id: TryNudgeEmailFlowsAsync
   parent: SuperOffice.CRM.LspApiClient.ILspApi
   langs:
   - csharp
   - vb
-  name: TryNudgeEmailFlows()
-  nameWithType: ILspApi.TryNudgeEmailFlows()
-  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlows()
+  name: TryNudgeEmailFlowsAsync()
+  nameWithType: ILspApi.TryNudgeEmailFlowsAsync()
+  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlowsAsync()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.LspApiClient
-  summary: "\nAttempt to start email flows\n"
+  summary: Attempt to start email flows
+  example: []
   syntax:
-    content: void TryNudgeEmailFlows()
-    content.vb: Sub TryNudgeEmailFlows
-  overload: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlows*
+    content: Task TryNudgeEmailFlowsAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function TryNudgeEmailFlowsAsync() As Task
+  overload: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlowsAsync*
 references:
 - uid: SuperOffice.CRM.LspApiClient
   commentId: N:SuperOffice.CRM.LspApiClient
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.LspApiClient
   nameWithType: SuperOffice.CRM.LspApiClient
   fullName: SuperOffice.CRM.LspApiClient
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.LspApiClient
+    name: LspApiClient
+    isExternal: true
+    href: SuperOffice.CRM.LspApiClient.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.LspApiClient
+    name: LspApiClient
+    isExternal: true
+    href: SuperOffice.CRM.LspApiClient.html
 - uid: SuperOffice.CRM.LspApiClient.ILspApi.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ILspApi, To>()
-  nameWithType: EnumUtil.MapEnums<ILspApi, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.LspApiClient.ILspApi, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ILspApi, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.LspApiClient.ILspApi, To)()
-  name.vb: MapEnums(Of ILspApi, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ILspApi, To>(ILspApi)
+  nameWithType: EnumUtil.MapEnums<ILspApi, To>(ILspApi)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.LspApiClient.ILspApi, To>(SuperOffice.CRM.LspApiClient.ILspApi)
+  nameWithType.vb: EnumUtil.MapEnums(Of ILspApi, To)(ILspApi)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.LspApiClient.ILspApi, To)(SuperOffice.CRM.LspApiClient.ILspApi)
+  name.vb: MapEnums(Of ILspApi, To)(ILspApi)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ILspApi, To>
-    nameWithType: EnumUtil.MapEnums<ILspApi, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.LspApiClient.ILspApi, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.LspApiClient.ILspApi)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.LspApiClient.ILspApi
+    name: ILspApi
+    isExternal: true
+    href: SuperOffice.CRM.LspApiClient.ILspApi.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.LspApiClient.ILspApi
+    name: ILspApi
+    isExternal: true
+    href: SuperOffice.CRM.LspApiClient.ILspApi.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ILspApi, To)
-    nameWithType: EnumUtil.MapEnums(Of ILspApi, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.LspApiClient.ILspApi, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.LspApiClient.ILspApi)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.LspApiClient.ILspApi
+    name: ILspApi
+    isExternal: true
+    href: SuperOffice.CRM.LspApiClient.ILspApi.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.LspApiClient.ILspApi
+    name: ILspApi
+    isExternal: true
+    href: SuperOffice.CRM.LspApiClient.ILspApi.html
+  - name: )
 - uid: SuperOffice.CRM.LspApiClient.ILspApi.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ILspApi, To>()
-  nameWithType: Converters.MapEnums<ILspApi, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.LspApiClient.ILspApi, To>()
-  nameWithType.vb: Converters.MapEnums(Of ILspApi, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.LspApiClient.ILspApi, To)()
-  name.vb: MapEnums(Of ILspApi, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ILspApi, To>(ILspApi)
+  nameWithType: Converters.MapEnums<ILspApi, To>(ILspApi)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.LspApiClient.ILspApi, To>(SuperOffice.CRM.LspApiClient.ILspApi)
+  nameWithType.vb: Converters.MapEnums(Of ILspApi, To)(ILspApi)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.LspApiClient.ILspApi, To)(SuperOffice.CRM.LspApiClient.ILspApi)
+  name.vb: MapEnums(Of ILspApi, To)(ILspApi)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ILspApi, To>
-    nameWithType: Converters.MapEnums<ILspApi, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.LspApiClient.ILspApi, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.LspApiClient.ILspApi)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.LspApiClient.ILspApi
+    name: ILspApi
+    isExternal: true
+    href: SuperOffice.CRM.LspApiClient.ILspApi.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.LspApiClient.ILspApi
+    name: ILspApi
+    isExternal: true
+    href: SuperOffice.CRM.LspApiClient.ILspApi.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ILspApi, To)
-    nameWithType: Converters.MapEnums(Of ILspApi, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.LspApiClient.ILspApi, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.LspApiClient.ILspApi)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.LspApiClient.ILspApi
+    name: ILspApi
+    isExternal: true
+    href: SuperOffice.CRM.LspApiClient.ILspApi.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.LspApiClient.ILspApi
+    name: ILspApi
+    isExternal: true
+    href: SuperOffice.CRM.LspApiClient.ILspApi.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -186,43 +255,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -231,62 +302,142 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailings*
-  commentId: Overload:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailings
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailingsAsync*
+  commentId: Overload:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailingsAsync
   isExternal: true
-  name: TryNudgeCsMailings
-  nameWithType: ILspApi.TryNudgeCsMailings
-  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailings
-- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutbox*
-  commentId: Overload:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutbox
+  href: SuperOffice.CRM.LspApiClient.ILspApi.html#SuperOffice_CRM_LspApiClient_ILspApi_TryNudgeCsMailingsAsync
+  name: TryNudgeCsMailingsAsync
+  nameWithType: ILspApi.TryNudgeCsMailingsAsync
+  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsMailingsAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: TryNudgeCsOutbox
-  nameWithType: ILspApi.TryNudgeCsOutbox
-  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutbox
-- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlows*
-  commentId: Overload:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlows
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
   isExternal: true
-  name: TryNudgeEmailFlows
-  nameWithType: ILspApi.TryNudgeEmailFlows
-  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutboxAsync*
+  commentId: Overload:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutboxAsync
+  isExternal: true
+  href: SuperOffice.CRM.LspApiClient.ILspApi.html#SuperOffice_CRM_LspApiClient_ILspApi_TryNudgeCsOutboxAsync
+  name: TryNudgeCsOutboxAsync
+  nameWithType: ILspApi.TryNudgeCsOutboxAsync
+  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeCsOutboxAsync
+- uid: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlowsAsync*
+  commentId: Overload:SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlowsAsync
+  isExternal: true
+  href: SuperOffice.CRM.LspApiClient.ILspApi.html#SuperOffice_CRM_LspApiClient_ILspApi_TryNudgeEmailFlowsAsync
+  name: TryNudgeEmailFlowsAsync
+  nameWithType: ILspApi.TryNudgeEmailFlowsAsync
+  fullName: SuperOffice.CRM.LspApiClient.ILspApi.TryNudgeEmailFlowsAsync

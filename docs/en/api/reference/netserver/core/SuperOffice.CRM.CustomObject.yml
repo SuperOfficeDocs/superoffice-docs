@@ -13,11 +13,12 @@ items:
   fullName: SuperOffice.CRM.CustomObject
   type: Namespace
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
 references:
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper
   commentId: T:SuperOffice.CRM.CustomObject.CustomObjectHelper
   isExternal: true
+  href: SuperOffice.CRM.CustomObject.CustomObjectHelper.html
   name: CustomObjectHelper
   nameWithType: CustomObjectHelper
   fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper

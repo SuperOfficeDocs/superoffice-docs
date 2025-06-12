@@ -56,40 +56,59 @@ items:
   nameWithType: SelectionEntity
   fullName: SuperOffice.CRM.Services.SelectionEntity
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCarrier object for SelectionEntity.\nServices for the SelectionEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ISelectionAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Carrier object for SelectionEntity.
+
+    Services for the SelectionEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.ISelectionAgent?text=Selection+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet SelectionEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new SelectionAgent();\n    var selectionEntity = agent.GetSelectionEntity( 123 );\n }</code></pre>\n\nFind all SelectionEntity, get related items using archive agent.\n<pre><code>var archive = new ArchiveAgent();\nvar rows = archive.GetArchiveListByColumns2(&quot;FindSelection&quot;, &quot;...&quot;, null, &quot;getAllRows eq 1&quot;, null, 0, 100 );</code></pre>\n"
+  - >-
+    Get SelectionEntity 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new SelectionAgent();
+       var selectionEntity = agent.GetSelectionEntity( 123 );
+    }</code></pre>
+
+
+    Find all SelectionEntity, get related items using archive agent.
+
+    <pre><code class="lang-csharp">var archive = new ArchiveAgent();
+
+    var rows = archive.GetArchiveListByColumns2("FindSelection", "...", null, "getAllRows eq 1", null, 0, 100 );</code></pre>
   syntax:
-    content: 'public class SelectionEntity : Carrier, IVisibleForCarrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class SelectionEntity : Carrier, IVisibleForCarrier
     content.vb: >-
-      Public Class SelectionEntity
-          Inherits Carrier
-          Implements IVisibleForCarrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class SelectionEntity Inherits Carrier Implements IVisibleForCarrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.SelectionAgent
-    commentId: T:SuperOffice.CRM.Services.SelectionAgent
   - linkId: SuperOffice.CRM.Services.ISelectionAgent
     commentId: T:SuperOffice.CRM.Services.ISelectionAgent
-  - linkId: SuperOffice.CRM.Services.ArchiveAgent
-    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
-  - linkId: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-    commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
   inheritance:
   - System.Object
   implements:
   - SuperOffice.CRM.Services.IVisibleForCarrier
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.SelectionEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.SelectionEntity.#ctor
   id: '#ctor'
@@ -101,21 +120,18 @@ items:
   nameWithType: SelectionEntity.SelectionEntity()
   fullName: SuperOffice.CRM.Services.SelectionEntity.SelectionEntity()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public SelectionEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.SelectionEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SelectionEntity.New()
+  fullName.vb: SuperOffice.CRM.Services.SelectionEntity.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.SelectionEntity.ToString
   commentId: M:SuperOffice.CRM.Services.SelectionEntity.ToString
   id: ToString
@@ -127,26 +143,18 @@ items:
   nameWithType: SelectionEntity.ToString()
   fullName: SuperOffice.CRM.Services.SelectionEntity.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.SelectionEntity.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.SelectionEntity.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.SelectionEntity.ToString(System.String)
   id: ToString(System.String)
@@ -154,17 +162,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: SelectionEntity.ToString(String)
-  fullName: SuperOffice.CRM.Services.SelectionEntity.ToString(System.String)
+  name: ToString(string)
+  nameWithType: SelectionEntity.ToString(string)
+  fullName: SuperOffice.CRM.Services.SelectionEntity.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -176,10 +185,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.SelectionEntity.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SelectionEntity.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.SelectionEntity.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.SelectionEntity.Description
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.Description
   id: Description
@@ -191,28 +199,28 @@ items:
   nameWithType: SelectionEntity.Description
   fullName: SuperOffice.CRM.Services.SelectionEntity.Description
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe actual text, max 2047 significant characters even though it is stored as a larger data type on some databases \n"
+  summary: The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases
+  example: []
   syntax:
-    content: public virtual string Description { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Description As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Description As String
   overload: SuperOffice.CRM.Services.SelectionEntity.Description*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.Postit
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.Postit
   id: Postit
@@ -224,28 +232,28 @@ items:
   nameWithType: SelectionEntity.Postit
   fullName: SuperOffice.CRM.Services.SelectionEntity.Postit
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe actual text, max 2047 significant characters even though it is stored as a larger data type on some databases \n"
+  summary: The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases
+  example: []
   syntax:
-    content: public virtual string Postit { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Postit { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Postit As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Postit As String
   overload: SuperOffice.CRM.Services.SelectionEntity.Postit*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.Associate
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.Associate
   id: Associate
@@ -257,28 +265,28 @@ items:
   nameWithType: SelectionEntity.Associate
   fullName: SuperOffice.CRM.Services.SelectionEntity.Associate
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOwner of the selection \n"
+  summary: Owner of the selection
+  example: []
   syntax:
-    content: public virtual Associate Associate { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Associate Associate { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Associate
-    content.vb: Public Overridable Property Associate As Associate
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Associate As Associate
   overload: SuperOffice.CRM.Services.SelectionEntity.Associate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.CreatedBy
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.CreatedBy
   id: CreatedBy
@@ -290,28 +298,28 @@ items:
   nameWithType: SelectionEntity.CreatedBy
   fullName: SuperOffice.CRM.Services.SelectionEntity.CreatedBy
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nWho created the selection \n"
+  summary: Who created the selection
+  example: []
   syntax:
-    content: public virtual Associate CreatedBy { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Associate CreatedBy { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Associate
-    content.vb: Public Overridable Property CreatedBy As Associate
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CreatedBy As Associate
   overload: SuperOffice.CRM.Services.SelectionEntity.CreatedBy*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.UpdatedBy
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.UpdatedBy
   id: UpdatedBy
@@ -323,28 +331,28 @@ items:
   nameWithType: SelectionEntity.UpdatedBy
   fullName: SuperOffice.CRM.Services.SelectionEntity.UpdatedBy
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nWho last modified the selection \n"
+  summary: Who last modified the selection
+  example: []
   syntax:
-    content: public virtual Associate UpdatedBy { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Associate UpdatedBy { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Associate
-    content.vb: Public Overridable Property UpdatedBy As Associate
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UpdatedBy As Associate
   overload: SuperOffice.CRM.Services.SelectionEntity.UpdatedBy*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.SelectionCategory
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.SelectionCategory
   id: SelectionCategory
@@ -356,28 +364,31 @@ items:
   nameWithType: SelectionEntity.SelectionCategory
   fullName: SuperOffice.CRM.Services.SelectionEntity.SelectionCategory
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSelection category type (list item) \n<p>Use MDO List name &quot;searchCat&quot; to get list items.</p>\n"
+  summary: >-
+    Selection category type (list item) 
+
+    <p>Use MDO List name "searchCat" to get list items.</p>
+  example: []
   syntax:
-    content: public virtual SelectionCategory SelectionCategory { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual SelectionCategory SelectionCategory { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.SelectionCategory
-    content.vb: Public Overridable Property SelectionCategory As SelectionCategory
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SelectionCategory As SelectionCategory
   overload: SuperOffice.CRM.Services.SelectionEntity.SelectionCategory*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.GroupIdx
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.GroupIdx
   id: GroupIdx
@@ -389,28 +400,28 @@ items:
   nameWithType: SelectionEntity.GroupIdx
   fullName: SuperOffice.CRM.Services.SelectionEntity.GroupIdx
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOriginal primary user group of associate \n"
+  summary: Original primary user group of associate
+  example: []
   syntax:
-    content: public virtual int GroupIdx { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int GroupIdx { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property GroupIdx As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property GroupIdx As Integer
   overload: SuperOffice.CRM.Services.SelectionEntity.GroupIdx*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.IncludePerson
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.IncludePerson
   id: IncludePerson
@@ -422,28 +433,28 @@ items:
   nameWithType: SelectionEntity.IncludePerson
   fullName: SuperOffice.CRM.Services.SelectionEntity.IncludePerson
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n0 = Include first person, 1 = Include all persons, 2 = Include no persons \n"
+  summary: 0 = Include first person, 1 = Include all persons, 2 = Include no persons
+  example: []
   syntax:
-    content: public virtual int IncludePerson { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int IncludePerson { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property IncludePerson As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IncludePerson As Integer
   overload: SuperOffice.CRM.Services.SelectionEntity.IncludePerson*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.MemberCount
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.MemberCount
   id: MemberCount
@@ -455,28 +466,28 @@ items:
   nameWithType: SelectionEntity.MemberCount
   fullName: SuperOffice.CRM.Services.SelectionEntity.MemberCount
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nHow many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don&apos;t know \n"
+  summary: How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know
+  example: []
   syntax:
-    content: public virtual uint MemberCount { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual uint MemberCount { get; set; }
     parameters: []
     return:
       type: System.UInt32
-    content.vb: Public Overridable Property MemberCount As UInteger
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property MemberCount As UInteger
   overload: SuperOffice.CRM.Services.SelectionEntity.MemberCount*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.Name
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.Name
   id: Name
@@ -488,28 +499,28 @@ items:
   nameWithType: SelectionEntity.Name
   fullName: SuperOffice.CRM.Services.SelectionEntity.Name
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nName of selection, freetext indexed \n"
+  summary: Name of selection, freetext indexed
+  example: []
   syntax:
-    content: public virtual string Name { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Name As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.SelectionEntity.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.PostitTextId
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.PostitTextId
   id: PostitTextId
@@ -521,28 +532,28 @@ items:
   nameWithType: SelectionEntity.PostitTextId
   fullName: SuperOffice.CRM.Services.SelectionEntity.PostitTextId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPostit text record id. \n"
+  summary: Postit text record id.
+  example: []
   syntax:
-    content: public virtual int PostitTextId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int PostitTextId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property PostitTextId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PostitTextId As Integer
   overload: SuperOffice.CRM.Services.SelectionEntity.PostitTextId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.CreatedDate
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.CreatedDate
   id: CreatedDate
@@ -554,28 +565,28 @@ items:
   nameWithType: SelectionEntity.CreatedDate
   fullName: SuperOffice.CRM.Services.SelectionEntity.CreatedDate
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRegistered when  in UTC.\n"
+  summary: Registered when  in UTC.
+  example: []
   syntax:
-    content: public virtual DateTime CreatedDate { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime CreatedDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property CreatedDate As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CreatedDate As Date
   overload: SuperOffice.CRM.Services.SelectionEntity.CreatedDate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.SelectionId
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.SelectionId
   id: SelectionId
@@ -587,28 +598,28 @@ items:
   nameWithType: SelectionEntity.SelectionId
   fullName: SuperOffice.CRM.Services.SelectionEntity.SelectionId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int SelectionId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int SelectionId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property SelectionId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SelectionId As Integer
   overload: SuperOffice.CRM.Services.SelectionEntity.SelectionId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.SoundEx
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.SoundEx
   id: SoundEx
@@ -620,28 +631,28 @@ items:
   nameWithType: SelectionEntity.SoundEx
   fullName: SuperOffice.CRM.Services.SelectionEntity.SoundEx
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nWhat the name sounds like, for duplicate detection \n"
+  summary: What the name sounds like, for duplicate detection
+  example: []
   syntax:
-    content: public virtual string SoundEx { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string SoundEx { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property SoundEx As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SoundEx As String
   overload: SuperOffice.CRM.Services.SelectionEntity.SoundEx*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.Source
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.Source
   id: Source
@@ -653,28 +664,28 @@ items:
   nameWithType: SelectionEntity.Source
   fullName: SuperOffice.CRM.Services.SelectionEntity.Source
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nHow did we get this selection? For future integration needs \n"
+  summary: How did we get this selection? For future integration needs
+  example: []
   syntax:
-    content: public virtual short Source { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short Source { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property Source As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Source As Short
   overload: SuperOffice.CRM.Services.SelectionEntity.Source*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.TextId
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.TextId
   id: TextId
@@ -686,28 +697,28 @@ items:
   nameWithType: SelectionEntity.TextId
   fullName: SuperOffice.CRM.Services.SelectionEntity.TextId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDescription text record id \n"
+  summary: Description text record id
+  example: []
   syntax:
-    content: public virtual int TextId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int TextId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property TextId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TextId As Integer
   overload: SuperOffice.CRM.Services.SelectionEntity.TextId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.UpdatedDate
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.UpdatedDate
   id: UpdatedDate
@@ -719,28 +730,28 @@ items:
   nameWithType: SelectionEntity.UpdatedDate
   fullName: SuperOffice.CRM.Services.SelectionEntity.UpdatedDate
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLast updated when  in UTC.\n"
+  summary: Last updated when  in UTC.
+  example: []
   syntax:
-    content: public virtual DateTime UpdatedDate { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime UpdatedDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property UpdatedDate As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UpdatedDate As Date
   overload: SuperOffice.CRM.Services.SelectionEntity.UpdatedDate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.UpdatedCount
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.UpdatedCount
   id: UpdatedCount
@@ -752,28 +763,28 @@ items:
   nameWithType: SelectionEntity.UpdatedCount
   fullName: SuperOffice.CRM.Services.SelectionEntity.UpdatedCount
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nNumber of updates made to this record \n"
+  summary: Number of updates made to this record
+  example: []
   syntax:
-    content: public virtual short UpdatedCount { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short UpdatedCount { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property UpdatedCount As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UpdatedCount As Short
   overload: SuperOffice.CRM.Services.SelectionEntity.UpdatedCount*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.Visibility
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.Visibility
   id: Visibility
@@ -785,28 +796,28 @@ items:
   nameWithType: SelectionEntity.Visibility
   fullName: SuperOffice.CRM.Services.SelectionEntity.Visibility
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nObsolete, but still maintained denormalization of visiblefor \n"
+  summary: Obsolete, but still maintained denormalization of visiblefor
+  example: []
   syntax:
-    content: public virtual short Visibility { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short Visibility { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property Visibility As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Visibility As Short
   overload: SuperOffice.CRM.Services.SelectionEntity.Visibility*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.SelectionType
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.SelectionType
   id: SelectionType
@@ -818,28 +829,28 @@ items:
   nameWithType: SelectionEntity.SelectionType
   fullName: SuperOffice.CRM.Services.SelectionEntity.SelectionType
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nStatic/Dynamic/Combined? \n"
+  summary: Static/Dynamic/Combined?
+  example: []
   syntax:
-    content: public virtual SelectionType SelectionType { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual SelectionType SelectionType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.SelectionType
-    content.vb: Public Overridable Property SelectionType As SelectionType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SelectionType As SelectionType
   overload: SuperOffice.CRM.Services.SelectionEntity.SelectionType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.CompanyUnique
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.CompanyUnique
   id: CompanyUnique
@@ -851,28 +862,28 @@ items:
   nameWithType: SelectionEntity.CompanyUnique
   fullName: SuperOffice.CRM.Services.SelectionEntity.CompanyUnique
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nFilter out duplicate members based on company? \n"
+  summary: Filter out duplicate members based on company?
+  example: []
   syntax:
-    content: public virtual bool CompanyUnique { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool CompanyUnique { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property CompanyUnique As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CompanyUnique As Boolean
   overload: SuperOffice.CRM.Services.SelectionEntity.CompanyUnique*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.TargetTableNumber
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.TargetTableNumber
   id: TargetTableNumber
@@ -884,28 +895,28 @@ items:
   nameWithType: SelectionEntity.TargetTableNumber
   fullName: SuperOffice.CRM.Services.SelectionEntity.TargetTableNumber
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTargetTableNumber defines the type of selection members this selection contains. e.g. the table number for &apos;contact&apos;, or &apos;project&apos; or &apos;sale&apos; \n"
+  summary: TargetTableNumber defines the type of selection members this selection contains. e.g. the table number for 'contact', or 'project' or 'sale'
+  example: []
   syntax:
-    content: public virtual int TargetTableNumber { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int TargetTableNumber { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property TargetTableNumber As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TargetTableNumber As Integer
   overload: SuperOffice.CRM.Services.SelectionEntity.TargetTableNumber*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.TargetTableName
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.TargetTableName
   id: TargetTableName
@@ -917,28 +928,28 @@ items:
   nameWithType: SelectionEntity.TargetTableName
   fullName: SuperOffice.CRM.Services.SelectionEntity.TargetTableName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTargetTableName contains the name of the table in lowercase. defines the type of selection members this selection contains. e.g. &apos;contact&apos;, or &apos;project&apos; or &apos;sale&apos; \n"
+  summary: TargetTableName contains the name of the table in lowercase. defines the type of selection members this selection contains. e.g. 'contact', or 'project' or 'sale'
+  example: []
   syntax:
-    content: public virtual string TargetTableName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string TargetTableName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property TargetTableName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TargetTableName As String
   overload: SuperOffice.CRM.Services.SelectionEntity.TargetTableName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.Completed
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.Completed
   id: Completed
@@ -950,28 +961,28 @@ items:
   nameWithType: SelectionEntity.Completed
   fullName: SuperOffice.CRM.Services.SelectionEntity.Completed
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe Completed state.  \n"
+  summary: The Completed state.
+  example: []
   syntax:
-    content: public virtual bool Completed { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool Completed { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property Completed As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Completed As Boolean
   overload: SuperOffice.CRM.Services.SelectionEntity.Completed*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.LeftSelectionId
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.LeftSelectionId
   id: LeftSelectionId
@@ -983,28 +994,28 @@ items:
   nameWithType: SelectionEntity.LeftSelectionId
   fullName: SuperOffice.CRM.Services.SelectionEntity.LeftSelectionId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLeftSelectionId is used in combination with RightSelectionId and CombinationType to define an union of two selections when SelectionType=Combined. \n"
+  summary: LeftSelectionId is used in combination with RightSelectionId and CombinationType to define an union of two selections when SelectionType=Combined.
+  example: []
   syntax:
-    content: public virtual int LeftSelectionId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int LeftSelectionId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property LeftSelectionId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LeftSelectionId As Integer
   overload: SuperOffice.CRM.Services.SelectionEntity.LeftSelectionId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.RightSelectionId
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.RightSelectionId
   id: RightSelectionId
@@ -1016,28 +1027,28 @@ items:
   nameWithType: SelectionEntity.RightSelectionId
   fullName: SuperOffice.CRM.Services.SelectionEntity.RightSelectionId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRightSelectionId  is used in combination with LeftSelectionId and CombinationType to define an union of two selections when SelectionType=Combined. \n"
+  summary: RightSelectionId  is used in combination with LeftSelectionId and CombinationType to define an union of two selections when SelectionType=Combined.
+  example: []
   syntax:
-    content: public virtual int RightSelectionId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int RightSelectionId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property RightSelectionId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RightSelectionId As Integer
   overload: SuperOffice.CRM.Services.SelectionEntity.RightSelectionId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.SelectionUnionType
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.SelectionUnionType
   id: SelectionUnionType
@@ -1049,28 +1060,28 @@ items:
   nameWithType: SelectionEntity.SelectionUnionType
   fullName: SuperOffice.CRM.Services.SelectionEntity.SelectionUnionType
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nHow to combine the two selections when SelectionType = Combined. \n"
+  summary: How to combine the two selections when SelectionType = Combined.
+  example: []
   syntax:
-    content: public virtual SelectionUnionType SelectionUnionType { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual SelectionUnionType SelectionUnionType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.SelectionUnionType
-    content.vb: Public Overridable Property SelectionUnionType As SelectionUnionType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SelectionUnionType As SelectionUnionType
   overload: SuperOffice.CRM.Services.SelectionEntity.SelectionUnionType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.MainProviderName
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.MainProviderName
   id: MainProviderName
@@ -1082,28 +1093,28 @@ items:
   nameWithType: SelectionEntity.MainProviderName
   fullName: SuperOffice.CRM.Services.SelectionEntity.MainProviderName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe name of the Archive Provider that will deliver the content of the archive - the actual entity rows \n"
+  summary: The name of the Archive Provider that will deliver the content of the archive - the actual entity rows
+  example: []
   syntax:
-    content: public virtual string MainProviderName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string MainProviderName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property MainProviderName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property MainProviderName As String
   overload: SuperOffice.CRM.Services.SelectionEntity.MainProviderName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.ShadowProviderName
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.ShadowProviderName
   id: ShadowProviderName
@@ -1115,28 +1126,28 @@ items:
   nameWithType: SelectionEntity.ShadowProviderName
   fullName: SuperOffice.CRM.Services.SelectionEntity.ShadowProviderName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe name, if relevant, of the Archive Provider that will deliver the Shadow rows: contact/person rows related to the actual entity. Can be blank, indicating that there is no shadow archive \n"
+  summary: 'The name, if relevant, of the Archive Provider that will deliver the Shadow rows: contact/person rows related to the actual entity. Can be blank, indicating that there is no shadow archive'
+  example: []
   syntax:
-    content: public virtual string ShadowProviderName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ShadowProviderName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ShadowProviderName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ShadowProviderName As String
   overload: SuperOffice.CRM.Services.SelectionEntity.ShadowProviderName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.ChartKey
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.ChartKey
   id: ChartKey
@@ -1148,28 +1159,28 @@ items:
   nameWithType: SelectionEntity.ChartKey
   fullName: SuperOffice.CRM.Services.SelectionEntity.ChartKey
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nID/key of the last-used chart tile on this selection \n"
+  summary: ID/key of the last-used chart tile on this selection
+  example: []
   syntax:
-    content: public virtual string ChartKey { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ChartKey { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ChartKey As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ChartKey As String
   overload: SuperOffice.CRM.Services.SelectionEntity.ChartKey*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.LastLoaded
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.LastLoaded
   id: LastLoaded
@@ -1181,28 +1192,28 @@ items:
   nameWithType: SelectionEntity.LastLoaded
   fullName: SuperOffice.CRM.Services.SelectionEntity.LastLoaded
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe date/time this selection was last loaded (selectionentity fetched) \n"
+  summary: The date/time this selection was last loaded (selectionentity fetched)
+  example: []
   syntax:
-    content: public virtual DateTime LastLoaded { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime LastLoaded { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property LastLoaded As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LastLoaded As Date
   overload: SuperOffice.CRM.Services.SelectionEntity.LastLoaded*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.LastLoadedBy
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.LastLoadedBy
   id: LastLoadedBy
@@ -1214,28 +1225,28 @@ items:
   nameWithType: SelectionEntity.LastLoadedBy
   fullName: SuperOffice.CRM.Services.SelectionEntity.LastLoadedBy
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nWho last loaded this selection \n"
+  summary: Who last loaded this selection
+  example: []
   syntax:
-    content: public virtual int LastLoadedBy { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int LastLoadedBy { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property LastLoadedBy As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LastLoadedBy As Integer
   overload: SuperOffice.CRM.Services.SelectionEntity.LastLoadedBy*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.LastLoadedByAssociate
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.LastLoadedByAssociate
   id: LastLoadedByAssociate
@@ -1247,28 +1258,28 @@ items:
   nameWithType: SelectionEntity.LastLoadedByAssociate
   fullName: SuperOffice.CRM.Services.SelectionEntity.LastLoadedByAssociate
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAssociate that last looked at the selection members; only date (not time) is valid \n"
+  summary: Associate that last looked at the selection members; only date (not time) is valid
+  example: []
   syntax:
-    content: public virtual Associate LastLoadedByAssociate { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Associate LastLoadedByAssociate { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Associate
-    content.vb: Public Overridable Property LastLoadedByAssociate As Associate
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LastLoadedByAssociate As Associate
   overload: SuperOffice.CRM.Services.SelectionEntity.LastLoadedByAssociate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.LastMembershipChange
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.LastMembershipChange
   id: LastMembershipChange
@@ -1280,28 +1291,28 @@ items:
   nameWithType: SelectionEntity.LastMembershipChange
   fullName: SuperOffice.CRM.Services.SelectionEntity.LastMembershipChange
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe date/time the membership the selection last changed. Dynamic: change of criteria; Static: add/remove members; Combined: change of algorithm \n"
+  summary: 'The date/time the membership the selection last changed. Dynamic: change of criteria; Static: add/remove members; Combined: change of algorithm'
+  example: []
   syntax:
-    content: public virtual DateTime LastMembershipChange { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime LastMembershipChange { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property LastMembershipChange As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LastMembershipChange As Date
   overload: SuperOffice.CRM.Services.SelectionEntity.LastMembershipChange*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.LastMembershipChangeBy
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.LastMembershipChangeBy
   id: LastMembershipChangeBy
@@ -1313,28 +1324,28 @@ items:
   nameWithType: SelectionEntity.LastMembershipChangeBy
   fullName: SuperOffice.CRM.Services.SelectionEntity.LastMembershipChangeBy
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nWho last changed the membership \n"
+  summary: Who last changed the membership
+  example: []
   syntax:
-    content: public virtual int LastMembershipChangeBy { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int LastMembershipChangeBy { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property LastMembershipChangeBy As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LastMembershipChangeBy As Integer
   overload: SuperOffice.CRM.Services.SelectionEntity.LastMembershipChangeBy*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.LastMembershipChangeByAssociate
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.LastMembershipChangeByAssociate
   id: LastMembershipChangeByAssociate
@@ -1346,28 +1357,28 @@ items:
   nameWithType: SelectionEntity.LastMembershipChangeByAssociate
   fullName: SuperOffice.CRM.Services.SelectionEntity.LastMembershipChangeByAssociate
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAssociate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid \n"
+  summary: Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid
+  example: []
   syntax:
-    content: public virtual Associate LastMembershipChangeByAssociate { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Associate LastMembershipChangeByAssociate { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Associate
-    content.vb: Public Overridable Property LastMembershipChangeByAssociate As Associate
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LastMembershipChangeByAssociate As Associate
   overload: SuperOffice.CRM.Services.SelectionEntity.LastMembershipChangeByAssociate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.MainHeading
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.MainHeading
   id: MainHeading
@@ -1379,28 +1390,28 @@ items:
   nameWithType: SelectionEntity.MainHeading
   fullName: SuperOffice.CRM.Services.SelectionEntity.MainHeading
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n&apos;Static selection of Companies&apos;, or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references \n"
+  summary: "'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references"
+  example: []
   syntax:
-    content: public virtual string MainHeading { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string MainHeading { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property MainHeading As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property MainHeading As String
   overload: SuperOffice.CRM.Services.SelectionEntity.MainHeading*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.MemberTabHeading
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.MemberTabHeading
   id: MemberTabHeading
@@ -1412,28 +1423,28 @@ items:
   nameWithType: SelectionEntity.MemberTabHeading
   fullName: SuperOffice.CRM.Services.SelectionEntity.MemberTabHeading
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n&apos;Companies&apos;, or whatever else is appropriate - the plural form of the entity name; this string will contain resource references \n"
+  summary: "'Companies', or whatever else is appropriate - the plural form of the entity name; this string will contain resource references"
+  example: []
   syntax:
-    content: public virtual string MemberTabHeading { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string MemberTabHeading { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property MemberTabHeading As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property MemberTabHeading As String
   overload: SuperOffice.CRM.Services.SelectionEntity.MemberTabHeading*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.MailingsProviderName
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.MailingsProviderName
   id: MailingsProviderName
@@ -1445,28 +1456,28 @@ items:
   nameWithType: SelectionEntity.MailingsProviderName
   fullName: SuperOffice.CRM.Services.SelectionEntity.MailingsProviderName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe name of the provider for the Mailings tab, if relevant; this string will contain resource references \n"
+  summary: The name of the provider for the Mailings tab, if relevant; this string will contain resource references
+  example: []
   syntax:
-    content: public virtual string MailingsProviderName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string MailingsProviderName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property MailingsProviderName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property MailingsProviderName As String
   overload: SuperOffice.CRM.Services.SelectionEntity.MailingsProviderName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.DashboardTileDefinitionId
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.DashboardTileDefinitionId
   id: DashboardTileDefinitionId
@@ -1478,28 +1489,28 @@ items:
   nameWithType: SelectionEntity.DashboardTileDefinitionId
   fullName: SuperOffice.CRM.Services.SelectionEntity.DashboardTileDefinitionId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe associated tile definition \n"
+  summary: The associated tile definition
+  example: []
   syntax:
-    content: public virtual int DashboardTileDefinitionId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int DashboardTileDefinitionId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property DashboardTileDefinitionId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DashboardTileDefinitionId As Integer
   overload: SuperOffice.CRM.Services.SelectionEntity.DashboardTileDefinitionId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SelectionEntity.VisibleFor
   commentId: P:SuperOffice.CRM.Services.SelectionEntity.VisibleFor
   id: VisibleFor
@@ -1511,214 +1522,116 @@ items:
   nameWithType: SelectionEntity.VisibleFor
   fullName: SuperOffice.CRM.Services.SelectionEntity.VisibleFor
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe set of users or groups the record is visible for\n"
+  summary: The set of users or groups the record is visible for
+  example: []
   syntax:
-    content: public VisibleFor[] VisibleFor { get; set; }
+    content: >-
+      [DataMember]
+
+      public VisibleFor[] VisibleFor { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.VisibleFor[]
-    content.vb: Public Property VisibleFor As VisibleFor()
+    content.vb: >-
+      <DataMember>
+
+      Public Property VisibleFor As VisibleFor()
   overload: SuperOffice.CRM.Services.SelectionEntity.VisibleFor*
   implements:
   - SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.IVisibleForCarrier
-  commentId: T:SuperOffice.CRM.Services.IVisibleForCarrier
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: IVisibleForCarrier
-  nameWithType: IVisibleForCarrier
-  fullName: SuperOffice.CRM.Services.IVisibleForCarrier
-- uid: SuperOffice.CRM.Services.SelectionAgent
-  commentId: T:SuperOffice.CRM.Services.SelectionAgent
-  isExternal: true
-  name: SelectionAgent
-  nameWithType: SelectionAgent
-  fullName: SuperOffice.CRM.Services.SelectionAgent
 - uid: SuperOffice.CRM.Services.ISelectionAgent
   commentId: T:SuperOffice.CRM.Services.ISelectionAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ISelectionAgent.html
   name: ISelectionAgent
   nameWithType: ISelectionAgent
   fullName: SuperOffice.CRM.Services.ISelectionAgent
-- uid: SuperOffice.CRM.Services.ArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  name: ArchiveAgent
-  nameWithType: ArchiveAgent
-  fullName: SuperOffice.CRM.Services.ArchiveAgent
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-  parent: SuperOffice.CRM.Services.IArchiveAgent
-  isExternal: true
-  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
-  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-    name: GetArchiveListByColumns2
-    nameWithType: IArchiveAgent.GetArchiveListByColumns2
-    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
-    name: GetArchiveListByColumns2
-    nameWithType: IArchiveAgent.GetArchiveListByColumns2
-    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.IArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.CRM.Services.IVisibleForCarrier
+  commentId: T:SuperOffice.CRM.Services.IVisibleForCarrier
   parent: SuperOffice.CRM.Services
   isExternal: true
-  name: IArchiveAgent
-  nameWithType: IArchiveAgent
-  fullName: SuperOffice.CRM.Services.IArchiveAgent
+  href: SuperOffice.CRM.Services.IVisibleForCarrier.html
+  name: IVisibleForCarrier
+  nameWithType: IVisibleForCarrier
+  fullName: SuperOffice.CRM.Services.IVisibleForCarrier
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.SelectionEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity__ctor
   name: SelectionEntity
   nameWithType: SelectionEntity.SelectionEntity
   fullName: SuperOffice.CRM.Services.SelectionEntity.SelectionEntity
+  nameWithType.vb: SelectionEntity.New
+  fullName.vb: SuperOffice.CRM.Services.SelectionEntity.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.SelectionEntity.ToString*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_ToString
   name: ToString
   nameWithType: SelectionEntity.ToString
   fullName: SuperOffice.CRM.Services.SelectionEntity.ToString
@@ -1726,30 +1639,31 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.SelectionEntity.Description*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.Description
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_Description
   name: Description
   nameWithType: SelectionEntity.Description
   fullName: SuperOffice.CRM.Services.SelectionEntity.Description
 - uid: SuperOffice.CRM.Services.SelectionEntity.Postit*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.Postit
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_Postit
   name: Postit
   nameWithType: SelectionEntity.Postit
   fullName: SuperOffice.CRM.Services.SelectionEntity.Postit
 - uid: SuperOffice.CRM.Services.SelectionEntity.Associate*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.Associate
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_Associate
   name: Associate
   nameWithType: SelectionEntity.Associate
   fullName: SuperOffice.CRM.Services.SelectionEntity.Associate
@@ -1757,24 +1671,28 @@ references:
   commentId: T:SuperOffice.CRM.Services.Associate
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.Associate.html
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.CRM.Services.Associate
 - uid: SuperOffice.CRM.Services.SelectionEntity.CreatedBy*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.CreatedBy
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_CreatedBy
   name: CreatedBy
   nameWithType: SelectionEntity.CreatedBy
   fullName: SuperOffice.CRM.Services.SelectionEntity.CreatedBy
 - uid: SuperOffice.CRM.Services.SelectionEntity.UpdatedBy*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.UpdatedBy
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_UpdatedBy
   name: UpdatedBy
   nameWithType: SelectionEntity.UpdatedBy
   fullName: SuperOffice.CRM.Services.SelectionEntity.UpdatedBy
 - uid: SuperOffice.CRM.Services.SelectionEntity.SelectionCategory*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.SelectionCategory
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_SelectionCategory
   name: SelectionCategory
   nameWithType: SelectionEntity.SelectionCategory
   fullName: SuperOffice.CRM.Services.SelectionEntity.SelectionCategory
@@ -1782,12 +1700,14 @@ references:
   commentId: T:SuperOffice.CRM.Services.SelectionCategory
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionCategory.html
   name: SelectionCategory
   nameWithType: SelectionCategory
   fullName: SuperOffice.CRM.Services.SelectionCategory
 - uid: SuperOffice.CRM.Services.SelectionEntity.GroupIdx*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.GroupIdx
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_GroupIdx
   name: GroupIdx
   nameWithType: SelectionEntity.GroupIdx
   fullName: SuperOffice.CRM.Services.SelectionEntity.GroupIdx
@@ -1795,18 +1715,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.SelectionEntity.IncludePerson*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.IncludePerson
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_IncludePerson
   name: IncludePerson
   nameWithType: SelectionEntity.IncludePerson
   fullName: SuperOffice.CRM.Services.SelectionEntity.IncludePerson
 - uid: SuperOffice.CRM.Services.SelectionEntity.MemberCount*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.MemberCount
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_MemberCount
   name: MemberCount
   nameWithType: SelectionEntity.MemberCount
   fullName: SuperOffice.CRM.Services.SelectionEntity.MemberCount
@@ -1814,47 +1740,63 @@ references:
   commentId: T:System.UInt32
   parent: System
   isExternal: true
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
 - uid: SuperOffice.CRM.Services.SelectionEntity.Name*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.Name
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_Name
   name: Name
   nameWithType: SelectionEntity.Name
   fullName: SuperOffice.CRM.Services.SelectionEntity.Name
 - uid: SuperOffice.CRM.Services.SelectionEntity.PostitTextId*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.PostitTextId
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_PostitTextId
   name: PostitTextId
   nameWithType: SelectionEntity.PostitTextId
   fullName: SuperOffice.CRM.Services.SelectionEntity.PostitTextId
 - uid: SuperOffice.CRM.Services.SelectionEntity.CreatedDate*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.CreatedDate
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_CreatedDate
   name: CreatedDate
   nameWithType: SelectionEntity.CreatedDate
   fullName: SuperOffice.CRM.Services.SelectionEntity.CreatedDate
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Services.SelectionEntity.SelectionId*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.SelectionId
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_SelectionId
   name: SelectionId
   nameWithType: SelectionEntity.SelectionId
   fullName: SuperOffice.CRM.Services.SelectionEntity.SelectionId
 - uid: SuperOffice.CRM.Services.SelectionEntity.SoundEx*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.SoundEx
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_SoundEx
   name: SoundEx
   nameWithType: SelectionEntity.SoundEx
   fullName: SuperOffice.CRM.Services.SelectionEntity.SoundEx
 - uid: SuperOffice.CRM.Services.SelectionEntity.Source*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.Source
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_Source
   name: Source
   nameWithType: SelectionEntity.Source
   fullName: SuperOffice.CRM.Services.SelectionEntity.Source
@@ -1862,36 +1804,45 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Services.SelectionEntity.TextId*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.TextId
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_TextId
   name: TextId
   nameWithType: SelectionEntity.TextId
   fullName: SuperOffice.CRM.Services.SelectionEntity.TextId
 - uid: SuperOffice.CRM.Services.SelectionEntity.UpdatedDate*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.UpdatedDate
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_UpdatedDate
   name: UpdatedDate
   nameWithType: SelectionEntity.UpdatedDate
   fullName: SuperOffice.CRM.Services.SelectionEntity.UpdatedDate
 - uid: SuperOffice.CRM.Services.SelectionEntity.UpdatedCount*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.UpdatedCount
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_UpdatedCount
   name: UpdatedCount
   nameWithType: SelectionEntity.UpdatedCount
   fullName: SuperOffice.CRM.Services.SelectionEntity.UpdatedCount
 - uid: SuperOffice.CRM.Services.SelectionEntity.Visibility*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.Visibility
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_Visibility
   name: Visibility
   nameWithType: SelectionEntity.Visibility
   fullName: SuperOffice.CRM.Services.SelectionEntity.Visibility
 - uid: SuperOffice.CRM.Services.SelectionEntity.SelectionType*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.SelectionType
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_SelectionType
   name: SelectionType
   nameWithType: SelectionEntity.SelectionType
   fullName: SuperOffice.CRM.Services.SelectionEntity.SelectionType
@@ -1903,6 +1854,7 @@ references:
 - uid: SuperOffice.CRM.Services.SelectionEntity.CompanyUnique*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.CompanyUnique
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_CompanyUnique
   name: CompanyUnique
   nameWithType: SelectionEntity.CompanyUnique
   fullName: SuperOffice.CRM.Services.SelectionEntity.CompanyUnique
@@ -1910,42 +1862,52 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.SelectionEntity.TargetTableNumber*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.TargetTableNumber
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_TargetTableNumber
   name: TargetTableNumber
   nameWithType: SelectionEntity.TargetTableNumber
   fullName: SuperOffice.CRM.Services.SelectionEntity.TargetTableNumber
 - uid: SuperOffice.CRM.Services.SelectionEntity.TargetTableName*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.TargetTableName
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_TargetTableName
   name: TargetTableName
   nameWithType: SelectionEntity.TargetTableName
   fullName: SuperOffice.CRM.Services.SelectionEntity.TargetTableName
 - uid: SuperOffice.CRM.Services.SelectionEntity.Completed*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.Completed
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_Completed
   name: Completed
   nameWithType: SelectionEntity.Completed
   fullName: SuperOffice.CRM.Services.SelectionEntity.Completed
 - uid: SuperOffice.CRM.Services.SelectionEntity.LeftSelectionId*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.LeftSelectionId
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_LeftSelectionId
   name: LeftSelectionId
   nameWithType: SelectionEntity.LeftSelectionId
   fullName: SuperOffice.CRM.Services.SelectionEntity.LeftSelectionId
 - uid: SuperOffice.CRM.Services.SelectionEntity.RightSelectionId*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.RightSelectionId
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_RightSelectionId
   name: RightSelectionId
   nameWithType: SelectionEntity.RightSelectionId
   fullName: SuperOffice.CRM.Services.SelectionEntity.RightSelectionId
 - uid: SuperOffice.CRM.Services.SelectionEntity.SelectionUnionType*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.SelectionUnionType
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_SelectionUnionType
   name: SelectionUnionType
   nameWithType: SelectionEntity.SelectionUnionType
   fullName: SuperOffice.CRM.Services.SelectionEntity.SelectionUnionType
@@ -1958,84 +1920,98 @@ references:
 - uid: SuperOffice.CRM.Services.SelectionEntity.MainProviderName*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.MainProviderName
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_MainProviderName
   name: MainProviderName
   nameWithType: SelectionEntity.MainProviderName
   fullName: SuperOffice.CRM.Services.SelectionEntity.MainProviderName
 - uid: SuperOffice.CRM.Services.SelectionEntity.ShadowProviderName*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.ShadowProviderName
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_ShadowProviderName
   name: ShadowProviderName
   nameWithType: SelectionEntity.ShadowProviderName
   fullName: SuperOffice.CRM.Services.SelectionEntity.ShadowProviderName
 - uid: SuperOffice.CRM.Services.SelectionEntity.ChartKey*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.ChartKey
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_ChartKey
   name: ChartKey
   nameWithType: SelectionEntity.ChartKey
   fullName: SuperOffice.CRM.Services.SelectionEntity.ChartKey
 - uid: SuperOffice.CRM.Services.SelectionEntity.LastLoaded*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.LastLoaded
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_LastLoaded
   name: LastLoaded
   nameWithType: SelectionEntity.LastLoaded
   fullName: SuperOffice.CRM.Services.SelectionEntity.LastLoaded
 - uid: SuperOffice.CRM.Services.SelectionEntity.LastLoadedBy*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.LastLoadedBy
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_LastLoadedBy
   name: LastLoadedBy
   nameWithType: SelectionEntity.LastLoadedBy
   fullName: SuperOffice.CRM.Services.SelectionEntity.LastLoadedBy
 - uid: SuperOffice.CRM.Services.SelectionEntity.LastLoadedByAssociate*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.LastLoadedByAssociate
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_LastLoadedByAssociate
   name: LastLoadedByAssociate
   nameWithType: SelectionEntity.LastLoadedByAssociate
   fullName: SuperOffice.CRM.Services.SelectionEntity.LastLoadedByAssociate
 - uid: SuperOffice.CRM.Services.SelectionEntity.LastMembershipChange*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.LastMembershipChange
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_LastMembershipChange
   name: LastMembershipChange
   nameWithType: SelectionEntity.LastMembershipChange
   fullName: SuperOffice.CRM.Services.SelectionEntity.LastMembershipChange
 - uid: SuperOffice.CRM.Services.SelectionEntity.LastMembershipChangeBy*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.LastMembershipChangeBy
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_LastMembershipChangeBy
   name: LastMembershipChangeBy
   nameWithType: SelectionEntity.LastMembershipChangeBy
   fullName: SuperOffice.CRM.Services.SelectionEntity.LastMembershipChangeBy
 - uid: SuperOffice.CRM.Services.SelectionEntity.LastMembershipChangeByAssociate*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.LastMembershipChangeByAssociate
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_LastMembershipChangeByAssociate
   name: LastMembershipChangeByAssociate
   nameWithType: SelectionEntity.LastMembershipChangeByAssociate
   fullName: SuperOffice.CRM.Services.SelectionEntity.LastMembershipChangeByAssociate
 - uid: SuperOffice.CRM.Services.SelectionEntity.MainHeading*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.MainHeading
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_MainHeading
   name: MainHeading
   nameWithType: SelectionEntity.MainHeading
   fullName: SuperOffice.CRM.Services.SelectionEntity.MainHeading
 - uid: SuperOffice.CRM.Services.SelectionEntity.MemberTabHeading*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.MemberTabHeading
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_MemberTabHeading
   name: MemberTabHeading
   nameWithType: SelectionEntity.MemberTabHeading
   fullName: SuperOffice.CRM.Services.SelectionEntity.MemberTabHeading
 - uid: SuperOffice.CRM.Services.SelectionEntity.MailingsProviderName*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.MailingsProviderName
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_MailingsProviderName
   name: MailingsProviderName
   nameWithType: SelectionEntity.MailingsProviderName
   fullName: SuperOffice.CRM.Services.SelectionEntity.MailingsProviderName
 - uid: SuperOffice.CRM.Services.SelectionEntity.DashboardTileDefinitionId*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.DashboardTileDefinitionId
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_DashboardTileDefinitionId
   name: DashboardTileDefinitionId
   nameWithType: SelectionEntity.DashboardTileDefinitionId
   fullName: SuperOffice.CRM.Services.SelectionEntity.DashboardTileDefinitionId
 - uid: SuperOffice.CRM.Services.SelectionEntity.VisibleFor*
   commentId: Overload:SuperOffice.CRM.Services.SelectionEntity.VisibleFor
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectionEntity.html#SuperOffice_CRM_Services_SelectionEntity_VisibleFor
   name: VisibleFor
   nameWithType: SelectionEntity.VisibleFor
   fullName: SuperOffice.CRM.Services.SelectionEntity.VisibleFor
@@ -2043,11 +2019,13 @@ references:
   commentId: P:SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
   parent: SuperOffice.CRM.Services.IVisibleForCarrier
   isExternal: true
+  href: SuperOffice.CRM.Services.IVisibleForCarrier.html#SuperOffice_CRM_Services_IVisibleForCarrier_VisibleFor
   name: VisibleFor
   nameWithType: IVisibleForCarrier.VisibleFor
   fullName: SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
 - uid: SuperOffice.CRM.Services.VisibleFor[]
   isExternal: true
+  href: SuperOffice.CRM.Services.VisibleFor.html
   name: VisibleFor[]
   nameWithType: VisibleFor[]
   fullName: SuperOffice.CRM.Services.VisibleFor[]
@@ -2057,18 +2035,14 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.VisibleFor
     name: VisibleFor
-    nameWithType: VisibleFor
-    fullName: SuperOffice.CRM.Services.VisibleFor
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.VisibleFor.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.VisibleFor
     name: VisibleFor
-    nameWithType: VisibleFor
-    fullName: SuperOffice.CRM.Services.VisibleFor
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.VisibleFor.html
+  - name: (
+  - name: )

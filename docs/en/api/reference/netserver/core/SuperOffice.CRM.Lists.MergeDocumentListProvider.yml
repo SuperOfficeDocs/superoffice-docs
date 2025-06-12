@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Lists
   children:
   - SuperOffice.CRM.Lists.MergeDocumentListProvider.#ctor
-  - SuperOffice.CRM.Lists.MergeDocumentListProvider.GetMainQuery
+  - SuperOffice.CRM.Lists.MergeDocumentListProvider.GetMainQueryAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Lists.MergeDocumentListProvider.HistoryInfo
   - SuperOffice.CRM.Lists.MergeDocumentListProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
   - SuperOffice.CRM.Lists.MergeDocumentListProvider.ProviderName
@@ -18,24 +18,20 @@ items:
   nameWithType: MergeDocumentListProvider
   fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Lists
-  summary: "\nMDO list provider for documents marked as type <xref href=\"SuperOffice.Data.TaskType.MailMergeDraft\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: MDO list provider for documents marked as type <xref href="SuperOffice.Data.TaskType.MailMergeDraft" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: >-
       [MDOProviderPlugin("mergedocument")]
 
-      public class MergeDocumentListProvider : DocumentListProvider, ISoListProvider, ISoList, IPlugin
+      public class MergeDocumentListProvider : DocumentListProvider, ISoListProvider, ISoList
     content.vb: >-
       <MDOProviderPlugin("mergedocument")>
 
-      Public Class MergeDocumentListProvider
-          Inherits DocumentListProvider
-          Implements ISoListProvider, ISoList, IPlugin
+      Public Class MergeDocumentListProvider Inherits DocumentListProvider Implements ISoListProvider, ISoList
   inheritance:
   - System.Object
   - SuperOffice.CRM.Lists.AnyTableListProviderBase
@@ -45,16 +41,22 @@ items:
   - SuperOffice.CRM.Lists.ISoList
   inheritedMembers:
   - SuperOffice.CRM.Lists.DocumentListProvider._documentTableInfo
-  - SuperOffice.CRM.Lists.DocumentListProvider.Init
-  - SuperOffice.CRM.Lists.DocumentListProvider.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
+  - SuperOffice.CRM.Lists.DocumentListProvider.InitAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.DocumentListProvider.SetSearchRestrictionAsync(SuperOffice.Data.SQL.Select,System.String)
   - SuperOffice.CRM.Lists.DocumentListProvider.TableInfo
-  - SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
-  - SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
-  - SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
-  - SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
-  - SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
-  - SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
-  - SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase._historyListSize
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.ClearHistoryItems
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItemsFromDbAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItemsAsync
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItemsAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItemsAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryListSizeFromPreference
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQueryAsync(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReaderAsync(SuperOffice.Data.SoCommand,System.Threading.CancellationToken)
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.ListName
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.AdditionalInfo
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryIDs
@@ -62,26 +64,24 @@ items:
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.ForceFlatList
-  - SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryItems
-  - SuperOffice.CRM.Lists.AnyTableListProviderBase.RootItems
-  - SuperOffice.CRM.Lists.AnyTableListProviderBase.HeadingItems
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Lists.MergeDocumentListProvider.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Lists.MergeDocumentListProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Lists.MergeDocumentListProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.MergeDocumentListProvider)
   - SuperOffice.CRM.Lists.MergeDocumentListProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Lists.MergeDocumentListProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.CRM.Lists.MDOProviderPluginAttribute
     ctor: SuperOffice.CRM.Lists.MDOProviderPluginAttribute.#ctor(System.String)
     arguments:
     - type: System.String
       value: mergedocument
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.ProviderName
   commentId: F:SuperOffice.CRM.Lists.MergeDocumentListProvider.ProviderName
   id: ProviderName
@@ -93,24 +93,16 @@ items:
   nameWithType: MergeDocumentListProvider.ProviderName
   fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider.ProviderName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Lists
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public const string ProviderName = "mergedocument"
     return:
       type: System.String
     content.vb: Public Const ProviderName As String = "mergedocument"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.#ctor
   commentId: M:SuperOffice.CRM.Lists.MergeDocumentListProvider.#ctor
   id: '#ctor'
@@ -122,52 +114,45 @@ items:
   nameWithType: MergeDocumentListProvider.MergeDocumentListProvider()
   fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider.MergeDocumentListProvider()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Lists
-  summary: "\nConstructor\n"
+  summary: Constructor
+  example: []
   syntax:
     content: public MergeDocumentListProvider()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Lists.MergeDocumentListProvider.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.GetMainQuery
-  commentId: M:SuperOffice.CRM.Lists.MergeDocumentListProvider.GetMainQuery
-  id: GetMainQuery
+  nameWithType.vb: MergeDocumentListProvider.New()
+  fullName.vb: SuperOffice.CRM.Lists.MergeDocumentListProvider.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.GetMainQueryAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.MergeDocumentListProvider.GetMainQueryAsync(System.Threading.CancellationToken)
+  id: GetMainQueryAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.MergeDocumentListProvider
   langs:
   - csharp
   - vb
-  name: GetMainQuery()
-  nameWithType: MergeDocumentListProvider.GetMainQuery()
-  fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider.GetMainQuery()
+  name: GetMainQueryAsync(CancellationToken)
+  nameWithType: MergeDocumentListProvider.GetMainQueryAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider.GetMainQueryAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Lists
-  summary: "\nGet the main query for returning mailmerge documents.\n"
+  summary: Get the main query for returning mailmerge documents.
+  example: []
   syntax:
-    content: protected override Select GetMainQuery()
+    content: protected override Task<Select> GetMainQueryAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.SQL.Select
-    content.vb: 'Protected Overrides Function GetMainQuery As '
-  overridden: SuperOffice.CRM.Lists.DocumentListProvider.GetMainQuery
-  overload: SuperOffice.CRM.Lists.MergeDocumentListProvider.GetMainQuery*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Select}
+      description: ''
+    content.vb: Protected Overrides Function GetMainQueryAsync(cancellationToken As CancellationToken = Nothing) As Task(Of [Select])
+  overridden: SuperOffice.CRM.Lists.DocumentListProvider.GetMainQueryAsync(System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Lists.MergeDocumentListProvider.GetMainQueryAsync*
 - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
   commentId: M:SuperOffice.CRM.Lists.MergeDocumentListProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
   id: OnRead(SuperOffice.Data.SoDataReader,System.Int16)
@@ -175,17 +160,18 @@ items:
   langs:
   - csharp
   - vb
-  name: OnRead(SoDataReader, Int16)
-  nameWithType: MergeDocumentListProvider.OnRead(SoDataReader, Int16)
-  fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider.OnRead(SuperOffice.Data.SoDataReader, System.Int16)
+  name: OnRead(SoDataReader, short)
+  nameWithType: MergeDocumentListProvider.OnRead(SoDataReader, short)
+  fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider.OnRead(SuperOffice.Data.SoDataReader, short)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Lists
-  summary: "\nRaised every time a new row has been read from the database.  \nIf the <xref href=\"SuperOffice.CRM.Lists.ISoListItem\" data-throw-if-not-resolved=\"false\"></xref>.Name is empty, it is replaced with a resource string for (blank). \n"
+  summary: >-
+    Raised every time a new row has been read from the database.  
+
+    If the <xref href="SuperOffice.CRM.Lists.ISoListItem" data-throw-if-not-resolved="false"></xref>.Name is empty, it is replaced with a resource string for (blank).
+  example: []
   syntax:
     content: protected override ISoListItem OnRead(SoDataReader reader, short lastRank)
     parameters:
@@ -201,12 +187,9 @@ items:
     content.vb: Protected Overrides Function OnRead(reader As SoDataReader, lastRank As Short) As ISoListItem
   overridden: SuperOffice.CRM.Lists.DocumentListProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
   overload: SuperOffice.CRM.Lists.MergeDocumentListProvider.OnRead*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
+  nameWithType.vb: MergeDocumentListProvider.OnRead(SoDataReader, Short)
+  fullName.vb: SuperOffice.CRM.Lists.MergeDocumentListProvider.OnRead(SuperOffice.Data.SoDataReader, Short)
+  name.vb: OnRead(SoDataReader, Short)
 - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
   commentId: M:SuperOffice.CRM.Lists.MergeDocumentListProvider.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
   id: SetHistoryRestriction(SuperOffice.Data.SQL.Select)
@@ -218,28 +201,20 @@ items:
   nameWithType: MergeDocumentListProvider.SetHistoryRestriction(Select)
   fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Lists
-  summary: "\nSet History restriction to the query. Only histories with extraId = <xref href=\"SuperOffice.Data.TaskType.MailMergeDraft\" data-throw-if-not-resolved=\"false\"></xref> are returned.\n"
+  summary: Set History restriction to the query. Only histories with extraId = <xref href="SuperOffice.Data.TaskType.MailMergeDraft" data-throw-if-not-resolved="false"></xref> are returned.
+  example: []
   syntax:
     content: protected override void SetHistoryRestriction(Select sql)
     parameters:
     - id: sql
       type: SuperOffice.Data.SQL.Select
       description: The query to modify.
-    content.vb: Protected Overrides Sub SetHistoryRestriction(sql As  Select)
+    content.vb: Protected Overrides Sub SetHistoryRestriction(sql As [Select])
   overridden: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
   overload: SuperOffice.CRM.Lists.MergeDocumentListProvider.SetHistoryRestriction*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
 - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.HistoryInfo
   commentId: P:SuperOffice.CRM.Lists.MergeDocumentListProvider.HistoryInfo
   id: HistoryInfo
@@ -251,13 +226,11 @@ items:
   nameWithType: MergeDocumentListProvider.HistoryInfo
   fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider.HistoryInfo
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Lists
-  summary: "\nHistory information for a history of type MailMerge.\n"
+  summary: History information for a history of type MailMerge.
+  example: []
   syntax:
     content: public override HistoryInfo HistoryInfo { get; }
     parameters: []
@@ -266,32 +239,66 @@ items:
     content.vb: Public Overrides ReadOnly Property HistoryInfo As HistoryInfo
   overridden: SuperOffice.CRM.Lists.DocumentListProvider.HistoryInfo
   overload: SuperOffice.CRM.Lists.MergeDocumentListProvider.HistoryInfo*
-  modifiers.csharp:
-  - public
-  - override
-  - get
-  modifiers.vb:
-  - Public
-  - Overrides
-  - ReadOnly
 references:
+- uid: SuperOffice.Data.TaskType.MailMergeDraft
+  commentId: F:SuperOffice.Data.TaskType.MailMergeDraft
+  isExternal: true
+  name: MailMergeDraft
+  nameWithType: TaskType.MailMergeDraft
+  fullName: SuperOffice.Data.TaskType.MailMergeDraft
 - uid: SuperOffice.CRM.Lists
   commentId: N:SuperOffice.CRM.Lists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Lists
   nameWithType: SuperOffice.CRM.Lists
   fullName: SuperOffice.CRM.Lists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Lists
+    name: Lists
+    isExternal: true
+    href: SuperOffice.CRM.Lists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Lists
+    name: Lists
+    isExternal: true
+    href: SuperOffice.CRM.Lists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase
   commentId: T:SuperOffice.CRM.Lists.AnyTableListProviderBase
   parent: SuperOffice.CRM.Lists
   isExternal: true
+  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html
   name: AnyTableListProviderBase
   nameWithType: AnyTableListProviderBase
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase
@@ -299,6 +306,7 @@ references:
   commentId: T:SuperOffice.CRM.Lists.DocumentListProvider
   parent: SuperOffice.CRM.Lists
   isExternal: true
+  href: SuperOffice.CRM.Lists.DocumentListProvider.html
   name: DocumentListProvider
   nameWithType: DocumentListProvider
   fullName: SuperOffice.CRM.Lists.DocumentListProvider
@@ -306,6 +314,7 @@ references:
   commentId: T:SuperOffice.CRM.Lists.ISoListProvider
   parent: SuperOffice.CRM.Lists
   isExternal: true
+  href: SuperOffice.CRM.Lists.ISoListProvider.html
   name: ISoListProvider
   nameWithType: ISoListProvider
   fullName: SuperOffice.CRM.Lists.ISoListProvider
@@ -313,6 +322,7 @@ references:
   commentId: T:SuperOffice.CRM.Lists.ISoList
   parent: SuperOffice.CRM.Lists
   isExternal: true
+  href: SuperOffice.CRM.Lists.ISoList.html
   name: ISoList
   nameWithType: ISoList
   fullName: SuperOffice.CRM.Lists.ISoList
@@ -320,551 +330,567 @@ references:
   commentId: F:SuperOffice.CRM.Lists.DocumentListProvider._documentTableInfo
   parent: SuperOffice.CRM.Lists.DocumentListProvider
   isExternal: true
+  href: SuperOffice.CRM.Lists.DocumentListProvider.html#SuperOffice_CRM_Lists_DocumentListProvider__documentTableInfo
   name: _documentTableInfo
   nameWithType: DocumentListProvider._documentTableInfo
   fullName: SuperOffice.CRM.Lists.DocumentListProvider._documentTableInfo
-- uid: SuperOffice.CRM.Lists.DocumentListProvider.Init
-  commentId: M:SuperOffice.CRM.Lists.DocumentListProvider.Init
+- uid: SuperOffice.CRM.Lists.DocumentListProvider.InitAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.DocumentListProvider.InitAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.DocumentListProvider
   isExternal: true
-  name: Init()
-  nameWithType: DocumentListProvider.Init()
-  fullName: SuperOffice.CRM.Lists.DocumentListProvider.Init()
+  href: SuperOffice.CRM.Lists.DocumentListProvider.html#SuperOffice_CRM_Lists_DocumentListProvider_InitAsync_System_Threading_CancellationToken_
+  name: InitAsync(CancellationToken)
+  nameWithType: DocumentListProvider.InitAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.DocumentListProvider.InitAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.DocumentListProvider.Init
-    name: Init
-    nameWithType: DocumentListProvider.Init
-    fullName: SuperOffice.CRM.Lists.DocumentListProvider.Init
+  - uid: SuperOffice.CRM.Lists.DocumentListProvider.InitAsync(System.Threading.CancellationToken)
+    name: InitAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.DocumentListProvider.html#SuperOffice_CRM_Lists_DocumentListProvider_InitAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.DocumentListProvider.Init
-    name: Init
-    nameWithType: DocumentListProvider.Init
-    fullName: SuperOffice.CRM.Lists.DocumentListProvider.Init
+  - uid: SuperOffice.CRM.Lists.DocumentListProvider.InitAsync(System.Threading.CancellationToken)
+    name: InitAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.DocumentListProvider.html#SuperOffice_CRM_Lists_DocumentListProvider_InitAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.DocumentListProvider.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
-  commentId: M:SuperOffice.CRM.Lists.DocumentListProvider.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
+- uid: SuperOffice.CRM.Lists.DocumentListProvider.SetSearchRestrictionAsync(SuperOffice.Data.SQL.Select,System.String)
+  commentId: M:SuperOffice.CRM.Lists.DocumentListProvider.SetSearchRestrictionAsync(SuperOffice.Data.SQL.Select,System.String)
   parent: SuperOffice.CRM.Lists.DocumentListProvider
   isExternal: true
-  name: SetSearchRestriction(Select, String)
-  nameWithType: DocumentListProvider.SetSearchRestriction(Select, String)
-  fullName: SuperOffice.CRM.Lists.DocumentListProvider.SetSearchRestriction(SuperOffice.Data.SQL.Select, System.String)
+  href: SuperOffice.CRM.Lists.DocumentListProvider.html#SuperOffice_CRM_Lists_DocumentListProvider_SetSearchRestrictionAsync_SuperOffice_Data_SQL_Select_System_String_
+  name: SetSearchRestrictionAsync(Select, string)
+  nameWithType: DocumentListProvider.SetSearchRestrictionAsync(Select, string)
+  fullName: SuperOffice.CRM.Lists.DocumentListProvider.SetSearchRestrictionAsync(SuperOffice.Data.SQL.Select, string)
+  nameWithType.vb: DocumentListProvider.SetSearchRestrictionAsync(Select, String)
+  fullName.vb: SuperOffice.CRM.Lists.DocumentListProvider.SetSearchRestrictionAsync(SuperOffice.Data.SQL.Select, String)
+  name.vb: SetSearchRestrictionAsync(Select, String)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.DocumentListProvider.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
-    name: SetSearchRestriction
-    nameWithType: DocumentListProvider.SetSearchRestriction
-    fullName: SuperOffice.CRM.Lists.DocumentListProvider.SetSearchRestriction
+  - uid: SuperOffice.CRM.Lists.DocumentListProvider.SetSearchRestrictionAsync(SuperOffice.Data.SQL.Select,System.String)
+    name: SetSearchRestrictionAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.DocumentListProvider.html#SuperOffice_CRM_Lists_DocumentListProvider_SetSearchRestrictionAsync_SuperOffice_Data_SQL_Select_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
-    nameWithType: Select
-    fullName: SuperOffice.Data.SQL.Select
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.DocumentListProvider.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
-    name: SetSearchRestriction
-    nameWithType: DocumentListProvider.SetSearchRestriction
-    fullName: SuperOffice.CRM.Lists.DocumentListProvider.SetSearchRestriction
+  - uid: SuperOffice.CRM.Lists.DocumentListProvider.SetSearchRestrictionAsync(SuperOffice.Data.SQL.Select,System.String)
+    name: SetSearchRestrictionAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.DocumentListProvider.html#SuperOffice_CRM_Lists_DocumentListProvider_SetSearchRestrictionAsync_SuperOffice_Data_SQL_Select_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
-    nameWithType: Select
-    fullName: SuperOffice.Data.SQL.Select
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.DocumentListProvider.TableInfo
   commentId: P:SuperOffice.CRM.Lists.DocumentListProvider.TableInfo
   parent: SuperOffice.CRM.Lists.DocumentListProvider
   isExternal: true
+  href: SuperOffice.CRM.Lists.DocumentListProvider.html#SuperOffice_CRM_Lists_DocumentListProvider_TableInfo
   name: TableInfo
   nameWithType: DocumentListProvider.TableInfo
   fullName: SuperOffice.CRM.Lists.DocumentListProvider.TableInfo
-- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase._historyListSize
+  commentId: F:SuperOffice.CRM.Lists.AnyTableListProviderBase._historyListSize
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  name: Construct(String, String, Int32[], Boolean, String, Boolean)
-  nameWithType: AnyTableListProviderBase.Construct(String, String, Int32[], Boolean, String, Boolean)
-  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean)
-  nameWithType.vb: AnyTableListProviderBase.Construct(String, String, Int32(), Boolean, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean)
-  name.vb: Construct(String, String, Int32(), Boolean, String, Boolean)
+  name: _historyListSize
+  nameWithType: AnyTableListProviderBase._historyListSize
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase._historyListSize
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_ConstructAsync_System_String_System_String_System_Int32___System_Boolean_System_String_System_Boolean_System_Threading_CancellationToken_
+  name: ConstructAsync(string, string, int[], bool, string, bool, CancellationToken)
+  nameWithType: AnyTableListProviderBase.ConstructAsync(string, string, int[], bool, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ConstructAsync(string, string, int[], bool, string, bool, System.Threading.CancellationToken)
+  nameWithType.vb: AnyTableListProviderBase.ConstructAsync(String, String, Integer(), Boolean, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Lists.AnyTableListProviderBase.ConstructAsync(String, String, Integer(), Boolean, String, Boolean, System.Threading.CancellationToken)
+  name.vb: ConstructAsync(String, String, Integer(), Boolean, String, Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
-    name: Construct
-    nameWithType: AnyTableListProviderBase.Construct
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: ConstructAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_ConstructAsync_System_String_System_String_System_Int32___System_Boolean_System_String_System_Boolean_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
-    name: Construct
-    nameWithType: AnyTableListProviderBase.Construct
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: ConstructAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_ConstructAsync_System_String_System_String_System_Int32___System_Boolean_System_String_System_Boolean_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
-  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItemsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  name: GetHistoryItems()
-  nameWithType: AnyTableListProviderBase.GetHistoryItems()
-  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetHistoryItemsAsync(CancellationToken)
+  nameWithType: AnyTableListProviderBase.GetHistoryItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItemsAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
-    name: GetHistoryItems
-    nameWithType: AnyTableListProviderBase.GetHistoryItems
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItemsAsync(System.Threading.CancellationToken)
+    name: GetHistoryItemsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
-    name: GetHistoryItems
-    nameWithType: AnyTableListProviderBase.GetHistoryItems
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItemsAsync(System.Threading.CancellationToken)
+    name: GetHistoryItemsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
-  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ClearHistoryItems
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.ClearHistoryItems
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  name: GetRootItems()
-  nameWithType: AnyTableListProviderBase.GetRootItems()
-  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems()
+  name: ClearHistoryItems()
+  nameWithType: AnyTableListProviderBase.ClearHistoryItems()
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ClearHistoryItems()
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
-    name: GetRootItems
-    nameWithType: AnyTableListProviderBase.GetRootItems
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ClearHistoryItems
+    name: ClearHistoryItems
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
-    name: GetRootItems
-    nameWithType: AnyTableListProviderBase.GetRootItems
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ClearHistoryItems
+    name: ClearHistoryItems
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
-  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItemsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  name: OnPreGetRootItems(List<ISoListItem>)
-  nameWithType: AnyTableListProviderBase.OnPreGetRootItems(List<ISoListItem>)
-  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
-  nameWithType.vb: AnyTableListProviderBase.OnPreGetRootItems(List(Of ISoListItem))
-  fullName.vb: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
-  name.vb: OnPreGetRootItems(List(Of ISoListItem))
+  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_GetRootItemsAsync_System_Threading_CancellationToken_
+  name: GetRootItemsAsync(CancellationToken)
+  nameWithType: AnyTableListProviderBase.GetRootItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItemsAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
-    name: OnPreGetRootItems
-    nameWithType: AnyTableListProviderBase.OnPreGetRootItems
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItemsAsync(System.Threading.CancellationToken)
+    name: GetRootItemsAsync
+    isExternal: true
+    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_GetRootItemsAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItemsAsync(System.Threading.CancellationToken)
+    name: GetRootItemsAsync
+    isExternal: true
+    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_GetRootItemsAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetHeadingItemsAsync(CancellationToken)
+  nameWithType: AnyTableListProviderBase.GetHeadingItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHeadingItemsAsync(System.Threading.CancellationToken)
+    name: GetHeadingItemsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHeadingItemsAsync(System.Threading.CancellationToken)
+    name: GetHeadingItemsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItemsFromDbAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItemsFromDbAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetHistoryItemsFromDbAsync(CancellationToken)
+  nameWithType: AnyTableListProviderBase.GetHistoryItemsFromDbAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItemsFromDbAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItemsFromDbAsync(System.Threading.CancellationToken)
+    name: GetHistoryItemsFromDbAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItemsFromDbAsync(System.Threading.CancellationToken)
+    name: GetHistoryItemsFromDbAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItemsAsync
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItemsAsync
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: GetRootItemsAsync()
+  nameWithType: AnyTableListProviderBase.GetRootItemsAsync()
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItemsAsync()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItemsAsync
+    name: GetRootItemsAsync
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItemsAsync
+    name: GetRootItemsAsync
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItemsAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItemsAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: OnPreGetRootItemsAsync(List<ISoListItem>)
+  nameWithType: AnyTableListProviderBase.OnPreGetRootItemsAsync(List<ISoListItem>)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItemsAsync(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
+  nameWithType.vb: AnyTableListProviderBase.OnPreGetRootItemsAsync(List(Of ISoListItem))
+  fullName.vb: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItemsAsync(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
+  name.vb: OnPreGetRootItemsAsync(List(Of ISoListItem))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItemsAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+    name: OnPreGetRootItemsAsync
+    isExternal: true
+  - name: (
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
-    nameWithType: ISoListItem
-    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
-    name: OnPreGetRootItems
-    nameWithType: AnyTableListProviderBase.OnPreGetRootItems
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItemsAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+    name: OnPreGetRootItemsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
-    nameWithType: ISoListItem
-    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
-  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItemsAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItemsAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  name: OnPostGetRootItems(List<ISoListItem>)
-  nameWithType: AnyTableListProviderBase.OnPostGetRootItems(List<ISoListItem>)
-  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
-  nameWithType.vb: AnyTableListProviderBase.OnPostGetRootItems(List(Of ISoListItem))
-  fullName.vb: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
-  name.vb: OnPostGetRootItems(List(Of ISoListItem))
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: OnPostGetRootItemsAsync(List<ISoListItem>)
+  nameWithType: AnyTableListProviderBase.OnPostGetRootItemsAsync(List<ISoListItem>)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItemsAsync(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
+  nameWithType.vb: AnyTableListProviderBase.OnPostGetRootItemsAsync(List(Of ISoListItem))
+  fullName.vb: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItemsAsync(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
+  name.vb: OnPostGetRootItemsAsync(List(Of ISoListItem))
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
-    name: OnPostGetRootItems
-    nameWithType: AnyTableListProviderBase.OnPostGetRootItems
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItemsAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+    name: OnPostGetRootItemsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
-    nameWithType: ISoListItem
-    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
-    name: OnPostGetRootItems
-    nameWithType: AnyTableListProviderBase.OnPostGetRootItems
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItemsAsync(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+    name: OnPostGetRootItemsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
-    nameWithType: ISoListItem
-    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
-  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryListSizeFromPreference
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryListSizeFromPreference
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  name: ExecuteQuery(Select, List<ISoListItem>)
-  nameWithType: AnyTableListProviderBase.ExecuteQuery(Select, List<ISoListItem>)
-  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
-  nameWithType.vb: AnyTableListProviderBase.ExecuteQuery(Select, List(Of ISoListItem))
-  fullName.vb: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select, System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
-  name.vb: ExecuteQuery(Select, List(Of ISoListItem))
+  name: SetHistoryListSizeFromPreference()
+  nameWithType: AnyTableListProviderBase.SetHistoryListSizeFromPreference()
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryListSizeFromPreference()
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
-    name: ExecuteQuery
-    nameWithType: AnyTableListProviderBase.ExecuteQuery
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryListSizeFromPreference
+    name: SetHistoryListSizeFromPreference
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryListSizeFromPreference
+    name: SetHistoryListSizeFromPreference
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQueryAsync(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQueryAsync(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: ExecuteQueryAsync(Select, List<ISoListItem>, CancellationToken)
+  nameWithType: AnyTableListProviderBase.ExecuteQueryAsync(Select, List<ISoListItem>, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQueryAsync(SuperOffice.Data.SQL.Select, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>, System.Threading.CancellationToken)
+  nameWithType.vb: AnyTableListProviderBase.ExecuteQueryAsync(Select, List(Of ISoListItem), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQueryAsync(SuperOffice.Data.SQL.Select, System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem), System.Threading.CancellationToken)
+  name.vb: ExecuteQueryAsync(Select, List(Of ISoListItem), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQueryAsync(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Threading.CancellationToken)
+    name: ExecuteQueryAsync
+    isExternal: true
+  - name: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
-    nameWithType: Select
-    fullName: SuperOffice.Data.SQL.Select
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
-    nameWithType: ISoListItem
-    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
-    name: ExecuteQuery
-    nameWithType: AnyTableListProviderBase.ExecuteQuery
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQueryAsync(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Threading.CancellationToken)
+    name: ExecuteQueryAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
-    nameWithType: Select
-    fullName: SuperOffice.Data.SQL.Select
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
-    nameWithType: ISoListItem
-    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
-  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReaderAsync(SuperOffice.Data.SoCommand,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReaderAsync(SuperOffice.Data.SoCommand,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  name: ExecuteReader(SoCommand)
-  nameWithType: AnyTableListProviderBase.ExecuteReader(SoCommand)
-  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: ExecuteReaderAsync(SoCommand, CancellationToken)
+  nameWithType: AnyTableListProviderBase.ExecuteReaderAsync(SoCommand, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReaderAsync(SuperOffice.Data.SoCommand, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
-    name: ExecuteReader
-    nameWithType: AnyTableListProviderBase.ExecuteReader
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReaderAsync(SuperOffice.Data.SoCommand,System.Threading.CancellationToken)
+    name: ExecuteReaderAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SoCommand
     name: SoCommand
-    nameWithType: SoCommand
-    fullName: SuperOffice.Data.SoCommand
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
-    name: ExecuteReader
-    nameWithType: AnyTableListProviderBase.ExecuteReader
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReaderAsync(SuperOffice.Data.SoCommand,System.Threading.CancellationToken)
+    name: ExecuteReaderAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SoCommand
     name: SoCommand
-    nameWithType: SoCommand
-    fullName: SuperOffice.Data.SoCommand
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ListName
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.ListName
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
@@ -914,182 +940,448 @@ references:
   name: ForceFlatList
   nameWithType: AnyTableListProviderBase.ForceFlatList
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ForceFlatList
-- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryItems
-  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryItems
-  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: HistoryItems
-  nameWithType: AnyTableListProviderBase.HistoryItems
-  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryItems
-- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.RootItems
-  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.RootItems
-  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
-  name: RootItems
-  nameWithType: AnyTableListProviderBase.RootItems
-  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.RootItems
-- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.HeadingItems
-  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.HeadingItems
-  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: HeadingItems
-  nameWithType: AnyTableListProviderBase.HeadingItems
-  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.HeadingItems
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<MergeDocumentListProvider, To>()
-  nameWithType: EnumUtil.MapEnums<MergeDocumentListProvider, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.MergeDocumentListProvider, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of MergeDocumentListProvider, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.MergeDocumentListProvider, To)()
-  name.vb: MapEnums(Of MergeDocumentListProvider, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<MergeDocumentListProvider, To>(MergeDocumentListProvider)
+  nameWithType: EnumUtil.MapEnums<MergeDocumentListProvider, To>(MergeDocumentListProvider)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.MergeDocumentListProvider, To>(SuperOffice.CRM.Lists.MergeDocumentListProvider)
+  nameWithType.vb: EnumUtil.MapEnums(Of MergeDocumentListProvider, To)(MergeDocumentListProvider)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.MergeDocumentListProvider, To)(SuperOffice.CRM.Lists.MergeDocumentListProvider)
+  name.vb: MapEnums(Of MergeDocumentListProvider, To)(MergeDocumentListProvider)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<MergeDocumentListProvider, To>
-    nameWithType: EnumUtil.MapEnums<MergeDocumentListProvider, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.MergeDocumentListProvider, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.MergeDocumentListProvider)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of MergeDocumentListProvider, To)
-    nameWithType: EnumUtil.MapEnums(Of MergeDocumentListProvider, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.MergeDocumentListProvider, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.MergeDocumentListProvider)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<MergeDocumentListProvider>(MergeDocumentListProvider)
-  nameWithType: ObjectExtensions.AssignByReflection<MergeDocumentListProvider>(MergeDocumentListProvider)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.MergeDocumentListProvider>(SuperOffice.CRM.Lists.MergeDocumentListProvider)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MergeDocumentListProvider)(MergeDocumentListProvider)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.MergeDocumentListProvider)(SuperOffice.CRM.Lists.MergeDocumentListProvider)
-  name.vb: AssignByReflection(Of MergeDocumentListProvider)(MergeDocumentListProvider)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<MergeDocumentListProvider>
-    nameWithType: ObjectExtensions.AssignByReflection<MergeDocumentListProvider>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.MergeDocumentListProvider>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
     name: MergeDocumentListProvider
-    nameWithType: MergeDocumentListProvider
-    fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of MergeDocumentListProvider)
-    nameWithType: ObjectExtensions.AssignByReflection(Of MergeDocumentListProvider)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.MergeDocumentListProvider)
-    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
     name: MergeDocumentListProvider
-    nameWithType: MergeDocumentListProvider
-    fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider
     isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<MergeDocumentListProvider>()
-  nameWithType: ObjectExtensions.GraphCopy<MergeDocumentListProvider>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.MergeDocumentListProvider>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of MergeDocumentListProvider)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.MergeDocumentListProvider)()
-  name.vb: GraphCopy(Of MergeDocumentListProvider)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<MergeDocumentListProvider>
-    nameWithType: ObjectExtensions.GraphCopy<MergeDocumentListProvider>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.MergeDocumentListProvider>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of MergeDocumentListProvider)
-    nameWithType: ObjectExtensions.GraphCopy(Of MergeDocumentListProvider)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.MergeDocumentListProvider)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.MergeDocumentListProvider)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
+    name: MergeDocumentListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
+    name: MergeDocumentListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
+  - name: )
 - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<MergeDocumentListProvider, To>()
-  nameWithType: Converters.MapEnums<MergeDocumentListProvider, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.MergeDocumentListProvider, To>()
-  nameWithType.vb: Converters.MapEnums(Of MergeDocumentListProvider, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.MergeDocumentListProvider, To)()
-  name.vb: MapEnums(Of MergeDocumentListProvider, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<MergeDocumentListProvider, To>(MergeDocumentListProvider)
+  nameWithType: Converters.MapEnums<MergeDocumentListProvider, To>(MergeDocumentListProvider)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.MergeDocumentListProvider, To>(SuperOffice.CRM.Lists.MergeDocumentListProvider)
+  nameWithType.vb: Converters.MapEnums(Of MergeDocumentListProvider, To)(MergeDocumentListProvider)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.MergeDocumentListProvider, To)(SuperOffice.CRM.Lists.MergeDocumentListProvider)
+  name.vb: MapEnums(Of MergeDocumentListProvider, To)(MergeDocumentListProvider)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<MergeDocumentListProvider, To>
-    nameWithType: Converters.MapEnums<MergeDocumentListProvider, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.MergeDocumentListProvider, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.MergeDocumentListProvider)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
+    name: MergeDocumentListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
+    name: MergeDocumentListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of MergeDocumentListProvider, To)
-    nameWithType: Converters.MapEnums(Of MergeDocumentListProvider, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.MergeDocumentListProvider, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.MergeDocumentListProvider)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
+    name: MergeDocumentListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
+    name: MergeDocumentListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
+  - name: )
+- uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.MergeDocumentListProvider)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<MergeDocumentListProvider>(MergeDocumentListProvider, MergeDocumentListProvider)
+  nameWithType: ObjectExtensions.AssignByReflection<MergeDocumentListProvider>(MergeDocumentListProvider, MergeDocumentListProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.MergeDocumentListProvider>(SuperOffice.CRM.Lists.MergeDocumentListProvider, SuperOffice.CRM.Lists.MergeDocumentListProvider)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MergeDocumentListProvider)(MergeDocumentListProvider, MergeDocumentListProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.MergeDocumentListProvider)(SuperOffice.CRM.Lists.MergeDocumentListProvider, SuperOffice.CRM.Lists.MergeDocumentListProvider)
+  name.vb: AssignByReflection(Of MergeDocumentListProvider)(MergeDocumentListProvider, MergeDocumentListProvider)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.MergeDocumentListProvider,SuperOffice.CRM.Lists.MergeDocumentListProvider)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
+    name: MergeDocumentListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
+    name: MergeDocumentListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
+    name: MergeDocumentListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.MergeDocumentListProvider,SuperOffice.CRM.Lists.MergeDocumentListProvider)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
+    name: MergeDocumentListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
+    name: MergeDocumentListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
+    name: MergeDocumentListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
+  - name: )
+- uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<MergeDocumentListProvider>(MergeDocumentListProvider)
+  nameWithType: ObjectExtensions.GraphCopy<MergeDocumentListProvider>(MergeDocumentListProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.MergeDocumentListProvider>(SuperOffice.CRM.Lists.MergeDocumentListProvider)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of MergeDocumentListProvider)(MergeDocumentListProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.MergeDocumentListProvider)(SuperOffice.CRM.Lists.MergeDocumentListProvider)
+  name.vb: GraphCopy(Of MergeDocumentListProvider)(MergeDocumentListProvider)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Lists.MergeDocumentListProvider)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
+    name: MergeDocumentListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
+    name: MergeDocumentListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Lists.MergeDocumentListProvider)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
+    name: MergeDocumentListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider
+    name: MergeDocumentListProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1098,140 +1390,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1240,176 +1437,436 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.#ctor*
   commentId: Overload:SuperOffice.CRM.Lists.MergeDocumentListProvider.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html#SuperOffice_CRM_Lists_MergeDocumentListProvider__ctor
   name: MergeDocumentListProvider
   nameWithType: MergeDocumentListProvider.MergeDocumentListProvider
   fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider.MergeDocumentListProvider
-- uid: SuperOffice.CRM.Lists.DocumentListProvider.GetMainQuery
-  commentId: M:SuperOffice.CRM.Lists.DocumentListProvider.GetMainQuery
+  nameWithType.vb: MergeDocumentListProvider.New
+  fullName.vb: SuperOffice.CRM.Lists.MergeDocumentListProvider.New
+  name.vb: New
+- uid: SuperOffice.CRM.Lists.DocumentListProvider.GetMainQueryAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.DocumentListProvider.GetMainQueryAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.DocumentListProvider
   isExternal: true
-  name: GetMainQuery()
-  nameWithType: DocumentListProvider.GetMainQuery()
-  fullName: SuperOffice.CRM.Lists.DocumentListProvider.GetMainQuery()
+  href: SuperOffice.CRM.Lists.DocumentListProvider.html#SuperOffice_CRM_Lists_DocumentListProvider_GetMainQueryAsync_System_Threading_CancellationToken_
+  name: GetMainQueryAsync(CancellationToken)
+  nameWithType: DocumentListProvider.GetMainQueryAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.DocumentListProvider.GetMainQueryAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.DocumentListProvider.GetMainQuery
-    name: GetMainQuery
-    nameWithType: DocumentListProvider.GetMainQuery
-    fullName: SuperOffice.CRM.Lists.DocumentListProvider.GetMainQuery
+  - uid: SuperOffice.CRM.Lists.DocumentListProvider.GetMainQueryAsync(System.Threading.CancellationToken)
+    name: GetMainQueryAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.DocumentListProvider.html#SuperOffice_CRM_Lists_DocumentListProvider_GetMainQueryAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.DocumentListProvider.GetMainQuery
-    name: GetMainQuery
-    nameWithType: DocumentListProvider.GetMainQuery
-    fullName: SuperOffice.CRM.Lists.DocumentListProvider.GetMainQuery
+  - uid: SuperOffice.CRM.Lists.DocumentListProvider.GetMainQueryAsync(System.Threading.CancellationToken)
+    name: GetMainQueryAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.DocumentListProvider.html#SuperOffice_CRM_Lists_DocumentListProvider_GetMainQueryAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.GetMainQuery*
-  commentId: Overload:SuperOffice.CRM.Lists.MergeDocumentListProvider.GetMainQuery
+- uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.GetMainQueryAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.MergeDocumentListProvider.GetMainQueryAsync
   isExternal: true
-  name: GetMainQuery
-  nameWithType: MergeDocumentListProvider.GetMainQuery
-  fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider.GetMainQuery
-- uid: SuperOffice.Data.SQL.Select
-  commentId: T:SuperOffice.Data.SQL.Select
-  parent: SuperOffice.Data.SQL
+  href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html#SuperOffice_CRM_Lists_MergeDocumentListProvider_GetMainQueryAsync_System_Threading_CancellationToken_
+  name: GetMainQueryAsync
+  nameWithType: MergeDocumentListProvider.GetMainQueryAsync
+  fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider.GetMainQueryAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: Select
-  nameWithType: Select
-  fullName: SuperOffice.Data.SQL.Select
-- uid: SuperOffice.Data.SQL
-  commentId: N:SuperOffice.Data.SQL
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Select}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Select}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Select>
+  nameWithType: Task<Select>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Select>
+  nameWithType.vb: Task(Of Select)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Select)
+  name.vb: Task(Of Select)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.SQL.Select
+    name: Select
+    isExternal: true
+    href: SuperOffice.Data.SQL.Select.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.Select
+    name: Select
+    isExternal: true
+    href: SuperOffice.Data.SQL.Select.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: SuperOffice.Data.SQL
-  nameWithType: SuperOffice.Data.SQL
-  fullName: SuperOffice.Data.SQL
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Lists.ISoListItem
+  commentId: T:SuperOffice.CRM.Lists.ISoListItem
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  href: SuperOffice.CRM.Lists.ISoListItem.html
+  name: ISoListItem
+  nameWithType: ISoListItem
+  fullName: SuperOffice.CRM.Lists.ISoListItem
 - uid: SuperOffice.CRM.Lists.DocumentListProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
   commentId: M:SuperOffice.CRM.Lists.DocumentListProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
   parent: SuperOffice.CRM.Lists.DocumentListProvider
   isExternal: true
-  name: OnRead(SoDataReader, Int16)
-  nameWithType: DocumentListProvider.OnRead(SoDataReader, Int16)
-  fullName: SuperOffice.CRM.Lists.DocumentListProvider.OnRead(SuperOffice.Data.SoDataReader, System.Int16)
+  href: SuperOffice.CRM.Lists.DocumentListProvider.html#SuperOffice_CRM_Lists_DocumentListProvider_OnRead_SuperOffice_Data_SoDataReader_System_Int16_
+  name: OnRead(SoDataReader, short)
+  nameWithType: DocumentListProvider.OnRead(SoDataReader, short)
+  fullName: SuperOffice.CRM.Lists.DocumentListProvider.OnRead(SuperOffice.Data.SoDataReader, short)
+  nameWithType.vb: DocumentListProvider.OnRead(SoDataReader, Short)
+  fullName.vb: SuperOffice.CRM.Lists.DocumentListProvider.OnRead(SuperOffice.Data.SoDataReader, Short)
+  name.vb: OnRead(SoDataReader, Short)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.DocumentListProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
     name: OnRead
-    nameWithType: DocumentListProvider.OnRead
-    fullName: SuperOffice.CRM.Lists.DocumentListProvider.OnRead
     isExternal: true
+    href: SuperOffice.CRM.Lists.DocumentListProvider.html#SuperOffice_CRM_Lists_DocumentListProvider_OnRead_SuperOffice_Data_SoDataReader_System_Int16_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SoDataReader
     name: SoDataReader
-    nameWithType: SoDataReader
-    fullName: SuperOffice.Data.SoDataReader
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
+    name: short
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.DocumentListProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
     name: OnRead
-    nameWithType: DocumentListProvider.OnRead
-    fullName: SuperOffice.CRM.Lists.DocumentListProvider.OnRead
     isExternal: true
+    href: SuperOffice.CRM.Lists.DocumentListProvider.html#SuperOffice_CRM_Lists_DocumentListProvider_OnRead_SuperOffice_Data_SoDataReader_System_Int16_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SoDataReader
     name: SoDataReader
-    nameWithType: SoDataReader
-    fullName: SuperOffice.Data.SoDataReader
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
+    name: Short
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.OnRead*
   commentId: Overload:SuperOffice.CRM.Lists.MergeDocumentListProvider.OnRead
   isExternal: true
+  href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html#SuperOffice_CRM_Lists_MergeDocumentListProvider_OnRead_SuperOffice_Data_SoDataReader_System_Int16_
   name: OnRead
   nameWithType: MergeDocumentListProvider.OnRead
   fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider.OnRead
@@ -1417,6 +1874,7 @@ references:
   commentId: T:SuperOffice.Data.SoDataReader
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.SoDataReader.html
   name: SoDataReader
   nameWithType: SoDataReader
   fullName: SuperOffice.Data.SoDataReader
@@ -1424,22 +1882,40 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
-- uid: SuperOffice.CRM.Lists.ISoListItem
-  commentId: T:SuperOffice.CRM.Lists.ISoListItem
-  parent: SuperOffice.CRM.Lists
-  isExternal: true
-  name: ISoListItem
-  nameWithType: ISoListItem
-  fullName: SuperOffice.CRM.Lists.ISoListItem
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
@@ -1450,53 +1926,85 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
     name: SetHistoryRestriction
-    nameWithType: AnyTableListProviderBase.SetHistoryRestriction
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
-    nameWithType: Select
-    fullName: SuperOffice.Data.SQL.Select
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
     name: SetHistoryRestriction
-    nameWithType: AnyTableListProviderBase.SetHistoryRestriction
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
-    nameWithType: Select
-    fullName: SuperOffice.Data.SQL.Select
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.SetHistoryRestriction*
   commentId: Overload:SuperOffice.CRM.Lists.MergeDocumentListProvider.SetHistoryRestriction
   isExternal: true
+  href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html#SuperOffice_CRM_Lists_MergeDocumentListProvider_SetHistoryRestriction_SuperOffice_Data_SQL_Select_
   name: SetHistoryRestriction
   nameWithType: MergeDocumentListProvider.SetHistoryRestriction
   fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider.SetHistoryRestriction
+- uid: SuperOffice.Data.SQL.Select
+  commentId: T:SuperOffice.Data.SQL.Select
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Select.html
+  name: Select
+  nameWithType: Select
+  fullName: SuperOffice.Data.SQL.Select
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.CRM.Lists.DocumentListProvider.HistoryInfo
   commentId: P:SuperOffice.CRM.Lists.DocumentListProvider.HistoryInfo
   parent: SuperOffice.CRM.Lists.DocumentListProvider
   isExternal: true
+  href: SuperOffice.CRM.Lists.DocumentListProvider.html#SuperOffice_CRM_Lists_DocumentListProvider_HistoryInfo
   name: HistoryInfo
   nameWithType: DocumentListProvider.HistoryInfo
   fullName: SuperOffice.CRM.Lists.DocumentListProvider.HistoryInfo
 - uid: SuperOffice.CRM.Lists.MergeDocumentListProvider.HistoryInfo*
   commentId: Overload:SuperOffice.CRM.Lists.MergeDocumentListProvider.HistoryInfo
   isExternal: true
+  href: SuperOffice.CRM.Lists.MergeDocumentListProvider.html#SuperOffice_CRM_Lists_MergeDocumentListProvider_HistoryInfo
   name: HistoryInfo
   nameWithType: MergeDocumentListProvider.HistoryInfo
   fullName: SuperOffice.CRM.Lists.MergeDocumentListProvider.HistoryInfo
@@ -1504,6 +2012,7 @@ references:
   commentId: T:SuperOffice.CRM.Lists.HistoryInfo
   parent: SuperOffice.CRM.Lists
   isExternal: true
+  href: SuperOffice.CRM.Lists.HistoryInfo.html
   name: HistoryInfo
   nameWithType: HistoryInfo
   fullName: SuperOffice.CRM.Lists.HistoryInfo

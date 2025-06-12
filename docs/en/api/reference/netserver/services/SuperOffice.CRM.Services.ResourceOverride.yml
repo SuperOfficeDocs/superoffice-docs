@@ -19,31 +19,40 @@ items:
   nameWithType: ResourceOverride
   fullName: SuperOffice.CRM.Services.ResourceOverride
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOverride specifications for resources/labels\n<p></p>\nCarrier object for ResourceOverride.\nServices for the ResourceOverride Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IResourceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Override specifications for resources/labels
+
+    <p></p>
+
+    Carrier object for ResourceOverride.
+
+    Services for the ResourceOverride Carrier is available from the <xref href="SuperOffice.CRM.Services.IResourceAgent?text=Resource+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class ResourceOverride : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class ResourceOverride : Carrier
     content.vb: >-
-      Public Class ResourceOverride
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class ResourceOverride Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.ResourceAgent
-    commentId: T:SuperOffice.CRM.Services.ResourceAgent
   - linkId: SuperOffice.CRM.Services.IResourceAgent
     commentId: T:SuperOffice.CRM.Services.IResourceAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.ResourceOverride.#ctor
   commentId: M:SuperOffice.CRM.Services.ResourceOverride.#ctor
   id: '#ctor'
@@ -55,21 +64,18 @@ items:
   nameWithType: ResourceOverride.ResourceOverride()
   fullName: SuperOffice.CRM.Services.ResourceOverride.ResourceOverride()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public ResourceOverride()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.ResourceOverride.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ResourceOverride.New()
+  fullName.vb: SuperOffice.CRM.Services.ResourceOverride.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.ResourceOverride.ToString
   commentId: M:SuperOffice.CRM.Services.ResourceOverride.ToString
   id: ToString
@@ -81,26 +87,18 @@ items:
   nameWithType: ResourceOverride.ToString()
   fullName: SuperOffice.CRM.Services.ResourceOverride.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.ResourceOverride.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.ResourceOverride.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ResourceOverride.ToString(System.String)
   id: ToString(System.String)
@@ -108,17 +106,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: ResourceOverride.ToString(String)
-  fullName: SuperOffice.CRM.Services.ResourceOverride.ToString(System.String)
+  name: ToString(string)
+  nameWithType: ResourceOverride.ToString(string)
+  fullName: SuperOffice.CRM.Services.ResourceOverride.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -130,10 +129,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ResourceOverride.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ResourceOverride.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.ResourceOverride.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.ResourceOverride.ResourceName
   commentId: P:SuperOffice.CRM.Services.ResourceOverride.ResourceName
   id: ResourceName
@@ -145,28 +143,28 @@ items:
   nameWithType: ResourceOverride.ResourceName
   fullName: SuperOffice.CRM.Services.ResourceOverride.ResourceName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe name of the resource, without any brackets or braces - example: SR_CONTACT \n"
+  summary: 'The name of the resource, without any brackets or braces - example: SR_CONTACT'
+  example: []
   syntax:
-    content: public virtual string ResourceName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ResourceName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ResourceName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ResourceName As String
   overload: SuperOffice.CRM.Services.ResourceOverride.ResourceName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ResourceOverride.ResourceValue
   commentId: P:SuperOffice.CRM.Services.ResourceOverride.ResourceValue
   id: ResourceValue
@@ -178,28 +176,28 @@ items:
   nameWithType: ResourceOverride.ResourceValue
   fullName: SuperOffice.CRM.Services.ResourceOverride.ResourceValue
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe value of the resource in the given culture \n"
+  summary: The value of the resource in the given culture
+  example: []
   syntax:
-    content: public virtual string ResourceValue { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ResourceValue { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ResourceValue As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ResourceValue As String
   overload: SuperOffice.CRM.Services.ResourceOverride.ResourceValue*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ResourceOverride.Culture
   commentId: P:SuperOffice.CRM.Services.ResourceOverride.Culture
   id: Culture
@@ -211,28 +209,28 @@ items:
   nameWithType: ResourceOverride.Culture
   fullName: SuperOffice.CRM.Services.ResourceOverride.Culture
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n.NET-style culture code, such as NB-NO or EN-UK \n"
+  summary: .NET-style culture code, such as NB-NO or EN-UK
+  example: []
   syntax:
-    content: public virtual string Culture { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Culture { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Culture As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Culture As String
   overload: SuperOffice.CRM.Services.ResourceOverride.Culture*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ResourceOverride.IsActive
   commentId: P:SuperOffice.CRM.Services.ResourceOverride.IsActive
   id: IsActive
@@ -244,57 +242,106 @@ items:
   nameWithType: ResourceOverride.IsActive
   fullName: SuperOffice.CRM.Services.ResourceOverride.IsActive
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nIs this override active \n"
+  summary: Is this override active
+  example: []
   syntax:
-    content: public virtual bool IsActive { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IsActive { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IsActive As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsActive As Boolean
   overload: SuperOffice.CRM.Services.ResourceOverride.IsActive*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ResourceAgent
-  commentId: T:SuperOffice.CRM.Services.ResourceAgent
-  isExternal: true
-  name: ResourceAgent
-  nameWithType: ResourceAgent
-  fullName: SuperOffice.CRM.Services.ResourceAgent
 - uid: SuperOffice.CRM.Services.IResourceAgent
   commentId: T:SuperOffice.CRM.Services.IResourceAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IResourceAgent.html
   name: IResourceAgent
   nameWithType: IResourceAgent
   fullName: SuperOffice.CRM.Services.IResourceAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ResourceOverride.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ResourceOverride.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.ResourceOverride.html#SuperOffice_CRM_Services_ResourceOverride__ctor
   name: ResourceOverride
   nameWithType: ResourceOverride.ResourceOverride
   fullName: SuperOffice.CRM.Services.ResourceOverride.ResourceOverride
+  nameWithType.vb: ResourceOverride.New
+  fullName.vb: SuperOffice.CRM.Services.ResourceOverride.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.ResourceOverride.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ResourceOverride.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.ResourceOverride.html#SuperOffice_CRM_Services_ResourceOverride_ToString
   name: ToString
   nameWithType: ResourceOverride.ToString
   fullName: SuperOffice.CRM.Services.ResourceOverride.ToString
@@ -302,36 +349,38 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.ResourceOverride.ResourceName*
   commentId: Overload:SuperOffice.CRM.Services.ResourceOverride.ResourceName
   isExternal: true
+  href: SuperOffice.CRM.Services.ResourceOverride.html#SuperOffice_CRM_Services_ResourceOverride_ResourceName
   name: ResourceName
   nameWithType: ResourceOverride.ResourceName
   fullName: SuperOffice.CRM.Services.ResourceOverride.ResourceName
 - uid: SuperOffice.CRM.Services.ResourceOverride.ResourceValue*
   commentId: Overload:SuperOffice.CRM.Services.ResourceOverride.ResourceValue
   isExternal: true
+  href: SuperOffice.CRM.Services.ResourceOverride.html#SuperOffice_CRM_Services_ResourceOverride_ResourceValue
   name: ResourceValue
   nameWithType: ResourceOverride.ResourceValue
   fullName: SuperOffice.CRM.Services.ResourceOverride.ResourceValue
 - uid: SuperOffice.CRM.Services.ResourceOverride.Culture*
   commentId: Overload:SuperOffice.CRM.Services.ResourceOverride.Culture
   isExternal: true
+  href: SuperOffice.CRM.Services.ResourceOverride.html#SuperOffice_CRM_Services_ResourceOverride_Culture
   name: Culture
   nameWithType: ResourceOverride.Culture
   fullName: SuperOffice.CRM.Services.ResourceOverride.Culture
 - uid: SuperOffice.CRM.Services.ResourceOverride.IsActive*
   commentId: Overload:SuperOffice.CRM.Services.ResourceOverride.IsActive
   isExternal: true
+  href: SuperOffice.CRM.Services.ResourceOverride.html#SuperOffice_CRM_Services_ResourceOverride_IsActive
   name: IsActive
   nameWithType: ResourceOverride.IsActive
   fullName: SuperOffice.CRM.Services.ResourceOverride.IsActive
@@ -339,6 +388,10 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

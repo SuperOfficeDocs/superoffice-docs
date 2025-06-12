@@ -1,0 +1,540 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+  id: ConfigFile.IDataExplicitConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.AnonymousAllowed
+  - SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.CommonDBConnection
+  - SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBPassword
+  - SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBUser
+  - SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.EmployeeAllowed
+  - SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.PartnerAllowed
+  - SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.SystemAllowed
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IDataExplicitConfiguration
+  nameWithType: ConfigFile.IDataExplicitConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+  type: Interface
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: >-
+    This section governs authentication behaviour when users are explicitly authenticated, typically by calling SoSession.Authenticate or the corresponding WCF service
+
+    Created in Database scope
+  example: []
+  syntax:
+    content: public interface ConfigFile.IDataExplicitConfiguration
+    content.vb: Public Interface ConfigFile.IDataExplicitConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.PartnerAllowed
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.PartnerAllowed
+  id: PartnerAllowed
+  parent: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+  langs:
+  - csharp
+  - vb
+  name: PartnerAllowed
+  nameWithType: ConfigFile.IDataExplicitConfiguration.PartnerAllowed
+  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.PartnerAllowed
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: 'Is partner access allowed: [True|False]'
+  example: []
+  syntax:
+    content: bool PartnerAllowed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property PartnerAllowed As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.PartnerAllowed*
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.EmployeeAllowed
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.EmployeeAllowed
+  id: EmployeeAllowed
+  parent: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EmployeeAllowed
+  nameWithType: ConfigFile.IDataExplicitConfiguration.EmployeeAllowed
+  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.EmployeeAllowed
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: 'Is employee access allowed: [True|False]'
+  example: []
+  syntax:
+    content: bool EmployeeAllowed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property EmployeeAllowed As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.EmployeeAllowed*
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.SystemAllowed
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.SystemAllowed
+  id: SystemAllowed
+  parent: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SystemAllowed
+  nameWithType: ConfigFile.IDataExplicitConfiguration.SystemAllowed
+  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.SystemAllowed
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: 'Is system user access allowed: [True|False]'
+  example: []
+  syntax:
+    content: bool SystemAllowed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property SystemAllowed As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.SystemAllowed*
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.AnonymousAllowed
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.AnonymousAllowed
+  id: AnonymousAllowed
+  parent: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AnonymousAllowed
+  nameWithType: ConfigFile.IDataExplicitConfiguration.AnonymousAllowed
+  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.AnonymousAllowed
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: 'Is anonymous access allowed: [True|False]'
+  example: []
+  syntax:
+    content: bool AnonymousAllowed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property AnonymousAllowed As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.AnonymousAllowed*
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBUser
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBUser
+  id: DBUser
+  parent: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DBUser
+  nameWithType: ConfigFile.IDataExplicitConfiguration.DBUser
+  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBUser
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Database user when running on behalf of explicitly authenticated users
+  example: []
+  syntax:
+    content: string DBUser { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property DBUser As String
+  overload: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBUser*
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBPassword
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBPassword
+  id: DBPassword
+  parent: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DBPassword
+  nameWithType: ConfigFile.IDataExplicitConfiguration.DBPassword
+  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBPassword
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Database user password
+  example: []
+  syntax:
+    content: string DBPassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property DBPassword As String
+  overload: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBPassword*
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.CommonDBConnection
+  commentId: P:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.CommonDBConnection
+  id: CommonDBConnection
+  parent: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CommonDBConnection
+  nameWithType: ConfigFile.IDataExplicitConfiguration.CommonDBConnection
+  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.CommonDBConnection
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Use the same connection string for all users, applying the common User and Password from this section, vs. using the one provided elsewhere.
+  example: []
+  syntax:
+    content: bool CommonDBConnection { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property CommonDBConnection As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.CommonDBConnection*
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IDataExplicitConfiguration, To>(IDataExplicitConfiguration)
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IDataExplicitConfiguration, To>(ConfigFile.IDataExplicitConfiguration)
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration, To>(SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration)
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IDataExplicitConfiguration, To)(ConfigFile.IDataExplicitConfiguration)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration, To)(SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration)
+  name.vb: MapEnums(Of IDataExplicitConfiguration, To)(IDataExplicitConfiguration)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+    name: IDataExplicitConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+    name: IDataExplicitConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+    name: IDataExplicitConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+    name: IDataExplicitConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html
+  - name: )
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IDataExplicitConfiguration, To>(IDataExplicitConfiguration)
+  nameWithType: Converters.MapEnums<ConfigFile.IDataExplicitConfiguration, To>(ConfigFile.IDataExplicitConfiguration)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration, To>(SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration)
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IDataExplicitConfiguration, To)(ConfigFile.IDataExplicitConfiguration)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration, To)(SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration)
+  name.vb: MapEnums(Of IDataExplicitConfiguration, To)(IDataExplicitConfiguration)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+    name: IDataExplicitConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+    name: IDataExplicitConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+    name: IDataExplicitConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
+    name: IDataExplicitConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.PartnerAllowed*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.PartnerAllowed
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html#SuperOffice_Configuration_ConfigFile_IDataExplicitConfiguration_PartnerAllowed
+  name: PartnerAllowed
+  nameWithType: ConfigFile.IDataExplicitConfiguration.PartnerAllowed
+  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.PartnerAllowed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.EmployeeAllowed*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.EmployeeAllowed
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html#SuperOffice_Configuration_ConfigFile_IDataExplicitConfiguration_EmployeeAllowed
+  name: EmployeeAllowed
+  nameWithType: ConfigFile.IDataExplicitConfiguration.EmployeeAllowed
+  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.EmployeeAllowed
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.SystemAllowed*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.SystemAllowed
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html#SuperOffice_Configuration_ConfigFile_IDataExplicitConfiguration_SystemAllowed
+  name: SystemAllowed
+  nameWithType: ConfigFile.IDataExplicitConfiguration.SystemAllowed
+  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.SystemAllowed
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.AnonymousAllowed*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.AnonymousAllowed
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html#SuperOffice_Configuration_ConfigFile_IDataExplicitConfiguration_AnonymousAllowed
+  name: AnonymousAllowed
+  nameWithType: ConfigFile.IDataExplicitConfiguration.AnonymousAllowed
+  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.AnonymousAllowed
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBUser*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBUser
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html#SuperOffice_Configuration_ConfigFile_IDataExplicitConfiguration_DBUser
+  name: DBUser
+  nameWithType: ConfigFile.IDataExplicitConfiguration.DBUser
+  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBUser
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBPassword*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBPassword
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html#SuperOffice_Configuration_ConfigFile_IDataExplicitConfiguration_DBPassword
+  name: DBPassword
+  nameWithType: ConfigFile.IDataExplicitConfiguration.DBPassword
+  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBPassword
+- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.CommonDBConnection*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.CommonDBConnection
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html#SuperOffice_Configuration_ConfigFile_IDataExplicitConfiguration_CommonDBConnection
+  name: CommonDBConnection
+  nameWithType: ConfigFile.IDataExplicitConfiguration.CommonDBConnection
+  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.CommonDBConnection

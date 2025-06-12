@@ -5,19 +5,20 @@ items:
   id: MDOAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.MDOAgent.#ctor
-  - SuperOffice.CRM.Services.MDOAgent.GetList(System.String,System.Boolean,System.String,System.Boolean)
-  - SuperOffice.CRM.Services.MDOAgent.GetListIdByListName(System.String)
-  - SuperOffice.CRM.Services.MDOAgent.GetListItem(System.String,System.Int32)
-  - SuperOffice.CRM.Services.MDOAgent.GetListNames
-  - SuperOffice.CRM.Services.MDOAgent.GetListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
-  - SuperOffice.CRM.Services.MDOAgent.GetListWithRestriction(System.String,System.String,System.String)
-  - SuperOffice.CRM.Services.MDOAgent.GetSelectableList(System.String,System.Boolean,System.String,System.Boolean)
-  - SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
-  - SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestriction(System.String,System.String,System.String)
-  - SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleList(System.String)
-  - SuperOffice.CRM.Services.MDOAgent.GetSimpleList(System.String)
-  - SuperOffice.CRM.Services.MDOAgent.SetSelected(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
+  - SuperOffice.CRM.Services.MDOAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.MDOAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.MDOAgent.GetListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MDOAgent.GetListIdByListNameAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MDOAgent.GetListItemAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MDOAgent.GetListNamesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MDOAgent.GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MDOAgent.GetListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MDOAgent.GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleListAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MDOAgent.GetSimpleListAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MDOAgent.SetSelectedAsync(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[],System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -25,57 +26,110 @@ items:
   nameWithType: MDOAgent
   fullName: SuperOffice.CRM.Services.MDOAgent
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nFacade for the MDO Agent\nMDO Lists, reading, searching, and item lookup.\n"
-  example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (MDOAgent agent = new MDOAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  summary: >-
+    Proxy class for the MDO Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
   syntax:
-    content: 'public class MDOAgent : AgentBase<IMDOAgent>, IDisposable, IMDOAgent, IAgent'
-    content.vb: >-
-      Public Class MDOAgent
-          Inherits AgentBase(Of IMDOAgent)
-          Implements IDisposable, IMDOAgent, IAgent
+    content: 'public class MDOAgent : IMDOAgent, IAgent'
+    content.vb: Public Class MDOAgent Implements IMDOAgent, IAgent
   inheritance:
   - System.Object
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMDOAgent}
   implements:
-  - System.IDisposable
   - SuperOffice.CRM.Services.IMDOAgent
   - SuperOffice.CRM.Services.IAgent
   inheritedMembers:
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMDOAgent}.Dispose
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMDOAgent}.InnerAgent
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Services.MDOAgent.GetList(System.String,System.Boolean,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetList(System.String,System.Boolean,System.String,System.Boolean)
-  id: GetList(System.String,System.Boolean,System.String,System.Boolean)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.MDOAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.MDOAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.MDOAgent
   langs:
   - csharp
   - vb
-  name: GetList(String, Boolean, String, Boolean)
-  nameWithType: MDOAgent.GetList(String, Boolean, String, Boolean)
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetList(System.String, System.Boolean, System.String, System.Boolean)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
+  name: MDOAgent(IMDOListImplementation, ISelectableMDOListImplementation, ISoRequestItemsAccessor)
+  nameWithType: MDOAgent.MDOAgent(IMDOListImplementation, ISelectableMDOListImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.MDOAgent.MDOAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nMethod to get a MDO list.\n"
   syntax:
-    content: public MDOListItem[] GetList(string name, bool forceFlatList, string additionalInfo, bool onlyHistory)
+    content: public MDOAgent(IMDOListImplementation mDOListImplementation, ISelectableMDOListImplementation selectableMDOListImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: mDOListImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation
+    - id: selectableMDOListImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(mDOListImplementation As IMDOListImplementation, selectableMDOListImplementation As ISelectableMDOListImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.MDOAgent.#ctor*
+  nameWithType.vb: MDOAgent.New(IMDOListImplementation, ISelectableMDOListImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.MDOAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IMDOListImplementation, ISelectableMDOListImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.MDOAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.MDOAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  parent: SuperOffice.CRM.Services.MDOAgent
+  langs:
+  - csharp
+  - vb
+  name: MDOAgent(IMDOListImplementation, ISelectableMDOListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: MDOAgent.MDOAgent(IMDOListImplementation, ISelectableMDOListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.MDOAgent.MDOAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public MDOAgent(IMDOListImplementation mDOListImplementation, ISelectableMDOListImplementation selectableMDOListImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: mDOListImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation
+    - id: selectableMDOListImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(mDOListImplementation As IMDOListImplementation, selectableMDOListImplementation As ISelectableMDOListImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.MDOAgent.#ctor*
+  nameWithType.vb: MDOAgent.New(IMDOListImplementation, ISelectableMDOListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.MDOAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IMDOListImplementation, ISelectableMDOListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.MDOAgent.GetListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: GetListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.MDOAgent
+  langs:
+  - csharp
+  - vb
+  name: GetListAsync(string, bool, string, bool, CancellationToken)
+  nameWithType: MDOAgent.GetListAsync(string, bool, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetListAsync(string, bool, string, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Method to get a MDO list.
+  example: []
+  syntax:
+    content: public Task<MDOListItem[]> GetListAsync(string name, bool forceFlatList, string additionalInfo, bool onlyHistory, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
@@ -89,37 +143,37 @@ items:
     - id: onlyHistory
       type: System.Boolean
       description: If true, return only history items
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
     return:
-      type: SuperOffice.CRM.Services.MDOListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MDOListItem[]}
       description: Array of MDOListItem
-    content.vb: Public Function GetList(name As String, forceFlatList As Boolean, additionalInfo As String, onlyHistory As Boolean) As MDOListItem()
-  overload: SuperOffice.CRM.Services.MDOAgent.GetList*
+    content.vb: Public Function GetListAsync(name As String, forceFlatList As Boolean, additionalInfo As String, onlyHistory As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of MDOListItem())
+  overload: SuperOffice.CRM.Services.MDOAgent.GetListAsync*
   implements:
-  - SuperOffice.CRM.Services.IMDOAgent.GetList(System.String,System.Boolean,System.String,System.Boolean)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.MDOAgent.GetListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
-  id: GetListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
+  - SuperOffice.CRM.Services.IMDOAgent.GetListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: MDOAgent.GetListAsync(String, Boolean, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MDOAgent.GetListAsync(String, Boolean, String, Boolean, System.Threading.CancellationToken)
+  name.vb: GetListAsync(String, Boolean, String, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.MDOAgent.GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  id: GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.MDOAgent
   langs:
   - csharp
   - vb
-  name: GetListWithHistory(String, Boolean, String, Int32[], Boolean)
-  nameWithType: MDOAgent.GetListWithHistory(String, Boolean, String, Int32[], Boolean)
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetListWithHistory(System.String, System.Boolean, System.String, System.Int32[], System.Boolean)
+  name: GetListWithHistoryAsync(string, bool, string, int[], bool, CancellationToken)
+  nameWithType: MDOAgent.GetListWithHistoryAsync(string, bool, string, int[], bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetListWithHistoryAsync(string, bool, string, int[], bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nMethod to get a MDO list with own history list.\n"
+  summary: Method to get a MDO list with own history list.
+  example: []
   syntax:
-    content: public MDOListItem[] GetListWithHistory(string name, bool forceFlatList, string additionalInfo, int[] historyItems, bool onlyHistory)
+    content: public Task<MDOListItem[]> GetListWithHistoryAsync(string name, bool forceFlatList, string additionalInfo, int[] historyItems, bool onlyHistory, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
@@ -136,40 +190,37 @@ items:
     - id: onlyHistory
       type: System.Boolean
       description: If true, return only history items
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
     return:
-      type: SuperOffice.CRM.Services.MDOListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MDOListItem[]}
       description: Array of MDOListItem
-    content.vb: Public Function GetListWithHistory(name As String, forceFlatList As Boolean, additionalInfo As String, historyItems As Integer(), onlyHistory As Boolean) As MDOListItem()
-  overload: SuperOffice.CRM.Services.MDOAgent.GetListWithHistory*
+    content.vb: Public Function GetListWithHistoryAsync(name As String, forceFlatList As Boolean, additionalInfo As String, historyItems As Integer(), onlyHistory As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of MDOListItem())
+  overload: SuperOffice.CRM.Services.MDOAgent.GetListWithHistoryAsync*
   implements:
-  - SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
-  nameWithType.vb: MDOAgent.GetListWithHistory(String, Boolean, String, Int32(), Boolean)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.MDOAgent.GetListWithHistory(System.String, System.Boolean, System.String, System.Int32(), System.Boolean)
-  name.vb: GetListWithHistory(String, Boolean, String, Int32(), Boolean)
-- uid: SuperOffice.CRM.Services.MDOAgent.GetListWithRestriction(System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetListWithRestriction(System.String,System.String,System.String)
-  id: GetListWithRestriction(System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.IMDOAgent.GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: MDOAgent.GetListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MDOAgent.GetListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, System.Threading.CancellationToken)
+  name.vb: GetListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.MDOAgent.GetListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: GetListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.MDOAgent
   langs:
   - csharp
   - vb
-  name: GetListWithRestriction(String, String, String)
-  nameWithType: MDOAgent.GetListWithRestriction(String, String, String)
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetListWithRestriction(System.String, System.String, System.String)
+  name: GetListWithRestrictionAsync(string, string, string, CancellationToken)
+  nameWithType: MDOAgent.GetListWithRestrictionAsync(string, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetListWithRestrictionAsync(string, string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nMethod to get a MDO list with restrictions.\n"
+  summary: Method to get a MDO list with restrictions.
+  example: []
   syntax:
-    content: public MDOListItem[] GetListWithRestriction(string name, string additionalInfo, string searchValue)
+    content: public Task<MDOListItem[]> GetListWithRestrictionAsync(string name, string additionalInfo, string searchValue, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
@@ -180,72 +231,72 @@ items:
     - id: searchValue
       type: System.String
       description: the value used to restrict the list
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
     return:
-      type: SuperOffice.CRM.Services.MDOListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MDOListItem[]}
       description: Array of MDOListItem
-    content.vb: Public Function GetListWithRestriction(name As String, additionalInfo As String, searchValue As String) As MDOListItem()
-  overload: SuperOffice.CRM.Services.MDOAgent.GetListWithRestriction*
+    content.vb: Public Function GetListWithRestrictionAsync(name As String, additionalInfo As String, searchValue As String, cancellationToken As CancellationToken = Nothing) As Task(Of MDOListItem())
+  overload: SuperOffice.CRM.Services.MDOAgent.GetListWithRestrictionAsync*
   implements:
-  - SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction(System.String,System.String,System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.MDOAgent.GetSimpleList(System.String)
-  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetSimpleList(System.String)
-  id: GetSimpleList(System.String)
+  - SuperOffice.CRM.Services.IMDOAgent.GetListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: MDOAgent.GetListWithRestrictionAsync(String, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MDOAgent.GetListWithRestrictionAsync(String, String, String, System.Threading.CancellationToken)
+  name.vb: GetListWithRestrictionAsync(String, String, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.MDOAgent.GetSimpleListAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetSimpleListAsync(System.String,System.Threading.CancellationToken)
+  id: GetSimpleListAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.MDOAgent
   langs:
   - csharp
   - vb
-  name: GetSimpleList(String)
-  nameWithType: MDOAgent.GetSimpleList(String)
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetSimpleList(System.String)
+  name: GetSimpleListAsync(string, CancellationToken)
+  nameWithType: MDOAgent.GetSimpleListAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetSimpleListAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nMethod returns a simple flat MDO List.\n"
+  summary: Method returns a simple flat MDO List.
+  example: []
   syntax:
-    content: public MDOListItem[] GetSimpleList(string name)
+    content: public Task<MDOListItem[]> GetSimpleListAsync(string name, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
       description: Conceptual name of the MDO list.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
     return:
-      type: SuperOffice.CRM.Services.MDOListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MDOListItem[]}
       description: Array of MDOListItem
-    content.vb: Public Function GetSimpleList(name As String) As MDOListItem()
-  overload: SuperOffice.CRM.Services.MDOAgent.GetSimpleList*
+    content.vb: Public Function GetSimpleListAsync(name As String, cancellationToken As CancellationToken = Nothing) As Task(Of MDOListItem())
+  overload: SuperOffice.CRM.Services.MDOAgent.GetSimpleListAsync*
   implements:
-  - SuperOffice.CRM.Services.IMDOAgent.GetSimpleList(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.MDOAgent.GetListItem(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetListItem(System.String,System.Int32)
-  id: GetListItem(System.String,System.Int32)
+  - SuperOffice.CRM.Services.IMDOAgent.GetSimpleListAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: MDOAgent.GetSimpleListAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MDOAgent.GetSimpleListAsync(String, System.Threading.CancellationToken)
+  name.vb: GetSimpleListAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.MDOAgent.GetListItemAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetListItemAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: GetListItemAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.MDOAgent
   langs:
   - csharp
   - vb
-  name: GetListItem(String, Int32)
-  nameWithType: MDOAgent.GetListItem(String, Int32)
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetListItem(System.String, System.Int32)
+  name: GetListItemAsync(string, int, CancellationToken)
+  nameWithType: MDOAgent.GetListItemAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetListItemAsync(string, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns a single list item\n"
+  summary: Returns a single list item
+  example: []
   syntax:
-    content: public MDOListItem GetListItem(string listName, int id)
+    content: public Task<MDOListItem> GetListItemAsync(string listName, int id, CancellationToken cancellationToken = default)
     parameters:
     - id: listName
       type: System.String
@@ -253,138 +304,136 @@ items:
     - id: id
       type: System.Int32
       description: Id of list item
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
     return:
-      type: SuperOffice.CRM.Services.MDOListItem
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MDOListItem}
       description: Single MDO list item
-    content.vb: Public Function GetListItem(listName As String, id As Integer) As MDOListItem
-  overload: SuperOffice.CRM.Services.MDOAgent.GetListItem*
+    content.vb: Public Function GetListItemAsync(listName As String, id As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of MDOListItem)
+  overload: SuperOffice.CRM.Services.MDOAgent.GetListItemAsync*
   implements:
-  - SuperOffice.CRM.Services.IMDOAgent.GetListItem(System.String,System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.MDOAgent.GetListNames
-  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetListNames
-  id: GetListNames
+  - SuperOffice.CRM.Services.IMDOAgent.GetListItemAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: MDOAgent.GetListItemAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MDOAgent.GetListItemAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: GetListItemAsync(String, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.MDOAgent.GetListNamesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetListNamesAsync(System.Threading.CancellationToken)
+  id: GetListNamesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.MDOAgent
   langs:
   - csharp
   - vb
-  name: GetListNames()
-  nameWithType: MDOAgent.GetListNames()
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetListNames()
+  name: GetListNamesAsync(CancellationToken)
+  nameWithType: MDOAgent.GetListNamesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetListNamesAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns a list of all MDO List names. These names can also be used with the Archive agent as ProviderNames.\n"
+  summary: Returns a list of all MDO List names. These names can also be used with the Archive agent as ProviderNames.
+  example: []
   syntax:
-    content: public string[] GetListNames()
+    content: public Task<string[]> GetListNamesAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
     return:
-      type: System.String[]
+      type: System.Threading.Tasks.Task{System.String[]}
       description: Array of list names.
-    content.vb: Public Function GetListNames As String()
-  overload: SuperOffice.CRM.Services.MDOAgent.GetListNames*
+    content.vb: Public Function GetListNamesAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String())
+  overload: SuperOffice.CRM.Services.MDOAgent.GetListNamesAsync*
   implements:
-  - SuperOffice.CRM.Services.IMDOAgent.GetListNames
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.MDOAgent.GetListIdByListName(System.String)
-  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetListIdByListName(System.String)
-  id: GetListIdByListName(System.String)
+  - SuperOffice.CRM.Services.IMDOAgent.GetListNamesAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.MDOAgent.GetListIdByListNameAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetListIdByListNameAsync(System.String,System.Threading.CancellationToken)
+  id: GetListIdByListNameAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.MDOAgent
   langs:
   - csharp
   - vb
-  name: GetListIdByListName(String)
-  nameWithType: MDOAgent.GetListIdByListName(String)
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetListIdByListName(System.String)
+  name: GetListIdByListNameAsync(string, CancellationToken)
+  nameWithType: MDOAgent.GetListIdByListNameAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetListIdByListNameAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nRetrieve the UdListDefinition id of a list, by its name. Not all lists have such an ID, but those that are based on tables do (the list name is then the same as the table name)\n"
+  summary: Retrieve the UdListDefinition id of a list, by its name. Not all lists have such an ID, but those that are based on tables do (the list name is then the same as the table name)
+  example: []
   syntax:
-    content: public int GetListIdByListName(string name)
+    content: public Task<int> GetListIdByListNameAsync(string name, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
       description: The list name, same as the table name for lists that are backed by tables
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: List id in the UdListDefinition table
-    content.vb: Public Function GetListIdByListName(name As String) As Integer
-  overload: SuperOffice.CRM.Services.MDOAgent.GetListIdByListName*
+    content.vb: Public Function GetListIdByListNameAsync(name As String, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.MDOAgent.GetListIdByListNameAsync*
   implements:
-  - SuperOffice.CRM.Services.IMDOAgent.GetListIdByListName(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleList(System.String)
-  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleList(System.String)
-  id: GetSelectableSimpleList(System.String)
+  - SuperOffice.CRM.Services.IMDOAgent.GetListIdByListNameAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: MDOAgent.GetListIdByListNameAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MDOAgent.GetListIdByListNameAsync(String, System.Threading.CancellationToken)
+  name.vb: GetListIdByListNameAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleListAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleListAsync(System.String,System.Threading.CancellationToken)
+  id: GetSelectableSimpleListAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.MDOAgent
   langs:
   - csharp
   - vb
-  name: GetSelectableSimpleList(String)
-  nameWithType: MDOAgent.GetSelectableSimpleList(String)
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleList(System.String)
+  name: GetSelectableSimpleListAsync(string, CancellationToken)
+  nameWithType: MDOAgent.GetSelectableSimpleListAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleListAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nMethod returns a flat Selectable MDO List.\n"
+  summary: Method returns a flat Selectable MDO List.
+  example: []
   syntax:
-    content: public SelectableMDOListItem[] GetSelectableSimpleList(string name)
+    content: public Task<SelectableMDOListItem[]> GetSelectableSimpleListAsync(string name, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
       description: Conceptual name of the MDO list
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
     return:
-      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SelectableMDOListItem[]}
       description: Array of SelectableMDOListItem
-    content.vb: Public Function GetSelectableSimpleList(name As String) As SelectableMDOListItem()
-  overload: SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleList*
+    content.vb: Public Function GetSelectableSimpleListAsync(name As String, cancellationToken As CancellationToken = Nothing) As Task(Of SelectableMDOListItem())
+  overload: SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleListAsync*
   implements:
-  - SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestriction(System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestriction(System.String,System.String,System.String)
-  id: GetSelectableListWithRestriction(System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleListAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: MDOAgent.GetSelectableSimpleListAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleListAsync(String, System.Threading.CancellationToken)
+  name.vb: GetSelectableSimpleListAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.MDOAgent
   langs:
   - csharp
   - vb
-  name: GetSelectableListWithRestriction(String, String, String)
-  nameWithType: MDOAgent.GetSelectableListWithRestriction(String, String, String)
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestriction(System.String, System.String, System.String)
+  name: GetSelectableListWithRestrictionAsync(string, string, string, CancellationToken)
+  nameWithType: MDOAgent.GetSelectableListWithRestrictionAsync(string, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestrictionAsync(string, string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nMethod to get a Selectable MDO list with restrictions.\n"
+  summary: Method to get a Selectable MDO list with restrictions.
+  example: []
   syntax:
-    content: public SelectableMDOListItem[] GetSelectableListWithRestriction(string name, string additionalInfo, string searchValue)
+    content: public Task<SelectableMDOListItem[]> GetSelectableListWithRestrictionAsync(string name, string additionalInfo, string searchValue, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
@@ -395,37 +444,37 @@ items:
     - id: searchValue
       type: System.String
       description: the value used to restrict the list
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
     return:
-      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SelectableMDOListItem[]}
       description: Array of SelectableMDOListItem
-    content.vb: Public Function GetSelectableListWithRestriction(name As String, additionalInfo As String, searchValue As String) As SelectableMDOListItem()
-  overload: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestriction*
+    content.vb: Public Function GetSelectableListWithRestrictionAsync(name As String, additionalInfo As String, searchValue As String, cancellationToken As CancellationToken = Nothing) As Task(Of SelectableMDOListItem())
+  overload: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestrictionAsync*
   implements:
-  - SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction(System.String,System.String,System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
-  id: GetSelectableListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
+  - SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: MDOAgent.GetSelectableListWithRestrictionAsync(String, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestrictionAsync(String, String, String, System.Threading.CancellationToken)
+  name.vb: GetSelectableListWithRestrictionAsync(String, String, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  id: GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.MDOAgent
   langs:
   - csharp
   - vb
-  name: GetSelectableListWithHistory(String, Boolean, String, Int32[], Boolean)
-  nameWithType: MDOAgent.GetSelectableListWithHistory(String, Boolean, String, Int32[], Boolean)
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistory(System.String, System.Boolean, System.String, System.Int32[], System.Boolean)
+  name: GetSelectableListWithHistoryAsync(string, bool, string, int[], bool, CancellationToken)
+  nameWithType: MDOAgent.GetSelectableListWithHistoryAsync(string, bool, string, int[], bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistoryAsync(string, bool, string, int[], bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nMethod to get a Selectable MDO list with own history list.\n"
+  summary: Method to get a Selectable MDO list with own history list.
+  example: []
   syntax:
-    content: public SelectableMDOListItem[] GetSelectableListWithHistory(string name, bool forceFlatList, string additionalInfo, int[] historyItems, bool onlyHistory)
+    content: public Task<SelectableMDOListItem[]> GetSelectableListWithHistoryAsync(string name, bool forceFlatList, string additionalInfo, int[] historyItems, bool onlyHistory, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
@@ -442,40 +491,37 @@ items:
     - id: onlyHistory
       type: System.Boolean
       description: If true, return only history items
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
     return:
-      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SelectableMDOListItem[]}
       description: Array of SelectableMDOListItem
-    content.vb: Public Function GetSelectableListWithHistory(name As String, forceFlatList As Boolean, additionalInfo As String, historyItems As Integer(), onlyHistory As Boolean) As SelectableMDOListItem()
-  overload: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistory*
+    content.vb: Public Function GetSelectableListWithHistoryAsync(name As String, forceFlatList As Boolean, additionalInfo As String, historyItems As Integer(), onlyHistory As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of SelectableMDOListItem())
+  overload: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistoryAsync*
   implements:
-  - SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
-  nameWithType.vb: MDOAgent.GetSelectableListWithHistory(String, Boolean, String, Int32(), Boolean)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistory(System.String, System.Boolean, System.String, System.Int32(), System.Boolean)
-  name.vb: GetSelectableListWithHistory(String, Boolean, String, Int32(), Boolean)
-- uid: SuperOffice.CRM.Services.MDOAgent.GetSelectableList(System.String,System.Boolean,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetSelectableList(System.String,System.Boolean,System.String,System.Boolean)
-  id: GetSelectableList(System.String,System.Boolean,System.String,System.Boolean)
+  - SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: MDOAgent.GetSelectableListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, System.Threading.CancellationToken)
+  name.vb: GetSelectableListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.MDOAgent.GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MDOAgent.GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.MDOAgent
   langs:
   - csharp
   - vb
-  name: GetSelectableList(String, Boolean, String, Boolean)
-  nameWithType: MDOAgent.GetSelectableList(String, Boolean, String, Boolean)
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetSelectableList(System.String, System.Boolean, System.String, System.Boolean)
+  name: GetSelectableListAsync(string, bool, string, bool, CancellationToken)
+  nameWithType: MDOAgent.GetSelectableListAsync(string, bool, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetSelectableListAsync(string, bool, string, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nMethod to get a Selectable MDO list.\n"
+  summary: Method to get a Selectable MDO list.
+  example: []
   syntax:
-    content: public SelectableMDOListItem[] GetSelectableList(string name, bool forceFlatList, string additionalInfo, bool onlyHistory)
+    content: public Task<SelectableMDOListItem[]> GetSelectableListAsync(string name, bool forceFlatList, string additionalInfo, bool onlyHistory, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
@@ -489,37 +535,37 @@ items:
     - id: onlyHistory
       type: System.Boolean
       description: If true, return only history items
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
     return:
-      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SelectableMDOListItem[]}
       description: Array of SelectableMDOListItem
-    content.vb: Public Function GetSelectableList(name As String, forceFlatList As Boolean, additionalInfo As String, onlyHistory As Boolean) As SelectableMDOListItem()
-  overload: SuperOffice.CRM.Services.MDOAgent.GetSelectableList*
+    content.vb: Public Function GetSelectableListAsync(name As String, forceFlatList As Boolean, additionalInfo As String, onlyHistory As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of SelectableMDOListItem())
+  overload: SuperOffice.CRM.Services.MDOAgent.GetSelectableListAsync*
   implements:
-  - SuperOffice.CRM.Services.IMDOAgent.GetSelectableList(System.String,System.Boolean,System.String,System.Boolean)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.MDOAgent.SetSelected(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
-  commentId: M:SuperOffice.CRM.Services.MDOAgent.SetSelected(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
-  id: SetSelected(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
+  - SuperOffice.CRM.Services.IMDOAgent.GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: MDOAgent.GetSelectableListAsync(String, Boolean, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MDOAgent.GetSelectableListAsync(String, Boolean, String, Boolean, System.Threading.CancellationToken)
+  name.vb: GetSelectableListAsync(String, Boolean, String, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.MDOAgent.SetSelectedAsync(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MDOAgent.SetSelectedAsync(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[],System.Threading.CancellationToken)
+  id: SetSelectedAsync(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.MDOAgent
   langs:
   - csharp
   - vb
-  name: SetSelected(String, String, SelectableMDOListItem[])
-  nameWithType: MDOAgent.SetSelected(String, String, SelectableMDOListItem[])
-  fullName: SuperOffice.CRM.Services.MDOAgent.SetSelected(System.String, System.String, SuperOffice.CRM.Services.SelectableMDOListItem[])
+  name: SetSelectedAsync(string, string, SelectableMDOListItem[], CancellationToken)
+  nameWithType: MDOAgent.SetSelectedAsync(string, string, SelectableMDOListItem[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.MDOAgent.SetSelectedAsync(string, string, SuperOffice.CRM.Services.SelectableMDOListItem[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nSaves the selected values as selected by their given list representation.\n"
+  summary: Saves the selected values as selected by their given list representation.
+  example: []
   syntax:
-    content: public SelectableMDOListItem[] SetSelected(string name, string additionalInfo, SelectableMDOListItem[] selectableMDOList)
+    content: public Task<SelectableMDOListItem[]> SetSelectedAsync(string name, string additionalInfo, SelectableMDOListItem[] selectableMDOList, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
@@ -530,105 +576,73 @@ items:
     - id: selectableMDOList
       type: SuperOffice.CRM.Services.SelectableMDOListItem[]
       description: Items to be updated
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
     return:
-      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SelectableMDOListItem[]}
       description: Array of updated SelectableMDOListItems
-    content.vb: Public Function SetSelected(name As String, additionalInfo As String, selectableMDOList As SelectableMDOListItem()) As SelectableMDOListItem()
-  overload: SuperOffice.CRM.Services.MDOAgent.SetSelected*
+    content.vb: Public Function SetSelectedAsync(name As String, additionalInfo As String, selectableMDOList As SelectableMDOListItem(), cancellationToken As CancellationToken = Nothing) As Task(Of SelectableMDOListItem())
+  overload: SuperOffice.CRM.Services.MDOAgent.SetSelectedAsync*
   implements:
-  - SuperOffice.CRM.Services.IMDOAgent.SetSelected(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
-  nameWithType.vb: MDOAgent.SetSelected(String, String, SelectableMDOListItem())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.MDOAgent.SetSelected(System.String, System.String, SuperOffice.CRM.Services.SelectableMDOListItem())
-  name.vb: SetSelected(String, String, SelectableMDOListItem())
-- uid: SuperOffice.CRM.Services.MDOAgent.#ctor
-  commentId: M:SuperOffice.CRM.Services.MDOAgent.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Services.MDOAgent
-  langs:
-  - csharp
-  - vb
-  name: MDOAgent()
-  nameWithType: MDOAgent.MDOAgent()
-  fullName: SuperOffice.CRM.Services.MDOAgent.MDOAgent()
-  type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  syntax:
-    content: public MDOAgent()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Services.MDOAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.Services.IMDOAgent.SetSelectedAsync(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[],System.Threading.CancellationToken)
+  nameWithType.vb: MDOAgent.SetSelectedAsync(String, String, SelectableMDOListItem(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MDOAgent.SetSelectedAsync(String, String, SuperOffice.CRM.Services.SelectableMDOListItem(), System.Threading.CancellationToken)
+  name.vb: SetSelectedAsync(String, String, SelectableMDOListItem(), CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMDOAgent}
-  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMDOAgent}
-  parent: SuperOffice.CRM.Services
-  definition: SuperOffice.CRM.Services.AgentBase`1
-  name: AgentBase<IMDOAgent>
-  nameWithType: AgentBase<IMDOAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IMDOAgent>
-  nameWithType.vb: AgentBase(Of IMDOAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IMDOAgent)
-  name.vb: AgentBase(Of IMDOAgent)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Services.IMDOAgent
-    name: IMDOAgent
-    nameWithType: IMDOAgent
-    fullName: SuperOffice.CRM.Services.IMDOAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Services.IMDOAgent
-    name: IMDOAgent
-    nameWithType: IMDOAgent
-    fullName: SuperOffice.CRM.Services.IMDOAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IDisposable
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.IMDOAgent
   commentId: T:SuperOffice.CRM.Services.IMDOAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IMDOAgent.html
   name: IMDOAgent
   nameWithType: IMDOAgent
   fullName: SuperOffice.CRM.Services.IMDOAgent
@@ -636,779 +650,1537 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMDOAgent}.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMDOAgent}.Dispose
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMDOAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  name: Dispose()
-  nameWithType: AgentBase<IMDOAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IMDOAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of IMDOAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IMDOAgent).Dispose()
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<IMDOAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IMDOAgent>.Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of IMDOAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IMDOAgent).Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMDOAgent}.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMDOAgent}.InnerAgent
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMDOAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  name: InnerAgent
-  nameWithType: AgentBase<IMDOAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IMDOAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of IMDOAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IMDOAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.AgentBase`1
-  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
-  name: AgentBase<TAgent>
-  nameWithType: AgentBase<TAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
-  nameWithType.vb: AgentBase(Of TAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
-  name.vb: AgentBase(Of TAgent)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: Dispose()
-  nameWithType: AgentBase<TAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of TAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<TAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of TAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: InnerAgent
-  nameWithType: AgentBase<TAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.MDOAgent.GetList*
-  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetList
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
   isExternal: true
-  name: GetList
-  nameWithType: MDOAgent.GetList
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetList
-- uid: SuperOffice.CRM.Services.IMDOAgent.GetList(System.String,System.Boolean,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetList(System.String,System.Boolean,System.String,System.Boolean)
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.MDOAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.MDOAgent.html#SuperOffice_CRM_Services_MDOAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IMDOListImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ISelectableMDOListImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: MDOAgent
+  nameWithType: MDOAgent.MDOAgent
+  fullName: SuperOffice.CRM.Services.MDOAgent.MDOAgent
+  nameWithType.vb: MDOAgent.New
+  fullName.vb: SuperOffice.CRM.Services.MDOAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation.html
+  name: IMDOListImplementation
+  nameWithType: IMDOListImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IMDOListImplementation
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation.html
+  name: ISelectableMDOListImplementation
+  nameWithType: ISelectableMDOListImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.ISelectableMDOListImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.MDOAgent.GetListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetListAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MDOAgent.html#SuperOffice_CRM_Services_MDOAgent_GetListAsync_System_String_System_Boolean_System_String_System_Boolean_System_Threading_CancellationToken_
+  name: GetListAsync
+  nameWithType: MDOAgent.GetListAsync
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetListAsync
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMDOAgent
   isExternal: true
-  name: GetList(String, Boolean, String, Boolean)
-  nameWithType: IMDOAgent.GetList(String, Boolean, String, Boolean)
-  fullName: SuperOffice.CRM.Services.IMDOAgent.GetList(System.String, System.Boolean, System.String, System.Boolean)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetListAsync(string, bool, string, bool, CancellationToken)
+  nameWithType: IMDOAgent.GetListAsync(string, bool, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListAsync(string, bool, string, bool, System.Threading.CancellationToken)
+  nameWithType.vb: IMDOAgent.GetListAsync(String, Boolean, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.GetListAsync(String, Boolean, String, Boolean, System.Threading.CancellationToken)
+  name.vb: GetListAsync(String, Boolean, String, Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetList(System.String,System.Boolean,System.String,System.Boolean)
-    name: GetList
-    nameWithType: IMDOAgent.GetList
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetList
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: GetListAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetList(System.String,System.Boolean,System.String,System.Boolean)
-    name: GetList
-    nameWithType: IMDOAgent.GetList
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetList
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: GetListAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Services.MDOListItem[]
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: MDOListItem[]
-  nameWithType: MDOListItem[]
-  fullName: SuperOffice.CRM.Services.MDOListItem[]
-  nameWithType.vb: MDOListItem()
-  fullName.vb: SuperOffice.CRM.Services.MDOListItem()
-  name.vb: MDOListItem()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MDOListItem[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.MDOListItem[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<MDOListItem[]>
+  nameWithType: Task<MDOListItem[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.MDOListItem[]>
+  nameWithType.vb: Task(Of MDOListItem())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.MDOListItem())
+  name.vb: Task(Of MDOListItem())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.CRM.Services.MDOListItem
     name: MDOListItem
-    nameWithType: MDOListItem
-    fullName: SuperOffice.CRM.Services.MDOListItem
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.MDOListItem.html
+  - name: '['
+  - name: ']'
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Services.MDOListItem
     name: MDOListItem
-    nameWithType: MDOListItem
-    fullName: SuperOffice.CRM.Services.MDOListItem
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: System
-  commentId: N:System
+    href: SuperOffice.CRM.Services.MDOListItem.html
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.MDOAgent.GetListWithHistory*
-  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetListWithHistory
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: GetListWithHistory
-  nameWithType: MDOAgent.GetListWithHistory
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetListWithHistory
-- uid: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.MDOAgent.GetListWithHistoryAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetListWithHistoryAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MDOAgent.html#SuperOffice_CRM_Services_MDOAgent_GetListWithHistoryAsync_System_String_System_Boolean_System_String_System_Int32___System_Boolean_System_Threading_CancellationToken_
+  name: GetListWithHistoryAsync
+  nameWithType: MDOAgent.GetListWithHistoryAsync
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetListWithHistoryAsync
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMDOAgent
   isExternal: true
-  name: GetListWithHistory(String, Boolean, String, Int32[], Boolean)
-  nameWithType: IMDOAgent.GetListWithHistory(String, Boolean, String, Int32[], Boolean)
-  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory(System.String, System.Boolean, System.String, System.Int32[], System.Boolean)
-  nameWithType.vb: IMDOAgent.GetListWithHistory(String, Boolean, String, Int32(), Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory(System.String, System.Boolean, System.String, System.Int32(), System.Boolean)
-  name.vb: GetListWithHistory(String, Boolean, String, Int32(), Boolean)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetListWithHistoryAsync(string, bool, string, int[], bool, CancellationToken)
+  nameWithType: IMDOAgent.GetListWithHistoryAsync(string, bool, string, int[], bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistoryAsync(string, bool, string, int[], bool, System.Threading.CancellationToken)
+  nameWithType.vb: IMDOAgent.GetListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, System.Threading.CancellationToken)
+  name.vb: GetListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
-    name: GetListWithHistory
-    nameWithType: IMDOAgent.GetListWithHistory
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+    name: GetListWithHistoryAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
-    name: GetListWithHistory
-    nameWithType: IMDOAgent.GetListWithHistory
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+    name: GetListWithHistoryAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.MDOAgent.GetListWithRestriction*
-  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetListWithRestriction
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.MDOAgent.GetListWithRestrictionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetListWithRestrictionAsync
   isExternal: true
-  name: GetListWithRestriction
-  nameWithType: MDOAgent.GetListWithRestriction
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetListWithRestriction
-- uid: SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction(System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction(System.String,System.String,System.String)
+  href: SuperOffice.CRM.Services.MDOAgent.html#SuperOffice_CRM_Services_MDOAgent_GetListWithRestrictionAsync_System_String_System_String_System_String_System_Threading_CancellationToken_
+  name: GetListWithRestrictionAsync
+  nameWithType: MDOAgent.GetListWithRestrictionAsync
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetListWithRestrictionAsync
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMDOAgent
   isExternal: true
-  name: GetListWithRestriction(String, String, String)
-  nameWithType: IMDOAgent.GetListWithRestriction(String, String, String)
-  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction(System.String, System.String, System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetListWithRestrictionAsync(string, string, string, CancellationToken)
+  nameWithType: IMDOAgent.GetListWithRestrictionAsync(string, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListWithRestrictionAsync(string, string, string, System.Threading.CancellationToken)
+  nameWithType.vb: IMDOAgent.GetListWithRestrictionAsync(String, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.GetListWithRestrictionAsync(String, String, String, System.Threading.CancellationToken)
+  name.vb: GetListWithRestrictionAsync(String, String, String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction(System.String,System.String,System.String)
-    name: GetListWithRestriction
-    nameWithType: IMDOAgent.GetListWithRestriction
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+    name: GetListWithRestrictionAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction(System.String,System.String,System.String)
-    name: GetListWithRestriction
-    nameWithType: IMDOAgent.GetListWithRestriction
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+    name: GetListWithRestrictionAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.MDOAgent.GetSimpleList*
-  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetSimpleList
+- uid: SuperOffice.CRM.Services.MDOAgent.GetSimpleListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetSimpleListAsync
   isExternal: true
-  name: GetSimpleList
-  nameWithType: MDOAgent.GetSimpleList
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetSimpleList
-- uid: SuperOffice.CRM.Services.IMDOAgent.GetSimpleList(System.String)
-  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetSimpleList(System.String)
+  href: SuperOffice.CRM.Services.MDOAgent.html#SuperOffice_CRM_Services_MDOAgent_GetSimpleListAsync_System_String_System_Threading_CancellationToken_
+  name: GetSimpleListAsync
+  nameWithType: MDOAgent.GetSimpleListAsync
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetSimpleListAsync
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetSimpleListAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetSimpleListAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMDOAgent
   isExternal: true
-  name: GetSimpleList(String)
-  nameWithType: IMDOAgent.GetSimpleList(String)
-  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSimpleList(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetSimpleListAsync(string, CancellationToken)
+  nameWithType: IMDOAgent.GetSimpleListAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSimpleListAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: IMDOAgent.GetSimpleListAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.GetSimpleListAsync(String, System.Threading.CancellationToken)
+  name.vb: GetSimpleListAsync(String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSimpleList(System.String)
-    name: GetSimpleList
-    nameWithType: IMDOAgent.GetSimpleList
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetSimpleList
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSimpleListAsync(System.String,System.Threading.CancellationToken)
+    name: GetSimpleListAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSimpleList(System.String)
-    name: GetSimpleList
-    nameWithType: IMDOAgent.GetSimpleList
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetSimpleList
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSimpleListAsync(System.String,System.Threading.CancellationToken)
+    name: GetSimpleListAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.MDOAgent.GetListItem*
-  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetListItem
+- uid: SuperOffice.CRM.Services.MDOAgent.GetListItemAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetListItemAsync
   isExternal: true
-  name: GetListItem
-  nameWithType: MDOAgent.GetListItem
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetListItem
-- uid: SuperOffice.CRM.Services.IMDOAgent.GetListItem(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetListItem(System.String,System.Int32)
+  href: SuperOffice.CRM.Services.MDOAgent.html#SuperOffice_CRM_Services_MDOAgent_GetListItemAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  name: GetListItemAsync
+  nameWithType: MDOAgent.GetListItemAsync
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetListItemAsync
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetListItemAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetListItemAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMDOAgent
   isExternal: true
-  name: GetListItem(String, Int32)
-  nameWithType: IMDOAgent.GetListItem(String, Int32)
-  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListItem(System.String, System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetListItemAsync(string, int, CancellationToken)
+  nameWithType: IMDOAgent.GetListItemAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListItemAsync(string, int, System.Threading.CancellationToken)
+  nameWithType.vb: IMDOAgent.GetListItemAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.GetListItemAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: GetListItemAsync(String, Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListItem(System.String,System.Int32)
-    name: GetListItem
-    nameWithType: IMDOAgent.GetListItem
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetListItem
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListItemAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: GetListItemAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListItem(System.String,System.Int32)
-    name: GetListItem
-    nameWithType: IMDOAgent.GetListItem
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetListItem
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListItemAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: GetListItemAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Services.MDOListItem
-  commentId: T:SuperOffice.CRM.Services.MDOListItem
-  parent: SuperOffice.CRM.Services
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MDOListItem}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.MDOListItem}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<MDOListItem>
+  nameWithType: Task<MDOListItem>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.MDOListItem>
+  nameWithType.vb: Task(Of MDOListItem)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.MDOListItem)
+  name.vb: Task(Of MDOListItem)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    isExternal: true
+    href: SuperOffice.CRM.Services.MDOListItem.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    isExternal: true
+    href: SuperOffice.CRM.Services.MDOListItem.html
+  - name: )
+- uid: SuperOffice.CRM.Services.MDOAgent.GetListNamesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetListNamesAsync
   isExternal: true
-  name: MDOListItem
-  nameWithType: MDOListItem
-  fullName: SuperOffice.CRM.Services.MDOListItem
-- uid: SuperOffice.CRM.Services.MDOAgent.GetListNames*
-  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetListNames
-  isExternal: true
-  name: GetListNames
-  nameWithType: MDOAgent.GetListNames
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetListNames
-- uid: SuperOffice.CRM.Services.IMDOAgent.GetListNames
-  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetListNames
+  href: SuperOffice.CRM.Services.MDOAgent.html#SuperOffice_CRM_Services_MDOAgent_GetListNamesAsync_System_Threading_CancellationToken_
+  name: GetListNamesAsync
+  nameWithType: MDOAgent.GetListNamesAsync
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetListNamesAsync
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetListNamesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetListNamesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMDOAgent
   isExternal: true
-  name: GetListNames()
-  nameWithType: IMDOAgent.GetListNames()
-  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListNames()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetListNamesAsync(CancellationToken)
+  nameWithType: IMDOAgent.GetListNamesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListNamesAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListNames
-    name: GetListNames
-    nameWithType: IMDOAgent.GetListNames
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetListNames
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListNamesAsync(System.Threading.CancellationToken)
+    name: GetListNamesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListNames
-    name: GetListNames
-    nameWithType: IMDOAgent.GetListNames
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetListNames
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListNamesAsync(System.Threading.CancellationToken)
+    name: GetListNamesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.String[]
-  isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
-  nameWithType.vb: String()
-  fullName.vb: System.String()
-  name.vb: String()
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: T:System.Threading.Tasks.Task{System.String[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string[]>
+  nameWithType: Task<string[]>
+  fullName: System.Threading.Tasks.Task<string[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of String())
+  name.vb: Task(Of String())
   spec.csharp:
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.MDOAgent.GetListIdByListName*
-  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetListIdByListName
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.MDOAgent.GetListIdByListNameAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetListIdByListNameAsync
   isExternal: true
-  name: GetListIdByListName
-  nameWithType: MDOAgent.GetListIdByListName
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetListIdByListName
-- uid: SuperOffice.CRM.Services.IMDOAgent.GetListIdByListName(System.String)
-  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetListIdByListName(System.String)
+  href: SuperOffice.CRM.Services.MDOAgent.html#SuperOffice_CRM_Services_MDOAgent_GetListIdByListNameAsync_System_String_System_Threading_CancellationToken_
+  name: GetListIdByListNameAsync
+  nameWithType: MDOAgent.GetListIdByListNameAsync
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetListIdByListNameAsync
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetListIdByListNameAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetListIdByListNameAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMDOAgent
   isExternal: true
-  name: GetListIdByListName(String)
-  nameWithType: IMDOAgent.GetListIdByListName(String)
-  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListIdByListName(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetListIdByListNameAsync(string, CancellationToken)
+  nameWithType: IMDOAgent.GetListIdByListNameAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListIdByListNameAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: IMDOAgent.GetListIdByListNameAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.GetListIdByListNameAsync(String, System.Threading.CancellationToken)
+  name.vb: GetListIdByListNameAsync(String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListIdByListName(System.String)
-    name: GetListIdByListName
-    nameWithType: IMDOAgent.GetListIdByListName
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetListIdByListName
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListIdByListNameAsync(System.String,System.Threading.CancellationToken)
+    name: GetListIdByListNameAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListIdByListName(System.String)
-    name: GetListIdByListName
-    nameWithType: IMDOAgent.GetListIdByListName
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetListIdByListName
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetListIdByListNameAsync(System.String,System.Threading.CancellationToken)
+    name: GetListIdByListNameAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleList*
-  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleList
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleListAsync
   isExternal: true
-  name: GetSelectableSimpleList
-  nameWithType: MDOAgent.GetSelectableSimpleList
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleList
-- uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList(System.String)
-  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList(System.String)
+  href: SuperOffice.CRM.Services.MDOAgent.html#SuperOffice_CRM_Services_MDOAgent_GetSelectableSimpleListAsync_System_String_System_Threading_CancellationToken_
+  name: GetSelectableSimpleListAsync
+  nameWithType: MDOAgent.GetSelectableSimpleListAsync
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetSelectableSimpleListAsync
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleListAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleListAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMDOAgent
   isExternal: true
-  name: GetSelectableSimpleList(String)
-  nameWithType: IMDOAgent.GetSelectableSimpleList(String)
-  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetSelectableSimpleListAsync(string, CancellationToken)
+  nameWithType: IMDOAgent.GetSelectableSimpleListAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleListAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: IMDOAgent.GetSelectableSimpleListAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleListAsync(String, System.Threading.CancellationToken)
+  name.vb: GetSelectableSimpleListAsync(String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList(System.String)
-    name: GetSelectableSimpleList
-    nameWithType: IMDOAgent.GetSelectableSimpleList
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleListAsync(System.String,System.Threading.CancellationToken)
+    name: GetSelectableSimpleListAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList(System.String)
-    name: GetSelectableSimpleList
-    nameWithType: IMDOAgent.GetSelectableSimpleList
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleListAsync(System.String,System.Threading.CancellationToken)
+    name: GetSelectableSimpleListAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SelectableMDOListItem[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SelectableMDOListItem[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SelectableMDOListItem[]>
+  nameWithType: Task<SelectableMDOListItem[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SelectableMDOListItem[]>
+  nameWithType.vb: Task(Of SelectableMDOListItem())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SelectableMDOListItem())
+  name.vb: Task(Of SelectableMDOListItem())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    isExternal: true
+    href: SuperOffice.CRM.Services.SelectableMDOListItem.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    isExternal: true
+    href: SuperOffice.CRM.Services.SelectableMDOListItem.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestrictionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestrictionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MDOAgent.html#SuperOffice_CRM_Services_MDOAgent_GetSelectableListWithRestrictionAsync_System_String_System_String_System_String_System_Threading_CancellationToken_
+  name: GetSelectableListWithRestrictionAsync
+  nameWithType: MDOAgent.GetSelectableListWithRestrictionAsync
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestrictionAsync
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMDOAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetSelectableListWithRestrictionAsync(string, string, string, CancellationToken)
+  nameWithType: IMDOAgent.GetSelectableListWithRestrictionAsync(string, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestrictionAsync(string, string, string, System.Threading.CancellationToken)
+  nameWithType.vb: IMDOAgent.GetSelectableListWithRestrictionAsync(String, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestrictionAsync(String, String, String, System.Threading.CancellationToken)
+  name.vb: GetSelectableListWithRestrictionAsync(String, String, String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+    name: GetSelectableListWithRestrictionAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+    name: GetSelectableListWithRestrictionAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistoryAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistoryAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MDOAgent.html#SuperOffice_CRM_Services_MDOAgent_GetSelectableListWithHistoryAsync_System_String_System_Boolean_System_String_System_Int32___System_Boolean_System_Threading_CancellationToken_
+  name: GetSelectableListWithHistoryAsync
+  nameWithType: MDOAgent.GetSelectableListWithHistoryAsync
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistoryAsync
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMDOAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetSelectableListWithHistoryAsync(string, bool, string, int[], bool, CancellationToken)
+  nameWithType: IMDOAgent.GetSelectableListWithHistoryAsync(string, bool, string, int[], bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistoryAsync(string, bool, string, int[], bool, System.Threading.CancellationToken)
+  nameWithType.vb: IMDOAgent.GetSelectableListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, System.Threading.CancellationToken)
+  name.vb: GetSelectableListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+    name: GetSelectableListWithHistoryAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+    name: GetSelectableListWithHistoryAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.MDOAgent.GetSelectableListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetSelectableListAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MDOAgent.html#SuperOffice_CRM_Services_MDOAgent_GetSelectableListAsync_System_String_System_Boolean_System_String_System_Boolean_System_Threading_CancellationToken_
+  name: GetSelectableListAsync
+  nameWithType: MDOAgent.GetSelectableListAsync
+  fullName: SuperOffice.CRM.Services.MDOAgent.GetSelectableListAsync
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMDOAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetSelectableListAsync(string, bool, string, bool, CancellationToken)
+  nameWithType: IMDOAgent.GetSelectableListAsync(string, bool, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListAsync(string, bool, string, bool, System.Threading.CancellationToken)
+  nameWithType.vb: IMDOAgent.GetSelectableListAsync(String, Boolean, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListAsync(String, Boolean, String, Boolean, System.Threading.CancellationToken)
+  name.vb: GetSelectableListAsync(String, Boolean, String, Boolean, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: GetSelectableListAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: GetSelectableListAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.MDOAgent.SetSelectedAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.SetSelectedAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MDOAgent.html#SuperOffice_CRM_Services_MDOAgent_SetSelectedAsync_System_String_System_String_SuperOffice_CRM_Services_SelectableMDOListItem___System_Threading_CancellationToken_
+  name: SetSelectedAsync
+  nameWithType: MDOAgent.SetSelectedAsync
+  fullName: SuperOffice.CRM.Services.MDOAgent.SetSelectedAsync
+- uid: SuperOffice.CRM.Services.IMDOAgent.SetSelectedAsync(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.SetSelectedAsync(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMDOAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SetSelectedAsync(string, string, SelectableMDOListItem[], CancellationToken)
+  nameWithType: IMDOAgent.SetSelectedAsync(string, string, SelectableMDOListItem[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.SetSelectedAsync(string, string, SuperOffice.CRM.Services.SelectableMDOListItem[], System.Threading.CancellationToken)
+  nameWithType.vb: IMDOAgent.SetSelectedAsync(String, String, SelectableMDOListItem(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.SetSelectedAsync(String, String, SuperOffice.CRM.Services.SelectableMDOListItem(), System.Threading.CancellationToken)
+  name.vb: SetSelectedAsync(String, String, SelectableMDOListItem(), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IMDOAgent.SetSelectedAsync(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[],System.Threading.CancellationToken)
+    name: SetSelectedAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IMDOAgent.SetSelectedAsync(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[],System.Threading.CancellationToken)
+    name: SetSelectedAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    isExternal: true
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.CRM.Services.SelectableMDOListItem[]
   isExternal: true
+  href: SuperOffice.CRM.Services.SelectableMDOListItem.html
   name: SelectableMDOListItem[]
   nameWithType: SelectableMDOListItem[]
   fullName: SuperOffice.CRM.Services.SelectableMDOListItem[]
@@ -1418,406 +2190,14 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.SelectableMDOListItem
     name: SelectableMDOListItem
-    nameWithType: SelectableMDOListItem
-    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.SelectableMDOListItem.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.SelectableMDOListItem
     name: SelectableMDOListItem
-    nameWithType: SelectableMDOListItem
-    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestriction*
-  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestriction
-  isExternal: true
-  name: GetSelectableListWithRestriction
-  nameWithType: MDOAgent.GetSelectableListWithRestriction
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithRestriction
-- uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction(System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction(System.String,System.String,System.String)
-  parent: SuperOffice.CRM.Services.IMDOAgent
-  isExternal: true
-  name: GetSelectableListWithRestriction(String, String, String)
-  nameWithType: IMDOAgent.GetSelectableListWithRestriction(String, String, String)
-  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction(System.String, System.String, System.String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction(System.String,System.String,System.String)
-    name: GetSelectableListWithRestriction
-    nameWithType: IMDOAgent.GetSelectableListWithRestriction
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction
-    isExternal: true
+    href: SuperOffice.CRM.Services.SelectableMDOListItem.html
   - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction(System.String,System.String,System.String)
-    name: GetSelectableListWithRestriction
-    nameWithType: IMDOAgent.GetSelectableListWithRestriction
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistory*
-  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistory
-  isExternal: true
-  name: GetSelectableListWithHistory
-  nameWithType: MDOAgent.GetSelectableListWithHistory
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetSelectableListWithHistory
-- uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
-  parent: SuperOffice.CRM.Services.IMDOAgent
-  isExternal: true
-  name: GetSelectableListWithHistory(String, Boolean, String, Int32[], Boolean)
-  nameWithType: IMDOAgent.GetSelectableListWithHistory(String, Boolean, String, Int32[], Boolean)
-  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory(System.String, System.Boolean, System.String, System.Int32[], System.Boolean)
-  nameWithType.vb: IMDOAgent.GetSelectableListWithHistory(String, Boolean, String, Int32(), Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory(System.String, System.Boolean, System.String, System.Int32(), System.Boolean)
-  name.vb: GetSelectableListWithHistory(String, Boolean, String, Int32(), Boolean)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
-    name: GetSelectableListWithHistory
-    nameWithType: IMDOAgent.GetSelectableListWithHistory
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
-    name: GetSelectableListWithHistory
-    nameWithType: IMDOAgent.GetSelectableListWithHistory
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.MDOAgent.GetSelectableList*
-  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.GetSelectableList
-  isExternal: true
-  name: GetSelectableList
-  nameWithType: MDOAgent.GetSelectableList
-  fullName: SuperOffice.CRM.Services.MDOAgent.GetSelectableList
-- uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableList(System.String,System.Boolean,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetSelectableList(System.String,System.Boolean,System.String,System.Boolean)
-  parent: SuperOffice.CRM.Services.IMDOAgent
-  isExternal: true
-  name: GetSelectableList(String, Boolean, String, Boolean)
-  nameWithType: IMDOAgent.GetSelectableList(String, Boolean, String, Boolean)
-  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableList(System.String, System.Boolean, System.String, System.Boolean)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableList(System.String,System.Boolean,System.String,System.Boolean)
-    name: GetSelectableList
-    nameWithType: IMDOAgent.GetSelectableList
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableList
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableList(System.String,System.Boolean,System.String,System.Boolean)
-    name: GetSelectableList
-    nameWithType: IMDOAgent.GetSelectableList
-    fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableList
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.MDOAgent.SetSelected*
-  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.SetSelected
-  isExternal: true
-  name: SetSelected
-  nameWithType: MDOAgent.SetSelected
-  fullName: SuperOffice.CRM.Services.MDOAgent.SetSelected
-- uid: SuperOffice.CRM.Services.IMDOAgent.SetSelected(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
-  commentId: M:SuperOffice.CRM.Services.IMDOAgent.SetSelected(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
-  parent: SuperOffice.CRM.Services.IMDOAgent
-  isExternal: true
-  name: SetSelected(String, String, SelectableMDOListItem[])
-  nameWithType: IMDOAgent.SetSelected(String, String, SelectableMDOListItem[])
-  fullName: SuperOffice.CRM.Services.IMDOAgent.SetSelected(System.String, System.String, SuperOffice.CRM.Services.SelectableMDOListItem[])
-  nameWithType.vb: IMDOAgent.SetSelected(String, String, SelectableMDOListItem())
-  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.SetSelected(System.String, System.String, SuperOffice.CRM.Services.SelectableMDOListItem())
-  name.vb: SetSelected(String, String, SelectableMDOListItem())
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.SetSelected(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
-    name: SetSelected
-    nameWithType: IMDOAgent.SetSelected
-    fullName: SuperOffice.CRM.Services.IMDOAgent.SetSelected
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
-    name: SelectableMDOListItem
-    nameWithType: SelectableMDOListItem
-    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IMDOAgent.SetSelected(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
-    name: SetSelected
-    nameWithType: IMDOAgent.SetSelected
-    fullName: SuperOffice.CRM.Services.IMDOAgent.SetSelected
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
-    name: SelectableMDOListItem
-    nameWithType: SelectableMDOListItem
-    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.MDOAgent.#ctor*
-  commentId: Overload:SuperOffice.CRM.Services.MDOAgent.#ctor
-  isExternal: true
-  name: MDOAgent
-  nameWithType: MDOAgent.MDOAgent
-  fullName: SuperOffice.CRM.Services.MDOAgent.MDOAgent

@@ -21,27 +21,24 @@ items:
   nameWithType: ConfigurationAttributes.ControlTypes
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.DCF.Configuration
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: 'public static class ControlTypes : Object'
-    content.vb: >-
-      Public Module ControlTypes
-          Inherits Object
+    content: public static class ConfigurationAttributes.ControlTypes
+    content.vb: Public Module ConfigurationAttributes.ControlTypes
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Type
   commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Type
   id: Type
@@ -53,24 +50,16 @@ items:
   nameWithType: ConfigurationAttributes.ControlTypes.Type
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Type
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.DCF.Configuration
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public const string Type = "type"
     return:
       type: System.String
     content.vb: Public Const Type As String = "type"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Label
   commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Label
   id: Label
@@ -82,24 +71,16 @@ items:
   nameWithType: ConfigurationAttributes.ControlTypes.Label
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Label
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.DCF.Configuration
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public const string Label = "SoLabel"
     return:
       type: System.String
     content.vb: Public Const Label As String = "SoLabel"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.PlainLabel
   commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.PlainLabel
   id: PlainLabel
@@ -111,24 +92,16 @@ items:
   nameWithType: ConfigurationAttributes.ControlTypes.PlainLabel
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.PlainLabel
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.DCF.Configuration
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public const string PlainLabel = "SoPlainLabel"
     return:
       type: System.String
     content.vb: Public Const PlainLabel As String = "SoPlainLabel"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.TextField
   commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.TextField
   id: TextField
@@ -140,24 +113,16 @@ items:
   nameWithType: ConfigurationAttributes.ControlTypes.TextField
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.TextField
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.DCF.Configuration
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public const string TextField = "SoTextBox"
     return:
       type: System.String
     content.vb: Public Const TextField As String = "SoTextBox"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Date
   commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Date
   id: Date
@@ -169,24 +134,16 @@ items:
   nameWithType: ConfigurationAttributes.ControlTypes.Date
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Date
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.DCF.Configuration
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public const string Date = "SoDate"
     return:
       type: System.String
     content.vb: Public Const Date As String = "SoDate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Checkbox
   commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Checkbox
   id: Checkbox
@@ -198,24 +155,16 @@ items:
   nameWithType: ConfigurationAttributes.ControlTypes.Checkbox
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Checkbox
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.DCF.Configuration
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public const string Checkbox = "SoCheckBox"
     return:
       type: System.String
     content.vb: Public Const Checkbox As String = "SoCheckBox"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.MDO
   commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.MDO
   id: MDO
@@ -227,24 +176,16 @@ items:
   nameWithType: ConfigurationAttributes.ControlTypes.MDO
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.MDO
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.DCF.Configuration
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public const string MDO = "SoMDOControl"
     return:
       type: System.String
     content.vb: Public Const MDO As String = "SoMDOControl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.RadioButton
   commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.RadioButton
   id: RadioButton
@@ -256,24 +197,16 @@ items:
   nameWithType: ConfigurationAttributes.ControlTypes.RadioButton
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.RadioButton
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.DCF.Configuration
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public const string RadioButton = "SoRadioButton"
     return:
       type: System.String
     content.vb: Public Const RadioButton As String = "SoRadioButton"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.DateSelector
   commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.DateSelector
   id: DateSelector
@@ -285,41 +218,288 @@ items:
   nameWithType: ConfigurationAttributes.ControlTypes.DateSelector
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.DateSelector
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.DCF.Configuration
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public const string DateSelector = "SoDateSelector"
     return:
       type: System.String
     content.vb: Public Const DateSelector As String = "SoDateSelector"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.DCF.Configuration
   commentId: N:SuperOffice.DCF.Configuration
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.DCF.Configuration
   nameWithType: SuperOffice.DCF.Configuration
   fullName: SuperOffice.DCF.Configuration
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.DCF
+    name: DCF
+    isExternal: true
+    href: SuperOffice.DCF.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.DCF
+    name: DCF
+    isExternal: true
+    href: SuperOffice.DCF.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -327,6 +507,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -25,33 +25,54 @@ items:
   nameWithType: FormSubmissionEntity
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nContent of a Form submission\n<p></p>\nCarrier object for FormSubmissionEntity.\nServices for the FormSubmissionEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IMarketingAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Content of a Form submission
+
+    <p></p>
+
+    Carrier object for FormSubmissionEntity.
+
+    Services for the FormSubmissionEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.IMarketingAgent?text=Marketing+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet FormSubmissionEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new MarketingAgent();\n    var formSubmissionEntity = agent.GetFormSubmissionEntity( 123 );\n }</code></pre>\n"
+  - >-
+    Get FormSubmissionEntity 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new MarketingAgent();
+       var formSubmissionEntity = agent.GetFormSubmissionEntity( 123 );
+    }</code></pre>
   syntax:
-    content: 'public class FormSubmissionEntity : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class FormSubmissionEntity : Carrier
     content.vb: >-
-      Public Class FormSubmissionEntity
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class FormSubmissionEntity Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.MarketingAgent
-    commentId: T:SuperOffice.CRM.Services.MarketingAgent
   - linkId: SuperOffice.CRM.Services.IMarketingAgent
     commentId: T:SuperOffice.CRM.Services.IMarketingAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.FormSubmissionEntity.#ctor
   id: '#ctor'
@@ -63,21 +84,18 @@ items:
   nameWithType: FormSubmissionEntity.FormSubmissionEntity()
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.FormSubmissionEntity()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public FormSubmissionEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.FormSubmissionEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: FormSubmissionEntity.New()
+  fullName.vb: SuperOffice.CRM.Services.FormSubmissionEntity.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.ToString
   commentId: M:SuperOffice.CRM.Services.FormSubmissionEntity.ToString
   id: ToString
@@ -89,26 +107,18 @@ items:
   nameWithType: FormSubmissionEntity.ToString()
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.FormSubmissionEntity.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.FormSubmissionEntity.ToString(System.String)
   id: ToString(System.String)
@@ -116,17 +126,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: FormSubmissionEntity.ToString(String)
-  fullName: SuperOffice.CRM.Services.FormSubmissionEntity.ToString(System.String)
+  name: ToString(string)
+  nameWithType: FormSubmissionEntity.ToString(string)
+  fullName: SuperOffice.CRM.Services.FormSubmissionEntity.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -138,10 +149,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.FormSubmissionEntity.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: FormSubmissionEntity.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.FormSubmissionEntity.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.FormSubmissionId
   commentId: P:SuperOffice.CRM.Services.FormSubmissionEntity.FormSubmissionId
   id: FormSubmissionId
@@ -153,28 +163,28 @@ items:
   nameWithType: FormSubmissionEntity.FormSubmissionId
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.FormSubmissionId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int FormSubmissionId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int FormSubmissionId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property FormSubmissionId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FormSubmissionId As Integer
   overload: SuperOffice.CRM.Services.FormSubmissionEntity.FormSubmissionId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.FormId
   commentId: P:SuperOffice.CRM.Services.FormSubmissionEntity.FormId
   id: FormId
@@ -186,28 +196,28 @@ items:
   nameWithType: FormSubmissionEntity.FormId
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.FormId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe id of the parent form. \n"
+  summary: The id of the parent form.
+  example: []
   syntax:
-    content: public virtual int FormId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int FormId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property FormId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FormId As Integer
   overload: SuperOffice.CRM.Services.FormSubmissionEntity.FormId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.WhenSubmitted
   commentId: P:SuperOffice.CRM.Services.FormSubmissionEntity.WhenSubmitted
   id: WhenSubmitted
@@ -219,28 +229,28 @@ items:
   nameWithType: FormSubmissionEntity.WhenSubmitted
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.WhenSubmitted
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe time of the submit. \n"
+  summary: The time of the submit.
+  example: []
   syntax:
-    content: public virtual DateTime WhenSubmitted { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime WhenSubmitted { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenSubmitted As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property WhenSubmitted As Date
   overload: SuperOffice.CRM.Services.FormSubmissionEntity.WhenSubmitted*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.ContactId
   commentId: P:SuperOffice.CRM.Services.FormSubmissionEntity.ContactId
   id: ContactId
@@ -252,28 +262,28 @@ items:
   nameWithType: FormSubmissionEntity.ContactId
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.ContactId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe optional id of the contact of the person who submitted. \n"
+  summary: The optional id of the contact of the person who submitted.
+  example: []
   syntax:
-    content: public virtual int ContactId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int ContactId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property ContactId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ContactId As Integer
   overload: SuperOffice.CRM.Services.FormSubmissionEntity.ContactId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.PersonId
   commentId: P:SuperOffice.CRM.Services.FormSubmissionEntity.PersonId
   id: PersonId
@@ -285,28 +295,28 @@ items:
   nameWithType: FormSubmissionEntity.PersonId
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.PersonId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe optional id of the person who submitted. \n"
+  summary: The optional id of the person who submitted.
+  example: []
   syntax:
-    content: public virtual int PersonId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int PersonId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property PersonId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PersonId As Integer
   overload: SuperOffice.CRM.Services.FormSubmissionEntity.PersonId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.EmailAddress
   commentId: P:SuperOffice.CRM.Services.FormSubmissionEntity.EmailAddress
   id: EmailAddress
@@ -318,28 +328,28 @@ items:
   nameWithType: FormSubmissionEntity.EmailAddress
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.EmailAddress
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe email address of the person who submitted \n"
+  summary: The email address of the person who submitted
+  example: []
   syntax:
-    content: public virtual string EmailAddress { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string EmailAddress { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property EmailAddress As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property EmailAddress As String
   overload: SuperOffice.CRM.Services.FormSubmissionEntity.EmailAddress*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.ResponseShipmentAddrId
   commentId: P:SuperOffice.CRM.Services.FormSubmissionEntity.ResponseShipmentAddrId
   id: ResponseShipmentAddrId
@@ -351,28 +361,28 @@ items:
   nameWithType: FormSubmissionEntity.ResponseShipmentAddrId
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.ResponseShipmentAddrId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe id of the s_shipment_addr that is the response mail \n"
+  summary: The id of the s_shipment_addr that is the response mail
+  example: []
   syntax:
-    content: public virtual int ResponseShipmentAddrId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int ResponseShipmentAddrId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property ResponseShipmentAddrId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ResponseShipmentAddrId As Integer
   overload: SuperOffice.CRM.Services.FormSubmissionEntity.ResponseShipmentAddrId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.Response
   commentId: P:SuperOffice.CRM.Services.FormSubmissionEntity.Response
   id: Response
@@ -384,28 +394,28 @@ items:
   nameWithType: FormSubmissionEntity.Response
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.Response
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe JSON-formatted response from this form \n"
+  summary: The JSON-formatted response from this form
+  example: []
   syntax:
-    content: public virtual string Response { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Response { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Response As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Response As String
   overload: SuperOffice.CRM.Services.FormSubmissionEntity.Response*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.Status
   commentId: P:SuperOffice.CRM.Services.FormSubmissionEntity.Status
   id: Status
@@ -417,28 +427,28 @@ items:
   nameWithType: FormSubmissionEntity.Status
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.Status
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nWhat is the status of this submission \n"
+  summary: What is the status of this submission
+  example: []
   syntax:
-    content: public virtual FormSubmissionStatus Status { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual FormSubmissionStatus Status { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.FormSubmissionStatus
-    content.vb: Public Overridable Property Status As FormSubmissionStatus
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Status As FormSubmissionStatus
   overload: SuperOffice.CRM.Services.FormSubmissionEntity.Status*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.ProcessingLog
   commentId: P:SuperOffice.CRM.Services.FormSubmissionEntity.ProcessingLog
   id: ProcessingLog
@@ -450,57 +460,106 @@ items:
   nameWithType: FormSubmissionEntity.ProcessingLog
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.ProcessingLog
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nA log of what happened during processing \n"
+  summary: A log of what happened during processing
+  example: []
   syntax:
-    content: public virtual string ProcessingLog { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ProcessingLog { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ProcessingLog As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ProcessingLog As String
   overload: SuperOffice.CRM.Services.FormSubmissionEntity.ProcessingLog*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.MarketingAgent
-  commentId: T:SuperOffice.CRM.Services.MarketingAgent
-  isExternal: true
-  name: MarketingAgent
-  nameWithType: MarketingAgent
-  fullName: SuperOffice.CRM.Services.MarketingAgent
 - uid: SuperOffice.CRM.Services.IMarketingAgent
   commentId: T:SuperOffice.CRM.Services.IMarketingAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IMarketingAgent.html
   name: IMarketingAgent
   nameWithType: IMarketingAgent
   fullName: SuperOffice.CRM.Services.IMarketingAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.FormSubmissionEntity.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.FormSubmissionEntity.html#SuperOffice_CRM_Services_FormSubmissionEntity__ctor
   name: FormSubmissionEntity
   nameWithType: FormSubmissionEntity.FormSubmissionEntity
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.FormSubmissionEntity
+  nameWithType.vb: FormSubmissionEntity.New
+  fullName.vb: SuperOffice.CRM.Services.FormSubmissionEntity.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.ToString*
   commentId: Overload:SuperOffice.CRM.Services.FormSubmissionEntity.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.FormSubmissionEntity.html#SuperOffice_CRM_Services_FormSubmissionEntity_ToString
   name: ToString
   nameWithType: FormSubmissionEntity.ToString
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.ToString
@@ -508,18 +567,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.FormSubmissionId*
   commentId: Overload:SuperOffice.CRM.Services.FormSubmissionEntity.FormSubmissionId
   isExternal: true
+  href: SuperOffice.CRM.Services.FormSubmissionEntity.html#SuperOffice_CRM_Services_FormSubmissionEntity_FormSubmissionId
   name: FormSubmissionId
   nameWithType: FormSubmissionEntity.FormSubmissionId
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.FormSubmissionId
@@ -527,59 +585,77 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.FormId*
   commentId: Overload:SuperOffice.CRM.Services.FormSubmissionEntity.FormId
   isExternal: true
+  href: SuperOffice.CRM.Services.FormSubmissionEntity.html#SuperOffice_CRM_Services_FormSubmissionEntity_FormId
   name: FormId
   nameWithType: FormSubmissionEntity.FormId
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.FormId
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.WhenSubmitted*
   commentId: Overload:SuperOffice.CRM.Services.FormSubmissionEntity.WhenSubmitted
   isExternal: true
+  href: SuperOffice.CRM.Services.FormSubmissionEntity.html#SuperOffice_CRM_Services_FormSubmissionEntity_WhenSubmitted
   name: WhenSubmitted
   nameWithType: FormSubmissionEntity.WhenSubmitted
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.WhenSubmitted
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.ContactId*
   commentId: Overload:SuperOffice.CRM.Services.FormSubmissionEntity.ContactId
   isExternal: true
+  href: SuperOffice.CRM.Services.FormSubmissionEntity.html#SuperOffice_CRM_Services_FormSubmissionEntity_ContactId
   name: ContactId
   nameWithType: FormSubmissionEntity.ContactId
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.ContactId
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.PersonId*
   commentId: Overload:SuperOffice.CRM.Services.FormSubmissionEntity.PersonId
   isExternal: true
+  href: SuperOffice.CRM.Services.FormSubmissionEntity.html#SuperOffice_CRM_Services_FormSubmissionEntity_PersonId
   name: PersonId
   nameWithType: FormSubmissionEntity.PersonId
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.PersonId
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.EmailAddress*
   commentId: Overload:SuperOffice.CRM.Services.FormSubmissionEntity.EmailAddress
   isExternal: true
+  href: SuperOffice.CRM.Services.FormSubmissionEntity.html#SuperOffice_CRM_Services_FormSubmissionEntity_EmailAddress
   name: EmailAddress
   nameWithType: FormSubmissionEntity.EmailAddress
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.EmailAddress
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.ResponseShipmentAddrId*
   commentId: Overload:SuperOffice.CRM.Services.FormSubmissionEntity.ResponseShipmentAddrId
   isExternal: true
+  href: SuperOffice.CRM.Services.FormSubmissionEntity.html#SuperOffice_CRM_Services_FormSubmissionEntity_ResponseShipmentAddrId
   name: ResponseShipmentAddrId
   nameWithType: FormSubmissionEntity.ResponseShipmentAddrId
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.ResponseShipmentAddrId
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.Response*
   commentId: Overload:SuperOffice.CRM.Services.FormSubmissionEntity.Response
   isExternal: true
+  href: SuperOffice.CRM.Services.FormSubmissionEntity.html#SuperOffice_CRM_Services_FormSubmissionEntity_Response
   name: Response
   nameWithType: FormSubmissionEntity.Response
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.Response
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.Status*
   commentId: Overload:SuperOffice.CRM.Services.FormSubmissionEntity.Status
   isExternal: true
+  href: SuperOffice.CRM.Services.FormSubmissionEntity.html#SuperOffice_CRM_Services_FormSubmissionEntity_Status
   name: Status
   nameWithType: FormSubmissionEntity.Status
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.Status
@@ -591,6 +667,7 @@ references:
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.ProcessingLog*
   commentId: Overload:SuperOffice.CRM.Services.FormSubmissionEntity.ProcessingLog
   isExternal: true
+  href: SuperOffice.CRM.Services.FormSubmissionEntity.html#SuperOffice_CRM_Services_FormSubmissionEntity_ProcessingLog
   name: ProcessingLog
   nameWithType: FormSubmissionEntity.ProcessingLog
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.ProcessingLog

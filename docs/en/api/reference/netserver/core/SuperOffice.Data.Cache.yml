@@ -9,13 +9,12 @@ items:
   - SuperOffice.Data.Cache.CacheFlusher
   - SuperOffice.Data.Cache.CacheInvalidationOperations
   - SuperOffice.Data.Cache.CacheManager
-  - SuperOffice.Data.Cache.CacheManager.DisableAutoUpdateScope
   - SuperOffice.Data.Cache.CacheV2Attribute
   - SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute
+  - SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions
   - SuperOffice.Data.Cache.ICacheFlusher
-  - SuperOffice.Data.Cache.IFlushableV2
+  - SuperOffice.Data.Cache.ICacheManager
   - SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
-  - SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin
   langs:
   - csharp
   - vb
@@ -24,12 +23,27 @@ items:
   fullName: SuperOffice.Data.Cache
   type: Namespace
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
 references:
+- uid: SuperOffice.Data.Cache.CacheFlusher
+  commentId: T:SuperOffice.Data.Cache.CacheFlusher
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheFlusher.html
+  name: CacheFlusher
+  nameWithType: CacheFlusher
+  fullName: SuperOffice.Data.Cache.CacheFlusher
+- uid: SuperOffice.Data.Cache.CacheManager
+  commentId: T:SuperOffice.Data.Cache.CacheManager
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheManager.html
+  name: CacheManager
+  nameWithType: CacheManager
+  fullName: SuperOffice.Data.Cache.CacheManager
 - uid: SuperOffice.Data.Cache.CacheBaseV2
   commentId: T:SuperOffice.Data.Cache.CacheBaseV2
   parent: SuperOffice.Data.Cache
   isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html
   name: CacheBaseV2
   nameWithType: CacheBaseV2
   fullName: SuperOffice.Data.Cache.CacheBaseV2
@@ -37,78 +51,97 @@ references:
   commentId: T:SuperOffice.Data.Cache.CacheV2Attribute
   parent: SuperOffice.Data.Cache
   isExternal: true
+  href: SuperOffice.Data.Cache.CacheV2Attribute.html
   name: CacheV2Attribute
   nameWithType: CacheV2Attribute
   fullName: SuperOffice.Data.Cache.CacheV2Attribute
 - uid: SuperOffice.Data.Cache.CacheInvalidationOperations
   commentId: T:SuperOffice.Data.Cache.CacheInvalidationOperations
   isExternal: true
+  href: SuperOffice.Data.Cache.CacheInvalidationOperations.html
   name: CacheInvalidationOperations
   nameWithType: CacheInvalidationOperations
   fullName: SuperOffice.Data.Cache.CacheInvalidationOperations
-- uid: SuperOffice.Data.Cache.CacheManager
-  commentId: T:SuperOffice.Data.Cache.CacheManager
-  isExternal: true
-  name: CacheManager
-  nameWithType: CacheManager
-  fullName: SuperOffice.Data.Cache.CacheManager
-- uid: SuperOffice.Data.Cache.CacheManager.DisableAutoUpdateScope
-  commentId: T:SuperOffice.Data.Cache.CacheManager.DisableAutoUpdateScope
-  parent: SuperOffice.Data.Cache
-  isExternal: true
-  name: CacheManager.DisableAutoUpdateScope
-  nameWithType: CacheManager.DisableAutoUpdateScope
-  fullName: SuperOffice.Data.Cache.CacheManager.DisableAutoUpdateScope
 - uid: SuperOffice.Data.Cache.ICacheFlusher
   commentId: T:SuperOffice.Data.Cache.ICacheFlusher
   parent: SuperOffice.Data.Cache
   isExternal: true
+  href: SuperOffice.Data.Cache.ICacheFlusher.html
   name: ICacheFlusher
   nameWithType: ICacheFlusher
   fullName: SuperOffice.Data.Cache.ICacheFlusher
-- uid: SuperOffice.Data.Cache.CacheFlusher
-  commentId: T:SuperOffice.Data.Cache.CacheFlusher
-  isExternal: true
-  name: CacheFlusher
-  nameWithType: CacheFlusher
-  fullName: SuperOffice.Data.Cache.CacheFlusher
-- uid: SuperOffice.Data.Cache.IFlushableV2
-  commentId: T:SuperOffice.Data.Cache.IFlushableV2
+- uid: SuperOffice.Data.Cache.ICacheManager
+  commentId: T:SuperOffice.Data.Cache.ICacheManager
   parent: SuperOffice.Data.Cache
   isExternal: true
-  name: IFlushableV2
-  nameWithType: IFlushableV2
-  fullName: SuperOffice.Data.Cache.IFlushableV2
+  href: SuperOffice.Data.Cache.ICacheManager.html
+  name: ICacheManager
+  nameWithType: ICacheManager
+  fullName: SuperOffice.Data.Cache.ICacheManager
 - uid: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
   commentId: T:SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
   parent: SuperOffice.Data.Cache
   isExternal: true
+  href: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin.html
   name: IFlushCacheAndBroadcastPlugin
   nameWithType: IFlushCacheAndBroadcastPlugin
   fullName: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
-- uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute
-  commentId: T:SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute
+- uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions
+  commentId: T:SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions
   parent: SuperOffice.Data.Cache
   isExternal: true
+  href: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions.html
+  name: FlushCacheAndBroadcastPluginExtensions
+  nameWithType: FlushCacheAndBroadcastPluginExtensions
+  fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginExtensions
+- uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute
+  commentId: T:SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute
+  isExternal: true
+  href: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute.html
   name: FlushCacheAndBroadcastPluginAttribute
   nameWithType: FlushCacheAndBroadcastPluginAttribute
   fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute
-- uid: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin
-  commentId: T:SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin
-  isExternal: true
-  name: OnsiteFlushCacheAndBroadcastPlugin
-  nameWithType: OnsiteFlushCacheAndBroadcastPlugin
-  fullName: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin
 - uid: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
   commentId: T:SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
-  parent: SuperOffice.Data.Cache
   isExternal: true
+  href: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.html
   name: BaseFlushCacheAndBroadcastPlugin
   nameWithType: BaseFlushCacheAndBroadcastPlugin
   fullName: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
 - uid: SuperOffice.Data.Cache
   commentId: N:SuperOffice.Data.Cache
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.Cache
   nameWithType: SuperOffice.Data.Cache
   fullName: SuperOffice.Data.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html

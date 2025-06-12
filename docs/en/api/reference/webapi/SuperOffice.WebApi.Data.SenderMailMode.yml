@@ -9,64 +9,24 @@ items:
   - SuperOffice.WebApi.Data.SenderMailMode.UseLoggedInUser
   - SuperOffice.WebApi.Data.SenderMailMode.UseOurContact
   - SuperOffice.WebApi.Data.SenderMailMode.UseSupportContact
-  - SuperOffice.WebApi.Data.SenderMailMode.value__
   langs:
   - csharp
   - vb
   name: SenderMailMode
   nameWithType: SenderMailMode
   fullName: SuperOffice.WebApi.Data.SenderMailMode
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nSender email mode\nThis Enum is used by:  DocTmpl.senderEmailMode\n"
-  syntax:
-    content: 'public sealed class SenderMailMode : Enum'
-    content.vb: >-
-      Public NotInheritable Class SenderMailMode
-          Inherits
+  summary: >-
+    Sender email mode
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.SenderMailMode.value__
-  commentId: F:SuperOffice.WebApi.Data.SenderMailMode.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.SenderMailMode
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: SenderMailMode.value__
-  fullName: SuperOffice.WebApi.Data.SenderMailMode.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  DocTmpl.senderEmailMode
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum SenderMailMode : short'
+    content.vb: Public Enum SenderMailMode As Short
 - uid: SuperOffice.WebApi.Data.SenderMailMode.UseDefaultSender
   commentId: F:SuperOffice.WebApi.Data.SenderMailMode.UseDefaultSender
   id: UseDefaultSender
@@ -78,24 +38,26 @@ items:
   nameWithType: SenderMailMode.UseDefaultSender
   fullName: SuperOffice.WebApi.Data.SenderMailMode.UseDefaultSender
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Use default sender, saved in template SenderEmailAddress\n"
+  summary: '0: Use default sender, saved in template SenderEmailAddress'
+  example: []
   syntax:
-    content: public const SenderMailMode UseDefaultSender
+    content: >-
+      [EnumMember]
+
+      UseDefaultSender = 0
     return:
       type: SuperOffice.WebApi.Data.SenderMailMode
-    content.vb: Public Const UseDefaultSender As SenderMailMode
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UseDefaultSender = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.SenderMailMode.UseOurContact
   commentId: F:SuperOffice.WebApi.Data.SenderMailMode.UseOurContact
   id: UseOurContact
@@ -107,24 +69,26 @@ items:
   nameWithType: SenderMailMode.UseOurContact
   fullName: SuperOffice.WebApi.Data.SenderMailMode.UseOurContact
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Use persons our contact email address\n"
+  summary: '1: Use persons our contact email address'
+  example: []
   syntax:
-    content: public const SenderMailMode UseOurContact
+    content: >-
+      [EnumMember]
+
+      UseOurContact = 1
     return:
       type: SuperOffice.WebApi.Data.SenderMailMode
-    content.vb: Public Const UseOurContact As SenderMailMode
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UseOurContact = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.SenderMailMode.UseSupportContact
   commentId: F:SuperOffice.WebApi.Data.SenderMailMode.UseSupportContact
   id: UseSupportContact
@@ -136,24 +100,26 @@ items:
   nameWithType: SenderMailMode.UseSupportContact
   fullName: SuperOffice.WebApi.Data.SenderMailMode.UseSupportContact
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Use persons support contact.\n"
+  summary: '2: Use persons support contact.'
+  example: []
   syntax:
-    content: public const SenderMailMode UseSupportContact
+    content: >-
+      [EnumMember]
+
+      UseSupportContact = 2
     return:
       type: SuperOffice.WebApi.Data.SenderMailMode
-    content.vb: Public Const UseSupportContact As SenderMailMode
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UseSupportContact = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.SenderMailMode.UseLoggedInUser
   commentId: F:SuperOffice.WebApi.Data.SenderMailMode.UseLoggedInUser
   id: UseLoggedInUser
@@ -165,55 +131,69 @@ items:
   nameWithType: SenderMailMode.UseLoggedInUser
   fullName: SuperOffice.WebApi.Data.SenderMailMode.UseLoggedInUser
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Use logged in user.\n"
+  summary: '3: Use logged in user.'
+  example: []
   syntax:
-    content: public const SenderMailMode UseLoggedInUser
+    content: >-
+      [EnumMember]
+
+      UseLoggedInUser = 3
     return:
       type: SuperOffice.WebApi.Data.SenderMailMode
-    content.vb: Public Const UseLoggedInUser As SenderMailMode
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UseLoggedInUser = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.SenderMailMode
   commentId: T:SuperOffice.WebApi.Data.SenderMailMode
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.SenderMailMode.html
   name: SenderMailMode
   nameWithType: SenderMailMode
   fullName: SuperOffice.WebApi.Data.SenderMailMode

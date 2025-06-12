@@ -7,7 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.#ctor
   - SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.Hint
-  - SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.InnerGetPreview(SuperOffice.CRM.Previews.PreviewData)
+  - SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.InnerGetPreviewAsync(SuperOffice.CRM.Previews.PreviewData,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -15,23 +15,18 @@ items:
   nameWithType: QuickReplyPreviewPlugin
   fullName: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Previews
   syntax:
     content: >-
-      [PreviewPlugin("SuperOffice:QuickReplyPreview", new string[]{"quickReply_id"})]
+      [PreviewPlugin("SuperOffice:QuickReplyPreview", new string[] { "quickReply_id" })]
 
-      public class QuickReplyPreviewPlugin : PreviewPluginBase, IPreviewProviderPlugin, IPlugin
+      public class QuickReplyPreviewPlugin : PreviewPluginBase
     content.vb: >-
-      <PreviewPlugin("SuperOffice:QuickReplyPreview", New String() {"quickReply_id"})>
+      <PreviewPlugin("SuperOffice:QuickReplyPreview", New String() { "quickReply_id" })>
 
-      Public Class QuickReplyPreviewPlugin
-          Inherits PreviewPluginBase
-          Implements IPreviewProviderPlugin, IPlugin
+      Public Class QuickReplyPreviewPlugin Inherits PreviewPluginBase
   inheritance:
   - System.Object
   - SuperOffice.CRM.Previews.PreviewPluginBase
@@ -39,7 +34,7 @@ items:
   - SuperOffice.CRM.Previews.PreviewPluginBase.ImageHint
   - SuperOffice.CRM.Previews.PreviewPluginBase.SimpleHint
   - SuperOffice.CRM.Previews.PreviewPluginBase.UpdatedHint
-  - SuperOffice.CRM.Previews.PreviewPluginBase.GetPreview(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},SuperOffice.CRM.Previews.PreviewData)
+  - SuperOffice.CRM.Previews.PreviewPluginBase.GetPreviewAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},SuperOffice.CRM.Previews.PreviewData,System.Threading.CancellationToken)
   - SuperOffice.CRM.Previews.PreviewPluginBase.TryGetIntHint(System.String,System.Int32@)
   - SuperOffice.CRM.Previews.PreviewPluginBase.TryGetStringHint(System.String,System.String@)
   - SuperOffice.CRM.Previews.PreviewPluginBase.TryGetBoolHint(System.String,System.Boolean@)
@@ -49,17 +44,18 @@ items:
   - SuperOffice.CRM.Previews.PreviewPluginBase.RemoveBlankLines(System.String)
   - SuperOffice.CRM.Previews.PreviewPluginBase.FormatDescriptionText(System.String)
   - SuperOffice.CRM.Previews.PreviewPluginBase.Hints
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
   - SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.Hint
   commentId: F:SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.Hint
   id: Hint
@@ -71,56 +67,51 @@ items:
   nameWithType: QuickReplyPreviewPlugin.Hint
   fullName: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.Hint
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Previews
   syntax:
     content: public const string Hint = "quickReply_id"
     return:
       type: System.String
     content.vb: Public Const Hint As String = "quickReply_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
-- uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.InnerGetPreview(SuperOffice.CRM.Previews.PreviewData)
-  commentId: M:SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.InnerGetPreview(SuperOffice.CRM.Previews.PreviewData)
-  id: InnerGetPreview(SuperOffice.CRM.Previews.PreviewData)
+- uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.InnerGetPreviewAsync(SuperOffice.CRM.Previews.PreviewData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.InnerGetPreviewAsync(SuperOffice.CRM.Previews.PreviewData,System.Threading.CancellationToken)
+  id: InnerGetPreviewAsync(SuperOffice.CRM.Previews.PreviewData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
   langs:
   - csharp
   - vb
-  name: InnerGetPreview(PreviewData)
-  nameWithType: QuickReplyPreviewPlugin.InnerGetPreview(PreviewData)
-  fullName: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.InnerGetPreview(SuperOffice.CRM.Previews.PreviewData)
+  name: InnerGetPreviewAsync(PreviewData, CancellationToken)
+  nameWithType: QuickReplyPreviewPlugin.InnerGetPreviewAsync(PreviewData, CancellationToken)
+  fullName: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.InnerGetPreviewAsync(SuperOffice.CRM.Previews.PreviewData, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Previews
+  summary: 'Subclass contract: derived class must implement their Preview logicin this method.'
+  remarks: >-
+    The Preview hints are accessible through the <xref href="SuperOffice.CRM.Previews.PreviewPluginBase.Hints" data-throw-if-not-resolved="false"></xref> property, but clients should
+
+    usually find the provided access methods sufficient. <xref href="SuperOffice.CRM.Previews.PreviewPluginBase.TryGetIntHint(System.String%2cSystem.Int32%40)" data-throw-if-not-resolved="false"></xref>, <xref href="SuperOffice.CRM.Previews.PreviewPluginBase.TryGetStringHint(System.String%2cSystem.String%40)" data-throw-if-not-resolved="false"></xref>
+
+    and <xref href="SuperOffice.CRM.Previews.PreviewPluginBase.TryGetBoolHint(System.String%2cSystem.Boolean%40)" data-throw-if-not-resolved="false"></xref> look for and parse the given type of key, and return a bool value
+
+    that specifies whether the given key was found.
+  example: []
   syntax:
-    content: protected override PreviewData InnerGetPreview(PreviewData previewData)
+    content: protected override Task<PreviewData> InnerGetPreviewAsync(PreviewData previewData, CancellationToken cancellationToken)
     parameters:
     - id: previewData
       type: SuperOffice.CRM.Previews.PreviewData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Previews.PreviewData
-    content.vb: Protected Overrides Function InnerGetPreview(previewData As PreviewData) As PreviewData
-  overridden: SuperOffice.CRM.Previews.PreviewPluginBase.InnerGetPreview(SuperOffice.CRM.Previews.PreviewData)
-  overload: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.InnerGetPreview*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Previews.PreviewData}
+      description: Preview text, or an empty string
+    content.vb: Protected Overrides Function InnerGetPreviewAsync(previewData As PreviewData, cancellationToken As CancellationToken) As Task(Of PreviewData)
+  overridden: SuperOffice.CRM.Previews.PreviewPluginBase.InnerGetPreviewAsync(SuperOffice.CRM.Previews.PreviewData,System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.InnerGetPreviewAsync*
 - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.#ctor
   commentId: M:SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.#ctor
   id: '#ctor'
@@ -132,38 +123,70 @@ items:
   nameWithType: QuickReplyPreviewPlugin.QuickReplyPreviewPlugin()
   fullName: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.QuickReplyPreviewPlugin()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Previews
   syntax:
     content: public QuickReplyPreviewPlugin()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: QuickReplyPreviewPlugin.New()
+  fullName.vb: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.New()
+  name.vb: New()
 references:
 - uid: SuperOffice.CRM.Previews
   commentId: N:SuperOffice.CRM.Previews
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Previews
   nameWithType: SuperOffice.CRM.Previews
   fullName: SuperOffice.CRM.Previews
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Previews
+    name: Previews
+    isExternal: true
+    href: SuperOffice.CRM.Previews.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Previews
+    name: Previews
+    isExternal: true
+    href: SuperOffice.CRM.Previews.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Previews.PreviewPluginBase
   commentId: T:SuperOffice.CRM.Previews.PreviewPluginBase
   parent: SuperOffice.CRM.Previews
   isExternal: true
+  href: SuperOffice.CRM.Previews.PreviewPluginBase.html
   name: PreviewPluginBase
   nameWithType: PreviewPluginBase
   fullName: SuperOffice.CRM.Previews.PreviewPluginBase
@@ -171,6 +194,7 @@ references:
   commentId: F:SuperOffice.CRM.Previews.PreviewPluginBase.ImageHint
   parent: SuperOffice.CRM.Previews.PreviewPluginBase
   isExternal: true
+  href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_ImageHint
   name: ImageHint
   nameWithType: PreviewPluginBase.ImageHint
   fullName: SuperOffice.CRM.Previews.PreviewPluginBase.ImageHint
@@ -178,6 +202,7 @@ references:
   commentId: F:SuperOffice.CRM.Previews.PreviewPluginBase.SimpleHint
   parent: SuperOffice.CRM.Previews.PreviewPluginBase
   isExternal: true
+  href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_SimpleHint
   name: SimpleHint
   nameWithType: PreviewPluginBase.SimpleHint
   fullName: SuperOffice.CRM.Previews.PreviewPluginBase.SimpleHint
@@ -185,699 +210,889 @@ references:
   commentId: F:SuperOffice.CRM.Previews.PreviewPluginBase.UpdatedHint
   parent: SuperOffice.CRM.Previews.PreviewPluginBase
   isExternal: true
+  href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_UpdatedHint
   name: UpdatedHint
   nameWithType: PreviewPluginBase.UpdatedHint
   fullName: SuperOffice.CRM.Previews.PreviewPluginBase.UpdatedHint
-- uid: SuperOffice.CRM.Previews.PreviewPluginBase.GetPreview(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},SuperOffice.CRM.Previews.PreviewData)
-  commentId: M:SuperOffice.CRM.Previews.PreviewPluginBase.GetPreview(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},SuperOffice.CRM.Previews.PreviewData)
+- uid: SuperOffice.CRM.Previews.PreviewPluginBase.GetPreviewAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},SuperOffice.CRM.Previews.PreviewData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Previews.PreviewPluginBase.GetPreviewAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},SuperOffice.CRM.Previews.PreviewData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Previews.PreviewPluginBase
   isExternal: true
-  name: GetPreview(Dictionary<String, List<String>>, PreviewData)
-  nameWithType: PreviewPluginBase.GetPreview(Dictionary<String, List<String>>, PreviewData)
-  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.GetPreview(System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.List<System.String>>, SuperOffice.CRM.Previews.PreviewData)
-  nameWithType.vb: PreviewPluginBase.GetPreview(Dictionary(Of String, List(Of String)), PreviewData)
-  fullName.vb: SuperOffice.CRM.Previews.PreviewPluginBase.GetPreview(System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.List(Of System.String)), SuperOffice.CRM.Previews.PreviewData)
-  name.vb: GetPreview(Dictionary(Of String, List(Of String)), PreviewData)
+  href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_GetPreviewAsync_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_List_System_String___SuperOffice_CRM_Previews_PreviewData_System_Threading_CancellationToken_
+  name: GetPreviewAsync(Dictionary<string, List<string>>, PreviewData, CancellationToken)
+  nameWithType: PreviewPluginBase.GetPreviewAsync(Dictionary<string, List<string>>, PreviewData, CancellationToken)
+  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.GetPreviewAsync(System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<string>>, SuperOffice.CRM.Previews.PreviewData, System.Threading.CancellationToken)
+  nameWithType.vb: PreviewPluginBase.GetPreviewAsync(Dictionary(Of String, List(Of String)), PreviewData, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Previews.PreviewPluginBase.GetPreviewAsync(System.Collections.Generic.Dictionary(Of String, System.Collections.Generic.List(Of String)), SuperOffice.CRM.Previews.PreviewData, System.Threading.CancellationToken)
+  name.vb: GetPreviewAsync(Dictionary(Of String, List(Of String)), PreviewData, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Previews.PreviewPluginBase.GetPreview(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},SuperOffice.CRM.Previews.PreviewData)
-    name: GetPreview
-    nameWithType: PreviewPluginBase.GetPreview
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.GetPreview
+  - uid: SuperOffice.CRM.Previews.PreviewPluginBase.GetPreviewAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},SuperOffice.CRM.Previews.PreviewData,System.Threading.CancellationToken)
+    name: GetPreviewAsync
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_GetPreviewAsync_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_List_System_String___SuperOffice_CRM_Previews_PreviewData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Previews.PreviewData
     name: PreviewData
-    nameWithType: PreviewData
-    fullName: SuperOffice.CRM.Previews.PreviewData
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Previews.PreviewPluginBase.GetPreview(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},SuperOffice.CRM.Previews.PreviewData)
-    name: GetPreview
-    nameWithType: PreviewPluginBase.GetPreview
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.GetPreview
+  - uid: SuperOffice.CRM.Previews.PreviewPluginBase.GetPreviewAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},SuperOffice.CRM.Previews.PreviewData,System.Threading.CancellationToken)
+    name: GetPreviewAsync
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_GetPreviewAsync_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_List_System_String___SuperOffice_CRM_Previews_PreviewData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Previews.PreviewData
     name: PreviewData
-    nameWithType: PreviewData
-    fullName: SuperOffice.CRM.Previews.PreviewData
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetIntHint(System.String,System.Int32@)
   commentId: M:SuperOffice.CRM.Previews.PreviewPluginBase.TryGetIntHint(System.String,System.Int32@)
   parent: SuperOffice.CRM.Previews.PreviewPluginBase
   isExternal: true
-  name: TryGetIntHint(String, Int32)
-  nameWithType: PreviewPluginBase.TryGetIntHint(String, Int32)
-  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetIntHint(System.String, System.Int32)
+  href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_TryGetIntHint_System_String_System_Int32__
+  name: TryGetIntHint(string, out int)
+  nameWithType: PreviewPluginBase.TryGetIntHint(string, out int)
+  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetIntHint(string, out int)
+  nameWithType.vb: PreviewPluginBase.TryGetIntHint(String, Integer)
+  fullName.vb: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetIntHint(String, Integer)
+  name.vb: TryGetIntHint(String, Integer)
   spec.csharp:
   - uid: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetIntHint(System.String,System.Int32@)
     name: TryGetIntHint
-    nameWithType: PreviewPluginBase.TryGetIntHint
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetIntHint
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_TryGetIntHint_System_String_System_Int32__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetIntHint(System.String,System.Int32@)
     name: TryGetIntHint
-    nameWithType: PreviewPluginBase.TryGetIntHint
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetIntHint
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_TryGetIntHint_System_String_System_Int32__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetStringHint(System.String,System.String@)
   commentId: M:SuperOffice.CRM.Previews.PreviewPluginBase.TryGetStringHint(System.String,System.String@)
   parent: SuperOffice.CRM.Previews.PreviewPluginBase
   isExternal: true
-  name: TryGetStringHint(String, String)
-  nameWithType: PreviewPluginBase.TryGetStringHint(String, String)
-  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetStringHint(System.String, System.String)
+  href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_TryGetStringHint_System_String_System_String__
+  name: TryGetStringHint(string, out string)
+  nameWithType: PreviewPluginBase.TryGetStringHint(string, out string)
+  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetStringHint(string, out string)
+  nameWithType.vb: PreviewPluginBase.TryGetStringHint(String, String)
+  fullName.vb: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetStringHint(String, String)
+  name.vb: TryGetStringHint(String, String)
   spec.csharp:
   - uid: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetStringHint(System.String,System.String@)
     name: TryGetStringHint
-    nameWithType: PreviewPluginBase.TryGetStringHint
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetStringHint
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_TryGetStringHint_System_String_System_String__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetStringHint(System.String,System.String@)
     name: TryGetStringHint
-    nameWithType: PreviewPluginBase.TryGetStringHint
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetStringHint
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_TryGetStringHint_System_String_System_String__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetBoolHint(System.String,System.Boolean@)
   commentId: M:SuperOffice.CRM.Previews.PreviewPluginBase.TryGetBoolHint(System.String,System.Boolean@)
   parent: SuperOffice.CRM.Previews.PreviewPluginBase
   isExternal: true
-  name: TryGetBoolHint(String, Boolean)
-  nameWithType: PreviewPluginBase.TryGetBoolHint(String, Boolean)
-  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetBoolHint(System.String, System.Boolean)
+  href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_TryGetBoolHint_System_String_System_Boolean__
+  name: TryGetBoolHint(string, out bool)
+  nameWithType: PreviewPluginBase.TryGetBoolHint(string, out bool)
+  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetBoolHint(string, out bool)
+  nameWithType.vb: PreviewPluginBase.TryGetBoolHint(String, Boolean)
+  fullName.vb: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetBoolHint(String, Boolean)
+  name.vb: TryGetBoolHint(String, Boolean)
   spec.csharp:
   - uid: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetBoolHint(System.String,System.Boolean@)
     name: TryGetBoolHint
-    nameWithType: PreviewPluginBase.TryGetBoolHint
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetBoolHint
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_TryGetBoolHint_System_String_System_Boolean__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetBoolHint(System.String,System.Boolean@)
     name: TryGetBoolHint
-    nameWithType: PreviewPluginBase.TryGetBoolHint
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetBoolHint
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_TryGetBoolHint_System_String_System_Boolean__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetDateHint(System.String,System.DateTime@)
   commentId: M:SuperOffice.CRM.Previews.PreviewPluginBase.TryGetDateHint(System.String,System.DateTime@)
   parent: SuperOffice.CRM.Previews.PreviewPluginBase
   isExternal: true
-  name: TryGetDateHint(String, DateTime)
-  nameWithType: PreviewPluginBase.TryGetDateHint(String, DateTime)
-  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetDateHint(System.String, System.DateTime)
+  href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_TryGetDateHint_System_String_System_DateTime__
+  name: TryGetDateHint(string, out DateTime)
+  nameWithType: PreviewPluginBase.TryGetDateHint(string, out DateTime)
+  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetDateHint(string, out System.DateTime)
+  nameWithType.vb: PreviewPluginBase.TryGetDateHint(String, Date)
+  fullName.vb: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetDateHint(String, Date)
+  name.vb: TryGetDateHint(String, Date)
   spec.csharp:
   - uid: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetDateHint(System.String,System.DateTime@)
     name: TryGetDateHint
-    nameWithType: PreviewPluginBase.TryGetDateHint
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetDateHint
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_TryGetDateHint_System_String_System_DateTime__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
   - uid: System.DateTime
     name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetDateHint(System.String,System.DateTime@)
     name: TryGetDateHint
-    nameWithType: PreviewPluginBase.TryGetDateHint
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.TryGetDateHint
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_TryGetDateHint_System_String_System_DateTime__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
+    name: Date
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Previews.PreviewPluginBase.GetRawValues(System.String)
   commentId: M:SuperOffice.CRM.Previews.PreviewPluginBase.GetRawValues(System.String)
   parent: SuperOffice.CRM.Previews.PreviewPluginBase
   isExternal: true
-  name: GetRawValues(String)
-  nameWithType: PreviewPluginBase.GetRawValues(String)
-  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.GetRawValues(System.String)
+  href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_GetRawValues_System_String_
+  name: GetRawValues(string)
+  nameWithType: PreviewPluginBase.GetRawValues(string)
+  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.GetRawValues(string)
+  nameWithType.vb: PreviewPluginBase.GetRawValues(String)
+  fullName.vb: SuperOffice.CRM.Previews.PreviewPluginBase.GetRawValues(String)
+  name.vb: GetRawValues(String)
   spec.csharp:
   - uid: SuperOffice.CRM.Previews.PreviewPluginBase.GetRawValues(System.String)
     name: GetRawValues
-    nameWithType: PreviewPluginBase.GetRawValues
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.GetRawValues
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_GetRawValues_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Previews.PreviewPluginBase.GetRawValues(System.String)
     name: GetRawValues
-    nameWithType: PreviewPluginBase.GetRawValues
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.GetRawValues
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_GetRawValues_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint(System.String,System.Int32)
   parent: SuperOffice.CRM.Previews.PreviewPluginBase
   isExternal: true
-  name: MakeImageHint(String, Int32)
-  nameWithType: PreviewPluginBase.MakeImageHint(String, Int32)
-  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint(System.String, System.Int32)
+  href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_MakeImageHint_System_String_System_Int32_
+  name: MakeImageHint(string, int)
+  nameWithType: PreviewPluginBase.MakeImageHint(string, int)
+  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint(string, int)
+  nameWithType.vb: PreviewPluginBase.MakeImageHint(String, Integer)
+  fullName.vb: SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint(String, Integer)
+  name.vb: MakeImageHint(String, Integer)
   spec.csharp:
   - uid: SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint(System.String,System.Int32)
     name: MakeImageHint
-    nameWithType: PreviewPluginBase.MakeImageHint
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_MakeImageHint_System_String_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint(System.String,System.Int32)
     name: MakeImageHint
-    nameWithType: PreviewPluginBase.MakeImageHint
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_MakeImageHint_System_String_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Previews.PreviewPluginBase.RemoveBlankLines(System.String)
   commentId: M:SuperOffice.CRM.Previews.PreviewPluginBase.RemoveBlankLines(System.String)
   parent: SuperOffice.CRM.Previews.PreviewPluginBase
   isExternal: true
-  name: RemoveBlankLines(String)
-  nameWithType: PreviewPluginBase.RemoveBlankLines(String)
-  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.RemoveBlankLines(System.String)
+  href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_RemoveBlankLines_System_String_
+  name: RemoveBlankLines(string)
+  nameWithType: PreviewPluginBase.RemoveBlankLines(string)
+  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.RemoveBlankLines(string)
+  nameWithType.vb: PreviewPluginBase.RemoveBlankLines(String)
+  fullName.vb: SuperOffice.CRM.Previews.PreviewPluginBase.RemoveBlankLines(String)
+  name.vb: RemoveBlankLines(String)
   spec.csharp:
   - uid: SuperOffice.CRM.Previews.PreviewPluginBase.RemoveBlankLines(System.String)
     name: RemoveBlankLines
-    nameWithType: PreviewPluginBase.RemoveBlankLines
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.RemoveBlankLines
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_RemoveBlankLines_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Previews.PreviewPluginBase.RemoveBlankLines(System.String)
     name: RemoveBlankLines
-    nameWithType: PreviewPluginBase.RemoveBlankLines
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.RemoveBlankLines
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_RemoveBlankLines_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Previews.PreviewPluginBase.FormatDescriptionText(System.String)
   commentId: M:SuperOffice.CRM.Previews.PreviewPluginBase.FormatDescriptionText(System.String)
   parent: SuperOffice.CRM.Previews.PreviewPluginBase
   isExternal: true
-  name: FormatDescriptionText(String)
-  nameWithType: PreviewPluginBase.FormatDescriptionText(String)
-  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.FormatDescriptionText(System.String)
+  href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_FormatDescriptionText_System_String_
+  name: FormatDescriptionText(string)
+  nameWithType: PreviewPluginBase.FormatDescriptionText(string)
+  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.FormatDescriptionText(string)
+  nameWithType.vb: PreviewPluginBase.FormatDescriptionText(String)
+  fullName.vb: SuperOffice.CRM.Previews.PreviewPluginBase.FormatDescriptionText(String)
+  name.vb: FormatDescriptionText(String)
   spec.csharp:
   - uid: SuperOffice.CRM.Previews.PreviewPluginBase.FormatDescriptionText(System.String)
     name: FormatDescriptionText
-    nameWithType: PreviewPluginBase.FormatDescriptionText
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.FormatDescriptionText
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_FormatDescriptionText_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Previews.PreviewPluginBase.FormatDescriptionText(System.String)
     name: FormatDescriptionText
-    nameWithType: PreviewPluginBase.FormatDescriptionText
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.FormatDescriptionText
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_FormatDescriptionText_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Previews.PreviewPluginBase.Hints
   commentId: P:SuperOffice.CRM.Previews.PreviewPluginBase.Hints
   parent: SuperOffice.CRM.Previews.PreviewPluginBase
   isExternal: true
+  href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_Hints
   name: Hints
   nameWithType: PreviewPluginBase.Hints
   fullName: SuperOffice.CRM.Previews.PreviewPluginBase.Hints
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<QuickReplyPreviewPlugin, To>()
-  nameWithType: EnumUtil.MapEnums<QuickReplyPreviewPlugin, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Previews.QuickReplyPreviewPlugin, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of QuickReplyPreviewPlugin, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Previews.QuickReplyPreviewPlugin, To)()
-  name.vb: MapEnums(Of QuickReplyPreviewPlugin, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<QuickReplyPreviewPlugin, To>(QuickReplyPreviewPlugin)
+  nameWithType: EnumUtil.MapEnums<QuickReplyPreviewPlugin, To>(QuickReplyPreviewPlugin)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Previews.QuickReplyPreviewPlugin, To>(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+  nameWithType.vb: EnumUtil.MapEnums(Of QuickReplyPreviewPlugin, To)(QuickReplyPreviewPlugin)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Previews.QuickReplyPreviewPlugin, To)(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+  name.vb: MapEnums(Of QuickReplyPreviewPlugin, To)(QuickReplyPreviewPlugin)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<QuickReplyPreviewPlugin, To>
-    nameWithType: EnumUtil.MapEnums<QuickReplyPreviewPlugin, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Previews.QuickReplyPreviewPlugin, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of QuickReplyPreviewPlugin, To)
-    nameWithType: EnumUtil.MapEnums(Of QuickReplyPreviewPlugin, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Previews.QuickReplyPreviewPlugin, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<QuickReplyPreviewPlugin>(QuickReplyPreviewPlugin)
-  nameWithType: ObjectExtensions.AssignByReflection<QuickReplyPreviewPlugin>(QuickReplyPreviewPlugin)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Previews.QuickReplyPreviewPlugin>(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QuickReplyPreviewPlugin)(QuickReplyPreviewPlugin)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
-  name.vb: AssignByReflection(Of QuickReplyPreviewPlugin)(QuickReplyPreviewPlugin)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<QuickReplyPreviewPlugin>
-    nameWithType: ObjectExtensions.AssignByReflection<QuickReplyPreviewPlugin>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Previews.QuickReplyPreviewPlugin>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
     name: QuickReplyPreviewPlugin
-    nameWithType: QuickReplyPreviewPlugin
-    fullName: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of QuickReplyPreviewPlugin)
-    nameWithType: ObjectExtensions.AssignByReflection(Of QuickReplyPreviewPlugin)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
-    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
     name: QuickReplyPreviewPlugin
-    nameWithType: QuickReplyPreviewPlugin
-    fullName: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
     isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<QuickReplyPreviewPlugin>()
-  nameWithType: ObjectExtensions.GraphCopy<QuickReplyPreviewPlugin>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Previews.QuickReplyPreviewPlugin>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of QuickReplyPreviewPlugin)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)()
-  name.vb: GraphCopy(Of QuickReplyPreviewPlugin)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<QuickReplyPreviewPlugin>
-    nameWithType: ObjectExtensions.GraphCopy<QuickReplyPreviewPlugin>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Previews.QuickReplyPreviewPlugin>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of QuickReplyPreviewPlugin)
-    nameWithType: ObjectExtensions.GraphCopy(Of QuickReplyPreviewPlugin)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+    name: QuickReplyPreviewPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+    name: QuickReplyPreviewPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
+  - name: )
 - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<QuickReplyPreviewPlugin, To>()
-  nameWithType: Converters.MapEnums<QuickReplyPreviewPlugin, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Previews.QuickReplyPreviewPlugin, To>()
-  nameWithType.vb: Converters.MapEnums(Of QuickReplyPreviewPlugin, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Previews.QuickReplyPreviewPlugin, To)()
-  name.vb: MapEnums(Of QuickReplyPreviewPlugin, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<QuickReplyPreviewPlugin, To>(QuickReplyPreviewPlugin)
+  nameWithType: Converters.MapEnums<QuickReplyPreviewPlugin, To>(QuickReplyPreviewPlugin)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Previews.QuickReplyPreviewPlugin, To>(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+  nameWithType.vb: Converters.MapEnums(Of QuickReplyPreviewPlugin, To)(QuickReplyPreviewPlugin)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Previews.QuickReplyPreviewPlugin, To)(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+  name.vb: MapEnums(Of QuickReplyPreviewPlugin, To)(QuickReplyPreviewPlugin)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<QuickReplyPreviewPlugin, To>
-    nameWithType: Converters.MapEnums<QuickReplyPreviewPlugin, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Previews.QuickReplyPreviewPlugin, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+    name: QuickReplyPreviewPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+    name: QuickReplyPreviewPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of QuickReplyPreviewPlugin, To)
-    nameWithType: Converters.MapEnums(Of QuickReplyPreviewPlugin, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Previews.QuickReplyPreviewPlugin, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+    name: QuickReplyPreviewPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+    name: QuickReplyPreviewPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
+  - name: )
+- uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<QuickReplyPreviewPlugin>(QuickReplyPreviewPlugin, QuickReplyPreviewPlugin)
+  nameWithType: ObjectExtensions.AssignByReflection<QuickReplyPreviewPlugin>(QuickReplyPreviewPlugin, QuickReplyPreviewPlugin)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Previews.QuickReplyPreviewPlugin>(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin, SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QuickReplyPreviewPlugin)(QuickReplyPreviewPlugin, QuickReplyPreviewPlugin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin, SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+  name.vb: AssignByReflection(Of QuickReplyPreviewPlugin)(QuickReplyPreviewPlugin, QuickReplyPreviewPlugin)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin,SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+    name: QuickReplyPreviewPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+    name: QuickReplyPreviewPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+    name: QuickReplyPreviewPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin,SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+    name: QuickReplyPreviewPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+    name: QuickReplyPreviewPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+    name: QuickReplyPreviewPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
+  - name: )
+- uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<QuickReplyPreviewPlugin>(QuickReplyPreviewPlugin)
+  nameWithType: ObjectExtensions.GraphCopy<QuickReplyPreviewPlugin>(QuickReplyPreviewPlugin)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Previews.QuickReplyPreviewPlugin>(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of QuickReplyPreviewPlugin)(QuickReplyPreviewPlugin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+  name.vb: GraphCopy(Of QuickReplyPreviewPlugin)(QuickReplyPreviewPlugin)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+    name: QuickReplyPreviewPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+    name: QuickReplyPreviewPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Previews.QuickReplyPreviewPlugin)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+    name: QuickReplyPreviewPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+    name: QuickReplyPreviewPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -886,140 +1101,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1028,117 +1148,398 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Previews.PreviewPluginBase.InnerGetPreview(SuperOffice.CRM.Previews.PreviewData)
-  commentId: M:SuperOffice.CRM.Previews.PreviewPluginBase.InnerGetPreview(SuperOffice.CRM.Previews.PreviewData)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Previews.PreviewPluginBase.InnerGetPreviewAsync(SuperOffice.CRM.Previews.PreviewData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Previews.PreviewPluginBase.InnerGetPreviewAsync(SuperOffice.CRM.Previews.PreviewData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Previews.PreviewPluginBase
   isExternal: true
-  name: InnerGetPreview(PreviewData)
-  nameWithType: PreviewPluginBase.InnerGetPreview(PreviewData)
-  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.InnerGetPreview(SuperOffice.CRM.Previews.PreviewData)
+  href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_InnerGetPreviewAsync_SuperOffice_CRM_Previews_PreviewData_System_Threading_CancellationToken_
+  name: InnerGetPreviewAsync(PreviewData, CancellationToken)
+  nameWithType: PreviewPluginBase.InnerGetPreviewAsync(PreviewData, CancellationToken)
+  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.InnerGetPreviewAsync(SuperOffice.CRM.Previews.PreviewData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Previews.PreviewPluginBase.InnerGetPreview(SuperOffice.CRM.Previews.PreviewData)
-    name: InnerGetPreview
-    nameWithType: PreviewPluginBase.InnerGetPreview
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.InnerGetPreview
+  - uid: SuperOffice.CRM.Previews.PreviewPluginBase.InnerGetPreviewAsync(SuperOffice.CRM.Previews.PreviewData,System.Threading.CancellationToken)
+    name: InnerGetPreviewAsync
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_InnerGetPreviewAsync_SuperOffice_CRM_Previews_PreviewData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Previews.PreviewData
     name: PreviewData
-    nameWithType: PreviewData
-    fullName: SuperOffice.CRM.Previews.PreviewData
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Previews.PreviewPluginBase.InnerGetPreview(SuperOffice.CRM.Previews.PreviewData)
-    name: InnerGetPreview
-    nameWithType: PreviewPluginBase.InnerGetPreview
-    fullName: SuperOffice.CRM.Previews.PreviewPluginBase.InnerGetPreview
+  - uid: SuperOffice.CRM.Previews.PreviewPluginBase.InnerGetPreviewAsync(SuperOffice.CRM.Previews.PreviewData,System.Threading.CancellationToken)
+    name: InnerGetPreviewAsync
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_InnerGetPreviewAsync_SuperOffice_CRM_Previews_PreviewData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Previews.PreviewData
     name: PreviewData
-    nameWithType: PreviewData
-    fullName: SuperOffice.CRM.Previews.PreviewData
     isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.InnerGetPreview*
-  commentId: Overload:SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.InnerGetPreview
+- uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.InnerGetPreviewAsync*
+  commentId: Overload:SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.InnerGetPreviewAsync
   isExternal: true
-  name: InnerGetPreview
-  nameWithType: QuickReplyPreviewPlugin.InnerGetPreview
-  fullName: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.InnerGetPreview
+  href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html#SuperOffice_CRM_Previews_QuickReplyPreviewPlugin_InnerGetPreviewAsync_SuperOffice_CRM_Previews_PreviewData_System_Threading_CancellationToken_
+  name: InnerGetPreviewAsync
+  nameWithType: QuickReplyPreviewPlugin.InnerGetPreviewAsync
+  fullName: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.InnerGetPreviewAsync
 - uid: SuperOffice.CRM.Previews.PreviewData
   commentId: T:SuperOffice.CRM.Previews.PreviewData
   parent: SuperOffice.CRM.Previews
   isExternal: true
+  href: SuperOffice.CRM.Previews.PreviewData.html
   name: PreviewData
   nameWithType: PreviewData
   fullName: SuperOffice.CRM.Previews.PreviewData
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Previews.PreviewData}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Previews.PreviewData}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PreviewData>
+  nameWithType: Task<PreviewData>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Previews.PreviewData>
+  nameWithType.vb: Task(Of PreviewData)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Previews.PreviewData)
+  name.vb: Task(Of PreviewData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Previews.PreviewData
+    name: PreviewData
+    isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Previews.PreviewData
+    name: PreviewData
+    isExternal: true
+    href: SuperOffice.CRM.Previews.PreviewData.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.#ctor*
   commentId: Overload:SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html#SuperOffice_CRM_Previews_QuickReplyPreviewPlugin__ctor
   name: QuickReplyPreviewPlugin
   nameWithType: QuickReplyPreviewPlugin.QuickReplyPreviewPlugin
   fullName: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.QuickReplyPreviewPlugin
+  nameWithType.vb: QuickReplyPreviewPlugin.New
+  fullName.vb: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.New
+  name.vb: New

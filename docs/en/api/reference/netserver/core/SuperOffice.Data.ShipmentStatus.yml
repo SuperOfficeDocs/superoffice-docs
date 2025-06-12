@@ -18,7 +18,6 @@ items:
   - SuperOffice.Data.ShipmentStatus.Started
   - SuperOffice.Data.ShipmentStatus.StatusFailed
   - SuperOffice.Data.ShipmentStatus.TooManyRecipients
-  - SuperOffice.Data.ShipmentStatus.value__
   - SuperOffice.Data.ShipmentStatus.Waiting
   langs:
   - csharp
@@ -26,60 +25,38 @@ items:
   name: ShipmentStatus
   nameWithType: ShipmentStatus
   fullName: SuperOffice.Data.ShipmentStatus
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Enum
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nStatus for shipment (started, cancelled etc)\nThis Enum is used by:  s_shipment.status\n"
-  syntax:
-    content: 'public sealed class ShipmentStatus : Enum'
-    content.vb: >-
-      Public NotInheritable Class ShipmentStatus
-          Inherits
+  summary: >-
+    Status for shipment (started, cancelled etc)
 
-           Enum
-  inheritance:
-  - System.Object
+    This Enum is used by:  s_shipment.status
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public enum ShipmentStatus : short
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Enum ShipmentStatus As Short
   extensionMethods:
   - SuperOffice.Data.ShipmentStatus.EnumUtil.MapEnums``2
   - SuperOffice.Data.ShipmentStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.ShipmentStatus.value__
-  commentId: F:SuperOffice.Data.ShipmentStatus.value__
-  id: value__
-  parent: SuperOffice.Data.ShipmentStatus
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: ShipmentStatus.value__
-  fullName: SuperOffice.Data.ShipmentStatus.value__
-  type: Field
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Data
-  syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.Data.ShipmentStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShipmentStatus)
+  - SuperOffice.Data.ShipmentStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.Data.ShipmentStatus.None
   commentId: F:SuperOffice.Data.ShipmentStatus.None
   id: None
@@ -91,24 +68,26 @@ items:
   nameWithType: ShipmentStatus.None
   fullName: SuperOffice.Data.ShipmentStatus.None
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n0: Initial status, shipment is left alone, can be used for working with shipment\n"
+  summary: '0: Initial status, shipment is left alone, can be used for working with shipment'
+  example: []
   syntax:
-    content: public const ShipmentStatus None
+    content: >-
+      [EnumMember]
+
+      None = 0
     return:
       type: SuperOffice.Data.ShipmentStatus
-    content.vb: Public Const None As ShipmentStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ShipmentStatus.Ok
   commentId: F:SuperOffice.Data.ShipmentStatus.Ok
   id: Ok
@@ -120,24 +99,26 @@ items:
   nameWithType: ShipmentStatus.Ok
   fullName: SuperOffice.Data.ShipmentStatus.Ok
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1: Finished, no errors.\n"
+  summary: '1: Finished, no errors.'
+  example: []
   syntax:
-    content: public const ShipmentStatus Ok
+    content: >-
+      [EnumMember]
+
+      Ok = 1
     return:
       type: SuperOffice.Data.ShipmentStatus
-    content.vb: Public Const Ok As ShipmentStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Ok = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ShipmentStatus.Canceled
   commentId: F:SuperOffice.Data.ShipmentStatus.Canceled
   id: Canceled
@@ -149,24 +130,26 @@ items:
   nameWithType: ShipmentStatus.Canceled
   fullName: SuperOffice.Data.ShipmentStatus.Canceled
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n2: Stopped by user.\n"
+  summary: '2: Stopped by user.'
+  example: []
   syntax:
-    content: public const ShipmentStatus Canceled
+    content: >-
+      [EnumMember]
+
+      Canceled = 2
     return:
       type: SuperOffice.Data.ShipmentStatus
-    content.vb: Public Const Canceled As ShipmentStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Canceled = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ShipmentStatus.Waiting
   commentId: F:SuperOffice.Data.ShipmentStatus.Waiting
   id: Waiting
@@ -178,24 +161,26 @@ items:
   nameWithType: ShipmentStatus.Waiting
   fullName: SuperOffice.Data.ShipmentStatus.Waiting
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n3: Ready for execution, in the queue.\n"
+  summary: '3: Ready for execution, in the queue.'
+  example: []
   syntax:
-    content: public const ShipmentStatus Waiting
+    content: >-
+      [EnumMember]
+
+      Waiting = 3
     return:
       type: SuperOffice.Data.ShipmentStatus
-    content.vb: Public Const Waiting As ShipmentStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Waiting = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ShipmentStatus.Started
   commentId: F:SuperOffice.Data.ShipmentStatus.Started
   id: Started
@@ -207,24 +192,26 @@ items:
   nameWithType: ShipmentStatus.Started
   fullName: SuperOffice.Data.ShipmentStatus.Started
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n4: Executing (sending).\n"
+  summary: '4: Executing (sending).'
+  example: []
   syntax:
-    content: public const ShipmentStatus Started
+    content: >-
+      [EnumMember]
+
+      Started = 4
     return:
       type: SuperOffice.Data.ShipmentStatus
-    content.vb: Public Const Started As ShipmentStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Started = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ShipmentStatus.StatusFailed
   commentId: F:SuperOffice.Data.ShipmentStatus.StatusFailed
   id: StatusFailed
@@ -236,24 +223,26 @@ items:
   nameWithType: ShipmentStatus.StatusFailed
   fullName: SuperOffice.Data.ShipmentStatus.StatusFailed
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n5: Finished, had some errors.\n"
+  summary: '5: Finished, had some errors.'
+  example: []
   syntax:
-    content: public const ShipmentStatus StatusFailed
+    content: >-
+      [EnumMember]
+
+      StatusFailed = 5
     return:
       type: SuperOffice.Data.ShipmentStatus
-    content.vb: Public Const StatusFailed As ShipmentStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      StatusFailed = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ShipmentStatus.Retry
   commentId: F:SuperOffice.Data.ShipmentStatus.Retry
   id: Retry
@@ -265,24 +254,26 @@ items:
   nameWithType: ShipmentStatus.Retry
   fullName: SuperOffice.Data.ShipmentStatus.Retry
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n6: Retrying the addresses which did not work\n"
+  summary: '6: Retrying the addresses which did not work'
+  example: []
   syntax:
-    content: public const ShipmentStatus Retry
+    content: >-
+      [EnumMember]
+
+      Retry = 6
     return:
       type: SuperOffice.Data.ShipmentStatus
-    content.vb: Public Const Retry As ShipmentStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Retry = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ShipmentStatus.Populating
   commentId: F:SuperOffice.Data.ShipmentStatus.Populating
   id: Populating
@@ -294,24 +285,26 @@ items:
   nameWithType: ShipmentStatus.Populating
   fullName: SuperOffice.Data.ShipmentStatus.Populating
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n7: Between waiting and starting. Used when we populate the recipient lists.\n"
+  summary: '7: Between waiting and starting. Used when we populate the recipient lists.'
+  example: []
   syntax:
-    content: public const ShipmentStatus Populating
+    content: >-
+      [EnumMember]
+
+      Populating = 7
     return:
       type: SuperOffice.Data.ShipmentStatus
-    content.vb: Public Const Populating As ShipmentStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Populating = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ShipmentStatus.Deleted
   commentId: F:SuperOffice.Data.ShipmentStatus.Deleted
   id: Deleted
@@ -323,24 +316,26 @@ items:
   nameWithType: ShipmentStatus.Deleted
   fullName: SuperOffice.Data.ShipmentStatus.Deleted
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n8: Deleted\n"
+  summary: '8: Deleted'
+  example: []
   syntax:
-    content: public const ShipmentStatus Deleted
+    content: >-
+      [EnumMember]
+
+      Deleted = 8
     return:
       type: SuperOffice.Data.ShipmentStatus
-    content.vb: Public Const Deleted As ShipmentStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Deleted = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ShipmentStatus.AwaitPopulate
   commentId: F:SuperOffice.Data.ShipmentStatus.AwaitPopulate
   id: AwaitPopulate
@@ -352,24 +347,26 @@ items:
   nameWithType: ShipmentStatus.AwaitPopulate
   fullName: SuperOffice.Data.ShipmentStatus.AwaitPopulate
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n9: Awaiting ejournalCron to start populate\n"
+  summary: '9: Awaiting ejournalCron to start populate'
+  example: []
   syntax:
-    content: public const ShipmentStatus AwaitPopulate
+    content: >-
+      [EnumMember]
+
+      AwaitPopulate = 9
     return:
       type: SuperOffice.Data.ShipmentStatus
-    content.vb: Public Const AwaitPopulate As ShipmentStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AwaitPopulate = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ShipmentStatus.PopulatingOnly
   commentId: F:SuperOffice.Data.ShipmentStatus.PopulatingOnly
   id: PopulatingOnly
@@ -381,24 +378,26 @@ items:
   nameWithType: ShipmentStatus.PopulatingOnly
   fullName: SuperOffice.Data.ShipmentStatus.PopulatingOnly
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n10: eJournalCron has started populateOnly after someone saved choose recipients screen.\n"
+  summary: '10: eJournalCron has started populateOnly after someone saved choose recipients screen.'
+  example: []
   syntax:
-    content: public const ShipmentStatus PopulatingOnly
+    content: >-
+      [EnumMember]
+
+      PopulatingOnly = 10
     return:
       type: SuperOffice.Data.ShipmentStatus
-    content.vb: Public Const PopulatingOnly As ShipmentStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PopulatingOnly = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ShipmentStatus.PopulateAborted
   commentId: F:SuperOffice.Data.ShipmentStatus.PopulateAborted
   id: PopulateAborted
@@ -410,24 +409,26 @@ items:
   nameWithType: ShipmentStatus.PopulateAborted
   fullName: SuperOffice.Data.ShipmentStatus.PopulateAborted
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n11: eJournalCron has started populating, but by user request it is canceled. Now we finish populating, and then set status back to none.\n"
+  summary: '11: eJournalCron has started populating, but by user request it is canceled. Now we finish populating, and then set status back to none.'
+  example: []
   syntax:
-    content: public const ShipmentStatus PopulateAborted
+    content: >-
+      [EnumMember]
+
+      PopulateAborted = 11
     return:
       type: SuperOffice.Data.ShipmentStatus
-    content.vb: Public Const PopulateAborted As ShipmentStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PopulateAborted = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ShipmentStatus.PopulateError
   commentId: F:SuperOffice.Data.ShipmentStatus.PopulateError
   id: PopulateError
@@ -439,24 +440,26 @@ items:
   nameWithType: ShipmentStatus.PopulateError
   fullName: SuperOffice.Data.ShipmentStatus.PopulateError
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n12: \n"
+  summary: '12:'
+  example: []
   syntax:
-    content: public const ShipmentStatus PopulateError
+    content: >-
+      [EnumMember]
+
+      PopulateError = 12
     return:
       type: SuperOffice.Data.ShipmentStatus
-    content.vb: Public Const PopulateError As ShipmentStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PopulateError = 12
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.ShipmentStatus.TooManyRecipients
   commentId: F:SuperOffice.Data.ShipmentStatus.TooManyRecipients
   id: TooManyRecipients
@@ -468,115 +471,300 @@ items:
   nameWithType: ShipmentStatus.TooManyRecipients
   fullName: SuperOffice.Data.ShipmentStatus.TooManyRecipients
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n13: \n"
+  summary: '13:'
+  example: []
   syntax:
-    content: public const ShipmentStatus TooManyRecipients
+    content: >-
+      [EnumMember]
+
+      TooManyRecipients = 13
     return:
       type: SuperOffice.Data.ShipmentStatus
-    content.vb: Public Const TooManyRecipients As ShipmentStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TooManyRecipients = 13
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.ShipmentStatus.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ShipmentStatus, To>()
-  nameWithType: EnumUtil.MapEnums<ShipmentStatus, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.ShipmentStatus, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ShipmentStatus, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ShipmentStatus, To)()
-  name.vb: MapEnums(Of ShipmentStatus, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ShipmentStatus, To>(ShipmentStatus)
+  nameWithType: EnumUtil.MapEnums<ShipmentStatus, To>(ShipmentStatus)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ShipmentStatus, To>(SuperOffice.Data.ShipmentStatus)
+  nameWithType.vb: EnumUtil.MapEnums(Of ShipmentStatus, To)(ShipmentStatus)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ShipmentStatus, To)(SuperOffice.Data.ShipmentStatus)
+  name.vb: MapEnums(Of ShipmentStatus, To)(ShipmentStatus)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ShipmentStatus, To>
-    nameWithType: EnumUtil.MapEnums<ShipmentStatus, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.ShipmentStatus, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ShipmentStatus)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ShipmentStatus, To)
-    nameWithType: EnumUtil.MapEnums(Of ShipmentStatus, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ShipmentStatus, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ShipmentStatus)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
+  - name: )
 - uid: SuperOffice.Data.ShipmentStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ShipmentStatus, To>()
-  nameWithType: Converters.MapEnums<ShipmentStatus, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ShipmentStatus, To>()
-  nameWithType.vb: Converters.MapEnums(Of ShipmentStatus, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ShipmentStatus, To)()
-  name.vb: MapEnums(Of ShipmentStatus, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ShipmentStatus, To>(ShipmentStatus)
+  nameWithType: Converters.MapEnums<ShipmentStatus, To>(ShipmentStatus)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ShipmentStatus, To>(SuperOffice.Data.ShipmentStatus)
+  nameWithType.vb: Converters.MapEnums(Of ShipmentStatus, To)(ShipmentStatus)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ShipmentStatus, To)(SuperOffice.Data.ShipmentStatus)
+  name.vb: MapEnums(Of ShipmentStatus, To)(ShipmentStatus)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ShipmentStatus, To>
-    nameWithType: Converters.MapEnums<ShipmentStatus, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ShipmentStatus, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ShipmentStatus)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ShipmentStatus, To)
-    nameWithType: Converters.MapEnums(Of ShipmentStatus, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ShipmentStatus, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ShipmentStatus)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
+  - name: )
+- uid: SuperOffice.Data.ShipmentStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShipmentStatus)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ShipmentStatus>(ShipmentStatus, ShipmentStatus)
+  nameWithType: ObjectExtensions.AssignByReflection<ShipmentStatus>(ShipmentStatus, ShipmentStatus)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ShipmentStatus>(SuperOffice.Data.ShipmentStatus, SuperOffice.Data.ShipmentStatus)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ShipmentStatus)(ShipmentStatus, ShipmentStatus)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ShipmentStatus)(SuperOffice.Data.ShipmentStatus, SuperOffice.Data.ShipmentStatus)
+  name.vb: AssignByReflection(Of ShipmentStatus)(ShipmentStatus, ShipmentStatus)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShipmentStatus,SuperOffice.Data.ShipmentStatus)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShipmentStatus,SuperOffice.Data.ShipmentStatus)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
+  - name: )
+- uid: SuperOffice.Data.ShipmentStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ShipmentStatus>(ShipmentStatus)
+  nameWithType: ObjectExtensions.GraphCopy<ShipmentStatus>(ShipmentStatus)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ShipmentStatus>(SuperOffice.Data.ShipmentStatus)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ShipmentStatus)(ShipmentStatus)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ShipmentStatus)(SuperOffice.Data.ShipmentStatus)
+  name.vb: GraphCopy(Of ShipmentStatus)(ShipmentStatus)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ShipmentStatus)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ShipmentStatus)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    isExternal: true
+    href: SuperOffice.Data.ShipmentStatus.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -585,43 +773,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -630,58 +820,222 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.ShipmentStatus
   commentId: T:SuperOffice.Data.ShipmentStatus
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.ShipmentStatus.html
   name: ShipmentStatus
   nameWithType: ShipmentStatus
   fullName: SuperOffice.Data.ShipmentStatus

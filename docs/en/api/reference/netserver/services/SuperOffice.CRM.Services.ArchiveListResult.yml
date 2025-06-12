@@ -17,31 +17,40 @@ items:
   nameWithType: ArchiveListResult
   fullName: SuperOffice.CRM.Services.ArchiveListResult
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nHeader/Detail variant of archive result, with a Row Count plus the actual rows. Future extensions may include other header data on the same level as the RowCount\n<p></p>\nCarrier object for ArchiveListResult.\nServices for the ArchiveListResult Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IArchiveAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Header/Detail variant of archive result, with a Row Count plus the actual rows. Future extensions may include other header data on the same level as the RowCount
+
+    <p></p>
+
+    Carrier object for ArchiveListResult.
+
+    Services for the ArchiveListResult Carrier is available from the <xref href="SuperOffice.CRM.Services.IArchiveAgent?text=Archive+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class ArchiveListResult : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class ArchiveListResult : Carrier
     content.vb: >-
-      Public Class ArchiveListResult
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class ArchiveListResult Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.ArchiveAgent
-    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
   - linkId: SuperOffice.CRM.Services.IArchiveAgent
     commentId: T:SuperOffice.CRM.Services.IArchiveAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.ArchiveListResult.#ctor
   commentId: M:SuperOffice.CRM.Services.ArchiveListResult.#ctor
   id: '#ctor'
@@ -53,21 +62,18 @@ items:
   nameWithType: ArchiveListResult.ArchiveListResult()
   fullName: SuperOffice.CRM.Services.ArchiveListResult.ArchiveListResult()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public ArchiveListResult()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.ArchiveListResult.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ArchiveListResult.New()
+  fullName.vb: SuperOffice.CRM.Services.ArchiveListResult.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.ArchiveListResult.ToString
   commentId: M:SuperOffice.CRM.Services.ArchiveListResult.ToString
   id: ToString
@@ -79,26 +85,18 @@ items:
   nameWithType: ArchiveListResult.ToString()
   fullName: SuperOffice.CRM.Services.ArchiveListResult.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.ArchiveListResult.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.ArchiveListResult.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ArchiveListResult.ToString(System.String)
   id: ToString(System.String)
@@ -106,17 +104,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: ArchiveListResult.ToString(String)
-  fullName: SuperOffice.CRM.Services.ArchiveListResult.ToString(System.String)
+  name: ToString(string)
+  nameWithType: ArchiveListResult.ToString(string)
+  fullName: SuperOffice.CRM.Services.ArchiveListResult.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -128,10 +127,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ArchiveListResult.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ArchiveListResult.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.ArchiveListResult.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.ArchiveListResult.RowCount
   commentId: P:SuperOffice.CRM.Services.ArchiveListResult.RowCount
   id: RowCount
@@ -143,28 +141,28 @@ items:
   nameWithType: ArchiveListResult.RowCount
   fullName: SuperOffice.CRM.Services.ArchiveListResult.RowCount
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCount of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation \n"
+  summary: Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation
+  example: []
   syntax:
-    content: public virtual int RowCount { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int RowCount { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property RowCount As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RowCount As Integer
   overload: SuperOffice.CRM.Services.ArchiveListResult.RowCount*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ArchiveListResult.Rows
   commentId: P:SuperOffice.CRM.Services.ArchiveListResult.Rows
   id: Rows
@@ -176,57 +174,106 @@ items:
   nameWithType: ArchiveListResult.Rows
   fullName: SuperOffice.CRM.Services.ArchiveListResult.Rows
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe actual rows, according to the paging info, of the result. See RowCount for a paging-independent count estimate \n"
+  summary: The actual rows, according to the paging info, of the result. See RowCount for a paging-independent count estimate
+  example: []
   syntax:
-    content: public virtual ArchiveListItem[] Rows { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual ArchiveListItem[] Rows { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.ArchiveListItem[]
-    content.vb: Public Overridable Property Rows As ArchiveListItem()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Rows As ArchiveListItem()
   overload: SuperOffice.CRM.Services.ArchiveListResult.Rows*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
-  isExternal: true
-  name: ArchiveAgent
-  nameWithType: ArchiveAgent
-  fullName: SuperOffice.CRM.Services.ArchiveAgent
 - uid: SuperOffice.CRM.Services.IArchiveAgent
   commentId: T:SuperOffice.CRM.Services.IArchiveAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IArchiveAgent.html
   name: IArchiveAgent
   nameWithType: IArchiveAgent
   fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ArchiveListResult.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ArchiveListResult.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.ArchiveListResult.html#SuperOffice_CRM_Services_ArchiveListResult__ctor
   name: ArchiveListResult
   nameWithType: ArchiveListResult.ArchiveListResult
   fullName: SuperOffice.CRM.Services.ArchiveListResult.ArchiveListResult
+  nameWithType.vb: ArchiveListResult.New
+  fullName.vb: SuperOffice.CRM.Services.ArchiveListResult.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.ArchiveListResult.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ArchiveListResult.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.ArchiveListResult.html#SuperOffice_CRM_Services_ArchiveListResult_ToString
   name: ToString
   nameWithType: ArchiveListResult.ToString
   fullName: SuperOffice.CRM.Services.ArchiveListResult.ToString
@@ -234,18 +281,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.ArchiveListResult.RowCount*
   commentId: Overload:SuperOffice.CRM.Services.ArchiveListResult.RowCount
   isExternal: true
+  href: SuperOffice.CRM.Services.ArchiveListResult.html#SuperOffice_CRM_Services_ArchiveListResult_RowCount
   name: RowCount
   nameWithType: ArchiveListResult.RowCount
   fullName: SuperOffice.CRM.Services.ArchiveListResult.RowCount
@@ -253,17 +299,23 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.ArchiveListResult.Rows*
   commentId: Overload:SuperOffice.CRM.Services.ArchiveListResult.Rows
   isExternal: true
+  href: SuperOffice.CRM.Services.ArchiveListResult.html#SuperOffice_CRM_Services_ArchiveListResult_Rows
   name: Rows
   nameWithType: ArchiveListResult.Rows
   fullName: SuperOffice.CRM.Services.ArchiveListResult.Rows
 - uid: SuperOffice.CRM.Services.ArchiveListItem[]
   isExternal: true
+  href: SuperOffice.CRM.Services.ArchiveListItem.html
   name: ArchiveListItem[]
   nameWithType: ArchiveListItem[]
   fullName: SuperOffice.CRM.Services.ArchiveListItem[]
@@ -273,18 +325,14 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.ArchiveListItem
     name: ArchiveListItem
-    nameWithType: ArchiveListItem
-    fullName: SuperOffice.CRM.Services.ArchiveListItem
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.ArchiveListItem.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.ArchiveListItem
     name: ArchiveListItem
-    nameWithType: ArchiveListItem
-    fullName: SuperOffice.CRM.Services.ArchiveListItem
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.ArchiveListItem.html
+  - name: (
+  - name: )

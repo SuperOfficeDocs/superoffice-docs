@@ -5,8 +5,8 @@ items:
   id: DiaryOwnerMDOProvider
   parent: SuperOffice.CRM.Lists
   children:
-  - SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.BuildMdoCollections
-  - SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.GetGroupingAllowedForList
+  - SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.BuildMdoCollectionsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.GetGroupingAllowedForListAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.ProviderName
   langs:
   - csharp
@@ -15,24 +15,20 @@ items:
   nameWithType: DiaryOwnerMDOProvider
   fullName: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Lists
-  summary: "\nList provider that returns diary owners, i.e., our own employees plus resources\n"
+  summary: List provider that returns diary owners, i.e., our own employees plus resources
+  example: []
   syntax:
     content: >-
       [MDOProviderPlugin("diaryowner")]
 
-      public class DiaryOwnerMDOProvider : AssociateMDOProviderBase, ISoListProvider, ISoList, IPlugin, IEnumerable<ISoListItem>, IEnumerable
+      public class DiaryOwnerMDOProvider : AssociateMDOProviderBase, ISoListProvider, ISoList, IEnumerable<ISoListItem>, IEnumerable
     content.vb: >-
       <MDOProviderPlugin("diaryowner")>
 
-      Public Class DiaryOwnerMDOProvider
-          Inherits AssociateMDOProviderBase
-          Implements ISoListProvider, ISoList, IPlugin, IEnumerable(Of ISoListItem), IEnumerable
+      Public Class DiaryOwnerMDOProvider Inherits AssociateMDOProviderBase Implements ISoListProvider, ISoList, IEnumerable(Of ISoListItem), IEnumerable
   inheritance:
   - System.Object
   - SuperOffice.CRM.Lists.MDOProviderBase
@@ -47,7 +43,7 @@ items:
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase._additionalInfo_AddBinaryIconHints
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase._AdditionalInfo
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
-  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType(SuperOffice.CRM.Lists.ListTableRow)
@@ -58,18 +54,18 @@ items:
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection(SuperOffice.CRM.Lists.SoListHeading)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection(SuperOffice.CRM.Lists.SoListItem)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection(SuperOffice.CRM.Lists.SoListItem,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
-  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollection
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollectionAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
-  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadItemsAndHeadings
-  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery
-  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleList
-  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery
-  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatList
-  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItems
-  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadItemsAndHeadingsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQueryAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleListAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQueryAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatListAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQueryAsync(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{System.Int32})
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
-  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedList
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedListAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.HistoryInfo
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.PersonTableInfo
   - SuperOffice.CRM.Lists.MDOProviderBase._historyIds
@@ -85,9 +81,9 @@ items:
   - SuperOffice.CRM.Lists.MDOProviderBase._tableName
   - SuperOffice.CRM.Lists.MDOProviderBase._tableListInfo
   - SuperOffice.CRM.Lists.MDOProviderBase._listInfo
-  - SuperOffice.CRM.Lists.MDOProviderBase.FillList
-  - SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy(SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
-  - SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery(System.Boolean,System.Int32[])
+  - SuperOffice.CRM.Lists.MDOProviderBase.FillListAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderByAsync(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQueryAsync(System.Boolean,System.Threading.CancellationToken,System.Int32[])
   - SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(System.Int32[],SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
   - SuperOffice.CRM.Lists.MDOProviderBase.GetItemId(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.MDOProviderBase.GetItemRank(SuperOffice.CRM.Lists.ListTableRow)
@@ -95,14 +91,22 @@ items:
   - SuperOffice.CRM.Lists.MDOProviderBase.GetItemColor(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.MDOProviderBase.GetItemStyleHint(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.MDOProviderBase.OnAddRootElementToCollection(SuperOffice.CRM.Lists.SoListItem)
-  - SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit
-  - SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder
+  - SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimitAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrderAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.MDOProviderBase.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.MDOProviderBase.ClearHistoryItems
+  - SuperOffice.CRM.Lists.MDOProviderBase.GetRootItemsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingItemsAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Lists.MDOProviderBase.IncludeDeletedItems
   - SuperOffice.CRM.Lists.MDOProviderBase.InhibitResortOnFlattening
   - SuperOffice.CRM.Lists.MDOProviderBase.IsFinalListFlat
-  - SuperOffice.CRM.Lists.MDOProviderBase.HistoryItems
-  - SuperOffice.CRM.Lists.MDOProviderBase.RootItems
-  - SuperOffice.CRM.Lists.MDOProviderBase.HeadingItems
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -112,12 +116,6 @@ items:
     arguments:
     - type: System.String
       value: diaryowner
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.ProviderName
   commentId: F:SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.ProviderName
   id: ProviderName
@@ -129,99 +127,119 @@ items:
   nameWithType: DiaryOwnerMDOProvider.ProviderName
   fullName: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.ProviderName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Lists
   syntax:
     content: public const string ProviderName = "diaryowner"
     return:
       type: System.String
     content.vb: Public Const ProviderName As String = "diaryowner"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
-- uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.GetGroupingAllowedForList
-  commentId: M:SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.GetGroupingAllowedForList
-  id: GetGroupingAllowedForList
+- uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.GetGroupingAllowedForListAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.GetGroupingAllowedForListAsync(System.Threading.CancellationToken)
+  id: GetGroupingAllowedForListAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider
   langs:
   - csharp
   - vb
-  name: GetGroupingAllowedForList()
-  nameWithType: DiaryOwnerMDOProvider.GetGroupingAllowedForList()
-  fullName: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.GetGroupingAllowedForList()
+  name: GetGroupingAllowedForListAsync(CancellationToken)
+  nameWithType: DiaryOwnerMDOProvider.GetGroupingAllowedForListAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.GetGroupingAllowedForListAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Lists
+  example: []
   syntax:
-    content: protected override bool GetGroupingAllowedForList()
+    content: protected override Task<bool> GetGroupingAllowedForListAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Protected Overrides Function GetGroupingAllowedForList As Boolean
-  overridden: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForList
-  overload: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.GetGroupingAllowedForList*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
-- uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.BuildMdoCollections
-  commentId: M:SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.BuildMdoCollections
-  id: BuildMdoCollections
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Protected Overrides Function GetGroupingAllowedForListAsync(cancellationToken As CancellationToken) As Task(Of Boolean)
+  overridden: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForListAsync(System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.GetGroupingAllowedForListAsync*
+- uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.BuildMdoCollectionsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.BuildMdoCollectionsAsync(System.Threading.CancellationToken)
+  id: BuildMdoCollectionsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider
   langs:
   - csharp
   - vb
-  name: BuildMdoCollections()
-  nameWithType: DiaryOwnerMDOProvider.BuildMdoCollections()
-  fullName: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.BuildMdoCollections()
+  name: BuildMdoCollectionsAsync(CancellationToken)
+  nameWithType: DiaryOwnerMDOProvider.BuildMdoCollectionsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.BuildMdoCollectionsAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Lists
+  summary: Convert rows object to ISoList collections
+  example: []
   syntax:
-    content: protected override void BuildMdoCollections()
-    content.vb: Protected Overrides Sub BuildMdoCollections
-  overridden: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollections
-  overload: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.BuildMdoCollections*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
+    content: protected override Task BuildMdoCollectionsAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function BuildMdoCollectionsAsync(cancellationToken As CancellationToken) As Task
+  overridden: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollectionsAsync(System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.BuildMdoCollectionsAsync*
 references:
 - uid: SuperOffice.CRM.Lists
   commentId: N:SuperOffice.CRM.Lists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Lists
   nameWithType: SuperOffice.CRM.Lists
   fullName: SuperOffice.CRM.Lists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Lists
+    name: Lists
+    isExternal: true
+    href: SuperOffice.CRM.Lists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Lists
+    name: Lists
+    isExternal: true
+    href: SuperOffice.CRM.Lists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Lists.MDOProviderBase
   commentId: T:SuperOffice.CRM.Lists.MDOProviderBase
   parent: SuperOffice.CRM.Lists
   isExternal: true
+  href: SuperOffice.CRM.Lists.MDOProviderBase.html
   name: MDOProviderBase
   nameWithType: MDOProviderBase
   fullName: SuperOffice.CRM.Lists.MDOProviderBase
@@ -229,6 +247,7 @@ references:
   commentId: T:SuperOffice.CRM.Lists.AssociateMDOProviderBase
   parent: SuperOffice.CRM.Lists
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html
   name: AssociateMDOProviderBase
   nameWithType: AssociateMDOProviderBase
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase
@@ -236,6 +255,7 @@ references:
   commentId: T:SuperOffice.CRM.Lists.ISoListProvider
   parent: SuperOffice.CRM.Lists
   isExternal: true
+  href: SuperOffice.CRM.Lists.ISoListProvider.html
   name: ISoListProvider
   nameWithType: ISoListProvider
   fullName: SuperOffice.CRM.Lists.ISoListProvider
@@ -243,12 +263,15 @@ references:
   commentId: T:SuperOffice.CRM.Lists.ISoList
   parent: SuperOffice.CRM.Lists
   isExternal: true
+  href: SuperOffice.CRM.Lists.ISoList.html
   name: ISoList
   nameWithType: ISoList
   fullName: SuperOffice.CRM.Lists.ISoList
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}
-  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}'
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<ISoListItem>
   nameWithType: IEnumerable<ISoListItem>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.ISoListItem>
@@ -258,39 +281,30 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
-    nameWithType: ISoListItem
-    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
-    nameWithType: ISoListItem
-    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
   name: IEnumerable
   nameWithType: IEnumerable
   fullName: System.Collections.IEnumerable
@@ -298,6 +312,7 @@ references:
   commentId: F:SuperOffice.CRM.Lists.AssociateMDOProviderBase._additionalInfo_GetDeleted
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase__additionalInfo_GetDeleted
   name: _additionalInfo_GetDeleted
   nameWithType: AssociateMDOProviderBase._additionalInfo_GetDeleted
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase._additionalInfo_GetDeleted
@@ -305,6 +320,7 @@ references:
   commentId: F:SuperOffice.CRM.Lists.AssociateMDOProviderBase._additionalInfo_AddBinaryIconHints
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase__additionalInfo_AddBinaryIconHints
   name: _additionalInfo_AddBinaryIconHints
   nameWithType: AssociateMDOProviderBase._additionalInfo_AddBinaryIconHints
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase._additionalInfo_AddBinaryIconHints
@@ -312,6 +328,7 @@ references:
   commentId: F:SuperOffice.CRM.Lists.AssociateMDOProviderBase._AdditionalInfo
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase__AdditionalInfo
   name: _AdditionalInfo
   nameWithType: AssociateMDOProviderBase._AdditionalInfo
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase._AdditionalInfo
@@ -319,546 +336,396 @@ references:
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemExtraInfo_SuperOffice_CRM_Lists_ListTableRow_
   name: GetItemExtraInfo(ListTableRow)
   nameWithType: AssociateMDOProviderBase.GetItemExtraInfo(ListTableRow)
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemExtraInfo
-    nameWithType: AssociateMDOProviderBase.GetItemExtraInfo
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemExtraInfo
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemExtraInfo_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemExtraInfo
-    nameWithType: AssociateMDOProviderBase.GetItemExtraInfo
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemExtraInfo
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemExtraInfo_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
-  name: Construct(String, String, Int32[], Boolean, String, Boolean)
-  nameWithType: AssociateMDOProviderBase.Construct(String, String, Int32[], Boolean, String, Boolean)
-  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean)
-  nameWithType.vb: AssociateMDOProviderBase.Construct(String, String, Int32(), Boolean, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean)
-  name.vb: Construct(String, String, Int32(), Boolean, String, Boolean)
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ConstructAsync_System_String_System_String_System_Int32___System_Boolean_System_String_System_Boolean_System_Threading_CancellationToken_
+  name: ConstructAsync(string, string, int[], bool, string, bool, CancellationToken)
+  nameWithType: AssociateMDOProviderBase.ConstructAsync(string, string, int[], bool, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ConstructAsync(string, string, int[], bool, string, bool, System.Threading.CancellationToken)
+  nameWithType.vb: AssociateMDOProviderBase.ConstructAsync(String, String, Integer(), Boolean, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ConstructAsync(String, String, Integer(), Boolean, String, Boolean, System.Threading.CancellationToken)
+  name.vb: ConstructAsync(String, String, Integer(), Boolean, String, Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
-    name: Construct
-    nameWithType: AssociateMDOProviderBase.Construct
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: ConstructAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ConstructAsync_System_String_System_String_System_Int32___System_Boolean_System_String_System_Boolean_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
-    name: Construct
-    nameWithType: AssociateMDOProviderBase.Construct
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ConstructAsync(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: ConstructAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ConstructAsync_System_String_System_String_System_Int32___System_Boolean_System_String_System_Boolean_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemIconHint_SuperOffice_CRM_Lists_ListTableRow_
   name: GetItemIconHint(ListTableRow)
   nameWithType: AssociateMDOProviderBase.GetItemIconHint(ListTableRow)
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemIconHint
-    nameWithType: AssociateMDOProviderBase.GetItemIconHint
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemIconHint_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemIconHint
-    nameWithType: AssociateMDOProviderBase.GetItemIconHint
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemIconHint_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetHeadingIconHint_SuperOffice_CRM_Lists_ListTableRow_
   name: GetHeadingIconHint(ListTableRow)
   nameWithType: AssociateMDOProviderBase.GetHeadingIconHint(ListTableRow)
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
     name: GetHeadingIconHint
-    nameWithType: AssociateMDOProviderBase.GetHeadingIconHint
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetHeadingIconHint_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
     name: GetHeadingIconHint
-    nameWithType: AssociateMDOProviderBase.GetHeadingIconHint
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetHeadingIconHint_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType(SuperOffice.CRM.Lists.ListTableRow)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemType_SuperOffice_CRM_Lists_ListTableRow_
   name: GetItemType(ListTableRow)
   nameWithType: AssociateMDOProviderBase.GetItemType(ListTableRow)
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType(SuperOffice.CRM.Lists.ListTableRow)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemType
-    nameWithType: AssociateMDOProviderBase.GetItemType
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemType_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemType
-    nameWithType: AssociateMDOProviderBase.GetItemType
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemType_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemTooltip(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemTooltip(SuperOffice.CRM.Lists.ListTableRow)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemTooltip_SuperOffice_CRM_Lists_ListTableRow_
   name: GetItemTooltip(ListTableRow)
   nameWithType: AssociateMDOProviderBase.GetItemTooltip(ListTableRow)
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemTooltip(SuperOffice.CRM.Lists.ListTableRow)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemTooltip(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemTooltip
-    nameWithType: AssociateMDOProviderBase.GetItemTooltip
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemTooltip
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemTooltip_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemTooltip(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemTooltip
-    nameWithType: AssociateMDOProviderBase.GetItemTooltip
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemTooltip
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemTooltip_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType(SuperOffice.CRM.Lists.ListTableRow)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetHeadingType_SuperOffice_CRM_Lists_ListTableRow_
   name: GetHeadingType(ListTableRow)
   nameWithType: AssociateMDOProviderBase.GetHeadingType(ListTableRow)
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType(SuperOffice.CRM.Lists.ListTableRow)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType(SuperOffice.CRM.Lists.ListTableRow)
     name: GetHeadingType
-    nameWithType: AssociateMDOProviderBase.GetHeadingType
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetHeadingType_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType(SuperOffice.CRM.Lists.ListTableRow)
     name: GetHeadingType
-    nameWithType: AssociateMDOProviderBase.GetHeadingType
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetHeadingType_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName(SuperOffice.CRM.Lists.ListTableRow)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemName_SuperOffice_CRM_Lists_ListTableRow_
   name: GetItemName(ListTableRow)
   nameWithType: AssociateMDOProviderBase.GetItemName(ListTableRow)
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName(SuperOffice.CRM.Lists.ListTableRow)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemName
-    nameWithType: AssociateMDOProviderBase.GetItemName
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemName_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemName
-    nameWithType: AssociateMDOProviderBase.GetItemName
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemName_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetHistoryIconHint_SuperOffice_CRM_Lists_ListTableRow_
   name: GetHistoryIconHint(ListTableRow)
   nameWithType: AssociateMDOProviderBase.GetHistoryIconHint(ListTableRow)
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
     name: GetHistoryIconHint
-    nameWithType: AssociateMDOProviderBase.GetHistoryIconHint
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetHistoryIconHint_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
     name: GetHistoryIconHint
-    nameWithType: AssociateMDOProviderBase.GetHistoryIconHint
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetHistoryIconHint_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection(SuperOffice.CRM.Lists.SoListHeading)
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection(SuperOffice.CRM.Lists.SoListHeading)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_OnAddHeadingElementToCollection_SuperOffice_CRM_Lists_SoListHeading_
   name: OnAddHeadingElementToCollection(SoListHeading)
   nameWithType: AssociateMDOProviderBase.OnAddHeadingElementToCollection(SoListHeading)
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection(SuperOffice.CRM.Lists.SoListHeading)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection(SuperOffice.CRM.Lists.SoListHeading)
     name: OnAddHeadingElementToCollection
-    nameWithType: AssociateMDOProviderBase.OnAddHeadingElementToCollection
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_OnAddHeadingElementToCollection_SuperOffice_CRM_Lists_SoListHeading_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.SoListHeading
     name: SoListHeading
-    nameWithType: SoListHeading
-    fullName: SuperOffice.CRM.Lists.SoListHeading
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection(SuperOffice.CRM.Lists.SoListHeading)
     name: OnAddHeadingElementToCollection
-    nameWithType: AssociateMDOProviderBase.OnAddHeadingElementToCollection
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_OnAddHeadingElementToCollection_SuperOffice_CRM_Lists_SoListHeading_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.SoListHeading
     name: SoListHeading
-    nameWithType: SoListHeading
-    fullName: SuperOffice.CRM.Lists.SoListHeading
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection(SuperOffice.CRM.Lists.SoListItem)
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection(SuperOffice.CRM.Lists.SoListItem)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_OnAddHistoryElementToCollection_SuperOffice_CRM_Lists_SoListItem_
   name: OnAddHistoryElementToCollection(SoListItem)
   nameWithType: AssociateMDOProviderBase.OnAddHistoryElementToCollection(SoListItem)
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection(SuperOffice.CRM.Lists.SoListItem)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection(SuperOffice.CRM.Lists.SoListItem)
     name: OnAddHistoryElementToCollection
-    nameWithType: AssociateMDOProviderBase.OnAddHistoryElementToCollection
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_OnAddHistoryElementToCollection_SuperOffice_CRM_Lists_SoListItem_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.SoListItem
     name: SoListItem
-    nameWithType: SoListItem
-    fullName: SuperOffice.CRM.Lists.SoListItem
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection(SuperOffice.CRM.Lists.SoListItem)
     name: OnAddHistoryElementToCollection
-    nameWithType: AssociateMDOProviderBase.OnAddHistoryElementToCollection
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_OnAddHistoryElementToCollection_SuperOffice_CRM_Lists_SoListItem_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.SoListItem
     name: SoListItem
-    nameWithType: SoListItem
-    fullName: SuperOffice.CRM.Lists.SoListItem
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection(SuperOffice.CRM.Lists.SoListItem,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection(SuperOffice.CRM.Lists.SoListItem,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_OnAddSubItemToCollection_SuperOffice_CRM_Lists_SoListItem_System_Collections_Generic_List_SuperOffice_CRM_Lists_ISoListItem__
   name: OnAddSubItemToCollection(SoListItem, List<ISoListItem>)
   nameWithType: AssociateMDOProviderBase.OnAddSubItemToCollection(SoListItem, List<ISoListItem>)
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection(SuperOffice.CRM.Lists.SoListItem, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
@@ -868,548 +735,455 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection(SuperOffice.CRM.Lists.SoListItem,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
     name: OnAddSubItemToCollection
-    nameWithType: AssociateMDOProviderBase.OnAddSubItemToCollection
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_OnAddSubItemToCollection_SuperOffice_CRM_Lists_SoListItem_System_Collections_Generic_List_SuperOffice_CRM_Lists_ISoListItem__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.SoListItem
     name: SoListItem
-    nameWithType: SoListItem
-    fullName: SuperOffice.CRM.Lists.SoListItem
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
-    nameWithType: ISoListItem
-    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection(SuperOffice.CRM.Lists.SoListItem,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
     name: OnAddSubItemToCollection
-    nameWithType: AssociateMDOProviderBase.OnAddSubItemToCollection
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_OnAddSubItemToCollection_SuperOffice_CRM_Lists_SoListItem_System_Collections_Generic_List_SuperOffice_CRM_Lists_ISoListItem__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.SoListItem
     name: SoListItem
-    nameWithType: SoListItem
-    fullName: SuperOffice.CRM.Lists.SoListItem
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
-    nameWithType: ISoListItem
-    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollection
-  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollection
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollectionAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollectionAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
-  name: GetHistoryCollection()
-  nameWithType: AssociateMDOProviderBase.GetHistoryCollection()
-  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollection()
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetHistoryCollectionAsync_System_Threading_CancellationToken_
+  name: GetHistoryCollectionAsync(CancellationToken)
+  nameWithType: AssociateMDOProviderBase.GetHistoryCollectionAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollectionAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollection
-    name: GetHistoryCollection
-    nameWithType: AssociateMDOProviderBase.GetHistoryCollection
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollection
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollectionAsync(System.Threading.CancellationToken)
+    name: GetHistoryCollectionAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetHistoryCollectionAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollection
-    name: GetHistoryCollection
-    nameWithType: AssociateMDOProviderBase.GetHistoryCollection
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollection
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollectionAsync(System.Threading.CancellationToken)
+    name: GetHistoryCollectionAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetHistoryCollectionAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_AcceptHistoryRow_SuperOffice_CRM_Lists_ListTableRow_
   name: AcceptHistoryRow(ListTableRow)
   nameWithType: AssociateMDOProviderBase.AcceptHistoryRow(ListTableRow)
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
     name: AcceptHistoryRow
-    nameWithType: AssociateMDOProviderBase.AcceptHistoryRow
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.AcceptHistoryRow
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_AcceptHistoryRow_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
     name: AcceptHistoryRow
-    nameWithType: AssociateMDOProviderBase.AcceptHistoryRow
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.AcceptHistoryRow
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_AcceptHistoryRow_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadItemsAndHeadings
-  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadItemsAndHeadings
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadItemsAndHeadingsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadItemsAndHeadingsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
-  name: ReadItemsAndHeadings()
-  nameWithType: AssociateMDOProviderBase.ReadItemsAndHeadings()
-  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadItemsAndHeadings()
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ReadItemsAndHeadingsAsync_System_Threading_CancellationToken_
+  name: ReadItemsAndHeadingsAsync(CancellationToken)
+  nameWithType: AssociateMDOProviderBase.ReadItemsAndHeadingsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadItemsAndHeadingsAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadItemsAndHeadings
-    name: ReadItemsAndHeadings
-    nameWithType: AssociateMDOProviderBase.ReadItemsAndHeadings
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadItemsAndHeadings
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadItemsAndHeadingsAsync(System.Threading.CancellationToken)
+    name: ReadItemsAndHeadingsAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ReadItemsAndHeadingsAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadItemsAndHeadings
-    name: ReadItemsAndHeadings
-    nameWithType: AssociateMDOProviderBase.ReadItemsAndHeadings
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadItemsAndHeadings
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadItemsAndHeadingsAsync(System.Threading.CancellationToken)
+    name: ReadItemsAndHeadingsAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ReadItemsAndHeadingsAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery
-  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQueryAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQueryAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
-  name: GetSimpleListQuery()
-  nameWithType: AssociateMDOProviderBase.GetSimpleListQuery()
-  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery()
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetSimpleListQueryAsync_System_Threading_CancellationToken_
+  name: GetSimpleListQueryAsync(CancellationToken)
+  nameWithType: AssociateMDOProviderBase.GetSimpleListQueryAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQueryAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery
-    name: GetSimpleListQuery
-    nameWithType: AssociateMDOProviderBase.GetSimpleListQuery
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQueryAsync(System.Threading.CancellationToken)
+    name: GetSimpleListQueryAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetSimpleListQueryAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery
-    name: GetSimpleListQuery
-    nameWithType: AssociateMDOProviderBase.GetSimpleListQuery
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQueryAsync(System.Threading.CancellationToken)
+    name: GetSimpleListQueryAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetSimpleListQueryAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleList
-  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleList
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleListAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleListAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
-  name: ReadSimpleList()
-  nameWithType: AssociateMDOProviderBase.ReadSimpleList()
-  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleList()
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ReadSimpleListAsync_System_Threading_CancellationToken_
+  name: ReadSimpleListAsync(CancellationToken)
+  nameWithType: AssociateMDOProviderBase.ReadSimpleListAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleListAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleList
-    name: ReadSimpleList
-    nameWithType: AssociateMDOProviderBase.ReadSimpleList
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleList
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleListAsync(System.Threading.CancellationToken)
+    name: ReadSimpleListAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ReadSimpleListAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleList
-    name: ReadSimpleList
-    nameWithType: AssociateMDOProviderBase.ReadSimpleList
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleList
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleListAsync(System.Threading.CancellationToken)
+    name: ReadSimpleListAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ReadSimpleListAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery
-  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQueryAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQueryAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
-  name: GetItemsAndHeadingsQuery()
-  nameWithType: AssociateMDOProviderBase.GetItemsAndHeadingsQuery()
-  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery()
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemsAndHeadingsQueryAsync_System_Threading_CancellationToken_
+  name: GetItemsAndHeadingsQueryAsync(CancellationToken)
+  nameWithType: AssociateMDOProviderBase.GetItemsAndHeadingsQueryAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQueryAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery
-    name: GetItemsAndHeadingsQuery
-    nameWithType: AssociateMDOProviderBase.GetItemsAndHeadingsQuery
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQueryAsync(System.Threading.CancellationToken)
+    name: GetItemsAndHeadingsQueryAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemsAndHeadingsQueryAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery
-    name: GetItemsAndHeadingsQuery
-    nameWithType: AssociateMDOProviderBase.GetItemsAndHeadingsQuery
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQueryAsync(System.Threading.CancellationToken)
+    name: GetItemsAndHeadingsQueryAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemsAndHeadingsQueryAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatList
-  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatList
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatListAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatListAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
-  name: GetAssociateFlatList()
-  nameWithType: AssociateMDOProviderBase.GetAssociateFlatList()
-  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatList()
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetAssociateFlatListAsync_System_Threading_CancellationToken_
+  name: GetAssociateFlatListAsync(CancellationToken)
+  nameWithType: AssociateMDOProviderBase.GetAssociateFlatListAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatListAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatList
-    name: GetAssociateFlatList
-    nameWithType: AssociateMDOProviderBase.GetAssociateFlatList
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatList
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatListAsync(System.Threading.CancellationToken)
+    name: GetAssociateFlatListAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetAssociateFlatListAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatList
-    name: GetAssociateFlatList
-    nameWithType: AssociateMDOProviderBase.GetAssociateFlatList
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatList
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatListAsync(System.Threading.CancellationToken)
+    name: GetAssociateFlatListAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetAssociateFlatListAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItems
-  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItems
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItemsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
-  name: GetAssociateHeadingAndItems()
-  nameWithType: AssociateMDOProviderBase.GetAssociateHeadingAndItems()
-  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItems()
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetAssociateHeadingAndItemsAsync_System_Threading_CancellationToken_
+  name: GetAssociateHeadingAndItemsAsync(CancellationToken)
+  nameWithType: AssociateMDOProviderBase.GetAssociateHeadingAndItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItemsAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItems
-    name: GetAssociateHeadingAndItems
-    nameWithType: AssociateMDOProviderBase.GetAssociateHeadingAndItems
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItems
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItemsAsync(System.Threading.CancellationToken)
+    name: GetAssociateHeadingAndItemsAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetAssociateHeadingAndItemsAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItems
-    name: GetAssociateHeadingAndItems
-    nameWithType: AssociateMDOProviderBase.GetAssociateHeadingAndItems
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItems
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItemsAsync(System.Threading.CancellationToken)
+    name: GetAssociateHeadingAndItemsAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetAssociateHeadingAndItemsAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo)
-  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo)
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQueryAsync(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQueryAsync(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
-  name: GenerateCommonQuery(ListTableRows.CustomSearch, ListInfo)
-  nameWithType: AssociateMDOProviderBase.GenerateCommonQuery(ListTableRows.CustomSearch, ListInfo)
-  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery(SuperOffice.CRM.Lists.ListTableRows.CustomSearch, SuperOffice.Data.Dictionary.ListInfo)
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GenerateCommonQueryAsync_SuperOffice_CRM_Lists_ListTableRows_CustomSearch_SuperOffice_Data_Dictionary_ListInfo_System_Threading_CancellationToken_
+  name: GenerateCommonQueryAsync(CustomSearch, ListInfo, CancellationToken)
+  nameWithType: AssociateMDOProviderBase.GenerateCommonQueryAsync(ListTableRows.CustomSearch, ListInfo, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQueryAsync(SuperOffice.CRM.Lists.ListTableRows.CustomSearch, SuperOffice.Data.Dictionary.ListInfo, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo)
-    name: GenerateCommonQuery
-    nameWithType: AssociateMDOProviderBase.GenerateCommonQuery
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQueryAsync(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo,System.Threading.CancellationToken)
+    name: GenerateCommonQueryAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GenerateCommonQueryAsync_SuperOffice_CRM_Lists_ListTableRows_CustomSearch_SuperOffice_Data_Dictionary_ListInfo_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
-    name: ListTableRows.CustomSearch
-    nameWithType: ListTableRows.CustomSearch
-    fullName: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    name: CustomSearch
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.Dictionary.ListInfo
     name: ListInfo
-    nameWithType: ListInfo
-    fullName: SuperOffice.Data.Dictionary.ListInfo
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo)
-    name: GenerateCommonQuery
-    nameWithType: AssociateMDOProviderBase.GenerateCommonQuery
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQueryAsync(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo,System.Threading.CancellationToken)
+    name: GenerateCommonQueryAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GenerateCommonQueryAsync_SuperOffice_CRM_Lists_ListTableRows_CustomSearch_SuperOffice_Data_Dictionary_ListInfo_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
-    name: ListTableRows.CustomSearch
-    nameWithType: ListTableRows.CustomSearch
-    fullName: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    name: CustomSearch
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.Dictionary.ListInfo
     name: ListInfo
-    nameWithType: ListInfo
-    fullName: SuperOffice.Data.Dictionary.ListInfo
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{System.Int32})
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{System.Int32})
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
-  name: ExecuteQuery(Select, List<Int32>)
-  nameWithType: AssociateMDOProviderBase.ExecuteQuery(Select, List<Int32>)
-  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select, System.Collections.Generic.List<System.Int32>)
-  nameWithType.vb: AssociateMDOProviderBase.ExecuteQuery(Select, List(Of Int32))
-  fullName.vb: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select, System.Collections.Generic.List(Of System.Int32))
-  name.vb: ExecuteQuery(Select, List(Of Int32))
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ExecuteQuery_SuperOffice_Data_SQL_Select_System_Collections_Generic_List_System_Int32__
+  name: ExecuteQuery(Select, List<int>)
+  nameWithType: AssociateMDOProviderBase.ExecuteQuery(Select, List<int>)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select, System.Collections.Generic.List<int>)
+  nameWithType.vb: AssociateMDOProviderBase.ExecuteQuery(Select, List(Of Integer))
+  fullName.vb: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select, System.Collections.Generic.List(Of Integer))
+  name.vb: ExecuteQuery(Select, List(Of Integer))
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{System.Int32})
     name: ExecuteQuery
-    nameWithType: AssociateMDOProviderBase.ExecuteQuery
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ExecuteQuery_SuperOffice_Data_SQL_Select_System_Collections_Generic_List_System_Int32__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
-    nameWithType: Select
-    fullName: SuperOffice.Data.SQL.Select
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{System.Int32})
     name: ExecuteQuery
-    nameWithType: AssociateMDOProviderBase.ExecuteQuery
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ExecuteQuery_SuperOffice_Data_SQL_Select_System_Collections_Generic_List_System_Int32__
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
-    nameWithType: Select
-    fullName: SuperOffice.Data.SQL.Select
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ExecuteReader_SuperOffice_Data_SoCommand_
   name: ExecuteReader(SoCommand)
   nameWithType: AssociateMDOProviderBase.ExecuteReader(SoCommand)
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
     name: ExecuteReader
-    nameWithType: AssociateMDOProviderBase.ExecuteReader
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteReader
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ExecuteReader_SuperOffice_Data_SoCommand_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SoCommand
     name: SoCommand
-    nameWithType: SoCommand
-    fullName: SuperOffice.Data.SoCommand
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
     name: ExecuteReader
-    nameWithType: AssociateMDOProviderBase.ExecuteReader
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteReader
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ExecuteReader_SuperOffice_Data_SoCommand_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SoCommand
     name: SoCommand
-    nameWithType: SoCommand
-    fullName: SuperOffice.Data.SoCommand
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedList
-  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedList
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedListAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedListAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
-  name: ResortFlattenedList()
-  nameWithType: AssociateMDOProviderBase.ResortFlattenedList()
-  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedList()
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ResortFlattenedListAsync_System_Threading_CancellationToken_
+  name: ResortFlattenedListAsync(CancellationToken)
+  nameWithType: AssociateMDOProviderBase.ResortFlattenedListAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedListAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedList
-    name: ResortFlattenedList
-    nameWithType: AssociateMDOProviderBase.ResortFlattenedList
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedList
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedListAsync(System.Threading.CancellationToken)
+    name: ResortFlattenedListAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ResortFlattenedListAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedList
-    name: ResortFlattenedList
-    nameWithType: AssociateMDOProviderBase.ResortFlattenedList
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedList
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedListAsync(System.Threading.CancellationToken)
+    name: ResortFlattenedListAsync
     isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_ResortFlattenedListAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.HistoryInfo
   commentId: P:SuperOffice.CRM.Lists.AssociateMDOProviderBase.HistoryInfo
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_HistoryInfo
   name: HistoryInfo
   nameWithType: AssociateMDOProviderBase.HistoryInfo
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.HistoryInfo
@@ -1417,6 +1191,7 @@ references:
   commentId: P:SuperOffice.CRM.Lists.AssociateMDOProviderBase.PersonTableInfo
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_PersonTableInfo
   name: PersonTableInfo
   nameWithType: AssociateMDOProviderBase.PersonTableInfo
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.PersonTableInfo
@@ -1508,213 +1283,184 @@ references:
   commentId: F:SuperOffice.CRM.Lists.MDOProviderBase._listInfo
   parent: SuperOffice.CRM.Lists.MDOProviderBase
   isExternal: true
+  href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase__listInfo
   name: _listInfo
   nameWithType: MDOProviderBase._listInfo
   fullName: SuperOffice.CRM.Lists.MDOProviderBase._listInfo
-- uid: SuperOffice.CRM.Lists.MDOProviderBase.FillList
-  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.FillList
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.FillListAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.FillListAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.MDOProviderBase
   isExternal: true
-  name: FillList()
-  nameWithType: MDOProviderBase.FillList()
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase.FillList()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: FillListAsync(CancellationToken)
+  nameWithType: MDOProviderBase.FillListAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.FillListAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.FillList
-    name: FillList
-    nameWithType: MDOProviderBase.FillList
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.FillList
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.FillListAsync(System.Threading.CancellationToken)
+    name: FillListAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.FillList
-    name: FillList
-    nameWithType: MDOProviderBase.FillList
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.FillList
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.FillListAsync(System.Threading.CancellationToken)
+    name: FillListAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy(SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
-  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy(SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderByAsync(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderByAsync(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.MDOProviderBase
   isExternal: true
-  name: AddSimpleListOrderBy(ListTableRows.CustomSearch)
-  nameWithType: MDOProviderBase.AddSimpleListOrderBy(ListTableRows.CustomSearch)
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy(SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: AddSimpleListOrderByAsync(CustomSearch, CancellationToken)
+  nameWithType: MDOProviderBase.AddSimpleListOrderByAsync(ListTableRows.CustomSearch, CancellationToken)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderByAsync(SuperOffice.CRM.Lists.ListTableRows.CustomSearch, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy(SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
-    name: AddSimpleListOrderBy
-    nameWithType: MDOProviderBase.AddSimpleListOrderBy
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderByAsync(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,System.Threading.CancellationToken)
+    name: AddSimpleListOrderByAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
-    name: ListTableRows.CustomSearch
-    nameWithType: ListTableRows.CustomSearch
-    fullName: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    name: CustomSearch
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy(SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
-    name: AddSimpleListOrderBy
-    nameWithType: MDOProviderBase.AddSimpleListOrderBy
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderByAsync(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,System.Threading.CancellationToken)
+    name: AddSimpleListOrderByAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
-    name: ListTableRows.CustomSearch
-    nameWithType: ListTableRows.CustomSearch
-    fullName: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    name: CustomSearch
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery(System.Boolean,System.Int32[])
-  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery(System.Boolean,System.Int32[])
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQueryAsync(System.Boolean,System.Threading.CancellationToken,System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQueryAsync(System.Boolean,System.Threading.CancellationToken,System.Int32[])
   parent: SuperOffice.CRM.Lists.MDOProviderBase
   isExternal: true
-  name: GetItemsAndHeadingsQuery(Boolean, Int32[])
-  nameWithType: MDOProviderBase.GetItemsAndHeadingsQuery(Boolean, Int32[])
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery(System.Boolean, System.Int32[])
-  nameWithType.vb: MDOProviderBase.GetItemsAndHeadingsQuery(Boolean, Int32())
-  fullName.vb: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery(System.Boolean, System.Int32())
-  name.vb: GetItemsAndHeadingsQuery(Boolean, Int32())
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: GetItemsAndHeadingsQueryAsync(bool, CancellationToken, params int[])
+  nameWithType: MDOProviderBase.GetItemsAndHeadingsQueryAsync(bool, CancellationToken, params int[])
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQueryAsync(bool, System.Threading.CancellationToken, params int[])
+  nameWithType.vb: MDOProviderBase.GetItemsAndHeadingsQueryAsync(Boolean, CancellationToken, ParamArray Integer())
+  fullName.vb: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQueryAsync(Boolean, System.Threading.CancellationToken, ParamArray Integer())
+  name.vb: GetItemsAndHeadingsQueryAsync(Boolean, CancellationToken, ParamArray Integer())
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery(System.Boolean,System.Int32[])
-    name: GetItemsAndHeadingsQuery
-    nameWithType: MDOProviderBase.GetItemsAndHeadingsQuery
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQueryAsync(System.Boolean,System.Threading.CancellationToken,System.Int32[])
+    name: GetItemsAndHeadingsQueryAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQueryAsync(System.Boolean,System.Threading.CancellationToken,System.Int32[])
+    name: GetItemsAndHeadingsQueryAsync
+    isExternal: true
+  - name: (
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery(System.Boolean,System.Int32[])
-    name: GetItemsAndHeadingsQuery
-    nameWithType: MDOProviderBase.GetItemsAndHeadingsQuery
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery
-    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(System.Int32[],SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
   commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(System.Int32[],SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
   parent: SuperOffice.CRM.Lists.MDOProviderBase
   isExternal: true
-  name: AddGroupLinkJoin(Int32[], ListTableRows.CustomSearch)
-  nameWithType: MDOProviderBase.AddGroupLinkJoin(Int32[], ListTableRows.CustomSearch)
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(System.Int32[], SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
-  nameWithType.vb: MDOProviderBase.AddGroupLinkJoin(Int32(), ListTableRows.CustomSearch)
-  fullName.vb: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(System.Int32(), SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
-  name.vb: AddGroupLinkJoin(Int32(), ListTableRows.CustomSearch)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: AddGroupLinkJoin(int[], CustomSearch)
+  nameWithType: MDOProviderBase.AddGroupLinkJoin(int[], ListTableRows.CustomSearch)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(int[], SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  nameWithType.vb: MDOProviderBase.AddGroupLinkJoin(Integer(), ListTableRows.CustomSearch)
+  fullName.vb: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(Integer(), SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  name.vb: AddGroupLinkJoin(Integer(), CustomSearch)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(System.Int32[],SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
     name: AddGroupLinkJoin
-    nameWithType: MDOProviderBase.AddGroupLinkJoin
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
-    name: ListTableRows.CustomSearch
-    nameWithType: ListTableRows.CustomSearch
-    fullName: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    name: CustomSearch
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(System.Int32[],SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
     name: AddGroupLinkJoin
-    nameWithType: MDOProviderBase.AddGroupLinkJoin
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
-    name: ListTableRows.CustomSearch
-    nameWithType: ListTableRows.CustomSearch
-    fullName: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    name: CustomSearch
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemId(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemId(SuperOffice.CRM.Lists.ListTableRow)
   parent: SuperOffice.CRM.Lists.MDOProviderBase
@@ -1725,37 +1471,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemId(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemId
-    nameWithType: MDOProviderBase.GetItemId
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemId
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemId(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemId
-    nameWithType: MDOProviderBase.GetItemId
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemId
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemRank(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemRank(SuperOffice.CRM.Lists.ListTableRow)
   parent: SuperOffice.CRM.Lists.MDOProviderBase
@@ -1766,37 +1496,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemRank(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemRank
-    nameWithType: MDOProviderBase.GetItemRank
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemRank
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemRank(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemRank
-    nameWithType: MDOProviderBase.GetItemRank
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemRank
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemDeleted(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemDeleted(SuperOffice.CRM.Lists.ListTableRow)
   parent: SuperOffice.CRM.Lists.MDOProviderBase
@@ -1807,37 +1521,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemDeleted(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemDeleted
-    nameWithType: MDOProviderBase.GetItemDeleted
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemDeleted
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemDeleted(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemDeleted
-    nameWithType: MDOProviderBase.GetItemDeleted
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemDeleted
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemColor(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemColor(SuperOffice.CRM.Lists.ListTableRow)
   parent: SuperOffice.CRM.Lists.MDOProviderBase
@@ -1848,37 +1546,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemColor(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemColor
-    nameWithType: MDOProviderBase.GetItemColor
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemColor
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemColor(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemColor
-    nameWithType: MDOProviderBase.GetItemColor
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemColor
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemStyleHint(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemStyleHint(SuperOffice.CRM.Lists.ListTableRow)
   parent: SuperOffice.CRM.Lists.MDOProviderBase
@@ -1889,37 +1571,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemStyleHint(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemStyleHint
-    nameWithType: MDOProviderBase.GetItemStyleHint
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemStyleHint
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemStyleHint(SuperOffice.CRM.Lists.ListTableRow)
     name: GetItemStyleHint
-    nameWithType: MDOProviderBase.GetItemStyleHint
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemStyleHint
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.MDOProviderBase.OnAddRootElementToCollection(SuperOffice.CRM.Lists.SoListItem)
   commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.OnAddRootElementToCollection(SuperOffice.CRM.Lists.SoListItem)
   parent: SuperOffice.CRM.Lists.MDOProviderBase
@@ -1930,99 +1596,180 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.MDOProviderBase.OnAddRootElementToCollection(SuperOffice.CRM.Lists.SoListItem)
     name: OnAddRootElementToCollection
-    nameWithType: MDOProviderBase.OnAddRootElementToCollection
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.OnAddRootElementToCollection
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.SoListItem
     name: SoListItem
-    nameWithType: SoListItem
-    fullName: SuperOffice.CRM.Lists.SoListItem
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.MDOProviderBase.OnAddRootElementToCollection(SuperOffice.CRM.Lists.SoListItem)
     name: OnAddRootElementToCollection
-    nameWithType: MDOProviderBase.OnAddRootElementToCollection
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.OnAddRootElementToCollection
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Lists.SoListItem
     name: SoListItem
-    nameWithType: SoListItem
-    fullName: SuperOffice.CRM.Lists.SoListItem
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit
-  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimitAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimitAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.MDOProviderBase
   isExternal: true
-  name: GetListLowerLimit()
-  nameWithType: MDOProviderBase.GetListLowerLimit()
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetListLowerLimitAsync(CancellationToken)
+  nameWithType: MDOProviderBase.GetListLowerLimitAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimitAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit
-    name: GetListLowerLimit
-    nameWithType: MDOProviderBase.GetListLowerLimit
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimitAsync(System.Threading.CancellationToken)
+    name: GetListLowerLimitAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit
-    name: GetListLowerLimit
-    nameWithType: MDOProviderBase.GetListLowerLimit
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimitAsync(System.Threading.CancellationToken)
+    name: GetListLowerLimitAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder
-  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrderAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrderAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.MDOProviderBase
   isExternal: true
-  name: GetPreferredSortOrder()
-  nameWithType: MDOProviderBase.GetPreferredSortOrder()
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetPreferredSortOrderAsync(CancellationToken)
+  nameWithType: MDOProviderBase.GetPreferredSortOrderAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrderAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder
-    name: GetPreferredSortOrder
-    nameWithType: MDOProviderBase.GetPreferredSortOrder
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrderAsync(System.Threading.CancellationToken)
+    name: GetPreferredSortOrderAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder
-    name: GetPreferredSortOrder
-    nameWithType: MDOProviderBase.GetPreferredSortOrder
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrderAsync(System.Threading.CancellationToken)
+    name: GetPreferredSortOrderAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetHistoryItemsAsync(CancellationToken)
+  nameWithType: MDOProviderBase.GetHistoryItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetHistoryItemsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetHistoryItemsAsync(System.Threading.CancellationToken)
+    name: GetHistoryItemsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetHistoryItemsAsync(System.Threading.CancellationToken)
+    name: GetHistoryItemsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.ClearHistoryItems
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.ClearHistoryItems
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: ClearHistoryItems()
+  nameWithType: MDOProviderBase.ClearHistoryItems()
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.ClearHistoryItems()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.ClearHistoryItems
+    name: ClearHistoryItems
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.ClearHistoryItems
+    name: ClearHistoryItems
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetRootItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetRootItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetRootItemsAsync(CancellationToken)
+  nameWithType: MDOProviderBase.GetRootItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetRootItemsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetRootItemsAsync(System.Threading.CancellationToken)
+    name: GetRootItemsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetRootItemsAsync(System.Threading.CancellationToken)
+    name: GetRootItemsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetHeadingItemsAsync(CancellationToken)
+  nameWithType: MDOProviderBase.GetHeadingItemsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingItemsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingItemsAsync(System.Threading.CancellationToken)
+    name: GetHeadingItemsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingItemsAsync(System.Threading.CancellationToken)
+    name: GetHeadingItemsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.CRM.Lists.MDOProviderBase.IncludeDeletedItems
   commentId: P:SuperOffice.CRM.Lists.MDOProviderBase.IncludeDeletedItems
   parent: SuperOffice.CRM.Lists.MDOProviderBase
@@ -2044,142 +1791,434 @@ references:
   name: IsFinalListFlat
   nameWithType: MDOProviderBase.IsFinalListFlat
   fullName: SuperOffice.CRM.Lists.MDOProviderBase.IsFinalListFlat
-- uid: SuperOffice.CRM.Lists.MDOProviderBase.HistoryItems
-  commentId: P:SuperOffice.CRM.Lists.MDOProviderBase.HistoryItems
-  parent: SuperOffice.CRM.Lists.MDOProviderBase
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: HistoryItems
-  nameWithType: MDOProviderBase.HistoryItems
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase.HistoryItems
-- uid: SuperOffice.CRM.Lists.MDOProviderBase.RootItems
-  commentId: P:SuperOffice.CRM.Lists.MDOProviderBase.RootItems
-  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
-  name: RootItems
-  nameWithType: MDOProviderBase.RootItems
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase.RootItems
-- uid: SuperOffice.CRM.Lists.MDOProviderBase.HeadingItems
-  commentId: P:SuperOffice.CRM.Lists.MDOProviderBase.HeadingItems
-  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: HeadingItems
-  nameWithType: MDOProviderBase.HeadingItems
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase.HeadingItems
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<DiaryOwnerMDOProvider, To>()
-  nameWithType: EnumUtil.MapEnums<DiaryOwnerMDOProvider, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.DiaryOwnerMDOProvider, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of DiaryOwnerMDOProvider, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.DiaryOwnerMDOProvider, To)()
-  name.vb: MapEnums(Of DiaryOwnerMDOProvider, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<DiaryOwnerMDOProvider, To>(DiaryOwnerMDOProvider)
+  nameWithType: EnumUtil.MapEnums<DiaryOwnerMDOProvider, To>(DiaryOwnerMDOProvider)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.DiaryOwnerMDOProvider, To>(SuperOffice.CRM.Lists.DiaryOwnerMDOProvider)
+  nameWithType.vb: EnumUtil.MapEnums(Of DiaryOwnerMDOProvider, To)(DiaryOwnerMDOProvider)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.DiaryOwnerMDOProvider, To)(SuperOffice.CRM.Lists.DiaryOwnerMDOProvider)
+  name.vb: MapEnums(Of DiaryOwnerMDOProvider, To)(DiaryOwnerMDOProvider)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<DiaryOwnerMDOProvider, To>
-    nameWithType: EnumUtil.MapEnums<DiaryOwnerMDOProvider, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.DiaryOwnerMDOProvider, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.DiaryOwnerMDOProvider)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider
+    name: DiaryOwnerMDOProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider
+    name: DiaryOwnerMDOProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of DiaryOwnerMDOProvider, To)
-    nameWithType: EnumUtil.MapEnums(Of DiaryOwnerMDOProvider, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.DiaryOwnerMDOProvider, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.DiaryOwnerMDOProvider)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider
+    name: DiaryOwnerMDOProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider
+    name: DiaryOwnerMDOProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.html
+  - name: )
 - uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<DiaryOwnerMDOProvider, To>()
-  nameWithType: Converters.MapEnums<DiaryOwnerMDOProvider, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.DiaryOwnerMDOProvider, To>()
-  nameWithType.vb: Converters.MapEnums(Of DiaryOwnerMDOProvider, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.DiaryOwnerMDOProvider, To)()
-  name.vb: MapEnums(Of DiaryOwnerMDOProvider, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<DiaryOwnerMDOProvider, To>(DiaryOwnerMDOProvider)
+  nameWithType: Converters.MapEnums<DiaryOwnerMDOProvider, To>(DiaryOwnerMDOProvider)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.DiaryOwnerMDOProvider, To>(SuperOffice.CRM.Lists.DiaryOwnerMDOProvider)
+  nameWithType.vb: Converters.MapEnums(Of DiaryOwnerMDOProvider, To)(DiaryOwnerMDOProvider)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.DiaryOwnerMDOProvider, To)(SuperOffice.CRM.Lists.DiaryOwnerMDOProvider)
+  name.vb: MapEnums(Of DiaryOwnerMDOProvider, To)(DiaryOwnerMDOProvider)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<DiaryOwnerMDOProvider, To>
-    nameWithType: Converters.MapEnums<DiaryOwnerMDOProvider, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.DiaryOwnerMDOProvider, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.DiaryOwnerMDOProvider)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider
+    name: DiaryOwnerMDOProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider
+    name: DiaryOwnerMDOProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of DiaryOwnerMDOProvider, To)
-    nameWithType: Converters.MapEnums(Of DiaryOwnerMDOProvider, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.DiaryOwnerMDOProvider, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.DiaryOwnerMDOProvider)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider
+    name: DiaryOwnerMDOProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider
+    name: DiaryOwnerMDOProvider
+    isExternal: true
+    href: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -2188,43 +2227,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -2233,132 +2274,300 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForList
-  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForList
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForListAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForListAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.MDOProviderBase
   isExternal: true
-  name: GetGroupingAllowedForList()
-  nameWithType: MDOProviderBase.GetGroupingAllowedForList()
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForList()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetGroupingAllowedForListAsync(CancellationToken)
+  nameWithType: MDOProviderBase.GetGroupingAllowedForListAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForListAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForList
-    name: GetGroupingAllowedForList
-    nameWithType: MDOProviderBase.GetGroupingAllowedForList
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForList
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForListAsync(System.Threading.CancellationToken)
+    name: GetGroupingAllowedForListAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForList
-    name: GetGroupingAllowedForList
-    nameWithType: MDOProviderBase.GetGroupingAllowedForList
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForList
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForListAsync(System.Threading.CancellationToken)
+    name: GetGroupingAllowedForListAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.GetGroupingAllowedForList*
-  commentId: Overload:SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.GetGroupingAllowedForList
+- uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.GetGroupingAllowedForListAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.GetGroupingAllowedForListAsync
   isExternal: true
-  name: GetGroupingAllowedForList
-  nameWithType: DiaryOwnerMDOProvider.GetGroupingAllowedForList
-  fullName: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.GetGroupingAllowedForList
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
+  href: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.html#SuperOffice_CRM_Lists_DiaryOwnerMDOProvider_GetGroupingAllowedForListAsync_System_Threading_CancellationToken_
+  name: GetGroupingAllowedForListAsync
+  nameWithType: DiaryOwnerMDOProvider.GetGroupingAllowedForListAsync
+  fullName: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.GetGroupingAllowedForListAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollections
-  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollections
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollectionsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollectionsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Lists.MDOProviderBase
   isExternal: true
-  name: BuildMdoCollections()
-  nameWithType: MDOProviderBase.BuildMdoCollections()
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollections()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: BuildMdoCollectionsAsync(CancellationToken)
+  nameWithType: MDOProviderBase.BuildMdoCollectionsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollectionsAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollections
-    name: BuildMdoCollections
-    nameWithType: MDOProviderBase.BuildMdoCollections
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollections
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollectionsAsync(System.Threading.CancellationToken)
+    name: BuildMdoCollectionsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollections
-    name: BuildMdoCollections
-    nameWithType: MDOProviderBase.BuildMdoCollections
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollections
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollectionsAsync(System.Threading.CancellationToken)
+    name: BuildMdoCollectionsAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.BuildMdoCollections*
-  commentId: Overload:SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.BuildMdoCollections
+- uid: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.BuildMdoCollectionsAsync*
+  commentId: Overload:SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.BuildMdoCollectionsAsync
   isExternal: true
-  name: BuildMdoCollections
-  nameWithType: DiaryOwnerMDOProvider.BuildMdoCollections
-  fullName: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.BuildMdoCollections
+  href: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.html#SuperOffice_CRM_Lists_DiaryOwnerMDOProvider_BuildMdoCollectionsAsync_System_Threading_CancellationToken_
+  name: BuildMdoCollectionsAsync
+  nameWithType: DiaryOwnerMDOProvider.BuildMdoCollectionsAsync
+  fullName: SuperOffice.CRM.Lists.DiaryOwnerMDOProvider.BuildMdoCollectionsAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task

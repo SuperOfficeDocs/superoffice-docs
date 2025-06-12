@@ -98,27 +98,24 @@ items:
   nameWithType: DBC.ChatTopicFields
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for ChatTopic, This table contains chat topics.\n"
+  summary: Fields for ChatTopic, This table contains chat topics.
+  example: []
   syntax:
-    content: 'public static class ChatTopicFields : Object'
-    content.vb: >-
-      Public Module ChatTopicFields
-          Inherits Object
+    content: public static class DBC.ChatTopicFields
+    content.vb: Public Module DBC.ChatTopicFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.ChatTopicId
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.ChatTopicId
   id: ChatTopicId
@@ -130,24 +127,16 @@ items:
   nameWithType: DBC.ChatTopicFields.ChatTopicId
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.ChatTopicId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.ChatTopicId: The primary key (auto-incremented)\n"
+  summary: 'ChatTopic.ChatTopicId: The primary key (auto-incremented)'
+  example: []
   syntax:
     content: public const string ChatTopicId = "id"
     return:
       type: System.String
     content.vb: Public Const ChatTopicId As String = "id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.Description
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.Description
   id: Description
@@ -159,24 +148,16 @@ items:
   nameWithType: DBC.ChatTopicFields.Description
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.Description
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.Description: The descriptiong for this topic.\n"
+  summary: 'ChatTopic.Description: The descriptiong for this topic.'
+  example: []
   syntax:
     content: public const string Description = "description"
     return:
       type: System.String
     content.vb: Public Const Description As String = "description"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.LanguageId
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.LanguageId
   id: LanguageId
@@ -188,24 +169,16 @@ items:
   nameWithType: DBC.ChatTopicFields.LanguageId
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.LanguageId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.LanguageId: The reference to the associated customer language. NULL or -1 if not set.\n"
+  summary: 'ChatTopic.LanguageId: The reference to the associated customer language. NULL or -1 if not set.'
+  example: []
   syntax:
     content: public const string LanguageId = "language_id"
     return:
       type: System.String
     content.vb: Public Const LanguageId As String = "language_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WelcomeMessage
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WelcomeMessage
   id: WelcomeMessage
@@ -217,24 +190,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WelcomeMessage
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WelcomeMessage
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WelcomeMessage: The welcome message sent to the customer when the chat session starts.\n"
+  summary: 'ChatTopic.WelcomeMessage: The welcome message sent to the customer when the chat session starts.'
+  example: []
   syntax:
     content: public const string WelcomeMessage = "welcome_message"
     return:
       type: System.String
     content.vb: Public Const WelcomeMessage As String = "welcome_message"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.LastAccept
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.LastAccept
   id: LastAccept
@@ -246,24 +211,16 @@ items:
   nameWithType: DBC.ChatTopicFields.LastAccept
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.LastAccept
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.LastAccept: The last time a session was accepted from the inside for this topic.\n"
+  summary: 'ChatTopic.LastAccept: The last time a session was accepted from the inside for this topic.'
+  example: []
   syntax:
     content: public const string LastAccept = "last_accept"
     return:
       type: System.String
     content.vb: Public Const LastAccept As String = "last_accept"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.SecondsPrAccept
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.SecondsPrAccept
   id: SecondsPrAccept
@@ -275,24 +232,16 @@ items:
   nameWithType: DBC.ChatTopicFields.SecondsPrAccept
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.SecondsPrAccept
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.SecondsPrAccept: The average number of seconds per accept for this topic.\n"
+  summary: 'ChatTopic.SecondsPrAccept: The average number of seconds per accept for this topic.'
+  example: []
   syntax:
     content: public const string SecondsPrAccept = "seconds_pr_accept"
     return:
       type: System.String
     content.vb: Public Const SecondsPrAccept As String = "seconds_pr_accept"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.AlertTimeout
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.AlertTimeout
   id: AlertTimeout
@@ -304,24 +253,16 @@ items:
   nameWithType: DBC.ChatTopicFields.AlertTimeout
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.AlertTimeout
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.AlertTimeout: The number of seconds for an unanswered session before we alert\n"
+  summary: 'ChatTopic.AlertTimeout: The number of seconds for an unanswered session before we alert'
+  example: []
   syntax:
     content: public const string AlertTimeout = "alert_timeout"
     return:
       type: System.String
     content.vb: Public Const AlertTimeout As String = "alert_timeout"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.AlertTemplate
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.AlertTemplate
   id: AlertTemplate
@@ -333,24 +274,16 @@ items:
   nameWithType: DBC.ChatTopicFields.AlertTemplate
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.AlertTemplate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.AlertTemplate: The reply template to use for alerting\n"
+  summary: 'ChatTopic.AlertTemplate: The reply template to use for alerting'
+  example: []
   syntax:
     content: public const string AlertTemplate = "alert_template"
     return:
       type: System.String
     content.vb: Public Const AlertTemplate As String = "alert_template"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.AlertRecipient
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.AlertRecipient
   id: AlertRecipient
@@ -362,24 +295,16 @@ items:
   nameWithType: DBC.ChatTopicFields.AlertRecipient
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.AlertRecipient
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.AlertRecipient: The recipient(s) for the alert template\n"
+  summary: 'ChatTopic.AlertRecipient: The recipient(s) for the alert template'
+  example: []
   syntax:
     content: public const string AlertRecipient = "alert_recipient"
     return:
       type: System.String
     content.vb: Public Const AlertRecipient As String = "alert_recipient"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.Flags
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.Flags
   id: Flags
@@ -391,24 +316,16 @@ items:
   nameWithType: DBC.ChatTopicFields.Flags
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.Flags
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.Flags: Flags for this topic: show popup alert?, collect consent first?, use custom message?\n"
+  summary: 'ChatTopic.Flags: Flags for this topic: show popup alert?, collect consent first?, use custom message?'
+  example: []
   syntax:
     content: public const string Flags = "flags"
     return:
       type: System.String
     content.vb: Public Const Flags As String = "flags"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.Name
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.Name
   id: Name
@@ -420,24 +337,16 @@ items:
   nameWithType: DBC.ChatTopicFields.Name
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.Name
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.Name: The name of this chat topic\n"
+  summary: 'ChatTopic.Name: The name of this chat topic'
+  example: []
   syntax:
     content: public const string Name = "name"
     return:
       type: System.String
     content.vb: Public Const Name As String = "name"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.BadgeHeader
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.BadgeHeader
   id: BadgeHeader
@@ -449,24 +358,16 @@ items:
   nameWithType: DBC.ChatTopicFields.BadgeHeader
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.BadgeHeader
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.BadgeHeader: The badge header of the chat topic\n"
+  summary: 'ChatTopic.BadgeHeader: The badge header of the chat topic'
+  example: []
   syntax:
     content: public const string BadgeHeader = "badge_header"
     return:
       type: System.String
     content.vb: Public Const BadgeHeader As String = "badge_header"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WarningNewChat
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WarningNewChat
   id: WarningNewChat
@@ -478,24 +379,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WarningNewChat
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WarningNewChat
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WarningNewChat: Contains the user notify time in minutes\n"
+  summary: 'ChatTopic.WarningNewChat: Contains the user notify time in minutes'
+  example: []
   syntax:
     content: public const string WarningNewChat = "warning_new_chat"
     return:
       type: System.String
     content.vb: Public Const WarningNewChat As String = "warning_new_chat"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.ManagerWarningNewChat
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.ManagerWarningNewChat
   id: ManagerWarningNewChat
@@ -507,24 +400,16 @@ items:
   nameWithType: DBC.ChatTopicFields.ManagerWarningNewChat
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.ManagerWarningNewChat
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.ManagerWarningNewChat: Contains the manager notify time in minutes\n"
+  summary: 'ChatTopic.ManagerWarningNewChat: Contains the manager notify time in minutes'
+  example: []
   syntax:
     content: public const string ManagerWarningNewChat = "manager_warning_new_chat"
     return:
       type: System.String
     content.vb: Public Const ManagerWarningNewChat As String = "manager_warning_new_chat"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetTheme
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetTheme
   id: WidgetTheme
@@ -536,24 +421,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetTheme
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetTheme
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetTheme: Predefined themes for the chat widget\n"
+  summary: 'ChatTopic.WidgetTheme: Predefined themes for the chat widget'
+  example: []
   syntax:
     content: public const string WidgetTheme = "widget_theme"
     return:
       type: System.String
     content.vb: Public Const WidgetTheme As String = "widget_theme"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetColor
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetColor
   id: WidgetColor
@@ -565,24 +442,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetColor
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetColor
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetColor: The base color of the widget\n"
+  summary: 'ChatTopic.WidgetColor: The base color of the widget'
+  example: []
   syntax:
     content: public const string WidgetColor = "widget_color"
     return:
       type: System.String
     content.vb: Public Const WidgetColor As String = "widget_color"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetFont
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetFont
   id: WidgetFont
@@ -594,24 +463,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetFont
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetFont
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetFont: The font used in the widget\n"
+  summary: 'ChatTopic.WidgetFont: The font used in the widget'
+  example: []
   syntax:
     content: public const string WidgetFont = "widget_font"
     return:
       type: System.String
     content.vb: Public Const WidgetFont As String = "widget_font"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetShowLogo
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetShowLogo
   id: WidgetShowLogo
@@ -623,24 +484,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetShowLogo
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetShowLogo
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetShowLogo: Indicates if the logo should be shown in the widget\n"
+  summary: 'ChatTopic.WidgetShowLogo: Indicates if the logo should be shown in the widget'
+  example: []
   syntax:
     content: public const string WidgetShowLogo = "widget_show_logo"
     return:
       type: System.String
     content.vb: Public Const WidgetShowLogo As String = "widget_show_logo"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetShowAgentPhoto
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetShowAgentPhoto
   id: WidgetShowAgentPhoto
@@ -652,24 +505,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetShowAgentPhoto
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetShowAgentPhoto
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetShowAgentPhoto: Use agent photo and name when chatting\n"
+  summary: 'ChatTopic.WidgetShowAgentPhoto: Use agent photo and name when chatting'
+  example: []
   syntax:
     content: public const string WidgetShowAgentPhoto = "widget_show_agent_photo"
     return:
       type: System.String
     content.vb: Public Const WidgetShowAgentPhoto As String = "widget_show_agent_photo"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetWelcomeTitle
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetWelcomeTitle
   id: WidgetWelcomeTitle
@@ -681,24 +526,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetWelcomeTitle
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetWelcomeTitle
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetWelcomeTitle: Short welcome message when user initiates a chat\n"
+  summary: 'ChatTopic.WidgetWelcomeTitle: Short welcome message when user initiates a chat'
+  example: []
   syntax:
     content: public const string WidgetWelcomeTitle = "widget_welcome_title"
     return:
       type: System.String
     content.vb: Public Const WidgetWelcomeTitle As String = "widget_welcome_title"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetWelcomeMessage
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetWelcomeMessage
   id: WidgetWelcomeMessage
@@ -710,24 +547,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetWelcomeMessage
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetWelcomeMessage
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetWelcomeMessage: Short message displayed as long as the request is in queue or active\n"
+  summary: 'ChatTopic.WidgetWelcomeMessage: Short message displayed as long as the request is in queue or active'
+  example: []
   syntax:
     content: public const string WidgetWelcomeMessage = "widget_welcome_message"
     return:
       type: System.String
     content.vb: Public Const WidgetWelcomeMessage As String = "widget_welcome_message"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetOfflineHeader
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetOfflineHeader
   id: WidgetOfflineHeader
@@ -739,24 +568,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetOfflineHeader
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetOfflineHeader
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetOfflineHeader: Offline text shown in widget header\n"
+  summary: 'ChatTopic.WidgetOfflineHeader: Offline text shown in widget header'
+  example: []
   syntax:
     content: public const string WidgetOfflineHeader = "widget_offline_header"
     return:
       type: System.String
     content.vb: Public Const WidgetOfflineHeader As String = "widget_offline_header"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetOfflineMessage
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetOfflineMessage
   id: WidgetOfflineMessage
@@ -768,24 +589,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetOfflineMessage
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetOfflineMessage
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetOfflineMessage: Offline message shown in widget\n"
+  summary: 'ChatTopic.WidgetOfflineMessage: Offline message shown in widget'
+  example: []
   syntax:
     content: public const string WidgetOfflineMessage = "widget_offline_message"
     return:
       type: System.String
     content.vb: Public Const WidgetOfflineMessage As String = "widget_offline_message"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetEnableTicket
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetEnableTicket
   id: WidgetEnableTicket
@@ -797,24 +610,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetEnableTicket
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetEnableTicket
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetEnableTicket: Enable ticket submission in offline mode\n"
+  summary: 'ChatTopic.WidgetEnableTicket: Enable ticket submission in offline mode'
+  example: []
   syntax:
     content: public const string WidgetEnableTicket = "widget_enable_ticket"
     return:
       type: System.String
     content.vb: Public Const WidgetEnableTicket As String = "widget_enable_ticket"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.CategoryId
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.CategoryId
   id: CategoryId
@@ -826,24 +631,16 @@ items:
   nameWithType: DBC.ChatTopicFields.CategoryId
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.CategoryId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.CategoryId: Category on ticket created from off-line request\n"
+  summary: 'ChatTopic.CategoryId: Category on ticket created from off-line request'
+  example: []
   syntax:
     content: public const string CategoryId = "category_id"
     return:
       type: System.String
     content.vb: Public Const CategoryId As String = "category_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.PriorityId
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.PriorityId
   id: PriorityId
@@ -855,24 +652,16 @@ items:
   nameWithType: DBC.ChatTopicFields.PriorityId
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.PriorityId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.PriorityId: Priority on ticket created from off-line request\n"
+  summary: 'ChatTopic.PriorityId: Priority on ticket created from off-line request'
+  example: []
   syntax:
     content: public const string PriorityId = "priority_id"
     return:
       type: System.String
     content.vb: Public Const PriorityId As String = "priority_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetOfflineFields
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetOfflineFields
   id: WidgetOfflineFields
@@ -884,24 +673,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetOfflineFields
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetOfflineFields
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetOfflineFields: Required field when creating ticket in offline mode\n"
+  summary: 'ChatTopic.WidgetOfflineFields: Required field when creating ticket in offline mode'
+  example: []
   syntax:
     content: public const string WidgetOfflineFields = "widget_offline_fields"
     return:
       type: System.String
     content.vb: Public Const WidgetOfflineFields As String = "widget_offline_fields"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAutoFaq
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAutoFaq
   id: WidgetAutoFaq
@@ -913,24 +694,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetAutoFaq
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAutoFaq
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetAutoFaq: Enable automatic FAQ suggestions\n"
+  summary: 'ChatTopic.WidgetAutoFaq: Enable automatic FAQ suggestions'
+  example: []
   syntax:
     content: public const string WidgetAutoFaq = "widget_auto_faq"
     return:
       type: System.String
     content.vb: Public Const WidgetAutoFaq As String = "widget_auto_faq"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.KbCategoryId
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.KbCategoryId
   id: KbCategoryId
@@ -942,24 +715,16 @@ items:
   nameWithType: DBC.ChatTopicFields.KbCategoryId
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.KbCategoryId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.KbCategoryId: Root folder for FAQ suggestions\n"
+  summary: 'ChatTopic.KbCategoryId: Root folder for FAQ suggestions'
+  example: []
   syntax:
     content: public const string KbCategoryId = "kb_category_id"
     return:
       type: System.String
     content.vb: Public Const KbCategoryId As String = "kb_category_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPreForm
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPreForm
   id: WidgetPreForm
@@ -971,24 +736,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetPreForm
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPreForm
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetPreForm: Enable pre-chat form for anonymous users\n"
+  summary: 'ChatTopic.WidgetPreForm: Enable pre-chat form for anonymous users'
+  example: []
   syntax:
     content: public const string WidgetPreForm = "widget_pre_form"
     return:
       type: System.String
     content.vb: Public Const WidgetPreForm As String = "widget_pre_form"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPreMessage
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPreMessage
   id: WidgetPreMessage
@@ -1000,24 +757,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetPreMessage
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPreMessage
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetPreMessage: Message to be shown in a pre-chat\n"
+  summary: 'ChatTopic.WidgetPreMessage: Message to be shown in a pre-chat'
+  example: []
   syntax:
     content: public const string WidgetPreMessage = "widget_pre_message"
     return:
       type: System.String
     content.vb: Public Const WidgetPreMessage As String = "widget_pre_message"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetRequiredFields
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetRequiredFields
   id: WidgetRequiredFields
@@ -1029,24 +778,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetRequiredFields
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetRequiredFields
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetRequiredFields: Fields required to start a chat\n"
+  summary: 'ChatTopic.WidgetRequiredFields: Fields required to start a chat'
+  example: []
   syntax:
     content: public const string WidgetRequiredFields = "widget_required_fields"
     return:
       type: System.String
     content.vb: Public Const WidgetRequiredFields As String = "widget_required_fields"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPostForm
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPostForm
   id: WidgetPostForm
@@ -1058,24 +799,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetPostForm
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPostForm
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetPostForm: Enable post chat form\n"
+  summary: 'ChatTopic.WidgetPostForm: Enable post chat form'
+  example: []
   syntax:
     content: public const string WidgetPostForm = "widget_post_form"
     return:
       type: System.String
     content.vb: Public Const WidgetPostForm As String = "widget_post_form"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPostHeader
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPostHeader
   id: WidgetPostHeader
@@ -1087,24 +820,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetPostHeader
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPostHeader
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetPostHeader: Header text to show in post chat form\n"
+  summary: 'ChatTopic.WidgetPostHeader: Header text to show in post chat form'
+  example: []
   syntax:
     content: public const string WidgetPostHeader = "widget_post_header"
     return:
       type: System.String
     content.vb: Public Const WidgetPostHeader As String = "widget_post_header"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPostMessage
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPostMessage
   id: WidgetPostMessage
@@ -1116,24 +841,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetPostMessage
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPostMessage
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetPostMessage: Message text to show in post chat form\n"
+  summary: 'ChatTopic.WidgetPostMessage: Message text to show in post chat form'
+  example: []
   syntax:
     content: public const string WidgetPostMessage = "widget_post_message"
     return:
       type: System.String
     content.vb: Public Const WidgetPostMessage As String = "widget_post_message"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPostTranscript
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPostTranscript
   id: WidgetPostTranscript
@@ -1145,24 +862,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetPostTranscript
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPostTranscript
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetPostTranscript: Enable transcript of chat session\n"
+  summary: 'ChatTopic.WidgetPostTranscript: Enable transcript of chat session'
+  example: []
   syntax:
     content: public const string WidgetPostTranscript = "widget_post_transcript"
     return:
       type: System.String
     content.vb: Public Const WidgetPostTranscript As String = "widget_post_transcript"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetLanguage
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetLanguage
   id: WidgetLanguage
@@ -1174,24 +883,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetLanguage
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetLanguage
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetLanguage: The language ISO code for the widget language\n"
+  summary: 'ChatTopic.WidgetLanguage: The language ISO code for the widget language'
+  example: []
   syntax:
     content: public const string WidgetLanguage = "widget_language"
     return:
       type: System.String
     content.vb: Public Const WidgetLanguage As String = "widget_language"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.UseOpeningHours
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.UseOpeningHours
   id: UseOpeningHours
@@ -1203,24 +904,16 @@ items:
   nameWithType: DBC.ChatTopicFields.UseOpeningHours
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.UseOpeningHours
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.UseOpeningHours: Whether to use opening hours or not.\n"
+  summary: 'ChatTopic.UseOpeningHours: Whether to use opening hours or not.'
+  example: []
   syntax:
     content: public const string UseOpeningHours = "use_opening_hours"
     return:
       type: System.String
     content.vb: Public Const UseOpeningHours As String = "use_opening_hours"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.TzLocationId
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.TzLocationId
   id: TzLocationId
@@ -1232,24 +925,16 @@ items:
   nameWithType: DBC.ChatTopicFields.TzLocationId
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.TzLocationId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.TzLocationId: Timezone used for the start/stop times for this topic.\n"
+  summary: 'ChatTopic.TzLocationId: Timezone used for the start/stop times for this topic.'
+  example: []
   syntax:
     content: public const string TzLocationId = "tzLocationId"
     return:
       type: System.String
     content.vb: Public Const TzLocationId As String = "tzLocationId"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.MonEnabled
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.MonEnabled
   id: MonEnabled
@@ -1261,24 +946,16 @@ items:
   nameWithType: DBC.ChatTopicFields.MonEnabled
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.MonEnabled
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.MonEnabled: Whether open on Mondays.\n"
+  summary: 'ChatTopic.MonEnabled: Whether open on Mondays.'
+  example: []
   syntax:
     content: public const string MonEnabled = "mon_enabled"
     return:
       type: System.String
     content.vb: Public Const MonEnabled As String = "mon_enabled"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.MonStart
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.MonStart
   id: MonStart
@@ -1290,24 +967,16 @@ items:
   nameWithType: DBC.ChatTopicFields.MonStart
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.MonStart
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.MonStart: When opening hours start on Mondays. Only time-part is used.\n"
+  summary: 'ChatTopic.MonStart: When opening hours start on Mondays. Only time-part is used.'
+  example: []
   syntax:
     content: public const string MonStart = "mon_start"
     return:
       type: System.String
     content.vb: Public Const MonStart As String = "mon_start"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.MonStop
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.MonStop
   id: MonStop
@@ -1319,24 +988,16 @@ items:
   nameWithType: DBC.ChatTopicFields.MonStop
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.MonStop
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.MonStop: When opening hours stop on Mondays. Only time-part is used.\n"
+  summary: 'ChatTopic.MonStop: When opening hours stop on Mondays. Only time-part is used.'
+  example: []
   syntax:
     content: public const string MonStop = "mon_stop"
     return:
       type: System.String
     content.vb: Public Const MonStop As String = "mon_stop"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.TueEnabled
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.TueEnabled
   id: TueEnabled
@@ -1348,24 +1009,16 @@ items:
   nameWithType: DBC.ChatTopicFields.TueEnabled
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.TueEnabled
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.TueEnabled: Whether open on Tuesdays.\n"
+  summary: 'ChatTopic.TueEnabled: Whether open on Tuesdays.'
+  example: []
   syntax:
     content: public const string TueEnabled = "tue_enabled"
     return:
       type: System.String
     content.vb: Public Const TueEnabled As String = "tue_enabled"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.TueStart
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.TueStart
   id: TueStart
@@ -1377,24 +1030,16 @@ items:
   nameWithType: DBC.ChatTopicFields.TueStart
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.TueStart
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.TueStart: When opening hours start on Tuesdays. Only time-part is used.\n"
+  summary: 'ChatTopic.TueStart: When opening hours start on Tuesdays. Only time-part is used.'
+  example: []
   syntax:
     content: public const string TueStart = "tue_start"
     return:
       type: System.String
     content.vb: Public Const TueStart As String = "tue_start"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.TueStop
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.TueStop
   id: TueStop
@@ -1406,24 +1051,16 @@ items:
   nameWithType: DBC.ChatTopicFields.TueStop
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.TueStop
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.TueStop: When opening hours stop on Tuesdays. Only time-part is used.\n"
+  summary: 'ChatTopic.TueStop: When opening hours stop on Tuesdays. Only time-part is used.'
+  example: []
   syntax:
     content: public const string TueStop = "tue_stop"
     return:
       type: System.String
     content.vb: Public Const TueStop As String = "tue_stop"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WedEnabled
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WedEnabled
   id: WedEnabled
@@ -1435,24 +1072,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WedEnabled
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WedEnabled
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WedEnabled: Whether open on Wednesdays.\n"
+  summary: 'ChatTopic.WedEnabled: Whether open on Wednesdays.'
+  example: []
   syntax:
     content: public const string WedEnabled = "wed_enabled"
     return:
       type: System.String
     content.vb: Public Const WedEnabled As String = "wed_enabled"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WedStart
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WedStart
   id: WedStart
@@ -1464,24 +1093,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WedStart
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WedStart
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WedStart: When opening hours start on Wednesdays. Only time-part is used.\n"
+  summary: 'ChatTopic.WedStart: When opening hours start on Wednesdays. Only time-part is used.'
+  example: []
   syntax:
     content: public const string WedStart = "wed_start"
     return:
       type: System.String
     content.vb: Public Const WedStart As String = "wed_start"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WedStop
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WedStop
   id: WedStop
@@ -1493,24 +1114,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WedStop
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WedStop
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WedStop: When opening hours stop on Wednesday. Only time-part is used.\n"
+  summary: 'ChatTopic.WedStop: When opening hours stop on Wednesday. Only time-part is used.'
+  example: []
   syntax:
     content: public const string WedStop = "wed_stop"
     return:
       type: System.String
     content.vb: Public Const WedStop As String = "wed_stop"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.ThuEnabled
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.ThuEnabled
   id: ThuEnabled
@@ -1522,24 +1135,16 @@ items:
   nameWithType: DBC.ChatTopicFields.ThuEnabled
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.ThuEnabled
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.ThuEnabled: Whether open on Thursdays.\n"
+  summary: 'ChatTopic.ThuEnabled: Whether open on Thursdays.'
+  example: []
   syntax:
     content: public const string ThuEnabled = "thu_enabled"
     return:
       type: System.String
     content.vb: Public Const ThuEnabled As String = "thu_enabled"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.ThuStart
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.ThuStart
   id: ThuStart
@@ -1551,24 +1156,16 @@ items:
   nameWithType: DBC.ChatTopicFields.ThuStart
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.ThuStart
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.ThuStart: When opening hours start on Thursdays. Only time-part is used.\n"
+  summary: 'ChatTopic.ThuStart: When opening hours start on Thursdays. Only time-part is used.'
+  example: []
   syntax:
     content: public const string ThuStart = "thu_start"
     return:
       type: System.String
     content.vb: Public Const ThuStart As String = "thu_start"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.ThuStop
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.ThuStop
   id: ThuStop
@@ -1580,24 +1177,16 @@ items:
   nameWithType: DBC.ChatTopicFields.ThuStop
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.ThuStop
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.ThuStop: When opening hours stop on Thursdays. Only time-part is used.\n"
+  summary: 'ChatTopic.ThuStop: When opening hours stop on Thursdays. Only time-part is used.'
+  example: []
   syntax:
     content: public const string ThuStop = "thu_stop"
     return:
       type: System.String
     content.vb: Public Const ThuStop As String = "thu_stop"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.FriEnabled
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.FriEnabled
   id: FriEnabled
@@ -1609,24 +1198,16 @@ items:
   nameWithType: DBC.ChatTopicFields.FriEnabled
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.FriEnabled
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.FriEnabled: Whether open on Fridays.\n"
+  summary: 'ChatTopic.FriEnabled: Whether open on Fridays.'
+  example: []
   syntax:
     content: public const string FriEnabled = "fri_enabled"
     return:
       type: System.String
     content.vb: Public Const FriEnabled As String = "fri_enabled"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.FriStart
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.FriStart
   id: FriStart
@@ -1638,24 +1219,16 @@ items:
   nameWithType: DBC.ChatTopicFields.FriStart
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.FriStart
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.FriStart: When opening hours start on Fridays. Only time-part is used.\n"
+  summary: 'ChatTopic.FriStart: When opening hours start on Fridays. Only time-part is used.'
+  example: []
   syntax:
     content: public const string FriStart = "fri_start"
     return:
       type: System.String
     content.vb: Public Const FriStart As String = "fri_start"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.FriStop
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.FriStop
   id: FriStop
@@ -1667,24 +1240,16 @@ items:
   nameWithType: DBC.ChatTopicFields.FriStop
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.FriStop
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.FriStop: When opening hours stop on Fridays. Only time-part is used.\n"
+  summary: 'ChatTopic.FriStop: When opening hours stop on Fridays. Only time-part is used.'
+  example: []
   syntax:
     content: public const string FriStop = "fri_stop"
     return:
       type: System.String
     content.vb: Public Const FriStop As String = "fri_stop"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.SatEnabled
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.SatEnabled
   id: SatEnabled
@@ -1696,24 +1261,16 @@ items:
   nameWithType: DBC.ChatTopicFields.SatEnabled
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.SatEnabled
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.SatEnabled: Whether open on Saturdays.\n"
+  summary: 'ChatTopic.SatEnabled: Whether open on Saturdays.'
+  example: []
   syntax:
     content: public const string SatEnabled = "sat_enabled"
     return:
       type: System.String
     content.vb: Public Const SatEnabled As String = "sat_enabled"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.SatStart
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.SatStart
   id: SatStart
@@ -1725,24 +1282,16 @@ items:
   nameWithType: DBC.ChatTopicFields.SatStart
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.SatStart
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.SatStart: When opening hours start on Saturdays. Only time-part is used.\n"
+  summary: 'ChatTopic.SatStart: When opening hours start on Saturdays. Only time-part is used.'
+  example: []
   syntax:
     content: public const string SatStart = "sat_start"
     return:
       type: System.String
     content.vb: Public Const SatStart As String = "sat_start"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.SatStop
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.SatStop
   id: SatStop
@@ -1754,24 +1303,16 @@ items:
   nameWithType: DBC.ChatTopicFields.SatStop
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.SatStop
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.SatStop: When opening hours stop on Saturdays. Only time-part is used.\n"
+  summary: 'ChatTopic.SatStop: When opening hours stop on Saturdays. Only time-part is used.'
+  example: []
   syntax:
     content: public const string SatStop = "sat_stop"
     return:
       type: System.String
     content.vb: Public Const SatStop As String = "sat_stop"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.SunEnabled
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.SunEnabled
   id: SunEnabled
@@ -1783,24 +1324,16 @@ items:
   nameWithType: DBC.ChatTopicFields.SunEnabled
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.SunEnabled
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.SunEnabled: Whether open on Sundays.\n"
+  summary: 'ChatTopic.SunEnabled: Whether open on Sundays.'
+  example: []
   syntax:
     content: public const string SunEnabled = "sun_enabled"
     return:
       type: System.String
     content.vb: Public Const SunEnabled As String = "sun_enabled"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.SunStart
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.SunStart
   id: SunStart
@@ -1812,24 +1345,16 @@ items:
   nameWithType: DBC.ChatTopicFields.SunStart
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.SunStart
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.SunStart: When opening hours start on Sundays. Only time-part is used.\n"
+  summary: 'ChatTopic.SunStart: When opening hours start on Sundays. Only time-part is used.'
+  example: []
   syntax:
     content: public const string SunStart = "sun_start"
     return:
       type: System.String
     content.vb: Public Const SunStart As String = "sun_start"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.SunStop
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.SunStop
   id: SunStop
@@ -1841,24 +1366,16 @@ items:
   nameWithType: DBC.ChatTopicFields.SunStop
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.SunStop
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.SunStop: When opening hours stop on Sundays. Only time-part is used.\n"
+  summary: 'ChatTopic.SunStop: When opening hours stop on Sundays. Only time-part is used.'
+  example: []
   syntax:
     content: public const string SunStop = "sun_stop"
     return:
       type: System.String
     content.vb: Public Const SunStop As String = "sun_stop"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.CustomQueueText
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.CustomQueueText
   id: CustomQueueText
@@ -1870,24 +1387,16 @@ items:
   nameWithType: DBC.ChatTopicFields.CustomQueueText
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.CustomQueueText
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.CustomQueueText: A text to be used in the queue message in the chat widget. Usage is controlled by the flags field, bit number 3\n"
+  summary: 'ChatTopic.CustomQueueText: A text to be used in the queue message in the chat widget. Usage is controlled by the flags field, bit number 3'
+  example: []
   syntax:
     content: public const string CustomQueueText = "custom_queue_text"
     return:
       type: System.String
     content.vb: Public Const CustomQueueText As String = "custom_queue_text"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotEnabled
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.BotEnabled
   id: BotEnabled
@@ -1899,24 +1408,16 @@ items:
   nameWithType: DBC.ChatTopicFields.BotEnabled
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotEnabled
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.BotEnabled: Enable chatbot on this topic. Run the trigger scripts on bot events.\n"
+  summary: 'ChatTopic.BotEnabled: Enable chatbot on this topic. Run the trigger scripts on bot events.'
+  example: []
   syntax:
     content: public const string BotEnabled = "bot_enabled"
     return:
       type: System.String
     content.vb: Public Const BotEnabled As String = "bot_enabled"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotName
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.BotName
   id: BotName
@@ -1928,24 +1429,16 @@ items:
   nameWithType: DBC.ChatTopicFields.BotName
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.BotName: Chatbot name\n"
+  summary: 'ChatTopic.BotName: Chatbot name'
+  example: []
   syntax:
     content: public const string BotName = "bot_name"
     return:
       type: System.String
     content.vb: Public Const BotName As String = "bot_name"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotRegisterScriptid
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.BotRegisterScriptid
   id: BotRegisterScriptid
@@ -1957,24 +1450,16 @@ items:
   nameWithType: DBC.ChatTopicFields.BotRegisterScriptid
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotRegisterScriptid
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.BotRegisterScriptid: Script id to register/unregister chatbot. 0 if there is no bot\n"
+  summary: 'ChatTopic.BotRegisterScriptid: Script id to register/unregister chatbot. 0 if there is no bot'
+  example: []
   syntax:
     content: public const string BotRegisterScriptid = "bot_register_scriptid"
     return:
       type: System.String
     content.vb: Public Const BotRegisterScriptid As String = "bot_register_scriptid"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotSessionCreatedScriptid
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.BotSessionCreatedScriptid
   id: BotSessionCreatedScriptid
@@ -1986,24 +1471,16 @@ items:
   nameWithType: DBC.ChatTopicFields.BotSessionCreatedScriptid
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotSessionCreatedScriptid
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.BotSessionCreatedScriptid: Script id to run on new session.\n"
+  summary: 'ChatTopic.BotSessionCreatedScriptid: Script id to run on new session.'
+  example: []
   syntax:
     content: public const string BotSessionCreatedScriptid = "bot_session_created_scriptid"
     return:
       type: System.String
     content.vb: Public Const BotSessionCreatedScriptid As String = "bot_session_created_scriptid"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotSessionChangedScriptid
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.BotSessionChangedScriptid
   id: BotSessionChangedScriptid
@@ -2015,24 +1492,16 @@ items:
   nameWithType: DBC.ChatTopicFields.BotSessionChangedScriptid
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotSessionChangedScriptid
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.BotSessionChangedScriptid: Script id to run when session state changes.\n"
+  summary: 'ChatTopic.BotSessionChangedScriptid: Script id to run when session state changes.'
+  example: []
   syntax:
     content: public const string BotSessionChangedScriptid = "bot_session_changed_scriptid"
     return:
       type: System.String
     content.vb: Public Const BotSessionChangedScriptid As String = "bot_session_changed_scriptid"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotMessageReceivedScriptid
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.BotMessageReceivedScriptid
   id: BotMessageReceivedScriptid
@@ -2044,24 +1513,16 @@ items:
   nameWithType: DBC.ChatTopicFields.BotMessageReceivedScriptid
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotMessageReceivedScriptid
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.BotMessageReceivedScriptid: Script id to run when new messages received from customer.\n"
+  summary: 'ChatTopic.BotMessageReceivedScriptid: Script id to run when new messages received from customer.'
+  example: []
   syntax:
     content: public const string BotMessageReceivedScriptid = "bot_message_received_scriptid"
     return:
       type: System.String
     content.vb: Public Const BotMessageReceivedScriptid As String = "bot_message_received_scriptid"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.UseLunchHours
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.UseLunchHours
   id: UseLunchHours
@@ -2073,24 +1534,16 @@ items:
   nameWithType: DBC.ChatTopicFields.UseLunchHours
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.UseLunchHours
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.UseLunchHours: Whether to use lunch hours or not.\n"
+  summary: 'ChatTopic.UseLunchHours: Whether to use lunch hours or not.'
+  example: []
   syntax:
     content: public const string UseLunchHours = "use_lunch_hours"
     return:
       type: System.String
     content.vb: Public Const UseLunchHours As String = "use_lunch_hours"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.LunchStart
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.LunchStart
   id: LunchStart
@@ -2102,24 +1555,16 @@ items:
   nameWithType: DBC.ChatTopicFields.LunchStart
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.LunchStart
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.LunchStart: When opening hours starts for lunch. Only time-part is used.\n"
+  summary: 'ChatTopic.LunchStart: When opening hours starts for lunch. Only time-part is used.'
+  example: []
   syntax:
     content: public const string LunchStart = "lunch_start"
     return:
       type: System.String
     content.vb: Public Const LunchStart As String = "lunch_start"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.LunchStop
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.LunchStop
   id: LunchStop
@@ -2131,24 +1576,16 @@ items:
   nameWithType: DBC.ChatTopicFields.LunchStop
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.LunchStop
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.LunchStop: When opening hours stops for lunch. Only time-part is used.\n"
+  summary: 'ChatTopic.LunchStop: When opening hours stops for lunch. Only time-part is used.'
+  example: []
   syntax:
     content: public const string LunchStop = "lunch_stop"
     return:
       type: System.String
     content.vb: Public Const LunchStop As String = "lunch_stop"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentUseFirstname
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentUseFirstname
   id: WidgetAgentUseFirstname
@@ -2160,24 +1597,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetAgentUseFirstname
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentUseFirstname
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetAgentUseFirstname: Whether to use the firstname of the agent in the chat widget.\n"
+  summary: 'ChatTopic.WidgetAgentUseFirstname: Whether to use the firstname of the agent in the chat widget.'
+  example: []
   syntax:
     content: public const string WidgetAgentUseFirstname = "widget_agent_use_firstname"
     return:
       type: System.String
     content.vb: Public Const WidgetAgentUseFirstname As String = "widget_agent_use_firstname"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WarningChatMessage
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WarningChatMessage
   id: WarningChatMessage
@@ -2189,24 +1618,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WarningChatMessage
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WarningChatMessage
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WarningChatMessage: Contains the user notify time in minutes for new chat messages\n"
+  summary: 'ChatTopic.WarningChatMessage: Contains the user notify time in minutes for new chat messages'
+  example: []
   syntax:
     content: public const string WarningChatMessage = "warning_chat_message"
     return:
       type: System.String
     content.vb: Public Const WarningChatMessage As String = "warning_chat_message"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.ManagerWarningChatMessage
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.ManagerWarningChatMessage
   id: ManagerWarningChatMessage
@@ -2218,24 +1639,16 @@ items:
   nameWithType: DBC.ChatTopicFields.ManagerWarningChatMessage
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.ManagerWarningChatMessage
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.ManagerWarningChatMessage: Contains the manager notify time in minutes for new chat messages\n"
+  summary: 'ChatTopic.ManagerWarningChatMessage: Contains the manager notify time in minutes for new chat messages'
+  example: []
   syntax:
     content: public const string ManagerWarningChatMessage = "manager_warning_chat_message"
     return:
       type: System.String
     content.vb: Public Const ManagerWarningChatMessage As String = "manager_warning_chat_message"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.OfflineFormTimeLimit
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.OfflineFormTimeLimit
   id: OfflineFormTimeLimit
@@ -2247,24 +1660,16 @@ items:
   nameWithType: DBC.ChatTopicFields.OfflineFormTimeLimit
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.OfflineFormTimeLimit
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.OfflineFormTimeLimit: The number of minutes in the queue before the offline form is available\n"
+  summary: 'ChatTopic.OfflineFormTimeLimit: The number of minutes in the queue before the offline form is available'
+  example: []
   syntax:
     content: public const string OfflineFormTimeLimit = "offline_form_time_limit"
     return:
       type: System.String
     content.vb: Public Const OfflineFormTimeLimit As String = "offline_form_time_limit"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.OfflineFormQueueLength
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.OfflineFormQueueLength
   id: OfflineFormQueueLength
@@ -2276,24 +1681,16 @@ items:
   nameWithType: DBC.ChatTopicFields.OfflineFormQueueLength
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.OfflineFormQueueLength
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.OfflineFormQueueLength: The number of customers in the queue before the offline form is available\n"
+  summary: 'ChatTopic.OfflineFormQueueLength: The number of customers in the queue before the offline form is available'
+  example: []
   syntax:
     content: public const string OfflineFormQueueLength = "offline_form_queue_length"
     return:
       type: System.String
     content.vb: Public Const OfflineFormQueueLength As String = "offline_form_queue_length"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetEnableRating
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetEnableRating
   id: WidgetEnableRating
@@ -2305,24 +1702,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetEnableRating
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetEnableRating
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetEnableRating: Setting this to true will enable rating support in the chat widget\n"
+  summary: 'ChatTopic.WidgetEnableRating: Setting this to true will enable rating support in the chat widget'
+  example: []
   syntax:
     content: public const string WidgetEnableRating = "widget_enable_rating"
     return:
       type: System.String
     content.vb: Public Const WidgetEnableRating As String = "widget_enable_rating"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetRatingText
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetRatingText
   id: WidgetRatingText
@@ -2334,24 +1723,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetRatingText
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetRatingText
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetRatingText: The text to be displayed in the widget next to the rating stars\n"
+  summary: 'ChatTopic.WidgetRatingText: The text to be displayed in the widget next to the rating stars'
+  example: []
   syntax:
     content: public const string WidgetRatingText = "widget_rating_text"
     return:
       type: System.String
     content.vb: Public Const WidgetRatingText As String = "widget_rating_text"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetBadgeColor
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetBadgeColor
   id: WidgetBadgeColor
@@ -2363,24 +1744,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetBadgeColor
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetBadgeColor
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetBadgeColor: Optional color for chat widget badge\n"
+  summary: 'ChatTopic.WidgetBadgeColor: Optional color for chat widget badge'
+  example: []
   syntax:
     content: public const string WidgetBadgeColor = "widget_badge_color"
     return:
       type: System.String
     content.vb: Public Const WidgetBadgeColor As String = "widget_badge_color"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetBadgeTextColor
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetBadgeTextColor
   id: WidgetBadgeTextColor
@@ -2392,24 +1765,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetBadgeTextColor
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetBadgeTextColor
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetBadgeTextColor: Optional color for chat widget badge text\n"
+  summary: 'ChatTopic.WidgetBadgeTextColor: Optional color for chat widget badge text'
+  example: []
   syntax:
     content: public const string WidgetBadgeTextColor = "widget_badge_text_color"
     return:
       type: System.String
     content.vb: Public Const WidgetBadgeTextColor As String = "widget_badge_text_color"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetCustMsgColor
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetCustMsgColor
   id: WidgetCustMsgColor
@@ -2421,24 +1786,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetCustMsgColor
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetCustMsgColor
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetCustMsgColor: Optional color for chat widget customer message\n"
+  summary: 'ChatTopic.WidgetCustMsgColor: Optional color for chat widget customer message'
+  example: []
   syntax:
     content: public const string WidgetCustMsgColor = "widget_cust_msg_color"
     return:
       type: System.String
     content.vb: Public Const WidgetCustMsgColor As String = "widget_cust_msg_color"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetCustMsgTextColor
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetCustMsgTextColor
   id: WidgetCustMsgTextColor
@@ -2450,24 +1807,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetCustMsgTextColor
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetCustMsgTextColor
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetCustMsgTextColor: Optional color for chat widget customer message text\n"
+  summary: 'ChatTopic.WidgetCustMsgTextColor: Optional color for chat widget customer message text'
+  example: []
   syntax:
     content: public const string WidgetCustMsgTextColor = "widget_cust_msg_text_color"
     return:
       type: System.String
     content.vb: Public Const WidgetCustMsgTextColor As String = "widget_cust_msg_text_color"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentMsgColor
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentMsgColor
   id: WidgetAgentMsgColor
@@ -2479,24 +1828,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetAgentMsgColor
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentMsgColor
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetAgentMsgColor: Optional color for chat widget agent message\n"
+  summary: 'ChatTopic.WidgetAgentMsgColor: Optional color for chat widget agent message'
+  example: []
   syntax:
     content: public const string WidgetAgentMsgColor = "widget_agent_msg_color"
     return:
       type: System.String
     content.vb: Public Const WidgetAgentMsgColor As String = "widget_agent_msg_color"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentMsgTextColor
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentMsgTextColor
   id: WidgetAgentMsgTextColor
@@ -2508,24 +1849,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetAgentMsgTextColor
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentMsgTextColor
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetAgentMsgTextColor: Optional color for chat widget agent message text\n"
+  summary: 'ChatTopic.WidgetAgentMsgTextColor: Optional color for chat widget agent message text'
+  example: []
   syntax:
     content: public const string WidgetAgentMsgTextColor = "widget_agent_msg_text_color"
     return:
       type: System.String
     content.vb: Public Const WidgetAgentMsgTextColor As String = "widget_agent_msg_text_color"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetFontSize
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetFontSize
   id: WidgetFontSize
@@ -2537,24 +1870,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetFontSize
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetFontSize
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetFontSize: Optional size for chat widget font\n"
+  summary: 'ChatTopic.WidgetFontSize: Optional size for chat widget font'
+  example: []
   syntax:
     content: public const string WidgetFontSize = "widget_font_size"
     return:
       type: System.String
     content.vb: Public Const WidgetFontSize As String = "widget_font_size"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetButtonColor
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetButtonColor
   id: WidgetButtonColor
@@ -2566,24 +1891,16 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetButtonColor
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetButtonColor
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetButtonColor: Optional color for chat widget button\n"
+  summary: 'ChatTopic.WidgetButtonColor: Optional color for chat widget button'
+  example: []
   syntax:
     content: public const string WidgetButtonColor = "widget_button_color"
     return:
       type: System.String
     content.vb: Public Const WidgetButtonColor As String = "widget_button_color"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetButtonTextColor
   commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetButtonTextColor
   id: WidgetButtonTextColor
@@ -2595,41 +1912,288 @@ items:
   nameWithType: DBC.ChatTopicFields.WidgetButtonTextColor
   fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetButtonTextColor
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WidgetButtonTextColor: Optional color for chat widget button text\n"
+  summary: 'ChatTopic.WidgetButtonTextColor: Optional color for chat widget button text'
+  example: []
   syntax:
     content: public const string WidgetButtonTextColor = "widget_button_text_color"
     return:
       type: System.String
     content.vb: Public Const WidgetButtonTextColor As String = "widget_button_text_color"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -2637,6 +2201,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

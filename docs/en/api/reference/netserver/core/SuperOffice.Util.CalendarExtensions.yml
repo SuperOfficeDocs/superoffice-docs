@@ -1,0 +1,1258 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.CalendarExtensions
+  commentId: T:SuperOffice.Util.CalendarExtensions
+  id: CalendarExtensions
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.CalendarExtensions.AddParticipantsAsync(Ical.Net.Calendar,SuperOffice.CRM.Rows.AppointmentRow[],System.Threading.CancellationToken)
+  - SuperOffice.Util.CalendarExtensions.AddParticipantsAsync(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow[],System.Threading.CancellationToken)
+  - SuperOffice.Util.CalendarExtensions.ClearParticipants(Ical.Net.Calendar,System.Boolean,System.Int32[])
+  - SuperOffice.Util.CalendarExtensions.ClearParticipants(Ical.Net.CalendarComponents.CalendarEvent,System.Boolean,System.Int32[])
+  - SuperOffice.Util.CalendarExtensions.CreateEmail(Ical.Net.Calendar,SuperOffice.CRM.Mail.MailEnvelope,SuperOffice.Data.CalMethod,System.String,System.String)
+  - SuperOffice.Util.CalendarExtensions.CreateEmailAttachment(Ical.Net.Calendar)
+  - SuperOffice.Util.CalendarExtensions.CreateOrganizerEnvelope(Ical.Net.CalendarComponents.CalendarEvent)
+  - SuperOffice.Util.CalendarExtensions.GetEmailAddress(Ical.Net.DataTypes.Attendee)
+  - SuperOffice.Util.CalendarExtensions.GetEmailAddress(Ical.Net.DataTypes.Organizer)
+  - SuperOffice.Util.CalendarExtensions.SerializeToString(Ical.Net.Calendar)
+  - SuperOffice.Util.CalendarExtensions.SetAllDateTimesFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.Util.CalendarExtensions.SetCreatedFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.Util.CalendarExtensions.SetEndFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.Util.CalendarExtensions.SetLastModifiedFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.Util.CalendarExtensions.SetRecurrenceId(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow,System.DateTime)
+  - SuperOffice.Util.CalendarExtensions.SetRecurrenceRuleAsync(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.RecurrenceRuleRow,System.Threading.CancellationToken)
+  - SuperOffice.Util.CalendarExtensions.SetStartFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.Util.CalendarExtensions.ToUtf8ByteStream(Ical.Net.Calendar)
+  langs:
+  - csharp
+  - vb
+  name: CalendarExtensions
+  nameWithType: CalendarExtensions
+  fullName: SuperOffice.Util.CalendarExtensions
+  type: Class
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static class CalendarExtensions
+    content.vb: Public Module CalendarExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.Util.CalendarExtensions.CreateEmailAttachment(Ical.Net.Calendar)
+  commentId: M:SuperOffice.Util.CalendarExtensions.CreateEmailAttachment(Ical.Net.Calendar)
+  id: CreateEmailAttachment(Ical.Net.Calendar)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateEmailAttachment(Calendar)
+  nameWithType: CalendarExtensions.CreateEmailAttachment(Calendar)
+  fullName: SuperOffice.Util.CalendarExtensions.CreateEmailAttachment(Ical.Net.Calendar)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static MailAttachment CreateEmailAttachment(this Calendar calendar)
+    parameters:
+    - id: calendar
+      type: Ical.Net.Calendar
+    return:
+      type: SuperOffice.CRM.Mail.MailAttachment
+    content.vb: Public Shared Function CreateEmailAttachment(calendar As Calendar) As MailAttachment
+  overload: SuperOffice.Util.CalendarExtensions.CreateEmailAttachment*
+- uid: SuperOffice.Util.CalendarExtensions.ToUtf8ByteStream(Ical.Net.Calendar)
+  commentId: M:SuperOffice.Util.CalendarExtensions.ToUtf8ByteStream(Ical.Net.Calendar)
+  id: ToUtf8ByteStream(Ical.Net.Calendar)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToUtf8ByteStream(Calendar)
+  nameWithType: CalendarExtensions.ToUtf8ByteStream(Calendar)
+  fullName: SuperOffice.Util.CalendarExtensions.ToUtf8ByteStream(Ical.Net.Calendar)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  summary: >-
+    Returns the calendar as a byte array, encoded in UTF8.
+
+    Special handling of UTF8-BOM.
+  example: []
+  syntax:
+    content: public static byte[] ToUtf8ByteStream(this Calendar calendar)
+    parameters:
+    - id: calendar
+      type: Ical.Net.Calendar
+      description: ''
+    return:
+      type: System.Byte[]
+      description: ''
+    content.vb: Public Shared Function ToUtf8ByteStream(calendar As Calendar) As Byte()
+  overload: SuperOffice.Util.CalendarExtensions.ToUtf8ByteStream*
+- uid: SuperOffice.Util.CalendarExtensions.AddParticipantsAsync(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.CalendarExtensions.AddParticipantsAsync(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow[],System.Threading.CancellationToken)
+  id: AddParticipantsAsync(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow[],System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddParticipantsAsync(CalendarEvent, AppointmentRow[], CancellationToken)
+  nameWithType: CalendarExtensions.AddParticipantsAsync(CalendarEvent, AppointmentRow[], CancellationToken)
+  fullName: SuperOffice.Util.CalendarExtensions.AddParticipantsAsync(Ical.Net.CalendarComponents.CalendarEvent, SuperOffice.CRM.Rows.AppointmentRow[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static Task AddParticipantsAsync(this CalendarEvent calEvent, AppointmentRow[] participantRows, CancellationToken cancellationToken = default)
+    parameters:
+    - id: calEvent
+      type: Ical.Net.CalendarComponents.CalendarEvent
+    - id: participantRows
+      type: SuperOffice.CRM.Rows.AppointmentRow[]
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function AddParticipantsAsync(calEvent As CalendarEvent, participantRows As AppointmentRow(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Util.CalendarExtensions.AddParticipantsAsync*
+  nameWithType.vb: CalendarExtensions.AddParticipantsAsync(CalendarEvent, AppointmentRow(), CancellationToken)
+  fullName.vb: SuperOffice.Util.CalendarExtensions.AddParticipantsAsync(Ical.Net.CalendarComponents.CalendarEvent, SuperOffice.CRM.Rows.AppointmentRow(), System.Threading.CancellationToken)
+  name.vb: AddParticipantsAsync(CalendarEvent, AppointmentRow(), CancellationToken)
+- uid: SuperOffice.Util.CalendarExtensions.AddParticipantsAsync(Ical.Net.Calendar,SuperOffice.CRM.Rows.AppointmentRow[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.CalendarExtensions.AddParticipantsAsync(Ical.Net.Calendar,SuperOffice.CRM.Rows.AppointmentRow[],System.Threading.CancellationToken)
+  id: AddParticipantsAsync(Ical.Net.Calendar,SuperOffice.CRM.Rows.AppointmentRow[],System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddParticipantsAsync(Calendar, AppointmentRow[], CancellationToken)
+  nameWithType: CalendarExtensions.AddParticipantsAsync(Calendar, AppointmentRow[], CancellationToken)
+  fullName: SuperOffice.Util.CalendarExtensions.AddParticipantsAsync(Ical.Net.Calendar, SuperOffice.CRM.Rows.AppointmentRow[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static Task AddParticipantsAsync(this Calendar calendar, AppointmentRow[] participantRows, CancellationToken cancellationToken = default)
+    parameters:
+    - id: calendar
+      type: Ical.Net.Calendar
+    - id: participantRows
+      type: SuperOffice.CRM.Rows.AppointmentRow[]
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function AddParticipantsAsync(calendar As Calendar, participantRows As AppointmentRow(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Util.CalendarExtensions.AddParticipantsAsync*
+  nameWithType.vb: CalendarExtensions.AddParticipantsAsync(Calendar, AppointmentRow(), CancellationToken)
+  fullName.vb: SuperOffice.Util.CalendarExtensions.AddParticipantsAsync(Ical.Net.Calendar, SuperOffice.CRM.Rows.AppointmentRow(), System.Threading.CancellationToken)
+  name.vb: AddParticipantsAsync(Calendar, AppointmentRow(), CancellationToken)
+- uid: SuperOffice.Util.CalendarExtensions.ClearParticipants(Ical.Net.CalendarComponents.CalendarEvent,System.Boolean,System.Int32[])
+  commentId: M:SuperOffice.Util.CalendarExtensions.ClearParticipants(Ical.Net.CalendarComponents.CalendarEvent,System.Boolean,System.Int32[])
+  id: ClearParticipants(Ical.Net.CalendarComponents.CalendarEvent,System.Boolean,System.Int32[])
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: ClearParticipants(CalendarEvent, bool, params int[])
+  nameWithType: CalendarExtensions.ClearParticipants(CalendarEvent, bool, params int[])
+  fullName: SuperOffice.Util.CalendarExtensions.ClearParticipants(Ical.Net.CalendarComponents.CalendarEvent, bool, params int[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static void ClearParticipants(this CalendarEvent calEvent, bool preserveOrganizerAttendee = true, params int[] personIds)
+    parameters:
+    - id: calEvent
+      type: Ical.Net.CalendarComponents.CalendarEvent
+    - id: preserveOrganizerAttendee
+      type: System.Boolean
+    - id: personIds
+      type: System.Int32[]
+    content.vb: Public Shared Sub ClearParticipants(calEvent As CalendarEvent, preserveOrganizerAttendee As Boolean = True, ParamArray personIds As Integer())
+  overload: SuperOffice.Util.CalendarExtensions.ClearParticipants*
+  nameWithType.vb: CalendarExtensions.ClearParticipants(CalendarEvent, Boolean, ParamArray Integer())
+  fullName.vb: SuperOffice.Util.CalendarExtensions.ClearParticipants(Ical.Net.CalendarComponents.CalendarEvent, Boolean, ParamArray Integer())
+  name.vb: ClearParticipants(CalendarEvent, Boolean, ParamArray Integer())
+- uid: SuperOffice.Util.CalendarExtensions.ClearParticipants(Ical.Net.Calendar,System.Boolean,System.Int32[])
+  commentId: M:SuperOffice.Util.CalendarExtensions.ClearParticipants(Ical.Net.Calendar,System.Boolean,System.Int32[])
+  id: ClearParticipants(Ical.Net.Calendar,System.Boolean,System.Int32[])
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: ClearParticipants(Calendar, bool, params int[])
+  nameWithType: CalendarExtensions.ClearParticipants(Calendar, bool, params int[])
+  fullName: SuperOffice.Util.CalendarExtensions.ClearParticipants(Ical.Net.Calendar, bool, params int[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static void ClearParticipants(this Calendar calendar, bool preserveOrganizerAttendee = true, params int[] personIds)
+    parameters:
+    - id: calendar
+      type: Ical.Net.Calendar
+    - id: preserveOrganizerAttendee
+      type: System.Boolean
+    - id: personIds
+      type: System.Int32[]
+    content.vb: Public Shared Sub ClearParticipants(calendar As Calendar, preserveOrganizerAttendee As Boolean = True, ParamArray personIds As Integer())
+  overload: SuperOffice.Util.CalendarExtensions.ClearParticipants*
+  nameWithType.vb: CalendarExtensions.ClearParticipants(Calendar, Boolean, ParamArray Integer())
+  fullName.vb: SuperOffice.Util.CalendarExtensions.ClearParticipants(Ical.Net.Calendar, Boolean, ParamArray Integer())
+  name.vb: ClearParticipants(Calendar, Boolean, ParamArray Integer())
+- uid: SuperOffice.Util.CalendarExtensions.SetAllDateTimesFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.Util.CalendarExtensions.SetAllDateTimesFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  id: SetAllDateTimesFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetAllDateTimesFromAppointment(CalendarEvent, AppointmentRow)
+  nameWithType: CalendarExtensions.SetAllDateTimesFromAppointment(CalendarEvent, AppointmentRow)
+  fullName: SuperOffice.Util.CalendarExtensions.SetAllDateTimesFromAppointment(Ical.Net.CalendarComponents.CalendarEvent, SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  summary: All times are "normalized" to UTC+0.
+  example: []
+  syntax:
+    content: public static void SetAllDateTimesFromAppointment(this CalendarEvent calEvent, AppointmentRow appointment)
+    parameters:
+    - id: calEvent
+      type: Ical.Net.CalendarComponents.CalendarEvent
+      description: ''
+    - id: appointment
+      type: SuperOffice.CRM.Rows.AppointmentRow
+      description: ''
+    content.vb: Public Shared Sub SetAllDateTimesFromAppointment(calEvent As CalendarEvent, appointment As AppointmentRow)
+  overload: SuperOffice.Util.CalendarExtensions.SetAllDateTimesFromAppointment*
+- uid: SuperOffice.Util.CalendarExtensions.SetLastModifiedFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.Util.CalendarExtensions.SetLastModifiedFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  id: SetLastModifiedFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetLastModifiedFromAppointment(CalendarEvent, AppointmentRow)
+  nameWithType: CalendarExtensions.SetLastModifiedFromAppointment(CalendarEvent, AppointmentRow)
+  fullName: SuperOffice.Util.CalendarExtensions.SetLastModifiedFromAppointment(Ical.Net.CalendarComponents.CalendarEvent, SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static void SetLastModifiedFromAppointment(this CalendarEvent calEvent, AppointmentRow appointment)
+    parameters:
+    - id: calEvent
+      type: Ical.Net.CalendarComponents.CalendarEvent
+    - id: appointment
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    content.vb: Public Shared Sub SetLastModifiedFromAppointment(calEvent As CalendarEvent, appointment As AppointmentRow)
+  overload: SuperOffice.Util.CalendarExtensions.SetLastModifiedFromAppointment*
+- uid: SuperOffice.Util.CalendarExtensions.SetCreatedFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.Util.CalendarExtensions.SetCreatedFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  id: SetCreatedFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetCreatedFromAppointment(CalendarEvent, AppointmentRow)
+  nameWithType: CalendarExtensions.SetCreatedFromAppointment(CalendarEvent, AppointmentRow)
+  fullName: SuperOffice.Util.CalendarExtensions.SetCreatedFromAppointment(Ical.Net.CalendarComponents.CalendarEvent, SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static void SetCreatedFromAppointment(this CalendarEvent calEvent, AppointmentRow appointment)
+    parameters:
+    - id: calEvent
+      type: Ical.Net.CalendarComponents.CalendarEvent
+    - id: appointment
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    content.vb: Public Shared Sub SetCreatedFromAppointment(calEvent As CalendarEvent, appointment As AppointmentRow)
+  overload: SuperOffice.Util.CalendarExtensions.SetCreatedFromAppointment*
+- uid: SuperOffice.Util.CalendarExtensions.SetStartFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.Util.CalendarExtensions.SetStartFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  id: SetStartFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetStartFromAppointment(CalendarEvent, AppointmentRow)
+  nameWithType: CalendarExtensions.SetStartFromAppointment(CalendarEvent, AppointmentRow)
+  fullName: SuperOffice.Util.CalendarExtensions.SetStartFromAppointment(Ical.Net.CalendarComponents.CalendarEvent, SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static void SetStartFromAppointment(this CalendarEvent calEvent, AppointmentRow appointment)
+    parameters:
+    - id: calEvent
+      type: Ical.Net.CalendarComponents.CalendarEvent
+    - id: appointment
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    content.vb: Public Shared Sub SetStartFromAppointment(calEvent As CalendarEvent, appointment As AppointmentRow)
+  overload: SuperOffice.Util.CalendarExtensions.SetStartFromAppointment*
+- uid: SuperOffice.Util.CalendarExtensions.SetEndFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.Util.CalendarExtensions.SetEndFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  id: SetEndFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetEndFromAppointment(CalendarEvent, AppointmentRow)
+  nameWithType: CalendarExtensions.SetEndFromAppointment(CalendarEvent, AppointmentRow)
+  fullName: SuperOffice.Util.CalendarExtensions.SetEndFromAppointment(Ical.Net.CalendarComponents.CalendarEvent, SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static void SetEndFromAppointment(this CalendarEvent calEvent, AppointmentRow appointment)
+    parameters:
+    - id: calEvent
+      type: Ical.Net.CalendarComponents.CalendarEvent
+    - id: appointment
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    content.vb: Public Shared Sub SetEndFromAppointment(calEvent As CalendarEvent, appointment As AppointmentRow)
+  overload: SuperOffice.Util.CalendarExtensions.SetEndFromAppointment*
+- uid: SuperOffice.Util.CalendarExtensions.CreateEmail(Ical.Net.Calendar,SuperOffice.CRM.Mail.MailEnvelope,SuperOffice.Data.CalMethod,System.String,System.String)
+  commentId: M:SuperOffice.Util.CalendarExtensions.CreateEmail(Ical.Net.Calendar,SuperOffice.CRM.Mail.MailEnvelope,SuperOffice.Data.CalMethod,System.String,System.String)
+  id: CreateEmail(Ical.Net.Calendar,SuperOffice.CRM.Mail.MailEnvelope,SuperOffice.Data.CalMethod,System.String,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateEmail(Calendar, MailEnvelope, CalMethod, string, string)
+  nameWithType: CalendarExtensions.CreateEmail(Calendar, MailEnvelope, CalMethod, string, string)
+  fullName: SuperOffice.Util.CalendarExtensions.CreateEmail(Ical.Net.Calendar, SuperOffice.CRM.Mail.MailEnvelope, SuperOffice.Data.CalMethod, string, string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static MailItem CreateEmail(this Calendar calendar, MailEnvelope envelope, CalMethod method, string subjectPrefix = null, string description = null)
+    parameters:
+    - id: calendar
+      type: Ical.Net.Calendar
+    - id: envelope
+      type: SuperOffice.CRM.Mail.MailEnvelope
+    - id: method
+      type: SuperOffice.Data.CalMethod
+    - id: subjectPrefix
+      type: System.String
+    - id: description
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Mail.MailItem
+    content.vb: Public Shared Function CreateEmail(calendar As Calendar, envelope As MailEnvelope, method As CalMethod, subjectPrefix As String = Nothing, description As String = Nothing) As MailItem
+  overload: SuperOffice.Util.CalendarExtensions.CreateEmail*
+  nameWithType.vb: CalendarExtensions.CreateEmail(Calendar, MailEnvelope, CalMethod, String, String)
+  fullName.vb: SuperOffice.Util.CalendarExtensions.CreateEmail(Ical.Net.Calendar, SuperOffice.CRM.Mail.MailEnvelope, SuperOffice.Data.CalMethod, String, String)
+  name.vb: CreateEmail(Calendar, MailEnvelope, CalMethod, String, String)
+- uid: SuperOffice.Util.CalendarExtensions.CreateOrganizerEnvelope(Ical.Net.CalendarComponents.CalendarEvent)
+  commentId: M:SuperOffice.Util.CalendarExtensions.CreateOrganizerEnvelope(Ical.Net.CalendarComponents.CalendarEvent)
+  id: CreateOrganizerEnvelope(Ical.Net.CalendarComponents.CalendarEvent)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateOrganizerEnvelope(CalendarEvent)
+  nameWithType: CalendarExtensions.CreateOrganizerEnvelope(CalendarEvent)
+  fullName: SuperOffice.Util.CalendarExtensions.CreateOrganizerEnvelope(Ical.Net.CalendarComponents.CalendarEvent)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static MailEnvelope CreateOrganizerEnvelope(this CalendarEvent calendarEvent)
+    parameters:
+    - id: calendarEvent
+      type: Ical.Net.CalendarComponents.CalendarEvent
+    return:
+      type: SuperOffice.CRM.Mail.MailEnvelope
+    content.vb: Public Shared Function CreateOrganizerEnvelope(calendarEvent As CalendarEvent) As MailEnvelope
+  overload: SuperOffice.Util.CalendarExtensions.CreateOrganizerEnvelope*
+- uid: SuperOffice.Util.CalendarExtensions.SerializeToString(Ical.Net.Calendar)
+  commentId: M:SuperOffice.Util.CalendarExtensions.SerializeToString(Ical.Net.Calendar)
+  id: SerializeToString(Ical.Net.Calendar)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: SerializeToString(Calendar)
+  nameWithType: CalendarExtensions.SerializeToString(Calendar)
+  fullName: SuperOffice.Util.CalendarExtensions.SerializeToString(Ical.Net.Calendar)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string SerializeToString(this Calendar calendar)
+    parameters:
+    - id: calendar
+      type: Ical.Net.Calendar
+    return:
+      type: System.String
+    content.vb: Public Shared Function SerializeToString(calendar As Calendar) As String
+  overload: SuperOffice.Util.CalendarExtensions.SerializeToString*
+- uid: SuperOffice.Util.CalendarExtensions.SetRecurrenceId(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow,System.DateTime)
+  commentId: M:SuperOffice.Util.CalendarExtensions.SetRecurrenceId(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow,System.DateTime)
+  id: SetRecurrenceId(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow,System.DateTime)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetRecurrenceId(CalendarEvent, AppointmentRow, DateTime)
+  nameWithType: CalendarExtensions.SetRecurrenceId(CalendarEvent, AppointmentRow, DateTime)
+  fullName: SuperOffice.Util.CalendarExtensions.SetRecurrenceId(Ical.Net.CalendarComponents.CalendarEvent, SuperOffice.CRM.Rows.AppointmentRow, System.DateTime)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  summary: Sets the RecurrenceId of the CalendarEvent, combining the date-component of the appointment's DoBy, and the value of <code class="paramref">recurrenceIdTimeComponent</code> 'stime-component.
+  example: []
+  syntax:
+    content: public static void SetRecurrenceId(this CalendarEvent calendarEvent, AppointmentRow appointmentRow, DateTime recurrenceIdTimeComponent)
+    parameters:
+    - id: calendarEvent
+      type: Ical.Net.CalendarComponents.CalendarEvent
+      description: ''
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+      description: ''
+    - id: recurrenceIdTimeComponent
+      type: System.DateTime
+    content.vb: Public Shared Sub SetRecurrenceId(calendarEvent As CalendarEvent, appointmentRow As AppointmentRow, recurrenceIdTimeComponent As Date)
+  overload: SuperOffice.Util.CalendarExtensions.SetRecurrenceId*
+  nameWithType.vb: CalendarExtensions.SetRecurrenceId(CalendarEvent, AppointmentRow, Date)
+  fullName.vb: SuperOffice.Util.CalendarExtensions.SetRecurrenceId(Ical.Net.CalendarComponents.CalendarEvent, SuperOffice.CRM.Rows.AppointmentRow, Date)
+  name.vb: SetRecurrenceId(CalendarEvent, AppointmentRow, Date)
+- uid: SuperOffice.Util.CalendarExtensions.SetRecurrenceRuleAsync(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.RecurrenceRuleRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.CalendarExtensions.SetRecurrenceRuleAsync(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.RecurrenceRuleRow,System.Threading.CancellationToken)
+  id: SetRecurrenceRuleAsync(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.RecurrenceRuleRow,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetRecurrenceRuleAsync(CalendarEvent, RecurrenceRuleRow, CancellationToken)
+  nameWithType: CalendarExtensions.SetRecurrenceRuleAsync(CalendarEvent, RecurrenceRuleRow, CancellationToken)
+  fullName: SuperOffice.Util.CalendarExtensions.SetRecurrenceRuleAsync(Ical.Net.CalendarComponents.CalendarEvent, SuperOffice.CRM.Rows.RecurrenceRuleRow, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static Task SetRecurrenceRuleAsync(this CalendarEvent calEvent, RecurrenceRuleRow recurrenceRuleRow, CancellationToken cancellationToken = default)
+    parameters:
+    - id: calEvent
+      type: Ical.Net.CalendarComponents.CalendarEvent
+    - id: recurrenceRuleRow
+      type: SuperOffice.CRM.Rows.RecurrenceRuleRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetRecurrenceRuleAsync(calEvent As CalendarEvent, recurrenceRuleRow As RecurrenceRuleRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Util.CalendarExtensions.SetRecurrenceRuleAsync*
+- uid: SuperOffice.Util.CalendarExtensions.GetEmailAddress(Ical.Net.DataTypes.Organizer)
+  commentId: M:SuperOffice.Util.CalendarExtensions.GetEmailAddress(Ical.Net.DataTypes.Organizer)
+  id: GetEmailAddress(Ical.Net.DataTypes.Organizer)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetEmailAddress(Organizer)
+  nameWithType: CalendarExtensions.GetEmailAddress(Organizer)
+  fullName: SuperOffice.Util.CalendarExtensions.GetEmailAddress(Ical.Net.DataTypes.Organizer)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string GetEmailAddress(this Organizer organizer)
+    parameters:
+    - id: organizer
+      type: Ical.Net.DataTypes.Organizer
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetEmailAddress(organizer As Organizer) As String
+  overload: SuperOffice.Util.CalendarExtensions.GetEmailAddress*
+- uid: SuperOffice.Util.CalendarExtensions.GetEmailAddress(Ical.Net.DataTypes.Attendee)
+  commentId: M:SuperOffice.Util.CalendarExtensions.GetEmailAddress(Ical.Net.DataTypes.Attendee)
+  id: GetEmailAddress(Ical.Net.DataTypes.Attendee)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CalendarExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetEmailAddress(Attendee)
+  nameWithType: CalendarExtensions.GetEmailAddress(Attendee)
+  fullName: SuperOffice.Util.CalendarExtensions.GetEmailAddress(Ical.Net.DataTypes.Attendee)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string GetEmailAddress(this Attendee attendee)
+    parameters:
+    - id: attendee
+      type: Ical.Net.DataTypes.Attendee
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetEmailAddress(attendee As Attendee) As String
+  overload: SuperOffice.Util.CalendarExtensions.GetEmailAddress*
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.CalendarExtensions.CreateEmailAttachment*
+  commentId: Overload:SuperOffice.Util.CalendarExtensions.CreateEmailAttachment
+  isExternal: true
+  href: SuperOffice.Util.CalendarExtensions.html#SuperOffice_Util_CalendarExtensions_CreateEmailAttachment_Ical_Net_Calendar_
+  name: CreateEmailAttachment
+  nameWithType: CalendarExtensions.CreateEmailAttachment
+  fullName: SuperOffice.Util.CalendarExtensions.CreateEmailAttachment
+- uid: Ical.Net.Calendar
+  isExternal: true
+  name: Calendar
+  nameWithType: Calendar
+  fullName: Ical.Net.Calendar
+- uid: SuperOffice.CRM.Mail.MailAttachment
+  commentId: T:SuperOffice.CRM.Mail.MailAttachment
+  parent: SuperOffice.CRM.Mail
+  isExternal: true
+  name: MailAttachment
+  nameWithType: MailAttachment
+  fullName: SuperOffice.CRM.Mail.MailAttachment
+- uid: SuperOffice.CRM.Mail
+  commentId: N:SuperOffice.CRM.Mail
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Mail
+  nameWithType: SuperOffice.CRM.Mail
+  fullName: SuperOffice.CRM.Mail
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Mail
+    name: Mail
+    isExternal: true
+    href: SuperOffice.CRM.Mail.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Mail
+    name: Mail
+    isExternal: true
+    href: SuperOffice.CRM.Mail.html
+- uid: SuperOffice.Util.CalendarExtensions.ToUtf8ByteStream*
+  commentId: Overload:SuperOffice.Util.CalendarExtensions.ToUtf8ByteStream
+  isExternal: true
+  href: SuperOffice.Util.CalendarExtensions.html#SuperOffice_Util_CalendarExtensions_ToUtf8ByteStream_Ical_Net_Calendar_
+  name: ToUtf8ByteStream
+  nameWithType: CalendarExtensions.ToUtf8ByteStream
+  fullName: SuperOffice.Util.CalendarExtensions.ToUtf8ByteStream
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: SuperOffice.Util.CalendarExtensions.AddParticipantsAsync*
+  commentId: Overload:SuperOffice.Util.CalendarExtensions.AddParticipantsAsync
+  isExternal: true
+  href: SuperOffice.Util.CalendarExtensions.html#SuperOffice_Util_CalendarExtensions_AddParticipantsAsync_Ical_Net_CalendarComponents_CalendarEvent_SuperOffice_CRM_Rows_AppointmentRow___System_Threading_CancellationToken_
+  name: AddParticipantsAsync
+  nameWithType: CalendarExtensions.AddParticipantsAsync
+  fullName: SuperOffice.Util.CalendarExtensions.AddParticipantsAsync
+- uid: Ical.Net.CalendarComponents.CalendarEvent
+  isExternal: true
+  name: CalendarEvent
+  nameWithType: CalendarEvent
+  fullName: Ical.Net.CalendarComponents.CalendarEvent
+- uid: SuperOffice.CRM.Rows.AppointmentRow[]
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AppointmentRow.html
+  name: AppointmentRow[]
+  nameWithType: AppointmentRow[]
+  fullName: SuperOffice.CRM.Rows.AppointmentRow[]
+  nameWithType.vb: AppointmentRow()
+  fullName.vb: SuperOffice.CRM.Rows.AppointmentRow()
+  name.vb: AppointmentRow()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AppointmentRow
+    name: AppointmentRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AppointmentRow.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AppointmentRow
+    name: AppointmentRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AppointmentRow.html
+  - name: (
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.Util.CalendarExtensions.ClearParticipants*
+  commentId: Overload:SuperOffice.Util.CalendarExtensions.ClearParticipants
+  isExternal: true
+  href: SuperOffice.Util.CalendarExtensions.html#SuperOffice_Util_CalendarExtensions_ClearParticipants_Ical_Net_CalendarComponents_CalendarEvent_System_Boolean_System_Int32___
+  name: ClearParticipants
+  nameWithType: CalendarExtensions.ClearParticipants
+  fullName: SuperOffice.Util.CalendarExtensions.ClearParticipants
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: SuperOffice.Util.CalendarExtensions.SetAllDateTimesFromAppointment*
+  commentId: Overload:SuperOffice.Util.CalendarExtensions.SetAllDateTimesFromAppointment
+  isExternal: true
+  href: SuperOffice.Util.CalendarExtensions.html#SuperOffice_Util_CalendarExtensions_SetAllDateTimesFromAppointment_Ical_Net_CalendarComponents_CalendarEvent_SuperOffice_CRM_Rows_AppointmentRow_
+  name: SetAllDateTimesFromAppointment
+  nameWithType: CalendarExtensions.SetAllDateTimesFromAppointment
+  fullName: SuperOffice.Util.CalendarExtensions.SetAllDateTimesFromAppointment
+- uid: SuperOffice.CRM.Rows.AppointmentRow
+  commentId: T:SuperOffice.CRM.Rows.AppointmentRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AppointmentRow.html
+  name: AppointmentRow
+  nameWithType: AppointmentRow
+  fullName: SuperOffice.CRM.Rows.AppointmentRow
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: SuperOffice.Util.CalendarExtensions.SetLastModifiedFromAppointment*
+  commentId: Overload:SuperOffice.Util.CalendarExtensions.SetLastModifiedFromAppointment
+  isExternal: true
+  href: SuperOffice.Util.CalendarExtensions.html#SuperOffice_Util_CalendarExtensions_SetLastModifiedFromAppointment_Ical_Net_CalendarComponents_CalendarEvent_SuperOffice_CRM_Rows_AppointmentRow_
+  name: SetLastModifiedFromAppointment
+  nameWithType: CalendarExtensions.SetLastModifiedFromAppointment
+  fullName: SuperOffice.Util.CalendarExtensions.SetLastModifiedFromAppointment
+- uid: SuperOffice.Util.CalendarExtensions.SetCreatedFromAppointment*
+  commentId: Overload:SuperOffice.Util.CalendarExtensions.SetCreatedFromAppointment
+  isExternal: true
+  href: SuperOffice.Util.CalendarExtensions.html#SuperOffice_Util_CalendarExtensions_SetCreatedFromAppointment_Ical_Net_CalendarComponents_CalendarEvent_SuperOffice_CRM_Rows_AppointmentRow_
+  name: SetCreatedFromAppointment
+  nameWithType: CalendarExtensions.SetCreatedFromAppointment
+  fullName: SuperOffice.Util.CalendarExtensions.SetCreatedFromAppointment
+- uid: SuperOffice.Util.CalendarExtensions.SetStartFromAppointment*
+  commentId: Overload:SuperOffice.Util.CalendarExtensions.SetStartFromAppointment
+  isExternal: true
+  href: SuperOffice.Util.CalendarExtensions.html#SuperOffice_Util_CalendarExtensions_SetStartFromAppointment_Ical_Net_CalendarComponents_CalendarEvent_SuperOffice_CRM_Rows_AppointmentRow_
+  name: SetStartFromAppointment
+  nameWithType: CalendarExtensions.SetStartFromAppointment
+  fullName: SuperOffice.Util.CalendarExtensions.SetStartFromAppointment
+- uid: SuperOffice.Util.CalendarExtensions.SetEndFromAppointment*
+  commentId: Overload:SuperOffice.Util.CalendarExtensions.SetEndFromAppointment
+  isExternal: true
+  href: SuperOffice.Util.CalendarExtensions.html#SuperOffice_Util_CalendarExtensions_SetEndFromAppointment_Ical_Net_CalendarComponents_CalendarEvent_SuperOffice_CRM_Rows_AppointmentRow_
+  name: SetEndFromAppointment
+  nameWithType: CalendarExtensions.SetEndFromAppointment
+  fullName: SuperOffice.Util.CalendarExtensions.SetEndFromAppointment
+- uid: SuperOffice.Util.CalendarExtensions.CreateEmail*
+  commentId: Overload:SuperOffice.Util.CalendarExtensions.CreateEmail
+  isExternal: true
+  href: SuperOffice.Util.CalendarExtensions.html#SuperOffice_Util_CalendarExtensions_CreateEmail_Ical_Net_Calendar_SuperOffice_CRM_Mail_MailEnvelope_SuperOffice_Data_CalMethod_System_String_System_String_
+  name: CreateEmail
+  nameWithType: CalendarExtensions.CreateEmail
+  fullName: SuperOffice.Util.CalendarExtensions.CreateEmail
+- uid: SuperOffice.CRM.Mail.MailEnvelope
+  commentId: T:SuperOffice.CRM.Mail.MailEnvelope
+  parent: SuperOffice.CRM.Mail
+  isExternal: true
+  name: MailEnvelope
+  nameWithType: MailEnvelope
+  fullName: SuperOffice.CRM.Mail.MailEnvelope
+- uid: SuperOffice.Data.CalMethod
+  commentId: T:SuperOffice.Data.CalMethod
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.CalMethod.html
+  name: CalMethod
+  nameWithType: CalMethod
+  fullName: SuperOffice.Data.CalMethod
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Mail.MailItem
+  commentId: T:SuperOffice.CRM.Mail.MailItem
+  parent: SuperOffice.CRM.Mail
+  isExternal: true
+  name: MailItem
+  nameWithType: MailItem
+  fullName: SuperOffice.CRM.Mail.MailItem
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.Util.CalendarExtensions.CreateOrganizerEnvelope*
+  commentId: Overload:SuperOffice.Util.CalendarExtensions.CreateOrganizerEnvelope
+  isExternal: true
+  href: SuperOffice.Util.CalendarExtensions.html#SuperOffice_Util_CalendarExtensions_CreateOrganizerEnvelope_Ical_Net_CalendarComponents_CalendarEvent_
+  name: CreateOrganizerEnvelope
+  nameWithType: CalendarExtensions.CreateOrganizerEnvelope
+  fullName: SuperOffice.Util.CalendarExtensions.CreateOrganizerEnvelope
+- uid: SuperOffice.Util.CalendarExtensions.SerializeToString*
+  commentId: Overload:SuperOffice.Util.CalendarExtensions.SerializeToString
+  isExternal: true
+  href: SuperOffice.Util.CalendarExtensions.html#SuperOffice_Util_CalendarExtensions_SerializeToString_Ical_Net_Calendar_
+  name: SerializeToString
+  nameWithType: CalendarExtensions.SerializeToString
+  fullName: SuperOffice.Util.CalendarExtensions.SerializeToString
+- uid: SuperOffice.Util.CalendarExtensions.SetRecurrenceId*
+  commentId: Overload:SuperOffice.Util.CalendarExtensions.SetRecurrenceId
+  isExternal: true
+  href: SuperOffice.Util.CalendarExtensions.html#SuperOffice_Util_CalendarExtensions_SetRecurrenceId_Ical_Net_CalendarComponents_CalendarEvent_SuperOffice_CRM_Rows_AppointmentRow_System_DateTime_
+  name: SetRecurrenceId
+  nameWithType: CalendarExtensions.SetRecurrenceId
+  fullName: SuperOffice.Util.CalendarExtensions.SetRecurrenceId
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.Util.CalendarExtensions.SetRecurrenceRuleAsync*
+  commentId: Overload:SuperOffice.Util.CalendarExtensions.SetRecurrenceRuleAsync
+  isExternal: true
+  href: SuperOffice.Util.CalendarExtensions.html#SuperOffice_Util_CalendarExtensions_SetRecurrenceRuleAsync_Ical_Net_CalendarComponents_CalendarEvent_SuperOffice_CRM_Rows_RecurrenceRuleRow_System_Threading_CancellationToken_
+  name: SetRecurrenceRuleAsync
+  nameWithType: CalendarExtensions.SetRecurrenceRuleAsync
+  fullName: SuperOffice.Util.CalendarExtensions.SetRecurrenceRuleAsync
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRow
+  commentId: T:SuperOffice.CRM.Rows.RecurrenceRuleRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.RecurrenceRuleRow.html
+  name: RecurrenceRuleRow
+  nameWithType: RecurrenceRuleRow
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRow
+- uid: SuperOffice.Util.CalendarExtensions.GetEmailAddress*
+  commentId: Overload:SuperOffice.Util.CalendarExtensions.GetEmailAddress
+  isExternal: true
+  href: SuperOffice.Util.CalendarExtensions.html#SuperOffice_Util_CalendarExtensions_GetEmailAddress_Ical_Net_DataTypes_Organizer_
+  name: GetEmailAddress
+  nameWithType: CalendarExtensions.GetEmailAddress
+  fullName: SuperOffice.Util.CalendarExtensions.GetEmailAddress
+- uid: Ical.Net.DataTypes.Organizer
+  commentId: '!:Ical.Net.DataTypes.Organizer'
+  isExternal: true
+  name: Organizer
+  nameWithType: Organizer
+  fullName: Ical.Net.DataTypes.Organizer
+- uid: Ical.Net.DataTypes.Attendee
+  isExternal: true
+  name: Attendee
+  nameWithType: Attendee
+  fullName: Ical.Net.DataTypes.Attendee

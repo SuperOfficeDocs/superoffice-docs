@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender
+  id: ErpFieldErpFieldExtender
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.#ctor
+  - SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.SetJoin
+  - SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.TableToExtend
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldErpFieldExtender
+  nameWithType: ErpFieldErpFieldExtender
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: Root extender for Erpfield
+  example: []
+  syntax:
+    content: 'public sealed class ErpFieldErpFieldExtender : ErpFieldExtenderBase'
+    content.vb: Public NotInheritable Class ErpFieldErpFieldExtender Inherits ErpFieldExtenderBase
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase
+  inheritedMembers:
+  - SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldErpFieldExtender()
+  nameWithType: ErpFieldErpFieldExtender.ErpFieldErpFieldExtender()
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.ErpFieldErpFieldExtender()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: Construct the object and instantiate the TableInfo
+  example: []
+  syntax:
+    content: public ErpFieldErpFieldExtender()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.#ctor*
+  nameWithType.vb: ErpFieldErpFieldExtender.New()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.SetJoin
+  commentId: M:SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.SetJoin
+  id: SetJoin
+  parent: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender
+  langs:
+  - csharp
+  - vb
+  name: SetJoin()
+  nameWithType: ErpFieldErpFieldExtender.SetJoin()
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.SetJoin()
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: Return the free-standing table instance
+  example: []
+  syntax:
+    content: protected override ErpFieldTableInfo SetJoin()
+    return:
+      type: SuperOffice.CRM.Data.ErpFieldTableInfo
+      description: TableInfo instance to be used by the base class
+    content.vb: Protected Overrides Function SetJoin() As ErpFieldTableInfo
+  overload: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.SetJoin*
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.TableToExtend
+  commentId: P:SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.TableToExtend
+  id: TableToExtend
+  parent: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender
+  langs:
+  - csharp
+  - vb
+  name: TableToExtend
+  nameWithType: ErpFieldErpFieldExtender.TableToExtend
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.TableToExtend
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: Return the free-standing table instance
+  example: []
+  syntax:
+    content: public override TableInfo TableToExtend { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Public Overrides ReadOnly Property TableToExtend As TableInfo
+  overload: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.TableToExtend*
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase.html
+  name: ErpFieldExtenderBase
+  nameWithType: ErpFieldExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase.html#SuperOffice_CRM_ArchiveLists_ErpFieldExtenderBase_SetRestriction_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
+  name: SetRestriction(params ArchiveRestrictionInfo[])
+  nameWithType: ErpFieldExtenderBase.SetRestriction(params ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase.SetRestriction(params SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: ErpFieldExtenderBase.SetRestriction(ParamArray ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase.SetRestriction(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ParamArray ArchiveRestrictionInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase.html#SuperOffice_CRM_ArchiveLists_ErpFieldExtenderBase_SetRestriction_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
+  - name: (
+  - name: params
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase.html#SuperOffice_CRM_ArchiveLists_ErpFieldExtenderBase_SetRestriction_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
+  - name: (
+  - name: ParamArray
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.html#SuperOffice_CRM_ArchiveLists_ErpFieldErpFieldExtender__ctor
+  name: ErpFieldErpFieldExtender
+  nameWithType: ErpFieldErpFieldExtender.ErpFieldErpFieldExtender
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.ErpFieldErpFieldExtender
+  nameWithType.vb: ErpFieldErpFieldExtender.New
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.New
+  name.vb: New
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.SetJoin*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.SetJoin
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.html#SuperOffice_CRM_ArchiveLists_ErpFieldErpFieldExtender_SetJoin
+  name: SetJoin
+  nameWithType: ErpFieldErpFieldExtender.SetJoin
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.SetJoin
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo
+  isExternal: true
+  name: ErpFieldTableInfo
+  nameWithType: ErpFieldTableInfo
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.TableToExtend*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.TableToExtend
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.html#SuperOffice_CRM_ArchiveLists_ErpFieldErpFieldExtender_TableToExtend
+  name: TableToExtend
+  nameWithType: ErpFieldErpFieldExtender.TableToExtend
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.TableToExtend
+- uid: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo

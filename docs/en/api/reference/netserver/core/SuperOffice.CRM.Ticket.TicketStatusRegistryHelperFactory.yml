@@ -1,0 +1,796 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
+  commentId: T:SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
+  id: TicketStatusRegistryHelperFactory
+  parent: SuperOffice.CRM.Ticket
+  children:
+  - SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.#ctor(System.IServiceProvider)
+  - SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.CreateAsync(System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: TicketStatusRegistryHelperFactory
+  nameWithType: TicketStatusRegistryHelperFactory
+  fullName: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
+  type: Class
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: 'public class TicketStatusRegistryHelperFactory : ITicketStatusRegistryHelperFactory'
+    content.vb: Public Class TicketStatusRegistryHelperFactory Implements ITicketStatusRegistryHelperFactory
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.#ctor(System.IServiceProvider)
+  commentId: M:SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.#ctor(System.IServiceProvider)
+  id: '#ctor(System.IServiceProvider)'
+  parent: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
+  langs:
+  - csharp
+  - vb
+  name: TicketStatusRegistryHelperFactory(IServiceProvider)
+  nameWithType: TicketStatusRegistryHelperFactory.TicketStatusRegistryHelperFactory(IServiceProvider)
+  fullName: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.TicketStatusRegistryHelperFactory(System.IServiceProvider)
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public TicketStatusRegistryHelperFactory(IServiceProvider serviceProvider)
+    parameters:
+    - id: serviceProvider
+      type: System.IServiceProvider
+    content.vb: Public Sub New(serviceProvider As IServiceProvider)
+  overload: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.#ctor*
+  nameWithType.vb: TicketStatusRegistryHelperFactory.New(IServiceProvider)
+  fullName.vb: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.New(System.IServiceProvider)
+  name.vb: New(IServiceProvider)
+- uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.CreateAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.CreateAsync(System.Threading.CancellationToken)
+  id: CreateAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(CancellationToken)
+  nameWithType: TicketStatusRegistryHelperFactory.CreateAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.CreateAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Ticket
+  example: []
+  syntax:
+    content: public Task<ITicketStatusRegistryHelper> CreateAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper}
+    content.vb: Public Function CreateAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ITicketStatusRegistryHelper)
+  overload: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.CreateAsync*
+  implements:
+  - SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.CreateAsync(System.Threading.CancellationToken)
+references:
+- uid: SuperOffice.CRM.Ticket
+  commentId: N:SuperOffice.CRM.Ticket
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Ticket
+  nameWithType: SuperOffice.CRM.Ticket
+  fullName: SuperOffice.CRM.Ticket
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Ticket
+    name: Ticket
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Ticket
+    name: Ticket
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+  commentId: T:SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+  parent: SuperOffice.CRM.Ticket
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.html
+  name: ITicketStatusRegistryHelperFactory
+  nameWithType: ITicketStatusRegistryHelperFactory
+  fullName: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<TicketStatusRegistryHelperFactory, To>(TicketStatusRegistryHelperFactory)
+  nameWithType: EnumUtil.MapEnums<TicketStatusRegistryHelperFactory, To>(TicketStatusRegistryHelperFactory)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory, To>(SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory)
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketStatusRegistryHelperFactory, To)(TicketStatusRegistryHelperFactory)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory, To)(SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory)
+  name.vb: MapEnums(Of TicketStatusRegistryHelperFactory, To)(TicketStatusRegistryHelperFactory)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
+    name: TicketStatusRegistryHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
+    name: TicketStatusRegistryHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
+    name: TicketStatusRegistryHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
+    name: TicketStatusRegistryHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.html
+  - name: )
+- uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<TicketStatusRegistryHelperFactory, To>(TicketStatusRegistryHelperFactory)
+  nameWithType: Converters.MapEnums<TicketStatusRegistryHelperFactory, To>(TicketStatusRegistryHelperFactory)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory, To>(SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory)
+  nameWithType.vb: Converters.MapEnums(Of TicketStatusRegistryHelperFactory, To)(TicketStatusRegistryHelperFactory)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory, To)(SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory)
+  name.vb: MapEnums(Of TicketStatusRegistryHelperFactory, To)(TicketStatusRegistryHelperFactory)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
+    name: TicketStatusRegistryHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
+    name: TicketStatusRegistryHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
+    name: TicketStatusRegistryHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
+    name: TicketStatusRegistryHelperFactory
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.#ctor*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.html#SuperOffice_CRM_Ticket_TicketStatusRegistryHelperFactory__ctor_System_IServiceProvider_
+  name: TicketStatusRegistryHelperFactory
+  nameWithType: TicketStatusRegistryHelperFactory.TicketStatusRegistryHelperFactory
+  fullName: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.TicketStatusRegistryHelperFactory
+  nameWithType.vb: TicketStatusRegistryHelperFactory.New
+  fullName.vb: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.New
+  name.vb: New
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.CreateAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.CreateAsync
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.html#SuperOffice_CRM_Ticket_TicketStatusRegistryHelperFactory_CreateAsync_System_Threading_CancellationToken_
+  name: CreateAsync
+  nameWithType: TicketStatusRegistryHelperFactory.CreateAsync
+  fullName: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory.CreateAsync
+- uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.CreateAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.CreateAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateAsync(CancellationToken)
+  nameWithType: ITicketStatusRegistryHelperFactory.CreateAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.CreateAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.CreateAsync(System.Threading.CancellationToken)
+    name: CreateAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory.CreateAsync(System.Threading.CancellationToken)
+    name: CreateAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ITicketStatusRegistryHelper>
+  nameWithType: Task<ITicketStatusRegistryHelper>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper>
+  nameWithType.vb: Task(Of ITicketStatusRegistryHelper)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper)
+  name.vb: Task(Of ITicketStatusRegistryHelper)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper
+    name: ITicketStatusRegistryHelper
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper
+    name: ITicketStatusRegistryHelper
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.ITicketStatusRegistryHelper.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

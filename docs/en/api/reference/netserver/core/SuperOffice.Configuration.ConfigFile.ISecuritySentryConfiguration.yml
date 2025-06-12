@@ -1,0 +1,344 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
+  id: ConfigFile.ISecuritySentryConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.Ignore
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.ISecuritySentryConfiguration
+  nameWithType: ConfigFile.ISecuritySentryConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
+  type: Interface
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: >-
+    Sentry configuration
+
+    Created in Database scope
+  example: []
+  syntax:
+    content: public interface ConfigFile.ISecuritySentryConfiguration
+    content.vb: Public Interface ConfigFile.ISecuritySentryConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.Ignore
+  commentId: P:SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.Ignore
+  id: Ignore
+  parent: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Ignore
+  nameWithType: ConfigFile.ISecuritySentryConfiguration.Ignore
+  fullName: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.Ignore
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Ignore the Sentry mechanism, everything will be allowed (default 'False')
+  remarks: This option is only available in SuperOffice NetServer version 1.0. The reason for permitting it here is that the Sentry mechanism is rather new, and disabeling it is the last resort in case of severe problems.
+  example: []
+  syntax:
+    content: bool Ignore { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Ignore As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.Ignore*
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+- uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ISecuritySentryConfiguration, To>(ISecuritySentryConfiguration)
+  nameWithType: EnumUtil.MapEnums<ConfigFile.ISecuritySentryConfiguration, To>(ConfigFile.ISecuritySentryConfiguration)
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration, To>(SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration)
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.ISecuritySentryConfiguration, To)(ConfigFile.ISecuritySentryConfiguration)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration, To)(SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration)
+  name.vb: MapEnums(Of ISecuritySentryConfiguration, To)(ISecuritySentryConfiguration)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
+    name: ISecuritySentryConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
+    name: ISecuritySentryConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
+    name: ISecuritySentryConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
+    name: ISecuritySentryConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.html
+  - name: )
+- uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ISecuritySentryConfiguration, To>(ISecuritySentryConfiguration)
+  nameWithType: Converters.MapEnums<ConfigFile.ISecuritySentryConfiguration, To>(ConfigFile.ISecuritySentryConfiguration)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration, To>(SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration)
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.ISecuritySentryConfiguration, To)(ConfigFile.ISecuritySentryConfiguration)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration, To)(SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration)
+  name.vb: MapEnums(Of ISecuritySentryConfiguration, To)(ISecuritySentryConfiguration)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
+    name: ISecuritySentryConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
+    name: ISecuritySentryConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
+    name: ISecuritySentryConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
+    name: ISecuritySentryConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.Ignore*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.Ignore
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.html#SuperOffice_Configuration_ConfigFile_ISecuritySentryConfiguration_Ignore
+  name: Ignore
+  nameWithType: ConfigFile.ISecuritySentryConfiguration.Ignore
+  fullName: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.Ignore
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

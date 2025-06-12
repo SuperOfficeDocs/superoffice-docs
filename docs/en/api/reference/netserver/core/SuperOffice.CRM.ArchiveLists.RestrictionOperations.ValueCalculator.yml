@@ -15,31 +15,21 @@ items:
   name: RestrictionOperations.ValueCalculator
   nameWithType: RestrictionOperations.ValueCalculator
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator
-  type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
+  type: Delegate
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: 'public sealed class ValueCalculator : MulticastDelegate'
-    content.vb: >-
-      Public NotInheritable Class ValueCalculator
-          Inherits MulticastDelegate
-  inheritance:
-  - System.Object
+    content: public delegate string[] RestrictionOperations.ValueCalculator(object[] values)
+    parameters:
+    - id: values
+      type: System.Object[]
+    return:
+      type: System.String[]
+    content.vb: Public Delegate Function RestrictionOperations.ValueCalculator(values As Object()) As String()
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -47,29 +37,25 @@ items:
   langs:
   - csharp
   - vb
-  name: ValueCalculator(Object, IntPtr)
-  nameWithType: RestrictionOperations.ValueCalculator.ValueCalculator(Object, IntPtr)
-  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.ValueCalculator(System.Object, System.IntPtr)
+  name: ValueCalculator(object, IntPtr)
+  nameWithType: RestrictionOperations.ValueCalculator.ValueCalculator(object, IntPtr)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.ValueCalculator(object, System.IntPtr)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public ValueCalculator(object object, IntPtr method)
+    content: public ValueCalculator(object @object, IntPtr method)
     parameters:
     - id: object
       type: System.Object
     - id: method
       type: System.IntPtr
-    content.vb: Public Sub New(object As Object, method As IntPtr)
+    content.vb: Public Sub New([object] As Object, method As IntPtr)
   overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RestrictionOperations.ValueCalculator.New(Object, IntPtr)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.New(Object, System.IntPtr)
+  name.vb: New(Object, IntPtr)
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.Invoke(System.Object[])
   commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.Invoke(System.Object[])
   id: Invoke(System.Object[])
@@ -77,15 +63,12 @@ items:
   langs:
   - csharp
   - vb
-  name: Invoke(Object[])
-  nameWithType: RestrictionOperations.ValueCalculator.Invoke(Object[])
-  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.Invoke(System.Object[])
+  name: Invoke(object[])
+  nameWithType: RestrictionOperations.ValueCalculator.Invoke(object[])
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.Invoke(object[])
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public virtual string[] Invoke(object[] values)
@@ -97,13 +80,7 @@ items:
     content.vb: Public Overridable Function Invoke(values As Object()) As String()
   overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.Invoke*
   nameWithType.vb: RestrictionOperations.ValueCalculator.Invoke(Object())
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.Invoke(System.Object())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.Invoke(Object())
   name.vb: Invoke(Object())
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.BeginInvoke(System.Object[],System.AsyncCallback,System.Object)
   commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.BeginInvoke(System.Object[],System.AsyncCallback,System.Object)
@@ -112,18 +89,15 @@ items:
   langs:
   - csharp
   - vb
-  name: BeginInvoke(Object[], AsyncCallback, Object)
-  nameWithType: RestrictionOperations.ValueCalculator.BeginInvoke(Object[], AsyncCallback, Object)
-  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.BeginInvoke(System.Object[], System.AsyncCallback, System.Object)
+  name: BeginInvoke(object[], AsyncCallback, object)
+  nameWithType: RestrictionOperations.ValueCalculator.BeginInvoke(object[], AsyncCallback, object)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.BeginInvoke(object[], System.AsyncCallback, object)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public virtual IAsyncResult BeginInvoke(object[] values, AsyncCallback callback, object object)
+    content: public virtual IAsyncResult BeginInvoke(object[] values, AsyncCallback callback, object @object)
     parameters:
     - id: values
       type: System.Object[]
@@ -133,16 +107,10 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-    content.vb: Public Overridable Function BeginInvoke(values As Object(), callback As AsyncCallback, object As Object) As IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(values As Object(), callback As AsyncCallback, [object] As Object) As IAsyncResult
   overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.BeginInvoke*
   nameWithType.vb: RestrictionOperations.ValueCalculator.BeginInvoke(Object(), AsyncCallback, Object)
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.BeginInvoke(System.Object(), System.AsyncCallback, System.Object)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.BeginInvoke(Object(), System.AsyncCallback, Object)
   name.vb: BeginInvoke(Object(), AsyncCallback, Object)
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.EndInvoke(System.IAsyncResult)
   commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.EndInvoke(System.IAsyncResult)
@@ -155,11 +123,8 @@ items:
   nameWithType: RestrictionOperations.ValueCalculator.EndInvoke(IAsyncResult)
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.EndInvoke(System.IAsyncResult)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public virtual string[] EndInvoke(IAsyncResult result)
@@ -170,103 +135,200 @@ items:
       type: System.String[]
     content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As String()
   overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.EndInvoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<RestrictionOperations.ValueCalculator, To>()
-  nameWithType: EnumUtil.MapEnums<RestrictionOperations.ValueCalculator, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of RestrictionOperations.ValueCalculator, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator, To)()
-  name.vb: MapEnums(Of RestrictionOperations.ValueCalculator, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ValueCalculator, To>(ValueCalculator)
+  nameWithType: EnumUtil.MapEnums<RestrictionOperations.ValueCalculator, To>(RestrictionOperations.ValueCalculator)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator, To>(SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator)
+  nameWithType.vb: EnumUtil.MapEnums(Of RestrictionOperations.ValueCalculator, To)(RestrictionOperations.ValueCalculator)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator, To)(SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator)
+  name.vb: MapEnums(Of ValueCalculator, To)(ValueCalculator)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<RestrictionOperations.ValueCalculator, To>
-    nameWithType: EnumUtil.MapEnums<RestrictionOperations.ValueCalculator, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator
+    name: ValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator
+    name: ValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of RestrictionOperations.ValueCalculator, To)
-    nameWithType: EnumUtil.MapEnums(Of RestrictionOperations.ValueCalculator, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator
+    name: ValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator
+    name: ValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.html
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<RestrictionOperations.ValueCalculator, To>()
-  nameWithType: Converters.MapEnums<RestrictionOperations.ValueCalculator, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator, To>()
-  nameWithType.vb: Converters.MapEnums(Of RestrictionOperations.ValueCalculator, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator, To)()
-  name.vb: MapEnums(Of RestrictionOperations.ValueCalculator, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ValueCalculator, To>(ValueCalculator)
+  nameWithType: Converters.MapEnums<RestrictionOperations.ValueCalculator, To>(RestrictionOperations.ValueCalculator)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator, To>(SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator)
+  nameWithType.vb: Converters.MapEnums(Of RestrictionOperations.ValueCalculator, To)(RestrictionOperations.ValueCalculator)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator, To)(SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator)
+  name.vb: MapEnums(Of ValueCalculator, To)(ValueCalculator)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<RestrictionOperations.ValueCalculator, To>
-    nameWithType: Converters.MapEnums<RestrictionOperations.ValueCalculator, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator
+    name: ValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator
+    name: ValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of RestrictionOperations.ValueCalculator, To)
-    nameWithType: Converters.MapEnums(Of RestrictionOperations.ValueCalculator, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator
+    name: ValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator
+    name: ValueCalculator
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.html
+  - name: )
+- uid: System.Object[]
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -275,43 +337,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -320,137 +384,149 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.#ctor
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.html#SuperOffice_CRM_ArchiveLists_RestrictionOperations_ValueCalculator__ctor_System_Object_System_IntPtr_
   name: ValueCalculator
   nameWithType: RestrictionOperations.ValueCalculator.ValueCalculator
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.ValueCalculator
+  nameWithType.vb: RestrictionOperations.ValueCalculator.New
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.New
+  name.vb: New
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.Invoke*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.Invoke
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.html#SuperOffice_CRM_ArchiveLists_RestrictionOperations_ValueCalculator_Invoke_System_Object___
   name: Invoke
   nameWithType: RestrictionOperations.ValueCalculator.Invoke
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.Invoke
-- uid: System.Object[]
-  isExternal: true
-  name: Object[]
-  nameWithType: Object[]
-  fullName: System.Object[]
-  nameWithType.vb: Object()
-  fullName.vb: System.Object()
-  name.vb: Object()
-  spec.csharp:
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: System.String[]
-  isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
-  nameWithType.vb: String()
-  fullName.vb: System.String()
-  name.vb: String()
-  spec.csharp:
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.BeginInvoke*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.BeginInvoke
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.html#SuperOffice_CRM_ArchiveLists_RestrictionOperations_ValueCalculator_BeginInvoke_System_Object___System_AsyncCallback_System_Object_
   name: BeginInvoke
   nameWithType: RestrictionOperations.ValueCalculator.BeginInvoke
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.BeginInvoke
 - uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
   name: IAsyncResult
   nameWithType: IAsyncResult
   fullName: System.IAsyncResult
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.EndInvoke*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.EndInvoke
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.html#SuperOffice_CRM_ArchiveLists_RestrictionOperations_ValueCalculator_EndInvoke_System_IAsyncResult_
   name: EndInvoke
   nameWithType: RestrictionOperations.ValueCalculator.EndInvoke
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator.EndInvoke

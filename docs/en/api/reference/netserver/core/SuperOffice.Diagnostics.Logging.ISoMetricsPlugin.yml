@@ -14,27 +14,17 @@ items:
   nameWithType: ISoMetricsPlugin
   fullName: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
   type: Interface
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics.Logging
-  summary: "\nCustom metrics reporting. Report counter values to a suitable back-end.\n"
+  summary: Custom metrics reporting. Report counter values to a suitable back-end.
+  example: []
   syntax:
-    content: 'public interface ISoMetricsPlugin : IPlugin'
-    content.vb: >-
-      Public Interface ISoMetricsPlugin
-          Inherits IPlugin
+    content: public interface ISoMetricsPlugin
+    content.vb: Public Interface ISoMetricsPlugin
   extensionMethods:
   - SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.EnumUtil.MapEnums``2
   - SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
 - uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.Count(System.String,System.Collections.Specialized.NameValueCollection,System.Collections.Generic.Dictionary{System.String,System.Double})
   commentId: M:SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.Count(System.String,System.Collections.Specialized.NameValueCollection,System.Collections.Generic.Dictionary{System.String,System.Double})
   id: Count(System.String,System.Collections.Specialized.NameValueCollection,System.Collections.Generic.Dictionary{System.String,System.Double})
@@ -42,17 +32,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Count(String, NameValueCollection, Dictionary<String, Double>)
-  nameWithType: ISoMetricsPlugin.Count(String, NameValueCollection, Dictionary<String, Double>)
-  fullName: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.Count(System.String, System.Collections.Specialized.NameValueCollection, System.Collections.Generic.Dictionary<System.String, System.Double>)
+  name: Count(string, NameValueCollection, Dictionary<string, double>)
+  nameWithType: ISoMetricsPlugin.Count(string, NameValueCollection, Dictionary<string, double>)
+  fullName: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.Count(string, System.Collections.Specialized.NameValueCollection, System.Collections.Generic.Dictionary<string, double>)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics.Logging
-  summary: "\nCount many values\n"
+  summary: Count many values
+  example: []
   syntax:
     content: void Count(string eventName, NameValueCollection tags, Dictionary<string, double> metrics)
     parameters:
@@ -68,7 +56,7 @@ items:
     content.vb: Sub Count(eventName As String, tags As NameValueCollection, metrics As Dictionary(Of String, Double))
   overload: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.Count*
   nameWithType.vb: ISoMetricsPlugin.Count(String, NameValueCollection, Dictionary(Of String, Double))
-  fullName.vb: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.Count(System.String, System.Collections.Specialized.NameValueCollection, System.Collections.Generic.Dictionary(Of System.String, System.Double))
+  fullName.vb: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.Count(String, System.Collections.Specialized.NameValueCollection, System.Collections.Generic.Dictionary(Of String, Double))
   name.vb: Count(String, NameValueCollection, Dictionary(Of String, Double))
 - uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.TraceOperation(System.String,System.Collections.Specialized.NameValueCollection)
   commentId: M:SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.TraceOperation(System.String,System.Collections.Specialized.NameValueCollection)
@@ -77,17 +65,15 @@ items:
   langs:
   - csharp
   - vb
-  name: TraceOperation(String, NameValueCollection)
-  nameWithType: ISoMetricsPlugin.TraceOperation(String, NameValueCollection)
-  fullName: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.TraceOperation(System.String, System.Collections.Specialized.NameValueCollection)
+  name: TraceOperation(string, NameValueCollection)
+  nameWithType: ISoMetricsPlugin.TraceOperation(string, NameValueCollection)
+  fullName: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.TraceOperation(string, System.Collections.Specialized.NameValueCollection)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics.Logging
-  summary: "\nLog operation start. Dispose of the returned value to log the operation duration.\n"
+  summary: Log operation start. Dispose of the returned value to log the operation duration.
+  example: []
   syntax:
     content: IDisposable TraceOperation(string operationName, NameValueCollection tags)
     parameters:
@@ -102,84 +88,157 @@ items:
       description: disposable object
     content.vb: Function TraceOperation(operationName As String, tags As NameValueCollection) As IDisposable
   overload: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.TraceOperation*
+  nameWithType.vb: ISoMetricsPlugin.TraceOperation(String, NameValueCollection)
+  fullName.vb: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.TraceOperation(String, System.Collections.Specialized.NameValueCollection)
+  name.vb: TraceOperation(String, NameValueCollection)
 references:
 - uid: SuperOffice.Diagnostics.Logging
   commentId: N:SuperOffice.Diagnostics.Logging
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Diagnostics.Logging
   nameWithType: SuperOffice.Diagnostics.Logging
   fullName: SuperOffice.Diagnostics.Logging
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+  - name: .
+  - uid: SuperOffice.Diagnostics.Logging
+    name: Logging
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+  - name: .
+  - uid: SuperOffice.Diagnostics.Logging
+    name: Logging
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.html
 - uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ISoMetricsPlugin, To>()
-  nameWithType: EnumUtil.MapEnums<ISoMetricsPlugin, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.Logging.ISoMetricsPlugin, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ISoMetricsPlugin, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.Logging.ISoMetricsPlugin, To)()
-  name.vb: MapEnums(Of ISoMetricsPlugin, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ISoMetricsPlugin, To>(ISoMetricsPlugin)
+  nameWithType: EnumUtil.MapEnums<ISoMetricsPlugin, To>(ISoMetricsPlugin)
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.Logging.ISoMetricsPlugin, To>(SuperOffice.Diagnostics.Logging.ISoMetricsPlugin)
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoMetricsPlugin, To)(ISoMetricsPlugin)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.Logging.ISoMetricsPlugin, To)(SuperOffice.Diagnostics.Logging.ISoMetricsPlugin)
+  name.vb: MapEnums(Of ISoMetricsPlugin, To)(ISoMetricsPlugin)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ISoMetricsPlugin, To>
-    nameWithType: EnumUtil.MapEnums<ISoMetricsPlugin, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.Logging.ISoMetricsPlugin, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.Logging.ISoMetricsPlugin)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
+    name: ISoMetricsPlugin
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
+    name: ISoMetricsPlugin
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ISoMetricsPlugin, To)
-    nameWithType: EnumUtil.MapEnums(Of ISoMetricsPlugin, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.Logging.ISoMetricsPlugin, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.Logging.ISoMetricsPlugin)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
+    name: ISoMetricsPlugin
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
+    name: ISoMetricsPlugin
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.html
+  - name: )
 - uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ISoMetricsPlugin, To>()
-  nameWithType: Converters.MapEnums<ISoMetricsPlugin, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.Logging.ISoMetricsPlugin, To>()
-  nameWithType.vb: Converters.MapEnums(Of ISoMetricsPlugin, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.Logging.ISoMetricsPlugin, To)()
-  name.vb: MapEnums(Of ISoMetricsPlugin, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ISoMetricsPlugin, To>(ISoMetricsPlugin)
+  nameWithType: Converters.MapEnums<ISoMetricsPlugin, To>(ISoMetricsPlugin)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.Logging.ISoMetricsPlugin, To>(SuperOffice.Diagnostics.Logging.ISoMetricsPlugin)
+  nameWithType.vb: Converters.MapEnums(Of ISoMetricsPlugin, To)(ISoMetricsPlugin)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.Logging.ISoMetricsPlugin, To)(SuperOffice.Diagnostics.Logging.ISoMetricsPlugin)
+  name.vb: MapEnums(Of ISoMetricsPlugin, To)(ISoMetricsPlugin)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ISoMetricsPlugin, To>
-    nameWithType: Converters.MapEnums<ISoMetricsPlugin, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.Logging.ISoMetricsPlugin, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.Logging.ISoMetricsPlugin)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
+    name: ISoMetricsPlugin
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
+    name: ISoMetricsPlugin
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ISoMetricsPlugin, To)
-    nameWithType: Converters.MapEnums(Of ISoMetricsPlugin, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.Logging.ISoMetricsPlugin, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.Logging.ISoMetricsPlugin)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
+    name: ISoMetricsPlugin
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
+    name: ISoMetricsPlugin
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -188,43 +247,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -233,50 +294,83 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.Count*
   commentId: Overload:SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.Count
   isExternal: true
+  href: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.html#SuperOffice_Diagnostics_Logging_ISoMetricsPlugin_Count_System_String_System_Collections_Specialized_NameValueCollection_System_Collections_Generic_Dictionary_System_String_System_Double__
   name: Count
   nameWithType: ISoMetricsPlugin.Count
   fullName: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.Count
@@ -284,137 +378,195 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Collections.Specialized.NameValueCollection
+  commentId: T:System.Collections.Specialized.NameValueCollection
+  parent: System.Collections.Specialized
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.specialized.namevaluecollection
   name: NameValueCollection
   nameWithType: NameValueCollection
   fullName: System.Collections.Specialized.NameValueCollection
 - uid: System.Collections.Generic.Dictionary{System.String,System.Double}
-  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.Double}'
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Double}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.Dictionary`2
-  name: Dictionary<String, Double>
-  nameWithType: Dictionary<String, Double>
-  fullName: System.Collections.Generic.Dictionary<System.String, System.Double>
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, double>
+  nameWithType: Dictionary<string, double>
+  fullName: System.Collections.Generic.Dictionary<string, double>
   nameWithType.vb: Dictionary(Of String, Double)
-  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Double)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Double)
   name.vb: Dictionary(Of String, Double)
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Double
-    name: Double
-    nameWithType: Double
-    fullName: System.Double
+    name: double
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Double
     name: Double
-    nameWithType: Double
-    fullName: System.Double
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: System.Collections.Generic.Dictionary`2
+- uid: System.Collections.Specialized
+  commentId: N:System.Collections.Specialized
   isExternal: true
-  name: Dictionary<, >
-  nameWithType: Dictionary<, >
-  fullName: System.Collections.Generic.Dictionary<, >
-  nameWithType.vb: Dictionary(Of , )
-  fullName.vb: System.Collections.Generic.Dictionary(Of , )
-  name.vb: Dictionary(Of , )
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Specialized
+  nameWithType: System.Collections.Specialized
+  fullName: System.Collections.Specialized
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Specialized
+    name: Specialized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.specialized
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Specialized
+    name: Specialized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.specialized
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.TraceOperation*
   commentId: Overload:SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.TraceOperation
   isExternal: true
+  href: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.html#SuperOffice_Diagnostics_Logging_ISoMetricsPlugin_TraceOperation_System_String_System_Collections_Specialized_NameValueCollection_
   name: TraceOperation
   nameWithType: ISoMetricsPlugin.TraceOperation
   fullName: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.TraceOperation
 - uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable

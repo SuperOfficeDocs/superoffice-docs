@@ -5,48 +5,44 @@ items:
   id: SuperOffice.Security.Principal
   children:
   - SuperOffice.Security.Principal.AssociateResolver
-  - SuperOffice.Security.Principal.AuthenticationState
+  - SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
   - SuperOffice.Security.Principal.AuthorizationState
-  - SuperOffice.Security.Principal.ContextContextProvider
+  - SuperOffice.Security.Principal.ClaimsIdentityExtensions
   - SuperOffice.Security.Principal.CurrentWindowsIdentitySupplier
   - SuperOffice.Security.Principal.DefaultTokenContextResolver
-  - SuperOffice.Security.Principal.ExpiredCredentialCleaner
+  - SuperOffice.Security.Principal.IClaimsPrincipalJwtSigningCredentialsResolver
   - SuperOffice.Security.Principal.IContextInitializer
   - SuperOffice.Security.Principal.IContextResolver
+  - SuperOffice.Security.Principal.INSAuthenticator
+  - SuperOffice.Security.Principal.INSPrincipalAccessor
   - SuperOffice.Security.Principal.IPostAuthenticationPlugin
   - SuperOffice.Security.Principal.IPostLoginPlugin
-  - SuperOffice.Security.Principal.ISoContextProvider
-  - SuperOffice.Security.Principal.ISoIdentity
   - SuperOffice.Security.Principal.ISoIdentityValidator
   - SuperOffice.Security.Principal.ISoTimeZone
-  - SuperOffice.Security.Principal.OidcSoIdentity
+  - SuperOffice.Security.Principal.ITicketPrincipalCache
+  - SuperOffice.Security.Principal.IUserInfoService
+  - SuperOffice.Security.Principal.NSIdentityClaimValues
+  - SuperOffice.Security.Principal.NSPrincipalAccessorBase
   - SuperOffice.Security.Principal.OidcSoIdentityResolver
   - SuperOffice.Security.Principal.PostAuthenticationPluginAttribute
   - SuperOffice.Security.Principal.PostLoginPluginAttribute
-  - SuperOffice.Security.Principal.ProcessContextProvider
+  - SuperOffice.Security.Principal.ProcessPrincipalAccessor
+  - SuperOffice.Security.Principal.ShortClaimNames
   - SuperOffice.Security.Principal.SoAccessToken
   - SuperOffice.Security.Principal.SoAccessTokenClaimsExpander
   - SuperOffice.Security.Principal.SoAccessTokenHelper
   - SuperOffice.Security.Principal.SoAuthenticationType
-  - SuperOffice.Security.Principal.SoContextContainer
+  - SuperOffice.Security.Principal.SoClaimsPrincipal
   - SuperOffice.Security.Principal.SoCredentials
-  - SuperOffice.Security.Principal.SoCredentialsIdentity
   - SuperOffice.Security.Principal.SoCredentialsIdentityResolver
   - SuperOffice.Security.Principal.SoCredentialsIdentityValidator
   - SuperOffice.Security.Principal.SoCredentialsSecurityToken
+  - SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions
   - SuperOffice.Security.Principal.SoIdentityValidatorAttribute
-  - SuperOffice.Security.Principal.SoImpersonationIdentity
   - SuperOffice.Security.Principal.SoImpersonationIdentityResolver
   - SuperOffice.Security.Principal.SoImpersonationIdentityValidator
-  - SuperOffice.Security.Principal.SoLocalPrincipal
-  - SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentryModifier
-  - SuperOffice.Security.Principal.SoPrincipal
-  - SuperOffice.Security.Principal.SoPrincipalExtensions
   - SuperOffice.Security.Principal.SoSafeCredentials
   - SuperOffice.Security.Principal.SoTimeZone
-  - SuperOffice.Security.Principal.ThreadContextProvider
-  - SuperOffice.Security.Principal.TicketPrincipalCache
-  - SuperOffice.Security.Principal.UserNameIdentity
   - SuperOffice.Security.Principal.UserNameIdentityResolver
   - SuperOffice.Security.Principal.UserNameIdentityValidator
   langs:
@@ -59,9 +55,17 @@ items:
   assemblies:
   - SoCore
 references:
+- uid: SuperOffice.Security.Principal.ClaimsIdentityExtensions
+  commentId: T:SuperOffice.Security.Principal.ClaimsIdentityExtensions
+  isExternal: true
+  href: SuperOffice.Security.Principal.ClaimsIdentityExtensions.html
+  name: ClaimsIdentityExtensions
+  nameWithType: ClaimsIdentityExtensions
+  fullName: SuperOffice.Security.Principal.ClaimsIdentityExtensions
 - uid: SuperOffice.Security.Principal.IContextInitializer
   commentId: T:SuperOffice.Security.Principal.IContextInitializer
   isExternal: true
+  href: SuperOffice.Security.Principal.IContextInitializer.html
   name: IContextInitializer
   nameWithType: IContextInitializer
   fullName: SuperOffice.Security.Principal.IContextInitializer
@@ -69,19 +73,59 @@ references:
   commentId: T:SuperOffice.Security.Principal.IContextResolver
   parent: SuperOffice.Security.Principal
   isExternal: true
+  href: SuperOffice.Security.Principal.IContextResolver.html
   name: IContextResolver
   nameWithType: IContextResolver
   fullName: SuperOffice.Security.Principal.IContextResolver
 - uid: SuperOffice.Security.Principal.CurrentWindowsIdentitySupplier
   commentId: T:SuperOffice.Security.Principal.CurrentWindowsIdentitySupplier
   isExternal: true
+  href: SuperOffice.Security.Principal.CurrentWindowsIdentitySupplier.html
   name: CurrentWindowsIdentitySupplier
   nameWithType: CurrentWindowsIdentitySupplier
   fullName: SuperOffice.Security.Principal.CurrentWindowsIdentitySupplier
+- uid: SuperOffice.Security.Principal.INSAuthenticator
+  commentId: T:SuperOffice.Security.Principal.INSAuthenticator
+  isExternal: true
+  href: SuperOffice.Security.Principal.INSAuthenticator.html
+  name: INSAuthenticator
+  nameWithType: INSAuthenticator
+  fullName: SuperOffice.Security.Principal.INSAuthenticator
+- uid: SuperOffice.Security.Principal.INSPrincipalAccessor
+  commentId: T:SuperOffice.Security.Principal.INSPrincipalAccessor
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  href: SuperOffice.Security.Principal.INSPrincipalAccessor.html
+  name: INSPrincipalAccessor
+  nameWithType: INSPrincipalAccessor
+  fullName: SuperOffice.Security.Principal.INSPrincipalAccessor
+- uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  commentId: T:SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  href: SuperOffice.Security.Principal.NSPrincipalAccessorBase.html
+  name: NSPrincipalAccessorBase
+  nameWithType: NSPrincipalAccessorBase
+  fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase
+- uid: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
+  commentId: T:SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
+  isExternal: true
+  href: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor.html
+  name: AsyncLocalPrincipalAccessor
+  nameWithType: AsyncLocalPrincipalAccessor
+  fullName: SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
+- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor
+  commentId: T:SuperOffice.Security.Principal.ProcessPrincipalAccessor
+  isExternal: true
+  href: SuperOffice.Security.Principal.ProcessPrincipalAccessor.html
+  name: ProcessPrincipalAccessor
+  nameWithType: ProcessPrincipalAccessor
+  fullName: SuperOffice.Security.Principal.ProcessPrincipalAccessor
 - uid: SuperOffice.Security.Principal.IPostLoginPlugin
   commentId: T:SuperOffice.Security.Principal.IPostLoginPlugin
   parent: SuperOffice.Security.Principal
   isExternal: true
+  href: SuperOffice.Security.Principal.IPostLoginPlugin.html
   name: IPostLoginPlugin
   nameWithType: IPostLoginPlugin
   fullName: SuperOffice.Security.Principal.IPostLoginPlugin
@@ -89,39 +133,60 @@ references:
   commentId: T:SuperOffice.Security.Principal.PostLoginPluginAttribute
   parent: SuperOffice.Security.Principal
   isExternal: true
+  href: SuperOffice.Security.Principal.PostLoginPluginAttribute.html
   name: PostLoginPluginAttribute
   nameWithType: PostLoginPluginAttribute
   fullName: SuperOffice.Security.Principal.PostLoginPluginAttribute
+- uid: SuperOffice.Security.Principal.IUserInfoService
+  commentId: T:SuperOffice.Security.Principal.IUserInfoService
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html
+  name: IUserInfoService
+  nameWithType: IUserInfoService
+  fullName: SuperOffice.Security.Principal.IUserInfoService
+- uid: SuperOffice.Security.Principal.NSIdentityClaimValues
+  commentId: T:SuperOffice.Security.Principal.NSIdentityClaimValues
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  href: SuperOffice.Security.Principal.NSIdentityClaimValues.html
+  name: NSIdentityClaimValues
+  nameWithType: NSIdentityClaimValues
+  fullName: SuperOffice.Security.Principal.NSIdentityClaimValues
 - uid: SuperOffice.Security.Principal.PostAuthenticationPluginAttribute
   commentId: T:SuperOffice.Security.Principal.PostAuthenticationPluginAttribute
   isExternal: true
+  href: SuperOffice.Security.Principal.PostAuthenticationPluginAttribute.html
   name: PostAuthenticationPluginAttribute
   nameWithType: PostAuthenticationPluginAttribute
   fullName: SuperOffice.Security.Principal.PostAuthenticationPluginAttribute
 - uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin
   commentId: T:SuperOffice.Security.Principal.IPostAuthenticationPlugin
   isExternal: true
+  href: SuperOffice.Security.Principal.IPostAuthenticationPlugin.html
   name: IPostAuthenticationPlugin
   nameWithType: IPostAuthenticationPlugin
   fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin
-- uid: SuperOffice.Security.Principal.AuthenticationState
-  commentId: T:SuperOffice.Security.Principal.AuthenticationState
-  parent: SuperOffice.Security.Principal
-  isExternal: true
-  name: AuthenticationState
-  nameWithType: AuthenticationState
-  fullName: SuperOffice.Security.Principal.AuthenticationState
 - uid: SuperOffice.Security.Principal.AuthorizationState
   commentId: T:SuperOffice.Security.Principal.AuthorizationState
   parent: SuperOffice.Security.Principal
   isExternal: true
+  href: SuperOffice.Security.Principal.AuthorizationState.html
   name: AuthorizationState
   nameWithType: AuthorizationState
   fullName: SuperOffice.Security.Principal.AuthorizationState
+- uid: SuperOffice.Security.Principal.ShortClaimNames
+  commentId: T:SuperOffice.Security.Principal.ShortClaimNames
+  isExternal: true
+  href: SuperOffice.Security.Principal.ShortClaimNames.html
+  name: ShortClaimNames
+  nameWithType: ShortClaimNames
+  fullName: SuperOffice.Security.Principal.ShortClaimNames
 - uid: SuperOffice.Security.Principal.SoAccessToken
   commentId: T:SuperOffice.Security.Principal.SoAccessToken
   parent: SuperOffice.Security.Principal
   isExternal: true
+  href: SuperOffice.Security.Principal.SoAccessToken.html
   name: SoAccessToken
   nameWithType: SoAccessToken
   fullName: SuperOffice.Security.Principal.SoAccessToken
@@ -129,43 +194,22 @@ references:
   commentId: T:SuperOffice.Security.Principal.SoAuthenticationType
   parent: SuperOffice.Security.Principal
   isExternal: true
+  href: SuperOffice.Security.Principal.SoAuthenticationType.html
   name: SoAuthenticationType
   nameWithType: SoAuthenticationType
   fullName: SuperOffice.Security.Principal.SoAuthenticationType
-- uid: SuperOffice.Security.Principal.SoContextContainer
-  commentId: T:SuperOffice.Security.Principal.SoContextContainer
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal
+  commentId: T:SuperOffice.Security.Principal.SoClaimsPrincipal
   isExternal: true
-  name: SoContextContainer
-  nameWithType: SoContextContainer
-  fullName: SuperOffice.Security.Principal.SoContextContainer
-- uid: SuperOffice.Security.Principal.ISoContextProvider
-  commentId: T:SuperOffice.Security.Principal.ISoContextProvider
-  parent: SuperOffice.Security.Principal
-  isExternal: true
-  name: ISoContextProvider
-  nameWithType: ISoContextProvider
-  fullName: SuperOffice.Security.Principal.ISoContextProvider
-- uid: SuperOffice.Security.Principal.ThreadContextProvider
-  commentId: T:SuperOffice.Security.Principal.ThreadContextProvider
-  isExternal: true
-  name: ThreadContextProvider
-  nameWithType: ThreadContextProvider
-  fullName: SuperOffice.Security.Principal.ThreadContextProvider
-- uid: SuperOffice.Security.Principal.ContextContextProvider
-  commentId: T:SuperOffice.Security.Principal.ContextContextProvider
-  isExternal: true
-  name: ContextContextProvider
-  nameWithType: ContextContextProvider
-  fullName: SuperOffice.Security.Principal.ContextContextProvider
-- uid: SuperOffice.Security.Principal.ProcessContextProvider
-  commentId: T:SuperOffice.Security.Principal.ProcessContextProvider
-  isExternal: true
-  name: ProcessContextProvider
-  nameWithType: ProcessContextProvider
-  fullName: SuperOffice.Security.Principal.ProcessContextProvider
+  href: SuperOffice.Security.Principal.SoClaimsPrincipal.html
+  name: SoClaimsPrincipal
+  nameWithType: SoClaimsPrincipal
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal
 - uid: SuperOffice.Security.Principal.SoSafeCredentials
   commentId: T:SuperOffice.Security.Principal.SoSafeCredentials
+  parent: SuperOffice.Security.Principal
   isExternal: true
+  href: SuperOffice.Security.Principal.SoSafeCredentials.html
   name: SoSafeCredentials
   nameWithType: SoSafeCredentials
   fullName: SuperOffice.Security.Principal.SoSafeCredentials
@@ -173,122 +217,122 @@ references:
   commentId: T:SuperOffice.Security.Principal.SoCredentials
   parent: SuperOffice.Security.Principal
   isExternal: true
+  href: SuperOffice.Security.Principal.SoCredentials.html
   name: SoCredentials
   nameWithType: SoCredentials
   fullName: SuperOffice.Security.Principal.SoCredentials
 - uid: SuperOffice.Security.Principal.SoCredentialsSecurityToken
   commentId: T:SuperOffice.Security.Principal.SoCredentialsSecurityToken
   isExternal: true
+  href: SuperOffice.Security.Principal.SoCredentialsSecurityToken.html
   name: SoCredentialsSecurityToken
   nameWithType: SoCredentialsSecurityToken
   fullName: SuperOffice.Security.Principal.SoCredentialsSecurityToken
-- uid: SuperOffice.Security.Principal.ISoIdentity
-  commentId: T:SuperOffice.Security.Principal.ISoIdentity
-  parent: SuperOffice.Security.Principal
-  isExternal: true
-  name: ISoIdentity
-  nameWithType: ISoIdentity
-  fullName: SuperOffice.Security.Principal.ISoIdentity
-- uid: SuperOffice.Security.Principal.SoPrincipal
-  commentId: T:SuperOffice.Security.Principal.SoPrincipal
-  parent: SuperOffice.Security.Principal
-  isExternal: true
-  name: SoPrincipal
-  nameWithType: SoPrincipal
-  fullName: SuperOffice.Security.Principal.SoPrincipal
-- uid: SuperOffice.Security.Principal.SoPrincipalExtensions
-  commentId: T:SuperOffice.Security.Principal.SoPrincipalExtensions
-  parent: SuperOffice.Security.Principal
-  isExternal: true
-  name: SoPrincipalExtensions
-  nameWithType: SoPrincipalExtensions
-  fullName: SuperOffice.Security.Principal.SoPrincipalExtensions
 - uid: SuperOffice.Security.Principal.ISoTimeZone
   commentId: T:SuperOffice.Security.Principal.ISoTimeZone
   parent: SuperOffice.Security.Principal
   isExternal: true
+  href: SuperOffice.Security.Principal.ISoTimeZone.html
   name: ISoTimeZone
   nameWithType: ISoTimeZone
   fullName: SuperOffice.Security.Principal.ISoTimeZone
 - uid: SuperOffice.Security.Principal.SoTimeZone
   commentId: T:SuperOffice.Security.Principal.SoTimeZone
   isExternal: true
+  href: SuperOffice.Security.Principal.SoTimeZone.html
   name: SoTimeZone
   nameWithType: SoTimeZone
   fullName: SuperOffice.Security.Principal.SoTimeZone
-- uid: SuperOffice.Security.Principal.TicketPrincipalCache
-  commentId: T:SuperOffice.Security.Principal.TicketPrincipalCache
-  parent: SuperOffice.Security.Principal
+- uid: SuperOffice.Security.Principal.ITicketPrincipalCache
+  commentId: T:SuperOffice.Security.Principal.ITicketPrincipalCache
   isExternal: true
-  name: TicketPrincipalCache
-  nameWithType: TicketPrincipalCache
-  fullName: SuperOffice.Security.Principal.TicketPrincipalCache
-- uid: SuperOffice.Security.Principal.AssociateResolver
-  commentId: T:SuperOffice.Security.Principal.AssociateResolver
-  parent: SuperOffice.Security.Principal
-  isExternal: true
-  name: AssociateResolver
-  nameWithType: AssociateResolver
-  fullName: SuperOffice.Security.Principal.AssociateResolver
+  href: SuperOffice.Security.Principal.ITicketPrincipalCache.html
+  name: ITicketPrincipalCache
+  nameWithType: ITicketPrincipalCache
+  fullName: SuperOffice.Security.Principal.ITicketPrincipalCache
 - uid: SuperOffice.Security.Principal.DefaultTokenContextResolver
   commentId: T:SuperOffice.Security.Principal.DefaultTokenContextResolver
   isExternal: true
+  href: SuperOffice.Security.Principal.DefaultTokenContextResolver.html
   name: DefaultTokenContextResolver
   nameWithType: DefaultTokenContextResolver
   fullName: SuperOffice.Security.Principal.DefaultTokenContextResolver
-- uid: SuperOffice.Security.Principal.ExpiredCredentialCleaner
-  commentId: T:SuperOffice.Security.Principal.ExpiredCredentialCleaner
-  isExternal: true
-  name: ExpiredCredentialCleaner
-  nameWithType: ExpiredCredentialCleaner
-  fullName: SuperOffice.Security.Principal.ExpiredCredentialCleaner
-- uid: SuperOffice.Security.Principal.OidcSoIdentity
-  commentId: T:SuperOffice.Security.Principal.OidcSoIdentity
-  isExternal: true
-  name: OidcSoIdentity
-  nameWithType: OidcSoIdentity
-  fullName: SuperOffice.Security.Principal.OidcSoIdentity
 - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
   commentId: T:SuperOffice.Security.Principal.OidcSoIdentityResolver
   isExternal: true
+  href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
   name: OidcSoIdentityResolver
   nameWithType: OidcSoIdentityResolver
   fullName: SuperOffice.Security.Principal.OidcSoIdentityResolver
 - uid: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander
   commentId: T:SuperOffice.Security.Principal.SoAccessTokenClaimsExpander
   isExternal: true
+  href: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.html
   name: SoAccessTokenClaimsExpander
   nameWithType: SoAccessTokenClaimsExpander
   fullName: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander
-- uid: SuperOffice.Security.Principal.SoAccessTokenHelper
-  commentId: T:SuperOffice.Security.Principal.SoAccessTokenHelper
+- uid: SuperOffice.Security.Principal.SoImpersonationIdentityResolver
+  commentId: T:SuperOffice.Security.Principal.SoImpersonationIdentityResolver
+  isExternal: true
+  href: SuperOffice.Security.Principal.SoImpersonationIdentityResolver.html
+  name: SoImpersonationIdentityResolver
+  nameWithType: SoImpersonationIdentityResolver
+  fullName: SuperOffice.Security.Principal.SoImpersonationIdentityResolver
+- uid: SuperOffice.Security.Principal.SoImpersonationIdentityValidator
+  commentId: T:SuperOffice.Security.Principal.SoImpersonationIdentityValidator
+  isExternal: true
+  href: SuperOffice.Security.Principal.SoImpersonationIdentityValidator.html
+  name: SoImpersonationIdentityValidator
+  nameWithType: SoImpersonationIdentityValidator
+  fullName: SuperOffice.Security.Principal.SoImpersonationIdentityValidator
+- uid: SuperOffice.Security.Principal.AssociateResolver
+  commentId: T:SuperOffice.Security.Principal.AssociateResolver
   parent: SuperOffice.Security.Principal
   isExternal: true
+  href: SuperOffice.Security.Principal.AssociateResolver.html
+  name: AssociateResolver
+  nameWithType: AssociateResolver
+  fullName: SuperOffice.Security.Principal.AssociateResolver
+- uid: SuperOffice.Security.Principal.IClaimsPrincipalJwtSigningCredentialsResolver
+  commentId: T:SuperOffice.Security.Principal.IClaimsPrincipalJwtSigningCredentialsResolver
+  isExternal: true
+  href: SuperOffice.Security.Principal.IClaimsPrincipalJwtSigningCredentialsResolver.html
+  name: IClaimsPrincipalJwtSigningCredentialsResolver
+  nameWithType: IClaimsPrincipalJwtSigningCredentialsResolver
+  fullName: SuperOffice.Security.Principal.IClaimsPrincipalJwtSigningCredentialsResolver
+- uid: SuperOffice.Security.Principal.SoAccessTokenHelper
+  commentId: T:SuperOffice.Security.Principal.SoAccessTokenHelper
+  isExternal: true
+  href: SuperOffice.Security.Principal.SoAccessTokenHelper.html
   name: SoAccessTokenHelper
   nameWithType: SoAccessTokenHelper
   fullName: SuperOffice.Security.Principal.SoAccessTokenHelper
 - uid: SuperOffice.Security.Principal.SoCredentialsIdentityResolver
   commentId: T:SuperOffice.Security.Principal.SoCredentialsIdentityResolver
   isExternal: true
+  href: SuperOffice.Security.Principal.SoCredentialsIdentityResolver.html
   name: SoCredentialsIdentityResolver
   nameWithType: SoCredentialsIdentityResolver
   fullName: SuperOffice.Security.Principal.SoCredentialsIdentityResolver
 - uid: SuperOffice.Security.Principal.SoCredentialsIdentityValidator
   commentId: T:SuperOffice.Security.Principal.SoCredentialsIdentityValidator
   isExternal: true
+  href: SuperOffice.Security.Principal.SoCredentialsIdentityValidator.html
   name: SoCredentialsIdentityValidator
   nameWithType: SoCredentialsIdentityValidator
   fullName: SuperOffice.Security.Principal.SoCredentialsIdentityValidator
-- uid: SuperOffice.Security.Principal.SoCredentialsIdentity
-  commentId: T:SuperOffice.Security.Principal.SoCredentialsIdentity
+- uid: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions
+  commentId: T:SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions
   isExternal: true
-  name: SoCredentialsIdentity
-  nameWithType: SoCredentialsIdentity
-  fullName: SuperOffice.Security.Principal.SoCredentialsIdentity
+  href: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.html
+  name: SoDatabaseClaimsPrincipalExtensions
+  nameWithType: SoDatabaseClaimsPrincipalExtensions
+  fullName: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions
 - uid: SuperOffice.Security.Principal.ISoIdentityValidator
   commentId: T:SuperOffice.Security.Principal.ISoIdentityValidator
   parent: SuperOffice.Security.Principal
   isExternal: true
+  href: SuperOffice.Security.Principal.ISoIdentityValidator.html
   name: ISoIdentityValidator
   nameWithType: ISoIdentityValidator
   fullName: SuperOffice.Security.Principal.ISoIdentityValidator
@@ -296,61 +340,58 @@ references:
   commentId: T:SuperOffice.Security.Principal.SoIdentityValidatorAttribute
   parent: SuperOffice.Security.Principal
   isExternal: true
+  href: SuperOffice.Security.Principal.SoIdentityValidatorAttribute.html
   name: SoIdentityValidatorAttribute
   nameWithType: SoIdentityValidatorAttribute
   fullName: SuperOffice.Security.Principal.SoIdentityValidatorAttribute
-- uid: SuperOffice.Security.Principal.SoImpersonationIdentityResolver
-  commentId: T:SuperOffice.Security.Principal.SoImpersonationIdentityResolver
-  isExternal: true
-  name: SoImpersonationIdentityResolver
-  nameWithType: SoImpersonationIdentityResolver
-  fullName: SuperOffice.Security.Principal.SoImpersonationIdentityResolver
-- uid: SuperOffice.Security.Principal.SoImpersonationIdentityValidator
-  commentId: T:SuperOffice.Security.Principal.SoImpersonationIdentityValidator
-  isExternal: true
-  name: SoImpersonationIdentityValidator
-  nameWithType: SoImpersonationIdentityValidator
-  fullName: SuperOffice.Security.Principal.SoImpersonationIdentityValidator
-- uid: SuperOffice.Security.Principal.SoImpersonationIdentity
-  commentId: T:SuperOffice.Security.Principal.SoImpersonationIdentity
-  isExternal: true
-  name: SoImpersonationIdentity
-  nameWithType: SoImpersonationIdentity
-  fullName: SuperOffice.Security.Principal.SoImpersonationIdentity
-- uid: SuperOffice.Security.Principal.SoLocalPrincipal
-  commentId: T:SuperOffice.Security.Principal.SoLocalPrincipal
-  isExternal: true
-  name: SoLocalPrincipal
-  nameWithType: SoLocalPrincipal
-  fullName: SuperOffice.Security.Principal.SoLocalPrincipal
-- uid: SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentryModifier
-  commentId: T:SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentryModifier
-  parent: SuperOffice.Security.Principal
-  isExternal: true
-  name: SoLocalPrincipal.IgnoreSentryModifier
-  nameWithType: SoLocalPrincipal.IgnoreSentryModifier
-  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentryModifier
 - uid: SuperOffice.Security.Principal.UserNameIdentityResolver
   commentId: T:SuperOffice.Security.Principal.UserNameIdentityResolver
   isExternal: true
+  href: SuperOffice.Security.Principal.UserNameIdentityResolver.html
   name: UserNameIdentityResolver
   nameWithType: UserNameIdentityResolver
   fullName: SuperOffice.Security.Principal.UserNameIdentityResolver
 - uid: SuperOffice.Security.Principal.UserNameIdentityValidator
   commentId: T:SuperOffice.Security.Principal.UserNameIdentityValidator
   isExternal: true
+  href: SuperOffice.Security.Principal.UserNameIdentityValidator.html
   name: UserNameIdentityValidator
   nameWithType: UserNameIdentityValidator
   fullName: SuperOffice.Security.Principal.UserNameIdentityValidator
-- uid: SuperOffice.Security.Principal.UserNameIdentity
-  commentId: T:SuperOffice.Security.Principal.UserNameIdentity
-  isExternal: true
-  name: UserNameIdentity
-  nameWithType: UserNameIdentity
-  fullName: SuperOffice.Security.Principal.UserNameIdentity
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Security.Principal
   nameWithType: SuperOffice.Security.Principal
   fullName: SuperOffice.Security.Principal
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html

@@ -20,26 +20,22 @@ items:
   nameWithType: UserPreferenceStrings.NotificationSms
   fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
   syntax:
-    content: 'public static class NotificationSms : Object'
-    content.vb: >-
-      Public Module NotificationSms
-          Inherits Object
+    content: public static class UserPreferenceStrings.NotificationSms
+    content.vb: Public Module UserPreferenceStrings.NotificationSms
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.Section
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationSms.Section
   id: Section
@@ -51,9 +47,6 @@ items:
   nameWithType: UserPreferenceStrings.NotificationSms.Section
   fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.Section
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
@@ -62,12 +55,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Section As String = "notificationSms"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsCustomMessage
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsCustomMessage
   id: NotifySmsCustomMessage
@@ -79,24 +66,16 @@ items:
   nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsCustomMessage
   fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsCustomMessage
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\n(BOOL) Indicates if the user wants custom message notifications.\n"
+  summary: (BOOL) Indicates if the user wants custom message notifications.
+  example: []
   syntax:
     content: public const string NotifySmsCustomMessage = "notifySmsCustomMessage"
     return:
       type: System.String
     content.vb: Public Const NotifySmsCustomMessage As String = "notifySmsCustomMessage"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsFavouriteRequest
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsFavouriteRequest
   id: NotifySmsFavouriteRequest
@@ -108,24 +87,16 @@ items:
   nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsFavouriteRequest
   fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsFavouriteRequest
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her favourite requests are updated.\n"
+  summary: (BOOL) Indicates if the user wants notifications when one of his/her favourite requests are updated.
+  example: []
   syntax:
     content: public const string NotifySmsFavouriteRequest = "notifySmsFavouriteRequest"
     return:
       type: System.String
     content.vb: Public Const NotifySmsFavouriteRequest As String = "notifySmsFavouriteRequest"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestAssignedAway
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestAssignedAway
   id: NotifySmsRequestAssignedAway
@@ -137,24 +108,16 @@ items:
   nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsRequestAssignedAway
   fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestAssignedAway
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her requests were taken by someone else.\n"
+  summary: (BOOL) Indicates if the user wants notifications when one of his/her requests were taken by someone else.
+  example: []
   syntax:
     content: public const string NotifySmsRequestAssignedAway = "notifySmsRequestAssignedAway"
     return:
       type: System.String
     content.vb: Public Const NotifySmsRequestAssignedAway As String = "notifySmsRequestAssignedAway"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestActivated
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestActivated
   id: NotifySmsRequestActivated
@@ -166,24 +129,16 @@ items:
   nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsRequestActivated
   fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestActivated
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her requests were activated.\n"
+  summary: (BOOL) Indicates if the user wants notifications when one of his/her requests were activated.
+  example: []
   syntax:
     content: public const string NotifySmsRequestActivated = "notifySmsRequestActivated"
     return:
       type: System.String
     content.vb: Public Const NotifySmsRequestActivated As String = "notifySmsRequestActivated"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestEscalated
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestEscalated
   id: NotifySmsRequestEscalated
@@ -195,24 +150,16 @@ items:
   nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsRequestEscalated
   fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestEscalated
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her requests were escalated.\n"
+  summary: (BOOL) Indicates if the user wants notifications when one of his/her requests were escalated.
+  example: []
   syntax:
     content: public const string NotifySmsRequestEscalated = "notifySmsRequestEscalated"
     return:
       type: System.String
     content.vb: Public Const NotifySmsRequestEscalated As String = "notifySmsRequestEscalated"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsNewMessage
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsNewMessage
   id: NotifySmsNewMessage
@@ -224,24 +171,16 @@ items:
   nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsNewMessage
   fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsNewMessage
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her requests has a new message.\n"
+  summary: (BOOL) Indicates if the user wants notifications when one of his/her requests has a new message.
+  example: []
   syntax:
     content: public const string NotifySmsNewMessage = "notifySmsNewMessage"
     return:
       type: System.String
     content.vb: Public Const NotifySmsNewMessage As String = "notifySmsNewMessage"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsNewRequest
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsNewRequest
   id: NotifySmsNewRequest
@@ -253,41 +192,278 @@ items:
   nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsNewRequest
   fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsNewRequest
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\n(BOOL) Indicates if the user wants notifications when he/she is assigned a new request.\n"
+  summary: (BOOL) Indicates if the user wants notifications when he/she is assigned a new request.
+  example: []
   syntax:
     content: public const string NotifySmsNewRequest = "notifySmsNewRequest"
     return:
       type: System.String
     content.vb: Public Const NotifySmsNewRequest As String = "notifySmsNewRequest"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -295,6 +471,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

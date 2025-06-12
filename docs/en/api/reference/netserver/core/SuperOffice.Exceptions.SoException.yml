@@ -20,24 +20,31 @@ items:
   nameWithType: SoException
   fullName: SuperOffice.Exceptions.SoException
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Exceptions
-  summary: "\nDefault exception for SuperOffice NetServer.  \n"
-  remarks: "\nOther SuperOffice NetServer exceptions inherit from this exception class.  \nThis exception also supports the <xref href=\"SuperOffice.Diagnostics.SoLogger\" data-throw-if-not-resolved=\"false\"></xref> \nmechanism using the <see cref=\"!:LogException\"></see> method.\n"
+  summary: Default exception for SuperOffice NetServer.
+  remarks: >-
+    Other SuperOffice NetServer exceptions inherit from this exception class.  
+
+    This exception also supports the <xref href="SuperOffice.Diagnostics.SoLogger" data-throw-if-not-resolved="false"></xref> 
+
+    mechanism using the LogException method.
+  example: []
   syntax:
-    content: 'public class SoException : Exception'
+    content: >-
+      [DataContract]
+
+      public class SoException : Exception, ISerializable
     content.vb: >-
-      Public Class SoException
-          Inherits Exception
+      <DataContract>
+
+      Public Class SoException Inherits Exception Implements ISerializable
   inheritance:
   - System.Object
+  - System.Exception
   derivedClasses:
   - SuperOffice.CRM.Rows.RowValidatorException
-  - SuperOffice.CRM.Travel.TravelException
   - SuperOffice.Diagnostics.DiagnoseException
   - SuperOffice.Exceptions.SoConsentException
   - SuperOffice.Exceptions.SoDbAccessException
@@ -59,15 +66,39 @@ items:
   - SuperOffice.Exceptions.SoSessionException
   - SuperOffice.Exceptions.SoValidationException
   - SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
+  implements:
+  - System.Runtime.Serialization.ISerializable
+  inheritedMembers:
+  - System.Exception.GetBaseException
+  - System.Exception.ToString
+  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Exception.GetType
+  - System.Exception.Message
+  - System.Exception.Data
+  - System.Exception.InnerException
+  - System.Exception.TargetSite
+  - System.Exception.StackTrace
+  - System.Exception.HelpLink
+  - System.Exception.Source
+  - System.Exception.HResult
+  - System.Exception.SerializeObjectState
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Exceptions.SoException.EnumUtil.MapEnums``2
   - SuperOffice.Exceptions.SoException.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Exception.SuperOffice.Exceptions.ExceptionHelper.Enumerate
+  - System.Exception.SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1
+  - System.Exception.SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo
+  - System.Exception.SuperOffice.Exceptions.ExceptionHelper.GetInnermostException
+  - System.Exception.SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.String)
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Exceptions.SoException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   commentId: M:SuperOffice.Exceptions.SoException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
@@ -79,9 +110,6 @@ items:
   nameWithType: SoException.SoException(SerializationInfo, StreamingContext)
   fullName: SuperOffice.Exceptions.SoException.SoException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Exceptions
@@ -94,10 +122,9 @@ items:
       type: System.Runtime.Serialization.StreamingContext
     content.vb: Protected Sub New(info As SerializationInfo, context As StreamingContext)
   overload: SuperOffice.Exceptions.SoException.#ctor*
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
+  nameWithType.vb: SoException.New(SerializationInfo, StreamingContext)
+  fullName.vb: SuperOffice.Exceptions.SoException.New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  name.vb: New(SerializationInfo, StreamingContext)
 - uid: SuperOffice.Exceptions.SoException.#ctor(System.String,System.Boolean)
   commentId: M:SuperOffice.Exceptions.SoException.#ctor(System.String,System.Boolean)
   id: '#ctor(System.String,System.Boolean)'
@@ -105,17 +132,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SoException(String, Boolean)
-  nameWithType: SoException.SoException(String, Boolean)
-  fullName: SuperOffice.Exceptions.SoException.SoException(System.String, System.Boolean)
+  name: SoException(string, bool)
+  nameWithType: SoException.SoException(string, bool)
+  fullName: SuperOffice.Exceptions.SoException.SoException(string, bool)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Exceptions
-  summary: "\nDefault constructor.\n"
+  summary: Default constructor.
+  example: []
   syntax:
     content: public SoException(string message, bool logAsException = true)
     parameters:
@@ -127,10 +152,9 @@ items:
       description: Should the exception be logged as an exception with ILogger og simply as a trace message.  Default is True.
     content.vb: Public Sub New(message As String, logAsException As Boolean = True)
   overload: SuperOffice.Exceptions.SoException.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SoException.New(String, Boolean)
+  fullName.vb: SuperOffice.Exceptions.SoException.New(String, Boolean)
+  name.vb: New(String, Boolean)
 - uid: SuperOffice.Exceptions.SoException.#ctor(System.String,System.Exception,System.Nullable{System.Boolean})
   commentId: M:SuperOffice.Exceptions.SoException.#ctor(System.String,System.Exception,System.Nullable{System.Boolean})
   id: '#ctor(System.String,System.Exception,System.Nullable{System.Boolean})'
@@ -138,19 +162,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SoException(String, Exception, Nullable<Boolean>)
-  nameWithType: SoException.SoException(String, Exception, Nullable<Boolean>)
-  fullName: SuperOffice.Exceptions.SoException.SoException(System.String, System.Exception, System.Nullable<System.Boolean>)
+  name: SoException(string, Exception, bool?)
+  nameWithType: SoException.SoException(string, Exception, bool?)
+  fullName: SuperOffice.Exceptions.SoException.SoException(string, System.Exception, bool?)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Exceptions
-  summary: "\nDefault constructor.\n"
+  summary: Default constructor.
+  example: []
   syntax:
-    content: public SoException(string message, Exception innerException, Nullable<bool> logAsException = null)
+    content: public SoException(string message, Exception innerException, bool? logAsException = null)
     parameters:
     - id: message
       type: System.String
@@ -161,15 +183,11 @@ items:
     - id: logAsException
       type: System.Nullable{System.Boolean}
       description: Should the exception be logged as an exception with ILogger og simply as a trace message.  Default is True.
-    content.vb: Public Sub New(message As String, innerException As Exception, logAsException As Nullable(Of Boolean) = Nothing)
+    content.vb: Public Sub New(message As String, innerException As Exception, logAsException As Boolean? = Nothing)
   overload: SuperOffice.Exceptions.SoException.#ctor*
-  nameWithType.vb: SoException.SoException(String, Exception, Nullable(Of Boolean))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Exceptions.SoException.SoException(System.String, System.Exception, System.Nullable(Of System.Boolean))
-  name.vb: SoException(String, Exception, Nullable(Of Boolean))
+  nameWithType.vb: SoException.New(String, Exception, Boolean?)
+  fullName.vb: SuperOffice.Exceptions.SoException.New(String, System.Exception, Boolean?)
+  name.vb: New(String, Exception, Boolean?)
 - uid: SuperOffice.Exceptions.SoException.#ctor(System.String,System.Exception,System.String,System.Nullable{System.Boolean})
   commentId: M:SuperOffice.Exceptions.SoException.#ctor(System.String,System.Exception,System.String,System.Nullable{System.Boolean})
   id: '#ctor(System.String,System.Exception,System.String,System.Nullable{System.Boolean})'
@@ -177,18 +195,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SoException(String, Exception, String, Nullable<Boolean>)
-  nameWithType: SoException.SoException(String, Exception, String, Nullable<Boolean>)
-  fullName: SuperOffice.Exceptions.SoException.SoException(System.String, System.Exception, System.String, System.Nullable<System.Boolean>)
+  name: SoException(string, Exception, string, bool?)
+  nameWithType: SoException.SoException(string, Exception, string, bool?)
+  fullName: SuperOffice.Exceptions.SoException.SoException(string, System.Exception, string, bool?)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Exceptions
   syntax:
-    content: public SoException(string message, Exception innerException, string friendlyText, Nullable<bool> logAsException = null)
+    content: public SoException(string message, Exception innerException, string friendlyText, bool? logAsException = null)
     parameters:
     - id: message
       type: System.String
@@ -198,15 +213,11 @@ items:
       type: System.String
     - id: logAsException
       type: System.Nullable{System.Boolean}
-    content.vb: Public Sub New(message As String, innerException As Exception, friendlyText As String, logAsException As Nullable(Of Boolean) = Nothing)
+    content.vb: Public Sub New(message As String, innerException As Exception, friendlyText As String, logAsException As Boolean? = Nothing)
   overload: SuperOffice.Exceptions.SoException.#ctor*
-  nameWithType.vb: SoException.SoException(String, Exception, String, Nullable(Of Boolean))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Exceptions.SoException.SoException(System.String, System.Exception, System.String, System.Nullable(Of System.Boolean))
-  name.vb: SoException(String, Exception, String, Nullable(Of Boolean))
+  nameWithType.vb: SoException.New(String, Exception, String, Boolean?)
+  fullName.vb: SuperOffice.Exceptions.SoException.New(String, System.Exception, String, Boolean?)
+  name.vb: New(String, Exception, String, Boolean?)
 - uid: SuperOffice.Exceptions.SoException.#ctor(System.String,System.String,System.Boolean)
   commentId: M:SuperOffice.Exceptions.SoException.#ctor(System.String,System.String,System.Boolean)
   id: '#ctor(System.String,System.String,System.Boolean)'
@@ -214,13 +225,10 @@ items:
   langs:
   - csharp
   - vb
-  name: SoException(String, String, Boolean)
-  nameWithType: SoException.SoException(String, String, Boolean)
-  fullName: SuperOffice.Exceptions.SoException.SoException(System.String, System.String, System.Boolean)
+  name: SoException(string, string, bool)
+  nameWithType: SoException.SoException(string, string, bool)
+  fullName: SuperOffice.Exceptions.SoException.SoException(string, string, bool)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Exceptions
@@ -235,10 +243,9 @@ items:
       type: System.Boolean
     content.vb: Public Sub New(message As String, friendlyText As String, logAsException As Boolean)
   overload: SuperOffice.Exceptions.SoException.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SoException.New(String, String, Boolean)
+  fullName.vb: SuperOffice.Exceptions.SoException.New(String, String, Boolean)
+  name.vb: New(String, String, Boolean)
 - uid: SuperOffice.Exceptions.SoException.#ctor(System.String,System.Exception,System.Exception[],System.Nullable{System.Boolean})
   commentId: M:SuperOffice.Exceptions.SoException.#ctor(System.String,System.Exception,System.Exception[],System.Nullable{System.Boolean})
   id: '#ctor(System.String,System.Exception,System.Exception[],System.Nullable{System.Boolean})'
@@ -246,19 +253,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SoException(String, Exception, Exception[], Nullable<Boolean>)
-  nameWithType: SoException.SoException(String, Exception, Exception[], Nullable<Boolean>)
-  fullName: SuperOffice.Exceptions.SoException.SoException(System.String, System.Exception, System.Exception[], System.Nullable<System.Boolean>)
+  name: SoException(string, Exception, Exception[], bool?)
+  nameWithType: SoException.SoException(string, Exception, Exception[], bool?)
+  fullName: SuperOffice.Exceptions.SoException.SoException(string, System.Exception, System.Exception[], bool?)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Exceptions
-  summary: "\nConstructor supporting an array of additional exceptions.\n"
+  summary: Constructor supporting an array of additional exceptions.
+  example: []
   syntax:
-    content: public SoException(string message, Exception innerException, Exception[] cleanupExceptions, Nullable<bool> logAsException = null)
+    content: public SoException(string message, Exception innerException, Exception[] cleanupExceptions, bool? logAsException = null)
     parameters:
     - id: message
       type: System.String
@@ -272,15 +277,11 @@ items:
     - id: logAsException
       type: System.Nullable{System.Boolean}
       description: Should the exception be logged as an exception with ILogger og simply as a trace message.  Default is True.
-    content.vb: Public Sub New(message As String, innerException As Exception, cleanupExceptions As Exception(), logAsException As Nullable(Of Boolean) = Nothing)
+    content.vb: Public Sub New(message As String, innerException As Exception, cleanupExceptions As Exception(), logAsException As Boolean? = Nothing)
   overload: SuperOffice.Exceptions.SoException.#ctor*
-  nameWithType.vb: SoException.SoException(String, Exception, Exception(), Nullable(Of Boolean))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Exceptions.SoException.SoException(System.String, System.Exception, System.Exception(), System.Nullable(Of System.Boolean))
-  name.vb: SoException(String, Exception, Exception(), Nullable(Of Boolean))
+  nameWithType.vb: SoException.New(String, Exception, Exception(), Boolean?)
+  fullName.vb: SuperOffice.Exceptions.SoException.New(String, System.Exception, System.Exception(), Boolean?)
+  name.vb: New(String, Exception, Exception(), Boolean?)
 - uid: SuperOffice.Exceptions.SoException.LogAsException
   commentId: P:SuperOffice.Exceptions.SoException.LogAsException
   id: LogAsException
@@ -292,13 +293,11 @@ items:
   nameWithType: SoException.LogAsException
   fullName: SuperOffice.Exceptions.SoException.LogAsException
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Exceptions
-  summary: "\nShould the exception be logged as an exception with ILogger og simply as a trace message.\n"
+  summary: Should the exception be logged as an exception with ILogger og simply as a trace message.
+  example: []
   syntax:
     content: public bool LogAsException { get; }
     parameters: []
@@ -306,12 +305,6 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property LogAsException As Boolean
   overload: SuperOffice.Exceptions.SoException.LogAsException*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Exceptions.SoException.FriendlyText
   commentId: P:SuperOffice.Exceptions.SoException.FriendlyText
   id: FriendlyText
@@ -323,13 +316,11 @@ items:
   nameWithType: SoException.FriendlyText
   fullName: SuperOffice.Exceptions.SoException.FriendlyText
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Exceptions
-  summary: "\nOptional friendly error message that may be displayed to the user\n"
+  summary: Optional friendly error message that may be displayed to the user
+  example: []
   syntax:
     content: public string FriendlyText { get; set; }
     parameters: []
@@ -337,103 +328,777 @@ items:
       type: System.String
     content.vb: Public Property FriendlyText As String
   overload: SuperOffice.Exceptions.SoException.FriendlyText*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 references:
+- uid: SuperOffice.Diagnostics.SoLogger
+  commentId: T:SuperOffice.Diagnostics.SoLogger
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html
+  name: SoLogger
+  nameWithType: SoLogger
+  fullName: SuperOffice.Diagnostics.SoLogger
 - uid: SuperOffice.Exceptions
   commentId: N:SuperOffice.Exceptions
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Exceptions
   nameWithType: SuperOffice.Exceptions
   fullName: SuperOffice.Exceptions
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Exceptions
+    name: Exceptions
+    isExternal: true
+    href: SuperOffice.Exceptions.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Exceptions
+    name: Exceptions
+    isExternal: true
+    href: SuperOffice.Exceptions.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Runtime.Serialization.ISerializable
+  commentId: T:System.Runtime.Serialization.ISerializable
+  parent: System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: System.Runtime.Serialization.ISerializable
+- uid: System.Exception.GetBaseException
+  commentId: M:System.Exception.GetBaseException
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception
+  name: GetBaseException()
+  nameWithType: Exception.GetBaseException()
+  fullName: System.Exception.GetBaseException()
+  spec.csharp:
+  - uid: System.Exception.GetBaseException
+    name: GetBaseException
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Exception.GetBaseException
+    name: GetBaseException
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception
+  - name: (
+  - name: )
+- uid: System.Exception.ToString
+  commentId: M:System.Exception.ToString
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.tostring
+  name: ToString()
+  nameWithType: Exception.ToString()
+  fullName: System.Exception.ToString()
+  spec.csharp:
+  - uid: System.Exception.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Exception.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.tostring
+  - name: (
+  - name: )
+- uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  nameWithType: Exception.GetObjectData(SerializationInfo, StreamingContext)
+  fullName: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  spec.csharp:
+  - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+  spec.vb:
+  - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+- uid: System.Exception.GetType
+  commentId: M:System.Exception.GetType
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.gettype
+  name: GetType()
+  nameWithType: Exception.GetType()
+  fullName: System.Exception.GetType()
+  spec.csharp:
+  - uid: System.Exception.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Exception.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.gettype
+  - name: (
+  - name: )
+- uid: System.Exception.Message
+  commentId: P:System.Exception.Message
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.message
+  name: Message
+  nameWithType: Exception.Message
+  fullName: System.Exception.Message
+- uid: System.Exception.Data
+  commentId: P:System.Exception.Data
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.data
+  name: Data
+  nameWithType: Exception.Data
+  fullName: System.Exception.Data
+- uid: System.Exception.InnerException
+  commentId: P:System.Exception.InnerException
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.innerexception
+  name: InnerException
+  nameWithType: Exception.InnerException
+  fullName: System.Exception.InnerException
+- uid: System.Exception.TargetSite
+  commentId: P:System.Exception.TargetSite
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.targetsite
+  name: TargetSite
+  nameWithType: Exception.TargetSite
+  fullName: System.Exception.TargetSite
+- uid: System.Exception.StackTrace
+  commentId: P:System.Exception.StackTrace
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.stacktrace
+  name: StackTrace
+  nameWithType: Exception.StackTrace
+  fullName: System.Exception.StackTrace
+- uid: System.Exception.HelpLink
+  commentId: P:System.Exception.HelpLink
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.helplink
+  name: HelpLink
+  nameWithType: Exception.HelpLink
+  fullName: System.Exception.HelpLink
+- uid: System.Exception.Source
+  commentId: P:System.Exception.Source
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.source
+  name: Source
+  nameWithType: Exception.Source
+  fullName: System.Exception.Source
+- uid: System.Exception.HResult
+  commentId: P:System.Exception.HResult
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.hresult
+  name: HResult
+  nameWithType: Exception.HResult
+  fullName: System.Exception.HResult
+- uid: System.Exception.SerializeObjectState
+  commentId: E:System.Exception.SerializeObjectState
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.serializeobjectstate
+  name: SerializeObjectState
+  nameWithType: Exception.SerializeObjectState
+  fullName: System.Exception.SerializeObjectState
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.Exceptions.SoException.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SoException, To>()
-  nameWithType: EnumUtil.MapEnums<SoException, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Exceptions.SoException, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SoException, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Exceptions.SoException, To)()
-  name.vb: MapEnums(Of SoException, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SoException, To>(SoException)
+  nameWithType: EnumUtil.MapEnums<SoException, To>(SoException)
+  fullName: EnumUtil.MapEnums<SuperOffice.Exceptions.SoException, To>(SuperOffice.Exceptions.SoException)
+  nameWithType.vb: EnumUtil.MapEnums(Of SoException, To)(SoException)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Exceptions.SoException, To)(SuperOffice.Exceptions.SoException)
+  name.vb: MapEnums(Of SoException, To)(SoException)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SoException, To>
-    nameWithType: EnumUtil.MapEnums<SoException, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Exceptions.SoException, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Exceptions.SoException)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Exceptions.SoException
+    name: SoException
+    isExternal: true
+    href: SuperOffice.Exceptions.SoException.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Exceptions.SoException
+    name: SoException
+    isExternal: true
+    href: SuperOffice.Exceptions.SoException.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SoException, To)
-    nameWithType: EnumUtil.MapEnums(Of SoException, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Exceptions.SoException, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Exceptions.SoException)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Exceptions.SoException
+    name: SoException
+    isExternal: true
+    href: SuperOffice.Exceptions.SoException.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Exceptions.SoException
+    name: SoException
+    isExternal: true
+    href: SuperOffice.Exceptions.SoException.html
+  - name: )
 - uid: SuperOffice.Exceptions.SoException.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SoException, To>()
-  nameWithType: Converters.MapEnums<SoException, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Exceptions.SoException, To>()
-  nameWithType.vb: Converters.MapEnums(Of SoException, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Exceptions.SoException, To)()
-  name.vb: MapEnums(Of SoException, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SoException, To>(SoException)
+  nameWithType: Converters.MapEnums<SoException, To>(SoException)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Exceptions.SoException, To>(SuperOffice.Exceptions.SoException)
+  nameWithType.vb: Converters.MapEnums(Of SoException, To)(SoException)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Exceptions.SoException, To)(SuperOffice.Exceptions.SoException)
+  name.vb: MapEnums(Of SoException, To)(SoException)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SoException, To>
-    nameWithType: Converters.MapEnums<SoException, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Exceptions.SoException, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Exceptions.SoException)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Exceptions.SoException
+    name: SoException
+    isExternal: true
+    href: SuperOffice.Exceptions.SoException.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Exceptions.SoException
+    name: SoException
+    isExternal: true
+    href: SuperOffice.Exceptions.SoException.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SoException, To)
-    nameWithType: Converters.MapEnums(Of SoException, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Exceptions.SoException, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Exceptions.SoException)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Exceptions.SoException
+    name: SoException
+    isExternal: true
+    href: SuperOffice.Exceptions.SoException.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Exceptions.SoException
+    name: SoException
+    isExternal: true
+    href: SuperOffice.Exceptions.SoException.html
+  - name: )
+- uid: System.Exception.SuperOffice.Exceptions.ExceptionHelper.Enumerate
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  definition: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+  href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_Enumerate_System_Exception_
+  name: Enumerate(Exception)
+  nameWithType: ExceptionHelper.Enumerate(Exception)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+    name: Enumerate
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_Enumerate_System_Exception_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+    name: Enumerate
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_Enumerate_System_Exception_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: System.Exception.SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  definition: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+  href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_FindExceptionOfType__1_System_Exception_
+  name: FindExceptionOfType<T>(Exception)
+  nameWithType: ExceptionHelper.FindExceptionOfType<T>(Exception)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType<T>(System.Exception)
+  nameWithType.vb: ExceptionHelper.FindExceptionOfType(Of T)(Exception)
+  fullName.vb: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType(Of T)(System.Exception)
+  name.vb: FindExceptionOfType(Of T)(Exception)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+    name: FindExceptionOfType
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_FindExceptionOfType__1_System_Exception_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+    name: FindExceptionOfType
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_FindExceptionOfType__1_System_Exception_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: System.Exception.SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  definition: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+  href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_GetExceptionInfo_System_Exception_
+  name: GetExceptionInfo(Exception)
+  nameWithType: ExceptionHelper.GetExceptionInfo(Exception)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+    name: GetExceptionInfo
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_GetExceptionInfo_System_Exception_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+    name: GetExceptionInfo
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_GetExceptionInfo_System_Exception_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: System.Exception.SuperOffice.Exceptions.ExceptionHelper.GetInnermostException
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  definition: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+  href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_GetInnermostException_System_Exception_
+  name: GetInnermostException(Exception)
+  nameWithType: ExceptionHelper.GetInnermostException(Exception)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+    name: GetInnermostException
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_GetInnermostException_System_Exception_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+    name: GetInnermostException
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_GetInnermostException_System_Exception_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: System.Exception.SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.String)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  definition: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+  href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_SimpleMessageStack_System_Exception_System_String_
+  name: SimpleMessageStack(Exception, string)
+  nameWithType: ExceptionHelper.SimpleMessageStack(Exception, string)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception, string)
+  nameWithType.vb: ExceptionHelper.SimpleMessageStack(Exception, String)
+  fullName.vb: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception, String)
+  name.vb: SimpleMessageStack(Exception, String)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+    name: SimpleMessageStack
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_SimpleMessageStack_System_Exception_System_String_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+    name: SimpleMessageStack
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_SimpleMessageStack_System_Exception_System_String_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
+- uid: System.Runtime.Serialization
+  commentId: N:System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Runtime.Serialization
+  nameWithType: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -442,43 +1107,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -487,60 +1154,281 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+  isExternal: true
+  href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_Enumerate_System_Exception_
+  name: Enumerate(Exception)
+  nameWithType: ExceptionHelper.Enumerate(Exception)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+    name: Enumerate
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_Enumerate_System_Exception_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+    name: Enumerate
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_Enumerate_System_Exception_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: SuperOffice.Exceptions.ExceptionHelper
+  commentId: T:SuperOffice.Exceptions.ExceptionHelper
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  href: SuperOffice.Exceptions.ExceptionHelper.html
+  name: ExceptionHelper
+  nameWithType: ExceptionHelper
+  fullName: SuperOffice.Exceptions.ExceptionHelper
+- uid: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+  isExternal: true
+  href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_FindExceptionOfType__1_System_Exception_
+  name: FindExceptionOfType<T>(Exception)
+  nameWithType: ExceptionHelper.FindExceptionOfType<T>(Exception)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType<T>(System.Exception)
+  nameWithType.vb: ExceptionHelper.FindExceptionOfType(Of T)(Exception)
+  fullName.vb: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType(Of T)(System.Exception)
+  name.vb: FindExceptionOfType(Of T)(Exception)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+    name: FindExceptionOfType
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_FindExceptionOfType__1_System_Exception_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+    name: FindExceptionOfType
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_FindExceptionOfType__1_System_Exception_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+  isExternal: true
+  href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_GetExceptionInfo_System_Exception_
+  name: GetExceptionInfo(Exception)
+  nameWithType: ExceptionHelper.GetExceptionInfo(Exception)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+    name: GetExceptionInfo
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_GetExceptionInfo_System_Exception_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+    name: GetExceptionInfo
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_GetExceptionInfo_System_Exception_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+  isExternal: true
+  href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_GetInnermostException_System_Exception_
+  name: GetInnermostException(Exception)
+  nameWithType: ExceptionHelper.GetInnermostException(Exception)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+    name: GetInnermostException
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_GetInnermostException_System_Exception_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+    name: GetInnermostException
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_GetInnermostException_System_Exception_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+  isExternal: true
+  href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_SimpleMessageStack_System_Exception_System_String_
+  name: SimpleMessageStack(Exception, string)
+  nameWithType: ExceptionHelper.SimpleMessageStack(Exception, string)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception, string)
+  nameWithType.vb: ExceptionHelper.SimpleMessageStack(Exception, String)
+  fullName.vb: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception, String)
+  name.vb: SimpleMessageStack(Exception, String)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+    name: SimpleMessageStack
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_SimpleMessageStack_System_Exception_System_String_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+    name: SimpleMessageStack
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_SimpleMessageStack_System_Exception_System_String_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Exceptions.SoException.#ctor*
   commentId: Overload:SuperOffice.Exceptions.SoException.#ctor
   isExternal: true
+  href: SuperOffice.Exceptions.SoException.html#SuperOffice_Exceptions_SoException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
   name: SoException
   nameWithType: SoException.SoException
   fullName: SuperOffice.Exceptions.SoException.SoException
+  nameWithType.vb: SoException.New
+  fullName.vb: SuperOffice.Exceptions.SoException.New
+  name.vb: New
 - uid: System.Runtime.Serialization.SerializationInfo
+  commentId: T:System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
   name: SerializationInfo
   nameWithType: SerializationInfo
   fullName: System.Runtime.Serialization.SerializationInfo
 - uid: System.Runtime.Serialization.StreamingContext
+  commentId: T:System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
   name: StreamingContext
   nameWithType: StreamingContext
   fullName: System.Runtime.Serialization.StreamingContext
@@ -548,104 +1436,78 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Exception
-  isExternal: true
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: System.Nullable{System.Boolean}
-  commentId: '!:System.Nullable{System.Boolean}'
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
   definition: System.Nullable`1
-  name: Nullable<Boolean>
-  nameWithType: Nullable<Boolean>
-  fullName: System.Nullable<System.Boolean>
-  nameWithType.vb: Nullable(Of Boolean)
-  fullName.vb: System.Nullable(Of System.Boolean)
-  name.vb: Nullable(Of Boolean)
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
   spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
   spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
 - uid: System.Nullable`1
+  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Exception[]
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
   name: Exception[]
   nameWithType: Exception[]
   fullName: System.Exception[]
@@ -655,30 +1517,28 @@ references:
   spec.csharp:
   - uid: System.Exception
     name: Exception
-    nameWithType: Exception
-    fullName: System.Exception
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Exception
     name: Exception
-    nameWithType: Exception
-    fullName: System.Exception
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: (
+  - name: )
 - uid: SuperOffice.Exceptions.SoException.LogAsException*
   commentId: Overload:SuperOffice.Exceptions.SoException.LogAsException
   isExternal: true
+  href: SuperOffice.Exceptions.SoException.html#SuperOffice_Exceptions_SoException_LogAsException
   name: LogAsException
   nameWithType: SoException.LogAsException
   fullName: SuperOffice.Exceptions.SoException.LogAsException
 - uid: SuperOffice.Exceptions.SoException.FriendlyText*
   commentId: Overload:SuperOffice.Exceptions.SoException.FriendlyText
   isExternal: true
+  href: SuperOffice.Exceptions.SoException.html#SuperOffice_Exceptions_SoException_FriendlyText
   name: FriendlyText
   nameWithType: SoException.FriendlyText
   fullName: SuperOffice.Exceptions.SoException.FriendlyText

@@ -6,25 +6,26 @@ items:
   parent: SuperOffice.Data
   children:
   - SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand)
-  - SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType)
   - SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType,System.Boolean)
   - SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType,System.Boolean,SuperOffice.Data.SoConnection)
   - SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
   - SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   - SuperOffice.Data.QueryExecutionHelper.Dispose
   - SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
-  - SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
   - SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   - SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,System.Boolean,SuperOffice.Data.SoConnection)
+  - SuperOffice.Data.QueryExecutionHelper.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,SuperOffice.Data.SoConnection,System.Threading.CancellationToken)
+  - SuperOffice.Data.QueryExecutionHelper.ExecuteReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Boolean,SuperOffice.Data.SoConnection,System.Threading.CancellationToken)
   - SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand)
-  - SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
   - SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  - SuperOffice.Data.QueryExecutionHelper.ExecuteScalarAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Boolean,SuperOffice.Data.SoConnection,System.Threading.CancellationToken)
+  - SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Boolean,SuperOffice.Data.SoConnection,System.Threading.CancellationToken)
   - SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand)
   - SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
   - SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   - SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored
   - SuperOffice.Data.QueryExecutionHelper.Reader
-  - SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock(System.Action,System.Boolean,System.Boolean)
+  - SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlockAsync(System.Func{System.Threading.Tasks.Task},System.Boolean,System.Boolean)
   - SuperOffice.Data.QueryExecutionHelper.RowsAffected
   langs:
   - csharp
@@ -33,69 +34,74 @@ items:
   nameWithType: QueryExecutionHelper
   fullName: SuperOffice.Data.QueryExecutionHelper
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nHelper class for executing queries. This class encapsulates the process of getting a connection,\nmaking a command, running it, and cleaning up afterwards.\n"
-  remarks: "\nThis class is most useful in cases where you need to run just one query. This usually calls for a series of\noperations, and try/catch code to make it exception proof to leave no dangling connections or readers. When used\ntogether with a &apos;using&apos; statement as in the example, a good cleanup is guaranteed.\n<example>\nTo use this class, do something similar to this:\n<pre><code>Select appntQuery = S.NewSelect();\nAppointmentTableInfo appntInfo = TablesInfo.GetAppointmentTableInfo();\nappntQuery.ReturnFields.Add( appntInfo.ActiveDate, appntInfo.FreeBusy );\nappntQuery.Restriction = appntInfo.AssociateId.Equal( S.Parameter( taskInfo._associateId ) ).\n	And( appntInfo.ActiveDate.Between( S.Parameter( taskInfo._startDate ), S.Parameter( taskInfo._endDate ) ) ).\n	And( appntInfo.Type.In( \n		S.Parameter( AppointmentType.inDiary ), \n		S.Parameter( AppointmentType.inChecklist ),\n		S.Parameter( AppointmentType.BookingForDiary ),\n		S.Parameter( AppointmentType.BookingForChecklist ) ) );\n\nusing( QueryExecutionHelper qeh = new QueryExecutionHelper( appntQuery ) )\n{\n	while( qeh.Reader.Read() )\n	{\n		ActivitySummary item = taskInfo._items[qeh.Reader.GetDateTime( appntInfo.ActiveDate ).Date];\n		bool isFree = qeh.Reader.GetInt16( appntInfo.FreeBusy ) == 1;\n		if( isFree )\n			++item.NumFreeActivities;\n		else\n			++item.NumBusyActivities;\n	}\n}</code></pre></example>\nYou can also use the class to run insert/update/delete queries, by using one of the constructors that\ntakes an ExecutionType as an argument.\n"
+  summary: >-
+    Helper class for executing queries. This class encapsulates the process of getting a connection,
+
+    making a command, running it, and cleaning up afterwards.
+  remarks: >-
+    This class is most useful in cases where you need to run just one query. This usually calls for a series of
+
+    operations, and try/catch code to make it exception proof to leave no dangling connections or readers. When used
+
+    together with a 'using' statement as in the example, a good cleanup is guaranteed.
+
+    <example>
+
+    To use this class, do something similar to this:
+
+    <pre><code class="lang-csharp">Select appntQuery = S.NewSelect();
+
+    AppointmentTableInfo appntInfo = TablesInfo.GetAppointmentTableInfo();
+
+    appntQuery.ReturnFields.Add( appntInfo.ActiveDate, appntInfo.FreeBusy );
+
+    appntQuery.Restriction = appntInfo.AssociateId.Equal( S.Parameter( taskInfo._associateId ) ).
+    	And( appntInfo.ActiveDate.Between( S.Parameter( taskInfo._startDate ), S.Parameter( taskInfo._endDate ) ) ).
+    	And( appntInfo.Type.In( 
+    		S.Parameter( AppointmentType.inDiary ), 
+    		S.Parameter( AppointmentType.inChecklist ),
+    		S.Parameter( AppointmentType.BookingForDiary ),
+    		S.Parameter( AppointmentType.BookingForChecklist ) ) );
+
+    using( QueryExecutionHelper qeh = new QueryExecutionHelper( appntQuery ) )
+
+    {
+    	while( qeh.Reader.Read() )
+    	{
+    		ActivitySummary item = taskInfo._items[qeh.Reader.GetDateTime( appntInfo.ActiveDate ).Date];
+    		bool isFree = qeh.Reader.GetInt16( appntInfo.FreeBusy ) == 1;
+    		if( isFree )
+    			++item.NumFreeActivities;
+    		else
+    			++item.NumBusyActivities;
+    	}
+    }</code></pre></example>
+
+    You can also use the class to run insert/update/delete queries, by using one of the constructors that
+
+    takes an ExecutionType as an argument.
+  example: []
   syntax:
-    content: 'public sealed class QueryExecutionHelper : Object, IDisposable'
-    content.vb: >-
-      Public NotInheritable Class QueryExecutionHelper
-          Inherits Object
-          Implements IDisposable
+    content: 'public sealed class QueryExecutionHelper : IDisposable'
+    content.vb: Public NotInheritable Class QueryExecutionHelper Implements IDisposable
   inheritance:
   - System.Object
   implements:
   - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
   extensionMethods:
   - SuperOffice.Data.QueryExecutionHelper.EnumUtil.MapEnums``2
   - SuperOffice.Data.QueryExecutionHelper.SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.Data.QueryExecutionHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType)
-  commentId: M:SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType)
-  id: '#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType)'
-  parent: SuperOffice.Data.QueryExecutionHelper
-  langs:
-  - csharp
-  - vb
-  name: QueryExecutionHelper(SqlCommand, QueryExecutionHelper.ExecutionType)
-  nameWithType: QueryExecutionHelper.QueryExecutionHelper(SqlCommand, QueryExecutionHelper.ExecutionType)
-  fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.QueryExecutionHelper.ExecutionType)
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nConstruct a query execution helper, and run the query\n"
-  syntax:
-    content: public QueryExecutionHelper(SqlCommand command, QueryExecutionHelper.ExecutionType executionType)
-    parameters:
-    - id: command
-      type: SuperOffice.Data.SQL.SqlCommand
-      description: SQL command to run
-    - id: executionType
-      type: SuperOffice.Data.QueryExecutionHelper.ExecutionType
-      description: Desired execution type
-    content.vb: Public Sub New(command As SqlCommand, executionType As QueryExecutionHelper.ExecutionType)
-  overload: SuperOffice.Data.QueryExecutionHelper.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand)
   commentId: M:SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand)
   id: '#ctor(SuperOffice.Data.SQL.SqlCommand)'
@@ -107,13 +113,11 @@ items:
   nameWithType: QueryExecutionHelper.QueryExecutionHelper(SqlCommand)
   fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper(SuperOffice.Data.SQL.SqlCommand)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nConstruct a query execution helper, and run the query. This constructor sets a Reader execution type.\n"
+  summary: Construct a query execution helper, and run the query. This constructor sets a Reader execution type.
+  example: []
   syntax:
     content: public QueryExecutionHelper(SqlCommand command)
     parameters:
@@ -122,10 +126,9 @@ items:
       description: SQL command to run
     content.vb: Public Sub New(command As SqlCommand)
   overload: SuperOffice.Data.QueryExecutionHelper.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: QueryExecutionHelper.New(SqlCommand)
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.New(SuperOffice.Data.SQL.SqlCommand)
+  name.vb: New(SqlCommand)
 - uid: SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
   commentId: M:SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
   id: '#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)'
@@ -137,13 +140,11 @@ items:
   nameWithType: QueryExecutionHelper.QueryExecutionHelper(SqlCommand, SoConnection)
   fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.SoConnection)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nConstruct a query execution helper, and run the query. This constructor sets a Reader execution type.\n"
+  summary: Construct a query execution helper, and run the query. This constructor sets a Reader execution type.
+  example: []
   syntax:
     content: public QueryExecutionHelper(SqlCommand command, SoConnection explicitConnection)
     parameters:
@@ -154,10 +155,9 @@ items:
       type: SuperOffice.Data.SoConnection
     content.vb: Public Sub New(command As SqlCommand, explicitConnection As SoConnection)
   overload: SuperOffice.Data.QueryExecutionHelper.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: QueryExecutionHelper.New(SqlCommand, SoConnection)
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.New(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.SoConnection)
+  name.vb: New(SqlCommand, SoConnection)
 - uid: SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType,System.Boolean)
   commentId: M:SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType,System.Boolean)
   id: '#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType,System.Boolean)'
@@ -165,17 +165,15 @@ items:
   langs:
   - csharp
   - vb
-  name: QueryExecutionHelper(SqlCommand, QueryExecutionHelper.ExecutionType, Boolean)
-  nameWithType: QueryExecutionHelper.QueryExecutionHelper(SqlCommand, QueryExecutionHelper.ExecutionType, Boolean)
-  fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.QueryExecutionHelper.ExecutionType, System.Boolean)
+  name: QueryExecutionHelper(SqlCommand, ExecutionType, bool)
+  nameWithType: QueryExecutionHelper.QueryExecutionHelper(SqlCommand, QueryExecutionHelper.ExecutionType, bool)
+  fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.QueryExecutionHelper.ExecutionType, bool)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nConstruct a query execution helper, and run the query. You can specify whether sentry should be ignored.\n"
+  summary: Construct a query execution helper, and run the query. You can specify whether sentry should be ignored.
+  example: []
   syntax:
     content: public QueryExecutionHelper(SqlCommand command, QueryExecutionHelper.ExecutionType executionType, bool ignoreSentry)
     parameters:
@@ -190,10 +188,9 @@ items:
       description: Ignore sentry?
     content.vb: Public Sub New(command As SqlCommand, executionType As QueryExecutionHelper.ExecutionType, ignoreSentry As Boolean)
   overload: SuperOffice.Data.QueryExecutionHelper.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: QueryExecutionHelper.New(SqlCommand, QueryExecutionHelper.ExecutionType, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.New(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.QueryExecutionHelper.ExecutionType, Boolean)
+  name.vb: New(SqlCommand, ExecutionType, Boolean)
 - uid: SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType,System.Boolean,SuperOffice.Data.SoConnection)
   commentId: M:SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType,System.Boolean,SuperOffice.Data.SoConnection)
   id: '#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType,System.Boolean,SuperOffice.Data.SoConnection)'
@@ -201,17 +198,15 @@ items:
   langs:
   - csharp
   - vb
-  name: QueryExecutionHelper(SqlCommand, QueryExecutionHelper.ExecutionType, Boolean, SoConnection)
-  nameWithType: QueryExecutionHelper.QueryExecutionHelper(SqlCommand, QueryExecutionHelper.ExecutionType, Boolean, SoConnection)
-  fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.QueryExecutionHelper.ExecutionType, System.Boolean, SuperOffice.Data.SoConnection)
+  name: QueryExecutionHelper(SqlCommand, ExecutionType, bool, SoConnection)
+  nameWithType: QueryExecutionHelper.QueryExecutionHelper(SqlCommand, QueryExecutionHelper.ExecutionType, bool, SoConnection)
+  fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.QueryExecutionHelper.ExecutionType, bool, SuperOffice.Data.SoConnection)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nConstruct a query execution helper, and run the query. You can specify whether sentry should be ignored.\n"
+  summary: Construct a query execution helper, and run the query. You can specify whether sentry should be ignored.
+  example: []
   syntax:
     content: public QueryExecutionHelper(SqlCommand command, QueryExecutionHelper.ExecutionType executionType, bool ignoreSentry, SoConnection explicitConnection)
     parameters:
@@ -228,10 +223,9 @@ items:
       type: SuperOffice.Data.SoConnection
     content.vb: Public Sub New(command As SqlCommand, executionType As QueryExecutionHelper.ExecutionType, ignoreSentry As Boolean, explicitConnection As SoConnection)
   overload: SuperOffice.Data.QueryExecutionHelper.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: QueryExecutionHelper.New(SqlCommand, QueryExecutionHelper.ExecutionType, Boolean, SoConnection)
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.New(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.QueryExecutionHelper.ExecutionType, Boolean, SuperOffice.Data.SoConnection)
+  name.vb: New(SqlCommand, ExecutionType, Boolean, SoConnection)
 - uid: SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   commentId: M:SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   id: '#ctor(SuperOffice.Data.SQL.SqlCommand,System.Boolean)'
@@ -239,17 +233,18 @@ items:
   langs:
   - csharp
   - vb
-  name: QueryExecutionHelper(SqlCommand, Boolean)
-  nameWithType: QueryExecutionHelper.QueryExecutionHelper(SqlCommand, Boolean)
-  fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper(SuperOffice.Data.SQL.SqlCommand, System.Boolean)
+  name: QueryExecutionHelper(SqlCommand, bool)
+  nameWithType: QueryExecutionHelper.QueryExecutionHelper(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper(SuperOffice.Data.SQL.SqlCommand, bool)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nConstruct a query execution helper, and run the query. This constructor sets a Reader execution type. \nYou can specify whether sentry should be ignored.\n"
+  summary: >-
+    Construct a query execution helper, and run the query. This constructor sets a Reader execution type. 
+
+    You can specify whether sentry should be ignored.
+  example: []
   syntax:
     content: public QueryExecutionHelper(SqlCommand command, bool IgnoreSentry)
     parameters:
@@ -260,10 +255,9 @@ items:
       type: System.Boolean
     content.vb: Public Sub New(command As SqlCommand, IgnoreSentry As Boolean)
   overload: SuperOffice.Data.QueryExecutionHelper.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: QueryExecutionHelper.New(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.New(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: New(SqlCommand, Boolean)
 - uid: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   id: ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
@@ -271,17 +265,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ExecuteScalar(SqlCommand, Boolean)
-  nameWithType: QueryExecutionHelper.ExecuteScalar(SqlCommand, Boolean)
-  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand, System.Boolean)
+  name: ExecuteScalar(SqlCommand, bool)
+  nameWithType: QueryExecutionHelper.ExecuteScalar(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecute a command that has a single-valued (scalar) result, and immediately clean up\n"
+  summary: Execute a command that has a single-valued (scalar) result, and immediately clean up
+  example: []
   syntax:
     content: public static object ExecuteScalar(SqlCommand command, bool ignoreSentry)
     parameters:
@@ -296,12 +288,9 @@ items:
       description: Scalar result, which could be DBNull or a database value
     content.vb: Public Shared Function ExecuteScalar(command As SqlCommand, ignoreSentry As Boolean) As Object
   overload: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: QueryExecutionHelper.ExecuteScalar(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(SqlCommand, Boolean)
 - uid: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand)
   commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand)
   id: ExecuteScalar(SuperOffice.Data.SQL.SqlCommand)
@@ -313,13 +302,11 @@ items:
   nameWithType: QueryExecutionHelper.ExecuteScalar(SqlCommand)
   fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecute a command that has a single-valued (scalar) result, and immediately clean up. Sentry will be ON.\n"
+  summary: Execute a command that has a single-valued (scalar) result, and immediately clean up. Sentry will be ON.
+  example: []
   syntax:
     content: public static object ExecuteScalar(SqlCommand command)
     parameters:
@@ -331,12 +318,6 @@ items:
       description: Scalar result, which could be DBNull or a database value
     content.vb: Public Shared Function ExecuteScalar(command As SqlCommand) As Object
   overload: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand)
   commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand)
   id: ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand)
@@ -348,13 +329,16 @@ items:
   nameWithType: QueryExecutionHelper.ExecuteTypedScalar<ReturnType>(SqlCommand)
   fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar<ReturnType>(SuperOffice.Data.SQL.SqlCommand)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecute a command that has a single-valued (scalar) result, and immediately clean up. Sentry will be ON.\n<p></p>The return value is converted to the given type, if possible. If the result of the query\nwas empty or DBNull, default(ReturnType) is returned (null fro strings, 0 for integers, etc).\n"
+  summary: >-
+    Execute a command that has a single-valued (scalar) result, and immediately clean up. Sentry will be ON.
+
+    <p></p>The return value is converted to the given type, if possible. If the result of the query
+
+    was empty or DBNull, default(ReturnType) is returned (null fro strings, 0 for integers, etc).
+  example: []
   syntax:
     content: public static ReturnType ExecuteTypedScalar<ReturnType>(SqlCommand command)
     parameters:
@@ -369,12 +353,6 @@ items:
     content.vb: Public Shared Function ExecuteTypedScalar(Of ReturnType)(command As SqlCommand) As ReturnType
   overload: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar*
   nameWithType.vb: QueryExecutionHelper.ExecuteTypedScalar(Of ReturnType)(SqlCommand)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar(Of ReturnType)(SuperOffice.Data.SQL.SqlCommand)
   name.vb: ExecuteTypedScalar(Of ReturnType)(SqlCommand)
 - uid: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
@@ -384,17 +362,20 @@ items:
   langs:
   - csharp
   - vb
-  name: ExecuteTypedScalar<ReturnType>(SqlCommand, Boolean)
-  nameWithType: QueryExecutionHelper.ExecuteTypedScalar<ReturnType>(SqlCommand, Boolean)
-  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar<ReturnType>(SuperOffice.Data.SQL.SqlCommand, System.Boolean)
+  name: ExecuteTypedScalar<ReturnType>(SqlCommand, bool)
+  nameWithType: QueryExecutionHelper.ExecuteTypedScalar<ReturnType>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar<ReturnType>(SuperOffice.Data.SQL.SqlCommand, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecute a command that has a single-valued (scalar) result, and immediately clean up.\n<p></p>The return value is converted to the given type, if possible. If the result of the query\nwas empty or DBNull, default(ReturnType) is returned (null fro strings, 0 for integers, etc).\n"
+  summary: >-
+    Execute a command that has a single-valued (scalar) result, and immediately clean up.
+
+    <p></p>The return value is converted to the given type, if possible. If the result of the query
+
+    was empty or DBNull, default(ReturnType) is returned (null fro strings, 0 for integers, etc).
+  example: []
   syntax:
     content: public static ReturnType ExecuteTypedScalar<ReturnType>(SqlCommand command, bool ignoreSentry)
     parameters:
@@ -412,13 +393,7 @@ items:
     content.vb: Public Shared Function ExecuteTypedScalar(Of ReturnType)(command As SqlCommand, ignoreSentry As Boolean) As ReturnType
   overload: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar*
   nameWithType.vb: QueryExecutionHelper.ExecuteTypedScalar(Of ReturnType)(SqlCommand, Boolean)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar(Of ReturnType)(SuperOffice.Data.SQL.SqlCommand, System.Boolean)
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar(Of ReturnType)(SuperOffice.Data.SQL.SqlCommand, Boolean)
   name.vb: ExecuteTypedScalar(Of ReturnType)(SqlCommand, Boolean)
 - uid: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
@@ -427,17 +402,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ExecuteNonQuery(SqlCommand, Boolean)
-  nameWithType: QueryExecutionHelper.ExecuteNonQuery(SqlCommand, Boolean)
-  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand, System.Boolean)
+  name: ExecuteNonQuery(SqlCommand, bool)
+  nameWithType: QueryExecutionHelper.ExecuteNonQuery(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecute a command that has no result (such as an insert or update, maybe a stored-proc call). Clean up immediately.\n"
+  summary: Execute a command that has no result (such as an insert or update, maybe a stored-proc call). Clean up immediately.
+  example: []
   syntax:
     content: public static int ExecuteNonQuery(SqlCommand command, bool ignoreSentry)
     parameters:
@@ -452,12 +425,9 @@ items:
       description: Number of rows affected, as reported by database server
     content.vb: Public Shared Function ExecuteNonQuery(command As SqlCommand, ignoreSentry As Boolean) As Integer
   overload: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: QueryExecutionHelper.ExecuteNonQuery(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteNonQuery(SqlCommand, Boolean)
 - uid: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
   commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
   id: ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
@@ -469,13 +439,14 @@ items:
   nameWithType: QueryExecutionHelper.ExecuteNonQuery(SqlCommand)
   fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecute a command that has no result (such as an insert or update, maybe a stored-proc call). Clean up immediately.\nIn this overload, sentry is ON.\n"
+  summary: >-
+    Execute a command that has no result (such as an insert or update, maybe a stored-proc call). Clean up immediately.
+
+    In this overload, sentry is ON.
+  example: []
   syntax:
     content: public static int ExecuteNonQuery(SqlCommand command)
     parameters:
@@ -487,49 +458,6 @@ items:
       description: Number of rows affected, as reported by database server
     content.vb: Public Shared Function ExecuteNonQuery(command As SqlCommand) As Integer
   overload: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
-  commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
-  id: ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
-  parent: SuperOffice.Data.QueryExecutionHelper
-  langs:
-  - csharp
-  - vb
-  name: ExecuteScalar(SqlCommand, SoConnection)
-  nameWithType: QueryExecutionHelper.ExecuteScalar(SqlCommand, SoConnection)
-  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.SoConnection)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nExecute a command that has a single-valued (scalar) result, and immediately clean up. Sentry will be ON.\n"
-  syntax:
-    content: public static object ExecuteScalar(SqlCommand command, SoConnection explicitConnection)
-    parameters:
-    - id: command
-      type: SuperOffice.Data.SQL.SqlCommand
-      description: Command to execute
-    - id: explicitConnection
-      type: SuperOffice.Data.SoConnection
-    return:
-      type: System.Object
-      description: Scalar result, which could be DBNull or a database value
-    content.vb: Public Shared Function ExecuteScalar(command As SqlCommand, explicitConnection As SoConnection) As Object
-  overload: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
   commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
   id: ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
@@ -541,13 +469,16 @@ items:
   nameWithType: QueryExecutionHelper.ExecuteTypedScalar<ReturnType>(SqlCommand, SoConnection)
   fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar<ReturnType>(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.SoConnection)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecute a command that has a single-valued (scalar) result, and immediately clean up. Sentry will be ON.\n<p></p>The return value is converted to the given type, if possible. If the result of the query\nwas empty or DBNull, default(ReturnType) is returned (null fro strings, 0 for integers, etc).\n"
+  summary: >-
+    Execute a command that has a single-valued (scalar) result, and immediately clean up. Sentry will be ON.
+
+    <p></p>The return value is converted to the given type, if possible. If the result of the query
+
+    was empty or DBNull, default(ReturnType) is returned (null fro strings, 0 for integers, etc).
+  example: []
   syntax:
     content: public static ReturnType ExecuteTypedScalar<ReturnType>(SqlCommand command, SoConnection explicitConnection)
     parameters:
@@ -564,12 +495,6 @@ items:
     content.vb: Public Shared Function ExecuteTypedScalar(Of ReturnType)(command As SqlCommand, explicitConnection As SoConnection) As ReturnType
   overload: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar*
   nameWithType.vb: QueryExecutionHelper.ExecuteTypedScalar(Of ReturnType)(SqlCommand, SoConnection)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar(Of ReturnType)(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.SoConnection)
   name.vb: ExecuteTypedScalar(Of ReturnType)(SqlCommand, SoConnection)
 - uid: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,System.Boolean,SuperOffice.Data.SoConnection)
@@ -579,17 +504,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ExecuteNonQuery(SqlCommand, Boolean, SoConnection)
-  nameWithType: QueryExecutionHelper.ExecuteNonQuery(SqlCommand, Boolean, SoConnection)
-  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand, System.Boolean, SuperOffice.Data.SoConnection)
+  name: ExecuteNonQuery(SqlCommand, bool, SoConnection)
+  nameWithType: QueryExecutionHelper.ExecuteNonQuery(SqlCommand, bool, SoConnection)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand, bool, SuperOffice.Data.SoConnection)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecute a command that has no result (such as an insert or update, maybe a stored-proc call). Clean up immediately.\n"
+  summary: Execute a command that has no result (such as an insert or update, maybe a stored-proc call). Clean up immediately.
+  example: []
   syntax:
     content: public static int ExecuteNonQuery(SqlCommand command, bool ignoreSentry, SoConnection explicitConnection)
     parameters:
@@ -605,84 +528,209 @@ items:
       type: System.Int32
     content.vb: Public Shared Function ExecuteNonQuery(command As SqlCommand, ignoreSentry As Boolean, explicitConnection As SoConnection) As Integer
   overload: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
-  commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
-  id: ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  nameWithType.vb: QueryExecutionHelper.ExecuteNonQuery(SqlCommand, Boolean, SoConnection)
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand, Boolean, SuperOffice.Data.SoConnection)
+  name.vb: ExecuteNonQuery(SqlCommand, Boolean, SoConnection)
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteScalarAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Boolean,SuperOffice.Data.SoConnection,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteScalarAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Boolean,SuperOffice.Data.SoConnection,System.Threading.CancellationToken)
+  id: ExecuteScalarAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Boolean,SuperOffice.Data.SoConnection,System.Threading.CancellationToken)
   parent: SuperOffice.Data.QueryExecutionHelper
   langs:
   - csharp
   - vb
-  name: ExecuteNonQuery(SqlCommand, SoConnection)
-  nameWithType: QueryExecutionHelper.ExecuteNonQuery(SqlCommand, SoConnection)
-  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.SoConnection)
+  name: ExecuteScalarAsync(SqlCommand, bool, bool, SoConnection, CancellationToken)
+  nameWithType: QueryExecutionHelper.ExecuteScalarAsync(SqlCommand, bool, bool, SoConnection, CancellationToken)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteScalarAsync(SuperOffice.Data.SQL.SqlCommand, bool, bool, SuperOffice.Data.SoConnection, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nExecute a command that has no result (such as an insert or update, maybe a stored-proc call). Clean up immediately.\nIn this overload, sentry is ON.\n"
+  summary: Execute a command that has a single-valued (scalar) result, and immediately clean up
+  example: []
   syntax:
-    content: public static int ExecuteNonQuery(SqlCommand command, SoConnection explicitConnection)
+    content: public static Task<object> ExecuteScalarAsync(SqlCommand command, bool ignoreSentry = false, bool useUnauthenticatedConnection = false, SoConnection explicitConnection = null, CancellationToken cancellationToken = default)
     parameters:
     - id: command
       type: SuperOffice.Data.SQL.SqlCommand
       description: Command to execute
+    - id: ignoreSentry
+      type: System.Boolean
+      description: Should Sentry be ignored?
+    - id: useUnauthenticatedConnection
+      type: System.Boolean
+      description: This value shall only be true when performing queries during the logon process.
     - id: explicitConnection
       type: SuperOffice.Data.SoConnection
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Shared Function ExecuteNonQuery(command As SqlCommand, explicitConnection As SoConnection) As Integer
-  overload: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock(System.Action,System.Boolean,System.Boolean)
-  commentId: M:SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock(System.Action,System.Boolean,System.Boolean)
-  id: RepeatIfDeadlock(System.Action,System.Boolean,System.Boolean)
+      type: System.Threading.Tasks.Task{System.Object}
+      description: Scalar result, which could be DBNull or a database value
+    content.vb: Public Shared Function ExecuteScalarAsync(command As SqlCommand, ignoreSentry As Boolean = False, useUnauthenticatedConnection As Boolean = False, explicitConnection As SoConnection = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of Object)
+  overload: SuperOffice.Data.QueryExecutionHelper.ExecuteScalarAsync*
+  nameWithType.vb: QueryExecutionHelper.ExecuteScalarAsync(SqlCommand, Boolean, Boolean, SoConnection, CancellationToken)
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.ExecuteScalarAsync(SuperOffice.Data.SQL.SqlCommand, Boolean, Boolean, SuperOffice.Data.SoConnection, System.Threading.CancellationToken)
+  name.vb: ExecuteScalarAsync(SqlCommand, Boolean, Boolean, SoConnection, CancellationToken)
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Boolean,SuperOffice.Data.SoConnection,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Boolean,SuperOffice.Data.SoConnection,System.Threading.CancellationToken)
+  id: ExecuteTypedScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Boolean,SuperOffice.Data.SoConnection,System.Threading.CancellationToken)
   parent: SuperOffice.Data.QueryExecutionHelper
   langs:
   - csharp
   - vb
-  name: RepeatIfDeadlock(Action, Boolean, Boolean)
-  nameWithType: QueryExecutionHelper.RepeatIfDeadlock(Action, Boolean, Boolean)
-  fullName: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock(System.Action, System.Boolean, System.Boolean)
+  name: ExecuteTypedScalarAsync<ReturnType>(SqlCommand, bool, bool, SoConnection, CancellationToken)
+  nameWithType: QueryExecutionHelper.ExecuteTypedScalarAsync<ReturnType>(SqlCommand, bool, bool, SoConnection, CancellationToken)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalarAsync<ReturnType>(SuperOffice.Data.SQL.SqlCommand, bool, bool, SuperOffice.Data.SoConnection, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nPerform the action, and if we get a &quot;you are the deadlock victim&quot;, wait a little while and try again a few times before giving up\n"
-  remarks: "\nBeing selected as a deadlock victim means none of your work was done, so you can retry it. In the general case this might be\nan iffy thing to do, since the reason/content for our work might be impacted by whatever the other party did. However, in cases\nwhere this is not thought to be a problem, a simply &apos;try the same thing again&apos; strategy works, and is implemented here.<br />\nTypical call: <br />\n<pre><code>QueryExecutionHelper.RepeatIfDeadlock(() => rows.Save());</code></pre>\nNote the use of a no-parameter lambda that captures the &apos;rows&apos; variable from its scope\n"
+  summary: >-
+    Execute a command that has a single-valued (scalar) result, and immediately clean up. Sentry can be ignored.
+
+    <p></p>The return value is converted to the given type, if possible. If the result of the query
+
+    was empty or DBNull, default(ReturnType) is returned (null fro strings, 0 for integers, etc).
+  example: []
   syntax:
-    content: public static void RepeatIfDeadlock(Action a, bool throwOnUnresolvedDeadlock = true, bool throwOnOtherException = true)
+    content: public static Task<ReturnType> ExecuteTypedScalarAsync<ReturnType>(SqlCommand command, bool ignoreSentry = false, bool useUnauthenticatedConnection = false, SoConnection explicitConnection = null, CancellationToken cancellationToken = default)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: Command to execute
+    - id: ignoreSentry
+      type: System.Boolean
+      description: Should Sentry be ignored?
+    - id: useUnauthenticatedConnection
+      type: System.Boolean
+    - id: explicitConnection
+      type: SuperOffice.Data.SoConnection
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    typeParameters:
+    - id: ReturnType
+    return:
+      type: System.Threading.Tasks.Task{{ReturnType}}
+      description: Scalar result, correctly cast; or default(ReturnType)
+    content.vb: Public Shared Function ExecuteTypedScalarAsync(Of ReturnType)(command As SqlCommand, ignoreSentry As Boolean = False, useUnauthenticatedConnection As Boolean = False, explicitConnection As SoConnection = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of ReturnType)
+  overload: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalarAsync*
+  nameWithType.vb: QueryExecutionHelper.ExecuteTypedScalarAsync(Of ReturnType)(SqlCommand, Boolean, Boolean, SoConnection, CancellationToken)
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalarAsync(Of ReturnType)(SuperOffice.Data.SQL.SqlCommand, Boolean, Boolean, SuperOffice.Data.SoConnection, System.Threading.CancellationToken)
+  name.vb: ExecuteTypedScalarAsync(Of ReturnType)(SqlCommand, Boolean, Boolean, SoConnection, CancellationToken)
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,SuperOffice.Data.SoConnection,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,SuperOffice.Data.SoConnection,System.Threading.CancellationToken)
+  id: ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,SuperOffice.Data.SoConnection,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: ExecuteNonQueryAsync(SqlCommand, bool, SoConnection, CancellationToken)
+  nameWithType: QueryExecutionHelper.ExecuteNonQueryAsync(SqlCommand, bool, SoConnection, CancellationToken)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand, bool, SuperOffice.Data.SoConnection, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: Execute a command that has no result (such as an insert or update, maybe a stored-proc call). Clean up immediately.
+  example: []
+  syntax:
+    content: public static Task<int> ExecuteNonQueryAsync(SqlCommand command, bool ignoreSentry = false, SoConnection explicitConnection = null, CancellationToken cancellationToken = default)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: Command to execute
+    - id: ignoreSentry
+      type: System.Boolean
+    - id: explicitConnection
+      type: SuperOffice.Data.SoConnection
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function ExecuteNonQueryAsync(command As SqlCommand, ignoreSentry As Boolean = False, explicitConnection As SoConnection = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQueryAsync*
+  nameWithType.vb: QueryExecutionHelper.ExecuteNonQueryAsync(SqlCommand, Boolean, SoConnection, CancellationToken)
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand, Boolean, SuperOffice.Data.SoConnection, System.Threading.CancellationToken)
+  name.vb: ExecuteNonQueryAsync(SqlCommand, Boolean, SoConnection, CancellationToken)
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Boolean,SuperOffice.Data.SoConnection,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Boolean,SuperOffice.Data.SoConnection,System.Threading.CancellationToken)
+  id: ExecuteReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Boolean,SuperOffice.Data.SoConnection,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: ExecuteReaderAsync(SqlCommand, bool, bool, SoConnection, CancellationToken)
+  nameWithType: QueryExecutionHelper.ExecuteReaderAsync(SqlCommand, bool, bool, SoConnection, CancellationToken)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteReaderAsync(SuperOffice.Data.SQL.SqlCommand, bool, bool, SuperOffice.Data.SoConnection, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static Task<QueryExecutionHelper> ExecuteReaderAsync(SqlCommand command, bool ignoreSentry = false, bool useUnauthenticatedConnection = false, SoConnection explicitConnection = null, CancellationToken cancellationToken = default)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+    - id: ignoreSentry
+      type: System.Boolean
+    - id: useUnauthenticatedConnection
+      type: System.Boolean
+    - id: explicitConnection
+      type: SuperOffice.Data.SoConnection
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.QueryExecutionHelper}
+    content.vb: Public Shared Function ExecuteReaderAsync(command As SqlCommand, ignoreSentry As Boolean = False, useUnauthenticatedConnection As Boolean = False, explicitConnection As SoConnection = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of QueryExecutionHelper)
+  overload: SuperOffice.Data.QueryExecutionHelper.ExecuteReaderAsync*
+  nameWithType.vb: QueryExecutionHelper.ExecuteReaderAsync(SqlCommand, Boolean, Boolean, SoConnection, CancellationToken)
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.ExecuteReaderAsync(SuperOffice.Data.SQL.SqlCommand, Boolean, Boolean, SuperOffice.Data.SoConnection, System.Threading.CancellationToken)
+  name.vb: ExecuteReaderAsync(SqlCommand, Boolean, Boolean, SoConnection, CancellationToken)
+- uid: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlockAsync(System.Func{System.Threading.Tasks.Task},System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlockAsync(System.Func{System.Threading.Tasks.Task},System.Boolean,System.Boolean)
+  id: RepeatIfDeadlockAsync(System.Func{System.Threading.Tasks.Task},System.Boolean,System.Boolean)
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: RepeatIfDeadlockAsync(Func<Task>, bool, bool)
+  nameWithType: QueryExecutionHelper.RepeatIfDeadlockAsync(Func<Task>, bool, bool)
+  fullName: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlockAsync(System.Func<System.Threading.Tasks.Task>, bool, bool)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: Perform the action, and if we get a "you are the deadlock victim", wait a little while and try again a few times before giving up
+  remarks: >-
+    Being selected as a deadlock victim means none of your work was done, so you can retry it. In the general case this might be
+
+    an iffy thing to do, since the reason/content for our work might be impacted by whatever the other party did. However, in cases
+
+    where this is not thought to be a problem, a simply 'try the same thing again' strategy works, and is implemented here.<br />
+
+    Typical call: <br />
+
+    <pre><code class="lang-csharp">QueryExecutionHelper.RepeatIfDeadlock(() =&gt; rows.Save());</code></pre>
+
+    Note the use of a no-parameter lambda that captures the 'rows' variable from its scope
+  example: []
+  syntax:
+    content: public static Task RepeatIfDeadlockAsync(Func<Task> a, bool throwOnUnresolvedDeadlock = true, bool throwOnOtherException = true)
     parameters:
     - id: a
-      type: System.Action
+      type: System.Func{System.Threading.Tasks.Task}
+      description: ''
     - id: throwOnUnresolvedDeadlock
       type: System.Boolean
     - id: throwOnOtherException
       type: System.Boolean
-    content.vb: Public Shared Sub RepeatIfDeadlock(a As Action, throwOnUnresolvedDeadlock As Boolean = True, throwOnOtherException As Boolean = True)
-  overload: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function RepeatIfDeadlockAsync(a As Func(Of Task), throwOnUnresolvedDeadlock As Boolean = True, throwOnOtherException As Boolean = True) As Task
+  overload: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlockAsync*
+  nameWithType.vb: QueryExecutionHelper.RepeatIfDeadlockAsync(Func(Of Task), Boolean, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlockAsync(System.Func(Of System.Threading.Tasks.Task), Boolean, Boolean)
+  name.vb: RepeatIfDeadlockAsync(Func(Of Task), Boolean, Boolean)
 - uid: SuperOffice.Data.QueryExecutionHelper.Dispose
   commentId: M:SuperOffice.Data.QueryExecutionHelper.Dispose
   id: Dispose
@@ -694,21 +742,17 @@ items:
   nameWithType: QueryExecutionHelper.Dispose()
   fullName: SuperOffice.Data.QueryExecutionHelper.Dispose()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nClean up sentry check, reader, command and connection\n"
+  summary: Clean up sentry check, reader, command and connection
+  example: []
   syntax:
     content: public void Dispose()
-    content.vb: Public Sub Dispose
+    content.vb: Public Sub Dispose()
   overload: SuperOffice.Data.QueryExecutionHelper.Dispose*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  implements:
+  - System.IDisposable.Dispose
 - uid: SuperOffice.Data.QueryExecutionHelper.Reader
   commentId: P:SuperOffice.Data.QueryExecutionHelper.Reader
   id: Reader
@@ -720,13 +764,11 @@ items:
   nameWithType: QueryExecutionHelper.Reader
   fullName: SuperOffice.Data.QueryExecutionHelper.Reader
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nThe SoDataReader that represents the results of the query, if it is a select\n"
+  summary: The SoDataReader that represents the results of the query, if it is a select
+  example: []
   syntax:
     content: public SoDataReader Reader { get; }
     parameters: []
@@ -734,12 +776,6 @@ items:
       type: SuperOffice.Data.SoDataReader
     content.vb: Public ReadOnly Property Reader As SoDataReader
   overload: SuperOffice.Data.QueryExecutionHelper.Reader*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored
   commentId: P:SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored
   id: IsSentryIgnored
@@ -751,13 +787,16 @@ items:
   nameWithType: QueryExecutionHelper.IsSentryIgnored
   fullName: SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nHas ignoreSentry = true been specified for this query execution helper. Note that ignore sentry may\nbe in effect as a consequence of earlier actions, such as a call to LocalPrincipal.BeginIgnoreSentryCheck; this\nis NOT reflected in the value you get here.\n"
+  summary: >-
+    Has ignoreSentry = true been specified for this query execution helper. Note that ignore sentry may
+
+    be in effect as a consequence of earlier actions, such as a call to LocalPrincipal.BeginIgnoreSentryCheck; this
+
+    is NOT reflected in the value you get here.
+  example: []
   syntax:
     content: public bool IsSentryIgnored { get; }
     parameters: []
@@ -765,12 +804,6 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsSentryIgnored As Boolean
   overload: SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Data.QueryExecutionHelper.RowsAffected
   commentId: P:SuperOffice.Data.QueryExecutionHelper.RowsAffected
   id: RowsAffected
@@ -782,9 +815,6 @@ items:
   nameWithType: QueryExecutionHelper.RowsAffected
   fullName: SuperOffice.Data.QueryExecutionHelper.RowsAffected
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -795,149 +825,407 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property RowsAffected As Integer
   overload: SuperOffice.Data.QueryExecutionHelper.RowsAffected*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.QueryExecutionHelper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<QueryExecutionHelper, To>()
-  nameWithType: EnumUtil.MapEnums<QueryExecutionHelper, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.QueryExecutionHelper, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of QueryExecutionHelper, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.QueryExecutionHelper, To)()
-  name.vb: MapEnums(Of QueryExecutionHelper, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<QueryExecutionHelper, To>(QueryExecutionHelper)
+  nameWithType: EnumUtil.MapEnums<QueryExecutionHelper, To>(QueryExecutionHelper)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.QueryExecutionHelper, To>(SuperOffice.Data.QueryExecutionHelper)
+  nameWithType.vb: EnumUtil.MapEnums(Of QueryExecutionHelper, To)(QueryExecutionHelper)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.QueryExecutionHelper, To)(SuperOffice.Data.QueryExecutionHelper)
+  name.vb: MapEnums(Of QueryExecutionHelper, To)(QueryExecutionHelper)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<QueryExecutionHelper, To>
-    nameWithType: EnumUtil.MapEnums<QueryExecutionHelper, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.QueryExecutionHelper, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.QueryExecutionHelper)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.QueryExecutionHelper
+    name: QueryExecutionHelper
+    isExternal: true
+    href: SuperOffice.Data.QueryExecutionHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.QueryExecutionHelper
+    name: QueryExecutionHelper
+    isExternal: true
+    href: SuperOffice.Data.QueryExecutionHelper.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of QueryExecutionHelper, To)
-    nameWithType: EnumUtil.MapEnums(Of QueryExecutionHelper, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.QueryExecutionHelper, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.QueryExecutionHelper)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.QueryExecutionHelper
+    name: QueryExecutionHelper
+    isExternal: true
+    href: SuperOffice.Data.QueryExecutionHelper.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.QueryExecutionHelper
+    name: QueryExecutionHelper
+    isExternal: true
+    href: SuperOffice.Data.QueryExecutionHelper.html
+  - name: )
 - uid: SuperOffice.Data.QueryExecutionHelper.SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead(SuperOffice.Data.QueryExecutionHelper,SuperOffice.Data.SQL.FieldInfo)
   parent: SuperOffice.Data.QueryExectionExtensions
   definition: SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead(SuperOffice.Data.QueryExecutionHelper,SuperOffice.Data.SQL.FieldInfo)
-  name: GetFieldPropertyRead(FieldInfo)
-  nameWithType: QueryExectionExtensions.GetFieldPropertyRead(FieldInfo)
-  fullName: SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead(SuperOffice.Data.SQL.FieldInfo)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_GetFieldPropertyRead_SuperOffice_Data_QueryExecutionHelper_SuperOffice_Data_SQL_FieldInfo_
+  name: GetFieldPropertyRead(QueryExecutionHelper, FieldInfo)
+  nameWithType: QueryExectionExtensions.GetFieldPropertyRead(QueryExecutionHelper, FieldInfo)
+  fullName: SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead(SuperOffice.Data.QueryExecutionHelper, SuperOffice.Data.SQL.FieldInfo)
   spec.csharp:
-  - uid: SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead(SuperOffice.Data.SQL.FieldInfo)
+  - uid: SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead(SuperOffice.Data.QueryExecutionHelper,SuperOffice.Data.SQL.FieldInfo)
     name: GetFieldPropertyRead
-    nameWithType: QueryExectionExtensions.GetFieldPropertyRead
-    fullName: SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead
     isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_GetFieldPropertyRead_SuperOffice_Data_QueryExecutionHelper_SuperOffice_Data_SQL_FieldInfo_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.QueryExecutionHelper
+    name: QueryExecutionHelper
+    isExternal: true
+    href: SuperOffice.Data.QueryExecutionHelper.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead(SuperOffice.Data.SQL.FieldInfo)
+  - uid: SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead(SuperOffice.Data.QueryExecutionHelper,SuperOffice.Data.SQL.FieldInfo)
     name: GetFieldPropertyRead
-    nameWithType: QueryExectionExtensions.GetFieldPropertyRead
-    fullName: SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead
     isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_GetFieldPropertyRead_SuperOffice_Data_QueryExecutionHelper_SuperOffice_Data_SQL_FieldInfo_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.QueryExecutionHelper
+    name: QueryExecutionHelper
+    isExternal: true
+    href: SuperOffice.Data.QueryExecutionHelper.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.QueryExecutionHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<QueryExecutionHelper, To>()
-  nameWithType: Converters.MapEnums<QueryExecutionHelper, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.QueryExecutionHelper, To>()
-  nameWithType.vb: Converters.MapEnums(Of QueryExecutionHelper, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.QueryExecutionHelper, To)()
-  name.vb: MapEnums(Of QueryExecutionHelper, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<QueryExecutionHelper, To>(QueryExecutionHelper)
+  nameWithType: Converters.MapEnums<QueryExecutionHelper, To>(QueryExecutionHelper)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.QueryExecutionHelper, To>(SuperOffice.Data.QueryExecutionHelper)
+  nameWithType.vb: Converters.MapEnums(Of QueryExecutionHelper, To)(QueryExecutionHelper)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.QueryExecutionHelper, To)(SuperOffice.Data.QueryExecutionHelper)
+  name.vb: MapEnums(Of QueryExecutionHelper, To)(QueryExecutionHelper)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<QueryExecutionHelper, To>
-    nameWithType: Converters.MapEnums<QueryExecutionHelper, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.QueryExecutionHelper, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.QueryExecutionHelper)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.QueryExecutionHelper
+    name: QueryExecutionHelper
+    isExternal: true
+    href: SuperOffice.Data.QueryExecutionHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.QueryExecutionHelper
+    name: QueryExecutionHelper
+    isExternal: true
+    href: SuperOffice.Data.QueryExecutionHelper.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of QueryExecutionHelper, To)
-    nameWithType: Converters.MapEnums(Of QueryExecutionHelper, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.QueryExecutionHelper, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.QueryExecutionHelper)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.QueryExecutionHelper
+    name: QueryExecutionHelper
+    isExternal: true
+    href: SuperOffice.Data.QueryExecutionHelper.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.QueryExecutionHelper
+    name: QueryExecutionHelper
+    isExternal: true
+    href: SuperOffice.Data.QueryExecutionHelper.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -946,106 +1234,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead(SuperOffice.Data.QueryExecutionHelper,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead(SuperOffice.Data.QueryExecutionHelper,SuperOffice.Data.SQL.FieldInfo)
   isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_GetFieldPropertyRead_SuperOffice_Data_QueryExecutionHelper_SuperOffice_Data_SQL_FieldInfo_
   name: GetFieldPropertyRead(QueryExecutionHelper, FieldInfo)
   nameWithType: QueryExectionExtensions.GetFieldPropertyRead(QueryExecutionHelper, FieldInfo)
   fullName: SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead(SuperOffice.Data.QueryExecutionHelper, SuperOffice.Data.SQL.FieldInfo)
   spec.csharp:
   - uid: SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead(SuperOffice.Data.QueryExecutionHelper,SuperOffice.Data.SQL.FieldInfo)
     name: GetFieldPropertyRead
-    nameWithType: QueryExectionExtensions.GetFieldPropertyRead
-    fullName: SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead
     isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_GetFieldPropertyRead_SuperOffice_Data_QueryExecutionHelper_SuperOffice_Data_SQL_FieldInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.QueryExecutionHelper
     name: QueryExecutionHelper
-    nameWithType: QueryExecutionHelper
-    fullName: SuperOffice.Data.QueryExecutionHelper
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.QueryExecutionHelper.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead(SuperOffice.Data.QueryExecutionHelper,SuperOffice.Data.SQL.FieldInfo)
     name: GetFieldPropertyRead
-    nameWithType: QueryExectionExtensions.GetFieldPropertyRead
-    fullName: SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead
     isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_GetFieldPropertyRead_SuperOffice_Data_QueryExecutionHelper_SuperOffice_Data_SQL_FieldInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.QueryExecutionHelper
     name: QueryExecutionHelper
-    nameWithType: QueryExecutionHelper
-    fullName: SuperOffice.Data.QueryExecutionHelper
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.QueryExecutionHelper.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.QueryExectionExtensions
   commentId: T:SuperOffice.Data.QueryExectionExtensions
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html
   name: QueryExectionExtensions
   nameWithType: QueryExectionExtensions
   fullName: SuperOffice.Data.QueryExectionExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1054,96 +1330,192 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Data.QueryExecutionHelper.#ctor*
   commentId: Overload:SuperOffice.Data.QueryExecutionHelper.#ctor
   isExternal: true
+  href: SuperOffice.Data.QueryExecutionHelper.html#SuperOffice_Data_QueryExecutionHelper__ctor_SuperOffice_Data_SQL_SqlCommand_
   name: QueryExecutionHelper
   nameWithType: QueryExecutionHelper.QueryExecutionHelper
   fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper
+  nameWithType.vb: QueryExecutionHelper.New
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.New
+  name.vb: New
 - uid: SuperOffice.Data.SQL.SqlCommand
   commentId: T:SuperOffice.Data.SQL.SqlCommand
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.SqlCommand.html
   name: SqlCommand
   nameWithType: SqlCommand
   fullName: SuperOffice.Data.SQL.SqlCommand
-- uid: SuperOffice.Data.QueryExecutionHelper.ExecutionType
-  commentId: T:SuperOffice.Data.QueryExecutionHelper.ExecutionType
-  parent: SuperOffice.Data
-  isExternal: true
-  name: QueryExecutionHelper.ExecutionType
-  nameWithType: QueryExecutionHelper.ExecutionType
-  fullName: SuperOffice.Data.QueryExecutionHelper.ExecutionType
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.Data.SoConnection
   commentId: T:SuperOffice.Data.SoConnection
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.SoConnection.html
   name: SoConnection
   nameWithType: SoConnection
   fullName: SuperOffice.Data.SoConnection
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecutionType
+  commentId: T:SuperOffice.Data.QueryExecutionHelper.ExecutionType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.QueryExecutionHelper.html
+  name: QueryExecutionHelper.ExecutionType
+  nameWithType: QueryExecutionHelper.ExecutionType
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecutionType
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExecutionHelper
+    name: QueryExecutionHelper
+    isExternal: true
+    href: SuperOffice.Data.QueryExecutionHelper.html
+  - name: .
+  - uid: SuperOffice.Data.QueryExecutionHelper.ExecutionType
+    name: ExecutionType
+    isExternal: true
+    href: SuperOffice.Data.QueryExecutionHelper.ExecutionType.html
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExecutionHelper
+    name: QueryExecutionHelper
+    isExternal: true
+    href: SuperOffice.Data.QueryExecutionHelper.html
+  - name: .
+  - uid: SuperOffice.Data.QueryExecutionHelper.ExecutionType
+    name: ExecutionType
+    isExternal: true
+    href: SuperOffice.Data.QueryExecutionHelper.ExecutionType.html
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar*
   commentId: Overload:SuperOffice.Data.QueryExecutionHelper.ExecuteScalar
   isExternal: true
+  href: SuperOffice.Data.QueryExecutionHelper.html#SuperOffice_Data_QueryExecutionHelper_ExecuteScalar_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
   name: ExecuteScalar
   nameWithType: QueryExecutionHelper.ExecuteScalar
   fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar
 - uid: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar*
   commentId: Overload:SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar
   isExternal: true
+  href: SuperOffice.Data.QueryExecutionHelper.html#SuperOffice_Data_QueryExecutionHelper_ExecuteTypedScalar__1_SuperOffice_Data_SQL_SqlCommand_
   name: ExecuteTypedScalar
   nameWithType: QueryExecutionHelper.ExecuteTypedScalar
   fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar
@@ -1160,6 +1532,7 @@ references:
 - uid: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery*
   commentId: Overload:SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery
   isExternal: true
+  href: SuperOffice.Data.QueryExecutionHelper.html#SuperOffice_Data_QueryExecutionHelper_ExecuteNonQuery_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
   name: ExecuteNonQuery
   nameWithType: QueryExecutionHelper.ExecuteNonQuery
   fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery
@@ -1167,29 +1540,386 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock*
-  commentId: Overload:SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteScalarAsync*
+  commentId: Overload:SuperOffice.Data.QueryExecutionHelper.ExecuteScalarAsync
   isExternal: true
-  name: RepeatIfDeadlock
-  nameWithType: QueryExecutionHelper.RepeatIfDeadlock
-  fullName: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock
-- uid: System.Action
+  href: SuperOffice.Data.QueryExecutionHelper.html#SuperOffice_Data_QueryExecutionHelper_ExecuteScalarAsync_SuperOffice_Data_SQL_SqlCommand_System_Boolean_System_Boolean_SuperOffice_Data_SoConnection_System_Threading_CancellationToken_
+  name: ExecuteScalarAsync
+  nameWithType: QueryExecutionHelper.ExecuteScalarAsync
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteScalarAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: Action
-  nameWithType: Action
-  fullName: System.Action
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Object}
+  commentId: T:System.Threading.Tasks.Task{System.Object}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<object>
+  nameWithType: Task<object>
+  fullName: System.Threading.Tasks.Task<object>
+  nameWithType.vb: Task(Of Object)
+  fullName.vb: System.Threading.Tasks.Task(Of Object)
+  name.vb: Task(Of Object)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalarAsync*
+  commentId: Overload:SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalarAsync
+  isExternal: true
+  href: SuperOffice.Data.QueryExecutionHelper.html#SuperOffice_Data_QueryExecutionHelper_ExecuteTypedScalarAsync__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_System_Boolean_SuperOffice_Data_SoConnection_System_Threading_CancellationToken_
+  name: ExecuteTypedScalarAsync
+  nameWithType: QueryExecutionHelper.ExecuteTypedScalarAsync
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalarAsync
+- uid: System.Threading.Tasks.Task{{ReturnType}}
+  commentId: T:System.Threading.Tasks.Task{``0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ReturnType>
+  nameWithType: Task<ReturnType>
+  fullName: System.Threading.Tasks.Task<ReturnType>
+  nameWithType.vb: Task(Of ReturnType)
+  fullName.vb: System.Threading.Tasks.Task(Of ReturnType)
+  name.vb: Task(Of ReturnType)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: ReturnType
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ReturnType
+  - name: )
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQueryAsync*
+  commentId: Overload:SuperOffice.Data.QueryExecutionHelper.ExecuteNonQueryAsync
+  isExternal: true
+  href: SuperOffice.Data.QueryExecutionHelper.html#SuperOffice_Data_QueryExecutionHelper_ExecuteNonQueryAsync_SuperOffice_Data_SQL_SqlCommand_System_Boolean_SuperOffice_Data_SoConnection_System_Threading_CancellationToken_
+  name: ExecuteNonQueryAsync
+  nameWithType: QueryExecutionHelper.ExecuteNonQueryAsync
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQueryAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteReaderAsync*
+  commentId: Overload:SuperOffice.Data.QueryExecutionHelper.ExecuteReaderAsync
+  isExternal: true
+  href: SuperOffice.Data.QueryExecutionHelper.html#SuperOffice_Data_QueryExecutionHelper_ExecuteReaderAsync_SuperOffice_Data_SQL_SqlCommand_System_Boolean_System_Boolean_SuperOffice_Data_SoConnection_System_Threading_CancellationToken_
+  name: ExecuteReaderAsync
+  nameWithType: QueryExecutionHelper.ExecuteReaderAsync
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteReaderAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.QueryExecutionHelper}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.QueryExecutionHelper}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<QueryExecutionHelper>
+  nameWithType: Task<QueryExecutionHelper>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.QueryExecutionHelper>
+  nameWithType.vb: Task(Of QueryExecutionHelper)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.QueryExecutionHelper)
+  name.vb: Task(Of QueryExecutionHelper)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.QueryExecutionHelper
+    name: QueryExecutionHelper
+    isExternal: true
+    href: SuperOffice.Data.QueryExecutionHelper.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.QueryExecutionHelper
+    name: QueryExecutionHelper
+    isExternal: true
+    href: SuperOffice.Data.QueryExecutionHelper.html
+  - name: )
+- uid: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlockAsync*
+  commentId: Overload:SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlockAsync
+  isExternal: true
+  href: SuperOffice.Data.QueryExecutionHelper.html#SuperOffice_Data_QueryExecutionHelper_RepeatIfDeadlockAsync_System_Func_System_Threading_Tasks_Task__System_Boolean_System_Boolean_
+  name: RepeatIfDeadlockAsync
+  nameWithType: QueryExecutionHelper.RepeatIfDeadlockAsync
+  fullName: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlockAsync
+- uid: System.Func{System.Threading.Tasks.Task}
+  commentId: T:System.Func{System.Threading.Tasks.Task}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<Task>
+  nameWithType: Func<Task>
+  fullName: System.Func<System.Threading.Tasks.Task>
+  nameWithType.vb: Func(Of Task)
+  fullName.vb: System.Func(Of System.Threading.Tasks.Task)
+  name.vb: Func(Of Task)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
 - uid: SuperOffice.Data.QueryExecutionHelper.Dispose*
   commentId: Overload:SuperOffice.Data.QueryExecutionHelper.Dispose
   isExternal: true
+  href: SuperOffice.Data.QueryExecutionHelper.html#SuperOffice_Data_QueryExecutionHelper_Dispose
   name: Dispose
   nameWithType: QueryExecutionHelper.Dispose
   fullName: SuperOffice.Data.QueryExecutionHelper.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.QueryExecutionHelper.Reader*
   commentId: Overload:SuperOffice.Data.QueryExecutionHelper.Reader
   isExternal: true
+  href: SuperOffice.Data.QueryExecutionHelper.html#SuperOffice_Data_QueryExecutionHelper_Reader
   name: Reader
   nameWithType: QueryExecutionHelper.Reader
   fullName: SuperOffice.Data.QueryExecutionHelper.Reader
@@ -1197,18 +1927,21 @@ references:
   commentId: T:SuperOffice.Data.SoDataReader
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.SoDataReader.html
   name: SoDataReader
   nameWithType: SoDataReader
   fullName: SuperOffice.Data.SoDataReader
 - uid: SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored*
   commentId: Overload:SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored
   isExternal: true
+  href: SuperOffice.Data.QueryExecutionHelper.html#SuperOffice_Data_QueryExecutionHelper_IsSentryIgnored
   name: IsSentryIgnored
   nameWithType: QueryExecutionHelper.IsSentryIgnored
   fullName: SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored
 - uid: SuperOffice.Data.QueryExecutionHelper.RowsAffected*
   commentId: Overload:SuperOffice.Data.QueryExecutionHelper.RowsAffected
   isExternal: true
+  href: SuperOffice.Data.QueryExecutionHelper.html#SuperOffice_Data_QueryExecutionHelper_RowsAffected
   name: RowsAffected
   nameWithType: QueryExecutionHelper.RowsAffected
   fullName: SuperOffice.Data.QueryExecutionHelper.RowsAffected

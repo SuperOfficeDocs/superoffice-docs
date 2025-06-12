@@ -12,8 +12,8 @@ items:
   - SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.LinkType
   - SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.Page
   - SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.Pressed
-  - SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.ShipmentId
   - SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SLinkCustomerStaticalId
+  - SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.ShipmentId
   langs:
   - csharp
   - vb
@@ -21,33 +21,41 @@ items:
   nameWithType: SLinkCustomerStaticalRecordData
   fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the s_link_customer_statical table.\n"
-  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.SLinkCustomerStaticalRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  summary: >-
+    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
+
+    to a row from the s_link_customer_statical table.
+  remarks: >-
+    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.SLinkCustomerStaticalRow" data-throw-if-not-resolved="false"></xref> object when
+
+    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
+
+    since they carry the corresponding <xref href="SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo" data-throw-if-not-resolved="false"></xref> object, which
+
+    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
+  example: []
   syntax:
-    content: 'public class SLinkCustomerStaticalRecordData : Object'
-    content.vb: >-
-      Public Class SLinkCustomerStaticalRecordData
-          Inherits Object
+    content: public class SLinkCustomerStaticalRecordData
+    content.vb: Public Class SLinkCustomerStaticalRecordData
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
   - SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SLinkCustomerStaticalId
   commentId: F:SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SLinkCustomerStaticalId
   id: SLinkCustomerStaticalId
@@ -59,22 +67,16 @@ items:
   nameWithType: SLinkCustomerStaticalRecordData.SLinkCustomerStaticalId
   fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SLinkCustomerStaticalId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
     content: public int SLinkCustomerStaticalId
     return:
       type: System.Int32
     content.vb: Public SLinkCustomerStaticalId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.Email
   commentId: F:SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.Email
   id: Email
@@ -86,22 +88,16 @@ items:
   nameWithType: SLinkCustomerStaticalRecordData.Email
   fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.Email
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe email address of the bounced email \n"
+  summary: The email address of the bounced email
+  example: []
   syntax:
     content: public string Email
     return:
       type: System.String
     content.vb: Public Email As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.LinkId
   commentId: F:SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.LinkId
   id: LinkId
@@ -113,22 +109,16 @@ items:
   nameWithType: SLinkCustomerStaticalRecordData.LinkId
   fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.LinkId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nConnection to a link that the customer clicked on \n"
+  summary: Connection to a link that the customer clicked on
+  example: []
   syntax:
     content: public int LinkId
     return:
       type: System.Int32
     content.vb: Public LinkId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.ShipmentId
   commentId: F:SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.ShipmentId
   id: ShipmentId
@@ -140,22 +130,16 @@ items:
   nameWithType: SLinkCustomerStaticalRecordData.ShipmentId
   fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.ShipmentId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nWhich shipment the customer received. \n"
+  summary: Which shipment the customer received.
+  example: []
   syntax:
     content: public int ShipmentId
     return:
       type: System.Int32
     content.vb: Public ShipmentId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.Pressed
   commentId: F:SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.Pressed
   id: Pressed
@@ -167,22 +151,16 @@ items:
   nameWithType: SLinkCustomerStaticalRecordData.Pressed
   fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.Pressed
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nWhen the link was clicked. \n"
+  summary: When the link was clicked.
+  example: []
   syntax:
     content: public DateTime Pressed
     return:
       type: System.DateTime
-    content.vb: Public Pressed As DateTime
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public Pressed As Date
 - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.LinkType
   commentId: F:SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.LinkType
   id: LinkType
@@ -194,22 +172,16 @@ items:
   nameWithType: SLinkCustomerStaticalRecordData.LinkType
   fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.LinkType
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nIf this is a link to a link or an image (gif/jpeg). See SpmLink::LinkType \n"
+  summary: If this is a link to a link or an image (gif/jpeg). See SpmLink::LinkType
+  example: []
   syntax:
     content: public ShipmentLinkType LinkType
     return:
       type: SuperOffice.Data.ShipmentLinkType
     content.vb: Public LinkType As ShipmentLinkType
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.Page
   commentId: F:SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.Page
   id: Page
@@ -221,22 +193,16 @@ items:
   nameWithType: SLinkCustomerStaticalRecordData.Page
   fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.Page
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nIndicates the page number for this gif link \n"
+  summary: Indicates the page number for this gif link
+  example: []
   syntax:
     content: public int Page
     return:
       type: System.Int32
     content.vb: Public Page As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.HttpUserAgent
   commentId: F:SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.HttpUserAgent
   id: HttpUserAgent
@@ -248,22 +214,16 @@ items:
   nameWithType: SLinkCustomerStaticalRecordData.HttpUserAgent
   fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.HttpUserAgent
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe HTTP_USER_AGENT reported when the customer opened this link \n"
+  summary: The HTTP_USER_AGENT reported when the customer opened this link
+  example: []
   syntax:
     content: public string HttpUserAgent
     return:
       type: System.String
     content.vb: Public HttpUserAgent As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.#ctor
   id: '#ctor'
@@ -275,220 +235,602 @@ items:
   nameWithType: SLinkCustomerStaticalRecordData.SLinkCustomerStaticalRecordData()
   fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SLinkCustomerStaticalRecordData()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public SLinkCustomerStaticalRecordData()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SLinkCustomerStaticalRecordData.New()
+  fullName.vb: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.New()
+  name.vb: New()
 references:
+- uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRow
+  commentId: T:SuperOffice.CRM.Rows.SLinkCustomerStaticalRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRow.html
+  name: SLinkCustomerStaticalRow
+  nameWithType: SLinkCustomerStaticalRow
+  fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRow
+- uid: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo
+  commentId: T:SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.html
+  name: SLinkCustomerStaticalTableInfo
+  nameWithType: SLinkCustomerStaticalTableInfo
+  fullName: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SLinkCustomerStaticalRecordData, To>()
-  nameWithType: EnumUtil.MapEnums<SLinkCustomerStaticalRecordData, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SLinkCustomerStaticalRecordData, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData, To)()
-  name.vb: MapEnums(Of SLinkCustomerStaticalRecordData, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SLinkCustomerStaticalRecordData, To>(SLinkCustomerStaticalRecordData)
+  nameWithType: EnumUtil.MapEnums<SLinkCustomerStaticalRecordData, To>(SLinkCustomerStaticalRecordData)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData, To>(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+  nameWithType.vb: EnumUtil.MapEnums(Of SLinkCustomerStaticalRecordData, To)(SLinkCustomerStaticalRecordData)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData, To)(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+  name.vb: MapEnums(Of SLinkCustomerStaticalRecordData, To)(SLinkCustomerStaticalRecordData)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SLinkCustomerStaticalRecordData, To>
-    nameWithType: EnumUtil.MapEnums<SLinkCustomerStaticalRecordData, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SLinkCustomerStaticalRecordData, To)
-    nameWithType: EnumUtil.MapEnums(Of SLinkCustomerStaticalRecordData, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<SLinkCustomerStaticalRecordData>(SLinkCustomerStaticalRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<SLinkCustomerStaticalRecordData>(SLinkCustomerStaticalRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData>(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SLinkCustomerStaticalRecordData)(SLinkCustomerStaticalRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
-  name.vb: AssignByReflection(Of SLinkCustomerStaticalRecordData)(SLinkCustomerStaticalRecordData)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<SLinkCustomerStaticalRecordData>
-    nameWithType: ObjectExtensions.AssignByReflection<SLinkCustomerStaticalRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
     name: SLinkCustomerStaticalRecordData
-    nameWithType: SLinkCustomerStaticalRecordData
-    fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of SLinkCustomerStaticalRecordData)
-    nameWithType: ObjectExtensions.AssignByReflection(Of SLinkCustomerStaticalRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
-    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
     name: SLinkCustomerStaticalRecordData
-    nameWithType: SLinkCustomerStaticalRecordData
-    fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<SLinkCustomerStaticalRecordData>()
-  nameWithType: ObjectExtensions.GraphCopy<SLinkCustomerStaticalRecordData>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SLinkCustomerStaticalRecordData)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)()
-  name.vb: GraphCopy(Of SLinkCustomerStaticalRecordData)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<SLinkCustomerStaticalRecordData>
-    nameWithType: ObjectExtensions.GraphCopy<SLinkCustomerStaticalRecordData>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of SLinkCustomerStaticalRecordData)
-    nameWithType: ObjectExtensions.GraphCopy(Of SLinkCustomerStaticalRecordData)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+  - name: (
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
-  name: ToInsert()
-  nameWithType: SLinkCustomerStaticalRecordDataExtensions.ToInsert()
-  fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsert()
+  definition: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData,System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.html#SuperOffice_CRM_Rows_SLinkCustomerStaticalRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_SLinkCustomerStaticalRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(SLinkCustomerStaticalRecordData, CancellationToken)
+  nameWithType: SLinkCustomerStaticalRecordDataExtensions.ToInsertAsync(SLinkCustomerStaticalRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SLinkCustomerStaticalRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.html#SuperOffice_CRM_Rows_SLinkCustomerStaticalRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_SLinkCustomerStaticalRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsert
-    name: ToInsert
-    nameWithType: SLinkCustomerStaticalRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.html#SuperOffice_CRM_Rows_SLinkCustomerStaticalRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_SLinkCustomerStaticalRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SLinkCustomerStaticalRecordData, To>()
-  nameWithType: Converters.MapEnums<SLinkCustomerStaticalRecordData, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData, To>()
-  nameWithType.vb: Converters.MapEnums(Of SLinkCustomerStaticalRecordData, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData, To)()
-  name.vb: MapEnums(Of SLinkCustomerStaticalRecordData, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SLinkCustomerStaticalRecordData, To>(SLinkCustomerStaticalRecordData)
+  nameWithType: Converters.MapEnums<SLinkCustomerStaticalRecordData, To>(SLinkCustomerStaticalRecordData)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData, To>(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+  nameWithType.vb: Converters.MapEnums(Of SLinkCustomerStaticalRecordData, To)(SLinkCustomerStaticalRecordData)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData, To)(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+  name.vb: MapEnums(Of SLinkCustomerStaticalRecordData, To)(SLinkCustomerStaticalRecordData)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SLinkCustomerStaticalRecordData, To>
-    nameWithType: Converters.MapEnums<SLinkCustomerStaticalRecordData, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SLinkCustomerStaticalRecordData, To)
-    nameWithType: Converters.MapEnums(Of SLinkCustomerStaticalRecordData, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<SLinkCustomerStaticalRecordData>(SLinkCustomerStaticalRecordData, SLinkCustomerStaticalRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<SLinkCustomerStaticalRecordData>(SLinkCustomerStaticalRecordData, SLinkCustomerStaticalRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData>(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData, SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SLinkCustomerStaticalRecordData)(SLinkCustomerStaticalRecordData, SLinkCustomerStaticalRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData, SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+  name.vb: AssignByReflection(Of SLinkCustomerStaticalRecordData)(SLinkCustomerStaticalRecordData, SLinkCustomerStaticalRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData,SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData,SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<SLinkCustomerStaticalRecordData>(SLinkCustomerStaticalRecordData)
+  nameWithType: ObjectExtensions.GraphCopy<SLinkCustomerStaticalRecordData>(SLinkCustomerStaticalRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData>(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SLinkCustomerStaticalRecordData)(SLinkCustomerStaticalRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+  name.vb: GraphCopy(Of SLinkCustomerStaticalRecordData)(SLinkCustomerStaticalRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
+    name: SLinkCustomerStaticalRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -497,187 +839,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+- uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData,System.Threading.CancellationToken)
   isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
+  href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.html#SuperOffice_CRM_Rows_SLinkCustomerStaticalRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_SLinkCustomerStaticalRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(SLinkCustomerStaticalRecordData, CancellationToken)
+  nameWithType: SLinkCustomerStaticalRecordDataExtensions.ToInsertAsync(SLinkCustomerStaticalRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.html#SuperOffice_CRM_Rows_SLinkCustomerStaticalRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_SLinkCustomerStaticalRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
-  isExternal: true
-  name: ToInsert(SLinkCustomerStaticalRecordData)
-  nameWithType: SLinkCustomerStaticalRecordDataExtensions.ToInsert(SLinkCustomerStaticalRecordData)
-  fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
-    name: ToInsert
-    nameWithType: SLinkCustomerStaticalRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsert
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
     name: SLinkCustomerStaticalRecordData
-    nameWithType: SLinkCustomerStaticalRecordData
-    fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData)
-    name: ToInsert
-    nameWithType: SLinkCustomerStaticalRecordDataExtensions.ToInsert
-    fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsert
+  - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
     isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.html#SuperOffice_CRM_Rows_SLinkCustomerStaticalRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_SLinkCustomerStaticalRecordData_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
     name: SLinkCustomerStaticalRecordData
-    nameWithType: SLinkCustomerStaticalRecordData
-    fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData
     isExternal: true
+    href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions
   commentId: T:SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions
   parent: SuperOffice.CRM.Rows
   isExternal: true
+  href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions.html
   name: SLinkCustomerStaticalRecordDataExtensions
   nameWithType: SLinkCustomerStaticalRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -686,88 +935,263 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.Data.ShipmentLinkType
   commentId: T:SuperOffice.Data.ShipmentLinkType
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.ShipmentLinkType.html
   name: ShipmentLinkType
   nameWithType: ShipmentLinkType
   fullName: SuperOffice.Data.ShipmentLinkType
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.html#SuperOffice_CRM_Rows_SLinkCustomerStaticalRecordData__ctor
   name: SLinkCustomerStaticalRecordData
   nameWithType: SLinkCustomerStaticalRecordData.SLinkCustomerStaticalRecordData
   fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.SLinkCustomerStaticalRecordData
+  nameWithType.vb: SLinkCustomerStaticalRecordData.New
+  fullName.vb: SuperOffice.CRM.Rows.SLinkCustomerStaticalRecordData.New
+  name.vb: New

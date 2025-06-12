@@ -9,67 +9,44 @@ items:
   - SuperOffice.Data.EmailReplyToType.ReplyToOnlySpecified
   - SuperOffice.Data.EmailReplyToType.ReplyToSalesContact
   - SuperOffice.Data.EmailReplyToType.ReplyToSupportContact
-  - SuperOffice.Data.EmailReplyToType.value__
   langs:
   - csharp
   - vb
   name: EmailReplyToType
   nameWithType: EmailReplyToType
   fullName: SuperOffice.Data.EmailReplyToType
-  type: Class
-  source:
-    path: SoCore
-    isExternal: true
+  type: Enum
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nEmail/Mailing ReplyTo field address algorithm\nThis Enum is used by:  email_flow.reply_to_type\n"
-  syntax:
-    content: 'public sealed class EmailReplyToType : Enum'
-    content.vb: >-
-      Public NotInheritable Class EmailReplyToType
-          Inherits
+  summary: >-
+    Email/Mailing ReplyTo field address algorithm
 
-           Enum
-  inheritance:
-  - System.Object
+    This Enum is used by:  email_flow.reply_to_type
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public enum EmailReplyToType : short
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Enum EmailReplyToType As Short
   extensionMethods:
   - SuperOffice.Data.EmailReplyToType.EnumUtil.MapEnums``2
   - SuperOffice.Data.EmailReplyToType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.Data.EmailReplyToType.value__
-  commentId: F:SuperOffice.Data.EmailReplyToType.value__
-  id: value__
-  parent: SuperOffice.Data.EmailReplyToType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: EmailReplyToType.value__
-  fullName: SuperOffice.Data.EmailReplyToType.value__
-  type: Field
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Data
-  syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.Data.EmailReplyToType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EmailReplyToType)
+  - SuperOffice.Data.EmailReplyToType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.Data.EmailReplyToType.ReplyToOnlySpecified
   commentId: F:SuperOffice.Data.EmailReplyToType.ReplyToOnlySpecified
   id: ReplyToOnlySpecified
@@ -81,24 +58,26 @@ items:
   nameWithType: EmailReplyToType.ReplyToOnlySpecified
   fullName: SuperOffice.Data.EmailReplyToType.ReplyToOnlySpecified
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n0: ReplyToOnlySpecified\n"
+  summary: '0: ReplyToOnlySpecified'
+  example: []
   syntax:
-    content: public const EmailReplyToType ReplyToOnlySpecified
+    content: >-
+      [EnumMember]
+
+      ReplyToOnlySpecified = 0
     return:
       type: SuperOffice.Data.EmailReplyToType
-    content.vb: Public Const ReplyToOnlySpecified As EmailReplyToType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyToOnlySpecified = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EmailReplyToType.ReplyToSalesContact
   commentId: F:SuperOffice.Data.EmailReplyToType.ReplyToSalesContact
   id: ReplyToSalesContact
@@ -110,24 +89,26 @@ items:
   nameWithType: EmailReplyToType.ReplyToSalesContact
   fullName: SuperOffice.Data.EmailReplyToType.ReplyToSalesContact
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1: ReplyToSalesContact\n"
+  summary: '1: ReplyToSalesContact'
+  example: []
   syntax:
-    content: public const EmailReplyToType ReplyToSalesContact
+    content: >-
+      [EnumMember]
+
+      ReplyToSalesContact = 1
     return:
       type: SuperOffice.Data.EmailReplyToType
-    content.vb: Public Const ReplyToSalesContact As EmailReplyToType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyToSalesContact = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EmailReplyToType.ReplyToSupportContact
   commentId: F:SuperOffice.Data.EmailReplyToType.ReplyToSupportContact
   id: ReplyToSupportContact
@@ -139,24 +120,26 @@ items:
   nameWithType: EmailReplyToType.ReplyToSupportContact
   fullName: SuperOffice.Data.EmailReplyToType.ReplyToSupportContact
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n2: ReplyToSupportContact\n"
+  summary: '2: ReplyToSupportContact'
+  example: []
   syntax:
-    content: public const EmailReplyToType ReplyToSupportContact
+    content: >-
+      [EnumMember]
+
+      ReplyToSupportContact = 2
     return:
       type: SuperOffice.Data.EmailReplyToType
-    content.vb: Public Const ReplyToSupportContact As EmailReplyToType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyToSupportContact = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EmailReplyToType.ReplyToEmpty
   commentId: F:SuperOffice.Data.EmailReplyToType.ReplyToEmpty
   id: ReplyToEmpty
@@ -168,115 +151,300 @@ items:
   nameWithType: EmailReplyToType.ReplyToEmpty
   fullName: SuperOffice.Data.EmailReplyToType.ReplyToEmpty
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n3: ReplyToEmpty (skip reply-to header, email agents will use from instead)\n"
+  summary: '3: ReplyToEmpty (skip reply-to header, email agents will use from instead)'
+  example: []
   syntax:
-    content: public const EmailReplyToType ReplyToEmpty
+    content: >-
+      [EnumMember]
+
+      ReplyToEmpty = 3
     return:
       type: SuperOffice.Data.EmailReplyToType
-    content.vb: Public Const ReplyToEmpty As EmailReplyToType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ReplyToEmpty = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.EmailReplyToType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<EmailReplyToType, To>()
-  nameWithType: EnumUtil.MapEnums<EmailReplyToType, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.EmailReplyToType, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of EmailReplyToType, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.EmailReplyToType, To)()
-  name.vb: MapEnums(Of EmailReplyToType, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<EmailReplyToType, To>(EmailReplyToType)
+  nameWithType: EnumUtil.MapEnums<EmailReplyToType, To>(EmailReplyToType)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.EmailReplyToType, To>(SuperOffice.Data.EmailReplyToType)
+  nameWithType.vb: EnumUtil.MapEnums(Of EmailReplyToType, To)(EmailReplyToType)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.EmailReplyToType, To)(SuperOffice.Data.EmailReplyToType)
+  name.vb: MapEnums(Of EmailReplyToType, To)(EmailReplyToType)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<EmailReplyToType, To>
-    nameWithType: EnumUtil.MapEnums<EmailReplyToType, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.EmailReplyToType, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.EmailReplyToType)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of EmailReplyToType, To)
-    nameWithType: EnumUtil.MapEnums(Of EmailReplyToType, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.EmailReplyToType, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.EmailReplyToType)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
+  - name: )
 - uid: SuperOffice.Data.EmailReplyToType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<EmailReplyToType, To>()
-  nameWithType: Converters.MapEnums<EmailReplyToType, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EmailReplyToType, To>()
-  nameWithType.vb: Converters.MapEnums(Of EmailReplyToType, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EmailReplyToType, To)()
-  name.vb: MapEnums(Of EmailReplyToType, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<EmailReplyToType, To>(EmailReplyToType)
+  nameWithType: Converters.MapEnums<EmailReplyToType, To>(EmailReplyToType)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EmailReplyToType, To>(SuperOffice.Data.EmailReplyToType)
+  nameWithType.vb: Converters.MapEnums(Of EmailReplyToType, To)(EmailReplyToType)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EmailReplyToType, To)(SuperOffice.Data.EmailReplyToType)
+  name.vb: MapEnums(Of EmailReplyToType, To)(EmailReplyToType)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<EmailReplyToType, To>
-    nameWithType: Converters.MapEnums<EmailReplyToType, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EmailReplyToType, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.EmailReplyToType)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of EmailReplyToType, To)
-    nameWithType: Converters.MapEnums(Of EmailReplyToType, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EmailReplyToType, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.EmailReplyToType)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
+  - name: )
+- uid: SuperOffice.Data.EmailReplyToType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EmailReplyToType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<EmailReplyToType>(EmailReplyToType, EmailReplyToType)
+  nameWithType: ObjectExtensions.AssignByReflection<EmailReplyToType>(EmailReplyToType, EmailReplyToType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EmailReplyToType>(SuperOffice.Data.EmailReplyToType, SuperOffice.Data.EmailReplyToType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EmailReplyToType)(EmailReplyToType, EmailReplyToType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EmailReplyToType)(SuperOffice.Data.EmailReplyToType, SuperOffice.Data.EmailReplyToType)
+  name.vb: AssignByReflection(Of EmailReplyToType)(EmailReplyToType, EmailReplyToType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EmailReplyToType,SuperOffice.Data.EmailReplyToType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EmailReplyToType,SuperOffice.Data.EmailReplyToType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
+  - name: )
+- uid: SuperOffice.Data.EmailReplyToType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<EmailReplyToType>(EmailReplyToType)
+  nameWithType: ObjectExtensions.GraphCopy<EmailReplyToType>(EmailReplyToType)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EmailReplyToType>(SuperOffice.Data.EmailReplyToType)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of EmailReplyToType)(EmailReplyToType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EmailReplyToType)(SuperOffice.Data.EmailReplyToType)
+  name.vb: GraphCopy(Of EmailReplyToType)(EmailReplyToType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.EmailReplyToType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.EmailReplyToType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.EmailReplyToType
+    name: EmailReplyToType
+    isExternal: true
+    href: SuperOffice.Data.EmailReplyToType.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -285,43 +453,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -330,58 +500,222 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.EmailReplyToType
   commentId: T:SuperOffice.Data.EmailReplyToType
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.EmailReplyToType.html
   name: EmailReplyToType
   nameWithType: EmailReplyToType
   fullName: SuperOffice.Data.EmailReplyToType

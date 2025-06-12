@@ -19,64 +19,24 @@ items:
   - SuperOffice.WebApi.Data.TicketBaseStatus.PostponedSpecific
   - SuperOffice.WebApi.Data.TicketBaseStatus.PostponedWeek
   - SuperOffice.WebApi.Data.TicketBaseStatus.Unknown
-  - SuperOffice.WebApi.Data.TicketBaseStatus.value__
   langs:
   - csharp
   - vb
   name: TicketBaseStatus
   nameWithType: TicketBaseStatus
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nStatus of a ticket/request\nThis Enum is used by:  ticket.status; ticket_status.status\n"
-  syntax:
-    content: 'public sealed class TicketBaseStatus : Enum'
-    content.vb: >-
-      Public NotInheritable Class TicketBaseStatus
-          Inherits
+  summary: >-
+    Status of a ticket/request
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.TicketBaseStatus.value__
-  commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.TicketBaseStatus
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: TicketBaseStatus.value__
-  fullName: SuperOffice.WebApi.Data.TicketBaseStatus.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  ticket.status; ticket_status.status
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum TicketBaseStatus : short'
+    content.vb: Public Enum TicketBaseStatus As Short
 - uid: SuperOffice.WebApi.Data.TicketBaseStatus.Unknown
   commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Unknown
   id: Unknown
@@ -88,24 +48,26 @@ items:
   nameWithType: TicketBaseStatus.Unknown
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Unknown / uninitialized\n"
+  summary: '0: Unknown / uninitialized'
+  example: []
   syntax:
-    content: public const TicketBaseStatus Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.TicketBaseStatus
-    content.vb: Public Const Unknown As TicketBaseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketBaseStatus.Active
   commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Active
   id: Active
@@ -117,24 +79,26 @@ items:
   nameWithType: TicketBaseStatus.Active
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Active
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Request is currently active\n"
+  summary: '1: Request is currently active'
+  example: []
   syntax:
-    content: public const TicketBaseStatus Active
+    content: >-
+      [EnumMember]
+
+      Active = 1
     return:
       type: SuperOffice.WebApi.Data.TicketBaseStatus
-    content.vb: Public Const Active As TicketBaseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Active = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketBaseStatus.Closed
   commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Closed
   id: Closed
@@ -146,24 +110,26 @@ items:
   nameWithType: TicketBaseStatus.Closed
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Closed
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Request has been closed\n"
+  summary: '2: Request has been closed'
+  example: []
   syntax:
-    content: public const TicketBaseStatus Closed
+    content: >-
+      [EnumMember]
+
+      Closed = 2
     return:
       type: SuperOffice.WebApi.Data.TicketBaseStatus
-    content.vb: Public Const Closed As TicketBaseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Closed = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed
   commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Postponed
   id: Postponed
@@ -175,24 +141,26 @@ items:
   nameWithType: TicketBaseStatus.Postponed
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Request has been postponed\n"
+  summary: '3: Request has been postponed'
+  example: []
   syntax:
-    content: public const TicketBaseStatus Postponed
+    content: >-
+      [EnumMember]
+
+      Postponed = 3
     return:
       type: SuperOffice.WebApi.Data.TicketBaseStatus
-    content.vb: Public Const Postponed As TicketBaseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Postponed = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketBaseStatus.Deleted
   commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Deleted
   id: Deleted
@@ -204,24 +172,26 @@ items:
   nameWithType: TicketBaseStatus.Deleted
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Deleted
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Request has been deleted\n"
+  summary: '4: Request has been deleted'
+  example: []
   syntax:
-    content: public const TicketBaseStatus Deleted
+    content: >-
+      [EnumMember]
+
+      Deleted = 4
     return:
       type: SuperOffice.WebApi.Data.TicketBaseStatus
-    content.vb: Public Const Deleted As TicketBaseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Deleted = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketBaseStatus.Merged
   commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Merged
   id: Merged
@@ -233,24 +203,26 @@ items:
   nameWithType: TicketBaseStatus.Merged
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Merged
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Request has been merged with another request\n"
+  summary: '5: Request has been merged with another request'
+  example: []
   syntax:
-    content: public const TicketBaseStatus Merged
+    content: >-
+      [EnumMember]
+
+      Merged = 5
     return:
       type: SuperOffice.WebApi.Data.TicketBaseStatus
-    content.vb: Public Const Merged As TicketBaseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Merged = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketBaseStatus.PostponedSpecific
   commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.PostponedSpecific
   id: PostponedSpecific
@@ -262,24 +234,26 @@ items:
   nameWithType: TicketBaseStatus.PostponedSpecific
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus.PostponedSpecific
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1001: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
+  summary: '1001: Should only be used for UI, when saved to DB it will be converted to Postponed'
+  example: []
   syntax:
-    content: public const TicketBaseStatus PostponedSpecific
+    content: >-
+      [EnumMember]
+
+      PostponedSpecific = 1001
     return:
       type: SuperOffice.WebApi.Data.TicketBaseStatus
-    content.vb: Public Const PostponedSpecific As TicketBaseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PostponedSpecific = 1001
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed1Hour
   commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Postponed1Hour
   id: Postponed1Hour
@@ -291,24 +265,26 @@ items:
   nameWithType: TicketBaseStatus.Postponed1Hour
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed1Hour
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1002: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
+  summary: '1002: Should only be used for UI, when saved to DB it will be converted to Postponed'
+  example: []
   syntax:
-    content: public const TicketBaseStatus Postponed1Hour
+    content: >-
+      [EnumMember]
+
+      Postponed1Hour = 1002
     return:
       type: SuperOffice.WebApi.Data.TicketBaseStatus
-    content.vb: Public Const Postponed1Hour As TicketBaseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Postponed1Hour = 1002
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed2Hours
   commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Postponed2Hours
   id: Postponed2Hours
@@ -320,24 +296,26 @@ items:
   nameWithType: TicketBaseStatus.Postponed2Hours
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed2Hours
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1003: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
+  summary: '1003: Should only be used for UI, when saved to DB it will be converted to Postponed'
+  example: []
   syntax:
-    content: public const TicketBaseStatus Postponed2Hours
+    content: >-
+      [EnumMember]
+
+      Postponed2Hours = 1003
     return:
       type: SuperOffice.WebApi.Data.TicketBaseStatus
-    content.vb: Public Const Postponed2Hours As TicketBaseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Postponed2Hours = 1003
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed3Hours
   commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Postponed3Hours
   id: Postponed3Hours
@@ -349,24 +327,26 @@ items:
   nameWithType: TicketBaseStatus.Postponed3Hours
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed3Hours
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1004: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
+  summary: '1004: Should only be used for UI, when saved to DB it will be converted to Postponed'
+  example: []
   syntax:
-    content: public const TicketBaseStatus Postponed3Hours
+    content: >-
+      [EnumMember]
+
+      Postponed3Hours = 1004
     return:
       type: SuperOffice.WebApi.Data.TicketBaseStatus
-    content.vb: Public Const Postponed3Hours As TicketBaseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Postponed3Hours = 1004
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed4Hours
   commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Postponed4Hours
   id: Postponed4Hours
@@ -378,24 +358,26 @@ items:
   nameWithType: TicketBaseStatus.Postponed4Hours
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed4Hours
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1005: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
+  summary: '1005: Should only be used for UI, when saved to DB it will be converted to Postponed'
+  example: []
   syntax:
-    content: public const TicketBaseStatus Postponed4Hours
+    content: >-
+      [EnumMember]
+
+      Postponed4Hours = 1005
     return:
       type: SuperOffice.WebApi.Data.TicketBaseStatus
-    content.vb: Public Const Postponed4Hours As TicketBaseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Postponed4Hours = 1005
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketBaseStatus.PostponedDay
   commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.PostponedDay
   id: PostponedDay
@@ -407,24 +389,26 @@ items:
   nameWithType: TicketBaseStatus.PostponedDay
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus.PostponedDay
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1006: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
+  summary: '1006: Should only be used for UI, when saved to DB it will be converted to Postponed'
+  example: []
   syntax:
-    content: public const TicketBaseStatus PostponedDay
+    content: >-
+      [EnumMember]
+
+      PostponedDay = 1006
     return:
       type: SuperOffice.WebApi.Data.TicketBaseStatus
-    content.vb: Public Const PostponedDay As TicketBaseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PostponedDay = 1006
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketBaseStatus.PostponedWeek
   commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.PostponedWeek
   id: PostponedWeek
@@ -436,24 +420,26 @@ items:
   nameWithType: TicketBaseStatus.PostponedWeek
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus.PostponedWeek
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1007: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
+  summary: '1007: Should only be used for UI, when saved to DB it will be converted to Postponed'
+  example: []
   syntax:
-    content: public const TicketBaseStatus PostponedWeek
+    content: >-
+      [EnumMember]
+
+      PostponedWeek = 1007
     return:
       type: SuperOffice.WebApi.Data.TicketBaseStatus
-    content.vb: Public Const PostponedWeek As TicketBaseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PostponedWeek = 1007
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketBaseStatus.PostponedMonth
   commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.PostponedMonth
   id: PostponedMonth
@@ -465,55 +451,69 @@ items:
   nameWithType: TicketBaseStatus.PostponedMonth
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus.PostponedMonth
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1008: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
+  summary: '1008: Should only be used for UI, when saved to DB it will be converted to Postponed'
+  example: []
   syntax:
-    content: public const TicketBaseStatus PostponedMonth
+    content: >-
+      [EnumMember]
+
+      PostponedMonth = 1008
     return:
       type: SuperOffice.WebApi.Data.TicketBaseStatus
-    content.vb: Public Const PostponedMonth As TicketBaseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PostponedMonth = 1008
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.TicketBaseStatus
   commentId: T:SuperOffice.WebApi.Data.TicketBaseStatus
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketBaseStatus.html
   name: TicketBaseStatus
   nameWithType: TicketBaseStatus
   fullName: SuperOffice.WebApi.Data.TicketBaseStatus

@@ -18,31 +18,40 @@ items:
   nameWithType: DayInformationListItem
   fullName: SuperOffice.CRM.Services.DayInformationListItem
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSummary information about the activites and holidaysfor one day\n<p></p>\nCarrier object for DayInformationListItem.\nServices for the DayInformationListItem Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAppointmentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Summary information about the activites and holidaysfor one day
+
+    <p></p>
+
+    Carrier object for DayInformationListItem.
+
+    Services for the DayInformationListItem Carrier is available from the <xref href="SuperOffice.CRM.Services.IAppointmentAgent?text=Appointment+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class DayInformationListItem : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class DayInformationListItem : Carrier
     content.vb: >-
-      Public Class DayInformationListItem
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class DayInformationListItem Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.AppointmentAgent
-    commentId: T:SuperOffice.CRM.Services.AppointmentAgent
   - linkId: SuperOffice.CRM.Services.IAppointmentAgent
     commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.DayInformationListItem.#ctor
   commentId: M:SuperOffice.CRM.Services.DayInformationListItem.#ctor
   id: '#ctor'
@@ -54,21 +63,18 @@ items:
   nameWithType: DayInformationListItem.DayInformationListItem()
   fullName: SuperOffice.CRM.Services.DayInformationListItem.DayInformationListItem()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public DayInformationListItem()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.DayInformationListItem.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: DayInformationListItem.New()
+  fullName.vb: SuperOffice.CRM.Services.DayInformationListItem.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.DayInformationListItem.ToString
   commentId: M:SuperOffice.CRM.Services.DayInformationListItem.ToString
   id: ToString
@@ -80,26 +86,18 @@ items:
   nameWithType: DayInformationListItem.ToString()
   fullName: SuperOffice.CRM.Services.DayInformationListItem.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.DayInformationListItem.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.DayInformationListItem.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.DayInformationListItem.ToString(System.String)
   id: ToString(System.String)
@@ -107,17 +105,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: DayInformationListItem.ToString(String)
-  fullName: SuperOffice.CRM.Services.DayInformationListItem.ToString(System.String)
+  name: ToString(string)
+  nameWithType: DayInformationListItem.ToString(string)
+  fullName: SuperOffice.CRM.Services.DayInformationListItem.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -129,10 +128,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.DayInformationListItem.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: DayInformationListItem.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.DayInformationListItem.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.DayInformationListItem.ActivityInformation
   commentId: P:SuperOffice.CRM.Services.DayInformationListItem.ActivityInformation
   id: ActivityInformation
@@ -144,28 +142,28 @@ items:
   nameWithType: DayInformationListItem.ActivityInformation
   fullName: SuperOffice.CRM.Services.DayInformationListItem.ActivityInformation
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nActivity information summary - number of free and busy activities. \n"
+  summary: Activity information summary - number of free and busy activities.
+  example: []
   syntax:
-    content: public virtual ActivitySummary ActivityInformation { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual ActivitySummary ActivityInformation { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.ActivitySummary
-    content.vb: Public Overridable Property ActivityInformation As ActivitySummary
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ActivityInformation As ActivitySummary
   overload: SuperOffice.CRM.Services.DayInformationListItem.ActivityInformation*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DayInformationListItem.RedLetterInformation
   commentId: P:SuperOffice.CRM.Services.DayInformationListItem.RedLetterInformation
   id: RedLetterInformation
@@ -177,28 +175,28 @@ items:
   nameWithType: DayInformationListItem.RedLetterInformation
   fullName: SuperOffice.CRM.Services.DayInformationListItem.RedLetterInformation
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSummary of redletter day information - holiday in own country, and in other countries known to the system. \n"
+  summary: Summary of redletter day information - holiday in own country, and in other countries known to the system.
+  example: []
   syntax:
-    content: public virtual RedLetterSummary RedLetterInformation { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual RedLetterSummary RedLetterInformation { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.RedLetterSummary
-    content.vb: Public Overridable Property RedLetterInformation As RedLetterSummary
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RedLetterInformation As RedLetterSummary
   overload: SuperOffice.CRM.Services.DayInformationListItem.RedLetterInformation*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.DayInformationListItem.Date
   commentId: P:SuperOffice.CRM.Services.DayInformationListItem.Date
   id: Date
@@ -210,57 +208,106 @@ items:
   nameWithType: DayInformationListItem.Date
   fullName: SuperOffice.CRM.Services.DayInformationListItem.Date
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDate that this item is valid for; there is exactly one item per date, ordered by date. \n"
+  summary: Date that this item is valid for; there is exactly one item per date, ordered by date.
+  example: []
   syntax:
-    content: public virtual DateTime Date { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime Date { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Date As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property [Date] As Date
   overload: SuperOffice.CRM.Services.DayInformationListItem.Date*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AppointmentAgent
-  commentId: T:SuperOffice.CRM.Services.AppointmentAgent
-  isExternal: true
-  name: AppointmentAgent
-  nameWithType: AppointmentAgent
-  fullName: SuperOffice.CRM.Services.AppointmentAgent
 - uid: SuperOffice.CRM.Services.IAppointmentAgent
   commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAppointmentAgent.html
   name: IAppointmentAgent
   nameWithType: IAppointmentAgent
   fullName: SuperOffice.CRM.Services.IAppointmentAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.DayInformationListItem.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.DayInformationListItem.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.DayInformationListItem.html#SuperOffice_CRM_Services_DayInformationListItem__ctor
   name: DayInformationListItem
   nameWithType: DayInformationListItem.DayInformationListItem
   fullName: SuperOffice.CRM.Services.DayInformationListItem.DayInformationListItem
+  nameWithType.vb: DayInformationListItem.New
+  fullName.vb: SuperOffice.CRM.Services.DayInformationListItem.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.DayInformationListItem.ToString*
   commentId: Overload:SuperOffice.CRM.Services.DayInformationListItem.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.DayInformationListItem.html#SuperOffice_CRM_Services_DayInformationListItem_ToString
   name: ToString
   nameWithType: DayInformationListItem.ToString
   fullName: SuperOffice.CRM.Services.DayInformationListItem.ToString
@@ -268,18 +315,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.DayInformationListItem.ActivityInformation*
   commentId: Overload:SuperOffice.CRM.Services.DayInformationListItem.ActivityInformation
   isExternal: true
+  href: SuperOffice.CRM.Services.DayInformationListItem.html#SuperOffice_CRM_Services_DayInformationListItem_ActivityInformation
   name: ActivityInformation
   nameWithType: DayInformationListItem.ActivityInformation
   fullName: SuperOffice.CRM.Services.DayInformationListItem.ActivityInformation
@@ -287,12 +333,14 @@ references:
   commentId: T:SuperOffice.CRM.Services.ActivitySummary
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ActivitySummary.html
   name: ActivitySummary
   nameWithType: ActivitySummary
   fullName: SuperOffice.CRM.Services.ActivitySummary
 - uid: SuperOffice.CRM.Services.DayInformationListItem.RedLetterInformation*
   commentId: Overload:SuperOffice.CRM.Services.DayInformationListItem.RedLetterInformation
   isExternal: true
+  href: SuperOffice.CRM.Services.DayInformationListItem.html#SuperOffice_CRM_Services_DayInformationListItem_RedLetterInformation
   name: RedLetterInformation
   nameWithType: DayInformationListItem.RedLetterInformation
   fullName: SuperOffice.CRM.Services.DayInformationListItem.RedLetterInformation
@@ -300,17 +348,25 @@ references:
   commentId: T:SuperOffice.CRM.Services.RedLetterSummary
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.RedLetterSummary.html
   name: RedLetterSummary
   nameWithType: RedLetterSummary
   fullName: SuperOffice.CRM.Services.RedLetterSummary
 - uid: SuperOffice.CRM.Services.DayInformationListItem.Date*
   commentId: Overload:SuperOffice.CRM.Services.DayInformationListItem.Date
   isExternal: true
+  href: SuperOffice.CRM.Services.DayInformationListItem.html#SuperOffice_CRM_Services_DayInformationListItem_Date
   name: Date
   nameWithType: DayInformationListItem.Date
   fullName: SuperOffice.CRM.Services.DayInformationListItem.Date
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date

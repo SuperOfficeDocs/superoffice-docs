@@ -6,9 +6,9 @@ items:
   parent: SuperOffice.CRM
   children:
   - SuperOffice.CRM.NextMilestone.#ctor
-  - SuperOffice.CRM.NextMilestone.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  - SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDate(System.Int32)
-  - SuperOffice.CRM.NextMilestone.GetNextMilestoneDate(System.Int32)
+  - SuperOffice.CRM.NextMilestone.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  - SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.NextMilestone.GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.NextMilestone.GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
   - SuperOffice.CRM.NextMilestone.ProviderName
   langs:
@@ -18,9 +18,6 @@ items:
   nameWithType: NextMilestone
   fullName: SuperOffice.CRM.NextMilestone
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -28,13 +25,11 @@ items:
     content: >-
       [NextMilestonePlugin("nextmilestone", -1073741824)]
 
-      public class NextMilestone : NextDateBase, INextMilestonePlugin, IPlugin
+      public class NextMilestone : NextDateBase, INextMilestonePlugin
     content.vb: >-
       <NextMilestonePlugin("nextmilestone", -1073741824)>
 
-      Public Class NextMilestone
-          Inherits NextDateBase
-          Implements INextMilestonePlugin, IPlugin
+      Public Class NextMilestone Inherits NextDateBase Implements INextMilestonePlugin
   inheritance:
   - System.Object
   - SuperOffice.CRM.NextDateBase
@@ -42,12 +37,19 @@ items:
   - SuperOffice.CRM.INextMilestonePlugin
   inheritedMembers:
   - SuperOffice.CRM.NextDateBase.GetQuery(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo)
-  - SuperOffice.CRM.NextDateBase.GetNextDate(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction)
+  - SuperOffice.CRM.NextDateBase.GetNextDateAsync(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction,System.Threading.CancellationToken)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.NextMilestone.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.NextMilestone.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.NextMilestone.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.NextMilestone)
   - SuperOffice.CRM.NextMilestone.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.NextMilestone.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.CRM.NextMilestonePluginAttribute
     ctor: SuperOffice.CRM.NextMilestonePluginAttribute.#ctor(System.String,System.Int32)
@@ -56,12 +58,6 @@ items:
       value: nextmilestone
     - type: System.Int32
       value: -1073741824
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.NextMilestone.ProviderName
   commentId: F:SuperOffice.CRM.NextMilestone.ProviderName
   id: ProviderName
@@ -73,9 +69,6 @@ items:
   nameWithType: NextMilestone.ProviderName
   fullName: SuperOffice.CRM.NextMilestone.ProviderName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -84,44 +77,37 @@ items:
     return:
       type: System.String
     content.vb: Public Const ProviderName As String = "nextmilestone"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
-- uid: SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDate(System.Int32)
-  commentId: M:SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDate(System.Int32)
-  id: CalculateNextMilestoneDate(System.Int32)
+- uid: SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  id: CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.NextMilestone
   langs:
   - csharp
   - vb
-  name: CalculateNextMilestoneDate(Int32)
-  nameWithType: NextMilestone.CalculateNextMilestoneDate(Int32)
-  fullName: SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDate(System.Int32)
+  name: CalculateNextMilestoneDateAsync(int, CancellationToken)
+  nameWithType: NextMilestone.CalculateNextMilestoneDateAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDateAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
+  example: []
   syntax:
-    content: public NextDateInfo CalculateNextMilestoneDate(int projectId)
+    content: public Task<NextDateInfo> CalculateNextMilestoneDateAsync(int projectId, CancellationToken cancellationToken = default)
     parameters:
     - id: projectId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.NextDateInfo
-    content.vb: Public Function CalculateNextMilestoneDate(projectId As Integer) As NextDateInfo
-  overload: SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDate*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}
+    content.vb: Public Function CalculateNextMilestoneDateAsync(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of NextDateInfo)
+  overload: SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDateAsync*
   implements:
-  - SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: NextMilestone.CalculateNextMilestoneDateAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDateAsync(Integer, System.Threading.CancellationToken)
+  name.vb: CalculateNextMilestoneDateAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.NextMilestone.GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
   commentId: M:SuperOffice.CRM.NextMilestone.GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
   id: GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
@@ -133,12 +119,10 @@ items:
   nameWithType: NextMilestone.GetOrderbyField(AppointmentTableInfo)
   fullName: SuperOffice.CRM.NextMilestone.GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
+  example: []
   syntax:
     content: protected override FieldInfo GetOrderbyField(AppointmentTableInfo tableInfo)
     parameters:
@@ -149,33 +133,32 @@ items:
     content.vb: Protected Overrides Function GetOrderbyField(tableInfo As AppointmentTableInfo) As FieldInfo
   overridden: SuperOffice.CRM.NextDateBase.GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
   overload: SuperOffice.CRM.NextMilestone.GetOrderbyField*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
-- uid: SuperOffice.CRM.NextMilestone.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  commentId: M:SuperOffice.CRM.NextMilestone.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  id: BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+- uid: SuperOffice.CRM.NextMilestone.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.NextMilestone.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  id: BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.NextMilestone
   langs:
   - csharp
   - vb
-  name: BatchUpdateNextMilestone(ProgressEstimateCallback, ProgressStepCallback)
-  nameWithType: NextMilestone.BatchUpdateNextMilestone(ProgressEstimateCallback, ProgressStepCallback)
-  fullName: SuperOffice.CRM.NextMilestone.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
+  name: BatchUpdateNextMilestoneAsync(ProgressEstimateCallback, ProgressStepCallback, CancellationToken)
+  nameWithType: NextMilestone.BatchUpdateNextMilestoneAsync(ProgressEstimateCallback, ProgressStepCallback, CancellationToken)
+  fullName: SuperOffice.CRM.NextMilestone.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nUpdate the Next Milestone date/appointmentId of all Projects; callable in unauthenticated mode\n"
-  remarks: "\nThis method uses the RawConnection mode of the <xref href=\"SuperOffice.Data.ConnectionFactory\" data-throw-if-not-resolved=\"false\"></xref> so that it\ncan be called during a database upgrade, when system users are unknown.\n<p></p>\nIt looks at all relevant appointment records to set the next milestone date of each project.\n"
+  summary: Update the Next Milestone date/appointmentId of all Projects; callable in unauthenticated mode
+  remarks: >-
+    This method uses the RawConnection mode of the <xref href="SuperOffice.Data.ConnectionFactory" data-throw-if-not-resolved="false"></xref> so that it
+
+    can be called during a database upgrade, when system users are unknown.
+
+    <p></p>
+
+    It looks at all relevant appointment records to set the next milestone date of each project.
+  example: []
   syntax:
-    content: public void BatchUpdateNextMilestone(ProgressEstimateCallback estimateCB, ProgressStepCallback stepCB)
+    content: public Task BatchUpdateNextMilestoneAsync(ProgressEstimateCallback estimateCB, ProgressStepCallback stepCB, CancellationToken cancellationToken = default)
     parameters:
     - id: estimateCB
       type: SuperOffice.CRM.ProgressEstimateCallback
@@ -183,46 +166,45 @@ items:
     - id: stepCB
       type: SuperOffice.CRM.ProgressStepCallback
       description: Callback for stepping the progress bar
-    content.vb: Public Sub BatchUpdateNextMilestone(estimateCB As ProgressEstimateCallback, stepCB As ProgressStepCallback)
-  overload: SuperOffice.CRM.NextMilestone.BatchUpdateNextMilestone*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function BatchUpdateNextMilestoneAsync(estimateCB As ProgressEstimateCallback, stepCB As ProgressStepCallback, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.NextMilestone.BatchUpdateNextMilestoneAsync*
   implements:
-  - SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.NextMilestone.GetNextMilestoneDate(System.Int32)
-  commentId: M:SuperOffice.CRM.NextMilestone.GetNextMilestoneDate(System.Int32)
-  id: GetNextMilestoneDate(System.Int32)
+  - SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.NextMilestone.GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.NextMilestone.GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.NextMilestone
   langs:
   - csharp
   - vb
-  name: GetNextMilestoneDate(Int32)
-  nameWithType: NextMilestone.GetNextMilestoneDate(Int32)
-  fullName: SuperOffice.CRM.NextMilestone.GetNextMilestoneDate(System.Int32)
+  name: GetNextMilestoneDateAsync(int, CancellationToken)
+  nameWithType: NextMilestone.GetNextMilestoneDateAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.NextMilestone.GetNextMilestoneDateAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
+  example: []
   syntax:
-    content: public NextDateInfo GetNextMilestoneDate(int projectId)
+    content: public Task<NextDateInfo> GetNextMilestoneDateAsync(int projectId, CancellationToken cancellationToken = default)
     parameters:
     - id: projectId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.NextDateInfo
-    content.vb: Public Function GetNextMilestoneDate(projectId As Integer) As NextDateInfo
-  overload: SuperOffice.CRM.NextMilestone.GetNextMilestoneDate*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}
+    content.vb: Public Function GetNextMilestoneDateAsync(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of NextDateInfo)
+  overload: SuperOffice.CRM.NextMilestone.GetNextMilestoneDateAsync*
   implements:
-  - SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: NextMilestone.GetNextMilestoneDateAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.NextMilestone.GetNextMilestoneDateAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetNextMilestoneDateAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.NextMilestone.#ctor
   commentId: M:SuperOffice.CRM.NextMilestone.#ctor
   id: '#ctor'
@@ -234,38 +216,60 @@ items:
   nameWithType: NextMilestone.NextMilestone()
   fullName: SuperOffice.CRM.NextMilestone.NextMilestone()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
     content: public NextMilestone()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.NextMilestone.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: NextMilestone.New()
+  fullName.vb: SuperOffice.CRM.NextMilestone.New()
+  name.vb: New()
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.NextDateBase
   commentId: T:SuperOffice.CRM.NextDateBase
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.NextDateBase.html
   name: NextDateBase
   nameWithType: NextDateBase
   fullName: SuperOffice.CRM.NextDateBase
@@ -273,6 +277,7 @@ references:
   commentId: T:SuperOffice.CRM.INextMilestonePlugin
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.INextMilestonePlugin.html
   name: INextMilestonePlugin
   nameWithType: INextMilestonePlugin
   fullName: SuperOffice.CRM.INextMilestonePlugin
@@ -280,287 +285,552 @@ references:
   commentId: M:SuperOffice.CRM.NextDateBase.GetQuery(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo)
   parent: SuperOffice.CRM.NextDateBase
   isExternal: true
+  href: SuperOffice.CRM.NextDateBase.html#SuperOffice_CRM_NextDateBase_GetQuery_SuperOffice_CRM_Data_AppointmentTableInfo_SuperOffice_Data_SQL_FieldInfo_
   name: GetQuery(AppointmentTableInfo, FieldInfo)
   nameWithType: NextDateBase.GetQuery(AppointmentTableInfo, FieldInfo)
   fullName: SuperOffice.CRM.NextDateBase.GetQuery(SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.Data.SQL.FieldInfo)
   spec.csharp:
   - uid: SuperOffice.CRM.NextDateBase.GetQuery(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo)
     name: GetQuery
-    nameWithType: NextDateBase.GetQuery
-    fullName: SuperOffice.CRM.NextDateBase.GetQuery
     isExternal: true
+    href: SuperOffice.CRM.NextDateBase.html#SuperOffice_CRM_NextDateBase_GetQuery_SuperOffice_CRM_Data_AppointmentTableInfo_SuperOffice_Data_SQL_FieldInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Data.AppointmentTableInfo
     name: AppointmentTableInfo
-    nameWithType: AppointmentTableInfo
-    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Data.AppointmentTableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.NextDateBase.GetQuery(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo)
     name: GetQuery
-    nameWithType: NextDateBase.GetQuery
-    fullName: SuperOffice.CRM.NextDateBase.GetQuery
     isExternal: true
+    href: SuperOffice.CRM.NextDateBase.html#SuperOffice_CRM_NextDateBase_GetQuery_SuperOffice_CRM_Data_AppointmentTableInfo_SuperOffice_Data_SQL_FieldInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Data.AppointmentTableInfo
     name: AppointmentTableInfo
-    nameWithType: AppointmentTableInfo
-    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Data.AppointmentTableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.NextDateBase.GetNextDate(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction)
-  commentId: M:SuperOffice.CRM.NextDateBase.GetNextDate(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction)
+- uid: SuperOffice.CRM.NextDateBase.GetNextDateAsync(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.NextDateBase.GetNextDateAsync(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.NextDateBase
   isExternal: true
-  name: GetNextDate(AppointmentTableInfo, FieldInfo, Restriction)
-  nameWithType: NextDateBase.GetNextDate(AppointmentTableInfo, FieldInfo, Restriction)
-  fullName: SuperOffice.CRM.NextDateBase.GetNextDate(SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.Restriction)
+  href: SuperOffice.CRM.NextDateBase.html#SuperOffice_CRM_NextDateBase_GetNextDateAsync_SuperOffice_CRM_Data_AppointmentTableInfo_SuperOffice_Data_SQL_FieldInfo_SuperOffice_Data_SQL_Restriction_System_Threading_CancellationToken_
+  name: GetNextDateAsync(AppointmentTableInfo, FieldInfo, Restriction, CancellationToken)
+  nameWithType: NextDateBase.GetNextDateAsync(AppointmentTableInfo, FieldInfo, Restriction, CancellationToken)
+  fullName: SuperOffice.CRM.NextDateBase.GetNextDateAsync(SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.Restriction, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.NextDateBase.GetNextDate(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction)
-    name: GetNextDate
-    nameWithType: NextDateBase.GetNextDate
-    fullName: SuperOffice.CRM.NextDateBase.GetNextDate
+  - uid: SuperOffice.CRM.NextDateBase.GetNextDateAsync(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction,System.Threading.CancellationToken)
+    name: GetNextDateAsync
     isExternal: true
+    href: SuperOffice.CRM.NextDateBase.html#SuperOffice_CRM_NextDateBase_GetNextDateAsync_SuperOffice_CRM_Data_AppointmentTableInfo_SuperOffice_Data_SQL_FieldInfo_SuperOffice_Data_SQL_Restriction_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Data.AppointmentTableInfo
     name: AppointmentTableInfo
-    nameWithType: AppointmentTableInfo
-    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Data.AppointmentTableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.SQL.Restriction
     name: Restriction
-    nameWithType: Restriction
-    fullName: SuperOffice.Data.SQL.Restriction
     isExternal: true
+    href: SuperOffice.Data.SQL.Restriction.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.NextDateBase.GetNextDate(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction)
-    name: GetNextDate
-    nameWithType: NextDateBase.GetNextDate
-    fullName: SuperOffice.CRM.NextDateBase.GetNextDate
+  - uid: SuperOffice.CRM.NextDateBase.GetNextDateAsync(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction,System.Threading.CancellationToken)
+    name: GetNextDateAsync
     isExternal: true
+    href: SuperOffice.CRM.NextDateBase.html#SuperOffice_CRM_NextDateBase_GetNextDateAsync_SuperOffice_CRM_Data_AppointmentTableInfo_SuperOffice_Data_SQL_FieldInfo_SuperOffice_Data_SQL_Restriction_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Data.AppointmentTableInfo
     name: AppointmentTableInfo
-    nameWithType: AppointmentTableInfo
-    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Data.AppointmentTableInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.SQL.Restriction
     name: Restriction
-    nameWithType: Restriction
-    fullName: SuperOffice.Data.SQL.Restriction
     isExternal: true
+    href: SuperOffice.Data.SQL.Restriction.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.NextMilestone.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<NextMilestone, To>()
-  nameWithType: EnumUtil.MapEnums<NextMilestone, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.NextMilestone, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of NextMilestone, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.NextMilestone, To)()
-  name.vb: MapEnums(Of NextMilestone, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<NextMilestone, To>(NextMilestone)
+  nameWithType: EnumUtil.MapEnums<NextMilestone, To>(NextMilestone)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.NextMilestone, To>(SuperOffice.CRM.NextMilestone)
+  nameWithType.vb: EnumUtil.MapEnums(Of NextMilestone, To)(NextMilestone)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.NextMilestone, To)(SuperOffice.CRM.NextMilestone)
+  name.vb: MapEnums(Of NextMilestone, To)(NextMilestone)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<NextMilestone, To>
-    nameWithType: EnumUtil.MapEnums<NextMilestone, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.NextMilestone, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.NextMilestone)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of NextMilestone, To)
-    nameWithType: EnumUtil.MapEnums(Of NextMilestone, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.NextMilestone, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.NextMilestone.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.NextMilestone)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<NextMilestone>(NextMilestone)
-  nameWithType: ObjectExtensions.AssignByReflection<NextMilestone>(NextMilestone)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.NextMilestone>(SuperOffice.CRM.NextMilestone)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of NextMilestone)(NextMilestone)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.NextMilestone)(SuperOffice.CRM.NextMilestone)
-  name.vb: AssignByReflection(Of NextMilestone)(NextMilestone)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<NextMilestone>
-    nameWithType: ObjectExtensions.AssignByReflection<NextMilestone>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.NextMilestone>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.NextMilestone
     name: NextMilestone
-    nameWithType: NextMilestone
-    fullName: SuperOffice.CRM.NextMilestone
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of NextMilestone)
-    nameWithType: ObjectExtensions.AssignByReflection(Of NextMilestone)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.NextMilestone)
-    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.NextMilestone
     name: NextMilestone
-    nameWithType: NextMilestone
-    fullName: SuperOffice.CRM.NextMilestone
     isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.NextMilestone.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<NextMilestone>()
-  nameWithType: ObjectExtensions.GraphCopy<NextMilestone>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.NextMilestone>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of NextMilestone)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.NextMilestone)()
-  name.vb: GraphCopy(Of NextMilestone)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<NextMilestone>
-    nameWithType: ObjectExtensions.GraphCopy<NextMilestone>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.NextMilestone>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of NextMilestone)
-    nameWithType: ObjectExtensions.GraphCopy(Of NextMilestone)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.NextMilestone)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.NextMilestone)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.NextMilestone
+    name: NextMilestone
+    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.NextMilestone
+    name: NextMilestone
+    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
+  - name: )
 - uid: SuperOffice.CRM.NextMilestone.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<NextMilestone, To>()
-  nameWithType: Converters.MapEnums<NextMilestone, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.NextMilestone, To>()
-  nameWithType.vb: Converters.MapEnums(Of NextMilestone, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.NextMilestone, To)()
-  name.vb: MapEnums(Of NextMilestone, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<NextMilestone, To>(NextMilestone)
+  nameWithType: Converters.MapEnums<NextMilestone, To>(NextMilestone)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.NextMilestone, To>(SuperOffice.CRM.NextMilestone)
+  nameWithType.vb: Converters.MapEnums(Of NextMilestone, To)(NextMilestone)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.NextMilestone, To)(SuperOffice.CRM.NextMilestone)
+  name.vb: MapEnums(Of NextMilestone, To)(NextMilestone)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<NextMilestone, To>
-    nameWithType: Converters.MapEnums<NextMilestone, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.NextMilestone, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.NextMilestone)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.NextMilestone
+    name: NextMilestone
+    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.NextMilestone
+    name: NextMilestone
+    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of NextMilestone, To)
-    nameWithType: Converters.MapEnums(Of NextMilestone, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.NextMilestone, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.NextMilestone)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.NextMilestone
+    name: NextMilestone
+    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.NextMilestone
+    name: NextMilestone
+    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
+  - name: )
+- uid: SuperOffice.CRM.NextMilestone.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.NextMilestone)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<NextMilestone>(NextMilestone, NextMilestone)
+  nameWithType: ObjectExtensions.AssignByReflection<NextMilestone>(NextMilestone, NextMilestone)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.NextMilestone>(SuperOffice.CRM.NextMilestone, SuperOffice.CRM.NextMilestone)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of NextMilestone)(NextMilestone, NextMilestone)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.NextMilestone)(SuperOffice.CRM.NextMilestone, SuperOffice.CRM.NextMilestone)
+  name.vb: AssignByReflection(Of NextMilestone)(NextMilestone, NextMilestone)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.NextMilestone,SuperOffice.CRM.NextMilestone)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.NextMilestone
+    name: NextMilestone
+    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.NextMilestone
+    name: NextMilestone
+    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.NextMilestone
+    name: NextMilestone
+    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.NextMilestone,SuperOffice.CRM.NextMilestone)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.NextMilestone
+    name: NextMilestone
+    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.NextMilestone
+    name: NextMilestone
+    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.NextMilestone
+    name: NextMilestone
+    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
+  - name: )
+- uid: SuperOffice.CRM.NextMilestone.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<NextMilestone>(NextMilestone)
+  nameWithType: ObjectExtensions.GraphCopy<NextMilestone>(NextMilestone)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.NextMilestone>(SuperOffice.CRM.NextMilestone)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of NextMilestone)(NextMilestone)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.NextMilestone)(SuperOffice.CRM.NextMilestone)
+  name.vb: GraphCopy(Of NextMilestone)(NextMilestone)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.NextMilestone)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.NextMilestone
+    name: NextMilestone
+    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.NextMilestone
+    name: NextMilestone
+    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.NextMilestone)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.NextMilestone
+    name: NextMilestone
+    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.NextMilestone
+    name: NextMilestone
+    isExternal: true
+    href: SuperOffice.CRM.NextMilestone.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -569,140 +839,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -711,165 +886,429 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDate*
-  commentId: Overload:SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDate
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDateAsync*
+  commentId: Overload:SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDateAsync
   isExternal: true
-  name: CalculateNextMilestoneDate
-  nameWithType: NextMilestone.CalculateNextMilestoneDate
-  fullName: SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDate
-- uid: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate(System.Int32)
-  commentId: M:SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate(System.Int32)
+  href: SuperOffice.CRM.NextMilestone.html#SuperOffice_CRM_NextMilestone_CalculateNextMilestoneDateAsync_System_Int32_System_Threading_CancellationToken_
+  name: CalculateNextMilestoneDateAsync
+  nameWithType: NextMilestone.CalculateNextMilestoneDateAsync
+  fullName: SuperOffice.CRM.NextMilestone.CalculateNextMilestoneDateAsync
+- uid: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.INextMilestonePlugin
   isExternal: true
-  name: CalculateNextMilestoneDate(Int32)
-  nameWithType: INextMilestonePlugin.CalculateNextMilestoneDate(Int32)
-  fullName: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: CalculateNextMilestoneDateAsync(int, CancellationToken)
+  nameWithType: INextMilestonePlugin.CalculateNextMilestoneDateAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDateAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: INextMilestonePlugin.CalculateNextMilestoneDateAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDateAsync(Integer, System.Threading.CancellationToken)
+  name.vb: CalculateNextMilestoneDateAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate(System.Int32)
-    name: CalculateNextMilestoneDate
-    nameWithType: INextMilestonePlugin.CalculateNextMilestoneDate
-    fullName: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate
+  - uid: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+    name: CalculateNextMilestoneDateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate(System.Int32)
-    name: CalculateNextMilestoneDate
-    nameWithType: INextMilestonePlugin.CalculateNextMilestoneDate
-    fullName: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate
+  - uid: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+    name: CalculateNextMilestoneDateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.NextDateInfo
-  commentId: T:SuperOffice.CRM.NextDateInfo
-  parent: SuperOffice.CRM
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: NextDateInfo
-  nameWithType: NextDateInfo
-  fullName: SuperOffice.CRM.NextDateInfo
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.NextDateInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<NextDateInfo>
+  nameWithType: Task<NextDateInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.NextDateInfo>
+  nameWithType.vb: Task(Of NextDateInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.NextDateInfo)
+  name.vb: Task(Of NextDateInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.NextDateInfo
+    name: NextDateInfo
+    isExternal: true
+    href: SuperOffice.CRM.NextDateInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.NextDateInfo
+    name: NextDateInfo
+    isExternal: true
+    href: SuperOffice.CRM.NextDateInfo.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.CRM.NextDateBase.GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
   commentId: M:SuperOffice.CRM.NextDateBase.GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
   parent: SuperOffice.CRM.NextDateBase
   isExternal: true
+  href: SuperOffice.CRM.NextDateBase.html#SuperOffice_CRM_NextDateBase_GetOrderbyField_SuperOffice_CRM_Data_AppointmentTableInfo_
   name: GetOrderbyField(AppointmentTableInfo)
   nameWithType: NextDateBase.GetOrderbyField(AppointmentTableInfo)
   fullName: SuperOffice.CRM.NextDateBase.GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
   spec.csharp:
   - uid: SuperOffice.CRM.NextDateBase.GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
     name: GetOrderbyField
-    nameWithType: NextDateBase.GetOrderbyField
-    fullName: SuperOffice.CRM.NextDateBase.GetOrderbyField
     isExternal: true
+    href: SuperOffice.CRM.NextDateBase.html#SuperOffice_CRM_NextDateBase_GetOrderbyField_SuperOffice_CRM_Data_AppointmentTableInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Data.AppointmentTableInfo
     name: AppointmentTableInfo
-    nameWithType: AppointmentTableInfo
-    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.AppointmentTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.NextDateBase.GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
     name: GetOrderbyField
-    nameWithType: NextDateBase.GetOrderbyField
-    fullName: SuperOffice.CRM.NextDateBase.GetOrderbyField
     isExternal: true
+    href: SuperOffice.CRM.NextDateBase.html#SuperOffice_CRM_NextDateBase_GetOrderbyField_SuperOffice_CRM_Data_AppointmentTableInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Data.AppointmentTableInfo
     name: AppointmentTableInfo
-    nameWithType: AppointmentTableInfo
-    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.AppointmentTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.NextMilestone.GetOrderbyField*
   commentId: Overload:SuperOffice.CRM.NextMilestone.GetOrderbyField
   isExternal: true
+  href: SuperOffice.CRM.NextMilestone.html#SuperOffice_CRM_NextMilestone_GetOrderbyField_SuperOffice_CRM_Data_AppointmentTableInfo_
   name: GetOrderbyField
   nameWithType: NextMilestone.GetOrderbyField
   fullName: SuperOffice.CRM.NextMilestone.GetOrderbyField
@@ -877,6 +1316,7 @@ references:
   commentId: T:SuperOffice.CRM.Data.AppointmentTableInfo
   parent: SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.CRM.Data.AppointmentTableInfo.html
   name: AppointmentTableInfo
   nameWithType: AppointmentTableInfo
   fullName: SuperOffice.CRM.Data.AppointmentTableInfo
@@ -884,88 +1324,151 @@ references:
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: SuperOffice.CRM.NextMilestone.BatchUpdateNextMilestone*
-  commentId: Overload:SuperOffice.CRM.NextMilestone.BatchUpdateNextMilestone
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: SuperOffice.Data.ConnectionFactory
+  commentId: T:SuperOffice.Data.ConnectionFactory
   isExternal: true
-  name: BatchUpdateNextMilestone
-  nameWithType: NextMilestone.BatchUpdateNextMilestone
-  fullName: SuperOffice.CRM.NextMilestone.BatchUpdateNextMilestone
-- uid: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  commentId: M:SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  href: SuperOffice.Data.ConnectionFactory.html
+  name: ConnectionFactory
+  nameWithType: ConnectionFactory
+  fullName: SuperOffice.Data.ConnectionFactory
+- uid: SuperOffice.CRM.NextMilestone.BatchUpdateNextMilestoneAsync*
+  commentId: Overload:SuperOffice.CRM.NextMilestone.BatchUpdateNextMilestoneAsync
+  isExternal: true
+  href: SuperOffice.CRM.NextMilestone.html#SuperOffice_CRM_NextMilestone_BatchUpdateNextMilestoneAsync_SuperOffice_CRM_ProgressEstimateCallback_SuperOffice_CRM_ProgressStepCallback_System_Threading_CancellationToken_
+  name: BatchUpdateNextMilestoneAsync
+  nameWithType: NextMilestone.BatchUpdateNextMilestoneAsync
+  fullName: SuperOffice.CRM.NextMilestone.BatchUpdateNextMilestoneAsync
+- uid: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.INextMilestonePlugin
   isExternal: true
-  name: BatchUpdateNextMilestone(ProgressEstimateCallback, ProgressStepCallback)
-  nameWithType: INextMilestonePlugin.BatchUpdateNextMilestone(ProgressEstimateCallback, ProgressStepCallback)
-  fullName: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: BatchUpdateNextMilestoneAsync(ProgressEstimateCallback, ProgressStepCallback, CancellationToken)
+  nameWithType: INextMilestonePlugin.BatchUpdateNextMilestoneAsync(ProgressEstimateCallback, ProgressStepCallback, CancellationToken)
+  fullName: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-    name: BatchUpdateNextMilestone
-    nameWithType: INextMilestonePlugin.BatchUpdateNextMilestone
-    fullName: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone
+  - uid: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+    name: BatchUpdateNextMilestoneAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.ProgressEstimateCallback
     name: ProgressEstimateCallback
-    nameWithType: ProgressEstimateCallback
-    fullName: SuperOffice.CRM.ProgressEstimateCallback
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.ProgressStepCallback
     name: ProgressStepCallback
-    nameWithType: ProgressStepCallback
-    fullName: SuperOffice.CRM.ProgressStepCallback
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-    name: BatchUpdateNextMilestone
-    nameWithType: INextMilestonePlugin.BatchUpdateNextMilestone
-    fullName: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone
+  - uid: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestoneAsync(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback,System.Threading.CancellationToken)
+    name: BatchUpdateNextMilestoneAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.ProgressEstimateCallback
     name: ProgressEstimateCallback
-    nameWithType: ProgressEstimateCallback
-    fullName: SuperOffice.CRM.ProgressEstimateCallback
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.ProgressStepCallback
     name: ProgressStepCallback
-    nameWithType: ProgressStepCallback
-    fullName: SuperOffice.CRM.ProgressStepCallback
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ProgressEstimateCallback
   commentId: T:SuperOffice.CRM.ProgressEstimateCallback
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ProgressEstimateCallback.html
   name: ProgressEstimateCallback
   nameWithType: ProgressEstimateCallback
   fullName: SuperOffice.CRM.ProgressEstimateCallback
@@ -973,59 +1476,75 @@ references:
   commentId: T:SuperOffice.CRM.ProgressStepCallback
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ProgressStepCallback.html
   name: ProgressStepCallback
   nameWithType: ProgressStepCallback
   fullName: SuperOffice.CRM.ProgressStepCallback
-- uid: SuperOffice.CRM.NextMilestone.GetNextMilestoneDate*
-  commentId: Overload:SuperOffice.CRM.NextMilestone.GetNextMilestoneDate
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: GetNextMilestoneDate
-  nameWithType: NextMilestone.GetNextMilestoneDate
-  fullName: SuperOffice.CRM.NextMilestone.GetNextMilestoneDate
-- uid: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate(System.Int32)
-  commentId: M:SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.NextMilestone.GetNextMilestoneDateAsync*
+  commentId: Overload:SuperOffice.CRM.NextMilestone.GetNextMilestoneDateAsync
+  isExternal: true
+  href: SuperOffice.CRM.NextMilestone.html#SuperOffice_CRM_NextMilestone_GetNextMilestoneDateAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetNextMilestoneDateAsync
+  nameWithType: NextMilestone.GetNextMilestoneDateAsync
+  fullName: SuperOffice.CRM.NextMilestone.GetNextMilestoneDateAsync
+- uid: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.INextMilestonePlugin
   isExternal: true
-  name: GetNextMilestoneDate(Int32)
-  nameWithType: INextMilestonePlugin.GetNextMilestoneDate(Int32)
-  fullName: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetNextMilestoneDateAsync(int, CancellationToken)
+  nameWithType: INextMilestonePlugin.GetNextMilestoneDateAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDateAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: INextMilestonePlugin.GetNextMilestoneDateAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDateAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetNextMilestoneDateAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate(System.Int32)
-    name: GetNextMilestoneDate
-    nameWithType: INextMilestonePlugin.GetNextMilestoneDate
-    fullName: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate
+  - uid: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetNextMilestoneDateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate(System.Int32)
-    name: GetNextMilestoneDate
-    nameWithType: INextMilestonePlugin.GetNextMilestoneDate
-    fullName: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate
+  - uid: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDateAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetNextMilestoneDateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.NextMilestone.#ctor*
   commentId: Overload:SuperOffice.CRM.NextMilestone.#ctor
   isExternal: true
+  href: SuperOffice.CRM.NextMilestone.html#SuperOffice_CRM_NextMilestone__ctor
   name: NextMilestone
   nameWithType: NextMilestone.NextMilestone
   fullName: SuperOffice.CRM.NextMilestone.NextMilestone
+  nameWithType.vb: NextMilestone.New
+  fullName.vb: SuperOffice.CRM.NextMilestone.New
+  name.vb: New

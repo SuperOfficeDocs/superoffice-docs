@@ -1,0 +1,1188 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.IUserInfoService
+  commentId: T:SuperOffice.Security.Principal.IUserInfoService
+  id: IUserInfoService
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.IUserInfoService.GetContactId(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetContactOwnerId(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetCountryId(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetEMailAddress(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetEjAccessLevel(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetEjUserId(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetEjUserStatus(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetFullName(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetFunctionRights(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetGroupId(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetHomeCountryId(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetIsPerson(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetPersonId(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetRoleDescription(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetRoleId(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetRoleName(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetRoleType(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetSecondaryGroups(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetUserName(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IUserInfoService
+  nameWithType: IUserInfoService
+  fullName: SuperOffice.Security.Principal.IUserInfoService
+  type: Interface
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public interface IUserInfoService
+    content.vb: Public Interface IUserInfoService
+  extensionMethods:
+  - SuperOffice.Security.Principal.IUserInfoService.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.IUserInfoService.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetUserName(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetUserName(System.Int32)
+  id: GetUserName(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetUserName(int)
+  nameWithType: IUserInfoService.GetUserName(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetUserName(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: UserName on associatetable. Same as SuperId from Online
+  example: []
+  syntax:
+    content: string GetUserName(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Function GetUserName(associateId As Integer) As String
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetUserName*
+  nameWithType.vb: IUserInfoService.GetUserName(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetUserName(Integer)
+  name.vb: GetUserName(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetIsPerson(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetIsPerson(System.Int32)
+  id: GetIsPerson(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetIsPerson(int)
+  nameWithType: IUserInfoService.GetIsPerson(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetIsPerson(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Is this associate a person, and not a resource?
+  example: []
+  syntax:
+    content: bool GetIsPerson(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Function GetIsPerson(associateId As Integer) As Boolean
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetIsPerson*
+  nameWithType.vb: IUserInfoService.GetIsPerson(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetIsPerson(Integer)
+  name.vb: GetIsPerson(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetPersonId(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetPersonId(System.Int32)
+  id: GetPersonId(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetPersonId(int)
+  nameWithType: IUserInfoService.GetPersonId(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetPersonId(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Associate's person id
+  example: []
+  syntax:
+    content: int GetPersonId(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Function GetPersonId(associateId As Integer) As Integer
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetPersonId*
+  nameWithType.vb: IUserInfoService.GetPersonId(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetPersonId(Integer)
+  name.vb: GetPersonId(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetCountryId(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetCountryId(System.Int32)
+  id: GetCountryId(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetCountryId(int)
+  nameWithType: IUserInfoService.GetCountryId(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetCountryId(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Country id for the user.
+  example: []
+  syntax:
+    content: int GetCountryId(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Function GetCountryId(associateId As Integer) As Integer
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetCountryId*
+  nameWithType.vb: IUserInfoService.GetCountryId(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetCountryId(Integer)
+  name.vb: GetCountryId(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetHomeCountryId(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetHomeCountryId(System.Int32)
+  id: GetHomeCountryId(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetHomeCountryId(int)
+  nameWithType: IUserInfoService.GetHomeCountryId(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetHomeCountryId(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Country id for the user's home country.  This is the default country id when creating new items.
+  example: []
+  syntax:
+    content: int GetHomeCountryId(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Function GetHomeCountryId(associateId As Integer) As Integer
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetHomeCountryId*
+  nameWithType.vb: IUserInfoService.GetHomeCountryId(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetHomeCountryId(Integer)
+  name.vb: GetHomeCountryId(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetContactId(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetContactId(System.Int32)
+  id: GetContactId(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetContactId(int)
+  nameWithType: IUserInfoService.GetContactId(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetContactId(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Company of the associate's person
+  example: []
+  syntax:
+    content: int GetContactId(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Function GetContactId(associateId As Integer) As Integer
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetContactId*
+  nameWithType.vb: IUserInfoService.GetContactId(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetContactId(Integer)
+  name.vb: GetContactId(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetGroupId(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetGroupId(System.Int32)
+  id: GetGroupId(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetGroupId(int)
+  nameWithType: IUserInfoService.GetGroupId(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetGroupId(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Associate's group_idx
+  example: []
+  syntax:
+    content: int GetGroupId(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Function GetGroupId(associateId As Integer) As Integer
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetGroupId*
+  nameWithType.vb: IUserInfoService.GetGroupId(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetGroupId(Integer)
+  name.vb: GetGroupId(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetContactOwnerId(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetContactOwnerId(System.Int32)
+  id: GetContactOwnerId(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetContactOwnerId(int)
+  nameWithType: IUserInfoService.GetContactOwnerId(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetContactOwnerId(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Owner (AssocaiteId) of the company that the user belongs to.
+  example: []
+  syntax:
+    content: int GetContactOwnerId(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Function GetContactOwnerId(associateId As Integer) As Integer
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetContactOwnerId*
+  nameWithType.vb: IUserInfoService.GetContactOwnerId(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetContactOwnerId(Integer)
+  name.vb: GetContactOwnerId(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetRoleId(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetRoleId(System.Int32)
+  id: GetRoleId(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetRoleId(int)
+  nameWithType: IUserInfoService.GetRoleId(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetRoleId(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Id of the users role
+  example: []
+  syntax:
+    content: int GetRoleId(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Function GetRoleId(associateId As Integer) As Integer
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetRoleId*
+  nameWithType.vb: IUserInfoService.GetRoleId(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetRoleId(Integer)
+  name.vb: GetRoleId(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetRoleName(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetRoleName(System.Int32)
+  id: GetRoleName(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetRoleName(int)
+  nameWithType: IUserInfoService.GetRoleName(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetRoleName(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Name of the users role
+  example: []
+  syntax:
+    content: string GetRoleName(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Function GetRoleName(associateId As Integer) As String
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetRoleName*
+  nameWithType.vb: IUserInfoService.GetRoleName(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetRoleName(Integer)
+  name.vb: GetRoleName(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetRoleDescription(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetRoleDescription(System.Int32)
+  id: GetRoleDescription(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetRoleDescription(int)
+  nameWithType: IUserInfoService.GetRoleDescription(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetRoleDescription(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Descrtiption (e.g. tooltip) for the users role
+  example: []
+  syntax:
+    content: string GetRoleDescription(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Function GetRoleDescription(associateId As Integer) As String
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetRoleDescription*
+  nameWithType.vb: IUserInfoService.GetRoleDescription(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetRoleDescription(Integer)
+  name.vb: GetRoleDescription(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetRoleType(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetRoleType(System.Int32)
+  id: GetRoleType(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetRoleType(int)
+  nameWithType: IUserInfoService.GetRoleType(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetRoleType(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Type of user.
+  example: []
+  syntax:
+    content: RoleType GetRoleType(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.RoleType
+    content.vb: Function GetRoleType(associateId As Integer) As RoleType
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetRoleType*
+  nameWithType.vb: IUserInfoService.GetRoleType(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetRoleType(Integer)
+  name.vb: GetRoleType(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetFullName(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetFullName(System.Int32)
+  id: GetFullName(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetFullName(int)
+  nameWithType: IUserInfoService.GetFullName(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetFullName(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: The Person full name if the associate is a person. Use IsPerson to check
+  example: []
+  syntax:
+    content: string GetFullName(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Function GetFullName(associateId As Integer) As String
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetFullName*
+  nameWithType.vb: IUserInfoService.GetFullName(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetFullName(Integer)
+  name.vb: GetFullName(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetEMailAddress(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetEMailAddress(System.Int32)
+  id: GetEMailAddress(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetEMailAddress(int)
+  nameWithType: IUserInfoService.GetEMailAddress(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetEMailAddress(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: The Person e-mail address if the associate is a person. Use IsPerson to check
+  example: []
+  syntax:
+    content: string GetEMailAddress(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Function GetEMailAddress(associateId As Integer) As String
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetEMailAddress*
+  nameWithType.vb: IUserInfoService.GetEMailAddress(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetEMailAddress(Integer)
+  name.vb: GetEMailAddress(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetFunctionRights(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetFunctionRights(System.Int32)
+  id: GetFunctionRights(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetFunctionRights(int)
+  nameWithType: IUserInfoService.GetFunctionRights(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetFunctionRights(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Functional rights for the user.  This array is sorted so a lookup can be performed using <xref href="System.Array.BinarySearch(System.Array%2cSystem.Int32%2cSystem.Int32%2cSystem.Object)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: string[] GetFunctionRights(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.String[]
+    content.vb: Function GetFunctionRights(associateId As Integer) As String()
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetFunctionRights*
+  nameWithType.vb: IUserInfoService.GetFunctionRights(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetFunctionRights(Integer)
+  name.vb: GetFunctionRights(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetEjUserId(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetEjUserId(System.Int32)
+  id: GetEjUserId(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetEjUserId(int)
+  nameWithType: IUserInfoService.GetEjUserId(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetEjUserId(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Primary key in eJournal's old user table.
+  example: []
+  syntax:
+    content: int GetEjUserId(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Function GetEjUserId(associateId As Integer) As Integer
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetEjUserId*
+  nameWithType.vb: IUserInfoService.GetEjUserId(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetEjUserId(Integer)
+  name.vb: GetEjUserId(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetEjAccessLevel(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetEjAccessLevel(System.Int32)
+  id: GetEjAccessLevel(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetEjAccessLevel(int)
+  nameWithType: IUserInfoService.GetEjAccessLevel(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetEjAccessLevel(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: eJournal user access level
+  example: []
+  syntax:
+    content: EjAccess GetEjAccessLevel(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.EjAccess
+    content.vb: Function GetEjAccessLevel(associateId As Integer) As EjAccess
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetEjAccessLevel*
+  nameWithType.vb: IUserInfoService.GetEjAccessLevel(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetEjAccessLevel(Integer)
+  name.vb: GetEjAccessLevel(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetEjUserStatus(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetEjUserStatus(System.Int32)
+  id: GetEjUserStatus(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetEjUserStatus(int)
+  nameWithType: IUserInfoService.GetEjUserStatus(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetEjUserStatus(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: eJournal user status
+  example: []
+  syntax:
+    content: EjUserStatus GetEjUserStatus(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.EjUserStatus
+    content.vb: Function GetEjUserStatus(associateId As Integer) As EjUserStatus
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetEjUserStatus*
+  nameWithType.vb: IUserInfoService.GetEjUserStatus(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetEjUserStatus(Integer)
+  name.vb: GetEjUserStatus(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetSecondaryGroups(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetSecondaryGroups(System.Int32)
+  id: GetSecondaryGroups(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetSecondaryGroups(int)
+  nameWithType: IUserInfoService.GetSecondaryGroups(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetSecondaryGroups(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Secondary user groups
+  example: []
+  syntax:
+    content: int[] GetSecondaryGroups(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.Int32[]
+    content.vb: Function GetSecondaryGroups(associateId As Integer) As Integer()
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetSecondaryGroups*
+  nameWithType.vb: IUserInfoService.GetSecondaryGroups(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetSecondaryGroups(Integer)
+  name.vb: GetSecondaryGroups(Integer)
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
+- uid: SuperOffice.Security.Principal.IUserInfoService.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IUserInfoService, To>(IUserInfoService)
+  nameWithType: EnumUtil.MapEnums<IUserInfoService, To>(IUserInfoService)
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.IUserInfoService, To>(SuperOffice.Security.Principal.IUserInfoService)
+  nameWithType.vb: EnumUtil.MapEnums(Of IUserInfoService, To)(IUserInfoService)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.IUserInfoService, To)(SuperOffice.Security.Principal.IUserInfoService)
+  name.vb: MapEnums(Of IUserInfoService, To)(IUserInfoService)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Principal.IUserInfoService)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Security.Principal.IUserInfoService
+    name: IUserInfoService
+    isExternal: true
+    href: SuperOffice.Security.Principal.IUserInfoService.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Security.Principal.IUserInfoService
+    name: IUserInfoService
+    isExternal: true
+    href: SuperOffice.Security.Principal.IUserInfoService.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Principal.IUserInfoService)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Principal.IUserInfoService
+    name: IUserInfoService
+    isExternal: true
+    href: SuperOffice.Security.Principal.IUserInfoService.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Security.Principal.IUserInfoService
+    name: IUserInfoService
+    isExternal: true
+    href: SuperOffice.Security.Principal.IUserInfoService.html
+  - name: )
+- uid: SuperOffice.Security.Principal.IUserInfoService.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IUserInfoService, To>(IUserInfoService)
+  nameWithType: Converters.MapEnums<IUserInfoService, To>(IUserInfoService)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.IUserInfoService, To>(SuperOffice.Security.Principal.IUserInfoService)
+  nameWithType.vb: Converters.MapEnums(Of IUserInfoService, To)(IUserInfoService)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.IUserInfoService, To)(SuperOffice.Security.Principal.IUserInfoService)
+  name.vb: MapEnums(Of IUserInfoService, To)(IUserInfoService)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Principal.IUserInfoService)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Security.Principal.IUserInfoService
+    name: IUserInfoService
+    isExternal: true
+    href: SuperOffice.Security.Principal.IUserInfoService.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Security.Principal.IUserInfoService
+    name: IUserInfoService
+    isExternal: true
+    href: SuperOffice.Security.Principal.IUserInfoService.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Principal.IUserInfoService)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Principal.IUserInfoService
+    name: IUserInfoService
+    isExternal: true
+    href: SuperOffice.Security.Principal.IUserInfoService.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Security.Principal.IUserInfoService
+    name: IUserInfoService
+    isExternal: true
+    href: SuperOffice.Security.Principal.IUserInfoService.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetUserName*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetUserName
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetUserName_System_Int32_
+  name: GetUserName
+  nameWithType: IUserInfoService.GetUserName
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetUserName
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetIsPerson*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetIsPerson
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetIsPerson_System_Int32_
+  name: GetIsPerson
+  nameWithType: IUserInfoService.GetIsPerson
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetIsPerson
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetPersonId*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetPersonId
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetPersonId_System_Int32_
+  name: GetPersonId
+  nameWithType: IUserInfoService.GetPersonId
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetPersonId
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetCountryId*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetCountryId
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetCountryId_System_Int32_
+  name: GetCountryId
+  nameWithType: IUserInfoService.GetCountryId
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetCountryId
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetHomeCountryId*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetHomeCountryId
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetHomeCountryId_System_Int32_
+  name: GetHomeCountryId
+  nameWithType: IUserInfoService.GetHomeCountryId
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetHomeCountryId
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetContactId*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetContactId
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetContactId_System_Int32_
+  name: GetContactId
+  nameWithType: IUserInfoService.GetContactId
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetContactId
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetGroupId*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetGroupId
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetGroupId_System_Int32_
+  name: GetGroupId
+  nameWithType: IUserInfoService.GetGroupId
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetGroupId
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetContactOwnerId*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetContactOwnerId
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetContactOwnerId_System_Int32_
+  name: GetContactOwnerId
+  nameWithType: IUserInfoService.GetContactOwnerId
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetContactOwnerId
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetRoleId*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetRoleId
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetRoleId_System_Int32_
+  name: GetRoleId
+  nameWithType: IUserInfoService.GetRoleId
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetRoleId
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetRoleName*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetRoleName
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetRoleName_System_Int32_
+  name: GetRoleName
+  nameWithType: IUserInfoService.GetRoleName
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetRoleName
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetRoleDescription*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetRoleDescription
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetRoleDescription_System_Int32_
+  name: GetRoleDescription
+  nameWithType: IUserInfoService.GetRoleDescription
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetRoleDescription
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetRoleType*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetRoleType
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetRoleType_System_Int32_
+  name: GetRoleType
+  nameWithType: IUserInfoService.GetRoleType
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetRoleType
+- uid: SuperOffice.Data.RoleType
+  commentId: T:SuperOffice.Data.RoleType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.RoleType.html
+  name: RoleType
+  nameWithType: RoleType
+  fullName: SuperOffice.Data.RoleType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetFullName*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetFullName
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetFullName_System_Int32_
+  name: GetFullName
+  nameWithType: IUserInfoService.GetFullName
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetFullName
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetEMailAddress*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetEMailAddress
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetEMailAddress_System_Int32_
+  name: GetEMailAddress
+  nameWithType: IUserInfoService.GetEMailAddress
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetEMailAddress
+- uid: System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object)
+  commentId: M:System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.array.binarysearch#system-array-binarysearch(system-array-system-int32-system-int32-system-object)
+  name: BinarySearch(Array, int, int, object)
+  nameWithType: Array.BinarySearch(Array, int, int, object)
+  fullName: System.Array.BinarySearch(System.Array, int, int, object)
+  nameWithType.vb: Array.BinarySearch(Array, Integer, Integer, Object)
+  fullName.vb: System.Array.BinarySearch(System.Array, Integer, Integer, Object)
+  name.vb: BinarySearch(Array, Integer, Integer, Object)
+  spec.csharp:
+  - uid: System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object)
+    name: BinarySearch
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.array.binarysearch#system-array-binarysearch(system-array-system-int32-system-int32-system-object)
+  - name: (
+  - uid: System.Array
+    name: Array
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.array
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object)
+    name: BinarySearch
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.array.binarysearch#system-array-binarysearch(system-array-system-int32-system-int32-system-object)
+  - name: (
+  - uid: System.Array
+    name: Array
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.array
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetFunctionRights*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetFunctionRights
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetFunctionRights_System_Int32_
+  name: GetFunctionRights
+  nameWithType: IUserInfoService.GetFunctionRights
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetFunctionRights
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetEjUserId*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetEjUserId
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetEjUserId_System_Int32_
+  name: GetEjUserId
+  nameWithType: IUserInfoService.GetEjUserId
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetEjUserId
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetEjAccessLevel*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetEjAccessLevel
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetEjAccessLevel_System_Int32_
+  name: GetEjAccessLevel
+  nameWithType: IUserInfoService.GetEjAccessLevel
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetEjAccessLevel
+- uid: SuperOffice.Data.EjAccess
+  commentId: T:SuperOffice.Data.EjAccess
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.EjAccess.html
+  name: EjAccess
+  nameWithType: EjAccess
+  fullName: SuperOffice.Data.EjAccess
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetEjUserStatus*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetEjUserStatus
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetEjUserStatus_System_Int32_
+  name: GetEjUserStatus
+  nameWithType: IUserInfoService.GetEjUserStatus
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetEjUserStatus
+- uid: SuperOffice.Data.EjUserStatus
+  commentId: T:SuperOffice.Data.EjUserStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.EjUserStatus.html
+  name: EjUserStatus
+  nameWithType: EjUserStatus
+  fullName: SuperOffice.Data.EjUserStatus
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetSecondaryGroups*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetSecondaryGroups
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetSecondaryGroups_System_Int32_
+  name: GetSecondaryGroups
+  nameWithType: IUserInfoService.GetSecondaryGroups
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetSecondaryGroups
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )

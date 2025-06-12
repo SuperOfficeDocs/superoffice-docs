@@ -16,9 +16,9 @@ items:
   - SuperOffice.CRM.Services.ConsentPurpose.PrivacyStatementDesc
   - SuperOffice.CRM.Services.ConsentPurpose.PrivacyStatementUrl
   - SuperOffice.CRM.Services.ConsentPurpose.Rank
-  - SuperOffice.CRM.Services.ConsentPurpose.Tooltip
   - SuperOffice.CRM.Services.ConsentPurpose.ToString
   - SuperOffice.CRM.Services.ConsentPurpose.ToString(System.String)
+  - SuperOffice.CRM.Services.ConsentPurpose.Tooltip
   - SuperOffice.CRM.Services.ConsentPurpose.UpdatedBy
   - SuperOffice.CRM.Services.ConsentPurpose.UpdatedDate
   langs:
@@ -28,33 +28,50 @@ items:
   nameWithType: ConsentPurpose
   fullName: SuperOffice.CRM.Services.ConsentPurpose
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCarrier object for ConsentPurpose.\nServices for the ConsentPurpose Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Carrier object for ConsentPurpose.
+
+    Services for the ConsentPurpose Carrier is available from the <xref href="SuperOffice.CRM.Services.IListAgent?text=List+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet ConsentPurpose 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ListAgent();\n    var consentPurpose = agent.GetConsentPurpose( 123 );\n }</code></pre>\n"
+  - >-
+    Get ConsentPurpose 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new ListAgent();
+       var consentPurpose = agent.GetConsentPurpose( 123 );
+    }</code></pre>
   syntax:
-    content: 'public class ConsentPurpose : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class ConsentPurpose : Carrier
     content.vb: >-
-      Public Class ConsentPurpose
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class ConsentPurpose Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.ListAgent
-    commentId: T:SuperOffice.CRM.Services.ListAgent
   - linkId: SuperOffice.CRM.Services.IListAgent
     commentId: T:SuperOffice.CRM.Services.IListAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.ConsentPurpose.#ctor
   commentId: M:SuperOffice.CRM.Services.ConsentPurpose.#ctor
   id: '#ctor'
@@ -66,21 +83,18 @@ items:
   nameWithType: ConsentPurpose.ConsentPurpose()
   fullName: SuperOffice.CRM.Services.ConsentPurpose.ConsentPurpose()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public ConsentPurpose()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.ConsentPurpose.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ConsentPurpose.New()
+  fullName.vb: SuperOffice.CRM.Services.ConsentPurpose.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.ConsentPurpose.ToString
   commentId: M:SuperOffice.CRM.Services.ConsentPurpose.ToString
   id: ToString
@@ -92,26 +106,18 @@ items:
   nameWithType: ConsentPurpose.ToString()
   fullName: SuperOffice.CRM.Services.ConsentPurpose.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.ConsentPurpose.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.ConsentPurpose.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ConsentPurpose.ToString(System.String)
   id: ToString(System.String)
@@ -119,17 +125,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: ConsentPurpose.ToString(String)
-  fullName: SuperOffice.CRM.Services.ConsentPurpose.ToString(System.String)
+  name: ToString(string)
+  nameWithType: ConsentPurpose.ToString(string)
+  fullName: SuperOffice.CRM.Services.ConsentPurpose.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -141,10 +148,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ConsentPurpose.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ConsentPurpose.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.ConsentPurpose.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.ConsentPurpose.ConsentPurposeId
   commentId: P:SuperOffice.CRM.Services.ConsentPurpose.ConsentPurposeId
   id: ConsentPurposeId
@@ -156,28 +162,28 @@ items:
   nameWithType: ConsentPurpose.ConsentPurposeId
   fullName: SuperOffice.CRM.Services.ConsentPurpose.ConsentPurposeId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int ConsentPurposeId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int ConsentPurposeId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property ConsentPurposeId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ConsentPurposeId As Integer
   overload: SuperOffice.CRM.Services.ConsentPurpose.ConsentPurposeId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ConsentPurpose.Name
   commentId: P:SuperOffice.CRM.Services.ConsentPurpose.Name
   id: Name
@@ -189,28 +195,28 @@ items:
   nameWithType: ConsentPurpose.Name
   fullName: SuperOffice.CRM.Services.ConsentPurpose.Name
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nName of consent purpose \n"
+  summary: Name of consent purpose
+  example: []
   syntax:
-    content: public virtual string Name { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Name As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.ConsentPurpose.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ConsentPurpose.ConsentText
   commentId: P:SuperOffice.CRM.Services.ConsentPurpose.ConsentText
   id: ConsentText
@@ -222,28 +228,28 @@ items:
   nameWithType: ConsentPurpose.ConsentText
   fullName: SuperOffice.CRM.Services.ConsentPurpose.ConsentText
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nForm text used for the actual checkbox \n"
+  summary: Form text used for the actual checkbox
+  example: []
   syntax:
-    content: public virtual string ConsentText { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ConsentText { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ConsentText As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ConsentText As String
   overload: SuperOffice.CRM.Services.ConsentPurpose.ConsentText*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ConsentPurpose.FormText
   commentId: P:SuperOffice.CRM.Services.ConsentPurpose.FormText
   id: FormText
@@ -255,28 +261,28 @@ items:
   nameWithType: ConsentPurpose.FormText
   fullName: SuperOffice.CRM.Services.ConsentPurpose.FormText
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nText for the consent form, the long text to be shown when asking the end-user for this kind of consent \n"
+  summary: Text for the consent form, the long text to be shown when asking the end-user for this kind of consent
+  example: []
   syntax:
-    content: public virtual string FormText { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string FormText { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property FormText As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FormText As String
   overload: SuperOffice.CRM.Services.ConsentPurpose.FormText*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ConsentPurpose.Key
   commentId: P:SuperOffice.CRM.Services.ConsentPurpose.Key
   id: Key
@@ -288,28 +294,28 @@ items:
   nameWithType: ConsentPurpose.Key
   fullName: SuperOffice.CRM.Services.ConsentPurpose.Key
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe key used to refer to this purpose, like #Process, #Emarketing etc. \n"
+  summary: 'The key used to refer to this purpose, like #Process, #Emarketing etc.'
+  example: []
   syntax:
-    content: public virtual string Key { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Key { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Key As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Key As String
   overload: SuperOffice.CRM.Services.ConsentPurpose.Key*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ConsentPurpose.Tooltip
   commentId: P:SuperOffice.CRM.Services.ConsentPurpose.Tooltip
   id: Tooltip
@@ -321,28 +327,28 @@ items:
   nameWithType: ConsentPurpose.Tooltip
   fullName: SuperOffice.CRM.Services.ConsentPurpose.Tooltip
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nList item tooltip \n"
+  summary: List item tooltip
+  example: []
   syntax:
-    content: public virtual string Tooltip { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Tooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Tooltip As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Tooltip As String
   overload: SuperOffice.CRM.Services.ConsentPurpose.Tooltip*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ConsentPurpose.Active
   commentId: P:SuperOffice.CRM.Services.ConsentPurpose.Active
   id: Active
@@ -354,28 +360,28 @@ items:
   nameWithType: ConsentPurpose.Active
   fullName: SuperOffice.CRM.Services.ConsentPurpose.Active
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nIs the consent purpose active or not \n"
+  summary: Is the consent purpose active or not
+  example: []
   syntax:
-    content: public virtual short Active { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short Active { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property Active As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Active As Short
   overload: SuperOffice.CRM.Services.ConsentPurpose.Active*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ConsentPurpose.UpdatedDate
   commentId: P:SuperOffice.CRM.Services.ConsentPurpose.UpdatedDate
   id: UpdatedDate
@@ -387,28 +393,28 @@ items:
   nameWithType: ConsentPurpose.UpdatedDate
   fullName: SuperOffice.CRM.Services.ConsentPurpose.UpdatedDate
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe date the consent purpose was last updated  in UTC.\n"
+  summary: The date the consent purpose was last updated  in UTC.
+  example: []
   syntax:
-    content: public virtual DateTime UpdatedDate { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime UpdatedDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property UpdatedDate As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UpdatedDate As Date
   overload: SuperOffice.CRM.Services.ConsentPurpose.UpdatedDate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ConsentPurpose.UpdatedBy
   commentId: P:SuperOffice.CRM.Services.ConsentPurpose.UpdatedBy
   id: UpdatedBy
@@ -420,28 +426,28 @@ items:
   nameWithType: ConsentPurpose.UpdatedBy
   fullName: SuperOffice.CRM.Services.ConsentPurpose.UpdatedBy
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe associate that last updated the consent purpose \n"
+  summary: The associate that last updated the consent purpose
+  example: []
   syntax:
-    content: public virtual Associate UpdatedBy { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Associate UpdatedBy { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Associate
-    content.vb: Public Overridable Property UpdatedBy As Associate
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UpdatedBy As Associate
   overload: SuperOffice.CRM.Services.ConsentPurpose.UpdatedBy*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ConsentPurpose.Deleted
   commentId: P:SuperOffice.CRM.Services.ConsentPurpose.Deleted
   id: Deleted
@@ -453,28 +459,28 @@ items:
   nameWithType: ConsentPurpose.Deleted
   fullName: SuperOffice.CRM.Services.ConsentPurpose.Deleted
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\ntrue if the ConsentPurpose is deleted \n"
+  summary: true if the ConsentPurpose is deleted
+  example: []
   syntax:
-    content: public virtual bool Deleted { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool Deleted { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property Deleted As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Deleted As Boolean
   overload: SuperOffice.CRM.Services.ConsentPurpose.Deleted*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ConsentPurpose.Rank
   commentId: P:SuperOffice.CRM.Services.ConsentPurpose.Rank
   id: Rank
@@ -486,28 +492,28 @@ items:
   nameWithType: ConsentPurpose.Rank
   fullName: SuperOffice.CRM.Services.ConsentPurpose.Rank
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRank of this consent source \n"
+  summary: Rank of this consent source
+  example: []
   syntax:
-    content: public virtual short Rank { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short Rank { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property Rank As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Rank As Short
   overload: SuperOffice.CRM.Services.ConsentPurpose.Rank*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ConsentPurpose.PrivacyStatementDesc
   commentId: P:SuperOffice.CRM.Services.ConsentPurpose.PrivacyStatementDesc
   id: PrivacyStatementDesc
@@ -519,28 +525,28 @@ items:
   nameWithType: ConsentPurpose.PrivacyStatementDesc
   fullName: SuperOffice.CRM.Services.ConsentPurpose.PrivacyStatementDesc
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nName or description for the privacy statement \n"
+  summary: Name or description for the privacy statement
+  example: []
   syntax:
-    content: public virtual string PrivacyStatementDesc { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string PrivacyStatementDesc { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property PrivacyStatementDesc As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PrivacyStatementDesc As String
   overload: SuperOffice.CRM.Services.ConsentPurpose.PrivacyStatementDesc*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ConsentPurpose.PrivacyStatementUrl
   commentId: P:SuperOffice.CRM.Services.ConsentPurpose.PrivacyStatementUrl
   id: PrivacyStatementUrl
@@ -552,57 +558,106 @@ items:
   nameWithType: ConsentPurpose.PrivacyStatementUrl
   fullName: SuperOffice.CRM.Services.ConsentPurpose.PrivacyStatementUrl
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUrl referencing the actual privacy statement \n"
+  summary: Url referencing the actual privacy statement
+  example: []
   syntax:
-    content: public virtual string PrivacyStatementUrl { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string PrivacyStatementUrl { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property PrivacyStatementUrl As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PrivacyStatementUrl As String
   overload: SuperOffice.CRM.Services.ConsentPurpose.PrivacyStatementUrl*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ListAgent
-  commentId: T:SuperOffice.CRM.Services.ListAgent
-  isExternal: true
-  name: ListAgent
-  nameWithType: ListAgent
-  fullName: SuperOffice.CRM.Services.ListAgent
 - uid: SuperOffice.CRM.Services.IListAgent
   commentId: T:SuperOffice.CRM.Services.IListAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html
   name: IListAgent
   nameWithType: IListAgent
   fullName: SuperOffice.CRM.Services.IListAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ConsentPurpose.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ConsentPurpose.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.ConsentPurpose.html#SuperOffice_CRM_Services_ConsentPurpose__ctor
   name: ConsentPurpose
   nameWithType: ConsentPurpose.ConsentPurpose
   fullName: SuperOffice.CRM.Services.ConsentPurpose.ConsentPurpose
+  nameWithType.vb: ConsentPurpose.New
+  fullName.vb: SuperOffice.CRM.Services.ConsentPurpose.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.ConsentPurpose.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ConsentPurpose.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.ConsentPurpose.html#SuperOffice_CRM_Services_ConsentPurpose_ToString
   name: ToString
   nameWithType: ConsentPurpose.ToString
   fullName: SuperOffice.CRM.Services.ConsentPurpose.ToString
@@ -610,18 +665,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.ConsentPurpose.ConsentPurposeId*
   commentId: Overload:SuperOffice.CRM.Services.ConsentPurpose.ConsentPurposeId
   isExternal: true
+  href: SuperOffice.CRM.Services.ConsentPurpose.html#SuperOffice_CRM_Services_ConsentPurpose_ConsentPurposeId
   name: ConsentPurposeId
   nameWithType: ConsentPurpose.ConsentPurposeId
   fullName: SuperOffice.CRM.Services.ConsentPurpose.ConsentPurposeId
@@ -629,42 +683,52 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.ConsentPurpose.Name*
   commentId: Overload:SuperOffice.CRM.Services.ConsentPurpose.Name
   isExternal: true
+  href: SuperOffice.CRM.Services.ConsentPurpose.html#SuperOffice_CRM_Services_ConsentPurpose_Name
   name: Name
   nameWithType: ConsentPurpose.Name
   fullName: SuperOffice.CRM.Services.ConsentPurpose.Name
 - uid: SuperOffice.CRM.Services.ConsentPurpose.ConsentText*
   commentId: Overload:SuperOffice.CRM.Services.ConsentPurpose.ConsentText
   isExternal: true
+  href: SuperOffice.CRM.Services.ConsentPurpose.html#SuperOffice_CRM_Services_ConsentPurpose_ConsentText
   name: ConsentText
   nameWithType: ConsentPurpose.ConsentText
   fullName: SuperOffice.CRM.Services.ConsentPurpose.ConsentText
 - uid: SuperOffice.CRM.Services.ConsentPurpose.FormText*
   commentId: Overload:SuperOffice.CRM.Services.ConsentPurpose.FormText
   isExternal: true
+  href: SuperOffice.CRM.Services.ConsentPurpose.html#SuperOffice_CRM_Services_ConsentPurpose_FormText
   name: FormText
   nameWithType: ConsentPurpose.FormText
   fullName: SuperOffice.CRM.Services.ConsentPurpose.FormText
 - uid: SuperOffice.CRM.Services.ConsentPurpose.Key*
   commentId: Overload:SuperOffice.CRM.Services.ConsentPurpose.Key
   isExternal: true
+  href: SuperOffice.CRM.Services.ConsentPurpose.html#SuperOffice_CRM_Services_ConsentPurpose_Key
   name: Key
   nameWithType: ConsentPurpose.Key
   fullName: SuperOffice.CRM.Services.ConsentPurpose.Key
 - uid: SuperOffice.CRM.Services.ConsentPurpose.Tooltip*
   commentId: Overload:SuperOffice.CRM.Services.ConsentPurpose.Tooltip
   isExternal: true
+  href: SuperOffice.CRM.Services.ConsentPurpose.html#SuperOffice_CRM_Services_ConsentPurpose_Tooltip
   name: Tooltip
   nameWithType: ConsentPurpose.Tooltip
   fullName: SuperOffice.CRM.Services.ConsentPurpose.Tooltip
 - uid: SuperOffice.CRM.Services.ConsentPurpose.Active*
   commentId: Overload:SuperOffice.CRM.Services.ConsentPurpose.Active
   isExternal: true
+  href: SuperOffice.CRM.Services.ConsentPurpose.html#SuperOffice_CRM_Services_ConsentPurpose_Active
   name: Active
   nameWithType: ConsentPurpose.Active
   fullName: SuperOffice.CRM.Services.ConsentPurpose.Active
@@ -672,23 +736,35 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Services.ConsentPurpose.UpdatedDate*
   commentId: Overload:SuperOffice.CRM.Services.ConsentPurpose.UpdatedDate
   isExternal: true
+  href: SuperOffice.CRM.Services.ConsentPurpose.html#SuperOffice_CRM_Services_ConsentPurpose_UpdatedDate
   name: UpdatedDate
   nameWithType: ConsentPurpose.UpdatedDate
   fullName: SuperOffice.CRM.Services.ConsentPurpose.UpdatedDate
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Services.ConsentPurpose.UpdatedBy*
   commentId: Overload:SuperOffice.CRM.Services.ConsentPurpose.UpdatedBy
   isExternal: true
+  href: SuperOffice.CRM.Services.ConsentPurpose.html#SuperOffice_CRM_Services_ConsentPurpose_UpdatedBy
   name: UpdatedBy
   nameWithType: ConsentPurpose.UpdatedBy
   fullName: SuperOffice.CRM.Services.ConsentPurpose.UpdatedBy
@@ -696,12 +772,14 @@ references:
   commentId: T:SuperOffice.CRM.Services.Associate
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.Associate.html
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.CRM.Services.Associate
 - uid: SuperOffice.CRM.Services.ConsentPurpose.Deleted*
   commentId: Overload:SuperOffice.CRM.Services.ConsentPurpose.Deleted
   isExternal: true
+  href: SuperOffice.CRM.Services.ConsentPurpose.html#SuperOffice_CRM_Services_ConsentPurpose_Deleted
   name: Deleted
   nameWithType: ConsentPurpose.Deleted
   fullName: SuperOffice.CRM.Services.ConsentPurpose.Deleted
@@ -709,24 +787,31 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.ConsentPurpose.Rank*
   commentId: Overload:SuperOffice.CRM.Services.ConsentPurpose.Rank
   isExternal: true
+  href: SuperOffice.CRM.Services.ConsentPurpose.html#SuperOffice_CRM_Services_ConsentPurpose_Rank
   name: Rank
   nameWithType: ConsentPurpose.Rank
   fullName: SuperOffice.CRM.Services.ConsentPurpose.Rank
 - uid: SuperOffice.CRM.Services.ConsentPurpose.PrivacyStatementDesc*
   commentId: Overload:SuperOffice.CRM.Services.ConsentPurpose.PrivacyStatementDesc
   isExternal: true
+  href: SuperOffice.CRM.Services.ConsentPurpose.html#SuperOffice_CRM_Services_ConsentPurpose_PrivacyStatementDesc
   name: PrivacyStatementDesc
   nameWithType: ConsentPurpose.PrivacyStatementDesc
   fullName: SuperOffice.CRM.Services.ConsentPurpose.PrivacyStatementDesc
 - uid: SuperOffice.CRM.Services.ConsentPurpose.PrivacyStatementUrl*
   commentId: Overload:SuperOffice.CRM.Services.ConsentPurpose.PrivacyStatementUrl
   isExternal: true
+  href: SuperOffice.CRM.Services.ConsentPurpose.html#SuperOffice_CRM_Services_ConsentPurpose_PrivacyStatementUrl
   name: PrivacyStatementUrl
   nameWithType: ConsentPurpose.PrivacyStatementUrl
   fullName: SuperOffice.CRM.Services.ConsentPurpose.PrivacyStatementUrl

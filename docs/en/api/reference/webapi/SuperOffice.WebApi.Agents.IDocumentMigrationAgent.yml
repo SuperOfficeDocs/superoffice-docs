@@ -22,24 +22,21 @@ items:
   nameWithType: IDocumentMigrationAgent
   fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent
   type: Interface
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nAgent used to support migrating documents between different document-plugins, as single documents or batches.\n<p></p>\n<strong>Online Restricted:</strong> This agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.\n"
+  summary: >-
+    Agent used to support migrating documents between different document-plugins, as single documents or batches.
+
+    <p></p>
+
+    <b>Online Restricted:</b> This agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+  example: []
   syntax:
     content: 'public interface IDocumentMigrationAgent : IDisposable'
-    content.vb: >-
-      Public Interface IDocumentMigrationAgent
-          Inherits IDisposable
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+    content.vb: Public Interface IDocumentMigrationAgent Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemListAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemListAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultDocumentMigrationItemListAsync(SuperOffice.WebApi.RequestOptions)
@@ -51,19 +48,20 @@ items:
   nameWithType: IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemListAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemListAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet default values into a new DocumentMigrationItemList.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Set default values into a new DocumentMigrationItemList.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
     content: Task<DocumentMigrationItemList> CreateDefaultDocumentMigrationItemListAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DocumentMigrationItemList}
       description: A blank DocumentMigrationItemList
@@ -80,19 +78,20 @@ items:
   nameWithType: IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet default values into a new DocumentTemplateMigrationList.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Set default values into a new DocumentTemplateMigrationList.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
     content: Task<DocumentTemplateMigrationList> CreateDefaultDocumentTemplateMigrationListAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DocumentTemplateMigrationList}
       description: A blank DocumentTemplateMigrationList
@@ -105,17 +104,20 @@ items:
   langs:
   - csharp
   - vb
-  name: GetForAllDocumentsAsync(Int32, Boolean, RequestOptions)
-  nameWithType: IDocumentMigrationAgent.GetForAllDocumentsAsync(Int32, Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForAllDocumentsAsync(System.Int32, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name: GetForAllDocumentsAsync(int, bool, RequestOptions)
+  nameWithType: IDocumentMigrationAgent.GetForAllDocumentsAsync(int, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForAllDocumentsAsync(int, bool, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets a migration summary for all documents stored in CRM. Warning: Expensive!\n<p></p>\n<strong>Online Restricted:</strong> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.\n"
+  summary: >-
+    Gets a migration summary for all documents stored in CRM. Warning: Expensive!
+
+    <p></p>
+
+    <b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+  example: []
   syntax:
     content: Task<DocumentMigrationItemList> GetForAllDocumentsAsync(int documentPluginId, bool includeEmails, RequestOptions requestOptions = null)
     parameters:
@@ -127,12 +129,15 @@ items:
       description: True if documents to migrate should include emails.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DocumentMigrationItemList}
       description: Never null.
     content.vb: Function GetForAllDocumentsAsync(documentPluginId As Integer, includeEmails As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of DocumentMigrationItemList)
   overload: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForAllDocumentsAsync*
+  nameWithType.vb: IDocumentMigrationAgent.GetForAllDocumentsAsync(Integer, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForAllDocumentsAsync(Integer, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetForAllDocumentsAsync(Integer, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForDateRangeAsync(System.Int32,System.DateTime,System.DateTime,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForDateRangeAsync(System.Int32,System.DateTime,System.DateTime,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: GetForDateRangeAsync(System.Int32,System.DateTime,System.DateTime,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -140,17 +145,20 @@ items:
   langs:
   - csharp
   - vb
-  name: GetForDateRangeAsync(Int32, DateTime, DateTime, Boolean, RequestOptions)
-  nameWithType: IDocumentMigrationAgent.GetForDateRangeAsync(Int32, DateTime, DateTime, Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForDateRangeAsync(System.Int32, System.DateTime, System.DateTime, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name: GetForDateRangeAsync(int, DateTime, DateTime, bool, RequestOptions)
+  nameWithType: IDocumentMigrationAgent.GetForDateRangeAsync(int, DateTime, DateTime, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForDateRangeAsync(int, System.DateTime, System.DateTime, bool, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets a migration summary for documents in the provided date-rage\n<p></p>\n<strong>Online Restricted:</strong> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.\n"
+  summary: >-
+    Gets a migration summary for documents in the provided date-rage
+
+    <p></p>
+
+    <b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+  example: []
   syntax:
     content: Task<DocumentMigrationItemList> GetForDateRangeAsync(int documentPluginId, DateTime minDate, DateTime maxDate, bool includeEmails, RequestOptions requestOptions = null)
     parameters:
@@ -168,12 +176,15 @@ items:
       description: True if documents to migrate should include emails.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DocumentMigrationItemList}
       description: Never null.
-    content.vb: Function GetForDateRangeAsync(documentPluginId As Integer, minDate As DateTime, maxDate As DateTime, includeEmails As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of DocumentMigrationItemList)
+    content.vb: Function GetForDateRangeAsync(documentPluginId As Integer, minDate As Date, maxDate As Date, includeEmails As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of DocumentMigrationItemList)
   overload: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForDateRangeAsync*
+  nameWithType.vb: IDocumentMigrationAgent.GetForDateRangeAsync(Integer, Date, Date, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForDateRangeAsync(Integer, Date, Date, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetForDateRangeAsync(Integer, Date, Date, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForSelectionAsync(System.Int32,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForSelectionAsync(System.Int32,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: GetForSelectionAsync(System.Int32,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -181,17 +192,20 @@ items:
   langs:
   - csharp
   - vb
-  name: GetForSelectionAsync(Int32, Int32, Boolean, RequestOptions)
-  nameWithType: IDocumentMigrationAgent.GetForSelectionAsync(Int32, Int32, Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForSelectionAsync(System.Int32, System.Int32, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name: GetForSelectionAsync(int, int, bool, RequestOptions)
+  nameWithType: IDocumentMigrationAgent.GetForSelectionAsync(int, int, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForSelectionAsync(int, int, bool, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets a migration summary for documents in the provided selection\n<p></p>\n<strong>Online Restricted:</strong> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.\n"
+  summary: >-
+    Gets a migration summary for documents in the provided selection
+
+    <p></p>
+
+    <b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+  example: []
   syntax:
     content: Task<DocumentMigrationItemList> GetForSelectionAsync(int documentPluginId, int selectionId, bool includeEmails, RequestOptions requestOptions = null)
     parameters:
@@ -206,12 +220,15 @@ items:
       description: True if documents to migrate should include emails.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DocumentMigrationItemList}
       description: Never null.
     content.vb: Function GetForSelectionAsync(documentPluginId As Integer, selectionId As Integer, includeEmails As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of DocumentMigrationItemList)
   overload: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForSelectionAsync*
+  nameWithType.vb: IDocumentMigrationAgent.GetForSelectionAsync(Integer, Integer, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForSelectionAsync(Integer, Integer, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetForSelectionAsync(Integer, Integer, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateDocumentToNewDocPluginAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateDocumentToNewDocPluginAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: MigrateDocumentToNewDocPluginAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -219,17 +236,20 @@ items:
   langs:
   - csharp
   - vb
-  name: MigrateDocumentToNewDocPluginAsync(Int32, Int32, RequestOptions)
-  nameWithType: IDocumentMigrationAgent.MigrateDocumentToNewDocPluginAsync(Int32, Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateDocumentToNewDocPluginAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: MigrateDocumentToNewDocPluginAsync(int, int, RequestOptions)
+  nameWithType: IDocumentMigrationAgent.MigrateDocumentToNewDocPluginAsync(int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateDocumentToNewDocPluginAsync(int, int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nMigrates the document with the provided id to the specified document-plugin.\n<p></p>\n<strong>Online Restricted:</strong> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.\n"
+  summary: >-
+    Migrates the document with the provided id to the specified document-plugin.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+  example: []
   syntax:
     content: Task MigrateDocumentToNewDocPluginAsync(int documentId, int documentPluginId, RequestOptions requestOptions = null)
     parameters:
@@ -241,12 +261,15 @@ items:
       description: The ID of the document-plugin to migrate to.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
     content.vb: Function MigrateDocumentToNewDocPluginAsync(documentId As Integer, documentPluginId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateDocumentToNewDocPluginAsync*
+  nameWithType.vb: IDocumentMigrationAgent.MigrateDocumentToNewDocPluginAsync(Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateDocumentToNewDocPluginAsync(Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: MigrateDocumentToNewDocPluginAsync(Integer, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.HasDocumentsToMigrateAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.HasDocumentsToMigrateAsync(SuperOffice.WebApi.RequestOptions)
   id: HasDocumentsToMigrateAsync(SuperOffice.WebApi.RequestOptions)
@@ -258,19 +281,22 @@ items:
   nameWithType: IDocumentMigrationAgent.HasDocumentsToMigrateAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.HasDocumentsToMigrateAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nChecks if there are any documents in the current database stored using a non-default document-plugin, and which can be migrated.\n<p></p>\n<strong>Online Restricted:</strong> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.\n"
+  summary: >-
+    Checks if there are any documents in the current database stored using a non-default document-plugin, and which can be migrated.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+  example: []
   syntax:
     content: Task<bool> HasDocumentsToMigrateAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: True if there are documents available to migrate.
@@ -287,19 +313,22 @@ items:
   nameWithType: IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets the total number of documents that is not visible to everyone\n<p></p>\n<strong>Online Restricted:</strong> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.\n"
+  summary: >-
+    Gets the total number of documents that is not visible to everyone
+
+    <p></p>
+
+    <b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+  example: []
   syntax:
     content: Task<int> GetNumberOfConfidentialDocumentsAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Int32}
       description: Number of confidential documents.
@@ -312,17 +341,20 @@ items:
   langs:
   - csharp
   - vb
-  name: GetForTemplatesAsync(Int32, Boolean, RequestOptions)
-  nameWithType: IDocumentMigrationAgent.GetForTemplatesAsync(Int32, Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForTemplatesAsync(System.Int32, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name: GetForTemplatesAsync(int, bool, RequestOptions)
+  nameWithType: IDocumentMigrationAgent.GetForTemplatesAsync(int, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForTemplatesAsync(int, bool, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets a migration summary for all templates stored in CRM.\n<p></p>\n<strong>Online Restricted:</strong> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.\n"
+  summary: >-
+    Gets a migration summary for all templates stored in CRM.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+  example: []
   syntax:
     content: Task<DocumentTemplateMigrationList> GetForTemplatesAsync(int targetDocumentPluginId, bool includeEmails, RequestOptions requestOptions = null)
     parameters:
@@ -334,12 +366,15 @@ items:
       description: True if templates to migrate should include emails.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DocumentTemplateMigrationList}
       description: Never null.
     content.vb: Function GetForTemplatesAsync(targetDocumentPluginId As Integer, includeEmails As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of DocumentTemplateMigrationList)
   overload: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForTemplatesAsync*
+  nameWithType.vb: IDocumentMigrationAgent.GetForTemplatesAsync(Integer, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForTemplatesAsync(Integer, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetForTemplatesAsync(Integer, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateTemplateToNewDocPluginAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateTemplateToNewDocPluginAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: MigrateTemplateToNewDocPluginAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -347,17 +382,20 @@ items:
   langs:
   - csharp
   - vb
-  name: MigrateTemplateToNewDocPluginAsync(Int32, Int32, RequestOptions)
-  nameWithType: IDocumentMigrationAgent.MigrateTemplateToNewDocPluginAsync(Int32, Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateTemplateToNewDocPluginAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: MigrateTemplateToNewDocPluginAsync(int, int, RequestOptions)
+  nameWithType: IDocumentMigrationAgent.MigrateTemplateToNewDocPluginAsync(int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateTemplateToNewDocPluginAsync(int, int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nMigrates the template with the provided id to the specified document-plugin.\n<p></p>\n<strong>Online Restricted:</strong> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.\n"
+  summary: >-
+    Migrates the template with the provided id to the specified document-plugin.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+  example: []
   syntax:
     content: Task MigrateTemplateToNewDocPluginAsync(int documentTemplateId, int targetDocumentPluginId, RequestOptions requestOptions = null)
     parameters:
@@ -369,22 +407,94 @@ items:
       description: The ID of the document-plugin to migrate to.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
     content.vb: Function MigrateTemplateToNewDocPluginAsync(documentTemplateId As Integer, targetDocumentPluginId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateTemplateToNewDocPluginAsync*
+  nameWithType.vb: IDocumentMigrationAgent.MigrateTemplateToNewDocPluginAsync(Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateTemplateToNewDocPluginAsync(Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: MigrateTemplateToNewDocPluginAsync(Integer, Integer, RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemListAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.html#SuperOffice_WebApi_Agents_IDocumentMigrationAgent_CreateDefaultDocumentMigrationItemListAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultDocumentMigrationItemListAsync
   nameWithType: IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemListAsync
   fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemListAsync
@@ -392,12 +502,15 @@ references:
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DocumentMigrationItemList}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DocumentMigrationItemList}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DocumentMigrationItemList}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<DocumentMigrationItemList>
   nameWithType: Task<DocumentMigrationItemList>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.DocumentMigrationItemList>
@@ -407,90 +520,131 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.DocumentMigrationItemList
     name: DocumentMigrationItemList
-    nameWithType: DocumentMigrationItemList
-    fullName: SuperOffice.WebApi.Data.DocumentMigrationItemList
     isExternal: true
+    href: SuperOffice.WebApi.Data.DocumentMigrationItemList.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.DocumentMigrationItemList
     name: DocumentMigrationItemList
-    nameWithType: DocumentMigrationItemList
-    fullName: SuperOffice.WebApi.Data.DocumentMigrationItemList
     isExternal: true
+    href: SuperOffice.WebApi.Data.DocumentMigrationItemList.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: System.Threading.Tasks.Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: System.Threading.Tasks.Task(Of )
-  name.vb: Task(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.html#SuperOffice_WebApi_Agents_IDocumentMigrationAgent_CreateDefaultDocumentTemplateMigrationListAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultDocumentTemplateMigrationListAsync
   nameWithType: IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync
   fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DocumentTemplateMigrationList}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DocumentTemplateMigrationList}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DocumentTemplateMigrationList}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<DocumentTemplateMigrationList>
   nameWithType: Task<DocumentTemplateMigrationList>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.DocumentTemplateMigrationList>
@@ -500,40 +654,31 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.DocumentTemplateMigrationList
     name: DocumentTemplateMigrationList
-    nameWithType: DocumentTemplateMigrationList
-    fullName: SuperOffice.WebApi.Data.DocumentTemplateMigrationList
     isExternal: true
+    href: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.DocumentTemplateMigrationList
     name: DocumentTemplateMigrationList
-    nameWithType: DocumentTemplateMigrationList
-    fullName: SuperOffice.WebApi.Data.DocumentTemplateMigrationList
     isExternal: true
+    href: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForAllDocumentsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForAllDocumentsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.html#SuperOffice_WebApi_Agents_IDocumentMigrationAgent_GetForAllDocumentsAsync_System_Int32_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: GetForAllDocumentsAsync
   nameWithType: IDocumentMigrationAgent.GetForAllDocumentsAsync
   fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForAllDocumentsAsync
@@ -541,157 +686,159 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForDateRangeAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForDateRangeAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.html#SuperOffice_WebApi_Agents_IDocumentMigrationAgent_GetForDateRangeAsync_System_Int32_System_DateTime_System_DateTime_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: GetForDateRangeAsync
   nameWithType: IDocumentMigrationAgent.GetForDateRangeAsync
   fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForDateRangeAsync
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForSelectionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForSelectionAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.html#SuperOffice_WebApi_Agents_IDocumentMigrationAgent_GetForSelectionAsync_System_Int32_System_Int32_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: GetForSelectionAsync
   nameWithType: IDocumentMigrationAgent.GetForSelectionAsync
   fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForSelectionAsync
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateDocumentToNewDocPluginAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateDocumentToNewDocPluginAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.html#SuperOffice_WebApi_Agents_IDocumentMigrationAgent_MigrateDocumentToNewDocPluginAsync_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: MigrateDocumentToNewDocPluginAsync
   nameWithType: IDocumentMigrationAgent.MigrateDocumentToNewDocPluginAsync
   fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateDocumentToNewDocPluginAsync
 - uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.HasDocumentsToMigrateAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.HasDocumentsToMigrateAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.html#SuperOffice_WebApi_Agents_IDocumentMigrationAgent_HasDocumentsToMigrateAsync_SuperOffice_WebApi_RequestOptions_
   name: HasDocumentsToMigrateAsync
   nameWithType: IDocumentMigrationAgent.HasDocumentsToMigrateAsync
   fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.HasDocumentsToMigrateAsync
 - uid: System.Threading.Tasks.Task{System.Boolean}
-  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<Boolean>
-  nameWithType: Task<Boolean>
-  fullName: System.Threading.Tasks.Task<System.Boolean>
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
   nameWithType.vb: Task(Of Boolean)
-  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
   name.vb: Task(Of Boolean)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.html#SuperOffice_WebApi_Agents_IDocumentMigrationAgent_GetNumberOfConfidentialDocumentsAsync_SuperOffice_WebApi_RequestOptions_
   name: GetNumberOfConfidentialDocumentsAsync
   nameWithType: IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync
   fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync
 - uid: System.Threading.Tasks.Task{System.Int32}
-  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<Int32>
-  nameWithType: Task<Int32>
-  fullName: System.Threading.Tasks.Task<System.Int32>
-  nameWithType.vb: Task(Of Int32)
-  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
-  name.vb: Task(Of Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForTemplatesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForTemplatesAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.html#SuperOffice_WebApi_Agents_IDocumentMigrationAgent_GetForTemplatesAsync_System_Int32_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: GetForTemplatesAsync
   nameWithType: IDocumentMigrationAgent.GetForTemplatesAsync
   fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForTemplatesAsync
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateTemplateToNewDocPluginAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateTemplateToNewDocPluginAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.html#SuperOffice_WebApi_Agents_IDocumentMigrationAgent_MigrateTemplateToNewDocPluginAsync_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: MigrateTemplateToNewDocPluginAsync
   nameWithType: IDocumentMigrationAgent.MigrateTemplateToNewDocPluginAsync
   fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateTemplateToNewDocPluginAsync

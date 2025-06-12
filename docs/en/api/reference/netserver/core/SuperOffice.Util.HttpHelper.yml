@@ -7,15 +7,12 @@ items:
   children:
   - SuperOffice.Util.HttpHelper.#ctor
   - SuperOffice.Util.HttpHelper.GenerateToken(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
-  - SuperOffice.Util.HttpHelper.GetObjectFromHttp``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  - SuperOffice.Util.HttpHelper.GetObjectFromHttpSync``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  - SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent)
-  - SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent``1(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent)
-  - SuperOffice.Util.HttpHelper.GetResponse(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
-  - SuperOffice.Util.HttpHelper.GetResponseAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
-  - SuperOffice.Util.HttpHelper.GetResponseBody(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  - SuperOffice.Util.HttpHelper.GetResponseBodyAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  - SuperOffice.Util.HttpHelper.GetResponseWithContent(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.String,System.String)
+  - SuperOffice.Util.HttpHelper.GetObjectFromHttpAsync``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContentAsync``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContentAsync``1(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.Util.HttpHelper.GetResponseAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.Util.HttpHelper.GetResponseBodyAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.Util.HttpHelper.GetResponseWithContentAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.Util.HttpHelper.IsAdmin
   langs:
   - csharp
@@ -24,50 +21,45 @@ items:
   nameWithType: HttpHelper
   fullName: SuperOffice.Util.HttpHelper
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: 'public class HttpHelper : Object'
-    content.vb: >-
-      Public Class HttpHelper
-          Inherits Object
+    content: public class HttpHelper
+    content.vb: Public Class HttpHelper
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Util.HttpHelper.EnumUtil.MapEnums``2
+  - SuperOffice.Util.HttpHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Util.HttpHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.HttpHelper)
   - SuperOffice.Util.HttpHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.Util.HttpHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.Util.HttpHelper.GetResponseAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
-  commentId: M:SuperOffice.Util.HttpHelper.GetResponseAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
-  id: GetResponseAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
+- uid: SuperOffice.Util.HttpHelper.GetResponseAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.HttpHelper.GetResponseAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: GetResponseAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.Util.HttpHelper
   langs:
   - csharp
   - vb
-  name: GetResponseAsync(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object, String)
-  nameWithType: HttpHelper.GetResponseAsync(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object, String)
-  fullName: SuperOffice.Util.HttpHelper.GetResponseAsync(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Object, System.String)
+  name: GetResponseAsync(string, HttpServiceJwtConfig, RequestType, object, string, bool, CancellationToken)
+  nameWithType: HttpHelper.GetResponseAsync(string, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, object, string, bool, CancellationToken)
+  fullName: SuperOffice.Util.HttpHelper.GetResponseAsync(string, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, object, string, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nReturns HttpResponseMessage from a HTTP call to an url\n"
+  summary: Returns HttpResponseMessage from a HTTP call to an url
+  example: []
   syntax:
-    content: public static Task<HttpResponseMessage> GetResponseAsync(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType, object object = null, string bearerToken = null)
+    content: public static Task<HttpResponseMessage> GetResponseAsync(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType = RequestType.GET, object @object = null, string bearerToken = null, bool respectConfiguredTimeout = false, CancellationToken cancellationToken = default)
     parameters:
     - id: url
       type: System.String
@@ -82,76 +74,34 @@ items:
       description: Custom referencetype to be JSON serialized
     - id: bearerToken
       type: System.String
+    - id: respectConfiguredTimeout
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
       description: HttpResponseMessage
-    content.vb: Public Shared Function GetResponseAsync(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType, object As Object = Nothing, bearerToken As String = Nothing) As Task(Of HttpResponseMessage)
+    content.vb: Public Shared Function GetResponseAsync(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType = RequestType.GET, [object] As Object = Nothing, bearerToken As String = Nothing, respectConfiguredTimeout As Boolean = False, cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)
   overload: SuperOffice.Util.HttpHelper.GetResponseAsync*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Util.HttpHelper.GetResponse(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
-  commentId: M:SuperOffice.Util.HttpHelper.GetResponse(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
-  id: GetResponse(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
+  nameWithType.vb: HttpHelper.GetResponseAsync(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.Util.HttpHelper.GetResponseAsync(String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, Object, String, Boolean, System.Threading.CancellationToken)
+  name.vb: GetResponseAsync(String, HttpServiceJwtConfig, RequestType, Object, String, Boolean, CancellationToken)
+- uid: SuperOffice.Util.HttpHelper.GetResponseWithContentAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.HttpHelper.GetResponseWithContentAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: GetResponseWithContentAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.Util.HttpHelper
   langs:
   - csharp
   - vb
-  name: GetResponse(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object, String)
-  nameWithType: HttpHelper.GetResponse(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object, String)
-  fullName: SuperOffice.Util.HttpHelper.GetResponse(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Object, System.String)
+  name: GetResponseWithContentAsync(string, HttpServiceJwtConfig, RequestType, HttpContent, string, string, bool, CancellationToken)
+  nameWithType: HttpHelper.GetResponseWithContentAsync(string, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, HttpContent, string, string, bool, CancellationToken)
+  fullName: SuperOffice.Util.HttpHelper.GetResponseWithContentAsync(string, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Net.Http.HttpContent, string, string, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: public static HttpResponseMessage GetResponse(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType, object object = null, string bearerToken = null)
-    parameters:
-    - id: url
-      type: System.String
-    - id: config
-      type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
-    - id: requestType
-      type: SuperOffice.Util.HttpHelper.RequestType
-    - id: object
-      type: System.Object
-    - id: bearerToken
-      type: System.String
-    return:
-      type: System.Net.Http.HttpResponseMessage
-    content.vb: Public Shared Function GetResponse(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType, object As Object = Nothing, bearerToken As String = Nothing) As HttpResponseMessage
-  overload: SuperOffice.Util.HttpHelper.GetResponse*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Util.HttpHelper.GetResponseWithContent(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.String,System.String)
-  commentId: M:SuperOffice.Util.HttpHelper.GetResponseWithContent(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.String,System.String)
-  id: GetResponseWithContent(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.String,System.String)
-  parent: SuperOffice.Util.HttpHelper
-  langs:
-  - csharp
-  - vb
-  name: GetResponseWithContent(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, HttpContent, String, String)
-  nameWithType: HttpHelper.GetResponseWithContent(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, HttpContent, String, String)
-  fullName: SuperOffice.Util.HttpHelper.GetResponseWithContent(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Net.Http.HttpContent, System.String, System.String)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Util
-  syntax:
-    content: public static HttpResponseMessage GetResponseWithContent(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType, HttpContent content, string bearerToken = null, string apiKey = null)
+    content: public static Task<HttpResponseMessage> GetResponseWithContentAsync(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType, HttpContent content, string bearerToken = null, string apiKey = null, bool respectConfiguredTimeout = false, CancellationToken cancellationToken = default)
     parameters:
     - id: url
       type: System.String
@@ -165,36 +115,35 @@ items:
       type: System.String
     - id: apiKey
       type: System.String
+    - id: respectConfiguredTimeout
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Net.Http.HttpResponseMessage
-    content.vb: Public Shared Function GetResponseWithContent(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType, content As HttpContent, bearerToken As String = Nothing, apiKey As String = Nothing) As HttpResponseMessage
-  overload: SuperOffice.Util.HttpHelper.GetResponseWithContent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Util.HttpHelper.GetResponseBodyAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  commentId: M:SuperOffice.Util.HttpHelper.GetResponseBodyAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  id: GetResponseBodyAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+    content.vb: Public Shared Function GetResponseWithContentAsync(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType, content As HttpContent, bearerToken As String = Nothing, apiKey As String = Nothing, respectConfiguredTimeout As Boolean = False, cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)
+  overload: SuperOffice.Util.HttpHelper.GetResponseWithContentAsync*
+  nameWithType.vb: HttpHelper.GetResponseWithContentAsync(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, HttpContent, String, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.Util.HttpHelper.GetResponseWithContentAsync(String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Net.Http.HttpContent, String, String, Boolean, System.Threading.CancellationToken)
+  name.vb: GetResponseWithContentAsync(String, HttpServiceJwtConfig, RequestType, HttpContent, String, String, Boolean, CancellationToken)
+- uid: SuperOffice.Util.HttpHelper.GetResponseBodyAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.HttpHelper.GetResponseBodyAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.Boolean,System.Threading.CancellationToken)
+  id: GetResponseBodyAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.Util.HttpHelper
   langs:
   - csharp
   - vb
-  name: GetResponseBodyAsync(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
-  nameWithType: HttpHelper.GetResponseBodyAsync(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
-  fullName: SuperOffice.Util.HttpHelper.GetResponseBodyAsync(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Object)
+  name: GetResponseBodyAsync(string, HttpServiceJwtConfig, RequestType, object, bool, CancellationToken)
+  nameWithType: HttpHelper.GetResponseBodyAsync(string, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, object, bool, CancellationToken)
+  fullName: SuperOffice.Util.HttpHelper.GetResponseBodyAsync(string, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, object, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nReturns the Body from an HTTPResponseMessage from a HTTP call to an url as string\n"
+  summary: Returns the Body from an HTTPResponseMessage from a HTTP call to an url as string
+  example: []
   syntax:
-    content: public static Task<string> GetResponseBodyAsync(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType, object object = null)
+    content: public static Task<string> GetResponseBodyAsync(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType = RequestType.GET, object @object = null, bool respectConfiguredTimeout = false, CancellationToken cancellationToken = default)
     parameters:
     - id: url
       type: System.String
@@ -207,75 +156,36 @@ items:
     - id: object
       type: System.Object
       description: Custom referencetype to be JSON serialized
+    - id: respectConfiguredTimeout
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: String
-    content.vb: Public Shared Function GetResponseBodyAsync(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType, object As Object = Nothing) As Task(Of String)
+    content.vb: Public Shared Function GetResponseBodyAsync(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType = RequestType.GET, [object] As Object = Nothing, respectConfiguredTimeout As Boolean = False, cancellationToken As CancellationToken = Nothing) As Task(Of String)
   overload: SuperOffice.Util.HttpHelper.GetResponseBodyAsync*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Util.HttpHelper.GetResponseBody(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  commentId: M:SuperOffice.Util.HttpHelper.GetResponseBody(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  id: GetResponseBody(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+  nameWithType.vb: HttpHelper.GetResponseBodyAsync(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.Util.HttpHelper.GetResponseBodyAsync(String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, Object, Boolean, System.Threading.CancellationToken)
+  name.vb: GetResponseBodyAsync(String, HttpServiceJwtConfig, RequestType, Object, Boolean, CancellationToken)
+- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttpAsync``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.HttpHelper.GetObjectFromHttpAsync``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.Boolean,System.Threading.CancellationToken)
+  id: GetObjectFromHttpAsync``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.Util.HttpHelper
   langs:
   - csharp
   - vb
-  name: GetResponseBody(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
-  nameWithType: HttpHelper.GetResponseBody(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
-  fullName: SuperOffice.Util.HttpHelper.GetResponseBody(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Object)
+  name: GetObjectFromHttpAsync<T>(string, HttpServiceJwtConfig, RequestType, object, bool, CancellationToken)
+  nameWithType: HttpHelper.GetObjectFromHttpAsync<T>(string, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, object, bool, CancellationToken)
+  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttpAsync<T>(string, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, object, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
+  summary: Returns an object from given type. Calls url and deserializes HttpResponseMessage body to object
+  example: []
   syntax:
-    content: public static string GetResponseBody(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType, object object = null)
-    parameters:
-    - id: url
-      type: System.String
-    - id: config
-      type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
-    - id: requestType
-      type: SuperOffice.Util.HttpHelper.RequestType
-    - id: object
-      type: System.Object
-    return:
-      type: System.String
-    content.vb: Public Shared Function GetResponseBody(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType, object As Object = Nothing) As String
-  overload: SuperOffice.Util.HttpHelper.GetResponseBody*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttp``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  commentId: M:SuperOffice.Util.HttpHelper.GetObjectFromHttp``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  id: GetObjectFromHttp``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  parent: SuperOffice.Util.HttpHelper
-  langs:
-  - csharp
-  - vb
-  name: GetObjectFromHttp<T>(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
-  nameWithType: HttpHelper.GetObjectFromHttp<T>(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
-  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttp<T>(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Object)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Util
-  summary: "\nReturns an object from given type. Calls url and deserializes HttpResponseMessage body to object\n"
-  syntax:
-    content: public static Task<T> GetObjectFromHttp<T>(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType, object object = null)
+    content: public static Task<T> GetObjectFromHttpAsync<T>(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType = RequestType.GET, object @object = null, bool respectConfiguredTimeout = false, CancellationToken cancellationToken = default)
     parameters:
     - id: url
       type: System.String
@@ -288,85 +198,37 @@ items:
     - id: object
       type: System.Object
       description: Custom referencetype to be JSON serialized
+    - id: respectConfiguredTimeout
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     typeParameters:
     - id: T
       description: To be defined return value
     return:
       type: System.Threading.Tasks.Task{{T}}
       description: Does return what is specified in T
-    content.vb: Public Shared Function GetObjectFromHttp(Of T)(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType, object As Object = Nothing) As Task(Of T)
-  overload: SuperOffice.Util.HttpHelper.GetObjectFromHttp*
-  nameWithType.vb: HttpHelper.GetObjectFromHttp(Of T)(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Util.HttpHelper.GetObjectFromHttp(Of T)(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Object)
-  name.vb: GetObjectFromHttp(Of T)(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
-- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttpSync``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  commentId: M:SuperOffice.Util.HttpHelper.GetObjectFromHttpSync``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  id: GetObjectFromHttpSync``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+    content.vb: Public Shared Function GetObjectFromHttpAsync(Of T)(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType = RequestType.GET, [object] As Object = Nothing, respectConfiguredTimeout As Boolean = False, cancellationToken As CancellationToken = Nothing) As Task(Of T)
+  overload: SuperOffice.Util.HttpHelper.GetObjectFromHttpAsync*
+  nameWithType.vb: HttpHelper.GetObjectFromHttpAsync(Of T)(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.Util.HttpHelper.GetObjectFromHttpAsync(Of T)(String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, Object, Boolean, System.Threading.CancellationToken)
+  name.vb: GetObjectFromHttpAsync(Of T)(String, HttpServiceJwtConfig, RequestType, Object, Boolean, CancellationToken)
+- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContentAsync``1(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContentAsync``1(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.Boolean,System.Threading.CancellationToken)
+  id: GetObjectFromHttpSyncWithContentAsync``1(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.Util.HttpHelper
   langs:
   - csharp
   - vb
-  name: GetObjectFromHttpSync<T>(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
-  nameWithType: HttpHelper.GetObjectFromHttpSync<T>(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
-  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttpSync<T>(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Object)
+  name: GetObjectFromHttpSyncWithContentAsync<T>(string, RequestType, HttpContent, bool, CancellationToken)
+  nameWithType: HttpHelper.GetObjectFromHttpSyncWithContentAsync<T>(string, HttpHelper.RequestType, HttpContent, bool, CancellationToken)
+  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContentAsync<T>(string, SuperOffice.Util.HttpHelper.RequestType, System.Net.Http.HttpContent, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: public static T GetObjectFromHttpSync<T>(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType, object object = null)
-    parameters:
-    - id: url
-      type: System.String
-    - id: config
-      type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
-    - id: requestType
-      type: SuperOffice.Util.HttpHelper.RequestType
-    - id: object
-      type: System.Object
-    typeParameters:
-    - id: T
-    return:
-      type: '{T}'
-    content.vb: Public Shared Function GetObjectFromHttpSync(Of T)(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType, object As Object = Nothing) As T
-  overload: SuperOffice.Util.HttpHelper.GetObjectFromHttpSync*
-  nameWithType.vb: HttpHelper.GetObjectFromHttpSync(Of T)(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Util.HttpHelper.GetObjectFromHttpSync(Of T)(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Object)
-  name.vb: GetObjectFromHttpSync(Of T)(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
-- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent``1(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent)
-  commentId: M:SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent``1(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent)
-  id: GetObjectFromHttpSyncWithContent``1(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent)
-  parent: SuperOffice.Util.HttpHelper
-  langs:
-  - csharp
-  - vb
-  name: GetObjectFromHttpSyncWithContent<T>(String, HttpHelper.RequestType, HttpContent)
-  nameWithType: HttpHelper.GetObjectFromHttpSyncWithContent<T>(String, HttpHelper.RequestType, HttpContent)
-  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent<T>(System.String, SuperOffice.Util.HttpHelper.RequestType, System.Net.Http.HttpContent)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Util
-  syntax:
-    content: public static T GetObjectFromHttpSyncWithContent<T>(string url, HttpHelper.RequestType requestType, HttpContent content)
+    content: public static Task<T> GetObjectFromHttpSyncWithContentAsync<T>(string url, HttpHelper.RequestType requestType, HttpContent content, bool respectConfiguredTimeout = false, CancellationToken cancellationToken = default)
     parameters:
     - id: url
       type: System.String
@@ -374,40 +236,35 @@ items:
       type: SuperOffice.Util.HttpHelper.RequestType
     - id: content
       type: System.Net.Http.HttpContent
+    - id: respectConfiguredTimeout
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     typeParameters:
     - id: T
     return:
-      type: '{T}'
-    content.vb: Public Shared Function GetObjectFromHttpSyncWithContent(Of T)(url As String, requestType As HttpHelper.RequestType, content As HttpContent) As T
-  overload: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent*
-  nameWithType.vb: HttpHelper.GetObjectFromHttpSyncWithContent(Of T)(String, HttpHelper.RequestType, HttpContent)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent(Of T)(System.String, SuperOffice.Util.HttpHelper.RequestType, System.Net.Http.HttpContent)
-  name.vb: GetObjectFromHttpSyncWithContent(Of T)(String, HttpHelper.RequestType, HttpContent)
-- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent)
-  commentId: M:SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent)
-  id: GetObjectFromHttpSyncWithContent``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent)
+      type: System.Threading.Tasks.Task{{T}}
+    content.vb: Public Shared Function GetObjectFromHttpSyncWithContentAsync(Of T)(url As String, requestType As HttpHelper.RequestType, content As HttpContent, respectConfiguredTimeout As Boolean = False, cancellationToken As CancellationToken = Nothing) As Task(Of T)
+  overload: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContentAsync*
+  nameWithType.vb: HttpHelper.GetObjectFromHttpSyncWithContentAsync(Of T)(String, HttpHelper.RequestType, HttpContent, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContentAsync(Of T)(String, SuperOffice.Util.HttpHelper.RequestType, System.Net.Http.HttpContent, Boolean, System.Threading.CancellationToken)
+  name.vb: GetObjectFromHttpSyncWithContentAsync(Of T)(String, RequestType, HttpContent, Boolean, CancellationToken)
+- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContentAsync``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContentAsync``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.Boolean,System.Threading.CancellationToken)
+  id: GetObjectFromHttpSyncWithContentAsync``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.Util.HttpHelper
   langs:
   - csharp
   - vb
-  name: GetObjectFromHttpSyncWithContent<T>(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, HttpContent)
-  nameWithType: HttpHelper.GetObjectFromHttpSyncWithContent<T>(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, HttpContent)
-  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent<T>(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Net.Http.HttpContent)
+  name: GetObjectFromHttpSyncWithContentAsync<T>(string, HttpServiceJwtConfig, RequestType, HttpContent, bool, CancellationToken)
+  nameWithType: HttpHelper.GetObjectFromHttpSyncWithContentAsync<T>(string, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, HttpContent, bool, CancellationToken)
+  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContentAsync<T>(string, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Net.Http.HttpContent, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: public static T GetObjectFromHttpSyncWithContent<T>(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType, HttpContent content)
+    content: public static Task<T> GetObjectFromHttpSyncWithContentAsync<T>(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType, HttpContent content, bool respectConfiguredTimeout = false, CancellationToken cancellationToken = default)
     parameters:
     - id: url
       type: System.String
@@ -417,21 +274,19 @@ items:
       type: SuperOffice.Util.HttpHelper.RequestType
     - id: content
       type: System.Net.Http.HttpContent
+    - id: respectConfiguredTimeout
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     typeParameters:
     - id: T
     return:
-      type: '{T}'
-    content.vb: Public Shared Function GetObjectFromHttpSyncWithContent(Of T)(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType, content As HttpContent) As T
-  overload: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent*
-  nameWithType.vb: HttpHelper.GetObjectFromHttpSyncWithContent(Of T)(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, HttpContent)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent(Of T)(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Net.Http.HttpContent)
-  name.vb: GetObjectFromHttpSyncWithContent(Of T)(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, HttpContent)
+      type: System.Threading.Tasks.Task{{T}}
+    content.vb: Public Shared Function GetObjectFromHttpSyncWithContentAsync(Of T)(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType, content As HttpContent, respectConfiguredTimeout As Boolean = False, cancellationToken As CancellationToken = Nothing) As Task(Of T)
+  overload: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContentAsync*
+  nameWithType.vb: HttpHelper.GetObjectFromHttpSyncWithContentAsync(Of T)(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, HttpContent, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContentAsync(Of T)(String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Net.Http.HttpContent, Boolean, System.Threading.CancellationToken)
+  name.vb: GetObjectFromHttpSyncWithContentAsync(Of T)(String, HttpServiceJwtConfig, RequestType, HttpContent, Boolean, CancellationToken)
 - uid: SuperOffice.Util.HttpHelper.GenerateToken(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
   commentId: M:SuperOffice.Util.HttpHelper.GenerateToken(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
   id: GenerateToken(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
@@ -439,17 +294,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GenerateToken(HttpHelper.HttpServiceJwtConfig)
+  name: GenerateToken(HttpServiceJwtConfig)
   nameWithType: HttpHelper.GenerateToken(HttpHelper.HttpServiceJwtConfig)
   fullName: SuperOffice.Util.HttpHelper.GenerateToken(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public static string GenerateToken(HttpHelper.HttpServiceJwtConfig config)
     parameters:
@@ -457,14 +310,9 @@ items:
       type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
     return:
       type: System.String
+      description: ''
     content.vb: Public Shared Function GenerateToken(config As HttpHelper.HttpServiceJwtConfig) As String
   overload: SuperOffice.Util.HttpHelper.GenerateToken*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Util.HttpHelper.IsAdmin
   commentId: M:SuperOffice.Util.HttpHelper.IsAdmin
   id: IsAdmin
@@ -476,9 +324,6 @@ items:
   nameWithType: HttpHelper.IsAdmin()
   fullName: SuperOffice.Util.HttpHelper.IsAdmin()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -486,14 +331,8 @@ items:
     content: public static bool IsAdmin()
     return:
       type: System.Boolean
-    content.vb: Public Shared Function IsAdmin As Boolean
+    content.vb: Public Shared Function IsAdmin() As Boolean
   overload: SuperOffice.Util.HttpHelper.IsAdmin*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Util.HttpHelper.#ctor
   commentId: M:SuperOffice.Util.HttpHelper.#ctor
   id: '#ctor'
@@ -505,189 +344,497 @@ items:
   nameWithType: HttpHelper.HttpHelper()
   fullName: SuperOffice.Util.HttpHelper.HttpHelper()
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public HttpHelper()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.Util.HttpHelper.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: HttpHelper.New()
+  fullName.vb: SuperOffice.Util.HttpHelper.New()
+  name.vb: New()
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.Util.HttpHelper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<HttpHelper, To>()
-  nameWithType: EnumUtil.MapEnums<HttpHelper, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.HttpHelper, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of HttpHelper, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.HttpHelper, To)()
-  name.vb: MapEnums(Of HttpHelper, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<HttpHelper, To>(HttpHelper)
+  nameWithType: EnumUtil.MapEnums<HttpHelper, To>(HttpHelper)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.HttpHelper, To>(SuperOffice.Util.HttpHelper)
+  nameWithType.vb: EnumUtil.MapEnums(Of HttpHelper, To)(HttpHelper)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.HttpHelper, To)(SuperOffice.Util.HttpHelper)
+  name.vb: MapEnums(Of HttpHelper, To)(HttpHelper)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<HttpHelper, To>
-    nameWithType: EnumUtil.MapEnums<HttpHelper, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Util.HttpHelper, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.HttpHelper)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of HttpHelper, To)
-    nameWithType: EnumUtil.MapEnums(Of HttpHelper, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.HttpHelper, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.HttpHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.HttpHelper)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<HttpHelper>(HttpHelper)
-  nameWithType: ObjectExtensions.AssignByReflection<HttpHelper>(HttpHelper)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.HttpHelper>(SuperOffice.Util.HttpHelper)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of HttpHelper)(HttpHelper)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.HttpHelper)(SuperOffice.Util.HttpHelper)
-  name.vb: AssignByReflection(Of HttpHelper)(HttpHelper)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<HttpHelper>
-    nameWithType: ObjectExtensions.AssignByReflection<HttpHelper>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.HttpHelper>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.Util.HttpHelper
     name: HttpHelper
-    nameWithType: HttpHelper
-    fullName: SuperOffice.Util.HttpHelper
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of HttpHelper)
-    nameWithType: ObjectExtensions.AssignByReflection(Of HttpHelper)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.HttpHelper)
-    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Util.HttpHelper
     name: HttpHelper
-    nameWithType: HttpHelper
-    fullName: SuperOffice.Util.HttpHelper
     isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.HttpHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<HttpHelper>()
-  nameWithType: ObjectExtensions.GraphCopy<HttpHelper>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.HttpHelper>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of HttpHelper)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.HttpHelper)()
-  name.vb: GraphCopy(Of HttpHelper)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<HttpHelper>
-    nameWithType: ObjectExtensions.GraphCopy<HttpHelper>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.HttpHelper>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of HttpHelper)
-    nameWithType: ObjectExtensions.GraphCopy(Of HttpHelper)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.HttpHelper)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.HttpHelper)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: )
 - uid: SuperOffice.Util.HttpHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<HttpHelper, To>()
-  nameWithType: Converters.MapEnums<HttpHelper, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.HttpHelper, To>()
-  nameWithType.vb: Converters.MapEnums(Of HttpHelper, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.HttpHelper, To)()
-  name.vb: MapEnums(Of HttpHelper, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<HttpHelper, To>(HttpHelper)
+  nameWithType: Converters.MapEnums<HttpHelper, To>(HttpHelper)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.HttpHelper, To>(SuperOffice.Util.HttpHelper)
+  nameWithType.vb: Converters.MapEnums(Of HttpHelper, To)(HttpHelper)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.HttpHelper, To)(SuperOffice.Util.HttpHelper)
+  name.vb: MapEnums(Of HttpHelper, To)(HttpHelper)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<HttpHelper, To>
-    nameWithType: Converters.MapEnums<HttpHelper, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.HttpHelper, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.HttpHelper)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of HttpHelper, To)
-    nameWithType: Converters.MapEnums(Of HttpHelper, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.HttpHelper, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.HttpHelper)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: )
+- uid: SuperOffice.Util.HttpHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.HttpHelper)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<HttpHelper>(HttpHelper, HttpHelper)
+  nameWithType: ObjectExtensions.AssignByReflection<HttpHelper>(HttpHelper, HttpHelper)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.HttpHelper>(SuperOffice.Util.HttpHelper, SuperOffice.Util.HttpHelper)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of HttpHelper)(HttpHelper, HttpHelper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.HttpHelper)(SuperOffice.Util.HttpHelper, SuperOffice.Util.HttpHelper)
+  name.vb: AssignByReflection(Of HttpHelper)(HttpHelper, HttpHelper)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.HttpHelper,SuperOffice.Util.HttpHelper)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.HttpHelper,SuperOffice.Util.HttpHelper)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: )
+- uid: SuperOffice.Util.HttpHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<HttpHelper>(HttpHelper)
+  nameWithType: ObjectExtensions.GraphCopy<HttpHelper>(HttpHelper)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.HttpHelper>(SuperOffice.Util.HttpHelper)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of HttpHelper)(HttpHelper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.HttpHelper)(SuperOffice.Util.HttpHelper)
+  name.vb: GraphCopy(Of HttpHelper)(HttpHelper)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.HttpHelper)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.HttpHelper)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -696,140 +843,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -838,50 +890,165 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Util.HttpHelper.GetResponseAsync*
   commentId: Overload:SuperOffice.Util.HttpHelper.GetResponseAsync
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.html#SuperOffice_Util_HttpHelper_GetResponseAsync_System_String_SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_SuperOffice_Util_HttpHelper_RequestType_System_Object_System_String_System_Boolean_System_Threading_CancellationToken_
   name: GetResponseAsync
   nameWithType: HttpHelper.GetResponseAsync
   fullName: SuperOffice.Util.HttpHelper.GetResponseAsync
@@ -889,26 +1056,93 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
   commentId: T:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.html
   name: HttpHelper.HttpServiceJwtConfig
   nameWithType: HttpHelper.HttpServiceJwtConfig
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+  spec.csharp:
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: .
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+  spec.vb:
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: .
+  - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    name: HttpServiceJwtConfig
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
 - uid: SuperOffice.Util.HttpHelper.RequestType
   commentId: T:SuperOffice.Util.HttpHelper.RequestType
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.html
   name: HttpHelper.RequestType
   nameWithType: HttpHelper.RequestType
   fullName: SuperOffice.Util.HttpHelper.RequestType
+  spec.csharp:
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: .
+  - uid: SuperOffice.Util.HttpHelper.RequestType
+    name: RequestType
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.RequestType.html
+  spec.vb:
+  - uid: SuperOffice.Util.HttpHelper
+    name: HttpHelper
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.html
+  - name: .
+  - uid: SuperOffice.Util.HttpHelper.RequestType
+    name: RequestType
+    isExternal: true
+    href: SuperOffice.Util.HttpHelper.RequestType.html
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
 - uid: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
-  commentId: '!:System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}'
+  commentId: T:System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<HttpResponseMessage>
   nameWithType: Task<HttpResponseMessage>
   fullName: System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>
@@ -918,161 +1152,225 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Net.Http.HttpResponseMessage
     name: HttpResponseMessage
-    nameWithType: HttpResponseMessage
-    fullName: System.Net.Http.HttpResponseMessage
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Net.Http.HttpResponseMessage
     name: HttpResponseMessage
-    nameWithType: HttpResponseMessage
-    fullName: System.Net.Http.HttpResponseMessage
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Threading.Tasks.Task`1
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: System.Threading.Tasks.Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: System.Threading.Tasks.Task(Of )
-  name.vb: Task(Of )
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.HttpHelper.GetResponse*
-  commentId: Overload:SuperOffice.Util.HttpHelper.GetResponse
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
   isExternal: true
-  name: GetResponse
-  nameWithType: HttpHelper.GetResponse
-  fullName: SuperOffice.Util.HttpHelper.GetResponse
-- uid: System.Net.Http.HttpResponseMessage
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.Util.HttpHelper.GetResponseWithContentAsync*
+  commentId: Overload:SuperOffice.Util.HttpHelper.GetResponseWithContentAsync
   isExternal: true
-  name: HttpResponseMessage
-  nameWithType: HttpResponseMessage
-  fullName: System.Net.Http.HttpResponseMessage
-- uid: SuperOffice.Util.HttpHelper.GetResponseWithContent*
-  commentId: Overload:SuperOffice.Util.HttpHelper.GetResponseWithContent
-  isExternal: true
-  name: GetResponseWithContent
-  nameWithType: HttpHelper.GetResponseWithContent
-  fullName: SuperOffice.Util.HttpHelper.GetResponseWithContent
+  href: SuperOffice.Util.HttpHelper.html#SuperOffice_Util_HttpHelper_GetResponseWithContentAsync_System_String_SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_SuperOffice_Util_HttpHelper_RequestType_System_Net_Http_HttpContent_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  name: GetResponseWithContentAsync
+  nameWithType: HttpHelper.GetResponseWithContentAsync
+  fullName: SuperOffice.Util.HttpHelper.GetResponseWithContentAsync
 - uid: System.Net.Http.HttpContent
+  commentId: T:System.Net.Http.HttpContent
+  parent: System.Net.Http
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpcontent
   name: HttpContent
   nameWithType: HttpContent
   fullName: System.Net.Http.HttpContent
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
 - uid: SuperOffice.Util.HttpHelper.GetResponseBodyAsync*
   commentId: Overload:SuperOffice.Util.HttpHelper.GetResponseBodyAsync
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.html#SuperOffice_Util_HttpHelper_GetResponseBodyAsync_System_String_SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_SuperOffice_Util_HttpHelper_RequestType_System_Object_System_Boolean_System_Threading_CancellationToken_
   name: GetResponseBodyAsync
   nameWithType: HttpHelper.GetResponseBodyAsync
   fullName: SuperOffice.Util.HttpHelper.GetResponseBodyAsync
 - uid: System.Threading.Tasks.Task{System.String}
-  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<String>
-  nameWithType: Task<String>
-  fullName: System.Threading.Tasks.Task<System.String>
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
   nameWithType.vb: Task(Of String)
-  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
   name.vb: Task(Of String)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.HttpHelper.GetResponseBody*
-  commentId: Overload:SuperOffice.Util.HttpHelper.GetResponseBody
+- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttpAsync*
+  commentId: Overload:SuperOffice.Util.HttpHelper.GetObjectFromHttpAsync
   isExternal: true
-  name: GetResponseBody
-  nameWithType: HttpHelper.GetResponseBody
-  fullName: SuperOffice.Util.HttpHelper.GetResponseBody
-- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttp*
-  commentId: Overload:SuperOffice.Util.HttpHelper.GetObjectFromHttp
-  isExternal: true
-  name: GetObjectFromHttp
-  nameWithType: HttpHelper.GetObjectFromHttp
-  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttp
+  href: SuperOffice.Util.HttpHelper.html#SuperOffice_Util_HttpHelper_GetObjectFromHttpAsync__1_System_String_SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_SuperOffice_Util_HttpHelper_RequestType_System_Object_System_Boolean_System_Threading_CancellationToken_
+  name: GetObjectFromHttpAsync
+  nameWithType: HttpHelper.GetObjectFromHttpAsync
+  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttpAsync
 - uid: System.Threading.Tasks.Task{{T}}
-  commentId: '!:System.Threading.Tasks.Task{``0}'
+  commentId: T:System.Threading.Tasks.Task{`0}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<T>
   nameWithType: Task<T>
   fullName: System.Threading.Tasks.Task<T>
@@ -1082,77 +1380,49 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - name: T
-    nameWithType: T
-    fullName: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - name: T
-    nameWithType: T
-    fullName: T
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttpSync*
-  commentId: Overload:SuperOffice.Util.HttpHelper.GetObjectFromHttpSync
+- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContentAsync*
+  commentId: Overload:SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContentAsync
   isExternal: true
-  name: GetObjectFromHttpSync
-  nameWithType: HttpHelper.GetObjectFromHttpSync
-  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttpSync
-- uid: '{T}'
-  commentId: '!:T'
-  definition: T
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: T
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent*
-  commentId: Overload:SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent
-  isExternal: true
-  name: GetObjectFromHttpSyncWithContent
-  nameWithType: HttpHelper.GetObjectFromHttpSyncWithContent
-  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent
+  href: SuperOffice.Util.HttpHelper.html#SuperOffice_Util_HttpHelper_GetObjectFromHttpSyncWithContentAsync__1_System_String_SuperOffice_Util_HttpHelper_RequestType_System_Net_Http_HttpContent_System_Boolean_System_Threading_CancellationToken_
+  name: GetObjectFromHttpSyncWithContentAsync
+  nameWithType: HttpHelper.GetObjectFromHttpSyncWithContentAsync
+  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContentAsync
 - uid: SuperOffice.Util.HttpHelper.GenerateToken*
   commentId: Overload:SuperOffice.Util.HttpHelper.GenerateToken
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.html#SuperOffice_Util_HttpHelper_GenerateToken_SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_
   name: GenerateToken
   nameWithType: HttpHelper.GenerateToken
   fullName: SuperOffice.Util.HttpHelper.GenerateToken
 - uid: SuperOffice.Util.HttpHelper.IsAdmin*
   commentId: Overload:SuperOffice.Util.HttpHelper.IsAdmin
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.html#SuperOffice_Util_HttpHelper_IsAdmin
   name: IsAdmin
   nameWithType: HttpHelper.IsAdmin
   fullName: SuperOffice.Util.HttpHelper.IsAdmin
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: SuperOffice.Util.HttpHelper.#ctor*
   commentId: Overload:SuperOffice.Util.HttpHelper.#ctor
   isExternal: true
+  href: SuperOffice.Util.HttpHelper.html#SuperOffice_Util_HttpHelper__ctor
   name: HttpHelper
   nameWithType: HttpHelper.HttpHelper
   fullName: SuperOffice.Util.HttpHelper.HttpHelper
+  nameWithType.vb: HttpHelper.New
+  fullName.vb: SuperOffice.Util.HttpHelper.New
+  name.vb: New

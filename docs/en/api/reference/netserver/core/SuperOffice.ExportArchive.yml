@@ -4,6 +4,7 @@ items:
   commentId: N:SuperOffice.ExportArchive
   id: SuperOffice.ExportArchive
   children:
+  - SuperOffice.ExportArchive.IBatchDataTicketExtensions
   - SuperOffice.ExportArchive.TicketBatchPluginBase
   - SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
   langs:
@@ -19,6 +20,7 @@ references:
 - uid: SuperOffice.ExportArchive.TicketBatchPluginBase
   commentId: T:SuperOffice.ExportArchive.TicketBatchPluginBase
   isExternal: true
+  href: SuperOffice.ExportArchive.TicketBatchPluginBase.html
   name: TicketBatchPluginBase
   nameWithType: TicketBatchPluginBase
   fullName: SuperOffice.ExportArchive.TicketBatchPluginBase
@@ -26,12 +28,62 @@ references:
   commentId: T:SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
   parent: SuperOffice.ExportArchive
   isExternal: true
+  href: SuperOffice.ExportArchive.TicketBatchPluginBase.html
   name: TicketBatchPluginBase.TicketForwardSettings
   nameWithType: TicketBatchPluginBase.TicketForwardSettings
   fullName: SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
+  spec.csharp:
+  - uid: SuperOffice.ExportArchive.TicketBatchPluginBase
+    name: TicketBatchPluginBase
+    isExternal: true
+    href: SuperOffice.ExportArchive.TicketBatchPluginBase.html
+  - name: .
+  - uid: SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
+    name: TicketForwardSettings
+    isExternal: true
+    href: SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings.html
+  spec.vb:
+  - uid: SuperOffice.ExportArchive.TicketBatchPluginBase
+    name: TicketBatchPluginBase
+    isExternal: true
+    href: SuperOffice.ExportArchive.TicketBatchPluginBase.html
+  - name: .
+  - uid: SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
+    name: TicketForwardSettings
+    isExternal: true
+    href: SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings.html
+- uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions
+  commentId: T:SuperOffice.ExportArchive.IBatchDataTicketExtensions
+  parent: SuperOffice.ExportArchive
+  isExternal: true
+  href: SuperOffice.ExportArchive.IBatchDataTicketExtensions.html
+  name: IBatchDataTicketExtensions
+  nameWithType: IBatchDataTicketExtensions
+  fullName: SuperOffice.ExportArchive.IBatchDataTicketExtensions
 - uid: SuperOffice.ExportArchive
   commentId: N:SuperOffice.ExportArchive
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ExportArchive
   nameWithType: SuperOffice.ExportArchive
   fullName: SuperOffice.ExportArchive
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ExportArchive
+    name: ExportArchive
+    isExternal: true
+    href: SuperOffice.ExportArchive.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ExportArchive
+    name: ExportArchive
+    isExternal: true
+    href: SuperOffice.ExportArchive.html

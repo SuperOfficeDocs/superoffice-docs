@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Administration
   children:
   - SuperOffice.CRM.Administration.UserPlugin.#ctor
-  - SuperOffice.CRM.Administration.UserPlugin.ExtractEmail(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  - SuperOffice.CRM.Administration.UserPlugin.ExtractEmailAsync(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
   - SuperOffice.CRM.Administration.UserPlugin.ExtractFirstName(System.String)
   - SuperOffice.CRM.Administration.UserPlugin.ExtractLastName(System.String)
   - SuperOffice.CRM.Administration.UserPlugin.ExtractMiddleName(System.String)
@@ -14,15 +14,15 @@ items:
   - SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(System.String)
   - SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   - SuperOffice.CRM.Administration.UserPlugin.GetDefaultAnonymousUserName(SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  - SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  - SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  - SuperOffice.CRM.Administration.UserPlugin.GetDefaultExternalUserName(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  - SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateUserNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Administration.UserPlugin.GetDefaultExternalUserNameAsync(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
   - SuperOffice.CRM.Administration.UserPlugin.GetDefaultInternalUserName(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   - SuperOffice.CRM.Administration.UserPlugin.GetDefaultPrimaryGroup(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
   - SuperOffice.CRM.Administration.UserPlugin.GetDefaultRole(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
   - SuperOffice.CRM.Administration.UserPlugin.GetDefaultSecondaryGroups(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
   - SuperOffice.CRM.Administration.UserPlugin.GetDefaultSystemUserName(SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  - SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  - SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
   - SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   - SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   - SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateUserName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
@@ -33,33 +33,40 @@ items:
   nameWithType: UserPlugin
   fullName: SuperOffice.CRM.Administration.UserPlugin
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nDefault implementation of  User Name Plugins.  Overrides must be declared with \n<xref href=\"SuperOffice.CRM.Administration.UserPluginAttribute\" data-throw-if-not-resolved=\"false\"></xref> and a priority greater than 0.\n"
+  summary: >-
+    Default implementation of  User Name Plugins.  Overrides must be declared with 
+
+    <xref href="SuperOffice.CRM.Administration.UserPluginAttribute" data-throw-if-not-resolved="false"></xref> and a priority greater than 0.
+  example: []
   syntax:
     content: >-
       [UserPlugin("DefaultUserPlugin", 1073741823)]
 
-      public class UserPlugin : Object, IUserPlugin, IPlugin
+      public class UserPlugin : IUserPlugin
     content.vb: >-
       <UserPlugin("DefaultUserPlugin", 1073741823)>
 
-      Public Class UserPlugin
-          Inherits Object
-          Implements IUserPlugin, IPlugin
+      Public Class UserPlugin Implements IUserPlugin
   inheritance:
   - System.Object
   implements:
   - SuperOffice.CRM.Administration.IUserPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Administration.UserPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Administration.UserPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Administration.UserPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Administration.UserPlugin)
   - SuperOffice.CRM.Administration.UserPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Administration.UserPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.CRM.Administration.UserPluginAttribute
     ctor: SuperOffice.CRM.Administration.UserPluginAttribute.#ctor(System.String,System.Int32)
@@ -68,95 +75,91 @@ items:
       value: DefaultUserPlugin
     - type: System.Int32
       value: 1073741823
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  commentId: M:SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  id: GetDefaultAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+- uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  id: GetDefaultAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.UserPlugin
   langs:
   - csharp
   - vb
-  name: GetDefaultAssociateName(UserType, Person, CheckIfAssociateNameIsLegal)
-  nameWithType: UserPlugin.GetDefaultAssociateName(UserType, Person, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateName(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name: GetDefaultAssociateNameAsync(UserType, Person, CheckIfAssociateNameIsLegal, CancellationToken)
+  nameWithType: UserPlugin.GetDefaultAssociateNameAsync(UserType, Person, CheckIfAssociateNameIsLegal, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateNameAsync(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nGet default user name for a user.\n"
+  summary: Get default user name for a user.
+  example: []
   syntax:
-    content: public virtual string GetDefaultAssociateName(UserType type, Person person, CheckIfAssociateNameIsLegal validator)
+    content: public virtual Task<string> GetDefaultAssociateNameAsync(UserType type, Person person, CheckIfAssociateNameIsLegal validator, CancellationToken cancellationToken = default)
     parameters:
     - id: type
       type: SuperOffice.License.UserType
       description: Type of user.
     - id: person
       type: SuperOffice.CRM.Entities.Person
-      description: "\nPerson this is a user for.  This value will be null (VB Noting) \nfor System and Anonymous users.\n"
+      description: >-
+        Person this is a user for.  This value will be null (VB Noting) 
+
+        for System and Anonymous users.
     - id: validator
       type: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
       description: Validator to help check if the a user name is valid.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Default user name validated with the provided <xref href="SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal" data-throw-if-not-resolved="false"></xref> delegate.
-    content.vb: Public Overridable Function GetDefaultAssociateName(type As UserType, person As Person, validator As CheckIfAssociateNameIsLegal) As String
-  overload: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateName*
+    content.vb: Public Overridable Function GetDefaultAssociateNameAsync(type As UserType, person As Person, validator As CheckIfAssociateNameIsLegal, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateNameAsync*
   implements:
-  - SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-- uid: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  commentId: M:SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  id: GetValidAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  - SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  id: GetValidAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.UserPlugin
   langs:
   - csharp
   - vb
-  name: GetValidAssociateName(UserType, Person, String, CheckIfAssociateNameIsLegal)
-  nameWithType: UserPlugin.GetValidAssociateName(UserType, Person, String, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateName(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, System.String, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name: GetValidAssociateNameAsync(UserType, Person, string, CheckIfAssociateNameIsLegal, CancellationToken)
+  nameWithType: UserPlugin.GetValidAssociateNameAsync(UserType, Person, string, CheckIfAssociateNameIsLegal, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateNameAsync(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, string, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
+  summary: Get valid associate name for a user.
+  example: []
   syntax:
-    content: public virtual string GetValidAssociateName(UserType type, Person person, string userName, CheckIfAssociateNameIsLegal validator)
+    content: public virtual Task<string> GetValidAssociateNameAsync(UserType type, Person person, string userName, CheckIfAssociateNameIsLegal validator, CancellationToken cancellationToken = default)
     parameters:
     - id: type
       type: SuperOffice.License.UserType
+      description: Type of user.
     - id: person
       type: SuperOffice.CRM.Entities.Person
+      description: >-
+        Person this is a user for.  This value will be null (VB Noting) 
+
+        for System and Anonymous users.
     - id: userName
       type: System.String
     - id: validator
       type: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+      description: Validator to help check if the an associate name is valid.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Overridable Function GetValidAssociateName(type As UserType, person As Person, userName As String, validator As CheckIfAssociateNameIsLegal) As String
-  overload: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateName*
+      type: System.Threading.Tasks.Task{System.String}
+      description: Default associate name validated with the provided <xref href="SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal" data-throw-if-not-resolved="false"></xref> delegate.
+    content.vb: Public Overridable Function GetValidAssociateNameAsync(type As UserType, person As Person, userName As String, validator As CheckIfAssociateNameIsLegal, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateNameAsync*
   implements:
-  - SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
+  - SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  nameWithType.vb: UserPlugin.GetValidAssociateNameAsync(UserType, Person, String, CheckIfAssociateNameIsLegal, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateNameAsync(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, String, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, System.Threading.CancellationToken)
+  name.vb: GetValidAssociateNameAsync(UserType, Person, String, CheckIfAssociateNameIsLegal, CancellationToken)
 - uid: SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   commentId: M:SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   id: ProcessProvidedAssociateName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
@@ -164,17 +167,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ProcessProvidedAssociateName(String, Int32, UserType, Person, CheckIfAssociateNameIsLegal)
-  nameWithType: UserPlugin.ProcessProvidedAssociateName(String, Int32, UserType, Person, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateName(System.String, System.Int32, SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name: ProcessProvidedAssociateName(string, int, UserType, Person, CheckIfAssociateNameIsLegal)
+  nameWithType: UserPlugin.ProcessProvidedAssociateName(string, int, UserType, Person, CheckIfAssociateNameIsLegal)
+  fullName: SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateName(string, int, SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nDefault implementation returning the name provided.\n"
+  summary: Default implementation returning the name provided.
+  example: []
   syntax:
     content: public virtual string ProcessProvidedAssociateName(string providedUserName, int associateId, UserType type, Person person, CheckIfAssociateNameIsLegal validator)
     parameters:
@@ -200,12 +201,9 @@ items:
   overload: SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateName*
   implements:
   - SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
+  nameWithType.vb: UserPlugin.ProcessProvidedAssociateName(String, Integer, UserType, Person, CheckIfAssociateNameIsLegal)
+  fullName.vb: SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateName(String, Integer, SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name.vb: ProcessProvidedAssociateName(String, Integer, UserType, Person, CheckIfAssociateNameIsLegal)
 - uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultInternalUserName(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   commentId: M:SuperOffice.CRM.Administration.UserPlugin.GetDefaultInternalUserName(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   id: GetDefaultInternalUserName(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
@@ -217,14 +215,12 @@ items:
   nameWithType: UserPlugin.GetDefaultInternalUserName(Person, CheckIfAssociateNameIsLegal)
   fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultInternalUserName(SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nGet user name for an internal user based on <xref href=\"SuperOffice.CRM.Administration.UserPlugin.ExtractName(SuperOffice.CRM.Entities.Person)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Get user name for an internal user based on <xref href="SuperOffice.CRM.Administration.UserPlugin.ExtractName(SuperOffice.CRM.Entities.Person)" data-throw-if-not-resolved="false"></xref>.
   remarks: <xref href="SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(System.String%2cSuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)" data-throw-if-not-resolved="false"></xref> ia used to validate the name.
+  example: []
   syntax:
     content: protected virtual string GetDefaultInternalUserName(Person person, CheckIfAssociateNameIsLegal validator)
     parameters:
@@ -239,33 +235,25 @@ items:
       description: User name for an internal user.
     content.vb: Protected Overridable Function GetDefaultInternalUserName(person As Person, validator As CheckIfAssociateNameIsLegal) As String
   overload: SuperOffice.CRM.Administration.UserPlugin.GetDefaultInternalUserName*
-  modifiers.csharp:
-  - protected
-  - virtual
-  modifiers.vb:
-  - Protected
-  - Overridable
-- uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultExternalUserName(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  commentId: M:SuperOffice.CRM.Administration.UserPlugin.GetDefaultExternalUserName(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  id: GetDefaultExternalUserName(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+- uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultExternalUserNameAsync(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.UserPlugin.GetDefaultExternalUserNameAsync(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  id: GetDefaultExternalUserNameAsync(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.UserPlugin
   langs:
   - csharp
   - vb
-  name: GetDefaultExternalUserName(Person, CheckIfAssociateNameIsLegal)
-  nameWithType: UserPlugin.GetDefaultExternalUserName(Person, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultExternalUserName(SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name: GetDefaultExternalUserNameAsync(Person, CheckIfAssociateNameIsLegal, CancellationToken)
+  nameWithType: UserPlugin.GetDefaultExternalUserNameAsync(Person, CheckIfAssociateNameIsLegal, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultExternalUserNameAsync(SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nGet user name for an external user based on <xref href=\"SuperOffice.CRM.Administration.UserPlugin.ExtractEmail(SuperOffice.CRM.Entities.Person%2cSuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  summary: Get user name for an external user based on ExtractEmail
   remarks: <xref href="SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(System.String%2cSuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)" data-throw-if-not-resolved="false"></xref> ia used to validate the name.
+  example: []
   syntax:
-    content: protected virtual string GetDefaultExternalUserName(Person person, CheckIfAssociateNameIsLegal validator)
+    content: protected virtual Task<string> GetDefaultExternalUserNameAsync(Person person, CheckIfAssociateNameIsLegal validator, CancellationToken cancellationToken = default)
     parameters:
     - id: person
       type: SuperOffice.CRM.Entities.Person
@@ -273,17 +261,13 @@ items:
     - id: validator
       type: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
       description: Validator to help check if the a user name is valid.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-      description: User name for an external user based on <xref href="SuperOffice.CRM.Administration.UserPlugin.ExtractEmail(SuperOffice.CRM.Entities.Person%2cSuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)" data-throw-if-not-resolved="false"></xref>.
-    content.vb: Protected Overridable Function GetDefaultExternalUserName(person As Person, validator As CheckIfAssociateNameIsLegal) As String
-  overload: SuperOffice.CRM.Administration.UserPlugin.GetDefaultExternalUserName*
-  modifiers.csharp:
-  - protected
-  - virtual
-  modifiers.vb:
-  - Protected
-  - Overridable
+      type: System.Threading.Tasks.Task{System.String}
+      description: User name for an external user based on ExtractEmail.
+    content.vb: Protected Overridable Function GetDefaultExternalUserNameAsync(person As Person, validator As CheckIfAssociateNameIsLegal, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Administration.UserPlugin.GetDefaultExternalUserNameAsync*
 - uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultSystemUserName(SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   commentId: M:SuperOffice.CRM.Administration.UserPlugin.GetDefaultSystemUserName(SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   id: GetDefaultSystemUserName(SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
@@ -295,14 +279,12 @@ items:
   nameWithType: UserPlugin.GetDefaultSystemUserName(CheckIfAssociateNameIsLegal)
   fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultSystemUserName(SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nGet default name for system users.\n"
-  remarks: "\nThe <xref href=\"SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(System.String%2cSuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)\" data-throw-if-not-resolved=\"false\"></xref> is used passing in System as base name.\n"
+  summary: Get default name for system users.
+  remarks: The <xref href="SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(System.String%2cSuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)" data-throw-if-not-resolved="false"></xref> is used passing in System as base name.
+  example: []
   syntax:
     content: protected virtual string GetDefaultSystemUserName(CheckIfAssociateNameIsLegal validator)
     parameters:
@@ -314,12 +296,6 @@ items:
       description: Default name for validated using the validator.
     content.vb: Protected Overridable Function GetDefaultSystemUserName(validator As CheckIfAssociateNameIsLegal) As String
   overload: SuperOffice.CRM.Administration.UserPlugin.GetDefaultSystemUserName*
-  modifiers.csharp:
-  - protected
-  - virtual
-  modifiers.vb:
-  - Protected
-  - Overridable
 - uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAnonymousUserName(SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   commentId: M:SuperOffice.CRM.Administration.UserPlugin.GetDefaultAnonymousUserName(SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   id: GetDefaultAnonymousUserName(SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
@@ -331,14 +307,12 @@ items:
   nameWithType: UserPlugin.GetDefaultAnonymousUserName(CheckIfAssociateNameIsLegal)
   fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAnonymousUserName(SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nGet default name for anonymous users.\n"
-  remarks: "\nThe <xref href=\"SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(System.String%2cSuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)\" data-throw-if-not-resolved=\"false\"></xref> is used passing in Anonymous as base name.\n"
+  summary: Get default name for anonymous users.
+  remarks: The <xref href="SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(System.String%2cSuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)" data-throw-if-not-resolved="false"></xref> is used passing in Anonymous as base name.
+  example: []
   syntax:
     content: protected virtual string GetDefaultAnonymousUserName(CheckIfAssociateNameIsLegal validator)
     parameters:
@@ -350,12 +324,6 @@ items:
       description: Default name for validated using the validator.
     content.vb: Protected Overridable Function GetDefaultAnonymousUserName(validator As CheckIfAssociateNameIsLegal) As String
   overload: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAnonymousUserName*
-  modifiers.csharp:
-  - protected
-  - virtual
-  modifiers.vb:
-  - Protected
-  - Overridable
 - uid: SuperOffice.CRM.Administration.UserPlugin.ExtractName(SuperOffice.CRM.Entities.Person)
   commentId: M:SuperOffice.CRM.Administration.UserPlugin.ExtractName(SuperOffice.CRM.Entities.Person)
   id: ExtractName(SuperOffice.CRM.Entities.Person)
@@ -367,14 +335,15 @@ items:
   nameWithType: UserPlugin.ExtractName(Person)
   fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractName(SuperOffice.CRM.Entities.Person)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nExtract a name from the person\n"
-  remarks: "\nTakes first, midle and last names and procces them \ninduvidually and appending &apos;.&apos; between the name parts.\n"
+  summary: Extract a name from the person
+  remarks: >-
+    Takes first, midle and last names and procces them 
+
+    induvidually and appending '.' between the name parts.
+  example: []
   syntax:
     content: protected virtual string ExtractName(Person person)
     parameters:
@@ -386,32 +355,24 @@ items:
       description: User name extracted from a person.
     content.vb: Protected Overridable Function ExtractName(person As Person) As String
   overload: SuperOffice.CRM.Administration.UserPlugin.ExtractName*
-  modifiers.csharp:
-  - protected
-  - virtual
-  modifiers.vb:
-  - Protected
-  - Overridable
-- uid: SuperOffice.CRM.Administration.UserPlugin.ExtractEmail(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  commentId: M:SuperOffice.CRM.Administration.UserPlugin.ExtractEmail(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  id: ExtractEmail(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+- uid: SuperOffice.CRM.Administration.UserPlugin.ExtractEmailAsync(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.UserPlugin.ExtractEmailAsync(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  id: ExtractEmailAsync(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.UserPlugin
   langs:
   - csharp
   - vb
-  name: ExtractEmail(Person, CheckIfAssociateNameIsLegal)
-  nameWithType: UserPlugin.ExtractEmail(Person, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractEmail(SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name: ExtractEmailAsync(Person, CheckIfAssociateNameIsLegal, CancellationToken)
+  nameWithType: UserPlugin.ExtractEmailAsync(Person, CheckIfAssociateNameIsLegal, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractEmailAsync(SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nExtract e-mail from a person.  If no valid e-mail is found, we try to fake something.\n"
+  summary: Extract e-mail from a person.  If no valid e-mail is found, we try to fake something.
+  example: []
   syntax:
-    content: protected virtual string ExtractEmail(Person person, CheckIfAssociateNameIsLegal validator)
+    content: protected virtual Task<string> ExtractEmailAsync(Person person, CheckIfAssociateNameIsLegal validator, CancellationToken cancellationToken = default)
     parameters:
     - id: person
       type: SuperOffice.CRM.Entities.Person
@@ -419,17 +380,13 @@ items:
     - id: validator
       type: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
       description: Validator to help check if the a user name is valid.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: Extracted e-mail from a person.  If no valid e-mail was found, we tried to fake something.
-    content.vb: Protected Overridable Function ExtractEmail(person As Person, validator As CheckIfAssociateNameIsLegal) As String
-  overload: SuperOffice.CRM.Administration.UserPlugin.ExtractEmail*
-  modifiers.csharp:
-  - protected
-  - virtual
-  modifiers.vb:
-  - Protected
-  - Overridable
+    content.vb: Protected Overridable Function ExtractEmailAsync(person As Person, validator As CheckIfAssociateNameIsLegal, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Administration.UserPlugin.ExtractEmailAsync*
 - uid: SuperOffice.CRM.Administration.UserPlugin.ExtractFirstName(System.String)
   commentId: M:SuperOffice.CRM.Administration.UserPlugin.ExtractFirstName(System.String)
   id: ExtractFirstName(System.String)
@@ -437,17 +394,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ExtractFirstName(String)
-  nameWithType: UserPlugin.ExtractFirstName(String)
-  fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractFirstName(System.String)
+  name: ExtractFirstName(string)
+  nameWithType: UserPlugin.ExtractFirstName(string)
+  fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractFirstName(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nUse the <xref href=\"SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(System.String)\" data-throw-if-not-resolved=\"false\"></xref> to process the first name.\n"
+  summary: Use the <xref href="SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(System.String)" data-throw-if-not-resolved="false"></xref> to process the first name.
+  example: []
   syntax:
     content: protected virtual string ExtractFirstName(string namePart)
     parameters:
@@ -459,12 +414,9 @@ items:
       description: Processed name part.
     content.vb: Protected Overridable Function ExtractFirstName(namePart As String) As String
   overload: SuperOffice.CRM.Administration.UserPlugin.ExtractFirstName*
-  modifiers.csharp:
-  - protected
-  - virtual
-  modifiers.vb:
-  - Protected
-  - Overridable
+  nameWithType.vb: UserPlugin.ExtractFirstName(String)
+  fullName.vb: SuperOffice.CRM.Administration.UserPlugin.ExtractFirstName(String)
+  name.vb: ExtractFirstName(String)
 - uid: SuperOffice.CRM.Administration.UserPlugin.ExtractMiddleName(System.String)
   commentId: M:SuperOffice.CRM.Administration.UserPlugin.ExtractMiddleName(System.String)
   id: ExtractMiddleName(System.String)
@@ -472,17 +424,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ExtractMiddleName(String)
-  nameWithType: UserPlugin.ExtractMiddleName(String)
-  fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractMiddleName(System.String)
+  name: ExtractMiddleName(string)
+  nameWithType: UserPlugin.ExtractMiddleName(string)
+  fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractMiddleName(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nUse the <xref href=\"SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(System.String)\" data-throw-if-not-resolved=\"false\"></xref> to process the middl name.\n"
+  summary: Use the <xref href="SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(System.String)" data-throw-if-not-resolved="false"></xref> to process the middl name.
+  example: []
   syntax:
     content: protected virtual string ExtractMiddleName(string namePart)
     parameters:
@@ -494,12 +444,9 @@ items:
       description: Processed name part.
     content.vb: Protected Overridable Function ExtractMiddleName(namePart As String) As String
   overload: SuperOffice.CRM.Administration.UserPlugin.ExtractMiddleName*
-  modifiers.csharp:
-  - protected
-  - virtual
-  modifiers.vb:
-  - Protected
-  - Overridable
+  nameWithType.vb: UserPlugin.ExtractMiddleName(String)
+  fullName.vb: SuperOffice.CRM.Administration.UserPlugin.ExtractMiddleName(String)
+  name.vb: ExtractMiddleName(String)
 - uid: SuperOffice.CRM.Administration.UserPlugin.ExtractLastName(System.String)
   commentId: M:SuperOffice.CRM.Administration.UserPlugin.ExtractLastName(System.String)
   id: ExtractLastName(System.String)
@@ -507,17 +454,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ExtractLastName(String)
-  nameWithType: UserPlugin.ExtractLastName(String)
-  fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractLastName(System.String)
+  name: ExtractLastName(string)
+  nameWithType: UserPlugin.ExtractLastName(string)
+  fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractLastName(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nUse the <xref href=\"SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(System.String)\" data-throw-if-not-resolved=\"false\"></xref> to process the last name.\n"
+  summary: Use the <xref href="SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(System.String)" data-throw-if-not-resolved="false"></xref> to process the last name.
+  example: []
   syntax:
     content: protected virtual string ExtractLastName(string namePart)
     parameters:
@@ -529,12 +474,9 @@ items:
       description: Processed name part.
     content.vb: Protected Overridable Function ExtractLastName(namePart As String) As String
   overload: SuperOffice.CRM.Administration.UserPlugin.ExtractLastName*
-  modifiers.csharp:
-  - protected
-  - virtual
-  modifiers.vb:
-  - Protected
-  - Overridable
+  nameWithType.vb: UserPlugin.ExtractLastName(String)
+  fullName.vb: SuperOffice.CRM.Administration.UserPlugin.ExtractLastName(String)
+  name.vb: ExtractLastName(String)
 - uid: SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(System.String)
   commentId: M:SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(System.String)
   id: ExtractNamePart(System.String)
@@ -542,17 +484,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ExtractNamePart(String)
-  nameWithType: UserPlugin.ExtractNamePart(String)
-  fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(System.String)
+  name: ExtractNamePart(string)
+  nameWithType: UserPlugin.ExtractNamePart(string)
+  fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nReplace invalid characters with empty strings. \n"
+  summary: Replace invalid characters with empty strings.
+  example: []
   syntax:
     content: protected virtual string ExtractNamePart(string namePart)
     parameters:
@@ -564,12 +504,9 @@ items:
       description: Processed name part.
     content.vb: Protected Overridable Function ExtractNamePart(namePart As String) As String
   overload: SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart*
-  modifiers.csharp:
-  - protected
-  - virtual
-  modifiers.vb:
-  - Protected
-  - Overridable
+  nameWithType.vb: UserPlugin.ExtractNamePart(String)
+  fullName.vb: SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(String)
+  name.vb: ExtractNamePart(String)
 - uid: SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   commentId: M:SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   id: FindFirstValidated(System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
@@ -577,18 +514,19 @@ items:
   langs:
   - csharp
   - vb
-  name: FindFirstValidated(String, CheckIfAssociateNameIsLegal)
-  nameWithType: UserPlugin.FindFirstValidated(String, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(System.String, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name: FindFirstValidated(string, CheckIfAssociateNameIsLegal)
+  nameWithType: UserPlugin.FindFirstValidated(string, CheckIfAssociateNameIsLegal)
+  fullName: SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(string, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nFind the first available user name by appending a number.\n"
-  remarks: "\nThe validator will be provided with the base name pluss a number starting at 1.  This\nnumber will be incremented untill a valid user name can be provided. Gives up when number 1000 is reached\n"
+  summary: Find the first available user name by appending a number.
+  remarks: >-
+    The validator will be provided with the base name pluss a number starting at 1.  This
+
+    number will be incremented untill a valid user name can be provided. Gives up when number 1000 is reached
+  example: []
   syntax:
     content: protected virtual string FindFirstValidated(string baseUserName, CheckIfAssociateNameIsLegal validator)
     parameters:
@@ -599,15 +537,12 @@ items:
       type: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     return:
       type: System.String
-      description: User name in the form of baseName+number where number > 0
+      description: User name in the form of baseName+number where number &gt; 0
     content.vb: Protected Overridable Function FindFirstValidated(baseUserName As String, validator As CheckIfAssociateNameIsLegal) As String
   overload: SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated*
-  modifiers.csharp:
-  - protected
-  - virtual
-  modifiers.vb:
-  - Protected
-  - Overridable
+  nameWithType.vb: UserPlugin.FindFirstValidated(String, CheckIfAssociateNameIsLegal)
+  fullName.vb: SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(String, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name.vb: FindFirstValidated(String, CheckIfAssociateNameIsLegal)
 - uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultPrimaryGroup(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
   commentId: M:SuperOffice.CRM.Administration.UserPlugin.GetDefaultPrimaryGroup(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
   id: GetDefaultPrimaryGroup(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
@@ -619,13 +554,11 @@ items:
   nameWithType: UserPlugin.GetDefaultPrimaryGroup(UserType, Person)
   fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultPrimaryGroup(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nGet default primary group for the user.\n"
+  summary: Get default primary group for the user.
+  example: []
   syntax:
     content: public int GetDefaultPrimaryGroup(UserType type, Person person)
     parameters:
@@ -634,7 +567,10 @@ items:
       description: Type of user.
     - id: person
       type: SuperOffice.CRM.Entities.Person
-      description: "\nPerson this is a user for.  This value will be null (VB Noting) \nfor System and Anonymous users.\n"
+      description: >-
+        Person this is a user for.  This value will be null (VB Noting) 
+
+        for System and Anonymous users.
     return:
       type: System.Int32
       description: Default primary group id.
@@ -642,10 +578,6 @@ items:
   overload: SuperOffice.CRM.Administration.UserPlugin.GetDefaultPrimaryGroup*
   implements:
   - SuperOffice.CRM.Administration.IUserPlugin.GetDefaultPrimaryGroup(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultSecondaryGroups(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
   commentId: M:SuperOffice.CRM.Administration.UserPlugin.GetDefaultSecondaryGroups(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
   id: GetDefaultSecondaryGroups(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
@@ -657,13 +589,11 @@ items:
   nameWithType: UserPlugin.GetDefaultSecondaryGroups(UserType, Person)
   fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultSecondaryGroups(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nGet default secondary groups for the user\n"
+  summary: Get default secondary groups for the user
+  example: []
   syntax:
     content: public int[] GetDefaultSecondaryGroups(UserType type, Person person)
     parameters:
@@ -672,7 +602,10 @@ items:
       description: Type of user.
     - id: person
       type: SuperOffice.CRM.Entities.Person
-      description: "\nPerson this is a user for.  This value will be null (VB Noting) \nfor System and Anonymous users.\n"
+      description: >-
+        Person this is a user for.  This value will be null (VB Noting) 
+
+        for System and Anonymous users.
     return:
       type: System.Int32[]
       description: Default secoundary group ids
@@ -680,10 +613,6 @@ items:
   overload: SuperOffice.CRM.Administration.UserPlugin.GetDefaultSecondaryGroups*
   implements:
   - SuperOffice.CRM.Administration.IUserPlugin.GetDefaultSecondaryGroups(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultRole(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
   commentId: M:SuperOffice.CRM.Administration.UserPlugin.GetDefaultRole(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
   id: GetDefaultRole(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
@@ -695,13 +624,11 @@ items:
   nameWithType: UserPlugin.GetDefaultRole(UserType, Person)
   fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultRole(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nGet default role id for the user\n"
+  summary: Get default role id for the user
+  example: []
   syntax:
     content: public int GetDefaultRole(UserType type, Person person)
     parameters:
@@ -710,7 +637,10 @@ items:
       description: Type of user.
     - id: person
       type: SuperOffice.CRM.Entities.Person
-      description: "\nPerson this is a user for.  This value will be null (VB Noting) \nfor System and Anonymous users.\n"
+      description: >-
+        Person this is a user for.  This value will be null (VB Noting) 
+
+        for System and Anonymous users.
     return:
       type: System.Int32
       description: Default role id for the user.
@@ -718,10 +648,6 @@ items:
   overload: SuperOffice.CRM.Administration.UserPlugin.GetDefaultRole*
   implements:
   - SuperOffice.CRM.Administration.IUserPlugin.GetDefaultRole(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   commentId: M:SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   id: GetValidAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
@@ -729,39 +655,43 @@ items:
   langs:
   - csharp
   - vb
-  name: GetValidAssociateUserName(UserType, Person, String, CheckIfAssociateNameIsLegal)
-  nameWithType: UserPlugin.GetValidAssociateUserName(UserType, Person, String, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateUserName(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, System.String, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name: GetValidAssociateUserName(UserType, Person, string, CheckIfAssociateNameIsLegal)
+  nameWithType: UserPlugin.GetValidAssociateUserName(UserType, Person, string, CheckIfAssociateNameIsLegal)
+  fullName: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateUserName(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, string, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
+  summary: Get valid associate user name for a user.
+  example: []
   syntax:
     content: public virtual string GetValidAssociateUserName(UserType type, Person person, string associateUserName, CheckIfAssociateNameIsLegal validator)
     parameters:
     - id: type
       type: SuperOffice.License.UserType
+      description: Type of user.
     - id: person
       type: SuperOffice.CRM.Entities.Person
+      description: >-
+        Person this is a user for.  This value will be null (VB Noting) 
+
+        for System and Anonymous users.
     - id: associateUserName
       type: System.String
+      description: Candidate for user name.
     - id: validator
       type: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+      description: Validator to help check if the an associate name is valid.
     return:
       type: System.String
+      description: Default associate user name validated with the provided <xref href="SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal" data-throw-if-not-resolved="false"></xref> delegate.
     content.vb: Public Overridable Function GetValidAssociateUserName(type As UserType, person As Person, associateUserName As String, validator As CheckIfAssociateNameIsLegal) As String
   overload: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateUserName*
   implements:
   - SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
+  nameWithType.vb: UserPlugin.GetValidAssociateUserName(UserType, Person, String, CheckIfAssociateNameIsLegal)
+  fullName.vb: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateUserName(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, String, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name.vb: GetValidAssociateUserName(UserType, Person, String, CheckIfAssociateNameIsLegal)
 - uid: SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateUserName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   commentId: M:SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateUserName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   id: ProcessProvidedAssociateUserName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
@@ -769,79 +699,84 @@ items:
   langs:
   - csharp
   - vb
-  name: ProcessProvidedAssociateUserName(String, Int32, UserType, Person, CheckIfAssociateNameIsLegal)
-  nameWithType: UserPlugin.ProcessProvidedAssociateUserName(String, Int32, UserType, Person, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateUserName(System.String, System.Int32, SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name: ProcessProvidedAssociateUserName(string, int, UserType, Person, CheckIfAssociateNameIsLegal)
+  nameWithType: UserPlugin.ProcessProvidedAssociateUserName(string, int, UserType, Person, CheckIfAssociateNameIsLegal)
+  fullName: SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateUserName(string, int, SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
+  summary: Process a provided associate user name and allow modifications of an associate user name.
+  remarks: The user name provided is guaranteed to meet the requirements set forth by teh provided validator.
+  example: []
   syntax:
     content: public virtual string ProcessProvidedAssociateUserName(string providedAssociateUserName, int associateId, UserType type, Person person, CheckIfAssociateNameIsLegal validator)
     parameters:
     - id: providedAssociateUserName
       type: System.String
+      description: Provided associate user name
     - id: associateId
       type: System.Int32
+      description: Associate id of the user.  The value 0 will be provided for new users.
     - id: type
       type: SuperOffice.License.UserType
+      description: Type of user
     - id: person
       type: SuperOffice.CRM.Entities.Person
+      description: Person this is a user for.  This value will be null (VB Noting) for System and Anonymous users.
     - id: validator
       type: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+      description: Validator to help check if the an associate name is valid.
     return:
       type: System.String
+      description: Associate user name validated with the provided <xref href="SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal" data-throw-if-not-resolved="false"></xref> delegate.
     content.vb: Public Overridable Function ProcessProvidedAssociateUserName(providedAssociateUserName As String, associateId As Integer, type As UserType, person As Person, validator As CheckIfAssociateNameIsLegal) As String
   overload: SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateUserName*
   implements:
   - SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateUserName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-- uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  commentId: M:SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  id: GetDefaultAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  nameWithType.vb: UserPlugin.ProcessProvidedAssociateUserName(String, Integer, UserType, Person, CheckIfAssociateNameIsLegal)
+  fullName.vb: SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateUserName(String, Integer, SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name.vb: ProcessProvidedAssociateUserName(String, Integer, UserType, Person, CheckIfAssociateNameIsLegal)
+- uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateUserNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateUserNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  id: GetDefaultAssociateUserNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.UserPlugin
   langs:
   - csharp
   - vb
-  name: GetDefaultAssociateUserName(UserType, Person, CheckIfAssociateNameIsLegal)
-  nameWithType: UserPlugin.GetDefaultAssociateUserName(UserType, Person, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateUserName(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name: GetDefaultAssociateUserNameAsync(UserType, Person, CheckIfAssociateNameIsLegal, CancellationToken)
+  nameWithType: UserPlugin.GetDefaultAssociateUserNameAsync(UserType, Person, CheckIfAssociateNameIsLegal, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateUserNameAsync(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
+  summary: Get default associate user name for a user.
+  example: []
   syntax:
-    content: public virtual string GetDefaultAssociateUserName(UserType type, Person person, CheckIfAssociateNameIsLegal validator)
+    content: public virtual Task<string> GetDefaultAssociateUserNameAsync(UserType type, Person person, CheckIfAssociateNameIsLegal validator, CancellationToken cancellationToken = default)
     parameters:
     - id: type
       type: SuperOffice.License.UserType
+      description: Type of user.
     - id: person
       type: SuperOffice.CRM.Entities.Person
+      description: >-
+        Person this is a user for.  This value will be null (VB Noting) 
+
+        for System and Anonymous users.
     - id: validator
       type: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+      description: Validator to help check if the an associate user name is valid.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Overridable Function GetDefaultAssociateUserName(type As UserType, person As Person, validator As CheckIfAssociateNameIsLegal) As String
-  overload: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateUserName*
+      type: System.Threading.Tasks.Task{System.String}
+      description: Default associate user name validated with the provided <xref href="SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal" data-throw-if-not-resolved="false"></xref> delegate.
+    content.vb: Public Overridable Function GetDefaultAssociateUserNameAsync(type As UserType, person As Person, validator As CheckIfAssociateNameIsLegal, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateUserNameAsync*
   implements:
-  - SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
+  - SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
 - uid: SuperOffice.CRM.Administration.UserPlugin.#ctor
   commentId: M:SuperOffice.CRM.Administration.UserPlugin.#ctor
   id: '#ctor'
@@ -853,196 +788,523 @@ items:
   nameWithType: UserPlugin.UserPlugin()
   fullName: SuperOffice.CRM.Administration.UserPlugin.UserPlugin()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
   syntax:
     content: public UserPlugin()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Administration.UserPlugin.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: UserPlugin.New()
+  fullName.vb: SuperOffice.CRM.Administration.UserPlugin.New()
+  name.vb: New()
 references:
+- uid: SuperOffice.CRM.Administration.UserPluginAttribute
+  commentId: T:SuperOffice.CRM.Administration.UserPluginAttribute
+  parent: SuperOffice.CRM.Administration
+  isExternal: true
+  href: SuperOffice.CRM.Administration.UserPluginAttribute.html
+  name: UserPluginAttribute
+  nameWithType: UserPluginAttribute
+  fullName: SuperOffice.CRM.Administration.UserPluginAttribute
 - uid: SuperOffice.CRM.Administration
   commentId: N:SuperOffice.CRM.Administration
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Administration
   nameWithType: SuperOffice.CRM.Administration
   fullName: SuperOffice.CRM.Administration
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Administration
+    name: Administration
+    isExternal: true
+    href: SuperOffice.CRM.Administration.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Administration
+    name: Administration
+    isExternal: true
+    href: SuperOffice.CRM.Administration.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Administration.IUserPlugin
   commentId: T:SuperOffice.CRM.Administration.IUserPlugin
   parent: SuperOffice.CRM.Administration
   isExternal: true
+  href: SuperOffice.CRM.Administration.IUserPlugin.html
   name: IUserPlugin
   nameWithType: IUserPlugin
   fullName: SuperOffice.CRM.Administration.IUserPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Administration.UserPlugin.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<UserPlugin, To>()
-  nameWithType: EnumUtil.MapEnums<UserPlugin, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Administration.UserPlugin, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of UserPlugin, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Administration.UserPlugin, To)()
-  name.vb: MapEnums(Of UserPlugin, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<UserPlugin, To>(UserPlugin)
+  nameWithType: EnumUtil.MapEnums<UserPlugin, To>(UserPlugin)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Administration.UserPlugin, To>(SuperOffice.CRM.Administration.UserPlugin)
+  nameWithType.vb: EnumUtil.MapEnums(Of UserPlugin, To)(UserPlugin)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Administration.UserPlugin, To)(SuperOffice.CRM.Administration.UserPlugin)
+  name.vb: MapEnums(Of UserPlugin, To)(UserPlugin)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<UserPlugin, To>
-    nameWithType: EnumUtil.MapEnums<UserPlugin, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Administration.UserPlugin, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Administration.UserPlugin)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of UserPlugin, To)
-    nameWithType: EnumUtil.MapEnums(Of UserPlugin, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Administration.UserPlugin, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Administration.UserPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Administration.UserPlugin)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<UserPlugin>(UserPlugin)
-  nameWithType: ObjectExtensions.AssignByReflection<UserPlugin>(UserPlugin)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Administration.UserPlugin>(SuperOffice.CRM.Administration.UserPlugin)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UserPlugin)(UserPlugin)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Administration.UserPlugin)(SuperOffice.CRM.Administration.UserPlugin)
-  name.vb: AssignByReflection(Of UserPlugin)(UserPlugin)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<UserPlugin>
-    nameWithType: ObjectExtensions.AssignByReflection<UserPlugin>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Administration.UserPlugin>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Administration.UserPlugin
     name: UserPlugin
-    nameWithType: UserPlugin
-    fullName: SuperOffice.CRM.Administration.UserPlugin
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of UserPlugin)
-    nameWithType: ObjectExtensions.AssignByReflection(Of UserPlugin)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Administration.UserPlugin)
-    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Administration.UserPlugin
     name: UserPlugin
-    nameWithType: UserPlugin
-    fullName: SuperOffice.CRM.Administration.UserPlugin
     isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Administration.UserPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<UserPlugin>()
-  nameWithType: ObjectExtensions.GraphCopy<UserPlugin>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Administration.UserPlugin>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of UserPlugin)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Administration.UserPlugin)()
-  name.vb: GraphCopy(Of UserPlugin)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<UserPlugin>
-    nameWithType: ObjectExtensions.GraphCopy<UserPlugin>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Administration.UserPlugin>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of UserPlugin)
-    nameWithType: ObjectExtensions.GraphCopy(Of UserPlugin)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Administration.UserPlugin)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Administration.UserPlugin)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Administration.UserPlugin
+    name: UserPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Administration.UserPlugin
+    name: UserPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
+  - name: )
 - uid: SuperOffice.CRM.Administration.UserPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<UserPlugin, To>()
-  nameWithType: Converters.MapEnums<UserPlugin, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Administration.UserPlugin, To>()
-  nameWithType.vb: Converters.MapEnums(Of UserPlugin, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Administration.UserPlugin, To)()
-  name.vb: MapEnums(Of UserPlugin, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<UserPlugin, To>(UserPlugin)
+  nameWithType: Converters.MapEnums<UserPlugin, To>(UserPlugin)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Administration.UserPlugin, To>(SuperOffice.CRM.Administration.UserPlugin)
+  nameWithType.vb: Converters.MapEnums(Of UserPlugin, To)(UserPlugin)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Administration.UserPlugin, To)(SuperOffice.CRM.Administration.UserPlugin)
+  name.vb: MapEnums(Of UserPlugin, To)(UserPlugin)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<UserPlugin, To>
-    nameWithType: Converters.MapEnums<UserPlugin, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Administration.UserPlugin, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Administration.UserPlugin)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Administration.UserPlugin
+    name: UserPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Administration.UserPlugin
+    name: UserPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of UserPlugin, To)
-    nameWithType: Converters.MapEnums(Of UserPlugin, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Administration.UserPlugin, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Administration.UserPlugin)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Administration.UserPlugin
+    name: UserPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Administration.UserPlugin
+    name: UserPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
+  - name: )
+- uid: SuperOffice.CRM.Administration.UserPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Administration.UserPlugin)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<UserPlugin>(UserPlugin, UserPlugin)
+  nameWithType: ObjectExtensions.AssignByReflection<UserPlugin>(UserPlugin, UserPlugin)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Administration.UserPlugin>(SuperOffice.CRM.Administration.UserPlugin, SuperOffice.CRM.Administration.UserPlugin)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UserPlugin)(UserPlugin, UserPlugin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Administration.UserPlugin)(SuperOffice.CRM.Administration.UserPlugin, SuperOffice.CRM.Administration.UserPlugin)
+  name.vb: AssignByReflection(Of UserPlugin)(UserPlugin, UserPlugin)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Administration.UserPlugin,SuperOffice.CRM.Administration.UserPlugin)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Administration.UserPlugin
+    name: UserPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Administration.UserPlugin
+    name: UserPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Administration.UserPlugin
+    name: UserPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Administration.UserPlugin,SuperOffice.CRM.Administration.UserPlugin)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Administration.UserPlugin
+    name: UserPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Administration.UserPlugin
+    name: UserPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Administration.UserPlugin
+    name: UserPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
+  - name: )
+- uid: SuperOffice.CRM.Administration.UserPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<UserPlugin>(UserPlugin)
+  nameWithType: ObjectExtensions.GraphCopy<UserPlugin>(UserPlugin)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Administration.UserPlugin>(SuperOffice.CRM.Administration.UserPlugin)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of UserPlugin)(UserPlugin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Administration.UserPlugin)(SuperOffice.CRM.Administration.UserPlugin)
+  name.vb: GraphCopy(Of UserPlugin)(UserPlugin)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Administration.UserPlugin)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Administration.UserPlugin
+    name: UserPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Administration.UserPlugin
+    name: UserPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Administration.UserPlugin)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Administration.UserPlugin
+    name: UserPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Administration.UserPlugin
+    name: UserPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1051,140 +1313,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1193,133 +1360,270 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateName*
-  commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateName
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: GetDefaultAssociateName
-  nameWithType: UserPlugin.GetDefaultAssociateName
-  fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateName
-- uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+  commentId: T:SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+  parent: SuperOffice.CRM.Administration
+  isExternal: true
+  href: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.html
+  name: CheckIfAssociateNameIsLegal
+  nameWithType: CheckIfAssociateNameIsLegal
+  fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+- uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateNameAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateNameAsync
+  isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_GetDefaultAssociateNameAsync_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_System_Threading_CancellationToken_
+  name: GetDefaultAssociateNameAsync
+  nameWithType: UserPlugin.GetDefaultAssociateNameAsync
+  fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateNameAsync
+- uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.IUserPlugin
   isExternal: true
-  name: GetDefaultAssociateName(UserType, Person, CheckIfAssociateNameIsLegal)
-  nameWithType: IUserPlugin.GetDefaultAssociateName(UserType, Person, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateName(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetDefaultAssociateNameAsync_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_System_Threading_CancellationToken_
+  name: GetDefaultAssociateNameAsync(UserType, Person, CheckIfAssociateNameIsLegal, CancellationToken)
+  nameWithType: IUserPlugin.GetDefaultAssociateNameAsync(UserType, Person, CheckIfAssociateNameIsLegal, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateNameAsync(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-    name: GetDefaultAssociateName
-    nameWithType: IUserPlugin.GetDefaultAssociateName
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateName
+  - uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+    name: GetDefaultAssociateNameAsync
     isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetDefaultAssociateNameAsync_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.License.UserType
     name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Person
     name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     name: CheckIfAssociateNameIsLegal
-    nameWithType: CheckIfAssociateNameIsLegal
-    fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     isExternal: true
+    href: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-    name: GetDefaultAssociateName
-    nameWithType: IUserPlugin.GetDefaultAssociateName
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateName
+  - uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+    name: GetDefaultAssociateNameAsync
     isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetDefaultAssociateNameAsync_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.License.UserType
     name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Person
     name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     name: CheckIfAssociateNameIsLegal
-    nameWithType: CheckIfAssociateNameIsLegal
-    fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     isExternal: true
+    href: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.License.UserType
+  commentId: T:SuperOffice.License.UserType
+  parent: SuperOffice.License
   isExternal: true
   name: UserType
   nameWithType: UserType
@@ -1328,127 +1632,310 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Person
   parent: SuperOffice.CRM.Entities
   isExternal: true
+  href: SuperOffice.CRM.Entities.Person.html
   name: Person
   nameWithType: Person
   fullName: SuperOffice.CRM.Entities.Person
-- uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
-  commentId: T:SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
-  parent: SuperOffice.CRM.Administration
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: CheckIfAssociateNameIsLegal
-  nameWithType: CheckIfAssociateNameIsLegal
-  fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.License
+    name: License
+    isExternal: true
+    href: SuperOffice.License.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.License
+    name: License
+    isExternal: true
+    href: SuperOffice.License.html
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateNameAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateNameAsync
+  isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_GetValidAssociateNameAsync_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_System_String_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_System_Threading_CancellationToken_
+  name: GetValidAssociateNameAsync
+  nameWithType: UserPlugin.GetValidAssociateNameAsync
+  fullName: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateNameAsync
+- uid: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Administration.IUserPlugin
+  isExternal: true
+  href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetValidAssociateNameAsync_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_System_String_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_System_Threading_CancellationToken_
+  name: GetValidAssociateNameAsync(UserType, Person, string, CheckIfAssociateNameIsLegal, CancellationToken)
+  nameWithType: IUserPlugin.GetValidAssociateNameAsync(UserType, Person, string, CheckIfAssociateNameIsLegal, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateNameAsync(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, string, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, System.Threading.CancellationToken)
+  nameWithType.vb: IUserPlugin.GetValidAssociateNameAsync(UserType, Person, String, CheckIfAssociateNameIsLegal, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateNameAsync(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, String, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, System.Threading.CancellationToken)
+  name.vb: GetValidAssociateNameAsync(UserType, Person, String, CheckIfAssociateNameIsLegal, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+    name: GetValidAssociateNameAsync
+    isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetValidAssociateNameAsync_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_System_String_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.License.UserType
+    name: UserType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Person
+    name: Person
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+    name: CheckIfAssociateNameIsLegal
+    isExternal: true
+    href: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+    name: GetValidAssociateNameAsync
+    isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetValidAssociateNameAsync_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_System_String_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.License.UserType
+    name: UserType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.Person
+    name: Person
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+    name: CheckIfAssociateNameIsLegal
+    isExternal: true
+    href: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Entities
-  commentId: N:SuperOffice.CRM.Entities
-  isExternal: true
-  name: SuperOffice.CRM.Entities
-  nameWithType: SuperOffice.CRM.Entities
-  fullName: SuperOffice.CRM.Entities
-- uid: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateName*
-  commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateName
-  isExternal: true
-  name: GetValidAssociateName
-  nameWithType: UserPlugin.GetValidAssociateName
-  fullName: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateName
-- uid: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  parent: SuperOffice.CRM.Administration.IUserPlugin
-  isExternal: true
-  name: GetValidAssociateName(UserType, Person, String, CheckIfAssociateNameIsLegal)
-  nameWithType: IUserPlugin.GetValidAssociateName(UserType, Person, String, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateName(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, System.String, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-    name: GetValidAssociateName
-    nameWithType: IUserPlugin.GetValidAssociateName
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateName
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.License.UserType
-    name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.Entities.Person
-    name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
-    name: CheckIfAssociateNameIsLegal
-    nameWithType: CheckIfAssociateNameIsLegal
-    fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-    name: GetValidAssociateName
-    nameWithType: IUserPlugin.GetValidAssociateName
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateName
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.License.UserType
-    name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.Entities.Person
-    name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
-    name: CheckIfAssociateNameIsLegal
-    nameWithType: CheckIfAssociateNameIsLegal
-    fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateName*
   commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateName
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_ProcessProvidedAssociateName_System_String_System_Int32_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
   name: ProcessProvidedAssociateName
   nameWithType: UserPlugin.ProcessProvidedAssociateName
   fullName: SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateName
@@ -1456,183 +1943,278 @@ references:
   commentId: M:SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   parent: SuperOffice.CRM.Administration.IUserPlugin
   isExternal: true
-  name: ProcessProvidedAssociateName(String, Int32, UserType, Person, CheckIfAssociateNameIsLegal)
-  nameWithType: IUserPlugin.ProcessProvidedAssociateName(String, Int32, UserType, Person, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateName(System.String, System.Int32, SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_ProcessProvidedAssociateName_System_String_System_Int32_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
+  name: ProcessProvidedAssociateName(string, int, UserType, Person, CheckIfAssociateNameIsLegal)
+  nameWithType: IUserPlugin.ProcessProvidedAssociateName(string, int, UserType, Person, CheckIfAssociateNameIsLegal)
+  fullName: SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateName(string, int, SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  nameWithType.vb: IUserPlugin.ProcessProvidedAssociateName(String, Integer, UserType, Person, CheckIfAssociateNameIsLegal)
+  fullName.vb: SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateName(String, Integer, SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name.vb: ProcessProvidedAssociateName(String, Integer, UserType, Person, CheckIfAssociateNameIsLegal)
   spec.csharp:
   - uid: SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
     name: ProcessProvidedAssociateName
-    nameWithType: IUserPlugin.ProcessProvidedAssociateName
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateName
     isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_ProcessProvidedAssociateName_System_String_System_Int32_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: SuperOffice.License.UserType
     name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Person
     name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     name: CheckIfAssociateNameIsLegal
-    nameWithType: CheckIfAssociateNameIsLegal
-    fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     isExternal: true
+    href: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
     name: ProcessProvidedAssociateName
-    nameWithType: IUserPlugin.ProcessProvidedAssociateName
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateName
     isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_ProcessProvidedAssociateName_System_String_System_Int32_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: SuperOffice.License.UserType
     name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Person
     name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     name: CheckIfAssociateNameIsLegal
-    nameWithType: CheckIfAssociateNameIsLegal
-    fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     isExternal: true
+    href: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Administration.UserPlugin.ExtractName(SuperOffice.CRM.Entities.Person)
+  commentId: M:SuperOffice.CRM.Administration.UserPlugin.ExtractName(SuperOffice.CRM.Entities.Person)
+  isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_ExtractName_SuperOffice_CRM_Entities_Person_
+  name: ExtractName(Person)
+  nameWithType: UserPlugin.ExtractName(Person)
+  fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractName(SuperOffice.CRM.Entities.Person)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Administration.UserPlugin.ExtractName(SuperOffice.CRM.Entities.Person)
+    name: ExtractName
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_ExtractName_SuperOffice_CRM_Entities_Person_
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Person
+    name: Person
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Administration.UserPlugin.ExtractName(SuperOffice.CRM.Entities.Person)
+    name: ExtractName
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_ExtractName_SuperOffice_CRM_Entities_Person_
+  - name: (
+  - uid: SuperOffice.CRM.Entities.Person
+    name: Person
+    isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: )
+- uid: SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  commentId: M:SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_FindFirstValidated_System_String_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
+  name: FindFirstValidated(string, CheckIfAssociateNameIsLegal)
+  nameWithType: UserPlugin.FindFirstValidated(string, CheckIfAssociateNameIsLegal)
+  fullName: SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(string, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  nameWithType.vb: UserPlugin.FindFirstValidated(String, CheckIfAssociateNameIsLegal)
+  fullName.vb: SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(String, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name.vb: FindFirstValidated(String, CheckIfAssociateNameIsLegal)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+    name: FindFirstValidated
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_FindFirstValidated_System_String_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+    name: CheckIfAssociateNameIsLegal
+    isExternal: true
+    href: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated(System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+    name: FindFirstValidated
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_FindFirstValidated_System_String_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+    name: CheckIfAssociateNameIsLegal
+    isExternal: true
+    href: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.html
+  - name: )
 - uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultInternalUserName*
   commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.GetDefaultInternalUserName
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_GetDefaultInternalUserName_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
   name: GetDefaultInternalUserName
   nameWithType: UserPlugin.GetDefaultInternalUserName
   fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultInternalUserName
-- uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultExternalUserName*
-  commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.GetDefaultExternalUserName
+- uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultExternalUserNameAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.GetDefaultExternalUserNameAsync
   isExternal: true
-  name: GetDefaultExternalUserName
-  nameWithType: UserPlugin.GetDefaultExternalUserName
-  fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultExternalUserName
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_GetDefaultExternalUserNameAsync_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_System_Threading_CancellationToken_
+  name: GetDefaultExternalUserNameAsync
+  nameWithType: UserPlugin.GetDefaultExternalUserNameAsync
+  fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultExternalUserNameAsync
 - uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultSystemUserName*
   commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.GetDefaultSystemUserName
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_GetDefaultSystemUserName_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
   name: GetDefaultSystemUserName
   nameWithType: UserPlugin.GetDefaultSystemUserName
   fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultSystemUserName
 - uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAnonymousUserName*
   commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.GetDefaultAnonymousUserName
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_GetDefaultAnonymousUserName_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
   name: GetDefaultAnonymousUserName
   nameWithType: UserPlugin.GetDefaultAnonymousUserName
   fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAnonymousUserName
 - uid: SuperOffice.CRM.Administration.UserPlugin.ExtractName*
   commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.ExtractName
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_ExtractName_SuperOffice_CRM_Entities_Person_
   name: ExtractName
   nameWithType: UserPlugin.ExtractName
   fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractName
-- uid: SuperOffice.CRM.Administration.UserPlugin.ExtractEmail*
-  commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.ExtractEmail
+- uid: SuperOffice.CRM.Administration.UserPlugin.ExtractEmailAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.ExtractEmailAsync
   isExternal: true
-  name: ExtractEmail
-  nameWithType: UserPlugin.ExtractEmail
-  fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractEmail
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_ExtractEmailAsync_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_System_Threading_CancellationToken_
+  name: ExtractEmailAsync
+  nameWithType: UserPlugin.ExtractEmailAsync
+  fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractEmailAsync
+- uid: SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(System.String)
+  commentId: M:SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(System.String)
+  isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_ExtractNamePart_System_String_
+  name: ExtractNamePart(string)
+  nameWithType: UserPlugin.ExtractNamePart(string)
+  fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(string)
+  nameWithType.vb: UserPlugin.ExtractNamePart(String)
+  fullName.vb: SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(String)
+  name.vb: ExtractNamePart(String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(System.String)
+    name: ExtractNamePart
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_ExtractNamePart_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart(System.String)
+    name: ExtractNamePart
+    isExternal: true
+    href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_ExtractNamePart_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: SuperOffice.CRM.Administration.UserPlugin.ExtractFirstName*
   commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.ExtractFirstName
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_ExtractFirstName_System_String_
   name: ExtractFirstName
   nameWithType: UserPlugin.ExtractFirstName
   fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractFirstName
 - uid: SuperOffice.CRM.Administration.UserPlugin.ExtractMiddleName*
   commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.ExtractMiddleName
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_ExtractMiddleName_System_String_
   name: ExtractMiddleName
   nameWithType: UserPlugin.ExtractMiddleName
   fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractMiddleName
 - uid: SuperOffice.CRM.Administration.UserPlugin.ExtractLastName*
   commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.ExtractLastName
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_ExtractLastName_System_String_
   name: ExtractLastName
   nameWithType: UserPlugin.ExtractLastName
   fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractLastName
 - uid: SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart*
   commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_ExtractNamePart_System_String_
   name: ExtractNamePart
   nameWithType: UserPlugin.ExtractNamePart
   fullName: SuperOffice.CRM.Administration.UserPlugin.ExtractNamePart
 - uid: SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated*
   commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_FindFirstValidated_System_String_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
   name: FindFirstValidated
   nameWithType: UserPlugin.FindFirstValidated
   fullName: SuperOffice.CRM.Administration.UserPlugin.FindFirstValidated
 - uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultPrimaryGroup*
   commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.GetDefaultPrimaryGroup
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_GetDefaultPrimaryGroup_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_
   name: GetDefaultPrimaryGroup
   nameWithType: UserPlugin.GetDefaultPrimaryGroup
   fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultPrimaryGroup
@@ -1640,62 +2222,46 @@ references:
   commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetDefaultPrimaryGroup(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
   parent: SuperOffice.CRM.Administration.IUserPlugin
   isExternal: true
+  href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetDefaultPrimaryGroup_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_
   name: GetDefaultPrimaryGroup(UserType, Person)
   nameWithType: IUserPlugin.GetDefaultPrimaryGroup(UserType, Person)
   fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultPrimaryGroup(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person)
   spec.csharp:
   - uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultPrimaryGroup(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
     name: GetDefaultPrimaryGroup
-    nameWithType: IUserPlugin.GetDefaultPrimaryGroup
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultPrimaryGroup
     isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetDefaultPrimaryGroup_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.License.UserType
     name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Person
     name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
     isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultPrimaryGroup(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
     name: GetDefaultPrimaryGroup
-    nameWithType: IUserPlugin.GetDefaultPrimaryGroup
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultPrimaryGroup
     isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetDefaultPrimaryGroup_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.License.UserType
     name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Person
     name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
     isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultSecondaryGroups*
   commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.GetDefaultSecondaryGroups
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_GetDefaultSecondaryGroups_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_
   name: GetDefaultSecondaryGroups
   nameWithType: UserPlugin.GetDefaultSecondaryGroups
   fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultSecondaryGroups
@@ -1703,88 +2269,69 @@ references:
   commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetDefaultSecondaryGroups(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
   parent: SuperOffice.CRM.Administration.IUserPlugin
   isExternal: true
+  href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetDefaultSecondaryGroups_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_
   name: GetDefaultSecondaryGroups(UserType, Person)
   nameWithType: IUserPlugin.GetDefaultSecondaryGroups(UserType, Person)
   fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultSecondaryGroups(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person)
   spec.csharp:
   - uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultSecondaryGroups(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
     name: GetDefaultSecondaryGroups
-    nameWithType: IUserPlugin.GetDefaultSecondaryGroups
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultSecondaryGroups
     isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetDefaultSecondaryGroups_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.License.UserType
     name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Person
     name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
     isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultSecondaryGroups(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
     name: GetDefaultSecondaryGroups
-    nameWithType: IUserPlugin.GetDefaultSecondaryGroups
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultSecondaryGroups
     isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetDefaultSecondaryGroups_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.License.UserType
     name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Person
     name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
     isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultRole*
   commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.GetDefaultRole
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_GetDefaultRole_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_
   name: GetDefaultRole
   nameWithType: UserPlugin.GetDefaultRole
   fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultRole
@@ -1792,62 +2339,46 @@ references:
   commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetDefaultRole(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
   parent: SuperOffice.CRM.Administration.IUserPlugin
   isExternal: true
+  href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetDefaultRole_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_
   name: GetDefaultRole(UserType, Person)
   nameWithType: IUserPlugin.GetDefaultRole(UserType, Person)
   fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultRole(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person)
   spec.csharp:
   - uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultRole(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
     name: GetDefaultRole
-    nameWithType: IUserPlugin.GetDefaultRole
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultRole
     isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetDefaultRole_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.License.UserType
     name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Person
     name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
     isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultRole(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person)
     name: GetDefaultRole
-    nameWithType: IUserPlugin.GetDefaultRole
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultRole
     isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetDefaultRole_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.License.UserType
     name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Person
     name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
     isExternal: true
+    href: SuperOffice.CRM.Entities.Person.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateUserName*
   commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateUserName
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_GetValidAssociateUserName_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_System_String_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
   name: GetValidAssociateUserName
   nameWithType: UserPlugin.GetValidAssociateUserName
   fullName: SuperOffice.CRM.Administration.UserPlugin.GetValidAssociateUserName
@@ -1855,94 +2386,73 @@ references:
   commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   parent: SuperOffice.CRM.Administration.IUserPlugin
   isExternal: true
-  name: GetValidAssociateUserName(UserType, Person, String, CheckIfAssociateNameIsLegal)
-  nameWithType: IUserPlugin.GetValidAssociateUserName(UserType, Person, String, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateUserName(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, System.String, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetValidAssociateUserName_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_System_String_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
+  name: GetValidAssociateUserName(UserType, Person, string, CheckIfAssociateNameIsLegal)
+  nameWithType: IUserPlugin.GetValidAssociateUserName(UserType, Person, string, CheckIfAssociateNameIsLegal)
+  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateUserName(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, string, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  nameWithType.vb: IUserPlugin.GetValidAssociateUserName(UserType, Person, String, CheckIfAssociateNameIsLegal)
+  fullName.vb: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateUserName(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, String, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name.vb: GetValidAssociateUserName(UserType, Person, String, CheckIfAssociateNameIsLegal)
   spec.csharp:
   - uid: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
     name: GetValidAssociateUserName
-    nameWithType: IUserPlugin.GetValidAssociateUserName
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateUserName
     isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetValidAssociateUserName_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_System_String_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.License.UserType
     name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Person
     name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     name: CheckIfAssociateNameIsLegal
-    nameWithType: CheckIfAssociateNameIsLegal
-    fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     isExternal: true
+    href: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,System.String,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
     name: GetValidAssociateUserName
-    nameWithType: IUserPlugin.GetValidAssociateUserName
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.GetValidAssociateUserName
     isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetValidAssociateUserName_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_System_String_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.License.UserType
     name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Person
     name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     name: CheckIfAssociateNameIsLegal
-    nameWithType: CheckIfAssociateNameIsLegal
-    fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     isExternal: true
+    href: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateUserName*
   commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateUserName
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_ProcessProvidedAssociateUserName_System_String_System_Int32_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
   name: ProcessProvidedAssociateUserName
   nameWithType: UserPlugin.ProcessProvidedAssociateUserName
   fullName: SuperOffice.CRM.Administration.UserPlugin.ProcessProvidedAssociateUserName
@@ -1950,189 +2460,159 @@ references:
   commentId: M:SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateUserName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
   parent: SuperOffice.CRM.Administration.IUserPlugin
   isExternal: true
-  name: ProcessProvidedAssociateUserName(String, Int32, UserType, Person, CheckIfAssociateNameIsLegal)
-  nameWithType: IUserPlugin.ProcessProvidedAssociateUserName(String, Int32, UserType, Person, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateUserName(System.String, System.Int32, SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_ProcessProvidedAssociateUserName_System_String_System_Int32_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
+  name: ProcessProvidedAssociateUserName(string, int, UserType, Person, CheckIfAssociateNameIsLegal)
+  nameWithType: IUserPlugin.ProcessProvidedAssociateUserName(string, int, UserType, Person, CheckIfAssociateNameIsLegal)
+  fullName: SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateUserName(string, int, SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  nameWithType.vb: IUserPlugin.ProcessProvidedAssociateUserName(String, Integer, UserType, Person, CheckIfAssociateNameIsLegal)
+  fullName.vb: SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateUserName(String, Integer, SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  name.vb: ProcessProvidedAssociateUserName(String, Integer, UserType, Person, CheckIfAssociateNameIsLegal)
   spec.csharp:
   - uid: SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateUserName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
     name: ProcessProvidedAssociateUserName
-    nameWithType: IUserPlugin.ProcessProvidedAssociateUserName
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateUserName
     isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_ProcessProvidedAssociateUserName_System_String_System_Int32_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: SuperOffice.License.UserType
     name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Person
     name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     name: CheckIfAssociateNameIsLegal
-    nameWithType: CheckIfAssociateNameIsLegal
-    fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     isExternal: true
+    href: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateUserName(System.String,System.Int32,SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
     name: ProcessProvidedAssociateUserName
-    nameWithType: IUserPlugin.ProcessProvidedAssociateUserName
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.ProcessProvidedAssociateUserName
     isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_ProcessProvidedAssociateUserName_System_String_System_Int32_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: SuperOffice.License.UserType
     name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Person
     name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     name: CheckIfAssociateNameIsLegal
-    nameWithType: CheckIfAssociateNameIsLegal
-    fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     isExternal: true
+    href: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateUserName*
-  commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateUserName
+- uid: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateUserNameAsync*
+  commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateUserNameAsync
   isExternal: true
-  name: GetDefaultAssociateUserName
-  nameWithType: UserPlugin.GetDefaultAssociateUserName
-  fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateUserName
-- uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-  commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin_GetDefaultAssociateUserNameAsync_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_System_Threading_CancellationToken_
+  name: GetDefaultAssociateUserNameAsync
+  nameWithType: UserPlugin.GetDefaultAssociateUserNameAsync
+  fullName: SuperOffice.CRM.Administration.UserPlugin.GetDefaultAssociateUserNameAsync
+- uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Administration.IUserPlugin
   isExternal: true
-  name: GetDefaultAssociateUserName(UserType, Person, CheckIfAssociateNameIsLegal)
-  nameWithType: IUserPlugin.GetDefaultAssociateUserName(UserType, Person, CheckIfAssociateNameIsLegal)
-  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserName(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
+  href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetDefaultAssociateUserNameAsync_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_System_Threading_CancellationToken_
+  name: GetDefaultAssociateUserNameAsync(UserType, Person, CheckIfAssociateNameIsLegal, CancellationToken)
+  nameWithType: IUserPlugin.GetDefaultAssociateUserNameAsync(UserType, Person, CheckIfAssociateNameIsLegal, CancellationToken)
+  fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserNameAsync(SuperOffice.License.UserType, SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-    name: GetDefaultAssociateUserName
-    nameWithType: IUserPlugin.GetDefaultAssociateUserName
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserName
+  - uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+    name: GetDefaultAssociateUserNameAsync
     isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetDefaultAssociateUserNameAsync_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.License.UserType
     name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Person
     name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     name: CheckIfAssociateNameIsLegal
-    nameWithType: CheckIfAssociateNameIsLegal
-    fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     isExternal: true
+    href: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserName(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal)
-    name: GetDefaultAssociateUserName
-    nameWithType: IUserPlugin.GetDefaultAssociateUserName
-    fullName: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserName
+  - uid: SuperOffice.CRM.Administration.IUserPlugin.GetDefaultAssociateUserNameAsync(SuperOffice.License.UserType,SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal,System.Threading.CancellationToken)
+    name: GetDefaultAssociateUserNameAsync
     isExternal: true
+    href: SuperOffice.CRM.Administration.IUserPlugin.html#SuperOffice_CRM_Administration_IUserPlugin_GetDefaultAssociateUserNameAsync_SuperOffice_License_UserType_SuperOffice_CRM_Entities_Person_SuperOffice_CRM_Administration_CheckIfAssociateNameIsLegal_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.License.UserType
     name: UserType
-    nameWithType: UserType
-    fullName: SuperOffice.License.UserType
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Entities.Person
     name: Person
-    nameWithType: Person
-    fullName: SuperOffice.CRM.Entities.Person
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.CRM.Entities.Person.html
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     name: CheckIfAssociateNameIsLegal
-    nameWithType: CheckIfAssociateNameIsLegal
-    fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
     isExternal: true
+    href: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Administration.UserPlugin.#ctor*
   commentId: Overload:SuperOffice.CRM.Administration.UserPlugin.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Administration.UserPlugin.html#SuperOffice_CRM_Administration_UserPlugin__ctor
   name: UserPlugin
   nameWithType: UserPlugin.UserPlugin
   fullName: SuperOffice.CRM.Administration.UserPlugin.UserPlugin
+  nameWithType.vb: UserPlugin.New
+  fullName.vb: SuperOffice.CRM.Administration.UserPlugin.New
+  name.vb: New

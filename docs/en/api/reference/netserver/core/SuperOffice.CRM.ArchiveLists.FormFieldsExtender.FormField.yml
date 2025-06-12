@@ -11,42 +11,36 @@ items:
   - SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Label
   - SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.OriginalLabel
   - SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.ReadOnly
-  - SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.sequence
   - SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.SubType
   - SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Table
   - SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Type
   - SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Value
+  - SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.sequence
   langs:
   - csharp
   - vb
   name: FormFieldsExtender.FormField
   nameWithType: FormFieldsExtender.FormField
   fullName: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
-  type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
+  type: Struct
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: 'public sealed class FormField : ValueType'
-    content.vb: >-
-      Public NotInheritable Class FormField
-          Inherits ValueType
-  inheritance:
-  - System.Object
+    content: public struct FormFieldsExtender.FormField
+    content.vb: Public Structure FormFieldsExtender.FormField
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
+  - SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+  - SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.SuperOffice.Util.ObjectExtensions.GraphCopy``1
 - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Index
   commentId: F:SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Index
   id: Index
@@ -58,21 +52,14 @@ items:
   nameWithType: FormFieldsExtender.FormField.Index
   fullName: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Index
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public int Index
     return:
       type: System.Int32
     content.vb: Public Index As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.sequence
   commentId: F:SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.sequence
   id: sequence
@@ -84,21 +71,14 @@ items:
   nameWithType: FormFieldsExtender.FormField.sequence
   fullName: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.sequence
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string sequence
     return:
       type: System.String
     content.vb: Public sequence As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Type
   commentId: F:SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Type
   id: Type
@@ -110,21 +90,14 @@ items:
   nameWithType: FormFieldsExtender.FormField.Type
   fullName: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Type
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string Type
     return:
       type: System.String
     content.vb: Public Type As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.SubType
   commentId: F:SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.SubType
   id: SubType
@@ -136,21 +109,14 @@ items:
   nameWithType: FormFieldsExtender.FormField.SubType
   fullName: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.SubType
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string SubType
     return:
       type: System.String
     content.vb: Public SubType As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.ReadOnly
   commentId: F:SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.ReadOnly
   id: ReadOnly
@@ -162,21 +128,14 @@ items:
   nameWithType: FormFieldsExtender.FormField.ReadOnly
   fullName: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.ReadOnly
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string ReadOnly
     return:
       type: System.String
-    content.vb: Public ReadOnly As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content.vb: Public [ReadOnly] As String
 - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Identifier
   commentId: F:SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Identifier
   id: Identifier
@@ -188,21 +147,14 @@ items:
   nameWithType: FormFieldsExtender.FormField.Identifier
   fullName: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Identifier
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string Identifier
     return:
       type: System.String
     content.vb: Public Identifier As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Label
   commentId: F:SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Label
   id: Label
@@ -214,21 +166,14 @@ items:
   nameWithType: FormFieldsExtender.FormField.Label
   fullName: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Label
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string Label
     return:
       type: System.String
     content.vb: Public Label As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.OriginalLabel
   commentId: F:SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.OriginalLabel
   id: OriginalLabel
@@ -240,21 +185,14 @@ items:
   nameWithType: FormFieldsExtender.FormField.OriginalLabel
   fullName: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.OriginalLabel
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string OriginalLabel
     return:
       type: System.String
     content.vb: Public OriginalLabel As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Value
   commentId: F:SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Value
   id: Value
@@ -266,21 +204,14 @@ items:
   nameWithType: FormFieldsExtender.FormField.Value
   fullName: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Value
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string Value
     return:
       type: System.String
     content.vb: Public Value As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.DisplayValue
   commentId: F:SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.DisplayValue
   id: DisplayValue
@@ -292,21 +223,14 @@ items:
   nameWithType: FormFieldsExtender.FormField.DisplayValue
   fullName: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.DisplayValue
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string DisplayValue
     return:
       type: System.String
     content.vb: Public DisplayValue As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Table
   commentId: F:SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Table
   id: Table
@@ -318,112 +242,478 @@ items:
   nameWithType: FormFieldsExtender.FormField.Table
   fullName: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.Table
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public FormFieldValueTableInfo Table
     return:
       type: SuperOffice.CRM.Data.FormFieldValueTableInfo
     content.vb: Public Table As FormFieldValueTableInfo
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<FormFieldsExtender.FormField, To>()
-  nameWithType: EnumUtil.MapEnums<FormFieldsExtender.FormField, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of FormFieldsExtender.FormField, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField, To)()
-  name.vb: MapEnums(Of FormFieldsExtender.FormField, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<FormField, To>(FormField)
+  nameWithType: EnumUtil.MapEnums<FormFieldsExtender.FormField, To>(FormFieldsExtender.FormField)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField, To>(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+  nameWithType.vb: EnumUtil.MapEnums(Of FormFieldsExtender.FormField, To)(FormFieldsExtender.FormField)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField, To)(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+  name.vb: MapEnums(Of FormField, To)(FormField)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<FormFieldsExtender.FormField, To>
-    nameWithType: EnumUtil.MapEnums<FormFieldsExtender.FormField, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of FormFieldsExtender.FormField, To)
-    nameWithType: EnumUtil.MapEnums(Of FormFieldsExtender.FormField, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<FormFieldsExtender.FormField, To>()
-  nameWithType: Converters.MapEnums<FormFieldsExtender.FormField, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField, To>()
-  nameWithType.vb: Converters.MapEnums(Of FormFieldsExtender.FormField, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField, To)()
-  name.vb: MapEnums(Of FormFieldsExtender.FormField, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<FormField, To>(FormField)
+  nameWithType: Converters.MapEnums<FormFieldsExtender.FormField, To>(FormFieldsExtender.FormField)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField, To>(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+  nameWithType.vb: Converters.MapEnums(Of FormFieldsExtender.FormField, To)(FormFieldsExtender.FormField)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField, To)(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+  name.vb: MapEnums(Of FormField, To)(FormField)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<FormFieldsExtender.FormField, To>
-    nameWithType: Converters.MapEnums<FormFieldsExtender.FormField, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of FormFieldsExtender.FormField, To)
-    nameWithType: Converters.MapEnums(Of FormFieldsExtender.FormField, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<FormField>(FormField, FormField)
+  nameWithType: ObjectExtensions.AssignByReflection<FormFieldsExtender.FormField>(FormFieldsExtender.FormField, FormFieldsExtender.FormField)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField>(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField, SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FormFieldsExtender.FormField)(FormFieldsExtender.FormField, FormFieldsExtender.FormField)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField, SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+  name.vb: AssignByReflection(Of FormField)(FormField, FormField)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField,SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField,SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<FormField>(FormField)
+  nameWithType: ObjectExtensions.GraphCopy<FormFieldsExtender.FormField>(FormFieldsExtender.FormField)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField>(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FormFieldsExtender.FormField)(FormFieldsExtender.FormField)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+  name.vb: GraphCopy(Of FormField)(FormField)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -432,43 +722,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -477,71 +769,259 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Data.FormFieldValueTableInfo
   commentId: T:SuperOffice.CRM.Data.FormFieldValueTableInfo
   parent: SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.CRM.Data.FormFieldValueTableInfo.html
   name: FormFieldValueTableInfo
   nameWithType: FormFieldValueTableInfo
   fullName: SuperOffice.CRM.Data.FormFieldValueTableInfo
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html

@@ -12,12 +12,11 @@ items:
   - SuperOffice.CRM.ApplicationIcons
   - SuperOffice.CRM.ApproveRejectResponseInfo
   - SuperOffice.CRM.ButtonBarConfigDialogDataHandler
-  - SuperOffice.CRM.ConnectionConfigFieldInfo
   - SuperOffice.CRM.CRMQuoteConnectorCapabilities
   - SuperOffice.CRM.CRMQuoteConnectorLists
+  - SuperOffice.CRM.ConnectionConfigFieldInfo
   - SuperOffice.CRM.CustomerService
   - SuperOffice.CRM.CustomerService.CsUrlType
-  - SuperOffice.CRM.CustomerServiceUrlResolver
   - SuperOffice.CRM.DateTimeExtensions
   - SuperOffice.CRM.ErpActor
   - SuperOffice.CRM.ErpConnectorAttribute
@@ -33,8 +32,6 @@ items:
   - SuperOffice.CRM.ForeignKeyInfo
   - SuperOffice.CRM.FunctionRightStrings
   - SuperOffice.CRM.IAppointmentInfo
-  - SuperOffice.CRM.IAppointmentInfo2
-  - SuperOffice.CRM.IAppointmentInfo3
   - SuperOffice.CRM.IConfiguration
   - SuperOffice.CRM.IContactInfo
   - SuperOffice.CRM.IContactInfo2
@@ -46,7 +43,6 @@ items:
   - SuperOffice.CRM.IErpConnector
   - SuperOffice.CRM.INextDueDatePlugin
   - SuperOffice.CRM.INextMilestonePlugin
-  - SuperOffice.CRM.InMemoryProductProvider
   - SuperOffice.CRM.IPersonInfo
   - SuperOffice.CRM.IPersonInfo2
   - SuperOffice.CRM.IPersonInfo3
@@ -63,10 +59,12 @@ items:
   - SuperOffice.CRM.ISelectionInfo
   - SuperOffice.CRM.IUserInfo
   - SuperOffice.CRM.IUserInfo2
+  - SuperOffice.CRM.InMemoryProductProvider
   - SuperOffice.CRM.ListItemArrayPluginResponse
   - SuperOffice.CRM.ListItemInfo
   - SuperOffice.CRM.ListsHelper
   - SuperOffice.CRM.ListsHelper.ItemRow
+  - SuperOffice.CRM.ListsHelper.ListTableInfo
   - SuperOffice.CRM.ListsHelper.SoListItemDistinctIdComparer
   - SuperOffice.CRM.ModuleLicenceProvider
   - SuperOffice.CRM.NetServices
@@ -130,7 +128,6 @@ items:
   - SuperOffice.CRM.TimeZoneData
   - SuperOffice.CRM.TimeZoneRule
   - SuperOffice.CRM.TimeZoneRuleDictionary
-  - SuperOffice.CRM.TooltipHelper
   - SuperOffice.CRM.UserInfo
   - SuperOffice.CRM.UserInfo2
   - SuperOffice.CRM.UserPreferenceStrings
@@ -159,8 +156,8 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.Gdpr
   - SuperOffice.CRM.UserPreferenceStrings.HugoAI
   - SuperOffice.CRM.UserPreferenceStrings.InApp
-  - SuperOffice.CRM.UserPreferenceStrings.Mail
   - SuperOffice.CRM.UserPreferenceStrings.MDOList
+  - SuperOffice.CRM.UserPreferenceStrings.Mail
   - SuperOffice.CRM.UserPreferenceStrings.MiniPanel
   - SuperOffice.CRM.UserPreferenceStrings.NetServices
   - SuperOffice.CRM.UserPreferenceStrings.Notification
@@ -173,9 +170,9 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.Project
   - SuperOffice.CRM.UserPreferenceStrings.QuickLaunchBar
   - SuperOffice.CRM.UserPreferenceStrings.Quote
+  - SuperOffice.CRM.UserPreferenceStrings.ROU
   - SuperOffice.CRM.UserPreferenceStrings.Request
   - SuperOffice.CRM.UserPreferenceStrings.RequiredDynamicLoad
-  - SuperOffice.CRM.UserPreferenceStrings.ROU
   - SuperOffice.CRM.UserPreferenceStrings.Sale
   - SuperOffice.CRM.UserPreferenceStrings.SaleFilterDialog
   - SuperOffice.CRM.UserPreferenceStrings.SalesNotification
@@ -210,18 +207,21 @@ references:
   commentId: T:SuperOffice.CRM.ApplicationIcon
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ApplicationIcon.html
   name: ApplicationIcon
   nameWithType: ApplicationIcon
   fullName: SuperOffice.CRM.ApplicationIcon
 - uid: SuperOffice.CRM.ApplicationIcons
   commentId: T:SuperOffice.CRM.ApplicationIcons
   isExternal: true
+  href: SuperOffice.CRM.ApplicationIcons.html
   name: ApplicationIcons
   nameWithType: ApplicationIcons
   fullName: SuperOffice.CRM.ApplicationIcons
 - uid: SuperOffice.CRM.FunctionRightStrings
   commentId: T:SuperOffice.CRM.FunctionRightStrings
   isExternal: true
+  href: SuperOffice.CRM.FunctionRightStrings.html
   name: FunctionRightStrings
   nameWithType: FunctionRightStrings
   fullName: SuperOffice.CRM.FunctionRightStrings
@@ -229,6 +229,7 @@ references:
   commentId: T:SuperOffice.CRM.INextMilestonePlugin
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.INextMilestonePlugin.html
   name: INextMilestonePlugin
   nameWithType: INextMilestonePlugin
   fullName: SuperOffice.CRM.INextMilestonePlugin
@@ -236,6 +237,7 @@ references:
   commentId: T:SuperOffice.CRM.NextDateInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.NextDateInfo.html
   name: NextDateInfo
   nameWithType: NextDateInfo
   fullName: SuperOffice.CRM.NextDateInfo
@@ -243,6 +245,7 @@ references:
   commentId: T:SuperOffice.CRM.NextMilestonePluginAttribute
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.NextMilestonePluginAttribute.html
   name: NextMilestonePluginAttribute
   nameWithType: NextMilestonePluginAttribute
   fullName: SuperOffice.CRM.NextMilestonePluginAttribute
@@ -250,6 +253,7 @@ references:
   commentId: T:SuperOffice.CRM.INextDueDatePlugin
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.INextDueDatePlugin.html
   name: INextDueDatePlugin
   nameWithType: INextDueDatePlugin
   fullName: SuperOffice.CRM.INextDueDatePlugin
@@ -257,12 +261,14 @@ references:
   commentId: T:SuperOffice.CRM.NextDueDatePluginAttribute
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.NextDueDatePluginAttribute.html
   name: NextDueDatePluginAttribute
   nameWithType: NextDueDatePluginAttribute
   fullName: SuperOffice.CRM.NextDueDatePluginAttribute
 - uid: SuperOffice.CRM.QuoteUtility
   commentId: T:SuperOffice.CRM.QuoteUtility
   isExternal: true
+  href: SuperOffice.CRM.QuoteUtility.html
   name: QuoteUtility
   nameWithType: QuoteUtility
   fullName: SuperOffice.CRM.QuoteUtility
@@ -270,6 +276,7 @@ references:
   commentId: T:SuperOffice.CRM.QuoteVersionStateExtensions
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteVersionStateExtensions.html
   name: QuoteVersionStateExtensions
   nameWithType: QuoteVersionStateExtensions
   fullName: SuperOffice.CRM.QuoteVersionStateExtensions
@@ -277,6 +284,7 @@ references:
   commentId: T:SuperOffice.CRM.TimeZoneData
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.TimeZoneData.html
   name: TimeZoneData
   nameWithType: TimeZoneData
   fullName: SuperOffice.CRM.TimeZoneData
@@ -284,6 +292,7 @@ references:
   commentId: T:SuperOffice.CRM.TimeZoneRule
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.TimeZoneRule.html
   name: TimeZoneRule
   nameWithType: TimeZoneRule
   fullName: SuperOffice.CRM.TimeZoneRule
@@ -291,409 +300,1676 @@ references:
   commentId: T:SuperOffice.CRM.TimeZoneRuleDictionary
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.TimeZoneRuleDictionary.html
   name: TimeZoneRuleDictionary
   nameWithType: TimeZoneRuleDictionary
   fullName: SuperOffice.CRM.TimeZoneRuleDictionary
 - uid: SuperOffice.CRM.UserPreferenceStrings
   commentId: T:SuperOffice.CRM.UserPreferenceStrings
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings
   nameWithType: UserPreferenceStrings
   fullName: SuperOffice.CRM.UserPreferenceStrings
 - uid: SuperOffice.CRM.UserPreferenceStrings.Associates
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Associates
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Associates
   nameWithType: UserPreferenceStrings.Associates
   fullName: SuperOffice.CRM.UserPreferenceStrings.Associates
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Associates
+    name: Associates
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Associates.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Associates
+    name: Associates
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Associates.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Defaults
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Defaults
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Defaults
   nameWithType: UserPreferenceStrings.Defaults
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Defaults
+    name: Defaults
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Defaults.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Defaults
+    name: Defaults
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Defaults.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.StandardStartupScreenOptions
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.StandardStartupScreenOptions
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.StandardStartupScreenOptions
   nameWithType: UserPreferenceStrings.StandardStartupScreenOptions
   fullName: SuperOffice.CRM.UserPreferenceStrings.StandardStartupScreenOptions
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.StandardStartupScreenOptions
+    name: StandardStartupScreenOptions
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.StandardStartupScreenOptions.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.StandardStartupScreenOptions
+    name: StandardStartupScreenOptions
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.StandardStartupScreenOptions.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.DiaryView
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.DiaryView
   nameWithType: UserPreferenceStrings.DiaryView
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+    name: DiaryView
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.DiaryView.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+    name: DiaryView
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.DiaryView.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.FieldLabels
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.FieldLabels
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.FieldLabels
   nameWithType: UserPreferenceStrings.FieldLabels
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldLabels
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.FieldLabels
+    name: FieldLabels
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.FieldLabels.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.FieldLabels
+    name: FieldLabels
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.FieldLabels.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.FieldReplication
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.FieldReplication
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.FieldReplication
   nameWithType: UserPreferenceStrings.FieldReplication
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.FieldReplication
+    name: FieldReplication
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.FieldReplication
+    name: FieldReplication
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.FilterDialog
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.FilterDialog
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.FilterDialog
   nameWithType: UserPreferenceStrings.FilterDialog
   fullName: SuperOffice.CRM.UserPreferenceStrings.FilterDialog
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.FilterDialog
+    name: FilterDialog
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.FilterDialog.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.FilterDialog
+    name: FilterDialog
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.FilterDialog.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.SaleFilterDialog
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.SaleFilterDialog
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.SaleFilterDialog
   nameWithType: UserPreferenceStrings.SaleFilterDialog
   fullName: SuperOffice.CRM.UserPreferenceStrings.SaleFilterDialog
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.SaleFilterDialog
+    name: SaleFilterDialog
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.SaleFilterDialog.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.SaleFilterDialog
+    name: SaleFilterDialog
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.SaleFilterDialog.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Filter
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Filter
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Filter
   nameWithType: UserPreferenceStrings.Filter
   fullName: SuperOffice.CRM.UserPreferenceStrings.Filter
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Filter
+    name: Filter
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Filter.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Filter
+    name: Filter
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Filter.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.FindResultDialog
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.FindResultDialog
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.FindResultDialog
   nameWithType: UserPreferenceStrings.FindResultDialog
   fullName: SuperOffice.CRM.UserPreferenceStrings.FindResultDialog
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.FindResultDialog
+    name: FindResultDialog
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.FindResultDialog.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.FindResultDialog
+    name: FindResultDialog
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.FindResultDialog.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Freetext
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Freetext
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Freetext
   nameWithType: UserPreferenceStrings.Freetext
   fullName: SuperOffice.CRM.UserPreferenceStrings.Freetext
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Freetext
+    name: Freetext
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Freetext.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Freetext
+    name: Freetext
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Freetext.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Functions
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Functions
   nameWithType: UserPreferenceStrings.Functions
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Functions
+    name: Functions
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Functions.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Functions
+    name: Functions
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Functions.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Mail
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Mail
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Mail
   nameWithType: UserPreferenceStrings.Mail
   fullName: SuperOffice.CRM.UserPreferenceStrings.Mail
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Mail
+    name: Mail
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Mail.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Mail
+    name: Mail
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Mail.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.MDOList
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.MDOList
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.MDOList
   nameWithType: UserPreferenceStrings.MDOList
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.MDOList.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.MDOList
+    name: MDOList
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.MDOList.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Dashboard
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Dashboard
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Dashboard
   nameWithType: UserPreferenceStrings.Dashboard
   fullName: SuperOffice.CRM.UserPreferenceStrings.Dashboard
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Dashboard
+    name: Dashboard
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Dashboard.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Dashboard
+    name: Dashboard
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Dashboard.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.NetServices
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.NetServices
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.NetServices
   nameWithType: UserPreferenceStrings.NetServices
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.NetServices
+    name: NetServices
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.NetServices.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.NetServices
+    name: NetServices
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.NetServices.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Numbering
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Numbering
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Numbering
   nameWithType: UserPreferenceStrings.Numbering
   fullName: SuperOffice.CRM.UserPreferenceStrings.Numbering
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Numbering
+    name: Numbering
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Numbering.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Numbering
+    name: Numbering
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Numbering.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Phone
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Phone
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Phone
   nameWithType: UserPreferenceStrings.Phone
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Phone
+    name: Phone
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Phone.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Phone
+    name: Phone
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Phone.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sorting
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Sorting
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Sorting
   nameWithType: UserPreferenceStrings.Sorting
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sorting
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Sorting
+    name: Sorting
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Sorting.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Sorting
+    name: Sorting
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Sorting.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.SuperMode
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.SuperMode
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.SuperMode
   nameWithType: UserPreferenceStrings.SuperMode
   fullName: SuperOffice.CRM.UserPreferenceStrings.SuperMode
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.SuperMode
+    name: SuperMode
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.SuperMode.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.SuperMode
+    name: SuperMode
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.SuperMode.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.System
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.System
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.System
   nameWithType: UserPreferenceStrings.System
   fullName: SuperOffice.CRM.UserPreferenceStrings.System
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.System
+    name: System
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.System.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.System
+    name: System
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.System.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.ToolTips
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.ToolTips
   nameWithType: UserPreferenceStrings.ToolTips
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+    name: ToolTips
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.ToolTips.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+    name: ToolTips
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.ToolTips.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Travel
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Travel
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Travel
   nameWithType: UserPreferenceStrings.Travel
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Travel
+    name: Travel
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Travel.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Travel
+    name: Travel
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Travel.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Visual
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Visual
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Visual
   nameWithType: UserPreferenceStrings.Visual
   fullName: SuperOffice.CRM.UserPreferenceStrings.Visual
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Visual
+    name: Visual
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Visual.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Visual
+    name: Visual
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Visual.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.WebServer
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.WebServer
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.WebServer
   nameWithType: UserPreferenceStrings.WebServer
   fullName: SuperOffice.CRM.UserPreferenceStrings.WebServer
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.WebServer
+    name: WebServer
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.WebServer.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.WebServer
+    name: WebServer
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.WebServer.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Wizard
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Wizard
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Wizard
   nameWithType: UserPreferenceStrings.Wizard
   fullName: SuperOffice.CRM.UserPreferenceStrings.Wizard
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Wizard
+    name: Wizard
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Wizard.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Wizard
+    name: Wizard
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Wizard.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Selection
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Selection
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Selection
   nameWithType: UserPreferenceStrings.Selection
   fullName: SuperOffice.CRM.UserPreferenceStrings.Selection
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Selection
+    name: Selection
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Selection.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Selection
+    name: Selection
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Selection.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Project
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Project
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Project
   nameWithType: UserPreferenceStrings.Project
   fullName: SuperOffice.CRM.UserPreferenceStrings.Project
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Project
+    name: Project
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Project.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Project
+    name: Project
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Project.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Person
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Person
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Person
   nameWithType: UserPreferenceStrings.Person
   fullName: SuperOffice.CRM.UserPreferenceStrings.Person
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Person
+    name: Person
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Person.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Person
+    name: Person
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Person.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.DbOptimizations
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.DbOptimizations
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.DbOptimizations
   nameWithType: UserPreferenceStrings.DbOptimizations
   fullName: SuperOffice.CRM.UserPreferenceStrings.DbOptimizations
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.DbOptimizations
+    name: DbOptimizations
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.DbOptimizations.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.DbOptimizations
+    name: DbOptimizations
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.DbOptimizations.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.DuplicateSystem
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.DuplicateSystem
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.DuplicateSystem
   nameWithType: UserPreferenceStrings.DuplicateSystem
   fullName: SuperOffice.CRM.UserPreferenceStrings.DuplicateSystem
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.DuplicateSystem
+    name: DuplicateSystem
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.DuplicateSystem.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.DuplicateSystem
+    name: DuplicateSystem
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.DuplicateSystem.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.SentryAddonNames
   nameWithType: UserPreferenceStrings.SentryAddonNames
   fullName: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
+    name: SentryAddonNames
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
+    name: SentryAddonNames
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.DocPluginNames
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.DocPluginNames
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.DocPluginNames
   nameWithType: UserPreferenceStrings.DocPluginNames
   fullName: SuperOffice.CRM.UserPreferenceStrings.DocPluginNames
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.DocPluginNames
+    name: DocPluginNames
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.DocPluginNames.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.DocPluginNames
+    name: DocPluginNames
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.DocPluginNames.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.DocTemplateTypeMap
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.DocTemplateTypeMap
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.DocTemplateTypeMap
   nameWithType: UserPreferenceStrings.DocTemplateTypeMap
   fullName: SuperOffice.CRM.UserPreferenceStrings.DocTemplateTypeMap
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.DocTemplateTypeMap
+    name: DocTemplateTypeMap
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.DocTemplateTypeMap.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.DocTemplateTypeMap
+    name: DocTemplateTypeMap
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.DocTemplateTypeMap.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.RequiredDynamicLoad
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.RequiredDynamicLoad
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.RequiredDynamicLoad
   nameWithType: UserPreferenceStrings.RequiredDynamicLoad
   fullName: SuperOffice.CRM.UserPreferenceStrings.RequiredDynamicLoad
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.RequiredDynamicLoad
+    name: RequiredDynamicLoad
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.RequiredDynamicLoad.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.RequiredDynamicLoad
+    name: RequiredDynamicLoad
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.RequiredDynamicLoad.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sale
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Sale
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Sale
   nameWithType: UserPreferenceStrings.Sale
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Sale
+    name: Sale
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Sale.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Sale
+    name: Sale
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Sale.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.QuickLaunchBar
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.QuickLaunchBar
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.QuickLaunchBar
   nameWithType: UserPreferenceStrings.QuickLaunchBar
   fullName: SuperOffice.CRM.UserPreferenceStrings.QuickLaunchBar
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.QuickLaunchBar
+    name: QuickLaunchBar
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.QuickLaunchBar.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.QuickLaunchBar
+    name: QuickLaunchBar
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.QuickLaunchBar.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.MiniPanel
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.MiniPanel
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.MiniPanel
   nameWithType: UserPreferenceStrings.MiniPanel
   fullName: SuperOffice.CRM.UserPreferenceStrings.MiniPanel
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.MiniPanel
+    name: MiniPanel
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.MiniPanel.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.MiniPanel
+    name: MiniPanel
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.MiniPanel.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Quote
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Quote
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Quote
   nameWithType: UserPreferenceStrings.Quote
   fullName: SuperOffice.CRM.UserPreferenceStrings.Quote
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Quote
+    name: Quote
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Quote.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Quote
+    name: Quote
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Quote.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.ROU
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.ROU
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.ROU
   nameWithType: UserPreferenceStrings.ROU
   fullName: SuperOffice.CRM.UserPreferenceStrings.ROU
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.ROU
+    name: ROU
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.ROU.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.ROU
+    name: ROU
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.ROU.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.AdminImportRules
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.AdminImportRules
   nameWithType: UserPreferenceStrings.AdminImportRules
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules
+    name: AdminImportRules
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules
+    name: AdminImportRules
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.CloudServices
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.CloudServices
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.CloudServices
   nameWithType: UserPreferenceStrings.CloudServices
   fullName: SuperOffice.CRM.UserPreferenceStrings.CloudServices
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.CloudServices
+    name: CloudServices
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.CloudServices.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.CloudServices
+    name: CloudServices
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.CloudServices.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.PocketSection
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.PocketSection
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.PocketSection
   nameWithType: UserPreferenceStrings.PocketSection
   fullName: SuperOffice.CRM.UserPreferenceStrings.PocketSection
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.PocketSection
+    name: PocketSection
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.PocketSection.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.PocketSection
+    name: PocketSection
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.PocketSection.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.DataCollection
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.DataCollection
   nameWithType: UserPreferenceStrings.DataCollection
   fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+    name: DataCollection
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.DataCollection.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+    name: DataCollection
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.DataCollection.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.BulkUpdate
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.BulkUpdate
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.BulkUpdate
   nameWithType: UserPreferenceStrings.BulkUpdate
   fullName: SuperOffice.CRM.UserPreferenceStrings.BulkUpdate
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.BulkUpdate
+    name: BulkUpdate
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.BulkUpdate.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.BulkUpdate
+    name: BulkUpdate
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.BulkUpdate.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Gdpr
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Gdpr
   nameWithType: UserPreferenceStrings.Gdpr
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+    name: Gdpr
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Gdpr.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+    name: Gdpr
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Gdpr.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.HugoAI
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.HugoAI
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.HugoAI
   nameWithType: UserPreferenceStrings.HugoAI
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.HugoAI
+    name: HugoAI
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.HugoAI.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.HugoAI
+    name: HugoAI
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.HugoAI.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.ZFD
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.ZFD
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.ZFD
   nameWithType: UserPreferenceStrings.ZFD
   fullName: SuperOffice.CRM.UserPreferenceStrings.ZFD
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.ZFD
+    name: ZFD
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.ZFD.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.ZFD
+    name: ZFD
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.ZFD.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.VideoMeetings
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.VideoMeetings
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.VideoMeetings
   nameWithType: UserPreferenceStrings.VideoMeetings
   fullName: SuperOffice.CRM.UserPreferenceStrings.VideoMeetings
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.VideoMeetings
+    name: VideoMeetings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.VideoMeetings.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.VideoMeetings
+    name: VideoMeetings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.VideoMeetings.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Request
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Request
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Request
   nameWithType: UserPreferenceStrings.Request
   fullName: SuperOffice.CRM.UserPreferenceStrings.Request
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Request
+    name: Request
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Request.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Request
+    name: Request
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Request.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.SalesNotification
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.SalesNotification
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.SalesNotification
   nameWithType: UserPreferenceStrings.SalesNotification
   fullName: SuperOffice.CRM.UserPreferenceStrings.SalesNotification
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.SalesNotification
+    name: SalesNotification
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.SalesNotification.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.SalesNotification
+    name: SalesNotification
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.SalesNotification.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.SystemNotification
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.SystemNotification
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.SystemNotification
   nameWithType: UserPreferenceStrings.SystemNotification
   fullName: SuperOffice.CRM.UserPreferenceStrings.SystemNotification
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.SystemNotification
+    name: SystemNotification
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.SystemNotification.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.SystemNotification
+    name: SystemNotification
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.SystemNotification.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Notification
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Notification
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Notification
   nameWithType: UserPreferenceStrings.Notification
   fullName: SuperOffice.CRM.UserPreferenceStrings.Notification
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Notification
+    name: Notification
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Notification.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Notification
+    name: Notification
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Notification.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.NotificationEmail
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.NotificationEmail
   nameWithType: UserPreferenceStrings.NotificationEmail
   fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail
+    name: NotificationEmail
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail
+    name: NotificationEmail
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.NotificationSms
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.NotificationSms
   nameWithType: UserPreferenceStrings.NotificationSms
   fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms
+    name: NotificationSms
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms
+    name: NotificationSms
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Archives
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Archives
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Archives
   nameWithType: UserPreferenceStrings.Archives
   fullName: SuperOffice.CRM.UserPreferenceStrings.Archives
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Archives
+    name: Archives
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Archives.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Archives
+    name: Archives
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Archives.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.ExtraFields
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.ExtraFields
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.ExtraFields
   nameWithType: UserPreferenceStrings.ExtraFields
   fullName: SuperOffice.CRM.UserPreferenceStrings.ExtraFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.ExtraFields
+    name: ExtraFields
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.ExtraFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.ExtraFields
+    name: ExtraFields
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.ExtraFields.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Debug
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Debug
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Debug
   nameWithType: UserPreferenceStrings.Debug
   fullName: SuperOffice.CRM.UserPreferenceStrings.Debug
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Debug
+    name: Debug
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Debug.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Debug
+    name: Debug
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Debug.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Targets
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Targets
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.Targets
   nameWithType: UserPreferenceStrings.Targets
   fullName: SuperOffice.CRM.UserPreferenceStrings.Targets
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Targets
+    name: Targets
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Targets.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Targets
+    name: Targets
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Targets.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.InApp
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.InApp
   isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
   name: UserPreferenceStrings.InApp
   nameWithType: UserPreferenceStrings.InApp
   fullName: SuperOffice.CRM.UserPreferenceStrings.InApp
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.InApp
+    name: InApp
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.InApp.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.InApp
+    name: InApp
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.InApp.html
 - uid: SuperOffice.CRM.ActivityStatusHelper
   commentId: T:SuperOffice.CRM.ActivityStatusHelper
   isExternal: true
+  href: SuperOffice.CRM.ActivityStatusHelper.html
   name: ActivityStatusHelper
   nameWithType: ActivityStatusHelper
   fullName: SuperOffice.CRM.ActivityStatusHelper
 - uid: SuperOffice.CRM.ModuleLicenceProvider
   commentId: T:SuperOffice.CRM.ModuleLicenceProvider
   isExternal: true
+  href: SuperOffice.CRM.ModuleLicenceProvider.html
   name: ModuleLicenceProvider
   nameWithType: ModuleLicenceProvider
   fullName: SuperOffice.CRM.ModuleLicenceProvider
+- uid: SuperOffice.CRM.XsrfHelper
+  commentId: T:SuperOffice.CRM.XsrfHelper
+  isExternal: true
+  href: SuperOffice.CRM.XsrfHelper.html
+  name: XsrfHelper
+  nameWithType: XsrfHelper
+  fullName: SuperOffice.CRM.XsrfHelper
 - uid: SuperOffice.CRM.ButtonBarConfigDialogDataHandler
   commentId: T:SuperOffice.CRM.ButtonBarConfigDialogDataHandler
   isExternal: true
+  href: SuperOffice.CRM.ButtonBarConfigDialogDataHandler.html
   name: ButtonBarConfigDialogDataHandler
   nameWithType: ButtonBarConfigDialogDataHandler
   fullName: SuperOffice.CRM.ButtonBarConfigDialogDataHandler
 - uid: SuperOffice.CRM.ICustomerServiceUrlResolver
   commentId: T:SuperOffice.CRM.ICustomerServiceUrlResolver
-  parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ICustomerServiceUrlResolver.html
   name: ICustomerServiceUrlResolver
   nameWithType: ICustomerServiceUrlResolver
   fullName: SuperOffice.CRM.ICustomerServiceUrlResolver
-- uid: SuperOffice.CRM.CustomerServiceUrlResolver
-  commentId: T:SuperOffice.CRM.CustomerServiceUrlResolver
-  isExternal: true
-  name: CustomerServiceUrlResolver
-  nameWithType: CustomerServiceUrlResolver
-  fullName: SuperOffice.CRM.CustomerServiceUrlResolver
 - uid: SuperOffice.CRM.CustomerService
   commentId: T:SuperOffice.CRM.CustomerService
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html
   name: CustomerService
   nameWithType: CustomerService
   fullName: SuperOffice.CRM.CustomerService
@@ -701,24 +1977,48 @@ references:
   commentId: T:SuperOffice.CRM.CustomerService.CsUrlType
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html
   name: CustomerService.CsUrlType
   nameWithType: CustomerService.CsUrlType
   fullName: SuperOffice.CRM.CustomerService.CsUrlType
+  spec.csharp:
+  - uid: SuperOffice.CRM.CustomerService
+    name: CustomerService
+    isExternal: true
+    href: SuperOffice.CRM.CustomerService.html
+  - name: .
+  - uid: SuperOffice.CRM.CustomerService.CsUrlType
+    name: CsUrlType
+    isExternal: true
+    href: SuperOffice.CRM.CustomerService.CsUrlType.html
+  spec.vb:
+  - uid: SuperOffice.CRM.CustomerService
+    name: CustomerService
+    isExternal: true
+    href: SuperOffice.CRM.CustomerService.html
+  - name: .
+  - uid: SuperOffice.CRM.CustomerService.CsUrlType
+    name: CsUrlType
+    isExternal: true
+    href: SuperOffice.CRM.CustomerService.CsUrlType.html
 - uid: SuperOffice.CRM.EventHandlerHelper
   commentId: T:SuperOffice.CRM.EventHandlerHelper
   isExternal: true
+  href: SuperOffice.CRM.EventHandlerHelper.html
   name: EventHandlerHelper
   nameWithType: EventHandlerHelper
   fullName: SuperOffice.CRM.EventHandlerHelper
 - uid: SuperOffice.CRM.FacadeHelper
   commentId: T:SuperOffice.CRM.FacadeHelper
   isExternal: true
+  href: SuperOffice.CRM.FacadeHelper.html
   name: FacadeHelper
   nameWithType: FacadeHelper
   fullName: SuperOffice.CRM.FacadeHelper
 - uid: SuperOffice.CRM.FilterDialogDataHandler
   commentId: T:SuperOffice.CRM.FilterDialogDataHandler
   isExternal: true
+  href: SuperOffice.CRM.FilterDialogDataHandler.html
   name: FilterDialogDataHandler
   nameWithType: FilterDialogDataHandler
   fullName: SuperOffice.CRM.FilterDialogDataHandler
@@ -726,36 +2026,129 @@ references:
   commentId: T:SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.FilterDialogDataHandler.html
   name: FilterDialogDataHandler.DefaultFilter
   nameWithType: FilterDialogDataHandler.DefaultFilter
   fullName: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
+  spec.csharp:
+  - uid: SuperOffice.CRM.FilterDialogDataHandler
+    name: FilterDialogDataHandler
+    isExternal: true
+    href: SuperOffice.CRM.FilterDialogDataHandler.html
+  - name: .
+  - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
+    name: DefaultFilter
+    isExternal: true
+    href: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.html
+  spec.vb:
+  - uid: SuperOffice.CRM.FilterDialogDataHandler
+    name: FilterDialogDataHandler
+    isExternal: true
+    href: SuperOffice.CRM.FilterDialogDataHandler.html
+  - name: .
+  - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
+    name: DefaultFilter
+    isExternal: true
+    href: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.html
 - uid: SuperOffice.CRM.DateTimeExtensions
   commentId: T:SuperOffice.CRM.DateTimeExtensions
   isExternal: true
+  href: SuperOffice.CRM.DateTimeExtensions.html
   name: DateTimeExtensions
   nameWithType: DateTimeExtensions
   fullName: SuperOffice.CRM.DateTimeExtensions
 - uid: SuperOffice.CRM.ListsHelper
   commentId: T:SuperOffice.CRM.ListsHelper
   isExternal: true
+  href: SuperOffice.CRM.ListsHelper.html
   name: ListsHelper
   nameWithType: ListsHelper
   fullName: SuperOffice.CRM.ListsHelper
+- uid: SuperOffice.CRM.ListsHelper.ListTableInfo
+  commentId: T:SuperOffice.CRM.ListsHelper.ListTableInfo
+  isExternal: true
+  href: SuperOffice.CRM.ListsHelper.html
+  name: ListsHelper.ListTableInfo
+  nameWithType: ListsHelper.ListTableInfo
+  fullName: SuperOffice.CRM.ListsHelper.ListTableInfo
+  spec.csharp:
+  - uid: SuperOffice.CRM.ListsHelper
+    name: ListsHelper
+    isExternal: true
+    href: SuperOffice.CRM.ListsHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.ListsHelper.ListTableInfo
+    name: ListTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.ListsHelper.ListTableInfo.html
+  spec.vb:
+  - uid: SuperOffice.CRM.ListsHelper
+    name: ListsHelper
+    isExternal: true
+    href: SuperOffice.CRM.ListsHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.ListsHelper.ListTableInfo
+    name: ListTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.ListsHelper.ListTableInfo.html
 - uid: SuperOffice.CRM.ListsHelper.ItemRow
   commentId: T:SuperOffice.CRM.ListsHelper.ItemRow
   isExternal: true
+  href: SuperOffice.CRM.ListsHelper.html
   name: ListsHelper.ItemRow
   nameWithType: ListsHelper.ItemRow
   fullName: SuperOffice.CRM.ListsHelper.ItemRow
+  spec.csharp:
+  - uid: SuperOffice.CRM.ListsHelper
+    name: ListsHelper
+    isExternal: true
+    href: SuperOffice.CRM.ListsHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.ListsHelper.ItemRow
+    name: ItemRow
+    isExternal: true
+    href: SuperOffice.CRM.ListsHelper.ItemRow.html
+  spec.vb:
+  - uid: SuperOffice.CRM.ListsHelper
+    name: ListsHelper
+    isExternal: true
+    href: SuperOffice.CRM.ListsHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.ListsHelper.ItemRow
+    name: ItemRow
+    isExternal: true
+    href: SuperOffice.CRM.ListsHelper.ItemRow.html
 - uid: SuperOffice.CRM.ListsHelper.SoListItemDistinctIdComparer
   commentId: T:SuperOffice.CRM.ListsHelper.SoListItemDistinctIdComparer
   isExternal: true
+  href: SuperOffice.CRM.ListsHelper.html
   name: ListsHelper.SoListItemDistinctIdComparer
   nameWithType: ListsHelper.SoListItemDistinctIdComparer
   fullName: SuperOffice.CRM.ListsHelper.SoListItemDistinctIdComparer
+  spec.csharp:
+  - uid: SuperOffice.CRM.ListsHelper
+    name: ListsHelper
+    isExternal: true
+    href: SuperOffice.CRM.ListsHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.ListsHelper.SoListItemDistinctIdComparer
+    name: SoListItemDistinctIdComparer
+    isExternal: true
+    href: SuperOffice.CRM.ListsHelper.SoListItemDistinctIdComparer.html
+  spec.vb:
+  - uid: SuperOffice.CRM.ListsHelper
+    name: ListsHelper
+    isExternal: true
+    href: SuperOffice.CRM.ListsHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.ListsHelper.SoListItemDistinctIdComparer
+    name: SoListItemDistinctIdComparer
+    isExternal: true
+    href: SuperOffice.CRM.ListsHelper.SoListItemDistinctIdComparer.html
 - uid: SuperOffice.CRM.NetServices
   commentId: T:SuperOffice.CRM.NetServices
   isExternal: true
+  href: SuperOffice.CRM.NetServices.html
   name: NetServices
   nameWithType: NetServices
   fullName: SuperOffice.CRM.NetServices
@@ -763,48 +2156,57 @@ references:
   commentId: T:SuperOffice.CRM.NextDateBase
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.NextDateBase.html
   name: NextDateBase
   nameWithType: NextDateBase
   fullName: SuperOffice.CRM.NextDateBase
 - uid: SuperOffice.CRM.NextMilestone
   commentId: T:SuperOffice.CRM.NextMilestone
   isExternal: true
+  href: SuperOffice.CRM.NextMilestone.html
   name: NextMilestone
   nameWithType: NextMilestone
   fullName: SuperOffice.CRM.NextMilestone
 - uid: SuperOffice.CRM.NextMilestoneDateInfo
   commentId: T:SuperOffice.CRM.NextMilestoneDateInfo
   isExternal: true
+  href: SuperOffice.CRM.NextMilestoneDateInfo.html
   name: NextMilestoneDateInfo
   nameWithType: NextMilestoneDateInfo
   fullName: SuperOffice.CRM.NextMilestoneDateInfo
 - uid: SuperOffice.CRM.ProjectGuideUtility
   commentId: T:SuperOffice.CRM.ProjectGuideUtility
   isExternal: true
+  href: SuperOffice.CRM.ProjectGuideUtility.html
   name: ProjectGuideUtility
   nameWithType: ProjectGuideUtility
   fullName: SuperOffice.CRM.ProjectGuideUtility
 - uid: SuperOffice.CRM.RegistryExtensions
   commentId: T:SuperOffice.CRM.RegistryExtensions
+  parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.RegistryExtensions.html
   name: RegistryExtensions
   nameWithType: RegistryExtensions
   fullName: SuperOffice.CRM.RegistryExtensions
 - uid: SuperOffice.CRM.SaleFilterDialogDataHandler
   commentId: T:SuperOffice.CRM.SaleFilterDialogDataHandler
   isExternal: true
+  href: SuperOffice.CRM.SaleFilterDialogDataHandler.html
   name: SaleFilterDialogDataHandler
   nameWithType: SaleFilterDialogDataHandler
   fullName: SuperOffice.CRM.SaleFilterDialogDataHandler
 - uid: SuperOffice.CRM.NextDueDate
   commentId: T:SuperOffice.CRM.NextDueDate
   isExternal: true
+  href: SuperOffice.CRM.NextDueDate.html
   name: NextDueDate
   nameWithType: NextDueDate
   fullName: SuperOffice.CRM.NextDueDate
 - uid: SuperOffice.CRM.NextDueDateInfo
   commentId: T:SuperOffice.CRM.NextDueDateInfo
   isExternal: true
+  href: SuperOffice.CRM.NextDueDateInfo.html
   name: NextDueDateInfo
   nameWithType: NextDueDateInfo
   fullName: SuperOffice.CRM.NextDueDateInfo
@@ -812,50 +2214,43 @@ references:
   commentId: T:SuperOffice.CRM.QuoteConnection
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteConnection.html
   name: QuoteConnection
   nameWithType: QuoteConnection
   fullName: SuperOffice.CRM.QuoteConnection
 - uid: SuperOffice.CRM.QuoteConnectionManager
   commentId: T:SuperOffice.CRM.QuoteConnectionManager
-  parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteConnectionManager.html
   name: QuoteConnectionManager
   nameWithType: QuoteConnectionManager
   fullName: SuperOffice.CRM.QuoteConnectionManager
 - uid: SuperOffice.CRM.SaleGuideUtility
   commentId: T:SuperOffice.CRM.SaleGuideUtility
   isExternal: true
+  href: SuperOffice.CRM.SaleGuideUtility.html
   name: SaleGuideUtility
   nameWithType: SaleGuideUtility
   fullName: SuperOffice.CRM.SaleGuideUtility
 - uid: SuperOffice.CRM.TemporaryDbLock
   commentId: T:SuperOffice.CRM.TemporaryDbLock
   isExternal: true
+  href: SuperOffice.CRM.TemporaryDbLock.html
   name: TemporaryDbLock
   nameWithType: TemporaryDbLock
   fullName: SuperOffice.CRM.TemporaryDbLock
 - uid: SuperOffice.CRM.TemporaryKeyHelper
   commentId: T:SuperOffice.CRM.TemporaryKeyHelper
   isExternal: true
+  href: SuperOffice.CRM.TemporaryKeyHelper.html
   name: TemporaryKeyHelper
   nameWithType: TemporaryKeyHelper
   fullName: SuperOffice.CRM.TemporaryKeyHelper
-- uid: SuperOffice.CRM.TooltipHelper
-  commentId: T:SuperOffice.CRM.TooltipHelper
-  isExternal: true
-  name: TooltipHelper
-  nameWithType: TooltipHelper
-  fullName: SuperOffice.CRM.TooltipHelper
-- uid: SuperOffice.CRM.XsrfHelper
-  commentId: T:SuperOffice.CRM.XsrfHelper
-  isExternal: true
-  name: XsrfHelper
-  nameWithType: XsrfHelper
-  fullName: SuperOffice.CRM.XsrfHelper
 - uid: SuperOffice.CRM.AddressInfo
   commentId: T:SuperOffice.CRM.AddressInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.AddressInfo.html
   name: AddressInfo
   nameWithType: AddressInfo
   fullName: SuperOffice.CRM.AddressInfo
@@ -863,27 +2258,15 @@ references:
   commentId: T:SuperOffice.CRM.IAppointmentInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html
   name: IAppointmentInfo
   nameWithType: IAppointmentInfo
   fullName: SuperOffice.CRM.IAppointmentInfo
-- uid: SuperOffice.CRM.IAppointmentInfo2
-  commentId: T:SuperOffice.CRM.IAppointmentInfo2
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: IAppointmentInfo2
-  nameWithType: IAppointmentInfo2
-  fullName: SuperOffice.CRM.IAppointmentInfo2
-- uid: SuperOffice.CRM.IAppointmentInfo3
-  commentId: T:SuperOffice.CRM.IAppointmentInfo3
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: IAppointmentInfo3
-  nameWithType: IAppointmentInfo3
-  fullName: SuperOffice.CRM.IAppointmentInfo3
 - uid: SuperOffice.CRM.ConnectionConfigFieldInfo
   commentId: T:SuperOffice.CRM.ConnectionConfigFieldInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ConnectionConfigFieldInfo.html
   name: ConnectionConfigFieldInfo
   nameWithType: ConnectionConfigFieldInfo
   fullName: SuperOffice.CRM.ConnectionConfigFieldInfo
@@ -891,6 +2274,7 @@ references:
   commentId: T:SuperOffice.CRM.IContactInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IContactInfo.html
   name: IContactInfo
   nameWithType: IContactInfo
   fullName: SuperOffice.CRM.IContactInfo
@@ -898,6 +2282,7 @@ references:
   commentId: T:SuperOffice.CRM.IContactInfo2
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IContactInfo2.html
   name: IContactInfo2
   nameWithType: IContactInfo2
   fullName: SuperOffice.CRM.IContactInfo2
@@ -905,6 +2290,7 @@ references:
   commentId: T:SuperOffice.CRM.IContactInfo3
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IContactInfo3.html
   name: IContactInfo3
   nameWithType: IContactInfo3
   fullName: SuperOffice.CRM.IContactInfo3
@@ -912,6 +2298,7 @@ references:
   commentId: T:SuperOffice.CRM.IDocumentInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IDocumentInfo.html
   name: IDocumentInfo
   nameWithType: IDocumentInfo
   fullName: SuperOffice.CRM.IDocumentInfo
@@ -919,6 +2306,7 @@ references:
   commentId: T:SuperOffice.CRM.IDocumentInfo2
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IDocumentInfo2.html
   name: IDocumentInfo2
   nameWithType: IDocumentInfo2
   fullName: SuperOffice.CRM.IDocumentInfo2
@@ -926,6 +2314,7 @@ references:
   commentId: T:SuperOffice.CRM.IDocumentTemplateInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IDocumentTemplateInfo.html
   name: IDocumentTemplateInfo
   nameWithType: IDocumentTemplateInfo
   fullName: SuperOffice.CRM.IDocumentTemplateInfo
@@ -933,6 +2322,7 @@ references:
   commentId: T:SuperOffice.CRM.ActorPluginResponse
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ActorPluginResponse.html
   name: ActorPluginResponse
   nameWithType: ActorPluginResponse
   fullName: SuperOffice.CRM.ActorPluginResponse
@@ -940,6 +2330,7 @@ references:
   commentId: T:SuperOffice.CRM.ActorArrayPluginResponse
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ActorArrayPluginResponse.html
   name: ActorArrayPluginResponse
   nameWithType: ActorArrayPluginResponse
   fullName: SuperOffice.CRM.ActorArrayPluginResponse
@@ -947,6 +2338,7 @@ references:
   commentId: T:SuperOffice.CRM.ListItemArrayPluginResponse
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ListItemArrayPluginResponse.html
   name: ListItemArrayPluginResponse
   nameWithType: ListItemArrayPluginResponse
   fullName: SuperOffice.CRM.ListItemArrayPluginResponse
@@ -954,6 +2346,7 @@ references:
   commentId: T:SuperOffice.CRM.StringArrayPluginResponse
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.StringArrayPluginResponse.html
   name: StringArrayPluginResponse
   nameWithType: StringArrayPluginResponse
   fullName: SuperOffice.CRM.StringArrayPluginResponse
@@ -961,6 +2354,7 @@ references:
   commentId: T:SuperOffice.CRM.FieldMetadataInfoArrayPluginResponse
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.FieldMetadataInfoArrayPluginResponse.html
   name: FieldMetadataInfoArrayPluginResponse
   nameWithType: FieldMetadataInfoArrayPluginResponse
   fullName: SuperOffice.CRM.FieldMetadataInfoArrayPluginResponse
@@ -968,12 +2362,14 @@ references:
   commentId: T:SuperOffice.CRM.ErpActor
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ErpActor.html
   name: ErpActor
   nameWithType: ErpActor
   fullName: SuperOffice.CRM.ErpActor
 - uid: SuperOffice.CRM.ErpConnectorAttribute
   commentId: T:SuperOffice.CRM.ErpConnectorAttribute
   isExternal: true
+  href: SuperOffice.CRM.ErpConnectorAttribute.html
   name: ErpConnectorAttribute
   nameWithType: ErpConnectorAttribute
   fullName: SuperOffice.CRM.ErpConnectorAttribute
@@ -981,6 +2377,7 @@ references:
   commentId: T:SuperOffice.CRM.IErpConnector
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IErpConnector.html
   name: IErpConnector
   nameWithType: IErpConnector
   fullName: SuperOffice.CRM.IErpConnector
@@ -988,6 +2385,7 @@ references:
   commentId: T:SuperOffice.CRM.FieldMetadataTypeInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.FieldMetadataTypeInfo.html
   name: FieldMetadataTypeInfo
   nameWithType: FieldMetadataTypeInfo
   fullName: SuperOffice.CRM.FieldMetadataTypeInfo
@@ -995,6 +2393,7 @@ references:
   commentId: T:SuperOffice.CRM.FieldAccessInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.FieldAccessInfo.html
   name: FieldAccessInfo
   nameWithType: FieldAccessInfo
   fullName: SuperOffice.CRM.FieldAccessInfo
@@ -1002,12 +2401,14 @@ references:
   commentId: T:SuperOffice.CRM.FieldMetadataInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.FieldMetadataInfo.html
   name: FieldMetadataInfo
   nameWithType: FieldMetadataInfo
   fullName: SuperOffice.CRM.FieldMetadataInfo
 - uid: SuperOffice.CRM.ForeignKeyInfo
   commentId: T:SuperOffice.CRM.ForeignKeyInfo
   isExternal: true
+  href: SuperOffice.CRM.ForeignKeyInfo.html
   name: ForeignKeyInfo
   nameWithType: ForeignKeyInfo
   fullName: SuperOffice.CRM.ForeignKeyInfo
@@ -1015,6 +2416,7 @@ references:
   commentId: T:SuperOffice.CRM.IConfiguration
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IConfiguration.html
   name: IConfiguration
   nameWithType: IConfiguration
   fullName: SuperOffice.CRM.IConfiguration
@@ -1022,6 +2424,7 @@ references:
   commentId: T:SuperOffice.CRM.ProgressStepCallback
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ProgressStepCallback.html
   name: ProgressStepCallback
   nameWithType: ProgressStepCallback
   fullName: SuperOffice.CRM.ProgressStepCallback
@@ -1029,12 +2432,14 @@ references:
   commentId: T:SuperOffice.CRM.ProgressEstimateCallback
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ProgressEstimateCallback.html
   name: ProgressEstimateCallback
   nameWithType: ProgressEstimateCallback
   fullName: SuperOffice.CRM.ProgressEstimateCallback
 - uid: SuperOffice.CRM.ProgressTextCallback
   commentId: T:SuperOffice.CRM.ProgressTextCallback
   isExternal: true
+  href: SuperOffice.CRM.ProgressTextCallback.html
   name: ProgressTextCallback
   nameWithType: ProgressTextCallback
   fullName: SuperOffice.CRM.ProgressTextCallback
@@ -1042,6 +2447,7 @@ references:
   commentId: T:SuperOffice.CRM.IUserInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IUserInfo.html
   name: IUserInfo
   nameWithType: IUserInfo
   fullName: SuperOffice.CRM.IUserInfo
@@ -1049,12 +2455,14 @@ references:
   commentId: T:SuperOffice.CRM.IUserInfo2
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IUserInfo2.html
   name: IUserInfo2
   nameWithType: IUserInfo2
   fullName: SuperOffice.CRM.IUserInfo2
 - uid: SuperOffice.CRM.ListItemInfo
   commentId: T:SuperOffice.CRM.ListItemInfo
   isExternal: true
+  href: SuperOffice.CRM.ListItemInfo.html
   name: ListItemInfo
   nameWithType: ListItemInfo
   fullName: SuperOffice.CRM.ListItemInfo
@@ -1062,6 +2470,7 @@ references:
   commentId: T:SuperOffice.CRM.IPersonInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IPersonInfo.html
   name: IPersonInfo
   nameWithType: IPersonInfo
   fullName: SuperOffice.CRM.IPersonInfo
@@ -1069,6 +2478,7 @@ references:
   commentId: T:SuperOffice.CRM.IPersonInfo2
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IPersonInfo2.html
   name: IPersonInfo2
   nameWithType: IPersonInfo2
   fullName: SuperOffice.CRM.IPersonInfo2
@@ -1076,6 +2486,7 @@ references:
   commentId: T:SuperOffice.CRM.IPersonInfo3
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IPersonInfo3.html
   name: IPersonInfo3
   nameWithType: IPersonInfo3
   fullName: SuperOffice.CRM.IPersonInfo3
@@ -1083,6 +2494,7 @@ references:
   commentId: T:SuperOffice.CRM.IPersonInfo4
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IPersonInfo4.html
   name: IPersonInfo4
   nameWithType: IPersonInfo4
   fullName: SuperOffice.CRM.IPersonInfo4
@@ -1090,6 +2502,7 @@ references:
   commentId: T:SuperOffice.CRM.IProjectInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo.html
   name: IProjectInfo
   nameWithType: IProjectInfo
   fullName: SuperOffice.CRM.IProjectInfo
@@ -1097,6 +2510,7 @@ references:
   commentId: T:SuperOffice.CRM.IProjectInfo2
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo2.html
   name: IProjectInfo2
   nameWithType: IProjectInfo2
   fullName: SuperOffice.CRM.IProjectInfo2
@@ -1104,13 +2518,14 @@ references:
   commentId: T:SuperOffice.CRM.IProjectInfo3
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IProjectInfo3.html
   name: IProjectInfo3
   nameWithType: IProjectInfo3
   fullName: SuperOffice.CRM.IProjectInfo3
 - uid: SuperOffice.CRM.QuoteVersionStatusInfo
   commentId: T:SuperOffice.CRM.QuoteVersionStatusInfo
-  parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteVersionStatusInfo.html
   name: QuoteVersionStatusInfo
   nameWithType: QuoteVersionStatusInfo
   fullName: SuperOffice.CRM.QuoteVersionStatusInfo
@@ -1118,6 +2533,7 @@ references:
   commentId: T:SuperOffice.CRM.ResponseState
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ResponseState.html
   name: ResponseState
   nameWithType: ResponseState
   fullName: SuperOffice.CRM.ResponseState
@@ -1125,13 +2541,14 @@ references:
   commentId: T:SuperOffice.CRM.PluginResponseInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.PluginResponseInfo.html
   name: PluginResponseInfo
   nameWithType: PluginResponseInfo
   fullName: SuperOffice.CRM.PluginResponseInfo
 - uid: SuperOffice.CRM.ApproveRejectResponseInfo
   commentId: T:SuperOffice.CRM.ApproveRejectResponseInfo
-  parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ApproveRejectResponseInfo.html
   name: ApproveRejectResponseInfo
   nameWithType: ApproveRejectResponseInfo
   fullName: SuperOffice.CRM.ApproveRejectResponseInfo
@@ -1139,6 +2556,7 @@ references:
   commentId: T:SuperOffice.CRM.ReturnType
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ReturnType.html
   name: ReturnType
   nameWithType: ReturnType
   fullName: SuperOffice.CRM.ReturnType
@@ -1146,6 +2564,7 @@ references:
   commentId: T:SuperOffice.CRM.ReturnInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ReturnInfo.html
   name: ReturnInfo
   nameWithType: ReturnInfo
   fullName: SuperOffice.CRM.ReturnInfo
@@ -1153,6 +2572,7 @@ references:
   commentId: T:SuperOffice.CRM.ISaleInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ISaleInfo.html
   name: ISaleInfo
   nameWithType: ISaleInfo
   fullName: SuperOffice.CRM.ISaleInfo
@@ -1160,6 +2580,7 @@ references:
   commentId: T:SuperOffice.CRM.ISaleInfo2
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ISaleInfo2.html
   name: ISaleInfo2
   nameWithType: ISaleInfo2
   fullName: SuperOffice.CRM.ISaleInfo2
@@ -1167,18 +2588,21 @@ references:
   commentId: T:SuperOffice.CRM.ISaleInfo3
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ISaleInfo3.html
   name: ISaleInfo3
   nameWithType: ISaleInfo3
   fullName: SuperOffice.CRM.ISaleInfo3
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities
   commentId: T:SuperOffice.CRM.CRMQuoteConnectorCapabilities
   isExternal: true
+  href: SuperOffice.CRM.CRMQuoteConnectorCapabilities.html
   name: CRMQuoteConnectorCapabilities
   nameWithType: CRMQuoteConnectorCapabilities
   fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities
 - uid: SuperOffice.CRM.CRMQuoteConnectorLists
   commentId: T:SuperOffice.CRM.CRMQuoteConnectorLists
   isExternal: true
+  href: SuperOffice.CRM.CRMQuoteConnectorLists.html
   name: CRMQuoteConnectorLists
   nameWithType: CRMQuoteConnectorLists
   fullName: SuperOffice.CRM.CRMQuoteConnectorLists
@@ -1186,6 +2610,7 @@ references:
   commentId: T:SuperOffice.CRM.QuoteAction
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteAction.html
   name: QuoteAction
   nameWithType: QuoteAction
   fullName: SuperOffice.CRM.QuoteAction
@@ -1193,12 +2618,14 @@ references:
   commentId: T:SuperOffice.CRM.IQuoteConnector
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IQuoteConnector.html
   name: IQuoteConnector
   nameWithType: IQuoteConnector
   fullName: SuperOffice.CRM.IQuoteConnector
 - uid: SuperOffice.CRM.InMemoryProductProvider
   commentId: T:SuperOffice.CRM.InMemoryProductProvider
   isExternal: true
+  href: SuperOffice.CRM.InMemoryProductProvider.html
   name: InMemoryProductProvider
   nameWithType: InMemoryProductProvider
   fullName: SuperOffice.CRM.InMemoryProductProvider
@@ -1206,6 +2633,7 @@ references:
   commentId: T:SuperOffice.CRM.OrderResponseInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.OrderResponseInfo.html
   name: OrderResponseInfo
   nameWithType: OrderResponseInfo
   fullName: SuperOffice.CRM.OrderResponseInfo
@@ -1213,6 +2641,7 @@ references:
   commentId: T:SuperOffice.CRM.PlaceOrderResponseInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.PlaceOrderResponseInfo.html
   name: PlaceOrderResponseInfo
   nameWithType: PlaceOrderResponseInfo
   fullName: SuperOffice.CRM.PlaceOrderResponseInfo
@@ -1220,6 +2649,7 @@ references:
   commentId: T:SuperOffice.CRM.QuoteSentResponseInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteSentResponseInfo.html
   name: QuoteSentResponseInfo
   nameWithType: QuoteSentResponseInfo
   fullName: SuperOffice.CRM.QuoteSentResponseInfo
@@ -1227,6 +2657,7 @@ references:
   commentId: T:SuperOffice.CRM.IProductRegisterCache
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IProductRegisterCache.html
   name: IProductRegisterCache
   nameWithType: IProductRegisterCache
   fullName: SuperOffice.CRM.IProductRegisterCache
@@ -1234,12 +2665,14 @@ references:
   commentId: T:SuperOffice.CRM.IQuoteConnector2
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IQuoteConnector2.html
   name: IQuoteConnector2
   nameWithType: IQuoteConnector2
   fullName: SuperOffice.CRM.IQuoteConnector2
 - uid: SuperOffice.CRM.QuoteConnectorAttribute
   commentId: T:SuperOffice.CRM.QuoteConnectorAttribute
   isExternal: true
+  href: SuperOffice.CRM.QuoteConnectorAttribute.html
   name: QuoteConnectorAttribute
   nameWithType: QuoteConnectorAttribute
   fullName: SuperOffice.CRM.QuoteConnectorAttribute
@@ -1247,6 +2680,7 @@ references:
   commentId: T:SuperOffice.CRM.PriceListInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.PriceListInfo.html
   name: PriceListInfo
   nameWithType: PriceListInfo
   fullName: SuperOffice.CRM.PriceListInfo
@@ -1254,12 +2688,14 @@ references:
   commentId: T:SuperOffice.CRM.ExtraDataFieldTypeInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ExtraDataFieldTypeInfo.html
   name: ExtraDataFieldTypeInfo
   nameWithType: ExtraDataFieldTypeInfo
   fullName: SuperOffice.CRM.ExtraDataFieldTypeInfo
 - uid: SuperOffice.CRM.ProductExtraDataFieldInfo
   commentId: T:SuperOffice.CRM.ProductExtraDataFieldInfo
   isExternal: true
+  href: SuperOffice.CRM.ProductExtraDataFieldInfo.html
   name: ProductExtraDataFieldInfo
   nameWithType: ProductExtraDataFieldInfo
   fullName: SuperOffice.CRM.ProductExtraDataFieldInfo
@@ -1267,6 +2703,7 @@ references:
   commentId: T:SuperOffice.CRM.ProductDataInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ProductDataInfo.html
   name: ProductDataInfo
   nameWithType: ProductDataInfo
   fullName: SuperOffice.CRM.ProductDataInfo
@@ -1274,6 +2711,7 @@ references:
   commentId: T:SuperOffice.CRM.ProductInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ProductInfo.html
   name: ProductInfo
   nameWithType: ProductInfo
   fullName: SuperOffice.CRM.ProductInfo
@@ -1281,13 +2719,14 @@ references:
   commentId: T:SuperOffice.CRM.QuoteAlternativeInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteAlternativeInfo.html
   name: QuoteAlternativeInfo
   nameWithType: QuoteAlternativeInfo
   fullName: SuperOffice.CRM.QuoteAlternativeInfo
 - uid: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo
   commentId: T:SuperOffice.CRM.QuoteAlternativeRecalculatedInfo
-  parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo.html
   name: QuoteAlternativeRecalculatedInfo
   nameWithType: QuoteAlternativeRecalculatedInfo
   fullName: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo
@@ -1295,12 +2734,14 @@ references:
   commentId: T:SuperOffice.CRM.QuoteAlternativeResponseInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteAlternativeResponseInfo.html
   name: QuoteAlternativeResponseInfo
   nameWithType: QuoteAlternativeResponseInfo
   fullName: SuperOffice.CRM.QuoteAlternativeResponseInfo
 - uid: SuperOffice.CRM.QuoteCalculation
   commentId: T:SuperOffice.CRM.QuoteCalculation
   isExternal: true
+  href: SuperOffice.CRM.QuoteCalculation.html
   name: QuoteCalculation
   nameWithType: QuoteCalculation
   fullName: SuperOffice.CRM.QuoteCalculation
@@ -1308,24 +2749,48 @@ references:
   commentId: T:SuperOffice.CRM.QuoteConnectionInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteConnectionInfo.html
   name: QuoteConnectionInfo
   nameWithType: QuoteConnectionInfo
   fullName: SuperOffice.CRM.QuoteConnectionInfo
 - uid: SuperOffice.CRM.QuoteConnectorBase
   commentId: T:SuperOffice.CRM.QuoteConnectorBase
   isExternal: true
+  href: SuperOffice.CRM.QuoteConnectorBase.html
   name: QuoteConnectorBase
   nameWithType: QuoteConnectorBase
   fullName: SuperOffice.CRM.QuoteConnectorBase
 - uid: SuperOffice.CRM.QuoteConnectorBase.ConfigNames
   commentId: T:SuperOffice.CRM.QuoteConnectorBase.ConfigNames
   isExternal: true
+  href: SuperOffice.CRM.QuoteConnectorBase.html
   name: QuoteConnectorBase.ConfigNames
   nameWithType: QuoteConnectorBase.ConfigNames
   fullName: SuperOffice.CRM.QuoteConnectorBase.ConfigNames
+  spec.csharp:
+  - uid: SuperOffice.CRM.QuoteConnectorBase
+    name: QuoteConnectorBase
+    isExternal: true
+    href: SuperOffice.CRM.QuoteConnectorBase.html
+  - name: .
+  - uid: SuperOffice.CRM.QuoteConnectorBase.ConfigNames
+    name: ConfigNames
+    isExternal: true
+    href: SuperOffice.CRM.QuoteConnectorBase.ConfigNames.html
+  spec.vb:
+  - uid: SuperOffice.CRM.QuoteConnectorBase
+    name: QuoteConnectorBase
+    isExternal: true
+    href: SuperOffice.CRM.QuoteConnectorBase.html
+  - name: .
+  - uid: SuperOffice.CRM.QuoteConnectorBase.ConfigNames
+    name: ConfigNames
+    isExternal: true
+    href: SuperOffice.CRM.QuoteConnectorBase.ConfigNames.html
 - uid: SuperOffice.CRM.QuoteConnectorExtender
   commentId: T:SuperOffice.CRM.QuoteConnectorExtender
   isExternal: true
+  href: SuperOffice.CRM.QuoteConnectorExtender.html
   name: QuoteConnectorExtender
   nameWithType: QuoteConnectorExtender
   fullName: SuperOffice.CRM.QuoteConnectorExtender
@@ -1333,6 +2798,7 @@ references:
   commentId: T:SuperOffice.CRM.QuoteContextInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteContextInfo.html
   name: QuoteContextInfo
   nameWithType: QuoteContextInfo
   fullName: SuperOffice.CRM.QuoteContextInfo
@@ -1340,6 +2806,7 @@ references:
   commentId: T:SuperOffice.CRM.QuoteAlternativeContextInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteAlternativeContextInfo.html
   name: QuoteAlternativeContextInfo
   nameWithType: QuoteAlternativeContextInfo
   fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
@@ -1347,6 +2814,7 @@ references:
   commentId: T:SuperOffice.CRM.QuoteAlternativeWithLinesInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteAlternativeWithLinesInfo.html
   name: QuoteAlternativeWithLinesInfo
   nameWithType: QuoteAlternativeWithLinesInfo
   fullName: SuperOffice.CRM.QuoteAlternativeWithLinesInfo
@@ -1354,6 +2822,7 @@ references:
   commentId: T:SuperOffice.CRM.QuoteVersionContextInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteVersionContextInfo.html
   name: QuoteVersionContextInfo
   nameWithType: QuoteVersionContextInfo
   fullName: SuperOffice.CRM.QuoteVersionContextInfo
@@ -1361,6 +2830,7 @@ references:
   commentId: T:SuperOffice.CRM.QuoteInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteInfo.html
   name: QuoteInfo
   nameWithType: QuoteInfo
   fullName: SuperOffice.CRM.QuoteInfo
@@ -1368,6 +2838,7 @@ references:
   commentId: T:SuperOffice.CRM.QuoteLineInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteLineInfo.html
   name: QuoteLineInfo
   nameWithType: QuoteLineInfo
   fullName: SuperOffice.CRM.QuoteLineInfo
@@ -1375,6 +2846,7 @@ references:
   commentId: T:SuperOffice.CRM.QuoteResponseInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteResponseInfo.html
   name: QuoteResponseInfo
   nameWithType: QuoteResponseInfo
   fullName: SuperOffice.CRM.QuoteResponseInfo
@@ -1382,6 +2854,7 @@ references:
   commentId: T:SuperOffice.CRM.QuoteStatusInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteStatusInfo.html
   name: QuoteStatusInfo
   nameWithType: QuoteStatusInfo
   fullName: SuperOffice.CRM.QuoteStatusInfo
@@ -1389,12 +2862,14 @@ references:
   commentId: T:SuperOffice.CRM.QuoteVersionInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteVersionInfo.html
   name: QuoteVersionInfo
   nameWithType: QuoteVersionInfo
   fullName: SuperOffice.CRM.QuoteVersionInfo
 - uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
   commentId: T:SuperOffice.CRM.QuoteVersionRecalculatedInfo
   isExternal: true
+  href: SuperOffice.CRM.QuoteVersionRecalculatedInfo.html
   name: QuoteVersionRecalculatedInfo
   nameWithType: QuoteVersionRecalculatedInfo
   fullName: SuperOffice.CRM.QuoteVersionRecalculatedInfo
@@ -1402,13 +2877,14 @@ references:
   commentId: T:SuperOffice.CRM.QuoteVersionResponseInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteVersionResponseInfo.html
   name: QuoteVersionResponseInfo
   nameWithType: QuoteVersionResponseInfo
   fullName: SuperOffice.CRM.QuoteVersionResponseInfo
 - uid: SuperOffice.CRM.QuoteVersionValidatedInfo
   commentId: T:SuperOffice.CRM.QuoteVersionValidatedInfo
-  parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.QuoteVersionValidatedInfo.html
   name: QuoteVersionValidatedInfo
   nameWithType: QuoteVersionValidatedInfo
   fullName: SuperOffice.CRM.QuoteVersionValidatedInfo
@@ -1416,6 +2892,7 @@ references:
   commentId: T:SuperOffice.CRM.ValueOverrideInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ValueOverrideInfo.html
   name: ValueOverrideInfo
   nameWithType: ValueOverrideInfo
   fullName: SuperOffice.CRM.ValueOverrideInfo
@@ -1423,6 +2900,7 @@ references:
   commentId: T:SuperOffice.CRM.SearchRestrictionInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.SearchRestrictionInfo.html
   name: SearchRestrictionInfo
   nameWithType: SearchRestrictionInfo
   fullName: SuperOffice.CRM.SearchRestrictionInfo
@@ -1430,6 +2908,7 @@ references:
   commentId: T:SuperOffice.CRM.ISelectionInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.ISelectionInfo.html
   name: ISelectionInfo
   nameWithType: ISelectionInfo
   fullName: SuperOffice.CRM.ISelectionInfo
@@ -1437,18 +2916,41 @@ references:
   commentId: T:SuperOffice.CRM.UserInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.UserInfo.html
   name: UserInfo
   nameWithType: UserInfo
   fullName: SuperOffice.CRM.UserInfo
 - uid: SuperOffice.CRM.UserInfo2
   commentId: T:SuperOffice.CRM.UserInfo2
   isExternal: true
+  href: SuperOffice.CRM.UserInfo2.html
   name: UserInfo2
   nameWithType: UserInfo2
   fullName: SuperOffice.CRM.UserInfo2
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html

@@ -6,12 +6,12 @@ items:
   parent: SuperOffice.CRM.Security
   children:
   - SuperOffice.CRM.Security.Sentry.DataRightCache.#ctor
-  - SuperOffice.CRM.Security.Sentry.DataRightCache.GetCurrent
   - SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight(System.Int32,SuperOffice.CRM.Security.EOwnershipIndex)
   - SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight(System.Int32,System.Int32,SuperOffice.CRM.Security.EOwnershipIndex)
   - SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead(System.Int32,SuperOffice.CRM.Security.EOwnershipIndex[])
   - SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead(System.Int32,System.Int32,SuperOffice.CRM.Security.EOwnershipIndex[])
   - SuperOffice.CRM.Security.Sentry.DataRightCache.OnLoad
+  - SuperOffice.CRM.Security.Sentry.DataRightCache.OnLoadAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Security.Sentry.DataRightCache.TableNames
   langs:
   - csharp
@@ -20,57 +20,48 @@ items:
   nameWithType: Sentry.DataRightCache
   fullName: SuperOffice.CRM.Security.Sentry.DataRightCache
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nCache holding data rights on different tables.  This should only be used internally by the sentries\n"
+  summary: Cache holding data rights on different tables.  This should only be used internally by the sentries
+  example: []
   syntax:
     content: >-
-      [CacheV2("Database", 0)]
+      [CacheV2(0)]
 
-      protected class DataRightCache : CacheBaseV2, IFlushableV2, IDisposable
+      protected class Sentry.DataRightCache : CacheBaseV2
     content.vb: >-
-      <CacheV2("Database", 0)>
+      <CacheV2(0)>
 
-      Protected Class DataRightCache
-          Inherits CacheBaseV2
-          Implements IFlushableV2, IDisposable
+      Protected Class Sentry.DataRightCache Inherits CacheBaseV2
   inheritance:
   - System.Object
   - SuperOffice.Data.Cache.CacheBaseV2
-  implements:
-  - SuperOffice.Data.Cache.IFlushableV2
-  - System.IDisposable
   inheritedMembers:
-  - SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
-  - SuperOffice.Data.Cache.CacheBaseV2.Dispose
-  - SuperOffice.Data.Cache.CacheBaseV2.Flush
+  - SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+  - SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
   - SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
-  - SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+  - SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.Cache.CacheBaseV2.Load
   - SuperOffice.Data.Cache.CacheBaseV2.Disposed
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Security.Sentry.DataRightCache.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Security.Sentry.DataRightCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Security.Sentry.DataRightCache.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.Sentry.DataRightCache)
   - SuperOffice.CRM.Security.Sentry.DataRightCache.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Security.Sentry.DataRightCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.Data.Cache.CacheV2Attribute
-    ctor: SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.String,System.Int32)
+    ctor: SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.Int32)
     arguments:
-    - type: System.String
-      value: Database
     - type: System.Int32
       value: 0
-  modifiers.csharp:
-  - protected
-  - class
-  modifiers.vb:
-  - Protected
-  - Class
 - uid: SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight(System.Int32,SuperOffice.CRM.Security.EOwnershipIndex)
   commentId: M:SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight(System.Int32,SuperOffice.CRM.Security.EOwnershipIndex)
   id: GetTableRight(System.Int32,SuperOffice.CRM.Security.EOwnershipIndex)
@@ -78,17 +69,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetTableRight(Int32, EOwnershipIndex)
-  nameWithType: Sentry.DataRightCache.GetTableRight(Int32, EOwnershipIndex)
-  fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight(System.Int32, SuperOffice.CRM.Security.EOwnershipIndex)
+  name: GetTableRight(int, EOwnershipIndex)
+  nameWithType: Sentry.DataRightCache.GetTableRight(int, EOwnershipIndex)
+  fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight(int, SuperOffice.CRM.Security.EOwnershipIndex)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nGet the <xref href=\"SuperOffice.Data.ETableRight\" data-throw-if-not-resolved=\"false\"></xref> for the logged on user.\n"
+  summary: Get the <xref href="SuperOffice.Data.ETableRight" data-throw-if-not-resolved="false"></xref> for the logged on user.
+  example: []
   syntax:
     content: public ETableRight GetTableRight(int tableNumber, EOwnershipIndex relation)
     parameters:
@@ -103,10 +92,9 @@ items:
       description: Rights on the table.
     content.vb: Public Function GetTableRight(tableNumber As Integer, relation As EOwnershipIndex) As ETableRight
   overload: SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: Sentry.DataRightCache.GetTableRight(Integer, EOwnershipIndex)
+  fullName.vb: SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight(Integer, SuperOffice.CRM.Security.EOwnershipIndex)
+  name.vb: GetTableRight(Integer, EOwnershipIndex)
 - uid: SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight(System.Int32,System.Int32,SuperOffice.CRM.Security.EOwnershipIndex)
   commentId: M:SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight(System.Int32,System.Int32,SuperOffice.CRM.Security.EOwnershipIndex)
   id: GetTableRight(System.Int32,System.Int32,SuperOffice.CRM.Security.EOwnershipIndex)
@@ -114,17 +102,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetTableRight(Int32, Int32, EOwnershipIndex)
-  nameWithType: Sentry.DataRightCache.GetTableRight(Int32, Int32, EOwnershipIndex)
-  fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight(System.Int32, System.Int32, SuperOffice.CRM.Security.EOwnershipIndex)
+  name: GetTableRight(int, int, EOwnershipIndex)
+  nameWithType: Sentry.DataRightCache.GetTableRight(int, int, EOwnershipIndex)
+  fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight(int, int, SuperOffice.CRM.Security.EOwnershipIndex)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nGet the <xref href=\"SuperOffice.Data.ETableRight\" data-throw-if-not-resolved=\"false\"></xref> for a user in a role.\n"
+  summary: Get the <xref href="SuperOffice.Data.ETableRight" data-throw-if-not-resolved="false"></xref> for a user in a role.
+  example: []
   syntax:
     content: public ETableRight GetTableRight(int roleId, int tableNumber, EOwnershipIndex relation)
     parameters:
@@ -142,10 +128,9 @@ items:
       description: Rights on the table.
     content.vb: Public Function GetTableRight(roleId As Integer, tableNumber As Integer, relation As EOwnershipIndex) As ETableRight
   overload: SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: Sentry.DataRightCache.GetTableRight(Integer, Integer, EOwnershipIndex)
+  fullName.vb: SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight(Integer, Integer, SuperOffice.CRM.Security.EOwnershipIndex)
+  name.vb: GetTableRight(Integer, Integer, EOwnershipIndex)
 - uid: SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead(System.Int32,SuperOffice.CRM.Security.EOwnershipIndex[])
   commentId: M:SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead(System.Int32,SuperOffice.CRM.Security.EOwnershipIndex[])
   id: HasAtLeastRead(System.Int32,SuperOffice.CRM.Security.EOwnershipIndex[])
@@ -153,17 +138,15 @@ items:
   langs:
   - csharp
   - vb
-  name: HasAtLeastRead(Int32, EOwnershipIndex[])
-  nameWithType: Sentry.DataRightCache.HasAtLeastRead(Int32, EOwnershipIndex[])
-  fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead(System.Int32, SuperOffice.CRM.Security.EOwnershipIndex[])
+  name: HasAtLeastRead(int, EOwnershipIndex[])
+  nameWithType: Sentry.DataRightCache.HasAtLeastRead(int, EOwnershipIndex[])
+  fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead(int, SuperOffice.CRM.Security.EOwnershipIndex[])
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nCheck if the logged on user har at least read <xref href=\"SuperOffice.Data.ETableRight\" data-throw-if-not-resolved=\"false\"></xref> for the given relations.\n"
+  summary: Check if the logged on user har at least read <xref href="SuperOffice.Data.ETableRight" data-throw-if-not-resolved="false"></xref> for the given relations.
+  example: []
   syntax:
     content: public bool HasAtLeastRead(int tableNumber, EOwnershipIndex[] relations)
     parameters:
@@ -178,13 +161,9 @@ items:
       description: true if read rights on the table for all given relations.
     content.vb: Public Function HasAtLeastRead(tableNumber As Integer, relations As EOwnershipIndex()) As Boolean
   overload: SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead*
-  nameWithType.vb: Sentry.DataRightCache.HasAtLeastRead(Int32, EOwnershipIndex())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead(System.Int32, SuperOffice.CRM.Security.EOwnershipIndex())
-  name.vb: HasAtLeastRead(Int32, EOwnershipIndex())
+  nameWithType.vb: Sentry.DataRightCache.HasAtLeastRead(Integer, EOwnershipIndex())
+  fullName.vb: SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead(Integer, SuperOffice.CRM.Security.EOwnershipIndex())
+  name.vb: HasAtLeastRead(Integer, EOwnershipIndex())
 - uid: SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead(System.Int32,System.Int32,SuperOffice.CRM.Security.EOwnershipIndex[])
   commentId: M:SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead(System.Int32,System.Int32,SuperOffice.CRM.Security.EOwnershipIndex[])
   id: HasAtLeastRead(System.Int32,System.Int32,SuperOffice.CRM.Security.EOwnershipIndex[])
@@ -192,17 +171,15 @@ items:
   langs:
   - csharp
   - vb
-  name: HasAtLeastRead(Int32, Int32, EOwnershipIndex[])
-  nameWithType: Sentry.DataRightCache.HasAtLeastRead(Int32, Int32, EOwnershipIndex[])
-  fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead(System.Int32, System.Int32, SuperOffice.CRM.Security.EOwnershipIndex[])
+  name: HasAtLeastRead(int, int, EOwnershipIndex[])
+  nameWithType: Sentry.DataRightCache.HasAtLeastRead(int, int, EOwnershipIndex[])
+  fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead(int, int, SuperOffice.CRM.Security.EOwnershipIndex[])
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nCheck if the given user har at least read <xref href=\"SuperOffice.Data.ETableRight\" data-throw-if-not-resolved=\"false\"></xref> for the given relations.\n"
+  summary: Check if the given user har at least read <xref href="SuperOffice.Data.ETableRight" data-throw-if-not-resolved="false"></xref> for the given relations.
+  example: []
   syntax:
     content: public bool HasAtLeastRead(int roleId, int tableNumber, EOwnershipIndex[] relations)
     parameters:
@@ -219,13 +196,48 @@ items:
       description: true if at least read rights on the table for all given relations.
     content.vb: Public Function HasAtLeastRead(roleId As Integer, tableNumber As Integer, relations As EOwnershipIndex()) As Boolean
   overload: SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead*
-  nameWithType.vb: Sentry.DataRightCache.HasAtLeastRead(Int32, Int32, EOwnershipIndex())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead(System.Int32, System.Int32, SuperOffice.CRM.Security.EOwnershipIndex())
-  name.vb: HasAtLeastRead(Int32, Int32, EOwnershipIndex())
+  nameWithType.vb: Sentry.DataRightCache.HasAtLeastRead(Integer, Integer, EOwnershipIndex())
+  fullName.vb: SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead(Integer, Integer, SuperOffice.CRM.Security.EOwnershipIndex())
+  name.vb: HasAtLeastRead(Integer, Integer, EOwnershipIndex())
+- uid: SuperOffice.CRM.Security.Sentry.DataRightCache.OnLoadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Security.Sentry.DataRightCache.OnLoadAsync(System.Threading.CancellationToken)
+  id: OnLoadAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Security.Sentry.DataRightCache
+  langs:
+  - csharp
+  - vb
+  name: OnLoadAsync(CancellationToken)
+  nameWithType: Sentry.DataRightCache.OnLoadAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.OnLoadAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  example: []
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      protected override Task OnLoadAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Protected Overrides Function OnLoadAsync(cancellationToken As CancellationToken) As Task
+  overridden: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Security.Sentry.DataRightCache.OnLoadAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
 - uid: SuperOffice.CRM.Security.Sentry.DataRightCache.OnLoad
   commentId: M:SuperOffice.CRM.Security.Sentry.DataRightCache.OnLoad
   id: OnLoad
@@ -237,52 +249,15 @@ items:
   nameWithType: Sentry.DataRightCache.OnLoad()
   fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.OnLoad()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
+  example: []
   syntax:
     content: protected override void OnLoad()
-    content.vb: Protected Overrides Sub OnLoad
+    content.vb: Protected Overrides Sub OnLoad()
   overridden: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
   overload: SuperOffice.CRM.Security.Sentry.DataRightCache.OnLoad*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
-- uid: SuperOffice.CRM.Security.Sentry.DataRightCache.GetCurrent
-  commentId: M:SuperOffice.CRM.Security.Sentry.DataRightCache.GetCurrent
-  id: GetCurrent
-  parent: SuperOffice.CRM.Security.Sentry.DataRightCache
-  langs:
-  - csharp
-  - vb
-  name: GetCurrent()
-  nameWithType: Sentry.DataRightCache.GetCurrent()
-  fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.GetCurrent()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Security
-  syntax:
-    content: public static Sentry.DataRightCache GetCurrent()
-    return:
-      type: SuperOffice.CRM.Security.Sentry.DataRightCache
-    content.vb: Public Shared Function GetCurrent As Sentry.DataRightCache
-  overload: SuperOffice.CRM.Security.Sentry.DataRightCache.GetCurrent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Security.Sentry.DataRightCache.#ctor
   commentId: M:SuperOffice.CRM.Security.Sentry.DataRightCache.#ctor
   id: '#ctor'
@@ -294,20 +269,16 @@ items:
   nameWithType: Sentry.DataRightCache.DataRightCache()
   fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.DataRightCache()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public DataRightCache()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Security.Sentry.DataRightCache.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: Sentry.DataRightCache.New()
+  fullName.vb: SuperOffice.CRM.Security.Sentry.DataRightCache.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Security.Sentry.DataRightCache.TableNames
   commentId: P:SuperOffice.CRM.Security.Sentry.DataRightCache.TableNames
   id: TableNames
@@ -319,12 +290,14 @@ items:
   nameWithType: Sentry.DataRightCache.TableNames
   fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.TableNames
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
+  summary: >-
+    Gets the names of the table data that are cached in this cache. When these tables are updated
+
+    the cache will be disposed so a new cache instance can take its place.
+  example: []
   syntax:
     content: protected override IEnumerable<string> TableNames { get; }
     parameters: []
@@ -333,446 +306,715 @@ items:
     content.vb: Protected Overrides ReadOnly Property TableNames As IEnumerable(Of String)
   overridden: SuperOffice.Data.Cache.CacheBaseV2.TableNames
   overload: SuperOffice.CRM.Security.Sentry.DataRightCache.TableNames*
-  modifiers.csharp:
-  - protected
-  - override
-  - get
-  modifiers.vb:
-  - Protected
-  - Overrides
-  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.CRM.Security.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.CRM.Security.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.Data.Cache.CacheBaseV2
   commentId: T:SuperOffice.Data.Cache.CacheBaseV2
   parent: SuperOffice.Data.Cache
   isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html
   name: CacheBaseV2
   nameWithType: CacheBaseV2
   fullName: SuperOffice.Data.Cache.CacheBaseV2
-- uid: SuperOffice.Data.Cache.IFlushableV2
-  commentId: T:SuperOffice.Data.Cache.IFlushableV2
-  parent: SuperOffice.Data.Cache
-  isExternal: true
-  name: IFlushableV2
-  nameWithType: IFlushableV2
-  fullName: SuperOffice.Data.Cache.IFlushableV2
-- uid: System.IDisposable
-  isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
-- uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+- uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: IsCacheInvalidated(String, Int32, PrivateSave)
-  nameWithType: CacheBaseV2.IsCacheInvalidated(String, Int32, PrivateSave)
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String, System.Int32, SuperOffice.Data.SQL.PrivateSave)
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_IsCacheInvalidatedAsync_System_String_System_Int32_SuperOffice_Data_SQL_PrivateSave_System_Threading_CancellationToken_
+  name: IsCacheInvalidatedAsync(string, int, PrivateSave, CancellationToken)
+  nameWithType: CacheBaseV2.IsCacheInvalidatedAsync(string, int, PrivateSave, CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(string, int, SuperOffice.Data.SQL.PrivateSave, System.Threading.CancellationToken)
+  nameWithType.vb: CacheBaseV2.IsCacheInvalidatedAsync(String, Integer, PrivateSave, CancellationToken)
+  fullName.vb: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(String, Integer, SuperOffice.Data.SQL.PrivateSave, System.Threading.CancellationToken)
+  name.vb: IsCacheInvalidatedAsync(String, Integer, PrivateSave, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
-    name: IsCacheInvalidated
-    nameWithType: CacheBaseV2.IsCacheInvalidated
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+    name: IsCacheInvalidatedAsync
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_IsCacheInvalidatedAsync_System_String_System_Int32_SuperOffice_Data_SQL_PrivateSave_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.SQL.PrivateSave
     name: PrivateSave
-    nameWithType: PrivateSave
-    fullName: SuperOffice.Data.SQL.PrivateSave
     isExternal: true
+    href: SuperOffice.Data.SQL.PrivateSave.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
-    name: IsCacheInvalidated
-    nameWithType: CacheBaseV2.IsCacheInvalidated
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+    name: IsCacheInvalidatedAsync
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_IsCacheInvalidatedAsync_System_String_System_Int32_SuperOffice_Data_SQL_PrivateSave_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.SQL.PrivateSave
     name: PrivateSave
-    nameWithType: PrivateSave
-    fullName: SuperOffice.Data.SQL.PrivateSave
     isExternal: true
+    href: SuperOffice.Data.SQL.PrivateSave.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Dispose
+- uid: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: Dispose()
-  nameWithType: CacheBaseV2.Dispose()
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose()
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_InstanceDispose
+  name: InstanceDispose()
+  nameWithType: CacheBaseV2.InstanceDispose()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose()
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
-    name: Dispose
-    nameWithType: CacheBaseV2.Dispose
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
+    name: InstanceDispose
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_InstanceDispose
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
-    name: Dispose
-    nameWithType: CacheBaseV2.Dispose
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
+    name: InstanceDispose
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_InstanceDispose
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Flush
-  parent: SuperOffice.Data.Cache.CacheBaseV2
-  isExternal: true
-  name: Flush()
-  nameWithType: CacheBaseV2.Flush()
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush()
-  spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
-    name: Flush
-    nameWithType: CacheBaseV2.Flush
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
-    name: Flush
-    nameWithType: CacheBaseV2.Flush
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_BeginDisableAutoUpdate
   name: BeginDisableAutoUpdate()
   nameWithType: CacheBaseV2.BeginDisableAutoUpdate()
   fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate()
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     name: BeginDisableAutoUpdate
-    nameWithType: CacheBaseV2.BeginDisableAutoUpdate
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_BeginDisableAutoUpdate
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     name: BeginDisableAutoUpdate
-    nameWithType: CacheBaseV2.BeginDisableAutoUpdate
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_BeginDisableAutoUpdate
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+- uid: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: GetCurrent<T>()
-  nameWithType: CacheBaseV2.GetCurrent<T>()
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent<T>()
-  nameWithType.vb: CacheBaseV2.GetCurrent(Of T)()
-  fullName.vb: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent(Of T)()
-  name.vb: GetCurrent(Of T)()
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_LoadAsync_System_Threading_CancellationToken_
+  name: LoadAsync(CancellationToken)
+  nameWithType: CacheBaseV2.LoadAsync(CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
-    name: GetCurrent<T>
-    nameWithType: CacheBaseV2.GetCurrent<T>
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent<T>
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
+    name: LoadAsync
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_LoadAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
-    name: GetCurrent(Of T)
-    nameWithType: CacheBaseV2.GetCurrent(Of T)
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent(Of T)
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
+    name: LoadAsync
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_LoadAsync_System_Threading_CancellationToken_
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Load
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Load
   name: Load()
   nameWithType: CacheBaseV2.Load()
   fullName: SuperOffice.Data.Cache.CacheBaseV2.Load()
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
     name: Load
-    nameWithType: CacheBaseV2.Load
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Load
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
     name: Load
-    nameWithType: CacheBaseV2.Load
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Load
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.Disposed
   commentId: P:SuperOffice.Data.Cache.CacheBaseV2.Disposed
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Disposed
   name: Disposed
   nameWithType: CacheBaseV2.Disposed
   fullName: SuperOffice.Data.Cache.CacheBaseV2.Disposed
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Security.Sentry.DataRightCache.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<Sentry.DataRightCache, To>()
-  nameWithType: EnumUtil.MapEnums<Sentry.DataRightCache, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.Sentry.DataRightCache, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of Sentry.DataRightCache, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.Sentry.DataRightCache, To)()
-  name.vb: MapEnums(Of Sentry.DataRightCache, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<DataRightCache, To>(DataRightCache)
+  nameWithType: EnumUtil.MapEnums<Sentry.DataRightCache, To>(Sentry.DataRightCache)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.Sentry.DataRightCache, To>(SuperOffice.CRM.Security.Sentry.DataRightCache)
+  nameWithType.vb: EnumUtil.MapEnums(Of Sentry.DataRightCache, To)(Sentry.DataRightCache)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.Sentry.DataRightCache, To)(SuperOffice.CRM.Security.Sentry.DataRightCache)
+  name.vb: MapEnums(Of DataRightCache, To)(DataRightCache)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<Sentry.DataRightCache, To>
-    nameWithType: EnumUtil.MapEnums<Sentry.DataRightCache, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.Sentry.DataRightCache, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Security.Sentry.DataRightCache)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of Sentry.DataRightCache, To)
-    nameWithType: EnumUtil.MapEnums(Of Sentry.DataRightCache, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.Sentry.DataRightCache, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Security.Sentry.DataRightCache.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.Sentry.DataRightCache)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<Sentry.DataRightCache>(Sentry.DataRightCache)
-  nameWithType: ObjectExtensions.AssignByReflection<Sentry.DataRightCache>(Sentry.DataRightCache)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.Sentry.DataRightCache>(SuperOffice.CRM.Security.Sentry.DataRightCache)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of Sentry.DataRightCache)(Sentry.DataRightCache)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.Sentry.DataRightCache)(SuperOffice.CRM.Security.Sentry.DataRightCache)
-  name.vb: AssignByReflection(Of Sentry.DataRightCache)(Sentry.DataRightCache)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<Sentry.DataRightCache>
-    nameWithType: ObjectExtensions.AssignByReflection<Sentry.DataRightCache>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.Sentry.DataRightCache>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
-    name: Sentry.DataRightCache
-    nameWithType: Sentry.DataRightCache
-    fullName: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of Sentry.DataRightCache)
-    nameWithType: ObjectExtensions.AssignByReflection(Of Sentry.DataRightCache)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.Sentry.DataRightCache)
-    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
-    name: Sentry.DataRightCache
-    nameWithType: Sentry.DataRightCache
-    fullName: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
     isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Security.Sentry.DataRightCache.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<Sentry.DataRightCache>()
-  nameWithType: ObjectExtensions.GraphCopy<Sentry.DataRightCache>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.Sentry.DataRightCache>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of Sentry.DataRightCache)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.Sentry.DataRightCache)()
-  name.vb: GraphCopy(Of Sentry.DataRightCache)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<Sentry.DataRightCache>
-    nameWithType: ObjectExtensions.GraphCopy<Sentry.DataRightCache>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.Sentry.DataRightCache>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of Sentry.DataRightCache)
-    nameWithType: ObjectExtensions.GraphCopy(Of Sentry.DataRightCache)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.Sentry.DataRightCache)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Security.Sentry.DataRightCache)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  - name: )
 - uid: SuperOffice.CRM.Security.Sentry.DataRightCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<Sentry.DataRightCache, To>()
-  nameWithType: Converters.MapEnums<Sentry.DataRightCache, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.Sentry.DataRightCache, To>()
-  nameWithType.vb: Converters.MapEnums(Of Sentry.DataRightCache, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.Sentry.DataRightCache, To)()
-  name.vb: MapEnums(Of Sentry.DataRightCache, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<DataRightCache, To>(DataRightCache)
+  nameWithType: Converters.MapEnums<Sentry.DataRightCache, To>(Sentry.DataRightCache)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.Sentry.DataRightCache, To>(SuperOffice.CRM.Security.Sentry.DataRightCache)
+  nameWithType.vb: Converters.MapEnums(Of Sentry.DataRightCache, To)(Sentry.DataRightCache)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.Sentry.DataRightCache, To)(SuperOffice.CRM.Security.Sentry.DataRightCache)
+  name.vb: MapEnums(Of DataRightCache, To)(DataRightCache)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<Sentry.DataRightCache, To>
-    nameWithType: Converters.MapEnums<Sentry.DataRightCache, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.Sentry.DataRightCache, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Security.Sentry.DataRightCache)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of Sentry.DataRightCache, To)
-    nameWithType: Converters.MapEnums(Of Sentry.DataRightCache, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.Sentry.DataRightCache, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Security.Sentry.DataRightCache)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  - name: )
+- uid: SuperOffice.CRM.Security.Sentry.DataRightCache.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.Sentry.DataRightCache)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<DataRightCache>(DataRightCache, DataRightCache)
+  nameWithType: ObjectExtensions.AssignByReflection<Sentry.DataRightCache>(Sentry.DataRightCache, Sentry.DataRightCache)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.Sentry.DataRightCache>(SuperOffice.CRM.Security.Sentry.DataRightCache, SuperOffice.CRM.Security.Sentry.DataRightCache)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of Sentry.DataRightCache)(Sentry.DataRightCache, Sentry.DataRightCache)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.Sentry.DataRightCache)(SuperOffice.CRM.Security.Sentry.DataRightCache, SuperOffice.CRM.Security.Sentry.DataRightCache)
+  name.vb: AssignByReflection(Of DataRightCache)(DataRightCache, DataRightCache)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.Sentry.DataRightCache,SuperOffice.CRM.Security.Sentry.DataRightCache)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.Sentry.DataRightCache,SuperOffice.CRM.Security.Sentry.DataRightCache)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  - name: )
+- uid: SuperOffice.CRM.Security.Sentry.DataRightCache.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<DataRightCache>(DataRightCache)
+  nameWithType: ObjectExtensions.GraphCopy<Sentry.DataRightCache>(Sentry.DataRightCache)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.Sentry.DataRightCache>(SuperOffice.CRM.Security.Sentry.DataRightCache)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of Sentry.DataRightCache)(Sentry.DataRightCache)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.Sentry.DataRightCache)(SuperOffice.CRM.Security.Sentry.DataRightCache)
+  name.vb: GraphCopy(Of DataRightCache)(DataRightCache)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Security.Sentry.DataRightCache)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Security.Sentry.DataRightCache)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Security.Sentry.DataRightCache
+    name: DataRightCache
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.DataRightCache.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.Cache
   commentId: N:SuperOffice.Data.Cache
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.Cache
   nameWithType: SuperOffice.Data.Cache
   fullName: SuperOffice.Data.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -781,140 +1023,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -923,56 +1070,200 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.Data.ETableRight
+  commentId: T:SuperOffice.Data.ETableRight
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ETableRight.html
+  name: ETableRight
+  nameWithType: ETableRight
+  fullName: SuperOffice.Data.ETableRight
 - uid: SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight*
   commentId: Overload:SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight
   isExternal: true
+  href: SuperOffice.CRM.Security.Sentry.DataRightCache.html#SuperOffice_CRM_Security_Sentry_DataRightCache_GetTableRight_System_Int32_SuperOffice_CRM_Security_EOwnershipIndex_
   name: GetTableRight
   nameWithType: Sentry.DataRightCache.GetTableRight
   fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.GetTableRight
@@ -980,32 +1271,52 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Security.EOwnershipIndex
   commentId: T:SuperOffice.CRM.Security.EOwnershipIndex
   parent: SuperOffice.CRM.Security
   isExternal: true
+  href: SuperOffice.CRM.Security.EOwnershipIndex.html
   name: EOwnershipIndex
   nameWithType: EOwnershipIndex
   fullName: SuperOffice.CRM.Security.EOwnershipIndex
-- uid: SuperOffice.Data.ETableRight
-  commentId: T:SuperOffice.Data.ETableRight
-  parent: SuperOffice.Data
-  isExternal: true
-  name: ETableRight
-  nameWithType: ETableRight
-  fullName: SuperOffice.Data.ETableRight
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead*
   commentId: Overload:SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead
   isExternal: true
+  href: SuperOffice.CRM.Security.Sentry.DataRightCache.html#SuperOffice_CRM_Security_Sentry_DataRightCache_HasAtLeastRead_System_Int32_SuperOffice_CRM_Security_EOwnershipIndex___
   name: HasAtLeastRead
   nameWithType: Sentry.DataRightCache.HasAtLeastRead
   fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.HasAtLeastRead
@@ -1020,175 +1331,294 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Security.EOwnershipIndex
     name: EOwnershipIndex
-    nameWithType: EOwnershipIndex
-    fullName: SuperOffice.CRM.Security.EOwnershipIndex
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Security.EOwnershipIndex
     name: EOwnershipIndex
-    nameWithType: EOwnershipIndex
-    fullName: SuperOffice.CRM.Security.EOwnershipIndex
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+  - name: (
+  - name: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnLoadAsync_System_Threading_CancellationToken_
+  name: OnLoadAsync(CancellationToken)
+  nameWithType: CacheBaseV2.OnLoadAsync(CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+    name: OnLoadAsync
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnLoadAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
+    name: OnLoadAsync
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnLoadAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Security.Sentry.DataRightCache.OnLoadAsync*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.DataRightCache.OnLoadAsync
+  isExternal: true
+  href: SuperOffice.CRM.Security.Sentry.DataRightCache.html#SuperOffice_CRM_Security_Sentry_DataRightCache_OnLoadAsync_System_Threading_CancellationToken_
+  name: OnLoadAsync
+  nameWithType: Sentry.DataRightCache.OnLoadAsync
+  fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.OnLoadAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.OnLoad
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnLoad
   name: OnLoad()
   nameWithType: CacheBaseV2.OnLoad()
   fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad()
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
     name: OnLoad
-    nameWithType: CacheBaseV2.OnLoad
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnLoad
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
     name: OnLoad
-    nameWithType: CacheBaseV2.OnLoad
-    fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
     isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnLoad
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Sentry.DataRightCache.OnLoad*
   commentId: Overload:SuperOffice.CRM.Security.Sentry.DataRightCache.OnLoad
   isExternal: true
+  href: SuperOffice.CRM.Security.Sentry.DataRightCache.html#SuperOffice_CRM_Security_Sentry_DataRightCache_OnLoad
   name: OnLoad
   nameWithType: Sentry.DataRightCache.OnLoad
   fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.OnLoad
-- uid: SuperOffice.CRM.Security.Sentry.DataRightCache.GetCurrent*
-  commentId: Overload:SuperOffice.CRM.Security.Sentry.DataRightCache.GetCurrent
-  isExternal: true
-  name: GetCurrent
-  nameWithType: Sentry.DataRightCache.GetCurrent
-  fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.GetCurrent
-- uid: SuperOffice.CRM.Security.Sentry.DataRightCache
-  commentId: T:SuperOffice.CRM.Security.Sentry.DataRightCache
-  parent: SuperOffice.CRM.Security
-  isExternal: true
-  name: Sentry.DataRightCache
-  nameWithType: Sentry.DataRightCache
-  fullName: SuperOffice.CRM.Security.Sentry.DataRightCache
 - uid: SuperOffice.CRM.Security.Sentry.DataRightCache.#ctor*
   commentId: Overload:SuperOffice.CRM.Security.Sentry.DataRightCache.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Security.Sentry.DataRightCache.html#SuperOffice_CRM_Security_Sentry_DataRightCache__ctor
   name: DataRightCache
   nameWithType: Sentry.DataRightCache.DataRightCache
   fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.DataRightCache
+  nameWithType.vb: Sentry.DataRightCache.New
+  fullName.vb: SuperOffice.CRM.Security.Sentry.DataRightCache.New
+  name.vb: New
 - uid: SuperOffice.Data.Cache.CacheBaseV2.TableNames
   commentId: P:SuperOffice.Data.Cache.CacheBaseV2.TableNames
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_TableNames
   name: TableNames
   nameWithType: CacheBaseV2.TableNames
   fullName: SuperOffice.Data.Cache.CacheBaseV2.TableNames
 - uid: SuperOffice.CRM.Security.Sentry.DataRightCache.TableNames*
   commentId: Overload:SuperOffice.CRM.Security.Sentry.DataRightCache.TableNames
   isExternal: true
+  href: SuperOffice.CRM.Security.Sentry.DataRightCache.html#SuperOffice_CRM_Security_Sentry_DataRightCache_TableNames
   name: TableNames
   nameWithType: Sentry.DataRightCache.TableNames
   fullName: SuperOffice.CRM.Security.Sentry.DataRightCache.TableNames
 - uid: System.Collections.Generic.IEnumerable{System.String}
-  commentId: '!:System.Collections.Generic.IEnumerable{System.String}'
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<String>
-  nameWithType: IEnumerable<String>
-  fullName: System.Collections.Generic.IEnumerable<System.String>
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
   nameWithType.vb: IEnumerable(Of String)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
   name.vb: IEnumerable(Of String)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

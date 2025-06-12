@@ -1,0 +1,1017 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.ErpSyncActorField
+  commentId: T:SuperOffice.ErpSync.ErpSyncActorField
+  id: ErpSyncActorField
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.ErpSyncActorField.#ctor
+  - SuperOffice.ErpSync.ErpSyncActorField.CrmFieldKey
+  - SuperOffice.ErpSync.ErpSyncActorField.CrmListItemId
+  - SuperOffice.ErpSync.ErpSyncActorField.Equals(SuperOffice.ErpSync.ErpSyncActorField)
+  - SuperOffice.ErpSync.ErpSyncActorField.Equals(System.Object)
+  - SuperOffice.ErpSync.ErpSyncActorField.ErpFieldId
+  - SuperOffice.ErpSync.ErpSyncActorField.ErpFieldKey
+  - SuperOffice.ErpSync.ErpSyncActorField.FieldInfo
+  - SuperOffice.ErpSync.ErpSyncActorField.FieldValue
+  - SuperOffice.ErpSync.ErpSyncActorField.GetHashCode
+  - SuperOffice.ErpSync.ErpSyncActorField.ListReference
+  - SuperOffice.ErpSync.ErpSyncActorField.SetFieldTypedValue(System.Object)
+  - SuperOffice.ErpSync.ErpSyncActorField.SetFieldValue(System.String,SuperOffice.CRM.FieldMetadataInfo)
+  - SuperOffice.ErpSync.ErpSyncActorField.ShowInGui
+  - SuperOffice.ErpSync.ErpSyncActorField.ShowInSearch
+  - SuperOffice.ErpSync.ErpSyncActorField.SyncToCrm
+  - SuperOffice.ErpSync.ErpSyncActorField.SyncToErp
+  - SuperOffice.ErpSync.ErpSyncActorField.TypedFieldValue
+  - SuperOffice.ErpSync.ErpSyncActorField.op_Equality(SuperOffice.ErpSync.ErpSyncActorField,SuperOffice.ErpSync.ErpSyncActorField)
+  - SuperOffice.ErpSync.ErpSyncActorField.op_Inequality(SuperOffice.ErpSync.ErpSyncActorField,SuperOffice.ErpSync.ErpSyncActorField)
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncActorField
+  nameWithType: ErpSyncActorField
+  fullName: SuperOffice.ErpSync.ErpSyncActorField
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Information and contents of a given field used in an ErpSyncActor object.
+  example: []
+  syntax:
+    content: public class ErpSyncActorField
+    content.vb: Public Class ErpSyncActorField
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.ErpSync.ErpSyncActorField.#ctor
+  commentId: M:SuperOffice.ErpSync.ErpSyncActorField.#ctor
+  id: '#ctor'
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncActorField()
+  nameWithType: ErpSyncActorField.ErpSyncActorField()
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.ErpSyncActorField()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public ErpSyncActorField()
+    content.vb: Public Sub New()
+  overload: SuperOffice.ErpSync.ErpSyncActorField.#ctor*
+  nameWithType.vb: ErpSyncActorField.New()
+  fullName.vb: SuperOffice.ErpSync.ErpSyncActorField.New()
+  name.vb: New()
+- uid: SuperOffice.ErpSync.ErpSyncActorField.SetFieldValue(System.String,SuperOffice.CRM.FieldMetadataInfo)
+  commentId: M:SuperOffice.ErpSync.ErpSyncActorField.SetFieldValue(System.String,SuperOffice.CRM.FieldMetadataInfo)
+  id: SetFieldValue(System.String,SuperOffice.CRM.FieldMetadataInfo)
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: SetFieldValue(string, FieldMetadataInfo)
+  nameWithType: ErpSyncActorField.SetFieldValue(string, FieldMetadataInfo)
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.SetFieldValue(string, SuperOffice.CRM.FieldMetadataInfo)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Sets the FieldValue and FieldInfo properties in one go
+  example: []
+  syntax:
+    content: public void SetFieldValue(string fieldValue, FieldMetadataInfo fieldInfo)
+    parameters:
+    - id: fieldValue
+      type: System.String
+      description: ''
+    - id: fieldInfo
+      type: SuperOffice.CRM.FieldMetadataInfo
+      description: ''
+    content.vb: Public Sub SetFieldValue(fieldValue As String, fieldInfo As FieldMetadataInfo)
+  overload: SuperOffice.ErpSync.ErpSyncActorField.SetFieldValue*
+  nameWithType.vb: ErpSyncActorField.SetFieldValue(String, FieldMetadataInfo)
+  fullName.vb: SuperOffice.ErpSync.ErpSyncActorField.SetFieldValue(String, SuperOffice.CRM.FieldMetadataInfo)
+  name.vb: SetFieldValue(String, FieldMetadataInfo)
+- uid: SuperOffice.ErpSync.ErpSyncActorField.SetFieldTypedValue(System.Object)
+  commentId: M:SuperOffice.ErpSync.ErpSyncActorField.SetFieldTypedValue(System.Object)
+  id: SetFieldTypedValue(System.Object)
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: SetFieldTypedValue(object)
+  nameWithType: ErpSyncActorField.SetFieldTypedValue(object)
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.SetFieldTypedValue(object)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public void SetFieldTypedValue(object fieldValue)
+    parameters:
+    - id: fieldValue
+      type: System.Object
+    content.vb: Public Sub SetFieldTypedValue(fieldValue As Object)
+  overload: SuperOffice.ErpSync.ErpSyncActorField.SetFieldTypedValue*
+  nameWithType.vb: ErpSyncActorField.SetFieldTypedValue(Object)
+  fullName.vb: SuperOffice.ErpSync.ErpSyncActorField.SetFieldTypedValue(Object)
+  name.vb: SetFieldTypedValue(Object)
+- uid: SuperOffice.ErpSync.ErpSyncActorField.op_Equality(SuperOffice.ErpSync.ErpSyncActorField,SuperOffice.ErpSync.ErpSyncActorField)
+  commentId: M:SuperOffice.ErpSync.ErpSyncActorField.op_Equality(SuperOffice.ErpSync.ErpSyncActorField,SuperOffice.ErpSync.ErpSyncActorField)
+  id: op_Equality(SuperOffice.ErpSync.ErpSyncActorField,SuperOffice.ErpSync.ErpSyncActorField)
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: operator ==(ErpSyncActorField, ErpSyncActorField)
+  nameWithType: ErpSyncActorField.operator ==(ErpSyncActorField, ErpSyncActorField)
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.operator ==(SuperOffice.ErpSync.ErpSyncActorField, SuperOffice.ErpSync.ErpSyncActorField)
+  type: Operator
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Overridden equality operator
+  example: []
+  syntax:
+    content: public static bool operator ==(ErpSyncActorField field1, ErpSyncActorField field2)
+    parameters:
+    - id: field1
+      type: SuperOffice.ErpSync.ErpSyncActorField
+      description: ''
+    - id: field2
+      type: SuperOffice.ErpSync.ErpSyncActorField
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Operator =(field1 As ErpSyncActorField, field2 As ErpSyncActorField) As Boolean
+  overload: SuperOffice.ErpSync.ErpSyncActorField.op_Equality*
+  nameWithType.vb: ErpSyncActorField.=(ErpSyncActorField, ErpSyncActorField)
+  fullName.vb: SuperOffice.ErpSync.ErpSyncActorField.=(SuperOffice.ErpSync.ErpSyncActorField, SuperOffice.ErpSync.ErpSyncActorField)
+  name.vb: =(ErpSyncActorField, ErpSyncActorField)
+- uid: SuperOffice.ErpSync.ErpSyncActorField.op_Inequality(SuperOffice.ErpSync.ErpSyncActorField,SuperOffice.ErpSync.ErpSyncActorField)
+  commentId: M:SuperOffice.ErpSync.ErpSyncActorField.op_Inequality(SuperOffice.ErpSync.ErpSyncActorField,SuperOffice.ErpSync.ErpSyncActorField)
+  id: op_Inequality(SuperOffice.ErpSync.ErpSyncActorField,SuperOffice.ErpSync.ErpSyncActorField)
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: operator !=(ErpSyncActorField, ErpSyncActorField)
+  nameWithType: ErpSyncActorField.operator !=(ErpSyncActorField, ErpSyncActorField)
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.operator !=(SuperOffice.ErpSync.ErpSyncActorField, SuperOffice.ErpSync.ErpSyncActorField)
+  type: Operator
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Overridden inequality (?) operator
+  example: []
+  syntax:
+    content: public static bool operator !=(ErpSyncActorField field1, ErpSyncActorField field2)
+    parameters:
+    - id: field1
+      type: SuperOffice.ErpSync.ErpSyncActorField
+      description: ''
+    - id: field2
+      type: SuperOffice.ErpSync.ErpSyncActorField
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Operator <>(field1 As ErpSyncActorField, field2 As ErpSyncActorField) As Boolean
+  overload: SuperOffice.ErpSync.ErpSyncActorField.op_Inequality*
+  nameWithType.vb: ErpSyncActorField.<>(ErpSyncActorField, ErpSyncActorField)
+  fullName.vb: SuperOffice.ErpSync.ErpSyncActorField.<>(SuperOffice.ErpSync.ErpSyncActorField, SuperOffice.ErpSync.ErpSyncActorField)
+  name.vb: <>(ErpSyncActorField, ErpSyncActorField)
+- uid: SuperOffice.ErpSync.ErpSyncActorField.Equals(System.Object)
+  commentId: M:SuperOffice.ErpSync.ErpSyncActorField.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: ErpSyncActorField.Equals(object)
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.Equals(object)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Overridden Equals method. Compares EncodedFieldValue between the two objects
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: SuperOffice.ErpSync.ErpSyncActorField.Equals*
+  nameWithType.vb: ErpSyncActorField.Equals(Object)
+  fullName.vb: SuperOffice.ErpSync.ErpSyncActorField.Equals(Object)
+  name.vb: Equals(Object)
+- uid: SuperOffice.ErpSync.ErpSyncActorField.Equals(SuperOffice.ErpSync.ErpSyncActorField)
+  commentId: M:SuperOffice.ErpSync.ErpSyncActorField.Equals(SuperOffice.ErpSync.ErpSyncActorField)
+  id: Equals(SuperOffice.ErpSync.ErpSyncActorField)
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: Equals(ErpSyncActorField)
+  nameWithType: ErpSyncActorField.Equals(ErpSyncActorField)
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.Equals(SuperOffice.ErpSync.ErpSyncActorField)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Overridden Equals method. Compares EncodedFieldValue between the two objects
+  example: []
+  syntax:
+    content: public bool Equals(ErpSyncActorField fld)
+    parameters:
+    - id: fld
+      type: SuperOffice.ErpSync.ErpSyncActorField
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function Equals(fld As ErpSyncActorField) As Boolean
+  overload: SuperOffice.ErpSync.ErpSyncActorField.Equals*
+- uid: SuperOffice.ErpSync.ErpSyncActorField.GetHashCode
+  commentId: M:SuperOffice.ErpSync.ErpSyncActorField.GetHashCode
+  id: GetHashCode
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ErpSyncActorField.GetHashCode()
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.GetHashCode()
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Overridden GetHashCode
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: SuperOffice.ErpSync.ErpSyncActorField.GetHashCode*
+- uid: SuperOffice.ErpSync.ErpSyncActorField.ErpFieldId
+  commentId: P:SuperOffice.ErpSync.ErpSyncActorField.ErpFieldId
+  id: ErpFieldId
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldId
+  nameWithType: ErpSyncActorField.ErpFieldId
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.ErpFieldId
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: The primary key from the field's ErpField row
+  example: []
+  syntax:
+    content: public int ErpFieldId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpFieldId As Integer
+  overload: SuperOffice.ErpSync.ErpSyncActorField.ErpFieldId*
+- uid: SuperOffice.ErpSync.ErpSyncActorField.CrmFieldKey
+  commentId: P:SuperOffice.ErpSync.ErpSyncActorField.CrmFieldKey
+  id: CrmFieldKey
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: CrmFieldKey
+  nameWithType: ErpSyncActorField.CrmFieldKey
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.CrmFieldKey
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: The CRM key of the field, if mapped to one
+  example: []
+  syntax:
+    content: public string CrmFieldKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CrmFieldKey As String
+  overload: SuperOffice.ErpSync.ErpSyncActorField.CrmFieldKey*
+- uid: SuperOffice.ErpSync.ErpSyncActorField.ErpFieldKey
+  commentId: P:SuperOffice.ErpSync.ErpSyncActorField.ErpFieldKey
+  id: ErpFieldKey
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldKey
+  nameWithType: ErpSyncActorField.ErpFieldKey
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.ErpFieldKey
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: The ERP key of the field, if applicable (as supplied by the connection where the actor originated)
+  example: []
+  syntax:
+    content: public string ErpFieldKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ErpFieldKey As String
+  overload: SuperOffice.ErpSync.ErpSyncActorField.ErpFieldKey*
+- uid: SuperOffice.ErpSync.ErpSyncActorField.SyncToErp
+  commentId: P:SuperOffice.ErpSync.ErpSyncActorField.SyncToErp
+  id: SyncToErp
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: SyncToErp
+  nameWithType: ErpSyncActorField.SyncToErp
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.SyncToErp
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Is the field synced FROM Crm TO Erp?
+  example: []
+  syntax:
+    content: public bool SyncToErp { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SyncToErp As Boolean
+  overload: SuperOffice.ErpSync.ErpSyncActorField.SyncToErp*
+- uid: SuperOffice.ErpSync.ErpSyncActorField.SyncToCrm
+  commentId: P:SuperOffice.ErpSync.ErpSyncActorField.SyncToCrm
+  id: SyncToCrm
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: SyncToCrm
+  nameWithType: ErpSyncActorField.SyncToCrm
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.SyncToCrm
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Is the field synced FROM Erp TO Crm
+  example: []
+  syntax:
+    content: public bool SyncToCrm { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SyncToCrm As Boolean
+  overload: SuperOffice.ErpSync.ErpSyncActorField.SyncToCrm*
+- uid: SuperOffice.ErpSync.ErpSyncActorField.ShowInSearch
+  commentId: P:SuperOffice.ErpSync.ErpSyncActorField.ShowInSearch
+  id: ShowInSearch
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: ShowInSearch
+  nameWithType: ErpSyncActorField.ShowInSearch
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.ShowInSearch
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Is the field set to show in CRM search results
+  example: []
+  syntax:
+    content: public bool ShowInSearch { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowInSearch As Boolean
+  overload: SuperOffice.ErpSync.ErpSyncActorField.ShowInSearch*
+- uid: SuperOffice.ErpSync.ErpSyncActorField.ShowInGui
+  commentId: P:SuperOffice.ErpSync.ErpSyncActorField.ShowInGui
+  id: ShowInGui
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: ShowInGui
+  nameWithType: ErpSyncActorField.ShowInGui
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.ShowInGui
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Is the field set to show in CRM ERP tab
+  example: []
+  syntax:
+    content: public bool ShowInGui { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowInGui As Boolean
+  overload: SuperOffice.ErpSync.ErpSyncActorField.ShowInGui*
+- uid: SuperOffice.ErpSync.ErpSyncActorField.ListReference
+  commentId: P:SuperOffice.ErpSync.ErpSyncActorField.ListReference
+  id: ListReference
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: ListReference
+  nameWithType: ErpSyncActorField.ListReference
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.ListReference
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: The list reference mapping for CRM
+  example: []
+  syntax:
+    content: public string ListReference { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ListReference As String
+  overload: SuperOffice.ErpSync.ErpSyncActorField.ListReference*
+- uid: SuperOffice.ErpSync.ErpSyncActorField.CrmListItemId
+  commentId: P:SuperOffice.ErpSync.ErpSyncActorField.CrmListItemId
+  id: CrmListItemId
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: CrmListItemId
+  nameWithType: ErpSyncActorField.CrmListItemId
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.CrmListItemId
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: The list item ID for CRM (e.g. CategoryId, AssociateId, etc)
+  example: []
+  syntax:
+    content: public int CrmListItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CrmListItemId As Integer
+  overload: SuperOffice.ErpSync.ErpSyncActorField.CrmListItemId*
+- uid: SuperOffice.ErpSync.ErpSyncActorField.FieldInfo
+  commentId: P:SuperOffice.ErpSync.ErpSyncActorField.FieldInfo
+  id: FieldInfo
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: FieldInfo
+  nameWithType: ErpSyncActorField.FieldInfo
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.FieldInfo
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: The FieldMetadataInfo object describing the field properties (data type, max length/size, etc)
+  example: []
+  syntax:
+    content: public FieldMetadataInfo FieldInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.FieldMetadataInfo
+    content.vb: Public Property FieldInfo As FieldMetadataInfo
+  overload: SuperOffice.ErpSync.ErpSyncActorField.FieldInfo*
+- uid: SuperOffice.ErpSync.ErpSyncActorField.FieldValue
+  commentId: P:SuperOffice.ErpSync.ErpSyncActorField.FieldValue
+  id: FieldValue
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: FieldValue
+  nameWithType: ErpSyncActorField.FieldValue
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.FieldValue
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Gets or sets the actual value of the field.
+  example: []
+  syntax:
+    content: public string FieldValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FieldValue As String
+  overload: SuperOffice.ErpSync.ErpSyncActorField.FieldValue*
+- uid: SuperOffice.ErpSync.ErpSyncActorField.TypedFieldValue
+  commentId: P:SuperOffice.ErpSync.ErpSyncActorField.TypedFieldValue
+  id: TypedFieldValue
+  parent: SuperOffice.ErpSync.ErpSyncActorField
+  langs:
+  - csharp
+  - vb
+  name: TypedFieldValue
+  nameWithType: ErpSyncActorField.TypedFieldValue
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.TypedFieldValue
+  type: Property
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: Typed object representing the field value (e.g. boolean, datetime, string, int, etc), based on the the FieldValue and FieldInfo properties.
+  example: []
+  syntax:
+    content: public object TypedFieldValue { get; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public ReadOnly Property TypedFieldValue As Object
+  overload: SuperOffice.ErpSync.ErpSyncActorField.TypedFieldValue*
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ErpSyncActorField.#ctor*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.#ctor
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField__ctor
+  name: ErpSyncActorField
+  nameWithType: ErpSyncActorField.ErpSyncActorField
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.ErpSyncActorField
+  nameWithType.vb: ErpSyncActorField.New
+  fullName.vb: SuperOffice.ErpSync.ErpSyncActorField.New
+  name.vb: New
+- uid: SuperOffice.ErpSync.ErpSyncActorField.SetFieldValue*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.SetFieldValue
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_SetFieldValue_System_String_SuperOffice_CRM_FieldMetadataInfo_
+  name: SetFieldValue
+  nameWithType: ErpSyncActorField.SetFieldValue
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.SetFieldValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.FieldMetadataInfo
+  isExternal: true
+  name: FieldMetadataInfo
+  nameWithType: FieldMetadataInfo
+  fullName: SuperOffice.CRM.FieldMetadataInfo
+- uid: SuperOffice.ErpSync.ErpSyncActorField.SetFieldTypedValue*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.SetFieldTypedValue
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_SetFieldTypedValue_System_Object_
+  name: SetFieldTypedValue
+  nameWithType: ErpSyncActorField.SetFieldTypedValue
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.SetFieldTypedValue
+- uid: SuperOffice.ErpSync.ErpSyncActorField.op_Equality*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.op_Equality
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_op_Equality_SuperOffice_ErpSync_ErpSyncActorField_SuperOffice_ErpSync_ErpSyncActorField_
+  name: operator ==
+  nameWithType: ErpSyncActorField.operator ==
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.operator ==
+  nameWithType.vb: ErpSyncActorField.=
+  fullName.vb: SuperOffice.ErpSync.ErpSyncActorField.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: SuperOffice.ErpSync.ErpSyncActorField.op_Equality*
+    name: ==
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_op_Equality_SuperOffice_ErpSync_ErpSyncActorField_SuperOffice_ErpSync_ErpSyncActorField_
+- uid: SuperOffice.ErpSync.ErpSyncActorField
+  commentId: T:SuperOffice.ErpSync.ErpSyncActorField
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html
+  name: ErpSyncActorField
+  nameWithType: ErpSyncActorField
+  fullName: SuperOffice.ErpSync.ErpSyncActorField
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.ErpSync.ErpSyncActorField.op_Inequality*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.op_Inequality
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_op_Inequality_SuperOffice_ErpSync_ErpSyncActorField_SuperOffice_ErpSync_ErpSyncActorField_
+  name: operator !=
+  nameWithType: ErpSyncActorField.operator !=
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.operator !=
+  nameWithType.vb: ErpSyncActorField.<>
+  fullName.vb: SuperOffice.ErpSync.ErpSyncActorField.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: SuperOffice.ErpSync.ErpSyncActorField.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_op_Inequality_SuperOffice_ErpSync_ErpSyncActorField_SuperOffice_ErpSync_ErpSyncActorField_
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: SuperOffice.ErpSync.ErpSyncActorField.Equals*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.Equals
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_Equals_System_Object_
+  name: Equals
+  nameWithType: ErpSyncActorField.Equals
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.Equals
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: SuperOffice.ErpSync.ErpSyncActorField.GetHashCode*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.GetHashCode
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_GetHashCode
+  name: GetHashCode
+  nameWithType: ErpSyncActorField.GetHashCode
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.ErpSync.ErpSyncActorField.ErpFieldId*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.ErpFieldId
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_ErpFieldId
+  name: ErpFieldId
+  nameWithType: ErpSyncActorField.ErpFieldId
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.ErpFieldId
+- uid: SuperOffice.ErpSync.ErpSyncActorField.CrmFieldKey*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.CrmFieldKey
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_CrmFieldKey
+  name: CrmFieldKey
+  nameWithType: ErpSyncActorField.CrmFieldKey
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.CrmFieldKey
+- uid: SuperOffice.ErpSync.ErpSyncActorField.ErpFieldKey*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.ErpFieldKey
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_ErpFieldKey
+  name: ErpFieldKey
+  nameWithType: ErpSyncActorField.ErpFieldKey
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.ErpFieldKey
+- uid: SuperOffice.ErpSync.ErpSyncActorField.SyncToErp*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.SyncToErp
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_SyncToErp
+  name: SyncToErp
+  nameWithType: ErpSyncActorField.SyncToErp
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.SyncToErp
+- uid: SuperOffice.ErpSync.ErpSyncActorField.SyncToCrm*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.SyncToCrm
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_SyncToCrm
+  name: SyncToCrm
+  nameWithType: ErpSyncActorField.SyncToCrm
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.SyncToCrm
+- uid: SuperOffice.ErpSync.ErpSyncActorField.ShowInSearch*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.ShowInSearch
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_ShowInSearch
+  name: ShowInSearch
+  nameWithType: ErpSyncActorField.ShowInSearch
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.ShowInSearch
+- uid: SuperOffice.ErpSync.ErpSyncActorField.ShowInGui*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.ShowInGui
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_ShowInGui
+  name: ShowInGui
+  nameWithType: ErpSyncActorField.ShowInGui
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.ShowInGui
+- uid: SuperOffice.ErpSync.ErpSyncActorField.ListReference*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.ListReference
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_ListReference
+  name: ListReference
+  nameWithType: ErpSyncActorField.ListReference
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.ListReference
+- uid: SuperOffice.ErpSync.ErpSyncActorField.CrmListItemId*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.CrmListItemId
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_CrmListItemId
+  name: CrmListItemId
+  nameWithType: ErpSyncActorField.CrmListItemId
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.CrmListItemId
+- uid: SuperOffice.ErpSync.ErpSyncActorField.FieldInfo*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.FieldInfo
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_FieldInfo
+  name: FieldInfo
+  nameWithType: ErpSyncActorField.FieldInfo
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.FieldInfo
+- uid: SuperOffice.ErpSync.ErpSyncActorField.FieldValue*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.FieldValue
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_FieldValue
+  name: FieldValue
+  nameWithType: ErpSyncActorField.FieldValue
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.FieldValue
+- uid: SuperOffice.ErpSync.ErpSyncActorField.TypedFieldValue*
+  commentId: Overload:SuperOffice.ErpSync.ErpSyncActorField.TypedFieldValue
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html#SuperOffice_ErpSync_ErpSyncActorField_TypedFieldValue
+  name: TypedFieldValue
+  nameWithType: ErpSyncActorField.TypedFieldValue
+  fullName: SuperOffice.ErpSync.ErpSyncActorField.TypedFieldValue

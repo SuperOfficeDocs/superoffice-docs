@@ -18,31 +18,36 @@ items:
   nameWithType: StatisticsDataSet
   fullName: SuperOffice.CRM.Services.StatisticsDataSet
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCarrier object for StatisticsDataSet.\nServices for the StatisticsDataSet Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Carrier object for StatisticsDataSet.
+
+    Services for the StatisticsDataSet Carrier is available from the <xref href="SuperOffice.CRM.Services.ICustomerServiceAgent?text=CustomerService+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class StatisticsDataSet : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class StatisticsDataSet : Carrier
     content.vb: >-
-      Public Class StatisticsDataSet
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class StatisticsDataSet Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
-    commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
   - linkId: SuperOffice.CRM.Services.ICustomerServiceAgent
     commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.StatisticsDataSet.#ctor
   commentId: M:SuperOffice.CRM.Services.StatisticsDataSet.#ctor
   id: '#ctor'
@@ -54,21 +59,18 @@ items:
   nameWithType: StatisticsDataSet.StatisticsDataSet()
   fullName: SuperOffice.CRM.Services.StatisticsDataSet.StatisticsDataSet()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public StatisticsDataSet()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.StatisticsDataSet.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: StatisticsDataSet.New()
+  fullName.vb: SuperOffice.CRM.Services.StatisticsDataSet.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.StatisticsDataSet.ToString
   commentId: M:SuperOffice.CRM.Services.StatisticsDataSet.ToString
   id: ToString
@@ -80,26 +82,18 @@ items:
   nameWithType: StatisticsDataSet.ToString()
   fullName: SuperOffice.CRM.Services.StatisticsDataSet.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.StatisticsDataSet.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.StatisticsDataSet.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.StatisticsDataSet.ToString(System.String)
   id: ToString(System.String)
@@ -107,17 +101,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: StatisticsDataSet.ToString(String)
-  fullName: SuperOffice.CRM.Services.StatisticsDataSet.ToString(System.String)
+  name: ToString(string)
+  nameWithType: StatisticsDataSet.ToString(string)
+  fullName: SuperOffice.CRM.Services.StatisticsDataSet.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -129,10 +124,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.StatisticsDataSet.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: StatisticsDataSet.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.StatisticsDataSet.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.StatisticsDataSet.Label
   commentId: P:SuperOffice.CRM.Services.StatisticsDataSet.Label
   id: Label
@@ -144,28 +138,28 @@ items:
   nameWithType: StatisticsDataSet.Label
   fullName: SuperOffice.CRM.Services.StatisticsDataSet.Label
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe label for the data set \n"
+  summary: The label for the data set
+  example: []
   syntax:
-    content: public virtual string Label { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Label { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Label As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Label As String
   overload: SuperOffice.CRM.Services.StatisticsDataSet.Label*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.StatisticsDataSet.Values
   commentId: P:SuperOffice.CRM.Services.StatisticsDataSet.Values
   id: Values
@@ -177,28 +171,28 @@ items:
   nameWithType: StatisticsDataSet.Values
   fullName: SuperOffice.CRM.Services.StatisticsDataSet.Values
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nValues in this set \n"
+  summary: Values in this set
+  example: []
   syntax:
-    content: public virtual StatisticsDataValue[] Values { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual StatisticsDataValue[] Values { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.StatisticsDataValue[]
-    content.vb: Public Overridable Property Values As StatisticsDataValue()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Values As StatisticsDataValue()
   overload: SuperOffice.CRM.Services.StatisticsDataSet.Values*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.StatisticsDataSet.Description
   commentId: P:SuperOffice.CRM.Services.StatisticsDataSet.Description
   id: Description
@@ -210,57 +204,106 @@ items:
   nameWithType: StatisticsDataSet.Description
   fullName: SuperOffice.CRM.Services.StatisticsDataSet.Description
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTooltip for data value \n"
+  summary: Tooltip for data value
+  example: []
   syntax:
-    content: public virtual string Description { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Description As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Description As String
   overload: SuperOffice.CRM.Services.StatisticsDataSet.Description*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.CustomerServiceAgent
-  commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
-  isExternal: true
-  name: CustomerServiceAgent
-  nameWithType: CustomerServiceAgent
-  fullName: SuperOffice.CRM.Services.CustomerServiceAgent
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent
   commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html
   name: ICustomerServiceAgent
   nameWithType: ICustomerServiceAgent
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.StatisticsDataSet.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.StatisticsDataSet.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.StatisticsDataSet.html#SuperOffice_CRM_Services_StatisticsDataSet__ctor
   name: StatisticsDataSet
   nameWithType: StatisticsDataSet.StatisticsDataSet
   fullName: SuperOffice.CRM.Services.StatisticsDataSet.StatisticsDataSet
+  nameWithType.vb: StatisticsDataSet.New
+  fullName.vb: SuperOffice.CRM.Services.StatisticsDataSet.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.StatisticsDataSet.ToString*
   commentId: Overload:SuperOffice.CRM.Services.StatisticsDataSet.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.StatisticsDataSet.html#SuperOffice_CRM_Services_StatisticsDataSet_ToString
   name: ToString
   nameWithType: StatisticsDataSet.ToString
   fullName: SuperOffice.CRM.Services.StatisticsDataSet.ToString
@@ -268,29 +311,30 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.StatisticsDataSet.Label*
   commentId: Overload:SuperOffice.CRM.Services.StatisticsDataSet.Label
   isExternal: true
+  href: SuperOffice.CRM.Services.StatisticsDataSet.html#SuperOffice_CRM_Services_StatisticsDataSet_Label
   name: Label
   nameWithType: StatisticsDataSet.Label
   fullName: SuperOffice.CRM.Services.StatisticsDataSet.Label
 - uid: SuperOffice.CRM.Services.StatisticsDataSet.Values*
   commentId: Overload:SuperOffice.CRM.Services.StatisticsDataSet.Values
   isExternal: true
+  href: SuperOffice.CRM.Services.StatisticsDataSet.html#SuperOffice_CRM_Services_StatisticsDataSet_Values
   name: Values
   nameWithType: StatisticsDataSet.Values
   fullName: SuperOffice.CRM.Services.StatisticsDataSet.Values
 - uid: SuperOffice.CRM.Services.StatisticsDataValue[]
   isExternal: true
+  href: SuperOffice.CRM.Services.StatisticsDataValue.html
   name: StatisticsDataValue[]
   nameWithType: StatisticsDataValue[]
   fullName: SuperOffice.CRM.Services.StatisticsDataValue[]
@@ -300,24 +344,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.StatisticsDataValue
     name: StatisticsDataValue
-    nameWithType: StatisticsDataValue
-    fullName: SuperOffice.CRM.Services.StatisticsDataValue
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.StatisticsDataValue.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.StatisticsDataValue
     name: StatisticsDataValue
-    nameWithType: StatisticsDataValue
-    fullName: SuperOffice.CRM.Services.StatisticsDataValue
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.StatisticsDataValue.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.StatisticsDataSet.Description*
   commentId: Overload:SuperOffice.CRM.Services.StatisticsDataSet.Description
   isExternal: true
+  href: SuperOffice.CRM.Services.StatisticsDataSet.html#SuperOffice_CRM_Services_StatisticsDataSet_Description
   name: Description
   nameWithType: StatisticsDataSet.Description
   fullName: SuperOffice.CRM.Services.StatisticsDataSet.Description

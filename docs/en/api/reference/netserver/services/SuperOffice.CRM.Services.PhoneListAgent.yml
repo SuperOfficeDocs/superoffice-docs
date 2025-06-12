@@ -5,15 +5,16 @@ items:
   id: PhoneListAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.PhoneListAgent.#ctor
-  - SuperOffice.CRM.Services.PhoneListAgent.AddToFavorites(System.Int32)
-  - SuperOffice.CRM.Services.PhoneListAgent.GetContactPhones(System.Int32)
-  - SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhones(System.Int32)
-  - SuperOffice.CRM.Services.PhoneListAgent.GetFavoritesPhones
-  - SuperOffice.CRM.Services.PhoneListAgent.GetPreferences
-  - SuperOffice.CRM.Services.PhoneListAgent.Search(System.String)
-  - SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferences(System.String,SuperOffice.CRM.Services.PhoneListPreferences)
-  - SuperOffice.CRM.Services.PhoneListAgent.SetPreferences(SuperOffice.CRM.Services.PhoneListPreferences)
+  - SuperOffice.CRM.Services.PhoneListAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.PhoneListAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.PhoneListAgent.AddToFavoritesAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.PhoneListAgent.GetContactPhonesAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhonesAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.PhoneListAgent.GetFavoritesPhonesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.PhoneListAgent.GetPreferencesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.PhoneListAgent.SearchAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferencesAsync(System.String,SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.PhoneListAgent.SetPreferencesAsync(SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -21,92 +22,145 @@ items:
   nameWithType: PhoneListAgent
   fullName: SuperOffice.CRM.Services.PhoneListAgent
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nFacade for the PhoneList Agent\nCollection of all services for searching for person or contact (company) phone numbers.\n"
-  example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (PhoneListAgent agent = new PhoneListAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  summary: >-
+    Proxy class for the PhoneList Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
   syntax:
-    content: 'public class PhoneListAgent : AgentBase<IPhoneListAgent>, IDisposable, IPhoneListAgent, IAgent'
-    content.vb: >-
-      Public Class PhoneListAgent
-          Inherits AgentBase(Of IPhoneListAgent)
-          Implements IDisposable, IPhoneListAgent, IAgent
+    content: 'public class PhoneListAgent : IPhoneListAgent, IAgent'
+    content.vb: Public Class PhoneListAgent Implements IPhoneListAgent, IAgent
   inheritance:
   - System.Object
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPhoneListAgent}
   implements:
-  - System.IDisposable
   - SuperOffice.CRM.Services.IPhoneListAgent
   - SuperOffice.CRM.Services.IAgent
   inheritedMembers:
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPhoneListAgent}.Dispose
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPhoneListAgent}.InnerAgent
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Services.PhoneListAgent.Search(System.String)
-  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.Search(System.String)
-  id: Search(System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.PhoneListAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.PhoneListAgent
   langs:
   - csharp
   - vb
-  name: Search(String)
-  nameWithType: PhoneListAgent.Search(String)
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.Search(System.String)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
+  name: PhoneListAgent(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor)
+  nameWithType: PhoneListAgent.PhoneListAgent(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.PhoneListAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nSearching the phone list. Using default search preferences or the preferences already set by the PhoneListPreferences Service\n"
   syntax:
-    content: public PhoneListItem[] Search(string searchString)
+    content: public PhoneListAgent(IPhoneListImplementation phoneListImplementation, IPhoneListPreferencesImplementation phoneListPreferencesImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: phoneListImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation
+    - id: phoneListPreferencesImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(phoneListImplementation As IPhoneListImplementation, phoneListPreferencesImplementation As IPhoneListPreferencesImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.PhoneListAgent.#ctor*
+  nameWithType.vb: PhoneListAgent.New(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.PhoneListAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.PhoneListAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  parent: SuperOffice.CRM.Services.PhoneListAgent
+  langs:
+  - csharp
+  - vb
+  name: PhoneListAgent(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: PhoneListAgent.PhoneListAgent(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.PhoneListAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public PhoneListAgent(IPhoneListImplementation phoneListImplementation, IPhoneListPreferencesImplementation phoneListPreferencesImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: phoneListImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation
+    - id: phoneListPreferencesImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(phoneListImplementation As IPhoneListImplementation, phoneListPreferencesImplementation As IPhoneListPreferencesImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.PhoneListAgent.#ctor*
+  nameWithType.vb: PhoneListAgent.New(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.PhoneListAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.PhoneListAgent.SearchAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.SearchAsync(System.String,System.Threading.CancellationToken)
+  id: SearchAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.PhoneListAgent
+  langs:
+  - csharp
+  - vb
+  name: SearchAsync(string, CancellationToken)
+  nameWithType: PhoneListAgent.SearchAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.SearchAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Searching the phone list. Using default search preferences or the preferences already set by the PhoneListPreferences Service
+  example: []
+  syntax:
+    content: public Task<PhoneListItem[]> SearchAsync(string searchString, CancellationToken cancellationToken = default)
     parameters:
     - id: searchString
       type: System.String
       description: The search string
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.PhoneListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PhoneListItem[]}
       description: The resulting phone list
-    content.vb: Public Function Search(searchString As String) As PhoneListItem()
-  overload: SuperOffice.CRM.Services.PhoneListAgent.Search*
+    content.vb: Public Function SearchAsync(searchString As String, cancellationToken As CancellationToken = Nothing) As Task(Of PhoneListItem())
+  overload: SuperOffice.CRM.Services.PhoneListAgent.SearchAsync*
   implements:
-  - SuperOffice.CRM.Services.IPhoneListAgent.Search(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferences(System.String,SuperOffice.CRM.Services.PhoneListPreferences)
-  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferences(System.String,SuperOffice.CRM.Services.PhoneListPreferences)
-  id: SearchWithPreferences(System.String,SuperOffice.CRM.Services.PhoneListPreferences)
+  - SuperOffice.CRM.Services.IPhoneListAgent.SearchAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: PhoneListAgent.SearchAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.PhoneListAgent.SearchAsync(String, System.Threading.CancellationToken)
+  name.vb: SearchAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferencesAsync(System.String,SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferencesAsync(System.String,SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
+  id: SearchWithPreferencesAsync(System.String,SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.PhoneListAgent
   langs:
   - csharp
   - vb
-  name: SearchWithPreferences(String, PhoneListPreferences)
-  nameWithType: PhoneListAgent.SearchWithPreferences(String, PhoneListPreferences)
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferences(System.String, SuperOffice.CRM.Services.PhoneListPreferences)
+  name: SearchWithPreferencesAsync(string, PhoneListPreferences, CancellationToken)
+  nameWithType: PhoneListAgent.SearchWithPreferencesAsync(string, PhoneListPreferences, CancellationToken)
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferencesAsync(string, SuperOffice.CRM.Services.PhoneListPreferences, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nSearching the phone list. Search is based on the supplied preferences.\n"
+  summary: Searching the phone list. Search is based on the supplied preferences.
+  example: []
   syntax:
-    content: public PhoneListItem[] SearchWithPreferences(string searchString, PhoneListPreferences preferences)
+    content: public Task<PhoneListItem[]> SearchWithPreferencesAsync(string searchString, PhoneListPreferences preferences, CancellationToken cancellationToken = default)
     parameters:
     - id: searchString
       type: System.String
@@ -114,301 +168,268 @@ items:
     - id: preferences
       type: SuperOffice.CRM.Services.PhoneListPreferences
       description: The search preferences
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.PhoneListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PhoneListItem[]}
       description: The resulting phone list.
-    content.vb: Public Function SearchWithPreferences(searchString As String, preferences As PhoneListPreferences) As PhoneListItem()
-  overload: SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferences*
+    content.vb: Public Function SearchWithPreferencesAsync(searchString As String, preferences As PhoneListPreferences, cancellationToken As CancellationToken = Nothing) As Task(Of PhoneListItem())
+  overload: SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferencesAsync*
   implements:
-  - SuperOffice.CRM.Services.IPhoneListAgent.SearchWithPreferences(System.String,SuperOffice.CRM.Services.PhoneListPreferences)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhones(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhones(System.Int32)
-  id: GetDepartmentPhones(System.Int32)
+  - SuperOffice.CRM.Services.IPhoneListAgent.SearchWithPreferencesAsync(System.String,SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
+  nameWithType.vb: PhoneListAgent.SearchWithPreferencesAsync(String, PhoneListPreferences, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferencesAsync(String, SuperOffice.CRM.Services.PhoneListPreferences, System.Threading.CancellationToken)
+  name.vb: SearchWithPreferencesAsync(String, PhoneListPreferences, CancellationToken)
+- uid: SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhonesAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhonesAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetDepartmentPhonesAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.PhoneListAgent
   langs:
   - csharp
   - vb
-  name: GetDepartmentPhones(Int32)
-  nameWithType: PhoneListAgent.GetDepartmentPhones(Int32)
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhones(System.Int32)
+  name: GetDepartmentPhonesAsync(int, CancellationToken)
+  nameWithType: PhoneListAgent.GetDepartmentPhonesAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhonesAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns an array of phone list items with the in-parameter as restriction. The in-parameter must be a valid department id (UserGroupId).\n"
+  summary: Returns an array of phone list items with the in-parameter as restriction. The in-parameter must be a valid department id (UserGroupId).
+  example: []
   syntax:
-    content: public PhoneListItem[] GetDepartmentPhones(int departmentId)
+    content: public Task<PhoneListItem[]> GetDepartmentPhonesAsync(int departmentId, CancellationToken cancellationToken = default)
     parameters:
     - id: departmentId
       type: System.Int32
       description: The department to get the phone list for
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.PhoneListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PhoneListItem[]}
       description: The department phone list
-    content.vb: Public Function GetDepartmentPhones(departmentId As Integer) As PhoneListItem()
-  overload: SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhones*
+    content.vb: Public Function GetDepartmentPhonesAsync(departmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PhoneListItem())
+  overload: SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhonesAsync*
   implements:
-  - SuperOffice.CRM.Services.IPhoneListAgent.GetDepartmentPhones(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.PhoneListAgent.GetFavoritesPhones
-  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.GetFavoritesPhones
-  id: GetFavoritesPhones
+  - SuperOffice.CRM.Services.IPhoneListAgent.GetDepartmentPhonesAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: PhoneListAgent.GetDepartmentPhonesAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhonesAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetDepartmentPhonesAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.PhoneListAgent.GetFavoritesPhonesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.GetFavoritesPhonesAsync(System.Threading.CancellationToken)
+  id: GetFavoritesPhonesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.PhoneListAgent
   langs:
   - csharp
   - vb
-  name: GetFavoritesPhones()
-  nameWithType: PhoneListAgent.GetFavoritesPhones()
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.GetFavoritesPhones()
+  name: GetFavoritesPhonesAsync(CancellationToken)
+  nameWithType: PhoneListAgent.GetFavoritesPhonesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.GetFavoritesPhonesAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns an array of phone list items with the Contacts in the users favorites dropdown list.\n"
+  summary: Returns an array of phone list items with the Contacts in the users favorites dropdown list.
+  example: []
   syntax:
-    content: public PhoneListItem[] GetFavoritesPhones()
+    content: public Task<PhoneListItem[]> GetFavoritesPhonesAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.PhoneListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PhoneListItem[]}
       description: The favorite contact phone list
-    content.vb: Public Function GetFavoritesPhones As PhoneListItem()
-  overload: SuperOffice.CRM.Services.PhoneListAgent.GetFavoritesPhones*
+    content.vb: Public Function GetFavoritesPhonesAsync(cancellationToken As CancellationToken = Nothing) As Task(Of PhoneListItem())
+  overload: SuperOffice.CRM.Services.PhoneListAgent.GetFavoritesPhonesAsync*
   implements:
-  - SuperOffice.CRM.Services.IPhoneListAgent.GetFavoritesPhones
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.PhoneListAgent.GetContactPhones(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.GetContactPhones(System.Int32)
-  id: GetContactPhones(System.Int32)
+  - SuperOffice.CRM.Services.IPhoneListAgent.GetFavoritesPhonesAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.PhoneListAgent.GetContactPhonesAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.GetContactPhonesAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetContactPhonesAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.PhoneListAgent
   langs:
   - csharp
   - vb
-  name: GetContactPhones(Int32)
-  nameWithType: PhoneListAgent.GetContactPhones(Int32)
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.GetContactPhones(System.Int32)
+  name: GetContactPhonesAsync(int, CancellationToken)
+  nameWithType: PhoneListAgent.GetContactPhonesAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.GetContactPhonesAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns an array of phone list items for all the persons belonging to a contact (company). The in-parameter must be a valid contact-id.\n"
+  summary: Returns an array of phone list items for all the persons belonging to a contact (company). The in-parameter must be a valid contact-id.
+  example: []
   syntax:
-    content: public PhoneListItem[] GetContactPhones(int contactId)
+    content: public Task<PhoneListItem[]> GetContactPhonesAsync(int contactId, CancellationToken cancellationToken = default)
     parameters:
     - id: contactId
       type: System.Int32
       description: The contact id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.PhoneListItem[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PhoneListItem[]}
       description: The contacts phone list.
-    content.vb: Public Function GetContactPhones(contactId As Integer) As PhoneListItem()
-  overload: SuperOffice.CRM.Services.PhoneListAgent.GetContactPhones*
+    content.vb: Public Function GetContactPhonesAsync(contactId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PhoneListItem())
+  overload: SuperOffice.CRM.Services.PhoneListAgent.GetContactPhonesAsync*
   implements:
-  - SuperOffice.CRM.Services.IPhoneListAgent.GetContactPhones(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.PhoneListAgent.AddToFavorites(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.AddToFavorites(System.Int32)
-  id: AddToFavorites(System.Int32)
+  - SuperOffice.CRM.Services.IPhoneListAgent.GetContactPhonesAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: PhoneListAgent.GetContactPhonesAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.PhoneListAgent.GetContactPhonesAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetContactPhonesAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.PhoneListAgent.AddToFavoritesAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.AddToFavoritesAsync(System.Int32,System.Threading.CancellationToken)
+  id: AddToFavoritesAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.PhoneListAgent
   langs:
   - csharp
   - vb
-  name: AddToFavorites(Int32)
-  nameWithType: PhoneListAgent.AddToFavorites(Int32)
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.AddToFavorites(System.Int32)
+  name: AddToFavoritesAsync(int, CancellationToken)
+  nameWithType: PhoneListAgent.AddToFavoritesAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.AddToFavoritesAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nAdds a new contact to the history/favorites. Returns the rank of the new history item. If the contact already existed in the history, it isn&apos;t added but the rank is updated.\n"
+  summary: Adds a new contact to the history/favorites. Returns the rank of the new history item. If the contact already existed in the history, it isn't added but the rank is updated.
+  example: []
   syntax:
-    content: public int AddToFavorites(int contactId)
+    content: public Task<int> AddToFavoritesAsync(int contactId, CancellationToken cancellationToken = default)
     parameters:
     - id: contactId
       type: System.Int32
       description: The contact id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: The rank of the history item
-    content.vb: Public Function AddToFavorites(contactId As Integer) As Integer
-  overload: SuperOffice.CRM.Services.PhoneListAgent.AddToFavorites*
+    content.vb: Public Function AddToFavoritesAsync(contactId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.PhoneListAgent.AddToFavoritesAsync*
   implements:
-  - SuperOffice.CRM.Services.IPhoneListAgent.AddToFavorites(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.PhoneListAgent.GetPreferences
-  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.GetPreferences
-  id: GetPreferences
+  - SuperOffice.CRM.Services.IPhoneListAgent.AddToFavoritesAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: PhoneListAgent.AddToFavoritesAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.PhoneListAgent.AddToFavoritesAsync(Integer, System.Threading.CancellationToken)
+  name.vb: AddToFavoritesAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.PhoneListAgent.GetPreferencesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.GetPreferencesAsync(System.Threading.CancellationToken)
+  id: GetPreferencesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.PhoneListAgent
   langs:
   - csharp
   - vb
-  name: GetPreferences()
-  nameWithType: PhoneListAgent.GetPreferences()
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.GetPreferences()
+  name: GetPreferencesAsync(CancellationToken)
+  nameWithType: PhoneListAgent.GetPreferencesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.GetPreferencesAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGetting Phone List Preferences from the CRM 5 user preferences\n"
+  summary: Getting Phone List Preferences from the CRM 5 user preferences
+  example: []
   syntax:
-    content: public PhoneListPreferences GetPreferences()
+    content: public Task<PhoneListPreferences> GetPreferencesAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.PhoneListPreferences
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PhoneListPreferences}
       description: The Phone List Preferences
-    content.vb: Public Function GetPreferences As PhoneListPreferences
-  overload: SuperOffice.CRM.Services.PhoneListAgent.GetPreferences*
+    content.vb: Public Function GetPreferencesAsync(cancellationToken As CancellationToken = Nothing) As Task(Of PhoneListPreferences)
+  overload: SuperOffice.CRM.Services.PhoneListAgent.GetPreferencesAsync*
   implements:
-  - SuperOffice.CRM.Services.IPhoneListAgent.GetPreferences
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.PhoneListAgent.SetPreferences(SuperOffice.CRM.Services.PhoneListPreferences)
-  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.SetPreferences(SuperOffice.CRM.Services.PhoneListPreferences)
-  id: SetPreferences(SuperOffice.CRM.Services.PhoneListPreferences)
+  - SuperOffice.CRM.Services.IPhoneListAgent.GetPreferencesAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.PhoneListAgent.SetPreferencesAsync(SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.SetPreferencesAsync(SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
+  id: SetPreferencesAsync(SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.PhoneListAgent
   langs:
   - csharp
   - vb
-  name: SetPreferences(PhoneListPreferences)
-  nameWithType: PhoneListAgent.SetPreferences(PhoneListPreferences)
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.SetPreferences(SuperOffice.CRM.Services.PhoneListPreferences)
+  name: SetPreferencesAsync(PhoneListPreferences, CancellationToken)
+  nameWithType: PhoneListAgent.SetPreferencesAsync(PhoneListPreferences, CancellationToken)
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.SetPreferencesAsync(SuperOffice.CRM.Services.PhoneListPreferences, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nSetting Phone List Preferences to the CRM 5 user preferences\n"
+  summary: Setting Phone List Preferences to the CRM 5 user preferences
+  example: []
   syntax:
-    content: public void SetPreferences(PhoneListPreferences preferences)
+    content: public Task SetPreferencesAsync(PhoneListPreferences preferences, CancellationToken cancellationToken = default)
     parameters:
     - id: preferences
       type: SuperOffice.CRM.Services.PhoneListPreferences
       description: The preference that is set as user preferences
-    content.vb: Public Sub SetPreferences(preferences As PhoneListPreferences)
-  overload: SuperOffice.CRM.Services.PhoneListAgent.SetPreferences*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function SetPreferencesAsync(preferences As PhoneListPreferences, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.PhoneListAgent.SetPreferencesAsync*
   implements:
-  - SuperOffice.CRM.Services.IPhoneListAgent.SetPreferences(SuperOffice.CRM.Services.PhoneListPreferences)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.PhoneListAgent.#ctor
-  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Services.PhoneListAgent
-  langs:
-  - csharp
-  - vb
-  name: PhoneListAgent()
-  nameWithType: PhoneListAgent.PhoneListAgent()
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.PhoneListAgent()
-  type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  syntax:
-    content: public PhoneListAgent()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Services.PhoneListAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.Services.IPhoneListAgent.SetPreferencesAsync(SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPhoneListAgent}
-  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPhoneListAgent}
-  parent: SuperOffice.CRM.Services
-  definition: SuperOffice.CRM.Services.AgentBase`1
-  name: AgentBase<IPhoneListAgent>
-  nameWithType: AgentBase<IPhoneListAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IPhoneListAgent>
-  nameWithType.vb: AgentBase(Of IPhoneListAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IPhoneListAgent)
-  name.vb: AgentBase(Of IPhoneListAgent)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent
-    name: IPhoneListAgent
-    nameWithType: IPhoneListAgent
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent
-    name: IPhoneListAgent
-    nameWithType: IPhoneListAgent
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IDisposable
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.IPhoneListAgent
   commentId: T:SuperOffice.CRM.Services.IPhoneListAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IPhoneListAgent.html
   name: IPhoneListAgent
   nameWithType: IPhoneListAgent
   fullName: SuperOffice.CRM.Services.IPhoneListAgent
@@ -416,558 +437,963 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPhoneListAgent}.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPhoneListAgent}.Dispose
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPhoneListAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  name: Dispose()
-  nameWithType: AgentBase<IPhoneListAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IPhoneListAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of IPhoneListAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IPhoneListAgent).Dispose()
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<IPhoneListAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IPhoneListAgent>.Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of IPhoneListAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IPhoneListAgent).Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPhoneListAgent}.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPhoneListAgent}.InnerAgent
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPhoneListAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  name: InnerAgent
-  nameWithType: AgentBase<IPhoneListAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IPhoneListAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of IPhoneListAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IPhoneListAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.AgentBase`1
-  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
-  name: AgentBase<TAgent>
-  nameWithType: AgentBase<TAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
-  nameWithType.vb: AgentBase(Of TAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
-  name.vb: AgentBase(Of TAgent)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: Dispose()
-  nameWithType: AgentBase<TAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of TAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<TAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of TAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: InnerAgent
-  nameWithType: AgentBase<TAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.PhoneListAgent.Search*
-  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.Search
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
   isExternal: true
-  name: Search
-  nameWithType: PhoneListAgent.Search
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.Search
-- uid: SuperOffice.CRM.Services.IPhoneListAgent.Search(System.String)
-  commentId: M:SuperOffice.CRM.Services.IPhoneListAgent.Search(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.PhoneListAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.PhoneListAgent.html#SuperOffice_CRM_Services_PhoneListAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IPhoneListImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IPhoneListPreferencesImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: PhoneListAgent
+  nameWithType: PhoneListAgent.PhoneListAgent
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.PhoneListAgent
+  nameWithType.vb: PhoneListAgent.New
+  fullName.vb: SuperOffice.CRM.Services.PhoneListAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation.html
+  name: IPhoneListImplementation
+  nameWithType: IPhoneListImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation.html
+  name: IPhoneListPreferencesImplementation
+  nameWithType: IPhoneListPreferencesImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.PhoneListAgent.SearchAsync*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.SearchAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.PhoneListAgent.html#SuperOffice_CRM_Services_PhoneListAgent_SearchAsync_System_String_System_Threading_CancellationToken_
+  name: SearchAsync
+  nameWithType: PhoneListAgent.SearchAsync
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.SearchAsync
+- uid: SuperOffice.CRM.Services.IPhoneListAgent.SearchAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPhoneListAgent.SearchAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPhoneListAgent
   isExternal: true
-  name: Search(String)
-  nameWithType: IPhoneListAgent.Search(String)
-  fullName: SuperOffice.CRM.Services.IPhoneListAgent.Search(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SearchAsync(string, CancellationToken)
+  nameWithType: IPhoneListAgent.SearchAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPhoneListAgent.SearchAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: IPhoneListAgent.SearchAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPhoneListAgent.SearchAsync(String, System.Threading.CancellationToken)
+  name.vb: SearchAsync(String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent.Search(System.String)
-    name: Search
-    nameWithType: IPhoneListAgent.Search
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent.Search
+  - uid: SuperOffice.CRM.Services.IPhoneListAgent.SearchAsync(System.String,System.Threading.CancellationToken)
+    name: SearchAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent.Search(System.String)
-    name: Search
-    nameWithType: IPhoneListAgent.Search
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent.Search
+  - uid: SuperOffice.CRM.Services.IPhoneListAgent.SearchAsync(System.String,System.Threading.CancellationToken)
+    name: SearchAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Services.PhoneListItem[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: PhoneListItem[]
-  nameWithType: PhoneListItem[]
-  fullName: SuperOffice.CRM.Services.PhoneListItem[]
-  nameWithType.vb: PhoneListItem()
-  fullName.vb: SuperOffice.CRM.Services.PhoneListItem()
-  name.vb: PhoneListItem()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PhoneListItem[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PhoneListItem[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PhoneListItem[]>
+  nameWithType: Task<PhoneListItem[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PhoneListItem[]>
+  nameWithType.vb: Task(Of PhoneListItem())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PhoneListItem())
+  name.vb: Task(Of PhoneListItem())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.CRM.Services.PhoneListItem
     name: PhoneListItem
-    nameWithType: PhoneListItem
-    fullName: SuperOffice.CRM.Services.PhoneListItem
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.PhoneListItem.html
+  - name: '['
+  - name: ']'
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Services.PhoneListItem
     name: PhoneListItem
-    nameWithType: PhoneListItem
-    fullName: SuperOffice.CRM.Services.PhoneListItem
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: System
-  commentId: N:System
+    href: SuperOffice.CRM.Services.PhoneListItem.html
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferences*
-  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferences
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: SearchWithPreferences
-  nameWithType: PhoneListAgent.SearchWithPreferences
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferences
-- uid: SuperOffice.CRM.Services.IPhoneListAgent.SearchWithPreferences(System.String,SuperOffice.CRM.Services.PhoneListPreferences)
-  commentId: M:SuperOffice.CRM.Services.IPhoneListAgent.SearchWithPreferences(System.String,SuperOffice.CRM.Services.PhoneListPreferences)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferencesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferencesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.PhoneListAgent.html#SuperOffice_CRM_Services_PhoneListAgent_SearchWithPreferencesAsync_System_String_SuperOffice_CRM_Services_PhoneListPreferences_System_Threading_CancellationToken_
+  name: SearchWithPreferencesAsync
+  nameWithType: PhoneListAgent.SearchWithPreferencesAsync
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.SearchWithPreferencesAsync
+- uid: SuperOffice.CRM.Services.IPhoneListAgent.SearchWithPreferencesAsync(System.String,SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPhoneListAgent.SearchWithPreferencesAsync(System.String,SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPhoneListAgent
   isExternal: true
-  name: SearchWithPreferences(String, PhoneListPreferences)
-  nameWithType: IPhoneListAgent.SearchWithPreferences(String, PhoneListPreferences)
-  fullName: SuperOffice.CRM.Services.IPhoneListAgent.SearchWithPreferences(System.String, SuperOffice.CRM.Services.PhoneListPreferences)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SearchWithPreferencesAsync(string, PhoneListPreferences, CancellationToken)
+  nameWithType: IPhoneListAgent.SearchWithPreferencesAsync(string, PhoneListPreferences, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPhoneListAgent.SearchWithPreferencesAsync(string, SuperOffice.CRM.Services.PhoneListPreferences, System.Threading.CancellationToken)
+  nameWithType.vb: IPhoneListAgent.SearchWithPreferencesAsync(String, PhoneListPreferences, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPhoneListAgent.SearchWithPreferencesAsync(String, SuperOffice.CRM.Services.PhoneListPreferences, System.Threading.CancellationToken)
+  name.vb: SearchWithPreferencesAsync(String, PhoneListPreferences, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent.SearchWithPreferences(System.String,SuperOffice.CRM.Services.PhoneListPreferences)
-    name: SearchWithPreferences
-    nameWithType: IPhoneListAgent.SearchWithPreferences
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent.SearchWithPreferences
+  - uid: SuperOffice.CRM.Services.IPhoneListAgent.SearchWithPreferencesAsync(System.String,SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
+    name: SearchWithPreferencesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Services.PhoneListPreferences
     name: PhoneListPreferences
-    nameWithType: PhoneListPreferences
-    fullName: SuperOffice.CRM.Services.PhoneListPreferences
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent.SearchWithPreferences(System.String,SuperOffice.CRM.Services.PhoneListPreferences)
-    name: SearchWithPreferences
-    nameWithType: IPhoneListAgent.SearchWithPreferences
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent.SearchWithPreferences
+  - uid: SuperOffice.CRM.Services.IPhoneListAgent.SearchWithPreferencesAsync(System.String,SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
+    name: SearchWithPreferencesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.Services.PhoneListPreferences
     name: PhoneListPreferences
-    nameWithType: PhoneListPreferences
-    fullName: SuperOffice.CRM.Services.PhoneListPreferences
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.PhoneListPreferences
   commentId: T:SuperOffice.CRM.Services.PhoneListPreferences
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.PhoneListPreferences.html
   name: PhoneListPreferences
   nameWithType: PhoneListPreferences
   fullName: SuperOffice.CRM.Services.PhoneListPreferences
-- uid: SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhones*
-  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhones
+- uid: SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhonesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhonesAsync
   isExternal: true
-  name: GetDepartmentPhones
-  nameWithType: PhoneListAgent.GetDepartmentPhones
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhones
-- uid: SuperOffice.CRM.Services.IPhoneListAgent.GetDepartmentPhones(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IPhoneListAgent.GetDepartmentPhones(System.Int32)
+  href: SuperOffice.CRM.Services.PhoneListAgent.html#SuperOffice_CRM_Services_PhoneListAgent_GetDepartmentPhonesAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetDepartmentPhonesAsync
+  nameWithType: PhoneListAgent.GetDepartmentPhonesAsync
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhonesAsync
+- uid: SuperOffice.CRM.Services.IPhoneListAgent.GetDepartmentPhonesAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPhoneListAgent.GetDepartmentPhonesAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPhoneListAgent
   isExternal: true
-  name: GetDepartmentPhones(Int32)
-  nameWithType: IPhoneListAgent.GetDepartmentPhones(Int32)
-  fullName: SuperOffice.CRM.Services.IPhoneListAgent.GetDepartmentPhones(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetDepartmentPhonesAsync(int, CancellationToken)
+  nameWithType: IPhoneListAgent.GetDepartmentPhonesAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPhoneListAgent.GetDepartmentPhonesAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IPhoneListAgent.GetDepartmentPhonesAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPhoneListAgent.GetDepartmentPhonesAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetDepartmentPhonesAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent.GetDepartmentPhones(System.Int32)
-    name: GetDepartmentPhones
-    nameWithType: IPhoneListAgent.GetDepartmentPhones
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent.GetDepartmentPhones
+  - uid: SuperOffice.CRM.Services.IPhoneListAgent.GetDepartmentPhonesAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetDepartmentPhonesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent.GetDepartmentPhones(System.Int32)
-    name: GetDepartmentPhones
-    nameWithType: IPhoneListAgent.GetDepartmentPhones
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent.GetDepartmentPhones
+  - uid: SuperOffice.CRM.Services.IPhoneListAgent.GetDepartmentPhonesAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetDepartmentPhonesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Services.PhoneListAgent.GetFavoritesPhones*
-  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.GetFavoritesPhones
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.PhoneListAgent.GetFavoritesPhonesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.GetFavoritesPhonesAsync
   isExternal: true
-  name: GetFavoritesPhones
-  nameWithType: PhoneListAgent.GetFavoritesPhones
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.GetFavoritesPhones
-- uid: SuperOffice.CRM.Services.IPhoneListAgent.GetFavoritesPhones
-  commentId: M:SuperOffice.CRM.Services.IPhoneListAgent.GetFavoritesPhones
+  href: SuperOffice.CRM.Services.PhoneListAgent.html#SuperOffice_CRM_Services_PhoneListAgent_GetFavoritesPhonesAsync_System_Threading_CancellationToken_
+  name: GetFavoritesPhonesAsync
+  nameWithType: PhoneListAgent.GetFavoritesPhonesAsync
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.GetFavoritesPhonesAsync
+- uid: SuperOffice.CRM.Services.IPhoneListAgent.GetFavoritesPhonesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPhoneListAgent.GetFavoritesPhonesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPhoneListAgent
   isExternal: true
-  name: GetFavoritesPhones()
-  nameWithType: IPhoneListAgent.GetFavoritesPhones()
-  fullName: SuperOffice.CRM.Services.IPhoneListAgent.GetFavoritesPhones()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetFavoritesPhonesAsync(CancellationToken)
+  nameWithType: IPhoneListAgent.GetFavoritesPhonesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPhoneListAgent.GetFavoritesPhonesAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent.GetFavoritesPhones
-    name: GetFavoritesPhones
-    nameWithType: IPhoneListAgent.GetFavoritesPhones
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent.GetFavoritesPhones
+  - uid: SuperOffice.CRM.Services.IPhoneListAgent.GetFavoritesPhonesAsync(System.Threading.CancellationToken)
+    name: GetFavoritesPhonesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent.GetFavoritesPhones
-    name: GetFavoritesPhones
-    nameWithType: IPhoneListAgent.GetFavoritesPhones
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent.GetFavoritesPhones
+  - uid: SuperOffice.CRM.Services.IPhoneListAgent.GetFavoritesPhonesAsync(System.Threading.CancellationToken)
+    name: GetFavoritesPhonesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.PhoneListAgent.GetContactPhones*
-  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.GetContactPhones
+- uid: SuperOffice.CRM.Services.PhoneListAgent.GetContactPhonesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.GetContactPhonesAsync
   isExternal: true
-  name: GetContactPhones
-  nameWithType: PhoneListAgent.GetContactPhones
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.GetContactPhones
-- uid: SuperOffice.CRM.Services.IPhoneListAgent.GetContactPhones(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IPhoneListAgent.GetContactPhones(System.Int32)
+  href: SuperOffice.CRM.Services.PhoneListAgent.html#SuperOffice_CRM_Services_PhoneListAgent_GetContactPhonesAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetContactPhonesAsync
+  nameWithType: PhoneListAgent.GetContactPhonesAsync
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.GetContactPhonesAsync
+- uid: SuperOffice.CRM.Services.IPhoneListAgent.GetContactPhonesAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPhoneListAgent.GetContactPhonesAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPhoneListAgent
   isExternal: true
-  name: GetContactPhones(Int32)
-  nameWithType: IPhoneListAgent.GetContactPhones(Int32)
-  fullName: SuperOffice.CRM.Services.IPhoneListAgent.GetContactPhones(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetContactPhonesAsync(int, CancellationToken)
+  nameWithType: IPhoneListAgent.GetContactPhonesAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPhoneListAgent.GetContactPhonesAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IPhoneListAgent.GetContactPhonesAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPhoneListAgent.GetContactPhonesAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetContactPhonesAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent.GetContactPhones(System.Int32)
-    name: GetContactPhones
-    nameWithType: IPhoneListAgent.GetContactPhones
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent.GetContactPhones
+  - uid: SuperOffice.CRM.Services.IPhoneListAgent.GetContactPhonesAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetContactPhonesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent.GetContactPhones(System.Int32)
-    name: GetContactPhones
-    nameWithType: IPhoneListAgent.GetContactPhones
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent.GetContactPhones
+  - uid: SuperOffice.CRM.Services.IPhoneListAgent.GetContactPhonesAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetContactPhonesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.PhoneListAgent.AddToFavorites*
-  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.AddToFavorites
+- uid: SuperOffice.CRM.Services.PhoneListAgent.AddToFavoritesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.AddToFavoritesAsync
   isExternal: true
-  name: AddToFavorites
-  nameWithType: PhoneListAgent.AddToFavorites
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.AddToFavorites
-- uid: SuperOffice.CRM.Services.IPhoneListAgent.AddToFavorites(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IPhoneListAgent.AddToFavorites(System.Int32)
+  href: SuperOffice.CRM.Services.PhoneListAgent.html#SuperOffice_CRM_Services_PhoneListAgent_AddToFavoritesAsync_System_Int32_System_Threading_CancellationToken_
+  name: AddToFavoritesAsync
+  nameWithType: PhoneListAgent.AddToFavoritesAsync
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.AddToFavoritesAsync
+- uid: SuperOffice.CRM.Services.IPhoneListAgent.AddToFavoritesAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPhoneListAgent.AddToFavoritesAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPhoneListAgent
   isExternal: true
-  name: AddToFavorites(Int32)
-  nameWithType: IPhoneListAgent.AddToFavorites(Int32)
-  fullName: SuperOffice.CRM.Services.IPhoneListAgent.AddToFavorites(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: AddToFavoritesAsync(int, CancellationToken)
+  nameWithType: IPhoneListAgent.AddToFavoritesAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPhoneListAgent.AddToFavoritesAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IPhoneListAgent.AddToFavoritesAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPhoneListAgent.AddToFavoritesAsync(Integer, System.Threading.CancellationToken)
+  name.vb: AddToFavoritesAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent.AddToFavorites(System.Int32)
-    name: AddToFavorites
-    nameWithType: IPhoneListAgent.AddToFavorites
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent.AddToFavorites
+  - uid: SuperOffice.CRM.Services.IPhoneListAgent.AddToFavoritesAsync(System.Int32,System.Threading.CancellationToken)
+    name: AddToFavoritesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent.AddToFavorites(System.Int32)
-    name: AddToFavorites
-    nameWithType: IPhoneListAgent.AddToFavorites
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent.AddToFavorites
+  - uid: SuperOffice.CRM.Services.IPhoneListAgent.AddToFavoritesAsync(System.Int32,System.Threading.CancellationToken)
+    name: AddToFavoritesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.PhoneListAgent.GetPreferences*
-  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.GetPreferences
-  isExternal: true
-  name: GetPreferences
-  nameWithType: PhoneListAgent.GetPreferences
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.GetPreferences
-- uid: SuperOffice.CRM.Services.IPhoneListAgent.GetPreferences
-  commentId: M:SuperOffice.CRM.Services.IPhoneListAgent.GetPreferences
-  parent: SuperOffice.CRM.Services.IPhoneListAgent
-  isExternal: true
-  name: GetPreferences()
-  nameWithType: IPhoneListAgent.GetPreferences()
-  fullName: SuperOffice.CRM.Services.IPhoneListAgent.GetPreferences()
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent.GetPreferences
-    name: GetPreferences
-    nameWithType: IPhoneListAgent.GetPreferences
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent.GetPreferences
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent.GetPreferences
-    name: GetPreferences
-    nameWithType: IPhoneListAgent.GetPreferences
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent.GetPreferences
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.PhoneListAgent.SetPreferences*
-  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.SetPreferences
+- uid: SuperOffice.CRM.Services.PhoneListAgent.GetPreferencesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.GetPreferencesAsync
   isExternal: true
-  name: SetPreferences
-  nameWithType: PhoneListAgent.SetPreferences
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.SetPreferences
-- uid: SuperOffice.CRM.Services.IPhoneListAgent.SetPreferences(SuperOffice.CRM.Services.PhoneListPreferences)
-  commentId: M:SuperOffice.CRM.Services.IPhoneListAgent.SetPreferences(SuperOffice.CRM.Services.PhoneListPreferences)
+  href: SuperOffice.CRM.Services.PhoneListAgent.html#SuperOffice_CRM_Services_PhoneListAgent_GetPreferencesAsync_System_Threading_CancellationToken_
+  name: GetPreferencesAsync
+  nameWithType: PhoneListAgent.GetPreferencesAsync
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.GetPreferencesAsync
+- uid: SuperOffice.CRM.Services.IPhoneListAgent.GetPreferencesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPhoneListAgent.GetPreferencesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPhoneListAgent
   isExternal: true
-  name: SetPreferences(PhoneListPreferences)
-  nameWithType: IPhoneListAgent.SetPreferences(PhoneListPreferences)
-  fullName: SuperOffice.CRM.Services.IPhoneListAgent.SetPreferences(SuperOffice.CRM.Services.PhoneListPreferences)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetPreferencesAsync(CancellationToken)
+  nameWithType: IPhoneListAgent.GetPreferencesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPhoneListAgent.GetPreferencesAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent.SetPreferences(SuperOffice.CRM.Services.PhoneListPreferences)
-    name: SetPreferences
-    nameWithType: IPhoneListAgent.SetPreferences
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent.SetPreferences
+  - uid: SuperOffice.CRM.Services.IPhoneListAgent.GetPreferencesAsync(System.Threading.CancellationToken)
+    name: GetPreferencesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPhoneListAgent.GetPreferencesAsync(System.Threading.CancellationToken)
+    name: GetPreferencesAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PhoneListPreferences}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PhoneListPreferences}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PhoneListPreferences>
+  nameWithType: Task<PhoneListPreferences>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PhoneListPreferences>
+  nameWithType.vb: Task(Of PhoneListPreferences)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PhoneListPreferences)
+  name.vb: Task(Of PhoneListPreferences)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.CRM.Services.PhoneListPreferences
     name: PhoneListPreferences
-    nameWithType: PhoneListPreferences
-    fullName: SuperOffice.CRM.Services.PhoneListPreferences
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.CRM.Services.PhoneListPreferences.html
+  - name: '>'
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IPhoneListAgent.SetPreferences(SuperOffice.CRM.Services.PhoneListPreferences)
-    name: SetPreferences
-    nameWithType: IPhoneListAgent.SetPreferences
-    fullName: SuperOffice.CRM.Services.IPhoneListAgent.SetPreferences
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Services.PhoneListPreferences
     name: PhoneListPreferences
-    nameWithType: PhoneListPreferences
-    fullName: SuperOffice.CRM.Services.PhoneListPreferences
     isExternal: true
+    href: SuperOffice.CRM.Services.PhoneListPreferences.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.PhoneListAgent.#ctor*
-  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.#ctor
+- uid: SuperOffice.CRM.Services.PhoneListAgent.SetPreferencesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.SetPreferencesAsync
   isExternal: true
-  name: PhoneListAgent
-  nameWithType: PhoneListAgent.PhoneListAgent
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.PhoneListAgent
+  href: SuperOffice.CRM.Services.PhoneListAgent.html#SuperOffice_CRM_Services_PhoneListAgent_SetPreferencesAsync_SuperOffice_CRM_Services_PhoneListPreferences_System_Threading_CancellationToken_
+  name: SetPreferencesAsync
+  nameWithType: PhoneListAgent.SetPreferencesAsync
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.SetPreferencesAsync
+- uid: SuperOffice.CRM.Services.IPhoneListAgent.SetPreferencesAsync(SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPhoneListAgent.SetPreferencesAsync(SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IPhoneListAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SetPreferencesAsync(PhoneListPreferences, CancellationToken)
+  nameWithType: IPhoneListAgent.SetPreferencesAsync(PhoneListPreferences, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPhoneListAgent.SetPreferencesAsync(SuperOffice.CRM.Services.PhoneListPreferences, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPhoneListAgent.SetPreferencesAsync(SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
+    name: SetPreferencesAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.PhoneListPreferences
+    name: PhoneListPreferences
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPhoneListAgent.SetPreferencesAsync(SuperOffice.CRM.Services.PhoneListPreferences,System.Threading.CancellationToken)
+    name: SetPreferencesAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.PhoneListPreferences
+    name: PhoneListPreferences
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task

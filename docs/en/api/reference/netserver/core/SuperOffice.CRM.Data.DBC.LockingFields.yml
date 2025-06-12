@@ -10,9 +10,9 @@ items:
   - SuperOffice.CRM.Data.DBC.LockingFields.LastError
   - SuperOffice.CRM.Data.DBC.LockingFields.LastExecution
   - SuperOffice.CRM.Data.DBC.LockingFields.LockExpire
-  - SuperOffice.CRM.Data.DBC.LockingFields.LockingId
   - SuperOffice.CRM.Data.DBC.LockingFields.LockPid
   - SuperOffice.CRM.Data.DBC.LockingFields.LockTtl
+  - SuperOffice.CRM.Data.DBC.LockingFields.LockingId
   - SuperOffice.CRM.Data.DBC.LockingFields.Retries
   - SuperOffice.CRM.Data.DBC.LockingFields.Status
   - SuperOffice.CRM.Data.DBC.LockingFields.Stop
@@ -23,27 +23,24 @@ items:
   nameWithType: DBC.LockingFields
   fullName: SuperOffice.CRM.Data.DBC.LockingFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for Locking, Generic locking and error messages\n"
+  summary: Fields for Locking, Generic locking and error messages
+  example: []
   syntax:
-    content: 'public static class LockingFields : Object'
-    content.vb: >-
-      Public Module LockingFields
-          Inherits Object
+    content: public static class DBC.LockingFields
+    content.vb: Public Module DBC.LockingFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.LockingFields.LockingId
   commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.LockingId
   id: LockingId
@@ -55,24 +52,16 @@ items:
   nameWithType: DBC.LockingFields.LockingId
   fullName: SuperOffice.CRM.Data.DBC.LockingFields.LockingId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nLocking.LockingId: Primary key\n"
+  summary: 'Locking.LockingId: Primary key'
+  example: []
   syntax:
     content: public const string LockingId = "id"
     return:
       type: System.String
     content.vb: Public Const LockingId As String = "id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.LockingFields.Status
   commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.Status
   id: Status
@@ -84,24 +73,16 @@ items:
   nameWithType: DBC.LockingFields.Status
   fullName: SuperOffice.CRM.Data.DBC.LockingFields.Status
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nLocking.Status: Current status\n"
+  summary: 'Locking.Status: Current status'
+  example: []
   syntax:
     content: public const string Status = "status"
     return:
       type: System.String
     content.vb: Public Const Status As String = "status"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.LockingFields.Stop
   commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.Stop
   id: Stop
@@ -113,24 +94,16 @@ items:
   nameWithType: DBC.LockingFields.Stop
   fullName: SuperOffice.CRM.Data.DBC.LockingFields.Stop
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nLocking.Stop: Signal to stop schedule\n"
+  summary: 'Locking.Stop: Signal to stop schedule'
+  example: []
   syntax:
     content: public const string Stop = "stop"
     return:
       type: System.String
     content.vb: Public Const Stop As String = "stop"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.LockingFields.LastExecution
   commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.LastExecution
   id: LastExecution
@@ -142,24 +115,16 @@ items:
   nameWithType: DBC.LockingFields.LastExecution
   fullName: SuperOffice.CRM.Data.DBC.LockingFields.LastExecution
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nLocking.LastExecution: Last execution\n"
+  summary: 'Locking.LastExecution: Last execution'
+  example: []
   syntax:
     content: public const string LastExecution = "last_execution"
     return:
       type: System.String
     content.vb: Public Const LastExecution As String = "last_execution"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.LockingFields.ExecutionTime
   commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.ExecutionTime
   id: ExecutionTime
@@ -171,24 +136,16 @@ items:
   nameWithType: DBC.LockingFields.ExecutionTime
   fullName: SuperOffice.CRM.Data.DBC.LockingFields.ExecutionTime
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nLocking.ExecutionTime: Amount of time in seconds used by last execution\n"
+  summary: 'Locking.ExecutionTime: Amount of time in seconds used by last execution'
+  example: []
   syntax:
     content: public const string ExecutionTime = "execution_time"
     return:
       type: System.String
     content.vb: Public Const ExecutionTime As String = "execution_time"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.LockingFields.LockExpire
   commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.LockExpire
   id: LockExpire
@@ -200,24 +157,16 @@ items:
   nameWithType: DBC.LockingFields.LockExpire
   fullName: SuperOffice.CRM.Data.DBC.LockingFields.LockExpire
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nLocking.LockExpire: Lock preventing the same schedule to run simultaniously\n"
+  summary: 'Locking.LockExpire: Lock preventing the same schedule to run simultaniously'
+  example: []
   syntax:
     content: public const string LockExpire = "lock_expire"
     return:
       type: System.String
     content.vb: Public Const LockExpire As String = "lock_expire"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.LockingFields.LockPid
   commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.LockPid
   id: LockPid
@@ -229,24 +178,16 @@ items:
   nameWithType: DBC.LockingFields.LockPid
   fullName: SuperOffice.CRM.Data.DBC.LockingFields.LockPid
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nLocking.LockPid: PID preventing the same schedule to run simultaniously\n"
+  summary: 'Locking.LockPid: PID preventing the same schedule to run simultaniously'
+  example: []
   syntax:
     content: public const string LockPid = "lock_pid"
     return:
       type: System.String
     content.vb: Public Const LockPid As String = "lock_pid"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.LockingFields.LockTtl
   commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.LockTtl
   id: LockTtl
@@ -258,24 +199,16 @@ items:
   nameWithType: DBC.LockingFields.LockTtl
   fullName: SuperOffice.CRM.Data.DBC.LockingFields.LockTtl
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nLocking.LockTtl: Lock time to live\n"
+  summary: 'Locking.LockTtl: Lock time to live'
+  example: []
   syntax:
     content: public const string LockTtl = "lock_ttl"
     return:
       type: System.String
     content.vb: Public Const LockTtl As String = "lock_ttl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.LockingFields.ErrorMessage
   commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.ErrorMessage
   id: ErrorMessage
@@ -287,24 +220,16 @@ items:
   nameWithType: DBC.LockingFields.ErrorMessage
   fullName: SuperOffice.CRM.Data.DBC.LockingFields.ErrorMessage
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nLocking.ErrorMessage: Last error message\n"
+  summary: 'Locking.ErrorMessage: Last error message'
+  example: []
   syntax:
     content: public const string ErrorMessage = "error_message"
     return:
       type: System.String
     content.vb: Public Const ErrorMessage As String = "error_message"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.LockingFields.LastError
   commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.LastError
   id: LastError
@@ -316,24 +241,16 @@ items:
   nameWithType: DBC.LockingFields.LastError
   fullName: SuperOffice.CRM.Data.DBC.LockingFields.LastError
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nLocking.LastError: Time of last error\n"
+  summary: 'Locking.LastError: Time of last error'
+  example: []
   syntax:
     content: public const string LastError = "last_error"
     return:
       type: System.String
     content.vb: Public Const LastError As String = "last_error"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.LockingFields.Retries
   commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.Retries
   id: Retries
@@ -345,41 +262,288 @@ items:
   nameWithType: DBC.LockingFields.Retries
   fullName: SuperOffice.CRM.Data.DBC.LockingFields.Retries
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nLocking.Retries: Number of retries since last successfull execution\n"
+  summary: 'Locking.Retries: Number of retries since last successfull execution'
+  example: []
   syntax:
     content: public const string Retries = "retries"
     return:
       type: System.String
     content.vb: Public Const Retries As String = "retries"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -387,6 +551,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

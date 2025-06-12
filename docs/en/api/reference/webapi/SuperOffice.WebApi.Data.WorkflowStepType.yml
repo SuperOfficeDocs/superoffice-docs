@@ -18,7 +18,6 @@ items:
   - SuperOffice.WebApi.Data.WorkflowStepType.SendSMS
   - SuperOffice.WebApi.Data.WorkflowStepType.Split
   - SuperOffice.WebApi.Data.WorkflowStepType.UpdateParticipant
-  - SuperOffice.WebApi.Data.WorkflowStepType.value__
   - SuperOffice.WebApi.Data.WorkflowStepType.WaitForAction
   - SuperOffice.WebApi.Data.WorkflowStepType.WaitForTime
   langs:
@@ -27,57 +26,18 @@ items:
   name: WorkflowStepType
   nameWithType: WorkflowStepType
   fullName: SuperOffice.WebApi.Data.WorkflowStepType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWorkflow Step Type\nThis Enum is used by:  workflow_step.step_type\n"
-  syntax:
-    content: 'public sealed class WorkflowStepType : Enum'
-    content.vb: >-
-      Public NotInheritable Class WorkflowStepType
-          Inherits
+  summary: >-
+    Workflow Step Type
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.WorkflowStepType.value__
-  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.WorkflowStepType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: WorkflowStepType.value__
-  fullName: SuperOffice.WebApi.Data.WorkflowStepType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  workflow_step.step_type
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum WorkflowStepType : short'
+    content.vb: Public Enum WorkflowStepType As Short
 - uid: SuperOffice.WebApi.Data.WorkflowStepType.None
   commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.None
   id: None
@@ -89,24 +49,26 @@ items:
   nameWithType: WorkflowStepType.None
   fullName: SuperOffice.WebApi.Data.WorkflowStepType.None
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: None\n"
+  summary: '0: None'
+  example: []
   syntax:
-    content: public const WorkflowStepType None
+    content: >-
+      [EnumMember]
+
+      None = 0
     return:
       type: SuperOffice.WebApi.Data.WorkflowStepType
-    content.vb: Public Const None As WorkflowStepType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepType.SendEmail
   commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.SendEmail
   id: SendEmail
@@ -118,24 +80,26 @@ items:
   nameWithType: WorkflowStepType.SendEmail
   fullName: SuperOffice.WebApi.Data.WorkflowStepType.SendEmail
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: SendEmail\n"
+  summary: '1: SendEmail'
+  example: []
   syntax:
-    content: public const WorkflowStepType SendEmail
+    content: >-
+      [EnumMember]
+
+      SendEmail = 1
     return:
       type: SuperOffice.WebApi.Data.WorkflowStepType
-    content.vb: Public Const SendEmail As WorkflowStepType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SendEmail = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepType.SendSMS
   commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.SendSMS
   id: SendSMS
@@ -147,24 +111,26 @@ items:
   nameWithType: WorkflowStepType.SendSMS
   fullName: SuperOffice.WebApi.Data.WorkflowStepType.SendSMS
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: SendSMS\n"
+  summary: '2: SendSMS'
+  example: []
   syntax:
-    content: public const WorkflowStepType SendSMS
+    content: >-
+      [EnumMember]
+
+      SendSMS = 2
     return:
       type: SuperOffice.WebApi.Data.WorkflowStepType
-    content.vb: Public Const SendSMS As WorkflowStepType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SendSMS = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepType.WaitForTime
   commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.WaitForTime
   id: WaitForTime
@@ -176,24 +142,26 @@ items:
   nameWithType: WorkflowStepType.WaitForTime
   fullName: SuperOffice.WebApi.Data.WorkflowStepType.WaitForTime
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: WaitForTime\n"
+  summary: '3: WaitForTime'
+  example: []
   syntax:
-    content: public const WorkflowStepType WaitForTime
+    content: >-
+      [EnumMember]
+
+      WaitForTime = 3
     return:
       type: SuperOffice.WebApi.Data.WorkflowStepType
-    content.vb: Public Const WaitForTime As WorkflowStepType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      WaitForTime = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepType.WaitForAction
   commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.WaitForAction
   id: WaitForAction
@@ -205,24 +173,26 @@ items:
   nameWithType: WorkflowStepType.WaitForAction
   fullName: SuperOffice.WebApi.Data.WorkflowStepType.WaitForAction
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: WaitForAction\n"
+  summary: '4: WaitForAction'
+  example: []
   syntax:
-    content: public const WorkflowStepType WaitForAction
+    content: >-
+      [EnumMember]
+
+      WaitForAction = 4
     return:
       type: SuperOffice.WebApi.Data.WorkflowStepType
-    content.vb: Public Const WaitForAction As WorkflowStepType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      WaitForAction = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepType.Split
   commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.Split
   id: Split
@@ -234,24 +204,26 @@ items:
   nameWithType: WorkflowStepType.Split
   fullName: SuperOffice.WebApi.Data.WorkflowStepType.Split
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Split\n"
+  summary: '5: Split'
+  example: []
   syntax:
-    content: public const WorkflowStepType Split
+    content: >-
+      [EnumMember]
+
+      Split = 5
     return:
       type: SuperOffice.WebApi.Data.WorkflowStepType
-    content.vb: Public Const Split As WorkflowStepType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Split = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepType.UpdateParticipant
   commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.UpdateParticipant
   id: UpdateParticipant
@@ -263,24 +235,26 @@ items:
   nameWithType: WorkflowStepType.UpdateParticipant
   fullName: SuperOffice.WebApi.Data.WorkflowStepType.UpdateParticipant
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: UpdateParticipant\n"
+  summary: '6: UpdateParticipant'
+  example: []
   syntax:
-    content: public const WorkflowStepType UpdateParticipant
+    content: >-
+      [EnumMember]
+
+      UpdateParticipant = 6
     return:
       type: SuperOffice.WebApi.Data.WorkflowStepType
-    content.vb: Public Const UpdateParticipant As WorkflowStepType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UpdateParticipant = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepType.AddToList
   commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.AddToList
   id: AddToList
@@ -292,24 +266,26 @@ items:
   nameWithType: WorkflowStepType.AddToList
   fullName: SuperOffice.WebApi.Data.WorkflowStepType.AddToList
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: AddToList\n"
+  summary: '7: AddToList'
+  example: []
   syntax:
-    content: public const WorkflowStepType AddToList
+    content: >-
+      [EnumMember]
+
+      AddToList = 7
     return:
       type: SuperOffice.WebApi.Data.WorkflowStepType
-    content.vb: Public Const AddToList As WorkflowStepType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AddToList = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepType.RemoveFromList
   commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.RemoveFromList
   id: RemoveFromList
@@ -321,24 +297,26 @@ items:
   nameWithType: WorkflowStepType.RemoveFromList
   fullName: SuperOffice.WebApi.Data.WorkflowStepType.RemoveFromList
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: RemoveFromList\n"
+  summary: '8: RemoveFromList'
+  example: []
   syntax:
-    content: public const WorkflowStepType RemoveFromList
+    content: >-
+      [EnumMember]
+
+      RemoveFromList = 8
     return:
       type: SuperOffice.WebApi.Data.WorkflowStepType
-    content.vb: Public Const RemoveFromList As WorkflowStepType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      RemoveFromList = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepType.CreateRequest
   commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.CreateRequest
   id: CreateRequest
@@ -350,24 +328,26 @@ items:
   nameWithType: WorkflowStepType.CreateRequest
   fullName: SuperOffice.WebApi.Data.WorkflowStepType.CreateRequest
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n9: CreateRequest\n"
+  summary: '9: CreateRequest'
+  example: []
   syntax:
-    content: public const WorkflowStepType CreateRequest
+    content: >-
+      [EnumMember]
+
+      CreateRequest = 9
     return:
       type: SuperOffice.WebApi.Data.WorkflowStepType
-    content.vb: Public Const CreateRequest As WorkflowStepType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      CreateRequest = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepType.CreateFollowUp
   commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.CreateFollowUp
   id: CreateFollowUp
@@ -379,24 +359,26 @@ items:
   nameWithType: WorkflowStepType.CreateFollowUp
   fullName: SuperOffice.WebApi.Data.WorkflowStepType.CreateFollowUp
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n10: CreateFollowUp\n"
+  summary: '10: CreateFollowUp'
+  example: []
   syntax:
-    content: public const WorkflowStepType CreateFollowUp
+    content: >-
+      [EnumMember]
+
+      CreateFollowUp = 10
     return:
       type: SuperOffice.WebApi.Data.WorkflowStepType
-    content.vb: Public Const CreateFollowUp As WorkflowStepType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      CreateFollowUp = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepType.CreateSale
   commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.CreateSale
   id: CreateSale
@@ -408,24 +390,26 @@ items:
   nameWithType: WorkflowStepType.CreateSale
   fullName: SuperOffice.WebApi.Data.WorkflowStepType.CreateSale
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n11: CreateSale\n"
+  summary: '11: CreateSale'
+  example: []
   syntax:
-    content: public const WorkflowStepType CreateSale
+    content: >-
+      [EnumMember]
+
+      CreateSale = 11
     return:
       type: SuperOffice.WebApi.Data.WorkflowStepType
-    content.vb: Public Const CreateSale As WorkflowStepType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      CreateSale = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepType.NotifyByEmail
   commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.NotifyByEmail
   id: NotifyByEmail
@@ -437,24 +421,26 @@ items:
   nameWithType: WorkflowStepType.NotifyByEmail
   fullName: SuperOffice.WebApi.Data.WorkflowStepType.NotifyByEmail
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n12: NotifyByEmail\n"
+  summary: '12: NotifyByEmail'
+  example: []
   syntax:
-    content: public const WorkflowStepType NotifyByEmail
+    content: >-
+      [EnumMember]
+
+      NotifyByEmail = 12
     return:
       type: SuperOffice.WebApi.Data.WorkflowStepType
-    content.vb: Public Const NotifyByEmail As WorkflowStepType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NotifyByEmail = 12
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepType.NotifyBySMS
   commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.NotifyBySMS
   id: NotifyBySMS
@@ -466,24 +452,26 @@ items:
   nameWithType: WorkflowStepType.NotifyBySMS
   fullName: SuperOffice.WebApi.Data.WorkflowStepType.NotifyBySMS
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n13: NotifyBySMS\n"
+  summary: '13: NotifyBySMS'
+  example: []
   syntax:
-    content: public const WorkflowStepType NotifyBySMS
+    content: >-
+      [EnumMember]
+
+      NotifyBySMS = 13
     return:
       type: SuperOffice.WebApi.Data.WorkflowStepType
-    content.vb: Public Const NotifyBySMS As WorkflowStepType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NotifyBySMS = 13
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowStepType.RunScript
   commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.RunScript
   id: RunScript
@@ -495,55 +483,69 @@ items:
   nameWithType: WorkflowStepType.RunScript
   fullName: SuperOffice.WebApi.Data.WorkflowStepType.RunScript
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n14: RunScript\n"
+  summary: '14: RunScript'
+  example: []
   syntax:
-    content: public const WorkflowStepType RunScript
+    content: >-
+      [EnumMember]
+
+      RunScript = 14
     return:
       type: SuperOffice.WebApi.Data.WorkflowStepType
-    content.vb: Public Const RunScript As WorkflowStepType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      RunScript = 14
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.WorkflowStepType
   commentId: T:SuperOffice.WebApi.Data.WorkflowStepType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepType.html
   name: WorkflowStepType
   nameWithType: WorkflowStepType
   fullName: SuperOffice.WebApi.Data.WorkflowStepType

@@ -7,22 +7,22 @@ items:
   children:
   - SuperOffice.CRM.CustomerService.GetBaseUrl
   - SuperOffice.CRM.CustomerService.GetBaseUrl(System.String,SuperOffice.CRM.CustomerService.CsUrlType)
+  - SuperOffice.CRM.CustomerService.GetCSAuthUrl(System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.CustomerService.GetCgiBin
   - SuperOffice.CRM.CustomerService.GetCgiUrlDirect
   - SuperOffice.CRM.CustomerService.GetCgiUrlExternal
   - SuperOffice.CRM.CustomerService.GetCgiUrlInternal
   - SuperOffice.CRM.CustomerService.GetCreateMailingsUrl(System.String,System.String,System.String)
-  - SuperOffice.CRM.CustomerService.GetCSAuthUrl(System.String,System.String,System.String,System.String)
   - SuperOffice.CRM.CustomerService.GetCsProgramUrl(System.String,System.String,System.String,System.String,SuperOffice.Data.CsAuthenticationType,SuperOffice.CRM.CustomerService.CsUrlType)
-  - SuperOffice.CRM.CustomerService.GetCSRegistryValue(System.Int32)
+  - SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.CustomerService.GetEditUrlFor(System.Int32)
-  - SuperOffice.CRM.CustomerService.GetEMarketingUrl(System.String)
   - SuperOffice.CRM.CustomerService.GetOpenMailingsUrl(System.String,System.Int32)
   - SuperOffice.CRM.CustomerService.GetPreviewUrlFor(System.Int32)
   - SuperOffice.CRM.CustomerService.GetRegistryExtension
   - SuperOffice.CRM.CustomerService.GetShowUrlFor(System.Int32)
-  - SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl(System.Int32)
-  - SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl(System.Int32,System.String)
+  - SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.CustomerService.GetWwwFolder
   - SuperOffice.CRM.CustomerService.ListItemIdForMailingsTypeDocument
   - SuperOffice.CRM.CustomerService.ListItemIdForMailingsTypeHtml
@@ -38,26 +38,22 @@ items:
   nameWithType: CustomerService
   fullName: SuperOffice.CRM.CustomerService
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: 'public static class CustomerService : Object'
-    content.vb: >-
-      Public Module CustomerService
-          Inherits Object
+    content: public static class CustomerService
+    content.vb: Public Module CustomerService
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.CustomerService.MailingsTypeForHtml
   commentId: F:SuperOffice.CRM.CustomerService.MailingsTypeForHtml
   id: MailingsTypeForHtml
@@ -69,9 +65,6 @@ items:
   nameWithType: CustomerService.MailingsTypeForHtml
   fullName: SuperOffice.CRM.CustomerService.MailingsTypeForHtml
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -80,12 +73,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const MailingsTypeForHtml As String = "html"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CustomerService.MailingsTypeForSms
   commentId: F:SuperOffice.CRM.CustomerService.MailingsTypeForSms
   id: MailingsTypeForSms
@@ -97,9 +84,6 @@ items:
   nameWithType: CustomerService.MailingsTypeForSms
   fullName: SuperOffice.CRM.CustomerService.MailingsTypeForSms
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -108,12 +92,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const MailingsTypeForSms As String = "sms"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CustomerService.MailingsTypeForDocument
   commentId: F:SuperOffice.CRM.CustomerService.MailingsTypeForDocument
   id: MailingsTypeForDocument
@@ -125,9 +103,6 @@ items:
   nameWithType: CustomerService.MailingsTypeForDocument
   fullName: SuperOffice.CRM.CustomerService.MailingsTypeForDocument
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -136,12 +111,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const MailingsTypeForDocument As String = "doc"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CustomerService.ListItemIdForMailingsTypeHtml
   commentId: F:SuperOffice.CRM.CustomerService.ListItemIdForMailingsTypeHtml
   id: ListItemIdForMailingsTypeHtml
@@ -153,9 +122,6 @@ items:
   nameWithType: CustomerService.ListItemIdForMailingsTypeHtml
   fullName: SuperOffice.CRM.CustomerService.ListItemIdForMailingsTypeHtml
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -164,12 +130,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const ListItemIdForMailingsTypeHtml As Integer = 1
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CustomerService.ListItemIdForMailingsTypeSms
   commentId: F:SuperOffice.CRM.CustomerService.ListItemIdForMailingsTypeSms
   id: ListItemIdForMailingsTypeSms
@@ -181,9 +141,6 @@ items:
   nameWithType: CustomerService.ListItemIdForMailingsTypeSms
   fullName: SuperOffice.CRM.CustomerService.ListItemIdForMailingsTypeSms
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -192,12 +149,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const ListItemIdForMailingsTypeSms As Integer = 2
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CustomerService.ListItemIdForMailingsTypeDocument
   commentId: F:SuperOffice.CRM.CustomerService.ListItemIdForMailingsTypeDocument
   id: ListItemIdForMailingsTypeDocument
@@ -209,9 +160,6 @@ items:
   nameWithType: CustomerService.ListItemIdForMailingsTypeDocument
   fullName: SuperOffice.CRM.CustomerService.ListItemIdForMailingsTypeDocument
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -220,12 +168,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Const ListItemIdForMailingsTypeDocument As Integer = 3
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.CustomerService.GetShowUrlFor(System.Int32)
   commentId: M:SuperOffice.CRM.CustomerService.GetShowUrlFor(System.Int32)
   id: GetShowUrlFor(System.Int32)
@@ -233,32 +175,32 @@ items:
   langs:
   - csharp
   - vb
-  name: GetShowUrlFor(Int32)
-  nameWithType: CustomerService.GetShowUrlFor(Int32)
-  fullName: SuperOffice.CRM.CustomerService.GetShowUrlFor(System.Int32)
+  name: GetShowUrlFor(int)
+  nameWithType: CustomerService.GetShowUrlFor(int)
+  fullName: SuperOffice.CRM.CustomerService.GetShowUrlFor(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nUsed by Win client. They don&apos;t want to know how it&apos;s build. \nIt should be usable as is - for round-tripping.\n"
+  summary: >-
+    Used by Win client. They don't want to know how it's build. 
+
+    It should be usable as is - for round-tripping.
+  example: []
   syntax:
     content: public static string GetShowUrlFor(int ticketId)
     parameters:
     - id: ticketId
       type: System.Int32
+      description: ''
     return:
       type: System.String
+      description: ''
     content.vb: Public Shared Function GetShowUrlFor(ticketId As Integer) As String
   overload: SuperOffice.CRM.CustomerService.GetShowUrlFor*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CustomerService.GetShowUrlFor(Integer)
+  fullName.vb: SuperOffice.CRM.CustomerService.GetShowUrlFor(Integer)
+  name.vb: GetShowUrlFor(Integer)
 - uid: SuperOffice.CRM.CustomerService.GetPreviewUrlFor(System.Int32)
   commentId: M:SuperOffice.CRM.CustomerService.GetPreviewUrlFor(System.Int32)
   id: GetPreviewUrlFor(System.Int32)
@@ -266,32 +208,32 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreviewUrlFor(Int32)
-  nameWithType: CustomerService.GetPreviewUrlFor(Int32)
-  fullName: SuperOffice.CRM.CustomerService.GetPreviewUrlFor(System.Int32)
+  name: GetPreviewUrlFor(int)
+  nameWithType: CustomerService.GetPreviewUrlFor(int)
+  fullName: SuperOffice.CRM.CustomerService.GetPreviewUrlFor(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nUsed by Win client. They don&apos;t want to know how it&apos;s build. \nIt should be usable as is - for round-tripping.\n"
+  summary: >-
+    Used by Win client. They don't want to know how it's build. 
+
+    It should be usable as is - for round-tripping.
+  example: []
   syntax:
     content: public static string GetPreviewUrlFor(int ticketId)
     parameters:
     - id: ticketId
       type: System.Int32
+      description: ''
     return:
       type: System.String
+      description: ''
     content.vb: Public Shared Function GetPreviewUrlFor(ticketId As Integer) As String
   overload: SuperOffice.CRM.CustomerService.GetPreviewUrlFor*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CustomerService.GetPreviewUrlFor(Integer)
+  fullName.vb: SuperOffice.CRM.CustomerService.GetPreviewUrlFor(Integer)
+  name.vb: GetPreviewUrlFor(Integer)
 - uid: SuperOffice.CRM.CustomerService.GetEditUrlFor(System.Int32)
   commentId: M:SuperOffice.CRM.CustomerService.GetEditUrlFor(System.Int32)
   id: GetEditUrlFor(System.Int32)
@@ -299,65 +241,67 @@ items:
   langs:
   - csharp
   - vb
-  name: GetEditUrlFor(Int32)
-  nameWithType: CustomerService.GetEditUrlFor(Int32)
-  fullName: SuperOffice.CRM.CustomerService.GetEditUrlFor(System.Int32)
+  name: GetEditUrlFor(int)
+  nameWithType: CustomerService.GetEditUrlFor(int)
+  fullName: SuperOffice.CRM.CustomerService.GetEditUrlFor(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nUsed by Win client. They don&apos;t want to know how it&apos;s build. \nIt should be usable as is - for round-tripping.\n"
+  summary: >-
+    Used by Win client. They don't want to know how it's build. 
+
+    It should be usable as is - for round-tripping.
+  example: []
   syntax:
     content: public static string GetEditUrlFor(int ticketId)
     parameters:
     - id: ticketId
       type: System.Int32
+      description: ''
     return:
       type: System.String
+      description: ''
     content.vb: Public Shared Function GetEditUrlFor(ticketId As Integer) As String
   overload: SuperOffice.CRM.CustomerService.GetEditUrlFor*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.CustomerService.GetEMarketingUrl(System.String)
-  commentId: M:SuperOffice.CRM.CustomerService.GetEMarketingUrl(System.String)
-  id: GetEMarketingUrl(System.String)
+  nameWithType.vb: CustomerService.GetEditUrlFor(Integer)
+  fullName.vb: SuperOffice.CRM.CustomerService.GetEditUrlFor(Integer)
+  name.vb: GetEditUrlFor(Integer)
+- uid: SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync(System.String,System.Threading.CancellationToken)
+  id: GetEMarketingUrlAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.CustomerService
   langs:
   - csharp
   - vb
-  name: GetEMarketingUrl(String)
-  nameWithType: CustomerService.GetEMarketingUrl(String)
-  fullName: SuperOffice.CRM.CustomerService.GetEMarketingUrl(System.String)
+  name: GetEMarketingUrlAsync(string, CancellationToken)
+  nameWithType: CustomerService.GetEMarketingUrlAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nUsed by Win/web client. They don&apos;t want to know how it&apos;s build. \nIt should be usable as is - for round-tripping.\n"
+  summary: >-
+    Used by Win/web client. They don't want to know how it's build. 
+
+    It should be usable as is - for round-tripping.
+  example: []
   syntax:
-    content: public static string GetEMarketingUrl(string languageCode)
+    content: public static Task<string> GetEMarketingUrlAsync(string languageCode, CancellationToken cancellationToken = default)
     parameters:
     - id: languageCode
       type: System.String
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetEMarketingUrl(languageCode As String) As String
-  overload: SuperOffice.CRM.CustomerService.GetEMarketingUrl*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+      type: System.Threading.Tasks.Task{System.String}
+      description: ''
+    content.vb: Public Shared Function GetEMarketingUrlAsync(languageCode As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync*
+  nameWithType.vb: CustomerService.GetEMarketingUrlAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync(String, System.Threading.CancellationToken)
+  name.vb: GetEMarketingUrlAsync(String, CancellationToken)
 - uid: SuperOffice.CRM.CustomerService.GetCgiUrlInternal
   commentId: M:SuperOffice.CRM.CustomerService.GetCgiUrlInternal
   id: GetCgiUrlInternal
@@ -369,26 +313,18 @@ items:
   nameWithType: CustomerService.GetCgiUrlInternal()
   fullName: SuperOffice.CRM.CustomerService.GetCgiUrlInternal()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nFacade method, executing corresponding plugin method. \n"
+  summary: Facade method, executing corresponding plugin method.
+  example: []
   syntax:
     content: public static string GetCgiUrlInternal()
     return:
       type: System.String
       description: Internal URL (hostname only) to CS
-    content.vb: Public Shared Function GetCgiUrlInternal As String
+    content.vb: Public Shared Function GetCgiUrlInternal() As String
   overload: SuperOffice.CRM.CustomerService.GetCgiUrlInternal*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.CustomerService.GetCgiUrlExternal
   commentId: M:SuperOffice.CRM.CustomerService.GetCgiUrlExternal
   id: GetCgiUrlExternal
@@ -400,26 +336,18 @@ items:
   nameWithType: CustomerService.GetCgiUrlExternal()
   fullName: SuperOffice.CRM.CustomerService.GetCgiUrlExternal()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nFacade method, executing corresponding plugin method. \n"
+  summary: Facade method, executing corresponding plugin method.
+  example: []
   syntax:
     content: public static string GetCgiUrlExternal()
     return:
       type: System.String
       description: External URL (hostname only) to CS
-    content.vb: Public Shared Function GetCgiUrlExternal As String
+    content.vb: Public Shared Function GetCgiUrlExternal() As String
   overload: SuperOffice.CRM.CustomerService.GetCgiUrlExternal*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.CustomerService.GetCgiUrlDirect
   commentId: M:SuperOffice.CRM.CustomerService.GetCgiUrlDirect
   id: GetCgiUrlDirect
@@ -431,9 +359,6 @@ items:
   nameWithType: CustomerService.GetCgiUrlDirect()
   fullName: SuperOffice.CRM.CustomerService.GetCgiUrlDirect()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -441,14 +366,8 @@ items:
     content: public static string GetCgiUrlDirect()
     return:
       type: System.String
-    content.vb: Public Shared Function GetCgiUrlDirect As String
+    content.vb: Public Shared Function GetCgiUrlDirect() As String
   overload: SuperOffice.CRM.CustomerService.GetCgiUrlDirect*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.CustomerService.GetCgiBin
   commentId: M:SuperOffice.CRM.CustomerService.GetCgiBin
   id: GetCgiBin
@@ -460,26 +379,18 @@ items:
   nameWithType: CustomerService.GetCgiBin()
   fullName: SuperOffice.CRM.CustomerService.GetCgiBin()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nFacade method, executing corresponding plugin method. \n"
+  summary: Facade method, executing corresponding plugin method.
+  example: []
   syntax:
     content: public static string GetCgiBin()
     return:
       type: System.String
       description: URL (without hostname) to CS scripts folder
-    content.vb: Public Shared Function GetCgiBin As String
+    content.vb: Public Shared Function GetCgiBin() As String
   overload: SuperOffice.CRM.CustomerService.GetCgiBin*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.CustomerService.GetRegistryExtension
   commentId: M:SuperOffice.CRM.CustomerService.GetRegistryExtension
   id: GetRegistryExtension
@@ -491,26 +402,18 @@ items:
   nameWithType: CustomerService.GetRegistryExtension()
   fullName: SuperOffice.CRM.CustomerService.GetRegistryExtension()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nFacade method, executing corresponding plugin method. \n"
+  summary: Facade method, executing corresponding plugin method.
+  example: []
   syntax:
     content: public static string GetRegistryExtension()
     return:
       type: System.String
       description: Extension used in CS URLs
-    content.vb: Public Shared Function GetRegistryExtension As String
+    content.vb: Public Shared Function GetRegistryExtension() As String
   overload: SuperOffice.CRM.CustomerService.GetRegistryExtension*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.CustomerService.GetWwwFolder
   commentId: M:SuperOffice.CRM.CustomerService.GetWwwFolder
   id: GetWwwFolder
@@ -522,26 +425,18 @@ items:
   nameWithType: CustomerService.GetWwwFolder()
   fullName: SuperOffice.CRM.CustomerService.GetWwwFolder()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nFacade method, executing corresponding plugin method. \n"
+  summary: Facade method, executing corresponding plugin method.
+  example: []
   syntax:
     content: public static string GetWwwFolder()
     return:
       type: System.String
       description: Www folder used in CS
-    content.vb: Public Shared Function GetWwwFolder As String
+    content.vb: Public Shared Function GetWwwFolder() As String
   overload: SuperOffice.CRM.CustomerService.GetWwwFolder*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.CustomerService.GetBaseUrl(System.String,SuperOffice.CRM.CustomerService.CsUrlType)
   commentId: M:SuperOffice.CRM.CustomerService.GetBaseUrl(System.String,SuperOffice.CRM.CustomerService.CsUrlType)
   id: GetBaseUrl(System.String,SuperOffice.CRM.CustomerService.CsUrlType)
@@ -549,34 +444,31 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBaseUrl(String, CustomerService.CsUrlType)
-  nameWithType: CustomerService.GetBaseUrl(String, CustomerService.CsUrlType)
-  fullName: SuperOffice.CRM.CustomerService.GetBaseUrl(System.String, SuperOffice.CRM.CustomerService.CsUrlType)
+  name: GetBaseUrl(string, CsUrlType)
+  nameWithType: CustomerService.GetBaseUrl(string, CustomerService.CsUrlType)
+  fullName: SuperOffice.CRM.CustomerService.GetBaseUrl(string, SuperOffice.CRM.CustomerService.CsUrlType)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: public static string GetBaseUrl(string program, CustomerService.CsUrlType urlType)
+    content: public static string GetBaseUrl(string program, CustomerService.CsUrlType urlType = CsUrlType.Internal)
     parameters:
     - id: program
       type: System.String
+      description: ''
     - id: urlType
       type: SuperOffice.CRM.CustomerService.CsUrlType
     return:
       type: System.String
-    content.vb: Public Shared Function GetBaseUrl(program As String, urlType As CustomerService.CsUrlType) As String
+      description: ''
+    content.vb: Public Shared Function GetBaseUrl(program As String, urlType As CustomerService.CsUrlType = CsUrlType.Internal) As String
   overload: SuperOffice.CRM.CustomerService.GetBaseUrl*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CustomerService.GetBaseUrl(String, CustomerService.CsUrlType)
+  fullName.vb: SuperOffice.CRM.CustomerService.GetBaseUrl(String, SuperOffice.CRM.CustomerService.CsUrlType)
+  name.vb: GetBaseUrl(String, CsUrlType)
 - uid: SuperOffice.CRM.CustomerService.GetBaseUrl
   commentId: M:SuperOffice.CRM.CustomerService.GetBaseUrl
   id: GetBaseUrl
@@ -588,25 +480,18 @@ items:
   nameWithType: CustomerService.GetBaseUrl()
   fullName: SuperOffice.CRM.CustomerService.GetBaseUrl()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public static string GetBaseUrl()
     return:
       type: System.String
-    content.vb: Public Shared Function GetBaseUrl As String
+      description: ''
+    content.vb: Public Shared Function GetBaseUrl() As String
   overload: SuperOffice.CRM.CustomerService.GetBaseUrl*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.CustomerService.GetCSAuthUrl(System.String,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.CustomerService.GetCSAuthUrl(System.String,System.String,System.String,System.String)
   id: GetCSAuthUrl(System.String,System.String,System.String,System.String)
@@ -614,13 +499,10 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCSAuthUrl(String, String, String, String)
-  nameWithType: CustomerService.GetCSAuthUrl(String, String, String, String)
-  fullName: SuperOffice.CRM.CustomerService.GetCSAuthUrl(System.String, System.String, System.String, System.String)
+  name: GetCSAuthUrl(string, string, string, string)
+  nameWithType: CustomerService.GetCSAuthUrl(string, string, string, string)
+  fullName: SuperOffice.CRM.CustomerService.GetCSAuthUrl(string, string, string, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -639,12 +521,9 @@ items:
       type: System.String
     content.vb: Public Shared Function GetCSAuthUrl(program As String, action As String, language As String, extraParameters As String) As String
   overload: SuperOffice.CRM.CustomerService.GetCSAuthUrl*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CustomerService.GetCSAuthUrl(String, String, String, String)
+  fullName.vb: SuperOffice.CRM.CustomerService.GetCSAuthUrl(String, String, String, String)
+  name.vb: GetCSAuthUrl(String, String, String, String)
 - uid: SuperOffice.CRM.CustomerService.GetCsProgramUrl(System.String,System.String,System.String,System.String,SuperOffice.Data.CsAuthenticationType,SuperOffice.CRM.CustomerService.CsUrlType)
   commentId: M:SuperOffice.CRM.CustomerService.GetCsProgramUrl(System.String,System.String,System.String,System.String,SuperOffice.Data.CsAuthenticationType,SuperOffice.CRM.CustomerService.CsUrlType)
   id: GetCsProgramUrl(System.String,System.String,System.String,System.String,SuperOffice.Data.CsAuthenticationType,SuperOffice.CRM.CustomerService.CsUrlType)
@@ -652,19 +531,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCsProgramUrl(String, String, String, String, CsAuthenticationType, CustomerService.CsUrlType)
-  nameWithType: CustomerService.GetCsProgramUrl(String, String, String, String, CsAuthenticationType, CustomerService.CsUrlType)
-  fullName: SuperOffice.CRM.CustomerService.GetCsProgramUrl(System.String, System.String, System.String, System.String, SuperOffice.Data.CsAuthenticationType, SuperOffice.CRM.CustomerService.CsUrlType)
+  name: GetCsProgramUrl(string, string, string, string, CsAuthenticationType, CsUrlType)
+  nameWithType: CustomerService.GetCsProgramUrl(string, string, string, string, CsAuthenticationType, CustomerService.CsUrlType)
+  fullName: SuperOffice.CRM.CustomerService.GetCsProgramUrl(string, string, string, string, SuperOffice.Data.CsAuthenticationType, SuperOffice.CRM.CustomerService.CsUrlType)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nGets the URL for a given Customer Service program.\n"
+  summary: Gets the URL for a given Customer Service program.
+  example: []
   syntax:
-    content: public static string GetCsProgramUrl(string program, string action, string language, string extraParameters, CsAuthenticationType authentication, CustomerService.CsUrlType urlType)
+    content: public static string GetCsProgramUrl(string program, string action, string language, string extraParameters, CsAuthenticationType authentication = CsAuthenticationType.None, CustomerService.CsUrlType urlType = CsUrlType.Internal)
     parameters:
     - id: program
       type: System.String
@@ -677,54 +554,50 @@ items:
       description: The language context in which you want the CS program to run
     - id: extraParameters
       type: System.String
-      description: "A string consisting of one or more parameters in addition to the action parameter. These paramterers\nhave different meaning depending on the action. These strings or name-value pairs should be separated by &apos;&amp;&apos; "
+      description: >-
+        A string consisting of one or more parameters in addition to the action parameter. These paramterers
+                    have different meaning depending on the action. These strings or name-value pairs should be separated by '&amp;'
     - id: authentication
       type: SuperOffice.Data.CsAuthenticationType
+      description: ''
     - id: urlType
       type: SuperOffice.CRM.CustomerService.CsUrlType
     return:
       type: System.String
       description: The complete string for the program in question with the parameters supplied
-    content.vb: Public Shared Function GetCsProgramUrl(program As String, action As String, language As String, extraParameters As String, authentication As CsAuthenticationType, urlType As CustomerService.CsUrlType) As String
+    content.vb: Public Shared Function GetCsProgramUrl(program As String, action As String, language As String, extraParameters As String, authentication As CsAuthenticationType = CsAuthenticationType.None, urlType As CustomerService.CsUrlType = CsUrlType.Internal) As String
   overload: SuperOffice.CRM.CustomerService.GetCsProgramUrl*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.CustomerService.GetCSRegistryValue(System.Int32)
-  commentId: M:SuperOffice.CRM.CustomerService.GetCSRegistryValue(System.Int32)
-  id: GetCSRegistryValue(System.Int32)
+  nameWithType.vb: CustomerService.GetCsProgramUrl(String, String, String, String, CsAuthenticationType, CustomerService.CsUrlType)
+  fullName.vb: SuperOffice.CRM.CustomerService.GetCsProgramUrl(String, String, String, String, SuperOffice.Data.CsAuthenticationType, SuperOffice.CRM.CustomerService.CsUrlType)
+  name.vb: GetCsProgramUrl(String, String, String, String, CsAuthenticationType, CsUrlType)
+- uid: SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetCSRegistryValueAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.CustomerService
   langs:
   - csharp
   - vb
-  name: GetCSRegistryValue(Int32)
-  nameWithType: CustomerService.GetCSRegistryValue(Int32)
-  fullName: SuperOffice.CRM.CustomerService.GetCSRegistryValue(System.Int32)
+  name: GetCSRegistryValueAsync(int, CancellationToken)
+  nameWithType: CustomerService.GetCSRegistryValueAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static string GetCSRegistryValue(int entryId)
+    content: public static Task<string> GetCSRegistryValueAsync(int entryId, CancellationToken cancellationToken = default)
     parameters:
     - id: entryId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetCSRegistryValue(entryId As Integer) As String
-  overload: SuperOffice.CRM.CustomerService.GetCSRegistryValue*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetCSRegistryValueAsync(entryId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync*
+  nameWithType.vb: CustomerService.GetCSRegistryValueAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetCSRegistryValueAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.CustomerService.GetCreateMailingsUrl(System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.CustomerService.GetCreateMailingsUrl(System.String,System.String,System.String)
   id: GetCreateMailingsUrl(System.String,System.String,System.String)
@@ -732,17 +605,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCreateMailingsUrl(String, String, String)
-  nameWithType: CustomerService.GetCreateMailingsUrl(String, String, String)
-  fullName: SuperOffice.CRM.CustomerService.GetCreateMailingsUrl(System.String, System.String, System.String)
+  name: GetCreateMailingsUrl(string, string, string)
+  nameWithType: CustomerService.GetCreateMailingsUrl(string, string, string)
+  fullName: SuperOffice.CRM.CustomerService.GetCreateMailingsUrl(string, string, string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nGets the Mailings URL for a given context.\n"
+  summary: Gets the Mailings URL for a given context.
+  example: []
   syntax:
     content: public static string GetCreateMailingsUrl(string languageCode, string mailingsType, string sourceContext)
     parameters:
@@ -754,18 +625,15 @@ items:
       description: The mailings target type e.g. html, sms, document
     - id: sourceContext
       type: System.String
-      description: Reflects the context of the source e.g. &quot;selectionId=123&quot;, &quot;projectId=77&quot;
+      description: Reflects the context of the source e.g. "selectionId=123", "projectId=77"
     return:
       type: System.String
       description: The complete string for the program in question with the parameters supplied
     content.vb: Public Shared Function GetCreateMailingsUrl(languageCode As String, mailingsType As String, sourceContext As String) As String
   overload: SuperOffice.CRM.CustomerService.GetCreateMailingsUrl*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CustomerService.GetCreateMailingsUrl(String, String, String)
+  fullName.vb: SuperOffice.CRM.CustomerService.GetCreateMailingsUrl(String, String, String)
+  name.vb: GetCreateMailingsUrl(String, String, String)
 - uid: SuperOffice.CRM.CustomerService.GetOpenMailingsUrl(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.CustomerService.GetOpenMailingsUrl(System.String,System.Int32)
   id: GetOpenMailingsUrl(System.String,System.Int32)
@@ -773,13 +641,10 @@ items:
   langs:
   - csharp
   - vb
-  name: GetOpenMailingsUrl(String, Int32)
-  nameWithType: CustomerService.GetOpenMailingsUrl(String, Int32)
-  fullName: SuperOffice.CRM.CustomerService.GetOpenMailingsUrl(System.String, System.Int32)
+  name: GetOpenMailingsUrl(string, int)
+  nameWithType: CustomerService.GetOpenMailingsUrl(string, int)
+  fullName: SuperOffice.CRM.CustomerService.GetOpenMailingsUrl(string, int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -794,12 +659,9 @@ items:
       type: System.String
     content.vb: Public Shared Function GetOpenMailingsUrl(languageCode As String, shipmentId As Integer) As String
   overload: SuperOffice.CRM.CustomerService.GetOpenMailingsUrl*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CustomerService.GetOpenMailingsUrl(String, Integer)
+  fullName.vb: SuperOffice.CRM.CustomerService.GetOpenMailingsUrl(String, Integer)
+  name.vb: GetOpenMailingsUrl(String, Integer)
 - uid: SuperOffice.CRM.CustomerService.MapShipmentStatusValue(System.Int16)
   commentId: M:SuperOffice.CRM.CustomerService.MapShipmentStatusValue(System.Int16)
   id: MapShipmentStatusValue(System.Int16)
@@ -807,13 +669,10 @@ items:
   langs:
   - csharp
   - vb
-  name: MapShipmentStatusValue(Int16)
-  nameWithType: CustomerService.MapShipmentStatusValue(Int16)
-  fullName: SuperOffice.CRM.CustomerService.MapShipmentStatusValue(System.Int16)
+  name: MapShipmentStatusValue(short)
+  nameWithType: CustomerService.MapShipmentStatusValue(short)
+  fullName: SuperOffice.CRM.CustomerService.MapShipmentStatusValue(short)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -826,95 +685,329 @@ items:
       type: System.String
     content.vb: Public Shared Function MapShipmentStatusValue(statusValue As Short) As String
   overload: SuperOffice.CRM.CustomerService.MapShipmentStatusValue*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl(System.Int32)
-  commentId: M:SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl(System.Int32)
-  id: GetSubscriptionManagementUrl(System.Int32)
+  nameWithType.vb: CustomerService.MapShipmentStatusValue(Short)
+  fullName.vb: SuperOffice.CRM.CustomerService.MapShipmentStatusValue(Short)
+  name.vb: MapShipmentStatusValue(Short)
+- uid: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetSubscriptionManagementUrlAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.CustomerService
   langs:
   - csharp
   - vb
-  name: GetSubscriptionManagementUrl(Int32)
-  nameWithType: CustomerService.GetSubscriptionManagementUrl(Int32)
-  fullName: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl(System.Int32)
+  name: GetSubscriptionManagementUrlAsync(int, CancellationToken)
+  nameWithType: CustomerService.GetSubscriptionManagementUrlAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static string GetSubscriptionManagementUrl(int personId)
+    content: public static Task<string> GetSubscriptionManagementUrlAsync(int personId, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetSubscriptionManagementUrl(personId As Integer) As String
-  overload: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl(System.Int32,System.String)
-  id: GetSubscriptionManagementUrl(System.Int32,System.String)
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetSubscriptionManagementUrlAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync*
+  nameWithType.vb: CustomerService.GetSubscriptionManagementUrlAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetSubscriptionManagementUrlAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  id: GetSubscriptionManagementUrlAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.CustomerService
   langs:
   - csharp
   - vb
-  name: GetSubscriptionManagementUrl(Int32, String)
-  nameWithType: CustomerService.GetSubscriptionManagementUrl(Int32, String)
-  fullName: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl(System.Int32, System.String)
+  name: GetSubscriptionManagementUrlAsync(int, string, CancellationToken)
+  nameWithType: CustomerService.GetSubscriptionManagementUrlAsync(int, string, CancellationToken)
+  fullName: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(int, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static string GetSubscriptionManagementUrl(int personId, string languageCode)
+    content: public static Task<string> GetSubscriptionManagementUrlAsync(int personId, string languageCode, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
     - id: languageCode
       type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Shared Function GetSubscriptionManagementUrl(personId As Integer, languageCode As String) As String
-  overload: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetSubscriptionManagementUrlAsync(personId As Integer, languageCode As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync*
+  nameWithType.vb: CustomerService.GetSubscriptionManagementUrlAsync(Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync(Integer, String, System.Threading.CancellationToken)
+  name.vb: GetSubscriptionManagementUrlAsync(Integer, String, CancellationToken)
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -922,79 +1015,233 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.CustomerService.GetShowUrlFor*
   commentId: Overload:SuperOffice.CRM.CustomerService.GetShowUrlFor
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetShowUrlFor_System_Int32_
   name: GetShowUrlFor
   nameWithType: CustomerService.GetShowUrlFor
   fullName: SuperOffice.CRM.CustomerService.GetShowUrlFor
 - uid: SuperOffice.CRM.CustomerService.GetPreviewUrlFor*
   commentId: Overload:SuperOffice.CRM.CustomerService.GetPreviewUrlFor
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetPreviewUrlFor_System_Int32_
   name: GetPreviewUrlFor
   nameWithType: CustomerService.GetPreviewUrlFor
   fullName: SuperOffice.CRM.CustomerService.GetPreviewUrlFor
 - uid: SuperOffice.CRM.CustomerService.GetEditUrlFor*
   commentId: Overload:SuperOffice.CRM.CustomerService.GetEditUrlFor
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetEditUrlFor_System_Int32_
   name: GetEditUrlFor
   nameWithType: CustomerService.GetEditUrlFor
   fullName: SuperOffice.CRM.CustomerService.GetEditUrlFor
-- uid: SuperOffice.CRM.CustomerService.GetEMarketingUrl*
-  commentId: Overload:SuperOffice.CRM.CustomerService.GetEMarketingUrl
+- uid: SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync*
+  commentId: Overload:SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync
   isExternal: true
-  name: GetEMarketingUrl
-  nameWithType: CustomerService.GetEMarketingUrl
-  fullName: SuperOffice.CRM.CustomerService.GetEMarketingUrl
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetEMarketingUrlAsync_System_String_System_Threading_CancellationToken_
+  name: GetEMarketingUrlAsync
+  nameWithType: CustomerService.GetEMarketingUrlAsync
+  fullName: SuperOffice.CRM.CustomerService.GetEMarketingUrlAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.CRM.CustomerService.GetCgiUrlInternal*
   commentId: Overload:SuperOffice.CRM.CustomerService.GetCgiUrlInternal
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetCgiUrlInternal
   name: GetCgiUrlInternal
   nameWithType: CustomerService.GetCgiUrlInternal
   fullName: SuperOffice.CRM.CustomerService.GetCgiUrlInternal
 - uid: SuperOffice.CRM.CustomerService.GetCgiUrlExternal*
   commentId: Overload:SuperOffice.CRM.CustomerService.GetCgiUrlExternal
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetCgiUrlExternal
   name: GetCgiUrlExternal
   nameWithType: CustomerService.GetCgiUrlExternal
   fullName: SuperOffice.CRM.CustomerService.GetCgiUrlExternal
 - uid: SuperOffice.CRM.CustomerService.GetCgiUrlDirect*
   commentId: Overload:SuperOffice.CRM.CustomerService.GetCgiUrlDirect
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetCgiUrlDirect
   name: GetCgiUrlDirect
   nameWithType: CustomerService.GetCgiUrlDirect
   fullName: SuperOffice.CRM.CustomerService.GetCgiUrlDirect
 - uid: SuperOffice.CRM.CustomerService.GetCgiBin*
   commentId: Overload:SuperOffice.CRM.CustomerService.GetCgiBin
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetCgiBin
   name: GetCgiBin
   nameWithType: CustomerService.GetCgiBin
   fullName: SuperOffice.CRM.CustomerService.GetCgiBin
 - uid: SuperOffice.CRM.CustomerService.GetRegistryExtension*
   commentId: Overload:SuperOffice.CRM.CustomerService.GetRegistryExtension
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetRegistryExtension
   name: GetRegistryExtension
   nameWithType: CustomerService.GetRegistryExtension
   fullName: SuperOffice.CRM.CustomerService.GetRegistryExtension
 - uid: SuperOffice.CRM.CustomerService.GetWwwFolder*
   commentId: Overload:SuperOffice.CRM.CustomerService.GetWwwFolder
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetWwwFolder
   name: GetWwwFolder
   nameWithType: CustomerService.GetWwwFolder
   fullName: SuperOffice.CRM.CustomerService.GetWwwFolder
 - uid: SuperOffice.CRM.CustomerService.GetBaseUrl*
   commentId: Overload:SuperOffice.CRM.CustomerService.GetBaseUrl
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetBaseUrl_System_String_SuperOffice_CRM_CustomerService_CsUrlType_
   name: GetBaseUrl
   nameWithType: CustomerService.GetBaseUrl
   fullName: SuperOffice.CRM.CustomerService.GetBaseUrl
@@ -1002,18 +1249,41 @@ references:
   commentId: T:SuperOffice.CRM.CustomerService.CsUrlType
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html
   name: CustomerService.CsUrlType
   nameWithType: CustomerService.CsUrlType
   fullName: SuperOffice.CRM.CustomerService.CsUrlType
+  spec.csharp:
+  - uid: SuperOffice.CRM.CustomerService
+    name: CustomerService
+    isExternal: true
+    href: SuperOffice.CRM.CustomerService.html
+  - name: .
+  - uid: SuperOffice.CRM.CustomerService.CsUrlType
+    name: CsUrlType
+    isExternal: true
+    href: SuperOffice.CRM.CustomerService.CsUrlType.html
+  spec.vb:
+  - uid: SuperOffice.CRM.CustomerService
+    name: CustomerService
+    isExternal: true
+    href: SuperOffice.CRM.CustomerService.html
+  - name: .
+  - uid: SuperOffice.CRM.CustomerService.CsUrlType
+    name: CsUrlType
+    isExternal: true
+    href: SuperOffice.CRM.CustomerService.CsUrlType.html
 - uid: SuperOffice.CRM.CustomerService.GetCSAuthUrl*
   commentId: Overload:SuperOffice.CRM.CustomerService.GetCSAuthUrl
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetCSAuthUrl_System_String_System_String_System_String_System_String_
   name: GetCSAuthUrl
   nameWithType: CustomerService.GetCSAuthUrl
   fullName: SuperOffice.CRM.CustomerService.GetCSAuthUrl
 - uid: SuperOffice.CRM.CustomerService.GetCsProgramUrl*
   commentId: Overload:SuperOffice.CRM.CustomerService.GetCsProgramUrl
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetCsProgramUrl_System_String_System_String_System_String_System_String_SuperOffice_Data_CsAuthenticationType_SuperOffice_CRM_CustomerService_CsUrlType_
   name: GetCsProgramUrl
   nameWithType: CustomerService.GetCsProgramUrl
   fullName: SuperOffice.CRM.CustomerService.GetCsProgramUrl
@@ -1021,36 +1291,62 @@ references:
   commentId: T:SuperOffice.Data.CsAuthenticationType
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.CsAuthenticationType.html
   name: CsAuthenticationType
   nameWithType: CsAuthenticationType
   fullName: SuperOffice.Data.CsAuthenticationType
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: SuperOffice.CRM.CustomerService.GetCSRegistryValue*
-  commentId: Overload:SuperOffice.CRM.CustomerService.GetCSRegistryValue
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync*
+  commentId: Overload:SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync
   isExternal: true
-  name: GetCSRegistryValue
-  nameWithType: CustomerService.GetCSRegistryValue
-  fullName: SuperOffice.CRM.CustomerService.GetCSRegistryValue
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetCSRegistryValueAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetCSRegistryValueAsync
+  nameWithType: CustomerService.GetCSRegistryValueAsync
+  fullName: SuperOffice.CRM.CustomerService.GetCSRegistryValueAsync
 - uid: SuperOffice.CRM.CustomerService.GetCreateMailingsUrl*
   commentId: Overload:SuperOffice.CRM.CustomerService.GetCreateMailingsUrl
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetCreateMailingsUrl_System_String_System_String_System_String_
   name: GetCreateMailingsUrl
   nameWithType: CustomerService.GetCreateMailingsUrl
   fullName: SuperOffice.CRM.CustomerService.GetCreateMailingsUrl
 - uid: SuperOffice.CRM.CustomerService.GetOpenMailingsUrl*
   commentId: Overload:SuperOffice.CRM.CustomerService.GetOpenMailingsUrl
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetOpenMailingsUrl_System_String_System_Int32_
   name: GetOpenMailingsUrl
   nameWithType: CustomerService.GetOpenMailingsUrl
   fullName: SuperOffice.CRM.CustomerService.GetOpenMailingsUrl
 - uid: SuperOffice.CRM.CustomerService.MapShipmentStatusValue*
   commentId: Overload:SuperOffice.CRM.CustomerService.MapShipmentStatusValue
   isExternal: true
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_MapShipmentStatusValue_System_Int16_
   name: MapShipmentStatusValue
   nameWithType: CustomerService.MapShipmentStatusValue
   fullName: SuperOffice.CRM.CustomerService.MapShipmentStatusValue
@@ -1058,12 +1354,17 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
-- uid: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl*
-  commentId: Overload:SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync*
+  commentId: Overload:SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync
   isExternal: true
-  name: GetSubscriptionManagementUrl
-  nameWithType: CustomerService.GetSubscriptionManagementUrl
-  fullName: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrl
+  href: SuperOffice.CRM.CustomerService.html#SuperOffice_CRM_CustomerService_GetSubscriptionManagementUrlAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetSubscriptionManagementUrlAsync
+  nameWithType: CustomerService.GetSubscriptionManagementUrlAsync
+  fullName: SuperOffice.CRM.CustomerService.GetSubscriptionManagementUrlAsync

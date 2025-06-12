@@ -5,19 +5,20 @@ items:
   id: TimeZoneAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.TimeZoneAgent.#ctor
-  - SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailable
-  - SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZones
-  - SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneId
-  - SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformation
-  - SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreference
-  - SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneData
-  - SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRow(System.Int32,System.Boolean)
-  - SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilter(System.String,System.Boolean)
-  - SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneId(System.Int32)
-  - SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdate
-  - SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRow(System.Int32)
-  - SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneData
+  - SuperOffice.CRM.Services.TimeZoneAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.TimeZoneAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZonesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformationAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneDataAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRowAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneDataAsync(System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -25,243 +26,290 @@ items:
   nameWithType: TimeZoneAgent
   fullName: SuperOffice.CRM.Services.TimeZoneAgent
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nFacade for the TimeZone Agent\nTimeZone maintenance\n"
-  example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (TimeZoneAgent agent = new TimeZoneAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  summary: >-
+    Proxy class for the TimeZone Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
   syntax:
-    content: 'public class TimeZoneAgent : AgentBase<ITimeZoneAgent>, IDisposable, ITimeZoneAgent, IAgent'
-    content.vb: >-
-      Public Class TimeZoneAgent
-          Inherits AgentBase(Of ITimeZoneAgent)
-          Implements IDisposable, ITimeZoneAgent, IAgent
+    content: 'public class TimeZoneAgent : ITimeZoneAgent, IAgent'
+    content.vb: Public Class TimeZoneAgent Implements ITimeZoneAgent, IAgent
   inheritance:
   - System.Object
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ITimeZoneAgent}
   implements:
-  - System.IDisposable
   - SuperOffice.CRM.Services.ITimeZoneAgent
   - SuperOffice.CRM.Services.IAgent
   inheritedMembers:
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ITimeZoneAgent}.Dispose
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ITimeZoneAgent}.InnerAgent
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformation
-  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformation
-  id: GetDefaultTimeZoneInformation
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.TimeZoneAgent
   langs:
   - csharp
   - vb
-  name: GetDefaultTimeZoneInformation()
-  nameWithType: TimeZoneAgent.GetDefaultTimeZoneInformation()
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformation()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
+  name: TimeZoneAgent(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor)
+  nameWithType: TimeZoneAgent.TimeZoneAgent(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.TimeZoneAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet information about the current, preferred timezone for the current user. If no such preference has been set, returns the correct fallback (and UserPreferenceId is 0)\n"
   syntax:
-    content: public PreferredTimeZone GetDefaultTimeZoneInformation()
+    content: public TimeZoneAgent(IPreferredTimeZoneImplementation preferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation remoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: preferredTimeZoneImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation
+    - id: remoteTimeZoneMethodsImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(preferredTimeZoneImplementation As IPreferredTimeZoneImplementation, remoteTimeZoneMethodsImplementation As IRemoteTimeZoneMethodsImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.TimeZoneAgent.#ctor*
+  nameWithType.vb: TimeZoneAgent.New(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.TimeZoneAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  parent: SuperOffice.CRM.Services.TimeZoneAgent
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneAgent(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: TimeZoneAgent.TimeZoneAgent(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.TimeZoneAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public TimeZoneAgent(IPreferredTimeZoneImplementation preferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation remoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: preferredTimeZoneImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation
+    - id: remoteTimeZoneMethodsImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(preferredTimeZoneImplementation As IPreferredTimeZoneImplementation, remoteTimeZoneMethodsImplementation As IRemoteTimeZoneMethodsImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.TimeZoneAgent.#ctor*
+  nameWithType.vb: TimeZoneAgent.New(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.TimeZoneAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformationAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformationAsync(System.Threading.CancellationToken)
+  id: GetDefaultTimeZoneInformationAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.TimeZoneAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultTimeZoneInformationAsync(CancellationToken)
+  nameWithType: TimeZoneAgent.GetDefaultTimeZoneInformationAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformationAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Get information about the current, preferred timezone for the current user. If no such preference has been set, returns the correct fallback (and UserPreferenceId is 0)
+  example: []
+  syntax:
+    content: public Task<PreferredTimeZone> GetDefaultTimeZoneInformationAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.PreferredTimeZone
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferredTimeZone}
       description: Get information about the current, preferred timezone for the current user.
-    content.vb: Public Function GetDefaultTimeZoneInformation As PreferredTimeZone
-  overload: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformation*
+    content.vb: Public Function GetDefaultTimeZoneInformationAsync(cancellationToken As CancellationToken = Nothing) As Task(Of PreferredTimeZone)
+  overload: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformationAsync*
   implements:
-  - SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneData
-  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneData
-  id: InitializeTimeZoneData
+  - SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneDataAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneDataAsync(System.Threading.CancellationToken)
+  id: InitializeTimeZoneDataAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.TimeZoneAgent
   langs:
   - csharp
   - vb
-  name: InitializeTimeZoneData()
-  nameWithType: TimeZoneAgent.InitializeTimeZoneData()
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneData()
+  name: InitializeTimeZoneDataAsync(CancellationToken)
+  nameWithType: TimeZoneAgent.InitializeTimeZoneDataAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneDataAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nInitalizes the TimeZoneData\n"
+  summary: Initalizes the TimeZoneData
+  example: []
   syntax:
-    content: public TimeZoneData[] InitializeTimeZoneData()
+    content: public Task<TimeZoneData[]> InitializeTimeZoneDataAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.TimeZoneData[]
-    content.vb: Public Function InitializeTimeZoneData As TimeZoneData()
-  overload: SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneData*
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.TimeZoneData[]}
+      description: ''
+    content.vb: Public Function InitializeTimeZoneDataAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TimeZoneData())
+  overload: SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneDataAsync*
   implements:
-  - SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneData
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneId
-  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneId
-  id: GetBaseTimeZoneId
+  - SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneDataAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
+  id: GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.TimeZoneAgent
   langs:
   - csharp
   - vb
-  name: GetBaseTimeZoneId()
-  nameWithType: TimeZoneAgent.GetBaseTimeZoneId()
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneId()
+  name: GetBaseTimeZoneIdAsync(CancellationToken)
+  nameWithType: TimeZoneAgent.GetBaseTimeZoneIdAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet the base timezone id.\n"
+  summary: Get the base timezone id.
+  example: []
   syntax:
-    content: public int GetBaseTimeZoneId()
+    content: public Task<int> GetBaseTimeZoneIdAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: Returns the base timezone id. Returns 0 if not set.
-    content.vb: Public Function GetBaseTimeZoneId As Integer
-  overload: SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneId*
+    content.vb: Public Function GetBaseTimeZoneIdAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneIdAsync*
   implements:
-  - SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneId
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneData
-  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneData
-  id: UpdateTimeZoneData
+  - SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneDataAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneDataAsync(System.Threading.CancellationToken)
+  id: UpdateTimeZoneDataAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.TimeZoneAgent
   langs:
   - csharp
   - vb
-  name: UpdateTimeZoneData()
-  nameWithType: TimeZoneAgent.UpdateTimeZoneData()
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneData()
+  name: UpdateTimeZoneDataAsync(CancellationToken)
+  nameWithType: TimeZoneAgent.UpdateTimeZoneDataAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneDataAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nRetrieve time zone data from the SuperOffice server and update TimeZone data in the database\n"
+  summary: Retrieve time zone data from the SuperOffice server and update TimeZone data in the database
+  example: []
   syntax:
-    content: public bool UpdateTimeZoneData()
+    content: public Task<bool> UpdateTimeZoneDataAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if the operation succeeded
-    content.vb: Public Function UpdateTimeZoneData As Boolean
-  overload: SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneData*
+    content.vb: Public Function UpdateTimeZoneDataAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneDataAsync*
   implements:
-  - SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneData
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailable
-  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailable
-  id: CheckNewTimeZoneDataAvailable
+  - SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneDataAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
+  id: CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.TimeZoneAgent
   langs:
   - csharp
   - vb
-  name: CheckNewTimeZoneDataAvailable()
-  nameWithType: TimeZoneAgent.CheckNewTimeZoneDataAvailable()
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailable()
+  name: CheckNewTimeZoneDataAvailableAsync(CancellationToken)
+  nameWithType: TimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nCheck to see if new timezone data is available\n"
+  summary: Check to see if new timezone data is available
+  example: []
   syntax:
-    content: public bool CheckNewTimeZoneDataAvailable()
+    content: public Task<bool> CheckNewTimeZoneDataAvailableAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if new timezone info is found available, false otherwise
-    content.vb: Public Function CheckNewTimeZoneDataAvailable As Boolean
-  overload: SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailable*
+    content.vb: Public Function CheckNewTimeZoneDataAvailableAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailableAsync*
   implements:
-  - SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailable
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRow(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRow(System.Int32)
-  id: ToggleActiveTimeZoneRow(System.Int32)
+  - SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRowAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRowAsync(System.Int32,System.Threading.CancellationToken)
+  id: ToggleActiveTimeZoneRowAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.TimeZoneAgent
   langs:
   - csharp
   - vb
-  name: ToggleActiveTimeZoneRow(Int32)
-  nameWithType: TimeZoneAgent.ToggleActiveTimeZoneRow(Int32)
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRow(System.Int32)
+  name: ToggleActiveTimeZoneRowAsync(int, CancellationToken)
+  nameWithType: TimeZoneAgent.ToggleActiveTimeZoneRowAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRowAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nToggles active state of a single row in the TZLocation table\n"
+  summary: Toggles active state of a single row in the TZLocation table
+  example: []
   syntax:
-    content: public void ToggleActiveTimeZoneRow(int id)
+    content: public Task ToggleActiveTimeZoneRowAsync(int id, CancellationToken cancellationToken = default)
     parameters:
     - id: id
       type: System.Int32
       description: Id of row to toggle active state on
-    content.vb: Public Sub ToggleActiveTimeZoneRow(id As Integer)
-  overload: SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRow*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function ToggleActiveTimeZoneRowAsync(id As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRowAsync*
   implements:
-  - SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilter(System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilter(System.String,System.Boolean)
-  id: SetActiveTimeZonesByFilter(System.String,System.Boolean)
+  - SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: TimeZoneAgent.ToggleActiveTimeZoneRowAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRowAsync(Integer, System.Threading.CancellationToken)
+  name.vb: ToggleActiveTimeZoneRowAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  id: SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.TimeZoneAgent
   langs:
   - csharp
   - vb
-  name: SetActiveTimeZonesByFilter(String, Boolean)
-  nameWithType: TimeZoneAgent.SetActiveTimeZonesByFilter(String, Boolean)
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilter(System.String, System.Boolean)
+  name: SetActiveTimeZonesByFilterAsync(string, bool, CancellationToken)
+  nameWithType: TimeZoneAgent.SetActiveTimeZonesByFilterAsync(string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilterAsync(string, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nToggles active state of a single row in the TZLocation table\n"
+  summary: Toggles active state of a single row in the TZLocation table
+  example: []
   syntax:
-    content: public void SetActiveTimeZonesByFilter(string filter, bool active)
+    content: public Task SetActiveTimeZonesByFilterAsync(string filter, bool active, CancellationToken cancellationToken = default)
     parameters:
     - id: filter
       type: System.String
@@ -269,159 +317,159 @@ items:
     - id: active
       type: System.Boolean
       description: Set active to true or false
-    content.vb: Public Sub SetActiveTimeZonesByFilter(filter As String, active As Boolean)
-  overload: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilter*
-  implements:
-  - SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter(System.String,System.Boolean)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdate
-  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdate
-  id: TimeOfLastTimeZoneUpdate
-  parent: SuperOffice.CRM.Services.TimeZoneAgent
-  langs:
-  - csharp
-  - vb
-  name: TimeOfLastTimeZoneUpdate()
-  nameWithType: TimeZoneAgent.TimeOfLastTimeZoneUpdate()
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdate()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGet the time time zone data was last updated\n"
-  syntax:
-    content: public DateTime TimeOfLastTimeZoneUpdate()
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.DateTime
-      description: Time of last update
-    content.vb: Public Function TimeOfLastTimeZoneUpdate As DateTime
-  overload: SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdate*
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function SetActiveTimeZonesByFilterAsync(filter As String, active As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilterAsync*
   implements:
-  - SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneId(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneId(System.Int32)
-  id: SetBaseTimeZoneId(System.Int32)
+  - SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: TimeZoneAgent.SetActiveTimeZonesByFilterAsync(String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilterAsync(String, Boolean, System.Threading.CancellationToken)
+  name.vb: SetActiveTimeZonesByFilterAsync(String, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(System.Threading.CancellationToken)
+  id: TimeOfLastTimeZoneUpdateAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.TimeZoneAgent
   langs:
   - csharp
   - vb
-  name: SetBaseTimeZoneId(Int32)
-  nameWithType: TimeZoneAgent.SetBaseTimeZoneId(Int32)
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneId(System.Int32)
+  name: TimeOfLastTimeZoneUpdateAsync(CancellationToken)
+  nameWithType: TimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nSet the base timezone id.\n"
+  summary: Get the time time zone data was last updated
+  example: []
   syntax:
-    content: public bool SetBaseTimeZoneId(int timezoneId)
+    content: public Task<DateTime> TimeOfLastTimeZoneUpdateAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{System.DateTime}
+      description: Time of last update
+    content.vb: Public Function TimeOfLastTimeZoneUpdateAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Date)
+  overload: SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdateAsync*
+  implements:
+  - SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: SetBaseTimeZoneIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.TimeZoneAgent
+  langs:
+  - csharp
+  - vb
+  name: SetBaseTimeZoneIdAsync(int, CancellationToken)
+  nameWithType: TimeZoneAgent.SetBaseTimeZoneIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Set the base timezone id.
+  example: []
+  syntax:
+    content: public Task<bool> SetBaseTimeZoneIdAsync(int timezoneId, CancellationToken cancellationToken = default)
     parameters:
     - id: timezoneId
       type: System.Int32
       description: The timezone id to save
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if setting of base timezone was done
-    content.vb: Public Function SetBaseTimeZoneId(timezoneId As Integer) As Boolean
-  overload: SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneId*
+    content.vb: Public Function SetBaseTimeZoneIdAsync(timezoneId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneIdAsync*
   implements:
-  - SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreference
-  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreference
-  id: GetDefaultTimeZonePreference
+  - SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: TimeZoneAgent.SetBaseTimeZoneIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: SetBaseTimeZoneIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
+  id: GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.TimeZoneAgent
   langs:
   - csharp
   - vb
-  name: GetDefaultTimeZonePreference()
-  nameWithType: TimeZoneAgent.GetDefaultTimeZonePreference()
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreference()
+  name: GetDefaultTimeZonePreferenceAsync(CancellationToken)
+  nameWithType: TimeZoneAgent.GetDefaultTimeZonePreferenceAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the id of the default timezone preference with deflevel system wide\n"
+  summary: Returns the id of the default timezone preference with deflevel system wide
+  example: []
   syntax:
-    content: public int GetDefaultTimeZonePreference()
+    content: public Task<int> GetDefaultTimeZonePreferenceAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: The id of the system wide default timezone preference
-    content.vb: Public Function GetDefaultTimeZonePreference As Integer
-  overload: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreference*
+    content.vb: Public Function GetDefaultTimeZonePreferenceAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreferenceAsync*
   implements:
-  - SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreference
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZones
-  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZones
-  id: DeleteTimeZones
+  - SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZonesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZonesAsync(System.Threading.CancellationToken)
+  id: DeleteTimeZonesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.TimeZoneAgent
   langs:
   - csharp
   - vb
-  name: DeleteTimeZones()
-  nameWithType: TimeZoneAgent.DeleteTimeZones()
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZones()
+  name: DeleteTimeZonesAsync(CancellationToken)
+  nameWithType: TimeZoneAgent.DeleteTimeZonesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZonesAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes all time zone data (locations and rules) from the database\n"
+  summary: Deletes all time zone data (locations and rules) from the database
+  example: []
   syntax:
-    content: public void DeleteTimeZones()
-    content.vb: Public Sub DeleteTimeZones
-  overload: SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZones*
+    content: public Task DeleteTimeZonesAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function DeleteTimeZonesAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZonesAsync*
   implements:
-  - SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZones
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRow(System.Int32,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRow(System.Int32,System.Boolean)
-  id: SetActiveTimeZoneRow(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZonesAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  id: SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.TimeZoneAgent
   langs:
   - csharp
   - vb
-  name: SetActiveTimeZoneRow(Int32, Boolean)
-  nameWithType: TimeZoneAgent.SetActiveTimeZoneRow(Int32, Boolean)
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRow(System.Int32, System.Boolean)
+  name: SetActiveTimeZoneRowAsync(int, bool, CancellationToken)
+  nameWithType: TimeZoneAgent.SetActiveTimeZoneRowAsync(int, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRowAsync(int, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nSet active state of singe row in the TZLocation table\n"
+  summary: Set active state of singe row in the TZLocation table
+  example: []
   syntax:
-    content: public void SetActiveTimeZoneRow(int id, bool active)
+    content: public Task SetActiveTimeZoneRowAsync(int id, bool active, CancellationToken cancellationToken = default)
     parameters:
     - id: id
       type: System.Int32
@@ -429,99 +477,73 @@ items:
     - id: active
       type: System.Boolean
       description: Set active to true or false
-    content.vb: Public Sub SetActiveTimeZoneRow(id As Integer, active As Boolean)
-  overload: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRow*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function SetActiveTimeZoneRowAsync(id As Integer, active As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRowAsync*
   implements:
-  - SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow(System.Int32,System.Boolean)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.#ctor
-  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Services.TimeZoneAgent
-  langs:
-  - csharp
-  - vb
-  name: TimeZoneAgent()
-  nameWithType: TimeZoneAgent.TimeZoneAgent()
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.TimeZoneAgent()
-  type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  syntax:
-    content: public TimeZoneAgent()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Services.TimeZoneAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: TimeZoneAgent.SetActiveTimeZoneRowAsync(Integer, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRowAsync(Integer, Boolean, System.Threading.CancellationToken)
+  name.vb: SetActiveTimeZoneRowAsync(Integer, Boolean, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ITimeZoneAgent}
-  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ITimeZoneAgent}
-  parent: SuperOffice.CRM.Services
-  definition: SuperOffice.CRM.Services.AgentBase`1
-  name: AgentBase<ITimeZoneAgent>
-  nameWithType: AgentBase<ITimeZoneAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ITimeZoneAgent>
-  nameWithType.vb: AgentBase(Of ITimeZoneAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ITimeZoneAgent)
-  name.vb: AgentBase(Of ITimeZoneAgent)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent
-    name: ITimeZoneAgent
-    nameWithType: ITimeZoneAgent
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent
-    name: ITimeZoneAgent
-    nameWithType: ITimeZoneAgent
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IDisposable
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent
   commentId: T:SuperOffice.CRM.Services.ITimeZoneAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ITimeZoneAgent.html
   name: ITimeZoneAgent
   nameWithType: ITimeZoneAgent
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent
@@ -529,714 +551,1163 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ITimeZoneAgent}.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ITimeZoneAgent}.Dispose
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ITimeZoneAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  name: Dispose()
-  nameWithType: AgentBase<ITimeZoneAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ITimeZoneAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of ITimeZoneAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ITimeZoneAgent).Dispose()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<ITimeZoneAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ITimeZoneAgent>.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of ITimeZoneAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ITimeZoneAgent).Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ITimeZoneAgent}.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ITimeZoneAgent}.InnerAgent
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ITimeZoneAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  name: InnerAgent
-  nameWithType: AgentBase<ITimeZoneAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ITimeZoneAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of ITimeZoneAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ITimeZoneAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.AgentBase`1
-  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: AgentBase<TAgent>
-  nameWithType: AgentBase<TAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
-  nameWithType.vb: AgentBase(Of TAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
-  name.vb: AgentBase(Of TAgent)
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.TimeZoneAgent.html#SuperOffice_CRM_Services_TimeZoneAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IPreferredTimeZoneImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IRemoteTimeZoneMethodsImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: TimeZoneAgent
+  nameWithType: TimeZoneAgent.TimeZoneAgent
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.TimeZoneAgent
+  nameWithType.vb: TimeZoneAgent.New
+  fullName.vb: SuperOffice.CRM.Services.TimeZoneAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation.html
+  name: IPreferredTimeZoneImplementation
+  nameWithType: IPreferredTimeZoneImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation.html
+  name: IRemoteTimeZoneMethodsImplementation
+  nameWithType: IRemoteTimeZoneMethodsImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformationAsync*
+  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformationAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.TimeZoneAgent.html#SuperOffice_CRM_Services_TimeZoneAgent_GetDefaultTimeZoneInformationAsync_System_Threading_CancellationToken_
+  name: GetDefaultTimeZoneInformationAsync
+  nameWithType: TimeZoneAgent.GetDefaultTimeZoneInformationAsync
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformationAsync
+- uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ITimeZoneAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetDefaultTimeZoneInformationAsync(CancellationToken)
+  nameWithType: ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(System.Threading.CancellationToken)
+    name: GetDefaultTimeZoneInformationAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(System.Threading.CancellationToken)
+    name: GetDefaultTimeZoneInformationAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferredTimeZone}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreferredTimeZone}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PreferredTimeZone>
+  nameWithType: Task<PreferredTimeZone>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PreferredTimeZone>
+  nameWithType.vb: Task(Of PreferredTimeZone)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PreferredTimeZone)
+  name.vb: Task(Of PreferredTimeZone)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+  - uid: SuperOffice.CRM.Services.PreferredTimeZone
+    name: PreferredTimeZone
+    isExternal: true
+    href: SuperOffice.CRM.Services.PreferredTimeZone.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.PreferredTimeZone
+    name: PreferredTimeZone
+    isExternal: true
+    href: SuperOffice.CRM.Services.PreferredTimeZone.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: Dispose()
-  nameWithType: AgentBase<TAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of TAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<TAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+  - uid: System
+    name: System
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of TAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+  - uid: System
+    name: System
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
   isExternal: true
-  name: InnerAgent
-  nameWithType: AgentBase<TAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformation*
-  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformation
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneDataAsync*
+  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneDataAsync
   isExternal: true
-  name: GetDefaultTimeZoneInformation
-  nameWithType: TimeZoneAgent.GetDefaultTimeZoneInformation
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformation
-- uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
-  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
+  href: SuperOffice.CRM.Services.TimeZoneAgent.html#SuperOffice_CRM_Services_TimeZoneAgent_InitializeTimeZoneDataAsync_System_Threading_CancellationToken_
+  name: InitializeTimeZoneDataAsync
+  nameWithType: TimeZoneAgent.InitializeTimeZoneDataAsync
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneDataAsync
+- uid: SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneDataAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneDataAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITimeZoneAgent
   isExternal: true
-  name: GetDefaultTimeZoneInformation()
-  nameWithType: ITimeZoneAgent.GetDefaultTimeZoneInformation()
-  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: InitializeTimeZoneDataAsync(CancellationToken)
+  nameWithType: ITimeZoneAgent.InitializeTimeZoneDataAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneDataAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
-    name: GetDefaultTimeZoneInformation
-    nameWithType: ITimeZoneAgent.GetDefaultTimeZoneInformation
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneDataAsync(System.Threading.CancellationToken)
+    name: InitializeTimeZoneDataAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
-    name: GetDefaultTimeZoneInformation
-    nameWithType: ITimeZoneAgent.GetDefaultTimeZoneInformation
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneDataAsync(System.Threading.CancellationToken)
+    name: InitializeTimeZoneDataAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.PreferredTimeZone
-  commentId: T:SuperOffice.CRM.Services.PreferredTimeZone
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: PreferredTimeZone
-  nameWithType: PreferredTimeZone
-  fullName: SuperOffice.CRM.Services.PreferredTimeZone
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneData*
-  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneData
-  isExternal: true
-  name: InitializeTimeZoneData
-  nameWithType: TimeZoneAgent.InitializeTimeZoneData
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneData
-- uid: SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneData
-  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneData
-  parent: SuperOffice.CRM.Services.ITimeZoneAgent
-  isExternal: true
-  name: InitializeTimeZoneData()
-  nameWithType: ITimeZoneAgent.InitializeTimeZoneData()
-  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneData()
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.TimeZoneData[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.TimeZoneData[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TimeZoneData[]>
+  nameWithType: Task<TimeZoneData[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.TimeZoneData[]>
+  nameWithType.vb: Task(Of TimeZoneData())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.TimeZoneData())
+  name.vb: Task(Of TimeZoneData())
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneData
-    name: InitializeTimeZoneData
-    nameWithType: ITimeZoneAgent.InitializeTimeZoneData
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneData
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneData
-    name: InitializeTimeZoneData
-    nameWithType: ITimeZoneAgent.InitializeTimeZoneData
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneData
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.TimeZoneData[]
-  isExternal: true
-  name: TimeZoneData[]
-  nameWithType: TimeZoneData[]
-  fullName: SuperOffice.CRM.TimeZoneData[]
-  nameWithType.vb: TimeZoneData()
-  fullName.vb: SuperOffice.CRM.TimeZoneData()
-  name.vb: TimeZoneData()
-  spec.csharp:
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.CRM.TimeZoneData
     name: TimeZoneData
-    nameWithType: TimeZoneData
-    fullName: SuperOffice.CRM.TimeZoneData
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+  - name: '['
+  - name: ']'
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.TimeZoneData
     name: TimeZoneData
-    nameWithType: TimeZoneData
-    fullName: SuperOffice.CRM.TimeZoneData
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneId*
-  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneId
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneIdAsync
   isExternal: true
-  name: GetBaseTimeZoneId
-  nameWithType: TimeZoneAgent.GetBaseTimeZoneId
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneId
-- uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneId
-  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneId
+  href: SuperOffice.CRM.Services.TimeZoneAgent.html#SuperOffice_CRM_Services_TimeZoneAgent_GetBaseTimeZoneIdAsync_System_Threading_CancellationToken_
+  name: GetBaseTimeZoneIdAsync
+  nameWithType: TimeZoneAgent.GetBaseTimeZoneIdAsync
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneIdAsync
+- uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITimeZoneAgent
   isExternal: true
-  name: GetBaseTimeZoneId()
-  nameWithType: ITimeZoneAgent.GetBaseTimeZoneId()
-  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneId()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetBaseTimeZoneIdAsync(CancellationToken)
+  nameWithType: ITimeZoneAgent.GetBaseTimeZoneIdAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneId
-    name: GetBaseTimeZoneId
-    nameWithType: ITimeZoneAgent.GetBaseTimeZoneId
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneId
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
+    name: GetBaseTimeZoneIdAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneId
-    name: GetBaseTimeZoneId
-    nameWithType: ITimeZoneAgent.GetBaseTimeZoneId
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneId
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
+    name: GetBaseTimeZoneIdAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneDataAsync*
+  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneDataAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.TimeZoneAgent.html#SuperOffice_CRM_Services_TimeZoneAgent_UpdateTimeZoneDataAsync_System_Threading_CancellationToken_
+  name: UpdateTimeZoneDataAsync
+  nameWithType: TimeZoneAgent.UpdateTimeZoneDataAsync
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneDataAsync
+- uid: SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneDataAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneDataAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ITimeZoneAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: UpdateTimeZoneDataAsync(CancellationToken)
+  nameWithType: ITimeZoneAgent.UpdateTimeZoneDataAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneDataAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneDataAsync(System.Threading.CancellationToken)
+    name: UpdateTimeZoneDataAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneDataAsync(System.Threading.CancellationToken)
+    name: UpdateTimeZoneDataAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailableAsync*
+  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailableAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.TimeZoneAgent.html#SuperOffice_CRM_Services_TimeZoneAgent_CheckNewTimeZoneDataAvailableAsync_System_Threading_CancellationToken_
+  name: CheckNewTimeZoneDataAvailableAsync
+  nameWithType: TimeZoneAgent.CheckNewTimeZoneDataAvailableAsync
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailableAsync
+- uid: SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ITimeZoneAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CheckNewTimeZoneDataAvailableAsync(CancellationToken)
+  nameWithType: ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
+    name: CheckNewTimeZoneDataAvailableAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
+    name: CheckNewTimeZoneDataAvailableAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRowAsync*
+  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRowAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.TimeZoneAgent.html#SuperOffice_CRM_Services_TimeZoneAgent_ToggleActiveTimeZoneRowAsync_System_Int32_System_Threading_CancellationToken_
+  name: ToggleActiveTimeZoneRowAsync
+  nameWithType: TimeZoneAgent.ToggleActiveTimeZoneRowAsync
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRowAsync
+- uid: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ITimeZoneAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: ToggleActiveTimeZoneRowAsync(int, CancellationToken)
+  nameWithType: ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(Integer, System.Threading.CancellationToken)
+  name.vb: ToggleActiveTimeZoneRowAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(System.Int32,System.Threading.CancellationToken)
+    name: ToggleActiveTimeZoneRowAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(System.Int32,System.Threading.CancellationToken)
+    name: ToggleActiveTimeZoneRowAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System
-  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneData*
-  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneData
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilterAsync*
+  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilterAsync
   isExternal: true
-  name: UpdateTimeZoneData
-  nameWithType: TimeZoneAgent.UpdateTimeZoneData
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneData
-- uid: SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneData
-  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneData
+  href: SuperOffice.CRM.Services.TimeZoneAgent.html#SuperOffice_CRM_Services_TimeZoneAgent_SetActiveTimeZonesByFilterAsync_System_String_System_Boolean_System_Threading_CancellationToken_
+  name: SetActiveTimeZonesByFilterAsync
+  nameWithType: TimeZoneAgent.SetActiveTimeZonesByFilterAsync
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilterAsync
+- uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITimeZoneAgent
   isExternal: true
-  name: UpdateTimeZoneData()
-  nameWithType: ITimeZoneAgent.UpdateTimeZoneData()
-  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneData()
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SetActiveTimeZonesByFilterAsync(string, bool, CancellationToken)
+  nameWithType: ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(string, bool, System.Threading.CancellationToken)
+  nameWithType.vb: ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(String, Boolean, System.Threading.CancellationToken)
+  name.vb: SetActiveTimeZonesByFilterAsync(String, Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneData
-    name: UpdateTimeZoneData
-    nameWithType: ITimeZoneAgent.UpdateTimeZoneData
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneData
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+    name: SetActiveTimeZonesByFilterAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneData
-    name: UpdateTimeZoneData
-    nameWithType: ITimeZoneAgent.UpdateTimeZoneData
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneData
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+    name: SetActiveTimeZonesByFilterAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailable*
-  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailable
-  isExternal: true
-  name: CheckNewTimeZoneDataAvailable
-  nameWithType: TimeZoneAgent.CheckNewTimeZoneDataAvailable
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailable
-- uid: SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailable
-  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailable
-  parent: SuperOffice.CRM.Services.ITimeZoneAgent
-  isExternal: true
-  name: CheckNewTimeZoneDataAvailable()
-  nameWithType: ITimeZoneAgent.CheckNewTimeZoneDataAvailable()
-  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailable()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailable
-    name: CheckNewTimeZoneDataAvailable
-    nameWithType: ITimeZoneAgent.CheckNewTimeZoneDataAvailable
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailable
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailable
-    name: CheckNewTimeZoneDataAvailable
-    nameWithType: ITimeZoneAgent.CheckNewTimeZoneDataAvailable
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailable
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRow*
-  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRow
-  isExternal: true
-  name: ToggleActiveTimeZoneRow
-  nameWithType: TimeZoneAgent.ToggleActiveTimeZoneRow
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.ToggleActiveTimeZoneRow
-- uid: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow(System.Int32)
-  parent: SuperOffice.CRM.Services.ITimeZoneAgent
-  isExternal: true
-  name: ToggleActiveTimeZoneRow(Int32)
-  nameWithType: ITimeZoneAgent.ToggleActiveTimeZoneRow(Int32)
-  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow(System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow(System.Int32)
-    name: ToggleActiveTimeZoneRow
-    nameWithType: ITimeZoneAgent.ToggleActiveTimeZoneRow
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow(System.Int32)
-    name: ToggleActiveTimeZoneRow
-    nameWithType: ITimeZoneAgent.ToggleActiveTimeZoneRow
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilter*
-  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilter
-  isExternal: true
-  name: SetActiveTimeZonesByFilter
-  nameWithType: TimeZoneAgent.SetActiveTimeZonesByFilter
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZonesByFilter
-- uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter(System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter(System.String,System.Boolean)
-  parent: SuperOffice.CRM.Services.ITimeZoneAgent
-  isExternal: true
-  name: SetActiveTimeZonesByFilter(String, Boolean)
-  nameWithType: ITimeZoneAgent.SetActiveTimeZonesByFilter(String, Boolean)
-  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter(System.String, System.Boolean)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter(System.String,System.Boolean)
-    name: SetActiveTimeZonesByFilter
-    nameWithType: ITimeZoneAgent.SetActiveTimeZonesByFilter
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter(System.String,System.Boolean)
-    name: SetActiveTimeZonesByFilter
-    nameWithType: ITimeZoneAgent.SetActiveTimeZonesByFilter
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdate*
-  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdate
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
-  name: TimeOfLastTimeZoneUpdate
-  nameWithType: TimeZoneAgent.TimeOfLastTimeZoneUpdate
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdate
-- uid: SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate
-  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdateAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.TimeZoneAgent.html#SuperOffice_CRM_Services_TimeZoneAgent_TimeOfLastTimeZoneUpdateAsync_System_Threading_CancellationToken_
+  name: TimeOfLastTimeZoneUpdateAsync
+  nameWithType: TimeZoneAgent.TimeOfLastTimeZoneUpdateAsync
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdateAsync
+- uid: SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITimeZoneAgent
   isExternal: true
-  name: TimeOfLastTimeZoneUpdate()
-  nameWithType: ITimeZoneAgent.TimeOfLastTimeZoneUpdate()
-  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: TimeOfLastTimeZoneUpdateAsync(CancellationToken)
+  nameWithType: ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate
-    name: TimeOfLastTimeZoneUpdate
-    nameWithType: ITimeZoneAgent.TimeOfLastTimeZoneUpdate
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(System.Threading.CancellationToken)
+    name: TimeOfLastTimeZoneUpdateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate
-    name: TimeOfLastTimeZoneUpdate
-    nameWithType: ITimeZoneAgent.TimeOfLastTimeZoneUpdate
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(System.Threading.CancellationToken)
+    name: TimeOfLastTimeZoneUpdateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.DateTime
+- uid: System.Threading.Tasks.Task{System.DateTime}
+  commentId: T:System.Threading.Tasks.Task{System.DateTime}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DateTime>
+  nameWithType: Task<DateTime>
+  fullName: System.Threading.Tasks.Task<System.DateTime>
+  nameWithType.vb: Task(Of Date)
+  fullName.vb: System.Threading.Tasks.Task(Of Date)
+  name.vb: Task(Of Date)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneIdAsync
   isExternal: true
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneId*
-  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneId
-  isExternal: true
-  name: SetBaseTimeZoneId
-  nameWithType: TimeZoneAgent.SetBaseTimeZoneId
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneId
-- uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId(System.Int32)
+  href: SuperOffice.CRM.Services.TimeZoneAgent.html#SuperOffice_CRM_Services_TimeZoneAgent_SetBaseTimeZoneIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: SetBaseTimeZoneIdAsync
+  nameWithType: TimeZoneAgent.SetBaseTimeZoneIdAsync
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.SetBaseTimeZoneIdAsync
+- uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITimeZoneAgent
   isExternal: true
-  name: SetBaseTimeZoneId(Int32)
-  nameWithType: ITimeZoneAgent.SetBaseTimeZoneId(Int32)
-  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: SetBaseTimeZoneIdAsync(int, CancellationToken)
+  nameWithType: ITimeZoneAgent.SetBaseTimeZoneIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneIdAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: ITimeZoneAgent.SetBaseTimeZoneIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: SetBaseTimeZoneIdAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId(System.Int32)
-    name: SetBaseTimeZoneId
-    nameWithType: ITimeZoneAgent.SetBaseTimeZoneId
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: SetBaseTimeZoneIdAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId(System.Int32)
-    name: SetBaseTimeZoneId
-    nameWithType: ITimeZoneAgent.SetBaseTimeZoneId
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32,System.Threading.CancellationToken)
+    name: SetBaseTimeZoneIdAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreference*
-  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreference
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreferenceAsync*
+  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreferenceAsync
   isExternal: true
-  name: GetDefaultTimeZonePreference
-  nameWithType: TimeZoneAgent.GetDefaultTimeZonePreference
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreference
-- uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreference
-  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreference
+  href: SuperOffice.CRM.Services.TimeZoneAgent.html#SuperOffice_CRM_Services_TimeZoneAgent_GetDefaultTimeZonePreferenceAsync_System_Threading_CancellationToken_
+  name: GetDefaultTimeZonePreferenceAsync
+  nameWithType: TimeZoneAgent.GetDefaultTimeZonePreferenceAsync
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreferenceAsync
+- uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITimeZoneAgent
   isExternal: true
-  name: GetDefaultTimeZonePreference()
-  nameWithType: ITimeZoneAgent.GetDefaultTimeZonePreference()
-  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreference()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetDefaultTimeZonePreferenceAsync(CancellationToken)
+  nameWithType: ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreference
-    name: GetDefaultTimeZonePreference
-    nameWithType: ITimeZoneAgent.GetDefaultTimeZonePreference
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreference
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
+    name: GetDefaultTimeZonePreferenceAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreference
-    name: GetDefaultTimeZonePreference
-    nameWithType: ITimeZoneAgent.GetDefaultTimeZonePreference
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreference
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
+    name: GetDefaultTimeZonePreferenceAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZones*
-  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZones
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZonesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZonesAsync
   isExternal: true
-  name: DeleteTimeZones
-  nameWithType: TimeZoneAgent.DeleteTimeZones
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZones
-- uid: SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZones
-  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZones
+  href: SuperOffice.CRM.Services.TimeZoneAgent.html#SuperOffice_CRM_Services_TimeZoneAgent_DeleteTimeZonesAsync_System_Threading_CancellationToken_
+  name: DeleteTimeZonesAsync
+  nameWithType: TimeZoneAgent.DeleteTimeZonesAsync
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZonesAsync
+- uid: SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZonesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZonesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITimeZoneAgent
   isExternal: true
-  name: DeleteTimeZones()
-  nameWithType: ITimeZoneAgent.DeleteTimeZones()
-  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZones()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: DeleteTimeZonesAsync(CancellationToken)
+  nameWithType: ITimeZoneAgent.DeleteTimeZonesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZonesAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZones
-    name: DeleteTimeZones
-    nameWithType: ITimeZoneAgent.DeleteTimeZones
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZones
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZonesAsync(System.Threading.CancellationToken)
+    name: DeleteTimeZonesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZones
-    name: DeleteTimeZones
-    nameWithType: ITimeZoneAgent.DeleteTimeZones
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZones
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZonesAsync(System.Threading.CancellationToken)
+    name: DeleteTimeZonesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRow*
-  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRow
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRowAsync*
+  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRowAsync
   isExternal: true
-  name: SetActiveTimeZoneRow
-  nameWithType: TimeZoneAgent.SetActiveTimeZoneRow
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRow
-- uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow(System.Int32,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow(System.Int32,System.Boolean)
+  href: SuperOffice.CRM.Services.TimeZoneAgent.html#SuperOffice_CRM_Services_TimeZoneAgent_SetActiveTimeZoneRowAsync_System_Int32_System_Boolean_System_Threading_CancellationToken_
+  name: SetActiveTimeZoneRowAsync
+  nameWithType: TimeZoneAgent.SetActiveTimeZoneRowAsync
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRowAsync
+- uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ITimeZoneAgent
   isExternal: true
-  name: SetActiveTimeZoneRow(Int32, Boolean)
-  nameWithType: ITimeZoneAgent.SetActiveTimeZoneRow(Int32, Boolean)
-  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow(System.Int32, System.Boolean)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: SetActiveTimeZoneRowAsync(int, bool, CancellationToken)
+  nameWithType: ITimeZoneAgent.SetActiveTimeZoneRowAsync(int, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRowAsync(int, bool, System.Threading.CancellationToken)
+  nameWithType.vb: ITimeZoneAgent.SetActiveTimeZoneRowAsync(Integer, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRowAsync(Integer, Boolean, System.Threading.CancellationToken)
+  name.vb: SetActiveTimeZoneRowAsync(Integer, Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow(System.Int32,System.Boolean)
-    name: SetActiveTimeZoneRow
-    nameWithType: ITimeZoneAgent.SetActiveTimeZoneRow
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+    name: SetActiveTimeZoneRowAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+    name: SetActiveTimeZoneRowAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow(System.Int32,System.Boolean)
-    name: SetActiveTimeZoneRow
-    nameWithType: ITimeZoneAgent.SetActiveTimeZoneRow
-    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.#ctor*
-  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.#ctor
-  isExternal: true
-  name: TimeZoneAgent
-  nameWithType: TimeZoneAgent.TimeZoneAgent
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.TimeZoneAgent

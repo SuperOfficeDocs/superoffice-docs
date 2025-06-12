@@ -1,0 +1,302 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+  id: DashboardLayout
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  children:
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.Four
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.None
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.One
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.ThreeESplit
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.ThreeTSplit
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.TwoHorizontalSplit
+  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.TwoVerticalSplit
+  langs:
+  - csharp
+  - vb
+  name: DashboardLayout
+  nameWithType: DashboardLayout
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: Dashboard layout
+  example: []
+  syntax:
+    content: public enum DashboardLayout
+    content.vb: Public Enum DashboardLayout
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.None
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.None
+  id: None
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DashboardLayout.None
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.None
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: '0: Unknown layout'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      None = 0
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.One
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.One
+  id: One
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+  langs:
+  - csharp
+  - vb
+  name: One
+  nameWithType: DashboardLayout.One
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.One
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: '1: One tile.'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      One = 1
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+    content.vb: >-
+      <EnumMember>
+
+      One = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.TwoVerticalSplit
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.TwoVerticalSplit
+  id: TwoVerticalSplit
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+  langs:
+  - csharp
+  - vb
+  name: TwoVerticalSplit
+  nameWithType: DashboardLayout.TwoVerticalSplit
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.TwoVerticalSplit
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: '2: Two vertical split.'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      TwoVerticalSplit = 2
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+    content.vb: >-
+      <EnumMember>
+
+      TwoVerticalSplit = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.ThreeESplit
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.ThreeESplit
+  id: ThreeESplit
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+  langs:
+  - csharp
+  - vb
+  name: ThreeESplit
+  nameWithType: DashboardLayout.ThreeESplit
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.ThreeESplit
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: '3: Three E split.'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      ThreeESplit = 3
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+    content.vb: >-
+      <EnumMember>
+
+      ThreeESplit = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.TwoHorizontalSplit
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.TwoHorizontalSplit
+  id: TwoHorizontalSplit
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+  langs:
+  - csharp
+  - vb
+  name: TwoHorizontalSplit
+  nameWithType: DashboardLayout.TwoHorizontalSplit
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.TwoHorizontalSplit
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: '4: Two horizontal split.'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      TwoHorizontalSplit = 4
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+    content.vb: >-
+      <EnumMember>
+
+      TwoHorizontalSplit = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.ThreeTSplit
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.ThreeTSplit
+  id: ThreeTSplit
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+  langs:
+  - csharp
+  - vb
+  name: ThreeTSplit
+  nameWithType: DashboardLayout.ThreeTSplit
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.ThreeTSplit
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: '5: Three T split.'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      ThreeTSplit = 5
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+    content.vb: >-
+      <EnumMember>
+
+      ThreeTSplit = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.Four
+  commentId: F:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.Four
+  id: Four
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+  langs:
+  - csharp
+  - vb
+  name: Four
+  nameWithType: DashboardLayout.Four
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.Four
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  summary: '7: Four tiles.'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Four = 7
+    return:
+      type: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+    content.vb: >-
+      <EnumMember>
+
+      Four = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  commentId: N:SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  nameWithType: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+    name: ForNetserverUntilVersion11
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+    name: ForNetserverUntilVersion11
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.html
+- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+  commentId: T:SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
+  parent: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout.html
+  name: DashboardLayout
+  nameWithType: DashboardLayout
+  fullName: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout

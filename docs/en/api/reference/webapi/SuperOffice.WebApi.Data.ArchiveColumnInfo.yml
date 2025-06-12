@@ -26,29 +26,30 @@ items:
   nameWithType: ArchiveColumnInfo
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for ArchiveColumnInfo.\nThis class carries information about the definition and properties of an archive display column. It is used by the archive MDO providers to construct column lists for the configuration dialogs, and by the archive control to know what type (and other properties) each column has. The class is serializable and used on both the application and Web server sides.    \n"
+  summary: >-
+    Carrier object for ArchiveColumnInfo.
+
+    This class carries information about the definition and properties of an archive display column. It is used by the archive MDO providers to construct column lists for the configuration dialogs, and by the archive control to know what type (and other properties) each column has. The class is serializable and used on both the application and Web server sides.
+  example: []
   syntax:
-    content: 'public class ArchiveColumnInfo : Object'
-    content.vb: >-
-      Public Class ArchiveColumnInfo
-          Inherits Object
+    content: public class ArchiveColumnInfo
+    content.vb: Public Class ArchiveColumnInfo
   seealso:
   - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
     commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.#ctor
   commentId: M:SuperOffice.WebApi.Data.ArchiveColumnInfo.#ctor
   id: '#ctor'
@@ -60,21 +61,18 @@ items:
   nameWithType: ArchiveColumnInfo.ArchiveColumnInfo()
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.ArchiveColumnInfo()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public ArchiveColumnInfo()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.ArchiveColumnInfo.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ArchiveColumnInfo.New()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveColumnInfo.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayName
   commentId: P:SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayName
   id: DisplayName
@@ -86,13 +84,11 @@ items:
   nameWithType: ArchiveColumnInfo.DisplayName
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe column name to show, can be a resource identifier string.\n"
+  summary: The column name to show, can be a resource identifier string.
+  example: []
   syntax:
     content: public virtual string DisplayName { get; set; }
     parameters: []
@@ -100,14 +96,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property DisplayName As String
   overload: SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayTooltip
   commentId: P:SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayTooltip
   id: DisplayTooltip
@@ -119,13 +107,11 @@ items:
   nameWithType: ArchiveColumnInfo.DisplayTooltip
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayTooltip
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe column tooltip, used in the column list and in the column headings\n"
+  summary: The column tooltip, used in the column list and in the column headings
+  example: []
   syntax:
     content: public virtual string DisplayTooltip { get; set; }
     parameters: []
@@ -133,14 +119,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property DisplayTooltip As String
   overload: SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayTooltip*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayType
   commentId: P:SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayType
   id: DisplayType
@@ -152,13 +130,11 @@ items:
   nameWithType: ArchiveColumnInfo.DisplayType
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayType
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nType of column, so that the archive knows how to display it (actual display values are always strings, invariant-culture formatted). This name can contain resource tags.\n"
+  summary: Type of column, so that the archive knows how to display it (actual display values are always strings, invariant-culture formatted). This name can contain resource tags.
+  example: []
   syntax:
     content: public virtual string DisplayType { get; set; }
     parameters: []
@@ -166,14 +142,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property DisplayType As String
   overload: SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.CanOrderBy
   commentId: P:SuperOffice.WebApi.Data.ArchiveColumnInfo.CanOrderBy
   id: CanOrderBy
@@ -185,13 +153,11 @@ items:
   nameWithType: ArchiveColumnInfo.CanOrderBy
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.CanOrderBy
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCan this column be used for sorting?\n"
+  summary: Can this column be used for sorting?
+  example: []
   syntax:
     content: public virtual bool CanOrderBy { get; set; }
     parameters: []
@@ -199,14 +165,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property CanOrderBy As Boolean
   overload: SuperOffice.WebApi.Data.ArchiveColumnInfo.CanOrderBy*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.Name
   commentId: P:SuperOffice.WebApi.Data.ArchiveColumnInfo.Name
   id: Name
@@ -218,13 +176,11 @@ items:
   nameWithType: ArchiveColumnInfo.Name
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.Name
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nUnique identity of this column (in this particular context); the name to be used when requesting the column from a provider, setting restrictions or order by criteria\n"
+  summary: Unique identity of this column (in this particular context); the name to be used when requesting the column from a provider, setting restrictions or order by criteria
+  example: []
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -232,14 +188,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.ArchiveColumnInfo.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.CanRestrictBy
   commentId: P:SuperOffice.WebApi.Data.ArchiveColumnInfo.CanRestrictBy
   id: CanRestrictBy
@@ -251,13 +199,11 @@ items:
   nameWithType: ArchiveColumnInfo.CanRestrictBy
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.CanRestrictBy
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCan this column be used as a restriction\n"
+  summary: Can this column be used as a restriction
+  example: []
   syntax:
     content: public virtual bool CanRestrictBy { get; set; }
     parameters: []
@@ -265,14 +211,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property CanRestrictBy As Boolean
   overload: SuperOffice.WebApi.Data.ArchiveColumnInfo.CanRestrictBy*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.RestrictionType
   commentId: P:SuperOffice.WebApi.Data.ArchiveColumnInfo.RestrictionType
   id: RestrictionType
@@ -284,13 +222,11 @@ items:
   nameWithType: ArchiveColumnInfo.RestrictionType
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.RestrictionType
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe data type of the restriction; use this to retrieve the legal operators for the restriction.\n"
+  summary: The data type of the restriction; use this to retrieve the legal operators for the restriction.
+  example: []
   syntax:
     content: public virtual string RestrictionType { get; set; }
     parameters: []
@@ -298,14 +234,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property RestrictionType As String
   overload: SuperOffice.WebApi.Data.ArchiveColumnInfo.RestrictionType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.RestrictionListName
   commentId: P:SuperOffice.WebApi.Data.ArchiveColumnInfo.RestrictionListName
   id: RestrictionListName
@@ -317,13 +245,11 @@ items:
   nameWithType: ArchiveColumnInfo.RestrictionListName
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.RestrictionListName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIf the restriction data type is &apos;list&apos;, this property contains the name of the SoList so that choices can be shown\n"
+  summary: If the restriction data type is 'list', this property contains the name of the SoList so that choices can be shown
+  example: []
   syntax:
     content: public virtual string RestrictionListName { get; set; }
     parameters: []
@@ -331,14 +257,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property RestrictionListName As String
   overload: SuperOffice.WebApi.Data.ArchiveColumnInfo.RestrictionListName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.IsVisible
   commentId: P:SuperOffice.WebApi.Data.ArchiveColumnInfo.IsVisible
   id: IsVisible
@@ -350,13 +268,11 @@ items:
   nameWithType: ArchiveColumnInfo.IsVisible
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.IsVisible
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIs this column visible to the user in configuration dialogs etc\n"
+  summary: Is this column visible to the user in configuration dialogs etc
+  example: []
   syntax:
     content: public virtual bool IsVisible { get; set; }
     parameters: []
@@ -364,14 +280,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsVisible As Boolean
   overload: SuperOffice.WebApi.Data.ArchiveColumnInfo.IsVisible*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.Width
   commentId: P:SuperOffice.WebApi.Data.ArchiveColumnInfo.Width
   id: Width
@@ -383,13 +291,11 @@ items:
   nameWithType: ArchiveColumnInfo.Width
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.Width
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe width specification, if the column info has been extended with GUI-based information. It is either &quot;n%&quot; or &quot;nc&quot;, where n is an integer. Percent-formatted fields grow and shrink; number-of-characters formatted fields have constant width when the whole archive width changes.\n"
+  summary: The width specification, if the column info has been extended with GUI-based information. It is either "n%" or "nc", where n is an integer. Percent-formatted fields grow and shrink; number-of-characters formatted fields have constant width when the whole archive width changes.
+  example: []
   syntax:
     content: public virtual string Width { get; set; }
     parameters: []
@@ -397,14 +303,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Width As String
   overload: SuperOffice.WebApi.Data.ArchiveColumnInfo.Width*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.IconHint
   commentId: P:SuperOffice.WebApi.Data.ArchiveColumnInfo.IconHint
   id: IconHint
@@ -416,13 +314,11 @@ items:
   nameWithType: ArchiveColumnInfo.IconHint
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.IconHint
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIcon hint corresponding to the display name; this icon hint is used in the configuration dialog and other places where we &apos;talk about&apos; the columns of the archive. The actual heading of the archive may also contain icons in lieu of textual names, the icon hint for that is specified in HeadingIconHint and is a different one.\n"
+  summary: Icon hint corresponding to the display name; this icon hint is used in the configuration dialog and other places where we 'talk about' the columns of the archive. The actual heading of the archive may also contain icons in lieu of textual names, the icon hint for that is specified in HeadingIconHint and is a different one.
+  example: []
   syntax:
     content: public virtual string IconHint { get; set; }
     parameters: []
@@ -430,14 +326,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property IconHint As String
   overload: SuperOffice.WebApi.Data.ArchiveColumnInfo.IconHint*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.HeadingIconHint
   commentId: P:SuperOffice.WebApi.Data.ArchiveColumnInfo.HeadingIconHint
   id: HeadingIconHint
@@ -449,13 +337,11 @@ items:
   nameWithType: ArchiveColumnInfo.HeadingIconHint
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.HeadingIconHint
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIcon hint for the archive heading only. If this is a nonempty string, the archive header should use this icon and ignore the DisplayName. Otherwise, the DisplayName should be used as the heading.\n"
+  summary: Icon hint for the archive heading only. If this is a nonempty string, the archive header should use this icon and ignore the DisplayName. Otherwise, the DisplayName should be used as the heading.
+  example: []
   syntax:
     content: public virtual string HeadingIconHint { get; set; }
     parameters: []
@@ -463,14 +349,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property HeadingIconHint As String
   overload: SuperOffice.WebApi.Data.ArchiveColumnInfo.HeadingIconHint*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.ExtraInfo
   commentId: P:SuperOffice.WebApi.Data.ArchiveColumnInfo.ExtraInfo
   id: ExtraInfo
@@ -482,13 +360,11 @@ items:
   nameWithType: ArchiveColumnInfo.ExtraInfo
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.ExtraInfo
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nExample: &apos;navigator&apos; -> Should this column be mapped to a hyperlinked navigator text type?\n"
+  summary: "Example: 'navigator' -&gt; Should this column be mapped to a hyperlinked navigator text type?"
+  example: []
   syntax:
     content: public virtual string ExtraInfo { get; set; }
     parameters: []
@@ -496,49 +372,302 @@ items:
       type: System.String
     content.vb: Public Overridable Property ExtraInfo As String
   overload: SuperOffice.WebApi.Data.ArchiveColumnInfo.ExtraInfo*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ArchiveAgent.html
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: SuperOffice.WebApi.Agents.ArchiveAgent
-  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: ArchiveAgent
-  nameWithType: ArchiveAgent
-  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.ArchiveColumnInfo.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.ArchiveColumnInfo.html#SuperOffice_WebApi_Data_ArchiveColumnInfo__ctor
   name: ArchiveColumnInfo
   nameWithType: ArchiveColumnInfo.ArchiveColumnInfo
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.ArchiveColumnInfo
+  nameWithType.vb: ArchiveColumnInfo.New
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveColumnInfo.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayName*
   commentId: Overload:SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayName
   isExternal: true
+  href: SuperOffice.WebApi.Data.ArchiveColumnInfo.html#SuperOffice_WebApi_Data_ArchiveColumnInfo_DisplayName
   name: DisplayName
   nameWithType: ArchiveColumnInfo.DisplayName
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayName
@@ -546,24 +675,31 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayTooltip*
   commentId: Overload:SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayTooltip
   isExternal: true
+  href: SuperOffice.WebApi.Data.ArchiveColumnInfo.html#SuperOffice_WebApi_Data_ArchiveColumnInfo_DisplayTooltip
   name: DisplayTooltip
   nameWithType: ArchiveColumnInfo.DisplayTooltip
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayTooltip
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayType*
   commentId: Overload:SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayType
   isExternal: true
+  href: SuperOffice.WebApi.Data.ArchiveColumnInfo.html#SuperOffice_WebApi_Data_ArchiveColumnInfo_DisplayType
   name: DisplayType
   nameWithType: ArchiveColumnInfo.DisplayType
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayType
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.CanOrderBy*
   commentId: Overload:SuperOffice.WebApi.Data.ArchiveColumnInfo.CanOrderBy
   isExternal: true
+  href: SuperOffice.WebApi.Data.ArchiveColumnInfo.html#SuperOffice_WebApi_Data_ArchiveColumnInfo_CanOrderBy
   name: CanOrderBy
   nameWithType: ArchiveColumnInfo.CanOrderBy
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.CanOrderBy
@@ -571,60 +707,73 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.Name*
   commentId: Overload:SuperOffice.WebApi.Data.ArchiveColumnInfo.Name
   isExternal: true
+  href: SuperOffice.WebApi.Data.ArchiveColumnInfo.html#SuperOffice_WebApi_Data_ArchiveColumnInfo_Name
   name: Name
   nameWithType: ArchiveColumnInfo.Name
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.Name
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.CanRestrictBy*
   commentId: Overload:SuperOffice.WebApi.Data.ArchiveColumnInfo.CanRestrictBy
   isExternal: true
+  href: SuperOffice.WebApi.Data.ArchiveColumnInfo.html#SuperOffice_WebApi_Data_ArchiveColumnInfo_CanRestrictBy
   name: CanRestrictBy
   nameWithType: ArchiveColumnInfo.CanRestrictBy
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.CanRestrictBy
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.RestrictionType*
   commentId: Overload:SuperOffice.WebApi.Data.ArchiveColumnInfo.RestrictionType
   isExternal: true
+  href: SuperOffice.WebApi.Data.ArchiveColumnInfo.html#SuperOffice_WebApi_Data_ArchiveColumnInfo_RestrictionType
   name: RestrictionType
   nameWithType: ArchiveColumnInfo.RestrictionType
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.RestrictionType
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.RestrictionListName*
   commentId: Overload:SuperOffice.WebApi.Data.ArchiveColumnInfo.RestrictionListName
   isExternal: true
+  href: SuperOffice.WebApi.Data.ArchiveColumnInfo.html#SuperOffice_WebApi_Data_ArchiveColumnInfo_RestrictionListName
   name: RestrictionListName
   nameWithType: ArchiveColumnInfo.RestrictionListName
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.RestrictionListName
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.IsVisible*
   commentId: Overload:SuperOffice.WebApi.Data.ArchiveColumnInfo.IsVisible
   isExternal: true
+  href: SuperOffice.WebApi.Data.ArchiveColumnInfo.html#SuperOffice_WebApi_Data_ArchiveColumnInfo_IsVisible
   name: IsVisible
   nameWithType: ArchiveColumnInfo.IsVisible
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.IsVisible
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.Width*
   commentId: Overload:SuperOffice.WebApi.Data.ArchiveColumnInfo.Width
   isExternal: true
+  href: SuperOffice.WebApi.Data.ArchiveColumnInfo.html#SuperOffice_WebApi_Data_ArchiveColumnInfo_Width
   name: Width
   nameWithType: ArchiveColumnInfo.Width
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.Width
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.IconHint*
   commentId: Overload:SuperOffice.WebApi.Data.ArchiveColumnInfo.IconHint
   isExternal: true
+  href: SuperOffice.WebApi.Data.ArchiveColumnInfo.html#SuperOffice_WebApi_Data_ArchiveColumnInfo_IconHint
   name: IconHint
   nameWithType: ArchiveColumnInfo.IconHint
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.IconHint
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.HeadingIconHint*
   commentId: Overload:SuperOffice.WebApi.Data.ArchiveColumnInfo.HeadingIconHint
   isExternal: true
+  href: SuperOffice.WebApi.Data.ArchiveColumnInfo.html#SuperOffice_WebApi_Data_ArchiveColumnInfo_HeadingIconHint
   name: HeadingIconHint
   nameWithType: ArchiveColumnInfo.HeadingIconHint
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.HeadingIconHint
 - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.ExtraInfo*
   commentId: Overload:SuperOffice.WebApi.Data.ArchiveColumnInfo.ExtraInfo
   isExternal: true
+  href: SuperOffice.WebApi.Data.ArchiveColumnInfo.html#SuperOffice_WebApi_Data_ArchiveColumnInfo_ExtraInfo
   name: ExtraInfo
   nameWithType: ArchiveColumnInfo.ExtraInfo
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.ExtraInfo

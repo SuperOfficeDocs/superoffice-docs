@@ -5,20 +5,12 @@ items:
   id: ReportAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.ReportAgent.#ctor
-  - SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportEntity
-  - SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntity
-  - SuperOffice.CRM.Services.ReportAgent.CreateFavorite(System.Int32,System.String,System.String)
-  - SuperOffice.CRM.Services.ReportAgent.DeleteFavorite(System.Int32)
-  - SuperOffice.CRM.Services.ReportAgent.DeleteReport(System.Int32)
-  - SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntity(System.Int32)
-  - SuperOffice.CRM.Services.ReportAgent.GenerateReport(System.Int32,System.Int32,System.String,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  - SuperOffice.CRM.Services.ReportAgent.GetReportEntity(System.Int32)
-  - SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntity(System.Int32)
-  - SuperOffice.CRM.Services.ReportAgent.ImportReport(System.String)
-  - SuperOffice.CRM.Services.ReportAgent.SaveReportEntity(SuperOffice.CRM.Services.ReportEntity)
-  - SuperOffice.CRM.Services.ReportAgent.SaveReportLabelLayoutEntity(SuperOffice.CRM.Services.ReportLabelLayoutEntity)
-  - SuperOffice.CRM.Services.ReportAgent.UpdateFavorite(SuperOffice.CRM.Services.ReportEntity)
+  - SuperOffice.CRM.Services.ReportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.ReportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ReportAgent.SaveReportLabelLayoutEntityAsync(SuperOffice.CRM.Services.ReportLabelLayoutEntity,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -26,586 +18,271 @@ items:
   nameWithType: ReportAgent
   fullName: SuperOffice.CRM.Services.ReportAgent
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nFacade for the Report Agent\nRun reports, set favourites, labels\n"
-  example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ReportAgent agent = new ReportAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  summary: >-
+    Proxy class for the Report Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
   syntax:
-    content: 'public class ReportAgent : AgentBase<IReportAgent>, IDisposable, IReportAgent, IAgent'
-    content.vb: >-
-      Public Class ReportAgent
-          Inherits AgentBase(Of IReportAgent)
-          Implements IDisposable, IReportAgent, IAgent
+    content: 'public class ReportAgent : IReportAgent, IAgent'
+    content.vb: Public Class ReportAgent Implements IReportAgent, IAgent
   inheritance:
   - System.Object
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReportAgent}
   implements:
-  - System.IDisposable
   - SuperOffice.CRM.Services.IReportAgent
   - SuperOffice.CRM.Services.IAgent
   inheritedMembers:
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReportAgent}.Dispose
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReportAgent}.InnerAgent
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportEntity
-  commentId: M:SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportEntity
-  id: CreateDefaultReportEntity
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.ReportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.ReportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.ReportAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultReportEntity()
-  nameWithType: ReportAgent.CreateDefaultReportEntity()
-  fullName: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportEntity()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
+  name: ReportAgent(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor)
+  nameWithType: ReportAgent.ReportAgent(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.ReportAgent.ReportAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new ReportEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
-    content: public ReportEntity CreateDefaultReportEntity()
-    return:
-      type: SuperOffice.CRM.Services.ReportEntity
-      description: New ReportEntity with default values
-    content.vb: Public Function CreateDefaultReportEntity As ReportEntity
-  overload: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportEntity*
-  implements:
-  - SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportEntity
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.ReportAgent.SaveReportEntity(SuperOffice.CRM.Services.ReportEntity)
-  commentId: M:SuperOffice.CRM.Services.ReportAgent.SaveReportEntity(SuperOffice.CRM.Services.ReportEntity)
-  id: SaveReportEntity(SuperOffice.CRM.Services.ReportEntity)
-  parent: SuperOffice.CRM.Services.ReportAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveReportEntity(ReportEntity)
-  nameWithType: ReportAgent.SaveReportEntity(ReportEntity)
-  fullName: SuperOffice.CRM.Services.ReportAgent.SaveReportEntity(SuperOffice.CRM.Services.ReportEntity)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing ReportEntity or creates a new ReportEntity if the id parameter is empty\n"
-  syntax:
-    content: public ReportEntity SaveReportEntity(ReportEntity reportEntity)
+    content: public ReportAgent(IReportLabelLayoutEntityImplementation reportLabelLayoutEntityImplementation, ISoRequestItemsAccessor accessor)
     parameters:
-    - id: reportEntity
-      type: SuperOffice.CRM.Services.ReportEntity
-      description: The ReportEntity that is saved.
-    return:
-      type: SuperOffice.CRM.Services.ReportEntity
-      description: New or updated ReportEntity
-    content.vb: Public Function SaveReportEntity(reportEntity As ReportEntity) As ReportEntity
-  overload: SuperOffice.CRM.Services.ReportAgent.SaveReportEntity*
-  implements:
-  - SuperOffice.CRM.Services.IReportAgent.SaveReportEntity(SuperOffice.CRM.Services.ReportEntity)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntity
-  commentId: M:SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntity
-  id: CreateDefaultReportLabelLayoutEntity
+    - id: reportLabelLayoutEntityImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(reportLabelLayoutEntityImplementation As IReportLabelLayoutEntityImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.ReportAgent.#ctor*
+  nameWithType.vb: ReportAgent.New(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.ReportAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.ReportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.ReportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
   parent: SuperOffice.CRM.Services.ReportAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultReportLabelLayoutEntity()
-  nameWithType: ReportAgent.CreateDefaultReportLabelLayoutEntity()
-  fullName: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntity()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
+  name: ReportAgent(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: ReportAgent.ReportAgent(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.ReportAgent.ReportAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new ReportLabelLayoutEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
-    content: public ReportLabelLayoutEntity CreateDefaultReportLabelLayoutEntity()
+    content: public ReportAgent(IReportLabelLayoutEntityImplementation reportLabelLayoutEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: reportLabelLayoutEntityImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(reportLabelLayoutEntityImplementation As IReportLabelLayoutEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.ReportAgent.#ctor*
+  nameWithType.vb: ReportAgent.New(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.ReportAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultReportLabelLayoutEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ReportAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultReportLabelLayoutEntityAsync(CancellationToken)
+  nameWithType: ReportAgent.CreateDefaultReportLabelLayoutEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Loading default values into a new ReportLabelLayoutEntity.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
+  syntax:
+    content: public Task<ReportLabelLayoutEntity> CreateDefaultReportLabelLayoutEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ReportLabelLayoutEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ReportLabelLayoutEntity}
       description: New ReportLabelLayoutEntity with default values
-    content.vb: Public Function CreateDefaultReportLabelLayoutEntity As ReportLabelLayoutEntity
-  overload: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntity*
+    content.vb: Public Function CreateDefaultReportLabelLayoutEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ReportLabelLayoutEntity)
+  overload: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync*
   implements:
-  - SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntity
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.ReportAgent.SaveReportLabelLayoutEntity(SuperOffice.CRM.Services.ReportLabelLayoutEntity)
-  commentId: M:SuperOffice.CRM.Services.ReportAgent.SaveReportLabelLayoutEntity(SuperOffice.CRM.Services.ReportLabelLayoutEntity)
-  id: SaveReportLabelLayoutEntity(SuperOffice.CRM.Services.ReportLabelLayoutEntity)
+  - SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntityAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.ReportAgent.SaveReportLabelLayoutEntityAsync(SuperOffice.CRM.Services.ReportLabelLayoutEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ReportAgent.SaveReportLabelLayoutEntityAsync(SuperOffice.CRM.Services.ReportLabelLayoutEntity,System.Threading.CancellationToken)
+  id: SaveReportLabelLayoutEntityAsync(SuperOffice.CRM.Services.ReportLabelLayoutEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ReportAgent
   langs:
   - csharp
   - vb
-  name: SaveReportLabelLayoutEntity(ReportLabelLayoutEntity)
-  nameWithType: ReportAgent.SaveReportLabelLayoutEntity(ReportLabelLayoutEntity)
-  fullName: SuperOffice.CRM.Services.ReportAgent.SaveReportLabelLayoutEntity(SuperOffice.CRM.Services.ReportLabelLayoutEntity)
+  name: SaveReportLabelLayoutEntityAsync(ReportLabelLayoutEntity, CancellationToken)
+  nameWithType: ReportAgent.SaveReportLabelLayoutEntityAsync(ReportLabelLayoutEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ReportAgent.SaveReportLabelLayoutEntityAsync(SuperOffice.CRM.Services.ReportLabelLayoutEntity, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is empty\n"
+  summary: Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is empty
+  example: []
   syntax:
-    content: public ReportLabelLayoutEntity SaveReportLabelLayoutEntity(ReportLabelLayoutEntity reportLabelLayoutEntity)
+    content: public Task<ReportLabelLayoutEntity> SaveReportLabelLayoutEntityAsync(ReportLabelLayoutEntity reportLabelLayoutEntity, CancellationToken cancellationToken = default)
     parameters:
     - id: reportLabelLayoutEntity
       type: SuperOffice.CRM.Services.ReportLabelLayoutEntity
       description: The ReportLabelLayoutEntity that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ReportLabelLayoutEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ReportLabelLayoutEntity}
       description: New or updated ReportLabelLayoutEntity
-    content.vb: Public Function SaveReportLabelLayoutEntity(reportLabelLayoutEntity As ReportLabelLayoutEntity) As ReportLabelLayoutEntity
-  overload: SuperOffice.CRM.Services.ReportAgent.SaveReportLabelLayoutEntity*
+    content.vb: Public Function SaveReportLabelLayoutEntityAsync(reportLabelLayoutEntity As ReportLabelLayoutEntity, cancellationToken As CancellationToken = Nothing) As Task(Of ReportLabelLayoutEntity)
+  overload: SuperOffice.CRM.Services.ReportAgent.SaveReportLabelLayoutEntityAsync*
   implements:
-  - SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntity(SuperOffice.CRM.Services.ReportLabelLayoutEntity)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntity(System.Int32)
-  id: DeleteReportLabelLayoutEntity(System.Int32)
+  - SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntityAsync(SuperOffice.CRM.Services.ReportLabelLayoutEntity,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ReportAgent
   langs:
   - csharp
   - vb
-  name: DeleteReportLabelLayoutEntity(Int32)
-  nameWithType: ReportAgent.DeleteReportLabelLayoutEntity(Int32)
-  fullName: SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntity(System.Int32)
+  name: DeleteReportLabelLayoutEntityAsync(int, CancellationToken)
+  nameWithType: ReportAgent.DeleteReportLabelLayoutEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntityAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the ReportLabelLayoutEntity\n"
+  summary: Deletes the ReportLabelLayoutEntity
+  example: []
   syntax:
-    content: public void DeleteReportLabelLayoutEntity(int reportLabelLayoutEntityId)
+    content: public Task DeleteReportLabelLayoutEntityAsync(int reportLabelLayoutEntityId, CancellationToken cancellationToken = default)
     parameters:
     - id: reportLabelLayoutEntityId
       type: System.Int32
       description: The identity of the ReportLabelLayoutEntity
-    content.vb: Public Sub DeleteReportLabelLayoutEntity(reportLabelLayoutEntityId As Integer)
-  overload: SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntity*
-  implements:
-  - SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntity(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.ReportAgent.GetReportEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ReportAgent.GetReportEntity(System.Int32)
-  id: GetReportEntity(System.Int32)
-  parent: SuperOffice.CRM.Services.ReportAgent
-  langs:
-  - csharp
-  - vb
-  name: GetReportEntity(Int32)
-  nameWithType: ReportAgent.GetReportEntity(Int32)
-  fullName: SuperOffice.CRM.Services.ReportAgent.GetReportEntity(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGets a ReportEntity object.                        \n"
-  syntax:
-    content: public ReportEntity GetReportEntity(int reportEntityId)
-    parameters:
-    - id: reportEntityId
-      type: System.Int32
-      description: The identifier of the ReportEntity object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ReportEntity
-      description: ReportEntity
-    content.vb: Public Function GetReportEntity(reportEntityId As Integer) As ReportEntity
-  overload: SuperOffice.CRM.Services.ReportAgent.GetReportEntity*
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteReportLabelLayoutEntityAsync(reportLabelLayoutEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntityAsync*
   implements:
-  - SuperOffice.CRM.Services.IReportAgent.GetReportEntity(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.ReportAgent.CreateFavorite(System.Int32,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.ReportAgent.CreateFavorite(System.Int32,System.String,System.String)
-  id: CreateFavorite(System.Int32,System.String,System.String)
+  - SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: ReportAgent.DeleteReportLabelLayoutEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteReportLabelLayoutEntityAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ReportAgent
   langs:
   - csharp
   - vb
-  name: CreateFavorite(Int32, String, String)
-  nameWithType: ReportAgent.CreateFavorite(Int32, String, String)
-  fullName: SuperOffice.CRM.Services.ReportAgent.CreateFavorite(System.Int32, System.String, System.String)
+  name: GetReportLabelLayoutEntityAsync(int, CancellationToken)
+  nameWithType: ReportAgent.GetReportLabelLayoutEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntityAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nCreates the report as favorite. The sourceId is the key to the report that the favorite is based on.\n"
+  summary: Gets a ReportLabelLayoutEntity object.
+  example: []
   syntax:
-    content: public ReportEntity CreateFavorite(int sourceId, string name, string description)
-    parameters:
-    - id: sourceId
-      type: System.Int32
-      description: The primary key to the report to make the favorite from.
-    - id: name
-      type: System.String
-      description: The name of the new favorite.
-    - id: description
-      type: System.String
-      description: The description of the new favorite.
-    return:
-      type: SuperOffice.CRM.Services.ReportEntity
-      description: The new favorite ReportEntity.
-    content.vb: Public Function CreateFavorite(sourceId As Integer, name As String, description As String) As ReportEntity
-  overload: SuperOffice.CRM.Services.ReportAgent.CreateFavorite*
-  implements:
-  - SuperOffice.CRM.Services.IReportAgent.CreateFavorite(System.Int32,System.String,System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.ReportAgent.DeleteFavorite(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ReportAgent.DeleteFavorite(System.Int32)
-  id: DeleteFavorite(System.Int32)
-  parent: SuperOffice.CRM.Services.ReportAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteFavorite(Int32)
-  nameWithType: ReportAgent.DeleteFavorite(Int32)
-  fullName: SuperOffice.CRM.Services.ReportAgent.DeleteFavorite(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the report favorite.\n"
-  syntax:
-    content: public void DeleteFavorite(int reportEntityId)
-    parameters:
-    - id: reportEntityId
-      type: System.Int32
-      description: The id of the report favorite to delete.
-    content.vb: Public Sub DeleteFavorite(reportEntityId As Integer)
-  overload: SuperOffice.CRM.Services.ReportAgent.DeleteFavorite*
-  implements:
-  - SuperOffice.CRM.Services.IReportAgent.DeleteFavorite(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.ReportAgent.UpdateFavorite(SuperOffice.CRM.Services.ReportEntity)
-  commentId: M:SuperOffice.CRM.Services.ReportAgent.UpdateFavorite(SuperOffice.CRM.Services.ReportEntity)
-  id: UpdateFavorite(SuperOffice.CRM.Services.ReportEntity)
-  parent: SuperOffice.CRM.Services.ReportAgent
-  langs:
-  - csharp
-  - vb
-  name: UpdateFavorite(ReportEntity)
-  nameWithType: ReportAgent.UpdateFavorite(ReportEntity)
-  fullName: SuperOffice.CRM.Services.ReportAgent.UpdateFavorite(SuperOffice.CRM.Services.ReportEntity)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the favorite.\n"
-  syntax:
-    content: public ReportEntity UpdateFavorite(ReportEntity reportEntity)
-    parameters:
-    - id: reportEntity
-      type: SuperOffice.CRM.Services.ReportEntity
-      description: ReportEntity carrier containg updated data.
-    return:
-      type: SuperOffice.CRM.Services.ReportEntity
-      description: The updated ReportEntity carrier.
-    content.vb: Public Function UpdateFavorite(reportEntity As ReportEntity) As ReportEntity
-  overload: SuperOffice.CRM.Services.ReportAgent.UpdateFavorite*
-  implements:
-  - SuperOffice.CRM.Services.IReportAgent.UpdateFavorite(SuperOffice.CRM.Services.ReportEntity)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.ReportAgent.GenerateReport(System.Int32,System.Int32,System.String,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  commentId: M:SuperOffice.CRM.Services.ReportAgent.GenerateReport(System.Int32,System.Int32,System.String,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  id: GenerateReport(System.Int32,System.Int32,System.String,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  parent: SuperOffice.CRM.Services.ReportAgent
-  langs:
-  - csharp
-  - vb
-  name: GenerateReport(Int32, Int32, String, String, String, ArchiveRestrictionInfo[])
-  nameWithType: ReportAgent.GenerateReport(Int32, Int32, String, String, String, ArchiveRestrictionInfo[])
-  fullName: SuperOffice.CRM.Services.ReportAgent.GenerateReport(System.Int32, System.Int32, System.String, System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGenerates the report in PDF format\n"
-  syntax:
-    content: public string GenerateReport(int reportId, int labelLayoutId, string filename, string language, string fileType, ArchiveRestrictionInfo[] restrictions)
-    parameters:
-    - id: reportId
-      type: System.Int32
-      description: The id of the report.
-    - id: labelLayoutId
-      type: System.Int32
-      description: The id of the labellayout. Use 0 if the report isn&apos;t of type label.
-    - id: filename
-      type: System.String
-      description: Filename of the report.
-    - id: language
-      type: System.String
-      description: Language to use when generating the report.
-    - id: fileType
-      type: System.String
-    - id: restrictions
-      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
-      description: Use restrictions to provide additional restrictions when generating the report.
-    return:
-      type: System.String
-      description: Batch task id, as string. Used to be path to the generated report, but no more.
-    content.vb: Public Function GenerateReport(reportId As Integer, labelLayoutId As Integer, filename As String, language As String, fileType As String, restrictions As ArchiveRestrictionInfo()) As String
-  overload: SuperOffice.CRM.Services.ReportAgent.GenerateReport*
-  implements:
-  - SuperOffice.CRM.Services.IReportAgent.GenerateReport(System.Int32,System.Int32,System.String,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  nameWithType.vb: ReportAgent.GenerateReport(Int32, Int32, String, String, String, ArchiveRestrictionInfo())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.ReportAgent.GenerateReport(System.Int32, System.Int32, System.String, System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
-  name.vb: GenerateReport(Int32, Int32, String, String, String, ArchiveRestrictionInfo())
-- uid: SuperOffice.CRM.Services.ReportAgent.ImportReport(System.String)
-  commentId: M:SuperOffice.CRM.Services.ReportAgent.ImportReport(System.String)
-  id: ImportReport(System.String)
-  parent: SuperOffice.CRM.Services.ReportAgent
-  langs:
-  - csharp
-  - vb
-  name: ImportReport(String)
-  nameWithType: ReportAgent.ImportReport(String)
-  fullName: SuperOffice.CRM.Services.ReportAgent.ImportReport(System.String)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nTakes the input stream and create a report. This stream must be on a valid xml format\n"
-  syntax:
-    content: public int ImportReport(string report)
-    parameters:
-    - id: report
-      type: System.String
-      description: The report to import in a correct xml format
-    return:
-      type: System.Int32
-      description: The id of the newly imported report
-    content.vb: Public Function ImportReport(report As String) As Integer
-  overload: SuperOffice.CRM.Services.ReportAgent.ImportReport*
-  implements:
-  - SuperOffice.CRM.Services.IReportAgent.ImportReport(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.ReportAgent.DeleteReport(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ReportAgent.DeleteReport(System.Int32)
-  id: DeleteReport(System.Int32)
-  parent: SuperOffice.CRM.Services.ReportAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteReport(Int32)
-  nameWithType: ReportAgent.DeleteReport(Int32)
-  fullName: SuperOffice.CRM.Services.ReportAgent.DeleteReport(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nDelete the report with the given id\n"
-  syntax:
-    content: public bool DeleteReport(int reportId)
-    parameters:
-    - id: reportId
-      type: System.Int32
-      description: The id of the report to delete
-    return:
-      type: System.Boolean
-      description: Delete ok?
-    content.vb: Public Function DeleteReport(reportId As Integer) As Boolean
-  overload: SuperOffice.CRM.Services.ReportAgent.DeleteReport*
-  implements:
-  - SuperOffice.CRM.Services.IReportAgent.DeleteReport(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntity(System.Int32)
-  id: GetReportLabelLayoutEntity(System.Int32)
-  parent: SuperOffice.CRM.Services.ReportAgent
-  langs:
-  - csharp
-  - vb
-  name: GetReportLabelLayoutEntity(Int32)
-  nameWithType: ReportAgent.GetReportLabelLayoutEntity(Int32)
-  fullName: SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntity(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGets a ReportLabelLayoutEntity object.                        \n"
-  syntax:
-    content: public ReportLabelLayoutEntity GetReportLabelLayoutEntity(int reportLabelLayoutEntityId)
+    content: public Task<ReportLabelLayoutEntity> GetReportLabelLayoutEntityAsync(int reportLabelLayoutEntityId, CancellationToken cancellationToken = default)
     parameters:
     - id: reportLabelLayoutEntityId
       type: System.Int32
       description: The identifier of the ReportLabelLayoutEntity object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.ReportLabelLayoutEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ReportLabelLayoutEntity}
       description: ReportLabelLayoutEntity
-    content.vb: Public Function GetReportLabelLayoutEntity(reportLabelLayoutEntityId As Integer) As ReportLabelLayoutEntity
-  overload: SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntity*
+    content.vb: Public Function GetReportLabelLayoutEntityAsync(reportLabelLayoutEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ReportLabelLayoutEntity)
+  overload: SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntityAsync*
   implements:
-  - SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.ReportAgent.#ctor
-  commentId: M:SuperOffice.CRM.Services.ReportAgent.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Services.ReportAgent
-  langs:
-  - csharp
-  - vb
-  name: ReportAgent()
-  nameWithType: ReportAgent.ReportAgent()
-  fullName: SuperOffice.CRM.Services.ReportAgent.ReportAgent()
-  type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  syntax:
-    content: public ReportAgent()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Services.ReportAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: ReportAgent.GetReportLabelLayoutEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetReportLabelLayoutEntityAsync(Integer, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReportAgent}
-  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReportAgent}
-  parent: SuperOffice.CRM.Services
-  definition: SuperOffice.CRM.Services.AgentBase`1
-  name: AgentBase<IReportAgent>
-  nameWithType: AgentBase<IReportAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IReportAgent>
-  nameWithType.vb: AgentBase(Of IReportAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IReportAgent)
-  name.vb: AgentBase(Of IReportAgent)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Services.IReportAgent
-    name: IReportAgent
-    nameWithType: IReportAgent
-    fullName: SuperOffice.CRM.Services.IReportAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Services.IReportAgent
-    name: IReportAgent
-    nameWithType: IReportAgent
-    fullName: SuperOffice.CRM.Services.IReportAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IDisposable
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.IReportAgent
   commentId: T:SuperOffice.CRM.Services.IReportAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IReportAgent.html
   name: IReportAgent
   nameWithType: IReportAgent
   fullName: SuperOffice.CRM.Services.IReportAgent
@@ -613,912 +290,675 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReportAgent}.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReportAgent}.Dispose
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReportAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  name: Dispose()
-  nameWithType: AgentBase<IReportAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IReportAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of IReportAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IReportAgent).Dispose()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<IReportAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IReportAgent>.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of IReportAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IReportAgent).Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReportAgent}.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReportAgent}.InnerAgent
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReportAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  name: InnerAgent
-  nameWithType: AgentBase<IReportAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IReportAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of IReportAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IReportAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.AgentBase`1
-  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: AgentBase<TAgent>
-  nameWithType: AgentBase<TAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
-  nameWithType.vb: AgentBase(Of TAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
-  name.vb: AgentBase(Of TAgent)
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ReportAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.ReportAgent.html#SuperOffice_CRM_Services_ReportAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IReportLabelLayoutEntityImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: ReportAgent
+  nameWithType: ReportAgent.ReportAgent
+  fullName: SuperOffice.CRM.Services.ReportAgent.ReportAgent
+  nameWithType.vb: ReportAgent.New
+  fullName.vb: SuperOffice.CRM.Services.ReportAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation.html
+  name: IReportLabelLayoutEntityImplementation
+  nameWithType: IReportLabelLayoutEntityImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ReportAgent.html#SuperOffice_CRM_Services_ReportAgent_CreateDefaultReportLabelLayoutEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultReportLabelLayoutEntityAsync
+  nameWithType: ReportAgent.CreateDefaultReportLabelLayoutEntityAsync
+  fullName: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync
+- uid: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IReportAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultReportLabelLayoutEntityAsync(CancellationToken)
+  nameWithType: IReportAgent.CreateDefaultReportLabelLayoutEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntityAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultReportLabelLayoutEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultReportLabelLayoutEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ReportLabelLayoutEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ReportLabelLayoutEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ReportLabelLayoutEntity>
+  nameWithType: Task<ReportLabelLayoutEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ReportLabelLayoutEntity>
+  nameWithType.vb: Task(Of ReportLabelLayoutEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ReportLabelLayoutEntity)
+  name.vb: Task(Of ReportLabelLayoutEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+  - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity
+    name: ReportLabelLayoutEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity
+    name: ReportLabelLayoutEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: Dispose()
-  nameWithType: AgentBase<TAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of TAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<TAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+  - uid: System
+    name: System
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of TAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+  - uid: System
+    name: System
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
   isExternal: true
-  name: InnerAgent
-  nameWithType: AgentBase<TAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportEntity
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.ReportAgent.SaveReportLabelLayoutEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.SaveReportLabelLayoutEntityAsync
   isExternal: true
-  name: CreateDefaultReportEntity
-  nameWithType: ReportAgent.CreateDefaultReportEntity
-  fullName: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportEntity
-- uid: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportEntity
-  commentId: M:SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportEntity
+  href: SuperOffice.CRM.Services.ReportAgent.html#SuperOffice_CRM_Services_ReportAgent_SaveReportLabelLayoutEntityAsync_SuperOffice_CRM_Services_ReportLabelLayoutEntity_System_Threading_CancellationToken_
+  name: SaveReportLabelLayoutEntityAsync
+  nameWithType: ReportAgent.SaveReportLabelLayoutEntityAsync
+  fullName: SuperOffice.CRM.Services.ReportAgent.SaveReportLabelLayoutEntityAsync
+- uid: SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntityAsync(SuperOffice.CRM.Services.ReportLabelLayoutEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntityAsync(SuperOffice.CRM.Services.ReportLabelLayoutEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IReportAgent
   isExternal: true
-  name: CreateDefaultReportEntity()
-  nameWithType: IReportAgent.CreateDefaultReportEntity()
-  fullName: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportEntity()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SaveReportLabelLayoutEntityAsync(ReportLabelLayoutEntity, CancellationToken)
+  nameWithType: IReportAgent.SaveReportLabelLayoutEntityAsync(ReportLabelLayoutEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntityAsync(SuperOffice.CRM.Services.ReportLabelLayoutEntity, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportEntity
-    name: CreateDefaultReportEntity
-    nameWithType: IReportAgent.CreateDefaultReportEntity
-    fullName: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportEntity
+  - uid: SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntityAsync(SuperOffice.CRM.Services.ReportLabelLayoutEntity,System.Threading.CancellationToken)
+    name: SaveReportLabelLayoutEntityAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity
+    name: ReportLabelLayoutEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportEntity
-    name: CreateDefaultReportEntity
-    nameWithType: IReportAgent.CreateDefaultReportEntity
-    fullName: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportEntity
+  - uid: SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntityAsync(SuperOffice.CRM.Services.ReportLabelLayoutEntity,System.Threading.CancellationToken)
+    name: SaveReportLabelLayoutEntityAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity
+    name: ReportLabelLayoutEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.ReportEntity
-  commentId: T:SuperOffice.CRM.Services.ReportEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ReportEntity
-  nameWithType: ReportEntity
-  fullName: SuperOffice.CRM.Services.ReportEntity
-- uid: SuperOffice.CRM.Services.ReportAgent.SaveReportEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.SaveReportEntity
-  isExternal: true
-  name: SaveReportEntity
-  nameWithType: ReportAgent.SaveReportEntity
-  fullName: SuperOffice.CRM.Services.ReportAgent.SaveReportEntity
-- uid: SuperOffice.CRM.Services.IReportAgent.SaveReportEntity(SuperOffice.CRM.Services.ReportEntity)
-  commentId: M:SuperOffice.CRM.Services.IReportAgent.SaveReportEntity(SuperOffice.CRM.Services.ReportEntity)
-  parent: SuperOffice.CRM.Services.IReportAgent
-  isExternal: true
-  name: SaveReportEntity(ReportEntity)
-  nameWithType: IReportAgent.SaveReportEntity(ReportEntity)
-  fullName: SuperOffice.CRM.Services.IReportAgent.SaveReportEntity(SuperOffice.CRM.Services.ReportEntity)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IReportAgent.SaveReportEntity(SuperOffice.CRM.Services.ReportEntity)
-    name: SaveReportEntity
-    nameWithType: IReportAgent.SaveReportEntity
-    fullName: SuperOffice.CRM.Services.IReportAgent.SaveReportEntity
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Services.ReportEntity
-    name: ReportEntity
-    nameWithType: ReportEntity
-    fullName: SuperOffice.CRM.Services.ReportEntity
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IReportAgent.SaveReportEntity(SuperOffice.CRM.Services.ReportEntity)
-    name: SaveReportEntity
-    nameWithType: IReportAgent.SaveReportEntity
-    fullName: SuperOffice.CRM.Services.IReportAgent.SaveReportEntity
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Services.ReportEntity
-    name: ReportEntity
-    nameWithType: ReportEntity
-    fullName: SuperOffice.CRM.Services.ReportEntity
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntity
-  isExternal: true
-  name: CreateDefaultReportLabelLayoutEntity
-  nameWithType: ReportAgent.CreateDefaultReportLabelLayoutEntity
-  fullName: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntity
-- uid: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntity
-  commentId: M:SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntity
-  parent: SuperOffice.CRM.Services.IReportAgent
-  isExternal: true
-  name: CreateDefaultReportLabelLayoutEntity()
-  nameWithType: IReportAgent.CreateDefaultReportLabelLayoutEntity()
-  fullName: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntity()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntity
-    name: CreateDefaultReportLabelLayoutEntity
-    nameWithType: IReportAgent.CreateDefaultReportLabelLayoutEntity
-    fullName: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntity
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntity
-    name: CreateDefaultReportLabelLayoutEntity
-    nameWithType: IReportAgent.CreateDefaultReportLabelLayoutEntity
-    fullName: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntity
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity
   commentId: T:SuperOffice.CRM.Services.ReportLabelLayoutEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html
   name: ReportLabelLayoutEntity
   nameWithType: ReportLabelLayoutEntity
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity
-- uid: SuperOffice.CRM.Services.ReportAgent.SaveReportLabelLayoutEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.SaveReportLabelLayoutEntity
+- uid: SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntityAsync
   isExternal: true
-  name: SaveReportLabelLayoutEntity
-  nameWithType: ReportAgent.SaveReportLabelLayoutEntity
-  fullName: SuperOffice.CRM.Services.ReportAgent.SaveReportLabelLayoutEntity
-- uid: SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntity(SuperOffice.CRM.Services.ReportLabelLayoutEntity)
-  commentId: M:SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntity(SuperOffice.CRM.Services.ReportLabelLayoutEntity)
+  href: SuperOffice.CRM.Services.ReportAgent.html#SuperOffice_CRM_Services_ReportAgent_DeleteReportLabelLayoutEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteReportLabelLayoutEntityAsync
+  nameWithType: ReportAgent.DeleteReportLabelLayoutEntityAsync
+  fullName: SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntityAsync
+- uid: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IReportAgent
   isExternal: true
-  name: SaveReportLabelLayoutEntity(ReportLabelLayoutEntity)
-  nameWithType: IReportAgent.SaveReportLabelLayoutEntity(ReportLabelLayoutEntity)
-  fullName: SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntity(SuperOffice.CRM.Services.ReportLabelLayoutEntity)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DeleteReportLabelLayoutEntityAsync(int, CancellationToken)
+  nameWithType: IReportAgent.DeleteReportLabelLayoutEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntityAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IReportAgent.DeleteReportLabelLayoutEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteReportLabelLayoutEntityAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntity(SuperOffice.CRM.Services.ReportLabelLayoutEntity)
-    name: SaveReportLabelLayoutEntity
-    nameWithType: IReportAgent.SaveReportLabelLayoutEntity
-    fullName: SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntity
+  - uid: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteReportLabelLayoutEntityAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity
-    name: ReportLabelLayoutEntity
-    nameWithType: ReportLabelLayoutEntity
-    fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntity(SuperOffice.CRM.Services.ReportLabelLayoutEntity)
-    name: SaveReportLabelLayoutEntity
-    nameWithType: IReportAgent.SaveReportLabelLayoutEntity
-    fullName: SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntity
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity
-    name: ReportLabelLayoutEntity
-    nameWithType: ReportLabelLayoutEntity
-    fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntity
-  isExternal: true
-  name: DeleteReportLabelLayoutEntity
-  nameWithType: ReportAgent.DeleteReportLabelLayoutEntity
-  fullName: SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntity
-- uid: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntity(System.Int32)
-  parent: SuperOffice.CRM.Services.IReportAgent
-  isExternal: true
-  name: DeleteReportLabelLayoutEntity(Int32)
-  nameWithType: IReportAgent.DeleteReportLabelLayoutEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntity(System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntity(System.Int32)
-    name: DeleteReportLabelLayoutEntity
-    nameWithType: IReportAgent.DeleteReportLabelLayoutEntity
-    fullName: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntity
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntity(System.Int32)
-    name: DeleteReportLabelLayoutEntity
-    nameWithType: IReportAgent.DeleteReportLabelLayoutEntity
-    fullName: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntity
+  - uid: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteReportLabelLayoutEntityAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System
-  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.ReportAgent.GetReportEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.GetReportEntity
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntityAsync
   isExternal: true
-  name: GetReportEntity
-  nameWithType: ReportAgent.GetReportEntity
-  fullName: SuperOffice.CRM.Services.ReportAgent.GetReportEntity
-- uid: SuperOffice.CRM.Services.IReportAgent.GetReportEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IReportAgent.GetReportEntity(System.Int32)
+  href: SuperOffice.CRM.Services.ReportAgent.html#SuperOffice_CRM_Services_ReportAgent_GetReportLabelLayoutEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetReportLabelLayoutEntityAsync
+  nameWithType: ReportAgent.GetReportLabelLayoutEntityAsync
+  fullName: SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntityAsync
+- uid: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IReportAgent
   isExternal: true
-  name: GetReportEntity(Int32)
-  nameWithType: IReportAgent.GetReportEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IReportAgent.GetReportEntity(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetReportLabelLayoutEntityAsync(int, CancellationToken)
+  nameWithType: IReportAgent.GetReportLabelLayoutEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntityAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IReportAgent.GetReportLabelLayoutEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetReportLabelLayoutEntityAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IReportAgent.GetReportEntity(System.Int32)
-    name: GetReportEntity
-    nameWithType: IReportAgent.GetReportEntity
-    fullName: SuperOffice.CRM.Services.IReportAgent.GetReportEntity
+  - uid: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetReportLabelLayoutEntityAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IReportAgent.GetReportEntity(System.Int32)
-    name: GetReportEntity
-    nameWithType: IReportAgent.GetReportEntity
-    fullName: SuperOffice.CRM.Services.IReportAgent.GetReportEntity
+  - uid: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetReportLabelLayoutEntityAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.ReportAgent.CreateFavorite*
-  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.CreateFavorite
-  isExternal: true
-  name: CreateFavorite
-  nameWithType: ReportAgent.CreateFavorite
-  fullName: SuperOffice.CRM.Services.ReportAgent.CreateFavorite
-- uid: SuperOffice.CRM.Services.IReportAgent.CreateFavorite(System.Int32,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IReportAgent.CreateFavorite(System.Int32,System.String,System.String)
-  parent: SuperOffice.CRM.Services.IReportAgent
-  isExternal: true
-  name: CreateFavorite(Int32, String, String)
-  nameWithType: IReportAgent.CreateFavorite(Int32, String, String)
-  fullName: SuperOffice.CRM.Services.IReportAgent.CreateFavorite(System.Int32, System.String, System.String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IReportAgent.CreateFavorite(System.Int32,System.String,System.String)
-    name: CreateFavorite
-    nameWithType: IReportAgent.CreateFavorite
-    fullName: SuperOffice.CRM.Services.IReportAgent.CreateFavorite
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IReportAgent.CreateFavorite(System.Int32,System.String,System.String)
-    name: CreateFavorite
-    nameWithType: IReportAgent.CreateFavorite
-    fullName: SuperOffice.CRM.Services.IReportAgent.CreateFavorite
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Services.ReportAgent.DeleteFavorite*
-  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.DeleteFavorite
-  isExternal: true
-  name: DeleteFavorite
-  nameWithType: ReportAgent.DeleteFavorite
-  fullName: SuperOffice.CRM.Services.ReportAgent.DeleteFavorite
-- uid: SuperOffice.CRM.Services.IReportAgent.DeleteFavorite(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IReportAgent.DeleteFavorite(System.Int32)
-  parent: SuperOffice.CRM.Services.IReportAgent
-  isExternal: true
-  name: DeleteFavorite(Int32)
-  nameWithType: IReportAgent.DeleteFavorite(Int32)
-  fullName: SuperOffice.CRM.Services.IReportAgent.DeleteFavorite(System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IReportAgent.DeleteFavorite(System.Int32)
-    name: DeleteFavorite
-    nameWithType: IReportAgent.DeleteFavorite
-    fullName: SuperOffice.CRM.Services.IReportAgent.DeleteFavorite
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IReportAgent.DeleteFavorite(System.Int32)
-    name: DeleteFavorite
-    nameWithType: IReportAgent.DeleteFavorite
-    fullName: SuperOffice.CRM.Services.IReportAgent.DeleteFavorite
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.ReportAgent.UpdateFavorite*
-  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.UpdateFavorite
-  isExternal: true
-  name: UpdateFavorite
-  nameWithType: ReportAgent.UpdateFavorite
-  fullName: SuperOffice.CRM.Services.ReportAgent.UpdateFavorite
-- uid: SuperOffice.CRM.Services.IReportAgent.UpdateFavorite(SuperOffice.CRM.Services.ReportEntity)
-  commentId: M:SuperOffice.CRM.Services.IReportAgent.UpdateFavorite(SuperOffice.CRM.Services.ReportEntity)
-  parent: SuperOffice.CRM.Services.IReportAgent
-  isExternal: true
-  name: UpdateFavorite(ReportEntity)
-  nameWithType: IReportAgent.UpdateFavorite(ReportEntity)
-  fullName: SuperOffice.CRM.Services.IReportAgent.UpdateFavorite(SuperOffice.CRM.Services.ReportEntity)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IReportAgent.UpdateFavorite(SuperOffice.CRM.Services.ReportEntity)
-    name: UpdateFavorite
-    nameWithType: IReportAgent.UpdateFavorite
-    fullName: SuperOffice.CRM.Services.IReportAgent.UpdateFavorite
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Services.ReportEntity
-    name: ReportEntity
-    nameWithType: ReportEntity
-    fullName: SuperOffice.CRM.Services.ReportEntity
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IReportAgent.UpdateFavorite(SuperOffice.CRM.Services.ReportEntity)
-    name: UpdateFavorite
-    nameWithType: IReportAgent.UpdateFavorite
-    fullName: SuperOffice.CRM.Services.IReportAgent.UpdateFavorite
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Services.ReportEntity
-    name: ReportEntity
-    nameWithType: ReportEntity
-    fullName: SuperOffice.CRM.Services.ReportEntity
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.ReportAgent.GenerateReport*
-  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.GenerateReport
-  isExternal: true
-  name: GenerateReport
-  nameWithType: ReportAgent.GenerateReport
-  fullName: SuperOffice.CRM.Services.ReportAgent.GenerateReport
-- uid: SuperOffice.CRM.Services.IReportAgent.GenerateReport(System.Int32,System.Int32,System.String,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  commentId: M:SuperOffice.CRM.Services.IReportAgent.GenerateReport(System.Int32,System.Int32,System.String,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  parent: SuperOffice.CRM.Services.IReportAgent
-  isExternal: true
-  name: GenerateReport(Int32, Int32, String, String, String, ArchiveRestrictionInfo[])
-  nameWithType: IReportAgent.GenerateReport(Int32, Int32, String, String, String, ArchiveRestrictionInfo[])
-  fullName: SuperOffice.CRM.Services.IReportAgent.GenerateReport(System.Int32, System.Int32, System.String, System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  nameWithType.vb: IReportAgent.GenerateReport(Int32, Int32, String, String, String, ArchiveRestrictionInfo())
-  fullName.vb: SuperOffice.CRM.Services.IReportAgent.GenerateReport(System.Int32, System.Int32, System.String, System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
-  name.vb: GenerateReport(Int32, Int32, String, String, String, ArchiveRestrictionInfo())
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IReportAgent.GenerateReport(System.Int32,System.Int32,System.String,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-    name: GenerateReport
-    nameWithType: IReportAgent.GenerateReport
-    fullName: SuperOffice.CRM.Services.IReportAgent.GenerateReport
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-    name: ArchiveRestrictionInfo
-    nameWithType: ArchiveRestrictionInfo
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IReportAgent.GenerateReport(System.Int32,System.Int32,System.String,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-    name: GenerateReport
-    nameWithType: IReportAgent.GenerateReport
-    fullName: SuperOffice.CRM.Services.IReportAgent.GenerateReport
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-    name: ArchiveRestrictionInfo
-    nameWithType: ArchiveRestrictionInfo
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
-  isExternal: true
-  name: ArchiveRestrictionInfo[]
-  nameWithType: ArchiveRestrictionInfo[]
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
-  nameWithType.vb: ArchiveRestrictionInfo()
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
-  name.vb: ArchiveRestrictionInfo()
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-    name: ArchiveRestrictionInfo
-    nameWithType: ArchiveRestrictionInfo
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-    name: ArchiveRestrictionInfo
-    nameWithType: ArchiveRestrictionInfo
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.ReportAgent.ImportReport*
-  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.ImportReport
-  isExternal: true
-  name: ImportReport
-  nameWithType: ReportAgent.ImportReport
-  fullName: SuperOffice.CRM.Services.ReportAgent.ImportReport
-- uid: SuperOffice.CRM.Services.IReportAgent.ImportReport(System.String)
-  commentId: M:SuperOffice.CRM.Services.IReportAgent.ImportReport(System.String)
-  parent: SuperOffice.CRM.Services.IReportAgent
-  isExternal: true
-  name: ImportReport(String)
-  nameWithType: IReportAgent.ImportReport(String)
-  fullName: SuperOffice.CRM.Services.IReportAgent.ImportReport(System.String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IReportAgent.ImportReport(System.String)
-    name: ImportReport
-    nameWithType: IReportAgent.ImportReport
-    fullName: SuperOffice.CRM.Services.IReportAgent.ImportReport
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IReportAgent.ImportReport(System.String)
-    name: ImportReport
-    nameWithType: IReportAgent.ImportReport
-    fullName: SuperOffice.CRM.Services.IReportAgent.ImportReport
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.ReportAgent.DeleteReport*
-  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.DeleteReport
-  isExternal: true
-  name: DeleteReport
-  nameWithType: ReportAgent.DeleteReport
-  fullName: SuperOffice.CRM.Services.ReportAgent.DeleteReport
-- uid: SuperOffice.CRM.Services.IReportAgent.DeleteReport(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IReportAgent.DeleteReport(System.Int32)
-  parent: SuperOffice.CRM.Services.IReportAgent
-  isExternal: true
-  name: DeleteReport(Int32)
-  nameWithType: IReportAgent.DeleteReport(Int32)
-  fullName: SuperOffice.CRM.Services.IReportAgent.DeleteReport(System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IReportAgent.DeleteReport(System.Int32)
-    name: DeleteReport
-    nameWithType: IReportAgent.DeleteReport
-    fullName: SuperOffice.CRM.Services.IReportAgent.DeleteReport
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IReportAgent.DeleteReport(System.Int32)
-    name: DeleteReport
-    nameWithType: IReportAgent.DeleteReport
-    fullName: SuperOffice.CRM.Services.IReportAgent.DeleteReport
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntity*
-  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntity
-  isExternal: true
-  name: GetReportLabelLayoutEntity
-  nameWithType: ReportAgent.GetReportLabelLayoutEntity
-  fullName: SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntity
-- uid: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity(System.Int32)
-  parent: SuperOffice.CRM.Services.IReportAgent
-  isExternal: true
-  name: GetReportLabelLayoutEntity(Int32)
-  nameWithType: IReportAgent.GetReportLabelLayoutEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity(System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity(System.Int32)
-    name: GetReportLabelLayoutEntity
-    nameWithType: IReportAgent.GetReportLabelLayoutEntity
-    fullName: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity(System.Int32)
-    name: GetReportLabelLayoutEntity
-    nameWithType: IReportAgent.GetReportLabelLayoutEntity
-    fullName: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.ReportAgent.#ctor*
-  commentId: Overload:SuperOffice.CRM.Services.ReportAgent.#ctor
-  isExternal: true
-  name: ReportAgent
-  nameWithType: ReportAgent.ReportAgent
-  fullName: SuperOffice.CRM.Services.ReportAgent.ReportAgent

@@ -9,12 +9,17 @@ items:
   - SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
   - SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictionsByEjuser(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected
+  - SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelectedAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue
+  - SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValueAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.FilterDialogDataHandler.GetFromDate
+  - SuperOffice.CRM.FilterDialogDataHandler.GetFromDateAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds
-  - SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIds
+  - SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIdsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIdsAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.FilterDialogDataHandler.GetToDate
-  - SuperOffice.CRM.FilterDialogDataHandler.Save(System.Int32[],System.Int32[],System.DateTime,System.DateTime)
+  - SuperOffice.CRM.FilterDialogDataHandler.GetToDateAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.FilterDialogDataHandler.SaveAsync(System.Int32[],System.Int32[],System.DateTime,System.DateTime,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -22,196 +27,325 @@ items:
   nameWithType: FilterDialogDataHandler
   fullName: SuperOffice.CRM.FilterDialogDataHandler
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nData fetch/save class for the Filter dialog. This class can be used (together with the FilterAssociates, FilterGroups and \n<xref href=\"SuperOffice.CRM.Lists.SelectableListHelper\" data-throw-if-not-resolved=\"false\"></xref> classes to fetch the currently selected groups and associates\nof the filter dialog, as well as the from and to dates.\n"
+  summary: >-
+    Data fetch/save class for the Filter dialog. This class can be used (together with the FilterAssociates, FilterGroups and 
+
+    <xref href="SuperOffice.CRM.Lists.SelectableListHelper" data-throw-if-not-resolved="false"></xref> classes to fetch the currently selected groups and associates
+
+    of the filter dialog, as well as the from and to dates.
+  example: []
   syntax:
-    content: 'public static class FilterDialogDataHandler : Object'
-    content.vb: >-
-      Public Module FilterDialogDataHandler
-          Inherits Object
+    content: public static class FilterDialogDataHandler
+    content.vb: Public Module FilterDialogDataHandler
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
-- uid: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIds
-  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIds
-  id: GetSelectedGroupIds
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelectedAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelectedAsync(System.Threading.CancellationToken)
+  id: AreAllAssociatesSelectedAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.FilterDialogDataHandler
   langs:
   - csharp
   - vb
-  name: GetSelectedGroupIds()
-  nameWithType: FilterDialogDataHandler.GetSelectedGroupIds()
-  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIds()
+  name: AreAllAssociatesSelectedAsync(CancellationToken)
+  nameWithType: FilterDialogDataHandler.AreAllAssociatesSelectedAsync(CancellationToken)
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelectedAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nGet the id&apos;s of the currently selected groups in the Filter dialog. If the All preference is set, \nall groups are considered selected. If no groups are set, the defaulting rules apply.\n"
   syntax:
-    content: public static int[] GetSelectedGroupIds()
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task<bool> AreAllAssociatesSelectedAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32[]
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function AreAllAssociatesSelectedAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelectedAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+- uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValueAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValueAsync(System.Threading.CancellationToken)
+  id: DefaultFilterValueAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.FilterDialogDataHandler
+  langs:
+  - csharp
+  - vb
+  name: DefaultFilterValueAsync(CancellationToken)
+  nameWithType: FilterDialogDataHandler.DefaultFilterValueAsync(CancellationToken)
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValueAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task<FilterDialogDataHandler.DefaultFilter> DefaultFilterValueAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter}
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function DefaultFilterValueAsync(cancellationToken As CancellationToken = Nothing) As Task(Of FilterDialogDataHandler.DefaultFilter)
+  overload: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValueAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+- uid: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIdsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIdsAsync(System.Threading.CancellationToken)
+  id: GetSelectedGroupIdsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.FilterDialogDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetSelectedGroupIdsAsync(CancellationToken)
+  nameWithType: FilterDialogDataHandler.GetSelectedGroupIdsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIdsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: >-
+    Get the id's of the currently selected groups in the Filter dialog. If the All preference is set, 
+
+    all groups are considered selected. If no groups are set, the defaulting rules apply.
+  example: []
+  syntax:
+    content: public static Task<int[]> GetSelectedGroupIdsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32[]}
       description: Unique (but not sorted) group ids, may be empty
-    content.vb: Public Shared Function GetSelectedGroupIds As Integer()
-  overload: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIds*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds
-  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds
-  id: GetSelectedAssociateIds
+    content.vb: Public Shared Function GetSelectedGroupIdsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer())
+  overload: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIdsAsync*
+- uid: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIdsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIdsAsync(System.Threading.CancellationToken)
+  id: GetSelectedAssociateIdsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.FilterDialogDataHandler
   langs:
   - csharp
   - vb
-  name: GetSelectedAssociateIds()
-  nameWithType: FilterDialogDataHandler.GetSelectedAssociateIds()
-  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds()
+  name: GetSelectedAssociateIdsAsync(CancellationToken)
+  nameWithType: FilterDialogDataHandler.GetSelectedAssociateIdsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIdsAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nGet the id&apos;s of the currently selected associates in the Filter dialog. Note that a selected group implies that all\nits associates should be selected, but that logic is not maintained here - only in the presentation layer.\nIf the All preference is set,\nall associates are considered selected. If no associates are selected, the defaulting rules apply.\n"
+  summary: >-
+    Get the id's of the currently selected associates in the Filter dialog. Note that a selected group implies that all
+
+    its associates should be selected, but that logic is not maintained here - only in the presentation layer.
+
+    If the All preference is set,
+
+    all associates are considered selected. If no associates are selected, the defaulting rules apply.
+  example: []
   syntax:
-    content: public static int[] GetSelectedAssociateIds()
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task<int[]> GetSelectedAssociateIdsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32[]
+      type: System.Threading.Tasks.Task{System.Int32[]}
       description: Unique (but not sorted) associate ids, may be empty
-    content.vb: Public Shared Function GetSelectedAssociateIds As Integer()
-  overload: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.FilterDialogDataHandler.GetFromDate
-  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.GetFromDate
-  id: GetFromDate
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function GetSelectedAssociateIdsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer())
+  overload: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIdsAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+- uid: SuperOffice.CRM.FilterDialogDataHandler.GetFromDateAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.GetFromDateAsync(System.Threading.CancellationToken)
+  id: GetFromDateAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.FilterDialogDataHandler
   langs:
   - csharp
   - vb
-  name: GetFromDate()
-  nameWithType: FilterDialogDataHandler.GetFromDate()
-  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetFromDate()
+  name: GetFromDateAsync(CancellationToken)
+  nameWithType: FilterDialogDataHandler.GetFromDateAsync(CancellationToken)
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetFromDateAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nGet the &apos;from date&apos;, i.e., the date of the earliest visible activity. The date is recalculated based on the &apos;days before&apos; (today)\nvalue every time this method is called, and so moves with real time.\n"
+  summary: >-
+    Get the 'from date', i.e., the date of the earliest visible activity. The date is recalculated based on the 'days before' (today)
+
+    value every time this method is called, and so moves with real time.
+  example: []
   syntax:
-    content: public static DateTime GetFromDate()
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task<DateTime> GetFromDateAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.DateTime
+      type: System.Threading.Tasks.Task{System.DateTime}
       description: Date of earliest visible activity, not necessarily earlier than today
-    content.vb: Public Shared Function GetFromDate As DateTime
-  overload: SuperOffice.CRM.FilterDialogDataHandler.GetFromDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.FilterDialogDataHandler.GetToDate
-  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.GetToDate
-  id: GetToDate
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function GetFromDateAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Date)
+  overload: SuperOffice.CRM.FilterDialogDataHandler.GetFromDateAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+- uid: SuperOffice.CRM.FilterDialogDataHandler.GetToDateAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.GetToDateAsync(System.Threading.CancellationToken)
+  id: GetToDateAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.FilterDialogDataHandler
   langs:
   - csharp
   - vb
-  name: GetToDate()
-  nameWithType: FilterDialogDataHandler.GetToDate()
-  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetToDate()
+  name: GetToDateAsync(CancellationToken)
+  nameWithType: FilterDialogDataHandler.GetToDateAsync(CancellationToken)
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetToDateAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nGet the &apos;to date&apos;, i.e., the date of the newest visible activity. The date is recalculated based on the &apos;days after&apos; (today)\nvalue every time this method is called, and so moves with real time.\n"
+  summary: >-
+    Get the 'to date', i.e., the date of the newest visible activity. The date is recalculated based on the 'days after' (today)
+
+    value every time this method is called, and so moves with real time.
+  example: []
   syntax:
-    content: public static DateTime GetToDate()
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task<DateTime> GetToDateAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.DateTime
+      type: System.Threading.Tasks.Task{System.DateTime}
       description: Date of latest visible activity, not necessarily greater than today
-    content.vb: Public Shared Function GetToDate As DateTime
-  overload: SuperOffice.CRM.FilterDialogDataHandler.GetToDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.FilterDialogDataHandler.Save(System.Int32[],System.Int32[],System.DateTime,System.DateTime)
-  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.Save(System.Int32[],System.Int32[],System.DateTime,System.DateTime)
-  id: Save(System.Int32[],System.Int32[],System.DateTime,System.DateTime)
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function GetToDateAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Date)
+  overload: SuperOffice.CRM.FilterDialogDataHandler.GetToDateAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+- uid: SuperOffice.CRM.FilterDialogDataHandler.SaveAsync(System.Int32[],System.Int32[],System.DateTime,System.DateTime,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.SaveAsync(System.Int32[],System.Int32[],System.DateTime,System.DateTime,System.Threading.CancellationToken)
+  id: SaveAsync(System.Int32[],System.Int32[],System.DateTime,System.DateTime,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.FilterDialogDataHandler
   langs:
   - csharp
   - vb
-  name: Save(Int32[], Int32[], DateTime, DateTime)
-  nameWithType: FilterDialogDataHandler.Save(Int32[], Int32[], DateTime, DateTime)
-  fullName: SuperOffice.CRM.FilterDialogDataHandler.Save(System.Int32[], System.Int32[], System.DateTime, System.DateTime)
+  name: SaveAsync(int[], int[], DateTime, DateTime, CancellationToken)
+  nameWithType: FilterDialogDataHandler.SaveAsync(int[], int[], DateTime, DateTime, CancellationToken)
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.SaveAsync(int[], int[], System.DateTime, System.DateTime, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: "\nSave the current Filter dialog settings: Groups, associates, from and to date. The dates are converted into days before and\ndays after today, for recalculation when fetching so that the interval moves properly with real time.\n"
-  remarks: "\nThere is a special case: &apos;All&apos;. This case implies that there is no filtering on associates/groups, and is triggered by one of\ntwo possible parameter values. Either both the associateIds and groupIds parameters are empty arrays (Length==0, not null!); or\nthe arrays exactly match in content the FilterAssociates and FilterGroups associate and group lists (that is, the same elements\nare present, though they do not have to be in the same order).\n<p></p>If the &apos;All&apos; case is triggered, the number of associates and number of groups are saved as 0, and the special &apos;All&apos; preference \nis set to true. This saves a lot of time on databases with many users, and is exactly the logic used in the Windows Client.\n"
+  summary: >-
+    Save the current Filter dialog settings: Groups, associates, from and to date. The dates are converted into days before and
+
+    days after today, for recalculation when fetching so that the interval moves properly with real time.
+  remarks: >-
+    There is a special case: 'All'. This case implies that there is no filtering on associates/groups, and is triggered by one of
+
+    two possible parameter values. Either both the associateIds and groupIds parameters are empty arrays (Length==0, not null!); or
+
+    the arrays exactly match in content the FilterAssociates and FilterGroups associate and group lists (that is, the same elements
+
+    are present, though they do not have to be in the same order).
+
+    <p></p>If the 'All' case is triggered, the number of associates and number of groups are saved as 0, and the special 'All' preference 
+
+    is set to true. This saves a lot of time on databases with many users, and is exactly the logic used in the Windows Client.
+  example: []
   syntax:
-    content: public static void Save(int[] groupIds, int[] associateIds, DateTime fromDate, DateTime toDate)
+    content: public static Task SaveAsync(int[] groupIds, int[] associateIds, DateTime fromDate, DateTime toDate, CancellationToken cancellationToken = default)
     parameters:
     - id: groupIds
       type: System.Int32[]
-      description: "Array (may be empty but not null) of currently selected group ids. \nThe <xref href=\"SuperOffice.CRM.Lists.SelectableListHelper\" data-throw-if-not-resolved=\"false\"></xref> can be used to extract these ids from a list of selectable list items."
+      description: >-
+        Array (may be empty but not null) of currently selected group ids. 
+                    The <xref href="SuperOffice.CRM.Lists.SelectableListHelper" data-throw-if-not-resolved="false"></xref> can be used to extract these ids from a list of selectable list items.
     - id: associateIds
       type: System.Int32[]
-      description: "Array (may be empty but not null) of currently selected associate ids. \nThe <xref href=\"SuperOffice.CRM.Lists.SelectableListHelper\" data-throw-if-not-resolved=\"false\"></xref> can be used to extract these ids from a list of selectable list items."
+      description: >-
+        Array (may be empty but not null) of currently selected associate ids. 
+                    The <xref href="SuperOffice.CRM.Lists.SelectableListHelper" data-throw-if-not-resolved="false"></xref> can be used to extract these ids from a list of selectable list items.
     - id: fromDate
       type: System.DateTime
       description: Date of earliest visible activity, will be converted to days before today
     - id: toDate
       type: System.DateTime
       description: Date of latest visible activity, will be converted to days after today
-    content.vb: Public Shared Sub Save(groupIds As Integer(), associateIds As Integer(), fromDate As DateTime, toDate As DateTime)
-  overload: SuperOffice.CRM.FilterDialogDataHandler.Save*
-  nameWithType.vb: FilterDialogDataHandler.Save(Int32(), Int32(), DateTime, DateTime)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.FilterDialogDataHandler.Save(System.Int32(), System.Int32(), System.DateTime, System.DateTime)
-  name.vb: Save(Int32(), Int32(), DateTime, DateTime)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SaveAsync(groupIds As Integer(), associateIds As Integer(), fromDate As Date, toDate As Date, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.FilterDialogDataHandler.SaveAsync*
+  nameWithType.vb: FilterDialogDataHandler.SaveAsync(Integer(), Integer(), Date, Date, CancellationToken)
+  fullName.vb: SuperOffice.CRM.FilterDialogDataHandler.SaveAsync(Integer(), Integer(), Date, Date, System.Threading.CancellationToken)
+  name.vb: SaveAsync(Integer(), Integer(), Date, Date, CancellationToken)
 - uid: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   id: AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
@@ -223,9 +357,6 @@ items:
   nameWithType: FilterDialogDataHandler.AddFilterRestrictions(Select, FieldInfo, FieldInfo)
   fullName: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -238,14 +369,8 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     - id: dateField
       type: SuperOffice.Data.SQL.FieldInfo
-    content.vb: Public Shared Sub AddFilterRestrictions(query As  Select, associateField As FieldInfo, dateField As FieldInfo)
+    content.vb: Public Shared Sub AddFilterRestrictions(query As [Select], associateField As FieldInfo, dateField As FieldInfo)
   overload: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
   commentId: M:SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
   id: AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
@@ -253,13 +378,10 @@ items:
   langs:
   - csharp
   - vb
-  name: AddFilterRestrictions(Select, FieldInfo, FieldInfo, Boolean)
-  nameWithType: FilterDialogDataHandler.AddFilterRestrictions(Select, FieldInfo, FieldInfo, Boolean)
-  fullName: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, System.Boolean)
+  name: AddFilterRestrictions(Select, FieldInfo, FieldInfo, bool)
+  nameWithType: FilterDialogDataHandler.AddFilterRestrictions(Select, FieldInfo, FieldInfo, bool)
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -274,14 +396,11 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     - id: includeAssoc0
       type: System.Boolean
-    content.vb: Public Shared Sub AddFilterRestrictions(query As  Select, associateField As FieldInfo, dateField As FieldInfo, includeAssoc0 As Boolean)
+    content.vb: Public Shared Sub AddFilterRestrictions(query As [Select], associateField As FieldInfo, dateField As FieldInfo, includeAssoc0 As Boolean)
   overload: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: FilterDialogDataHandler.AddFilterRestrictions(Select, FieldInfo, FieldInfo, Boolean)
+  fullName.vb: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, Boolean)
+  name.vb: AddFilterRestrictions(Select, FieldInfo, FieldInfo, Boolean)
 - uid: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictionsByEjuser(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictionsByEjuser(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   id: AddFilterRestrictionsByEjuser(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
@@ -293,9 +412,6 @@ items:
   nameWithType: FilterDialogDataHandler.AddFilterRestrictionsByEjuser(Select, FieldInfo, FieldInfo)
   fullName: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictionsByEjuser(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -308,162 +424,751 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     - id: dateField
       type: SuperOffice.Data.SQL.FieldInfo
-    content.vb: Public Shared Sub AddFilterRestrictionsByEjuser(query As  Select, ejUserField As FieldInfo, dateField As FieldInfo)
+    content.vb: Public Shared Sub AddFilterRestrictionsByEjuser(query As [Select], ejUserField As FieldInfo, dateField As FieldInfo)
   overload: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictionsByEjuser*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected
-  commentId: P:SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected
+  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected
   id: AreAllAssociatesSelected
   parent: SuperOffice.CRM.FilterDialogDataHandler
   langs:
   - csharp
   - vb
-  name: AreAllAssociatesSelected
-  nameWithType: FilterDialogDataHandler.AreAllAssociatesSelected
-  fullName: SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
+  name: AreAllAssociatesSelected()
+  nameWithType: FilterDialogDataHandler.AreAllAssociatesSelected()
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected()
+  type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static bool AreAllAssociatesSelected { get; }
-    parameters: []
+    content: public static bool AreAllAssociatesSelected()
     return:
       type: System.Boolean
-    content.vb: Public Shared ReadOnly Property AreAllAssociatesSelected As Boolean
+    content.vb: Public Shared Function AreAllAssociatesSelected() As Boolean
   overload: SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue
-  commentId: P:SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue
+  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue
   id: DefaultFilterValue
   parent: SuperOffice.CRM.FilterDialogDataHandler
   langs:
   - csharp
   - vb
-  name: DefaultFilterValue
-  nameWithType: FilterDialogDataHandler.DefaultFilterValue
-  fullName: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
+  name: DefaultFilterValue()
+  nameWithType: FilterDialogDataHandler.DefaultFilterValue()
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue()
+  type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static FilterDialogDataHandler.DefaultFilter DefaultFilterValue { get; }
-    parameters: []
+    content: public static FilterDialogDataHandler.DefaultFilter DefaultFilterValue()
     return:
       type: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
-    content.vb: Public Shared ReadOnly Property DefaultFilterValue As FilterDialogDataHandler.DefaultFilter
+    content.vb: Public Shared Function DefaultFilterValue() As FilterDialogDataHandler.DefaultFilter
   overload: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
+- uid: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds
+  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds
+  id: GetSelectedAssociateIds
+  parent: SuperOffice.CRM.FilterDialogDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetSelectedAssociateIds()
+  nameWithType: FilterDialogDataHandler.GetSelectedAssociateIds()
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: >-
+    Get the id's of the currently selected associates in the Filter dialog. Note that a selected group implies that all
+
+    its associates should be selected, but that logic is not maintained here - only in the presentation layer.
+
+    If the All preference is set,
+
+    all associates are considered selected. If no associates are selected, the defaulting rules apply.
+  example: []
+  syntax:
+    content: public static int[] GetSelectedAssociateIds()
+    return:
+      type: System.Int32[]
+      description: Unique (but not sorted) associate ids, may be empty
+    content.vb: Public Shared Function GetSelectedAssociateIds() As Integer()
+  overload: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds*
+- uid: SuperOffice.CRM.FilterDialogDataHandler.GetFromDate
+  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.GetFromDate
+  id: GetFromDate
+  parent: SuperOffice.CRM.FilterDialogDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetFromDate()
+  nameWithType: FilterDialogDataHandler.GetFromDate()
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetFromDate()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: >-
+    Get the 'from date', i.e., the date of the earliest visible activity. The date is recalculated based on the 'days before' (today)
+
+    value every time this method is called, and so moves with real time.
+  example: []
+  syntax:
+    content: public static DateTime GetFromDate()
+    return:
+      type: System.DateTime
+      description: Date of earliest visible activity, not necessarily earlier than today
+    content.vb: Public Shared Function GetFromDate() As Date
+  overload: SuperOffice.CRM.FilterDialogDataHandler.GetFromDate*
+- uid: SuperOffice.CRM.FilterDialogDataHandler.GetToDate
+  commentId: M:SuperOffice.CRM.FilterDialogDataHandler.GetToDate
+  id: GetToDate
+  parent: SuperOffice.CRM.FilterDialogDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetToDate()
+  nameWithType: FilterDialogDataHandler.GetToDate()
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetToDate()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: >-
+    Get the 'to date', i.e., the date of the newest visible activity. The date is recalculated based on the 'days after' (today)
+
+    value every time this method is called, and so moves with real time.
+  example: []
+  syntax:
+    content: public static DateTime GetToDate()
+    return:
+      type: System.DateTime
+      description: Date of latest visible activity, not necessarily greater than today
+    content.vb: Public Shared Function GetToDate() As Date
+  overload: SuperOffice.CRM.FilterDialogDataHandler.GetToDate*
 references:
+- uid: SuperOffice.CRM.Lists.SelectableListHelper
+  commentId: T:SuperOffice.CRM.Lists.SelectableListHelper
+  isExternal: true
+  href: SuperOffice.CRM.Lists.SelectableListHelper.html
+  name: SelectableListHelper
+  nameWithType: SelectableListHelper
+  fullName: SuperOffice.CRM.Lists.SelectableListHelper
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIds*
-  commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIds
+- uid: SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelectedAsync*
+  commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelectedAsync
   isExternal: true
-  name: GetSelectedGroupIds
-  nameWithType: FilterDialogDataHandler.GetSelectedGroupIds
-  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIds
+  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_AreAllAssociatesSelectedAsync_System_Threading_CancellationToken_
+  name: AreAllAssociatesSelectedAsync
+  nameWithType: FilterDialogDataHandler.AreAllAssociatesSelectedAsync
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelectedAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValueAsync*
+  commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValueAsync
+  isExternal: true
+  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_DefaultFilterValueAsync_System_Threading_CancellationToken_
+  name: DefaultFilterValueAsync
+  nameWithType: FilterDialogDataHandler.DefaultFilterValueAsync
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValueAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FilterDialogDataHandler.DefaultFilter>
+  nameWithType: Task<FilterDialogDataHandler.DefaultFilter>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter>
+  nameWithType.vb: Task(Of FilterDialogDataHandler.DefaultFilter)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter)
+  name.vb: Task(Of FilterDialogDataHandler.DefaultFilter)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.FilterDialogDataHandler
+    name: FilterDialogDataHandler
+    isExternal: true
+    href: SuperOffice.CRM.FilterDialogDataHandler.html
+  - name: .
+  - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
+    name: DefaultFilter
+    isExternal: true
+    href: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.FilterDialogDataHandler
+    name: FilterDialogDataHandler
+    isExternal: true
+    href: SuperOffice.CRM.FilterDialogDataHandler.html
+  - name: .
+  - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
+    name: DefaultFilter
+    isExternal: true
+    href: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.html
+  - name: )
+- uid: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIdsAsync*
+  commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIdsAsync
+  isExternal: true
+  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_GetSelectedGroupIdsAsync_System_Threading_CancellationToken_
+  name: GetSelectedGroupIdsAsync
+  nameWithType: FilterDialogDataHandler.GetSelectedGroupIdsAsync
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIdsAsync
+- uid: System.Threading.Tasks.Task{System.Int32[]}
+  commentId: T:System.Threading.Tasks.Task{System.Int32[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int[]>
+  nameWithType: Task<int[]>
+  fullName: System.Threading.Tasks.Task<int[]>
+  nameWithType.vb: Task(Of Integer())
+  fullName.vb: System.Threading.Tasks.Task(Of Integer())
+  name.vb: Task(Of Integer())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIdsAsync*
+  commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIdsAsync
+  isExternal: true
+  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_GetSelectedAssociateIdsAsync_System_Threading_CancellationToken_
+  name: GetSelectedAssociateIdsAsync
+  nameWithType: FilterDialogDataHandler.GetSelectedAssociateIdsAsync
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIdsAsync
+- uid: SuperOffice.CRM.FilterDialogDataHandler.GetFromDateAsync*
+  commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.GetFromDateAsync
+  isExternal: true
+  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_GetFromDateAsync_System_Threading_CancellationToken_
+  name: GetFromDateAsync
+  nameWithType: FilterDialogDataHandler.GetFromDateAsync
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetFromDateAsync
+- uid: System.Threading.Tasks.Task{System.DateTime}
+  commentId: T:System.Threading.Tasks.Task{System.DateTime}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DateTime>
+  nameWithType: Task<DateTime>
+  fullName: System.Threading.Tasks.Task<System.DateTime>
+  nameWithType.vb: Task(Of Date)
+  fullName.vb: System.Threading.Tasks.Task(Of Date)
+  name.vb: Task(Of Date)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
+- uid: SuperOffice.CRM.FilterDialogDataHandler.GetToDateAsync*
+  commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.GetToDateAsync
+  isExternal: true
+  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_GetToDateAsync_System_Threading_CancellationToken_
+  name: GetToDateAsync
+  nameWithType: FilterDialogDataHandler.GetToDateAsync
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetToDateAsync
+- uid: SuperOffice.CRM.FilterDialogDataHandler.SaveAsync*
+  commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.SaveAsync
+  isExternal: true
+  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_SaveAsync_System_Int32___System_Int32___System_DateTime_System_DateTime_System_Threading_CancellationToken_
+  name: SaveAsync
+  nameWithType: FilterDialogDataHandler.SaveAsync
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.SaveAsync
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds*
-  commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds
-  isExternal: true
-  name: GetSelectedAssociateIds
-  nameWithType: FilterDialogDataHandler.GetSelectedAssociateIds
-  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds
-- uid: SuperOffice.CRM.FilterDialogDataHandler.GetFromDate*
-  commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.GetFromDate
-  isExternal: true
-  name: GetFromDate
-  nameWithType: FilterDialogDataHandler.GetFromDate
-  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetFromDate
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: SuperOffice.CRM.FilterDialogDataHandler.GetToDate*
-  commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.GetToDate
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: GetToDate
-  nameWithType: FilterDialogDataHandler.GetToDate
-  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetToDate
-- uid: SuperOffice.CRM.FilterDialogDataHandler.Save*
-  commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.Save
-  isExternal: true
-  name: Save
-  nameWithType: FilterDialogDataHandler.Save
-  fullName: SuperOffice.CRM.FilterDialogDataHandler.Save
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions*
   commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions
   isExternal: true
+  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_AddFilterRestrictions_SuperOffice_Data_SQL_Select_SuperOffice_Data_SQL_FieldInfo_SuperOffice_Data_SQL_FieldInfo_
   name: AddFilterRestrictions
   nameWithType: FilterDialogDataHandler.AddFilterRestrictions
   fullName: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions
@@ -471,6 +1176,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.Select
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.Select.html
   name: Select
   nameWithType: Select
   fullName: SuperOffice.Data.SQL.Select
@@ -478,37 +1184,76 @@ references:
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictionsByEjuser*
   commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictionsByEjuser
   isExternal: true
+  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_AddFilterRestrictionsByEjuser_SuperOffice_Data_SQL_Select_SuperOffice_Data_SQL_FieldInfo_SuperOffice_Data_SQL_FieldInfo_
   name: AddFilterRestrictionsByEjuser
   nameWithType: FilterDialogDataHandler.AddFilterRestrictionsByEjuser
   fullName: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictionsByEjuser
 - uid: SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected*
   commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected
   isExternal: true
+  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_AreAllAssociatesSelected
   name: AreAllAssociatesSelected
   nameWithType: FilterDialogDataHandler.AreAllAssociatesSelected
   fullName: SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected
 - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue*
   commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue
   isExternal: true
+  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_DefaultFilterValue
   name: DefaultFilterValue
   nameWithType: FilterDialogDataHandler.DefaultFilterValue
   fullName: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue
@@ -516,6 +1261,48 @@ references:
   commentId: T:SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.FilterDialogDataHandler.html
   name: FilterDialogDataHandler.DefaultFilter
   nameWithType: FilterDialogDataHandler.DefaultFilter
   fullName: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
+  spec.csharp:
+  - uid: SuperOffice.CRM.FilterDialogDataHandler
+    name: FilterDialogDataHandler
+    isExternal: true
+    href: SuperOffice.CRM.FilterDialogDataHandler.html
+  - name: .
+  - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
+    name: DefaultFilter
+    isExternal: true
+    href: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.html
+  spec.vb:
+  - uid: SuperOffice.CRM.FilterDialogDataHandler
+    name: FilterDialogDataHandler
+    isExternal: true
+    href: SuperOffice.CRM.FilterDialogDataHandler.html
+  - name: .
+  - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
+    name: DefaultFilter
+    isExternal: true
+    href: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.html
+- uid: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds*
+  commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds
+  isExternal: true
+  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_GetSelectedAssociateIds
+  name: GetSelectedAssociateIds
+  nameWithType: FilterDialogDataHandler.GetSelectedAssociateIds
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds
+- uid: SuperOffice.CRM.FilterDialogDataHandler.GetFromDate*
+  commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.GetFromDate
+  isExternal: true
+  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_GetFromDate
+  name: GetFromDate
+  nameWithType: FilterDialogDataHandler.GetFromDate
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetFromDate
+- uid: SuperOffice.CRM.FilterDialogDataHandler.GetToDate*
+  commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.GetToDate
+  isExternal: true
+  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_GetToDate
+  name: GetToDate
+  nameWithType: FilterDialogDataHandler.GetToDate
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.GetToDate

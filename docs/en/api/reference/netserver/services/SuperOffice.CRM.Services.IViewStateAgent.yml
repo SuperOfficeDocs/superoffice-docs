@@ -5,22 +5,22 @@ items:
   id: IViewStateAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory(System.String,System.Int32)
-  - SuperOffice.CRM.Services.IViewStateAgent.GetCurrent(System.String)
-  - SuperOffice.CRM.Services.IViewStateAgent.GetHistories
-  - SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName(System.String)
-  - SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(System.String[])
-  - SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
-  - SuperOffice.CRM.Services.IViewStateAgent.GetHistory(System.Int32)
-  - SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
-  - SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
-  - SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent(System.String,System.Int32)
-  - SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent(System.String,System.Int32)
-  - SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
-  - SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
-  - SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
-  - SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String,SuperOffice.CRM.Services.History[])
-  - SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
+  - SuperOffice.CRM.Services.IViewStateAgent.DeleteHistoryAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IViewStateAgent.GetCurrentAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNameAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIdsAsync(SuperOffice.CRM.Services.HistoryRequest[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAsync(System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IViewStateAgent.GetHistoryAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValueAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfigAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrentAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrentAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEventsAsync(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentAsync(SuperOffice.CRM.Services.History,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentsAsync(SuperOffice.CRM.Services.History[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IViewStateAgent.SaveHistoriesAsync(System.String,SuperOffice.CRM.Services.History[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -28,15 +28,28 @@ items:
   nameWithType: IViewStateAgent
   fullName: SuperOffice.CRM.Services.IViewStateAgent
   type: Interface
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInterface for the ViewState Agent\nUser interface view state, history, currentXXX values\n"
+  summary: >-
+    Interface for the ViewState Agent
+
+    User interface view state, history, currentXXX values
   example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ViewStateAgent agent = new ViewStateAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  - >-
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       using (ViewStateAgent agent = new ViewStateAgent())
+       {
+          // call methods on agent here...
+       }
+    }</code></pre>
   syntax:
     content: >-
       [Agent("ViewState Agent", "Interface for the ViewState Agent. User interface view state, history, currentXXX values")]
@@ -45,8 +58,7 @@ items:
     content.vb: >-
       <Agent("ViewState Agent", "Interface for the ViewState Agent. User interface view state, history, currentXXX values")>
 
-      Public Interface IViewStateAgent
-          Inherits IAgent
+      Public Interface IViewStateAgent Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -55,144 +67,143 @@ items:
       value: ViewState Agent
     - type: System.String
       value: Interface for the ViewState Agent. User interface view state, history, currentXXX values
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
-  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
-  id: GetLiveUiConfig
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfigAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfigAsync(System.Threading.CancellationToken)
+  id: GetLiveUiConfigAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IViewStateAgent
   langs:
   - csharp
   - vb
-  name: GetLiveUiConfig()
-  nameWithType: IViewStateAgent.GetLiveUiConfig()
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig()
+  name: GetLiveUiConfigAsync(CancellationToken)
+  nameWithType: IViewStateAgent.GetLiveUiConfigAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfigAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets live UI configuration\n"
+  summary: Gets live UI configuration
+  example: []
   syntax:
-    content: LiveUiConfig GetLiveUiConfig()
+    content: Task<LiveUiConfig> GetLiveUiConfigAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.LiveUiConfig
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.LiveUiConfig}
       description: Live UI configuration containing the parameters needed for live UI functionality
-    content.vb: Function GetLiveUiConfig As LiveUiConfig
-  overload: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig*
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistory(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistory(System.Int32)
-  id: GetHistory(System.Int32)
+    content.vb: Function GetLiveUiConfigAsync(cancellationToken As CancellationToken = Nothing) As Task(Of LiveUiConfig)
+  overload: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfigAsync*
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoryAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetHistoryAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IViewStateAgent
   langs:
   - csharp
   - vb
-  name: GetHistory(Int32)
-  nameWithType: IViewStateAgent.GetHistory(Int32)
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistory(System.Int32)
+  name: GetHistoryAsync(int, CancellationToken)
+  nameWithType: IViewStateAgent.GetHistoryAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a History object.                        \n"
+  summary: Gets a History object.
+  example: []
   syntax:
-    content: History GetHistory(int historyId)
+    content: Task<History> GetHistoryAsync(int historyId, CancellationToken cancellationToken = default)
     parameters:
     - id: historyId
       type: System.Int32
       description: The identifier of the History object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.History
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.History}
       description: History
-    content.vb: Function GetHistory(historyId As Integer) As History
-  overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistory*
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent(System.String)
-  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetCurrent(System.String)
-  id: GetCurrent(System.String)
+    content.vb: Function GetHistoryAsync(historyId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of History)
+  overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryAsync*
+  nameWithType.vb: IViewStateAgent.GetHistoryAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetHistoryAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetCurrentAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetCurrentAsync(System.String,System.Threading.CancellationToken)
+  id: GetCurrentAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IViewStateAgent
   langs:
   - csharp
   - vb
-  name: GetCurrent(String)
-  nameWithType: IViewStateAgent.GetCurrent(String)
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent(System.String)
+  name: GetCurrentAsync(string, CancellationToken)
+  nameWithType: IViewStateAgent.GetCurrentAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetCurrentAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet the current (most recent) value of the history list. This is the item with rank = 1. If no item exists a default value is returned. This is usually the first item in the table representing the history list.\n"
+  summary: Get the current (most recent) value of the history list. This is the item with rank = 1. If no item exists a default value is returned. This is usually the first item in the table representing the history list.
+  example: []
   syntax:
-    content: History GetCurrent(string historyName)
+    content: Task<History> GetCurrentAsync(string historyName, CancellationToken cancellationToken = default)
     parameters:
     - id: historyName
       type: System.String
       description: Name of the history list, e.g. contact, project
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.History
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.History}
       description: The current (most recent) history item
-    content.vb: Function GetCurrent(historyName As String) As History
-  overload: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent*
-- uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
-  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
-  id: SaveCurrent(SuperOffice.CRM.Services.History)
+    content.vb: Function GetCurrentAsync(historyName As String, cancellationToken As CancellationToken = Nothing) As Task(Of History)
+  overload: SuperOffice.CRM.Services.IViewStateAgent.GetCurrentAsync*
+  nameWithType.vb: IViewStateAgent.GetCurrentAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetCurrentAsync(String, System.Threading.CancellationToken)
+  name.vb: GetCurrentAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentAsync(SuperOffice.CRM.Services.History,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentAsync(SuperOffice.CRM.Services.History,System.Threading.CancellationToken)
+  id: SaveCurrentAsync(SuperOffice.CRM.Services.History,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IViewStateAgent
   langs:
   - csharp
   - vb
-  name: SaveCurrent(History)
-  nameWithType: IViewStateAgent.SaveCurrent(History)
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
+  name: SaveCurrentAsync(History, CancellationToken)
+  nameWithType: IViewStateAgent.SaveCurrentAsync(History, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentAsync(SuperOffice.CRM.Services.History, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSaving the current history item. This history item is saved with Rank = 1, and all the remaining elements rank values are shifted one down. The list is maintained with the max lenght of the History list length preference.\n"
+  summary: Saving the current history item. This history item is saved with Rank = 1, and all the remaining elements rank values are shifted one down. The list is maintained with the max lenght of the History list length preference.
+  example: []
   syntax:
-    content: History SaveCurrent(History current)
+    content: Task<History> SaveCurrentAsync(History current, CancellationToken cancellationToken = default)
     parameters:
     - id: current
       type: SuperOffice.CRM.Services.History
       description: The new current history element.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.History
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.History}
       description: The current (most recent) history item
-    content.vb: Function SaveCurrent(current As History) As History
-  overload: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent*
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent(System.String,System.Int32)
-  id: GetNextCurrent(System.String,System.Int32)
+    content.vb: Function SaveCurrentAsync(current As History, cancellationToken As CancellationToken = Nothing) As Task(Of History)
+  overload: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentAsync*
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrentAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrentAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: GetNextCurrentAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IViewStateAgent
   langs:
   - csharp
   - vb
-  name: GetNextCurrent(String, Int32)
-  nameWithType: IViewStateAgent.GetNextCurrent(String, Int32)
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent(System.String, System.Int32)
+  name: GetNextCurrentAsync(string, int, CancellationToken)
+  nameWithType: IViewStateAgent.GetNextCurrentAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrentAsync(string, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the next current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.\n"
+  summary: Returns the next current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.
+  example: []
   syntax:
-    content: History GetNextCurrent(string historyName, int id)
+    content: Task<History> GetNextCurrentAsync(string historyName, int id, CancellationToken cancellationToken = default)
     parameters:
     - id: historyName
       type: System.String
@@ -200,31 +211,34 @@ items:
     - id: id
       type: System.Int32
       description: Id of the history element, e.g. Contact id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.History
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.History}
       description: The current value.
-    content.vb: Function GetNextCurrent(historyName As String, id As Integer) As History
-  overload: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent*
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent(System.String,System.Int32)
-  id: GetPreviousCurrent(System.String,System.Int32)
+    content.vb: Function GetNextCurrentAsync(historyName As String, id As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of History)
+  overload: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrentAsync*
+  nameWithType.vb: IViewStateAgent.GetNextCurrentAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrentAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: GetNextCurrentAsync(String, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrentAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrentAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: GetPreviousCurrentAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IViewStateAgent
   langs:
   - csharp
   - vb
-  name: GetPreviousCurrent(String, Int32)
-  nameWithType: IViewStateAgent.GetPreviousCurrent(String, Int32)
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent(System.String, System.Int32)
+  name: GetPreviousCurrentAsync(string, int, CancellationToken)
+  nameWithType: IViewStateAgent.GetPreviousCurrentAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrentAsync(string, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the previous current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.\n"
+  summary: Returns the previous current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.
+  example: []
   syntax:
-    content: History GetPreviousCurrent(string historyName, int id)
+    content: Task<History> GetPreviousCurrentAsync(string historyName, int id, CancellationToken cancellationToken = default)
     parameters:
     - id: historyName
       type: System.String
@@ -232,31 +246,34 @@ items:
     - id: id
       type: System.Int32
       description: Id of the history element, e.g. Contact id
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.History
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.History}
       description: The current value.
-    content.vb: Function GetPreviousCurrent(historyName As String, id As Integer) As History
-  overload: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent*
-- uid: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory(System.String,System.Int32)
-  id: DeleteHistory(System.String,System.Int32)
+    content.vb: Function GetPreviousCurrentAsync(historyName As String, id As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of History)
+  overload: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrentAsync*
+  nameWithType.vb: IViewStateAgent.GetPreviousCurrentAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrentAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: GetPreviousCurrentAsync(String, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistoryAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.DeleteHistoryAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: DeleteHistoryAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IViewStateAgent
   langs:
   - csharp
   - vb
-  name: DeleteHistory(String, Int32)
-  nameWithType: IViewStateAgent.DeleteHistory(String, Int32)
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory(System.String, System.Int32)
+  name: DeleteHistoryAsync(string, int, CancellationToken)
+  nameWithType: IViewStateAgent.DeleteHistoryAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistoryAsync(string, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the history element\n"
+  summary: Deletes the history element
+  example: []
   syntax:
-    content: void DeleteHistory(string historyName, int id)
+    content: Task DeleteHistoryAsync(string historyName, int id, CancellationToken cancellationToken = default)
     parameters:
     - id: historyName
       type: System.String
@@ -264,263 +281,281 @@ items:
     - id: id
       type: System.Int32
       description: Id of the history element, e.g. Contact id
-    content.vb: Sub DeleteHistory(historyName As String, id As Integer)
-  overload: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory*
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistories
-  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistories
-  id: GetHistories
-  parent: SuperOffice.CRM.Services.IViewStateAgent
-  langs:
-  - csharp
-  - vb
-  name: GetHistories()
-  nameWithType: IViewStateAgent.GetHistories()
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistories()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nReturns all history items that belong to the currently logged in user\n"
-  syntax:
-    content: History[] GetHistories()
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.History[]
-      description: Array of History items
-    content.vb: Function GetHistories As History()
-  overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistories*
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName(System.String)
-  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName(System.String)
-  id: GetHistoriesByName(System.String)
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function DeleteHistoryAsync(historyName As String, id As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistoryAsync*
+  nameWithType.vb: IViewStateAgent.DeleteHistoryAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistoryAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: DeleteHistoryAsync(String, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValueAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValueAsync(System.Threading.CancellationToken)
+  id: GetHistoryLengthPrefValueAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IViewStateAgent
   langs:
   - csharp
   - vb
-  name: GetHistoriesByName(String)
-  nameWithType: IViewStateAgent.GetHistoriesByName(String)
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName(System.String)
+  name: GetHistoryLengthPrefValueAsync(CancellationToken)
+  nameWithType: IViewStateAgent.GetHistoryLengthPrefValueAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValueAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the named history list that belong to the currently logged in user\n"
+  summary: Get the logged on user's preferred history list length. Will return the system preference if no user preferences are available.
+  example: []
   syntax:
-    content: History[] GetHistoriesByName(string historyName)
+    content: Task<int> GetHistoryLengthPrefValueAsync(CancellationToken cancellationToken = default)
     parameters:
-    - id: historyName
-      type: System.String
-      description: Name of the history list
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.History[]
-      description: Array of History items
-    content.vb: Function GetHistoriesByName(historyName As String) As History()
-  overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName*
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(System.String[])
-  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(System.String[])
-  id: GetHistoriesByNames(System.String[])
-  parent: SuperOffice.CRM.Services.IViewStateAgent
-  langs:
-  - csharp
-  - vb
-  name: GetHistoriesByNames(String[])
-  nameWithType: IViewStateAgent.GetHistoriesByNames(String[])
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(System.String[])
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the named history lists that belong to the currently logged in user\n"
-  syntax:
-    content: History[] GetHistoriesByNames(string[] historyNames)
-    parameters:
-    - id: historyNames
-      type: System.String[]
-      description: String array of list names
-    return:
-      type: SuperOffice.CRM.Services.History[]
-      description: Array of History items
-    content.vb: Function GetHistoriesByNames(historyNames As String()) As History()
-  overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames*
-  nameWithType.vb: IViewStateAgent.GetHistoriesByNames(String())
-  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(System.String())
-  name.vb: GetHistoriesByNames(String())
-- uid: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String,SuperOffice.CRM.Services.History[])
-  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String,SuperOffice.CRM.Services.History[])
-  id: SaveHistories(System.String,SuperOffice.CRM.Services.History[])
-  parent: SuperOffice.CRM.Services.IViewStateAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveHistories(String, History[])
-  nameWithType: IViewStateAgent.SaveHistories(String, History[])
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String, SuperOffice.CRM.Services.History[])
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nReplaces the existing history-list for the currently logged in user. All elements must belong to the same history list. If not they are ignored.\n"
-  syntax:
-    content: History[] SaveHistories(string historyName, History[] history)
-    parameters:
-    - id: historyName
-      type: System.String
-    - id: history
-      type: SuperOffice.CRM.Services.History[]
-      description: Array of new history items to save.
-    return:
-      type: SuperOffice.CRM.Services.History[]
-      description: Array of the saved History items
-    content.vb: Function SaveHistories(historyName As String, history As History()) As History()
-  overload: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories*
-  nameWithType.vb: IViewStateAgent.SaveHistories(String, History())
-  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String, SuperOffice.CRM.Services.History())
-  name.vb: SaveHistories(String, History())
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
-  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
-  id: GetHistoryLengthPrefValue
-  parent: SuperOffice.CRM.Services.IViewStateAgent
-  langs:
-  - csharp
-  - vb
-  name: GetHistoryLengthPrefValue()
-  nameWithType: IViewStateAgent.GetHistoryLengthPrefValue()
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGet the logged on user&apos;s preferred history list length. Will return the system preference if no user preferences are available.\n"
-  syntax:
-    content: int GetHistoryLengthPrefValue()
-    return:
-      type: System.Int32
+      type: System.Threading.Tasks.Task{System.Int32}
       description: The history list lenght
-    content.vb: Function GetHistoryLengthPrefValue As Integer
-  overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue*
-- uid: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
-  id: SetHistoryLengthPrefValue(System.Int32)
+    content.vb: Function GetHistoryLengthPrefValueAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValueAsync*
+- uid: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,System.Threading.CancellationToken)
+  id: SetHistoryLengthPrefValueAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IViewStateAgent
   langs:
   - csharp
   - vb
-  name: SetHistoryLengthPrefValue(Int32)
-  nameWithType: IViewStateAgent.SetHistoryLengthPrefValue(Int32)
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
+  name: SetHistoryLengthPrefValueAsync(int, CancellationToken)
+  nameWithType: IViewStateAgent.SetHistoryLengthPrefValueAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValueAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSet the logged on user&apos;s preferred history list length.\n"
+  summary: Set the logged on user's preferred history list length.
+  example: []
   syntax:
-    content: void SetHistoryLengthPrefValue(int length)
+    content: Task SetHistoryLengthPrefValueAsync(int length, CancellationToken cancellationToken = default)
     parameters:
     - id: length
       type: System.Int32
       description: The new history list lenght
-    content.vb: Sub SetHistoryLengthPrefValue(length As Integer)
-  overload: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue*
-- uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
-  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
-  id: SaveCurrents(SuperOffice.CRM.Services.History[])
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SetHistoryLengthPrefValueAsync(length As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValueAsync*
+  nameWithType.vb: IViewStateAgent.SetHistoryLengthPrefValueAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValueAsync(Integer, System.Threading.CancellationToken)
+  name.vb: SetHistoryLengthPrefValueAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesAsync(System.Threading.CancellationToken)
+  id: GetHistoriesAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IViewStateAgent
   langs:
   - csharp
   - vb
-  name: SaveCurrents(History[])
-  nameWithType: IViewStateAgent.SaveCurrents(History[])
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
+  name: GetHistoriesAsync(CancellationToken)
+  nameWithType: IViewStateAgent.GetHistoriesAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSaves the history elements as the current value for their respective lists. If more than one item is submitted for the same list, they are added sequently, meaning that the last one is the most current.\n"
+  summary: Returns all history items that belong to the currently logged in user
+  example: []
   syntax:
-    content: History[] SaveCurrents(History[] currents)
+    content: Task<History[]> GetHistoriesAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.History[]}
+      description: Array of History items
+    content.vb: Function GetHistoriesAsync(cancellationToken As CancellationToken = Nothing) As Task(Of History())
+  overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesAsync*
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNameAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNameAsync(System.String,System.Threading.CancellationToken)
+  id: GetHistoriesByNameAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetHistoriesByNameAsync(string, CancellationToken)
+  nameWithType: IViewStateAgent.GetHistoriesByNameAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNameAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the named history list that belong to the currently logged in user
+  example: []
+  syntax:
+    content: Task<History[]> GetHistoriesByNameAsync(string historyName, CancellationToken cancellationToken = default)
+    parameters:
+    - id: historyName
+      type: System.String
+      description: Name of the history list
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.History[]}
+      description: Array of History items
+    content.vb: Function GetHistoriesByNameAsync(historyName As String, cancellationToken As CancellationToken = Nothing) As Task(Of History())
+  overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNameAsync*
+  nameWithType.vb: IViewStateAgent.GetHistoriesByNameAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNameAsync(String, System.Threading.CancellationToken)
+  name.vb: GetHistoriesByNameAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAsync(System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAsync(System.String[],System.Threading.CancellationToken)
+  id: GetHistoriesByNamesAsync(System.String[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetHistoriesByNamesAsync(string[], CancellationToken)
+  nameWithType: IViewStateAgent.GetHistoriesByNamesAsync(string[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAsync(string[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the named history lists that belong to the currently logged in user
+  example: []
+  syntax:
+    content: Task<History[]> GetHistoriesByNamesAsync(string[] historyNames, CancellationToken cancellationToken = default)
+    parameters:
+    - id: historyNames
+      type: System.String[]
+      description: String array of list names
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.History[]}
+      description: Array of History items
+    content.vb: Function GetHistoriesByNamesAsync(historyNames As String(), cancellationToken As CancellationToken = Nothing) As Task(Of History())
+  overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAsync*
+  nameWithType.vb: IViewStateAgent.GetHistoriesByNamesAsync(String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAsync(String(), System.Threading.CancellationToken)
+  name.vb: GetHistoriesByNamesAsync(String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IViewStateAgent.SaveHistoriesAsync(System.String,SuperOffice.CRM.Services.History[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.SaveHistoriesAsync(System.String,SuperOffice.CRM.Services.History[],System.Threading.CancellationToken)
+  id: SaveHistoriesAsync(System.String,SuperOffice.CRM.Services.History[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveHistoriesAsync(string, History[], CancellationToken)
+  nameWithType: IViewStateAgent.SaveHistoriesAsync(string, History[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveHistoriesAsync(string, SuperOffice.CRM.Services.History[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Replaces the existing history-list for the currently logged in user. All elements must belong to the same history list. If not they are ignored.
+  example: []
+  syntax:
+    content: Task<History[]> SaveHistoriesAsync(string historyName, History[] history, CancellationToken cancellationToken = default)
+    parameters:
+    - id: historyName
+      type: System.String
+      description: ''
+    - id: history
+      type: SuperOffice.CRM.Services.History[]
+      description: Array of new history items to save.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.History[]}
+      description: Array of the saved History items
+    content.vb: Function SaveHistoriesAsync(historyName As String, history As History(), cancellationToken As CancellationToken = Nothing) As Task(Of History())
+  overload: SuperOffice.CRM.Services.IViewStateAgent.SaveHistoriesAsync*
+  nameWithType.vb: IViewStateAgent.SaveHistoriesAsync(String, History(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.SaveHistoriesAsync(String, SuperOffice.CRM.Services.History(), System.Threading.CancellationToken)
+  name.vb: SaveHistoriesAsync(String, History(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentsAsync(SuperOffice.CRM.Services.History[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentsAsync(SuperOffice.CRM.Services.History[],System.Threading.CancellationToken)
+  id: SaveCurrentsAsync(SuperOffice.CRM.Services.History[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCurrentsAsync(History[], CancellationToken)
+  nameWithType: IViewStateAgent.SaveCurrentsAsync(History[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentsAsync(SuperOffice.CRM.Services.History[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Saves the history elements as the current value for their respective lists. If more than one item is submitted for the same list, they are added sequently, meaning that the last one is the most current.
+  example: []
+  syntax:
+    content: Task<History[]> SaveCurrentsAsync(History[] currents, CancellationToken cancellationToken = default)
     parameters:
     - id: currents
       type: SuperOffice.CRM.Services.History[]
       description: Array of new history items to save.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.History[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.History[]}
       description: Array of the saved History items
-    content.vb: Function SaveCurrents(currents As History()) As History()
-  overload: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents*
-  nameWithType.vb: IViewStateAgent.SaveCurrents(History())
-  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History())
-  name.vb: SaveCurrents(History())
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
-  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
-  id: GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
+    content.vb: Function SaveCurrentsAsync(currents As History(), cancellationToken As CancellationToken = Nothing) As Task(Of History())
+  overload: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentsAsync*
+  nameWithType.vb: IViewStateAgent.SaveCurrentsAsync(History(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentsAsync(SuperOffice.CRM.Services.History(), System.Threading.CancellationToken)
+  name.vb: SaveCurrentsAsync(History(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIdsAsync(SuperOffice.CRM.Services.HistoryRequest[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIdsAsync(SuperOffice.CRM.Services.HistoryRequest[],System.Threading.CancellationToken)
+  id: GetHistoriesByNamesAndIdsAsync(SuperOffice.CRM.Services.HistoryRequest[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IViewStateAgent
   langs:
   - csharp
   - vb
-  name: GetHistoriesByNamesAndIds(HistoryRequest[])
-  nameWithType: IViewStateAgent.GetHistoriesByNamesAndIds(HistoryRequest[])
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
+  name: GetHistoriesByNamesAndIdsAsync(HistoryRequest[], CancellationToken)
+  nameWithType: IViewStateAgent.GetHistoriesByNamesAndIdsAsync(HistoryRequest[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIdsAsync(SuperOffice.CRM.Services.HistoryRequest[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns history data for the named entities and the given ids - which may not directly correspond to the current history records in the database.&lt;para/>Use this method if you know exactly which items you need, regardless of whether they are in the current history or not.&lt;para/>The history in the database is not changed or even looked at by this method.\n"
+  summary: Returns history data for the named entities and the given ids - which may not directly correspond to the current history records in the database.&lt;para/&gt;Use this method if you know exactly which items you need, regardless of whether they are in the current history or not.&lt;para/&gt;The history in the database is not changed or even looked at by this method.
+  example: []
   syntax:
-    content: History[] GetHistoriesByNamesAndIds(HistoryRequest[] requests)
+    content: Task<History[]> GetHistoriesByNamesAndIdsAsync(HistoryRequest[] requests, CancellationToken cancellationToken = default)
     parameters:
     - id: requests
       type: SuperOffice.CRM.Services.HistoryRequest[]
       description: Array of request objects that define what entities we are requesting history information for
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.History[]
-      description: On history item for each history name/id pair specified, in exactly the same order as specified.&lt;para/>If a specified item cannot be found in the database, its Id will be 0 and its name will be blank in the return array.
-    content.vb: Function GetHistoriesByNamesAndIds(requests As HistoryRequest()) As History()
-  overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds*
-  nameWithType.vb: IViewStateAgent.GetHistoriesByNamesAndIds(HistoryRequest())
-  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest())
-  name.vb: GetHistoriesByNamesAndIds(HistoryRequest())
-- uid: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
-  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
-  id: PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.History[]}
+      description: On history item for each history name/id pair specified, in exactly the same order as specified.&lt;para/&gt;If a specified item cannot be found in the database, its Id will be 0 and its name will be blank in the return array.
+    content.vb: Function GetHistoriesByNamesAndIdsAsync(requests As HistoryRequest(), cancellationToken As CancellationToken = Nothing) As Task(Of History())
+  overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIdsAsync*
+  nameWithType.vb: IViewStateAgent.GetHistoriesByNamesAndIdsAsync(HistoryRequest(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIdsAsync(SuperOffice.CRM.Services.HistoryRequest(), System.Threading.CancellationToken)
+  name.vb: GetHistoriesByNamesAndIdsAsync(HistoryRequest(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEventsAsync(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEventsAsync(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[],System.Threading.CancellationToken)
+  id: PublishAndRetrieveUiEventsAsync(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IViewStateAgent
   langs:
   - csharp
   - vb
-  name: PublishAndRetrieveUiEvents(Int32, UiEvent[], MetricPair[])
-  nameWithType: IViewStateAgent.PublishAndRetrieveUiEvents(Int32, UiEvent[], MetricPair[])
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32, SuperOffice.CRM.Services.UiEvent[], SuperOffice.CRM.Services.MetricPair[])
+  name: PublishAndRetrieveUiEventsAsync(int, UiEvent[], MetricPair[], CancellationToken)
+  nameWithType: IViewStateAgent.PublishAndRetrieveUiEventsAsync(int, UiEvent[], MetricPair[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEventsAsync(int, SuperOffice.CRM.Services.UiEvent[], SuperOffice.CRM.Services.MetricPair[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPublish zero or more events, and return any new events since the given event id. The initial implementation is in-memory only; applies solely to the front-end web server; and anything older than 20 minutes is discarded\n"
+  summary: Publish zero or more events, and return any new events since the given event id. The initial implementation is in-memory only; applies solely to the front-end web server; and anything older than 20 minutes is discarded
+  example: []
   syntax:
-    content: UiEvent[] PublishAndRetrieveUiEvents(int latestKnownEventId, UiEvent[] publishEvents, MetricPair[] metrics)
+    content: Task<UiEvent[]> PublishAndRetrieveUiEventsAsync(int latestKnownEventId, UiEvent[] publishEvents, MetricPair[] metrics, CancellationToken cancellationToken = default)
     parameters:
     - id: latestKnownEventId
       type: System.Int32
@@ -531,105 +566,460 @@ items:
     - id: metrics
       type: SuperOffice.CRM.Services.MetricPair[]
       description: Optional statistical and performance metrics collected by the frontend. Can be null or empty. Metrics are sum-accumulated and reported once a minute; please do not report the same logical event twice
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.UiEvent[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UiEvent[]}
       description: Array of events since the given event ID; within the time span kept by the event mechanism. Event/primarykey combinations are not guaranteed to be unique, and events in the PublishEvents parameter are echoed back to the client
-    content.vb: Function PublishAndRetrieveUiEvents(latestKnownEventId As Integer, publishEvents As UiEvent(), metrics As MetricPair()) As UiEvent()
-  overload: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents*
-  nameWithType.vb: IViewStateAgent.PublishAndRetrieveUiEvents(Int32, UiEvent(), MetricPair())
-  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32, SuperOffice.CRM.Services.UiEvent(), SuperOffice.CRM.Services.MetricPair())
-  name.vb: PublishAndRetrieveUiEvents(Int32, UiEvent(), MetricPair())
+    content.vb: Function PublishAndRetrieveUiEventsAsync(latestKnownEventId As Integer, publishEvents As UiEvent(), metrics As MetricPair(), cancellationToken As CancellationToken = Nothing) As Task(Of UiEvent())
+  overload: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEventsAsync*
+  nameWithType.vb: IViewStateAgent.PublishAndRetrieveUiEventsAsync(Integer, UiEvent(), MetricPair(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEventsAsync(Integer, SuperOffice.CRM.Services.UiEvent(), SuperOffice.CRM.Services.MetricPair(), System.Threading.CancellationToken)
+  name.vb: PublishAndRetrieveUiEventsAsync(Integer, UiEvent(), MetricPair(), CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig*
-  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfigAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfigAsync
   isExternal: true
-  name: GetLiveUiConfig
-  nameWithType: IViewStateAgent.GetLiveUiConfig
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
-- uid: SuperOffice.CRM.Services.LiveUiConfig
-  commentId: T:SuperOffice.CRM.Services.LiveUiConfig
-  parent: SuperOffice.CRM.Services
+  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetLiveUiConfigAsync_System_Threading_CancellationToken_
+  name: GetLiveUiConfigAsync
+  nameWithType: IViewStateAgent.GetLiveUiConfigAsync
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfigAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: LiveUiConfig
-  nameWithType: LiveUiConfig
-  fullName: SuperOffice.CRM.Services.LiveUiConfig
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistory*
-  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistory
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.LiveUiConfig}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.LiveUiConfig}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<LiveUiConfig>
+  nameWithType: Task<LiveUiConfig>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.LiveUiConfig>
+  nameWithType.vb: Task(Of LiveUiConfig)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.LiveUiConfig)
+  name.vb: Task(Of LiveUiConfig)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.LiveUiConfig
+    name: LiveUiConfig
+    isExternal: true
+    href: SuperOffice.CRM.Services.LiveUiConfig.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.LiveUiConfig
+    name: LiveUiConfig
+    isExternal: true
+    href: SuperOffice.CRM.Services.LiveUiConfig.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: GetHistory
-  nameWithType: IViewStateAgent.GetHistory
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistory
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistoryAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetHistoryAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetHistoryAsync
+  nameWithType: IViewStateAgent.GetHistoryAsync
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Services.History
-  commentId: T:SuperOffice.CRM.Services.History
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: History
-  nameWithType: History
-  fullName: SuperOffice.CRM.Services.History
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.History}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.History}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<History>
+  nameWithType: Task<History>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.History>
+  nameWithType.vb: Task(Of History)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.History)
+  name.vb: Task(Of History)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.History
+    name: History
+    isExternal: true
+    href: SuperOffice.CRM.Services.History.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.History
+    name: History
+    isExternal: true
+    href: SuperOffice.CRM.Services.History.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent*
-  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetCurrent
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetCurrentAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetCurrentAsync
   isExternal: true
-  name: GetCurrent
-  nameWithType: IViewStateAgent.GetCurrent
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent
+  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetCurrentAsync_System_String_System_Threading_CancellationToken_
+  name: GetCurrentAsync
+  nameWithType: IViewStateAgent.GetCurrentAsync
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetCurrentAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent*
-  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentAsync
   isExternal: true
-  name: SaveCurrent
-  nameWithType: IViewStateAgent.SaveCurrent
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent*
-  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent
+  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_SaveCurrentAsync_SuperOffice_CRM_Services_History_System_Threading_CancellationToken_
+  name: SaveCurrentAsync
+  nameWithType: IViewStateAgent.SaveCurrentAsync
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentAsync
+- uid: SuperOffice.CRM.Services.History
+  commentId: T:SuperOffice.CRM.Services.History
+  parent: SuperOffice.CRM.Services
   isExternal: true
-  name: GetNextCurrent
-  nameWithType: IViewStateAgent.GetNextCurrent
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent*
-  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent
+  href: SuperOffice.CRM.Services.History.html
+  name: History
+  nameWithType: History
+  fullName: SuperOffice.CRM.Services.History
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrentAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrentAsync
   isExternal: true
-  name: GetPreviousCurrent
-  nameWithType: IViewStateAgent.GetPreviousCurrent
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent
-- uid: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory*
-  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory
+  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetNextCurrentAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  name: GetNextCurrentAsync
+  nameWithType: IViewStateAgent.GetNextCurrentAsync
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrentAsync
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrentAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrentAsync
   isExternal: true
-  name: DeleteHistory
-  nameWithType: IViewStateAgent.DeleteHistory
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistories*
-  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistories
+  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetPreviousCurrentAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  name: GetPreviousCurrentAsync
+  nameWithType: IViewStateAgent.GetPreviousCurrentAsync
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrentAsync
+- uid: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistoryAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.DeleteHistoryAsync
   isExternal: true
-  name: GetHistories
-  nameWithType: IViewStateAgent.GetHistories
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistories
+  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_DeleteHistoryAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  name: DeleteHistoryAsync
+  nameWithType: IViewStateAgent.DeleteHistoryAsync
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistoryAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValueAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValueAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetHistoryLengthPrefValueAsync_System_Threading_CancellationToken_
+  name: GetHistoryLengthPrefValueAsync
+  nameWithType: IViewStateAgent.GetHistoryLengthPrefValueAsync
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValueAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValueAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValueAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_SetHistoryLengthPrefValueAsync_System_Int32_System_Threading_CancellationToken_
+  name: SetHistoryLengthPrefValueAsync
+  nameWithType: IViewStateAgent.SetHistoryLengthPrefValueAsync
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValueAsync
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetHistoriesAsync_System_Threading_CancellationToken_
+  name: GetHistoriesAsync
+  nameWithType: IViewStateAgent.GetHistoriesAsync
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.History[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.History[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<History[]>
+  nameWithType: Task<History[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.History[]>
+  nameWithType.vb: Task(Of History())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.History())
+  name.vb: Task(Of History())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.History
+    name: History
+    isExternal: true
+    href: SuperOffice.CRM.Services.History.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.History
+    name: History
+    isExternal: true
+    href: SuperOffice.CRM.Services.History.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNameAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNameAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetHistoriesByNameAsync_System_String_System_Threading_CancellationToken_
+  name: GetHistoriesByNameAsync
+  nameWithType: IViewStateAgent.GetHistoriesByNameAsync
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNameAsync
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetHistoriesByNamesAsync_System_String___System_Threading_CancellationToken_
+  name: GetHistoriesByNamesAsync
+  nameWithType: IViewStateAgent.GetHistoriesByNamesAsync
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAsync
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.IViewStateAgent.SaveHistoriesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.SaveHistoriesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_SaveHistoriesAsync_System_String_SuperOffice_CRM_Services_History___System_Threading_CancellationToken_
+  name: SaveHistoriesAsync
+  nameWithType: IViewStateAgent.SaveHistoriesAsync
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveHistoriesAsync
 - uid: SuperOffice.CRM.Services.History[]
   isExternal: true
+  href: SuperOffice.CRM.Services.History.html
   name: History[]
   nameWithType: History[]
   fullName: SuperOffice.CRM.Services.History[]
@@ -639,91 +1029,34 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.History
     name: History
-    nameWithType: History
-    fullName: SuperOffice.CRM.Services.History
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.History.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.History
     name: History
-    nameWithType: History
-    fullName: SuperOffice.CRM.Services.History
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName*
-  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName
+    href: SuperOffice.CRM.Services.History.html
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentsAsync
   isExternal: true
-  name: GetHistoriesByName
-  nameWithType: IViewStateAgent.GetHistoriesByName
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames*
-  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames
+  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_SaveCurrentsAsync_SuperOffice_CRM_Services_History___System_Threading_CancellationToken_
+  name: SaveCurrentsAsync
+  nameWithType: IViewStateAgent.SaveCurrentsAsync
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrentsAsync
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIdsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIdsAsync
   isExternal: true
-  name: GetHistoriesByNames
-  nameWithType: IViewStateAgent.GetHistoriesByNames
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames
-- uid: System.String[]
-  isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
-  nameWithType.vb: String()
-  fullName.vb: System.String()
-  name.vb: String()
-  spec.csharp:
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories*
-  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.SaveHistories
-  isExternal: true
-  name: SaveHistories
-  nameWithType: IViewStateAgent.SaveHistories
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue*
-  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
-  isExternal: true
-  name: GetHistoryLengthPrefValue
-  nameWithType: IViewStateAgent.GetHistoryLengthPrefValue
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
-- uid: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue*
-  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue
-  isExternal: true
-  name: SetHistoryLengthPrefValue
-  nameWithType: IViewStateAgent.SetHistoryLengthPrefValue
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue
-- uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents*
-  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents
-  isExternal: true
-  name: SaveCurrents
-  nameWithType: IViewStateAgent.SaveCurrents
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents
-- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds*
-  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds
-  isExternal: true
-  name: GetHistoriesByNamesAndIds
-  nameWithType: IViewStateAgent.GetHistoriesByNamesAndIds
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds
+  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetHistoriesByNamesAndIdsAsync_SuperOffice_CRM_Services_HistoryRequest___System_Threading_CancellationToken_
+  name: GetHistoriesByNamesAndIdsAsync
+  nameWithType: IViewStateAgent.GetHistoriesByNamesAndIdsAsync
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIdsAsync
 - uid: SuperOffice.CRM.Services.HistoryRequest[]
   isExternal: true
+  href: SuperOffice.CRM.Services.HistoryRequest.html
   name: HistoryRequest[]
   nameWithType: HistoryRequest[]
   fullName: SuperOffice.CRM.Services.HistoryRequest[]
@@ -733,29 +1066,27 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.HistoryRequest
     name: HistoryRequest
-    nameWithType: HistoryRequest
-    fullName: SuperOffice.CRM.Services.HistoryRequest
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.HistoryRequest.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.HistoryRequest
     name: HistoryRequest
-    nameWithType: HistoryRequest
-    fullName: SuperOffice.CRM.Services.HistoryRequest
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents*
-  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents
+    href: SuperOffice.CRM.Services.HistoryRequest.html
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEventsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEventsAsync
   isExternal: true
-  name: PublishAndRetrieveUiEvents
-  nameWithType: IViewStateAgent.PublishAndRetrieveUiEvents
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents
+  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_PublishAndRetrieveUiEventsAsync_System_Int32_SuperOffice_CRM_Services_UiEvent___SuperOffice_CRM_Services_MetricPair___System_Threading_CancellationToken_
+  name: PublishAndRetrieveUiEventsAsync
+  nameWithType: IViewStateAgent.PublishAndRetrieveUiEventsAsync
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEventsAsync
 - uid: SuperOffice.CRM.Services.UiEvent[]
   isExternal: true
+  href: SuperOffice.CRM.Services.UiEvent.html
   name: UiEvent[]
   nameWithType: UiEvent[]
   fullName: SuperOffice.CRM.Services.UiEvent[]
@@ -765,23 +1096,20 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.UiEvent
     name: UiEvent
-    nameWithType: UiEvent
-    fullName: SuperOffice.CRM.Services.UiEvent
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.UiEvent.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.UiEvent
     name: UiEvent
-    nameWithType: UiEvent
-    fullName: SuperOffice.CRM.Services.UiEvent
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.UiEvent.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.MetricPair[]
   isExternal: true
+  href: SuperOffice.CRM.Services.MetricPair.html
   name: MetricPair[]
   nameWithType: MetricPair[]
   fullName: SuperOffice.CRM.Services.MetricPair[]
@@ -791,18 +1119,53 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.MetricPair
     name: MetricPair
-    nameWithType: MetricPair
-    fullName: SuperOffice.CRM.Services.MetricPair
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.MetricPair.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.MetricPair
     name: MetricPair
-    nameWithType: MetricPair
-    fullName: SuperOffice.CRM.Services.MetricPair
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.MetricPair.html
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UiEvent[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.UiEvent[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<UiEvent[]>
+  nameWithType: Task<UiEvent[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.UiEvent[]>
+  nameWithType.vb: Task(Of UiEvent())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.UiEvent())
+  name.vb: Task(Of UiEvent())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.UiEvent
+    name: UiEvent
+    isExternal: true
+    href: SuperOffice.CRM.Services.UiEvent.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.UiEvent
+    name: UiEvent
+    isExternal: true
+    href: SuperOffice.CRM.Services.UiEvent.html
+  - name: (
+  - name: )
+  - name: )

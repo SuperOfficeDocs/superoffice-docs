@@ -18,26 +18,22 @@ items:
   nameWithType: DateTimeExtensions
   fullName: SuperOffice.CRM.DateTimeExtensions
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: 'public static class DateTimeExtensions : Object'
-    content.vb: >-
-      Public Module DateTimeExtensions
-          Inherits Object
+    content: public static class DateTimeExtensions
+    content.vb: Public Module DateTimeExtensions
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.DateTimeExtensions.ToLongDateString(System.DateTime,System.Boolean)
   commentId: M:SuperOffice.CRM.DateTimeExtensions.ToLongDateString(System.DateTime,System.Boolean)
   id: ToLongDateString(System.DateTime,System.Boolean)
@@ -46,13 +42,10 @@ items:
   langs:
   - csharp
   - vb
-  name: ToLongDateString(DateTime, Boolean)
-  nameWithType: DateTimeExtensions.ToLongDateString(DateTime, Boolean)
-  fullName: SuperOffice.CRM.DateTimeExtensions.ToLongDateString(System.DateTime, System.Boolean)
+  name: ToLongDateString(DateTime, bool)
+  nameWithType: DateTimeExtensions.ToLongDateString(DateTime, bool)
+  fullName: SuperOffice.CRM.DateTimeExtensions.ToLongDateString(System.DateTime, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -65,17 +58,11 @@ items:
       type: System.Boolean
     return:
       type: System.String
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToLongDateString(dateTime As DateTime, replaceMinValueWithEmptyString As Boolean) As String
+    content.vb: Public Shared Function ToLongDateString(dateTime As Date, replaceMinValueWithEmptyString As Boolean) As String
   overload: SuperOffice.CRM.DateTimeExtensions.ToLongDateString*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: DateTimeExtensions.ToLongDateString(Date, Boolean)
+  fullName.vb: SuperOffice.CRM.DateTimeExtensions.ToLongDateString(Date, Boolean)
+  name.vb: ToLongDateString(Date, Boolean)
 - uid: SuperOffice.CRM.DateTimeExtensions.ToShortDateString(System.DateTime,System.Boolean)
   commentId: M:SuperOffice.CRM.DateTimeExtensions.ToShortDateString(System.DateTime,System.Boolean)
   id: ToShortDateString(System.DateTime,System.Boolean)
@@ -84,13 +71,10 @@ items:
   langs:
   - csharp
   - vb
-  name: ToShortDateString(DateTime, Boolean)
-  nameWithType: DateTimeExtensions.ToShortDateString(DateTime, Boolean)
-  fullName: SuperOffice.CRM.DateTimeExtensions.ToShortDateString(System.DateTime, System.Boolean)
+  name: ToShortDateString(DateTime, bool)
+  nameWithType: DateTimeExtensions.ToShortDateString(DateTime, bool)
+  fullName: SuperOffice.CRM.DateTimeExtensions.ToShortDateString(System.DateTime, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -103,17 +87,11 @@ items:
       type: System.Boolean
     return:
       type: System.String
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToShortDateString(dateTime As DateTime, replaceMinValueWithEmptyString As Boolean) As String
+    content.vb: Public Shared Function ToShortDateString(dateTime As Date, replaceMinValueWithEmptyString As Boolean) As String
   overload: SuperOffice.CRM.DateTimeExtensions.ToShortDateString*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: DateTimeExtensions.ToShortDateString(Date, Boolean)
+  fullName.vb: SuperOffice.CRM.DateTimeExtensions.ToShortDateString(Date, Boolean)
+  name.vb: ToShortDateString(Date, Boolean)
 - uid: SuperOffice.CRM.DateTimeExtensions.ToShortTimeString(System.DateTime,System.Boolean)
   commentId: M:SuperOffice.CRM.DateTimeExtensions.ToShortTimeString(System.DateTime,System.Boolean)
   id: ToShortTimeString(System.DateTime,System.Boolean)
@@ -122,13 +100,10 @@ items:
   langs:
   - csharp
   - vb
-  name: ToShortTimeString(DateTime, Boolean)
-  nameWithType: DateTimeExtensions.ToShortTimeString(DateTime, Boolean)
-  fullName: SuperOffice.CRM.DateTimeExtensions.ToShortTimeString(System.DateTime, System.Boolean)
+  name: ToShortTimeString(DateTime, bool)
+  nameWithType: DateTimeExtensions.ToShortTimeString(DateTime, bool)
+  fullName: SuperOffice.CRM.DateTimeExtensions.ToShortTimeString(System.DateTime, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -141,17 +116,11 @@ items:
       type: System.Boolean
     return:
       type: System.String
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToShortTimeString(dateTime As DateTime, replaceMinValueWithEmptyString As Boolean) As String
+    content.vb: Public Shared Function ToShortTimeString(dateTime As Date, replaceMinValueWithEmptyString As Boolean) As String
   overload: SuperOffice.CRM.DateTimeExtensions.ToShortTimeString*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: DateTimeExtensions.ToShortTimeString(Date, Boolean)
+  fullName.vb: SuperOffice.CRM.DateTimeExtensions.ToShortTimeString(Date, Boolean)
+  name.vb: ToShortTimeString(Date, Boolean)
 - uid: SuperOffice.CRM.DateTimeExtensions.ToLongTimeString(System.DateTime,System.Boolean)
   commentId: M:SuperOffice.CRM.DateTimeExtensions.ToLongTimeString(System.DateTime,System.Boolean)
   id: ToLongTimeString(System.DateTime,System.Boolean)
@@ -160,13 +129,10 @@ items:
   langs:
   - csharp
   - vb
-  name: ToLongTimeString(DateTime, Boolean)
-  nameWithType: DateTimeExtensions.ToLongTimeString(DateTime, Boolean)
-  fullName: SuperOffice.CRM.DateTimeExtensions.ToLongTimeString(System.DateTime, System.Boolean)
+  name: ToLongTimeString(DateTime, bool)
+  nameWithType: DateTimeExtensions.ToLongTimeString(DateTime, bool)
+  fullName: SuperOffice.CRM.DateTimeExtensions.ToLongTimeString(System.DateTime, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -179,17 +145,11 @@ items:
       type: System.Boolean
     return:
       type: System.String
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToLongTimeString(dateTime As DateTime, replaceMinValueWithEmptyString As Boolean) As String
+    content.vb: Public Shared Function ToLongTimeString(dateTime As Date, replaceMinValueWithEmptyString As Boolean) As String
   overload: SuperOffice.CRM.DateTimeExtensions.ToLongTimeString*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: DateTimeExtensions.ToLongTimeString(Date, Boolean)
+  fullName.vb: SuperOffice.CRM.DateTimeExtensions.ToLongTimeString(Date, Boolean)
+  name.vb: ToLongTimeString(Date, Boolean)
 - uid: SuperOffice.CRM.DateTimeExtensions.ToString(System.DateTime,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.DateTimeExtensions.ToString(System.DateTime,System.String,System.Boolean)
   id: ToString(System.DateTime,System.String,System.Boolean)
@@ -198,13 +158,10 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(DateTime, String, Boolean)
-  nameWithType: DateTimeExtensions.ToString(DateTime, String, Boolean)
-  fullName: SuperOffice.CRM.DateTimeExtensions.ToString(System.DateTime, System.String, System.Boolean)
+  name: ToString(DateTime, string, bool)
+  nameWithType: DateTimeExtensions.ToString(DateTime, string, bool)
+  fullName: SuperOffice.CRM.DateTimeExtensions.ToString(System.DateTime, string, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -219,17 +176,11 @@ items:
       type: System.Boolean
     return:
       type: System.String
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToString(dateTime As DateTime, format As String, replaceMinValueWithEmptyString As Boolean) As String
+    content.vb: Public Shared Function ToString(dateTime As Date, format As String, replaceMinValueWithEmptyString As Boolean) As String
   overload: SuperOffice.CRM.DateTimeExtensions.ToString*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: DateTimeExtensions.ToString(Date, String, Boolean)
+  fullName.vb: SuperOffice.CRM.DateTimeExtensions.ToString(Date, String, Boolean)
+  name.vb: ToString(Date, String, Boolean)
 - uid: SuperOffice.CRM.DateTimeExtensions.ToString(System.DateTime,System.Boolean)
   commentId: M:SuperOffice.CRM.DateTimeExtensions.ToString(System.DateTime,System.Boolean)
   id: ToString(System.DateTime,System.Boolean)
@@ -238,13 +189,10 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(DateTime, Boolean)
-  nameWithType: DateTimeExtensions.ToString(DateTime, Boolean)
-  fullName: SuperOffice.CRM.DateTimeExtensions.ToString(System.DateTime, System.Boolean)
+  name: ToString(DateTime, bool)
+  nameWithType: DateTimeExtensions.ToString(DateTime, bool)
+  fullName: SuperOffice.CRM.DateTimeExtensions.ToString(System.DateTime, bool)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -257,83 +205,341 @@ items:
       type: System.Boolean
     return:
       type: System.String
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToString(dateTime As DateTime, replaceMinValueWithEmptyString As Boolean) As String
+    content.vb: Public Shared Function ToString(dateTime As Date, replaceMinValueWithEmptyString As Boolean) As String
   overload: SuperOffice.CRM.DateTimeExtensions.ToString*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: DateTimeExtensions.ToString(Date, Boolean)
+  fullName.vb: SuperOffice.CRM.DateTimeExtensions.ToString(Date, Boolean)
+  name.vb: ToString(Date, Boolean)
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.DateTimeExtensions.ToLongDateString*
   commentId: Overload:SuperOffice.CRM.DateTimeExtensions.ToLongDateString
   isExternal: true
+  href: SuperOffice.CRM.DateTimeExtensions.html#SuperOffice_CRM_DateTimeExtensions_ToLongDateString_System_DateTime_System_Boolean_
   name: ToLongDateString
   nameWithType: DateTimeExtensions.ToLongDateString
   fullName: SuperOffice.CRM.DateTimeExtensions.ToLongDateString
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.DateTimeExtensions.ToShortDateString*
   commentId: Overload:SuperOffice.CRM.DateTimeExtensions.ToShortDateString
   isExternal: true
+  href: SuperOffice.CRM.DateTimeExtensions.html#SuperOffice_CRM_DateTimeExtensions_ToShortDateString_System_DateTime_System_Boolean_
   name: ToShortDateString
   nameWithType: DateTimeExtensions.ToShortDateString
   fullName: SuperOffice.CRM.DateTimeExtensions.ToShortDateString
 - uid: SuperOffice.CRM.DateTimeExtensions.ToShortTimeString*
   commentId: Overload:SuperOffice.CRM.DateTimeExtensions.ToShortTimeString
   isExternal: true
+  href: SuperOffice.CRM.DateTimeExtensions.html#SuperOffice_CRM_DateTimeExtensions_ToShortTimeString_System_DateTime_System_Boolean_
   name: ToShortTimeString
   nameWithType: DateTimeExtensions.ToShortTimeString
   fullName: SuperOffice.CRM.DateTimeExtensions.ToShortTimeString
 - uid: SuperOffice.CRM.DateTimeExtensions.ToLongTimeString*
   commentId: Overload:SuperOffice.CRM.DateTimeExtensions.ToLongTimeString
   isExternal: true
+  href: SuperOffice.CRM.DateTimeExtensions.html#SuperOffice_CRM_DateTimeExtensions_ToLongTimeString_System_DateTime_System_Boolean_
   name: ToLongTimeString
   nameWithType: DateTimeExtensions.ToLongTimeString
   fullName: SuperOffice.CRM.DateTimeExtensions.ToLongTimeString
 - uid: SuperOffice.CRM.DateTimeExtensions.ToString*
   commentId: Overload:SuperOffice.CRM.DateTimeExtensions.ToString
   isExternal: true
+  href: SuperOffice.CRM.DateTimeExtensions.html#SuperOffice_CRM_DateTimeExtensions_ToString_System_DateTime_System_String_System_Boolean_
   name: ToString
   nameWithType: DateTimeExtensions.ToString
   fullName: SuperOffice.CRM.DateTimeExtensions.ToString

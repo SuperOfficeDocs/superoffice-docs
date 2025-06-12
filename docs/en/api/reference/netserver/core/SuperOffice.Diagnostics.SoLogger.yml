@@ -5,7 +5,7 @@ items:
   id: SoLogger
   parent: SuperOffice.Diagnostics
   children:
-  - SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory)
+  - SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.IServiceProvider)
   - SuperOffice.Diagnostics.SoLogger.BeginScope(System.String,System.String,System.Object[])
   - SuperOffice.Diagnostics.SoLogger.BeginScope``1(System.String,System.Object[])
   - SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Generic.Dictionary{System.String,System.Double})
@@ -31,7 +31,6 @@ items:
   - SuperOffice.Diagnostics.SoLogger.LogExceptionError``1(System.Exception,System.String,System.Object[])
   - SuperOffice.Diagnostics.SoLogger.LogExceptionWarning(System.String,System.Exception,System.String,System.Object[])
   - SuperOffice.Diagnostics.SoLogger.LogFailure(System.Exception,System.String,System.Object[])
-  - SuperOffice.Diagnostics.SoLogger.Logger
   - SuperOffice.Diagnostics.SoLogger.LogInformation(System.String,System.String,System.Object[])
   - SuperOffice.Diagnostics.SoLogger.LogInformation``1(System.Exception,System.String,System.Object[])
   - SuperOffice.Diagnostics.SoLogger.LogInformation``1(System.String,System.Object[])
@@ -41,6 +40,7 @@ items:
   - SuperOffice.Diagnostics.SoLogger.LogWarning(System.String,System.String,System.Object[])
   - SuperOffice.Diagnostics.SoLogger.LogWarning``1(System.Exception,System.String,System.Object[])
   - SuperOffice.Diagnostics.SoLogger.LogWarning``1(System.String,System.Object[])
+  - SuperOffice.Diagnostics.SoLogger.Logger
   - SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(SuperOffice.Diagnostics.LogEntryInfo)
   - SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
   - SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue(System.String,System.String)
@@ -54,31 +54,26 @@ items:
   nameWithType: SoLogger
   fullName: SuperOffice.Diagnostics.SoLogger
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nSummary description for SoLogger.\n"
+  summary: Summary description for SoLogger.
+  example: []
   syntax:
-    content: 'public sealed class SoLogger : Object'
-    content.vb: >-
-      Public NotInheritable Class SoLogger
-          Inherits Object
+    content: public sealed class SoLogger
+    content.vb: Public NotInheritable Class SoLogger
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
   extensionMethods:
   - SuperOffice.Diagnostics.SoLogger.EnumUtil.MapEnums``2
   - SuperOffice.Diagnostics.SoLogger.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
 - uid: SuperOffice.Diagnostics.SoLogger.StartOperation(System.String,System.String[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.StartOperation(System.String,System.String[])
   id: StartOperation(System.String,System.String[])
@@ -86,17 +81,15 @@ items:
   langs:
   - csharp
   - vb
-  name: StartOperation(String, String[])
-  nameWithType: SoLogger.StartOperation(String, String[])
-  fullName: SuperOffice.Diagnostics.SoLogger.StartOperation(System.String, System.String[])
+  name: StartOperation(string, params string[])
+  nameWithType: SoLogger.StartOperation(string, params string[])
+  fullName: SuperOffice.Diagnostics.SoLogger.StartOperation(string, params string[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nLog an operation\n"
+  summary: Log an operation
+  example: []
   syntax:
     content: public static IDisposable StartOperation(string operationname, params string[] args)
     parameters:
@@ -111,15 +104,9 @@ items:
       description: an operation tracer. Dispose it to signal end of operation
     content.vb: Public Shared Function StartOperation(operationname As String, ParamArray args As String()) As IDisposable
   overload: SuperOffice.Diagnostics.SoLogger.StartOperation*
-  nameWithType.vb: SoLogger.StartOperation(String, String())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.StartOperation(System.String, System.String())
-  name.vb: StartOperation(String, String())
+  nameWithType.vb: SoLogger.StartOperation(String, ParamArray String())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.StartOperation(String, ParamArray String())
+  name.vb: StartOperation(String, ParamArray String())
 - uid: SuperOffice.Diagnostics.SoLogger.StartOperation(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
   commentId: M:SuperOffice.Diagnostics.SoLogger.StartOperation(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
   id: StartOperation(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
@@ -127,17 +114,15 @@ items:
   langs:
   - csharp
   - vb
-  name: StartOperation(String, IDictionary<String, String>)
-  nameWithType: SoLogger.StartOperation(String, IDictionary<String, String>)
-  fullName: SuperOffice.Diagnostics.SoLogger.StartOperation(System.String, System.Collections.Generic.IDictionary<System.String, System.String>)
+  name: StartOperation(string, IDictionary<string, string>)
+  nameWithType: SoLogger.StartOperation(string, IDictionary<string, string>)
+  fullName: SuperOffice.Diagnostics.SoLogger.StartOperation(string, System.Collections.Generic.IDictionary<string, string>)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nLog an operation with properties\n"
+  summary: Log an operation with properties
+  example: []
   syntax:
     content: public static IDisposable StartOperation(string operationname, IDictionary<string, string> args)
     parameters:
@@ -153,13 +138,7 @@ items:
     content.vb: Public Shared Function StartOperation(operationname As String, args As IDictionary(Of String, String)) As IDisposable
   overload: SuperOffice.Diagnostics.SoLogger.StartOperation*
   nameWithType.vb: SoLogger.StartOperation(String, IDictionary(Of String, String))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.StartOperation(System.String, System.Collections.Generic.IDictionary(Of System.String, System.String))
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.StartOperation(String, System.Collections.Generic.IDictionary(Of String, String))
   name.vb: StartOperation(String, IDictionary(Of String, String))
 - uid: SuperOffice.Diagnostics.SoLogger.Count(System.String,System.String[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.Count(System.String,System.String[])
@@ -168,17 +147,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Count(String, String[])
-  nameWithType: SoLogger.Count(String, String[])
-  fullName: SuperOffice.Diagnostics.SoLogger.Count(System.String, System.String[])
+  name: Count(string, params string[])
+  nameWithType: SoLogger.Count(string, params string[])
+  fullName: SuperOffice.Diagnostics.SoLogger.Count(string, params string[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCount 1 for these names.\n"
+  summary: Count 1 for these names.
+  example: []
   syntax:
     content: public static void Count(string eventName, params string[] counterNames)
     parameters:
@@ -188,15 +165,9 @@ items:
       type: System.String[]
     content.vb: Public Shared Sub Count(eventName As String, ParamArray counterNames As String())
   overload: SuperOffice.Diagnostics.SoLogger.Count*
-  nameWithType.vb: SoLogger.Count(String, String())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(System.String, System.String())
-  name.vb: Count(String, String())
+  nameWithType.vb: SoLogger.Count(String, ParamArray String())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(String, ParamArray String())
+  name.vb: Count(String, ParamArray String())
 - uid: SuperOffice.Diagnostics.SoLogger.Count(System.String,System.String,System.Double)
   commentId: M:SuperOffice.Diagnostics.SoLogger.Count(System.String,System.String,System.Double)
   id: Count(System.String,System.String,System.Double)
@@ -204,17 +175,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Count(String, String, Double)
-  nameWithType: SoLogger.Count(String, String, Double)
-  fullName: SuperOffice.Diagnostics.SoLogger.Count(System.String, System.String, System.Double)
+  name: Count(string, string, double)
+  nameWithType: SoLogger.Count(string, string, double)
+  fullName: SuperOffice.Diagnostics.SoLogger.Count(string, string, double)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCount a single value\n"
+  summary: Count a single value
+  example: []
   syntax:
     content: public static void Count(string eventName, string counterName, double counterValue)
     parameters:
@@ -226,12 +195,9 @@ items:
       type: System.Double
     content.vb: Public Shared Sub Count(eventName As String, counterName As String, counterValue As Double)
   overload: SuperOffice.Diagnostics.SoLogger.Count*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoLogger.Count(String, String, Double)
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(String, String, Double)
+  name.vb: Count(String, String, Double)
 - uid: SuperOffice.Diagnostics.SoLogger.Count(System.String,System.ValueTuple{System.String,System.Double}[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.Count(System.String,System.ValueTuple{System.String,System.Double}[])
   id: Count(System.String,System.ValueTuple{System.String,System.Double}[])
@@ -239,35 +205,27 @@ items:
   langs:
   - csharp
   - vb
-  name: Count(String, ValueTuple<String, Double>[])
-  nameWithType: SoLogger.Count(String, ValueTuple<String, Double>[])
-  fullName: SuperOffice.Diagnostics.SoLogger.Count(System.String, System.ValueTuple<System.String, System.Double>[])
+  name: Count(string, params (string, double)[])
+  nameWithType: SoLogger.Count(string, params (string, double)[])
+  fullName: SuperOffice.Diagnostics.SoLogger.Count(string, params (string, double)[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCount a multiple values without having to construct a dictionary first\n"
+  summary: Count a multiple values without having to construct a dictionary first
+  example: []
   syntax:
-    content: public static void Count(string eventName, params ValueTuple<string, double>[] pairs)
+    content: public static void Count(string eventName, params (string, double)[] pairs)
     parameters:
     - id: eventName
       type: System.String
     - id: pairs
       type: System.ValueTuple{System.String,System.Double}[]
-    content.vb: Public Shared Sub Count(eventName As String, ParamArray pairs As ValueTuple(Of String, Double)())
+    content.vb: Public Shared Sub Count(eventName As String, ParamArray pairs As (String, Double)())
   overload: SuperOffice.Diagnostics.SoLogger.Count*
-  nameWithType.vb: SoLogger.Count(String, ValueTuple(Of String, Double)())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(System.String, System.ValueTuple(Of System.String, System.Double)())
-  name.vb: Count(String, ValueTuple(Of String, Double)())
+  nameWithType.vb: SoLogger.Count(String, ParamArray (String, Double)())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(String, ParamArray (String, Double)())
+  name.vb: Count(String, ParamArray (String, Double)())
 - uid: SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Generic.Dictionary{System.String,System.Double})
   commentId: M:SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Generic.Dictionary{System.String,System.Double})
   id: Count(System.String,System.Collections.Generic.Dictionary{System.String,System.Double})
@@ -275,17 +233,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Count(String, Dictionary<String, Double>)
-  nameWithType: SoLogger.Count(String, Dictionary<String, Double>)
-  fullName: SuperOffice.Diagnostics.SoLogger.Count(System.String, System.Collections.Generic.Dictionary<System.String, System.Double>)
+  name: Count(string, Dictionary<string, double>)
+  nameWithType: SoLogger.Count(string, Dictionary<string, double>)
+  fullName: SuperOffice.Diagnostics.SoLogger.Count(string, System.Collections.Generic.Dictionary<string, double>)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCount a multiple values\n"
+  summary: Count a multiple values
+  example: []
   syntax:
     content: public static void Count(string eventName, Dictionary<string, double> metrics)
     parameters:
@@ -296,13 +252,7 @@ items:
     content.vb: Public Shared Sub Count(eventName As String, metrics As Dictionary(Of String, Double))
   overload: SuperOffice.Diagnostics.SoLogger.Count*
   nameWithType.vb: SoLogger.Count(String, Dictionary(Of String, Double))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(System.String, System.Collections.Generic.Dictionary(Of System.String, System.Double))
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(String, System.Collections.Generic.Dictionary(Of String, Double))
   name.vb: Count(String, Dictionary(Of String, Double))
 - uid: SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Specialized.NameValueCollection,System.ValueTuple{System.String,System.Double}[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Specialized.NameValueCollection,System.ValueTuple{System.String,System.Double}[])
@@ -311,19 +261,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Count(String, NameValueCollection, ValueTuple<String, Double>[])
-  nameWithType: SoLogger.Count(String, NameValueCollection, ValueTuple<String, Double>[])
-  fullName: SuperOffice.Diagnostics.SoLogger.Count(System.String, System.Collections.Specialized.NameValueCollection, System.ValueTuple<System.String, System.Double>[])
+  name: Count(string, NameValueCollection, params (string, double)[])
+  nameWithType: SoLogger.Count(string, NameValueCollection, params (string, double)[])
+  fullName: SuperOffice.Diagnostics.SoLogger.Count(string, System.Collections.Specialized.NameValueCollection, params (string, double)[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCount a multiple values\n"
+  summary: Count a multiple values
+  example: []
   syntax:
-    content: public static void Count(string eventName, NameValueCollection env, params ValueTuple<string, double>[] pairs)
+    content: public static void Count(string eventName, NameValueCollection env, params (string, double)[] pairs)
     parameters:
     - id: eventName
       type: System.String
@@ -331,17 +279,11 @@ items:
       type: System.Collections.Specialized.NameValueCollection
     - id: pairs
       type: System.ValueTuple{System.String,System.Double}[]
-    content.vb: Public Shared Sub Count(eventName As String, env As NameValueCollection, ParamArray pairs As ValueTuple(Of String, Double)())
+    content.vb: Public Shared Sub Count(eventName As String, env As NameValueCollection, ParamArray pairs As (String, Double)())
   overload: SuperOffice.Diagnostics.SoLogger.Count*
-  nameWithType.vb: SoLogger.Count(String, NameValueCollection, ValueTuple(Of String, Double)())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(System.String, System.Collections.Specialized.NameValueCollection, System.ValueTuple(Of System.String, System.Double)())
-  name.vb: Count(String, NameValueCollection, ValueTuple(Of String, Double)())
+  nameWithType.vb: SoLogger.Count(String, NameValueCollection, ParamArray (String, Double)())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(String, System.Collections.Specialized.NameValueCollection, ParamArray (String, Double)())
+  name.vb: Count(String, NameValueCollection, ParamArray (String, Double)())
 - uid: SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Specialized.NameValueCollection,System.Collections.Generic.Dictionary{System.String,System.Double})
   commentId: M:SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Specialized.NameValueCollection,System.Collections.Generic.Dictionary{System.String,System.Double})
   id: Count(System.String,System.Collections.Specialized.NameValueCollection,System.Collections.Generic.Dictionary{System.String,System.Double})
@@ -349,17 +291,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Count(String, NameValueCollection, Dictionary<String, Double>)
-  nameWithType: SoLogger.Count(String, NameValueCollection, Dictionary<String, Double>)
-  fullName: SuperOffice.Diagnostics.SoLogger.Count(System.String, System.Collections.Specialized.NameValueCollection, System.Collections.Generic.Dictionary<System.String, System.Double>)
+  name: Count(string, NameValueCollection, Dictionary<string, double>)
+  nameWithType: SoLogger.Count(string, NameValueCollection, Dictionary<string, double>)
+  fullName: SuperOffice.Diagnostics.SoLogger.Count(string, System.Collections.Specialized.NameValueCollection, System.Collections.Generic.Dictionary<string, double>)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCount a multiple values\n"
+  summary: Count a multiple values
+  example: []
   syntax:
     content: public static void Count(string eventName, NameValueCollection env, Dictionary<string, double> metrics)
     parameters:
@@ -372,44 +312,37 @@ items:
     content.vb: Public Shared Sub Count(eventName As String, env As NameValueCollection, metrics As Dictionary(Of String, Double))
   overload: SuperOffice.Diagnostics.SoLogger.Count*
   nameWithType.vb: SoLogger.Count(String, NameValueCollection, Dictionary(Of String, Double))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(System.String, System.Collections.Specialized.NameValueCollection, System.Collections.Generic.Dictionary(Of System.String, System.Double))
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(String, System.Collections.Specialized.NameValueCollection, System.Collections.Generic.Dictionary(Of String, Double))
   name.vb: Count(String, NameValueCollection, Dictionary(Of String, Double))
-- uid: SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory)
-  commentId: M:SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory)
-  id: '#ctor(Microsoft.Extensions.Logging.ILoggerFactory)'
+- uid: SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.IServiceProvider)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.IServiceProvider)
+  id: '#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.IServiceProvider)'
   parent: SuperOffice.Diagnostics.SoLogger
   langs:
   - csharp
   - vb
-  name: SoLogger(ILoggerFactory)
-  nameWithType: SoLogger.SoLogger(ILoggerFactory)
-  fullName: SuperOffice.Diagnostics.SoLogger.SoLogger(Microsoft.Extensions.Logging.ILoggerFactory)
+  name: SoLogger(ILoggerFactory, IServiceProvider)
+  nameWithType: SoLogger.SoLogger(ILoggerFactory, IServiceProvider)
+  fullName: SuperOffice.Diagnostics.SoLogger.SoLogger(Microsoft.Extensions.Logging.ILoggerFactory, System.IServiceProvider)
   type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nDependency injection constructor. \n"
+  summary: Dependency injection constructor.
+  example: []
   syntax:
-    content: public SoLogger(ILoggerFactory loggerFactory)
+    content: public SoLogger(ILoggerFactory loggerFactory, IServiceProvider serviceProvider)
     parameters:
     - id: loggerFactory
       type: Microsoft.Extensions.Logging.ILoggerFactory
       description: Logger factory ready to make new loggers on demand
-    content.vb: Public Sub New(loggerFactory As ILoggerFactory)
+    - id: serviceProvider
+      type: System.IServiceProvider
+    content.vb: Public Sub New(loggerFactory As ILoggerFactory, serviceProvider As IServiceProvider)
   overload: SuperOffice.Diagnostics.SoLogger.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SoLogger.New(ILoggerFactory, IServiceProvider)
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.New(Microsoft.Extensions.Logging.ILoggerFactory, System.IServiceProvider)
+  name.vb: New(ILoggerFactory, IServiceProvider)
 - uid: SuperOffice.Diagnostics.SoLogger.GetLogger(System.String)
   commentId: M:SuperOffice.Diagnostics.SoLogger.GetLogger(System.String)
   id: GetLogger(System.String)
@@ -417,13 +350,10 @@ items:
   langs:
   - csharp
   - vb
-  name: GetLogger(String)
-  nameWithType: SoLogger.GetLogger(String)
-  fullName: SuperOffice.Diagnostics.SoLogger.GetLogger(System.String)
+  name: GetLogger(string)
+  nameWithType: SoLogger.GetLogger(string)
+  fullName: SuperOffice.Diagnostics.SoLogger.GetLogger(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
@@ -436,10 +366,9 @@ items:
       type: Microsoft.Extensions.Logging.ILogger
     content.vb: Public Function GetLogger(categoryName As String) As ILogger
   overload: SuperOffice.Diagnostics.SoLogger.GetLogger*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SoLogger.GetLogger(String)
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.GetLogger(String)
+  name.vb: GetLogger(String)
 - uid: SuperOffice.Diagnostics.SoLogger.GetLogger(System.Type)
   commentId: M:SuperOffice.Diagnostics.SoLogger.GetLogger(System.Type)
   id: GetLogger(System.Type)
@@ -451,9 +380,6 @@ items:
   nameWithType: SoLogger.GetLogger(Type)
   fullName: SuperOffice.Diagnostics.SoLogger.GetLogger(System.Type)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
@@ -466,10 +392,6 @@ items:
       type: Microsoft.Extensions.Logging.ILogger
     content.vb: Public Function GetLogger(type As Type) As ILogger
   overload: SuperOffice.Diagnostics.SoLogger.GetLogger*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Diagnostics.SoLogger.GetLogger``1
   commentId: M:SuperOffice.Diagnostics.SoLogger.GetLogger``1
   id: GetLogger``1
@@ -481,9 +403,6 @@ items:
   nameWithType: SoLogger.GetLogger<T>()
   fullName: SuperOffice.Diagnostics.SoLogger.GetLogger<T>()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
@@ -493,13 +412,9 @@ items:
     - id: T
     return:
       type: Microsoft.Extensions.Logging.ILogger{{T}}
-    content.vb: Public Function GetLogger(Of T) As ILogger(Of T)
+    content.vb: Public Function GetLogger(Of T)() As ILogger(Of T)
   overload: SuperOffice.Diagnostics.SoLogger.GetLogger*
   nameWithType.vb: SoLogger.GetLogger(Of T)()
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
   fullName.vb: SuperOffice.Diagnostics.SoLogger.GetLogger(Of T)()
   name.vb: GetLogger(Of T)()
 - uid: SuperOffice.Diagnostics.SoLogger.LogException(System.Diagnostics.EventLogEntryType,System.Exception,System.Boolean)
@@ -509,19 +424,23 @@ items:
   langs:
   - csharp
   - vb
-  name: LogException(EventLogEntryType, Exception, Boolean)
-  nameWithType: SoLogger.LogException(EventLogEntryType, Exception, Boolean)
-  fullName: SuperOffice.Diagnostics.SoLogger.LogException(System.Diagnostics.EventLogEntryType, System.Exception, System.Boolean)
+  name: LogException(EventLogEntryType, Exception, bool)
+  nameWithType: SoLogger.LogException(EventLogEntryType, Exception, bool)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogException(System.Diagnostics.EventLogEntryType, System.Exception, bool)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nLog an exception. Logging will be done to a log file, debugger trace, and SuperOffice crash log service\ndepending on the options set in the config file.\n"
+  summary: >-
+    Log an exception. Logging will be done to a log file, debugger trace, and SuperOffice crash log service
+
+    depending on the options set in the config file.
+  example: []
   syntax:
-    content: public void LogException(EventLogEntryType logType, Exception exception, bool lightLogOutput = false)
+    content: >-
+      [Obsolete("Use LogError<T>(ex) instead", false)]
+
+      public void LogException(EventLogEntryType logType, Exception exception, bool lightLogOutput = false)
     parameters:
     - id: logType
       type: System.Diagnostics.EventLogEntryType
@@ -529,12 +448,22 @@ items:
       type: System.Exception
     - id: lightLogOutput
       type: System.Boolean
-    content.vb: Public Sub LogException(logType As EventLogEntryType, exception As Exception, lightLogOutput As Boolean = False)
+    content.vb: >-
+      <Obsolete("Use LogError<T>(ex) instead", False)>
+
+      Public Sub LogException(logType As EventLogEntryType, exception As Exception, lightLogOutput As Boolean = False)
   overload: SuperOffice.Diagnostics.SoLogger.LogException*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use LogError<T>(ex) instead
+    - type: System.Boolean
+      value: false
+  nameWithType.vb: SoLogger.LogException(EventLogEntryType, Exception, Boolean)
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogException(System.Diagnostics.EventLogEntryType, System.Exception, Boolean)
+  name.vb: LogException(EventLogEntryType, Exception, Boolean)
 - uid: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue(System.String,System.String)
   commentId: M:SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue(System.String,System.String)
   id: SetPermanentAdditionalValue(System.String,System.String)
@@ -542,17 +471,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SetPermanentAdditionalValue(String, String)
-  nameWithType: SoLogger.SetPermanentAdditionalValue(String, String)
-  fullName: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue(System.String, System.String)
+  name: SetPermanentAdditionalValue(string, string)
+  nameWithType: SoLogger.SetPermanentAdditionalValue(string, string)
+  fullName: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue(string, string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nSet one named value to be added to any logged events. This name/value will remain valid until manually reset or changed.\n"
+  summary: Set one named value to be added to any logged events. This name/value will remain valid until manually reset or changed.
+  example: []
   syntax:
     content: public static void SetPermanentAdditionalValue(string name, string value)
     parameters:
@@ -564,12 +491,9 @@ items:
       description: Value of item
     content.vb: Public Shared Sub SetPermanentAdditionalValue(name As String, value As String)
   overload: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoLogger.SetPermanentAdditionalValue(String, String)
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue(String, String)
+  name.vb: SetPermanentAdditionalValue(String, String)
 - uid: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues(System.String[],System.String[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues(System.String[],System.String[])
   id: SetPermanentAdditionalValues(System.String[],System.String[])
@@ -577,17 +501,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SetPermanentAdditionalValues(String[], String[])
-  nameWithType: SoLogger.SetPermanentAdditionalValues(String[], String[])
-  fullName: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues(System.String[], System.String[])
+  name: SetPermanentAdditionalValues(string[], string[])
+  nameWithType: SoLogger.SetPermanentAdditionalValues(string[], string[])
+  fullName: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues(string[], string[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nSet an array of named values to be added to any logged events. These names/values will remain valid until manually reset or changed.\n"
+  summary: Set an array of named values to be added to any logged events. These names/values will remain valid until manually reset or changed.
+  example: []
   syntax:
     content: public static void SetPermanentAdditionalValues(string[] names, string[] values)
     parameters:
@@ -600,13 +522,7 @@ items:
     content.vb: Public Shared Sub SetPermanentAdditionalValues(names As String(), values As String())
   overload: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues*
   nameWithType.vb: SoLogger.SetPermanentAdditionalValues(String(), String())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues(System.String(), System.String())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues(String(), String())
   name.vb: SetPermanentAdditionalValues(String(), String())
 - uid: SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo
   commentId: M:SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo
@@ -619,23 +535,21 @@ items:
   nameWithType: SoLogger.GetEnvironmentInfo()
   fullName: SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo()
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nGet a name/value collection of environmental information, from all subscribers to our event. Also\nadd any hard-set additional values.\n"
+  summary: >-
+    Get a name/value collection of environmental information, from all subscribers to our event. Also
+
+    add any hard-set additional values.
+  example: []
   syntax:
     content: public NameValueCollection GetEnvironmentInfo()
     return:
       type: System.Collections.Specialized.NameValueCollection
-    content.vb: Public Function GetEnvironmentInfo As NameValueCollection
+      description: ''
+    content.vb: Public Function GetEnvironmentInfo() As NameValueCollection
   overload: SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(SuperOffice.Diagnostics.LogEntryInfo)
   commentId: M:SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(SuperOffice.Diagnostics.LogEntryInfo)
   id: PopulateEnvironmentInfo(SuperOffice.Diagnostics.LogEntryInfo)
@@ -647,13 +561,11 @@ items:
   nameWithType: SoLogger.PopulateEnvironmentInfo(LogEntryInfo)
   fullName: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(SuperOffice.Diagnostics.LogEntryInfo)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nPopulate environment information for a log entry.\n"
+  summary: Populate environment information for a log entry.
+  example: []
   syntax:
     content: public void PopulateEnvironmentInfo(LogEntryInfo entry)
     parameters:
@@ -662,10 +574,6 @@ items:
       description: The entry to populate environment information on.
     content.vb: Public Sub PopulateEnvironmentInfo(entry As LogEntryInfo)
   overload: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
   commentId: M:SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
   id: PopulateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
@@ -677,13 +585,11 @@ items:
   nameWithType: SoLogger.PopulateEnvironmentInfo(NameValueCollection)
   fullName: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nPopulate environment information for a log entry.\n"
+  summary: Populate environment information for a log entry.
+  example: []
   syntax:
     content: public void PopulateEnvironmentInfo(NameValueCollection values)
     parameters:
@@ -692,10 +598,6 @@ items:
       description: Collection to hold the values.
     content.vb: Public Sub PopulateEnvironmentInfo(values As NameValueCollection)
   overload: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Diagnostics.SoLogger.BeginScope``1(System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.BeginScope``1(System.String,System.Object[])
   id: BeginScope``1(System.String,System.Object[])
@@ -703,17 +605,15 @@ items:
   langs:
   - csharp
   - vb
-  name: BeginScope<T>(String, Object[])
-  nameWithType: SoLogger.BeginScope<T>(String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.BeginScope<T>(System.String, System.Object[])
+  name: BeginScope<T>(string, params object[])
+  nameWithType: SoLogger.BeginScope<T>(string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.BeginScope<T>(string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nOpen a logging scope\n"
+  summary: Open a logging scope
+  example: []
   syntax:
     content: public static IDisposable BeginScope<T>(string message, params object[] args)
     parameters:
@@ -730,15 +630,9 @@ items:
       description: Disposable scope. Dispose to close scope.
     content.vb: Public Shared Function BeginScope(Of T)(message As String, ParamArray args As Object()) As IDisposable
   overload: SuperOffice.Diagnostics.SoLogger.BeginScope*
-  nameWithType.vb: SoLogger.BeginScope(Of T)(String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.BeginScope(Of T)(System.String, System.Object())
-  name.vb: BeginScope(Of T)(String, Object())
+  nameWithType.vb: SoLogger.BeginScope(Of T)(String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.BeginScope(Of T)(String, ParamArray Object())
+  name.vb: BeginScope(Of T)(String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.BeginScope(System.String,System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.BeginScope(System.String,System.String,System.Object[])
   id: BeginScope(System.String,System.String,System.Object[])
@@ -746,17 +640,15 @@ items:
   langs:
   - csharp
   - vb
-  name: BeginScope(String, String, Object[])
-  nameWithType: SoLogger.BeginScope(String, String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.BeginScope(System.String, System.String, System.Object[])
+  name: BeginScope(string, string, params object[])
+  nameWithType: SoLogger.BeginScope(string, string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.BeginScope(string, string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nOpen a logging scope\n"
+  summary: Open a logging scope
+  example: []
   syntax:
     content: public static IDisposable BeginScope(string category, string message, params object[] args)
     parameters:
@@ -773,15 +665,9 @@ items:
       description: Disposable scope. Dispose to close scope.
     content.vb: Public Shared Function BeginScope(category As String, message As String, ParamArray args As Object()) As IDisposable
   overload: SuperOffice.Diagnostics.SoLogger.BeginScope*
-  nameWithType.vb: SoLogger.BeginScope(String, String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.BeginScope(System.String, System.String, System.Object())
-  name.vb: BeginScope(String, String, Object())
+  nameWithType.vb: SoLogger.BeginScope(String, String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.BeginScope(String, String, ParamArray Object())
+  name.vb: BeginScope(String, String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogDebug``1(System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogDebug``1(System.String,System.Object[])
   id: LogDebug``1(System.String,System.Object[])
@@ -789,17 +675,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogDebug<T>(String, Object[])
-  nameWithType: SoLogger.LogDebug<T>(String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogDebug<T>(System.String, System.Object[])
+  name: LogDebug<T>(string, params object[])
+  nameWithType: SoLogger.LogDebug<T>(string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogDebug<T>(string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Debug to the logging system. \n"
+  summary: Create and log an event of type Debug to the logging system.
+  example: []
   syntax:
     content: public static void LogDebug<T>(string message, params object[] args)
     parameters:
@@ -813,15 +697,9 @@ items:
     - id: T
     content.vb: Public Shared Sub LogDebug(Of T)(message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogDebug*
-  nameWithType.vb: SoLogger.LogDebug(Of T)(String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogDebug(Of T)(System.String, System.Object())
-  name.vb: LogDebug(Of T)(String, Object())
+  nameWithType.vb: SoLogger.LogDebug(Of T)(String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogDebug(Of T)(String, ParamArray Object())
+  name.vb: LogDebug(Of T)(String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogDebug(System.String,System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogDebug(System.String,System.String,System.Object[])
   id: LogDebug(System.String,System.String,System.Object[])
@@ -829,17 +707,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogDebug(String, String, Object[])
-  nameWithType: SoLogger.LogDebug(String, String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogDebug(System.String, System.String, System.Object[])
+  name: LogDebug(string, string, params object[])
+  nameWithType: SoLogger.LogDebug(string, string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogDebug(string, string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Debug to the logging system. \n"
+  summary: Create and log an event of type Debug to the logging system.
+  example: []
   syntax:
     content: public static void LogDebug(string categoryName, string message, params object[] args)
     parameters:
@@ -854,15 +730,9 @@ items:
       description: Parameters to message
     content.vb: Public Shared Sub LogDebug(categoryName As String, message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogDebug*
-  nameWithType.vb: SoLogger.LogDebug(String, String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogDebug(System.String, System.String, System.Object())
-  name.vb: LogDebug(String, String, Object())
+  nameWithType.vb: SoLogger.LogDebug(String, String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogDebug(String, String, ParamArray Object())
+  name.vb: LogDebug(String, String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogTrace``1(System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogTrace``1(System.String,System.Object[])
   id: LogTrace``1(System.String,System.Object[])
@@ -870,17 +740,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogTrace<T>(String, Object[])
-  nameWithType: SoLogger.LogTrace<T>(String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogTrace<T>(System.String, System.Object[])
+  name: LogTrace<T>(string, params object[])
+  nameWithType: SoLogger.LogTrace<T>(string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogTrace<T>(string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Trace to the logging system. \n"
+  summary: Create and log an event of type Trace to the logging system.
+  example: []
   syntax:
     content: public static void LogTrace<T>(string message, params object[] args)
     parameters:
@@ -893,15 +761,9 @@ items:
     - id: T
     content.vb: Public Shared Sub LogTrace(Of T)(message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogTrace*
-  nameWithType.vb: SoLogger.LogTrace(Of T)(String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogTrace(Of T)(System.String, System.Object())
-  name.vb: LogTrace(Of T)(String, Object())
+  nameWithType.vb: SoLogger.LogTrace(Of T)(String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogTrace(Of T)(String, ParamArray Object())
+  name.vb: LogTrace(Of T)(String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogTrace(System.String,System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogTrace(System.String,System.String,System.Object[])
   id: LogTrace(System.String,System.String,System.Object[])
@@ -909,17 +771,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogTrace(String, String, Object[])
-  nameWithType: SoLogger.LogTrace(String, String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogTrace(System.String, System.String, System.Object[])
+  name: LogTrace(string, string, params object[])
+  nameWithType: SoLogger.LogTrace(string, string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogTrace(string, string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Trace to the logging system. \n"
+  summary: Create and log an event of type Trace to the logging system.
+  example: []
   syntax:
     content: public static void LogTrace(string categoryName, string message, params object[] args)
     parameters:
@@ -934,15 +794,9 @@ items:
       description: Parameters to message
     content.vb: Public Shared Sub LogTrace(categoryName As String, message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogTrace*
-  nameWithType.vb: SoLogger.LogTrace(String, String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogTrace(System.String, System.String, System.Object())
-  name.vb: LogTrace(String, String, Object())
+  nameWithType.vb: SoLogger.LogTrace(String, String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogTrace(String, String, ParamArray Object())
+  name.vb: LogTrace(String, String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogInformation``1(System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogInformation``1(System.String,System.Object[])
   id: LogInformation``1(System.String,System.Object[])
@@ -950,17 +804,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogInformation<T>(String, Object[])
-  nameWithType: SoLogger.LogInformation<T>(String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogInformation<T>(System.String, System.Object[])
+  name: LogInformation<T>(string, params object[])
+  nameWithType: SoLogger.LogInformation<T>(string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogInformation<T>(string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Information to the logging system. \n"
+  summary: Create and log an event of type Information to the logging system.
+  example: []
   syntax:
     content: public static void LogInformation<T>(string message, params object[] args)
     parameters:
@@ -974,15 +826,9 @@ items:
     - id: T
     content.vb: Public Shared Sub LogInformation(Of T)(message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogInformation*
-  nameWithType.vb: SoLogger.LogInformation(Of T)(String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogInformation(Of T)(System.String, System.Object())
-  name.vb: LogInformation(Of T)(String, Object())
+  nameWithType.vb: SoLogger.LogInformation(Of T)(String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogInformation(Of T)(String, ParamArray Object())
+  name.vb: LogInformation(Of T)(String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogInformation(System.String,System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogInformation(System.String,System.String,System.Object[])
   id: LogInformation(System.String,System.String,System.Object[])
@@ -990,17 +836,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogInformation(String, String, Object[])
-  nameWithType: SoLogger.LogInformation(String, String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogInformation(System.String, System.String, System.Object[])
+  name: LogInformation(string, string, params object[])
+  nameWithType: SoLogger.LogInformation(string, string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogInformation(string, string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Information to the logging system. \n"
+  summary: Create and log an event of type Information to the logging system.
+  example: []
   syntax:
     content: public static void LogInformation(string categoryName, string message, params object[] args)
     parameters:
@@ -1015,15 +859,9 @@ items:
       description: Parameters to message
     content.vb: Public Shared Sub LogInformation(categoryName As String, message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogInformation*
-  nameWithType.vb: SoLogger.LogInformation(String, String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogInformation(System.String, System.String, System.Object())
-  name.vb: LogInformation(String, String, Object())
+  nameWithType.vb: SoLogger.LogInformation(String, String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogInformation(String, String, ParamArray Object())
+  name.vb: LogInformation(String, String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogWarning``1(System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogWarning``1(System.String,System.Object[])
   id: LogWarning``1(System.String,System.Object[])
@@ -1031,17 +869,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogWarning<T>(String, Object[])
-  nameWithType: SoLogger.LogWarning<T>(String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogWarning<T>(System.String, System.Object[])
+  name: LogWarning<T>(string, params object[])
+  nameWithType: SoLogger.LogWarning<T>(string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogWarning<T>(string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Warning to the logging system. \n"
+  summary: Create and log an event of type Warning to the logging system.
+  example: []
   syntax:
     content: public static void LogWarning<T>(string message, params object[] args)
     parameters:
@@ -1055,15 +891,9 @@ items:
     - id: T
     content.vb: Public Shared Sub LogWarning(Of T)(message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogWarning*
-  nameWithType.vb: SoLogger.LogWarning(Of T)(String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogWarning(Of T)(System.String, System.Object())
-  name.vb: LogWarning(Of T)(String, Object())
+  nameWithType.vb: SoLogger.LogWarning(Of T)(String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogWarning(Of T)(String, ParamArray Object())
+  name.vb: LogWarning(Of T)(String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogWarning(System.String,System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogWarning(System.String,System.String,System.Object[])
   id: LogWarning(System.String,System.String,System.Object[])
@@ -1071,17 +901,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogWarning(String, String, Object[])
-  nameWithType: SoLogger.LogWarning(String, String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogWarning(System.String, System.String, System.Object[])
+  name: LogWarning(string, string, params object[])
+  nameWithType: SoLogger.LogWarning(string, string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogWarning(string, string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Warning to the logging system. \n"
+  summary: Create and log an event of type Warning to the logging system.
+  example: []
   syntax:
     content: public static void LogWarning(string categoryName, string message, params object[] args)
     parameters:
@@ -1096,15 +924,9 @@ items:
       description: Parameters to message
     content.vb: Public Shared Sub LogWarning(categoryName As String, message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogWarning*
-  nameWithType.vb: SoLogger.LogWarning(String, String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogWarning(System.String, System.String, System.Object())
-  name.vb: LogWarning(String, String, Object())
+  nameWithType.vb: SoLogger.LogWarning(String, String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogWarning(String, String, ParamArray Object())
+  name.vb: LogWarning(String, String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogExceptionWarning(System.String,System.Exception,System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogExceptionWarning(System.String,System.Exception,System.String,System.Object[])
   id: LogExceptionWarning(System.String,System.Exception,System.String,System.Object[])
@@ -1112,17 +934,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogExceptionWarning(String, Exception, String, Object[])
-  nameWithType: SoLogger.LogExceptionWarning(String, Exception, String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogExceptionWarning(System.String, System.Exception, System.String, System.Object[])
+  name: LogExceptionWarning(string, Exception, string, params object[])
+  nameWithType: SoLogger.LogExceptionWarning(string, Exception, string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogExceptionWarning(string, System.Exception, string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Warning to the logging system. \n"
+  summary: Create and log an event of type Warning to the logging system.
+  example: []
   syntax:
     content: public static void LogExceptionWarning(string categoryName, Exception exception, string message, params object[] args)
     parameters:
@@ -1139,15 +959,9 @@ items:
       description: Parameters to message
     content.vb: Public Shared Sub LogExceptionWarning(categoryName As String, exception As Exception, message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogExceptionWarning*
-  nameWithType.vb: SoLogger.LogExceptionWarning(String, Exception, String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogExceptionWarning(System.String, System.Exception, System.String, System.Object())
-  name.vb: LogExceptionWarning(String, Exception, String, Object())
+  nameWithType.vb: SoLogger.LogExceptionWarning(String, Exception, String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogExceptionWarning(String, System.Exception, String, ParamArray Object())
+  name.vb: LogExceptionWarning(String, Exception, String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogError``1(System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogError``1(System.String,System.Object[])
   id: LogError``1(System.String,System.Object[])
@@ -1155,17 +969,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogError<T>(String, Object[])
-  nameWithType: SoLogger.LogError<T>(String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogError<T>(System.String, System.Object[])
+  name: LogError<T>(string, params object[])
+  nameWithType: SoLogger.LogError<T>(string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogError<T>(string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Error to the logging system. \n"
+  summary: Create and log an event of type Error to the logging system.
+  example: []
   syntax:
     content: public static void LogError<T>(string message, params object[] args)
     parameters:
@@ -1179,15 +991,9 @@ items:
     - id: T
     content.vb: Public Shared Sub LogError(Of T)(message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogError*
-  nameWithType.vb: SoLogger.LogError(Of T)(String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogError(Of T)(System.String, System.Object())
-  name.vb: LogError(Of T)(String, Object())
+  nameWithType.vb: SoLogger.LogError(Of T)(String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogError(Of T)(String, ParamArray Object())
+  name.vb: LogError(Of T)(String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogExceptionError``1(System.Exception,System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogExceptionError``1(System.Exception,System.String,System.Object[])
   id: LogExceptionError``1(System.Exception,System.String,System.Object[])
@@ -1195,13 +1001,10 @@ items:
   langs:
   - csharp
   - vb
-  name: LogExceptionError<T>(Exception, String, Object[])
-  nameWithType: SoLogger.LogExceptionError<T>(Exception, String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogExceptionError<T>(System.Exception, System.String, System.Object[])
+  name: LogExceptionError<T>(Exception, string, params object[])
+  nameWithType: SoLogger.LogExceptionError<T>(Exception, string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogExceptionError<T>(System.Exception, string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
@@ -1218,15 +1021,9 @@ items:
     - id: T
     content.vb: Public Shared Sub LogExceptionError(Of T)(exception As Exception, message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogExceptionError*
-  nameWithType.vb: SoLogger.LogExceptionError(Of T)(Exception, String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogExceptionError(Of T)(System.Exception, System.String, System.Object())
-  name.vb: LogExceptionError(Of T)(Exception, String, Object())
+  nameWithType.vb: SoLogger.LogExceptionError(Of T)(Exception, String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogExceptionError(Of T)(System.Exception, String, ParamArray Object())
+  name.vb: LogExceptionError(Of T)(Exception, String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogError(System.String,System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogError(System.String,System.String,System.Object[])
   id: LogError(System.String,System.String,System.Object[])
@@ -1234,17 +1031,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogError(String, String, Object[])
-  nameWithType: SoLogger.LogError(String, String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogError(System.String, System.String, System.Object[])
+  name: LogError(string, string, params object[])
+  nameWithType: SoLogger.LogError(string, string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogError(string, string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Error to the logging system. \n"
+  summary: Create and log an event of type Error to the logging system.
+  example: []
   syntax:
     content: public static void LogError(string categoryName, string message, params object[] args)
     parameters:
@@ -1259,15 +1054,9 @@ items:
       description: Parameters to message
     content.vb: Public Shared Sub LogError(categoryName As String, message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogError*
-  nameWithType.vb: SoLogger.LogError(String, String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogError(System.String, System.String, System.Object())
-  name.vb: LogError(String, String, Object())
+  nameWithType.vb: SoLogger.LogError(String, String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogError(String, String, ParamArray Object())
+  name.vb: LogError(String, String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogExceptionError(System.String,System.Exception,System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogExceptionError(System.String,System.Exception,System.String,System.Object[])
   id: LogExceptionError(System.String,System.Exception,System.String,System.Object[])
@@ -1275,17 +1064,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogExceptionError(String, Exception, String, Object[])
-  nameWithType: SoLogger.LogExceptionError(String, Exception, String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogExceptionError(System.String, System.Exception, System.String, System.Object[])
+  name: LogExceptionError(string, Exception, string, params object[])
+  nameWithType: SoLogger.LogExceptionError(string, Exception, string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogExceptionError(string, System.Exception, string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Error to the logging system. \n"
+  summary: Create and log an event of type Error to the logging system.
+  example: []
   syntax:
     content: public static void LogExceptionError(string categoryName, Exception exception, string message, params object[] args)
     parameters:
@@ -1302,15 +1089,9 @@ items:
       description: Parameters to message
     content.vb: Public Shared Sub LogExceptionError(categoryName As String, exception As Exception, message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogExceptionError*
-  nameWithType.vb: SoLogger.LogExceptionError(String, Exception, String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogExceptionError(System.String, System.Exception, System.String, System.Object())
-  name.vb: LogExceptionError(String, Exception, String, Object())
+  nameWithType.vb: SoLogger.LogExceptionError(String, Exception, String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogExceptionError(String, System.Exception, String, ParamArray Object())
+  name.vb: LogExceptionError(String, Exception, String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogCritical``1(System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogCritical``1(System.String,System.Object[])
   id: LogCritical``1(System.String,System.Object[])
@@ -1318,17 +1099,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogCritical<T>(String, Object[])
-  nameWithType: SoLogger.LogCritical<T>(String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogCritical<T>(System.String, System.Object[])
+  name: LogCritical<T>(string, params object[])
+  nameWithType: SoLogger.LogCritical<T>(string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogCritical<T>(string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Critical to the logging system. \n"
+  summary: Create and log an event of type Critical to the logging system.
+  example: []
   syntax:
     content: public static void LogCritical<T>(string message, params object[] args)
     parameters:
@@ -1342,15 +1121,9 @@ items:
     - id: T
     content.vb: Public Shared Sub LogCritical(Of T)(message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogCritical*
-  nameWithType.vb: SoLogger.LogCritical(Of T)(String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogCritical(Of T)(System.String, System.Object())
-  name.vb: LogCritical(Of T)(String, Object())
+  nameWithType.vb: SoLogger.LogCritical(Of T)(String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogCritical(Of T)(String, ParamArray Object())
+  name.vb: LogCritical(Of T)(String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogFailure(System.Exception,System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogFailure(System.Exception,System.String,System.Object[])
   id: LogFailure(System.Exception,System.String,System.Object[])
@@ -1358,17 +1131,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogFailure(Exception, String, Object[])
-  nameWithType: SoLogger.LogFailure(Exception, String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogFailure(System.Exception, System.String, System.Object[])
+  name: LogFailure(Exception, string, params object[])
+  nameWithType: SoLogger.LogFailure(Exception, string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogFailure(System.Exception, string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Error to the logging system, tagged as FailureAudit.\n"
+  summary: Create and log an event of type Error to the logging system, tagged as FailureAudit.
+  example: []
   syntax:
     content: public static void LogFailure(Exception exception, string message, params object[] args)
     parameters:
@@ -1383,15 +1154,9 @@ items:
       description: Parameters to message
     content.vb: Public Shared Sub LogFailure(exception As Exception, message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogFailure*
-  nameWithType.vb: SoLogger.LogFailure(Exception, String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogFailure(System.Exception, System.String, System.Object())
-  name.vb: LogFailure(Exception, String, Object())
+  nameWithType.vb: SoLogger.LogFailure(Exception, String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogFailure(System.Exception, String, ParamArray Object())
+  name.vb: LogFailure(Exception, String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogSuccess(System.Exception,System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogSuccess(System.Exception,System.String,System.Object[])
   id: LogSuccess(System.Exception,System.String,System.Object[])
@@ -1399,17 +1164,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogSuccess(Exception, String, Object[])
-  nameWithType: SoLogger.LogSuccess(Exception, String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogSuccess(System.Exception, System.String, System.Object[])
+  name: LogSuccess(Exception, string, params object[])
+  nameWithType: SoLogger.LogSuccess(Exception, string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogSuccess(System.Exception, string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Information to the logging system, tagged as SuccessAudit.\n"
+  summary: Create and log an event of type Information to the logging system, tagged as SuccessAudit.
+  example: []
   syntax:
     content: public static void LogSuccess(Exception exception, string message, params object[] args)
     parameters:
@@ -1424,15 +1187,9 @@ items:
       description: Parameters to message
     content.vb: Public Shared Sub LogSuccess(exception As Exception, message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogSuccess*
-  nameWithType.vb: SoLogger.LogSuccess(Exception, String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogSuccess(System.Exception, System.String, System.Object())
-  name.vb: LogSuccess(Exception, String, Object())
+  nameWithType.vb: SoLogger.LogSuccess(Exception, String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogSuccess(System.Exception, String, ParamArray Object())
+  name.vb: LogSuccess(Exception, String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogCritical``1(System.Exception,System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogCritical``1(System.Exception,System.String,System.Object[])
   id: LogCritical``1(System.Exception,System.String,System.Object[])
@@ -1440,17 +1197,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogCritical<T>(Exception, String, Object[])
-  nameWithType: SoLogger.LogCritical<T>(Exception, String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogCritical<T>(System.Exception, System.String, System.Object[])
+  name: LogCritical<T>(Exception, string, params object[])
+  nameWithType: SoLogger.LogCritical<T>(Exception, string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogCritical<T>(System.Exception, string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Critical to the logging system. \n"
+  summary: Create and log an event of type Critical to the logging system.
+  example: []
   syntax:
     content: public static void LogCritical<T>(Exception exception, string message, params object[] args)
     parameters:
@@ -1467,15 +1222,9 @@ items:
     - id: T
     content.vb: Public Shared Sub LogCritical(Of T)(exception As Exception, message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogCritical*
-  nameWithType.vb: SoLogger.LogCritical(Of T)(Exception, String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogCritical(Of T)(System.Exception, System.String, System.Object())
-  name.vb: LogCritical(Of T)(Exception, String, Object())
+  nameWithType.vb: SoLogger.LogCritical(Of T)(Exception, String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogCritical(Of T)(System.Exception, String, ParamArray Object())
+  name.vb: LogCritical(Of T)(Exception, String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogError``1(System.Exception,System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogError``1(System.Exception,System.String,System.Object[])
   id: LogError``1(System.Exception,System.String,System.Object[])
@@ -1483,17 +1232,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogError<T>(Exception, String, Object[])
-  nameWithType: SoLogger.LogError<T>(Exception, String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogError<T>(System.Exception, System.String, System.Object[])
+  name: LogError<T>(Exception, string, params object[])
+  nameWithType: SoLogger.LogError<T>(Exception, string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogError<T>(System.Exception, string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Error to the logging system. \n"
+  summary: Create and log an event of type Error to the logging system.
+  example: []
   syntax:
     content: public static void LogError<T>(Exception exception, string message, params object[] args)
     parameters:
@@ -1510,15 +1257,9 @@ items:
     - id: T
     content.vb: Public Shared Sub LogError(Of T)(exception As Exception, message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogError*
-  nameWithType.vb: SoLogger.LogError(Of T)(Exception, String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogError(Of T)(System.Exception, System.String, System.Object())
-  name.vb: LogError(Of T)(Exception, String, Object())
+  nameWithType.vb: SoLogger.LogError(Of T)(Exception, String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogError(Of T)(System.Exception, String, ParamArray Object())
+  name.vb: LogError(Of T)(Exception, String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogWarning``1(System.Exception,System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogWarning``1(System.Exception,System.String,System.Object[])
   id: LogWarning``1(System.Exception,System.String,System.Object[])
@@ -1526,17 +1267,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogWarning<T>(Exception, String, Object[])
-  nameWithType: SoLogger.LogWarning<T>(Exception, String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogWarning<T>(System.Exception, System.String, System.Object[])
+  name: LogWarning<T>(Exception, string, params object[])
+  nameWithType: SoLogger.LogWarning<T>(Exception, string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogWarning<T>(System.Exception, string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Warning to the logging system. \n"
+  summary: Create and log an event of type Warning to the logging system.
+  example: []
   syntax:
     content: public static void LogWarning<T>(Exception exception, string message, params object[] args)
     parameters:
@@ -1553,15 +1292,9 @@ items:
     - id: T
     content.vb: Public Shared Sub LogWarning(Of T)(exception As Exception, message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogWarning*
-  nameWithType.vb: SoLogger.LogWarning(Of T)(Exception, String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogWarning(Of T)(System.Exception, System.String, System.Object())
-  name.vb: LogWarning(Of T)(Exception, String, Object())
+  nameWithType.vb: SoLogger.LogWarning(Of T)(Exception, String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogWarning(Of T)(System.Exception, String, ParamArray Object())
+  name.vb: LogWarning(Of T)(Exception, String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogInformation``1(System.Exception,System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogInformation``1(System.Exception,System.String,System.Object[])
   id: LogInformation``1(System.Exception,System.String,System.Object[])
@@ -1569,17 +1302,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogInformation<T>(Exception, String, Object[])
-  nameWithType: SoLogger.LogInformation<T>(Exception, String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogInformation<T>(System.Exception, System.String, System.Object[])
+  name: LogInformation<T>(Exception, string, params object[])
+  nameWithType: SoLogger.LogInformation<T>(Exception, string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogInformation<T>(System.Exception, string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Information to the logging system. \n"
+  summary: Create and log an event of type Information to the logging system.
+  example: []
   syntax:
     content: public static void LogInformation<T>(Exception exception, string message, params object[] args)
     parameters:
@@ -1596,15 +1327,9 @@ items:
     - id: T
     content.vb: Public Shared Sub LogInformation(Of T)(exception As Exception, message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogInformation*
-  nameWithType.vb: SoLogger.LogInformation(Of T)(Exception, String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogInformation(Of T)(System.Exception, System.String, System.Object())
-  name.vb: LogInformation(Of T)(Exception, String, Object())
+  nameWithType.vb: SoLogger.LogInformation(Of T)(Exception, String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogInformation(Of T)(System.Exception, String, ParamArray Object())
+  name.vb: LogInformation(Of T)(Exception, String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.LogDebug``1(System.Exception,System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.LogDebug``1(System.Exception,System.String,System.Object[])
   id: LogDebug``1(System.Exception,System.String,System.Object[])
@@ -1612,17 +1337,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogDebug<T>(Exception, String, Object[])
-  nameWithType: SoLogger.LogDebug<T>(Exception, String, Object[])
-  fullName: SuperOffice.Diagnostics.SoLogger.LogDebug<T>(System.Exception, System.String, System.Object[])
+  name: LogDebug<T>(Exception, string, params object[])
+  nameWithType: SoLogger.LogDebug<T>(Exception, string, params object[])
+  fullName: SuperOffice.Diagnostics.SoLogger.LogDebug<T>(System.Exception, string, params object[])
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nCreate and log an event of type Debug to the logging system. \n"
+  summary: Create and log an event of type Debug to the logging system.
+  example: []
   syntax:
     content: public static void LogDebug<T>(Exception exception, string message, params object[] args)
     parameters:
@@ -1639,15 +1362,9 @@ items:
     - id: T
     content.vb: Public Shared Sub LogDebug(Of T)(exception As Exception, message As String, ParamArray args As Object())
   overload: SuperOffice.Diagnostics.SoLogger.LogDebug*
-  nameWithType.vb: SoLogger.LogDebug(Of T)(Exception, String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogDebug(Of T)(System.Exception, System.String, System.Object())
-  name.vb: LogDebug(Of T)(Exception, String, Object())
+  nameWithType.vb: SoLogger.LogDebug(Of T)(Exception, String, ParamArray Object())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.LogDebug(Of T)(System.Exception, String, ParamArray Object())
+  name.vb: LogDebug(Of T)(Exception, String, ParamArray Object())
 - uid: SuperOffice.Diagnostics.SoLogger.Logger
   commentId: P:SuperOffice.Diagnostics.SoLogger.Logger
   id: Logger
@@ -1659,13 +1376,11 @@ items:
   nameWithType: SoLogger.Logger
   fullName: SuperOffice.Diagnostics.SoLogger.Logger
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: "\nGet the singleton instance of the logger class\n"
+  summary: Get the singleton instance of the logger class
+  example: []
   syntax:
     content: public static SoLogger Logger { get; }
     parameters: []
@@ -1673,105 +1388,357 @@ items:
       type: SuperOffice.Diagnostics.SoLogger
     content.vb: Public Shared ReadOnly Property Logger As SoLogger
   overload: SuperOffice.Diagnostics.SoLogger.Logger*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 references:
 - uid: SuperOffice.Diagnostics
   commentId: N:SuperOffice.Diagnostics
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Diagnostics
   nameWithType: SuperOffice.Diagnostics
   fullName: SuperOffice.Diagnostics
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
 - uid: SuperOffice.Diagnostics.SoLogger.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SoLogger, To>()
-  nameWithType: EnumUtil.MapEnums<SoLogger, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SoLogger, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SoLogger, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SoLogger, To)()
-  name.vb: MapEnums(Of SoLogger, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SoLogger, To>(SoLogger)
+  nameWithType: EnumUtil.MapEnums<SoLogger, To>(SoLogger)
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SoLogger, To>(SuperOffice.Diagnostics.SoLogger)
+  nameWithType.vb: EnumUtil.MapEnums(Of SoLogger, To)(SoLogger)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SoLogger, To)(SuperOffice.Diagnostics.SoLogger)
+  name.vb: MapEnums(Of SoLogger, To)(SoLogger)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SoLogger, To>
-    nameWithType: EnumUtil.MapEnums<SoLogger, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SoLogger, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.SoLogger)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.SoLogger
+    name: SoLogger
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoLogger.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Diagnostics.SoLogger
+    name: SoLogger
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoLogger.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SoLogger, To)
-    nameWithType: EnumUtil.MapEnums(Of SoLogger, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SoLogger, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.SoLogger)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.SoLogger
+    name: SoLogger
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoLogger.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.SoLogger
+    name: SoLogger
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoLogger.html
+  - name: )
 - uid: SuperOffice.Diagnostics.SoLogger.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SoLogger, To>()
-  nameWithType: Converters.MapEnums<SoLogger, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SoLogger, To>()
-  nameWithType.vb: Converters.MapEnums(Of SoLogger, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SoLogger, To)()
-  name.vb: MapEnums(Of SoLogger, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SoLogger, To>(SoLogger)
+  nameWithType: Converters.MapEnums<SoLogger, To>(SoLogger)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SoLogger, To>(SuperOffice.Diagnostics.SoLogger)
+  nameWithType.vb: Converters.MapEnums(Of SoLogger, To)(SoLogger)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SoLogger, To)(SuperOffice.Diagnostics.SoLogger)
+  name.vb: MapEnums(Of SoLogger, To)(SoLogger)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SoLogger, To>
-    nameWithType: Converters.MapEnums<SoLogger, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SoLogger, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.SoLogger)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.SoLogger
+    name: SoLogger
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoLogger.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Diagnostics.SoLogger
+    name: SoLogger
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoLogger.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SoLogger, To)
-    nameWithType: Converters.MapEnums(Of SoLogger, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SoLogger, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.SoLogger)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.SoLogger
+    name: SoLogger
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoLogger.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.SoLogger
+    name: SoLogger
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoLogger.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1780,43 +1747,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1825,50 +1794,83 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Diagnostics.SoLogger.StartOperation*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.StartOperation
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_StartOperation_System_String_System_String___
   name: StartOperation
   nameWithType: SoLogger.StartOperation
   fullName: SuperOffice.Diagnostics.SoLogger.StartOperation
@@ -1876,152 +1878,166 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
 - uid: System.Collections.Generic.IDictionary{System.String,System.String}
-  commentId: '!:System.Collections.Generic.IDictionary{System.String,System.String}'
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.String}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IDictionary`2
-  name: IDictionary<String, String>
-  nameWithType: IDictionary<String, String>
-  fullName: System.Collections.Generic.IDictionary<System.String, System.String>
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<string, string>
+  nameWithType: IDictionary<string, string>
+  fullName: System.Collections.Generic.IDictionary<string, string>
   nameWithType.vb: IDictionary(Of String, String)
-  fullName.vb: System.Collections.Generic.IDictionary(Of System.String, System.String)
+  fullName.vb: System.Collections.Generic.IDictionary(Of String, String)
   name.vb: IDictionary(Of String, String)
   spec.csharp:
   - uid: System.Collections.Generic.IDictionary`2
     name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IDictionary`2
     name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
   isExternal: true
-  name: IDictionary<, >
-  nameWithType: IDictionary<, >
-  fullName: System.Collections.Generic.IDictionary<, >
-  nameWithType.vb: IDictionary(Of , )
-  fullName.vb: System.Collections.Generic.IDictionary(Of , )
-  name.vb: IDictionary(Of , )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
   spec.csharp:
   - uid: System.Collections.Generic.IDictionary`2
     name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IDictionary`2
     name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.Diagnostics.SoLogger.Count*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.Count
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_Count_System_String_System_String___
   name: Count
   nameWithType: SoLogger.Count
   fullName: SuperOffice.Diagnostics.SoLogger.Count
@@ -2029,218 +2045,269 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
 - uid: System.ValueTuple{System.String,System.Double}[]
   isExternal: true
-  name: ValueTuple<String, Double>[]
-  nameWithType: ValueTuple<String, Double>[]
-  fullName: System.ValueTuple<System.String, System.Double>[]
-  nameWithType.vb: ValueTuple(Of String, Double)()
-  fullName.vb: System.ValueTuple(Of System.String, System.Double)()
-  name.vb: ValueTuple(Of String, Double)()
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: (string, double)[]
+  nameWithType: (string, double)[]
+  fullName: (string, double)[]
+  nameWithType.vb: (String, Double)()
+  fullName.vb: (String, Double)()
+  name.vb: (String, Double)()
   spec.csharp:
-  - uid: System.ValueTuple`2
-    name: ValueTuple
-    nameWithType: ValueTuple
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
+  - name: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Double
-    name: Double
-    nameWithType: Double
-    fullName: System.Double
+    name: double
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.ValueTuple`2
-    name: ValueTuple
-    nameWithType: ValueTuple
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Double
-    name: Double
-    nameWithType: Double
-    fullName: System.Double
-    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
   - name: )
-    nameWithType: )
-    fullName: )
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  - name: (
+  - name: )
 - uid: System.Collections.Generic.Dictionary{System.String,System.Double}
-  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.Double}'
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Double}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.Dictionary`2
-  name: Dictionary<String, Double>
-  nameWithType: Dictionary<String, Double>
-  fullName: System.Collections.Generic.Dictionary<System.String, System.Double>
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, double>
+  nameWithType: Dictionary<string, double>
+  fullName: System.Collections.Generic.Dictionary<string, double>
   nameWithType.vb: Dictionary(Of String, Double)
-  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Double)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Double)
   name.vb: Dictionary(Of String, Double)
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Double
-    name: Double
-    nameWithType: Double
-    fullName: System.Double
+    name: double
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Double
     name: Double
-    nameWithType: Double
-    fullName: System.Double
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<, >
-  nameWithType: Dictionary<, >
-  fullName: System.Collections.Generic.Dictionary<, >
-  nameWithType.vb: Dictionary(Of , )
-  fullName.vb: System.Collections.Generic.Dictionary(Of , )
-  name.vb: Dictionary(Of , )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Specialized.NameValueCollection
+  commentId: T:System.Collections.Specialized.NameValueCollection
+  parent: System.Collections.Specialized
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.specialized.namevaluecollection
   name: NameValueCollection
   nameWithType: NameValueCollection
   fullName: System.Collections.Specialized.NameValueCollection
+- uid: System.Collections.Specialized
+  commentId: N:System.Collections.Specialized
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Specialized
+  nameWithType: System.Collections.Specialized
+  fullName: System.Collections.Specialized
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Specialized
+    name: Specialized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.specialized
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Specialized
+    name: Specialized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.specialized
 - uid: SuperOffice.Diagnostics.SoLogger.#ctor*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.#ctor
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger__ctor_Microsoft_Extensions_Logging_ILoggerFactory_System_IServiceProvider_
   name: SoLogger
   nameWithType: SoLogger.SoLogger
   fullName: SuperOffice.Diagnostics.SoLogger.SoLogger
+  nameWithType.vb: SoLogger.New
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.New
+  name.vb: New
 - uid: Microsoft.Extensions.Logging.ILoggerFactory
-  commentId: '!:Microsoft.Extensions.Logging.ILoggerFactory'
+  commentId: T:Microsoft.Extensions.Logging.ILoggerFactory
+  parent: Microsoft.Extensions.Logging
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.iloggerfactory
   name: ILoggerFactory
   nameWithType: ILoggerFactory
   fullName: Microsoft.Extensions.Logging.ILoggerFactory
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: SuperOffice.Diagnostics.SoLogger.GetLogger*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.GetLogger
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_GetLogger_System_String_
   name: GetLogger
   nameWithType: SoLogger.GetLogger
   fullName: SuperOffice.Diagnostics.SoLogger.GetLogger
 - uid: Microsoft.Extensions.Logging.ILogger
+  commentId: T:Microsoft.Extensions.Logging.ILogger
+  parent: Microsoft.Extensions.Logging
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger
   name: ILogger
   nameWithType: ILogger
   fullName: Microsoft.Extensions.Logging.ILogger
 - uid: System.Type
+  commentId: T:System.Type
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
   name: Type
   nameWithType: Type
   fullName: System.Type
 - uid: Microsoft.Extensions.Logging.ILogger{{T}}
-  commentId: '!:Microsoft.Extensions.Logging.ILogger{``0}'
+  commentId: T:Microsoft.Extensions.Logging.ILogger{``0}
+  parent: Microsoft.Extensions.Logging
   definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
   name: ILogger<T>
   nameWithType: ILogger<T>
   fullName: Microsoft.Extensions.Logging.ILogger<T>
@@ -2250,84 +2317,69 @@ references:
   spec.csharp:
   - uid: Microsoft.Extensions.Logging.ILogger`1
     name: ILogger
-    nameWithType: ILogger
-    fullName: Microsoft.Extensions.Logging.ILogger
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
   - name: <
-    nameWithType: <
-    fullName: <
   - name: T
-    nameWithType: T
-    fullName: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: Microsoft.Extensions.Logging.ILogger`1
     name: ILogger
-    nameWithType: ILogger
-    fullName: Microsoft.Extensions.Logging.ILogger
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
   - name: T
-    nameWithType: T
-    fullName: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
   isExternal: true
-  name: ILogger<>
-  nameWithType: ILogger<>
-  fullName: Microsoft.Extensions.Logging.ILogger<>
-  nameWithType.vb: ILogger(Of )
-  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of )
-  name.vb: ILogger(Of )
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
   spec.csharp:
   - uid: Microsoft.Extensions.Logging.ILogger`1
     name: ILogger
-    nameWithType: ILogger
-    fullName: Microsoft.Extensions.Logging.ILogger
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TCategoryName
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: Microsoft.Extensions.Logging.ILogger`1
     name: ILogger
-    nameWithType: ILogger
-    fullName: Microsoft.Extensions.Logging.ILogger
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Diagnostics.SoLogger.LogException*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogException
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_LogException_System_Diagnostics_EventLogEntryType_System_Exception_System_Boolean_
   name: LogException
   nameWithType: SoLogger.LogException
   fullName: SuperOffice.Diagnostics.SoLogger.LogException
 - uid: System.Diagnostics.EventLogEntryType
+  commentId: T:System.Diagnostics.EventLogEntryType
+  parent: System.Diagnostics
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.diagnostics.eventlogentrytype
   name: EventLogEntryType
   nameWithType: EventLogEntryType
   fullName: System.Diagnostics.EventLogEntryType
 - uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
   name: Exception
   nameWithType: Exception
   fullName: System.Exception
@@ -2335,30 +2387,65 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Diagnostics
+  commentId: N:System.Diagnostics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Diagnostics
+  nameWithType: System.Diagnostics
+  fullName: System.Diagnostics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.diagnostics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.diagnostics
 - uid: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_SetPermanentAdditionalValue_System_String_System_String_
   name: SetPermanentAdditionalValue
   nameWithType: SoLogger.SetPermanentAdditionalValue
   fullName: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue
 - uid: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_SetPermanentAdditionalValues_System_String___System_String___
   name: SetPermanentAdditionalValues
   nameWithType: SoLogger.SetPermanentAdditionalValues
   fullName: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues
 - uid: SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_GetEnvironmentInfo
   name: GetEnvironmentInfo
   nameWithType: SoLogger.GetEnvironmentInfo
   fullName: SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo
 - uid: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_PopulateEnvironmentInfo_SuperOffice_Diagnostics_LogEntryInfo_
   name: PopulateEnvironmentInfo
   nameWithType: SoLogger.PopulateEnvironmentInfo
   fullName: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo
@@ -2366,104 +2453,114 @@ references:
   commentId: T:SuperOffice.Diagnostics.LogEntryInfo
   parent: SuperOffice.Diagnostics
   isExternal: true
+  href: SuperOffice.Diagnostics.LogEntryInfo.html
   name: LogEntryInfo
   nameWithType: LogEntryInfo
   fullName: SuperOffice.Diagnostics.LogEntryInfo
 - uid: SuperOffice.Diagnostics.SoLogger.BeginScope*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.BeginScope
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_BeginScope__1_System_String_System_Object___
   name: BeginScope
   nameWithType: SoLogger.BeginScope
   fullName: SuperOffice.Diagnostics.SoLogger.BeginScope
 - uid: System.Object[]
   isExternal: true
-  name: Object[]
-  nameWithType: Object[]
-  fullName: System.Object[]
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
   nameWithType.vb: Object()
-  fullName.vb: System.Object()
+  fullName.vb: Object()
   name.vb: Object()
   spec.csharp:
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
 - uid: SuperOffice.Diagnostics.SoLogger.LogDebug*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogDebug
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_LogDebug__1_System_String_System_Object___
   name: LogDebug
   nameWithType: SoLogger.LogDebug
   fullName: SuperOffice.Diagnostics.SoLogger.LogDebug
 - uid: SuperOffice.Diagnostics.SoLogger.LogTrace*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogTrace
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_LogTrace__1_System_String_System_Object___
   name: LogTrace
   nameWithType: SoLogger.LogTrace
   fullName: SuperOffice.Diagnostics.SoLogger.LogTrace
 - uid: SuperOffice.Diagnostics.SoLogger.LogInformation*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogInformation
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_LogInformation__1_System_String_System_Object___
   name: LogInformation
   nameWithType: SoLogger.LogInformation
   fullName: SuperOffice.Diagnostics.SoLogger.LogInformation
 - uid: SuperOffice.Diagnostics.SoLogger.LogWarning*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogWarning
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_LogWarning__1_System_String_System_Object___
   name: LogWarning
   nameWithType: SoLogger.LogWarning
   fullName: SuperOffice.Diagnostics.SoLogger.LogWarning
 - uid: SuperOffice.Diagnostics.SoLogger.LogExceptionWarning*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogExceptionWarning
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_LogExceptionWarning_System_String_System_Exception_System_String_System_Object___
   name: LogExceptionWarning
   nameWithType: SoLogger.LogExceptionWarning
   fullName: SuperOffice.Diagnostics.SoLogger.LogExceptionWarning
 - uid: SuperOffice.Diagnostics.SoLogger.LogError*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogError
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_LogError__1_System_String_System_Object___
   name: LogError
   nameWithType: SoLogger.LogError
   fullName: SuperOffice.Diagnostics.SoLogger.LogError
 - uid: SuperOffice.Diagnostics.SoLogger.LogExceptionError*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogExceptionError
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_LogExceptionError__1_System_Exception_System_String_System_Object___
   name: LogExceptionError
   nameWithType: SoLogger.LogExceptionError
   fullName: SuperOffice.Diagnostics.SoLogger.LogExceptionError
 - uid: SuperOffice.Diagnostics.SoLogger.LogCritical*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogCritical
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_LogCritical__1_System_String_System_Object___
   name: LogCritical
   nameWithType: SoLogger.LogCritical
   fullName: SuperOffice.Diagnostics.SoLogger.LogCritical
 - uid: SuperOffice.Diagnostics.SoLogger.LogFailure*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogFailure
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_LogFailure_System_Exception_System_String_System_Object___
   name: LogFailure
   nameWithType: SoLogger.LogFailure
   fullName: SuperOffice.Diagnostics.SoLogger.LogFailure
 - uid: SuperOffice.Diagnostics.SoLogger.LogSuccess*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogSuccess
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_LogSuccess_System_Exception_System_String_System_Object___
   name: LogSuccess
   nameWithType: SoLogger.LogSuccess
   fullName: SuperOffice.Diagnostics.SoLogger.LogSuccess
 - uid: SuperOffice.Diagnostics.SoLogger.Logger*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.Logger
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_Logger
   name: Logger
   nameWithType: SoLogger.Logger
   fullName: SuperOffice.Diagnostics.SoLogger.Logger
@@ -2471,6 +2568,7 @@ references:
   commentId: T:SuperOffice.Diagnostics.SoLogger
   parent: SuperOffice.Diagnostics
   isExternal: true
+  href: SuperOffice.Diagnostics.SoLogger.html
   name: SoLogger
   nameWithType: SoLogger
   fullName: SuperOffice.Diagnostics.SoLogger

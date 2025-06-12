@@ -5,11 +5,11 @@ items:
   id: IAttachmentPlugin
   parent: SuperOffice.CRM.Attachment
   children:
-  - SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExists
-  - SuperOffice.CRM.Attachment.IAttachmentPlugin.Delete
-  - SuperOffice.CRM.Attachment.IAttachmentPlugin.GetData
-  - SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveData(System.IO.Stream)
-  - SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentId(System.Int32)
+  - SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExistsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Attachment.IAttachmentPlugin.DeleteAsync
+  - SuperOffice.CRM.Attachment.IAttachmentPlugin.GetDataAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveDataAsync(System.IO.Stream)
+  - SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentIdAsync(System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -17,228 +17,300 @@ items:
   nameWithType: IAttachmentPlugin
   fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin
   type: Interface
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Attachment
-  summary: "\nInterface for plugins that handle Service Attachments; more specifically,\nfetching/saving the actual attachment content and related methods like Delete\nand existence checks.\n"
+  summary: >-
+    Interface for plugins that handle Service Attachments; more specifically,
+
+    fetching/saving the actual attachment content and related methods like Delete
+
+    and existence checks.
+  example: []
   syntax:
-    content: 'public interface IAttachmentPlugin : IPlugin'
-    content.vb: >-
-      Public Interface IAttachmentPlugin
-          Inherits IPlugin
+    content: public interface IAttachmentPlugin
+    content.vb: Public Interface IAttachmentPlugin
   extensionMethods:
   - SuperOffice.CRM.Attachment.IAttachmentPlugin.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Attachment.IAttachmentPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
-- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentId(System.Int32)
-  commentId: M:SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentId(System.Int32)
-  id: SetAttachmentId(System.Int32)
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: SetAttachmentIdAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Attachment.IAttachmentPlugin
   langs:
   - csharp
   - vb
-  name: SetAttachmentId(Int32)
-  nameWithType: IAttachmentPlugin.SetAttachmentId(Int32)
-  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentId(System.Int32)
+  name: SetAttachmentIdAsync(int, CancellationToken)
+  nameWithType: IAttachmentPlugin.SetAttachmentIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentIdAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Attachment
   syntax:
-    content: void SetAttachmentId(int attachmentId)
+    content: Task SetAttachmentIdAsync(int attachmentId, CancellationToken cancellationToken = default)
     parameters:
     - id: attachmentId
       type: System.Int32
-    content.vb: Sub SetAttachmentId(attachmentId As Integer)
-  overload: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentId*
-- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.GetData
-  commentId: M:SuperOffice.CRM.Attachment.IAttachmentPlugin.GetData
-  id: GetData
-  parent: SuperOffice.CRM.Attachment.IAttachmentPlugin
-  langs:
-  - csharp
-  - vb
-  name: GetData()
-  nameWithType: IAttachmentPlugin.GetData()
-  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.GetData()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Attachment
-  summary: "\nGet the content of the attachment\n"
-  syntax:
-    content: Stream GetData()
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.IO.Stream
-      description: Stream of data
-    content.vb: Function GetData As Stream
-  overload: SuperOffice.CRM.Attachment.IAttachmentPlugin.GetData*
-- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveData(System.IO.Stream)
-  commentId: M:SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveData(System.IO.Stream)
-  id: SaveData(System.IO.Stream)
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetAttachmentIdAsync(attachmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentIdAsync*
+  nameWithType.vb: IAttachmentPlugin.SetAttachmentIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: SetAttachmentIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.GetDataAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Attachment.IAttachmentPlugin.GetDataAsync(System.Threading.CancellationToken)
+  id: GetDataAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Attachment.IAttachmentPlugin
   langs:
   - csharp
   - vb
-  name: SaveData(Stream)
-  nameWithType: IAttachmentPlugin.SaveData(Stream)
-  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveData(System.IO.Stream)
+  name: GetDataAsync(CancellationToken)
+  nameWithType: IAttachmentPlugin.GetDataAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.GetDataAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Attachment
-  summary: "\nSave the content of the attachment\n"
+  summary: Get the content of the attachment
+  example: []
   syntax:
-    content: void SaveData(Stream data)
+    content: Task<Stream> GetDataAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: Stream of data
+    content.vb: Function GetDataAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Attachment.IAttachmentPlugin.GetDataAsync*
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveDataAsync(System.IO.Stream)
+  commentId: M:SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveDataAsync(System.IO.Stream)
+  id: SaveDataAsync(System.IO.Stream)
+  parent: SuperOffice.CRM.Attachment.IAttachmentPlugin
+  langs:
+  - csharp
+  - vb
+  name: SaveDataAsync(Stream)
+  nameWithType: IAttachmentPlugin.SaveDataAsync(Stream)
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveDataAsync(System.IO.Stream)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Attachment
+  summary: Save the content of the attachment
+  example: []
+  syntax:
+    content: Task SaveDataAsync(Stream data)
     parameters:
     - id: data
       type: System.IO.Stream
       description: Attachment data
-    content.vb: Sub SaveData(data As Stream)
-  overload: SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveData*
-- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExists
-  commentId: M:SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExists
-  id: AttachmentExists
-  parent: SuperOffice.CRM.Attachment.IAttachmentPlugin
-  langs:
-  - csharp
-  - vb
-  name: AttachmentExists()
-  nameWithType: IAttachmentPlugin.AttachmentExists()
-  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExists()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Attachment
-  summary: "\nCheck if an attachment content exists\n"
-  syntax:
-    content: bool AttachmentExists()
     return:
-      type: System.Boolean
-      description: true if content exists
-    content.vb: Function AttachmentExists As Boolean
-  overload: SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExists*
-- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.Delete
-  commentId: M:SuperOffice.CRM.Attachment.IAttachmentPlugin.Delete
-  id: Delete
+      type: System.Threading.Tasks.Task
+      description: Content length in bytes
+    content.vb: Function SaveDataAsync(data As Stream) As Task
+  overload: SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveDataAsync*
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExistsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExistsAsync(System.Threading.CancellationToken)
+  id: AttachmentExistsAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Attachment.IAttachmentPlugin
   langs:
   - csharp
   - vb
-  name: Delete()
-  nameWithType: IAttachmentPlugin.Delete()
-  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.Delete()
+  name: AttachmentExistsAsync(CancellationToken)
+  nameWithType: IAttachmentPlugin.AttachmentExistsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExistsAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Attachment
-  summary: "\nMethod to remove an attachment\n"
-  remarks: "\nPort from Attachment::remove\n"
+  summary: Check if an attachment content exists
+  example: []
   syntax:
-    content: void Delete()
-    content.vb: Sub Delete
-  overload: SuperOffice.CRM.Attachment.IAttachmentPlugin.Delete*
+    content: Task<bool> AttachmentExistsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: true if content exists
+    content.vb: Function AttachmentExistsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExistsAsync*
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.DeleteAsync
+  commentId: M:SuperOffice.CRM.Attachment.IAttachmentPlugin.DeleteAsync
+  id: DeleteAsync
+  parent: SuperOffice.CRM.Attachment.IAttachmentPlugin
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync()
+  nameWithType: IAttachmentPlugin.DeleteAsync()
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.DeleteAsync()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Attachment
+  summary: Method to remove an attachment
+  remarks: Port from Attachment::remove
+  example: []
+  syntax:
+    content: Task DeleteAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteAsync() As Task
+  overload: SuperOffice.CRM.Attachment.IAttachmentPlugin.DeleteAsync*
 references:
 - uid: SuperOffice.CRM.Attachment
   commentId: N:SuperOffice.CRM.Attachment
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Attachment
   nameWithType: SuperOffice.CRM.Attachment
   fullName: SuperOffice.CRM.Attachment
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Attachment
+    name: Attachment
+    isExternal: true
+    href: SuperOffice.CRM.Attachment.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Attachment
+    name: Attachment
+    isExternal: true
+    href: SuperOffice.CRM.Attachment.html
 - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<IAttachmentPlugin, To>()
-  nameWithType: EnumUtil.MapEnums<IAttachmentPlugin, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Attachment.IAttachmentPlugin, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of IAttachmentPlugin, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Attachment.IAttachmentPlugin, To)()
-  name.vb: MapEnums(Of IAttachmentPlugin, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IAttachmentPlugin, To>(IAttachmentPlugin)
+  nameWithType: EnumUtil.MapEnums<IAttachmentPlugin, To>(IAttachmentPlugin)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Attachment.IAttachmentPlugin, To>(SuperOffice.CRM.Attachment.IAttachmentPlugin)
+  nameWithType.vb: EnumUtil.MapEnums(Of IAttachmentPlugin, To)(IAttachmentPlugin)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Attachment.IAttachmentPlugin, To)(SuperOffice.CRM.Attachment.IAttachmentPlugin)
+  name.vb: MapEnums(Of IAttachmentPlugin, To)(IAttachmentPlugin)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<IAttachmentPlugin, To>
-    nameWithType: EnumUtil.MapEnums<IAttachmentPlugin, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Attachment.IAttachmentPlugin, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Attachment.IAttachmentPlugin)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin
+    name: IAttachmentPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Attachment.IAttachmentPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin
+    name: IAttachmentPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Attachment.IAttachmentPlugin.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of IAttachmentPlugin, To)
-    nameWithType: EnumUtil.MapEnums(Of IAttachmentPlugin, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Attachment.IAttachmentPlugin, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Attachment.IAttachmentPlugin)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin
+    name: IAttachmentPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Attachment.IAttachmentPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin
+    name: IAttachmentPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Attachment.IAttachmentPlugin.html
+  - name: )
 - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<IAttachmentPlugin, To>()
-  nameWithType: Converters.MapEnums<IAttachmentPlugin, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Attachment.IAttachmentPlugin, To>()
-  nameWithType.vb: Converters.MapEnums(Of IAttachmentPlugin, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Attachment.IAttachmentPlugin, To)()
-  name.vb: MapEnums(Of IAttachmentPlugin, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IAttachmentPlugin, To>(IAttachmentPlugin)
+  nameWithType: Converters.MapEnums<IAttachmentPlugin, To>(IAttachmentPlugin)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Attachment.IAttachmentPlugin, To>(SuperOffice.CRM.Attachment.IAttachmentPlugin)
+  nameWithType.vb: Converters.MapEnums(Of IAttachmentPlugin, To)(IAttachmentPlugin)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Attachment.IAttachmentPlugin, To)(SuperOffice.CRM.Attachment.IAttachmentPlugin)
+  name.vb: MapEnums(Of IAttachmentPlugin, To)(IAttachmentPlugin)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<IAttachmentPlugin, To>
-    nameWithType: Converters.MapEnums<IAttachmentPlugin, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Attachment.IAttachmentPlugin, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Attachment.IAttachmentPlugin)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin
+    name: IAttachmentPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Attachment.IAttachmentPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin
+    name: IAttachmentPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Attachment.IAttachmentPlugin.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of IAttachmentPlugin, To)
-    nameWithType: Converters.MapEnums(Of IAttachmentPlugin, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Attachment.IAttachmentPlugin, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Attachment.IAttachmentPlugin)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin
+    name: IAttachmentPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Attachment.IAttachmentPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin
+    name: IAttachmentPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Attachment.IAttachmentPlugin.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -247,43 +319,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -292,99 +366,342 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentId*
-  commentId: Overload:SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentId
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentIdAsync*
+  commentId: Overload:SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentIdAsync
   isExternal: true
-  name: SetAttachmentId
-  nameWithType: IAttachmentPlugin.SetAttachmentId
-  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentId
+  href: SuperOffice.CRM.Attachment.IAttachmentPlugin.html#SuperOffice_CRM_Attachment_IAttachmentPlugin_SetAttachmentIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: SetAttachmentIdAsync
+  nameWithType: IAttachmentPlugin.SetAttachmentIdAsync
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentIdAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.GetData*
-  commentId: Overload:SuperOffice.CRM.Attachment.IAttachmentPlugin.GetData
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: GetData
-  nameWithType: IAttachmentPlugin.GetData
-  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.GetData
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.GetDataAsync*
+  commentId: Overload:SuperOffice.CRM.Attachment.IAttachmentPlugin.GetDataAsync
+  isExternal: true
+  href: SuperOffice.CRM.Attachment.IAttachmentPlugin.html#SuperOffice_CRM_Attachment_IAttachmentPlugin_GetDataAsync_System_Threading_CancellationToken_
+  name: GetDataAsync
+  nameWithType: IAttachmentPlugin.GetDataAsync
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.GetDataAsync
+- uid: System.Threading.Tasks.Task{System.IO.Stream}
+  commentId: T:System.Threading.Tasks.Task{System.IO.Stream}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Stream>
+  nameWithType: Task<Stream>
+  fullName: System.Threading.Tasks.Task<System.IO.Stream>
+  nameWithType.vb: Task(Of Stream)
+  fullName.vb: System.Threading.Tasks.Task(Of System.IO.Stream)
+  name.vb: Task(Of Stream)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveDataAsync*
+  commentId: Overload:SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveDataAsync
+  isExternal: true
+  href: SuperOffice.CRM.Attachment.IAttachmentPlugin.html#SuperOffice_CRM_Attachment_IAttachmentPlugin_SaveDataAsync_System_IO_Stream_
+  name: SaveDataAsync
+  nameWithType: IAttachmentPlugin.SaveDataAsync
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveDataAsync
 - uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveData*
-  commentId: Overload:SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveData
+- uid: System.IO
+  commentId: N:System.IO
   isExternal: true
-  name: SaveData
-  nameWithType: IAttachmentPlugin.SaveData
-  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveData
-- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExists*
-  commentId: Overload:SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExists
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExistsAsync*
+  commentId: Overload:SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExistsAsync
   isExternal: true
-  name: AttachmentExists
-  nameWithType: IAttachmentPlugin.AttachmentExists
-  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExists
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
+  href: SuperOffice.CRM.Attachment.IAttachmentPlugin.html#SuperOffice_CRM_Attachment_IAttachmentPlugin_AttachmentExistsAsync_System_Threading_CancellationToken_
+  name: AttachmentExistsAsync
+  nameWithType: IAttachmentPlugin.AttachmentExistsAsync
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExistsAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.DeleteAsync*
+  commentId: Overload:SuperOffice.CRM.Attachment.IAttachmentPlugin.DeleteAsync
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.Delete*
-  commentId: Overload:SuperOffice.CRM.Attachment.IAttachmentPlugin.Delete
-  isExternal: true
-  name: Delete
-  nameWithType: IAttachmentPlugin.Delete
-  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.Delete
+  href: SuperOffice.CRM.Attachment.IAttachmentPlugin.html#SuperOffice_CRM_Attachment_IAttachmentPlugin_DeleteAsync
+  name: DeleteAsync
+  nameWithType: IAttachmentPlugin.DeleteAsync
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.DeleteAsync

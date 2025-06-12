@@ -18,27 +18,24 @@ items:
   nameWithType: Constants.Values
   fullName: SuperOffice.CRM.Documents.Constants.Values
   type: Class
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: "\nString constants for capability and property values, where fixed values are used\n"
+  summary: String constants for capability and property values, where fixed values are used
+  example: []
   syntax:
-    content: 'public static class Values : Object'
-    content.vb: >-
-      Public Module Values
-          Inherits Object
+    content: public static class Constants.Values
+    content.vb: Public Module Constants.Values
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Documents.Constants.Values.True
   commentId: F:SuperOffice.CRM.Documents.Constants.Values.True
   id: "True"
@@ -50,24 +47,16 @@ items:
   nameWithType: Constants.Values.True
   fullName: SuperOffice.CRM.Documents.Constants.Values.True
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: "\nThe value used to indicate a true/present/supported status\n"
+  summary: The value used to indicate a true/present/supported status
+  example: []
   syntax:
     content: public const string True = "true"
     return:
       type: System.String
     content.vb: Public Const True As String = "true"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Documents.Constants.Values.False
   commentId: F:SuperOffice.CRM.Documents.Constants.Values.False
   id: "False"
@@ -79,24 +68,16 @@ items:
   nameWithType: Constants.Values.False
   fullName: SuperOffice.CRM.Documents.Constants.Values.False
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: "\nThe value used to indicate a false/missing/not supported status\n"
+  summary: The value used to indicate a false/missing/not supported status
+  example: []
   syntax:
     content: public const string False = "false"
     return:
       type: System.String
     content.vb: Public Const False As String = "false"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Documents.Constants.Values.Optional
   commentId: F:SuperOffice.CRM.Documents.Constants.Values.Optional
   id: Optional
@@ -108,24 +89,16 @@ items:
   nameWithType: Constants.Values.Optional
   fullName: SuperOffice.CRM.Documents.Constants.Values.Optional
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: "\nThe value used to indicate an optional status\n"
+  summary: The value used to indicate an optional status
+  example: []
   syntax:
     content: public const string Optional = "optional"
     return:
       type: System.String
     content.vb: Public Const Optional As String = "optional"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Documents.Constants.Values.Mandatory
   commentId: F:SuperOffice.CRM.Documents.Constants.Values.Mandatory
   id: Mandatory
@@ -137,24 +110,16 @@ items:
   nameWithType: Constants.Values.Mandatory
   fullName: SuperOffice.CRM.Documents.Constants.Values.Mandatory
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: "\nThe value used to indicate a mandatory status\n"
+  summary: The value used to indicate a mandatory status
+  example: []
   syntax:
     content: public const string Mandatory = "mandatory"
     return:
       type: System.String
     content.vb: Public Const Mandatory As String = "mandatory"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Documents.Constants.Values.Url
   commentId: F:SuperOffice.CRM.Documents.Constants.Values.Url
   id: Url
@@ -166,24 +131,16 @@ items:
   nameWithType: Constants.Values.Url
   fullName: SuperOffice.CRM.Documents.Constants.Values.Url
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: "\n&apos;url&apos;, the value of the <xref href=\"SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen\" data-throw-if-not-resolved=\"false\"></xref> property that specifies that URL (WebDAV) is the preferred\naccess method to this document.\n"
+  summary: "'url', the value of the <xref href=\"SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen\" data-throw-if-not-resolved=\"false\"></xref> property that specifies that URL (WebDAV) is the preferred\r\naccess method to this document."
+  example: []
   syntax:
     content: public const string Url = "url"
     return:
       type: System.String
     content.vb: Public Const Url As String = "url"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Documents.Constants.Values.Stream
   commentId: F:SuperOffice.CRM.Documents.Constants.Values.Stream
   id: Stream
@@ -195,41 +152,288 @@ items:
   nameWithType: Constants.Values.Stream
   fullName: SuperOffice.CRM.Documents.Constants.Values.Stream
   type: Field
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: "\n&apos;stream&apos;, the value of the <xref href=\"SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen\" data-throw-if-not-resolved=\"false\"></xref> property that specifies that stream\naccess is preferred for this document. Note that stream access must always be supported,\neven if <xref href=\"SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen\" data-throw-if-not-resolved=\"false\"></xref> is returned.\n"
+  summary: "'stream', the value of the <xref href=\"SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen\" data-throw-if-not-resolved=\"false\"></xref> property that specifies that stream\r\naccess is preferred for this document. Note that stream access must always be supported,\r\neven if <xref href=\"SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen\" data-throw-if-not-resolved=\"false\"></xref> is returned."
+  example: []
   syntax:
     content: public const string Stream = "stream"
     return:
       type: System.String
     content.vb: Public Const Stream As String = "stream"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Documents
   commentId: N:SuperOffice.CRM.Documents
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Documents
   nameWithType: SuperOffice.CRM.Documents
   fullName: SuperOffice.CRM.Documents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents
+    name: Documents
+    isExternal: true
+    href: SuperOffice.CRM.Documents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents
+    name: Documents
+    isExternal: true
+    href: SuperOffice.CRM.Documents.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -237,6 +441,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen
+  commentId: F:SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen
+  isExternal: true
+  href: SuperOffice.CRM.Documents.Constants.Properties.html#SuperOffice_CRM_Documents_Constants_Properties_PreferredOpen
+  name: PreferredOpen
+  nameWithType: Constants.Properties.PreferredOpen
+  fullName: SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen

@@ -17,31 +17,42 @@ items:
   nameWithType: SuperOfficeWebApiUnauthorizedException
   fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException
   type: Class
-  source:
-    path: SuperOffice.WebApi.Authorization
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi.Authorization
   namespace: SuperOffice.WebApi.Authorization.Exceptions
-  summary: "\nThrown when auth not accepted. Contains the HTTP error and headers and any body we can read.\n"
+  summary: Thrown when auth not accepted. Contains the HTTP error and headers and any body we can read.
+  example: []
   syntax:
-    content: 'public class SuperOfficeWebApiUnauthorizedException : SuperOfficeWebApiException'
-    content.vb: >-
-      Public Class SuperOfficeWebApiUnauthorizedException
-          Inherits SuperOfficeWebApiException
+    content: 'public class SuperOfficeWebApiUnauthorizedException : SuperOfficeWebApiException, ISerializable'
+    content.vb: Public Class SuperOfficeWebApiUnauthorizedException Inherits SuperOfficeWebApiException Implements ISerializable
   inheritance:
   - System.Object
+  - System.Exception
   - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  implements:
+  - System.Runtime.Serialization.ISerializable
   inheritedMembers:
   - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Request
   - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Headers
   - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Body
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Exception.GetBaseException
+  - System.Exception.ToString
+  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Exception.GetType
+  - System.Exception.Message
+  - System.Exception.Data
+  - System.Exception.InnerException
+  - System.Exception.TargetSite
+  - System.Exception.StackTrace
+  - System.Exception.HelpLink
+  - System.Exception.Source
+  - System.Exception.HResult
+  - System.Exception.SerializeObjectState
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor
   commentId: M:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor
   id: '#ctor'
@@ -53,21 +64,18 @@ items:
   nameWithType: SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException()
   fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi.Authorization
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi.Authorization
   namespace: SuperOffice.WebApi.Authorization.Exceptions
-  summary: "\nDefault - all blank\n"
+  summary: Default - all blank
+  example: []
   syntax:
     content: public SuperOfficeWebApiUnauthorizedException()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SuperOfficeWebApiUnauthorizedException.New()
+  fullName.vb: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor(System.String)
   commentId: M:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor(System.String)
   id: '#ctor(System.String)'
@@ -75,29 +83,26 @@ items:
   langs:
   - csharp
   - vb
-  name: SuperOfficeWebApiUnauthorizedException(String)
-  nameWithType: SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException(String)
-  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException(System.String)
+  name: SuperOfficeWebApiUnauthorizedException(string)
+  nameWithType: SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException(string)
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException(string)
   type: Constructor
-  source:
-    path: SuperOffice.WebApi.Authorization
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi.Authorization
   namespace: SuperOffice.WebApi.Authorization.Exceptions
-  summary: "\nMessage\n"
+  summary: Message
+  example: []
   syntax:
     content: public SuperOfficeWebApiUnauthorizedException(string message)
     parameters:
     - id: message
       type: System.String
-      description: '&quot;halp!&quot;'
+      description: "\"halp!\""
     content.vb: Public Sub New(message As String)
   overload: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SuperOfficeWebApiUnauthorizedException.New(String)
+  fullName.vb: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.New(String)
+  name.vb: New(String)
 - uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor(System.String,System.Exception)
   commentId: M:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor(System.String,System.Exception)
   id: '#ctor(System.String,System.Exception)'
@@ -105,32 +110,29 @@ items:
   langs:
   - csharp
   - vb
-  name: SuperOfficeWebApiUnauthorizedException(String, Exception)
-  nameWithType: SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException(String, Exception)
-  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException(System.String, System.Exception)
+  name: SuperOfficeWebApiUnauthorizedException(string, Exception)
+  nameWithType: SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException(string, Exception)
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException(string, System.Exception)
   type: Constructor
-  source:
-    path: SuperOffice.WebApi.Authorization
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi.Authorization
   namespace: SuperOffice.WebApi.Authorization.Exceptions
-  summary: "\nWrapper\n"
+  summary: Wrapper
+  example: []
   syntax:
     content: public SuperOfficeWebApiUnauthorizedException(string message, Exception innerException)
     parameters:
     - id: message
       type: System.String
-      description: '&quot;Halp!&quot;'
+      description: "\"Halp!\""
     - id: innerException
       type: System.Exception
       description: the real problem
     content.vb: Public Sub New(message As String, innerException As Exception)
   overload: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SuperOfficeWebApiUnauthorizedException.New(String, Exception)
+  fullName.vb: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.New(String, System.Exception)
+  name.vb: New(String, Exception)
 - uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   commentId: M:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
@@ -142,26 +144,25 @@ items:
   nameWithType: SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException(SerializationInfo, StreamingContext)
   fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   type: Constructor
-  source:
-    path: SuperOffice.WebApi.Authorization
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi.Authorization
   namespace: SuperOffice.WebApi.Authorization.Exceptions
-  summary: "\nMandatory constructor to support <xref href=\"System.SerializableAttribute\" data-throw-if-not-resolved=\"false\"></xref> ]\n"
+  summary: Mandatory constructor to support <xref href="System.SerializableAttribute" data-throw-if-not-resolved="false"></xref> ]
+  example: []
   syntax:
     content: public SuperOfficeWebApiUnauthorizedException(SerializationInfo info, StreamingContext context)
     parameters:
     - id: info
       type: System.Runtime.Serialization.SerializationInfo
+      description: ''
     - id: context
       type: System.Runtime.Serialization.StreamingContext
+      description: ''
     content.vb: Public Sub New(info As SerializationInfo, context As StreamingContext)
   overload: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SuperOfficeWebApiUnauthorizedException.New(SerializationInfo, StreamingContext)
+  fullName.vb: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  name.vb: New(SerializationInfo, StreamingContext)
 - uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor(System.String,System.String,System.Net.Http.Headers.HttpResponseHeaders,System.String)
   commentId: M:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor(System.String,System.String,System.Net.Http.Headers.HttpResponseHeaders,System.String)
   id: '#ctor(System.String,System.String,System.Net.Http.Headers.HttpResponseHeaders,System.String)'
@@ -169,23 +170,21 @@ items:
   langs:
   - csharp
   - vb
-  name: SuperOfficeWebApiUnauthorizedException(String, String, HttpResponseHeaders, String)
-  nameWithType: SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException(String, String, HttpResponseHeaders, String)
-  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException(System.String, System.String, System.Net.Http.Headers.HttpResponseHeaders, System.String)
+  name: SuperOfficeWebApiUnauthorizedException(string, string, HttpResponseHeaders, string)
+  nameWithType: SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException(string, string, HttpResponseHeaders, string)
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException(string, string, System.Net.Http.Headers.HttpResponseHeaders, string)
   type: Constructor
-  source:
-    path: SuperOffice.WebApi.Authorization
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi.Authorization
   namespace: SuperOffice.WebApi.Authorization.Exceptions
-  summary: "\nDetails\n"
+  summary: Details
+  example: []
   syntax:
     content: public SuperOfficeWebApiUnauthorizedException(string message, string request, HttpResponseHeaders responseHeaders, string body)
     parameters:
     - id: message
       type: System.String
-      description: '&quot;Halp!&quot;'
+      description: "\"Halp!\""
     - id: request
       type: System.String
       description: HTTP Request that triggered problem
@@ -197,35 +196,97 @@ items:
       description: body (if any) of response. Might contain JSON
     content.vb: Public Sub New(message As String, request As String, responseHeaders As HttpResponseHeaders, body As String)
   overload: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SuperOfficeWebApiUnauthorizedException.New(String, String, HttpResponseHeaders, String)
+  fullName.vb: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.New(String, String, System.Net.Http.Headers.HttpResponseHeaders, String)
+  name.vb: New(String, String, HttpResponseHeaders, String)
 references:
 - uid: SuperOffice.WebApi.Authorization.Exceptions
   commentId: N:SuperOffice.WebApi.Authorization.Exceptions
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Authorization.Exceptions
   nameWithType: SuperOffice.WebApi.Authorization.Exceptions
   fullName: SuperOffice.WebApi.Authorization.Exceptions
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization
+    name: Authorization
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization.Exceptions
+    name: Exceptions
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.Exceptions.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization
+    name: Authorization
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization.Exceptions
+    name: Exceptions
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.Exceptions.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
 - uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
   commentId: T:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
   parent: SuperOffice.WebApi.Authorization.Exceptions
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.html
   name: SuperOfficeWebApiException
   nameWithType: SuperOfficeWebApiException
   fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+- uid: System.Runtime.Serialization.ISerializable
+  commentId: T:System.Runtime.Serialization.ISerializable
+  parent: System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: System.Runtime.Serialization.ISerializable
 - uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Request
   commentId: P:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Request
   parent: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.html#SuperOffice_WebApi_Authorization_Exceptions_SuperOfficeWebApiException_Request
   name: Request
   nameWithType: SuperOfficeWebApiException.Request
   fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Request
@@ -233,6 +294,7 @@ references:
   commentId: P:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Headers
   parent: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.html#SuperOffice_WebApi_Authorization_Exceptions_SuperOfficeWebApiException_Headers
   name: Headers
   nameWithType: SuperOfficeWebApiException.Headers
   fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Headers
@@ -240,45 +302,501 @@ references:
   commentId: P:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Body
   parent: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.html#SuperOffice_WebApi_Authorization_Exceptions_SuperOfficeWebApiException_Body
   name: Body
   nameWithType: SuperOfficeWebApiException.Body
   fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Body
+- uid: System.Exception.GetBaseException
+  commentId: M:System.Exception.GetBaseException
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception
+  name: GetBaseException()
+  nameWithType: Exception.GetBaseException()
+  fullName: System.Exception.GetBaseException()
+  spec.csharp:
+  - uid: System.Exception.GetBaseException
+    name: GetBaseException
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Exception.GetBaseException
+    name: GetBaseException
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception
+  - name: (
+  - name: )
+- uid: System.Exception.ToString
+  commentId: M:System.Exception.ToString
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.tostring
+  name: ToString()
+  nameWithType: Exception.ToString()
+  fullName: System.Exception.ToString()
+  spec.csharp:
+  - uid: System.Exception.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Exception.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.tostring
+  - name: (
+  - name: )
+- uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  nameWithType: Exception.GetObjectData(SerializationInfo, StreamingContext)
+  fullName: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  spec.csharp:
+  - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+  spec.vb:
+  - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+- uid: System.Exception.GetType
+  commentId: M:System.Exception.GetType
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.gettype
+  name: GetType()
+  nameWithType: Exception.GetType()
+  fullName: System.Exception.GetType()
+  spec.csharp:
+  - uid: System.Exception.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Exception.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.gettype
+  - name: (
+  - name: )
+- uid: System.Exception.Message
+  commentId: P:System.Exception.Message
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.message
+  name: Message
+  nameWithType: Exception.Message
+  fullName: System.Exception.Message
+- uid: System.Exception.Data
+  commentId: P:System.Exception.Data
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.data
+  name: Data
+  nameWithType: Exception.Data
+  fullName: System.Exception.Data
+- uid: System.Exception.InnerException
+  commentId: P:System.Exception.InnerException
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.innerexception
+  name: InnerException
+  nameWithType: Exception.InnerException
+  fullName: System.Exception.InnerException
+- uid: System.Exception.TargetSite
+  commentId: P:System.Exception.TargetSite
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.targetsite
+  name: TargetSite
+  nameWithType: Exception.TargetSite
+  fullName: System.Exception.TargetSite
+- uid: System.Exception.StackTrace
+  commentId: P:System.Exception.StackTrace
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.stacktrace
+  name: StackTrace
+  nameWithType: Exception.StackTrace
+  fullName: System.Exception.StackTrace
+- uid: System.Exception.HelpLink
+  commentId: P:System.Exception.HelpLink
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.helplink
+  name: HelpLink
+  nameWithType: Exception.HelpLink
+  fullName: System.Exception.HelpLink
+- uid: System.Exception.Source
+  commentId: P:System.Exception.Source
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.source
+  name: Source
+  nameWithType: Exception.Source
+  fullName: System.Exception.Source
+- uid: System.Exception.HResult
+  commentId: P:System.Exception.HResult
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.hresult
+  name: HResult
+  nameWithType: Exception.HResult
+  fullName: System.Exception.HResult
+- uid: System.Exception.SerializeObjectState
+  commentId: E:System.Exception.SerializeObjectState
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.serializeobjectstate
+  name: SerializeObjectState
+  nameWithType: Exception.SerializeObjectState
+  fullName: System.Exception.SerializeObjectState
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
+- uid: System.Runtime.Serialization
+  commentId: N:System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Runtime.Serialization
+  nameWithType: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
 - uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor*
   commentId: Overload:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.html#SuperOffice_WebApi_Authorization_Exceptions_SuperOfficeWebApiUnauthorizedException__ctor
   name: SuperOfficeWebApiUnauthorizedException
   nameWithType: SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException
   fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.SuperOfficeWebApiUnauthorizedException
+  nameWithType.vb: SuperOfficeWebApiUnauthorizedException.New
+  fullName.vb: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.New
+  name.vb: New
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Exception
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.SerializableAttribute
+  commentId: T:System.SerializableAttribute
   isExternal: true
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
+  href: https://learn.microsoft.com/dotnet/api/system.serializableattribute
+  name: SerializableAttribute
+  nameWithType: SerializableAttribute
+  fullName: System.SerializableAttribute
 - uid: System.Runtime.Serialization.SerializationInfo
+  commentId: T:System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
   name: SerializationInfo
   nameWithType: SerializationInfo
   fullName: System.Runtime.Serialization.SerializationInfo
 - uid: System.Runtime.Serialization.StreamingContext
+  commentId: T:System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
   name: StreamingContext
   nameWithType: StreamingContext
   fullName: System.Runtime.Serialization.StreamingContext
 - uid: System.Net.Http.Headers.HttpResponseHeaders
+  commentId: T:System.Net.Http.Headers.HttpResponseHeaders
+  parent: System.Net.Http.Headers
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.headers.httpresponseheaders
   name: HttpResponseHeaders
   nameWithType: HttpResponseHeaders
   fullName: System.Net.Http.Headers.HttpResponseHeaders
+- uid: System.Net.Http.Headers
+  commentId: N:System.Net.Http.Headers
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http.Headers
+  nameWithType: System.Net.Http.Headers
+  fullName: System.Net.Http.Headers
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  - name: .
+  - uid: System.Net.Http.Headers
+    name: Headers
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.headers
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  - name: .
+  - uid: System.Net.Http.Headers
+    name: Headers
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.headers

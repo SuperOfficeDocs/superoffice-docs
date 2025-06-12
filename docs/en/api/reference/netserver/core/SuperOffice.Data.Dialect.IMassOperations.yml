@@ -1,0 +1,729 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Dialect.IMassOperations
+  commentId: T:SuperOffice.Data.Dialect.IMassOperations
+  id: IMassOperations
+  parent: SuperOffice.Data.Dialect
+  children:
+  - SuperOffice.Data.Dialect.IMassOperations.DeleteAsync(System.String,System.Int32[])
+  - SuperOffice.Data.Dialect.IMassOperations.InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
+  - SuperOffice.Data.Dialect.IMassOperations.TruncateAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.Data.Dialect.IMassOperations.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IMassOperations
+  nameWithType: IMassOperations
+  fullName: SuperOffice.Data.Dialect.IMassOperations
+  type: Interface
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public interface IMassOperations
+    content.vb: Public Interface IMassOperations
+  extensionMethods:
+  - SuperOffice.Data.Dialect.IMassOperations.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Dialect.IMassOperations.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Data.Dialect.IMassOperations.DeleteAsync(System.String,System.Int32[])
+  commentId: M:SuperOffice.Data.Dialect.IMassOperations.DeleteAsync(System.String,System.Int32[])
+  id: DeleteAsync(System.String,System.Int32[])
+  parent: SuperOffice.Data.Dialect.IMassOperations
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync(string, int[])
+  nameWithType: IMassOperations.DeleteAsync(string, int[])
+  fullName: SuperOffice.Data.Dialect.IMassOperations.DeleteAsync(string, int[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: Task<MassResult> DeleteAsync(string tableName, int[] iDs)
+    parameters:
+    - id: tableName
+      type: System.String
+    - id: iDs
+      type: System.Int32[]
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.Dialect.MassResult}
+    content.vb: Function DeleteAsync(tableName As String, iDs As Integer()) As Task(Of MassResult)
+  overload: SuperOffice.Data.Dialect.IMassOperations.DeleteAsync*
+  nameWithType.vb: IMassOperations.DeleteAsync(String, Integer())
+  fullName.vb: SuperOffice.Data.Dialect.IMassOperations.DeleteAsync(String, Integer())
+  name.vb: DeleteAsync(String, Integer())
+- uid: SuperOffice.Data.Dialect.IMassOperations.InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Dialect.IMassOperations.InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
+  id: InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Dialect.IMassOperations
+  langs:
+  - csharp
+  - vb
+  name: InsertAsync(string, string[], string[][], CancellationToken)
+  nameWithType: IMassOperations.InsertAsync(string, string[], string[][], CancellationToken)
+  fullName: SuperOffice.Data.Dialect.IMassOperations.InsertAsync(string, string[], string[][], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: Task<MassResult> InsertAsync(string tableName, string[] columns, string[][] data, CancellationToken cancellationToken)
+    parameters:
+    - id: tableName
+      type: System.String
+    - id: columns
+      type: System.String[]
+    - id: data
+      type: System.String[][]
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.Dialect.MassResult}
+    content.vb: Function InsertAsync(tableName As String, columns As String(), data As String()(), cancellationToken As CancellationToken) As Task(Of MassResult)
+  overload: SuperOffice.Data.Dialect.IMassOperations.InsertAsync*
+  nameWithType.vb: IMassOperations.InsertAsync(String, String(), String()(), CancellationToken)
+  fullName.vb: SuperOffice.Data.Dialect.IMassOperations.InsertAsync(String, String(), String()(), System.Threading.CancellationToken)
+  name.vb: InsertAsync(String, String(), String()(), CancellationToken)
+- uid: SuperOffice.Data.Dialect.IMassOperations.TruncateAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Dialect.IMassOperations.TruncateAsync(System.String,System.Threading.CancellationToken)
+  id: TruncateAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Dialect.IMassOperations
+  langs:
+  - csharp
+  - vb
+  name: TruncateAsync(string, CancellationToken)
+  nameWithType: IMassOperations.TruncateAsync(string, CancellationToken)
+  fullName: SuperOffice.Data.Dialect.IMassOperations.TruncateAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: Task<MassResult> TruncateAsync(string tableName, CancellationToken cancellationToken)
+    parameters:
+    - id: tableName
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.Dialect.MassResult}
+    content.vb: Function TruncateAsync(tableName As String, cancellationToken As CancellationToken) As Task(Of MassResult)
+  overload: SuperOffice.Data.Dialect.IMassOperations.TruncateAsync*
+  nameWithType.vb: IMassOperations.TruncateAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.Data.Dialect.IMassOperations.TruncateAsync(String, System.Threading.CancellationToken)
+  name.vb: TruncateAsync(String, CancellationToken)
+- uid: SuperOffice.Data.Dialect.IMassOperations.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Dialect.IMassOperations.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean,System.Threading.CancellationToken)
+  id: UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Dialect.IMassOperations
+  langs:
+  - csharp
+  - vb
+  name: UpsertAsync(string, string[], string[], string[][], UpsertNomatchAction, bool, CancellationToken)
+  nameWithType: IMassOperations.UpsertAsync(string, string[], string[], string[][], UpsertNomatchAction, bool, CancellationToken)
+  fullName: SuperOffice.Data.Dialect.IMassOperations.UpsertAsync(string, string[], string[], string[][], SuperOffice.Data.UpsertNomatchAction, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: Task<MassResult> UpsertAsync(string tableName, string[] originalColumns, string[] originalKeys, string[][] data, UpsertNomatchAction nomatchAction, bool returnRowStatus = false, CancellationToken cancellationToken = default)
+    parameters:
+    - id: tableName
+      type: System.String
+    - id: originalColumns
+      type: System.String[]
+    - id: originalKeys
+      type: System.String[]
+    - id: data
+      type: System.String[][]
+    - id: nomatchAction
+      type: SuperOffice.Data.UpsertNomatchAction
+    - id: returnRowStatus
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.Dialect.MassResult}
+    content.vb: Function UpsertAsync(tableName As String, originalColumns As String(), originalKeys As String(), data As String()(), nomatchAction As UpsertNomatchAction, returnRowStatus As Boolean = False, cancellationToken As CancellationToken = Nothing) As Task(Of MassResult)
+  overload: SuperOffice.Data.Dialect.IMassOperations.UpsertAsync*
+  nameWithType.vb: IMassOperations.UpsertAsync(String, String(), String(), String()(), UpsertNomatchAction, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.Data.Dialect.IMassOperations.UpsertAsync(String, String(), String(), String()(), SuperOffice.Data.UpsertNomatchAction, Boolean, System.Threading.CancellationToken)
+  name.vb: UpsertAsync(String, String(), String(), String()(), UpsertNomatchAction, Boolean, CancellationToken)
+references:
+- uid: SuperOffice.Data.Dialect
+  commentId: N:SuperOffice.Data.Dialect
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Dialect
+  nameWithType: SuperOffice.Data.Dialect
+  fullName: SuperOffice.Data.Dialect
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dialect
+    name: Dialect
+    isExternal: true
+    href: SuperOffice.Data.Dialect.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dialect
+    name: Dialect
+    isExternal: true
+    href: SuperOffice.Data.Dialect.html
+- uid: SuperOffice.Data.Dialect.IMassOperations.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IMassOperations, To>(IMassOperations)
+  nameWithType: EnumUtil.MapEnums<IMassOperations, To>(IMassOperations)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.IMassOperations, To>(SuperOffice.Data.Dialect.IMassOperations)
+  nameWithType.vb: EnumUtil.MapEnums(Of IMassOperations, To)(IMassOperations)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.IMassOperations, To)(SuperOffice.Data.Dialect.IMassOperations)
+  name.vb: MapEnums(Of IMassOperations, To)(IMassOperations)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.Dialect.IMassOperations)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.Dialect.IMassOperations
+    name: IMassOperations
+    isExternal: true
+    href: SuperOffice.Data.Dialect.IMassOperations.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.Dialect.IMassOperations
+    name: IMassOperations
+    isExternal: true
+    href: SuperOffice.Data.Dialect.IMassOperations.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.Dialect.IMassOperations)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Dialect.IMassOperations
+    name: IMassOperations
+    isExternal: true
+    href: SuperOffice.Data.Dialect.IMassOperations.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.Dialect.IMassOperations
+    name: IMassOperations
+    isExternal: true
+    href: SuperOffice.Data.Dialect.IMassOperations.html
+  - name: )
+- uid: SuperOffice.Data.Dialect.IMassOperations.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IMassOperations, To>(IMassOperations)
+  nameWithType: Converters.MapEnums<IMassOperations, To>(IMassOperations)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.IMassOperations, To>(SuperOffice.Data.Dialect.IMassOperations)
+  nameWithType.vb: Converters.MapEnums(Of IMassOperations, To)(IMassOperations)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.IMassOperations, To)(SuperOffice.Data.Dialect.IMassOperations)
+  name.vb: MapEnums(Of IMassOperations, To)(IMassOperations)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.Dialect.IMassOperations)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.Dialect.IMassOperations
+    name: IMassOperations
+    isExternal: true
+    href: SuperOffice.Data.Dialect.IMassOperations.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.Dialect.IMassOperations
+    name: IMassOperations
+    isExternal: true
+    href: SuperOffice.Data.Dialect.IMassOperations.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.Dialect.IMassOperations)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Dialect.IMassOperations
+    name: IMassOperations
+    isExternal: true
+    href: SuperOffice.Data.Dialect.IMassOperations.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.Dialect.IMassOperations
+    name: IMassOperations
+    isExternal: true
+    href: SuperOffice.Data.Dialect.IMassOperations.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Data.Dialect.IMassOperations.DeleteAsync*
+  commentId: Overload:SuperOffice.Data.Dialect.IMassOperations.DeleteAsync
+  isExternal: true
+  href: SuperOffice.Data.Dialect.IMassOperations.html#SuperOffice_Data_Dialect_IMassOperations_DeleteAsync_System_String_System_Int32___
+  name: DeleteAsync
+  nameWithType: IMassOperations.DeleteAsync
+  fullName: SuperOffice.Data.Dialect.IMassOperations.DeleteAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.Dialect.MassResult}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.Dialect.MassResult}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<MassResult>
+  nameWithType: Task<MassResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.Dialect.MassResult>
+  nameWithType.vb: Task(Of MassResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.Dialect.MassResult)
+  name.vb: Task(Of MassResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.Dialect.MassResult
+    name: MassResult
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassResult.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Dialect.MassResult
+    name: MassResult
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassResult.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.Data.Dialect.IMassOperations.InsertAsync*
+  commentId: Overload:SuperOffice.Data.Dialect.IMassOperations.InsertAsync
+  isExternal: true
+  href: SuperOffice.Data.Dialect.IMassOperations.html#SuperOffice_Data_Dialect_IMassOperations_InsertAsync_System_String_System_String___System_String_____System_Threading_CancellationToken_
+  name: InsertAsync
+  nameWithType: IMassOperations.InsertAsync
+  fullName: SuperOffice.Data.Dialect.IMassOperations.InsertAsync
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.String[][]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[][]
+  nameWithType: string[][]
+  fullName: string[][]
+  nameWithType.vb: String()()
+  fullName.vb: String()()
+  name.vb: String()()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: (
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: SuperOffice.Data.Dialect.IMassOperations.TruncateAsync*
+  commentId: Overload:SuperOffice.Data.Dialect.IMassOperations.TruncateAsync
+  isExternal: true
+  href: SuperOffice.Data.Dialect.IMassOperations.html#SuperOffice_Data_Dialect_IMassOperations_TruncateAsync_System_String_System_Threading_CancellationToken_
+  name: TruncateAsync
+  nameWithType: IMassOperations.TruncateAsync
+  fullName: SuperOffice.Data.Dialect.IMassOperations.TruncateAsync
+- uid: SuperOffice.Data.Dialect.IMassOperations.UpsertAsync*
+  commentId: Overload:SuperOffice.Data.Dialect.IMassOperations.UpsertAsync
+  isExternal: true
+  href: SuperOffice.Data.Dialect.IMassOperations.html#SuperOffice_Data_Dialect_IMassOperations_UpsertAsync_System_String_System_String___System_String___System_String_____SuperOffice_Data_UpsertNomatchAction_System_Boolean_System_Threading_CancellationToken_
+  name: UpsertAsync
+  nameWithType: IMassOperations.UpsertAsync
+  fullName: SuperOffice.Data.Dialect.IMassOperations.UpsertAsync
+- uid: SuperOffice.Data.UpsertNomatchAction
+  commentId: T:SuperOffice.Data.UpsertNomatchAction
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.UpsertNomatchAction.html
+  name: UpsertNomatchAction
+  nameWithType: UpsertNomatchAction
+  fullName: SuperOffice.Data.UpsertNomatchAction
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html

@@ -123,27 +123,24 @@ items:
   nameWithType: DBC.UDTempSmallFields
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for UDTempSmall, User-defined fields. During conversion of user defined fields the data is stored in this table.\n"
+  summary: Fields for UDTempSmall, User-defined fields. During conversion of user defined fields the data is stored in this table.
+  example: []
   syntax:
-    content: 'public static class UDTempSmallFields : Object'
-    content.vb: >-
-      Public Module UDTempSmallFields
-          Inherits Object
+    content: public static class DBC.UDTempSmallFields
+    content.vb: Public Module DBC.UDTempSmallFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.UdtempSmallId
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.UdtempSmallId
   id: UdtempSmallId
@@ -155,24 +152,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.UdtempSmallId
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.UdtempSmallId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.UdtempSmallId: Primary key\n"
+  summary: 'UDTempSmall.UdtempSmallId: Primary key'
+  example: []
   syntax:
     content: public const string UdtempSmallId = "udtempSmall_id"
     return:
       type: System.String
     content.vb: Public Const UdtempSmallId As String = "udtempSmall_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long01
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long01
   id: Long01
@@ -184,24 +173,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long01
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long01
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long01: long value 1, indexed\n"
+  summary: 'UDTempSmall.Long01: long value 1, indexed'
+  example: []
   syntax:
     content: public const string Long01 = "long01"
     return:
       type: System.String
     content.vb: Public Const Long01 As String = "long01"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long02
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long02
   id: Long02
@@ -213,24 +194,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long02
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long02
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long02: long value 2, indexed\n"
+  summary: 'UDTempSmall.Long02: long value 2, indexed'
+  example: []
   syntax:
     content: public const string Long02 = "long02"
     return:
       type: System.String
     content.vb: Public Const Long02 As String = "long02"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long03
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long03
   id: Long03
@@ -242,24 +215,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long03
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long03
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long03: long value 3, indexed\n"
+  summary: 'UDTempSmall.Long03: long value 3, indexed'
+  example: []
   syntax:
     content: public const string Long03 = "long03"
     return:
       type: System.String
     content.vb: Public Const Long03 As String = "long03"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long04
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long04
   id: Long04
@@ -271,24 +236,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long04
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long04
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long04: long value 4, indexed\n"
+  summary: 'UDTempSmall.Long04: long value 4, indexed'
+  example: []
   syntax:
     content: public const string Long04 = "long04"
     return:
       type: System.String
     content.vb: Public Const Long04 As String = "long04"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long05
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long05
   id: Long05
@@ -300,24 +257,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long05
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long05
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long05: long value 5, not indexed\n"
+  summary: 'UDTempSmall.Long05: long value 5, not indexed'
+  example: []
   syntax:
     content: public const string Long05 = "long05"
     return:
       type: System.String
     content.vb: Public Const Long05 As String = "long05"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long06
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long06
   id: Long06
@@ -329,24 +278,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long06
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long06
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long06: long value 6, not indexed\n"
+  summary: 'UDTempSmall.Long06: long value 6, not indexed'
+  example: []
   syntax:
     content: public const string Long06 = "long06"
     return:
       type: System.String
     content.vb: Public Const Long06 As String = "long06"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long07
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long07
   id: Long07
@@ -358,24 +299,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long07
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long07
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long07: long value 7, not indexed\n"
+  summary: 'UDTempSmall.Long07: long value 7, not indexed'
+  example: []
   syntax:
     content: public const string Long07 = "long07"
     return:
       type: System.String
     content.vb: Public Const Long07 As String = "long07"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long08
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long08
   id: Long08
@@ -387,24 +320,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long08
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long08
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long08: long value 8, not indexed\n"
+  summary: 'UDTempSmall.Long08: long value 8, not indexed'
+  example: []
   syntax:
     content: public const string Long08 = "long08"
     return:
       type: System.String
     content.vb: Public Const Long08 As String = "long08"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long09
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long09
   id: Long09
@@ -416,24 +341,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long09
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long09
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long09: long value 9, not indexed\n"
+  summary: 'UDTempSmall.Long09: long value 9, not indexed'
+  example: []
   syntax:
     content: public const string Long09 = "long09"
     return:
       type: System.String
     content.vb: Public Const Long09 As String = "long09"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long10
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long10
   id: Long10
@@ -445,24 +362,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long10
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long10
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long10: long value 10, not indexed\n"
+  summary: 'UDTempSmall.Long10: long value 10, not indexed'
+  example: []
   syntax:
     content: public const string Long10 = "long10"
     return:
       type: System.String
     content.vb: Public Const Long10 As String = "long10"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long11
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long11
   id: Long11
@@ -474,24 +383,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long11
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long11
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long11: long value 11, not indexed\n"
+  summary: 'UDTempSmall.Long11: long value 11, not indexed'
+  example: []
   syntax:
     content: public const string Long11 = "long11"
     return:
       type: System.String
     content.vb: Public Const Long11 As String = "long11"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long12
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long12
   id: Long12
@@ -503,24 +404,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long12
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long12
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long12: long value 12, not indexed\n"
+  summary: 'UDTempSmall.Long12: long value 12, not indexed'
+  example: []
   syntax:
     content: public const string Long12 = "long12"
     return:
       type: System.String
     content.vb: Public Const Long12 As String = "long12"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long13
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long13
   id: Long13
@@ -532,24 +425,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long13
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long13
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long13: long value 13, not indexed\n"
+  summary: 'UDTempSmall.Long13: long value 13, not indexed'
+  example: []
   syntax:
     content: public const string Long13 = "long13"
     return:
       type: System.String
     content.vb: Public Const Long13 As String = "long13"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long14
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long14
   id: Long14
@@ -561,24 +446,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long14
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long14
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long14: long value 14, not indexed\n"
+  summary: 'UDTempSmall.Long14: long value 14, not indexed'
+  example: []
   syntax:
     content: public const string Long14 = "long14"
     return:
       type: System.String
     content.vb: Public Const Long14 As String = "long14"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long15
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long15
   id: Long15
@@ -590,24 +467,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long15
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long15
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long15: long value 15, not indexed\n"
+  summary: 'UDTempSmall.Long15: long value 15, not indexed'
+  example: []
   syntax:
     content: public const string Long15 = "long15"
     return:
       type: System.String
     content.vb: Public Const Long15 As String = "long15"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long16
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long16
   id: Long16
@@ -619,24 +488,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long16
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long16
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long16: long value 16, not indexed\n"
+  summary: 'UDTempSmall.Long16: long value 16, not indexed'
+  example: []
   syntax:
     content: public const string Long16 = "long16"
     return:
       type: System.String
     content.vb: Public Const Long16 As String = "long16"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long17
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long17
   id: Long17
@@ -648,24 +509,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long17
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long17
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long17: long value 17, not indexed\n"
+  summary: 'UDTempSmall.Long17: long value 17, not indexed'
+  example: []
   syntax:
     content: public const string Long17 = "long17"
     return:
       type: System.String
     content.vb: Public Const Long17 As String = "long17"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long18
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long18
   id: Long18
@@ -677,24 +530,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long18
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long18
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long18: long value 18, not indexed\n"
+  summary: 'UDTempSmall.Long18: long value 18, not indexed'
+  example: []
   syntax:
     content: public const string Long18 = "long18"
     return:
       type: System.String
     content.vb: Public Const Long18 As String = "long18"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long19
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long19
   id: Long19
@@ -706,24 +551,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long19
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long19
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long19: long value 19, not indexed\n"
+  summary: 'UDTempSmall.Long19: long value 19, not indexed'
+  example: []
   syntax:
     content: public const string Long19 = "long19"
     return:
       type: System.String
     content.vb: Public Const Long19 As String = "long19"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long20
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long20
   id: Long20
@@ -735,24 +572,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long20
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long20
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long20: long value 20, not indexed\n"
+  summary: 'UDTempSmall.Long20: long value 20, not indexed'
+  example: []
   syntax:
     content: public const string Long20 = "long20"
     return:
       type: System.String
     content.vb: Public Const Long20 As String = "long20"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long21
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long21
   id: Long21
@@ -764,24 +593,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long21
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long21
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long21: long value 21, not indexed\n"
+  summary: 'UDTempSmall.Long21: long value 21, not indexed'
+  example: []
   syntax:
     content: public const string Long21 = "long21"
     return:
       type: System.String
     content.vb: Public Const Long21 As String = "long21"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long22
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long22
   id: Long22
@@ -793,24 +614,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long22
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long22
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long22: long value 22, not indexed\n"
+  summary: 'UDTempSmall.Long22: long value 22, not indexed'
+  example: []
   syntax:
     content: public const string Long22 = "long22"
     return:
       type: System.String
     content.vb: Public Const Long22 As String = "long22"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long23
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long23
   id: Long23
@@ -822,24 +635,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long23
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long23
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long23: long value 23, not indexed\n"
+  summary: 'UDTempSmall.Long23: long value 23, not indexed'
+  example: []
   syntax:
     content: public const string Long23 = "long23"
     return:
       type: System.String
     content.vb: Public Const Long23 As String = "long23"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long24
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long24
   id: Long24
@@ -851,24 +656,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long24
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long24
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long24: long value 24, not indexed\n"
+  summary: 'UDTempSmall.Long24: long value 24, not indexed'
+  example: []
   syntax:
     content: public const string Long24 = "long24"
     return:
       type: System.String
     content.vb: Public Const Long24 As String = "long24"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long25
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long25
   id: Long25
@@ -880,24 +677,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long25
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long25
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long25: long value 25, not indexed\n"
+  summary: 'UDTempSmall.Long25: long value 25, not indexed'
+  example: []
   syntax:
     content: public const string Long25 = "long25"
     return:
       type: System.String
     content.vb: Public Const Long25 As String = "long25"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long26
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long26
   id: Long26
@@ -909,24 +698,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long26
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long26
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long26: long value 26, not indexed\n"
+  summary: 'UDTempSmall.Long26: long value 26, not indexed'
+  example: []
   syntax:
     content: public const string Long26 = "long26"
     return:
       type: System.String
     content.vb: Public Const Long26 As String = "long26"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long27
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long27
   id: Long27
@@ -938,24 +719,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long27
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long27
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long27: long value 27, not indexed\n"
+  summary: 'UDTempSmall.Long27: long value 27, not indexed'
+  example: []
   syntax:
     content: public const string Long27 = "long27"
     return:
       type: System.String
     content.vb: Public Const Long27 As String = "long27"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long28
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long28
   id: Long28
@@ -967,24 +740,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long28
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long28
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long28: long value 28, not indexed\n"
+  summary: 'UDTempSmall.Long28: long value 28, not indexed'
+  example: []
   syntax:
     content: public const string Long28 = "long28"
     return:
       type: System.String
     content.vb: Public Const Long28 As String = "long28"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long29
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long29
   id: Long29
@@ -996,24 +761,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long29
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long29
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long29: long value 29, not indexed\n"
+  summary: 'UDTempSmall.Long29: long value 29, not indexed'
+  example: []
   syntax:
     content: public const string Long29 = "long29"
     return:
       type: System.String
     content.vb: Public Const Long29 As String = "long29"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long30
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long30
   id: Long30
@@ -1025,24 +782,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long30
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long30
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long30: long value 30, not indexed\n"
+  summary: 'UDTempSmall.Long30: long value 30, not indexed'
+  example: []
   syntax:
     content: public const string Long30 = "long30"
     return:
       type: System.String
     content.vb: Public Const Long30 As String = "long30"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long31
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long31
   id: Long31
@@ -1054,24 +803,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long31
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long31
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long31: long value 31, not indexed\n"
+  summary: 'UDTempSmall.Long31: long value 31, not indexed'
+  example: []
   syntax:
     content: public const string Long31 = "long31"
     return:
       type: System.String
     content.vb: Public Const Long31 As String = "long31"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long32
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long32
   id: Long32
@@ -1083,24 +824,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long32
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long32
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long32: long value 32, not indexed\n"
+  summary: 'UDTempSmall.Long32: long value 32, not indexed'
+  example: []
   syntax:
     content: public const string Long32 = "long32"
     return:
       type: System.String
     content.vb: Public Const Long32 As String = "long32"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long33
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long33
   id: Long33
@@ -1112,24 +845,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long33
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long33
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long33: long value 33, not indexed\n"
+  summary: 'UDTempSmall.Long33: long value 33, not indexed'
+  example: []
   syntax:
     content: public const string Long33 = "long33"
     return:
       type: System.String
     content.vb: Public Const Long33 As String = "long33"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long34
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long34
   id: Long34
@@ -1141,24 +866,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long34
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long34
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long34: long value 34, not indexed\n"
+  summary: 'UDTempSmall.Long34: long value 34, not indexed'
+  example: []
   syntax:
     content: public const string Long34 = "long34"
     return:
       type: System.String
     content.vb: Public Const Long34 As String = "long34"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long35
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long35
   id: Long35
@@ -1170,24 +887,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long35
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long35
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long35: long value 35, not indexed\n"
+  summary: 'UDTempSmall.Long35: long value 35, not indexed'
+  example: []
   syntax:
     content: public const string Long35 = "long35"
     return:
       type: System.String
     content.vb: Public Const Long35 As String = "long35"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long36
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long36
   id: Long36
@@ -1199,24 +908,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long36
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long36
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long36: long value 36, not indexed\n"
+  summary: 'UDTempSmall.Long36: long value 36, not indexed'
+  example: []
   syntax:
     content: public const string Long36 = "long36"
     return:
       type: System.String
     content.vb: Public Const Long36 As String = "long36"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long37
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long37
   id: Long37
@@ -1228,24 +929,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long37
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long37
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long37: long value 37, not indexed\n"
+  summary: 'UDTempSmall.Long37: long value 37, not indexed'
+  example: []
   syntax:
     content: public const string Long37 = "long37"
     return:
       type: System.String
     content.vb: Public Const Long37 As String = "long37"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long38
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long38
   id: Long38
@@ -1257,24 +950,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long38
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long38
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long38: long value 38, not indexed\n"
+  summary: 'UDTempSmall.Long38: long value 38, not indexed'
+  example: []
   syntax:
     content: public const string Long38 = "long38"
     return:
       type: System.String
     content.vb: Public Const Long38 As String = "long38"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long39
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long39
   id: Long39
@@ -1286,24 +971,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long39
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long39
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long39: long value 39, not indexed\n"
+  summary: 'UDTempSmall.Long39: long value 39, not indexed'
+  example: []
   syntax:
     content: public const string Long39 = "long39"
     return:
       type: System.String
     content.vb: Public Const Long39 As String = "long39"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long40
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long40
   id: Long40
@@ -1315,24 +992,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long40
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long40
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long40: long value 40, not indexed\n"
+  summary: 'UDTempSmall.Long40: long value 40, not indexed'
+  example: []
   syntax:
     content: public const string Long40 = "long40"
     return:
       type: System.String
     content.vb: Public Const Long40 As String = "long40"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long41
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long41
   id: Long41
@@ -1344,24 +1013,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long41
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long41
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long41: long value 41, not indexed\n"
+  summary: 'UDTempSmall.Long41: long value 41, not indexed'
+  example: []
   syntax:
     content: public const string Long41 = "long41"
     return:
       type: System.String
     content.vb: Public Const Long41 As String = "long41"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long42
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long42
   id: Long42
@@ -1373,24 +1034,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long42
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long42
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long42: long value 42, not indexed\n"
+  summary: 'UDTempSmall.Long42: long value 42, not indexed'
+  example: []
   syntax:
     content: public const string Long42 = "long42"
     return:
       type: System.String
     content.vb: Public Const Long42 As String = "long42"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long43
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long43
   id: Long43
@@ -1402,24 +1055,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long43
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long43
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long43: long value 43, not indexed\n"
+  summary: 'UDTempSmall.Long43: long value 43, not indexed'
+  example: []
   syntax:
     content: public const string Long43 = "long43"
     return:
       type: System.String
     content.vb: Public Const Long43 As String = "long43"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long44
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long44
   id: Long44
@@ -1431,24 +1076,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long44
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long44
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long44: long value 44, not indexed\n"
+  summary: 'UDTempSmall.Long44: long value 44, not indexed'
+  example: []
   syntax:
     content: public const string Long44 = "long44"
     return:
       type: System.String
     content.vb: Public Const Long44 As String = "long44"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long45
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long45
   id: Long45
@@ -1460,24 +1097,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long45
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long45
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long45: long value 45, not indexed\n"
+  summary: 'UDTempSmall.Long45: long value 45, not indexed'
+  example: []
   syntax:
     content: public const string Long45 = "long45"
     return:
       type: System.String
     content.vb: Public Const Long45 As String = "long45"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long46
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long46
   id: Long46
@@ -1489,24 +1118,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long46
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long46
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long46: long value 46, not indexed\n"
+  summary: 'UDTempSmall.Long46: long value 46, not indexed'
+  example: []
   syntax:
     content: public const string Long46 = "long46"
     return:
       type: System.String
     content.vb: Public Const Long46 As String = "long46"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long47
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long47
   id: Long47
@@ -1518,24 +1139,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long47
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long47
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long47: long value 47, not indexed\n"
+  summary: 'UDTempSmall.Long47: long value 47, not indexed'
+  example: []
   syntax:
     content: public const string Long47 = "long47"
     return:
       type: System.String
     content.vb: Public Const Long47 As String = "long47"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long48
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long48
   id: Long48
@@ -1547,24 +1160,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long48
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long48
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long48: long value 48, not indexed\n"
+  summary: 'UDTempSmall.Long48: long value 48, not indexed'
+  example: []
   syntax:
     content: public const string Long48 = "long48"
     return:
       type: System.String
     content.vb: Public Const Long48 As String = "long48"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long49
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long49
   id: Long49
@@ -1576,24 +1181,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long49
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long49
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long49: long value 49, not indexed\n"
+  summary: 'UDTempSmall.Long49: long value 49, not indexed'
+  example: []
   syntax:
     content: public const string Long49 = "long49"
     return:
       type: System.String
     content.vb: Public Const Long49 As String = "long49"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long50
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long50
   id: Long50
@@ -1605,24 +1202,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long50
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long50
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long50: long value 50, not indexed\n"
+  summary: 'UDTempSmall.Long50: long value 50, not indexed'
+  example: []
   syntax:
     content: public const string Long50 = "long50"
     return:
       type: System.String
     content.vb: Public Const Long50 As String = "long50"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long51
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long51
   id: Long51
@@ -1634,24 +1223,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long51
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long51
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long51: long value 51, not indexed\n"
+  summary: 'UDTempSmall.Long51: long value 51, not indexed'
+  example: []
   syntax:
     content: public const string Long51 = "long51"
     return:
       type: System.String
     content.vb: Public Const Long51 As String = "long51"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long52
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long52
   id: Long52
@@ -1663,24 +1244,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long52
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long52
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long52: long value 52, not indexed\n"
+  summary: 'UDTempSmall.Long52: long value 52, not indexed'
+  example: []
   syntax:
     content: public const string Long52 = "long52"
     return:
       type: System.String
     content.vb: Public Const Long52 As String = "long52"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long53
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long53
   id: Long53
@@ -1692,24 +1265,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long53
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long53
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long53: long value 53, not indexed\n"
+  summary: 'UDTempSmall.Long53: long value 53, not indexed'
+  example: []
   syntax:
     content: public const string Long53 = "long53"
     return:
       type: System.String
     content.vb: Public Const Long53 As String = "long53"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long54
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long54
   id: Long54
@@ -1721,24 +1286,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long54
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long54
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long54: long value 54, not indexed\n"
+  summary: 'UDTempSmall.Long54: long value 54, not indexed'
+  example: []
   syntax:
     content: public const string Long54 = "long54"
     return:
       type: System.String
     content.vb: Public Const Long54 As String = "long54"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long55
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long55
   id: Long55
@@ -1750,24 +1307,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long55
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long55
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long55: long value 55, not indexed\n"
+  summary: 'UDTempSmall.Long55: long value 55, not indexed'
+  example: []
   syntax:
     content: public const string Long55 = "long55"
     return:
       type: System.String
     content.vb: Public Const Long55 As String = "long55"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long56
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long56
   id: Long56
@@ -1779,24 +1328,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long56
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long56
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long56: long value 56, not indexed\n"
+  summary: 'UDTempSmall.Long56: long value 56, not indexed'
+  example: []
   syntax:
     content: public const string Long56 = "long56"
     return:
       type: System.String
     content.vb: Public Const Long56 As String = "long56"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long57
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long57
   id: Long57
@@ -1808,24 +1349,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long57
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long57
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long57: long value 57, not indexed\n"
+  summary: 'UDTempSmall.Long57: long value 57, not indexed'
+  example: []
   syntax:
     content: public const string Long57 = "long57"
     return:
       type: System.String
     content.vb: Public Const Long57 As String = "long57"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long58
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long58
   id: Long58
@@ -1837,24 +1370,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long58
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long58
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long58: long value 58, not indexed\n"
+  summary: 'UDTempSmall.Long58: long value 58, not indexed'
+  example: []
   syntax:
     content: public const string Long58 = "long58"
     return:
       type: System.String
     content.vb: Public Const Long58 As String = "long58"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long59
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long59
   id: Long59
@@ -1866,24 +1391,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long59
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long59
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long59: long value 59, not indexed\n"
+  summary: 'UDTempSmall.Long59: long value 59, not indexed'
+  example: []
   syntax:
     content: public const string Long59 = "long59"
     return:
       type: System.String
     content.vb: Public Const Long59 As String = "long59"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long60
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long60
   id: Long60
@@ -1895,24 +1412,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Long60
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Long60
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Long60: long value 60, not indexed\n"
+  summary: 'UDTempSmall.Long60: long value 60, not indexed'
+  example: []
   syntax:
     content: public const string Long60 = "long60"
     return:
       type: System.String
     content.vb: Public Const Long60 As String = "long60"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String01
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String01
   id: String01
@@ -1924,24 +1433,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String01
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String01
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String01: string value 1, indexed\n"
+  summary: 'UDTempSmall.String01: string value 1, indexed'
+  example: []
   syntax:
     content: public const string String01 = "string01"
     return:
       type: System.String
     content.vb: Public Const String01 As String = "string01"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String02
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String02
   id: String02
@@ -1953,24 +1454,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String02
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String02
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String02: string value 2, indexed\n"
+  summary: 'UDTempSmall.String02: string value 2, indexed'
+  example: []
   syntax:
     content: public const string String02 = "string02"
     return:
       type: System.String
     content.vb: Public Const String02 As String = "string02"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String03
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String03
   id: String03
@@ -1982,24 +1475,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String03
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String03
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String03: string value 3, indexed\n"
+  summary: 'UDTempSmall.String03: string value 3, indexed'
+  example: []
   syntax:
     content: public const string String03 = "string03"
     return:
       type: System.String
     content.vb: Public Const String03 As String = "string03"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String04
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String04
   id: String04
@@ -2011,24 +1496,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String04
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String04
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String04: string value 4, indexed\n"
+  summary: 'UDTempSmall.String04: string value 4, indexed'
+  example: []
   syntax:
     content: public const string String04 = "string04"
     return:
       type: System.String
     content.vb: Public Const String04 As String = "string04"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String05
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String05
   id: String05
@@ -2040,24 +1517,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String05
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String05
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String05: string value 5, not indexed\n"
+  summary: 'UDTempSmall.String05: string value 5, not indexed'
+  example: []
   syntax:
     content: public const string String05 = "string05"
     return:
       type: System.String
     content.vb: Public Const String05 As String = "string05"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String06
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String06
   id: String06
@@ -2069,24 +1538,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String06
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String06
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String06: string value 6, not indexed\n"
+  summary: 'UDTempSmall.String06: string value 6, not indexed'
+  example: []
   syntax:
     content: public const string String06 = "string06"
     return:
       type: System.String
     content.vb: Public Const String06 As String = "string06"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String07
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String07
   id: String07
@@ -2098,24 +1559,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String07
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String07
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String07: string value 7, not indexed\n"
+  summary: 'UDTempSmall.String07: string value 7, not indexed'
+  example: []
   syntax:
     content: public const string String07 = "string07"
     return:
       type: System.String
     content.vb: Public Const String07 As String = "string07"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String08
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String08
   id: String08
@@ -2127,24 +1580,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String08
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String08
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String08: string value 8, not indexed\n"
+  summary: 'UDTempSmall.String08: string value 8, not indexed'
+  example: []
   syntax:
     content: public const string String08 = "string08"
     return:
       type: System.String
     content.vb: Public Const String08 As String = "string08"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String09
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String09
   id: String09
@@ -2156,24 +1601,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String09
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String09
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String09: string value 9, not indexed\n"
+  summary: 'UDTempSmall.String09: string value 9, not indexed'
+  example: []
   syntax:
     content: public const string String09 = "string09"
     return:
       type: System.String
     content.vb: Public Const String09 As String = "string09"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String10
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String10
   id: String10
@@ -2185,24 +1622,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String10
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String10
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String10: string value 10, not indexed\n"
+  summary: 'UDTempSmall.String10: string value 10, not indexed'
+  example: []
   syntax:
     content: public const string String10 = "string10"
     return:
       type: System.String
     content.vb: Public Const String10 As String = "string10"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String11
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String11
   id: String11
@@ -2214,24 +1643,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String11
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String11
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String11: string value 11, not indexed\n"
+  summary: 'UDTempSmall.String11: string value 11, not indexed'
+  example: []
   syntax:
     content: public const string String11 = "string11"
     return:
       type: System.String
     content.vb: Public Const String11 As String = "string11"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String12
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String12
   id: String12
@@ -2243,24 +1664,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String12
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String12
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String12: string value 12, not indexed\n"
+  summary: 'UDTempSmall.String12: string value 12, not indexed'
+  example: []
   syntax:
     content: public const string String12 = "string12"
     return:
       type: System.String
     content.vb: Public Const String12 As String = "string12"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String13
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String13
   id: String13
@@ -2272,24 +1685,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String13
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String13
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String13: string value 13, not indexed\n"
+  summary: 'UDTempSmall.String13: string value 13, not indexed'
+  example: []
   syntax:
     content: public const string String13 = "string13"
     return:
       type: System.String
     content.vb: Public Const String13 As String = "string13"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String14
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String14
   id: String14
@@ -2301,24 +1706,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String14
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String14
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String14: string value 14, not indexed\n"
+  summary: 'UDTempSmall.String14: string value 14, not indexed'
+  example: []
   syntax:
     content: public const string String14 = "string14"
     return:
       type: System.String
     content.vb: Public Const String14 As String = "string14"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String15
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String15
   id: String15
@@ -2330,24 +1727,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String15
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String15
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String15: string value 15, not indexed\n"
+  summary: 'UDTempSmall.String15: string value 15, not indexed'
+  example: []
   syntax:
     content: public const string String15 = "string15"
     return:
       type: System.String
     content.vb: Public Const String15 As String = "string15"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String16
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String16
   id: String16
@@ -2359,24 +1748,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String16
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String16
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String16: string value 16, not indexed\n"
+  summary: 'UDTempSmall.String16: string value 16, not indexed'
+  example: []
   syntax:
     content: public const string String16 = "string16"
     return:
       type: System.String
     content.vb: Public Const String16 As String = "string16"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String17
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String17
   id: String17
@@ -2388,24 +1769,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String17
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String17
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String17: string value 17, not indexed\n"
+  summary: 'UDTempSmall.String17: string value 17, not indexed'
+  example: []
   syntax:
     content: public const string String17 = "string17"
     return:
       type: System.String
     content.vb: Public Const String17 As String = "string17"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String18
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String18
   id: String18
@@ -2417,24 +1790,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String18
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String18
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String18: string value 18, not indexed\n"
+  summary: 'UDTempSmall.String18: string value 18, not indexed'
+  example: []
   syntax:
     content: public const string String18 = "string18"
     return:
       type: System.String
     content.vb: Public Const String18 As String = "string18"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String19
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String19
   id: String19
@@ -2446,24 +1811,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String19
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String19
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String19: string value 19, not indexed\n"
+  summary: 'UDTempSmall.String19: string value 19, not indexed'
+  example: []
   syntax:
     content: public const string String19 = "string19"
     return:
       type: System.String
     content.vb: Public Const String19 As String = "string19"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String20
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String20
   id: String20
@@ -2475,24 +1832,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String20
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String20
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String20: string value 20, not indexed\n"
+  summary: 'UDTempSmall.String20: string value 20, not indexed'
+  example: []
   syntax:
     content: public const string String20 = "string20"
     return:
       type: System.String
     content.vb: Public Const String20 As String = "string20"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String21
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String21
   id: String21
@@ -2504,24 +1853,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String21
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String21
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String21: string value 21, not indexed\n"
+  summary: 'UDTempSmall.String21: string value 21, not indexed'
+  example: []
   syntax:
     content: public const string String21 = "string21"
     return:
       type: System.String
     content.vb: Public Const String21 As String = "string21"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String22
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String22
   id: String22
@@ -2533,24 +1874,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String22
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String22
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String22: string value 22, not indexed\n"
+  summary: 'UDTempSmall.String22: string value 22, not indexed'
+  example: []
   syntax:
     content: public const string String22 = "string22"
     return:
       type: System.String
     content.vb: Public Const String22 As String = "string22"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String23
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String23
   id: String23
@@ -2562,24 +1895,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String23
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String23
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String23: string value 23, not indexed\n"
+  summary: 'UDTempSmall.String23: string value 23, not indexed'
+  example: []
   syntax:
     content: public const string String23 = "string23"
     return:
       type: System.String
     content.vb: Public Const String23 As String = "string23"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String24
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String24
   id: String24
@@ -2591,24 +1916,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String24
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String24
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String24: string value 24, not indexed\n"
+  summary: 'UDTempSmall.String24: string value 24, not indexed'
+  example: []
   syntax:
     content: public const string String24 = "string24"
     return:
       type: System.String
     content.vb: Public Const String24 As String = "string24"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String25
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String25
   id: String25
@@ -2620,24 +1937,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String25
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String25
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String25: string value 25, not indexed\n"
+  summary: 'UDTempSmall.String25: string value 25, not indexed'
+  example: []
   syntax:
     content: public const string String25 = "string25"
     return:
       type: System.String
     content.vb: Public Const String25 As String = "string25"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String26
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String26
   id: String26
@@ -2649,24 +1958,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String26
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String26
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String26: string value 26, not indexed\n"
+  summary: 'UDTempSmall.String26: string value 26, not indexed'
+  example: []
   syntax:
     content: public const string String26 = "string26"
     return:
       type: System.String
     content.vb: Public Const String26 As String = "string26"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String27
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String27
   id: String27
@@ -2678,24 +1979,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String27
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String27
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String27: string value 27, not indexed\n"
+  summary: 'UDTempSmall.String27: string value 27, not indexed'
+  example: []
   syntax:
     content: public const string String27 = "string27"
     return:
       type: System.String
     content.vb: Public Const String27 As String = "string27"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String28
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String28
   id: String28
@@ -2707,24 +2000,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String28
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String28
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String28: string value 28, not indexed\n"
+  summary: 'UDTempSmall.String28: string value 28, not indexed'
+  example: []
   syntax:
     content: public const string String28 = "string28"
     return:
       type: System.String
     content.vb: Public Const String28 As String = "string28"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String29
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String29
   id: String29
@@ -2736,24 +2021,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String29
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String29
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String29: string value 29, not indexed\n"
+  summary: 'UDTempSmall.String29: string value 29, not indexed'
+  example: []
   syntax:
     content: public const string String29 = "string29"
     return:
       type: System.String
     content.vb: Public Const String29 As String = "string29"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String30
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String30
   id: String30
@@ -2765,24 +2042,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String30
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String30
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String30: string value 30, not indexed\n"
+  summary: 'UDTempSmall.String30: string value 30, not indexed'
+  example: []
   syntax:
     content: public const string String30 = "string30"
     return:
       type: System.String
     content.vb: Public Const String30 As String = "string30"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String31
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String31
   id: String31
@@ -2794,24 +2063,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String31
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String31
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String31: string value 31, not indexed\n"
+  summary: 'UDTempSmall.String31: string value 31, not indexed'
+  example: []
   syntax:
     content: public const string String31 = "string31"
     return:
       type: System.String
     content.vb: Public Const String31 As String = "string31"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String32
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String32
   id: String32
@@ -2823,24 +2084,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String32
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String32
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String32: string value 32, not indexed\n"
+  summary: 'UDTempSmall.String32: string value 32, not indexed'
+  example: []
   syntax:
     content: public const string String32 = "string32"
     return:
       type: System.String
     content.vb: Public Const String32 As String = "string32"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String33
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String33
   id: String33
@@ -2852,24 +2105,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String33
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String33
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String33: string value 33, not indexed\n"
+  summary: 'UDTempSmall.String33: string value 33, not indexed'
+  example: []
   syntax:
     content: public const string String33 = "string33"
     return:
       type: System.String
     content.vb: Public Const String33 As String = "string33"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String34
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String34
   id: String34
@@ -2881,24 +2126,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String34
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String34
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String34: string value 34, not indexed\n"
+  summary: 'UDTempSmall.String34: string value 34, not indexed'
+  example: []
   syntax:
     content: public const string String34 = "string34"
     return:
       type: System.String
     content.vb: Public Const String34 As String = "string34"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String35
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String35
   id: String35
@@ -2910,24 +2147,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String35
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String35
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String35: string value 35, not indexed\n"
+  summary: 'UDTempSmall.String35: string value 35, not indexed'
+  example: []
   syntax:
     content: public const string String35 = "string35"
     return:
       type: System.String
     content.vb: Public Const String35 As String = "string35"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String36
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String36
   id: String36
@@ -2939,24 +2168,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String36
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String36
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String36: string value 36, not indexed\n"
+  summary: 'UDTempSmall.String36: string value 36, not indexed'
+  example: []
   syntax:
     content: public const string String36 = "string36"
     return:
       type: System.String
     content.vb: Public Const String36 As String = "string36"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String37
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String37
   id: String37
@@ -2968,24 +2189,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String37
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String37
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String37: string value 37, not indexed\n"
+  summary: 'UDTempSmall.String37: string value 37, not indexed'
+  example: []
   syntax:
     content: public const string String37 = "string37"
     return:
       type: System.String
     content.vb: Public Const String37 As String = "string37"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String38
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String38
   id: String38
@@ -2997,24 +2210,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String38
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String38
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String38: string value 38, not indexed\n"
+  summary: 'UDTempSmall.String38: string value 38, not indexed'
+  example: []
   syntax:
     content: public const string String38 = "string38"
     return:
       type: System.String
     content.vb: Public Const String38 As String = "string38"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String39
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String39
   id: String39
@@ -3026,24 +2231,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String39
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String39
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String39: string value 39, not indexed\n"
+  summary: 'UDTempSmall.String39: string value 39, not indexed'
+  example: []
   syntax:
     content: public const string String39 = "string39"
     return:
       type: System.String
     content.vb: Public Const String39 As String = "string39"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String40
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.String40
   id: String40
@@ -3055,24 +2252,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.String40
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.String40
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.String40: string value 40, not indexed\n"
+  summary: 'UDTempSmall.String40: string value 40, not indexed'
+  example: []
   syntax:
     content: public const string String40 = "string40"
     return:
       type: System.String
     content.vb: Public Const String40 As String = "string40"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double01
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double01
   id: Double01
@@ -3084,24 +2273,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Double01
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double01
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Double01: double value 1, indexed\n"
+  summary: 'UDTempSmall.Double01: double value 1, indexed'
+  example: []
   syntax:
     content: public const string Double01 = "double01"
     return:
       type: System.String
     content.vb: Public Const Double01 As String = "double01"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double02
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double02
   id: Double02
@@ -3113,24 +2294,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Double02
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double02
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Double02: double value 2, indexed\n"
+  summary: 'UDTempSmall.Double02: double value 2, indexed'
+  example: []
   syntax:
     content: public const string Double02 = "double02"
     return:
       type: System.String
     content.vb: Public Const Double02 As String = "double02"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double03
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double03
   id: Double03
@@ -3142,24 +2315,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Double03
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double03
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Double03: double value 3, indexed\n"
+  summary: 'UDTempSmall.Double03: double value 3, indexed'
+  example: []
   syntax:
     content: public const string Double03 = "double03"
     return:
       type: System.String
     content.vb: Public Const Double03 As String = "double03"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double04
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double04
   id: Double04
@@ -3171,24 +2336,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Double04
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double04
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Double04: double value 4, indexed\n"
+  summary: 'UDTempSmall.Double04: double value 4, indexed'
+  example: []
   syntax:
     content: public const string Double04 = "double04"
     return:
       type: System.String
     content.vb: Public Const Double04 As String = "double04"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double05
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double05
   id: Double05
@@ -3200,24 +2357,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Double05
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double05
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Double05: double value 5, not indexed\n"
+  summary: 'UDTempSmall.Double05: double value 5, not indexed'
+  example: []
   syntax:
     content: public const string Double05 = "double05"
     return:
       type: System.String
     content.vb: Public Const Double05 As String = "double05"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double06
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double06
   id: Double06
@@ -3229,24 +2378,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Double06
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double06
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Double06: double value 6, not indexed\n"
+  summary: 'UDTempSmall.Double06: double value 6, not indexed'
+  example: []
   syntax:
     content: public const string Double06 = "double06"
     return:
       type: System.String
     content.vb: Public Const Double06 As String = "double06"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double07
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double07
   id: Double07
@@ -3258,24 +2399,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Double07
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double07
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Double07: double value 7, not indexed\n"
+  summary: 'UDTempSmall.Double07: double value 7, not indexed'
+  example: []
   syntax:
     content: public const string Double07 = "double07"
     return:
       type: System.String
     content.vb: Public Const Double07 As String = "double07"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double08
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double08
   id: Double08
@@ -3287,24 +2420,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Double08
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double08
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Double08: double value 8, not indexed\n"
+  summary: 'UDTempSmall.Double08: double value 8, not indexed'
+  example: []
   syntax:
     content: public const string Double08 = "double08"
     return:
       type: System.String
     content.vb: Public Const Double08 As String = "double08"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double09
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double09
   id: Double09
@@ -3316,24 +2441,16 @@ items:
   nameWithType: DBC.UDTempSmallFields.Double09
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double09
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Double09: double value 9, not indexed\n"
+  summary: 'UDTempSmall.Double09: double value 9, not indexed'
+  example: []
   syntax:
     content: public const string Double09 = "double09"
     return:
       type: System.String
     content.vb: Public Const Double09 As String = "double09"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double10
   commentId: F:SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double10
   id: Double10
@@ -3345,41 +2462,288 @@ items:
   nameWithType: DBC.UDTempSmallFields.Double10
   fullName: SuperOffice.CRM.Data.DBC.UDTempSmallFields.Double10
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nUDTempSmall.Double10: double value 10, not indexed\n"
+  summary: 'UDTempSmall.Double10: double value 10, not indexed'
+  example: []
   syntax:
     content: public const string Double10 = "double10"
     return:
       type: System.String
     content.vb: Public Const Double10 As String = "double10"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -3387,6 +2751,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

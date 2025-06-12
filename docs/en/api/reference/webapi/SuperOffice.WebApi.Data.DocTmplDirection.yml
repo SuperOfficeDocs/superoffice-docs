@@ -9,64 +9,24 @@ items:
   - SuperOffice.WebApi.Data.DocTmplDirection.Outgoing
   - SuperOffice.WebApi.Data.DocTmplDirection.SaintAll
   - SuperOffice.WebApi.Data.DocTmplDirection.Unknown
-  - SuperOffice.WebApi.Data.DocTmplDirection.value__
   langs:
   - csharp
   - vb
   name: DocTmplDirection
   nameWithType: DocTmplDirection
   fullName: SuperOffice.WebApi.Data.DocTmplDirection
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nValue for field &apos;direction&apos; in table &apos;doctmpl&apos;.\nThis Enum is used by:  DocTmpl.direction\n"
-  syntax:
-    content: 'public sealed class DocTmplDirection : Enum'
-    content.vb: >-
-      Public NotInheritable Class DocTmplDirection
-          Inherits
+  summary: >-
+    Value for field 'direction' in table 'doctmpl'.
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.DocTmplDirection.value__
-  commentId: F:SuperOffice.WebApi.Data.DocTmplDirection.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.DocTmplDirection
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: DocTmplDirection.value__
-  fullName: SuperOffice.WebApi.Data.DocTmplDirection.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  DocTmpl.direction
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum DocTmplDirection : short'
+    content.vb: Public Enum DocTmplDirection As Short
 - uid: SuperOffice.WebApi.Data.DocTmplDirection.Unknown
   commentId: F:SuperOffice.WebApi.Data.DocTmplDirection.Unknown
   id: Unknown
@@ -78,24 +38,26 @@ items:
   nameWithType: DocTmplDirection.Unknown
   fullName: SuperOffice.WebApi.Data.DocTmplDirection.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: The direction of documents from this template is unknown/undecided\n"
+  summary: '0: The direction of documents from this template is unknown/undecided'
+  example: []
   syntax:
-    content: public const DocTmplDirection Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.DocTmplDirection
-    content.vb: Public Const Unknown As DocTmplDirection
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DocTmplDirection.Incoming
   commentId: F:SuperOffice.WebApi.Data.DocTmplDirection.Incoming
   id: Incoming
@@ -107,24 +69,26 @@ items:
   nameWithType: DocTmplDirection.Incoming
   fullName: SuperOffice.WebApi.Data.DocTmplDirection.Incoming
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Document template for incoming documents\n"
+  summary: '1: Document template for incoming documents'
+  example: []
   syntax:
-    content: public const DocTmplDirection Incoming
+    content: >-
+      [EnumMember]
+
+      Incoming = 1
     return:
       type: SuperOffice.WebApi.Data.DocTmplDirection
-    content.vb: Public Const Incoming As DocTmplDirection
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Incoming = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DocTmplDirection.Outgoing
   commentId: F:SuperOffice.WebApi.Data.DocTmplDirection.Outgoing
   id: Outgoing
@@ -136,24 +100,26 @@ items:
   nameWithType: DocTmplDirection.Outgoing
   fullName: SuperOffice.WebApi.Data.DocTmplDirection.Outgoing
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Document template is used for outgoing documents\n"
+  summary: '2: Document template is used for outgoing documents'
+  example: []
   syntax:
-    content: public const DocTmplDirection Outgoing
+    content: >-
+      [EnumMember]
+
+      Outgoing = 2
     return:
       type: SuperOffice.WebApi.Data.DocTmplDirection
-    content.vb: Public Const Outgoing As DocTmplDirection
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Outgoing = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DocTmplDirection.SaintAll
   commentId: F:SuperOffice.WebApi.Data.DocTmplDirection.SaintAll
   id: SaintAll
@@ -165,55 +131,69 @@ items:
   nameWithType: DocTmplDirection.SaintAll
   fullName: SuperOffice.WebApi.Data.DocTmplDirection.SaintAll
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: All&apos; choice for Saint. This is NOT an acceptable value for a task definition, but is used by the Saint system for indexing all directions\n"
+  summary: "3: All' choice for Saint. This is NOT an acceptable value for a task definition, but is used by the Saint system for indexing all directions"
+  example: []
   syntax:
-    content: public const DocTmplDirection SaintAll
+    content: >-
+      [EnumMember]
+
+      SaintAll = 3
     return:
       type: SuperOffice.WebApi.Data.DocTmplDirection
-    content.vb: Public Const SaintAll As DocTmplDirection
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SaintAll = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.DocTmplDirection
   commentId: T:SuperOffice.WebApi.Data.DocTmplDirection
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.DocTmplDirection.html
   name: DocTmplDirection
   nameWithType: DocTmplDirection
   fullName: SuperOffice.WebApi.Data.DocTmplDirection

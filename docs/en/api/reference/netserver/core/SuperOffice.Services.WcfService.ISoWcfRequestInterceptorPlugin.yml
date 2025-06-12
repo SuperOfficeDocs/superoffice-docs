@@ -16,27 +16,19 @@ items:
   nameWithType: ISoWcfRequestInterceptorPlugin
   fullName: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin
   type: Interface
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Services.WcfService
-  summary: "\nPlugins needing to intercept web service reqests can implement this interface\n"
+  summary: Plugins needing to intercept web service reqests can implement this interface
+  example: []
   syntax:
     content: 'public interface ISoWcfRequestInterceptorPlugin : IDisposable'
-    content.vb: >-
-      Public Interface ISoWcfRequestInterceptorPlugin
-          Inherits IDisposable
+    content.vb: Public Interface ISoWcfRequestInterceptorPlugin Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
   extensionMethods:
   - SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.EnumUtil.MapEnums``2
   - SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
 - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnAuthenticate(System.String,System.String,System.String)
   commentId: M:SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnAuthenticate(System.String,System.String,System.String)
   id: OnAuthenticate(System.String,System.String,System.String)
@@ -44,17 +36,15 @@ items:
   langs:
   - csharp
   - vb
-  name: OnAuthenticate(String, String, String)
-  nameWithType: ISoWcfRequestInterceptorPlugin.OnAuthenticate(String, String, String)
-  fullName: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnAuthenticate(System.String, System.String, System.String)
+  name: OnAuthenticate(string, string, string)
+  nameWithType: ISoWcfRequestInterceptorPlugin.OnAuthenticate(string, string, string)
+  fullName: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnAuthenticate(string, string, string)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Services.WcfService
-  summary: "\nEvent raised when web service requests are recieved\n"
+  summary: Event raised when web service requests are recieved
+  example: []
   syntax:
     content: OnAuthenticateResponse OnAuthenticate(string service, string method, string requestApplicationToken)
     parameters:
@@ -72,6 +62,9 @@ items:
       description: State passed on to other events raised in the web method processing.
     content.vb: Function OnAuthenticate(service As String, method As String, requestApplicationToken As String) As OnAuthenticateResponse
   overload: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnAuthenticate*
+  nameWithType.vb: ISoWcfRequestInterceptorPlugin.OnAuthenticate(String, String, String)
+  fullName.vb: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnAuthenticate(String, String, String)
+  name.vb: OnAuthenticate(String, String, String)
 - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecute(System.String,System.String,System.String,SuperOffice.Services.WcfService.WcfRequestInterceptorState@)
   commentId: M:SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecute(System.String,System.String,System.String,SuperOffice.Services.WcfService.WcfRequestInterceptorState@)
   id: OnExecute(System.String,System.String,System.String,SuperOffice.Services.WcfService.WcfRequestInterceptorState@)
@@ -79,17 +72,15 @@ items:
   langs:
   - csharp
   - vb
-  name: OnExecute(String, String, String, ref WcfRequestInterceptorState)
-  nameWithType: ISoWcfRequestInterceptorPlugin.OnExecute(String, String, String, ref WcfRequestInterceptorState)
-  fullName: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecute(System.String, System.String, System.String, ref SuperOffice.Services.WcfService.WcfRequestInterceptorState)
+  name: OnExecute(string, string, string, ref WcfRequestInterceptorState)
+  nameWithType: ISoWcfRequestInterceptorPlugin.OnExecute(string, string, string, ref WcfRequestInterceptorState)
+  fullName: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecute(string, string, string, ref SuperOffice.Services.WcfService.WcfRequestInterceptorState)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Services.WcfService
-  summary: "\nEvent raised after the user is authenticated before executing the actual method\n"
+  summary: Event raised after the user is authenticated before executing the actual method
+  example: []
   syntax:
     content: void OnExecute(string service, string method, string requestApplicationToken, ref WcfRequestInterceptorState pluginState)
     parameters:
@@ -105,11 +96,11 @@ items:
     - id: pluginState
       type: SuperOffice.Services.WcfService.WcfRequestInterceptorState
       description: State created in OnAuthenticate
-    content.vb: Sub OnExecute(service As String, method As String, requestApplicationToken As String, ByRef pluginState As WcfRequestInterceptorState)
+    content.vb: Sub OnExecute(service As String, method As String, requestApplicationToken As String, pluginState As WcfRequestInterceptorState)
   overload: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecute*
-  nameWithType.vb: ISoWcfRequestInterceptorPlugin.OnExecute(String, String, String, ByRef WcfRequestInterceptorState)
-  fullName.vb: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecute(System.String, System.String, System.String, ByRef SuperOffice.Services.WcfService.WcfRequestInterceptorState)
-  name.vb: OnExecute(String, String, String, ByRef WcfRequestInterceptorState)
+  nameWithType.vb: ISoWcfRequestInterceptorPlugin.OnExecute(String, String, String, WcfRequestInterceptorState)
+  fullName.vb: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecute(String, String, String, SuperOffice.Services.WcfService.WcfRequestInterceptorState)
+  name.vb: OnExecute(String, String, String, WcfRequestInterceptorState)
 - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecuted(System.String,System.String,System.String,System.Func{System.Collections.Generic.Dictionary{System.String,System.String}},SuperOffice.Services.WcfService.WcfRequestInterceptorState@)
   commentId: M:SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecuted(System.String,System.String,System.String,System.Func{System.Collections.Generic.Dictionary{System.String,System.String}},SuperOffice.Services.WcfService.WcfRequestInterceptorState@)
   id: OnExecuted(System.String,System.String,System.String,System.Func{System.Collections.Generic.Dictionary{System.String,System.String}},SuperOffice.Services.WcfService.WcfRequestInterceptorState@)
@@ -117,17 +108,15 @@ items:
   langs:
   - csharp
   - vb
-  name: OnExecuted(String, String, String, Func<Dictionary<String, String>>, ref WcfRequestInterceptorState)
-  nameWithType: ISoWcfRequestInterceptorPlugin.OnExecuted(String, String, String, Func<Dictionary<String, String>>, ref WcfRequestInterceptorState)
-  fullName: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecuted(System.String, System.String, System.String, System.Func<System.Collections.Generic.Dictionary<System.String, System.String>>, ref SuperOffice.Services.WcfService.WcfRequestInterceptorState)
+  name: OnExecuted(string, string, string, Func<Dictionary<string, string>>, ref WcfRequestInterceptorState)
+  nameWithType: ISoWcfRequestInterceptorPlugin.OnExecuted(string, string, string, Func<Dictionary<string, string>>, ref WcfRequestInterceptorState)
+  fullName: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecuted(string, string, string, System.Func<System.Collections.Generic.Dictionary<string, string>>, ref SuperOffice.Services.WcfService.WcfRequestInterceptorState)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Services.WcfService
-  summary: "\nEvent raised after the operation has successfully been carried out\n"
+  summary: Event raised after the operation has successfully been carried out
+  example: []
   syntax:
     content: void OnExecuted(string service, string method, string requestApplicationToken, Func<Dictionary<string, string>> responseExtraInfo, ref WcfRequestInterceptorState pluginState)
     parameters:
@@ -146,11 +135,11 @@ items:
     - id: pluginState
       type: SuperOffice.Services.WcfService.WcfRequestInterceptorState
       description: State created in OnAuthenticate
-    content.vb: Sub OnExecuted(service As String, method As String, requestApplicationToken As String, responseExtraInfo As Func(Of Dictionary(Of String, String)), ByRef pluginState As WcfRequestInterceptorState)
+    content.vb: Sub OnExecuted(service As String, method As String, requestApplicationToken As String, responseExtraInfo As Func(Of Dictionary(Of String, String)), pluginState As WcfRequestInterceptorState)
   overload: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecuted*
-  nameWithType.vb: ISoWcfRequestInterceptorPlugin.OnExecuted(String, String, String, Func(Of Dictionary(Of String, String)), ByRef WcfRequestInterceptorState)
-  fullName.vb: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecuted(System.String, System.String, System.String, System.Func(Of System.Collections.Generic.Dictionary(Of System.String, System.String)), ByRef SuperOffice.Services.WcfService.WcfRequestInterceptorState)
-  name.vb: OnExecuted(String, String, String, Func(Of Dictionary(Of String, String)), ByRef WcfRequestInterceptorState)
+  nameWithType.vb: ISoWcfRequestInterceptorPlugin.OnExecuted(String, String, String, Func(Of Dictionary(Of String, String)), WcfRequestInterceptorState)
+  fullName.vb: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecuted(String, String, String, System.Func(Of System.Collections.Generic.Dictionary(Of String, String)), SuperOffice.Services.WcfService.WcfRequestInterceptorState)
+  name.vb: OnExecuted(String, String, String, Func(Of Dictionary(Of String, String)), WcfRequestInterceptorState)
 - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnError(System.String,System.String,System.String,System.Exception,SuperOffice.Services.WcfService.WcfRequestInterceptorState@)
   commentId: M:SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnError(System.String,System.String,System.String,System.Exception,SuperOffice.Services.WcfService.WcfRequestInterceptorState@)
   id: OnError(System.String,System.String,System.String,System.Exception,SuperOffice.Services.WcfService.WcfRequestInterceptorState@)
@@ -158,17 +147,15 @@ items:
   langs:
   - csharp
   - vb
-  name: OnError(String, String, String, Exception, ref WcfRequestInterceptorState)
-  nameWithType: ISoWcfRequestInterceptorPlugin.OnError(String, String, String, Exception, ref WcfRequestInterceptorState)
-  fullName: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnError(System.String, System.String, System.String, System.Exception, ref SuperOffice.Services.WcfService.WcfRequestInterceptorState)
+  name: OnError(string, string, string, Exception, ref WcfRequestInterceptorState)
+  nameWithType: ISoWcfRequestInterceptorPlugin.OnError(string, string, string, Exception, ref WcfRequestInterceptorState)
+  fullName: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnError(string, string, string, System.Exception, ref SuperOffice.Services.WcfService.WcfRequestInterceptorState)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Services.WcfService
-  summary: "\nEvent raised if an error occurs. This event is raised when authentication fails too\n"
+  summary: Event raised if an error occurs. This event is raised when authentication fails too
+  example: []
   syntax:
     content: void OnError(string service, string method, string requestApplicationToken, Exception exception, ref WcfRequestInterceptorState pluginState)
     parameters:
@@ -187,89 +174,189 @@ items:
     - id: pluginState
       type: SuperOffice.Services.WcfService.WcfRequestInterceptorState
       description: State created in OnAuthenticate
-    content.vb: Sub OnError(service As String, method As String, requestApplicationToken As String, exception As Exception, ByRef pluginState As WcfRequestInterceptorState)
+    content.vb: Sub OnError(service As String, method As String, requestApplicationToken As String, exception As Exception, pluginState As WcfRequestInterceptorState)
   overload: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnError*
-  nameWithType.vb: ISoWcfRequestInterceptorPlugin.OnError(String, String, String, Exception, ByRef WcfRequestInterceptorState)
-  fullName.vb: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnError(System.String, System.String, System.String, System.Exception, ByRef SuperOffice.Services.WcfService.WcfRequestInterceptorState)
-  name.vb: OnError(String, String, String, Exception, ByRef WcfRequestInterceptorState)
+  nameWithType.vb: ISoWcfRequestInterceptorPlugin.OnError(String, String, String, Exception, WcfRequestInterceptorState)
+  fullName.vb: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnError(String, String, String, System.Exception, SuperOffice.Services.WcfService.WcfRequestInterceptorState)
+  name.vb: OnError(String, String, String, Exception, WcfRequestInterceptorState)
 references:
 - uid: SuperOffice.Services.WcfService
   commentId: N:SuperOffice.Services.WcfService
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Services.WcfService
   nameWithType: SuperOffice.Services.WcfService
   fullName: SuperOffice.Services.WcfService
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.Services.html
+  - name: .
+  - uid: SuperOffice.Services.WcfService
+    name: WcfService
+    isExternal: true
+    href: SuperOffice.Services.WcfService.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.Services.html
+  - name: .
+  - uid: SuperOffice.Services.WcfService
+    name: WcfService
+    isExternal: true
+    href: SuperOffice.Services.WcfService.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
 - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ISoWcfRequestInterceptorPlugin, To>()
-  nameWithType: EnumUtil.MapEnums<ISoWcfRequestInterceptorPlugin, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ISoWcfRequestInterceptorPlugin, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin, To)()
-  name.vb: MapEnums(Of ISoWcfRequestInterceptorPlugin, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ISoWcfRequestInterceptorPlugin, To>(ISoWcfRequestInterceptorPlugin)
+  nameWithType: EnumUtil.MapEnums<ISoWcfRequestInterceptorPlugin, To>(ISoWcfRequestInterceptorPlugin)
+  fullName: EnumUtil.MapEnums<SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin, To>(SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin)
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoWcfRequestInterceptorPlugin, To)(ISoWcfRequestInterceptorPlugin)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin, To)(SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin)
+  name.vb: MapEnums(Of ISoWcfRequestInterceptorPlugin, To)(ISoWcfRequestInterceptorPlugin)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ISoWcfRequestInterceptorPlugin, To>
-    nameWithType: EnumUtil.MapEnums<ISoWcfRequestInterceptorPlugin, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin
+    name: ISoWcfRequestInterceptorPlugin
+    isExternal: true
+    href: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin
+    name: ISoWcfRequestInterceptorPlugin
+    isExternal: true
+    href: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ISoWcfRequestInterceptorPlugin, To)
-    nameWithType: EnumUtil.MapEnums(Of ISoWcfRequestInterceptorPlugin, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin
+    name: ISoWcfRequestInterceptorPlugin
+    isExternal: true
+    href: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin
+    name: ISoWcfRequestInterceptorPlugin
+    isExternal: true
+    href: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.html
+  - name: )
 - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ISoWcfRequestInterceptorPlugin, To>()
-  nameWithType: Converters.MapEnums<ISoWcfRequestInterceptorPlugin, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin, To>()
-  nameWithType.vb: Converters.MapEnums(Of ISoWcfRequestInterceptorPlugin, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin, To)()
-  name.vb: MapEnums(Of ISoWcfRequestInterceptorPlugin, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ISoWcfRequestInterceptorPlugin, To>(ISoWcfRequestInterceptorPlugin)
+  nameWithType: Converters.MapEnums<ISoWcfRequestInterceptorPlugin, To>(ISoWcfRequestInterceptorPlugin)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin, To>(SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin)
+  nameWithType.vb: Converters.MapEnums(Of ISoWcfRequestInterceptorPlugin, To)(ISoWcfRequestInterceptorPlugin)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin, To)(SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin)
+  name.vb: MapEnums(Of ISoWcfRequestInterceptorPlugin, To)(ISoWcfRequestInterceptorPlugin)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ISoWcfRequestInterceptorPlugin, To>
-    nameWithType: Converters.MapEnums<ISoWcfRequestInterceptorPlugin, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin
+    name: ISoWcfRequestInterceptorPlugin
+    isExternal: true
+    href: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin
+    name: ISoWcfRequestInterceptorPlugin
+    isExternal: true
+    href: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ISoWcfRequestInterceptorPlugin, To)
-    nameWithType: Converters.MapEnums(Of ISoWcfRequestInterceptorPlugin, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin
+    name: ISoWcfRequestInterceptorPlugin
+    isExternal: true
+    href: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin
+    name: ISoWcfRequestInterceptorPlugin
+    isExternal: true
+    href: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.html
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -278,43 +365,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -323,50 +412,90 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnAuthenticate*
   commentId: Overload:SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnAuthenticate
   isExternal: true
+  href: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.html#SuperOffice_Services_WcfService_ISoWcfRequestInterceptorPlugin_OnAuthenticate_System_String_System_String_System_String_
   name: OnAuthenticate
   nameWithType: ISoWcfRequestInterceptorPlugin.OnAuthenticate
   fullName: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnAuthenticate
@@ -374,25 +503,25 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Services.WcfService.OnAuthenticateResponse
   commentId: T:SuperOffice.Services.WcfService.OnAuthenticateResponse
   parent: SuperOffice.Services.WcfService
   isExternal: true
+  href: SuperOffice.Services.WcfService.OnAuthenticateResponse.html
   name: OnAuthenticateResponse
   nameWithType: OnAuthenticateResponse
   fullName: SuperOffice.Services.WcfService.OnAuthenticateResponse
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecute*
   commentId: Overload:SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecute
   isExternal: true
+  href: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.html#SuperOffice_Services_WcfService_ISoWcfRequestInterceptorPlugin_OnExecute_System_String_System_String_System_String_SuperOffice_Services_WcfService_WcfRequestInterceptorState__
   name: OnExecute
   nameWithType: ISoWcfRequestInterceptorPlugin.OnExecute
   fullName: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecute
@@ -400,142 +529,118 @@ references:
   commentId: T:SuperOffice.Services.WcfService.WcfRequestInterceptorState
   parent: SuperOffice.Services.WcfService
   isExternal: true
+  href: SuperOffice.Services.WcfService.WcfRequestInterceptorState.html
   name: WcfRequestInterceptorState
   nameWithType: WcfRequestInterceptorState
   fullName: SuperOffice.Services.WcfService.WcfRequestInterceptorState
 - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecuted*
   commentId: Overload:SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecuted
   isExternal: true
+  href: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.html#SuperOffice_Services_WcfService_ISoWcfRequestInterceptorPlugin_OnExecuted_System_String_System_String_System_String_System_Func_System_Collections_Generic_Dictionary_System_String_System_String___SuperOffice_Services_WcfService_WcfRequestInterceptorState__
   name: OnExecuted
   nameWithType: ISoWcfRequestInterceptorPlugin.OnExecuted
   fullName: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnExecuted
 - uid: System.Func{System.Collections.Generic.Dictionary{System.String,System.String}}
-  commentId: '!:System.Func{System.Collections.Generic.Dictionary{System.String,System.String}}'
+  commentId: T:System.Func{System.Collections.Generic.Dictionary{System.String,System.String}}
+  parent: System
   definition: System.Func`1
-  name: Func<Dictionary<String, String>>
-  nameWithType: Func<Dictionary<String, String>>
-  fullName: System.Func<System.Collections.Generic.Dictionary<System.String, System.String>>
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<Dictionary<string, string>>
+  nameWithType: Func<Dictionary<string, string>>
+  fullName: System.Func<System.Collections.Generic.Dictionary<string, string>>
   nameWithType.vb: Func(Of Dictionary(Of String, String))
-  fullName.vb: System.Func(Of System.Collections.Generic.Dictionary(Of System.String, System.String))
+  fullName.vb: System.Func(Of System.Collections.Generic.Dictionary(Of String, String))
   name.vb: Func(Of Dictionary(Of String, String))
   spec.csharp:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Func`1
+  commentId: T:System.Func`1
   isExternal: true
-  name: Func<>
-  nameWithType: Func<>
-  fullName: System.Func<>
-  nameWithType.vb: Func(Of )
-  fullName.vb: System.Func(Of )
-  name.vb: Func(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
   spec.csharp:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Func`1
     name: Func
-    nameWithType: Func
-    fullName: System.Func
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnError*
   commentId: Overload:SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnError
   isExternal: true
+  href: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.html#SuperOffice_Services_WcfService_ISoWcfRequestInterceptorPlugin_OnError_System_String_System_String_System_String_System_Exception_SuperOffice_Services_WcfService_WcfRequestInterceptorState__
   name: OnError
   nameWithType: ISoWcfRequestInterceptorPlugin.OnError
   fullName: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin.OnError
 - uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
   name: Exception
   nameWithType: Exception
   fullName: System.Exception

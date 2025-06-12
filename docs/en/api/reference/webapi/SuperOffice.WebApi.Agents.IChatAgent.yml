@@ -43,24 +43,16 @@ items:
   nameWithType: IChatAgent
   fullName: SuperOffice.WebApi.Agents.IChatAgent
   type: Interface
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nChat functions. Manage chat channels, sessions and messages.\n"
+  summary: Chat functions. Manage chat channels, sessions and messages.
+  example: []
   syntax:
     content: 'public interface IChatAgent : IDisposable'
-    content.vb: >-
-      Public Interface IChatAgent
-          Inherits IDisposable
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+    content.vb: Public Interface IChatAgent Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
 - uid: SuperOffice.WebApi.Agents.IChatAgent.CreateDefaultChatSessionEntityAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.CreateDefaultChatSessionEntityAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultChatSessionEntityAsync(SuperOffice.WebApi.RequestOptions)
@@ -72,19 +64,20 @@ items:
   nameWithType: IChatAgent.CreateDefaultChatSessionEntityAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IChatAgent.CreateDefaultChatSessionEntityAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet default values into a new ChatSessionEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Set default values into a new ChatSessionEntity.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
     content: Task<ChatSessionEntity> CreateDefaultChatSessionEntityAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity}
       description: A blank ChatSessionEntity
@@ -101,13 +94,11 @@ items:
   nameWithType: IChatAgent.SaveChatSessionEntityAsync(ChatSessionEntity, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IChatAgent.SaveChatSessionEntityAsync(SuperOffice.WebApi.Data.ChatSessionEntity, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nUpdates the existing ChatSessionEntity or creates a new ChatSessionEntity if the id parameter is 0. \n"
+  summary: Updates the existing ChatSessionEntity or creates a new ChatSessionEntity if the id parameter is 0.
+  example: []
   syntax:
     content: Task<ChatSessionEntity> SaveChatSessionEntityAsync(ChatSessionEntity chatSessionEntity, RequestOptions requestOptions = null)
     parameters:
@@ -116,7 +107,7 @@ items:
       description: The ChatSessionEntity that is saved.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity}
       description: New or updated ChatSessionEntity
@@ -129,17 +120,15 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteChatSessionEntityAsync(Int32, RequestOptions)
-  nameWithType: IChatAgent.DeleteChatSessionEntityAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatSessionEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: DeleteChatSessionEntityAsync(int, RequestOptions)
+  nameWithType: IChatAgent.DeleteChatSessionEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatSessionEntityAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nDeletes the ChatSessionEntity\n"
+  summary: Deletes the ChatSessionEntity
+  example: []
   syntax:
     content: Task DeleteChatSessionEntityAsync(int chatSessionEntityId, RequestOptions requestOptions = null)
     parameters:
@@ -148,11 +137,14 @@ items:
       description: The identity of the ChatSessionEntity
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
     content.vb: Function DeleteChatSessionEntityAsync(chatSessionEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatSessionEntityAsync*
+  nameWithType.vb: IChatAgent.DeleteChatSessionEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatSessionEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteChatSessionEntityAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.CreateDefaultChatTopicAgentAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.CreateDefaultChatTopicAgentAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultChatTopicAgentAsync(SuperOffice.WebApi.RequestOptions)
@@ -164,19 +156,20 @@ items:
   nameWithType: IChatAgent.CreateDefaultChatTopicAgentAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IChatAgent.CreateDefaultChatTopicAgentAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet default values into a new ChatTopicAgent.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Set default values into a new ChatTopicAgent.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
     content: Task<ChatTopicAgent> CreateDefaultChatTopicAgentAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicAgent}
       description: A blank ChatTopicAgent
@@ -193,19 +186,20 @@ items:
   nameWithType: IChatAgent.CreateDefaultChatTopicEntityAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IChatAgent.CreateDefaultChatTopicEntityAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet default values into a new ChatTopicEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Set default values into a new ChatTopicEntity.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
     content: Task<ChatTopicEntity> CreateDefaultChatTopicEntityAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicEntity}
       description: A blank ChatTopicEntity
@@ -222,13 +216,11 @@ items:
   nameWithType: IChatAgent.SaveChatTopicEntityAsync(ChatTopicEntity, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IChatAgent.SaveChatTopicEntityAsync(SuperOffice.WebApi.Data.ChatTopicEntity, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nUpdates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id parameter is 0. \n"
+  summary: Updates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id parameter is 0.
+  example: []
   syntax:
     content: Task<ChatTopicEntity> SaveChatTopicEntityAsync(ChatTopicEntity chatTopicEntity, RequestOptions requestOptions = null)
     parameters:
@@ -237,7 +229,7 @@ items:
       description: The ChatTopicEntity that is saved.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicEntity}
       description: New or updated ChatTopicEntity
@@ -250,17 +242,15 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteChatTopicEntityAsync(Int32, RequestOptions)
-  nameWithType: IChatAgent.DeleteChatTopicEntityAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatTopicEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: DeleteChatTopicEntityAsync(int, RequestOptions)
+  nameWithType: IChatAgent.DeleteChatTopicEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatTopicEntityAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nDeletes the ChatTopicEntity\n"
+  summary: Deletes the ChatTopicEntity
+  example: []
   syntax:
     content: Task DeleteChatTopicEntityAsync(int chatTopicEntityId, RequestOptions requestOptions = null)
     parameters:
@@ -269,11 +259,14 @@ items:
       description: The identity of the ChatTopicEntity
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
     content.vb: Function DeleteChatTopicEntityAsync(chatTopicEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatTopicEntityAsync*
+  nameWithType.vb: IChatAgent.DeleteChatTopicEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatTopicEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteChatTopicEntityAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.GetChatPresenceAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.GetChatPresenceAsync(SuperOffice.WebApi.RequestOptions)
   id: GetChatPresenceAsync(SuperOffice.WebApi.RequestOptions)
@@ -285,19 +278,17 @@ items:
   nameWithType: IChatAgent.GetChatPresenceAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatPresenceAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet the chat presence status for all chat users\n"
+  summary: Get the chat presence status for all chat users
+  example: []
   syntax:
     content: Task<ChatPresence[]> GetChatPresenceAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatPresence[]}
       description: An array with ChatPresence objects for each user
@@ -314,13 +305,11 @@ items:
   nameWithType: IChatAgent.SaveChatPresenceAsync(ChatPresence[], RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IChatAgent.SaveChatPresenceAsync(SuperOffice.WebApi.Data.ChatPresence[], SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSave the chat presence for specified users\n"
+  summary: Save the chat presence for specified users
+  example: []
   syntax:
     content: Task SaveChatPresenceAsync(ChatPresence[] chatPresence, RequestOptions requestOptions = null)
     parameters:
@@ -329,7 +318,7 @@ items:
       description: An array with ChatPresence objects. Only the UserId and Present information is used while saving
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: void
@@ -345,17 +334,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetChatSessionEntityAsync(Int32, RequestOptions)
-  nameWithType: IChatAgent.GetChatSessionEntityAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatSessionEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetChatSessionEntityAsync(int, RequestOptions)
+  nameWithType: IChatAgent.GetChatSessionEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatSessionEntityAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets a specific ChatSessionEntity object.                        \n"
+  summary: Gets a specific ChatSessionEntity object.
+  example: []
   syntax:
     content: Task<ChatSessionEntity> GetChatSessionEntityAsync(int chatSessionEntityId, RequestOptions requestOptions = null)
     parameters:
@@ -364,12 +351,15 @@ items:
       description: The identifier of the ChatSessionEntity object
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity}
       description: ChatSessionEntity
     content.vb: Function GetChatSessionEntityAsync(chatSessionEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ChatSessionEntity)
   overload: SuperOffice.WebApi.Agents.IChatAgent.GetChatSessionEntityAsync*
+  nameWithType.vb: IChatAgent.GetChatSessionEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.GetChatSessionEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetChatSessionEntityAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.ChatSessionsForUserAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.ChatSessionsForUserAsync(SuperOffice.WebApi.RequestOptions)
   id: ChatSessionsForUserAsync(SuperOffice.WebApi.RequestOptions)
@@ -381,19 +371,17 @@ items:
   nameWithType: IChatAgent.ChatSessionsForUserAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IChatAgent.ChatSessionsForUserAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet all chat sessions which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager\n"
+  summary: 'Get all chat sessions which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager'
+  example: []
   syntax:
     content: Task<ChatSessionEntity[]> ChatSessionsForUserAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity[]}
       description: Array of chat sessions the current user can access
@@ -406,17 +394,15 @@ items:
   langs:
   - csharp
   - vb
-  name: TransferChatSessionAsync(Int32, String, RequestOptions)
-  nameWithType: IChatAgent.TransferChatSessionAsync(Int32, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.TransferChatSessionAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name: TransferChatSessionAsync(int, string, RequestOptions)
+  nameWithType: IChatAgent.TransferChatSessionAsync(int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.TransferChatSessionAsync(int, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nRequest to send the session to another user. If the session does not belong to the user, nothing happens.\n"
+  summary: Request to send the session to another user. If the session does not belong to the user, nothing happens.
+  example: []
   syntax:
     content: Task<ChatSessionEntity> TransferChatSessionAsync(int chatSessionId, string toAssociate, RequestOptions requestOptions = null)
     parameters:
@@ -428,12 +414,15 @@ items:
       description: Associate username or associate id to send session to.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity}
       description: The updated chat session
     content.vb: Function TransferChatSessionAsync(chatSessionId As Integer, toAssociate As String, requestOptions As RequestOptions = Nothing) As Task(Of ChatSessionEntity)
   overload: SuperOffice.WebApi.Agents.IChatAgent.TransferChatSessionAsync*
+  nameWithType.vb: IChatAgent.TransferChatSessionAsync(Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.TransferChatSessionAsync(Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: TransferChatSessionAsync(Integer, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.AcceptChatSessionTransferAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.AcceptChatSessionTransferAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: AcceptChatSessionTransferAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -441,17 +430,15 @@ items:
   langs:
   - csharp
   - vb
-  name: AcceptChatSessionTransferAsync(Int32, RequestOptions)
-  nameWithType: IChatAgent.AcceptChatSessionTransferAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.AcceptChatSessionTransferAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: AcceptChatSessionTransferAsync(int, RequestOptions)
+  nameWithType: IChatAgent.AcceptChatSessionTransferAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.AcceptChatSessionTransferAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nAccept the transfer: assign the session to the user. If the session is not being transferred, nothing happens.\n"
+  summary: 'Accept the transfer: assign the session to the user. If the session is not being transferred, nothing happens.'
+  example: []
   syntax:
     content: Task<ChatSessionEntity> AcceptChatSessionTransferAsync(int chatSessionId, RequestOptions requestOptions = null)
     parameters:
@@ -460,12 +447,15 @@ items:
       description: id of the chat session to send
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity}
       description: The updated chat session
     content.vb: Function AcceptChatSessionTransferAsync(chatSessionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ChatSessionEntity)
   overload: SuperOffice.WebApi.Agents.IChatAgent.AcceptChatSessionTransferAsync*
+  nameWithType.vb: IChatAgent.AcceptChatSessionTransferAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.AcceptChatSessionTransferAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: AcceptChatSessionTransferAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.RejectChatSessionTransferAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.RejectChatSessionTransferAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: RejectChatSessionTransferAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -473,17 +463,15 @@ items:
   langs:
   - csharp
   - vb
-  name: RejectChatSessionTransferAsync(Int32, RequestOptions)
-  nameWithType: IChatAgent.RejectChatSessionTransferAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.RejectChatSessionTransferAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: RejectChatSessionTransferAsync(int, RequestOptions)
+  nameWithType: IChatAgent.RejectChatSessionTransferAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.RejectChatSessionTransferAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nDo not want. Deny the transfer to the user. If the session is not being transferred, nothing happens.\n"
+  summary: Do not want. Deny the transfer to the user. If the session is not being transferred, nothing happens.
+  example: []
   syntax:
     content: Task<ChatSessionEntity> RejectChatSessionTransferAsync(int chatSessionId, RequestOptions requestOptions = null)
     parameters:
@@ -492,12 +480,15 @@ items:
       description: id of the chat session to send back
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity}
       description: The updated chat session
     content.vb: Function RejectChatSessionTransferAsync(chatSessionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ChatSessionEntity)
   overload: SuperOffice.WebApi.Agents.IChatAgent.RejectChatSessionTransferAsync*
+  nameWithType.vb: IChatAgent.RejectChatSessionTransferAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.RejectChatSessionTransferAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: RejectChatSessionTransferAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.PickUpChatSessionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.PickUpChatSessionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: PickUpChatSessionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -505,17 +496,15 @@ items:
   langs:
   - csharp
   - vb
-  name: PickUpChatSessionAsync(Int32, RequestOptions)
-  nameWithType: IChatAgent.PickUpChatSessionAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.PickUpChatSessionAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: PickUpChatSessionAsync(int, RequestOptions)
+  nameWithType: IChatAgent.PickUpChatSessionAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.PickUpChatSessionAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\n&apos;answer&apos; the session: assign the session to the user. The welcome message is sent to the customer. Returns NULL if session was not in queue.\n"
+  summary: "'answer' the session: assign the session to the user. The welcome message is sent to the customer. Returns NULL if session was not in queue."
+  example: []
   syntax:
     content: Task<ChatSessionEntity> PickUpChatSessionAsync(int chatSessionId, RequestOptions requestOptions = null)
     parameters:
@@ -524,12 +513,15 @@ items:
       description: id of the chat session to answer
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity}
       description: The chat session
     content.vb: Function PickUpChatSessionAsync(chatSessionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ChatSessionEntity)
   overload: SuperOffice.WebApi.Agents.IChatAgent.PickUpChatSessionAsync*
+  nameWithType.vb: IChatAgent.PickUpChatSessionAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.PickUpChatSessionAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: PickUpChatSessionAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.PickUpFirstChatSessionAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.PickUpFirstChatSessionAsync(SuperOffice.WebApi.RequestOptions)
   id: PickUpFirstChatSessionAsync(SuperOffice.WebApi.RequestOptions)
@@ -541,19 +533,17 @@ items:
   nameWithType: IChatAgent.PickUpFirstChatSessionAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IChatAgent.PickUpFirstChatSessionAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\n&apos;answer&apos; the first available session from the queue: assign the session to the user. The welcome message is sent to the customer.\n"
+  summary: "'answer' the first available session from the queue: assign the session to the user. The welcome message is sent to the customer."
+  example: []
   syntax:
     content: Task<ChatSessionEntity> PickUpFirstChatSessionAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity}
       description: The picked-up chat session
@@ -566,17 +556,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ResetChatSessionAsync(Int32, RequestOptions)
-  nameWithType: IChatAgent.ResetChatSessionAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.ResetChatSessionAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: ResetChatSessionAsync(int, RequestOptions)
+  nameWithType: IChatAgent.ResetChatSessionAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.ResetChatSessionAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReset chat session, put it back on the queue for pickup. Used by bots to hand off a session to human\n"
+  summary: Reset chat session, put it back on the queue for pickup. Used by bots to hand off a session to human
+  example: []
   syntax:
     content: Task<ChatSessionEntity> ResetChatSessionAsync(int chatSessionId, RequestOptions requestOptions = null)
     parameters:
@@ -585,12 +573,15 @@ items:
       description: id of the chat session to reset
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity}
       description: The updated chat session
     content.vb: Function ResetChatSessionAsync(chatSessionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ChatSessionEntity)
   overload: SuperOffice.WebApi.Agents.IChatAgent.ResetChatSessionAsync*
+  nameWithType.vb: IChatAgent.ResetChatSessionAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.ResetChatSessionAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: ResetChatSessionAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.GetChatTranscriptAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.GetChatTranscriptAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: GetChatTranscriptAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -598,17 +589,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetChatTranscriptAsync(Int32, Boolean, RequestOptions)
-  nameWithType: IChatAgent.GetChatTranscriptAsync(Int32, Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatTranscriptAsync(System.Int32, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name: GetChatTranscriptAsync(int, bool, RequestOptions)
+  nameWithType: IChatAgent.GetChatTranscriptAsync(int, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatTranscriptAsync(int, bool, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet the chat transcript, formatted as plain text or html\n"
+  summary: Get the chat transcript, formatted as plain text or html
+  example: []
   syntax:
     content: Task<string> GetChatTranscriptAsync(int chatSessionId, bool html, RequestOptions requestOptions = null)
     parameters:
@@ -620,12 +609,15 @@ items:
       description: Get transcript as HTML
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: The transcript in text or HTML
     content.vb: Function GetChatTranscriptAsync(chatSessionId As Integer, html As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.IChatAgent.GetChatTranscriptAsync*
+  nameWithType.vb: IChatAgent.GetChatTranscriptAsync(Integer, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.GetChatTranscriptAsync(Integer, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetChatTranscriptAsync(Integer, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.GetChatMessagesAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.GetChatMessagesAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetChatMessagesAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -633,17 +625,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetChatMessagesAsync(Int32, Int32, RequestOptions)
-  nameWithType: IChatAgent.GetChatMessagesAsync(Int32, Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatMessagesAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetChatMessagesAsync(int, int, RequestOptions)
+  nameWithType: IChatAgent.GetChatMessagesAsync(int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatMessagesAsync(int, int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet all or some of the messages in a chat session\n"
+  summary: Get all or some of the messages in a chat session
+  example: []
   syntax:
     content: Task<ChatMessage[]> GetChatMessagesAsync(int chatSessionId, int after, RequestOptions requestOptions = null)
     parameters:
@@ -655,12 +645,15 @@ items:
       description: Return messages after this message id
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatMessage[]}
       description: Array of chat messages in the session
     content.vb: Function GetChatMessagesAsync(chatSessionId As Integer, after As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ChatMessage())
   overload: SuperOffice.WebApi.Agents.IChatAgent.GetChatMessagesAsync*
+  nameWithType.vb: IChatAgent.GetChatMessagesAsync(Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.GetChatMessagesAsync(Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetChatMessagesAsync(Integer, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.AddChatMessageAsync(System.Int32,SuperOffice.WebApi.Data.ChatMessage,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.AddChatMessageAsync(System.Int32,SuperOffice.WebApi.Data.ChatMessage,SuperOffice.WebApi.RequestOptions)
   id: AddChatMessageAsync(System.Int32,SuperOffice.WebApi.Data.ChatMessage,SuperOffice.WebApi.RequestOptions)
@@ -668,17 +661,15 @@ items:
   langs:
   - csharp
   - vb
-  name: AddChatMessageAsync(Int32, ChatMessage, RequestOptions)
-  nameWithType: IChatAgent.AddChatMessageAsync(Int32, ChatMessage, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.AddChatMessageAsync(System.Int32, SuperOffice.WebApi.Data.ChatMessage, SuperOffice.WebApi.RequestOptions)
+  name: AddChatMessageAsync(int, ChatMessage, RequestOptions)
+  nameWithType: IChatAgent.AddChatMessageAsync(int, ChatMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.AddChatMessageAsync(int, SuperOffice.WebApi.Data.ChatMessage, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nAdd a new message to a chat session\n"
+  summary: Add a new message to a chat session
+  example: []
   syntax:
     content: Task<ChatMessage> AddChatMessageAsync(int chatSessionId, ChatMessage message, RequestOptions requestOptions = null)
     parameters:
@@ -690,12 +681,15 @@ items:
       description: Message to add
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatMessage}
       description: The chat message added to the session
     content.vb: Function AddChatMessageAsync(chatSessionId As Integer, message As ChatMessage, requestOptions As RequestOptions = Nothing) As Task(Of ChatMessage)
   overload: SuperOffice.WebApi.Agents.IChatAgent.AddChatMessageAsync*
+  nameWithType.vb: IChatAgent.AddChatMessageAsync(Integer, ChatMessage, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.AddChatMessageAsync(Integer, SuperOffice.WebApi.Data.ChatMessage, SuperOffice.WebApi.RequestOptions)
+  name.vb: AddChatMessageAsync(Integer, ChatMessage, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetChatTopicEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -703,17 +697,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetChatTopicEntityAsync(Int32, RequestOptions)
-  nameWithType: IChatAgent.GetChatTopicEntityAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetChatTopicEntityAsync(int, RequestOptions)
+  nameWithType: IChatAgent.GetChatTopicEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicEntityAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets a specific ChatTopicEntity object.                        \n"
+  summary: Gets a specific ChatTopicEntity object.
+  example: []
   syntax:
     content: Task<ChatTopicEntity> GetChatTopicEntityAsync(int chatTopicEntityId, RequestOptions requestOptions = null)
     parameters:
@@ -722,12 +714,15 @@ items:
       description: The identifier of the ChatTopicEntity object
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicEntity}
       description: ChatTopicEntity
     content.vb: Function GetChatTopicEntityAsync(chatTopicEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ChatTopicEntity)
   overload: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicEntityAsync*
+  nameWithType.vb: IChatAgent.GetChatTopicEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetChatTopicEntityAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.IsWithinOpeningHoursAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.IsWithinOpeningHoursAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: IsWithinOpeningHoursAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -735,17 +730,15 @@ items:
   langs:
   - csharp
   - vb
-  name: IsWithinOpeningHoursAsync(Int32, RequestOptions)
-  nameWithType: IChatAgent.IsWithinOpeningHoursAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.IsWithinOpeningHoursAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: IsWithinOpeningHoursAsync(int, RequestOptions)
+  nameWithType: IChatAgent.IsWithinOpeningHoursAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.IsWithinOpeningHoursAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nCheck if we are right now within the opening hours of the given topic. Will use timezones to calculate if configured.\n"
+  summary: Check if we are right now within the opening hours of the given topic. Will use timezones to calculate if configured.
+  example: []
   syntax:
     content: Task<bool> IsWithinOpeningHoursAsync(int chatTopicId, RequestOptions requestOptions = null)
     parameters:
@@ -754,12 +747,15 @@ items:
       description: The id of the topic to check
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: True if we are within opening hours, or if the topic does not use opening hours
     content.vb: Function IsWithinOpeningHoursAsync(chatTopicId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.IChatAgent.IsWithinOpeningHoursAsync*
+  nameWithType.vb: IChatAgent.IsWithinOpeningHoursAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.IsWithinOpeningHoursAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: IsWithinOpeningHoursAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.ChatTopicsForUserAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.ChatTopicsForUserAsync(SuperOffice.WebApi.RequestOptions)
   id: ChatTopicsForUserAsync(SuperOffice.WebApi.RequestOptions)
@@ -771,19 +767,17 @@ items:
   nameWithType: IChatAgent.ChatTopicsForUserAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IChatAgent.ChatTopicsForUserAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet all chat topics which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager\n"
+  summary: 'Get all chat topics which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager'
+  example: []
   syntax:
     content: Task<ChatTopicEntity[]> ChatTopicsForUserAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicEntity[]}
       description: Array of chat topics the current user can access
@@ -796,17 +790,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserAgentListAsync(Boolean, Boolean, RequestOptions)
-  nameWithType: IChatAgent.GetUserAgentListAsync(Boolean, Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.GetUserAgentListAsync(System.Boolean, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name: GetUserAgentListAsync(bool, bool, RequestOptions)
+  nameWithType: IChatAgent.GetUserAgentListAsync(bool, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.GetUserAgentListAsync(bool, bool, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet list of users that can be assigned to chat topics. Users with Chat-CALs from the MDO list &apos;chatuser&apos;\n"
+  summary: Get list of users that can be assigned to chat topics. Users with Chat-CALs from the MDO list 'chatuser'
+  example: []
   syntax:
     content: Task<MDOListItem[]> GetUserAgentListAsync(bool flat, bool onlyPresent, RequestOptions requestOptions = null)
     parameters:
@@ -818,12 +810,15 @@ items:
       description: Only show users who are present
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}
       description: List of user agents that can be assigned to chat topics, possibly grouped by usergroup.
     content.vb: Function GetUserAgentListAsync(flat As Boolean, onlyPresent As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of MDOListItem())
   overload: SuperOffice.WebApi.Agents.IChatAgent.GetUserAgentListAsync*
+  nameWithType.vb: IChatAgent.GetUserAgentListAsync(Boolean, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.GetUserAgentListAsync(Boolean, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetUserAgentListAsync(Boolean, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentListAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentListAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetChatTopicUserAgentListAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -831,17 +826,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetChatTopicUserAgentListAsync(Int32, RequestOptions)
-  nameWithType: IChatAgent.GetChatTopicUserAgentListAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentListAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetChatTopicUserAgentListAsync(int, RequestOptions)
+  nameWithType: IChatAgent.GetChatTopicUserAgentListAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentListAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet list of users assigned to a chat topic\n"
+  summary: Get list of users assigned to a chat topic
+  example: []
   syntax:
     content: Task<ChatTopicAgent[]> GetChatTopicUserAgentListAsync(int chatTopicId, RequestOptions requestOptions = null)
     parameters:
@@ -850,12 +843,15 @@ items:
       description: Id of the chat topic
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicAgent[]}
       description: List of user agents assigned to chat topic.
     content.vb: Function GetChatTopicUserAgentListAsync(chatTopicId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ChatTopicAgent())
   overload: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentListAsync*
+  nameWithType.vb: IChatAgent.GetChatTopicUserAgentListAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentListAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetChatTopicUserAgentListAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: GetChatTopicUserAgentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -863,17 +859,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetChatTopicUserAgentAsync(Int32, String, RequestOptions)
-  nameWithType: IChatAgent.GetChatTopicUserAgentAsync(Int32, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name: GetChatTopicUserAgentAsync(int, string, RequestOptions)
+  nameWithType: IChatAgent.GetChatTopicUserAgentAsync(int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentAsync(int, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet a user assigned to a topic\n"
+  summary: Get a user assigned to a topic
+  example: []
   syntax:
     content: Task<ChatTopicAgent> GetChatTopicUserAgentAsync(int chatTopicId, string username, RequestOptions requestOptions = null)
     parameters:
@@ -885,12 +879,15 @@ items:
       description: Associate username or associate id to get.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicAgent}
-      description: The user&apos;s role within the chat topic.
+      description: The user's role within the chat topic.
     content.vb: Function GetChatTopicUserAgentAsync(chatTopicId As Integer, username As String, requestOptions As RequestOptions = Nothing) As Task(Of ChatTopicAgent)
   overload: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentAsync*
+  nameWithType.vb: IChatAgent.GetChatTopicUserAgentAsync(Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentAsync(Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetChatTopicUserAgentAsync(Integer, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.AddChatTopicUserAgentAsync(System.Int32,SuperOffice.WebApi.Data.ChatTopicAgent,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.AddChatTopicUserAgentAsync(System.Int32,SuperOffice.WebApi.Data.ChatTopicAgent,SuperOffice.WebApi.RequestOptions)
   id: AddChatTopicUserAgentAsync(System.Int32,SuperOffice.WebApi.Data.ChatTopicAgent,SuperOffice.WebApi.RequestOptions)
@@ -898,17 +895,15 @@ items:
   langs:
   - csharp
   - vb
-  name: AddChatTopicUserAgentAsync(Int32, ChatTopicAgent, RequestOptions)
-  nameWithType: IChatAgent.AddChatTopicUserAgentAsync(Int32, ChatTopicAgent, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.AddChatTopicUserAgentAsync(System.Int32, SuperOffice.WebApi.Data.ChatTopicAgent, SuperOffice.WebApi.RequestOptions)
+  name: AddChatTopicUserAgentAsync(int, ChatTopicAgent, RequestOptions)
+  nameWithType: IChatAgent.AddChatTopicUserAgentAsync(int, ChatTopicAgent, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.AddChatTopicUserAgentAsync(int, SuperOffice.WebApi.Data.ChatTopicAgent, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nAdd a user to a chat topic\n"
+  summary: Add a user to a chat topic
+  example: []
   syntax:
     content: Task<ChatTopicAgent> AddChatTopicUserAgentAsync(int chatTopicId, ChatTopicAgent useragent, RequestOptions requestOptions = null)
     parameters:
@@ -917,15 +912,18 @@ items:
       description: Id of the chat topic
     - id: useragent
       type: SuperOffice.WebApi.Data.ChatTopicAgent
-      description: User&apos;s role within the chat topic to add to topic.
+      description: User's role within the chat topic to add to topic.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicAgent}
-      description: The user&apos;s role within the chat topic.
+      description: The user's role within the chat topic.
     content.vb: Function AddChatTopicUserAgentAsync(chatTopicId As Integer, useragent As ChatTopicAgent, requestOptions As RequestOptions = Nothing) As Task(Of ChatTopicAgent)
   overload: SuperOffice.WebApi.Agents.IChatAgent.AddChatTopicUserAgentAsync*
+  nameWithType.vb: IChatAgent.AddChatTopicUserAgentAsync(Integer, ChatTopicAgent, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.AddChatTopicUserAgentAsync(Integer, SuperOffice.WebApi.Data.ChatTopicAgent, SuperOffice.WebApi.RequestOptions)
+  name.vb: AddChatTopicUserAgentAsync(Integer, ChatTopicAgent, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentAsync(System.Int32,System.String,SuperOffice.WebApi.Data.ChatTopicAgent,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentAsync(System.Int32,System.String,SuperOffice.WebApi.Data.ChatTopicAgent,SuperOffice.WebApi.RequestOptions)
   id: UpdateChatTopicUserAgentAsync(System.Int32,System.String,SuperOffice.WebApi.Data.ChatTopicAgent,SuperOffice.WebApi.RequestOptions)
@@ -933,17 +931,15 @@ items:
   langs:
   - csharp
   - vb
-  name: UpdateChatTopicUserAgentAsync(Int32, String, ChatTopicAgent, RequestOptions)
-  nameWithType: IChatAgent.UpdateChatTopicUserAgentAsync(Int32, String, ChatTopicAgent, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentAsync(System.Int32, System.String, SuperOffice.WebApi.Data.ChatTopicAgent, SuperOffice.WebApi.RequestOptions)
+  name: UpdateChatTopicUserAgentAsync(int, string, ChatTopicAgent, RequestOptions)
+  nameWithType: IChatAgent.UpdateChatTopicUserAgentAsync(int, string, ChatTopicAgent, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentAsync(int, string, SuperOffice.WebApi.Data.ChatTopicAgent, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nUpdate a user&apos;s role in a chat topic\n"
+  summary: Update a user's role in a chat topic
+  example: []
   syntax:
     content: Task<ChatTopicAgent> UpdateChatTopicUserAgentAsync(int chatTopicId, string username, ChatTopicAgent useragent, RequestOptions requestOptions = null)
     parameters:
@@ -955,15 +951,18 @@ items:
       description: Associate username or associate id to get.
     - id: useragent
       type: SuperOffice.WebApi.Data.ChatTopicAgent
-      description: User&apos;s updated role within the chat topic.
+      description: User's updated role within the chat topic.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicAgent}
-      description: The user&apos;s role within the chat topic.
+      description: The user's role within the chat topic.
     content.vb: Function UpdateChatTopicUserAgentAsync(chatTopicId As Integer, username As String, useragent As ChatTopicAgent, requestOptions As RequestOptions = Nothing) As Task(Of ChatTopicAgent)
   overload: SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentAsync*
+  nameWithType.vb: IChatAgent.UpdateChatTopicUserAgentAsync(Integer, String, ChatTopicAgent, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentAsync(Integer, String, SuperOffice.WebApi.Data.ChatTopicAgent, SuperOffice.WebApi.RequestOptions)
+  name.vb: UpdateChatTopicUserAgentAsync(Integer, String, ChatTopicAgent, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentsAsync(System.Int32,SuperOffice.WebApi.Data.ChatTopicAgent[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentsAsync(System.Int32,SuperOffice.WebApi.Data.ChatTopicAgent[],SuperOffice.WebApi.RequestOptions)
   id: UpdateChatTopicUserAgentsAsync(System.Int32,SuperOffice.WebApi.Data.ChatTopicAgent[],SuperOffice.WebApi.RequestOptions)
@@ -971,17 +970,15 @@ items:
   langs:
   - csharp
   - vb
-  name: UpdateChatTopicUserAgentsAsync(Int32, ChatTopicAgent[], RequestOptions)
-  nameWithType: IChatAgent.UpdateChatTopicUserAgentsAsync(Int32, ChatTopicAgent[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentsAsync(System.Int32, SuperOffice.WebApi.Data.ChatTopicAgent[], SuperOffice.WebApi.RequestOptions)
+  name: UpdateChatTopicUserAgentsAsync(int, ChatTopicAgent[], RequestOptions)
+  nameWithType: IChatAgent.UpdateChatTopicUserAgentsAsync(int, ChatTopicAgent[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentsAsync(int, SuperOffice.WebApi.Data.ChatTopicAgent[], SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nUpdate users roles in a chat topic\n"
+  summary: Update users roles in a chat topic
+  example: []
   syntax:
     content: Task<ChatTopicAgent[]> UpdateChatTopicUserAgentsAsync(int chatTopicId, ChatTopicAgent[] useragents, RequestOptions requestOptions = null)
     parameters:
@@ -993,15 +990,15 @@ items:
       description: Users new/updated roles within the chat topic. Replaces existing roles
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicAgent[]}
       description: The updated agents within the chat topic.
     content.vb: Function UpdateChatTopicUserAgentsAsync(chatTopicId As Integer, useragents As ChatTopicAgent(), requestOptions As RequestOptions = Nothing) As Task(Of ChatTopicAgent())
   overload: SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentsAsync*
-  nameWithType.vb: IChatAgent.UpdateChatTopicUserAgentsAsync(Int32, ChatTopicAgent(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentsAsync(System.Int32, SuperOffice.WebApi.Data.ChatTopicAgent(), SuperOffice.WebApi.RequestOptions)
-  name.vb: UpdateChatTopicUserAgentsAsync(Int32, ChatTopicAgent(), RequestOptions)
+  nameWithType.vb: IChatAgent.UpdateChatTopicUserAgentsAsync(Integer, ChatTopicAgent(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentsAsync(Integer, SuperOffice.WebApi.Data.ChatTopicAgent(), SuperOffice.WebApi.RequestOptions)
+  name.vb: UpdateChatTopicUserAgentsAsync(Integer, ChatTopicAgent(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatTopicUserAgentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.DeleteChatTopicUserAgentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: DeleteChatTopicUserAgentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -1009,17 +1006,15 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteChatTopicUserAgentAsync(Int32, String, RequestOptions)
-  nameWithType: IChatAgent.DeleteChatTopicUserAgentAsync(Int32, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatTopicUserAgentAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name: DeleteChatTopicUserAgentAsync(int, string, RequestOptions)
+  nameWithType: IChatAgent.DeleteChatTopicUserAgentAsync(int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatTopicUserAgentAsync(int, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nRemove a user from a topic\n"
+  summary: Remove a user from a topic
+  example: []
   syntax:
     content: Task DeleteChatTopicUserAgentAsync(int chatTopicId, string username, RequestOptions requestOptions = null)
     parameters:
@@ -1031,12 +1026,15 @@ items:
       description: Associate username or associate id to delete.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
     content.vb: Function DeleteChatTopicUserAgentAsync(chatTopicId As Integer, username As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatTopicUserAgentAsync*
+  nameWithType.vb: IChatAgent.DeleteChatTopicUserAgentAsync(Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatTopicUserAgentAsync(Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteChatTopicUserAgentAsync(Integer, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IChatAgent.CreateChatSessionForTopicAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IChatAgent.CreateChatSessionForTopicAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: CreateChatSessionForTopicAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -1044,17 +1042,15 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateChatSessionForTopicAsync(Int32, RequestOptions)
-  nameWithType: IChatAgent.CreateChatSessionForTopicAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IChatAgent.CreateChatSessionForTopicAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: CreateChatSessionForTopicAsync(int, RequestOptions)
+  nameWithType: IChatAgent.CreateChatSessionForTopicAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IChatAgent.CreateChatSessionForTopicAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nCreate a new session on a chat topic\n"
+  summary: Create a new session on a chat topic
+  example: []
   syntax:
     content: Task<ChatSessionEntity> CreateChatSessionForTopicAsync(int chatTopicId, RequestOptions requestOptions = null)
     parameters:
@@ -1063,22 +1059,94 @@ items:
       description: Id of the chat topic
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity}
       description: The new chat session.
     content.vb: Function CreateChatSessionForTopicAsync(chatTopicId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ChatSessionEntity)
   overload: SuperOffice.WebApi.Agents.IChatAgent.CreateChatSessionForTopicAsync*
+  nameWithType.vb: IChatAgent.CreateChatSessionForTopicAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IChatAgent.CreateChatSessionForTopicAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateChatSessionForTopicAsync(Integer, RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi.Agents.IChatAgent.CreateDefaultChatSessionEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.CreateDefaultChatSessionEntityAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_CreateDefaultChatSessionEntityAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultChatSessionEntityAsync
   nameWithType: IChatAgent.CreateDefaultChatSessionEntityAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.CreateDefaultChatSessionEntityAsync
@@ -1086,12 +1154,15 @@ references:
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ChatSessionEntity>
   nameWithType: Task<ChatSessionEntity>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ChatSessionEntity>
@@ -1101,84 +1172,123 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ChatSessionEntity
     name: ChatSessionEntity
-    nameWithType: ChatSessionEntity
-    fullName: SuperOffice.WebApi.Data.ChatSessionEntity
     isExternal: true
+    href: SuperOffice.WebApi.Data.ChatSessionEntity.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.ChatSessionEntity
     name: ChatSessionEntity
-    nameWithType: ChatSessionEntity
-    fullName: SuperOffice.WebApi.Data.ChatSessionEntity
     isExternal: true
+    href: SuperOffice.WebApi.Data.ChatSessionEntity.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: System.Threading.Tasks.Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: System.Threading.Tasks.Task(Of )
-  name.vb: Task(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.WebApi.Agents.IChatAgent.SaveChatSessionEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.SaveChatSessionEntityAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_SaveChatSessionEntityAsync_SuperOffice_WebApi_Data_ChatSessionEntity_SuperOffice_WebApi_RequestOptions_
   name: SaveChatSessionEntityAsync
   nameWithType: IChatAgent.SaveChatSessionEntityAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.SaveChatSessionEntityAsync
@@ -1186,18 +1296,51 @@ references:
   commentId: T:SuperOffice.WebApi.Data.ChatSessionEntity
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionEntity.html
   name: ChatSessionEntity
   nameWithType: ChatSessionEntity
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatSessionEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.DeleteChatSessionEntityAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_DeleteChatSessionEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: DeleteChatSessionEntityAsync
   nameWithType: IChatAgent.DeleteChatSessionEntityAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatSessionEntityAsync
@@ -1205,29 +1348,33 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.WebApi.Agents.IChatAgent.CreateDefaultChatTopicAgentAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.CreateDefaultChatTopicAgentAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_CreateDefaultChatTopicAgentAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultChatTopicAgentAsync
   nameWithType: IChatAgent.CreateDefaultChatTopicAgentAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.CreateDefaultChatTopicAgentAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicAgent}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicAgent}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicAgent}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ChatTopicAgent>
   nameWithType: Task<ChatTopicAgent>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ChatTopicAgent>
@@ -1237,46 +1384,39 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ChatTopicAgent
     name: ChatTopicAgent
-    nameWithType: ChatTopicAgent
-    fullName: SuperOffice.WebApi.Data.ChatTopicAgent
     isExternal: true
+    href: SuperOffice.WebApi.Data.ChatTopicAgent.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.ChatTopicAgent
     name: ChatTopicAgent
-    nameWithType: ChatTopicAgent
-    fullName: SuperOffice.WebApi.Data.ChatTopicAgent
     isExternal: true
+    href: SuperOffice.WebApi.Data.ChatTopicAgent.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IChatAgent.CreateDefaultChatTopicEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.CreateDefaultChatTopicEntityAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_CreateDefaultChatTopicEntityAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultChatTopicEntityAsync
   nameWithType: IChatAgent.CreateDefaultChatTopicEntityAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.CreateDefaultChatTopicEntityAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicEntity}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicEntity}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicEntity}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ChatTopicEntity>
   nameWithType: Task<ChatTopicEntity>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ChatTopicEntity>
@@ -1286,40 +1426,31 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ChatTopicEntity
     name: ChatTopicEntity
-    nameWithType: ChatTopicEntity
-    fullName: SuperOffice.WebApi.Data.ChatTopicEntity
     isExternal: true
+    href: SuperOffice.WebApi.Data.ChatTopicEntity.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.ChatTopicEntity
     name: ChatTopicEntity
-    nameWithType: ChatTopicEntity
-    fullName: SuperOffice.WebApi.Data.ChatTopicEntity
     isExternal: true
+    href: SuperOffice.WebApi.Data.ChatTopicEntity.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IChatAgent.SaveChatTopicEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.SaveChatTopicEntityAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_SaveChatTopicEntityAsync_SuperOffice_WebApi_Data_ChatTopicEntity_SuperOffice_WebApi_RequestOptions_
   name: SaveChatTopicEntityAsync
   nameWithType: IChatAgent.SaveChatTopicEntityAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.SaveChatTopicEntityAsync
@@ -1327,24 +1458,29 @@ references:
   commentId: T:SuperOffice.WebApi.Data.ChatTopicEntity
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatTopicEntity.html
   name: ChatTopicEntity
   nameWithType: ChatTopicEntity
   fullName: SuperOffice.WebApi.Data.ChatTopicEntity
 - uid: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatTopicEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.DeleteChatTopicEntityAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_DeleteChatTopicEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: DeleteChatTopicEntityAsync
   nameWithType: IChatAgent.DeleteChatTopicEntityAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatTopicEntityAsync
 - uid: SuperOffice.WebApi.Agents.IChatAgent.GetChatPresenceAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.GetChatPresenceAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_GetChatPresenceAsync_SuperOffice_WebApi_RequestOptions_
   name: GetChatPresenceAsync
   nameWithType: IChatAgent.GetChatPresenceAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatPresenceAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatPresence[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatPresence[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatPresence[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ChatPresence[]>
   nameWithType: Task<ChatPresence[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ChatPresence[]>
@@ -1354,51 +1490,41 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ChatPresence
     name: ChatPresence
-    nameWithType: ChatPresence
-    fullName: SuperOffice.WebApi.Data.ChatPresence
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ChatPresence.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.ChatPresence
     name: ChatPresence
-    nameWithType: ChatPresence
-    fullName: SuperOffice.WebApi.Data.ChatPresence
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ChatPresence.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IChatAgent.SaveChatPresenceAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.SaveChatPresenceAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_SaveChatPresenceAsync_SuperOffice_WebApi_Data_ChatPresence___SuperOffice_WebApi_RequestOptions_
   name: SaveChatPresenceAsync
   nameWithType: IChatAgent.SaveChatPresenceAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.SaveChatPresenceAsync
 - uid: SuperOffice.WebApi.Data.ChatPresence[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatPresence.html
   name: ChatPresence[]
   nameWithType: ChatPresence[]
   fullName: SuperOffice.WebApi.Data.ChatPresence[]
@@ -1408,36 +1534,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ChatPresence
     name: ChatPresence
-    nameWithType: ChatPresence
-    fullName: SuperOffice.WebApi.Data.ChatPresence
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ChatPresence.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ChatPresence
     name: ChatPresence
-    nameWithType: ChatPresence
-    fullName: SuperOffice.WebApi.Data.ChatPresence
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ChatPresence.html
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IChatAgent.GetChatSessionEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.GetChatSessionEntityAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_GetChatSessionEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetChatSessionEntityAsync
   nameWithType: IChatAgent.GetChatSessionEntityAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatSessionEntityAsync
 - uid: SuperOffice.WebApi.Agents.IChatAgent.ChatSessionsForUserAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.ChatSessionsForUserAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_ChatSessionsForUserAsync_SuperOffice_WebApi_RequestOptions_
   name: ChatSessionsForUserAsync
   nameWithType: IChatAgent.ChatSessionsForUserAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.ChatSessionsForUserAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ChatSessionEntity[]>
   nameWithType: Task<ChatSessionEntity[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ChatSessionEntity[]>
@@ -1447,46 +1573,35 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ChatSessionEntity
     name: ChatSessionEntity
-    nameWithType: ChatSessionEntity
-    fullName: SuperOffice.WebApi.Data.ChatSessionEntity
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ChatSessionEntity.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.ChatSessionEntity
     name: ChatSessionEntity
-    nameWithType: ChatSessionEntity
-    fullName: SuperOffice.WebApi.Data.ChatSessionEntity
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ChatSessionEntity.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IChatAgent.TransferChatSessionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.TransferChatSessionAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_TransferChatSessionAsync_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
   name: TransferChatSessionAsync
   nameWithType: IChatAgent.TransferChatSessionAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.TransferChatSessionAsync
@@ -1494,42 +1609,52 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Agents.IChatAgent.AcceptChatSessionTransferAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.AcceptChatSessionTransferAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_AcceptChatSessionTransferAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: AcceptChatSessionTransferAsync
   nameWithType: IChatAgent.AcceptChatSessionTransferAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.AcceptChatSessionTransferAsync
 - uid: SuperOffice.WebApi.Agents.IChatAgent.RejectChatSessionTransferAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.RejectChatSessionTransferAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_RejectChatSessionTransferAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: RejectChatSessionTransferAsync
   nameWithType: IChatAgent.RejectChatSessionTransferAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.RejectChatSessionTransferAsync
 - uid: SuperOffice.WebApi.Agents.IChatAgent.PickUpChatSessionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.PickUpChatSessionAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_PickUpChatSessionAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: PickUpChatSessionAsync
   nameWithType: IChatAgent.PickUpChatSessionAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.PickUpChatSessionAsync
 - uid: SuperOffice.WebApi.Agents.IChatAgent.PickUpFirstChatSessionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.PickUpFirstChatSessionAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_PickUpFirstChatSessionAsync_SuperOffice_WebApi_RequestOptions_
   name: PickUpFirstChatSessionAsync
   nameWithType: IChatAgent.PickUpFirstChatSessionAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.PickUpFirstChatSessionAsync
 - uid: SuperOffice.WebApi.Agents.IChatAgent.ResetChatSessionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.ResetChatSessionAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_ResetChatSessionAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: ResetChatSessionAsync
   nameWithType: IChatAgent.ResetChatSessionAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.ResetChatSessionAsync
 - uid: SuperOffice.WebApi.Agents.IChatAgent.GetChatTranscriptAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.GetChatTranscriptAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_GetChatTranscriptAsync_System_Int32_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: GetChatTranscriptAsync
   nameWithType: IChatAgent.GetChatTranscriptAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatTranscriptAsync
@@ -1537,61 +1662,60 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: System.Threading.Tasks.Task{System.String}
-  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<String>
-  nameWithType: Task<String>
-  fullName: System.Threading.Tasks.Task<System.String>
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
   nameWithType.vb: Task(Of String)
-  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
   name.vb: Task(Of String)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IChatAgent.GetChatMessagesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.GetChatMessagesAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_GetChatMessagesAsync_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetChatMessagesAsync
   nameWithType: IChatAgent.GetChatMessagesAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatMessagesAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatMessage[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatMessage[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatMessage[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ChatMessage[]>
   nameWithType: Task<ChatMessage[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ChatMessage[]>
@@ -1601,46 +1725,35 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ChatMessage
     name: ChatMessage
-    nameWithType: ChatMessage
-    fullName: SuperOffice.WebApi.Data.ChatMessage
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ChatMessage.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.ChatMessage
     name: ChatMessage
-    nameWithType: ChatMessage
-    fullName: SuperOffice.WebApi.Data.ChatMessage
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ChatMessage.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IChatAgent.AddChatMessageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.AddChatMessageAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_AddChatMessageAsync_System_Int32_SuperOffice_WebApi_Data_ChatMessage_SuperOffice_WebApi_RequestOptions_
   name: AddChatMessageAsync
   nameWithType: IChatAgent.AddChatMessageAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.AddChatMessageAsync
@@ -1648,12 +1761,15 @@ references:
   commentId: T:SuperOffice.WebApi.Data.ChatMessage
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatMessage.html
   name: ChatMessage
   nameWithType: ChatMessage
   fullName: SuperOffice.WebApi.Data.ChatMessage
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatMessage}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatMessage}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatMessage}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ChatMessage>
   nameWithType: Task<ChatMessage>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ChatMessage>
@@ -1663,101 +1779,88 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ChatMessage
     name: ChatMessage
-    nameWithType: ChatMessage
-    fullName: SuperOffice.WebApi.Data.ChatMessage
     isExternal: true
+    href: SuperOffice.WebApi.Data.ChatMessage.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.ChatMessage
     name: ChatMessage
-    nameWithType: ChatMessage
-    fullName: SuperOffice.WebApi.Data.ChatMessage
     isExternal: true
+    href: SuperOffice.WebApi.Data.ChatMessage.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicEntityAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_GetChatTopicEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetChatTopicEntityAsync
   nameWithType: IChatAgent.GetChatTopicEntityAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicEntityAsync
 - uid: SuperOffice.WebApi.Agents.IChatAgent.IsWithinOpeningHoursAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.IsWithinOpeningHoursAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_IsWithinOpeningHoursAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: IsWithinOpeningHoursAsync
   nameWithType: IChatAgent.IsWithinOpeningHoursAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.IsWithinOpeningHoursAsync
 - uid: System.Threading.Tasks.Task{System.Boolean}
-  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<Boolean>
-  nameWithType: Task<Boolean>
-  fullName: System.Threading.Tasks.Task<System.Boolean>
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
   nameWithType.vb: Task(Of Boolean)
-  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
   name.vb: Task(Of Boolean)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IChatAgent.ChatTopicsForUserAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.ChatTopicsForUserAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_ChatTopicsForUserAsync_SuperOffice_WebApi_RequestOptions_
   name: ChatTopicsForUserAsync
   nameWithType: IChatAgent.ChatTopicsForUserAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.ChatTopicsForUserAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicEntity[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicEntity[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicEntity[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ChatTopicEntity[]>
   nameWithType: Task<ChatTopicEntity[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ChatTopicEntity[]>
@@ -1767,52 +1870,43 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ChatTopicEntity
     name: ChatTopicEntity
-    nameWithType: ChatTopicEntity
-    fullName: SuperOffice.WebApi.Data.ChatTopicEntity
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ChatTopicEntity.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.ChatTopicEntity
     name: ChatTopicEntity
-    nameWithType: ChatTopicEntity
-    fullName: SuperOffice.WebApi.Data.ChatTopicEntity
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ChatTopicEntity.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IChatAgent.GetUserAgentListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.GetUserAgentListAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_GetUserAgentListAsync_System_Boolean_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: GetUserAgentListAsync
   nameWithType: IChatAgent.GetUserAgentListAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.GetUserAgentListAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<MDOListItem[]>
   nameWithType: Task<MDOListItem[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.MDOListItem[]>
@@ -1822,52 +1916,43 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.MDOListItem
     name: MDOListItem
-    nameWithType: MDOListItem
-    fullName: SuperOffice.WebApi.Data.MDOListItem
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.MDOListItem.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.MDOListItem
     name: MDOListItem
-    nameWithType: MDOListItem
-    fullName: SuperOffice.WebApi.Data.MDOListItem
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.MDOListItem.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentListAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_GetChatTopicUserAgentListAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetChatTopicUserAgentListAsync
   nameWithType: IChatAgent.GetChatTopicUserAgentListAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentListAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicAgent[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicAgent[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicAgent[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ChatTopicAgent[]>
   nameWithType: Task<ChatTopicAgent[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ChatTopicAgent[]>
@@ -1877,52 +1962,42 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ChatTopicAgent
     name: ChatTopicAgent
-    nameWithType: ChatTopicAgent
-    fullName: SuperOffice.WebApi.Data.ChatTopicAgent
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ChatTopicAgent.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.ChatTopicAgent
     name: ChatTopicAgent
-    nameWithType: ChatTopicAgent
-    fullName: SuperOffice.WebApi.Data.ChatTopicAgent
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ChatTopicAgent.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_GetChatTopicUserAgentAsync_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetChatTopicUserAgentAsync
   nameWithType: IChatAgent.GetChatTopicUserAgentAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.GetChatTopicUserAgentAsync
 - uid: SuperOffice.WebApi.Agents.IChatAgent.AddChatTopicUserAgentAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.AddChatTopicUserAgentAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_AddChatTopicUserAgentAsync_System_Int32_SuperOffice_WebApi_Data_ChatTopicAgent_SuperOffice_WebApi_RequestOptions_
   name: AddChatTopicUserAgentAsync
   nameWithType: IChatAgent.AddChatTopicUserAgentAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.AddChatTopicUserAgentAsync
@@ -1930,23 +2005,27 @@ references:
   commentId: T:SuperOffice.WebApi.Data.ChatTopicAgent
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatTopicAgent.html
   name: ChatTopicAgent
   nameWithType: ChatTopicAgent
   fullName: SuperOffice.WebApi.Data.ChatTopicAgent
 - uid: SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_UpdateChatTopicUserAgentAsync_System_Int32_System_String_SuperOffice_WebApi_Data_ChatTopicAgent_SuperOffice_WebApi_RequestOptions_
   name: UpdateChatTopicUserAgentAsync
   nameWithType: IChatAgent.UpdateChatTopicUserAgentAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentAsync
 - uid: SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_UpdateChatTopicUserAgentsAsync_System_Int32_SuperOffice_WebApi_Data_ChatTopicAgent___SuperOffice_WebApi_RequestOptions_
   name: UpdateChatTopicUserAgentsAsync
   nameWithType: IChatAgent.UpdateChatTopicUserAgentsAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.UpdateChatTopicUserAgentsAsync
 - uid: SuperOffice.WebApi.Data.ChatTopicAgent[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatTopicAgent.html
   name: ChatTopicAgent[]
   nameWithType: ChatTopicAgent[]
   fullName: SuperOffice.WebApi.Data.ChatTopicAgent[]
@@ -1956,30 +2035,28 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ChatTopicAgent
     name: ChatTopicAgent
-    nameWithType: ChatTopicAgent
-    fullName: SuperOffice.WebApi.Data.ChatTopicAgent
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ChatTopicAgent.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ChatTopicAgent
     name: ChatTopicAgent
-    nameWithType: ChatTopicAgent
-    fullName: SuperOffice.WebApi.Data.ChatTopicAgent
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ChatTopicAgent.html
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatTopicUserAgentAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.DeleteChatTopicUserAgentAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_DeleteChatTopicUserAgentAsync_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
   name: DeleteChatTopicUserAgentAsync
   nameWithType: IChatAgent.DeleteChatTopicUserAgentAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.DeleteChatTopicUserAgentAsync
 - uid: SuperOffice.WebApi.Agents.IChatAgent.CreateChatSessionForTopicAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IChatAgent.CreateChatSessionForTopicAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IChatAgent.html#SuperOffice_WebApi_Agents_IChatAgent_CreateChatSessionForTopicAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: CreateChatSessionForTopicAsync
   nameWithType: IChatAgent.CreateChatSessionForTopicAsync
   fullName: SuperOffice.WebApi.Agents.IChatAgent.CreateChatSessionForTopicAsync

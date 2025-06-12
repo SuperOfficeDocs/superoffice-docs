@@ -1,0 +1,222 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  id: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.ActorHelper
+  - SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  - SuperOffice.ErpSync.ContactFieldKeys
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  - SuperOffice.ErpSync.CrmFieldMdoProvider
+  - SuperOffice.ErpSync.ErpConnectionHandlerFacade
+  - SuperOffice.ErpSync.ErpConnectorClient
+  - SuperOffice.ErpSync.ErpFieldMdoProvider
+  - SuperOffice.ErpSync.ErpSyncActor
+  - SuperOffice.ErpSync.ErpSyncActorField
+  - SuperOffice.ErpSync.ErpSyncActorFieldCollection
+  - SuperOffice.ErpSync.FieldHelper
+  - SuperOffice.ErpSync.FieldKeysBase
+  - SuperOffice.ErpSync.FindErpEntityProvider
+  - SuperOffice.ErpSync.IntegrationServerWcfClientBase`1
+  - SuperOffice.ErpSync.PersonFieldKeys
+  - SuperOffice.ErpSync.ProjectFieldKeys
+  - SuperOffice.ErpSync.SyncEngine
+  - SuperOffice.ErpSync.SyncState
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+  type: Namespace
+  assemblies:
+  - SuperOffice.Services.Implementation
+references:
+- uid: SuperOffice.ErpSync.ActorHelper
+  commentId: T:SuperOffice.ErpSync.ActorHelper
+  isExternal: true
+  href: SuperOffice.ErpSync.ActorHelper.html
+  name: ActorHelper
+  nameWithType: ActorHelper
+  fullName: SuperOffice.ErpSync.ActorHelper
+- uid: SuperOffice.ErpSync.ErpSyncActor
+  commentId: T:SuperOffice.ErpSync.ErpSyncActor
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActor.html
+  name: ErpSyncActor
+  nameWithType: ErpSyncActor
+  fullName: SuperOffice.ErpSync.ErpSyncActor
+- uid: SuperOffice.ErpSync.ErpSyncActorFieldCollection
+  commentId: T:SuperOffice.ErpSync.ErpSyncActorFieldCollection
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorFieldCollection.html
+  name: ErpSyncActorFieldCollection
+  nameWithType: ErpSyncActorFieldCollection
+  fullName: SuperOffice.ErpSync.ErpSyncActorFieldCollection
+- uid: SuperOffice.ErpSync.ErpSyncActorField
+  commentId: T:SuperOffice.ErpSync.ErpSyncActorField
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpSyncActorField.html
+  name: ErpSyncActorField
+  nameWithType: ErpSyncActorField
+  fullName: SuperOffice.ErpSync.ErpSyncActorField
+- uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  commentId: T:SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.html
+  name: ConnectionHandlerFacadeBase
+  nameWithType: ConnectionHandlerFacadeBase
+  fullName: SuperOffice.ErpSync.ConnectionHandlerFacadeBase
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  commentId: T:SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html
+  name: CrmConnectionHandlerFacade
+  nameWithType: CrmConnectionHandlerFacade
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+- uid: SuperOffice.ErpSync.ErpConnectionHandlerFacade
+  commentId: T:SuperOffice.ErpSync.ErpConnectionHandlerFacade
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectionHandlerFacade.html
+  name: ErpConnectionHandlerFacade
+  nameWithType: ErpConnectionHandlerFacade
+  fullName: SuperOffice.ErpSync.ErpConnectionHandlerFacade
+- uid: SuperOffice.ErpSync.ErpConnectorClient
+  commentId: T:SuperOffice.ErpSync.ErpConnectorClient
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpConnectorClient.html
+  name: ErpConnectorClient
+  nameWithType: ErpConnectorClient
+  fullName: SuperOffice.ErpSync.ErpConnectorClient
+- uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1
+  commentId: T:SuperOffice.ErpSync.IntegrationServerWcfClientBase`1
+  isExternal: true
+  href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html
+  name: IntegrationServerWcfClientBase<TService>
+  nameWithType: IntegrationServerWcfClientBase<TService>
+  fullName: SuperOffice.ErpSync.IntegrationServerWcfClientBase<TService>
+  nameWithType.vb: IntegrationServerWcfClientBase(Of TService)
+  fullName.vb: SuperOffice.ErpSync.IntegrationServerWcfClientBase(Of TService)
+  name.vb: IntegrationServerWcfClientBase(Of TService)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1
+    name: IntegrationServerWcfClientBase
+    isExternal: true
+    href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html
+  - name: <
+  - name: TService
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.ErpSync.IntegrationServerWcfClientBase`1
+    name: IntegrationServerWcfClientBase
+    isExternal: true
+    href: SuperOffice.ErpSync.IntegrationServerWcfClientBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TService
+  - name: )
+- uid: SuperOffice.ErpSync.FieldKeysBase
+  commentId: T:SuperOffice.ErpSync.FieldKeysBase
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldKeysBase.html
+  name: FieldKeysBase
+  nameWithType: FieldKeysBase
+  fullName: SuperOffice.ErpSync.FieldKeysBase
+- uid: SuperOffice.ErpSync.ContactFieldKeys
+  commentId: T:SuperOffice.ErpSync.ContactFieldKeys
+  isExternal: true
+  href: SuperOffice.ErpSync.ContactFieldKeys.html
+  name: ContactFieldKeys
+  nameWithType: ContactFieldKeys
+  fullName: SuperOffice.ErpSync.ContactFieldKeys
+- uid: SuperOffice.ErpSync.PersonFieldKeys
+  commentId: T:SuperOffice.ErpSync.PersonFieldKeys
+  isExternal: true
+  href: SuperOffice.ErpSync.PersonFieldKeys.html
+  name: PersonFieldKeys
+  nameWithType: PersonFieldKeys
+  fullName: SuperOffice.ErpSync.PersonFieldKeys
+- uid: SuperOffice.ErpSync.ProjectFieldKeys
+  commentId: T:SuperOffice.ErpSync.ProjectFieldKeys
+  isExternal: true
+  href: SuperOffice.ErpSync.ProjectFieldKeys.html
+  name: ProjectFieldKeys
+  nameWithType: ProjectFieldKeys
+  fullName: SuperOffice.ErpSync.ProjectFieldKeys
+- uid: SuperOffice.ErpSync.CrmFieldMdoProvider
+  commentId: T:SuperOffice.ErpSync.CrmFieldMdoProvider
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmFieldMdoProvider.html
+  name: CrmFieldMdoProvider
+  nameWithType: CrmFieldMdoProvider
+  fullName: SuperOffice.ErpSync.CrmFieldMdoProvider
+- uid: SuperOffice.ErpSync.ErpFieldMdoProvider
+  commentId: T:SuperOffice.ErpSync.ErpFieldMdoProvider
+  isExternal: true
+  href: SuperOffice.ErpSync.ErpFieldMdoProvider.html
+  name: ErpFieldMdoProvider
+  nameWithType: ErpFieldMdoProvider
+  fullName: SuperOffice.ErpSync.ErpFieldMdoProvider
+- uid: SuperOffice.ErpSync.FieldHelper
+  commentId: T:SuperOffice.ErpSync.FieldHelper
+  isExternal: true
+  href: SuperOffice.ErpSync.FieldHelper.html
+  name: FieldHelper
+  nameWithType: FieldHelper
+  fullName: SuperOffice.ErpSync.FieldHelper
+- uid: SuperOffice.ErpSync.FindErpEntityProvider
+  commentId: T:SuperOffice.ErpSync.FindErpEntityProvider
+  isExternal: true
+  href: SuperOffice.ErpSync.FindErpEntityProvider.html
+  name: FindErpEntityProvider
+  nameWithType: FindErpEntityProvider
+  fullName: SuperOffice.ErpSync.FindErpEntityProvider
+- uid: SuperOffice.ErpSync.SyncEngine
+  commentId: T:SuperOffice.ErpSync.SyncEngine
+  isExternal: true
+  href: SuperOffice.ErpSync.SyncEngine.html
+  name: SyncEngine
+  nameWithType: SyncEngine
+  fullName: SuperOffice.ErpSync.SyncEngine
+- uid: SuperOffice.ErpSync.SyncState
+  commentId: T:SuperOffice.ErpSync.SyncState
+  isExternal: true
+  href: SuperOffice.ErpSync.SyncState.html
+  name: SyncState
+  nameWithType: SyncState
+  fullName: SuperOffice.ErpSync.SyncState
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html

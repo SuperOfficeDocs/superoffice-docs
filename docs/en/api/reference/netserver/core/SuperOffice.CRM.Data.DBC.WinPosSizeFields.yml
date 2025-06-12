@@ -27,27 +27,24 @@ items:
   nameWithType: DBC.WinPosSizeFields
   fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for WinPosSize, Stores the position and size of each window, so they can be shown in the same place again\n"
+  summary: Fields for WinPosSize, Stores the position and size of each window, so they can be shown in the same place again
+  example: []
   syntax:
-    content: 'public static class WinPosSizeFields : Object'
-    content.vb: >-
-      Public Module WinPosSizeFields
-          Inherits Object
+    content: public static class DBC.WinPosSizeFields
+    content.vb: Public Module DBC.WinPosSizeFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.WinPosSizeId
   commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.WinPosSizeId
   id: WinPosSizeId
@@ -59,24 +56,16 @@ items:
   nameWithType: DBC.WinPosSizeFields.WinPosSizeId
   fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.WinPosSizeId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWinPosSize.WinPosSizeId: Primary key\n"
+  summary: 'WinPosSize.WinPosSizeId: Primary key'
+  example: []
   syntax:
     content: public const string WinPosSizeId = "WinPosSize_id"
     return:
       type: System.String
     content.vb: Public Const WinPosSizeId As String = "WinPosSize_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.AssocId
   commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.AssocId
   id: AssocId
@@ -88,24 +77,16 @@ items:
   nameWithType: DBC.WinPosSizeFields.AssocId
   fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.AssocId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWinPosSize.AssocId: Owning associate\n"
+  summary: 'WinPosSize.AssocId: Owning associate'
+  example: []
   syntax:
     content: public const string AssocId = "assoc_id"
     return:
       type: System.String
     content.vb: Public Const AssocId As String = "assoc_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Owner
   commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.Owner
   id: Owner
@@ -117,24 +98,16 @@ items:
   nameWithType: DBC.WinPosSizeFields.Owner
   fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Owner
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWinPosSize.Owner: The dialog, panel or whatever that owns this record\n"
+  summary: 'WinPosSize.Owner: The dialog, panel or whatever that owns this record'
+  example: []
   syntax:
     content: public const string Owner = "owner"
     return:
       type: System.String
     content.vb: Public Const Owner As String = "owner"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.State
   commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.State
   id: State
@@ -146,24 +119,16 @@ items:
   nameWithType: DBC.WinPosSizeFields.State
   fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.State
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWinPosSize.State: Normal = 0, Maximized = 1, Minimized = 2\n"
+  summary: 'WinPosSize.State: Normal = 0, Maximized = 1, Minimized = 2'
+  example: []
   syntax:
     content: public const string State = "state"
     return:
       type: System.String
     content.vb: Public Const State As String = "state"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.ExtraId
   commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.ExtraId
   id: ExtraId
@@ -175,24 +140,16 @@ items:
   nameWithType: DBC.WinPosSizeFields.ExtraId
   fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.ExtraId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWinPosSize.ExtraId: Spare ID, not yet in use\n"
+  summary: 'WinPosSize.ExtraId: Spare ID, not yet in use'
+  example: []
   syntax:
     content: public const string ExtraId = "extraId"
     return:
       type: System.String
     content.vb: Public Const ExtraId As String = "extraId"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.LeftX
   commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.LeftX
   id: LeftX
@@ -204,24 +161,16 @@ items:
   nameWithType: DBC.WinPosSizeFields.LeftX
   fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.LeftX
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWinPosSize.LeftX: X of origin, left edge of widget\n"
+  summary: 'WinPosSize.LeftX: X of origin, left edge of widget'
+  example: []
   syntax:
     content: public const string LeftX = "leftX"
     return:
       type: System.String
     content.vb: Public Const LeftX As String = "leftX"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpperY
   commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpperY
   id: UpperY
@@ -233,24 +182,16 @@ items:
   nameWithType: DBC.WinPosSizeFields.UpperY
   fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpperY
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWinPosSize.UpperY: Y of origin, upper edge of widget\n"
+  summary: 'WinPosSize.UpperY: Y of origin, upper edge of widget'
+  example: []
   syntax:
     content: public const string UpperY = "upperY"
     return:
       type: System.String
     content.vb: Public Const UpperY As String = "upperY"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Width
   commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.Width
   id: Width
@@ -262,24 +203,16 @@ items:
   nameWithType: DBC.WinPosSizeFields.Width
   fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Width
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWinPosSize.Width: The width of the widget\n"
+  summary: 'WinPosSize.Width: The width of the widget'
+  example: []
   syntax:
     content: public const string Width = "width"
     return:
       type: System.String
     content.vb: Public Const Width As String = "width"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Height
   commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.Height
   id: Height
@@ -291,24 +224,16 @@ items:
   nameWithType: DBC.WinPosSizeFields.Height
   fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Height
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWinPosSize.Height: The height of the widget\n"
+  summary: 'WinPosSize.Height: The height of the widget'
+  example: []
   syntax:
     content: public const string Height = "height"
     return:
       type: System.String
     content.vb: Public Const Height As String = "height"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.ExtraInfo
   commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.ExtraInfo
   id: ExtraInfo
@@ -320,24 +245,16 @@ items:
   nameWithType: DBC.WinPosSizeFields.ExtraInfo
   fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.ExtraInfo
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWinPosSize.ExtraInfo: Extra information - show state, or whatever is required\n"
+  summary: 'WinPosSize.ExtraInfo: Extra information - show state, or whatever is required'
+  example: []
   syntax:
     content: public const string ExtraInfo = "extraInfo"
     return:
       type: System.String
     content.vb: Public Const ExtraInfo As String = "extraInfo"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.Registered
   id: Registered
@@ -349,24 +266,16 @@ items:
   nameWithType: DBC.WinPosSizeFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWinPosSize.Registered: Registered when\n"
+  summary: 'WinPosSize.Registered: Registered when'
+  example: []
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -378,24 +287,16 @@ items:
   nameWithType: DBC.WinPosSizeFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWinPosSize.RegisteredAssociateId: Registered by whom\n"
+  summary: 'WinPosSize.RegisteredAssociateId: Registered by whom'
+  example: []
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.Updated
   id: Updated
@@ -407,24 +308,16 @@ items:
   nameWithType: DBC.WinPosSizeFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWinPosSize.Updated: Last updated when\n"
+  summary: 'WinPosSize.Updated: Last updated when'
+  example: []
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -436,24 +329,16 @@ items:
   nameWithType: DBC.WinPosSizeFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWinPosSize.UpdatedAssociateId: Last updated by whom\n"
+  summary: 'WinPosSize.UpdatedAssociateId: Last updated by whom'
+  example: []
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpdatedCount
   id: UpdatedCount
@@ -465,41 +350,288 @@ items:
   nameWithType: DBC.WinPosSizeFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nWinPosSize.UpdatedCount: Number of updates made to this record\n"
+  summary: 'WinPosSize.UpdatedCount: Number of updates made to this record'
+  example: []
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -507,6 +639,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

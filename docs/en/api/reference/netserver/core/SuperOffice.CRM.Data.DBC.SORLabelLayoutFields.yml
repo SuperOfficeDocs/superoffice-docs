@@ -31,27 +31,24 @@ items:
   nameWithType: DBC.SORLabelLayoutFields
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for SORLabelLayout, SuperOffice reporter data\n"
+  summary: Fields for SORLabelLayout, SuperOffice reporter data
+  example: []
   syntax:
-    content: 'public static class SORLabelLayoutFields : Object'
-    content.vb: >-
-      Public Module SORLabelLayoutFields
-          Inherits Object
+    content: public static class DBC.SORLabelLayoutFields
+    content.vb: Public Module DBC.SORLabelLayoutFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.SORLabelLayoutId
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.SORLabelLayoutId
   id: SORLabelLayoutId
@@ -63,24 +60,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.SORLabelLayoutId
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.SORLabelLayoutId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.SORLabelLayoutId: Primary key\n"
+  summary: 'SORLabelLayout.SORLabelLayoutId: Primary key'
+  example: []
   syntax:
     content: public const string SORLabelLayoutId = "SORLabelLayout_id"
     return:
       type: System.String
     content.vb: Public Const SORLabelLayoutId As String = "SORLabelLayout_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.Name
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.Name
   id: Name
@@ -92,24 +81,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.Name
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.Name
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.Name: Name of the label layout\n"
+  summary: 'SORLabelLayout.Name: Name of the label layout'
+  example: []
   syntax:
     content: public const string Name = "name"
     return:
       type: System.String
     content.vb: Public Const Name As String = "name"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.PaperWidth
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.PaperWidth
   id: PaperWidth
@@ -121,24 +102,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.PaperWidth
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.PaperWidth
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.PaperWidth: Paper width in twips\n"
+  summary: 'SORLabelLayout.PaperWidth: Paper width in twips'
+  example: []
   syntax:
     content: public const string PaperWidth = "paperWidth"
     return:
       type: System.String
     content.vb: Public Const PaperWidth As String = "paperWidth"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.PaperHeight
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.PaperHeight
   id: PaperHeight
@@ -150,24 +123,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.PaperHeight
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.PaperHeight
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.PaperHeight: Paper height in twips\n"
+  summary: 'SORLabelLayout.PaperHeight: Paper height in twips'
+  example: []
   syntax:
     content: public const string PaperHeight = "paperHeight"
     return:
       type: System.String
     content.vb: Public Const PaperHeight As String = "paperHeight"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.TopMargin
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.TopMargin
   id: TopMargin
@@ -179,24 +144,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.TopMargin
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.TopMargin
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.TopMargin: Top margin in twips\n"
+  summary: 'SORLabelLayout.TopMargin: Top margin in twips'
+  example: []
   syntax:
     content: public const string TopMargin = "topMargin"
     return:
       type: System.String
     content.vb: Public Const TopMargin As String = "topMargin"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.BottomMargin
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.BottomMargin
   id: BottomMargin
@@ -208,24 +165,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.BottomMargin
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.BottomMargin
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.BottomMargin: Bottom margin in twips\n"
+  summary: 'SORLabelLayout.BottomMargin: Bottom margin in twips'
+  example: []
   syntax:
     content: public const string BottomMargin = "bottomMargin"
     return:
       type: System.String
     content.vb: Public Const BottomMargin As String = "bottomMargin"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.LeftMargin
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.LeftMargin
   id: LeftMargin
@@ -237,24 +186,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.LeftMargin
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.LeftMargin
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.LeftMargin: Left margin in twips\n"
+  summary: 'SORLabelLayout.LeftMargin: Left margin in twips'
+  example: []
   syntax:
     content: public const string LeftMargin = "leftMargin"
     return:
       type: System.String
     content.vb: Public Const LeftMargin As String = "leftMargin"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.RightMargin
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.RightMargin
   id: RightMargin
@@ -266,24 +207,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.RightMargin
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.RightMargin
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.RightMargin: Right margin in twips\n"
+  summary: 'SORLabelLayout.RightMargin: Right margin in twips'
+  example: []
   syntax:
     content: public const string RightMargin = "rightMargin"
     return:
       type: System.String
     content.vb: Public Const RightMargin As String = "rightMargin"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.CountColumns
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.CountColumns
   id: CountColumns
@@ -295,24 +228,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.CountColumns
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.CountColumns
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.CountColumns: Number og columns\n"
+  summary: 'SORLabelLayout.CountColumns: Number og columns'
+  example: []
   syntax:
     content: public const string CountColumns = "countColumns"
     return:
       type: System.String
     content.vb: Public Const CountColumns As String = "countColumns"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.CountRows
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.CountRows
   id: CountRows
@@ -324,24 +249,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.CountRows
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.CountRows
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.CountRows: Number of rows\n"
+  summary: 'SORLabelLayout.CountRows: Number of rows'
+  example: []
   syntax:
     content: public const string CountRows = "countRows"
     return:
       type: System.String
     content.vb: Public Const CountRows As String = "countRows"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.Orientation
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.Orientation
   id: Orientation
@@ -353,24 +270,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.Orientation
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.Orientation
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.Orientation: Paper orientation: 1=portrait, 2=landscape\n"
+  summary: 'SORLabelLayout.Orientation: Paper orientation: 1=portrait, 2=landscape'
+  example: []
   syntax:
     content: public const string Orientation = "orientation"
     return:
       type: System.String
     content.vb: Public Const Orientation As String = "orientation"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.PrintWidth
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.PrintWidth
   id: PrintWidth
@@ -382,24 +291,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.PrintWidth
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.PrintWidth
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.PrintWidth: Calculated: (paperWidth - leftMargin - rightMargin) / countColumns\n"
+  summary: 'SORLabelLayout.PrintWidth: Calculated: (paperWidth - leftMargin - rightMargin) / countColumns'
+  example: []
   syntax:
     content: public const string PrintWidth = "printWidth"
     return:
       type: System.String
     content.vb: Public Const PrintWidth As String = "printWidth"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.LabelHeight
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.LabelHeight
   id: LabelHeight
@@ -411,24 +312,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.LabelHeight
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.LabelHeight
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.LabelHeight: Calculated: (paperHeight - topMargin - bottomMargin) / countRows\n"
+  summary: 'SORLabelLayout.LabelHeight: Calculated: (paperHeight - topMargin - bottomMargin) / countRows'
+  example: []
   syntax:
     content: public const string LabelHeight = "labelHeight"
     return:
       type: System.String
     content.vb: Public Const LabelHeight As String = "labelHeight"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.Registered
   id: Registered
@@ -440,24 +333,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.Registered: Registered when\n"
+  summary: 'SORLabelLayout.Registered: Registered when'
+  example: []
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -469,24 +354,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.RegisteredAssociateId: Registered by whom\n"
+  summary: 'SORLabelLayout.RegisteredAssociateId: Registered by whom'
+  example: []
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.Updated
   id: Updated
@@ -498,24 +375,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.Updated: Last updated when\n"
+  summary: 'SORLabelLayout.Updated: Last updated when'
+  example: []
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -527,24 +396,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.UpdatedAssociateId: Last updated by whom\n"
+  summary: 'SORLabelLayout.UpdatedAssociateId: Last updated by whom'
+  example: []
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.UpdatedCount
   id: UpdatedCount
@@ -556,24 +417,16 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.UpdatedCount: Number of updates made to this record\n"
+  summary: 'SORLabelLayout.UpdatedCount: Number of updates made to this record'
+  example: []
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.Description
   commentId: F:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.Description
   id: Description
@@ -585,41 +438,288 @@ items:
   nameWithType: DBC.SORLabelLayoutFields.Description
   fullName: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields.Description
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSORLabelLayout.Description: Description\n"
+  summary: 'SORLabelLayout.Description: Description'
+  example: []
   syntax:
     content: public const string Description = "description"
     return:
       type: System.String
     content.vb: Public Const Description As String = "description"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -627,6 +727,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

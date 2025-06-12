@@ -1,0 +1,520 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+  id: ConfigFile.ICssSpriteConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.Enabled
+  - SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.ExcludePaths
+  - SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.MaxHeight
+  - SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.MaxWidth
+  - SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.PersistentPath
+  - SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.RootPath
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.ICssSpriteConfiguration
+  nameWithType: ConfigFile.ICssSpriteConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+  type: Interface
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: >-
+    Configuration for the Web Client CssSprite generator
+
+    Created in Database scope
+  example: []
+  syntax:
+    content: public interface ConfigFile.ICssSpriteConfiguration
+    content.vb: Public Interface ConfigFile.ICssSpriteConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.Enabled
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.Enabled
+  id: Enabled
+  parent: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: ConfigFile.ICssSpriteConfiguration.Enabled
+  fullName: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.Enabled
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: By enabling this feature an image is created, containing most icons used in the application.
+  example: []
+  syntax:
+    content: bool Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Enabled As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.Enabled*
+- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.RootPath
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.RootPath
+  id: RootPath
+  parent: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+  langs:
+  - csharp
+  - vb
+  name: RootPath
+  nameWithType: ConfigFile.ICssSpriteConfiguration.RootPath
+  fullName: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.RootPath
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Image path
+  example: []
+  syntax:
+    content: string RootPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property RootPath As String
+  overload: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.RootPath*
+- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.PersistentPath
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.PersistentPath
+  id: PersistentPath
+  parent: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+  langs:
+  - csharp
+  - vb
+  name: PersistentPath
+  nameWithType: ConfigFile.ICssSpriteConfiguration.PersistentPath
+  fullName: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.PersistentPath
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Path to generated CssSprite file
+  example: []
+  syntax:
+    content: string PersistentPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property PersistentPath As String
+  overload: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.PersistentPath*
+- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.ExcludePaths
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.ExcludePaths
+  id: ExcludePaths
+  parent: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ExcludePaths
+  nameWithType: ConfigFile.ICssSpriteConfiguration.ExcludePaths
+  fullName: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.ExcludePaths
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Paths to exclude. Do not include root path. Semi-colon seperated list.
+  example: []
+  syntax:
+    content: string ExcludePaths { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ExcludePaths As String
+  overload: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.ExcludePaths*
+- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.MaxHeight
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.MaxHeight
+  id: MaxHeight
+  parent: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+  langs:
+  - csharp
+  - vb
+  name: MaxHeight
+  nameWithType: ConfigFile.ICssSpriteConfiguration.MaxHeight
+  fullName: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.MaxHeight
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: The maximum height of an icon allowed in the sprite. Icons higher is excluded.
+  example: []
+  syntax:
+    content: int MaxHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property MaxHeight As Integer
+  overload: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.MaxHeight*
+- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.MaxWidth
+  commentId: P:SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.MaxWidth
+  id: MaxWidth
+  parent: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+  langs:
+  - csharp
+  - vb
+  name: MaxWidth
+  nameWithType: ConfigFile.ICssSpriteConfiguration.MaxWidth
+  fullName: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.MaxWidth
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: The maximum width of an icon allowed in the sprite. Icons wider is excluded.
+  example: []
+  syntax:
+    content: int MaxWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property MaxWidth As Integer
+  overload: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.MaxWidth*
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ICssSpriteConfiguration, To>(ICssSpriteConfiguration)
+  nameWithType: EnumUtil.MapEnums<ConfigFile.ICssSpriteConfiguration, To>(ConfigFile.ICssSpriteConfiguration)
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration, To>(SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration)
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.ICssSpriteConfiguration, To)(ConfigFile.ICssSpriteConfiguration)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration, To)(SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration)
+  name.vb: MapEnums(Of ICssSpriteConfiguration, To)(ICssSpriteConfiguration)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+    name: ICssSpriteConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+    name: ICssSpriteConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+    name: ICssSpriteConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+    name: ICssSpriteConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.html
+  - name: )
+- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ICssSpriteConfiguration, To>(ICssSpriteConfiguration)
+  nameWithType: Converters.MapEnums<ConfigFile.ICssSpriteConfiguration, To>(ConfigFile.ICssSpriteConfiguration)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration, To>(SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration)
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.ICssSpriteConfiguration, To)(ConfigFile.ICssSpriteConfiguration)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration, To)(SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration)
+  name.vb: MapEnums(Of ICssSpriteConfiguration, To)(ICssSpriteConfiguration)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+    name: ICssSpriteConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+    name: ICssSpriteConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+    name: ICssSpriteConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
+    name: ICssSpriteConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.Enabled*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.Enabled
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.html#SuperOffice_Configuration_ConfigFile_ICssSpriteConfiguration_Enabled
+  name: Enabled
+  nameWithType: ConfigFile.ICssSpriteConfiguration.Enabled
+  fullName: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.Enabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.RootPath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.RootPath
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.html#SuperOffice_Configuration_ConfigFile_ICssSpriteConfiguration_RootPath
+  name: RootPath
+  nameWithType: ConfigFile.ICssSpriteConfiguration.RootPath
+  fullName: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.RootPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.PersistentPath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.PersistentPath
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.html#SuperOffice_Configuration_ConfigFile_ICssSpriteConfiguration_PersistentPath
+  name: PersistentPath
+  nameWithType: ConfigFile.ICssSpriteConfiguration.PersistentPath
+  fullName: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.PersistentPath
+- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.ExcludePaths*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.ExcludePaths
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.html#SuperOffice_Configuration_ConfigFile_ICssSpriteConfiguration_ExcludePaths
+  name: ExcludePaths
+  nameWithType: ConfigFile.ICssSpriteConfiguration.ExcludePaths
+  fullName: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.ExcludePaths
+- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.MaxHeight*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.MaxHeight
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.html#SuperOffice_Configuration_ConfigFile_ICssSpriteConfiguration_MaxHeight
+  name: MaxHeight
+  nameWithType: ConfigFile.ICssSpriteConfiguration.MaxHeight
+  fullName: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.MaxHeight
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.MaxWidth*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.MaxWidth
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.html#SuperOffice_Configuration_ConfigFile_ICssSpriteConfiguration_MaxWidth
+  name: MaxWidth
+  nameWithType: ConfigFile.ICssSpriteConfiguration.MaxWidth
+  fullName: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.MaxWidth

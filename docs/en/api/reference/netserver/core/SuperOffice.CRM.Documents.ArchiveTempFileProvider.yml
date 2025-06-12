@@ -6,14 +6,14 @@ items:
   parent: SuperOffice.CRM.Documents
   children:
   - SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor
-  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists(System.String)
-  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile(System.String)
-  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppending(System.String)
-  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile(System.String)
-  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
-  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete(System.String)
-  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
-  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExistsAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppendingAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFileAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileCompleteAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileCompleteAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -21,230 +21,250 @@ items:
   nameWithType: ArchiveTempFileProvider
   fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nThis class implements the <xref href=\"SuperOffice.IO.ITempFileProvider\" data-throw-if-not-resolved=\"false\"></xref> interface and makes\navailable temp file services. It uses the Document section in the config file\nto determine impersonation options and file path.\n"
+  summary: >-
+    This class implements the <xref href="SuperOffice.IO.ITempFileProvider" data-throw-if-not-resolved="false"></xref> interface and makes
+
+    available temp file services. It uses the Document section in the config file
+
+    to determine impersonation options and file path.
+  example: []
   syntax:
     content: >-
       [SoInject]
 
-      public class ArchiveTempFileProvider : Object, ITempFileProvider
+      public class ArchiveTempFileProvider : ITempFileProvider
     content.vb: >-
       <SoInject>
 
-      Public Class ArchiveTempFileProvider
-          Inherits Object
-          Implements ITempFileProvider
+      Public Class ArchiveTempFileProvider Implements ITempFileProvider
   inheritance:
   - System.Object
   implements:
   - SuperOffice.IO.ITempFileProvider
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Documents.ArchiveTempFileProvider.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
   - SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.Factory.SoInjectAttribute
     ctor: SuperOffice.Factory.SoInjectAttribute.#ctor
     arguments: []
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile(System.String)
-  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile(System.String)
-  id: CreateFile(System.String)
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileAsync(System.String,System.Threading.CancellationToken)
+  id: CreateFileAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
   langs:
   - csharp
   - vb
-  name: CreateFile(String)
-  nameWithType: ArchiveTempFileProvider.CreateFile(String)
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile(System.String)
+  name: CreateFileAsync(string, CancellationToken)
+  nameWithType: ArchiveTempFileProvider.CreateFileAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
+  summary: Create a temporary 'file'
+  example: []
   syntax:
-    content: public string CreateFile(string name)
+    content: public Task<string> CreateFileAsync(string name, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
+      description: >-
+        Name to be used for later access. The actual key used by the implementation should also take
+                    into account the associate ID, since multiple concurrent users may use the same name, and that does <b>not</b> mean
+                    file sharing between users.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Function CreateFile(name As String) As String
-  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile*
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Function CreateFileAsync(name As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileAsync*
   implements:
-  - SuperOffice.IO.ITempFileProvider.CreateFile(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppending(System.String)
-  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppending(System.String)
-  id: CreateFileForAppending(System.String)
+  - SuperOffice.IO.ITempFileProvider.CreateFileAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: ArchiveTempFileProvider.CreateFileAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileAsync(String, System.Threading.CancellationToken)
+  name.vb: CreateFileAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppendingAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppendingAsync(System.String,System.Threading.CancellationToken)
+  id: CreateFileForAppendingAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
   langs:
   - csharp
   - vb
-  name: CreateFileForAppending(String)
-  nameWithType: ArchiveTempFileProvider.CreateFileForAppending(String)
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppending(System.String)
+  name: CreateFileForAppendingAsync(string, CancellationToken)
+  nameWithType: ArchiveTempFileProvider.CreateFileForAppendingAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppendingAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
+  summary: Create a temporary 'file' for appending
+  example: []
   syntax:
-    content: public string CreateFileForAppending(string name)
+    content: public Task<string> CreateFileForAppendingAsync(string name, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
+      description: >-
+        Name to be used for later access. The actual key used by the implementation should also take
+                    into account the associate ID, since multiple concurrent users may use the same name, and that does <b>not</b> mean
+                    file sharing between users.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
-    content.vb: Public Function CreateFileForAppending(name As String) As String
-  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppending*
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Function CreateFileForAppendingAsync(name As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppendingAsync*
   implements:
-  - SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists(System.String)
-  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists(System.String)
-  id: CheckIfFileExists(System.String)
+  - SuperOffice.IO.ITempFileProvider.CreateFileForAppendingAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: ArchiveTempFileProvider.CreateFileForAppendingAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppendingAsync(String, System.Threading.CancellationToken)
+  name.vb: CreateFileForAppendingAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExistsAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExistsAsync(System.String,System.Threading.CancellationToken)
+  id: CheckIfFileExistsAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
   langs:
   - csharp
   - vb
-  name: CheckIfFileExists(String)
-  nameWithType: ArchiveTempFileProvider.CheckIfFileExists(String)
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists(System.String)
+  name: CheckIfFileExistsAsync(string, CancellationToken)
+  nameWithType: ArchiveTempFileProvider.CheckIfFileExistsAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExistsAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
+  summary: Check if a named temporary file/storage area exists
+  example: []
   syntax:
-    content: public bool CheckIfFileExists(string name)
+    content: public Task<bool> CheckIfFileExistsAsync(string name, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
+      description: File name to check
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Boolean
-    content.vb: Public Function CheckIfFileExists(name As String) As Boolean
-  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists*
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: True if such a file exists
+    content.vb: Public Function CheckIfFileExistsAsync(name As String, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExistsAsync*
   implements:
-  - SuperOffice.IO.ITempFileProvider.CheckIfFileExists(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete(System.String)
-  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete(System.String)
-  id: ReadFileComplete(System.String)
+  - SuperOffice.IO.ITempFileProvider.CheckIfFileExistsAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: ArchiveTempFileProvider.CheckIfFileExistsAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExistsAsync(String, System.Threading.CancellationToken)
+  name.vb: CheckIfFileExistsAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileCompleteAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileCompleteAsync(System.String,System.Threading.CancellationToken)
+  id: ReadFileCompleteAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
   langs:
   - csharp
   - vb
-  name: ReadFileComplete(String)
-  nameWithType: ArchiveTempFileProvider.ReadFileComplete(String)
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete(System.String)
+  name: ReadFileCompleteAsync(string, CancellationToken)
+  nameWithType: ArchiveTempFileProvider.ReadFileCompleteAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileCompleteAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
+  summary: Make the complete content of the file available as a stream (sequential read)
+  example: []
   syntax:
-    content: public Stream ReadFileComplete(string name)
+    content: public Task<Stream> ReadFileCompleteAsync(string name, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
+      description: >-
+        Name identifying the file. See comments in the CreateFile
+                    method for more information on how file names are handled.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.IO.Stream
-    content.vb: Public Function ReadFileComplete(name As String) As Stream
-  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete*
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: Stream representing the entire current contents of the file
+    content.vb: Public Function ReadFileCompleteAsync(name As String, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileCompleteAsync*
   implements:
-  - SuperOffice.IO.ITempFileProvider.ReadFileComplete(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
-  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
-  id: ReadFileChunk(System.String,System.Int64,System.Byte[])
+  - SuperOffice.IO.ITempFileProvider.ReadFileCompleteAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: ArchiveTempFileProvider.ReadFileCompleteAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileCompleteAsync(String, System.Threading.CancellationToken)
+  name.vb: ReadFileCompleteAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  id: ReadFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
   langs:
   - csharp
   - vb
-  name: ReadFileChunk(String, Int64, Byte[])
-  nameWithType: ArchiveTempFileProvider.ReadFileChunk(String, Int64, Byte[])
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk(System.String, System.Int64, System.Byte[])
+  name: ReadFileChunkAsync(string, long, byte[], CancellationToken)
+  nameWithType: ArchiveTempFileProvider.ReadFileChunkAsync(string, long, byte[], CancellationToken)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunkAsync(string, long, byte[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
+  summary: Read a chunk of data from the file (random access read)
+  example: []
   syntax:
-    content: public int ReadFileChunk(string name, long filePosition, byte[] bufferToUpdate)
+    content: public Task<int> ReadFileChunkAsync(string name, long filePosition, byte[] bufferToUpdate, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
+      description: >-
+        Name identifying the file. See comments in the CreateFile
+                    method for more information on how file names are handled.
     - id: filePosition
       type: System.Int64
+      description: Position in bytes, starting at 0, to start reading from
     - id: bufferToUpdate
       type: System.Byte[]
+      description: >-
+        Data buffer to update. The length of this buffer is the maximum
+                    number of bytes that will be read
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.Int32
-    content.vb: Public Function ReadFileChunk(name As String, filePosition As Long, bufferToUpdate As Byte()) As Integer
-  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk*
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: Actual number of bytes read. If less than the length of the buffer, end-of-file is indicated
+    content.vb: Public Function ReadFileChunkAsync(name As String, filePosition As Long, bufferToUpdate As Byte(), cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunkAsync*
   implements:
-  - SuperOffice.IO.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
-  nameWithType.vb: ArchiveTempFileProvider.ReadFileChunk(String, Int64, Byte())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk(System.String, System.Int64, System.Byte())
-  name.vb: ReadFileChunk(String, Int64, Byte())
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
-  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
-  id: WriteFileComplete(System.String,System.IO.Stream)
+  - SuperOffice.IO.ITempFileProvider.ReadFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  nameWithType.vb: ArchiveTempFileProvider.ReadFileChunkAsync(String, Long, Byte(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunkAsync(String, Long, Byte(), System.Threading.CancellationToken)
+  name.vb: ReadFileChunkAsync(String, Long, Byte(), CancellationToken)
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileCompleteAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileCompleteAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
+  id: WriteFileCompleteAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
   langs:
   - csharp
   - vb
-  name: WriteFileComplete(String, Stream)
-  nameWithType: ArchiveTempFileProvider.WriteFileComplete(String, Stream)
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileComplete(System.String, System.IO.Stream)
+  name: WriteFileCompleteAsync(string, Stream, CancellationToken)
+  nameWithType: ArchiveTempFileProvider.WriteFileCompleteAsync(string, Stream, CancellationToken)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileCompleteAsync(string, System.IO.Stream, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nCopy all information from DATA stream into the temp file represented by NAME, and close the stream when done.\n"
+  summary: Copy all information from DATA stream into the temp file represented by NAME, and close the stream when done.
+  example: []
   syntax:
-    content: public void WriteFileComplete(string name, Stream data)
+    content: public Task WriteFileCompleteAsync(string name, Stream data, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
@@ -252,81 +272,93 @@ items:
     - id: data
       type: System.IO.Stream
       description: Stream to read to the end. This stream is CLOSED after it has been read.
-    content.vb: Public Sub WriteFileComplete(name As String, data As Stream)
-  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileComplete*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function WriteFileCompleteAsync(name As String, data As Stream, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileCompleteAsync*
   implements:
-  - SuperOffice.IO.ITempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
-  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
-  id: WriteFileChunk(System.String,System.Int64,System.Byte[])
+  - SuperOffice.IO.ITempFileProvider.WriteFileCompleteAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
+  nameWithType.vb: ArchiveTempFileProvider.WriteFileCompleteAsync(String, Stream, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileCompleteAsync(String, System.IO.Stream, System.Threading.CancellationToken)
+  name.vb: WriteFileCompleteAsync(String, Stream, CancellationToken)
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  id: WriteFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
   langs:
   - csharp
   - vb
-  name: WriteFileChunk(String, Int64, Byte[])
-  nameWithType: ArchiveTempFileProvider.WriteFileChunk(String, Int64, Byte[])
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk(System.String, System.Int64, System.Byte[])
+  name: WriteFileChunkAsync(string, long, byte[], CancellationToken)
+  nameWithType: ArchiveTempFileProvider.WriteFileChunkAsync(string, long, byte[], CancellationToken)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunkAsync(string, long, byte[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
+  summary: Write a chunk of data to the file (random access write)
+  example: []
   syntax:
-    content: public void WriteFileChunk(string name, long filePosition, byte[] bufferToWriteFrom)
+    content: public Task WriteFileChunkAsync(string name, long filePosition, byte[] bufferToWriteFrom, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
+      description: >-
+        Name identifying the file. See comments in the CreateFile
+                    method for more information on how file names are handled.
     - id: filePosition
       type: System.Int64
+      description: Position in bytes, starting at 0, that will be written to
     - id: bufferToWriteFrom
       type: System.Byte[]
-    content.vb: Public Sub WriteFileChunk(name As String, filePosition As Long, bufferToWriteFrom As Byte())
-  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk*
+      description: Buffer to write; buffer length determines the size of the write operation
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function WriteFileChunkAsync(name As String, filePosition As Long, bufferToWriteFrom As Byte(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunkAsync*
   implements:
-  - SuperOffice.IO.ITempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
-  nameWithType.vb: ArchiveTempFileProvider.WriteFileChunk(String, Int64, Byte())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk(System.String, System.Int64, System.Byte())
-  name.vb: WriteFileChunk(String, Int64, Byte())
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile(System.String)
-  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile(System.String)
-  id: DeleteFile(System.String)
+  - SuperOffice.IO.ITempFileProvider.WriteFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  nameWithType.vb: ArchiveTempFileProvider.WriteFileChunkAsync(String, Long, Byte(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunkAsync(String, Long, Byte(), System.Threading.CancellationToken)
+  name.vb: WriteFileChunkAsync(String, Long, Byte(), CancellationToken)
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFileAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFileAsync(System.String,System.Threading.CancellationToken)
+  id: DeleteFileAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
   langs:
   - csharp
   - vb
-  name: DeleteFile(String)
-  nameWithType: ArchiveTempFileProvider.DeleteFile(String)
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile(System.String)
+  name: DeleteFileAsync(string, CancellationToken)
+  nameWithType: ArchiveTempFileProvider.DeleteFileAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFileAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
+  summary: Delete a temporary file
+  example: []
   syntax:
-    content: public void DeleteFile(string name)
+    content: public Task DeleteFileAsync(string name, CancellationToken cancellationToken = default)
     parameters:
     - id: name
       type: System.String
-    content.vb: Public Sub DeleteFile(name As String)
-  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile*
+      description: >-
+        Name identifying the file. See comments in the CreateFile
+                    method for more information on how file names are handled.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteFileAsync(name As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFileAsync*
   implements:
-  - SuperOffice.IO.ITempFileProvider.DeleteFile(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.IO.ITempFileProvider.DeleteFileAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: ArchiveTempFileProvider.DeleteFileAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFileAsync(String, System.Threading.CancellationToken)
+  name.vb: DeleteFileAsync(String, CancellationToken)
 - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor
   commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor
   id: '#ctor'
@@ -338,202 +370,542 @@ items:
   nameWithType: ArchiveTempFileProvider.ArchiveTempFileProvider()
   fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ArchiveTempFileProvider()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
   syntax:
     content: public ArchiveTempFileProvider()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ArchiveTempFileProvider.New()
+  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.New()
+  name.vb: New()
 references:
-- uid: SuperOffice.CRM.Documents
-  commentId: N:SuperOffice.CRM.Documents
-  isExternal: true
-  name: SuperOffice.CRM.Documents
-  nameWithType: SuperOffice.CRM.Documents
-  fullName: SuperOffice.CRM.Documents
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.IO.ITempFileProvider
   commentId: T:SuperOffice.IO.ITempFileProvider
   parent: SuperOffice.IO
   isExternal: true
+  href: SuperOffice.IO.ITempFileProvider.html
   name: ITempFileProvider
   nameWithType: ITempFileProvider
   fullName: SuperOffice.IO.ITempFileProvider
+- uid: SuperOffice.CRM.Documents
+  commentId: N:SuperOffice.CRM.Documents
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Documents
+  nameWithType: SuperOffice.CRM.Documents
+  fullName: SuperOffice.CRM.Documents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents
+    name: Documents
+    isExternal: true
+    href: SuperOffice.CRM.Documents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Documents
+    name: Documents
+    isExternal: true
+    href: SuperOffice.CRM.Documents.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ArchiveTempFileProvider, To>()
-  nameWithType: EnumUtil.MapEnums<ArchiveTempFileProvider, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.ArchiveTempFileProvider, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ArchiveTempFileProvider, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider, To)()
-  name.vb: MapEnums(Of ArchiveTempFileProvider, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ArchiveTempFileProvider, To>(ArchiveTempFileProvider)
+  nameWithType: EnumUtil.MapEnums<ArchiveTempFileProvider, To>(ArchiveTempFileProvider)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.ArchiveTempFileProvider, To>(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+  nameWithType.vb: EnumUtil.MapEnums(Of ArchiveTempFileProvider, To)(ArchiveTempFileProvider)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider, To)(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+  name.vb: MapEnums(Of ArchiveTempFileProvider, To)(ArchiveTempFileProvider)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ArchiveTempFileProvider, To>
-    nameWithType: EnumUtil.MapEnums<ArchiveTempFileProvider, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.ArchiveTempFileProvider, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ArchiveTempFileProvider, To)
-    nameWithType: EnumUtil.MapEnums(Of ArchiveTempFileProvider, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ArchiveTempFileProvider>(ArchiveTempFileProvider)
-  nameWithType: ObjectExtensions.AssignByReflection<ArchiveTempFileProvider>(ArchiveTempFileProvider)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Documents.ArchiveTempFileProvider>(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ArchiveTempFileProvider)(ArchiveTempFileProvider)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider)(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
-  name.vb: AssignByReflection(Of ArchiveTempFileProvider)(ArchiveTempFileProvider)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ArchiveTempFileProvider>
-    nameWithType: ObjectExtensions.AssignByReflection<ArchiveTempFileProvider>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Documents.ArchiveTempFileProvider>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
     name: ArchiveTempFileProvider
-    nameWithType: ArchiveTempFileProvider
-    fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ArchiveTempFileProvider)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ArchiveTempFileProvider)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider)
-    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
     name: ArchiveTempFileProvider
-    nameWithType: ArchiveTempFileProvider
-    fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider
     isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ArchiveTempFileProvider>()
-  nameWithType: ObjectExtensions.GraphCopy<ArchiveTempFileProvider>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Documents.ArchiveTempFileProvider>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ArchiveTempFileProvider)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider)()
-  name.vb: GraphCopy(Of ArchiveTempFileProvider)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ArchiveTempFileProvider>
-    nameWithType: ObjectExtensions.GraphCopy<ArchiveTempFileProvider>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Documents.ArchiveTempFileProvider>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ArchiveTempFileProvider)
-    nameWithType: ObjectExtensions.GraphCopy(Of ArchiveTempFileProvider)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: )
 - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ArchiveTempFileProvider, To>()
-  nameWithType: Converters.MapEnums<ArchiveTempFileProvider, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.ArchiveTempFileProvider, To>()
-  nameWithType.vb: Converters.MapEnums(Of ArchiveTempFileProvider, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider, To)()
-  name.vb: MapEnums(Of ArchiveTempFileProvider, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ArchiveTempFileProvider, To>(ArchiveTempFileProvider)
+  nameWithType: Converters.MapEnums<ArchiveTempFileProvider, To>(ArchiveTempFileProvider)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.ArchiveTempFileProvider, To>(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+  nameWithType.vb: Converters.MapEnums(Of ArchiveTempFileProvider, To)(ArchiveTempFileProvider)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider, To)(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+  name.vb: MapEnums(Of ArchiveTempFileProvider, To)(ArchiveTempFileProvider)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ArchiveTempFileProvider, To>
-    nameWithType: Converters.MapEnums<ArchiveTempFileProvider, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.ArchiveTempFileProvider, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ArchiveTempFileProvider, To)
-    nameWithType: Converters.MapEnums(Of ArchiveTempFileProvider, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  - name: (
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: )
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ArchiveTempFileProvider>(ArchiveTempFileProvider, ArchiveTempFileProvider)
+  nameWithType: ObjectExtensions.AssignByReflection<ArchiveTempFileProvider>(ArchiveTempFileProvider, ArchiveTempFileProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Documents.ArchiveTempFileProvider>(SuperOffice.CRM.Documents.ArchiveTempFileProvider, SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ArchiveTempFileProvider)(ArchiveTempFileProvider, ArchiveTempFileProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider)(SuperOffice.CRM.Documents.ArchiveTempFileProvider, SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+  name.vb: AssignByReflection(Of ArchiveTempFileProvider)(ArchiveTempFileProvider, ArchiveTempFileProvider)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.ArchiveTempFileProvider,SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.ArchiveTempFileProvider,SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: )
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ArchiveTempFileProvider>(ArchiveTempFileProvider)
+  nameWithType: ObjectExtensions.GraphCopy<ArchiveTempFileProvider>(ArchiveTempFileProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Documents.ArchiveTempFileProvider>(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ArchiveTempFileProvider)(ArchiveTempFileProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider)(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+  name.vb: GraphCopy(Of ArchiveTempFileProvider)(ArchiveTempFileProvider)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: )
 - uid: SuperOffice.IO
   commentId: N:SuperOffice.IO
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.IO
   nameWithType: SuperOffice.IO
   fullName: SuperOffice.IO
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.IO
+    name: IO
+    isExternal: true
+    href: SuperOffice.IO.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.IO
+    name: IO
+    isExternal: true
+    href: SuperOffice.IO.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -542,140 +914,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -684,589 +961,991 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile*
-  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
-  name: CreateFile
-  nameWithType: ArchiveTempFileProvider.CreateFile
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile
-- uid: SuperOffice.IO.ITempFileProvider.CreateFile(System.String)
-  commentId: M:SuperOffice.IO.ITempFileProvider.CreateFile(System.String)
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileAsync
+  isExternal: true
+  href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html#SuperOffice_CRM_Documents_ArchiveTempFileProvider_CreateFileAsync_System_String_System_Threading_CancellationToken_
+  name: CreateFileAsync
+  nameWithType: ArchiveTempFileProvider.CreateFileAsync
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileAsync
+- uid: SuperOffice.IO.ITempFileProvider.CreateFileAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ITempFileProvider.CreateFileAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.ITempFileProvider
   isExternal: true
-  name: CreateFile(String)
-  nameWithType: ITempFileProvider.CreateFile(String)
-  fullName: SuperOffice.IO.ITempFileProvider.CreateFile(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: CreateFileAsync(string, CancellationToken)
+  nameWithType: ITempFileProvider.CreateFileAsync(string, CancellationToken)
+  fullName: SuperOffice.IO.ITempFileProvider.CreateFileAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: ITempFileProvider.CreateFileAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.IO.ITempFileProvider.CreateFileAsync(String, System.Threading.CancellationToken)
+  name.vb: CreateFileAsync(String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.ITempFileProvider.CreateFile(System.String)
-    name: CreateFile
-    nameWithType: ITempFileProvider.CreateFile
-    fullName: SuperOffice.IO.ITempFileProvider.CreateFile
+  - uid: SuperOffice.IO.ITempFileProvider.CreateFileAsync(System.String,System.Threading.CancellationToken)
+    name: CreateFileAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.ITempFileProvider.CreateFile(System.String)
-    name: CreateFile
-    nameWithType: ITempFileProvider.CreateFile
-    fullName: SuperOffice.IO.ITempFileProvider.CreateFile
+  - uid: SuperOffice.IO.ITempFileProvider.CreateFileAsync(System.String,System.Threading.CancellationToken)
+    name: CreateFileAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppending*
-  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppending
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: CreateFileForAppending
-  nameWithType: ArchiveTempFileProvider.CreateFileForAppending
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppending
-- uid: SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
-  commentId: M:SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
-  parent: SuperOffice.IO.ITempFileProvider
-  isExternal: true
-  name: CreateFileForAppending(String)
-  nameWithType: ITempFileProvider.CreateFileForAppending(String)
-  fullName: SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
   spec.csharp:
-  - uid: SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
-    name: CreateFileForAppending
-    nameWithType: ITempFileProvider.CreateFileForAppending
-    fullName: SuperOffice.IO.ITempFileProvider.CreateFileForAppending
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
   spec.vb:
-  - uid: SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
-    name: CreateFileForAppending
-    nameWithType: ITempFileProvider.CreateFileForAppending
-    fullName: SuperOffice.IO.ITempFileProvider.CreateFileForAppending
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists*
-  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: CheckIfFileExists
-  nameWithType: ArchiveTempFileProvider.CheckIfFileExists
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists
-- uid: SuperOffice.IO.ITempFileProvider.CheckIfFileExists(System.String)
-  commentId: M:SuperOffice.IO.ITempFileProvider.CheckIfFileExists(System.String)
-  parent: SuperOffice.IO.ITempFileProvider
-  isExternal: true
-  name: CheckIfFileExists(String)
-  nameWithType: ITempFileProvider.CheckIfFileExists(String)
-  fullName: SuperOffice.IO.ITempFileProvider.CheckIfFileExists(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
   spec.csharp:
-  - uid: SuperOffice.IO.ITempFileProvider.CheckIfFileExists(System.String)
-    name: CheckIfFileExists
-    nameWithType: ITempFileProvider.CheckIfFileExists
-    fullName: SuperOffice.IO.ITempFileProvider.CheckIfFileExists
+  - uid: System
+    name: System
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: https://learn.microsoft.com/dotnet/api/system.threading
   spec.vb:
-  - uid: SuperOffice.IO.ITempFileProvider.CheckIfFileExists(System.String)
-    name: CheckIfFileExists
-    nameWithType: ITempFileProvider.CheckIfFileExists
-    fullName: SuperOffice.IO.ITempFileProvider.CheckIfFileExists
+  - uid: System
+    name: System
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete*
-  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete
-  isExternal: true
-  name: ReadFileComplete
-  nameWithType: ArchiveTempFileProvider.ReadFileComplete
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete
-- uid: SuperOffice.IO.ITempFileProvider.ReadFileComplete(System.String)
-  commentId: M:SuperOffice.IO.ITempFileProvider.ReadFileComplete(System.String)
-  parent: SuperOffice.IO.ITempFileProvider
-  isExternal: true
-  name: ReadFileComplete(String)
-  nameWithType: ITempFileProvider.ReadFileComplete(String)
-  fullName: SuperOffice.IO.ITempFileProvider.ReadFileComplete(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
-  - uid: SuperOffice.IO.ITempFileProvider.ReadFileComplete(System.String)
-    name: ReadFileComplete
-    nameWithType: ITempFileProvider.ReadFileComplete
-    fullName: SuperOffice.IO.ITempFileProvider.ReadFileComplete
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
   spec.vb:
-  - uid: SuperOffice.IO.ITempFileProvider.ReadFileComplete(System.String)
-    name: ReadFileComplete
-    nameWithType: ITempFileProvider.ReadFileComplete
-    fullName: SuperOffice.IO.ITempFileProvider.ReadFileComplete
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.Stream
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
   isExternal: true
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk*
-  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppendingAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppendingAsync
   isExternal: true
-  name: ReadFileChunk
-  nameWithType: ArchiveTempFileProvider.ReadFileChunk
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk
-- uid: SuperOffice.IO.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
-  commentId: M:SuperOffice.IO.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
+  href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html#SuperOffice_CRM_Documents_ArchiveTempFileProvider_CreateFileForAppendingAsync_System_String_System_Threading_CancellationToken_
+  name: CreateFileForAppendingAsync
+  nameWithType: ArchiveTempFileProvider.CreateFileForAppendingAsync
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppendingAsync
+- uid: SuperOffice.IO.ITempFileProvider.CreateFileForAppendingAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ITempFileProvider.CreateFileForAppendingAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.ITempFileProvider
   isExternal: true
-  name: ReadFileChunk(String, Int64, Byte[])
-  nameWithType: ITempFileProvider.ReadFileChunk(String, Int64, Byte[])
-  fullName: SuperOffice.IO.ITempFileProvider.ReadFileChunk(System.String, System.Int64, System.Byte[])
-  nameWithType.vb: ITempFileProvider.ReadFileChunk(String, Int64, Byte())
-  fullName.vb: SuperOffice.IO.ITempFileProvider.ReadFileChunk(System.String, System.Int64, System.Byte())
-  name.vb: ReadFileChunk(String, Int64, Byte())
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: CreateFileForAppendingAsync(string, CancellationToken)
+  nameWithType: ITempFileProvider.CreateFileForAppendingAsync(string, CancellationToken)
+  fullName: SuperOffice.IO.ITempFileProvider.CreateFileForAppendingAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: ITempFileProvider.CreateFileForAppendingAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.IO.ITempFileProvider.CreateFileForAppendingAsync(String, System.Threading.CancellationToken)
+  name.vb: CreateFileForAppendingAsync(String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
-    name: ReadFileChunk
-    nameWithType: ITempFileProvider.ReadFileChunk
-    fullName: SuperOffice.IO.ITempFileProvider.ReadFileChunk
+  - uid: SuperOffice.IO.ITempFileProvider.CreateFileForAppendingAsync(System.String,System.Threading.CancellationToken)
+    name: CreateFileForAppendingAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.ITempFileProvider.CreateFileForAppendingAsync(System.String,System.Threading.CancellationToken)
+    name: CreateFileForAppendingAsync
+    isExternal: true
+  - name: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExistsAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExistsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html#SuperOffice_CRM_Documents_ArchiveTempFileProvider_CheckIfFileExistsAsync_System_String_System_Threading_CancellationToken_
+  name: CheckIfFileExistsAsync
+  nameWithType: ArchiveTempFileProvider.CheckIfFileExistsAsync
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExistsAsync
+- uid: SuperOffice.IO.ITempFileProvider.CheckIfFileExistsAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ITempFileProvider.CheckIfFileExistsAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.IO.ITempFileProvider
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: CheckIfFileExistsAsync(string, CancellationToken)
+  nameWithType: ITempFileProvider.CheckIfFileExistsAsync(string, CancellationToken)
+  fullName: SuperOffice.IO.ITempFileProvider.CheckIfFileExistsAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: ITempFileProvider.CheckIfFileExistsAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.IO.ITempFileProvider.CheckIfFileExistsAsync(String, System.Threading.CancellationToken)
+  name.vb: CheckIfFileExistsAsync(String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.IO.ITempFileProvider.CheckIfFileExistsAsync(System.String,System.Threading.CancellationToken)
+    name: CheckIfFileExistsAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.ITempFileProvider.CheckIfFileExistsAsync(System.String,System.Threading.CancellationToken)
+    name: CheckIfFileExistsAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileCompleteAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileCompleteAsync
+  isExternal: true
+  href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html#SuperOffice_CRM_Documents_ArchiveTempFileProvider_ReadFileCompleteAsync_System_String_System_Threading_CancellationToken_
+  name: ReadFileCompleteAsync
+  nameWithType: ArchiveTempFileProvider.ReadFileCompleteAsync
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileCompleteAsync
+- uid: SuperOffice.IO.ITempFileProvider.ReadFileCompleteAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ITempFileProvider.ReadFileCompleteAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.IO.ITempFileProvider
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ReadFileCompleteAsync(string, CancellationToken)
+  nameWithType: ITempFileProvider.ReadFileCompleteAsync(string, CancellationToken)
+  fullName: SuperOffice.IO.ITempFileProvider.ReadFileCompleteAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: ITempFileProvider.ReadFileCompleteAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.IO.ITempFileProvider.ReadFileCompleteAsync(String, System.Threading.CancellationToken)
+  name.vb: ReadFileCompleteAsync(String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.IO.ITempFileProvider.ReadFileCompleteAsync(System.String,System.Threading.CancellationToken)
+    name: ReadFileCompleteAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.ITempFileProvider.ReadFileCompleteAsync(System.String,System.Threading.CancellationToken)
+    name: ReadFileCompleteAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{System.IO.Stream}
+  commentId: T:System.Threading.Tasks.Task{System.IO.Stream}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Stream>
+  nameWithType: Task<Stream>
+  fullName: System.Threading.Tasks.Task<System.IO.Stream>
+  nameWithType.vb: Task(Of Stream)
+  fullName.vb: System.Threading.Tasks.Task(Of System.IO.Stream)
+  name.vb: Task(Of Stream)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunkAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunkAsync
+  isExternal: true
+  href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html#SuperOffice_CRM_Documents_ArchiveTempFileProvider_ReadFileChunkAsync_System_String_System_Int64_System_Byte___System_Threading_CancellationToken_
+  name: ReadFileChunkAsync
+  nameWithType: ArchiveTempFileProvider.ReadFileChunkAsync
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunkAsync
+- uid: SuperOffice.IO.ITempFileProvider.ReadFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ITempFileProvider.ReadFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  parent: SuperOffice.IO.ITempFileProvider
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ReadFileChunkAsync(string, long, byte[], CancellationToken)
+  nameWithType: ITempFileProvider.ReadFileChunkAsync(string, long, byte[], CancellationToken)
+  fullName: SuperOffice.IO.ITempFileProvider.ReadFileChunkAsync(string, long, byte[], System.Threading.CancellationToken)
+  nameWithType.vb: ITempFileProvider.ReadFileChunkAsync(String, Long, Byte(), CancellationToken)
+  fullName.vb: SuperOffice.IO.ITempFileProvider.ReadFileChunkAsync(String, Long, Byte(), System.Threading.CancellationToken)
+  name.vb: ReadFileChunkAsync(String, Long, Byte(), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.IO.ITempFileProvider.ReadFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+    name: ReadFileChunkAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int64
-    name: Int64
-    nameWithType: Int64
-    fullName: System.Int64
+    name: long
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.ITempFileProvider.ReadFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+    name: ReadFileChunkAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int64
+    name: Long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
   - uid: System.Byte
     name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.IO.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
-    name: ReadFileChunk
-    nameWithType: ITempFileProvider.ReadFileChunk
-    fullName: SuperOffice.IO.ITempFileProvider.ReadFileChunk
-    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
   - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int64
-    name: Int64
-    nameWithType: Int64
-    fullName: System.Int64
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: System.Int64
   commentId: T:System.Int64
   parent: System
   isExternal: true
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
 - uid: System.Byte[]
   isExternal: true
-  name: Byte[]
-  nameWithType: Byte[]
-  fullName: System.Byte[]
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
   nameWithType.vb: Byte()
-  fullName.vb: System.Byte()
+  fullName.vb: Byte()
   name.vb: Byte()
   spec.csharp:
   - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
+    name: byte
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Byte
     name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileCompleteAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileCompleteAsync
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileComplete*
-  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileComplete
-  isExternal: true
-  name: WriteFileComplete
-  nameWithType: ArchiveTempFileProvider.WriteFileComplete
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileComplete
-- uid: SuperOffice.IO.ITempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
-  commentId: M:SuperOffice.IO.ITempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
+  href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html#SuperOffice_CRM_Documents_ArchiveTempFileProvider_WriteFileCompleteAsync_System_String_System_IO_Stream_System_Threading_CancellationToken_
+  name: WriteFileCompleteAsync
+  nameWithType: ArchiveTempFileProvider.WriteFileCompleteAsync
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileCompleteAsync
+- uid: SuperOffice.IO.ITempFileProvider.WriteFileCompleteAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ITempFileProvider.WriteFileCompleteAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
   parent: SuperOffice.IO.ITempFileProvider
   isExternal: true
-  name: WriteFileComplete(String, Stream)
-  nameWithType: ITempFileProvider.WriteFileComplete(String, Stream)
-  fullName: SuperOffice.IO.ITempFileProvider.WriteFileComplete(System.String, System.IO.Stream)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: WriteFileCompleteAsync(string, Stream, CancellationToken)
+  nameWithType: ITempFileProvider.WriteFileCompleteAsync(string, Stream, CancellationToken)
+  fullName: SuperOffice.IO.ITempFileProvider.WriteFileCompleteAsync(string, System.IO.Stream, System.Threading.CancellationToken)
+  nameWithType.vb: ITempFileProvider.WriteFileCompleteAsync(String, Stream, CancellationToken)
+  fullName.vb: SuperOffice.IO.ITempFileProvider.WriteFileCompleteAsync(String, System.IO.Stream, System.Threading.CancellationToken)
+  name.vb: WriteFileCompleteAsync(String, Stream, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.ITempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
-    name: WriteFileComplete
-    nameWithType: ITempFileProvider.WriteFileComplete
-    fullName: SuperOffice.IO.ITempFileProvider.WriteFileComplete
+  - uid: SuperOffice.IO.ITempFileProvider.WriteFileCompleteAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
+    name: WriteFileCompleteAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.IO.Stream
     name: Stream
-    nameWithType: Stream
-    fullName: System.IO.Stream
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.ITempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
-    name: WriteFileComplete
-    nameWithType: ITempFileProvider.WriteFileComplete
-    fullName: SuperOffice.IO.ITempFileProvider.WriteFileComplete
+  - uid: SuperOffice.IO.ITempFileProvider.WriteFileCompleteAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
+    name: WriteFileCompleteAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.IO.Stream
     name: Stream
-    nameWithType: Stream
-    fullName: System.IO.Stream
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk*
-  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
   isExternal: true
-  name: WriteFileChunk
-  nameWithType: ArchiveTempFileProvider.WriteFileChunk
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk
-- uid: SuperOffice.IO.ITempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
-  commentId: M:SuperOffice.IO.ITempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunkAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunkAsync
+  isExternal: true
+  href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html#SuperOffice_CRM_Documents_ArchiveTempFileProvider_WriteFileChunkAsync_System_String_System_Int64_System_Byte___System_Threading_CancellationToken_
+  name: WriteFileChunkAsync
+  nameWithType: ArchiveTempFileProvider.WriteFileChunkAsync
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunkAsync
+- uid: SuperOffice.IO.ITempFileProvider.WriteFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ITempFileProvider.WriteFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
   parent: SuperOffice.IO.ITempFileProvider
   isExternal: true
-  name: WriteFileChunk(String, Int64, Byte[])
-  nameWithType: ITempFileProvider.WriteFileChunk(String, Int64, Byte[])
-  fullName: SuperOffice.IO.ITempFileProvider.WriteFileChunk(System.String, System.Int64, System.Byte[])
-  nameWithType.vb: ITempFileProvider.WriteFileChunk(String, Int64, Byte())
-  fullName.vb: SuperOffice.IO.ITempFileProvider.WriteFileChunk(System.String, System.Int64, System.Byte())
-  name.vb: WriteFileChunk(String, Int64, Byte())
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: WriteFileChunkAsync(string, long, byte[], CancellationToken)
+  nameWithType: ITempFileProvider.WriteFileChunkAsync(string, long, byte[], CancellationToken)
+  fullName: SuperOffice.IO.ITempFileProvider.WriteFileChunkAsync(string, long, byte[], System.Threading.CancellationToken)
+  nameWithType.vb: ITempFileProvider.WriteFileChunkAsync(String, Long, Byte(), CancellationToken)
+  fullName.vb: SuperOffice.IO.ITempFileProvider.WriteFileChunkAsync(String, Long, Byte(), System.Threading.CancellationToken)
+  name.vb: WriteFileChunkAsync(String, Long, Byte(), CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.ITempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
-    name: WriteFileChunk
-    nameWithType: ITempFileProvider.WriteFileChunk
-    fullName: SuperOffice.IO.ITempFileProvider.WriteFileChunk
+  - uid: SuperOffice.IO.ITempFileProvider.WriteFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+    name: WriteFileChunkAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int64
-    name: Int64
-    nameWithType: Int64
-    fullName: System.Int64
+    name: long
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
   - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
+    name: byte
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.ITempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
-    name: WriteFileChunk
-    nameWithType: ITempFileProvider.WriteFileChunk
-    fullName: SuperOffice.IO.ITempFileProvider.WriteFileChunk
+  - uid: SuperOffice.IO.ITempFileProvider.WriteFileChunkAsync(System.String,System.Int64,System.Byte[],System.Threading.CancellationToken)
+    name: WriteFileChunkAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int64
-    name: Int64
-    nameWithType: Int64
-    fullName: System.Int64
+    name: Long
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
   - uid: System.Byte
     name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile*
-  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFileAsync*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFileAsync
   isExternal: true
-  name: DeleteFile
-  nameWithType: ArchiveTempFileProvider.DeleteFile
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile
-- uid: SuperOffice.IO.ITempFileProvider.DeleteFile(System.String)
-  commentId: M:SuperOffice.IO.ITempFileProvider.DeleteFile(System.String)
+  href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html#SuperOffice_CRM_Documents_ArchiveTempFileProvider_DeleteFileAsync_System_String_System_Threading_CancellationToken_
+  name: DeleteFileAsync
+  nameWithType: ArchiveTempFileProvider.DeleteFileAsync
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFileAsync
+- uid: SuperOffice.IO.ITempFileProvider.DeleteFileAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.IO.ITempFileProvider.DeleteFileAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.IO.ITempFileProvider
   isExternal: true
-  name: DeleteFile(String)
-  nameWithType: ITempFileProvider.DeleteFile(String)
-  fullName: SuperOffice.IO.ITempFileProvider.DeleteFile(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: DeleteFileAsync(string, CancellationToken)
+  nameWithType: ITempFileProvider.DeleteFileAsync(string, CancellationToken)
+  fullName: SuperOffice.IO.ITempFileProvider.DeleteFileAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: ITempFileProvider.DeleteFileAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.IO.ITempFileProvider.DeleteFileAsync(String, System.Threading.CancellationToken)
+  name.vb: DeleteFileAsync(String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.IO.ITempFileProvider.DeleteFile(System.String)
-    name: DeleteFile
-    nameWithType: ITempFileProvider.DeleteFile
-    fullName: SuperOffice.IO.ITempFileProvider.DeleteFile
+  - uid: SuperOffice.IO.ITempFileProvider.DeleteFileAsync(System.String,System.Threading.CancellationToken)
+    name: DeleteFileAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.IO.ITempFileProvider.DeleteFile(System.String)
-    name: DeleteFile
-    nameWithType: ITempFileProvider.DeleteFile
-    fullName: SuperOffice.IO.ITempFileProvider.DeleteFile
+  - uid: SuperOffice.IO.ITempFileProvider.DeleteFileAsync(System.String,System.Threading.CancellationToken)
+    name: DeleteFileAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor*
   commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html#SuperOffice_CRM_Documents_ArchiveTempFileProvider__ctor
   name: ArchiveTempFileProvider
   nameWithType: ArchiveTempFileProvider.ArchiveTempFileProvider
   fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ArchiveTempFileProvider
+  nameWithType.vb: ArchiveTempFileProvider.New
+  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.New
+  name.vb: New

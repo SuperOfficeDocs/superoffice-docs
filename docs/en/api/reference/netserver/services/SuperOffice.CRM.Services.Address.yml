@@ -21,26 +21,35 @@ items:
   nameWithType: Address
   fullName: SuperOffice.CRM.Services.Address
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nStreet and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered.\n<p></p>\nCarrier object for Address.\n"
+  summary: >-
+    Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered.
+
+    <p></p>
+
+    Carrier object for Address.
+  example: []
   syntax:
-    content: 'public class Address : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class Address : Carrier
     content.vb: >-
-      Public Class Address
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class Address Inherits Carrier
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.Address.#ctor
   commentId: M:SuperOffice.CRM.Services.Address.#ctor
   id: '#ctor'
@@ -52,21 +61,18 @@ items:
   nameWithType: Address.Address()
   fullName: SuperOffice.CRM.Services.Address.Address()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public Address()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.Address.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: Address.New()
+  fullName.vb: SuperOffice.CRM.Services.Address.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.Address.ToString
   commentId: M:SuperOffice.CRM.Services.Address.ToString
   id: ToString
@@ -78,26 +84,18 @@ items:
   nameWithType: Address.ToString()
   fullName: SuperOffice.CRM.Services.Address.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.Address.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.Address.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.Address.ToString(System.String)
   id: ToString(System.String)
@@ -105,17 +103,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: Address.ToString(String)
-  fullName: SuperOffice.CRM.Services.Address.ToString(System.String)
+  name: ToString(string)
+  nameWithType: Address.ToString(string)
+  fullName: SuperOffice.CRM.Services.Address.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -127,10 +126,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.Address.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: Address.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.Address.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.Address.Wgs84Latitude
   commentId: P:SuperOffice.CRM.Services.Address.Wgs84Latitude
   id: Wgs84Latitude
@@ -142,28 +140,28 @@ items:
   nameWithType: Address.Wgs84Latitude
   fullName: SuperOffice.CRM.Services.Address.Wgs84Latitude
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLatitude (that&apos;s north/south), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 59.91892. This value needs no further grid reference or other qualifying information. \n"
+  summary: Latitude (that's north/south), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 59.91892. This value needs no further grid reference or other qualifying information.
+  example: []
   syntax:
-    content: public virtual double Wgs84Latitude { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual double Wgs84Latitude { get; set; }
     parameters: []
     return:
       type: System.Double
-    content.vb: Public Overridable Property Wgs84Latitude As Double
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Wgs84Latitude As Double
   overload: SuperOffice.CRM.Services.Address.Wgs84Latitude*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Address.Wgs84Longitude
   commentId: P:SuperOffice.CRM.Services.Address.Wgs84Longitude
   id: Wgs84Longitude
@@ -175,28 +173,28 @@ items:
   nameWithType: Address.Wgs84Longitude
   fullName: SuperOffice.CRM.Services.Address.Wgs84Longitude
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLongitude (that&apos;s East/west), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 10.73159. This value needs no further grid reference or other qualifying information. \n"
+  summary: Longitude (that's East/west), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 10.73159. This value needs no further grid reference or other qualifying information.
+  example: []
   syntax:
-    content: public virtual double Wgs84Longitude { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual double Wgs84Longitude { get; set; }
     parameters: []
     return:
       type: System.Double
-    content.vb: Public Overridable Property Wgs84Longitude As Double
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Wgs84Longitude As Double
   overload: SuperOffice.CRM.Services.Address.Wgs84Longitude*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Address.LocalizedAddress
   commentId: P:SuperOffice.CRM.Services.Address.LocalizedAddress
   id: LocalizedAddress
@@ -208,28 +206,28 @@ items:
   nameWithType: Address.LocalizedAddress
   fullName: SuperOffice.CRM.Services.Address.LocalizedAddress
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLocalizedFieldArray is a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. \n"
+  summary: LocalizedFieldArray is a list of LocalizedFieldList objects. Used to store localized information such as formatted address data.
+  example: []
   syntax:
-    content: public virtual LocalizedField[][] LocalizedAddress { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual LocalizedField[][] LocalizedAddress { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.LocalizedField[][]
-    content.vb: Public Overridable Property LocalizedAddress As LocalizedField()()
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LocalizedAddress As LocalizedField()()
   overload: SuperOffice.CRM.Services.Address.LocalizedAddress*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Address.Street
   commentId: P:SuperOffice.CRM.Services.Address.Street
   id: Street
@@ -241,28 +239,28 @@ items:
   nameWithType: Address.Street
   fullName: SuperOffice.CRM.Services.Address.Street
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nStreet address (company street, person address, delivery address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. \n"
+  summary: Street address (company street, person address, delivery address). LocalizedAddress changes override this property, so you do not have to change both Localized and this.
+  example: []
   syntax:
-    content: public virtual StructuredAddress Street { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual StructuredAddress Street { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.StructuredAddress
-    content.vb: Public Overridable Property Street As StructuredAddress
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Street As StructuredAddress
   overload: SuperOffice.CRM.Services.Address.Street*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Address.Postal
   commentId: P:SuperOffice.CRM.Services.Address.Postal
   id: Postal
@@ -274,28 +272,28 @@ items:
   nameWithType: Address.Postal
   fullName: SuperOffice.CRM.Services.Address.Postal
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPostal address (company postal, billing address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. \n"
+  summary: Postal address (company postal, billing address). LocalizedAddress changes override this property, so you do not have to change both Localized and this.
+  example: []
   syntax:
-    content: public virtual StructuredAddress Postal { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual StructuredAddress Postal { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.StructuredAddress
-    content.vb: Public Overridable Property Postal As StructuredAddress
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Postal As StructuredAddress
   overload: SuperOffice.CRM.Services.Address.Postal*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Address.Formatted
   commentId: P:SuperOffice.CRM.Services.Address.Formatted
   id: Formatted
@@ -307,44 +305,98 @@ items:
   nameWithType: Address.Formatted
   fullName: SuperOffice.CRM.Services.Address.Formatted
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRead-only formatted address multi-line string. Combines street and postal into one string. e.g.: &lt;c>&quot;Postboks 123,\\nBrugata 123,\\n1234 OSLO\\n&quot;&lt;/c> or &lt;c>&quot;Postbox 123,\\nBridgelane 123,\\nWest Tooting,\\nEast Shire ES2 W31\\n&quot;&lt;/c>. \n"
+  summary: 'Read-only formatted address multi-line string. Combines street and postal into one string. e.g.: &lt;c&gt;"Postboks 123,\nBrugata 123,\n1234 OSLO\n"&lt;/c&gt; or &lt;c&gt;"Postbox 123,\nBridgelane 123,\nWest Tooting,\nEast Shire ES2 W31\n"&lt;/c&gt;.'
+  example: []
   syntax:
-    content: public virtual string Formatted { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Formatted { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Formatted As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Formatted As String
   overload: SuperOffice.CRM.Services.Address.Formatted*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.Address.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.Address.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.Address.html#SuperOffice_CRM_Services_Address__ctor
   name: Address
   nameWithType: Address.Address
   fullName: SuperOffice.CRM.Services.Address.Address
+  nameWithType.vb: Address.New
+  fullName.vb: SuperOffice.CRM.Services.Address.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.Address.ToString*
   commentId: Overload:SuperOffice.CRM.Services.Address.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.Address.html#SuperOffice_CRM_Services_Address_ToString
   name: ToString
   nameWithType: Address.ToString
   fullName: SuperOffice.CRM.Services.Address.ToString
@@ -352,18 +404,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.Address.Wgs84Latitude*
   commentId: Overload:SuperOffice.CRM.Services.Address.Wgs84Latitude
   isExternal: true
+  href: SuperOffice.CRM.Services.Address.html#SuperOffice_CRM_Services_Address_Wgs84Latitude
   name: Wgs84Latitude
   nameWithType: Address.Wgs84Latitude
   fullName: SuperOffice.CRM.Services.Address.Wgs84Latitude
@@ -371,23 +422,30 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
 - uid: SuperOffice.CRM.Services.Address.Wgs84Longitude*
   commentId: Overload:SuperOffice.CRM.Services.Address.Wgs84Longitude
   isExternal: true
+  href: SuperOffice.CRM.Services.Address.html#SuperOffice_CRM_Services_Address_Wgs84Longitude
   name: Wgs84Longitude
   nameWithType: Address.Wgs84Longitude
   fullName: SuperOffice.CRM.Services.Address.Wgs84Longitude
 - uid: SuperOffice.CRM.Services.Address.LocalizedAddress*
   commentId: Overload:SuperOffice.CRM.Services.Address.LocalizedAddress
   isExternal: true
+  href: SuperOffice.CRM.Services.Address.html#SuperOffice_CRM_Services_Address_LocalizedAddress
   name: LocalizedAddress
   nameWithType: Address.LocalizedAddress
   fullName: SuperOffice.CRM.Services.Address.LocalizedAddress
 - uid: SuperOffice.CRM.Services.LocalizedField[][]
   isExternal: true
+  href: SuperOffice.CRM.Services.LocalizedField.html
   name: LocalizedField[][]
   nameWithType: LocalizedField[][]
   fullName: SuperOffice.CRM.Services.LocalizedField[][]
@@ -397,30 +455,25 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.LocalizedField
     name: LocalizedField
-    nameWithType: LocalizedField
-    fullName: SuperOffice.CRM.Services.LocalizedField
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.LocalizedField.html
+  - name: '['
+  - name: ']'
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.LocalizedField
     name: LocalizedField
-    nameWithType: LocalizedField
-    fullName: SuperOffice.CRM.Services.LocalizedField
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.LocalizedField.html
+  - name: (
+  - name: )
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.Address.Street*
   commentId: Overload:SuperOffice.CRM.Services.Address.Street
   isExternal: true
+  href: SuperOffice.CRM.Services.Address.html#SuperOffice_CRM_Services_Address_Street
   name: Street
   nameWithType: Address.Street
   fullName: SuperOffice.CRM.Services.Address.Street
@@ -428,18 +481,21 @@ references:
   commentId: T:SuperOffice.CRM.Services.StructuredAddress
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.StructuredAddress.html
   name: StructuredAddress
   nameWithType: StructuredAddress
   fullName: SuperOffice.CRM.Services.StructuredAddress
 - uid: SuperOffice.CRM.Services.Address.Postal*
   commentId: Overload:SuperOffice.CRM.Services.Address.Postal
   isExternal: true
+  href: SuperOffice.CRM.Services.Address.html#SuperOffice_CRM_Services_Address_Postal
   name: Postal
   nameWithType: Address.Postal
   fullName: SuperOffice.CRM.Services.Address.Postal
 - uid: SuperOffice.CRM.Services.Address.Formatted*
   commentId: Overload:SuperOffice.CRM.Services.Address.Formatted
   isExternal: true
+  href: SuperOffice.CRM.Services.Address.html#SuperOffice_CRM_Services_Address_Formatted
   name: Formatted
   nameWithType: Address.Formatted
   fullName: SuperOffice.CRM.Services.Address.Formatted

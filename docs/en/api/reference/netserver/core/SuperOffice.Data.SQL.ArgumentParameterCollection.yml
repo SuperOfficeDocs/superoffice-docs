@@ -36,35 +36,48 @@ items:
   nameWithType: ArgumentParameterCollection
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nThis class contains a structure like (FieldInfo, Parameter). \nThe class is used for example when dealing with insert-statements, ex: \n<pre><code>	INSERT INTO associate T0(T0.associate_id, T0.name, T0.person_id) VALUES(1, &apos;SuperOffice&apos;, 2)</code></pre>\nThis example will look like this when coded:\n<pre><code>	AssociateTableInfo a = TablesInfo.GetAssociateTableInfo( &quot;a&quot; );\n	Insert i = S.NewInsert();\n	i.FieldValuePairs.Add( a.AssociateId, S.Parameter( 1 ) );\n	i.FieldValuePairs.Add( a.Name, S.Parameter( &quot;SuperOffice&quot; ) );\n	i.FieldValuePairs.Add( a.PersonId, S.Parameter( 2 ) );</code></pre>\n"
+  summary: >-
+    This class contains a structure like (FieldInfo, Parameter). 
+
+    The class is used for example when dealing with insert-statements, ex: 
+
+    <pre><code class="lang-csharp">INSERT INTO associate T0(T0.associate_id, T0.name, T0.person_id) VALUES(1, 'SuperOffice', 2)</code></pre>
+
+    This example will look like this when coded:
+
+    <pre><code class="lang-csharp">AssociateTableInfo a = TablesInfo.GetAssociateTableInfo( "a" );
+
+    Insert i = S.NewInsert();
+
+    i.FieldValuePairs.Add( a.AssociateId, S.Parameter( 1 ) );
+
+    i.FieldValuePairs.Add( a.Name, S.Parameter( "SuperOffice" ) );
+
+    i.FieldValuePairs.Add( a.PersonId, S.Parameter( 2 ) );</code></pre>
+  example: []
   syntax:
-    content: 'public class ArgumentParameterCollection : Object, IEnumerable, ICloneable'
-    content.vb: >-
-      Public Class ArgumentParameterCollection
-          Inherits Object
-          Implements IEnumerable, ICloneable
+    content: 'public class ArgumentParameterCollection : IEnumerable, ICloneable'
+    content.vb: Public Class ArgumentParameterCollection Implements IEnumerable, ICloneable
   inheritance:
   - System.Object
   implements:
   - System.Collections.IEnumerable
   - System.ICloneable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.SQL.ArgumentParameterCollection.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SQL.ArgumentParameterCollection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Data.SQL.ArgumentParameterCollection.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.ArgumentParameterCollection)
   - SuperOffice.Data.SQL.ArgumentParameterCollection.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.Data.SQL.ArgumentParameterCollection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.HasField(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.HasField(SuperOffice.Data.SQL.FieldInfo)
   id: HasField(SuperOffice.Data.SQL.FieldInfo)
@@ -76,13 +89,11 @@ items:
   nameWithType: ArgumentParameterCollection.HasField(FieldInfo)
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.HasField(SuperOffice.Data.SQL.FieldInfo)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nCheck if the given field exists in the parameter collection\n"
+  summary: Check if the given field exists in the parameter collection
+  example: []
   syntax:
     content: public bool HasField(FieldInfo argument)
     parameters:
@@ -94,10 +105,6 @@ items:
       description: true if the field exists, according to <xref href="SuperOffice.Data.SQL.FieldInfo.IsSameField(SuperOffice.Data.SQL.FieldInfo)" data-throw-if-not-resolved="false"></xref>
     content.vb: Public Function HasField(argument As FieldInfo) As Boolean
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.HasField*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.HasSameField(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.HasSameField(SuperOffice.Data.SQL.FieldInfo)
   id: HasSameField(SuperOffice.Data.SQL.FieldInfo)
@@ -109,9 +116,6 @@ items:
   nameWithType: ArgumentParameterCollection.HasSameField(FieldInfo)
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.HasSameField(SuperOffice.Data.SQL.FieldInfo)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
@@ -124,10 +128,6 @@ items:
       type: System.Boolean
     content.vb: Public Function HasSameField(argument As FieldInfo) As Boolean
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.HasSameField*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.HasFieldValue(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.HasFieldValue(SuperOffice.Data.SQL.FieldInfo)
   id: HasFieldValue(SuperOffice.Data.SQL.FieldInfo)
@@ -139,26 +139,22 @@ items:
   nameWithType: ArgumentParameterCollection.HasFieldValue(FieldInfo)
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.HasFieldValue(SuperOffice.Data.SQL.FieldInfo)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nCheck if the given field exists in the parameter collection, and has a non-null value\n"
+  summary: Check if the given field exists in the parameter collection, and has a non-null value
+  example: []
   syntax:
     content: public bool HasFieldValue(FieldInfo argument)
     parameters:
     - id: argument
       type: SuperOffice.Data.SQL.FieldInfo
+      description: ''
     return:
       type: System.Boolean
+      description: ''
     content.vb: Public Function HasFieldValue(argument As FieldInfo) As Boolean
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.HasFieldValue*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue(SuperOffice.Data.SQL.FieldInfo,System.Int32@)
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue(SuperOffice.Data.SQL.FieldInfo,System.Int32@)
   id: TryGetIntValue(SuperOffice.Data.SQL.FieldInfo,System.Int32@)
@@ -166,17 +162,18 @@ items:
   langs:
   - csharp
   - vb
-  name: TryGetIntValue(FieldInfo, out Int32)
-  nameWithType: ArgumentParameterCollection.TryGetIntValue(FieldInfo, out Int32)
-  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue(SuperOffice.Data.SQL.FieldInfo, out System.Int32)
+  name: TryGetIntValue(FieldInfo, out int)
+  nameWithType: ArgumentParameterCollection.TryGetIntValue(FieldInfo, out int)
+  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue(SuperOffice.Data.SQL.FieldInfo, out int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nTry to retrieve the value of a parameter as an integer; this method will allow you to fetch an Int32\nfrom what is actually an Int16, to make life easier.\n"
+  summary: >-
+    Try to retrieve the value of a parameter as an integer; this method will allow you to fetch an Int32
+
+    from what is actually an Int16, to make life easier.
+  example: []
   syntax:
     content: public bool TryGetIntValue(FieldInfo argument, out int value)
     parameters:
@@ -189,15 +186,11 @@ items:
     return:
       type: System.Boolean
       description: true if the parameter existed and had a non-null value of a compatible type
-    content.vb: Public Function TryGetIntValue(argument As FieldInfo, ByRef value As Integer) As Boolean
+    content.vb: Public Function TryGetIntValue(argument As FieldInfo, value As Integer) As Boolean
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue*
-  nameWithType.vb: ArgumentParameterCollection.TryGetIntValue(FieldInfo, ByRef Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue(SuperOffice.Data.SQL.FieldInfo, ByRef System.Int32)
-  name.vb: TryGetIntValue(FieldInfo, ByRef Int32)
+  nameWithType.vb: ArgumentParameterCollection.TryGetIntValue(FieldInfo, Integer)
+  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue(SuperOffice.Data.SQL.FieldInfo, Integer)
+  name.vb: TryGetIntValue(FieldInfo, Integer)
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue(SuperOffice.Data.Dictionary.SoField,System.Int32@)
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue(SuperOffice.Data.Dictionary.SoField,System.Int32@)
   id: TryGetIntValue(SuperOffice.Data.Dictionary.SoField,System.Int32@)
@@ -205,18 +198,26 @@ items:
   langs:
   - csharp
   - vb
-  name: TryGetIntValue(SoField, out Int32)
-  nameWithType: ArgumentParameterCollection.TryGetIntValue(SoField, out Int32)
-  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue(SuperOffice.Data.Dictionary.SoField, out System.Int32)
+  name: TryGetIntValue(SoField, out int)
+  nameWithType: ArgumentParameterCollection.TryGetIntValue(SoField, out int)
+  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue(SuperOffice.Data.Dictionary.SoField, out int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nTry to retrieve the value of a parameter as an integer; this method will allow you to fetch an Int32\nfrom what is actually an Int16, to make life easier.\n"
-  remarks: "\nThis method takes an <xref href=\"SuperOffice.Data.Dictionary.SoField\" data-throw-if-not-resolved=\"false\"></xref> instead of a <xref href=\"SuperOffice.Data.SQL.FieldInfo\" data-throw-if-not-resolved=\"false\"></xref>,\nso that you do not have to know the exact <xref href=\"SuperOffice.Data.SQL.TableInfo\" data-throw-if-not-resolved=\"false\"></xref> instance of the field. On the other\nhand, if there is aliasing (multiple occurrences of fields from the same table, but different TableInfo instances), then\nyou cannot distinguish between them and will get the first one.\n"
+  summary: >-
+    Try to retrieve the value of a parameter as an integer; this method will allow you to fetch an Int32
+
+    from what is actually an Int16, to make life easier.
+  remarks: >-
+    This method takes an <xref href="SuperOffice.Data.Dictionary.SoField" data-throw-if-not-resolved="false"></xref> instead of a <xref href="SuperOffice.Data.SQL.FieldInfo" data-throw-if-not-resolved="false"></xref>,
+
+    so that you do not have to know the exact <xref href="SuperOffice.Data.SQL.TableInfo" data-throw-if-not-resolved="false"></xref> instance of the field. On the other
+
+    hand, if there is aliasing (multiple occurrences of fields from the same table, but different TableInfo instances), then
+
+    you cannot distinguish between them and will get the first one.
+  example: []
   syntax:
     content: public bool TryGetIntValue(SoField argument, out int value)
     parameters:
@@ -229,15 +230,11 @@ items:
     return:
       type: System.Boolean
       description: true if the parameter existed and had a non-null value of a compatible type
-    content.vb: Public Function TryGetIntValue(argument As SoField, ByRef value As Integer) As Boolean
+    content.vb: Public Function TryGetIntValue(argument As SoField, value As Integer) As Boolean
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue*
-  nameWithType.vb: ArgumentParameterCollection.TryGetIntValue(SoField, ByRef Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue(SuperOffice.Data.Dictionary.SoField, ByRef System.Int32)
-  name.vb: TryGetIntValue(SoField, ByRef Int32)
+  nameWithType.vb: ArgumentParameterCollection.TryGetIntValue(SoField, Integer)
+  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue(SuperOffice.Data.Dictionary.SoField, Integer)
+  name.vb: TryGetIntValue(SoField, Integer)
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue(SuperOffice.Data.SQL.FieldInfo,System.String@)
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue(SuperOffice.Data.SQL.FieldInfo,System.String@)
   id: TryGetStringValue(SuperOffice.Data.SQL.FieldInfo,System.String@)
@@ -245,17 +242,15 @@ items:
   langs:
   - csharp
   - vb
-  name: TryGetStringValue(FieldInfo, out String)
-  nameWithType: ArgumentParameterCollection.TryGetStringValue(FieldInfo, out String)
-  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue(SuperOffice.Data.SQL.FieldInfo, out System.String)
+  name: TryGetStringValue(FieldInfo, out string)
+  nameWithType: ArgumentParameterCollection.TryGetStringValue(FieldInfo, out string)
+  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue(SuperOffice.Data.SQL.FieldInfo, out string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nTry to retrieve the value of a parameter as a string.\n"
+  summary: Try to retrieve the value of a parameter as a string.
+  example: []
   syntax:
     content: public bool TryGetStringValue(FieldInfo argument, out string value)
     parameters:
@@ -268,15 +263,11 @@ items:
     return:
       type: System.Boolean
       description: true if the parameter existed and had a non-null value of a compatible type
-    content.vb: Public Function TryGetStringValue(argument As FieldInfo, ByRef value As String) As Boolean
+    content.vb: Public Function TryGetStringValue(argument As FieldInfo, value As String) As Boolean
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue*
-  nameWithType.vb: ArgumentParameterCollection.TryGetStringValue(FieldInfo, ByRef String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue(SuperOffice.Data.SQL.FieldInfo, ByRef System.String)
-  name.vb: TryGetStringValue(FieldInfo, ByRef String)
+  nameWithType.vb: ArgumentParameterCollection.TryGetStringValue(FieldInfo, String)
+  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue(SuperOffice.Data.SQL.FieldInfo, String)
+  name.vb: TryGetStringValue(FieldInfo, String)
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue(SuperOffice.Data.Dictionary.SoField,System.String@)
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue(SuperOffice.Data.Dictionary.SoField,System.String@)
   id: TryGetStringValue(SuperOffice.Data.Dictionary.SoField,System.String@)
@@ -284,18 +275,23 @@ items:
   langs:
   - csharp
   - vb
-  name: TryGetStringValue(SoField, out String)
-  nameWithType: ArgumentParameterCollection.TryGetStringValue(SoField, out String)
-  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue(SuperOffice.Data.Dictionary.SoField, out System.String)
+  name: TryGetStringValue(SoField, out string)
+  nameWithType: ArgumentParameterCollection.TryGetStringValue(SoField, out string)
+  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue(SuperOffice.Data.Dictionary.SoField, out string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nTry to retrieve the value of a parameter as a string.\n"
-  remarks: "\nThis method takes an <xref href=\"SuperOffice.Data.Dictionary.SoField\" data-throw-if-not-resolved=\"false\"></xref> instead of a <xref href=\"SuperOffice.Data.SQL.FieldInfo\" data-throw-if-not-resolved=\"false\"></xref>,\nso that you do not have to know the exact <xref href=\"SuperOffice.Data.SQL.TableInfo\" data-throw-if-not-resolved=\"false\"></xref> instance of the field. On the other\nhand, if there is aliasing (multiple occurrences of fields from the same table, but different TableInfo instances), then\nyou cannot distinguish between them and will get the first one.\n"
+  summary: Try to retrieve the value of a parameter as a string.
+  remarks: >-
+    This method takes an <xref href="SuperOffice.Data.Dictionary.SoField" data-throw-if-not-resolved="false"></xref> instead of a <xref href="SuperOffice.Data.SQL.FieldInfo" data-throw-if-not-resolved="false"></xref>,
+
+    so that you do not have to know the exact <xref href="SuperOffice.Data.SQL.TableInfo" data-throw-if-not-resolved="false"></xref> instance of the field. On the other
+
+    hand, if there is aliasing (multiple occurrences of fields from the same table, but different TableInfo instances), then
+
+    you cannot distinguish between them and will get the first one.
+  example: []
   syntax:
     content: public bool TryGetStringValue(SoField argument, out string value)
     parameters:
@@ -308,15 +304,11 @@ items:
     return:
       type: System.Boolean
       description: true if the parameter existed and had a non-null value of a compatible type
-    content.vb: Public Function TryGetStringValue(argument As SoField, ByRef value As String) As Boolean
+    content.vb: Public Function TryGetStringValue(argument As SoField, value As String) As Boolean
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue*
-  nameWithType.vb: ArgumentParameterCollection.TryGetStringValue(SoField, ByRef String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue(SuperOffice.Data.Dictionary.SoField, ByRef System.String)
-  name.vb: TryGetStringValue(SoField, ByRef String)
+  nameWithType.vb: ArgumentParameterCollection.TryGetStringValue(SoField, String)
+  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue(SuperOffice.Data.Dictionary.SoField, String)
+  name.vb: TryGetStringValue(SoField, String)
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDateTimeValue(SuperOffice.Data.SQL.FieldInfo,System.DateTime@)
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDateTimeValue(SuperOffice.Data.SQL.FieldInfo,System.DateTime@)
   id: TryGetDateTimeValue(SuperOffice.Data.SQL.FieldInfo,System.DateTime@)
@@ -328,13 +320,11 @@ items:
   nameWithType: ArgumentParameterCollection.TryGetDateTimeValue(FieldInfo, out DateTime)
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDateTimeValue(SuperOffice.Data.SQL.FieldInfo, out System.DateTime)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nTry to retrieve the value of a parameter as a datetime\n"
+  summary: Try to retrieve the value of a parameter as a datetime
+  example: []
   syntax:
     content: public bool TryGetDateTimeValue(FieldInfo argument, out DateTime value)
     parameters:
@@ -347,15 +337,11 @@ items:
     return:
       type: System.Boolean
       description: true if the parameter existed and had a non-null value of a compatible type
-    content.vb: Public Function TryGetDateTimeValue(argument As FieldInfo, ByRef value As DateTime) As Boolean
+    content.vb: Public Function TryGetDateTimeValue(argument As FieldInfo, value As Date) As Boolean
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDateTimeValue*
-  nameWithType.vb: ArgumentParameterCollection.TryGetDateTimeValue(FieldInfo, ByRef DateTime)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDateTimeValue(SuperOffice.Data.SQL.FieldInfo, ByRef System.DateTime)
-  name.vb: TryGetDateTimeValue(FieldInfo, ByRef DateTime)
+  nameWithType.vb: ArgumentParameterCollection.TryGetDateTimeValue(FieldInfo, Date)
+  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDateTimeValue(SuperOffice.Data.SQL.FieldInfo, Date)
+  name.vb: TryGetDateTimeValue(FieldInfo, Date)
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDateTimeValue(SuperOffice.Data.Dictionary.SoField,System.DateTime@)
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDateTimeValue(SuperOffice.Data.Dictionary.SoField,System.DateTime@)
   id: TryGetDateTimeValue(SuperOffice.Data.Dictionary.SoField,System.DateTime@)
@@ -367,14 +353,19 @@ items:
   nameWithType: ArgumentParameterCollection.TryGetDateTimeValue(SoField, out DateTime)
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDateTimeValue(SuperOffice.Data.Dictionary.SoField, out System.DateTime)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nTry to retrieve the value of a parameter as a datetime\n"
-  remarks: "\nThis method takes an <xref href=\"SuperOffice.Data.Dictionary.SoField\" data-throw-if-not-resolved=\"false\"></xref> instead of a <xref href=\"SuperOffice.Data.SQL.FieldInfo\" data-throw-if-not-resolved=\"false\"></xref>,\nso that you do not have to know the exact <xref href=\"SuperOffice.Data.SQL.TableInfo\" data-throw-if-not-resolved=\"false\"></xref> instance of the field. On the other\nhand, if there is aliasing (multiple occurrences of fields from the same table, but different TableInfo instances), then\nyou cannot distinguish between them and will get the first one.\n"
+  summary: Try to retrieve the value of a parameter as a datetime
+  remarks: >-
+    This method takes an <xref href="SuperOffice.Data.Dictionary.SoField" data-throw-if-not-resolved="false"></xref> instead of a <xref href="SuperOffice.Data.SQL.FieldInfo" data-throw-if-not-resolved="false"></xref>,
+
+    so that you do not have to know the exact <xref href="SuperOffice.Data.SQL.TableInfo" data-throw-if-not-resolved="false"></xref> instance of the field. On the other
+
+    hand, if there is aliasing (multiple occurrences of fields from the same table, but different TableInfo instances), then
+
+    you cannot distinguish between them and will get the first one.
+  example: []
   syntax:
     content: public bool TryGetDateTimeValue(SoField argument, out DateTime value)
     parameters:
@@ -387,15 +378,11 @@ items:
     return:
       type: System.Boolean
       description: true if the parameter existed and had a non-null value of a compatible type
-    content.vb: Public Function TryGetDateTimeValue(argument As SoField, ByRef value As DateTime) As Boolean
+    content.vb: Public Function TryGetDateTimeValue(argument As SoField, value As Date) As Boolean
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDateTimeValue*
-  nameWithType.vb: ArgumentParameterCollection.TryGetDateTimeValue(SoField, ByRef DateTime)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDateTimeValue(SuperOffice.Data.Dictionary.SoField, ByRef System.DateTime)
-  name.vb: TryGetDateTimeValue(SoField, ByRef DateTime)
+  nameWithType.vb: ArgumentParameterCollection.TryGetDateTimeValue(SoField, Date)
+  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDateTimeValue(SuperOffice.Data.Dictionary.SoField, Date)
+  name.vb: TryGetDateTimeValue(SoField, Date)
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue(SuperOffice.Data.SQL.FieldInfo,System.Double@)
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue(SuperOffice.Data.SQL.FieldInfo,System.Double@)
   id: TryGetDoubleValue(SuperOffice.Data.SQL.FieldInfo,System.Double@)
@@ -403,17 +390,15 @@ items:
   langs:
   - csharp
   - vb
-  name: TryGetDoubleValue(FieldInfo, out Double)
-  nameWithType: ArgumentParameterCollection.TryGetDoubleValue(FieldInfo, out Double)
-  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue(SuperOffice.Data.SQL.FieldInfo, out System.Double)
+  name: TryGetDoubleValue(FieldInfo, out double)
+  nameWithType: ArgumentParameterCollection.TryGetDoubleValue(FieldInfo, out double)
+  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue(SuperOffice.Data.SQL.FieldInfo, out double)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nTry to retrieve the value of a parameter as a Double\n"
+  summary: Try to retrieve the value of a parameter as a Double
+  example: []
   syntax:
     content: public bool TryGetDoubleValue(FieldInfo argument, out double value)
     parameters:
@@ -426,15 +411,11 @@ items:
     return:
       type: System.Boolean
       description: true if the parameter existed and had a non-null value of a compatible type
-    content.vb: Public Function TryGetDoubleValue(argument As FieldInfo, ByRef value As Double) As Boolean
+    content.vb: Public Function TryGetDoubleValue(argument As FieldInfo, value As Double) As Boolean
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue*
-  nameWithType.vb: ArgumentParameterCollection.TryGetDoubleValue(FieldInfo, ByRef Double)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue(SuperOffice.Data.SQL.FieldInfo, ByRef System.Double)
-  name.vb: TryGetDoubleValue(FieldInfo, ByRef Double)
+  nameWithType.vb: ArgumentParameterCollection.TryGetDoubleValue(FieldInfo, Double)
+  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue(SuperOffice.Data.SQL.FieldInfo, Double)
+  name.vb: TryGetDoubleValue(FieldInfo, Double)
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue(SuperOffice.Data.Dictionary.SoField,System.Double@)
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue(SuperOffice.Data.Dictionary.SoField,System.Double@)
   id: TryGetDoubleValue(SuperOffice.Data.Dictionary.SoField,System.Double@)
@@ -442,18 +423,23 @@ items:
   langs:
   - csharp
   - vb
-  name: TryGetDoubleValue(SoField, out Double)
-  nameWithType: ArgumentParameterCollection.TryGetDoubleValue(SoField, out Double)
-  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue(SuperOffice.Data.Dictionary.SoField, out System.Double)
+  name: TryGetDoubleValue(SoField, out double)
+  nameWithType: ArgumentParameterCollection.TryGetDoubleValue(SoField, out double)
+  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue(SuperOffice.Data.Dictionary.SoField, out double)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nTry to retrieve the value of a parameter as a Double\n"
-  remarks: "\nThis method takes an <xref href=\"SuperOffice.Data.Dictionary.SoField\" data-throw-if-not-resolved=\"false\"></xref> instead of a <xref href=\"SuperOffice.Data.SQL.FieldInfo\" data-throw-if-not-resolved=\"false\"></xref>,\nso that you do not have to know the exact <xref href=\"SuperOffice.Data.SQL.TableInfo\" data-throw-if-not-resolved=\"false\"></xref> instance of the field. On the other\nhand, if there is aliasing (multiple occurrences of fields from the same table, but different TableInfo instances), then\nyou cannot distinguish between them and will get the first one.\n"
+  summary: Try to retrieve the value of a parameter as a Double
+  remarks: >-
+    This method takes an <xref href="SuperOffice.Data.Dictionary.SoField" data-throw-if-not-resolved="false"></xref> instead of a <xref href="SuperOffice.Data.SQL.FieldInfo" data-throw-if-not-resolved="false"></xref>,
+
+    so that you do not have to know the exact <xref href="SuperOffice.Data.SQL.TableInfo" data-throw-if-not-resolved="false"></xref> instance of the field. On the other
+
+    hand, if there is aliasing (multiple occurrences of fields from the same table, but different TableInfo instances), then
+
+    you cannot distinguish between them and will get the first one.
+  example: []
   syntax:
     content: public bool TryGetDoubleValue(SoField argument, out double value)
     parameters:
@@ -466,15 +452,11 @@ items:
     return:
       type: System.Boolean
       description: true if the parameter existed and had a non-null value of a compatible type
-    content.vb: Public Function TryGetDoubleValue(argument As SoField, ByRef value As Double) As Boolean
+    content.vb: Public Function TryGetDoubleValue(argument As SoField, value As Double) As Boolean
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue*
-  nameWithType.vb: ArgumentParameterCollection.TryGetDoubleValue(SoField, ByRef Double)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue(SuperOffice.Data.Dictionary.SoField, ByRef System.Double)
-  name.vb: TryGetDoubleValue(SoField, ByRef Double)
+  nameWithType.vb: ArgumentParameterCollection.TryGetDoubleValue(SoField, Double)
+  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue(SuperOffice.Data.Dictionary.SoField, Double)
+  name.vb: TryGetDoubleValue(SoField, Double)
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.GetEquivalentField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.GetEquivalentField(SuperOffice.Data.Dictionary.SoField)
   id: GetEquivalentField(SuperOffice.Data.Dictionary.SoField)
@@ -486,13 +468,14 @@ items:
   nameWithType: ArgumentParameterCollection.GetEquivalentField(SoField)
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.GetEquivalentField(SuperOffice.Data.Dictionary.SoField)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nSearch the arguments to see if a field exists that is equivalent (i.e., same field in same\ntable) as the incoming dictionary field\n"
+  summary: >-
+    Search the arguments to see if a field exists that is equivalent (i.e., same field in same
+
+    table) as the incoming dictionary field
+  example: []
   syntax:
     content: public FieldInfo GetEquivalentField(SoField field)
     parameters:
@@ -504,10 +487,6 @@ items:
       description: The first corresponding fieldinfo, if one exists
     content.vb: Public Function GetEquivalentField(field As SoField) As FieldInfo
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.GetEquivalentField*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.CloneAndExtendWithEquivalents(SuperOffice.Data.SQL.TableInfo,System.Int32,SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.CloneAndExtendWithEquivalents(SuperOffice.Data.SQL.TableInfo,System.Int32,SuperOffice.Data.SQL.FieldInfo[])
   id: CloneAndExtendWithEquivalents(SuperOffice.Data.SQL.TableInfo,System.Int32,SuperOffice.Data.SQL.FieldInfo[])
@@ -515,18 +494,34 @@ items:
   langs:
   - csharp
   - vb
-  name: CloneAndExtendWithEquivalents(TableInfo, Int32, FieldInfo[])
-  nameWithType: ArgumentParameterCollection.CloneAndExtendWithEquivalents(TableInfo, Int32, FieldInfo[])
-  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.CloneAndExtendWithEquivalents(SuperOffice.Data.SQL.TableInfo, System.Int32, SuperOffice.Data.SQL.FieldInfo[])
+  name: CloneAndExtendWithEquivalents(TableInfo, int, params FieldInfo[])
+  nameWithType: ArgumentParameterCollection.CloneAndExtendWithEquivalents(TableInfo, int, params FieldInfo[])
+  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.CloneAndExtendWithEquivalents(SuperOffice.Data.SQL.TableInfo, int, params SuperOffice.Data.SQL.FieldInfo[])
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nClone the <strong>this</strong>, and check that all <see cref=\"!:requiredFields\"></see> have an equivalent (by SoField) field in the\nreturn value. If any fields are missing, fetch them from the database and add to the return value.\n"
-  remarks: "\nThe purpose of this method is to ensure that an ArgumentParameterCollection contains at least the fields\nthat are specified in the parameter <see cref=\"!:requiredFields\"></see>. The specification is taken in terms of field\nequivalents, i.e.,  looking at the SoField definitions and not the complete FieldInfo (which is connected\nto a particular TableInfo instance).\n<p></p>\nFields that do not have their equivalent in the original collection will be fetched from the table identified by\n<see cref=\"!:sourceTable\"></see>, using the primary key <see cref=\"!:sourceId\"></see>. There will be at most one database access.\nAll fields specified by <see cref=\"!:requiredFields\"></see> must belong to the same table (SoTable) as the <see cref=\"!:sourceTable\"></see>.\n"
+  summary: >-
+    Clone the <b>this</b>, and check that all requiredFields have an equivalent (by SoField) field in the
+
+    return value. If any fields are missing, fetch them from the database and add to the return value.
+  remarks: >-
+    The purpose of this method is to ensure that an ArgumentParameterCollection contains at least the fields
+
+    that are specified in the parameter requiredFields. The specification is taken in terms of field
+
+    equivalents, i.e.,  looking at the SoField definitions and not the complete FieldInfo (which is connected
+
+    to a particular TableInfo instance).
+
+    <p></p>
+
+    Fields that do not have their equivalent in the original collection will be fetched from the table identified by
+
+    sourceTable, using the primary key sourceId. There will be at most one database access.
+
+    All fields specified by requiredFields must belong to the same table (SoTable) as the sourceTable.
+  example: []
   syntax:
     content: public ArgumentParameterCollection CloneAndExtendWithEquivalents(TableInfo sourceTable, int sourceId, params FieldInfo[] requiredFields)
     parameters:
@@ -548,16 +543,11 @@ items:
   - type: SuperOffice.Exceptions.SoIllegalOperationException
     commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
     description: >-
-      Thrown if <see cref="!:requiredFields"></see>.Parent.Definition is not the
-
-      same table name as sourceTable.Definition
-  nameWithType.vb: ArgumentParameterCollection.CloneAndExtendWithEquivalents(TableInfo, Int32, FieldInfo())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.CloneAndExtendWithEquivalents(SuperOffice.Data.SQL.TableInfo, System.Int32, SuperOffice.Data.SQL.FieldInfo())
-  name.vb: CloneAndExtendWithEquivalents(TableInfo, Int32, FieldInfo())
+      Thrown if requiredFields.Parent.Definition is not the
+                  same table name as sourceTable.Definition
+  nameWithType.vb: ArgumentParameterCollection.CloneAndExtendWithEquivalents(TableInfo, Integer, ParamArray FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.CloneAndExtendWithEquivalents(SuperOffice.Data.SQL.TableInfo, Integer, ParamArray SuperOffice.Data.SQL.FieldInfo())
+  name.vb: CloneAndExtendWithEquivalents(TableInfo, Integer, ParamArray FieldInfo())
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.GetEnumerator
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.GetEnumerator
   id: GetEnumerator
@@ -569,23 +559,20 @@ items:
   nameWithType: ArgumentParameterCollection.GetEnumerator()
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.GetEnumerator()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nSee MSDN-documentation for IEnumerator.\n"
+  summary: See MSDN-documentation for IEnumerator.
+  example: []
   syntax:
     content: public IEnumerator GetEnumerator()
     return:
       type: System.Collections.IEnumerator
-    content.vb: Public Function GetEnumerator As IEnumerator
+      description: ''
+    content.vb: Public Function GetEnumerator() As IEnumerator
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.GetEnumerator*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  implements:
+  - System.Collections.IEnumerable.GetEnumerator
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.#ctor
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.#ctor
   id: '#ctor'
@@ -597,21 +584,18 @@ items:
   nameWithType: ArgumentParameterCollection.ArgumentParameterCollection()
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.ArgumentParameterCollection()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nInitializes a new instance of the <xref href=\"SuperOffice.Data.SQL.ArgumentParameterCollection\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  summary: Initializes a new instance of the <xref href="SuperOffice.Data.SQL.ArgumentParameterCollection" data-throw-if-not-resolved="false"></xref> class.
+  example: []
   syntax:
     content: public ArgumentParameterCollection()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ArgumentParameterCollection.New()
+  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.New()
+  name.vb: New()
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.Remove(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.Remove(SuperOffice.Data.SQL.FieldInfo)
   id: Remove(SuperOffice.Data.SQL.FieldInfo)
@@ -623,24 +607,19 @@ items:
   nameWithType: ArgumentParameterCollection.Remove(FieldInfo)
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.Remove(SuperOffice.Data.SQL.FieldInfo)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nRemove a field from the collection\n"
+  summary: Remove a field from the collection
+  example: []
   syntax:
     content: public void Remove(FieldInfo field)
     parameters:
     - id: field
       type: SuperOffice.Data.SQL.FieldInfo
+      description: ''
     content.vb: Public Sub Remove(field As FieldInfo)
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.Remove*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.Add(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.Add(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Argument)
   id: Add(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Argument)
@@ -652,26 +631,31 @@ items:
   nameWithType: ArgumentParameterCollection.Add(FieldInfo, Argument)
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.Add(SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.Argument)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nAdds paired data to the structure, for example \n<pre><code>	AssociateTableInfo a = TablesInfo.GetAssociateTableInfo( &quot;a&quot; );\n	Insert i = S.NewInsert();\n	i.FieldValuePairs.Add( a.PersonId, S.Parameter( 2 ) );</code></pre>\nAt the same time, we add the tableInfo&apos;s parent to a TableInfoCollection.\n"
+  summary: >-
+    Adds paired data to the structure, for example 
+
+    <pre><code class="lang-csharp">AssociateTableInfo a = TablesInfo.GetAssociateTableInfo( "a" );
+
+    Insert i = S.NewInsert();
+
+    i.FieldValuePairs.Add( a.PersonId, S.Parameter( 2 ) );</code></pre>
+
+    At the same time, we add the tableInfo's parent to a TableInfoCollection.
+  example: []
   syntax:
     content: public void Add(FieldInfo fieldArg, Argument arg)
     parameters:
     - id: fieldArg
       type: SuperOffice.Data.SQL.FieldInfo
+      description: ''
     - id: arg
       type: SuperOffice.Data.SQL.Argument
+      description: ''
     content.vb: Public Sub Add(fieldArg As FieldInfo, arg As Argument)
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.Add*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.Clone
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.Clone
   id: Clone
@@ -683,25 +667,38 @@ items:
   nameWithType: ArgumentParameterCollection.Clone()
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.Clone()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nPartial implementation of Clone, for copying the most-likely-to-be-variable parts of a query\n"
-  remarks: "\nThis cloning function will return a collection that contains:\n<ul><li>References to keys (FieldInfo objects)</li><li>Clones of Arguments of type Parameter</li><li>References to Arguments of other types than Parameter</li><li>References to the TableInfo objects</li></ul>\nThis hybrid deep/shallow copy is intended for cases where you need to work with a query in\nan asynchronous handler, while the client may be reusing it elsewhere. It assumes that FieldInfo\nand TableInfo objects are immutable, so they are not cloned. It also assumes that you will not\nneed copies of BLOB parameters, this assumption is realized in <xref href=\"SuperOffice.Data.SQL.Parameter.Clone\" data-throw-if-not-resolved=\"false\"></xref> where\nBLOB objects are NOT copied (they are streams and we do not wish to assume multiple access).\n<p></p>\nIf you need more, you get the fun of implementing ICloneable wherever you need it :-)\n"
+  summary: Partial implementation of Clone, for copying the most-likely-to-be-variable parts of a query
+  remarks: >-
+    This cloning function will return a collection that contains:
+
+    <ul><li>References to keys (FieldInfo objects)</li><li>Clones of Arguments of type Parameter</li><li>References to Arguments of other types than Parameter</li><li>References to the TableInfo objects</li></ul>
+
+    This hybrid deep/shallow copy is intended for cases where you need to work with a query in
+
+    an asynchronous handler, while the client may be reusing it elsewhere. It assumes that FieldInfo
+
+    and TableInfo objects are immutable, so they are not cloned. It also assumes that you will not
+
+    need copies of BLOB parameters, this assumption is realized in <xref href="SuperOffice.Data.SQL.Parameter.Clone" data-throw-if-not-resolved="false"></xref> where
+
+    BLOB objects are NOT copied (they are streams and we do not wish to assume multiple access).
+
+    <p></p>
+
+    If you need more, you get the fun of implementing ICloneable wherever you need it :-)
+  example: []
   syntax:
     content: public object Clone()
     return:
       type: System.Object
       description: Hybrid deep/shallow copy of object
-    content.vb: Public Function Clone As Object
+    content.vb: Public Function Clone() As Object
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.Clone*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  implements:
+  - System.ICloneable.Clone
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.ToString
   commentId: M:SuperOffice.Data.SQL.ArgumentParameterCollection.ToString
   id: ToString
@@ -713,26 +710,19 @@ items:
   nameWithType: ArgumentParameterCollection.ToString()
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.ToString()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nReturns a <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> that represents the current <xref href=\"System.Object\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="System.Object" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
-      description: "\nA <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> that represents the current <xref href=\"System.Object\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-    content.vb: Public Overrides Function ToString As String
+      description: A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="System.Object" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.Tables
   commentId: P:SuperOffice.Data.SQL.ArgumentParameterCollection.Tables
   id: Tables
@@ -744,13 +734,11 @@ items:
   nameWithType: ArgumentParameterCollection.Tables
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.Tables
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: protected TableInfoCollection Tables { get; set; }
     parameters: []
@@ -758,12 +746,6 @@ items:
       type: SuperOffice.Data.SQL.TableInfoCollection
     content.vb: Protected Property Tables As TableInfoCollection
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.Tables*
-  modifiers.csharp:
-  - protected
-  - get
-  - set
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.Item(SuperOffice.Data.SQL.FieldInfo)
   commentId: P:SuperOffice.Data.SQL.ArgumentParameterCollection.Item(SuperOffice.Data.SQL.FieldInfo)
   id: Item(SuperOffice.Data.SQL.FieldInfo)
@@ -771,17 +753,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Item[FieldInfo]
-  nameWithType: ArgumentParameterCollection.Item[FieldInfo]
-  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.Item[SuperOffice.Data.SQL.FieldInfo]
+  name: this[FieldInfo]
+  nameWithType: ArgumentParameterCollection.this[FieldInfo]
+  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.this[SuperOffice.Data.SQL.FieldInfo]
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nReturns the correct Parameter-object based on the in-parameter (FieldInfo). \n"
+  summary: Returns the correct Parameter-object based on the in-parameter (FieldInfo).
+  example: []
   syntax:
     content: public Argument this[FieldInfo argument] { get; set; }
     parameters:
@@ -789,17 +769,11 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     return:
       type: SuperOffice.Data.SQL.Argument
-    content.vb: Public Property Item(argument As FieldInfo) As Argument
+    content.vb: Public Default Property this[](argument As FieldInfo) As Argument
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.Item*
-  nameWithType.vb: ArgumentParameterCollection.Item(FieldInfo)
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.Item(SuperOffice.Data.SQL.FieldInfo)
-  name.vb: Item(FieldInfo)
+  nameWithType.vb: ArgumentParameterCollection.this[](FieldInfo)
+  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.this[](SuperOffice.Data.SQL.FieldInfo)
+  name.vb: this[](FieldInfo)
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.Count
   commentId: P:SuperOffice.Data.SQL.ArgumentParameterCollection.Count
   id: Count
@@ -811,13 +785,11 @@ items:
   nameWithType: ArgumentParameterCollection.Count
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.Count
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nGet number of elements in collection\n"
+  summary: Get number of elements in collection
+  example: []
   syntax:
     content: public int Count { get; }
     parameters: []
@@ -825,12 +797,6 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property Count As Integer
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.Count*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.FieldInfos
   commentId: P:SuperOffice.Data.SQL.ArgumentParameterCollection.FieldInfos
   id: FieldInfos
@@ -842,13 +808,11 @@ items:
   nameWithType: ArgumentParameterCollection.FieldInfos
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.FieldInfos
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nReturns the FieldInfo-collection\n"
+  summary: Returns the FieldInfo-collection
+  example: []
   syntax:
     content: public ICollection FieldInfos { get; }
     parameters: []
@@ -856,12 +820,6 @@ items:
       type: System.Collections.ICollection
     content.vb: Public ReadOnly Property FieldInfos As ICollection
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.FieldInfos*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.Parameters
   commentId: P:SuperOffice.Data.SQL.ArgumentParameterCollection.Parameters
   id: Parameters
@@ -873,13 +831,11 @@ items:
   nameWithType: ArgumentParameterCollection.Parameters
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.Parameters
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: "\nreturns the parameter collection\n"
+  summary: returns the parameter collection
+  example: []
   syntax:
     content: public ICollection Parameters { get; }
     parameters: []
@@ -887,191 +843,516 @@ items:
       type: System.Collections.ICollection
     content.vb: Public ReadOnly Property Parameters As ICollection
   overload: SuperOffice.Data.SQL.ArgumentParameterCollection.Parameters*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
   name: IEnumerable
   nameWithType: IEnumerable
   fullName: System.Collections.IEnumerable
 - uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ArgumentParameterCollection, To>()
-  nameWithType: EnumUtil.MapEnums<ArgumentParameterCollection, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.ArgumentParameterCollection, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ArgumentParameterCollection, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.ArgumentParameterCollection, To)()
-  name.vb: MapEnums(Of ArgumentParameterCollection, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ArgumentParameterCollection, To>(ArgumentParameterCollection)
+  nameWithType: EnumUtil.MapEnums<ArgumentParameterCollection, To>(ArgumentParameterCollection)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.ArgumentParameterCollection, To>(SuperOffice.Data.SQL.ArgumentParameterCollection)
+  nameWithType.vb: EnumUtil.MapEnums(Of ArgumentParameterCollection, To)(ArgumentParameterCollection)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.ArgumentParameterCollection, To)(SuperOffice.Data.SQL.ArgumentParameterCollection)
+  name.vb: MapEnums(Of ArgumentParameterCollection, To)(ArgumentParameterCollection)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ArgumentParameterCollection, To>
-    nameWithType: EnumUtil.MapEnums<ArgumentParameterCollection, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.ArgumentParameterCollection, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.ArgumentParameterCollection)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ArgumentParameterCollection, To)
-    nameWithType: EnumUtil.MapEnums(Of ArgumentParameterCollection, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.ArgumentParameterCollection, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.SQL.ArgumentParameterCollection.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.ArgumentParameterCollection)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ArgumentParameterCollection>(ArgumentParameterCollection)
-  nameWithType: ObjectExtensions.AssignByReflection<ArgumentParameterCollection>(ArgumentParameterCollection)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.ArgumentParameterCollection>(SuperOffice.Data.SQL.ArgumentParameterCollection)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ArgumentParameterCollection)(ArgumentParameterCollection)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.ArgumentParameterCollection)(SuperOffice.Data.SQL.ArgumentParameterCollection)
-  name.vb: AssignByReflection(Of ArgumentParameterCollection)(ArgumentParameterCollection)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ArgumentParameterCollection>
-    nameWithType: ObjectExtensions.AssignByReflection<ArgumentParameterCollection>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.ArgumentParameterCollection>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
     name: ArgumentParameterCollection
-    nameWithType: ArgumentParameterCollection
-    fullName: SuperOffice.Data.SQL.ArgumentParameterCollection
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ArgumentParameterCollection)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ArgumentParameterCollection)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.ArgumentParameterCollection)
-    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
     name: ArgumentParameterCollection
-    nameWithType: ArgumentParameterCollection
-    fullName: SuperOffice.Data.SQL.ArgumentParameterCollection
     isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.SQL.ArgumentParameterCollection.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ArgumentParameterCollection>()
-  nameWithType: ObjectExtensions.GraphCopy<ArgumentParameterCollection>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.ArgumentParameterCollection>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ArgumentParameterCollection)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.ArgumentParameterCollection)()
-  name.vb: GraphCopy(Of ArgumentParameterCollection)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ArgumentParameterCollection>
-    nameWithType: ObjectExtensions.GraphCopy<ArgumentParameterCollection>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.ArgumentParameterCollection>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ArgumentParameterCollection)
-    nameWithType: ObjectExtensions.GraphCopy(Of ArgumentParameterCollection)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.ArgumentParameterCollection)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.ArgumentParameterCollection)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
+    name: ArgumentParameterCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
+    name: ArgumentParameterCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
+  - name: )
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ArgumentParameterCollection, To>()
-  nameWithType: Converters.MapEnums<ArgumentParameterCollection, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.ArgumentParameterCollection, To>()
-  nameWithType.vb: Converters.MapEnums(Of ArgumentParameterCollection, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.ArgumentParameterCollection, To)()
-  name.vb: MapEnums(Of ArgumentParameterCollection, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ArgumentParameterCollection, To>(ArgumentParameterCollection)
+  nameWithType: Converters.MapEnums<ArgumentParameterCollection, To>(ArgumentParameterCollection)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.ArgumentParameterCollection, To>(SuperOffice.Data.SQL.ArgumentParameterCollection)
+  nameWithType.vb: Converters.MapEnums(Of ArgumentParameterCollection, To)(ArgumentParameterCollection)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.ArgumentParameterCollection, To)(SuperOffice.Data.SQL.ArgumentParameterCollection)
+  name.vb: MapEnums(Of ArgumentParameterCollection, To)(ArgumentParameterCollection)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ArgumentParameterCollection, To>
-    nameWithType: Converters.MapEnums<ArgumentParameterCollection, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.ArgumentParameterCollection, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.ArgumentParameterCollection)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
+    name: ArgumentParameterCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
+    name: ArgumentParameterCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ArgumentParameterCollection, To)
-    nameWithType: Converters.MapEnums(Of ArgumentParameterCollection, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.ArgumentParameterCollection, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.ArgumentParameterCollection)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
+    name: ArgumentParameterCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
+    name: ArgumentParameterCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
+  - name: )
+- uid: SuperOffice.Data.SQL.ArgumentParameterCollection.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.ArgumentParameterCollection)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ArgumentParameterCollection>(ArgumentParameterCollection, ArgumentParameterCollection)
+  nameWithType: ObjectExtensions.AssignByReflection<ArgumentParameterCollection>(ArgumentParameterCollection, ArgumentParameterCollection)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.ArgumentParameterCollection>(SuperOffice.Data.SQL.ArgumentParameterCollection, SuperOffice.Data.SQL.ArgumentParameterCollection)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ArgumentParameterCollection)(ArgumentParameterCollection, ArgumentParameterCollection)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.ArgumentParameterCollection)(SuperOffice.Data.SQL.ArgumentParameterCollection, SuperOffice.Data.SQL.ArgumentParameterCollection)
+  name.vb: AssignByReflection(Of ArgumentParameterCollection)(ArgumentParameterCollection, ArgumentParameterCollection)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.ArgumentParameterCollection,SuperOffice.Data.SQL.ArgumentParameterCollection)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
+    name: ArgumentParameterCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
+    name: ArgumentParameterCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
+    name: ArgumentParameterCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.ArgumentParameterCollection,SuperOffice.Data.SQL.ArgumentParameterCollection)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
+    name: ArgumentParameterCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
+    name: ArgumentParameterCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
+    name: ArgumentParameterCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
+  - name: )
+- uid: SuperOffice.Data.SQL.ArgumentParameterCollection.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ArgumentParameterCollection>(ArgumentParameterCollection)
+  nameWithType: ObjectExtensions.GraphCopy<ArgumentParameterCollection>(ArgumentParameterCollection)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.ArgumentParameterCollection>(SuperOffice.Data.SQL.ArgumentParameterCollection)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ArgumentParameterCollection)(ArgumentParameterCollection)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.ArgumentParameterCollection)(SuperOffice.Data.SQL.ArgumentParameterCollection)
+  name.vb: GraphCopy(Of ArgumentParameterCollection)(ArgumentParameterCollection)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SQL.ArgumentParameterCollection)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
+    name: ArgumentParameterCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
+    name: ArgumentParameterCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SQL.ArgumentParameterCollection)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
+    name: ArgumentParameterCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
+    name: ArgumentParameterCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1080,140 +1361,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1222,56 +1408,222 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.Data.SQL.FieldInfo.IsSameField(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.FieldInfo.IsSameField(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.FieldInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html#SuperOffice_Data_SQL_FieldInfo_IsSameField_SuperOffice_Data_SQL_FieldInfo_
+  name: IsSameField(FieldInfo)
+  nameWithType: FieldInfo.IsSameField(FieldInfo)
+  fullName: SuperOffice.Data.SQL.FieldInfo.IsSameField(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.FieldInfo.IsSameField(SuperOffice.Data.SQL.FieldInfo)
+    name: IsSameField
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html#SuperOffice_Data_SQL_FieldInfo_IsSameField_SuperOffice_Data_SQL_FieldInfo_
+  - name: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.FieldInfo.IsSameField(SuperOffice.Data.SQL.FieldInfo)
+    name: IsSameField
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html#SuperOffice_Data_SQL_FieldInfo_IsSameField_SuperOffice_Data_SQL_FieldInfo_
+  - name: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: )
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.HasField*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.HasField
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_HasField_SuperOffice_Data_SQL_FieldInfo_
   name: HasField
   nameWithType: ArgumentParameterCollection.HasField
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.HasField
@@ -1279,6 +1631,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
@@ -1286,24 +1639,31 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.HasSameField*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.HasSameField
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_HasSameField_SuperOffice_Data_SQL_FieldInfo_
   name: HasSameField
   nameWithType: ArgumentParameterCollection.HasSameField
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.HasSameField
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.HasFieldValue*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.HasFieldValue
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_HasFieldValue_SuperOffice_Data_SQL_FieldInfo_
   name: HasFieldValue
   nameWithType: ArgumentParameterCollection.HasFieldValue
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.HasFieldValue
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_TryGetIntValue_SuperOffice_Data_SQL_FieldInfo_System_Int32__
   name: TryGetIntValue
   nameWithType: ArgumentParameterCollection.TryGetIntValue
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetIntValue
@@ -1311,25 +1671,70 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.Data.Dictionary.SoField
   commentId: T:SuperOffice.Data.Dictionary.SoField
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoField.html
   name: SoField
   nameWithType: SoField
   fullName: SuperOffice.Data.Dictionary.SoField
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_TryGetStringValue_SuperOffice_Data_SQL_FieldInfo_System_String__
   name: TryGetStringValue
   nameWithType: ArgumentParameterCollection.TryGetStringValue
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetStringValue
@@ -1337,23 +1742,35 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDateTimeValue*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDateTimeValue
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_TryGetDateTimeValue_SuperOffice_Data_SQL_FieldInfo_System_DateTime__
   name: TryGetDateTimeValue
   nameWithType: ArgumentParameterCollection.TryGetDateTimeValue
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDateTimeValue
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_TryGetDoubleValue_SuperOffice_Data_SQL_FieldInfo_System_Double__
   name: TryGetDoubleValue
   nameWithType: ArgumentParameterCollection.TryGetDoubleValue
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.TryGetDoubleValue
@@ -1361,36 +1778,37 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.GetEquivalentField*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.GetEquivalentField
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_GetEquivalentField_SuperOffice_Data_Dictionary_SoField_
   name: GetEquivalentField
   nameWithType: ArgumentParameterCollection.GetEquivalentField
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.GetEquivalentField
-- uid: SuperOffice.Data.SQL.ArgumentParameterCollection.CloneAndExtendWithEquivalents*
-  commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.CloneAndExtendWithEquivalents
-  isExternal: true
-  name: CloneAndExtendWithEquivalents
-  nameWithType: ArgumentParameterCollection.CloneAndExtendWithEquivalents
-  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.CloneAndExtendWithEquivalents
 - uid: SuperOffice.Exceptions.SoIllegalOperationException
   commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
   isExternal: true
+  href: SuperOffice.Exceptions.SoIllegalOperationException.html
   name: SoIllegalOperationException
   nameWithType: SoIllegalOperationException
   fullName: SuperOffice.Exceptions.SoIllegalOperationException
-- uid: SuperOffice.Data.SQL.TableInfo
-  commentId: T:SuperOffice.Data.SQL.TableInfo
-  parent: SuperOffice.Data.SQL
+- uid: SuperOffice.Data.SQL.ArgumentParameterCollection.CloneAndExtendWithEquivalents*
+  commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.CloneAndExtendWithEquivalents
   isExternal: true
-  name: TableInfo
-  nameWithType: TableInfo
-  fullName: SuperOffice.Data.SQL.TableInfo
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_CloneAndExtendWithEquivalents_SuperOffice_Data_SQL_TableInfo_System_Int32_SuperOffice_Data_SQL_FieldInfo___
+  name: CloneAndExtendWithEquivalents
+  nameWithType: ArgumentParameterCollection.CloneAndExtendWithEquivalents
+  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.CloneAndExtendWithEquivalents
 - uid: SuperOffice.Data.SQL.FieldInfo[]
   isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo[]
   nameWithType: FieldInfo[]
   fullName: SuperOffice.Data.SQL.FieldInfo[]
@@ -1400,54 +1818,83 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection
   commentId: T:SuperOffice.Data.SQL.ArgumentParameterCollection
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html
   name: ArgumentParameterCollection
   nameWithType: ArgumentParameterCollection
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.GetEnumerator*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.GetEnumerator
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_GetEnumerator
   name: GetEnumerator
   nameWithType: ArgumentParameterCollection.GetEnumerator
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.GetEnumerator
-- uid: System.Collections.IEnumerator
+- uid: System.Collections.IEnumerable.GetEnumerator
+  commentId: M:System.Collections.IEnumerable.GetEnumerator
+  parent: System.Collections.IEnumerable
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable.GetEnumerator()
+  fullName: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.#ctor*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.#ctor
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection__ctor
   name: ArgumentParameterCollection
   nameWithType: ArgumentParameterCollection.ArgumentParameterCollection
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.ArgumentParameterCollection
+  nameWithType.vb: ArgumentParameterCollection.New
+  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.New
+  name.vb: New
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.Remove*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.Remove
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_Remove_SuperOffice_Data_SQL_FieldInfo_
   name: Remove
   nameWithType: ArgumentParameterCollection.Remove
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.Remove
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.Add*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.Add
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_Add_SuperOffice_Data_SQL_FieldInfo_SuperOffice_Data_SQL_Argument_
   name: Add
   nameWithType: ArgumentParameterCollection.Add
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.Add
@@ -1455,24 +1902,95 @@ references:
   commentId: T:SuperOffice.Data.SQL.Argument
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.Argument.html
   name: Argument
   nameWithType: Argument
   fullName: SuperOffice.Data.SQL.Argument
+- uid: SuperOffice.Data.SQL.Parameter.Clone
+  commentId: M:SuperOffice.Data.SQL.Parameter.Clone
+  isExternal: true
+  href: SuperOffice.Data.SQL.Parameter.html#SuperOffice_Data_SQL_Parameter_Clone
+  name: Clone()
+  nameWithType: Parameter.Clone()
+  fullName: SuperOffice.Data.SQL.Parameter.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Parameter.Clone
+    name: Clone
+    isExternal: true
+    href: SuperOffice.Data.SQL.Parameter.html#SuperOffice_Data_SQL_Parameter_Clone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Parameter.Clone
+    name: Clone
+    isExternal: true
+    href: SuperOffice.Data.SQL.Parameter.html#SuperOffice_Data_SQL_Parameter_Clone
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.Clone*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.Clone
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_Clone
   name: Clone
   nameWithType: ArgumentParameterCollection.Clone
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.Clone
+- uid: System.ICloneable.Clone
+  commentId: M:System.ICloneable.Clone
+  parent: System.ICloneable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
+  name: Clone()
+  nameWithType: ICloneable.Clone()
+  fullName: System.ICloneable.Clone()
+  spec.csharp:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.ToString*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.ToString
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_ToString
   name: ToString
   nameWithType: ArgumentParameterCollection.ToString
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.ToString
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.Tables*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.Tables
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_Tables
   name: Tables
   nameWithType: ArgumentParameterCollection.Tables
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.Tables
@@ -1480,35 +1998,46 @@ references:
   commentId: T:SuperOffice.Data.SQL.TableInfoCollection
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfoCollection.html
   name: TableInfoCollection
   nameWithType: TableInfoCollection
   fullName: SuperOffice.Data.SQL.TableInfoCollection
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.Item*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.Item
   isExternal: true
-  name: Item
-  nameWithType: ArgumentParameterCollection.Item
-  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.Item
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_Item_SuperOffice_Data_SQL_FieldInfo_
+  name: this
+  nameWithType: ArgumentParameterCollection.this
+  fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.this
+  nameWithType.vb: ArgumentParameterCollection.this[]
+  fullName.vb: SuperOffice.Data.SQL.ArgumentParameterCollection.this[]
+  name.vb: this[]
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.Count*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.Count
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_Count
   name: Count
   nameWithType: ArgumentParameterCollection.Count
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.Count
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.FieldInfos*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.FieldInfos
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_FieldInfos
   name: FieldInfos
   nameWithType: ArgumentParameterCollection.FieldInfos
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.FieldInfos
 - uid: System.Collections.ICollection
+  commentId: T:System.Collections.ICollection
+  parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.icollection
   name: ICollection
   nameWithType: ICollection
   fullName: System.Collections.ICollection
 - uid: SuperOffice.Data.SQL.ArgumentParameterCollection.Parameters*
   commentId: Overload:SuperOffice.Data.SQL.ArgumentParameterCollection.Parameters
   isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentParameterCollection.html#SuperOffice_Data_SQL_ArgumentParameterCollection_Parameters
   name: Parameters
   nameWithType: ArgumentParameterCollection.Parameters
   fullName: SuperOffice.Data.SQL.ArgumentParameterCollection.Parameters

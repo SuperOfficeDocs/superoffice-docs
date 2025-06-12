@@ -1,0 +1,580 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions
+  commentId: T:SuperOffice.ExportArchive.IBatchDataTicketExtensions
+  id: IBatchDataTicketExtensions
+  parent: SuperOffice.ExportArchive
+  children:
+  - SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
+  - SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketForwarTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings)
+  langs:
+  - csharp
+  - vb
+  name: IBatchDataTicketExtensions
+  nameWithType: IBatchDataTicketExtensions
+  fullName: SuperOffice.ExportArchive.IBatchDataTicketExtensions
+  type: Class
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.ExportArchive
+  syntax:
+    content: public static class IBatchDataTicketExtensions
+    content.vb: Public Module IBatchDataTicketExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketForwarTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings)
+  commentId: M:SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketForwarTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings)
+  id: CreateTicketForwarTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings)
+  isExtensionMethod: true
+  parent: SuperOffice.ExportArchive.IBatchDataTicketExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateTicketForwarTaskAsync(IBatchData, TicketForwardSettings)
+  nameWithType: IBatchDataTicketExtensions.CreateTicketForwarTaskAsync(IBatchData, TicketBatchPluginBase.TicketForwardSettings)
+  fullName: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketForwarTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings)
+  type: Method
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.ExportArchive
+  syntax:
+    content: public static Task<int> CreateTicketForwarTaskAsync(this IBatchData batchData, TicketBatchPluginBase.TicketForwardSettings settings)
+    parameters:
+    - id: batchData
+      type: SuperOffice.CRM.BatchProcessing.IBatchData
+    - id: settings
+      type: SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function CreateTicketForwarTaskAsync(batchData As IBatchData, settings As TicketBatchPluginBase.TicketForwardSettings) As Task(Of Integer)
+  overload: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketForwarTaskAsync*
+- uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
+  commentId: M:SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
+  id: CreateTicketBatchReplyTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
+  isExtensionMethod: true
+  parent: SuperOffice.ExportArchive.IBatchDataTicketExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateTicketBatchReplyTaskAsync(IBatchData, TicketBatchReplyData)
+  nameWithType: IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync(IBatchData, TicketBatchReplyData)
+  fullName: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.CRM.Services.TicketBatchReplyData)
+  type: Method
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.ExportArchive
+  syntax:
+    content: public static Task<int> CreateTicketBatchReplyTaskAsync(this IBatchData batchData, TicketBatchReplyData settings)
+    parameters:
+    - id: batchData
+      type: SuperOffice.CRM.BatchProcessing.IBatchData
+    - id: settings
+      type: SuperOffice.CRM.Services.TicketBatchReplyData
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function CreateTicketBatchReplyTaskAsync(batchData As IBatchData, settings As TicketBatchReplyData) As Task(Of Integer)
+  overload: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync*
+references:
+- uid: SuperOffice.ExportArchive
+  commentId: N:SuperOffice.ExportArchive
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ExportArchive
+  nameWithType: SuperOffice.ExportArchive
+  fullName: SuperOffice.ExportArchive
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ExportArchive
+    name: ExportArchive
+    isExternal: true
+    href: SuperOffice.ExportArchive.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ExportArchive
+    name: ExportArchive
+    isExternal: true
+    href: SuperOffice.ExportArchive.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketForwarTaskAsync*
+  commentId: Overload:SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketForwarTaskAsync
+  isExternal: true
+  href: SuperOffice.ExportArchive.IBatchDataTicketExtensions.html#SuperOffice_ExportArchive_IBatchDataTicketExtensions_CreateTicketForwarTaskAsync_SuperOffice_CRM_BatchProcessing_IBatchData_SuperOffice_ExportArchive_TicketBatchPluginBase_TicketForwardSettings_
+  name: CreateTicketForwarTaskAsync
+  nameWithType: IBatchDataTicketExtensions.CreateTicketForwarTaskAsync
+  fullName: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketForwarTaskAsync
+- uid: SuperOffice.CRM.BatchProcessing.IBatchData
+  commentId: T:SuperOffice.CRM.BatchProcessing.IBatchData
+  parent: SuperOffice.CRM.BatchProcessing
+  isExternal: true
+  href: SuperOffice.CRM.BatchProcessing.IBatchData.html
+  name: IBatchData
+  nameWithType: IBatchData
+  fullName: SuperOffice.CRM.BatchProcessing.IBatchData
+- uid: SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
+  commentId: T:SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
+  parent: SuperOffice.ExportArchive
+  isExternal: true
+  href: SuperOffice.ExportArchive.TicketBatchPluginBase.html
+  name: TicketBatchPluginBase.TicketForwardSettings
+  nameWithType: TicketBatchPluginBase.TicketForwardSettings
+  fullName: SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
+  spec.csharp:
+  - uid: SuperOffice.ExportArchive.TicketBatchPluginBase
+    name: TicketBatchPluginBase
+    isExternal: true
+    href: SuperOffice.ExportArchive.TicketBatchPluginBase.html
+  - name: .
+  - uid: SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
+    name: TicketForwardSettings
+    isExternal: true
+    href: SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings.html
+  spec.vb:
+  - uid: SuperOffice.ExportArchive.TicketBatchPluginBase
+    name: TicketBatchPluginBase
+    isExternal: true
+    href: SuperOffice.ExportArchive.TicketBatchPluginBase.html
+  - name: .
+  - uid: SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
+    name: TicketForwardSettings
+    isExternal: true
+    href: SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings.html
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.BatchProcessing
+  commentId: N:SuperOffice.CRM.BatchProcessing
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.BatchProcessing
+  nameWithType: SuperOffice.CRM.BatchProcessing
+  fullName: SuperOffice.CRM.BatchProcessing
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.BatchProcessing
+    name: BatchProcessing
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.BatchProcessing
+    name: BatchProcessing
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync*
+  commentId: Overload:SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync
+  isExternal: true
+  href: SuperOffice.ExportArchive.IBatchDataTicketExtensions.html#SuperOffice_ExportArchive_IBatchDataTicketExtensions_CreateTicketBatchReplyTaskAsync_SuperOffice_CRM_BatchProcessing_IBatchData_SuperOffice_CRM_Services_TicketBatchReplyData_
+  name: CreateTicketBatchReplyTaskAsync
+  nameWithType: IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync
+  fullName: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync
+- uid: SuperOffice.CRM.Services.TicketBatchReplyData
+  commentId: T:SuperOffice.CRM.Services.TicketBatchReplyData
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketBatchReplyData
+  nameWithType: TicketBatchReplyData
+  fullName: SuperOffice.CRM.Services.TicketBatchReplyData
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html

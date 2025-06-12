@@ -5,18 +5,19 @@ items:
   id: FavouriteAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.FavouriteAgent.#ctor
-  - SuperOffice.CRM.Services.FavouriteAgent.AddFavourite(System.String,System.Int32,System.Int32,System.String)
-  - SuperOffice.CRM.Services.FavouriteAgent.AddFavourites(System.String,System.Int32[],System.Int32,System.String)
-  - SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
-  - SuperOffice.CRM.Services.FavouriteAgent.GetFavourites(System.String,System.Int32)
-  - SuperOffice.CRM.Services.FavouriteAgent.IsFavourite(System.String,System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavourites(System.String,System.Int32)
-  - SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourite(System.String,System.Int32,System.Int32)
-  - SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
-  - SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesById(System.Int32[])
-  - SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
-  - SuperOffice.CRM.Services.FavouriteAgent.ToggleFavourite(System.String,System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Services.FavouriteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.FavouriteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.FavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.FavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.FavouriteAgent.GetFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.FavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.FavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -24,57 +25,106 @@ items:
   nameWithType: FavouriteAgent
   fullName: SuperOffice.CRM.Services.FavouriteAgent
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nFacade for the Favourite Agent\nAgent used for retrieveing and setting favourites\n"
-  example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (FavouriteAgent agent = new FavouriteAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  summary: >-
+    Proxy class for the Favourite Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
   syntax:
-    content: 'public class FavouriteAgent : AgentBase<IFavouriteAgent>, IDisposable, IFavouriteAgent, IAgent'
-    content.vb: >-
-      Public Class FavouriteAgent
-          Inherits AgentBase(Of IFavouriteAgent)
-          Implements IDisposable, IFavouriteAgent, IAgent
+    content: 'public class FavouriteAgent : IFavouriteAgent, IAgent'
+    content.vb: Public Class FavouriteAgent Implements IFavouriteAgent, IAgent
   inheritance:
   - System.Object
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFavouriteAgent}
   implements:
-  - System.IDisposable
   - SuperOffice.CRM.Services.IFavouriteAgent
   - SuperOffice.CRM.Services.IAgent
   inheritedMembers:
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFavouriteAgent}.Dispose
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFavouriteAgent}.InnerAgent
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Services.FavouriteAgent.IsFavourite(System.String,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.IsFavourite(System.String,System.Int32,System.Int32)
-  id: IsFavourite(System.String,System.Int32,System.Int32)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.FavouriteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.FavouriteAgent
   langs:
   - csharp
   - vb
-  name: IsFavourite(String, Int32, Int32)
-  nameWithType: FavouriteAgent.IsFavourite(String, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.IsFavourite(System.String, System.Int32, System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
+  name: FavouriteAgent(IFavouriteImplementation, ISoRequestItemsAccessor)
+  nameWithType: FavouriteAgent.FavouriteAgent(IFavouriteImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.FavouriteAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nChecks if a record in a table is a favourite for an associate\n"
   syntax:
-    content: public bool IsFavourite(string tableName, int recordId, int associateId)
+    content: public FavouriteAgent(IFavouriteImplementation favouriteImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: favouriteImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(favouriteImplementation As IFavouriteImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.FavouriteAgent.#ctor*
+  nameWithType.vb: FavouriteAgent.New(IFavouriteImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IFavouriteImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.FavouriteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  parent: SuperOffice.CRM.Services.FavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: FavouriteAgent(IFavouriteImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: FavouriteAgent.FavouriteAgent(IFavouriteImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.FavouriteAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public FavouriteAgent(IFavouriteImplementation favouriteImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: favouriteImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(favouriteImplementation As IFavouriteImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.FavouriteAgent.#ctor*
+  nameWithType.vb: FavouriteAgent.New(IFavouriteImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IFavouriteImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.FavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: IsFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.FavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: IsFavouriteAsync(string, int, int, CancellationToken)
+  nameWithType: FavouriteAgent.IsFavouriteAsync(string, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.IsFavouriteAsync(string, int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Checks if a record in a table is a favourite for an associate
+  example: []
+  syntax:
+    content: public Task<bool> IsFavouriteAsync(string tableName, int recordId, int associateId, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
@@ -85,37 +135,37 @@ items:
     - id: associateId
       type: System.Int32
       description: Id of a current user
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: Is Favourite?
-    content.vb: Public Function IsFavourite(tableName As String, recordId As Integer, associateId As Integer) As Boolean
-  overload: SuperOffice.CRM.Services.FavouriteAgent.IsFavourite*
+    content.vb: Public Function IsFavouriteAsync(tableName As String, recordId As Integer, associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.FavouriteAgent.IsFavouriteAsync*
   implements:
-  - SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite(System.String,System.Int32,System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.FavouriteAgent.AddFavourite(System.String,System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.AddFavourite(System.String,System.Int32,System.Int32,System.String)
-  id: AddFavourite(System.String,System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Services.IFavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: FavouriteAgent.IsFavouriteAsync(String, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.IsFavouriteAsync(String, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: IsFavouriteAsync(String, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.FavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.FavouriteAgent
   langs:
   - csharp
   - vb
-  name: AddFavourite(String, Int32, Int32, String)
-  nameWithType: FavouriteAgent.AddFavourite(String, Int32, Int32, String)
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.AddFavourite(System.String, System.Int32, System.Int32, System.String)
+  name: AddFavouriteAsync(string, int, int, string, CancellationToken)
+  nameWithType: FavouriteAgent.AddFavouriteAsync(string, int, int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.AddFavouriteAsync(string, int, int, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nAdd a record in a table as a favourite for an associate\n"
+  summary: Add a record in a table as a favourite for an associate
+  example: []
   syntax:
-    content: public void AddFavourite(string tableName, int recordId, int associateId, string extraInfo)
+    content: public Task AddFavouriteAsync(string tableName, int recordId, int associateId, string extraInfo, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
@@ -129,34 +179,37 @@ items:
     - id: extraInfo
       type: System.String
       description: Any extra information
-    content.vb: Public Sub AddFavourite(tableName As String, recordId As Integer, associateId As Integer, extraInfo As String)
-  overload: SuperOffice.CRM.Services.FavouriteAgent.AddFavourite*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function AddFavouriteAsync(tableName As String, recordId As Integer, associateId As Integer, extraInfo As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.FavouriteAgent.AddFavouriteAsync*
   implements:
-  - SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite(System.String,System.Int32,System.Int32,System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.FavouriteAgent.AddFavourites(System.String,System.Int32[],System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.AddFavourites(System.String,System.Int32[],System.Int32,System.String)
-  id: AddFavourites(System.String,System.Int32[],System.Int32,System.String)
+  - SuperOffice.CRM.Services.IFavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: FavouriteAgent.AddFavouriteAsync(String, Integer, Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.AddFavouriteAsync(String, Integer, Integer, String, System.Threading.CancellationToken)
+  name.vb: AddFavouriteAsync(String, Integer, Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.FavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,System.Threading.CancellationToken)
+  id: AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.FavouriteAgent
   langs:
   - csharp
   - vb
-  name: AddFavourites(String, Int32[], Int32, String)
-  nameWithType: FavouriteAgent.AddFavourites(String, Int32[], Int32, String)
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.AddFavourites(System.String, System.Int32[], System.Int32, System.String)
+  name: AddFavouritesAsync(string, int[], int, string, CancellationToken)
+  nameWithType: FavouriteAgent.AddFavouritesAsync(string, int[], int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.AddFavouritesAsync(string, int[], int, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nAdd a list of record ids as favourites for an associate\n"
+  summary: Add a list of record ids as favourites for an associate
+  example: []
   syntax:
-    content: public void AddFavourites(string tableName, int[] recordIds, int associateId, string extraInfo)
+    content: public Task AddFavouritesAsync(string tableName, int[] recordIds, int associateId, string extraInfo, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
@@ -170,37 +223,37 @@ items:
     - id: extraInfo
       type: System.String
       description: Any extra information
-    content.vb: Public Sub AddFavourites(tableName As String, recordIds As Integer(), associateId As Integer, extraInfo As String)
-  overload: SuperOffice.CRM.Services.FavouriteAgent.AddFavourites*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function AddFavouritesAsync(tableName As String, recordIds As Integer(), associateId As Integer, extraInfo As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.FavouriteAgent.AddFavouritesAsync*
   implements:
-  - SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites(System.String,System.Int32[],System.Int32,System.String)
-  nameWithType.vb: FavouriteAgent.AddFavourites(String, Int32(), Int32, String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.AddFavourites(System.String, System.Int32(), System.Int32, System.String)
-  name.vb: AddFavourites(String, Int32(), Int32, String)
-- uid: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
-  id: AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
+  - SuperOffice.CRM.Services.IFavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: FavouriteAgent.AddFavouritesAsync(String, Integer(), Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.AddFavouritesAsync(String, Integer(), Integer, String, System.Threading.CancellationToken)
+  name.vb: AddFavouritesAsync(String, Integer(), Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String,System.Threading.CancellationToken)
+  id: AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.FavouriteAgent
   langs:
   - csharp
   - vb
-  name: AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32, String)
-  nameWithType: FavouriteAgent.AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32, String)
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.Int32, System.String)
+  name: AddTicketsToFavouritesByProviderAsync(string, ArchiveRestrictionInfo[], int, string, CancellationToken)
+  nameWithType: FavouriteAgent.AddTicketsToFavouritesByProviderAsync(string, ArchiveRestrictionInfo[], int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProviderAsync(string, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], int, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nAdd a list of tickets as favourites that are given by the ticket provider.\n"
+  summary: Add a list of tickets as favourites that are given by the ticket provider.
+  example: []
   syntax:
-    content: public void AddTicketsToFavouritesByProvider(string providerName, ArchiveRestrictionInfo[] restrictions, int associateId, string extraInfo)
+    content: public Task AddTicketsToFavouritesByProviderAsync(string providerName, ArchiveRestrictionInfo[] restrictions, int associateId, string extraInfo, CancellationToken cancellationToken = default)
     parameters:
     - id: providerName
       type: System.String
@@ -214,37 +267,37 @@ items:
     - id: extraInfo
       type: System.String
       description: Any extra information
-    content.vb: Public Sub AddTicketsToFavouritesByProvider(providerName As String, restrictions As ArchiveRestrictionInfo(), associateId As Integer, extraInfo As String)
-  overload: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function AddTicketsToFavouritesByProviderAsync(providerName As String, restrictions As ArchiveRestrictionInfo(), associateId As Integer, extraInfo As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProviderAsync*
   implements:
-  - SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
-  nameWithType.vb: FavouriteAgent.AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32, String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.Int32, System.String)
-  name.vb: AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32, String)
-- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
-  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
-  id: RemoveFavourites(System.String,System.Int32[],System.Int32)
+  - SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: FavouriteAgent.AddTicketsToFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProviderAsync(String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), Integer, String, System.Threading.CancellationToken)
+  name.vb: AddTicketsToFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,System.Threading.CancellationToken)
+  id: RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.FavouriteAgent
   langs:
   - csharp
   - vb
-  name: RemoveFavourites(String, Int32[], Int32)
-  nameWithType: FavouriteAgent.RemoveFavourites(String, Int32[], Int32)
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites(System.String, System.Int32[], System.Int32)
+  name: RemoveFavouritesAsync(string, int[], int, CancellationToken)
+  nameWithType: FavouriteAgent.RemoveFavouritesAsync(string, int[], int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesAsync(string, int[], int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nRemove a list of record ids from favourites for an associate\n"
+  summary: Remove a list of record ids from favourites for an associate
+  example: []
   syntax:
-    content: public void RemoveFavourites(string tableName, int[] recordIds, int associateId)
+    content: public Task RemoveFavouritesAsync(string tableName, int[] recordIds, int associateId, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
@@ -255,37 +308,37 @@ items:
     - id: associateId
       type: System.Int32
       description: Id of a current user
-    content.vb: Public Sub RemoveFavourites(tableName As String, recordIds As Integer(), associateId As Integer)
-  overload: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function RemoveFavouritesAsync(tableName As String, recordIds As Integer(), associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesAsync*
   implements:
-  - SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
-  nameWithType.vb: FavouriteAgent.RemoveFavourites(String, Int32(), Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites(System.String, System.Int32(), System.Int32)
-  name.vb: RemoveFavourites(String, Int32(), Int32)
-- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
-  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
-  id: RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
+  - SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: FavouriteAgent.RemoveFavouritesAsync(String, Integer(), Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesAsync(String, Integer(), Integer, System.Threading.CancellationToken)
+  name.vb: RemoveFavouritesAsync(String, Integer(), Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.Threading.CancellationToken)
+  id: RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.FavouriteAgent
   langs:
   - csharp
   - vb
-  name: RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32)
-  nameWithType: FavouriteAgent.RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32)
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.Int32)
+  name: RemoveTicketsFromFavouritesByProviderAsync(string, ArchiveRestrictionInfo[], int, CancellationToken)
+  nameWithType: FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(string, ArchiveRestrictionInfo[], int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(string, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nRemove a list of tickets from favourites that are given by the ticket provider.\n"
+  summary: Remove a list of tickets from favourites that are given by the ticket provider.
+  example: []
   syntax:
-    content: public void RemoveTicketsFromFavouritesByProvider(string providerName, ArchiveRestrictionInfo[] restrictions, int associateId)
+    content: public Task RemoveTicketsFromFavouritesByProviderAsync(string providerName, ArchiveRestrictionInfo[] restrictions, int associateId, CancellationToken cancellationToken = default)
     parameters:
     - id: providerName
       type: System.String
@@ -296,37 +349,37 @@ items:
     - id: associateId
       type: System.Int32
       description: Id of a current user
-    content.vb: Public Sub RemoveTicketsFromFavouritesByProvider(providerName As String, restrictions As ArchiveRestrictionInfo(), associateId As Integer)
-  overload: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function RemoveTicketsFromFavouritesByProviderAsync(providerName As String, restrictions As ArchiveRestrictionInfo(), associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync*
   implements:
-  - SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
-  nameWithType.vb: FavouriteAgent.RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.Int32)
-  name.vb: RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32)
-- uid: SuperOffice.CRM.Services.FavouriteAgent.GetFavourites(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.GetFavourites(System.String,System.Int32)
-  id: GetFavourites(System.String,System.Int32)
+  - SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), Integer, System.Threading.CancellationToken)
+  name.vb: RemoveTicketsFromFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.FavouriteAgent.GetFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.GetFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: GetFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.FavouriteAgent
   langs:
   - csharp
   - vb
-  name: GetFavourites(String, Int32)
-  nameWithType: FavouriteAgent.GetFavourites(String, Int32)
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.GetFavourites(System.String, System.Int32)
+  name: GetFavouritesAsync(string, int, CancellationToken)
+  nameWithType: FavouriteAgent.GetFavouritesAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.GetFavouritesAsync(string, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet all favourites for a table and associate\n"
+  summary: Get all favourites for a table and associate
+  example: []
   syntax:
-    content: public Favourite[] GetFavourites(string tableName, int associateId)
+    content: public Task<Favourite[]> GetFavouritesAsync(string tableName, int associateId, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
@@ -334,37 +387,37 @@ items:
     - id: associateId
       type: System.Int32
       description: Id of a current user
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: SuperOffice.CRM.Services.Favourite[]
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Favourite[]}
       description: Requested favourites for a table and associate
-    content.vb: Public Function GetFavourites(tableName As String, associateId As Integer) As Favourite()
-  overload: SuperOffice.CRM.Services.FavouriteAgent.GetFavourites*
+    content.vb: Public Function GetFavouritesAsync(tableName As String, associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Favourite())
+  overload: SuperOffice.CRM.Services.FavouriteAgent.GetFavouritesAsync*
   implements:
-  - SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites(System.String,System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourite(System.String,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourite(System.String,System.Int32,System.Int32)
-  id: RemoveFavourite(System.String,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.IFavouriteAgent.GetFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: FavouriteAgent.GetFavouritesAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.GetFavouritesAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: GetFavouritesAsync(String, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: RemoveFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.FavouriteAgent
   langs:
   - csharp
   - vb
-  name: RemoveFavourite(String, Int32, Int32)
-  nameWithType: FavouriteAgent.RemoveFavourite(String, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourite(System.String, System.Int32, System.Int32)
+  name: RemoveFavouriteAsync(string, int, int, CancellationToken)
+  nameWithType: FavouriteAgent.RemoveFavouriteAsync(string, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouriteAsync(string, int, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nRemove favourite for a table, record id and associate\n"
+  summary: Remove favourite for a table, record id and associate
+  example: []
   syntax:
-    content: public void RemoveFavourite(string tableName, int recordId, int associateId)
+    content: public Task RemoveFavouriteAsync(string tableName, int recordId, int associateId, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
@@ -375,34 +428,37 @@ items:
     - id: associateId
       type: System.Int32
       description: Id of a current user
-    content.vb: Public Sub RemoveFavourite(tableName As String, recordId As Integer, associateId As Integer)
-  overload: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourite*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function RemoveFavouriteAsync(tableName As String, recordId As Integer, associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouriteAsync*
   implements:
-  - SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite(System.String,System.Int32,System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavourites(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavourites(System.String,System.Int32)
-  id: RemoveAllFavourites(System.String,System.Int32)
+  - SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: FavouriteAgent.RemoveFavouriteAsync(String, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouriteAsync(String, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: RemoveFavouriteAsync(String, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: RemoveAllFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.FavouriteAgent
   langs:
   - csharp
   - vb
-  name: RemoveAllFavourites(String, Int32)
-  nameWithType: FavouriteAgent.RemoveAllFavourites(String, Int32)
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavourites(System.String, System.Int32)
+  name: RemoveAllFavouritesAsync(string, int, CancellationToken)
+  nameWithType: FavouriteAgent.RemoveAllFavouritesAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavouritesAsync(string, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nRemove all favourites for a table and associate\n"
+  summary: Remove all favourites for a table and associate
+  example: []
   syntax:
-    content: public void RemoveAllFavourites(string tableName, int associateId)
+    content: public Task RemoveAllFavouritesAsync(string tableName, int associateId, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
@@ -410,34 +466,37 @@ items:
     - id: associateId
       type: System.Int32
       description: Id of a current user
-    content.vb: Public Sub RemoveAllFavourites(tableName As String, associateId As Integer)
-  overload: SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavourites*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function RemoveAllFavouritesAsync(tableName As String, associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavouritesAsync*
   implements:
-  - SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites(System.String,System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.FavouriteAgent.ToggleFavourite(System.String,System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.ToggleFavourite(System.String,System.Int32,System.Int32,System.String)
-  id: ToggleFavourite(System.String,System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: FavouriteAgent.RemoveAllFavouritesAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavouritesAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: RemoveAllFavouritesAsync(String, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.FavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  id: ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.FavouriteAgent
   langs:
   - csharp
   - vb
-  name: ToggleFavourite(String, Int32, Int32, String)
-  nameWithType: FavouriteAgent.ToggleFavourite(String, Int32, Int32, String)
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.ToggleFavourite(System.String, System.Int32, System.Int32, System.String)
+  name: ToggleFavouriteAsync(string, int, int, string, CancellationToken)
+  nameWithType: FavouriteAgent.ToggleFavouriteAsync(string, int, int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.ToggleFavouriteAsync(string, int, int, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nToggle a record in a table as a favourite for an associate\n"
+  summary: Toggle a record in a table as a favourite for an associate
+  example: []
   syntax:
-    content: public bool ToggleFavourite(string tableName, int recordId, int associateId, string extraInfo)
+    content: public Task<bool> ToggleFavouriteAsync(string tableName, int recordId, int associateId, string extraInfo, CancellationToken cancellationToken = default)
     parameters:
     - id: tableName
       type: System.String
@@ -451,137 +510,108 @@ items:
     - id: extraInfo
       type: System.String
       description: Any extra information
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Boolean
+      type: System.Threading.Tasks.Task{System.Boolean}
       description: Return the new value, true if added, false if removed
-    content.vb: Public Function ToggleFavourite(tableName As String, recordId As Integer, associateId As Integer, extraInfo As String) As Boolean
-  overload: SuperOffice.CRM.Services.FavouriteAgent.ToggleFavourite*
+    content.vb: Public Function ToggleFavouriteAsync(tableName As String, recordId As Integer, associateId As Integer, extraInfo As String, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.FavouriteAgent.ToggleFavouriteAsync*
   implements:
-  - SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite(System.String,System.Int32,System.Int32,System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesById(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesById(System.Int32[])
-  id: RemoveFavouritesById(System.Int32[])
+  - SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: FavouriteAgent.ToggleFavouriteAsync(String, Integer, Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.ToggleFavouriteAsync(String, Integer, Integer, String, System.Threading.CancellationToken)
+  name.vb: ToggleFavouriteAsync(String, Integer, Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],System.Threading.CancellationToken)
+  id: RemoveFavouritesByIdAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.FavouriteAgent
   langs:
   - csharp
   - vb
-  name: RemoveFavouritesById(Int32[])
-  nameWithType: FavouriteAgent.RemoveFavouritesById(Int32[])
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesById(System.Int32[])
+  name: RemoveFavouritesByIdAsync(int[], CancellationToken)
+  nameWithType: FavouriteAgent.RemoveFavouritesByIdAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesByIdAsync(int[], System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nRemove favourite using favourite id \n"
+  summary: Remove favourite using favourite id
+  example: []
   syntax:
-    content: public void RemoveFavouritesById(int[] favouriteIds)
+    content: public Task RemoveFavouritesByIdAsync(int[] favouriteIds, CancellationToken cancellationToken = default)
     parameters:
     - id: favouriteIds
       type: System.Int32[]
       description: Ids of favourite rows to delete
-    content.vb: Public Sub RemoveFavouritesById(favouriteIds As Integer())
-  overload: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesById*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function RemoveFavouritesByIdAsync(favouriteIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesByIdAsync*
   implements:
-  - SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById(System.Int32[])
-  nameWithType.vb: FavouriteAgent.RemoveFavouritesById(Int32())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesById(System.Int32())
-  name.vb: RemoveFavouritesById(Int32())
-- uid: SuperOffice.CRM.Services.FavouriteAgent.#ctor
-  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Services.FavouriteAgent
-  langs:
-  - csharp
-  - vb
-  name: FavouriteAgent()
-  nameWithType: FavouriteAgent.FavouriteAgent()
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.FavouriteAgent()
-  type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  syntax:
-    content: public FavouriteAgent()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Services.FavouriteAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],System.Threading.CancellationToken)
+  nameWithType.vb: FavouriteAgent.RemoveFavouritesByIdAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesByIdAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: RemoveFavouritesByIdAsync(Integer(), CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFavouriteAgent}
-  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFavouriteAgent}
-  parent: SuperOffice.CRM.Services
-  definition: SuperOffice.CRM.Services.AgentBase`1
-  name: AgentBase<IFavouriteAgent>
-  nameWithType: AgentBase<IFavouriteAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IFavouriteAgent>
-  nameWithType.vb: AgentBase(Of IFavouriteAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IFavouriteAgent)
-  name.vb: AgentBase(Of IFavouriteAgent)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent
-    name: IFavouriteAgent
-    nameWithType: IFavouriteAgent
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent
-    name: IFavouriteAgent
-    nameWithType: IFavouriteAgent
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IDisposable
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.IFavouriteAgent
   commentId: T:SuperOffice.CRM.Services.IFavouriteAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IFavouriteAgent.html
   name: IFavouriteAgent
   nameWithType: IFavouriteAgent
   fullName: SuperOffice.CRM.Services.IFavouriteAgent
@@ -589,565 +619,862 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFavouriteAgent}.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFavouriteAgent}.Dispose
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFavouriteAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  name: Dispose()
-  nameWithType: AgentBase<IFavouriteAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IFavouriteAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of IFavouriteAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IFavouriteAgent).Dispose()
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<IFavouriteAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IFavouriteAgent>.Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of IFavouriteAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IFavouriteAgent).Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFavouriteAgent}.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFavouriteAgent}.InnerAgent
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFavouriteAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  name: InnerAgent
-  nameWithType: AgentBase<IFavouriteAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IFavouriteAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of IFavouriteAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IFavouriteAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.AgentBase`1
-  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
-  name: AgentBase<TAgent>
-  nameWithType: AgentBase<TAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
-  nameWithType.vb: AgentBase(Of TAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
-  name.vb: AgentBase(Of TAgent)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: Dispose()
-  nameWithType: AgentBase<TAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of TAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<TAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of TAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: InnerAgent
-  nameWithType: AgentBase<TAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.FavouriteAgent.IsFavourite*
-  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.IsFavourite
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
   isExternal: true
-  name: IsFavourite
-  nameWithType: FavouriteAgent.IsFavourite
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.IsFavourite
-- uid: SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite(System.String,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite(System.String,System.Int32,System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.FavouriteAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.FavouriteAgent.html#SuperOffice_CRM_Services_FavouriteAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IFavouriteImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: FavouriteAgent
+  nameWithType: FavouriteAgent.FavouriteAgent
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.FavouriteAgent
+  nameWithType.vb: FavouriteAgent.New
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation.html
+  name: IFavouriteImplementation
+  nameWithType: IFavouriteImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.FavouriteAgent.IsFavouriteAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.IsFavouriteAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.FavouriteAgent.html#SuperOffice_CRM_Services_FavouriteAgent_IsFavouriteAsync_System_String_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: IsFavouriteAsync
+  nameWithType: FavouriteAgent.IsFavouriteAsync
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.IsFavouriteAsync
+- uid: SuperOffice.CRM.Services.IFavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IFavouriteAgent
   isExternal: true
-  name: IsFavourite(String, Int32, Int32)
-  nameWithType: IFavouriteAgent.IsFavourite(String, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite(System.String, System.Int32, System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: IsFavouriteAsync(string, int, int, CancellationToken)
+  nameWithType: IFavouriteAgent.IsFavouriteAsync(string, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.IsFavouriteAsync(string, int, int, System.Threading.CancellationToken)
+  nameWithType.vb: IFavouriteAgent.IsFavouriteAsync(String, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.IsFavouriteAsync(String, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: IsFavouriteAsync(String, Integer, Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite(System.String,System.Int32,System.Int32)
-    name: IsFavourite
-    nameWithType: IFavouriteAgent.IsFavourite
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: IsFavouriteAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite(System.String,System.Int32,System.Int32)
-    name: IsFavourite
-    nameWithType: IFavouriteAgent.IsFavourite
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: IsFavouriteAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System
-  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.FavouriteAgent.AddFavourite*
-  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.AddFavourite
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: AddFavourite
-  nameWithType: FavouriteAgent.AddFavourite
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.AddFavourite
-- uid: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite(System.String,System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite(System.String,System.Int32,System.Int32,System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.FavouriteAgent.AddFavouriteAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.AddFavouriteAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.FavouriteAgent.html#SuperOffice_CRM_Services_FavouriteAgent_AddFavouriteAsync_System_String_System_Int32_System_Int32_System_String_System_Threading_CancellationToken_
+  name: AddFavouriteAsync
+  nameWithType: FavouriteAgent.AddFavouriteAsync
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.AddFavouriteAsync
+- uid: SuperOffice.CRM.Services.IFavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IFavouriteAgent
   isExternal: true
-  name: AddFavourite(String, Int32, Int32, String)
-  nameWithType: IFavouriteAgent.AddFavourite(String, Int32, Int32, String)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite(System.String, System.Int32, System.Int32, System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: AddFavouriteAsync(string, int, int, string, CancellationToken)
+  nameWithType: IFavouriteAgent.AddFavouriteAsync(string, int, int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddFavouriteAsync(string, int, int, string, System.Threading.CancellationToken)
+  nameWithType.vb: IFavouriteAgent.AddFavouriteAsync(String, Integer, Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.AddFavouriteAsync(String, Integer, Integer, String, System.Threading.CancellationToken)
+  name.vb: AddFavouriteAsync(String, Integer, Integer, String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite(System.String,System.Int32,System.Int32,System.String)
-    name: AddFavourite
-    nameWithType: IFavouriteAgent.AddFavourite
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+    name: AddFavouriteAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite(System.String,System.Int32,System.Int32,System.String)
-    name: AddFavourite
-    nameWithType: IFavouriteAgent.AddFavourite
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+    name: AddFavouriteAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.FavouriteAgent.AddFavourites*
-  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.AddFavourites
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: AddFavourites
-  nameWithType: FavouriteAgent.AddFavourites
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.AddFavourites
-- uid: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites(System.String,System.Int32[],System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites(System.String,System.Int32[],System.Int32,System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.FavouriteAgent.AddFavouritesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.AddFavouritesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.FavouriteAgent.html#SuperOffice_CRM_Services_FavouriteAgent_AddFavouritesAsync_System_String_System_Int32___System_Int32_System_String_System_Threading_CancellationToken_
+  name: AddFavouritesAsync
+  nameWithType: FavouriteAgent.AddFavouritesAsync
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.AddFavouritesAsync
+- uid: SuperOffice.CRM.Services.IFavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IFavouriteAgent
   isExternal: true
-  name: AddFavourites(String, Int32[], Int32, String)
-  nameWithType: IFavouriteAgent.AddFavourites(String, Int32[], Int32, String)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites(System.String, System.Int32[], System.Int32, System.String)
-  nameWithType.vb: IFavouriteAgent.AddFavourites(String, Int32(), Int32, String)
-  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites(System.String, System.Int32(), System.Int32, System.String)
-  name.vb: AddFavourites(String, Int32(), Int32, String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: AddFavouritesAsync(string, int[], int, string, CancellationToken)
+  nameWithType: IFavouriteAgent.AddFavouritesAsync(string, int[], int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddFavouritesAsync(string, int[], int, string, System.Threading.CancellationToken)
+  nameWithType.vb: IFavouriteAgent.AddFavouritesAsync(String, Integer(), Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.AddFavouritesAsync(String, Integer(), Integer, String, System.Threading.CancellationToken)
+  name.vb: AddFavouritesAsync(String, Integer(), Integer, String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites(System.String,System.Int32[],System.Int32,System.String)
-    name: AddFavourites
-    nameWithType: IFavouriteAgent.AddFavourites
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,System.Threading.CancellationToken)
+    name: AddFavouritesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites(System.String,System.Int32[],System.Int32,System.String)
-    name: AddFavourites
-    nameWithType: IFavouriteAgent.AddFavourites
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,System.Threading.CancellationToken)
+    name: AddFavouritesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider*
-  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProviderAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProviderAsync
   isExternal: true
-  name: AddTicketsToFavouritesByProvider
-  nameWithType: FavouriteAgent.AddTicketsToFavouritesByProvider
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider
-- uid: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
+  href: SuperOffice.CRM.Services.FavouriteAgent.html#SuperOffice_CRM_Services_FavouriteAgent_AddTicketsToFavouritesByProviderAsync_System_String_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___System_Int32_System_String_System_Threading_CancellationToken_
+  name: AddTicketsToFavouritesByProviderAsync
+  nameWithType: FavouriteAgent.AddTicketsToFavouritesByProviderAsync
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProviderAsync
+- uid: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IFavouriteAgent
   isExternal: true
-  name: AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32, String)
-  nameWithType: IFavouriteAgent.AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32, String)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.Int32, System.String)
-  nameWithType.vb: IFavouriteAgent.AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32, String)
-  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.Int32, System.String)
-  name.vb: AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32, String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: AddTicketsToFavouritesByProviderAsync(string, ArchiveRestrictionInfo[], int, string, CancellationToken)
+  nameWithType: IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(string, ArchiveRestrictionInfo[], int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(string, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], int, string, System.Threading.CancellationToken)
+  nameWithType.vb: IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), Integer, String, System.Threading.CancellationToken)
+  name.vb: AddTicketsToFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Integer, String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
-    name: AddTicketsToFavouritesByProvider
-    nameWithType: IFavouriteAgent.AddTicketsToFavouritesByProvider
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String,System.Threading.CancellationToken)
+    name: AddTicketsToFavouritesByProviderAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
-    nameWithType: ArchiveRestrictionInfo
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
-    name: AddTicketsToFavouritesByProvider
-    nameWithType: IFavouriteAgent.AddTicketsToFavouritesByProvider
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String,System.Threading.CancellationToken)
+    name: AddTicketsToFavouritesByProviderAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
-    nameWithType: ArchiveRestrictionInfo
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
   isExternal: true
   name: ArchiveRestrictionInfo[]
@@ -1159,582 +1486,543 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
-    nameWithType: ArchiveRestrictionInfo
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
-    nameWithType: ArchiveRestrictionInfo
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites*
-  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites
-  isExternal: true
-  name: RemoveFavourites
-  nameWithType: FavouriteAgent.RemoveFavourites
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites
-- uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
-  parent: SuperOffice.CRM.Services.IFavouriteAgent
-  isExternal: true
-  name: RemoveFavourites(String, Int32[], Int32)
-  nameWithType: IFavouriteAgent.RemoveFavourites(String, Int32[], Int32)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String, System.Int32[], System.Int32)
-  nameWithType.vb: IFavouriteAgent.RemoveFavourites(String, Int32(), Int32)
-  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String, System.Int32(), System.Int32)
-  name.vb: RemoveFavourites(String, Int32(), Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
-    name: RemoveFavourites
-    nameWithType: IFavouriteAgent.RemoveFavourites
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.FavouriteAgent.html#SuperOffice_CRM_Services_FavouriteAgent_RemoveFavouritesAsync_System_String_System_Int32___System_Int32_System_Threading_CancellationToken_
+  name: RemoveFavouritesAsync
+  nameWithType: FavouriteAgent.RemoveFavouritesAsync
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesAsync
+- uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IFavouriteAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RemoveFavouritesAsync(string, int[], int, CancellationToken)
+  nameWithType: IFavouriteAgent.RemoveFavouritesAsync(string, int[], int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesAsync(string, int[], int, System.Threading.CancellationToken)
+  nameWithType.vb: IFavouriteAgent.RemoveFavouritesAsync(String, Integer(), Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesAsync(String, Integer(), Integer, System.Threading.CancellationToken)
+  name.vb: RemoveFavouritesAsync(String, Integer(), Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,System.Threading.CancellationToken)
+    name: RemoveFavouritesAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
-    name: RemoveFavourites
-    nameWithType: IFavouriteAgent.RemoveFavourites
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,System.Threading.CancellationToken)
+    name: RemoveFavouritesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider*
-  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync
   isExternal: true
-  name: RemoveTicketsFromFavouritesByProvider
-  nameWithType: FavouriteAgent.RemoveTicketsFromFavouritesByProvider
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider
-- uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
+  href: SuperOffice.CRM.Services.FavouriteAgent.html#SuperOffice_CRM_Services_FavouriteAgent_RemoveTicketsFromFavouritesByProviderAsync_System_String_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___System_Int32_System_Threading_CancellationToken_
+  name: RemoveTicketsFromFavouritesByProviderAsync
+  nameWithType: FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync
+- uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IFavouriteAgent
   isExternal: true
-  name: RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32)
-  nameWithType: IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.Int32)
-  nameWithType.vb: IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32)
-  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.Int32)
-  name.vb: RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RemoveTicketsFromFavouritesByProviderAsync(string, ArchiveRestrictionInfo[], int, CancellationToken)
+  nameWithType: IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(string, ArchiveRestrictionInfo[], int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(string, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], int, System.Threading.CancellationToken)
+  nameWithType.vb: IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), Integer, System.Threading.CancellationToken)
+  name.vb: RemoveTicketsFromFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
-    name: RemoveTicketsFromFavouritesByProvider
-    nameWithType: IFavouriteAgent.RemoveTicketsFromFavouritesByProvider
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.Threading.CancellationToken)
+    name: RemoveTicketsFromFavouritesByProviderAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
-    nameWithType: ArchiveRestrictionInfo
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
-    name: RemoveTicketsFromFavouritesByProvider
-    nameWithType: IFavouriteAgent.RemoveTicketsFromFavouritesByProvider
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.Threading.CancellationToken)
+    name: RemoveTicketsFromFavouritesByProviderAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
-    nameWithType: ArchiveRestrictionInfo
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.FavouriteAgent.GetFavourites*
-  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.GetFavourites
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.FavouriteAgent.GetFavouritesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.GetFavouritesAsync
   isExternal: true
-  name: GetFavourites
-  nameWithType: FavouriteAgent.GetFavourites
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.GetFavourites
-- uid: SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites(System.String,System.Int32)
+  href: SuperOffice.CRM.Services.FavouriteAgent.html#SuperOffice_CRM_Services_FavouriteAgent_GetFavouritesAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  name: GetFavouritesAsync
+  nameWithType: FavouriteAgent.GetFavouritesAsync
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.GetFavouritesAsync
+- uid: SuperOffice.CRM.Services.IFavouriteAgent.GetFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.GetFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IFavouriteAgent
   isExternal: true
-  name: GetFavourites(String, Int32)
-  nameWithType: IFavouriteAgent.GetFavourites(String, Int32)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites(System.String, System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetFavouritesAsync(string, int, CancellationToken)
+  nameWithType: IFavouriteAgent.GetFavouritesAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.GetFavouritesAsync(string, int, System.Threading.CancellationToken)
+  nameWithType.vb: IFavouriteAgent.GetFavouritesAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.GetFavouritesAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: GetFavouritesAsync(String, Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites(System.String,System.Int32)
-    name: GetFavourites
-    nameWithType: IFavouriteAgent.GetFavourites
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.GetFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: GetFavouritesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites(System.String,System.Int32)
-    name: GetFavourites
-    nameWithType: IFavouriteAgent.GetFavourites
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.GetFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: GetFavouritesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.Favourite[]
-  isExternal: true
-  name: Favourite[]
-  nameWithType: Favourite[]
-  fullName: SuperOffice.CRM.Services.Favourite[]
-  nameWithType.vb: Favourite()
-  fullName.vb: SuperOffice.CRM.Services.Favourite()
-  name.vb: Favourite()
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Favourite[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Favourite[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Favourite[]>
+  nameWithType: Task<Favourite[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Favourite[]>
+  nameWithType.vb: Task(Of Favourite())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Favourite())
+  name.vb: Task(Of Favourite())
   spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
   - uid: SuperOffice.CRM.Services.Favourite
     name: Favourite
-    nameWithType: Favourite
-    fullName: SuperOffice.CRM.Services.Favourite
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.Favourite.html
+  - name: '['
+  - name: ']'
+  - name: '>'
   spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Services.Favourite
     name: Favourite
-    nameWithType: Favourite
-    fullName: SuperOffice.CRM.Services.Favourite
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourite*
-  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourite
+    href: SuperOffice.CRM.Services.Favourite.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouriteAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouriteAsync
   isExternal: true
-  name: RemoveFavourite
-  nameWithType: FavouriteAgent.RemoveFavourite
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourite
-- uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite(System.String,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite(System.String,System.Int32,System.Int32)
+  href: SuperOffice.CRM.Services.FavouriteAgent.html#SuperOffice_CRM_Services_FavouriteAgent_RemoveFavouriteAsync_System_String_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: RemoveFavouriteAsync
+  nameWithType: FavouriteAgent.RemoveFavouriteAsync
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouriteAsync
+- uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IFavouriteAgent
   isExternal: true
-  name: RemoveFavourite(String, Int32, Int32)
-  nameWithType: IFavouriteAgent.RemoveFavourite(String, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite(System.String, System.Int32, System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RemoveFavouriteAsync(string, int, int, CancellationToken)
+  nameWithType: IFavouriteAgent.RemoveFavouriteAsync(string, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouriteAsync(string, int, int, System.Threading.CancellationToken)
+  nameWithType.vb: IFavouriteAgent.RemoveFavouriteAsync(String, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouriteAsync(String, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: RemoveFavouriteAsync(String, Integer, Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite(System.String,System.Int32,System.Int32)
-    name: RemoveFavourite
-    nameWithType: IFavouriteAgent.RemoveFavourite
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: RemoveFavouriteAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite(System.String,System.Int32,System.Int32)
-    name: RemoveFavourite
-    nameWithType: IFavouriteAgent.RemoveFavourite
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: RemoveFavouriteAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavourites*
-  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavourites
+- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavouritesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavouritesAsync
   isExternal: true
-  name: RemoveAllFavourites
-  nameWithType: FavouriteAgent.RemoveAllFavourites
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavourites
-- uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites(System.String,System.Int32)
+  href: SuperOffice.CRM.Services.FavouriteAgent.html#SuperOffice_CRM_Services_FavouriteAgent_RemoveAllFavouritesAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  name: RemoveAllFavouritesAsync
+  nameWithType: FavouriteAgent.RemoveAllFavouritesAsync
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavouritesAsync
+- uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IFavouriteAgent
   isExternal: true
-  name: RemoveAllFavourites(String, Int32)
-  nameWithType: IFavouriteAgent.RemoveAllFavourites(String, Int32)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites(System.String, System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RemoveAllFavouritesAsync(string, int, CancellationToken)
+  nameWithType: IFavouriteAgent.RemoveAllFavouritesAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavouritesAsync(string, int, System.Threading.CancellationToken)
+  nameWithType.vb: IFavouriteAgent.RemoveAllFavouritesAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavouritesAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: RemoveAllFavouritesAsync(String, Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites(System.String,System.Int32)
-    name: RemoveAllFavourites
-    nameWithType: IFavouriteAgent.RemoveAllFavourites
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: RemoveAllFavouritesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites(System.String,System.Int32)
-    name: RemoveAllFavourites
-    nameWithType: IFavouriteAgent.RemoveAllFavourites
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: RemoveAllFavouritesAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.FavouriteAgent.ToggleFavourite*
-  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.ToggleFavourite
+- uid: SuperOffice.CRM.Services.FavouriteAgent.ToggleFavouriteAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.ToggleFavouriteAsync
   isExternal: true
-  name: ToggleFavourite
-  nameWithType: FavouriteAgent.ToggleFavourite
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.ToggleFavourite
-- uid: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite(System.String,System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite(System.String,System.Int32,System.Int32,System.String)
+  href: SuperOffice.CRM.Services.FavouriteAgent.html#SuperOffice_CRM_Services_FavouriteAgent_ToggleFavouriteAsync_System_String_System_Int32_System_Int32_System_String_System_Threading_CancellationToken_
+  name: ToggleFavouriteAsync
+  nameWithType: FavouriteAgent.ToggleFavouriteAsync
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.ToggleFavouriteAsync
+- uid: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IFavouriteAgent
   isExternal: true
-  name: ToggleFavourite(String, Int32, Int32, String)
-  nameWithType: IFavouriteAgent.ToggleFavourite(String, Int32, Int32, String)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite(System.String, System.Int32, System.Int32, System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ToggleFavouriteAsync(string, int, int, string, CancellationToken)
+  nameWithType: IFavouriteAgent.ToggleFavouriteAsync(string, int, int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavouriteAsync(string, int, int, string, System.Threading.CancellationToken)
+  nameWithType.vb: IFavouriteAgent.ToggleFavouriteAsync(String, Integer, Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavouriteAsync(String, Integer, Integer, String, System.Threading.CancellationToken)
+  name.vb: ToggleFavouriteAsync(String, Integer, Integer, String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite(System.String,System.Int32,System.Int32,System.String)
-    name: ToggleFavourite
-    nameWithType: IFavouriteAgent.ToggleFavourite
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+    name: ToggleFavouriteAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite(System.String,System.Int32,System.Int32,System.String)
-    name: ToggleFavourite
-    nameWithType: IFavouriteAgent.ToggleFavourite
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
+    name: ToggleFavouriteAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesById*
-  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesById
+- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesByIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesByIdAsync
   isExternal: true
-  name: RemoveFavouritesById
-  nameWithType: FavouriteAgent.RemoveFavouritesById
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesById
-- uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById(System.Int32[])
-  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById(System.Int32[])
+  href: SuperOffice.CRM.Services.FavouriteAgent.html#SuperOffice_CRM_Services_FavouriteAgent_RemoveFavouritesByIdAsync_System_Int32___System_Threading_CancellationToken_
+  name: RemoveFavouritesByIdAsync
+  nameWithType: FavouriteAgent.RemoveFavouritesByIdAsync
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesByIdAsync
+- uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IFavouriteAgent
   isExternal: true
-  name: RemoveFavouritesById(Int32[])
-  nameWithType: IFavouriteAgent.RemoveFavouritesById(Int32[])
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById(System.Int32[])
-  nameWithType.vb: IFavouriteAgent.RemoveFavouritesById(Int32())
-  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById(System.Int32())
-  name.vb: RemoveFavouritesById(Int32())
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: RemoveFavouritesByIdAsync(int[], CancellationToken)
+  nameWithType: IFavouriteAgent.RemoveFavouritesByIdAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesByIdAsync(int[], System.Threading.CancellationToken)
+  nameWithType.vb: IFavouriteAgent.RemoveFavouritesByIdAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesByIdAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: RemoveFavouritesByIdAsync(Integer(), CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById(System.Int32[])
-    name: RemoveFavouritesById
-    nameWithType: IFavouriteAgent.RemoveFavouritesById
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],System.Threading.CancellationToken)
+    name: RemoveFavouritesByIdAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById(System.Int32[])
-    name: RemoveFavouritesById
-    nameWithType: IFavouriteAgent.RemoveFavouritesById
-    fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],System.Threading.CancellationToken)
+    name: RemoveFavouritesByIdAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.FavouriteAgent.#ctor*
-  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.#ctor
-  isExternal: true
-  name: FavouriteAgent
-  nameWithType: FavouriteAgent.FavouriteAgent
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.FavouriteAgent
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )

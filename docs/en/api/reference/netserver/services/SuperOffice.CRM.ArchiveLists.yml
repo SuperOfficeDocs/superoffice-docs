@@ -1,0 +1,95 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  id: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  - SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender
+  - SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase
+  - SuperOffice.CRM.ArchiveLists.ErpFieldProvider
+  - SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+  type: Namespace
+  assemblies:
+  - SuperOffice.Services.Implementation
+references:
+- uid: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpEntityProvider.html
+  name: ErpEntityProvider
+  nameWithType: ErpEntityProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ErpEntityProvider
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender.html
+  name: ErpFieldErpFieldExtender
+  nameWithType: ErpFieldErpFieldExtender
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldErpFieldExtender
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase.html
+  name: ErpFieldExtenderBase
+  nameWithType: ErpFieldExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.ErpFieldProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.ErpFieldProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpFieldProvider.html
+  name: ErpFieldProvider
+  nameWithType: ErpFieldProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ErpFieldProvider
+- uid: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider.html
+  name: ErpSyncLogProvider
+  nameWithType: ErpSyncLogProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ErpSyncLogProvider
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html

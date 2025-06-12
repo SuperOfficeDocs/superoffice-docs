@@ -52,8 +52,8 @@ items:
   - SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(System.String)
   - SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(System.String)
   - SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
-  - SuperOffice.WebApi.Data.CultureDataFormatter.MapLanguageToCsLanguage(System.String)
   - SuperOffice.WebApi.Data.CultureDataFormatter.MapLCIDToSuperOfficeLanguage(System.Int32)
+  - SuperOffice.WebApi.Data.CultureDataFormatter.MapLanguageToCsLanguage(System.String)
   - SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
   - SuperOffice.WebApi.Data.CultureDataFormatter.MarkerSeparator
   - SuperOffice.WebApi.Data.CultureDataFormatter.MoneyMarker
@@ -85,28 +85,53 @@ items:
   nameWithType: CultureDataFormatter
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThis is a helper class designed to encode, parse and reformat culturally sensitive data types between\nan application server without culture knowledge, and a front-end with such knowledge.\n"
-  remarks: "\n<p></p>\nThe problem: The application server does not know the culture of the current client. At the same time,\nwe need to be able to include culturally sensitive data (such as a date) as part of a tooltip or other\nserver-side generated text. Before displaying this text to the user, culturally sensitive elements need \nto be parsed and reformatted to the correct culture.\n<p></p>\nThe methods in this class take care of both sides of this process. The Encode methods, such as \n<xref href=\"SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime)\" data-throw-if-not-resolved=\"false\"></xref>, take a native data type as input and return a string that contains both\na specification of what it is (a date) and the value formatted in the invariant culture.\n<p></p>\nThe <xref href=\"SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method will take such a formatted element, and by calling on the\nproper LocalFormat method (such as <xref href=\"SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate(System.DateTime)\" data-throw-if-not-resolved=\"false\"></xref>, return it in its correct form according\nto the current culture settings for the thread.\n"
+  summary: >-
+    This is a helper class designed to encode, parse and reformat culturally sensitive data types between
+
+    an application server without culture knowledge, and a front-end with such knowledge.
+  remarks: >-
+    <p></p>
+
+    The problem: The application server does not know the culture of the current client. At the same time,
+
+    we need to be able to include culturally sensitive data (such as a date) as part of a tooltip or other
+
+    server-side generated text. Before displaying this text to the user, culturally sensitive elements need 
+
+    to be parsed and reformatted to the correct culture.
+
+    <p></p>
+
+    The methods in this class take care of both sides of this process. The Encode methods, such as 
+
+    <xref href="SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime)" data-throw-if-not-resolved="false"></xref>, take a native data type as input and return a string that contains both
+
+    a specification of what it is (a date) and the value formatted in the invariant culture.
+
+    <p></p>
+
+    The <xref href="SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(System.String)" data-throw-if-not-resolved="false"></xref> method will take such a formatted element, and by calling on the
+
+    proper LocalFormat method (such as <xref href="SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate(System.DateTime)" data-throw-if-not-resolved="false"></xref>, return it in its correct form according
+
+    to the current culture settings for the thread.
+  example: []
   syntax:
-    content: 'public static class CultureDataFormatter : Object'
-    content.vb: >-
-      Public Module CultureDataFormatter
-          Inherits Object
+    content: public static class CultureDataFormatter
+    content.vb: Public Module CultureDataFormatter
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.DateMarker
   commentId: F:SuperOffice.WebApi.Data.CultureDataFormatter.DateMarker
   id: DateMarker
@@ -118,9 +143,6 @@ items:
   nameWithType: CultureDataFormatter.DateMarker
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.DateMarker
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -129,12 +151,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const DateMarker As String = "D"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.DateTimeMarker
   commentId: F:SuperOffice.WebApi.Data.CultureDataFormatter.DateTimeMarker
   id: DateTimeMarker
@@ -146,9 +162,6 @@ items:
   nameWithType: CultureDataFormatter.DateTimeMarker
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.DateTimeMarker
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -157,12 +170,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const DateTimeMarker As String = "DT"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.TimeMarker
   commentId: F:SuperOffice.WebApi.Data.CultureDataFormatter.TimeMarker
   id: TimeMarker
@@ -174,9 +181,6 @@ items:
   nameWithType: CultureDataFormatter.TimeMarker
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.TimeMarker
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -185,12 +189,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const TimeMarker As String = "T"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.TimeSpanMarker
   commentId: F:SuperOffice.WebApi.Data.CultureDataFormatter.TimeSpanMarker
   id: TimeSpanMarker
@@ -202,9 +200,6 @@ items:
   nameWithType: CultureDataFormatter.TimeSpanMarker
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.TimeSpanMarker
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -213,12 +208,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const TimeSpanMarker As String = "TS"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.DoubleMarker
   commentId: F:SuperOffice.WebApi.Data.CultureDataFormatter.DoubleMarker
   id: DoubleMarker
@@ -230,9 +219,6 @@ items:
   nameWithType: CultureDataFormatter.DoubleMarker
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.DoubleMarker
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -241,12 +227,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const DoubleMarker As String = "F"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.IntMarker
   commentId: F:SuperOffice.WebApi.Data.CultureDataFormatter.IntMarker
   id: IntMarker
@@ -258,9 +238,6 @@ items:
   nameWithType: CultureDataFormatter.IntMarker
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.IntMarker
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -269,12 +246,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const IntMarker As String = "I"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.MoneyMarker
   commentId: F:SuperOffice.WebApi.Data.CultureDataFormatter.MoneyMarker
   id: MoneyMarker
@@ -286,9 +257,6 @@ items:
   nameWithType: CultureDataFormatter.MoneyMarker
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MoneyMarker
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -297,12 +265,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const MoneyMarker As String = "M"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.BinaryMarker
   commentId: F:SuperOffice.WebApi.Data.CultureDataFormatter.BinaryMarker
   id: BinaryMarker
@@ -314,9 +276,6 @@ items:
   nameWithType: CultureDataFormatter.BinaryMarker
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.BinaryMarker
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -325,12 +284,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const BinaryMarker As String = "B"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.IntArrMarker
   commentId: F:SuperOffice.WebApi.Data.CultureDataFormatter.IntArrMarker
   id: IntArrMarker
@@ -342,9 +295,6 @@ items:
   nameWithType: CultureDataFormatter.IntArrMarker
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.IntArrMarker
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -353,12 +303,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const IntArrMarker As String = "A"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.MarkerSeparator
   commentId: F:SuperOffice.WebApi.Data.CultureDataFormatter.MarkerSeparator
   id: MarkerSeparator
@@ -370,24 +314,16 @@ items:
   nameWithType: CultureDataFormatter.MarkerSeparator
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MarkerSeparator
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public const char MarkerSeparator = ':'
     return:
       type: System.Char
     content.vb: Public Const MarkerSeparator As Char = ":"c
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.BeginTag
   commentId: F:SuperOffice.WebApi.Data.CultureDataFormatter.BeginTag
   id: BeginTag
@@ -399,23 +335,15 @@ items:
   nameWithType: CultureDataFormatter.BeginTag
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.BeginTag
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public const string BeginTag = "["
     return:
       type: System.String
     content.vb: Public Const BeginTag As String = "["
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EndTag
   commentId: F:SuperOffice.WebApi.Data.CultureDataFormatter.EndTag
   id: EndTag
@@ -427,23 +355,15 @@ items:
   nameWithType: CultureDataFormatter.EndTag
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EndTag
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public const string EndTag = "]"
     return:
       type: System.String
     content.vb: Public Const EndTag As String = "]"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.Encode(System.Object)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.Encode(System.Object)
   id: Encode(System.Object)
@@ -451,17 +371,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Encode(Object)
-  nameWithType: CultureDataFormatter.Encode(Object)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.Encode(System.Object)
+  name: Encode(object)
+  nameWithType: CultureDataFormatter.Encode(object)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.Encode(object)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a object based on type. Types supported: DateTime, Double, Integer, String and Boolean\n"
+  summary: 'Encode a object based on type. Types supported: DateTime, Double, Integer, String and Boolean'
+  example: []
   syntax:
     content: public static string Encode(object value)
     parameters:
@@ -473,12 +391,9 @@ items:
       description: Encoded object
     content.vb: Public Shared Function Encode(value As Object) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.Encode*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.Encode(Object)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.Encode(Object)
+  name.vb: Encode(Object)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeIntArr(System.Int32[])
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeIntArr(System.Int32[])
   id: EncodeIntArr(System.Int32[])
@@ -486,13 +401,10 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeIntArr(Int32[])
-  nameWithType: CultureDataFormatter.EncodeIntArr(Int32[])
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeIntArr(System.Int32[])
+  name: EncodeIntArr(params int[])
+  nameWithType: CultureDataFormatter.EncodeIntArr(params int[])
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeIntArr(params int[])
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -505,15 +417,9 @@ items:
       type: System.String
     content.vb: Public Shared Function EncodeIntArr(ParamArray intArr As Integer()) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeIntArr*
-  nameWithType.vb: CultureDataFormatter.EncodeIntArr(Int32())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeIntArr(System.Int32())
-  name.vb: EncodeIntArr(Int32())
+  nameWithType.vb: CultureDataFormatter.EncodeIntArr(ParamArray Integer())
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeIntArr(ParamArray Integer())
+  name.vb: EncodeIntArr(ParamArray Integer())
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime)
   id: EncodeDate(System.DateTime)
@@ -525,13 +431,11 @@ items:
   nameWithType: CultureDataFormatter.EncodeDate(DateTime)
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a date, without a time part\n"
+  summary: Encode a date, without a time part
+  example: []
   syntax:
     content: public static string EncodeDate(DateTime dateTime)
     parameters:
@@ -541,14 +445,11 @@ items:
     return:
       type: System.String
       description: Encoded date
-    content.vb: Public Shared Function EncodeDate(dateTime As DateTime) As String
+    content.vb: Public Shared Function EncodeDate(dateTime As Date) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeDate(Date)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(Date)
+  name.vb: EncodeDate(Date)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime,System.Boolean)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime,System.Boolean)
   id: EncodeDate(System.DateTime,System.Boolean)
@@ -556,17 +457,18 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeDate(DateTime, Boolean)
-  nameWithType: CultureDataFormatter.EncodeDate(DateTime, Boolean)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime, System.Boolean)
+  name: EncodeDate(DateTime, bool)
+  nameWithType: CultureDataFormatter.EncodeDate(DateTime, bool)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime, bool)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a date, without a time part.\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode a date, without a time part.
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeDate(DateTime dateTime, bool performEncode)
     parameters:
@@ -577,21 +479,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded date
-    content.vb: Public Shared Function EncodeDate(dateTime As DateTime, performEncode As Boolean) As String
+    content.vb: Public Shared Function EncodeDate(dateTime As Date, performEncode As Boolean) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeDate(Date, Boolean)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(Date, Boolean)
+  name.vb: EncodeDate(Date, Boolean)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDateTime(System.DateTime)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDateTime(System.DateTime)
   id: EncodeDateTime(System.DateTime)
@@ -603,13 +500,11 @@ items:
   nameWithType: CultureDataFormatter.EncodeDateTime(DateTime)
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDateTime(System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a date, with a time part.\n"
+  summary: Encode a date, with a time part.
+  example: []
   syntax:
     content: public static string EncodeDateTime(DateTime dateTime)
     parameters:
@@ -619,14 +514,11 @@ items:
     return:
       type: System.String
       description: Encoded date/time
-    content.vb: Public Shared Function EncodeDateTime(dateTime As DateTime) As String
+    content.vb: Public Shared Function EncodeDateTime(dateTime As Date) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDateTime*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeDateTime(Date)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDateTime(Date)
+  name.vb: EncodeDateTime(Date)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDateTime(System.DateTime,System.Boolean)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDateTime(System.DateTime,System.Boolean)
   id: EncodeDateTime(System.DateTime,System.Boolean)
@@ -634,17 +526,18 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeDateTime(DateTime, Boolean)
-  nameWithType: CultureDataFormatter.EncodeDateTime(DateTime, Boolean)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDateTime(System.DateTime, System.Boolean)
+  name: EncodeDateTime(DateTime, bool)
+  nameWithType: CultureDataFormatter.EncodeDateTime(DateTime, bool)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDateTime(System.DateTime, bool)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a date, with a time part.\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode a date, with a time part.
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeDateTime(DateTime dateTime, bool performEncode)
     parameters:
@@ -655,21 +548,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded date/time
-    content.vb: Public Shared Function EncodeDateTime(dateTime As DateTime, performEncode As Boolean) As String
+    content.vb: Public Shared Function EncodeDateTime(dateTime As Date, performEncode As Boolean) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDateTime*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeDateTime(Date, Boolean)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDateTime(Date, Boolean)
+  name.vb: EncodeDateTime(Date, Boolean)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTime(System.DateTime)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTime(System.DateTime)
   id: EncodeTime(System.DateTime)
@@ -681,13 +569,11 @@ items:
   nameWithType: CultureDataFormatter.EncodeTime(DateTime)
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTime(System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a time, without a date part\n"
+  summary: Encode a time, without a date part
+  example: []
   syntax:
     content: public static string EncodeTime(DateTime dateTime)
     parameters:
@@ -697,14 +583,11 @@ items:
     return:
       type: System.String
       description: Encoded time
-    content.vb: Public Shared Function EncodeTime(dateTime As DateTime) As String
+    content.vb: Public Shared Function EncodeTime(dateTime As Date) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTime*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeTime(Date)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTime(Date)
+  name.vb: EncodeTime(Date)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTime(System.DateTime,System.Boolean)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTime(System.DateTime,System.Boolean)
   id: EncodeTime(System.DateTime,System.Boolean)
@@ -712,17 +595,18 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeTime(DateTime, Boolean)
-  nameWithType: CultureDataFormatter.EncodeTime(DateTime, Boolean)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTime(System.DateTime, System.Boolean)
+  name: EncodeTime(DateTime, bool)
+  nameWithType: CultureDataFormatter.EncodeTime(DateTime, bool)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTime(System.DateTime, bool)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a time, without a date part.\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode a time, without a date part.
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeTime(DateTime dateTime, bool performEncode)
     parameters:
@@ -733,21 +617,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded time
-    content.vb: Public Shared Function EncodeTime(dateTime As DateTime, performEncode As Boolean) As String
+    content.vb: Public Shared Function EncodeTime(dateTime As Date, performEncode As Boolean) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTime*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeTime(Date, Boolean)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTime(Date, Boolean)
+  name.vb: EncodeTime(Date, Boolean)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan(System.TimeSpan,System.Boolean)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan(System.TimeSpan,System.Boolean)
   id: EncodeTimeSpan(System.TimeSpan,System.Boolean)
@@ -755,17 +634,18 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeTimeSpan(TimeSpan, Boolean)
-  nameWithType: CultureDataFormatter.EncodeTimeSpan(TimeSpan, Boolean)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan(System.TimeSpan, System.Boolean)
+  name: EncodeTimeSpan(TimeSpan, bool)
+  nameWithType: CultureDataFormatter.EncodeTimeSpan(TimeSpan, bool)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan(System.TimeSpan, bool)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a timespan, encodes total number of seconds\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode a timespan, encodes total number of seconds
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeTimeSpan(TimeSpan timeSpan, bool performEncode = true)
     parameters:
@@ -776,21 +656,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded time
     content.vb: Public Shared Function EncodeTimeSpan(timeSpan As TimeSpan, performEncode As Boolean = True) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeTimeSpan(TimeSpan, Boolean)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan(System.TimeSpan, Boolean)
+  name.vb: EncodeTimeSpan(TimeSpan, Boolean)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan(System.Int32,System.Boolean)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan(System.Int32,System.Boolean)
   id: EncodeTimeSpan(System.Int32,System.Boolean)
@@ -798,17 +673,18 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeTimeSpan(Int32, Boolean)
-  nameWithType: CultureDataFormatter.EncodeTimeSpan(Int32, Boolean)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan(System.Int32, System.Boolean)
+  name: EncodeTimeSpan(int, bool)
+  nameWithType: CultureDataFormatter.EncodeTimeSpan(int, bool)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan(int, bool)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a timespan\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode a timespan
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeTimeSpan(int seconds, bool performEncode = true)
     parameters:
@@ -819,21 +695,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded time
     content.vb: Public Shared Function EncodeTimeSpan(seconds As Integer, performEncode As Boolean = True) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeTimeSpan(Integer, Boolean)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan(Integer, Boolean)
+  name.vb: EncodeTimeSpan(Integer, Boolean)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(System.Double,System.Int32)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(System.Double,System.Int32)
   id: EncodeDouble(System.Double,System.Int32)
@@ -841,17 +712,24 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeDouble(Double, Int32)
-  nameWithType: CultureDataFormatter.EncodeDouble(Double, Int32)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(System.Double, System.Int32)
+  name: EncodeDouble(double, int)
+  nameWithType: CultureDataFormatter.EncodeDouble(double, int)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(double, int)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a double (decimal value), with the given number of decimals. Note that the full\nprecision is included here, but rounded to the given number of decimals on (re)localization.\nAlso note that currency amounts should use the EncodeMoney method, if the cultural settings for \nmoney are to be taken into account (though the currency symbol is NOT used in localization, \nbecause we may be displaying non-native currencies, saying $ when it&apos;s actually € or NOK is silly).\n"
+  summary: >-
+    Encode a double (decimal value), with the given number of decimals. Note that the full
+
+    precision is included here, but rounded to the given number of decimals on (re)localization.
+
+    Also note that currency amounts should use the EncodeMoney method, if the cultural settings for 
+
+    money are to be taken into account (though the currency symbol is NOT used in localization, 
+
+    because we may be displaying non-native currencies, saying $ when it's actually € or NOK is silly).
+  example: []
   syntax:
     content: public static string EncodeDouble(double val, int decimals)
     parameters:
@@ -866,12 +744,9 @@ items:
       description: Encoded value
     content.vb: Public Shared Function EncodeDouble(val As Double, decimals As Integer) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeDouble(Double, Integer)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(Double, Integer)
+  name.vb: EncodeDouble(Double, Integer)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(System.Double,System.Int32,System.Boolean)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(System.Double,System.Int32,System.Boolean)
   id: EncodeDouble(System.Double,System.Int32,System.Boolean)
@@ -879,17 +754,26 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeDouble(Double, Int32, Boolean)
-  nameWithType: CultureDataFormatter.EncodeDouble(Double, Int32, Boolean)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(System.Double, System.Int32, System.Boolean)
+  name: EncodeDouble(double, int, bool)
+  nameWithType: CultureDataFormatter.EncodeDouble(double, int, bool)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(double, int, bool)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a double (decimal value), with the given number of decimals. Note that the full\nprecision is included here, but rounded to the given number of decimals on (re)localization.\nAlso note that currency amounts should use the EncodeMoney method, if the cultural settings for \nmoney are to be taken into account (though the currency symbol is NOT used in localization, \nbecause we may be displaying non-native currencies, saying $ when it&apos;s actually € or NOK is silly).\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode a double (decimal value), with the given number of decimals. Note that the full
+
+    precision is included here, but rounded to the given number of decimals on (re)localization.
+
+    Also note that currency amounts should use the EncodeMoney method, if the cultural settings for 
+
+    money are to be taken into account (though the currency symbol is NOT used in localization, 
+
+    because we may be displaying non-native currencies, saying $ when it's actually € or NOK is silly).
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeDouble(double val, int decimals, bool performEncode)
     parameters:
@@ -903,21 +787,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded value
     content.vb: Public Shared Function EncodeDouble(val As Double, decimals As Integer, performEncode As Boolean) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeDouble(Double, Integer, Boolean)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(Double, Integer, Boolean)
+  name.vb: EncodeDouble(Double, Integer, Boolean)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(System.Double)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(System.Double)
   id: EncodeDouble(System.Double)
@@ -925,17 +804,22 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeDouble(Double)
-  nameWithType: CultureDataFormatter.EncodeDouble(Double)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(System.Double)
+  name: EncodeDouble(double)
+  nameWithType: CultureDataFormatter.EncodeDouble(double)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(double)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a double (decimal value). On localization, the default number of decimal digits will be used.\nAlso note that currency amounts should use the EncodeMoney method, if the cultural settings for \nmoney are to be taken into account (though the currency symbol is NOT used in localization, \nbecause we may be displaying non-native currencies).\n"
+  summary: >-
+    Encode a double (decimal value). On localization, the default number of decimal digits will be used.
+
+    Also note that currency amounts should use the EncodeMoney method, if the cultural settings for 
+
+    money are to be taken into account (though the currency symbol is NOT used in localization, 
+
+    because we may be displaying non-native currencies).
+  example: []
   syntax:
     content: public static string EncodeDouble(double val)
     parameters:
@@ -947,12 +831,9 @@ items:
       description: Encoded value
     content.vb: Public Shared Function EncodeDouble(val As Double) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeDouble(Double)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(Double)
+  name.vb: EncodeDouble(Double)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(System.Double,System.Boolean)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(System.Double,System.Boolean)
   id: EncodeDouble(System.Double,System.Boolean)
@@ -960,17 +841,24 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeDouble(Double, Boolean)
-  nameWithType: CultureDataFormatter.EncodeDouble(Double, Boolean)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(System.Double, System.Boolean)
+  name: EncodeDouble(double, bool)
+  nameWithType: CultureDataFormatter.EncodeDouble(double, bool)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(double, bool)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a double (decimal value). On localization, the default number of decimal digits will be used.\nAlso note that currency amounts should use the EncodeMoney method, if the cultural settings for \nmoney are to be taken into account (though the currency symbol is NOT used in localization, \nbecause we may be displaying non-native currencies).\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode a double (decimal value). On localization, the default number of decimal digits will be used.
+
+    Also note that currency amounts should use the EncodeMoney method, if the cultural settings for 
+
+    money are to be taken into account (though the currency symbol is NOT used in localization, 
+
+    because we may be displaying non-native currencies).
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeDouble(double val, bool performEncode)
     parameters:
@@ -981,21 +869,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded value
     content.vb: Public Shared Function EncodeDouble(val As Double, performEncode As Boolean) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeDouble(Double, Boolean)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble(Double, Boolean)
+  name.vb: EncodeDouble(Double, Boolean)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeInt(System.Int32)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeInt(System.Int32)
   id: EncodeInt(System.Int32)
@@ -1003,17 +886,15 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeInt(Int32)
-  nameWithType: CultureDataFormatter.EncodeInt(Int32)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeInt(System.Int32)
+  name: EncodeInt(int)
+  nameWithType: CultureDataFormatter.EncodeInt(int)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeInt(int)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode an integer. Integers are usually not culturally sensitive... but who knows.\n"
+  summary: Encode an integer. Integers are usually not culturally sensitive... but who knows.
+  example: []
   syntax:
     content: public static string EncodeInt(int val)
     parameters:
@@ -1025,12 +906,9 @@ items:
       description: Encoded value
     content.vb: Public Shared Function EncodeInt(val As Integer) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeInt*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeInt(Integer)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeInt(Integer)
+  name.vb: EncodeInt(Integer)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeInt(System.Int32,System.Boolean)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeInt(System.Int32,System.Boolean)
   id: EncodeInt(System.Int32,System.Boolean)
@@ -1038,17 +916,18 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeInt(Int32, Boolean)
-  nameWithType: CultureDataFormatter.EncodeInt(Int32, Boolean)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeInt(System.Int32, System.Boolean)
+  name: EncodeInt(int, bool)
+  nameWithType: CultureDataFormatter.EncodeInt(int, bool)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeInt(int, bool)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode an integer. Integers are usually not culturally sensitive... but who knows.\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode an integer. Integers are usually not culturally sensitive... but who knows.
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeInt(int val, bool performEncode)
     parameters:
@@ -1059,21 +938,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded value
     content.vb: Public Shared Function EncodeInt(val As Integer, performEncode As Boolean) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeInt*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeInt(Integer, Boolean)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeInt(Integer, Boolean)
+  name.vb: EncodeInt(Integer, Boolean)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeMoney(System.Double)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeMoney(System.Double)
   id: EncodeMoney(System.Double)
@@ -1081,17 +955,18 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeMoney(Double)
-  nameWithType: CultureDataFormatter.EncodeMoney(Double)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeMoney(System.Double)
+  name: EncodeMoney(double)
+  nameWithType: CultureDataFormatter.EncodeMoney(double)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeMoney(double)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a double, for displaying it as money. The local user settings for currency, EXCEPT the currency\nsymbol, will be used for display. No currency symbol will be display regardless of settings.\n"
+  summary: >-
+    Encode a double, for displaying it as money. The local user settings for currency, EXCEPT the currency
+
+    symbol, will be used for display. No currency symbol will be display regardless of settings.
+  example: []
   syntax:
     content: public static string EncodeMoney(double val)
     parameters:
@@ -1103,12 +978,9 @@ items:
       description: Encoded value
     content.vb: Public Shared Function EncodeMoney(val As Double) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeMoney*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeMoney(Double)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeMoney(Double)
+  name.vb: EncodeMoney(Double)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeMoney(System.Double,System.Boolean)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeMoney(System.Double,System.Boolean)
   id: EncodeMoney(System.Double,System.Boolean)
@@ -1116,17 +988,20 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeMoney(Double, Boolean)
-  nameWithType: CultureDataFormatter.EncodeMoney(Double, Boolean)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeMoney(System.Double, System.Boolean)
+  name: EncodeMoney(double, bool)
+  nameWithType: CultureDataFormatter.EncodeMoney(double, bool)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeMoney(double, bool)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a double, for displaying it as money. The local user settings for currency, EXCEPT the currency\nsymbol, will be used for display. No currency symbol will be display regardless of settings.\nOptionally skip encoding and return an empty string instead.\n"
+  summary: >-
+    Encode a double, for displaying it as money. The local user settings for currency, EXCEPT the currency
+
+    symbol, will be used for display. No currency symbol will be display regardless of settings.
+
+    Optionally skip encoding and return an empty string instead.
+  example: []
   syntax:
     content: public static string EncodeMoney(double val, bool performEncode)
     parameters:
@@ -1137,21 +1012,16 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded value
     content.vb: Public Shared Function EncodeMoney(val As Double, performEncode As Boolean) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeMoney*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeMoney(Double, Boolean)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeMoney(Double, Boolean)
+  name.vb: EncodeMoney(Double, Boolean)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(System.String)
   id: LocalizeEncoded(System.String)
@@ -1159,17 +1029,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LocalizeEncoded(String)
-  nameWithType: CultureDataFormatter.LocalizeEncoded(String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(System.String)
+  name: LocalizeEncoded(string)
+  nameWithType: CultureDataFormatter.LocalizeEncoded(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTake an encoded value of any type, parse it, and reformat it to its localized (current culture) string form\n"
+  summary: Take an encoded value of any type, parse it, and reformat it to its localized (current culture) string form
+  example: []
   syntax:
     content: public static string LocalizeEncoded(string encodedSomething)
     parameters:
@@ -1181,12 +1049,9 @@ items:
       description: Equivalent, localized value
     content.vb: Public Shared Function LocalizeEncoded(encodedSomething As String) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalizeEncoded(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(String)
+  name.vb: LocalizeEncoded(String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.GetStringType(System.String,System.String@,System.Int32@)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.GetStringType(System.String,System.String@,System.Int32@)
   id: GetStringType(System.String,System.String@,System.Int32@)
@@ -1194,13 +1059,10 @@ items:
   langs:
   - csharp
   - vb
-  name: GetStringType(String, out String, out Int32)
-  nameWithType: CultureDataFormatter.GetStringType(String, out String, out Int32)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.GetStringType(System.String, out System.String, out System.Int32)
+  name: GetStringType(string, out string, out int)
+  nameWithType: CultureDataFormatter.GetStringType(string, out string, out int)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.GetStringType(string, out string, out int)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -1215,17 +1077,11 @@ items:
       type: System.Int32
     return:
       type: System.String
-    content.vb: Public Shared Function GetStringType(encodedSomething As String, ByRef val As String, ByRef decimals As Integer) As String
+    content.vb: Public Shared Function GetStringType(encodedSomething As String, val As String, decimals As Integer) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.GetStringType*
-  nameWithType.vb: CultureDataFormatter.GetStringType(String, ByRef String, ByRef Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.GetStringType(System.String, ByRef System.String, ByRef System.Int32)
-  name.vb: GetStringType(String, ByRef String, ByRef Int32)
+  nameWithType.vb: CultureDataFormatter.GetStringType(String, String, Integer)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.GetStringType(String, String, Integer)
+  name.vb: GetStringType(String, String, Integer)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan(System.Int32,System.Boolean,System.String,System.String,System.String,System.String,System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan(System.Int32,System.Boolean,System.String,System.String,System.String,System.String,System.String)
   id: GetReadableTimeSpan(System.Int32,System.Boolean,System.String,System.String,System.String,System.String,System.String)
@@ -1233,17 +1089,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetReadableTimeSpan(Int32, Boolean, String, String, String, String, String)
-  nameWithType: CultureDataFormatter.GetReadableTimeSpan(Int32, Boolean, String, String, String, String, String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan(System.Int32, System.Boolean, System.String, System.String, System.String, System.String, System.String)
+  name: GetReadableTimeSpan(int, bool, string, string, string, string, string)
+  nameWithType: CultureDataFormatter.GetReadableTimeSpan(int, bool, string, string, string, string, string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan(int, bool, string, string, string, string, string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nConvert the time/duration/timespan to a &quot;readable&quot; text - either seconds, or day/hour/minute/second\n"
+  summary: Convert the time/duration/timespan to a "readable" text - either seconds, or day/hour/minute/second
+  example: []
   syntax:
     content: public static string GetReadableTimeSpan(int seconds, bool mostSignificant, string daySignifier = "d", string hourSignifier = "h", string minuteSignifier = "m", string secondSignifier = "s", string zeroSignifier = null)
     parameters:
@@ -1273,12 +1127,9 @@ items:
       description: Formatted string
     content.vb: Public Shared Function GetReadableTimeSpan(seconds As Integer, mostSignificant As Boolean, daySignifier As String = "d", hourSignifier As String = "h", minuteSignifier As String = "m", secondSignifier As String = "s", zeroSignifier As String = Nothing) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.GetReadableTimeSpan(Integer, Boolean, String, String, String, String, String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan(Integer, Boolean, String, String, String, String, String)
+  name.vb: GetReadableTimeSpan(Integer, Boolean, String, String, String, String, String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.CompareEncoded(System.String,System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.CompareEncoded(System.String,System.String)
   id: CompareEncoded(System.String,System.String)
@@ -1286,17 +1137,15 @@ items:
   langs:
   - csharp
   - vb
-  name: CompareEncoded(String, String)
-  nameWithType: CultureDataFormatter.CompareEncoded(String, String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.CompareEncoded(System.String, System.String)
+  name: CompareEncoded(string, string)
+  nameWithType: CultureDataFormatter.CompareEncoded(string, string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.CompareEncoded(string, string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCompare two encoded strings, by parsing them into their underlying data datatype and comparing those\n"
+  summary: Compare two encoded strings, by parsing them into their underlying data datatype and comparing those
+  example: []
   syntax:
     content: public static int CompareEncoded(string x, string y)
     parameters:
@@ -1311,12 +1160,9 @@ items:
       description: -1, 0 or 1 depending on the ordering relation between x and y
     content.vb: Public Shared Function CompareEncoded(x As String, y As String) As Integer
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.CompareEncoded*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.CompareEncoded(String, String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.CompareEncoded(String, String)
+  name.vb: CompareEncoded(String, String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDate(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDate(System.String)
   id: ParseEncodedDate(System.String)
@@ -1324,32 +1170,29 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedDate(String)
-  nameWithType: CultureDataFormatter.ParseEncodedDate(String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDate(System.String)
+  name: ParseEncodedDate(string)
+  nameWithType: CultureDataFormatter.ParseEncodedDate(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDate(string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public static DateTime ParseEncodedDate(string encodedDate)
     parameters:
     - id: encodedDate
       type: System.String
+      description: ''
     return:
       type: System.DateTime
-    content.vb: Public Shared Function ParseEncodedDate(encodedDate As String) As DateTime
+      description: ''
+    content.vb: Public Shared Function ParseEncodedDate(encodedDate As String) As Date
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncodedDate(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDate(String)
+  name.vb: ParseEncodedDate(String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedTimeSpan(System.String,System.Boolean)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedTimeSpan(System.String,System.Boolean)
   id: ParseEncodedTimeSpan(System.String,System.Boolean)
@@ -1357,13 +1200,10 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedTimeSpan(String, Boolean)
-  nameWithType: CultureDataFormatter.ParseEncodedTimeSpan(String, Boolean)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedTimeSpan(System.String, System.Boolean)
+  name: ParseEncodedTimeSpan(string, bool)
+  nameWithType: CultureDataFormatter.ParseEncodedTimeSpan(string, bool)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedTimeSpan(string, bool)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -1378,12 +1218,9 @@ items:
       type: System.Int32
     content.vb: Public Shared Function ParseEncodedTimeSpan(encodedTimeSpan As String, strictly As Boolean = False) As Integer
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedTimeSpan*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncodedTimeSpan(String, Boolean)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedTimeSpan(String, Boolean)
+  name.vb: ParseEncodedTimeSpan(String, Boolean)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedInt(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedInt(System.String)
   id: ParseEncodedInt(System.String)
@@ -1391,34 +1228,34 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedInt(String)
-  nameWithType: CultureDataFormatter.ParseEncodedInt(String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedInt(System.String)
+  name: ParseEncodedInt(string)
+  nameWithType: CultureDataFormatter.ParseEncodedInt(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedInt(string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nParse &quot;123&quot; and &quot;[I:123]&quot; into 123.\nParse &quot;abc&quot; into 0.\nDoes not throw, but returns 0.\n"
+  summary: >-
+    Parse "123" and "[I:123]" into 123.
+
+    Parse "abc" into 0.
+
+    Does not throw, but returns 0.
+  example: []
   syntax:
     content: public static int ParseEncodedInt(string encodedInt)
     parameters:
     - id: encodedInt
       type: System.String
-      description: '&quot;123&quot; or &quot;[I:123]&quot;'
+      description: "\"123\" or \"[I:123]\""
     return:
       type: System.Int32
       description: The value as int, or 0 if not an integer
     content.vb: Public Shared Function ParseEncodedInt(encodedInt As String) As Integer
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedInt*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncodedInt(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedInt(String)
+  name.vb: ParseEncodedInt(String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedInt(System.String,System.Boolean)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedInt(System.String,System.Boolean)
   id: ParseEncodedInt(System.String,System.Boolean)
@@ -1426,23 +1263,21 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedInt(String, Boolean)
-  nameWithType: CultureDataFormatter.ParseEncodedInt(String, Boolean)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedInt(System.String, System.Boolean)
+  name: ParseEncodedInt(string, bool)
+  nameWithType: CultureDataFormatter.ParseEncodedInt(string, bool)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedInt(string, bool)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nParse &quot;123&quot; and &quot;[I:123]&quot; into 123.\n"
+  summary: Parse "123" and "[I:123]" into 123.
+  example: []
   syntax:
     content: public static int ParseEncodedInt(string encodedInt, bool strictly)
     parameters:
     - id: encodedInt
       type: System.String
-      description: '&quot;123&quot; or &quot;[I:123]&quot;'
+      description: "\"123\" or \"[I:123]\""
     - id: strictly
       type: System.Boolean
       description: If true, then throws instead of returning 0 for non-numbers
@@ -1451,12 +1286,9 @@ items:
       description: The value or an exception if not an integer
     content.vb: Public Shared Function ParseEncodedInt(encodedInt As String, strictly As Boolean) As Integer
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedInt*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncodedInt(String, Boolean)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedInt(String, Boolean)
+  name.vb: ParseEncodedInt(String, Boolean)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedIntArr(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedIntArr(System.String)
   id: ParseEncodedIntArr(System.String)
@@ -1464,13 +1296,10 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedIntArr(String)
-  nameWithType: CultureDataFormatter.ParseEncodedIntArr(String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedIntArr(System.String)
+  name: ParseEncodedIntArr(string)
+  nameWithType: CultureDataFormatter.ParseEncodedIntArr(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedIntArr(string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -1483,12 +1312,9 @@ items:
       type: System.Int32[]
     content.vb: Public Shared Function ParseEncodedIntArr(encodedIntArr As String) As Integer()
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedIntArr*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncodedIntArr(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedIntArr(String)
+  name.vb: ParseEncodedIntArr(String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDouble(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDouble(System.String)
   id: ParseEncodedDouble(System.String)
@@ -1496,34 +1322,29 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedDouble(String)
-  nameWithType: CultureDataFormatter.ParseEncodedDouble(String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDouble(System.String)
+  name: ParseEncodedDouble(string)
+  nameWithType: CultureDataFormatter.ParseEncodedDouble(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDouble(string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nParse &quot;123.4&quot; and &quot;[F:123.4]&quot; into 123.4\n"
+  summary: Parse "123.4" and "[F:123.4]" into 123.4
+  example: []
   syntax:
     content: public static double ParseEncodedDouble(string encodedDouble)
     parameters:
     - id: encodedDouble
       type: System.String
-      description: '&quot;123.4&quot; or &quot;[F:123.4]&quot;'
+      description: "\"123.4\" or \"[F:123.4]\""
     return:
       type: System.Double
       description: The value or an exception if not an double
     content.vb: Public Shared Function ParseEncodedDouble(encodedDouble As String) As Double
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDouble*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncodedDouble(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDouble(String)
+  name.vb: ParseEncodedDouble(String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDecimal(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDecimal(System.String)
   id: ParseEncodedDecimal(System.String)
@@ -1531,34 +1352,29 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedDecimal(String)
-  nameWithType: CultureDataFormatter.ParseEncodedDecimal(String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDecimal(System.String)
+  name: ParseEncodedDecimal(string)
+  nameWithType: CultureDataFormatter.ParseEncodedDecimal(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDecimal(string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nParse &quot;123.4&quot; and &quot;[F:123.4]&quot; into 123.4\n"
+  summary: Parse "123.4" and "[F:123.4]" into 123.4
+  example: []
   syntax:
-    content: public static Decimal ParseEncodedDecimal(string encodedDecimal)
+    content: public static decimal ParseEncodedDecimal(string encodedDecimal)
     parameters:
     - id: encodedDecimal
       type: System.String
-      description: '&quot;123.4&quot; or &quot;[F:123.4]&quot;'
+      description: "\"123.4\" or \"[F:123.4]\""
     return:
       type: System.Decimal
       description: The value or an exception if not a decimal
     content.vb: Public Shared Function ParseEncodedDecimal(encodedDecimal As String) As Decimal
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDecimal*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncodedDecimal(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDecimal(String)
+  name.vb: ParseEncodedDecimal(String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedBinary(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedBinary(System.String)
   id: ParseEncodedBinary(System.String)
@@ -1566,32 +1382,29 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedBinary(String)
-  nameWithType: CultureDataFormatter.ParseEncodedBinary(String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedBinary(System.String)
+  name: ParseEncodedBinary(string)
+  nameWithType: CultureDataFormatter.ParseEncodedBinary(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedBinary(string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nParse/decode an encoded binary data block - either with a marker, or just a Base64 encoded string\n"
+  summary: Parse/decode an encoded binary data block - either with a marker, or just a Base64 encoded string
+  example: []
   syntax:
     content: public static byte[] ParseEncodedBinary(string encodedBinary)
     parameters:
     - id: encodedBinary
       type: System.String
+      description: ''
     return:
       type: System.Byte[]
+      description: ''
     content.vb: Public Shared Function ParseEncodedBinary(encodedBinary As String) As Byte()
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedBinary*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncodedBinary(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedBinary(String)
+  name.vb: ParseEncodedBinary(String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(System.String,System.Int32@)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(System.String,System.Int32@)
   id: TryParse(System.String,System.Int32@)
@@ -1599,17 +1412,15 @@ items:
   langs:
   - csharp
   - vb
-  name: TryParse(String, out Int32)
-  nameWithType: CultureDataFormatter.TryParse(String, out Int32)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(System.String, out System.Int32)
+  name: TryParse(string, out int)
+  nameWithType: CultureDataFormatter.TryParse(string, out int)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(string, out int)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTry to parse a string as an encoded or bare InvariantCulture Integer32\n"
+  summary: Try to parse a string as an encoded or bare InvariantCulture Integer32
+  example: []
   syntax:
     content: public static bool TryParse(string encoded, out int result)
     parameters:
@@ -1622,17 +1433,11 @@ items:
     return:
       type: System.Boolean
       description: true if parsing succeeded
-    content.vb: Public Shared Function TryParse(encoded As String, ByRef result As Integer) As Boolean
+    content.vb: Public Shared Function TryParse(encoded As String, result As Integer) As Boolean
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse*
-  nameWithType.vb: CultureDataFormatter.TryParse(String, ByRef Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(System.String, ByRef System.Int32)
-  name.vb: TryParse(String, ByRef Int32)
+  nameWithType.vb: CultureDataFormatter.TryParse(String, Integer)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(String, Integer)
+  name.vb: TryParse(String, Integer)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(System.String,System.Int32[]@)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(System.String,System.Int32[]@)
   id: TryParse(System.String,System.Int32[]@)
@@ -1640,13 +1445,10 @@ items:
   langs:
   - csharp
   - vb
-  name: TryParse(String, out Int32[])
-  nameWithType: CultureDataFormatter.TryParse(String, out Int32[])
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(System.String, out System.Int32[])
+  name: TryParse(string, out int[])
+  nameWithType: CultureDataFormatter.TryParse(string, out int[])
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(string, out int[])
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -1659,17 +1461,11 @@ items:
       type: System.Int32[]
     return:
       type: System.Boolean
-    content.vb: Public Shared Function TryParse(encodedIntArr As String, ByRef result As Integer()) As Boolean
+    content.vb: Public Shared Function TryParse(encodedIntArr As String, result As Integer()) As Boolean
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse*
-  nameWithType.vb: CultureDataFormatter.TryParse(String, ByRef Int32())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(System.String, ByRef System.Int32())
-  name.vb: TryParse(String, ByRef Int32())
+  nameWithType.vb: CultureDataFormatter.TryParse(String, Integer())
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(String, Integer())
+  name.vb: TryParse(String, Integer())
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(System.String,System.Double@)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(System.String,System.Double@)
   id: TryParse(System.String,System.Double@)
@@ -1677,17 +1473,15 @@ items:
   langs:
   - csharp
   - vb
-  name: TryParse(String, out Double)
-  nameWithType: CultureDataFormatter.TryParse(String, out Double)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(System.String, out System.Double)
+  name: TryParse(string, out double)
+  nameWithType: CultureDataFormatter.TryParse(string, out double)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(string, out double)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTry to parse a string as an encoded or bare InvariantCulture Double\n"
+  summary: Try to parse a string as an encoded or bare InvariantCulture Double
+  example: []
   syntax:
     content: public static bool TryParse(string encoded, out double result)
     parameters:
@@ -1700,17 +1494,11 @@ items:
     return:
       type: System.Boolean
       description: true if parsing succeeded
-    content.vb: Public Shared Function TryParse(encoded As String, ByRef result As Double) As Boolean
+    content.vb: Public Shared Function TryParse(encoded As String, result As Double) As Boolean
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse*
-  nameWithType.vb: CultureDataFormatter.TryParse(String, ByRef Double)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(System.String, ByRef System.Double)
-  name.vb: TryParse(String, ByRef Double)
+  nameWithType.vb: CultureDataFormatter.TryParse(String, Double)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(String, Double)
+  name.vb: TryParse(String, Double)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(System.String,System.DateTime@)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(System.String,System.DateTime@)
   id: TryParse(System.String,System.DateTime@)
@@ -1718,17 +1506,15 @@ items:
   langs:
   - csharp
   - vb
-  name: TryParse(String, out DateTime)
-  nameWithType: CultureDataFormatter.TryParse(String, out DateTime)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(System.String, out System.DateTime)
+  name: TryParse(string, out DateTime)
+  nameWithType: CultureDataFormatter.TryParse(string, out DateTime)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(string, out System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTry to parse a string as an encoded or bare InvariantCulture DateTime\n"
+  summary: Try to parse a string as an encoded or bare InvariantCulture DateTime
+  example: []
   syntax:
     content: public static bool TryParse(string encoded, out DateTime result)
     parameters:
@@ -1741,17 +1527,11 @@ items:
     return:
       type: System.Boolean
       description: true if parsing succeeded
-    content.vb: Public Shared Function TryParse(encoded As String, ByRef result As DateTime) As Boolean
+    content.vb: Public Shared Function TryParse(encoded As String, result As Date) As Boolean
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse*
-  nameWithType.vb: CultureDataFormatter.TryParse(String, ByRef DateTime)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(System.String, ByRef System.DateTime)
-  name.vb: TryParse(String, ByRef DateTime)
+  nameWithType.vb: CultureDataFormatter.TryParse(String, Date)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse(String, Date)
+  name.vb: TryParse(String, Date)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncoded(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncoded(System.String)
   id: ParseEncoded(System.String)
@@ -1759,32 +1539,29 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncoded(String)
-  nameWithType: CultureDataFormatter.ParseEncoded(String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncoded(System.String)
+  name: ParseEncoded(string)
+  nameWithType: CultureDataFormatter.ParseEncoded(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncoded(string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nInspect the marker and parse the content, returning a strongly typed object (double, int, byte[], DateTime etc)\n"
+  summary: Inspect the marker and parse the content, returning a strongly typed object (double, int, byte[], DateTime etc)
+  example: []
   syntax:
     content: public static object ParseEncoded(string encodedSomething)
     parameters:
     - id: encodedSomething
       type: System.String
+      description: ''
     return:
       type: System.Object
+      description: ''
     content.vb: Public Shared Function ParseEncoded(encodedSomething As String) As Object
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncoded*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseEncoded(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncoded(String)
+  name.vb: ParseEncoded(String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate(System.DateTime)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate(System.DateTime)
   id: LocalFormatDate(System.DateTime)
@@ -1796,13 +1573,11 @@ items:
   nameWithType: CultureDataFormatter.LocalFormatDate(DateTime)
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate(System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nFormat a date (without time) according to current settings\n"
+  summary: Format a date (without time) according to current settings
+  example: []
   syntax:
     content: public static string LocalFormatDate(DateTime dateTime)
     parameters:
@@ -1812,14 +1587,11 @@ items:
     return:
       type: System.String
       description: Formatted date
-    content.vb: Public Shared Function LocalFormatDate(dateTime As DateTime) As String
+    content.vb: Public Shared Function LocalFormatDate(dateTime As Date) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalFormatDate(Date)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate(Date)
+  name.vb: LocalFormatDate(Date)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatLongDate(System.DateTime)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatLongDate(System.DateTime)
   id: LocalFormatLongDate(System.DateTime)
@@ -1831,13 +1603,11 @@ items:
   nameWithType: CultureDataFormatter.LocalFormatLongDate(DateTime)
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatLongDate(System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nFormat a long date (without time) according to current settings\n"
+  summary: Format a long date (without time) according to current settings
+  example: []
   syntax:
     content: public static string LocalFormatLongDate(DateTime dateTime)
     parameters:
@@ -1847,14 +1617,11 @@ items:
     return:
       type: System.String
       description: Formatted long date
-    content.vb: Public Shared Function LocalFormatLongDate(dateTime As DateTime) As String
+    content.vb: Public Shared Function LocalFormatLongDate(dateTime As Date) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatLongDate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalFormatLongDate(Date)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatLongDate(Date)
+  name.vb: LocalFormatLongDate(Date)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDateTime(System.DateTime)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDateTime(System.DateTime)
   id: LocalFormatDateTime(System.DateTime)
@@ -1866,13 +1633,11 @@ items:
   nameWithType: CultureDataFormatter.LocalFormatDateTime(DateTime)
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDateTime(System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nFormat a date with time according to current settings\n"
+  summary: Format a date with time according to current settings
+  example: []
   syntax:
     content: public static string LocalFormatDateTime(DateTime dateTime)
     parameters:
@@ -1882,14 +1647,11 @@ items:
     return:
       type: System.String
       description: Formatted date and time
-    content.vb: Public Shared Function LocalFormatDateTime(dateTime As DateTime) As String
+    content.vb: Public Shared Function LocalFormatDateTime(dateTime As Date) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDateTime*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalFormatDateTime(Date)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDateTime(Date)
+  name.vb: LocalFormatDateTime(Date)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatLongDateTime(System.DateTime)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatLongDateTime(System.DateTime)
   id: LocalFormatLongDateTime(System.DateTime)
@@ -1901,13 +1663,11 @@ items:
   nameWithType: CultureDataFormatter.LocalFormatLongDateTime(DateTime)
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatLongDateTime(System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nFormat a long date with a short time according to current settings\n"
+  summary: Format a long date with a short time according to current settings
+  example: []
   syntax:
     content: public static string LocalFormatLongDateTime(DateTime dateTime)
     parameters:
@@ -1917,14 +1677,11 @@ items:
     return:
       type: System.String
       description: Formatted long date and short time
-    content.vb: Public Shared Function LocalFormatLongDateTime(dateTime As DateTime) As String
+    content.vb: Public Shared Function LocalFormatLongDateTime(dateTime As Date) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatLongDateTime*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalFormatLongDateTime(Date)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatLongDateTime(Date)
+  name.vb: LocalFormatLongDateTime(Date)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatTime(System.DateTime)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatTime(System.DateTime)
   id: LocalFormatTime(System.DateTime)
@@ -1936,13 +1693,11 @@ items:
   nameWithType: CultureDataFormatter.LocalFormatTime(DateTime)
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatTime(System.DateTime)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nFormat a time without date according to current settings\n"
+  summary: Format a time without date according to current settings
+  example: []
   syntax:
     content: public static string LocalFormatTime(DateTime dateTime)
     parameters:
@@ -1952,14 +1707,11 @@ items:
     return:
       type: System.String
       description: Formatted time, without date
-    content.vb: Public Shared Function LocalFormatTime(dateTime As DateTime) As String
+    content.vb: Public Shared Function LocalFormatTime(dateTime As Date) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatTime*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalFormatTime(Date)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatTime(Date)
+  name.vb: LocalFormatTime(Date)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDouble(System.Double,System.Int32)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDouble(System.Double,System.Int32)
   id: LocalFormatDouble(System.Double,System.Int32)
@@ -1967,17 +1719,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LocalFormatDouble(Double, Int32)
-  nameWithType: CultureDataFormatter.LocalFormatDouble(Double, Int32)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDouble(System.Double, System.Int32)
+  name: LocalFormatDouble(double, int)
+  nameWithType: CultureDataFormatter.LocalFormatDouble(double, int)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDouble(double, int)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nFormat a double, with the given number of decimal digits; otherwise the current settings will be followed\n"
+  summary: Format a double, with the given number of decimal digits; otherwise the current settings will be followed
+  example: []
   syntax:
     content: public static string LocalFormatDouble(double val, int decimals)
     parameters:
@@ -1992,12 +1742,9 @@ items:
       description: Formatted number
     content.vb: Public Shared Function LocalFormatDouble(val As Double, decimals As Integer) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDouble*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalFormatDouble(Double, Integer)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDouble(Double, Integer)
+  name.vb: LocalFormatDouble(Double, Integer)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatInt(System.Int32)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatInt(System.Int32)
   id: LocalFormatInt(System.Int32)
@@ -2005,17 +1752,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LocalFormatInt(Int32)
-  nameWithType: CultureDataFormatter.LocalFormatInt(Int32)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatInt(System.Int32)
+  name: LocalFormatInt(int)
+  nameWithType: CultureDataFormatter.LocalFormatInt(int)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatInt(int)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nFormat an integer according to current settings\n"
+  summary: Format an integer according to current settings
+  example: []
   syntax:
     content: public static string LocalFormatInt(int val)
     parameters:
@@ -2027,12 +1772,9 @@ items:
       description: Formatted integer
     content.vb: Public Shared Function LocalFormatInt(val As Integer) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatInt*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalFormatInt(Integer)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatInt(Integer)
+  name.vb: LocalFormatInt(Integer)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatMoney(System.Double)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatMoney(System.Double)
   id: LocalFormatMoney(System.Double)
@@ -2040,17 +1782,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LocalFormatMoney(Double)
-  nameWithType: CultureDataFormatter.LocalFormatMoney(Double)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatMoney(System.Double)
+  name: LocalFormatMoney(double)
+  nameWithType: CultureDataFormatter.LocalFormatMoney(double)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatMoney(double)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nFormat a double as a currency value, though without a currency symbol. Other local settings for currencies will be followed.\n"
+  summary: Format a double as a currency value, though without a currency symbol. Other local settings for currencies will be followed.
+  example: []
   syntax:
     content: public static string LocalFormatMoney(double val)
     parameters:
@@ -2062,12 +1802,9 @@ items:
       description: Formatted amount
     content.vb: Public Shared Function LocalFormatMoney(val As Double) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatMoney*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.LocalFormatMoney(Double)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatMoney(Double)
+  name.vb: LocalFormatMoney(Double)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.StripTerminator(System.String,System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.StripTerminator(System.String,System.String)
   id: StripTerminator(System.String,System.String)
@@ -2075,17 +1812,18 @@ items:
   langs:
   - csharp
   - vb
-  name: StripTerminator(String, String)
-  nameWithType: CultureDataFormatter.StripTerminator(String, String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.StripTerminator(System.String, System.String)
+  name: StripTerminator(string, string)
+  nameWithType: CultureDataFormatter.StripTerminator(string, string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.StripTerminator(string, string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nStrip a terminator from a string. Whitespace is first trimmed from both sides of the string,\nthe terminator is removed if present, and any whitespace now at the end of the string is also removed\n"
+  summary: >-
+    Strip a terminator from a string. Whitespace is first trimmed from both sides of the string,
+
+    the terminator is removed if present, and any whitespace now at the end of the string is also removed
+  example: []
   syntax:
     content: public static string StripTerminator(string label, string terminator)
     parameters:
@@ -2100,12 +1838,9 @@ items:
       description: Original string minus terminator
     content.vb: Public Shared Function StripTerminator(label As String, terminator As String) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.StripTerminator*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.StripTerminator(String, String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.StripTerminator(String, String)
+  name.vb: StripTerminator(String, String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.AddTerminator(System.String,System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.AddTerminator(System.String,System.String)
   id: AddTerminator(System.String,System.String)
@@ -2113,17 +1848,15 @@ items:
   langs:
   - csharp
   - vb
-  name: AddTerminator(String, String)
-  nameWithType: CultureDataFormatter.AddTerminator(String, String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.AddTerminator(System.String, System.String)
+  name: AddTerminator(string, string)
+  nameWithType: CultureDataFormatter.AddTerminator(string, string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.AddTerminator(string, string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAdd a terminator to a string. The string is first stripped, then the terminator is added at the end with no whitespace.\n"
+  summary: Add a terminator to a string. The string is first stripped, then the terminator is added at the end with no whitespace.
+  example: []
   syntax:
     content: public static string AddTerminator(string label, string terminator)
     parameters:
@@ -2138,12 +1871,9 @@ items:
       description: String, now ending with terminator and no white space
     content.vb: Public Shared Function AddTerminator(label As String, terminator As String) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.AddTerminator*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.AddTerminator(String, String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.AddTerminator(String, String)
+  name.vb: AddTerminator(String, String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.AddColon(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.AddColon(System.String)
   id: AddColon(System.String)
@@ -2151,17 +1881,15 @@ items:
   langs:
   - csharp
   - vb
-  name: AddColon(String)
-  nameWithType: CultureDataFormatter.AddColon(String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.AddColon(System.String)
+  name: AddColon(string)
+  nameWithType: CultureDataFormatter.AddColon(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.AddColon(string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAdd a colon to a string if it was not already there, strip any whitespace\n"
+  summary: Add a colon to a string if it was not already there, strip any whitespace
+  example: []
   syntax:
     content: public static string AddColon(string label)
     parameters:
@@ -2173,12 +1901,9 @@ items:
       description: Original string, now guaranteed to end in exactly one colon
     content.vb: Public Shared Function AddColon(label As String) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.AddColon*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.AddColon(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.AddColon(String)
+  name.vb: AddColon(String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.StripColon(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.StripColon(System.String)
   id: StripColon(System.String)
@@ -2186,17 +1911,15 @@ items:
   langs:
   - csharp
   - vb
-  name: StripColon(String)
-  nameWithType: CultureDataFormatter.StripColon(String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.StripColon(System.String)
+  name: StripColon(string)
+  nameWithType: CultureDataFormatter.StripColon(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.StripColon(string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nStrip a terminating colon from a string, and any whitespace\n"
+  summary: Strip a terminating colon from a string, and any whitespace
+  example: []
   syntax:
     content: public static string StripColon(string label)
     parameters:
@@ -2208,12 +1931,9 @@ items:
       description: String, without colon and without leading/trailing whitespace
     content.vb: Public Shared Function StripColon(label As String) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.StripColon*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.StripColon(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.StripColon(String)
+  name.vb: StripColon(String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.StripCountrySpecificsFromLanguageName(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.StripCountrySpecificsFromLanguageName(System.String)
   id: StripCountrySpecificsFromLanguageName(System.String)
@@ -2221,34 +1941,29 @@ items:
   langs:
   - csharp
   - vb
-  name: StripCountrySpecificsFromLanguageName(String)
-  nameWithType: CultureDataFormatter.StripCountrySpecificsFromLanguageName(String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.StripCountrySpecificsFromLanguageName(System.String)
+  name: StripCountrySpecificsFromLanguageName(string)
+  nameWithType: CultureDataFormatter.StripCountrySpecificsFromLanguageName(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.StripCountrySpecificsFromLanguageName(string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nConverts &quot;English (Zimbabwe)&quot; into plain &quot;English&quot; by removing anything in parenthesis and stripping spaces.\n"
+  summary: Converts "English (Zimbabwe)" into plain "English" by removing anything in parenthesis and stripping spaces.
+  example: []
   syntax:
     content: public static string StripCountrySpecificsFromLanguageName(string languageName)
     parameters:
     - id: languageName
       type: System.String
-      description: 'Human readable language name: &quot;Norsk (Bokmål)&quot; or &quot;Francaise&quot;'
+      description: 'Human readable language name: "Norsk (Bokmål)" or "Francaise"'
     return:
       type: System.String
-      description: 'Simplified language name with initial capital: &quot;Norsk&quot; or &quot;Francaise&quot;'
+      description: 'Simplified language name with initial capital: "Norsk" or "Francaise"'
     content.vb: Public Shared Function StripCountrySpecificsFromLanguageName(languageName As String) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.StripCountrySpecificsFromLanguageName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.StripCountrySpecificsFromLanguageName(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.StripCountrySpecificsFromLanguageName(String)
+  name.vb: StripCountrySpecificsFromLanguageName(String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
   id: MapSuperOfficeLanguageToCulture(System.String)
@@ -2256,18 +1971,21 @@ items:
   langs:
   - csharp
   - vb
-  name: MapSuperOfficeLanguageToCulture(String)
-  nameWithType: CultureDataFormatter.MapSuperOfficeLanguageToCulture(String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
+  name: MapSuperOfficeLanguageToCulture(string)
+  nameWithType: CultureDataFormatter.MapSuperOfficeLanguageToCulture(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture(string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nConverts a SuperOffice language code (&quot;SW&quot;) to a neutral .net culture name (&quot;sv&quot;)\n"
-  remarks: "\nIf unable to determine a mapping, the default is US (English).\n<p></p>\nSee also <a href=\"http://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo.aspx\">MSDN on culture codes</a>.\n"
+  summary: Converts a SuperOffice language code ("SW") to a neutral .net culture name ("sv")
+  remarks: >-
+    If unable to determine a mapping, the default is US (English).
+
+    <p></p>
+
+    See also <a href="http://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo.aspx">MSDN on culture codes</a>.
+  example: []
   syntax:
     content: public static string MapSuperOfficeLanguageToCulture(string superOfficeLanguageCode)
     parameters:
@@ -2282,12 +2000,9 @@ items:
   seealso:
   - linkId: SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
     commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.MapSuperOfficeLanguageToCulture(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture(String)
+  name.vb: MapSuperOfficeLanguageToCulture(String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.GetSuperOfficeLanguages
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.GetSuperOfficeLanguages
   id: GetSuperOfficeLanguages
@@ -2299,25 +2014,18 @@ items:
   nameWithType: CultureDataFormatter.GetSuperOfficeLanguages()
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.GetSuperOfficeLanguages()
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nGet all current supported superoffice languages, by superoffice language code (win legacy)\n"
+  summary: Get all current supported superoffice languages, by superoffice language code (win legacy)
+  example: []
   syntax:
     content: public static IEnumerable<string> GetSuperOfficeLanguages()
     return:
       type: System.Collections.Generic.IEnumerable{System.String}
-    content.vb: Public Shared Function GetSuperOfficeLanguages As IEnumerable(Of String)
+      description: ''
+    content.vb: Public Shared Function GetSuperOfficeLanguages() As IEnumerable(Of String)
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.GetSuperOfficeLanguages*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
   id: MapCultureToSuperOfficeLanguage(System.String)
@@ -2325,18 +2033,25 @@ items:
   langs:
   - csharp
   - vb
-  name: MapCultureToSuperOfficeLanguage(String)
-  nameWithType: CultureDataFormatter.MapCultureToSuperOfficeLanguage(String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
+  name: MapCultureToSuperOfficeLanguage(string)
+  nameWithType: CultureDataFormatter.MapCultureToSuperOfficeLanguage(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage(string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nConverts .net Culture name (&quot;sv-SE&quot;) to SuperOffice language code (&quot;SW&quot;).\n"
-  remarks: "\nConverting to a SuperOffice language code twice is harmless.\n<p></p>\nIf unable to determine a mapping, the default is US (English).\n<p></p>\nSee also <a href=\"http://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo.aspx\">MSDN on culture codes</a>.\n"
+  summary: Converts .net Culture name ("sv-SE") to SuperOffice language code ("SW").
+  remarks: >-
+    Converting to a SuperOffice language code twice is harmless.
+
+    <p></p>
+
+    If unable to determine a mapping, the default is US (English).
+
+    <p></p>
+
+    See also <a href="http://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo.aspx">MSDN on culture codes</a>.
+  example: []
   syntax:
     content: public static string MapCultureToSuperOfficeLanguage(string cultureName)
     parameters:
@@ -2351,12 +2066,9 @@ items:
   seealso:
   - linkId: SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
     commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.MapCultureToSuperOfficeLanguage(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage(String)
+  name.vb: MapCultureToSuperOfficeLanguage(String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapLCIDToSuperOfficeLanguage(System.Int32)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.MapLCIDToSuperOfficeLanguage(System.Int32)
   id: MapLCIDToSuperOfficeLanguage(System.Int32)
@@ -2364,17 +2076,15 @@ items:
   langs:
   - csharp
   - vb
-  name: MapLCIDToSuperOfficeLanguage(Int32)
-  nameWithType: CultureDataFormatter.MapLCIDToSuperOfficeLanguage(Int32)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapLCIDToSuperOfficeLanguage(System.Int32)
+  name: MapLCIDToSuperOfficeLanguage(int)
+  nameWithType: CultureDataFormatter.MapLCIDToSuperOfficeLanguage(int)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapLCIDToSuperOfficeLanguage(int)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nConverts a .net culture LCID to SuperOffice Language Code\n"
+  summary: Converts a .net culture LCID to SuperOffice Language Code
+  example: []
   syntax:
     content: public static string MapLCIDToSuperOfficeLanguage(int lcid)
     parameters:
@@ -2386,12 +2096,9 @@ items:
       description: The SuperOffice language code if defined - the two letter iso name if undefined
     content.vb: Public Shared Function MapLCIDToSuperOfficeLanguage(lcid As Integer) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.MapLCIDToSuperOfficeLanguage*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.MapLCIDToSuperOfficeLanguage(Integer)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.MapLCIDToSuperOfficeLanguage(Integer)
+  name.vb: MapLCIDToSuperOfficeLanguage(Integer)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapLanguageToCsLanguage(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.MapLanguageToCsLanguage(System.String)
   id: MapLanguageToCsLanguage(System.String)
@@ -2399,32 +2106,29 @@ items:
   langs:
   - csharp
   - vb
-  name: MapLanguageToCsLanguage(String)
-  nameWithType: CultureDataFormatter.MapLanguageToCsLanguage(String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapLanguageToCsLanguage(System.String)
+  name: MapLanguageToCsLanguage(string)
+  nameWithType: CultureDataFormatter.MapLanguageToCsLanguage(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapLanguageToCsLanguage(string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nConvert a language code to the language code expected by CS.\n"
+  summary: Convert a language code to the language code expected by CS.
+  example: []
   syntax:
     content: public static string MapLanguageToCsLanguage(string languageCode)
     parameters:
     - id: languageCode
       type: System.String
+      description: ''
     return:
       type: System.String
+      description: ''
     content.vb: Public Shared Function MapLanguageToCsLanguage(languageCode As String) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.MapLanguageToCsLanguage*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.MapLanguageToCsLanguage(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.MapLanguageToCsLanguage(String)
+  name.vb: MapLanguageToCsLanguage(String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(System.String)
   id: MapCsLanguageToSuperOfficeLanguage(System.String)
@@ -2432,17 +2136,15 @@ items:
   langs:
   - csharp
   - vb
-  name: MapCsLanguageToSuperOfficeLanguage(String)
-  nameWithType: CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(System.String)
+  name: MapCsLanguageToSuperOfficeLanguage(string)
+  nameWithType: CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nConvert a language code from cs to SuperOffice language code.\n"
+  summary: Convert a language code from cs to SuperOffice language code.
+  example: []
   syntax:
     content: public static string MapCsLanguageToSuperOfficeLanguage(string csLang)
     parameters:
@@ -2453,12 +2155,9 @@ items:
       description: SuperOffice languagecode or string.empty if none found
     content.vb: Public Shared Function MapCsLanguageToSuperOfficeLanguage(csLang As String) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(String)
+  name.vb: MapCsLanguageToSuperOfficeLanguage(String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.GetCultureDisplayName(System.Globalization.CultureInfo)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.GetCultureDisplayName(System.Globalization.CultureInfo)
   id: GetCultureDisplayName(System.Globalization.CultureInfo)
@@ -2470,9 +2169,6 @@ items:
   nameWithType: CultureDataFormatter.GetCultureDisplayName(CultureInfo)
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.GetCultureDisplayName(System.Globalization.CultureInfo)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -2485,12 +2181,6 @@ items:
       type: System.String
     content.vb: Public Shared Function GetCultureDisplayName(cultureInfo As CultureInfo) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.GetCultureDisplayName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString(System.String,System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString(System.String,System.String)
   id: ParseMultiLanguageString(System.String,System.String)
@@ -2498,24 +2188,38 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseMultiLanguageString(String, String)
-  nameWithType: CultureDataFormatter.ParseMultiLanguageString(String, String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString(System.String, System.String)
+  name: ParseMultiLanguageString(string, string)
+  nameWithType: CultureDataFormatter.ParseMultiLanguageString(string, string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString(string, string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nReturns the string part of the specified culture from the multi language string\nThese strings are typically used in SuperOffice list and description data\n<example>\nString example from PrefDesc table:\nUS:&quot;Location and size&quot;;GE:&quot;Position und Größe&quot;;NO:&quot;Posisjon og størrelse&quot;\n</example>\n"
-  remarks: "\nThis version will also accept strings that have non-multilanguage text before and after the multilanguage\nblock, and even multiple multilanguage blocks (provided there is at least one non-conforming character between them),\nisolating them and parsing each one separately. Non-conforming text is kept in place in the output.\n"
+  summary: >-
+    Returns the string part of the specified culture from the multi language string
+
+    These strings are typically used in SuperOffice list and description data
+
+    <example>
+
+    String example from PrefDesc table:
+
+    US:"Location and size";GE:"Position und Größe";NO:"Posisjon og størrelse"
+
+    </example>
+  remarks: >-
+    This version will also accept strings that have non-multilanguage text before and after the multilanguage
+
+    block, and even multiple multilanguage blocks (provided there is at least one non-conforming character between them),
+
+    isolating them and parsing each one separately. Non-conforming text is kept in place in the output.
+  example: []
   syntax:
     content: public static string ParseMultiLanguageString(string multilangString, string cultureName)
     parameters:
     - id: multilangString
       type: System.String
-      description: 'The multilanguage string to parse: <pre><code>US:&quot;Location and size&quot;;GE:&quot;Position und Größe&quot;;NO:&quot;Posisjon og størrelse&quot;</code></pre>'
+      description: 'The multilanguage string to parse: <pre><code class="lang-csharp">US:"Location and size";GE:"Position und Größe";NO:"Posisjon og størrelse"</code></pre>'
     - id: cultureName
       type: System.String
       description: The cultureName, typically en-US, nb-NO, but also US, NO is accepted
@@ -2524,12 +2228,9 @@ items:
       description: Culture specific string part, or original string if there is a problem
     content.vb: Public Shared Function ParseMultiLanguageString(multilangString As String, cultureName As String) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseMultiLanguageString(String, String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString(String, String)
+  name.vb: ParseMultiLanguageString(String, String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineMultiLanguageString(System.String,System.String,System.Int32)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineMultiLanguageString(System.String,System.String,System.Int32)
   id: ParseInlineMultiLanguageString(System.String,System.String,System.Int32)
@@ -2537,23 +2238,24 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseInlineMultiLanguageString(String, String, Int32)
-  nameWithType: CultureDataFormatter.ParseInlineMultiLanguageString(String, String, Int32)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineMultiLanguageString(System.String, System.String, System.Int32)
+  name: ParseInlineMultiLanguageString(string, string, int)
+  nameWithType: CultureDataFormatter.ParseInlineMultiLanguageString(string, string, int)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineMultiLanguageString(string, string, int)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nParses the string for multilang strings and uses <xref href=\"SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString(System.String%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref>	to translate\nthe fragment to a culture specific string part\n"
+  summary: >-
+    Parses the string for multilang strings and uses <xref href="SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString(System.String%2cSystem.String)" data-throw-if-not-resolved="false"></xref>	to translate
+
+    the fragment to a culture specific string part
+  example: []
   syntax:
     content: public static string ParseInlineMultiLanguageString(string multilangString, string cultureName, int startingIndex = 0)
     parameters:
     - id: multilangString
       type: System.String
-      description: 'The multilanguage string to parse: <pre><code>US:&quot;Location and size&quot;;GE:&quot;Position und Größe&quot;;NO:&quot;Posisjon og størrelse&quot;</code></pre>'
+      description: 'The multilanguage string to parse: <pre><code class="lang-csharp">US:"Location and size";GE:"Position und Größe";NO:"Posisjon og størrelse"</code></pre>'
     - id: cultureName
       type: System.String
       description: The cultureName, typically en-US, nb-NO, but also US, NO is accepted
@@ -2565,12 +2267,9 @@ items:
       description: All culture specific string parts translated, or original string if there is a problem
     content.vb: Public Shared Function ParseInlineMultiLanguageString(multilangString As String, cultureName As String, startingIndex As Integer = 0) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineMultiLanguageString*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseInlineMultiLanguageString(String, String, Integer)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineMultiLanguageString(String, String, Integer)
+  name.vb: ParseInlineMultiLanguageString(String, String, Integer)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineElements(System.String,System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineElements(System.String,System.String)
   id: ParseInlineElements(System.String,System.String)
@@ -2578,17 +2277,20 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseInlineElements(String, String)
-  nameWithType: CultureDataFormatter.ParseInlineElements(String, String)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineElements(System.String, System.String)
+  name: ParseInlineElements(string, string)
+  nameWithType: CultureDataFormatter.ParseInlineElements(string, string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineElements(string, string)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nParses a resource string with inline culture-sensitive data in the text, for instance dates... provided they have\nbeen encoded using the <see cref=\"!:SuperOffice.CRM.Globalization.CultureDataFormatter\"></see> in the first place.\nMulti-language elements are also handled, before any culture-sensitive elements.\n"
+  summary: >-
+    Parses a resource string with inline culture-sensitive data in the text, for instance dates... provided they have
+
+    been encoded using the SuperOffice.CRM.Globalization.CultureDataFormatter in the first place.
+
+    Multi-language elements are also handled, before any culture-sensitive elements.
+  example: []
   syntax:
     content: public static string ParseInlineElements(string resourceString, string cultureName)
     parameters:
@@ -2603,12 +2305,9 @@ items:
       description: Parsed resource string.
     content.vb: Public Shared Function ParseInlineElements(resourceString As String, cultureName As String) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineElements*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.ParseInlineElements(String, String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineElements(String, String)
+  name.vb: ParseInlineElements(String, String)
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary(System.IO.Stream)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary(System.IO.Stream)
   id: EncodeBinary(System.IO.Stream)
@@ -2620,13 +2319,11 @@ items:
   nameWithType: CultureDataFormatter.EncodeBinary(Stream)
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary(System.IO.Stream)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a block of binary data, such as an image\n"
+  summary: Encode a block of binary data, such as an image
+  example: []
   syntax:
     content: public static string EncodeBinary(Stream data)
     parameters:
@@ -2638,12 +2335,6 @@ items:
       description: Encoded date
     content.vb: Public Shared Function EncodeBinary(data As Stream) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinaryNoTags(System.IO.Stream)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinaryNoTags(System.IO.Stream)
   id: EncodeBinaryNoTags(System.IO.Stream)
@@ -2655,9 +2346,6 @@ items:
   nameWithType: CultureDataFormatter.EncodeBinaryNoTags(Stream)
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinaryNoTags(System.IO.Stream)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -2670,12 +2358,6 @@ items:
       type: System.String
     content.vb: Public Shared Function EncodeBinaryNoTags(data As Stream) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinaryNoTags*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary(System.IO.Stream,System.Boolean)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary(System.IO.Stream,System.Boolean)
   id: EncodeBinary(System.IO.Stream,System.Boolean)
@@ -2683,17 +2365,15 @@ items:
   langs:
   - csharp
   - vb
-  name: EncodeBinary(Stream, Boolean)
-  nameWithType: CultureDataFormatter.EncodeBinary(Stream, Boolean)
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary(System.IO.Stream, System.Boolean)
+  name: EncodeBinary(Stream, bool)
+  nameWithType: CultureDataFormatter.EncodeBinary(Stream, bool)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary(System.IO.Stream, bool)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEncode a block of binary data, such as an image\n"
+  summary: Encode a block of binary data, such as an image
+  example: []
   syntax:
     content: public static string EncodeBinary(Stream data, bool performEncode)
     parameters:
@@ -2704,38 +2384,384 @@ items:
       type: System.Boolean
       description: >-
         If true, the input parameter is encoded to string. If false, an empty string is returned instead.
-
-        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
-
-        switch may eliminate the need for string-encoded display values.
+                    This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+                    switch may eliminate the need for string-encoded display values.
     return:
       type: System.String
       description: Encoded date
     content.vb: Public Shared Function EncodeBinary(data As Stream, performEncode As Boolean) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: CultureDataFormatter.EncodeBinary(Stream, Boolean)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary(System.IO.Stream, Boolean)
+  name.vb: EncodeBinary(Stream, Boolean)
 references:
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime)
+  commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime)
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_EncodeDate_System_DateTime_
+  name: EncodeDate(DateTime)
+  nameWithType: CultureDataFormatter.EncodeDate(DateTime)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime)
+  nameWithType.vb: CultureDataFormatter.EncodeDate(Date)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(Date)
+  name.vb: EncodeDate(Date)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime)
+    name: EncodeDate
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_EncodeDate_System_DateTime_
+  - name: (
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime)
+    name: EncodeDate
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_EncodeDate_System_DateTime_
+  - name: (
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(System.String)
+  commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(System.String)
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_LocalizeEncoded_System_String_
+  name: LocalizeEncoded(string)
+  nameWithType: CultureDataFormatter.LocalizeEncoded(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(string)
+  nameWithType.vb: CultureDataFormatter.LocalizeEncoded(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(String)
+  name.vb: LocalizeEncoded(String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(System.String)
+    name: LocalizeEncoded
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_LocalizeEncoded_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(System.String)
+    name: LocalizeEncoded
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_LocalizeEncoded_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate(System.DateTime)
+  commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate(System.DateTime)
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_LocalFormatDate_System_DateTime_
+  name: LocalFormatDate(DateTime)
+  nameWithType: CultureDataFormatter.LocalFormatDate(DateTime)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate(System.DateTime)
+  nameWithType.vb: CultureDataFormatter.LocalFormatDate(Date)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate(Date)
+  name.vb: LocalFormatDate(Date)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate(System.DateTime)
+    name: LocalFormatDate
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_LocalFormatDate_System_DateTime_
+  - name: (
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate(System.DateTime)
+    name: LocalFormatDate
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_LocalFormatDate_System_DateTime_
+  - name: (
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -2743,92 +2769,116 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Char
   commentId: T:System.Char
   parent: System
   isExternal: true
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.Encode*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.Encode
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_Encode_System_Object_
   name: Encode
   nameWithType: CultureDataFormatter.Encode
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.Encode
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeIntArr*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeIntArr
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_EncodeIntArr_System_Int32___
   name: EncodeIntArr
   nameWithType: CultureDataFormatter.EncodeIntArr
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeIntArr
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_EncodeDate_System_DateTime_
   name: EncodeDate
   nameWithType: CultureDataFormatter.EncodeDate
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDateTime*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDateTime
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_EncodeDateTime_System_DateTime_
   name: EncodeDateTime
   nameWithType: CultureDataFormatter.EncodeDateTime
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDateTime
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTime*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTime
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_EncodeTime_System_DateTime_
   name: EncodeTime
   nameWithType: CultureDataFormatter.EncodeTime
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTime
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_EncodeTimeSpan_System_TimeSpan_System_Boolean_
   name: EncodeTimeSpan
   nameWithType: CultureDataFormatter.EncodeTimeSpan
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan
 - uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: System.TimeSpan
@@ -2836,12 +2886,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_EncodeDouble_System_Double_System_Int32_
   name: EncodeDouble
   nameWithType: CultureDataFormatter.EncodeDouble
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDouble
@@ -2849,377 +2904,611 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeInt*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeInt
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_EncodeInt_System_Int32_
   name: EncodeInt
   nameWithType: CultureDataFormatter.EncodeInt
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeInt
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeMoney*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeMoney
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_EncodeMoney_System_Double_
   name: EncodeMoney
   nameWithType: CultureDataFormatter.EncodeMoney
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeMoney
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_LocalizeEncoded_System_String_
   name: LocalizeEncoded
   nameWithType: CultureDataFormatter.LocalizeEncoded
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.GetStringType*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.GetStringType
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_GetStringType_System_String_System_String__System_Int32__
   name: GetStringType
   nameWithType: CultureDataFormatter.GetStringType
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.GetStringType
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_GetReadableTimeSpan_System_Int32_System_Boolean_System_String_System_String_System_String_System_String_System_String_
   name: GetReadableTimeSpan
   nameWithType: CultureDataFormatter.GetReadableTimeSpan
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.CompareEncoded*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.CompareEncoded
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_CompareEncoded_System_String_System_String_
   name: CompareEncoded
   nameWithType: CultureDataFormatter.CompareEncoded
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.CompareEncoded
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDate*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDate
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_ParseEncodedDate_System_String_
   name: ParseEncodedDate
   nameWithType: CultureDataFormatter.ParseEncodedDate
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDate
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedTimeSpan*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedTimeSpan
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_ParseEncodedTimeSpan_System_String_System_Boolean_
   name: ParseEncodedTimeSpan
   nameWithType: CultureDataFormatter.ParseEncodedTimeSpan
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedTimeSpan
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedInt*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedInt
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_ParseEncodedInt_System_String_
   name: ParseEncodedInt
   nameWithType: CultureDataFormatter.ParseEncodedInt
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedInt
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedIntArr*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedIntArr
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_ParseEncodedIntArr_System_String_
   name: ParseEncodedIntArr
   nameWithType: CultureDataFormatter.ParseEncodedIntArr
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedIntArr
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDouble*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDouble
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_ParseEncodedDouble_System_String_
   name: ParseEncodedDouble
   nameWithType: CultureDataFormatter.ParseEncodedDouble
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDouble
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDecimal*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDecimal
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_ParseEncodedDecimal_System_String_
   name: ParseEncodedDecimal
   nameWithType: CultureDataFormatter.ParseEncodedDecimal
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedDecimal
 - uid: System.Decimal
-  commentId: '!:System.Decimal'
+  commentId: T:System.Decimal
+  parent: System
   isExternal: true
-  name: Decimal
-  nameWithType: Decimal
-  fullName: System.Decimal
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedBinary*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedBinary
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_ParseEncodedBinary_System_String_
   name: ParseEncodedBinary
   nameWithType: CultureDataFormatter.ParseEncodedBinary
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncodedBinary
 - uid: System.Byte[]
   isExternal: true
-  name: Byte[]
-  nameWithType: Byte[]
-  fullName: System.Byte[]
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
   nameWithType.vb: Byte()
-  fullName.vb: System.Byte()
+  fullName.vb: Byte()
   name.vb: Byte()
   spec.csharp:
   - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
+    name: byte
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Byte
     name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.TryParse
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_TryParse_System_String_System_Int32__
   name: TryParse
   nameWithType: CultureDataFormatter.TryParse
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.TryParse
+- uid: System.DateTime.MinValue
+  commentId: F:System.DateTime.MinValue
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime.minvalue
+  name: MinValue
+  nameWithType: DateTime.MinValue
+  fullName: System.DateTime.MinValue
+  nameWithType.vb: Date.MinValue
+  fullName.vb: Date.MinValue
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncoded*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncoded
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_ParseEncoded_System_String_
   name: ParseEncoded
   nameWithType: CultureDataFormatter.ParseEncoded
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseEncoded
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_LocalFormatDate_System_DateTime_
   name: LocalFormatDate
   nameWithType: CultureDataFormatter.LocalFormatDate
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatLongDate*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatLongDate
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_LocalFormatLongDate_System_DateTime_
   name: LocalFormatLongDate
   nameWithType: CultureDataFormatter.LocalFormatLongDate
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatLongDate
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDateTime*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDateTime
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_LocalFormatDateTime_System_DateTime_
   name: LocalFormatDateTime
   nameWithType: CultureDataFormatter.LocalFormatDateTime
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDateTime
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatLongDateTime*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatLongDateTime
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_LocalFormatLongDateTime_System_DateTime_
   name: LocalFormatLongDateTime
   nameWithType: CultureDataFormatter.LocalFormatLongDateTime
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatLongDateTime
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatTime*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatTime
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_LocalFormatTime_System_DateTime_
   name: LocalFormatTime
   nameWithType: CultureDataFormatter.LocalFormatTime
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatTime
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDouble*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDouble
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_LocalFormatDouble_System_Double_System_Int32_
   name: LocalFormatDouble
   nameWithType: CultureDataFormatter.LocalFormatDouble
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDouble
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatInt*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatInt
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_LocalFormatInt_System_Int32_
   name: LocalFormatInt
   nameWithType: CultureDataFormatter.LocalFormatInt
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatInt
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatMoney*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatMoney
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_LocalFormatMoney_System_Double_
   name: LocalFormatMoney
   nameWithType: CultureDataFormatter.LocalFormatMoney
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatMoney
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.StripTerminator*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.StripTerminator
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_StripTerminator_System_String_System_String_
   name: StripTerminator
   nameWithType: CultureDataFormatter.StripTerminator
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.StripTerminator
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.AddTerminator*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.AddTerminator
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_AddTerminator_System_String_System_String_
   name: AddTerminator
   nameWithType: CultureDataFormatter.AddTerminator
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.AddTerminator
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.AddColon*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.AddColon
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_AddColon_System_String_
   name: AddColon
   nameWithType: CultureDataFormatter.AddColon
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.AddColon
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.StripColon*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.StripColon
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_StripColon_System_String_
   name: StripColon
   nameWithType: CultureDataFormatter.StripColon
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.StripColon
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.StripCountrySpecificsFromLanguageName*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.StripCountrySpecificsFromLanguageName
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_StripCountrySpecificsFromLanguageName_System_String_
   name: StripCountrySpecificsFromLanguageName
   nameWithType: CultureDataFormatter.StripCountrySpecificsFromLanguageName
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.StripCountrySpecificsFromLanguageName
-- uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture*
-  commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture
-  isExternal: true
-  name: MapSuperOfficeLanguageToCulture
-  nameWithType: CultureDataFormatter.MapSuperOfficeLanguageToCulture
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_MapCultureToSuperOfficeLanguage_System_String_
+  name: MapCultureToSuperOfficeLanguage(string)
+  nameWithType: CultureDataFormatter.MapCultureToSuperOfficeLanguage(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage(string)
+  nameWithType.vb: CultureDataFormatter.MapCultureToSuperOfficeLanguage(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage(String)
+  name.vb: MapCultureToSuperOfficeLanguage(String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
+    name: MapCultureToSuperOfficeLanguage
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_MapCultureToSuperOfficeLanguage_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
+    name: MapCultureToSuperOfficeLanguage
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_MapCultureToSuperOfficeLanguage_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture*
+  commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_MapSuperOfficeLanguageToCulture_System_String_
+  name: MapSuperOfficeLanguageToCulture
+  nameWithType: CultureDataFormatter.MapSuperOfficeLanguageToCulture
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.GetSuperOfficeLanguages*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.GetSuperOfficeLanguages
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_GetSuperOfficeLanguages
   name: GetSuperOfficeLanguages
   nameWithType: CultureDataFormatter.GetSuperOfficeLanguages
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.GetSuperOfficeLanguages
 - uid: System.Collections.Generic.IEnumerable{System.String}
-  commentId: '!:System.Collections.Generic.IEnumerable{System.String}'
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<String>
-  nameWithType: IEnumerable<String>
-  fullName: System.Collections.Generic.IEnumerable<System.String>
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
   nameWithType.vb: IEnumerable(Of String)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
   name.vb: IEnumerable(Of String)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: '!:System.Collections.Generic.IEnumerable`1'
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: System.Collections.Generic.IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: System.Collections.Generic.IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage*
-  commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
   isExternal: true
-  name: MapCultureToSuperOfficeLanguage
-  nameWithType: CultureDataFormatter.MapCultureToSuperOfficeLanguage
-  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_MapSuperOfficeLanguageToCulture_System_String_
+  name: MapSuperOfficeLanguageToCulture(string)
+  nameWithType: CultureDataFormatter.MapSuperOfficeLanguageToCulture(string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture(string)
+  nameWithType.vb: CultureDataFormatter.MapSuperOfficeLanguageToCulture(String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture(String)
+  name.vb: MapSuperOfficeLanguageToCulture(String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
+    name: MapSuperOfficeLanguageToCulture
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_MapSuperOfficeLanguageToCulture_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture(System.String)
+    name: MapSuperOfficeLanguageToCulture
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_MapSuperOfficeLanguageToCulture_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage*
+  commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_MapCultureToSuperOfficeLanguage_System_String_
+  name: MapCultureToSuperOfficeLanguage
+  nameWithType: CultureDataFormatter.MapCultureToSuperOfficeLanguage
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapLCIDToSuperOfficeLanguage*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.MapLCIDToSuperOfficeLanguage
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_MapLCIDToSuperOfficeLanguage_System_Int32_
   name: MapLCIDToSuperOfficeLanguage
   nameWithType: CultureDataFormatter.MapLCIDToSuperOfficeLanguage
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapLCIDToSuperOfficeLanguage
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapLanguageToCsLanguage*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.MapLanguageToCsLanguage
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_MapLanguageToCsLanguage_System_String_
   name: MapLanguageToCsLanguage
   nameWithType: CultureDataFormatter.MapLanguageToCsLanguage
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapLanguageToCsLanguage
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_MapCsLanguageToSuperOfficeLanguage_System_String_
   name: MapCsLanguageToSuperOfficeLanguage
   nameWithType: CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.GetCultureDisplayName*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.GetCultureDisplayName
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_GetCultureDisplayName_System_Globalization_CultureInfo_
   name: GetCultureDisplayName
   nameWithType: CultureDataFormatter.GetCultureDisplayName
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.GetCultureDisplayName
 - uid: System.Globalization.CultureInfo
-  commentId: '!:System.Globalization.CultureInfo'
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
   name: CultureInfo
   nameWithType: CultureInfo
   fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_ParseMultiLanguageString_System_String_System_String_
   name: ParseMultiLanguageString
   nameWithType: CultureDataFormatter.ParseMultiLanguageString
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString(System.String,System.String)
+  commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString(System.String,System.String)
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_ParseMultiLanguageString_System_String_System_String_
+  name: ParseMultiLanguageString(string, string)
+  nameWithType: CultureDataFormatter.ParseMultiLanguageString(string, string)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString(string, string)
+  nameWithType.vb: CultureDataFormatter.ParseMultiLanguageString(String, String)
+  fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString(String, String)
+  name.vb: ParseMultiLanguageString(String, String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString(System.String,System.String)
+    name: ParseMultiLanguageString
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_ParseMultiLanguageString_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString(System.String,System.String)
+    name: ParseMultiLanguageString
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_ParseMultiLanguageString_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineMultiLanguageString*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineMultiLanguageString
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_ParseInlineMultiLanguageString_System_String_System_String_System_Int32_
   name: ParseInlineMultiLanguageString
   nameWithType: CultureDataFormatter.ParseInlineMultiLanguageString
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineMultiLanguageString
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineElements*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineElements
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_ParseInlineElements_System_String_System_String_
   name: ParseInlineElements
   nameWithType: CultureDataFormatter.ParseInlineElements
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineElements
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_EncodeBinary_System_IO_Stream_
   name: EncodeBinary
   nameWithType: CultureDataFormatter.EncodeBinary
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary
 - uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinaryNoTags*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinaryNoTags
   isExternal: true
+  href: SuperOffice.WebApi.Data.CultureDataFormatter.html#SuperOffice_WebApi_Data_CultureDataFormatter_EncodeBinaryNoTags_System_IO_Stream_
   name: EncodeBinaryNoTags
   nameWithType: CultureDataFormatter.EncodeBinaryNoTags
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinaryNoTags

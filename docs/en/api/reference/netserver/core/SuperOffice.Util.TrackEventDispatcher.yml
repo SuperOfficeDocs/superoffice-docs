@@ -5,9 +5,10 @@ items:
   id: TrackEventDispatcher
   parent: SuperOffice.Util
   children:
-  - SuperOffice.Util.TrackEventDispatcher.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration})
+  - SuperOffice.Util.TrackEventDispatcher.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})
   - SuperOffice.Util.TrackEventDispatcher.GetInstance
   - SuperOffice.Util.TrackEventDispatcher.TrackEvent(System.String)
+  - SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -15,63 +16,55 @@ items:
   nameWithType: TrackEventDispatcher
   fullName: SuperOffice.Util.TrackEventDispatcher
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
-  summary: "\nSends events to Amplitude on a background thread\n"
+  summary: Sends events to Amplitude on a background thread
+  example: []
   syntax:
-    content: 'public class TrackEventDispatcher : Object, ITrackEventDispatcher'
-    content.vb: >-
-      Public Class TrackEventDispatcher
-          Inherits Object
-          Implements ITrackEventDispatcher
+    content: 'public class TrackEventDispatcher : ITrackEventDispatcher'
+    content.vb: Public Class TrackEventDispatcher Implements ITrackEventDispatcher
   inheritance:
   - System.Object
   implements:
   - SuperOffice.Util.ITrackEventDispatcher
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Util.TrackEventDispatcher.EnumUtil.MapEnums``2
   - SuperOffice.Util.TrackEventDispatcher.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.Util.TrackEventDispatcher.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration})
-  commentId: M:SuperOffice.Util.TrackEventDispatcher.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration})
-  id: '#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration})'
+- uid: SuperOffice.Util.TrackEventDispatcher.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})
+  commentId: M:SuperOffice.Util.TrackEventDispatcher.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})
+  id: '#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})'
   parent: SuperOffice.Util.TrackEventDispatcher
   langs:
   - csharp
   - vb
-  name: TrackEventDispatcher(IOptions<TrackEventConfiguration>)
-  nameWithType: TrackEventDispatcher.TrackEventDispatcher(IOptions<TrackEventConfiguration>)
-  fullName: SuperOffice.Util.TrackEventDispatcher.TrackEventDispatcher(Microsoft.Extensions.Options.IOptions<SuperOffice.Util.TrackEventConfiguration>)
+  name: TrackEventDispatcher(IAsyncQueue<TrackEvent>, ILogger<TrackEventDispatcher>)
+  nameWithType: TrackEventDispatcher.TrackEventDispatcher(IAsyncQueue<TrackEvent>, ILogger<TrackEventDispatcher>)
+  fullName: SuperOffice.Util.TrackEventDispatcher.TrackEventDispatcher(SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>, Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.TrackEventDispatcher>)
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public TrackEventDispatcher(IOptions<TrackEventConfiguration> options)
+    content: public TrackEventDispatcher(IAsyncQueue<TrackEvent> queue, ILogger<TrackEventDispatcher> logger)
     parameters:
-    - id: options
-      type: Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration}
-    content.vb: Public Sub New(options As IOptions(Of TrackEventConfiguration))
+    - id: queue
+      type: SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent}
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher}
+    content.vb: Public Sub New(queue As IAsyncQueue(Of TrackEvent), logger As ILogger(Of TrackEventDispatcher))
   overload: SuperOffice.Util.TrackEventDispatcher.#ctor*
-  nameWithType.vb: TrackEventDispatcher.TrackEventDispatcher(IOptions(Of TrackEventConfiguration))
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.Util.TrackEventDispatcher.TrackEventDispatcher(Microsoft.Extensions.Options.IOptions(Of SuperOffice.Util.TrackEventConfiguration))
-  name.vb: TrackEventDispatcher(IOptions(Of TrackEventConfiguration))
+  nameWithType.vb: TrackEventDispatcher.New(IAsyncQueue(Of TrackEvent), ILogger(Of TrackEventDispatcher))
+  fullName.vb: SuperOffice.Util.TrackEventDispatcher.New(SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent), Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.TrackEventDispatcher))
+  name.vb: New(IAsyncQueue(Of TrackEvent), ILogger(Of TrackEventDispatcher))
 - uid: SuperOffice.Util.TrackEventDispatcher.GetInstance
   commentId: M:SuperOffice.Util.TrackEventDispatcher.GetInstance
   id: GetInstance
@@ -83,26 +76,44 @@ items:
   nameWithType: TrackEventDispatcher.GetInstance()
   fullName: SuperOffice.Util.TrackEventDispatcher.GetInstance()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
-  summary: "\nReturns a tracker instance if the feature is enabled, and we are online\n"
+  summary: Returns a tracker instance if the feature is enabled, and we are online
+  example: []
   syntax:
     content: public static ITrackEventDispatcher GetInstance()
     return:
       type: SuperOffice.Util.ITrackEventDispatcher
       description: NULL if not online
-    content.vb: Public Shared Function GetInstance As ITrackEventDispatcher
+    content.vb: Public Shared Function GetInstance() As ITrackEventDispatcher
   overload: SuperOffice.Util.TrackEventDispatcher.GetInstance*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+- uid: SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  id: WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Util.TrackEventDispatcher
+  langs:
+  - csharp
+  - vb
+  name: WaitForTrackersToCompleteAsync(CancellationToken)
+  nameWithType: TrackEventDispatcher.WaitForTrackersToCompleteAsync(CancellationToken)
+  fullName: SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  example: []
+  syntax:
+    content: public Task WaitForTrackersToCompleteAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function WaitForTrackersToCompleteAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync*
+  implements:
+  - SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
 - uid: SuperOffice.Util.TrackEventDispatcher.TrackEvent(System.String)
   commentId: M:SuperOffice.Util.TrackEventDispatcher.TrackEvent(System.String)
   id: TrackEvent(System.String)
@@ -110,129 +121,411 @@ items:
   langs:
   - csharp
   - vb
-  name: TrackEvent(String)
-  nameWithType: TrackEventDispatcher.TrackEvent(String)
-  fullName: SuperOffice.Util.TrackEventDispatcher.TrackEvent(System.String)
+  name: TrackEvent(string)
+  nameWithType: TrackEventDispatcher.TrackEvent(string)
+  fullName: SuperOffice.Util.TrackEventDispatcher.TrackEvent(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
-  summary: "\nPosts event to background job that sends events to Amplitude and/or Userflow\n"
+  summary: Posts event to background job that sends events to Amplitude and/or Userflow
+  example: []
   syntax:
     content: public void TrackEvent(string trackEvent)
     parameters:
     - id: trackEvent
       type: System.String
-      description: '&quot;sale-completed&quot; or &quot;sale-sold&quot; etc'
+      description: "\"sale-completed\" or \"sale-sold\" etc"
     content.vb: Public Sub TrackEvent(trackEvent As String)
   overload: SuperOffice.Util.TrackEventDispatcher.TrackEvent*
   implements:
   - SuperOffice.Util.ITrackEventDispatcher.TrackEvent(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TrackEventDispatcher.TrackEvent(String)
+  fullName.vb: SuperOffice.Util.TrackEventDispatcher.TrackEvent(String)
+  name.vb: TrackEvent(String)
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.Util.ITrackEventDispatcher
   commentId: T:SuperOffice.Util.ITrackEventDispatcher
   parent: SuperOffice.Util
   isExternal: true
+  href: SuperOffice.Util.ITrackEventDispatcher.html
   name: ITrackEventDispatcher
   nameWithType: ITrackEventDispatcher
   fullName: SuperOffice.Util.ITrackEventDispatcher
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.Util.TrackEventDispatcher.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<TrackEventDispatcher, To>()
-  nameWithType: EnumUtil.MapEnums<TrackEventDispatcher, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.TrackEventDispatcher, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of TrackEventDispatcher, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.TrackEventDispatcher, To)()
-  name.vb: MapEnums(Of TrackEventDispatcher, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<TrackEventDispatcher, To>(TrackEventDispatcher)
+  nameWithType: EnumUtil.MapEnums<TrackEventDispatcher, To>(TrackEventDispatcher)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.TrackEventDispatcher, To>(SuperOffice.Util.TrackEventDispatcher)
+  nameWithType.vb: EnumUtil.MapEnums(Of TrackEventDispatcher, To)(TrackEventDispatcher)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.TrackEventDispatcher, To)(SuperOffice.Util.TrackEventDispatcher)
+  name.vb: MapEnums(Of TrackEventDispatcher, To)(TrackEventDispatcher)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<TrackEventDispatcher, To>
-    nameWithType: EnumUtil.MapEnums<TrackEventDispatcher, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Util.TrackEventDispatcher, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.TrackEventDispatcher)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.TrackEventDispatcher
+    name: TrackEventDispatcher
+    isExternal: true
+    href: SuperOffice.Util.TrackEventDispatcher.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Util.TrackEventDispatcher
+    name: TrackEventDispatcher
+    isExternal: true
+    href: SuperOffice.Util.TrackEventDispatcher.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of TrackEventDispatcher, To)
-    nameWithType: EnumUtil.MapEnums(Of TrackEventDispatcher, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.TrackEventDispatcher, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.TrackEventDispatcher)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.TrackEventDispatcher
+    name: TrackEventDispatcher
+    isExternal: true
+    href: SuperOffice.Util.TrackEventDispatcher.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.TrackEventDispatcher
+    name: TrackEventDispatcher
+    isExternal: true
+    href: SuperOffice.Util.TrackEventDispatcher.html
+  - name: )
 - uid: SuperOffice.Util.TrackEventDispatcher.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<TrackEventDispatcher, To>()
-  nameWithType: Converters.MapEnums<TrackEventDispatcher, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TrackEventDispatcher, To>()
-  nameWithType.vb: Converters.MapEnums(Of TrackEventDispatcher, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TrackEventDispatcher, To)()
-  name.vb: MapEnums(Of TrackEventDispatcher, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<TrackEventDispatcher, To>(TrackEventDispatcher)
+  nameWithType: Converters.MapEnums<TrackEventDispatcher, To>(TrackEventDispatcher)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TrackEventDispatcher, To>(SuperOffice.Util.TrackEventDispatcher)
+  nameWithType.vb: Converters.MapEnums(Of TrackEventDispatcher, To)(TrackEventDispatcher)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TrackEventDispatcher, To)(SuperOffice.Util.TrackEventDispatcher)
+  name.vb: MapEnums(Of TrackEventDispatcher, To)(TrackEventDispatcher)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<TrackEventDispatcher, To>
-    nameWithType: Converters.MapEnums<TrackEventDispatcher, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TrackEventDispatcher, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.TrackEventDispatcher)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.TrackEventDispatcher
+    name: TrackEventDispatcher
+    isExternal: true
+    href: SuperOffice.Util.TrackEventDispatcher.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Util.TrackEventDispatcher
+    name: TrackEventDispatcher
+    isExternal: true
+    href: SuperOffice.Util.TrackEventDispatcher.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of TrackEventDispatcher, To)
-    nameWithType: Converters.MapEnums(Of TrackEventDispatcher, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TrackEventDispatcher, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.TrackEventDispatcher)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.TrackEventDispatcher
+    name: TrackEventDispatcher
+    isExternal: true
+    href: SuperOffice.Util.TrackEventDispatcher.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Util.TrackEventDispatcher
+    name: TrackEventDispatcher
+    isExternal: true
+    href: SuperOffice.Util.TrackEventDispatcher.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -241,43 +534,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -286,144 +581,405 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Util.TrackEventDispatcher.#ctor*
   commentId: Overload:SuperOffice.Util.TrackEventDispatcher.#ctor
   isExternal: true
+  href: SuperOffice.Util.TrackEventDispatcher.html#SuperOffice_Util_TrackEventDispatcher__ctor_SuperOffice_Threading_IAsyncQueue_SuperOffice_Util_TrackEvent__Microsoft_Extensions_Logging_ILogger_SuperOffice_Util_TrackEventDispatcher__
   name: TrackEventDispatcher
   nameWithType: TrackEventDispatcher.TrackEventDispatcher
   fullName: SuperOffice.Util.TrackEventDispatcher.TrackEventDispatcher
-- uid: Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration}
-  commentId: '!:Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration}'
-  definition: Microsoft.Extensions.Options.IOptions`1
-  name: IOptions<TrackEventConfiguration>
-  nameWithType: IOptions<TrackEventConfiguration>
-  fullName: Microsoft.Extensions.Options.IOptions<SuperOffice.Util.TrackEventConfiguration>
-  nameWithType.vb: IOptions(Of TrackEventConfiguration)
-  fullName.vb: Microsoft.Extensions.Options.IOptions(Of SuperOffice.Util.TrackEventConfiguration)
-  name.vb: IOptions(Of TrackEventConfiguration)
+  nameWithType.vb: TrackEventDispatcher.New
+  fullName.vb: SuperOffice.Util.TrackEventDispatcher.New
+  name.vb: New
+- uid: SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent}
+  commentId: T:SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent}
+  parent: SuperOffice.Threading
+  definition: SuperOffice.Threading.IAsyncQueue`1
+  href: SuperOffice.Util.TrackEvent.html
+  name: IAsyncQueue<TrackEvent>
+  nameWithType: IAsyncQueue<TrackEvent>
+  fullName: SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>
+  nameWithType.vb: IAsyncQueue(Of TrackEvent)
+  fullName.vb: SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent)
+  name.vb: IAsyncQueue(Of TrackEvent)
   spec.csharp:
-  - uid: Microsoft.Extensions.Options.IOptions`1
-    name: IOptions
-    nameWithType: IOptions
-    fullName: Microsoft.Extensions.Options.IOptions
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Util.TrackEventConfiguration
-    name: TrackEventConfiguration
-    nameWithType: TrackEventConfiguration
-    fullName: SuperOffice.Util.TrackEventConfiguration
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
     isExternal: true
+    href: SuperOffice.Util.TrackEvent.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: Microsoft.Extensions.Options.IOptions`1
-    name: IOptions
-    nameWithType: IOptions
-    fullName: Microsoft.Extensions.Options.IOptions
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Util.TrackEventConfiguration
-    name: TrackEventConfiguration
-    nameWithType: TrackEventConfiguration
-    fullName: SuperOffice.Util.TrackEventConfiguration
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
     isExternal: true
+    href: SuperOffice.Util.TrackEvent.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Options.IOptions`1
-  commentId: '!:Microsoft.Extensions.Options.IOptions`1'
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TrackEventDispatcher>
+  nameWithType: ILogger<TrackEventDispatcher>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.TrackEventDispatcher>
+  nameWithType.vb: ILogger(Of TrackEventDispatcher)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.TrackEventDispatcher)
+  name.vb: ILogger(Of TrackEventDispatcher)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.Util.TrackEventDispatcher
+    name: TrackEventDispatcher
+    isExternal: true
+    href: SuperOffice.Util.TrackEventDispatcher.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.TrackEventDispatcher
+    name: TrackEventDispatcher
+    isExternal: true
+    href: SuperOffice.Util.TrackEventDispatcher.html
+  - name: )
+- uid: SuperOffice.Threading.IAsyncQueue`1
+  commentId: T:SuperOffice.Threading.IAsyncQueue`1
   isExternal: true
-  name: IOptions<>
-  nameWithType: IOptions<>
-  fullName: Microsoft.Extensions.Options.IOptions<>
-  nameWithType.vb: IOptions(Of )
-  fullName.vb: Microsoft.Extensions.Options.IOptions(Of )
-  name.vb: IOptions(Of )
+  href: SuperOffice.Threading.IAsyncQueue-1.html
+  name: IAsyncQueue<TItem>
+  nameWithType: IAsyncQueue<TItem>
+  fullName: SuperOffice.Threading.IAsyncQueue<TItem>
+  nameWithType.vb: IAsyncQueue(Of TItem)
+  fullName.vb: SuperOffice.Threading.IAsyncQueue(Of TItem)
+  name.vb: IAsyncQueue(Of TItem)
   spec.csharp:
-  - uid: Microsoft.Extensions.Options.IOptions`1
-    name: IOptions
-    nameWithType: IOptions
-    fullName: Microsoft.Extensions.Options.IOptions
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
     isExternal: true
+    href: SuperOffice.Threading.IAsyncQueue-1.html
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TItem
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: Microsoft.Extensions.Options.IOptions`1
-    name: IOptions
-    nameWithType: IOptions
-    fullName: Microsoft.Extensions.Options.IOptions
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: SuperOffice.Threading.IAsyncQueue-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: SuperOffice.Util.TrackEventDispatcher.GetInstance*
   commentId: Overload:SuperOffice.Util.TrackEventDispatcher.GetInstance
   isExternal: true
+  href: SuperOffice.Util.TrackEventDispatcher.html#SuperOffice_Util_TrackEventDispatcher_GetInstance
   name: GetInstance
   nameWithType: TrackEventDispatcher.GetInstance
   fullName: SuperOffice.Util.TrackEventDispatcher.GetInstance
+- uid: SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync*
+  commentId: Overload:SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync
+  isExternal: true
+  href: SuperOffice.Util.TrackEventDispatcher.html#SuperOffice_Util_TrackEventDispatcher_WaitForTrackersToCompleteAsync_System_Threading_CancellationToken_
+  name: WaitForTrackersToCompleteAsync
+  nameWithType: TrackEventDispatcher.WaitForTrackersToCompleteAsync
+  fullName: SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync
+- uid: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Util.ITrackEventDispatcher
+  isExternal: true
+  href: SuperOffice.Util.ITrackEventDispatcher.html#SuperOffice_Util_ITrackEventDispatcher_WaitForTrackersToCompleteAsync_System_Threading_CancellationToken_
+  name: WaitForTrackersToCompleteAsync(CancellationToken)
+  nameWithType: ITrackEventDispatcher.WaitForTrackersToCompleteAsync(CancellationToken)
+  fullName: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+    name: WaitForTrackersToCompleteAsync
+    isExternal: true
+    href: SuperOffice.Util.ITrackEventDispatcher.html#SuperOffice_Util_ITrackEventDispatcher_WaitForTrackersToCompleteAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
+    name: WaitForTrackersToCompleteAsync
+    isExternal: true
+    href: SuperOffice.Util.ITrackEventDispatcher.html#SuperOffice_Util_ITrackEventDispatcher_WaitForTrackersToCompleteAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.Util.TrackEventDispatcher.TrackEvent*
   commentId: Overload:SuperOffice.Util.TrackEventDispatcher.TrackEvent
   isExternal: true
+  href: SuperOffice.Util.TrackEventDispatcher.html#SuperOffice_Util_TrackEventDispatcher_TrackEvent_System_String_
   name: TrackEvent
   nameWithType: TrackEventDispatcher.TrackEvent
   fullName: SuperOffice.Util.TrackEventDispatcher.TrackEvent
@@ -431,47 +987,43 @@ references:
   commentId: M:SuperOffice.Util.ITrackEventDispatcher.TrackEvent(System.String)
   parent: SuperOffice.Util.ITrackEventDispatcher
   isExternal: true
-  name: TrackEvent(String)
-  nameWithType: ITrackEventDispatcher.TrackEvent(String)
-  fullName: SuperOffice.Util.ITrackEventDispatcher.TrackEvent(System.String)
+  href: SuperOffice.Util.ITrackEventDispatcher.html#SuperOffice_Util_ITrackEventDispatcher_TrackEvent_System_String_
+  name: TrackEvent(string)
+  nameWithType: ITrackEventDispatcher.TrackEvent(string)
+  fullName: SuperOffice.Util.ITrackEventDispatcher.TrackEvent(string)
+  nameWithType.vb: ITrackEventDispatcher.TrackEvent(String)
+  fullName.vb: SuperOffice.Util.ITrackEventDispatcher.TrackEvent(String)
+  name.vb: TrackEvent(String)
   spec.csharp:
   - uid: SuperOffice.Util.ITrackEventDispatcher.TrackEvent(System.String)
     name: TrackEvent
-    nameWithType: ITrackEventDispatcher.TrackEvent
-    fullName: SuperOffice.Util.ITrackEventDispatcher.TrackEvent
     isExternal: true
+    href: SuperOffice.Util.ITrackEventDispatcher.html#SuperOffice_Util_ITrackEventDispatcher_TrackEvent_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ITrackEventDispatcher.TrackEvent(System.String)
     name: TrackEvent
-    nameWithType: ITrackEventDispatcher.TrackEvent
-    fullName: SuperOffice.Util.ITrackEventDispatcher.TrackEvent
     isExternal: true
+    href: SuperOffice.Util.ITrackEventDispatcher.html#SuperOffice_Util_ITrackEventDispatcher_TrackEvent_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

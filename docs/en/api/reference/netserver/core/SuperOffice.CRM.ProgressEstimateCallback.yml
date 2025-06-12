@@ -15,31 +15,19 @@ items:
   name: ProgressEstimateCallback
   nameWithType: ProgressEstimateCallback
   fullName: SuperOffice.CRM.ProgressEstimateCallback
-  type: Class
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
+  type: Delegate
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
   syntax:
-    content: 'public sealed class ProgressEstimateCallback : MulticastDelegate'
-    content.vb: >-
-      Public NotInheritable Class ProgressEstimateCallback
-          Inherits MulticastDelegate
-  inheritance:
-  - System.Object
+    content: public delegate void ProgressEstimateCallback(int total)
+    parameters:
+    - id: total
+      type: System.Int32
+    content.vb: Public Delegate Sub ProgressEstimateCallback(total As Integer)
   extensionMethods:
   - SuperOffice.CRM.ProgressEstimateCallback.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ProgressEstimateCallback.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
 - uid: SuperOffice.CRM.ProgressEstimateCallback.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.CRM.ProgressEstimateCallback.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -47,29 +35,25 @@ items:
   langs:
   - csharp
   - vb
-  name: ProgressEstimateCallback(Object, IntPtr)
-  nameWithType: ProgressEstimateCallback.ProgressEstimateCallback(Object, IntPtr)
-  fullName: SuperOffice.CRM.ProgressEstimateCallback.ProgressEstimateCallback(System.Object, System.IntPtr)
+  name: ProgressEstimateCallback(object, IntPtr)
+  nameWithType: ProgressEstimateCallback.ProgressEstimateCallback(object, IntPtr)
+  fullName: SuperOffice.CRM.ProgressEstimateCallback.ProgressEstimateCallback(object, System.IntPtr)
   type: Constructor
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
   syntax:
-    content: public ProgressEstimateCallback(object object, IntPtr method)
+    content: public ProgressEstimateCallback(object @object, IntPtr method)
     parameters:
     - id: object
       type: System.Object
     - id: method
       type: System.IntPtr
-    content.vb: Public Sub New(object As Object, method As IntPtr)
+    content.vb: Public Sub New([object] As Object, method As IntPtr)
   overload: SuperOffice.CRM.ProgressEstimateCallback.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ProgressEstimateCallback.New(Object, IntPtr)
+  fullName.vb: SuperOffice.CRM.ProgressEstimateCallback.New(Object, System.IntPtr)
+  name.vb: New(Object, IntPtr)
 - uid: SuperOffice.CRM.ProgressEstimateCallback.Invoke(System.Int32)
   commentId: M:SuperOffice.CRM.ProgressEstimateCallback.Invoke(System.Int32)
   id: Invoke(System.Int32)
@@ -77,13 +61,10 @@ items:
   langs:
   - csharp
   - vb
-  name: Invoke(Int32)
-  nameWithType: ProgressEstimateCallback.Invoke(Int32)
-  fullName: SuperOffice.CRM.ProgressEstimateCallback.Invoke(System.Int32)
+  name: Invoke(int)
+  nameWithType: ProgressEstimateCallback.Invoke(int)
+  fullName: SuperOffice.CRM.ProgressEstimateCallback.Invoke(int)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
@@ -94,12 +75,9 @@ items:
       type: System.Int32
     content.vb: Public Overridable Sub Invoke(total As Integer)
   overload: SuperOffice.CRM.ProgressEstimateCallback.Invoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
+  nameWithType.vb: ProgressEstimateCallback.Invoke(Integer)
+  fullName.vb: SuperOffice.CRM.ProgressEstimateCallback.Invoke(Integer)
+  name.vb: Invoke(Integer)
 - uid: SuperOffice.CRM.ProgressEstimateCallback.BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
   commentId: M:SuperOffice.CRM.ProgressEstimateCallback.BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
   id: BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
@@ -107,18 +85,15 @@ items:
   langs:
   - csharp
   - vb
-  name: BeginInvoke(Int32, AsyncCallback, Object)
-  nameWithType: ProgressEstimateCallback.BeginInvoke(Int32, AsyncCallback, Object)
-  fullName: SuperOffice.CRM.ProgressEstimateCallback.BeginInvoke(System.Int32, System.AsyncCallback, System.Object)
+  name: BeginInvoke(int, AsyncCallback, object)
+  nameWithType: ProgressEstimateCallback.BeginInvoke(int, AsyncCallback, object)
+  fullName: SuperOffice.CRM.ProgressEstimateCallback.BeginInvoke(int, System.AsyncCallback, object)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
   syntax:
-    content: public virtual IAsyncResult BeginInvoke(int total, AsyncCallback callback, object object)
+    content: public virtual IAsyncResult BeginInvoke(int total, AsyncCallback callback, object @object)
     parameters:
     - id: total
       type: System.Int32
@@ -128,14 +103,11 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-    content.vb: Public Overridable Function BeginInvoke(total As Integer, callback As AsyncCallback, object As Object) As IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(total As Integer, callback As AsyncCallback, [object] As Object) As IAsyncResult
   overload: SuperOffice.CRM.ProgressEstimateCallback.BeginInvoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
+  nameWithType.vb: ProgressEstimateCallback.BeginInvoke(Integer, AsyncCallback, Object)
+  fullName.vb: SuperOffice.CRM.ProgressEstimateCallback.BeginInvoke(Integer, System.AsyncCallback, Object)
+  name.vb: BeginInvoke(Integer, AsyncCallback, Object)
 - uid: SuperOffice.CRM.ProgressEstimateCallback.EndInvoke(System.IAsyncResult)
   commentId: M:SuperOffice.CRM.ProgressEstimateCallback.EndInvoke(System.IAsyncResult)
   id: EndInvoke(System.IAsyncResult)
@@ -147,9 +119,6 @@ items:
   nameWithType: ProgressEstimateCallback.EndInvoke(IAsyncResult)
   fullName: SuperOffice.CRM.ProgressEstimateCallback.EndInvoke(System.IAsyncResult)
   type: Method
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
@@ -160,103 +129,155 @@ items:
       type: System.IAsyncResult
     content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
   overload: SuperOffice.CRM.ProgressEstimateCallback.EndInvoke*
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: SuperOffice.CRM.ProgressEstimateCallback.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<ProgressEstimateCallback, To>()
-  nameWithType: EnumUtil.MapEnums<ProgressEstimateCallback, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ProgressEstimateCallback, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of ProgressEstimateCallback, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ProgressEstimateCallback, To)()
-  name.vb: MapEnums(Of ProgressEstimateCallback, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ProgressEstimateCallback, To>(ProgressEstimateCallback)
+  nameWithType: EnumUtil.MapEnums<ProgressEstimateCallback, To>(ProgressEstimateCallback)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ProgressEstimateCallback, To>(SuperOffice.CRM.ProgressEstimateCallback)
+  nameWithType.vb: EnumUtil.MapEnums(Of ProgressEstimateCallback, To)(ProgressEstimateCallback)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ProgressEstimateCallback, To)(SuperOffice.CRM.ProgressEstimateCallback)
+  name.vb: MapEnums(Of ProgressEstimateCallback, To)(ProgressEstimateCallback)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<ProgressEstimateCallback, To>
-    nameWithType: EnumUtil.MapEnums<ProgressEstimateCallback, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ProgressEstimateCallback, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ProgressEstimateCallback)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ProgressEstimateCallback
+    name: ProgressEstimateCallback
+    isExternal: true
+    href: SuperOffice.CRM.ProgressEstimateCallback.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ProgressEstimateCallback
+    name: ProgressEstimateCallback
+    isExternal: true
+    href: SuperOffice.CRM.ProgressEstimateCallback.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of ProgressEstimateCallback, To)
-    nameWithType: EnumUtil.MapEnums(Of ProgressEstimateCallback, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ProgressEstimateCallback, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ProgressEstimateCallback)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ProgressEstimateCallback
+    name: ProgressEstimateCallback
+    isExternal: true
+    href: SuperOffice.CRM.ProgressEstimateCallback.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ProgressEstimateCallback
+    name: ProgressEstimateCallback
+    isExternal: true
+    href: SuperOffice.CRM.ProgressEstimateCallback.html
+  - name: )
 - uid: SuperOffice.CRM.ProgressEstimateCallback.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<ProgressEstimateCallback, To>()
-  nameWithType: Converters.MapEnums<ProgressEstimateCallback, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ProgressEstimateCallback, To>()
-  nameWithType.vb: Converters.MapEnums(Of ProgressEstimateCallback, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ProgressEstimateCallback, To)()
-  name.vb: MapEnums(Of ProgressEstimateCallback, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ProgressEstimateCallback, To>(ProgressEstimateCallback)
+  nameWithType: Converters.MapEnums<ProgressEstimateCallback, To>(ProgressEstimateCallback)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ProgressEstimateCallback, To>(SuperOffice.CRM.ProgressEstimateCallback)
+  nameWithType.vb: Converters.MapEnums(Of ProgressEstimateCallback, To)(ProgressEstimateCallback)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ProgressEstimateCallback, To)(SuperOffice.CRM.ProgressEstimateCallback)
+  name.vb: MapEnums(Of ProgressEstimateCallback, To)(ProgressEstimateCallback)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<ProgressEstimateCallback, To>
-    nameWithType: Converters.MapEnums<ProgressEstimateCallback, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ProgressEstimateCallback, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ProgressEstimateCallback)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ProgressEstimateCallback
+    name: ProgressEstimateCallback
+    isExternal: true
+    href: SuperOffice.CRM.ProgressEstimateCallback.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ProgressEstimateCallback
+    name: ProgressEstimateCallback
+    isExternal: true
+    href: SuperOffice.CRM.ProgressEstimateCallback.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of ProgressEstimateCallback, To)
-    nameWithType: Converters.MapEnums(Of ProgressEstimateCallback, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ProgressEstimateCallback, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ProgressEstimateCallback)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ProgressEstimateCallback
+    name: ProgressEstimateCallback
+    isExternal: true
+    href: SuperOffice.CRM.ProgressEstimateCallback.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
+  - name: (
+  - uid: SuperOffice.CRM.ProgressEstimateCallback
+    name: ProgressEstimateCallback
+    isExternal: true
+    href: SuperOffice.CRM.ProgressEstimateCallback.html
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -265,43 +286,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -310,92 +333,149 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.ProgressEstimateCallback.#ctor*
   commentId: Overload:SuperOffice.CRM.ProgressEstimateCallback.#ctor
   isExternal: true
+  href: SuperOffice.CRM.ProgressEstimateCallback.html#SuperOffice_CRM_ProgressEstimateCallback__ctor_System_Object_System_IntPtr_
   name: ProgressEstimateCallback
   nameWithType: ProgressEstimateCallback.ProgressEstimateCallback
   fullName: SuperOffice.CRM.ProgressEstimateCallback.ProgressEstimateCallback
+  nameWithType.vb: ProgressEstimateCallback.New
+  fullName.vb: SuperOffice.CRM.ProgressEstimateCallback.New
+  name.vb: New
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
 - uid: SuperOffice.CRM.ProgressEstimateCallback.Invoke*
   commentId: Overload:SuperOffice.CRM.ProgressEstimateCallback.Invoke
   isExternal: true
+  href: SuperOffice.CRM.ProgressEstimateCallback.html#SuperOffice_CRM_ProgressEstimateCallback_Invoke_System_Int32_
   name: Invoke
   nameWithType: ProgressEstimateCallback.Invoke
   fullName: SuperOffice.CRM.ProgressEstimateCallback.Invoke
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: SuperOffice.CRM.ProgressEstimateCallback.BeginInvoke*
   commentId: Overload:SuperOffice.CRM.ProgressEstimateCallback.BeginInvoke
   isExternal: true
+  href: SuperOffice.CRM.ProgressEstimateCallback.html#SuperOffice_CRM_ProgressEstimateCallback_BeginInvoke_System_Int32_System_AsyncCallback_System_Object_
   name: BeginInvoke
   nameWithType: ProgressEstimateCallback.BeginInvoke
   fullName: SuperOffice.CRM.ProgressEstimateCallback.BeginInvoke
 - uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
   name: IAsyncResult
   nameWithType: IAsyncResult
   fullName: System.IAsyncResult
 - uid: SuperOffice.CRM.ProgressEstimateCallback.EndInvoke*
   commentId: Overload:SuperOffice.CRM.ProgressEstimateCallback.EndInvoke
   isExternal: true
+  href: SuperOffice.CRM.ProgressEstimateCallback.html#SuperOffice_CRM_ProgressEstimateCallback_EndInvoke_System_IAsyncResult_
   name: EndInvoke
   nameWithType: ProgressEstimateCallback.EndInvoke
   fullName: SuperOffice.CRM.ProgressEstimateCallback.EndInvoke

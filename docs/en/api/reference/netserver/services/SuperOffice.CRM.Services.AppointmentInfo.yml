@@ -40,31 +40,40 @@ items:
   nameWithType: AppointmentInfo
   fullName: SuperOffice.CRM.Services.AppointmentInfo
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInfo about an appointment\n<p></p>\nCarrier object for AppointmentInfo.\nServices for the AppointmentInfo Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAppointmentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Info about an appointment
+
+    <p></p>
+
+    Carrier object for AppointmentInfo.
+
+    Services for the AppointmentInfo Carrier is available from the <xref href="SuperOffice.CRM.Services.IAppointmentAgent?text=Appointment+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public class AppointmentInfo : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class AppointmentInfo : Carrier
     content.vb: >-
-      Public Class AppointmentInfo
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class AppointmentInfo Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.AppointmentAgent
-    commentId: T:SuperOffice.CRM.Services.AppointmentAgent
   - linkId: SuperOffice.CRM.Services.IAppointmentAgent
     commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.AppointmentInfo.#ctor
   commentId: M:SuperOffice.CRM.Services.AppointmentInfo.#ctor
   id: '#ctor'
@@ -76,21 +85,18 @@ items:
   nameWithType: AppointmentInfo.AppointmentInfo()
   fullName: SuperOffice.CRM.Services.AppointmentInfo.AppointmentInfo()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public AppointmentInfo()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.AppointmentInfo.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: AppointmentInfo.New()
+  fullName.vb: SuperOffice.CRM.Services.AppointmentInfo.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.AppointmentInfo.ToString
   commentId: M:SuperOffice.CRM.Services.AppointmentInfo.ToString
   id: ToString
@@ -102,26 +108,18 @@ items:
   nameWithType: AppointmentInfo.ToString()
   fullName: SuperOffice.CRM.Services.AppointmentInfo.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.AppointmentInfo.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.AppointmentInfo.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.AppointmentInfo.ToString(System.String)
   id: ToString(System.String)
@@ -129,17 +127,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: AppointmentInfo.ToString(String)
-  fullName: SuperOffice.CRM.Services.AppointmentInfo.ToString(System.String)
+  name: ToString(string)
+  nameWithType: AppointmentInfo.ToString(string)
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -151,10 +150,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.AppointmentInfo.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: AppointmentInfo.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.AppointmentInfo.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.AppointmentInfo.AppointmentId
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.AppointmentId
   id: AppointmentId
@@ -166,28 +164,28 @@ items:
   nameWithType: AppointmentInfo.AppointmentId
   fullName: SuperOffice.CRM.Services.AppointmentInfo.AppointmentId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe id of the appointment \n"
+  summary: The id of the appointment
+  example: []
   syntax:
-    content: public virtual int AppointmentId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int AppointmentId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property AppointmentId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AppointmentId As Integer
   overload: SuperOffice.CRM.Services.AppointmentInfo.AppointmentId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.AssociateId
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.AssociateId
   id: AssociateId
@@ -199,28 +197,28 @@ items:
   nameWithType: AppointmentInfo.AssociateId
   fullName: SuperOffice.CRM.Services.AppointmentInfo.AssociateId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe id of the associate this appointment belongs to \n"
+  summary: The id of the associate this appointment belongs to
+  example: []
   syntax:
-    content: public virtual int AssociateId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int AssociateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property AssociateId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AssociateId As Integer
   overload: SuperOffice.CRM.Services.AppointmentInfo.AssociateId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.MotherId
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.MotherId
   id: MotherId
@@ -232,28 +230,28 @@ items:
   nameWithType: AppointmentInfo.MotherId
   fullName: SuperOffice.CRM.Services.AppointmentInfo.MotherId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe id of the mother appointment (participants point to this one) \n"
+  summary: The id of the mother appointment (participants point to this one)
+  example: []
   syntax:
-    content: public virtual int MotherId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int MotherId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property MotherId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property MotherId As Integer
   overload: SuperOffice.CRM.Services.AppointmentInfo.MotherId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.StartDate
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.StartDate
   id: StartDate
@@ -265,28 +263,28 @@ items:
   nameWithType: AppointmentInfo.StartDate
   fullName: SuperOffice.CRM.Services.AppointmentInfo.StartDate
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe start of the appointment \n"
+  summary: The start of the appointment
+  example: []
   syntax:
-    content: public virtual DateTime StartDate { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime StartDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property StartDate As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property StartDate As Date
   overload: SuperOffice.CRM.Services.AppointmentInfo.StartDate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.EndDate
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.EndDate
   id: EndDate
@@ -298,28 +296,28 @@ items:
   nameWithType: AppointmentInfo.EndDate
   fullName: SuperOffice.CRM.Services.AppointmentInfo.EndDate
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe end of the appointment \n"
+  summary: The end of the appointment
+  example: []
   syntax:
-    content: public virtual DateTime EndDate { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime EndDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property EndDate As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property EndDate As Date
   overload: SuperOffice.CRM.Services.AppointmentInfo.EndDate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.ColorIndex
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.ColorIndex
   id: ColorIndex
@@ -331,28 +329,28 @@ items:
   nameWithType: AppointmentInfo.ColorIndex
   fullName: SuperOffice.CRM.Services.AppointmentInfo.ColorIndex
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe color index of the appointment (task) \n"
+  summary: The color index of the appointment (task)
+  example: []
   syntax:
-    content: public virtual ColorIndex ColorIndex { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual ColorIndex ColorIndex { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: Public Overridable Property ColorIndex As ColorIndex
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ColorIndex As ColorIndex
   overload: SuperOffice.CRM.Services.AppointmentInfo.ColorIndex*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.TaskName
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.TaskName
   id: TaskName
@@ -364,28 +362,28 @@ items:
   nameWithType: AppointmentInfo.TaskName
   fullName: SuperOffice.CRM.Services.AppointmentInfo.TaskName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe name of the appointment task type \n"
+  summary: The name of the appointment task type
+  example: []
   syntax:
-    content: public virtual string TaskName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string TaskName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property TaskName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TaskName As String
   overload: SuperOffice.CRM.Services.AppointmentInfo.TaskName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.ContactName
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.ContactName
   id: ContactName
@@ -397,28 +395,28 @@ items:
   nameWithType: AppointmentInfo.ContactName
   fullName: SuperOffice.CRM.Services.AppointmentInfo.ContactName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe name of the appointment contact. \n"
+  summary: The name of the appointment contact.
+  example: []
   syntax:
-    content: public virtual string ContactName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ContactName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ContactName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ContactName As String
   overload: SuperOffice.CRM.Services.AppointmentInfo.ContactName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.ProjectName
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.ProjectName
   id: ProjectName
@@ -430,28 +428,28 @@ items:
   nameWithType: AppointmentInfo.ProjectName
   fullName: SuperOffice.CRM.Services.AppointmentInfo.ProjectName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe name of the appointment project \n"
+  summary: The name of the appointment project
+  example: []
   syntax:
-    content: public virtual string ProjectName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ProjectName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ProjectName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ProjectName As String
   overload: SuperOffice.CRM.Services.AppointmentInfo.ProjectName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.Title
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.Title
   id: Title
@@ -463,28 +461,28 @@ items:
   nameWithType: AppointmentInfo.Title
   fullName: SuperOffice.CRM.Services.AppointmentInfo.Title
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe appointment title (first line of appointment description) \n"
+  summary: The appointment title (first line of appointment description)
+  example: []
   syntax:
-    content: public virtual string Title { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Title { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Title As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Title As String
   overload: SuperOffice.CRM.Services.AppointmentInfo.Title*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.Agenda
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.Agenda
   id: Agenda
@@ -496,28 +494,28 @@ items:
   nameWithType: AppointmentInfo.Agenda
   fullName: SuperOffice.CRM.Services.AppointmentInfo.Agenda
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe appointment agenda (the rest of appointment description) \n"
+  summary: The appointment agenda (the rest of appointment description)
+  example: []
   syntax:
-    content: public virtual string Agenda { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Agenda { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Agenda As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Agenda As String
   overload: SuperOffice.CRM.Services.AppointmentInfo.Agenda*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsAllDay
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.IsAllDay
   id: IsAllDay
@@ -529,28 +527,28 @@ items:
   nameWithType: AppointmentInfo.IsAllDay
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsAllDay
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if the appointment is an all day appointment \n"
+  summary: True if the appointment is an all day appointment
+  example: []
   syntax:
-    content: public virtual bool IsAllDay { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IsAllDay { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IsAllDay As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsAllDay As Boolean
   overload: SuperOffice.CRM.Services.AppointmentInfo.IsAllDay*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsBusy
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.IsBusy
   id: IsBusy
@@ -562,28 +560,28 @@ items:
   nameWithType: AppointmentInfo.IsBusy
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsBusy
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if the participant is marked as busy \n"
+  summary: True if the participant is marked as busy
+  example: []
   syntax:
-    content: public virtual bool IsBusy { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IsBusy { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IsBusy As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsBusy As Boolean
   overload: SuperOffice.CRM.Services.AppointmentInfo.IsBusy*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsRecurring
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.IsRecurring
   id: IsRecurring
@@ -595,28 +593,28 @@ items:
   nameWithType: AppointmentInfo.IsRecurring
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsRecurring
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if the appointment is part of a recurring series \n"
+  summary: True if the appointment is part of a recurring series
+  example: []
   syntax:
-    content: public virtual bool IsRecurring { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IsRecurring { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IsRecurring As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsRecurring As Boolean
   overload: SuperOffice.CRM.Services.AppointmentInfo.IsRecurring*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsVideoMeeting
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.IsVideoMeeting
   id: IsVideoMeeting
@@ -628,28 +626,28 @@ items:
   nameWithType: AppointmentInfo.IsVideoMeeting
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsVideoMeeting
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if the appointment has a video link \n"
+  summary: True if the appointment has a video link
+  example: []
   syntax:
-    content: public virtual bool IsVideoMeeting { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IsVideoMeeting { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IsVideoMeeting As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsVideoMeeting As Boolean
   overload: SuperOffice.CRM.Services.AppointmentInfo.IsVideoMeeting*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.HasAlarm
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.HasAlarm
   id: HasAlarm
@@ -661,28 +659,28 @@ items:
   nameWithType: AppointmentInfo.HasAlarm
   fullName: SuperOffice.CRM.Services.AppointmentInfo.HasAlarm
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if the appointment has alarm \n"
+  summary: True if the appointment has alarm
+  example: []
   syntax:
-    content: public virtual bool HasAlarm { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool HasAlarm { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property HasAlarm As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property HasAlarm As Boolean
   overload: SuperOffice.CRM.Services.AppointmentInfo.HasAlarm*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsCompleted
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.IsCompleted
   id: IsCompleted
@@ -694,28 +692,28 @@ items:
   nameWithType: AppointmentInfo.IsCompleted
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsCompleted
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if the appointment is completed \n"
+  summary: True if the appointment is completed
+  example: []
   syntax:
-    content: public virtual bool IsCompleted { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IsCompleted { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IsCompleted As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsCompleted As Boolean
   overload: SuperOffice.CRM.Services.AppointmentInfo.IsCompleted*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsTentative
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.IsTentative
   id: IsTentative
@@ -727,28 +725,28 @@ items:
   nameWithType: AppointmentInfo.IsTentative
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsTentative
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if the appointment is tentative \n"
+  summary: True if the appointment is tentative
+  example: []
   syntax:
-    content: public virtual bool IsTentative { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IsTentative { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IsTentative As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsTentative As Boolean
   overload: SuperOffice.CRM.Services.AppointmentInfo.IsTentative*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsBookingMain
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.IsBookingMain
   id: IsBookingMain
@@ -760,28 +758,28 @@ items:
   nameWithType: AppointmentInfo.IsBookingMain
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsBookingMain
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if the appointment is a main booking \n"
+  summary: True if the appointment is a main booking
+  example: []
   syntax:
-    content: public virtual bool IsBookingMain { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IsBookingMain { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IsBookingMain As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsBookingMain As Boolean
   overload: SuperOffice.CRM.Services.AppointmentInfo.IsBookingMain*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.SendEmail
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.SendEmail
   id: SendEmail
@@ -793,28 +791,28 @@ items:
   nameWithType: AppointmentInfo.SendEmail
   fullName: SuperOffice.CRM.Services.AppointmentInfo.SendEmail
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if the appointment record has the email flag set \n"
+  summary: True if the appointment record has the email flag set
+  example: []
   syntax:
-    content: public virtual bool SendEmail { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool SendEmail { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property SendEmail As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SendEmail As Boolean
   overload: SuperOffice.CRM.Services.AppointmentInfo.SendEmail*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.AnySendEmail
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.AnySendEmail
   id: AnySendEmail
@@ -826,28 +824,28 @@ items:
   nameWithType: AppointmentInfo.AnySendEmail
   fullName: SuperOffice.CRM.Services.AppointmentInfo.AnySendEmail
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if any of the appointment records has the email flag set \n"
+  summary: True if any of the appointment records has the email flag set
+  example: []
   syntax:
-    content: public virtual bool AnySendEmail { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool AnySendEmail { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property AnySendEmail As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AnySendEmail As Boolean
   overload: SuperOffice.CRM.Services.AppointmentInfo.AnySendEmail*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsPrivate
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.IsPrivate
   id: IsPrivate
@@ -859,28 +857,28 @@ items:
   nameWithType: AppointmentInfo.IsPrivate
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsPrivate
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if only visible for the owner \n"
+  summary: True if only visible for the owner
+  example: []
   syntax:
-    content: public virtual bool IsPrivate { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IsPrivate { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IsPrivate As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsPrivate As Boolean
   overload: SuperOffice.CRM.Services.AppointmentInfo.IsPrivate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo
   id: RecurrenceInfo
@@ -892,28 +890,28 @@ items:
   nameWithType: AppointmentInfo.RecurrenceInfo
   fullName: SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe recurrence info if the appointment is recurring \n"
+  summary: The recurrence info if the appointment is recurring
+  example: []
   syntax:
-    content: public virtual RecurrenceInfo RecurrenceInfo { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual RecurrenceInfo RecurrenceInfo { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.RecurrenceInfo
-    content.vb: Public Overridable Property RecurrenceInfo As RecurrenceInfo
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RecurrenceInfo As RecurrenceInfo
   overload: SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.PersonName
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.PersonName
   id: PersonName
@@ -925,28 +923,28 @@ items:
   nameWithType: AppointmentInfo.PersonName
   fullName: SuperOffice.CRM.Services.AppointmentInfo.PersonName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe name of the appointment person. \n"
+  summary: The name of the appointment person.
+  example: []
   syntax:
-    content: public virtual string PersonName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string PersonName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property PersonName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PersonName As String
   overload: SuperOffice.CRM.Services.AppointmentInfo.PersonName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsBooking
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.IsBooking
   id: IsBooking
@@ -958,57 +956,106 @@ items:
   nameWithType: AppointmentInfo.IsBooking
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsBooking
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrue if the appointment is part of a booking \n"
+  summary: True if the appointment is part of a booking
+  example: []
   syntax:
-    content: public virtual bool IsBooking { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual bool IsBooking { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property IsBooking As Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsBooking As Boolean
   overload: SuperOffice.CRM.Services.AppointmentInfo.IsBooking*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AppointmentAgent
-  commentId: T:SuperOffice.CRM.Services.AppointmentAgent
-  isExternal: true
-  name: AppointmentAgent
-  nameWithType: AppointmentAgent
-  fullName: SuperOffice.CRM.Services.AppointmentAgent
 - uid: SuperOffice.CRM.Services.IAppointmentAgent
   commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAppointmentAgent.html
   name: IAppointmentAgent
   nameWithType: IAppointmentAgent
   fullName: SuperOffice.CRM.Services.IAppointmentAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.AppointmentInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo__ctor
   name: AppointmentInfo
   nameWithType: AppointmentInfo.AppointmentInfo
   fullName: SuperOffice.CRM.Services.AppointmentInfo.AppointmentInfo
+  nameWithType.vb: AppointmentInfo.New
+  fullName.vb: SuperOffice.CRM.Services.AppointmentInfo.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.AppointmentInfo.ToString*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_ToString
   name: ToString
   nameWithType: AppointmentInfo.ToString
   fullName: SuperOffice.CRM.Services.AppointmentInfo.ToString
@@ -1016,18 +1063,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.AppointmentInfo.AppointmentId*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.AppointmentId
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_AppointmentId
   name: AppointmentId
   nameWithType: AppointmentInfo.AppointmentId
   fullName: SuperOffice.CRM.Services.AppointmentInfo.AppointmentId
@@ -1035,41 +1081,56 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.AppointmentInfo.AssociateId*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.AssociateId
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_AssociateId
   name: AssociateId
   nameWithType: AppointmentInfo.AssociateId
   fullName: SuperOffice.CRM.Services.AppointmentInfo.AssociateId
 - uid: SuperOffice.CRM.Services.AppointmentInfo.MotherId*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.MotherId
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_MotherId
   name: MotherId
   nameWithType: AppointmentInfo.MotherId
   fullName: SuperOffice.CRM.Services.AppointmentInfo.MotherId
 - uid: SuperOffice.CRM.Services.AppointmentInfo.StartDate*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.StartDate
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_StartDate
   name: StartDate
   nameWithType: AppointmentInfo.StartDate
   fullName: SuperOffice.CRM.Services.AppointmentInfo.StartDate
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Services.AppointmentInfo.EndDate*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.EndDate
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_EndDate
   name: EndDate
   nameWithType: AppointmentInfo.EndDate
   fullName: SuperOffice.CRM.Services.AppointmentInfo.EndDate
 - uid: SuperOffice.CRM.Services.AppointmentInfo.ColorIndex*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.ColorIndex
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_ColorIndex
   name: ColorIndex
   nameWithType: AppointmentInfo.ColorIndex
   fullName: SuperOffice.CRM.Services.AppointmentInfo.ColorIndex
@@ -1081,36 +1142,42 @@ references:
 - uid: SuperOffice.CRM.Services.AppointmentInfo.TaskName*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.TaskName
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_TaskName
   name: TaskName
   nameWithType: AppointmentInfo.TaskName
   fullName: SuperOffice.CRM.Services.AppointmentInfo.TaskName
 - uid: SuperOffice.CRM.Services.AppointmentInfo.ContactName*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.ContactName
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_ContactName
   name: ContactName
   nameWithType: AppointmentInfo.ContactName
   fullName: SuperOffice.CRM.Services.AppointmentInfo.ContactName
 - uid: SuperOffice.CRM.Services.AppointmentInfo.ProjectName*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.ProjectName
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_ProjectName
   name: ProjectName
   nameWithType: AppointmentInfo.ProjectName
   fullName: SuperOffice.CRM.Services.AppointmentInfo.ProjectName
 - uid: SuperOffice.CRM.Services.AppointmentInfo.Title*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.Title
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_Title
   name: Title
   nameWithType: AppointmentInfo.Title
   fullName: SuperOffice.CRM.Services.AppointmentInfo.Title
 - uid: SuperOffice.CRM.Services.AppointmentInfo.Agenda*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.Agenda
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_Agenda
   name: Agenda
   nameWithType: AppointmentInfo.Agenda
   fullName: SuperOffice.CRM.Services.AppointmentInfo.Agenda
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsAllDay*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.IsAllDay
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_IsAllDay
   name: IsAllDay
   nameWithType: AppointmentInfo.IsAllDay
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsAllDay
@@ -1118,72 +1185,87 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsBusy*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.IsBusy
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_IsBusy
   name: IsBusy
   nameWithType: AppointmentInfo.IsBusy
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsBusy
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsRecurring*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.IsRecurring
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_IsRecurring
   name: IsRecurring
   nameWithType: AppointmentInfo.IsRecurring
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsRecurring
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsVideoMeeting*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.IsVideoMeeting
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_IsVideoMeeting
   name: IsVideoMeeting
   nameWithType: AppointmentInfo.IsVideoMeeting
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsVideoMeeting
 - uid: SuperOffice.CRM.Services.AppointmentInfo.HasAlarm*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.HasAlarm
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_HasAlarm
   name: HasAlarm
   nameWithType: AppointmentInfo.HasAlarm
   fullName: SuperOffice.CRM.Services.AppointmentInfo.HasAlarm
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsCompleted*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.IsCompleted
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_IsCompleted
   name: IsCompleted
   nameWithType: AppointmentInfo.IsCompleted
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsCompleted
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsTentative*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.IsTentative
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_IsTentative
   name: IsTentative
   nameWithType: AppointmentInfo.IsTentative
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsTentative
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsBookingMain*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.IsBookingMain
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_IsBookingMain
   name: IsBookingMain
   nameWithType: AppointmentInfo.IsBookingMain
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsBookingMain
 - uid: SuperOffice.CRM.Services.AppointmentInfo.SendEmail*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.SendEmail
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_SendEmail
   name: SendEmail
   nameWithType: AppointmentInfo.SendEmail
   fullName: SuperOffice.CRM.Services.AppointmentInfo.SendEmail
 - uid: SuperOffice.CRM.Services.AppointmentInfo.AnySendEmail*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.AnySendEmail
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_AnySendEmail
   name: AnySendEmail
   nameWithType: AppointmentInfo.AnySendEmail
   fullName: SuperOffice.CRM.Services.AppointmentInfo.AnySendEmail
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsPrivate*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.IsPrivate
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_IsPrivate
   name: IsPrivate
   nameWithType: AppointmentInfo.IsPrivate
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsPrivate
 - uid: SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_RecurrenceInfo
   name: RecurrenceInfo
   nameWithType: AppointmentInfo.RecurrenceInfo
   fullName: SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo
@@ -1195,12 +1277,14 @@ references:
 - uid: SuperOffice.CRM.Services.AppointmentInfo.PersonName*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.PersonName
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_PersonName
   name: PersonName
   nameWithType: AppointmentInfo.PersonName
   fullName: SuperOffice.CRM.Services.AppointmentInfo.PersonName
 - uid: SuperOffice.CRM.Services.AppointmentInfo.IsBooking*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.IsBooking
   isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_IsBooking
   name: IsBooking
   nameWithType: AppointmentInfo.IsBooking
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsBooking

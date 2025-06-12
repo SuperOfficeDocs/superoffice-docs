@@ -27,27 +27,24 @@ items:
   nameWithType: DBC.PriceListFields
   fullName: SuperOffice.CRM.Data.DBC.PriceListFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for PriceList, List of prices, cached from an ERP system\n"
+  summary: Fields for PriceList, List of prices, cached from an ERP system
+  example: []
   syntax:
-    content: 'public static class PriceListFields : Object'
-    content.vb: >-
-      Public Module PriceListFields
-          Inherits Object
+    content: public static class DBC.PriceListFields
+    content.vb: Public Module DBC.PriceListFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.PriceListFields.PriceListId
   commentId: F:SuperOffice.CRM.Data.DBC.PriceListFields.PriceListId
   id: PriceListId
@@ -59,24 +56,16 @@ items:
   nameWithType: DBC.PriceListFields.PriceListId
   fullName: SuperOffice.CRM.Data.DBC.PriceListFields.PriceListId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPriceList.PriceListId: Primary key\n"
+  summary: 'PriceList.PriceListId: Primary key'
+  example: []
   syntax:
     content: public const string PriceListId = "pricelist_id"
     return:
       type: System.String
     content.vb: Public Const PriceListId As String = "pricelist_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PriceListFields.ERPPriceListKey
   commentId: F:SuperOffice.CRM.Data.DBC.PriceListFields.ERPPriceListKey
   id: ERPPriceListKey
@@ -88,24 +77,16 @@ items:
   nameWithType: DBC.PriceListFields.ERPPriceListKey
   fullName: SuperOffice.CRM.Data.DBC.PriceListFields.ERPPriceListKey
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPriceList.ERPPriceListKey: The key that uniquely identifies this pricelist in the ERP system\n"
+  summary: 'PriceList.ERPPriceListKey: The key that uniquely identifies this pricelist in the ERP system'
+  example: []
   syntax:
     content: public const string ERPPriceListKey = "ERPPriceListKey"
     return:
       type: System.String
     content.vb: Public Const ERPPriceListKey As String = "ERPPriceListKey"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PriceListFields.QuoteConnectionId
   commentId: F:SuperOffice.CRM.Data.DBC.PriceListFields.QuoteConnectionId
   id: QuoteConnectionId
@@ -117,24 +98,16 @@ items:
   nameWithType: DBC.PriceListFields.QuoteConnectionId
   fullName: SuperOffice.CRM.Data.DBC.PriceListFields.QuoteConnectionId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPriceList.QuoteConnectionId: (Reserved for future use) The connection to the ERP system used for this pricelist\n"
+  summary: 'PriceList.QuoteConnectionId: (Reserved for future use) The connection to the ERP system used for this pricelist'
+  example: []
   syntax:
     content: public const string QuoteConnectionId = "QuoteConnectionId"
     return:
       type: System.String
     content.vb: Public Const QuoteConnectionId As String = "QuoteConnectionId"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PriceListFields.Name
   commentId: F:SuperOffice.CRM.Data.DBC.PriceListFields.Name
   id: Name
@@ -146,24 +119,16 @@ items:
   nameWithType: DBC.PriceListFields.Name
   fullName: SuperOffice.CRM.Data.DBC.PriceListFields.Name
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPriceList.Name: Name of this pricelist to use in the user interface.\n"
+  summary: 'PriceList.Name: Name of this pricelist to use in the user interface.'
+  example: []
   syntax:
     content: public const string Name = "Name"
     return:
       type: System.String
     content.vb: Public Const Name As String = "Name"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PriceListFields.Description
   commentId: F:SuperOffice.CRM.Data.DBC.PriceListFields.Description
   id: Description
@@ -175,24 +140,16 @@ items:
   nameWithType: DBC.PriceListFields.Description
   fullName: SuperOffice.CRM.Data.DBC.PriceListFields.Description
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPriceList.Description: Description of this pricelist , will be used as tool-tip in the user interface.\n"
+  summary: 'PriceList.Description: Description of this pricelist , will be used as tool-tip in the user interface.'
+  example: []
   syntax:
     content: public const string Description = "Description"
     return:
       type: System.String
     content.vb: Public Const Description As String = "Description"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PriceListFields.CurrencyId
   commentId: F:SuperOffice.CRM.Data.DBC.PriceListFields.CurrencyId
   id: CurrencyId
@@ -204,24 +161,16 @@ items:
   nameWithType: DBC.PriceListFields.CurrencyId
   fullName: SuperOffice.CRM.Data.DBC.PriceListFields.CurrencyId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPriceList.CurrencyId: What is the currency for this pricelist\n"
+  summary: 'PriceList.CurrencyId: What is the currency for this pricelist'
+  example: []
   syntax:
     content: public const string CurrencyId = "CurrencyId"
     return:
       type: System.String
     content.vb: Public Const CurrencyId As String = "CurrencyId"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PriceListFields.ValidFrom
   commentId: F:SuperOffice.CRM.Data.DBC.PriceListFields.ValidFrom
   id: ValidFrom
@@ -233,24 +182,16 @@ items:
   nameWithType: DBC.PriceListFields.ValidFrom
   fullName: SuperOffice.CRM.Data.DBC.PriceListFields.ValidFrom
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPriceList.ValidFrom: The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn&apos;t have a specific start date.\n"
+  summary: "PriceList.ValidFrom: The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date."
+  example: []
   syntax:
     content: public const string ValidFrom = "ValidFrom"
     return:
       type: System.String
     content.vb: Public Const ValidFrom As String = "ValidFrom"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PriceListFields.ValidTo
   commentId: F:SuperOffice.CRM.Data.DBC.PriceListFields.ValidTo
   id: ValidTo
@@ -262,24 +203,16 @@ items:
   nameWithType: DBC.PriceListFields.ValidTo
   fullName: SuperOffice.CRM.Data.DBC.PriceListFields.ValidTo
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPriceList.ValidTo: The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn&apos;t have a specific end date.\n"
+  summary: "PriceList.ValidTo: The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date."
+  example: []
   syntax:
     content: public const string ValidTo = "ValidTo"
     return:
       type: System.String
     content.vb: Public Const ValidTo As String = "ValidTo"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PriceListFields.IsActive
   commentId: F:SuperOffice.CRM.Data.DBC.PriceListFields.IsActive
   id: IsActive
@@ -291,24 +224,16 @@ items:
   nameWithType: DBC.PriceListFields.IsActive
   fullName: SuperOffice.CRM.Data.DBC.PriceListFields.IsActive
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPriceList.IsActive: Is the list active (as opposed to being worked on, suddenly canceled, etc.\n"
+  summary: 'PriceList.IsActive: Is the list active (as opposed to being worked on, suddenly canceled, etc.'
+  example: []
   syntax:
     content: public const string IsActive = "IsActive"
     return:
       type: System.String
     content.vb: Public Const IsActive As String = "IsActive"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PriceListFields.IsERPCopy
   commentId: F:SuperOffice.CRM.Data.DBC.PriceListFields.IsERPCopy
   id: IsERPCopy
@@ -320,24 +245,16 @@ items:
   nameWithType: DBC.PriceListFields.IsERPCopy
   fullName: SuperOffice.CRM.Data.DBC.PriceListFields.IsERPCopy
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPriceList.IsERPCopy: If true, then this pricelist is a cache/copy and cannot be edited by users in CRM\n"
+  summary: 'PriceList.IsERPCopy: If true, then this pricelist is a cache/copy and cannot be edited by users in CRM'
+  example: []
   syntax:
     content: public const string IsERPCopy = "IsERPCopy"
     return:
       type: System.String
     content.vb: Public Const IsERPCopy As String = "IsERPCopy"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PriceListFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.PriceListFields.Registered
   id: Registered
@@ -349,24 +266,16 @@ items:
   nameWithType: DBC.PriceListFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.PriceListFields.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPriceList.Registered: Registered when\n"
+  summary: 'PriceList.Registered: Registered when'
+  example: []
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PriceListFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.PriceListFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -378,24 +287,16 @@ items:
   nameWithType: DBC.PriceListFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.PriceListFields.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPriceList.RegisteredAssociateId: Registered by whom\n"
+  summary: 'PriceList.RegisteredAssociateId: Registered by whom'
+  example: []
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PriceListFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.PriceListFields.Updated
   id: Updated
@@ -407,24 +308,16 @@ items:
   nameWithType: DBC.PriceListFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.PriceListFields.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPriceList.Updated: Last updated when\n"
+  summary: 'PriceList.Updated: Last updated when'
+  example: []
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PriceListFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.PriceListFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -436,24 +329,16 @@ items:
   nameWithType: DBC.PriceListFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.PriceListFields.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPriceList.UpdatedAssociateId: Last updated by whom\n"
+  summary: 'PriceList.UpdatedAssociateId: Last updated by whom'
+  example: []
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.PriceListFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.PriceListFields.UpdatedCount
   id: UpdatedCount
@@ -465,41 +350,288 @@ items:
   nameWithType: DBC.PriceListFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.PriceListFields.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nPriceList.UpdatedCount: Number of updates made to this record\n"
+  summary: 'PriceList.UpdatedCount: Number of updates made to this record'
+  example: []
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -507,6 +639,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

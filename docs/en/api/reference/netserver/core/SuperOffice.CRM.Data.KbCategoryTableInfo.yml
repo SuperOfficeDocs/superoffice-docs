@@ -39,14 +39,21 @@ items:
   nameWithType: KbCategoryTableInfo
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTable &apos;kb_category&apos;: Knowledge base folder hierarchy\n"
-  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetKbCategoryInfo()\"></see>.\n"
+  summary: "Table 'kb_category': Knowledge base folder hierarchy"
+  remarks: >-
+    An instance of this class represents one instance of this table in an SQL statement. In most
+
+    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
+
+    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
+
+    then you will need multiple instances. <br />
+
+    Instances of this class are created by calling TablesInfo.GetKbCategoryInfo().
+  example: []
   syntax:
     content: >-
       [DatabaseTable("kb_category")]
@@ -55,9 +62,7 @@ items:
     content.vb: >-
       <DatabaseTable("kb_category")>
 
-      Public Class KbCategoryTableInfo
-          Inherits TableInfo
-          Implements ICloneable
+      Public Class KbCategoryTableInfo Inherits TableInfo Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.TableInfo
@@ -78,6 +83,12 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.KbCategoryTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.KbCategoryTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -87,12 +98,6 @@ items:
     arguments:
     - type: System.String
       value: kb_category
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.DictionaryTableName
   commentId: F:SuperOffice.CRM.Data.KbCategoryTableInfo.DictionaryTableName
   id: DictionaryTableName
@@ -104,24 +109,16 @@ items:
   nameWithType: KbCategoryTableInfo.DictionaryTableName
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.DictionaryTableName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nConceptual name of table KbCategory in the database dictionary: kb_category\n"
+  summary: 'Conceptual name of table KbCategory in the database dictionary: kb_category'
+  example: []
   syntax:
     content: public const string DictionaryTableName = "kb_category"
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "kb_category"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -133,13 +130,14 @@ items:
   nameWithType: KbCategoryTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.DictionaryTableNumber
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTable number for table KbCategory in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  summary: >-
+    Table number for table KbCategory in the database dictionary; potentially changes between databases, but
+
+    always the same over the lifetime of any single database
+  example: []
   syntax:
     content: public int DictionaryTableNumber { get; }
     parameters: []
@@ -147,12 +145,6 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.DictionaryTableNumber*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.RuntimeDefinition
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.RuntimeDefinition
   id: RuntimeDefinition
@@ -164,28 +156,32 @@ items:
   nameWithType: KbCategoryTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.RuntimeDefinition
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
   syntax:
-    content: public static SoTable RuntimeDefinition { get; }
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.RuntimeDefinition*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.Definition
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.Definition
   id: Definition
@@ -197,13 +193,11 @@ items:
   nameWithType: KbCategoryTableInfo.Definition
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.Definition
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
   syntax:
     content: public override SoTable Definition { get; }
     parameters: []
@@ -212,14 +206,6 @@ items:
     content.vb: Public Overrides ReadOnly Property Definition As SoTable
   overridden: SuperOffice.Data.SQL.TableInfo.Definition
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.Definition*
-  modifiers.csharp:
-  - public
-  - override
-  - get
-  modifiers.vb:
-  - Public
-  - Overrides
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.KbCategoryId
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.KbCategoryId
   id: KbCategoryId
@@ -231,13 +217,14 @@ items:
   nameWithType: KbCategoryTableInfo.KbCategoryId
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.KbCategoryId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;id&apos; in table &apos;kb_category&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe primary key (auto-incremented)\n"
+  summary: >-
+    Field 'id' in table 'kb_category': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The primary key (auto-incremented)
+  example: []
   syntax:
     content: public Int32FieldInfo KbCategoryId { get; }
     parameters: []
@@ -245,12 +232,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property KbCategoryId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.KbCategoryId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.ParentId
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.ParentId
   id: ParentId
@@ -262,13 +243,14 @@ items:
   nameWithType: KbCategoryTableInfo.ParentId
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.ParentId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;parent_id&apos; in table &apos;kb_category&apos;: Dictionary type FK, target: KbCategory, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThis entry contains a reference to the parent category. NULL or -1 if this is a toplevel category.\n"
+  summary: >-
+    Field 'parent_id' in table 'kb_category': Dictionary type FK, target: KbCategory, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    This entry contains a reference to the parent category. NULL or -1 if this is a toplevel category.
+  example: []
   syntax:
     content: public Int32FieldInfo ParentId { get; }
     parameters: []
@@ -276,12 +258,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ParentId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.ParentId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.Name
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.Name
   id: Name
@@ -293,13 +269,14 @@ items:
   nameWithType: KbCategoryTableInfo.Name
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.Name
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;name&apos; in table &apos;kb_category&apos;: Dictionary type String[65], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe name of this category.\n"
+  summary: >-
+    Field 'name' in table 'kb_category': Dictionary type String[65], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The name of this category.
+  example: []
   syntax:
     content: public StringFieldInfo Name { get; }
     parameters: []
@@ -307,12 +284,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Name As StringFieldInfo
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.Name*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.Fullname
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.Fullname
   id: Fullname
@@ -324,13 +295,14 @@ items:
   nameWithType: KbCategoryTableInfo.Fullname
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.Fullname
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;fullname&apos; in table &apos;kb_category&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe full name of this category, i.e. Foo/bar/test.\n"
+  summary: >-
+    Field 'fullname' in table 'kb_category': Dictionary type Clob, .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The full name of this category, i.e. Foo/bar/test.
+  example: []
   syntax:
     content: public StringFieldInfo Fullname { get; }
     parameters: []
@@ -338,12 +310,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Fullname As StringFieldInfo
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.Fullname*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.Description
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.Description
   id: Description
@@ -355,13 +321,14 @@ items:
   nameWithType: KbCategoryTableInfo.Description
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.Description
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;description&apos; in table &apos;kb_category&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe description of this category.\n"
+  summary: >-
+    Field 'description' in table 'kb_category': Dictionary type Clob, .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The description of this category.
+  example: []
   syntax:
     content: public StringFieldInfo Description { get; }
     parameters: []
@@ -369,12 +336,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Description As StringFieldInfo
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.Description*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.SortOrder
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.SortOrder
   id: SortOrder
@@ -386,13 +347,14 @@ items:
   nameWithType: KbCategoryTableInfo.SortOrder
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.SortOrder
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;sort_order&apos; in table &apos;kb_category&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nA strictly ascending number used for sorting categories when they are listed.\n"
+  summary: >-
+    Field 'sort_order' in table 'kb_category': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    A strictly ascending number used for sorting categories when they are listed.
+  example: []
   syntax:
     content: public Int32FieldInfo SortOrder { get; }
     parameters: []
@@ -400,12 +362,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property SortOrder As Int32FieldInfo
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.SortOrder*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.AccessLevel
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.AccessLevel
   id: AccessLevel
@@ -417,13 +373,14 @@ items:
   nameWithType: KbCategoryTableInfo.AccessLevel
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.AccessLevel
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;access_level&apos; in table &apos;kb_category&apos;: Dictionary type Enum, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe access level for this category (enum).\n"
+  summary: >-
+    Field 'access_level' in table 'kb_category': Dictionary type Enum, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The access level for this category (enum).
+  example: []
   syntax:
     content: public UInt16FieldInfo AccessLevel { get; }
     parameters: []
@@ -431,12 +388,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property AccessLevel As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.AccessLevel*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.InheritedAccessLevel
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.InheritedAccessLevel
   id: InheritedAccessLevel
@@ -448,13 +399,14 @@ items:
   nameWithType: KbCategoryTableInfo.InheritedAccessLevel
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.InheritedAccessLevel
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;inherited_access_level&apos; in table &apos;kb_category&apos;: Dictionary type Enum, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe lowest access level for this category or any parent\n"
+  summary: >-
+    Field 'inherited_access_level' in table 'kb_category': Dictionary type Enum, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The lowest access level for this category or any parent
+  example: []
   syntax:
     content: public UInt16FieldInfo InheritedAccessLevel { get; }
     parameters: []
@@ -462,12 +414,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property InheritedAccessLevel As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.InheritedAccessLevel*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.CreatedBy
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.CreatedBy
   id: CreatedBy
@@ -479,13 +425,14 @@ items:
   nameWithType: KbCategoryTableInfo.CreatedBy
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.CreatedBy
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;created_by&apos; in table &apos;kb_category&apos;: Dictionary type FK, target: Ejuser, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe id of the user who created this category.\n"
+  summary: >-
+    Field 'created_by' in table 'kb_category': Dictionary type FK, target: Ejuser, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The id of the user who created this category.
+  example: []
   syntax:
     content: public Int32FieldInfo CreatedBy { get; }
     parameters: []
@@ -493,12 +440,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property CreatedBy As Int32FieldInfo
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.CreatedBy*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.AccessCheck
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.AccessCheck
   id: AccessCheck
@@ -510,13 +451,14 @@ items:
   nameWithType: KbCategoryTableInfo.AccessCheck
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.AccessCheck
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;access_check&apos; in table &apos;kb_category&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nContains a Parser-script used for evaluating customer access to this category.\n"
+  summary: >-
+    Field 'access_check' in table 'kb_category': Dictionary type Clob, .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Contains a Parser-script used for evaluating customer access to this category.
+  example: []
   syntax:
     content: public StringFieldInfo AccessCheck { get; }
     parameters: []
@@ -524,12 +466,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property AccessCheck As StringFieldInfo
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.AccessCheck*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiAgentId
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.DbiAgentId
   id: DbiAgentId
@@ -541,13 +477,14 @@ items:
   nameWithType: KbCategoryTableInfo.DbiAgentId
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiAgentId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;dbi_agent_id&apos; in table &apos;kb_category&apos;: Dictionary type FK, target: DbiAgent, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIntegration agent (eJournal)\n"
+  summary: >-
+    Field 'dbi_agent_id' in table 'kb_category': Dictionary type FK, target: DbiAgent, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Integration agent (eJournal)
+  example: []
   syntax:
     content: public Int32FieldInfo DbiAgentId { get; }
     parameters: []
@@ -555,12 +492,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property DbiAgentId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiAgentId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiKey
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.DbiKey
   id: DbiKey
@@ -572,13 +503,14 @@ items:
   nameWithType: KbCategoryTableInfo.DbiKey
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiKey
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;dbi_key&apos; in table &apos;kb_category&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe primary key for the integrated entry in the external datasource.\n"
+  summary: >-
+    Field 'dbi_key' in table 'kb_category': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The primary key for the integrated entry in the external datasource.
+  example: []
   syntax:
     content: public StringFieldInfo DbiKey { get; }
     parameters: []
@@ -586,12 +518,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property DbiKey As StringFieldInfo
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiKey*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiLastSyncronized
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.DbiLastSyncronized
   id: DbiLastSyncronized
@@ -603,13 +529,14 @@ items:
   nameWithType: KbCategoryTableInfo.DbiLastSyncronized
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiLastSyncronized
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;dbi_last_syncronized&apos; in table &apos;kb_category&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast external syncronization.\n"
+  summary: >-
+    Field 'dbi_last_syncronized' in table 'kb_category': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Last external syncronization.
+  example: []
   syntax:
     content: public DateTimeFieldInfo DbiLastSyncronized { get; }
     parameters: []
@@ -617,12 +544,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property DbiLastSyncronized As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiLastSyncronized*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiLastModified
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.DbiLastModified
   id: DbiLastModified
@@ -634,13 +555,14 @@ items:
   nameWithType: KbCategoryTableInfo.DbiLastModified
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiLastModified
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;dbi_last_modified&apos; in table &apos;kb_category&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhen the entry was last modified.\n"
+  summary: >-
+    Field 'dbi_last_modified' in table 'kb_category': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    When the entry was last modified.
+  example: []
   syntax:
     content: public DateTimeFieldInfo DbiLastModified { get; }
     parameters: []
@@ -648,12 +570,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property DbiLastModified As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiLastModified*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.ParentId_InnerJoin_KbCategory
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.ParentId_InnerJoin_KbCategory
   id: ParentId_InnerJoin_KbCategory
@@ -665,13 +581,11 @@ items:
   nameWithType: KbCategoryTableInfo.ParentId_InnerJoin_KbCategory
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.ParentId_InnerJoin_KbCategory
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key ParentId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.KbCategoryTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key ParentId in this table, to its target table <xref href="SuperOffice.CRM.Data.KbCategoryTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<KbCategoryTableInfo> ParentId_InnerJoin_KbCategory { get; }
     parameters: []
@@ -679,12 +593,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.KbCategoryTableInfo}
     content.vb: Public ReadOnly Property ParentId_InnerJoin_KbCategory As TargetedInnerJoin(Of KbCategoryTableInfo)
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.ParentId_InnerJoin_KbCategory*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.CreatedBy_InnerJoin_Ejuser
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.CreatedBy_InnerJoin_Ejuser
   id: CreatedBy_InnerJoin_Ejuser
@@ -696,13 +604,11 @@ items:
   nameWithType: KbCategoryTableInfo.CreatedBy_InnerJoin_Ejuser
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.CreatedBy_InnerJoin_Ejuser
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key CreatedBy in this table, to its target table <xref href=\"SuperOffice.CRM.Data.EjuserTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key CreatedBy in this table, to its target table <xref href="SuperOffice.CRM.Data.EjuserTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<EjuserTableInfo> CreatedBy_InnerJoin_Ejuser { get; }
     parameters: []
@@ -710,12 +616,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.EjuserTableInfo}
     content.vb: Public ReadOnly Property CreatedBy_InnerJoin_Ejuser As TargetedInnerJoin(Of EjuserTableInfo)
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.CreatedBy_InnerJoin_Ejuser*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiAgentId_InnerJoin_DbiAgent
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.DbiAgentId_InnerJoin_DbiAgent
   id: DbiAgentId_InnerJoin_DbiAgent
@@ -727,13 +627,11 @@ items:
   nameWithType: KbCategoryTableInfo.DbiAgentId_InnerJoin_DbiAgent
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiAgentId_InnerJoin_DbiAgent
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key DbiAgentId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.DbiAgentTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key DbiAgentId in this table, to its target table <xref href="SuperOffice.CRM.Data.DbiAgentTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<DbiAgentTableInfo> DbiAgentId_InnerJoin_DbiAgent { get; }
     parameters: []
@@ -741,12 +639,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.DbiAgentTableInfo}
     content.vb: Public ReadOnly Property DbiAgentId_InnerJoin_DbiAgent As TargetedInnerJoin(Of DbiAgentTableInfo)
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiAgentId_InnerJoin_DbiAgent*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_MailInFilter_AutofaqKbCategory
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_MailInFilter_AutofaqKbCategory
   id: LeftOuterJoin_MailInFilter_AutofaqKbCategory
@@ -758,13 +650,11 @@ items:
   nameWithType: KbCategoryTableInfo.LeftOuterJoin_MailInFilter_AutofaqKbCategory
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_MailInFilter_AutofaqKbCategory
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key KbCategoryId on this table, to MailInFilter.<xref href=\"SuperOffice.CRM.Data.MailInFilterTableInfo.AutofaqKbCategory\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key KbCategoryId on this table, to MailInFilter.<xref href="SuperOffice.CRM.Data.MailInFilterTableInfo.AutofaqKbCategory" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<MailInFilterTableInfo> LeftOuterJoin_MailInFilter_AutofaqKbCategory { get; }
     parameters: []
@@ -772,12 +662,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.MailInFilterTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_MailInFilter_AutofaqKbCategory As TargetedLeftOuterJoin(Of MailInFilterTableInfo)
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_MailInFilter_AutofaqKbCategory*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbEntry_CategoryId
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbEntry_CategoryId
   id: LeftOuterJoin_KbEntry_CategoryId
@@ -789,13 +673,11 @@ items:
   nameWithType: KbCategoryTableInfo.LeftOuterJoin_KbEntry_CategoryId
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbEntry_CategoryId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key KbCategoryId on this table, to KbEntry.<xref href=\"SuperOffice.CRM.Data.KbEntryTableInfo.CategoryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key KbCategoryId on this table, to KbEntry.<xref href="SuperOffice.CRM.Data.KbEntryTableInfo.CategoryId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<KbEntryTableInfo> LeftOuterJoin_KbEntry_CategoryId { get; }
     parameters: []
@@ -803,12 +685,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.KbEntryTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_KbEntry_CategoryId As TargetedLeftOuterJoin(Of KbEntryTableInfo)
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbEntry_CategoryId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbGroup_KbCategoryId
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbGroup_KbCategoryId
   id: LeftOuterJoin_KbGroup_KbCategoryId
@@ -820,13 +696,11 @@ items:
   nameWithType: KbCategoryTableInfo.LeftOuterJoin_KbGroup_KbCategoryId
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbGroup_KbCategoryId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key KbCategoryId on this table, to KbGroup.<xref href=\"SuperOffice.CRM.Data.KbGroupTableInfo.KbCategoryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key KbCategoryId on this table, to KbGroup.<xref href="SuperOffice.CRM.Data.KbGroupTableInfo.KbCategoryId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<KbGroupTableInfo> LeftOuterJoin_KbGroup_KbCategoryId { get; }
     parameters: []
@@ -834,12 +708,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.KbGroupTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_KbGroup_KbCategoryId As TargetedLeftOuterJoin(Of KbGroupTableInfo)
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbGroup_KbCategoryId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbCategoryLog_KbCategoryId
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbCategoryLog_KbCategoryId
   id: LeftOuterJoin_KbCategoryLog_KbCategoryId
@@ -851,13 +719,11 @@ items:
   nameWithType: KbCategoryTableInfo.LeftOuterJoin_KbCategoryLog_KbCategoryId
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbCategoryLog_KbCategoryId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key KbCategoryId on this table, to KbCategoryLog.<xref href=\"SuperOffice.CRM.Data.KbCategoryLogTableInfo.KbCategoryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key KbCategoryId on this table, to KbCategoryLog.<xref href="SuperOffice.CRM.Data.KbCategoryLogTableInfo.KbCategoryId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<KbCategoryLogTableInfo> LeftOuterJoin_KbCategoryLog_KbCategoryId { get; }
     parameters: []
@@ -865,12 +731,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.KbCategoryLogTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_KbCategoryLog_KbCategoryId As TargetedLeftOuterJoin(Of KbCategoryLogTableInfo)
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbCategoryLog_KbCategoryId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_CustLang_KbRoot
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_CustLang_KbRoot
   id: LeftOuterJoin_CustLang_KbRoot
@@ -882,13 +742,11 @@ items:
   nameWithType: KbCategoryTableInfo.LeftOuterJoin_CustLang_KbRoot
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_CustLang_KbRoot
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key KbCategoryId on this table, to CustLang.<xref href=\"SuperOffice.CRM.Data.CustLangTableInfo.KbRoot\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key KbCategoryId on this table, to CustLang.<xref href="SuperOffice.CRM.Data.CustLangTableInfo.KbRoot" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<CustLangTableInfo> LeftOuterJoin_CustLang_KbRoot { get; }
     parameters: []
@@ -896,12 +754,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CustLangTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_CustLang_KbRoot As TargetedLeftOuterJoin(Of CustLangTableInfo)
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_CustLang_KbRoot*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_ChatTopic_KbCategoryId
   commentId: P:SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_ChatTopic_KbCategoryId
   id: LeftOuterJoin_ChatTopic_KbCategoryId
@@ -913,13 +765,11 @@ items:
   nameWithType: KbCategoryTableInfo.LeftOuterJoin_ChatTopic_KbCategoryId
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_ChatTopic_KbCategoryId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key KbCategoryId on this table, to ChatTopic.<xref href=\"SuperOffice.CRM.Data.ChatTopicTableInfo.KbCategoryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated left outer join from the primary key KbCategoryId on this table, to ChatTopic.<xref href="SuperOffice.CRM.Data.ChatTopicTableInfo.KbCategoryId" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedLeftOuterJoin<ChatTopicTableInfo> LeftOuterJoin_ChatTopic_KbCategoryId { get; }
     parameters: []
@@ -927,35 +777,68 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatTopicTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_ChatTopic_KbCategoryId As TargetedLeftOuterJoin(Of ChatTopicTableInfo)
   overload: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_ChatTopic_KbCategoryId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -963,241 +846,185 @@ references:
   commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   name: ToString()
   nameWithType: TableInfo.ToString()
   fullName: SuperOffice.Data.SQL.TableInfo.ToString()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
-    nameWithType: TableInfo.ToString
-    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
-    nameWithType: TableInfo.ToString
-    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: RegisterFields(FieldInfo[])
-  nameWithType: TableInfo.RegisterFields(FieldInfo[])
-  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
-  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
-  name.vb: RegisterFields(FieldInfo())
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  name: RegisterFields(params FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(ParamArray FieldInfo())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
-    nameWithType: TableInfo.RegisterFields
-    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: params
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: '['
+  - name: ']'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
-    nameWithType: TableInfo.RegisterFields
-    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: ParamArray
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   name: FieldInfoFromSoField(SoField)
   nameWithType: TableInfo.FieldInfoFromSoField(SoField)
   fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
-    nameWithType: TableInfo.FieldInfoFromSoField
-    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
-    nameWithType: SoField
-    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
-    nameWithType: TableInfo.FieldInfoFromSoField
-    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
-    nameWithType: SoField
-    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.Clone
   commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   name: Clone()
   nameWithType: TableInfo.Clone()
   fullName: SuperOffice.Data.SQL.TableInfo.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
-    nameWithType: TableInfo.Clone
-    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
-    nameWithType: TableInfo.Clone
-    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   name: IsSameTable(TableInfo)
   nameWithType: TableInfo.IsSameTable(TableInfo)
   fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
-    nameWithType: TableInfo.IsSameTable
-    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
-    nameWithType: TableInfo.IsSameTable
-    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: FindField(String)
-  nameWithType: TableInfo.FindField(String)
-  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  name: FindField(string)
+  nameWithType: TableInfo.FindField(string)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
+  nameWithType.vb: TableInfo.FindField(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
+  name.vb: FindField(String)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
-    nameWithType: TableInfo.FindField
-    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
-    nameWithType: TableInfo.FindField
-    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.ProtAll
   commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
@@ -1205,6 +1032,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
   name: HashCheckFields
   nameWithType: TableInfo.HashCheckFields
   fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
@@ -1212,6 +1040,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
   name: TableName
   nameWithType: TableInfo.TableName
   fullName: SuperOffice.Data.SQL.TableInfo.TableName
@@ -1219,6 +1048,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
@@ -1226,6 +1056,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
   name: IsDictionaryTable
   nameWithType: TableInfo.IsDictionaryTable
   fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
@@ -1233,6 +1064,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
   name: All
   nameWithType: TableInfo.All
   fullName: SuperOffice.Data.SQL.TableInfo.All
@@ -1240,136 +1072,389 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: Item[String]
-  nameWithType: TableInfo.Item[String]
-  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
-  nameWithType.vb: TableInfo.Item(String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-  name.vb: Item(String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string]
+  nameWithType: TableInfo.this[string]
+  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
+  nameWithType.vb: TableInfo.this[](String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
+  name.vb: this[](String)
   spec.csharp:
-  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: Item
-    nameWithType: TableInfo.Item
-    fullName: SuperOffice.Data.SQL.TableInfo.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: Item
-    nameWithType: TableInfo.Item
-    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    name: this[]
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<KbCategoryTableInfo, To>()
-  nameWithType: EnumUtil.MapEnums<KbCategoryTableInfo, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.KbCategoryTableInfo, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of KbCategoryTableInfo, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.KbCategoryTableInfo, To)()
-  name.vb: MapEnums(Of KbCategoryTableInfo, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<KbCategoryTableInfo, To>(KbCategoryTableInfo)
+  nameWithType: EnumUtil.MapEnums<KbCategoryTableInfo, To>(KbCategoryTableInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.KbCategoryTableInfo, To>(SuperOffice.CRM.Data.KbCategoryTableInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of KbCategoryTableInfo, To)(KbCategoryTableInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.KbCategoryTableInfo, To)(SuperOffice.CRM.Data.KbCategoryTableInfo)
+  name.vb: MapEnums(Of KbCategoryTableInfo, To)(KbCategoryTableInfo)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<KbCategoryTableInfo, To>
-    nameWithType: EnumUtil.MapEnums<KbCategoryTableInfo, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.KbCategoryTableInfo, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.KbCategoryTableInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.KbCategoryTableInfo
+    name: KbCategoryTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.KbCategoryTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Data.KbCategoryTableInfo
+    name: KbCategoryTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.KbCategoryTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of KbCategoryTableInfo, To)
-    nameWithType: EnumUtil.MapEnums(Of KbCategoryTableInfo, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.KbCategoryTableInfo, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.KbCategoryTableInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.KbCategoryTableInfo
+    name: KbCategoryTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.KbCategoryTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.KbCategoryTableInfo
+    name: KbCategoryTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.KbCategoryTableInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<KbCategoryTableInfo, To>()
-  nameWithType: Converters.MapEnums<KbCategoryTableInfo, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.KbCategoryTableInfo, To>()
-  nameWithType.vb: Converters.MapEnums(Of KbCategoryTableInfo, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.KbCategoryTableInfo, To)()
-  name.vb: MapEnums(Of KbCategoryTableInfo, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<KbCategoryTableInfo, To>(KbCategoryTableInfo)
+  nameWithType: Converters.MapEnums<KbCategoryTableInfo, To>(KbCategoryTableInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.KbCategoryTableInfo, To>(SuperOffice.CRM.Data.KbCategoryTableInfo)
+  nameWithType.vb: Converters.MapEnums(Of KbCategoryTableInfo, To)(KbCategoryTableInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.KbCategoryTableInfo, To)(SuperOffice.CRM.Data.KbCategoryTableInfo)
+  name.vb: MapEnums(Of KbCategoryTableInfo, To)(KbCategoryTableInfo)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<KbCategoryTableInfo, To>
-    nameWithType: Converters.MapEnums<KbCategoryTableInfo, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.KbCategoryTableInfo, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.KbCategoryTableInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.KbCategoryTableInfo
+    name: KbCategoryTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.KbCategoryTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Data.KbCategoryTableInfo
+    name: KbCategoryTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.KbCategoryTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of KbCategoryTableInfo, To)
-    nameWithType: Converters.MapEnums(Of KbCategoryTableInfo, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.KbCategoryTableInfo, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.KbCategoryTableInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.KbCategoryTableInfo
+    name: KbCategoryTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.KbCategoryTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.KbCategoryTableInfo
+    name: KbCategoryTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.KbCategoryTableInfo.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1378,43 +1463,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1423,57 +1510,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.DictionaryTableNumber
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_DictionaryTableNumber
   name: DictionaryTableNumber
   nameWithType: KbCategoryTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.DictionaryTableNumber
@@ -1481,12 +1605,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.RuntimeDefinition
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_RuntimeDefinition
   name: RuntimeDefinition
   nameWithType: KbCategoryTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.RuntimeDefinition
@@ -1494,31 +1623,66 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
 - uid: SuperOffice.Data.SQL.TableInfo.Definition
   commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
   name: Definition
   nameWithType: TableInfo.Definition
   fullName: SuperOffice.Data.SQL.TableInfo.Definition
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.Definition*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.Definition
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_Definition
   name: Definition
   nameWithType: KbCategoryTableInfo.Definition
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.Definition
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.KbCategoryId*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.KbCategoryId
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_KbCategoryId
   name: KbCategoryId
   nameWithType: KbCategoryTableInfo.KbCategoryId
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.KbCategoryId
@@ -1526,18 +1690,21 @@ references:
   commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.Int32FieldInfo.html
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.ParentId*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.ParentId
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_ParentId
   name: ParentId
   nameWithType: KbCategoryTableInfo.ParentId
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.ParentId
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.Name*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.Name
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_Name
   name: Name
   nameWithType: KbCategoryTableInfo.Name
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.Name
@@ -1545,30 +1712,46 @@ references:
   commentId: T:SuperOffice.Data.SQL.StringFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.StringFieldInfo.html
   name: StringFieldInfo
   nameWithType: StringFieldInfo
   fullName: SuperOffice.Data.SQL.StringFieldInfo
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.Fullname*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.Fullname
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_Fullname
   name: Fullname
   nameWithType: KbCategoryTableInfo.Fullname
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.Fullname
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.Description*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.Description
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_Description
   name: Description
   nameWithType: KbCategoryTableInfo.Description
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.Description
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.SortOrder*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.SortOrder
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_SortOrder
   name: SortOrder
   nameWithType: KbCategoryTableInfo.SortOrder
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.SortOrder
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.AccessLevel*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.AccessLevel
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_AccessLevel
   name: AccessLevel
   nameWithType: KbCategoryTableInfo.AccessLevel
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.AccessLevel
@@ -1576,42 +1759,60 @@ references:
   commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.InheritedAccessLevel*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.InheritedAccessLevel
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_InheritedAccessLevel
   name: InheritedAccessLevel
   nameWithType: KbCategoryTableInfo.InheritedAccessLevel
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.InheritedAccessLevel
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.CreatedBy*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.CreatedBy
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_CreatedBy
   name: CreatedBy
   nameWithType: KbCategoryTableInfo.CreatedBy
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.CreatedBy
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.AccessCheck*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.AccessCheck
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_AccessCheck
   name: AccessCheck
   nameWithType: KbCategoryTableInfo.AccessCheck
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.AccessCheck
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiAgentId*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.DbiAgentId
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_DbiAgentId
   name: DbiAgentId
   nameWithType: KbCategoryTableInfo.DbiAgentId
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiAgentId
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiKey*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.DbiKey
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_DbiKey
   name: DbiKey
   nameWithType: KbCategoryTableInfo.DbiKey
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiKey
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiLastSyncronized*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.DbiLastSyncronized
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_DbiLastSyncronized
   name: DbiLastSyncronized
   nameWithType: KbCategoryTableInfo.DbiLastSyncronized
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiLastSyncronized
@@ -1619,18 +1820,29 @@ references:
   commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
   name: DateTimeFieldInfo
   nameWithType: DateTimeFieldInfo
   fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiLastModified*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.DbiLastModified
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_DbiLastModified
   name: DbiLastModified
   nameWithType: KbCategoryTableInfo.DbiLastModified
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiLastModified
+- uid: SuperOffice.CRM.Data.KbCategoryTableInfo
+  commentId: T:SuperOffice.CRM.Data.KbCategoryTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html
+  name: KbCategoryTableInfo
+  nameWithType: KbCategoryTableInfo
+  fullName: SuperOffice.CRM.Data.KbCategoryTableInfo
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.ParentId_InnerJoin_KbCategory*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.ParentId_InnerJoin_KbCategory
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_ParentId_InnerJoin_KbCategory
   name: ParentId_InnerJoin_KbCategory
   nameWithType: KbCategoryTableInfo.ParentId_InnerJoin_KbCategory
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.ParentId_InnerJoin_KbCategory
@@ -1638,6 +1850,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.KbCategoryTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<KbCategoryTableInfo>
   nameWithType: TargetedInnerJoin<KbCategoryTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.KbCategoryTableInfo>
@@ -1647,40 +1860,31 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.KbCategoryTableInfo
     name: KbCategoryTableInfo
-    nameWithType: KbCategoryTableInfo
-    fullName: SuperOffice.CRM.Data.KbCategoryTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.KbCategoryTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.KbCategoryTableInfo
     name: KbCategoryTableInfo
-    nameWithType: KbCategoryTableInfo
-    fullName: SuperOffice.CRM.Data.KbCategoryTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.KbCategoryTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TargetTableInfo>
   nameWithType: TargetedInnerJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
@@ -1690,36 +1894,33 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.EjuserTableInfo
+  commentId: T:SuperOffice.CRM.Data.EjuserTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.EjuserTableInfo.html
+  name: EjuserTableInfo
+  nameWithType: EjuserTableInfo
+  fullName: SuperOffice.CRM.Data.EjuserTableInfo
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.CreatedBy_InnerJoin_Ejuser*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.CreatedBy_InnerJoin_Ejuser
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_CreatedBy_InnerJoin_Ejuser
   name: CreatedBy_InnerJoin_Ejuser
   nameWithType: KbCategoryTableInfo.CreatedBy_InnerJoin_Ejuser
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.CreatedBy_InnerJoin_Ejuser
@@ -1727,6 +1928,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.EjuserTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<EjuserTableInfo>
   nameWithType: TargetedInnerJoin<EjuserTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.EjuserTableInfo>
@@ -1736,40 +1938,39 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.EjuserTableInfo
     name: EjuserTableInfo
-    nameWithType: EjuserTableInfo
-    fullName: SuperOffice.CRM.Data.EjuserTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.EjuserTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.EjuserTableInfo
     name: EjuserTableInfo
-    nameWithType: EjuserTableInfo
-    fullName: SuperOffice.CRM.Data.EjuserTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.EjuserTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.DbiAgentTableInfo
+  commentId: T:SuperOffice.CRM.Data.DbiAgentTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.DbiAgentTableInfo.html
+  name: DbiAgentTableInfo
+  nameWithType: DbiAgentTableInfo
+  fullName: SuperOffice.CRM.Data.DbiAgentTableInfo
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiAgentId_InnerJoin_DbiAgent*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.DbiAgentId_InnerJoin_DbiAgent
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_DbiAgentId_InnerJoin_DbiAgent
   name: DbiAgentId_InnerJoin_DbiAgent
   nameWithType: KbCategoryTableInfo.DbiAgentId_InnerJoin_DbiAgent
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.DbiAgentId_InnerJoin_DbiAgent
@@ -1777,6 +1978,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.DbiAgentTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<DbiAgentTableInfo>
   nameWithType: TargetedInnerJoin<DbiAgentTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.DbiAgentTableInfo>
@@ -1786,40 +1988,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.DbiAgentTableInfo
     name: DbiAgentTableInfo
-    nameWithType: DbiAgentTableInfo
-    fullName: SuperOffice.CRM.Data.DbiAgentTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.DbiAgentTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.DbiAgentTableInfo
     name: DbiAgentTableInfo
-    nameWithType: DbiAgentTableInfo
-    fullName: SuperOffice.CRM.Data.DbiAgentTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.DbiAgentTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.MailInFilterTableInfo.AutofaqKbCategory
+  commentId: P:SuperOffice.CRM.Data.MailInFilterTableInfo.AutofaqKbCategory
+  isExternal: true
+  href: SuperOffice.CRM.Data.MailInFilterTableInfo.html#SuperOffice_CRM_Data_MailInFilterTableInfo_AutofaqKbCategory
+  name: AutofaqKbCategory
+  nameWithType: MailInFilterTableInfo.AutofaqKbCategory
+  fullName: SuperOffice.CRM.Data.MailInFilterTableInfo.AutofaqKbCategory
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_MailInFilter_AutofaqKbCategory*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_MailInFilter_AutofaqKbCategory
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_LeftOuterJoin_MailInFilter_AutofaqKbCategory
   name: LeftOuterJoin_MailInFilter_AutofaqKbCategory
   nameWithType: KbCategoryTableInfo.LeftOuterJoin_MailInFilter_AutofaqKbCategory
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_MailInFilter_AutofaqKbCategory
@@ -1827,6 +2027,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.MailInFilterTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<MailInFilterTableInfo>
   nameWithType: TargetedLeftOuterJoin<MailInFilterTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.MailInFilterTableInfo>
@@ -1836,40 +2037,31 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.MailInFilterTableInfo
     name: MailInFilterTableInfo
-    nameWithType: MailInFilterTableInfo
-    fullName: SuperOffice.CRM.Data.MailInFilterTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.MailInFilterTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.MailInFilterTableInfo
     name: MailInFilterTableInfo
-    nameWithType: MailInFilterTableInfo
-    fullName: SuperOffice.CRM.Data.MailInFilterTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.MailInFilterTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TargetTableInfo>
   nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
@@ -1879,36 +2071,32 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.KbEntryTableInfo.CategoryId
+  commentId: P:SuperOffice.CRM.Data.KbEntryTableInfo.CategoryId
+  isExternal: true
+  href: SuperOffice.CRM.Data.KbEntryTableInfo.html#SuperOffice_CRM_Data_KbEntryTableInfo_CategoryId
+  name: CategoryId
+  nameWithType: KbEntryTableInfo.CategoryId
+  fullName: SuperOffice.CRM.Data.KbEntryTableInfo.CategoryId
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbEntry_CategoryId*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbEntry_CategoryId
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_LeftOuterJoin_KbEntry_CategoryId
   name: LeftOuterJoin_KbEntry_CategoryId
   nameWithType: KbCategoryTableInfo.LeftOuterJoin_KbEntry_CategoryId
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbEntry_CategoryId
@@ -1916,6 +2104,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.KbEntryTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<KbEntryTableInfo>
   nameWithType: TargetedLeftOuterJoin<KbEntryTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.KbEntryTableInfo>
@@ -1925,40 +2114,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.KbEntryTableInfo
     name: KbEntryTableInfo
-    nameWithType: KbEntryTableInfo
-    fullName: SuperOffice.CRM.Data.KbEntryTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.KbEntryTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.KbEntryTableInfo
     name: KbEntryTableInfo
-    nameWithType: KbEntryTableInfo
-    fullName: SuperOffice.CRM.Data.KbEntryTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.KbEntryTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.KbGroupTableInfo.KbCategoryId
+  commentId: P:SuperOffice.CRM.Data.KbGroupTableInfo.KbCategoryId
+  isExternal: true
+  href: SuperOffice.CRM.Data.KbGroupTableInfo.html#SuperOffice_CRM_Data_KbGroupTableInfo_KbCategoryId
+  name: KbCategoryId
+  nameWithType: KbGroupTableInfo.KbCategoryId
+  fullName: SuperOffice.CRM.Data.KbGroupTableInfo.KbCategoryId
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbGroup_KbCategoryId*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbGroup_KbCategoryId
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_LeftOuterJoin_KbGroup_KbCategoryId
   name: LeftOuterJoin_KbGroup_KbCategoryId
   nameWithType: KbCategoryTableInfo.LeftOuterJoin_KbGroup_KbCategoryId
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbGroup_KbCategoryId
@@ -1966,6 +2153,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.KbGroupTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<KbGroupTableInfo>
   nameWithType: TargetedLeftOuterJoin<KbGroupTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.KbGroupTableInfo>
@@ -1975,40 +2163,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.KbGroupTableInfo
     name: KbGroupTableInfo
-    nameWithType: KbGroupTableInfo
-    fullName: SuperOffice.CRM.Data.KbGroupTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.KbGroupTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.KbGroupTableInfo
     name: KbGroupTableInfo
-    nameWithType: KbGroupTableInfo
-    fullName: SuperOffice.CRM.Data.KbGroupTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.KbGroupTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.KbCategoryLogTableInfo.KbCategoryId
+  commentId: P:SuperOffice.CRM.Data.KbCategoryLogTableInfo.KbCategoryId
+  isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryLogTableInfo.html#SuperOffice_CRM_Data_KbCategoryLogTableInfo_KbCategoryId
+  name: KbCategoryId
+  nameWithType: KbCategoryLogTableInfo.KbCategoryId
+  fullName: SuperOffice.CRM.Data.KbCategoryLogTableInfo.KbCategoryId
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbCategoryLog_KbCategoryId*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbCategoryLog_KbCategoryId
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_LeftOuterJoin_KbCategoryLog_KbCategoryId
   name: LeftOuterJoin_KbCategoryLog_KbCategoryId
   nameWithType: KbCategoryTableInfo.LeftOuterJoin_KbCategoryLog_KbCategoryId
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_KbCategoryLog_KbCategoryId
@@ -2016,6 +2202,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.KbCategoryLogTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<KbCategoryLogTableInfo>
   nameWithType: TargetedLeftOuterJoin<KbCategoryLogTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.KbCategoryLogTableInfo>
@@ -2025,40 +2212,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.KbCategoryLogTableInfo
     name: KbCategoryLogTableInfo
-    nameWithType: KbCategoryLogTableInfo
-    fullName: SuperOffice.CRM.Data.KbCategoryLogTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.KbCategoryLogTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.KbCategoryLogTableInfo
     name: KbCategoryLogTableInfo
-    nameWithType: KbCategoryLogTableInfo
-    fullName: SuperOffice.CRM.Data.KbCategoryLogTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.KbCategoryLogTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.CustLangTableInfo.KbRoot
+  commentId: P:SuperOffice.CRM.Data.CustLangTableInfo.KbRoot
+  isExternal: true
+  href: SuperOffice.CRM.Data.CustLangTableInfo.html#SuperOffice_CRM_Data_CustLangTableInfo_KbRoot
+  name: KbRoot
+  nameWithType: CustLangTableInfo.KbRoot
+  fullName: SuperOffice.CRM.Data.CustLangTableInfo.KbRoot
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_CustLang_KbRoot*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_CustLang_KbRoot
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_LeftOuterJoin_CustLang_KbRoot
   name: LeftOuterJoin_CustLang_KbRoot
   nameWithType: KbCategoryTableInfo.LeftOuterJoin_CustLang_KbRoot
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_CustLang_KbRoot
@@ -2066,6 +2251,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CustLangTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<CustLangTableInfo>
   nameWithType: TargetedLeftOuterJoin<CustLangTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.CustLangTableInfo>
@@ -2075,40 +2261,38 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.CustLangTableInfo
     name: CustLangTableInfo
-    nameWithType: CustLangTableInfo
-    fullName: SuperOffice.CRM.Data.CustLangTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.CustLangTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.CustLangTableInfo
     name: CustLangTableInfo
-    nameWithType: CustLangTableInfo
-    fullName: SuperOffice.CRM.Data.CustLangTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.CustLangTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.KbCategoryId
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.KbCategoryId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ChatTopicTableInfo.html#SuperOffice_CRM_Data_ChatTopicTableInfo_KbCategoryId
+  name: KbCategoryId
+  nameWithType: ChatTopicTableInfo.KbCategoryId
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.KbCategoryId
 - uid: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_ChatTopic_KbCategoryId*
   commentId: Overload:SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_ChatTopic_KbCategoryId
   isExternal: true
+  href: SuperOffice.CRM.Data.KbCategoryTableInfo.html#SuperOffice_CRM_Data_KbCategoryTableInfo_LeftOuterJoin_ChatTopic_KbCategoryId
   name: LeftOuterJoin_ChatTopic_KbCategoryId
   nameWithType: KbCategoryTableInfo.LeftOuterJoin_ChatTopic_KbCategoryId
   fullName: SuperOffice.CRM.Data.KbCategoryTableInfo.LeftOuterJoin_ChatTopic_KbCategoryId
@@ -2116,6 +2300,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatTopicTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<ChatTopicTableInfo>
   nameWithType: TargetedLeftOuterJoin<ChatTopicTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ChatTopicTableInfo>
@@ -2125,34 +2310,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.ChatTopicTableInfo
     name: ChatTopicTableInfo
-    nameWithType: ChatTopicTableInfo
-    fullName: SuperOffice.CRM.Data.ChatTopicTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.ChatTopicTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.ChatTopicTableInfo
     name: ChatTopicTableInfo
-    nameWithType: ChatTopicTableInfo
-    fullName: SuperOffice.CRM.Data.ChatTopicTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.ChatTopicTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )

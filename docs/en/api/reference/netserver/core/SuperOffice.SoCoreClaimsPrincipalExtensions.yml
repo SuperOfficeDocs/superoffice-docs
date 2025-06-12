@@ -1,0 +1,1612 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions
+  commentId: T:SuperOffice.SoCoreClaimsPrincipalExtensions
+  id: SoCoreClaimsPrincipalExtensions
+  parent: SuperOffice
+  children:
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCache(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCachedItem(System.Security.Claims.ClaimsPrincipal,System.String)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetAssociate(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetAssociateId(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetClaimsIdentity(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetContactId(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetContactOwnerId(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetContextIdentifier(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetCountryId(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetEMailAddress(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjAccessLevel(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjUserId(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjUserStatus(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetFullName(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetFunctionRights(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetGroupId(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetHomeCountryId(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetIsPerson(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetPersonId(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleDescription(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleId(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleName(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleType(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetSecondaryGroups(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserName(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserType(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.HasFunctionRight(System.Security.Claims.ClaimsPrincipal,System.String)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.IsSameUser(System.Security.Claims.ClaimsPrincipal,System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.IsValid(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String,``0,System.Double)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String,``0,System.TimeSpan)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.TryGetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String,``0@)
+  langs:
+  - csharp
+  - vb
+  name: SoCoreClaimsPrincipalExtensions
+  nameWithType: SoCoreClaimsPrincipalExtensions
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions
+  type: Class
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static class SoCoreClaimsPrincipalExtensions
+    content.vb: Public Module SoCoreClaimsPrincipalExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetClaimsIdentity(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetClaimsIdentity(System.Security.Claims.ClaimsPrincipal)
+  id: GetClaimsIdentity(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetClaimsIdentity(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetClaimsIdentity(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetClaimsIdentity(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static ClaimsIdentity GetClaimsIdentity(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.Security.Claims.ClaimsIdentity
+    content.vb: Public Shared Function GetClaimsIdentity(claimsPrincipal As ClaimsPrincipal) As ClaimsIdentity
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetClaimsIdentity*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.IsValid(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.IsValid(System.Security.Claims.ClaimsPrincipal)
+  id: IsValid(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsValid(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.IsValid(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.IsValid(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static bool IsValid(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsValid(claimsPrincipal As ClaimsPrincipal) As Boolean
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.IsValid*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserType(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserType(System.Security.Claims.ClaimsPrincipal)
+  id: GetUserType(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetUserType(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetUserType(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserType(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static UserType GetUserType(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: SuperOffice.License.UserType
+    content.vb: Public Shared Function GetUserType(claimsPrincipal As ClaimsPrincipal) As UserType
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserType*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetContextIdentifier(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetContextIdentifier(System.Security.Claims.ClaimsPrincipal)
+  id: GetContextIdentifier(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetContextIdentifier(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetContextIdentifier(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetContextIdentifier(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static string GetContextIdentifier(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetContextIdentifier(claimsPrincipal As ClaimsPrincipal) As String
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetContextIdentifier*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserName(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserName(System.Security.Claims.ClaimsPrincipal)
+  id: GetUserName(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetUserName(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetUserName(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserName(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static string GetUserName(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetUserName(claimsPrincipal As ClaimsPrincipal) As String
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserName*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetAssociate(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetAssociate(System.Security.Claims.ClaimsPrincipal)
+  id: GetAssociate(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetAssociate(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetAssociate(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetAssociate(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static string GetAssociate(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetAssociate(claimsPrincipal As ClaimsPrincipal) As String
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetAssociate*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetAssociateId(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetAssociateId(System.Security.Claims.ClaimsPrincipal)
+  id: GetAssociateId(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateId(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetAssociateId(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetAssociateId(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static int GetAssociateId(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetAssociateId(claimsPrincipal As ClaimsPrincipal) As Integer
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetAssociateId*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetFullName(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetFullName(System.Security.Claims.ClaimsPrincipal)
+  id: GetFullName(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetFullName(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetFullName(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetFullName(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static string GetFullName(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetFullName(claimsPrincipal As ClaimsPrincipal) As String
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetFullName*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEMailAddress(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetEMailAddress(System.Security.Claims.ClaimsPrincipal)
+  id: GetEMailAddress(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetEMailAddress(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetEMailAddress(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEMailAddress(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static string GetEMailAddress(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetEMailAddress(claimsPrincipal As ClaimsPrincipal) As String
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEMailAddress*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetIsPerson(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetIsPerson(System.Security.Claims.ClaimsPrincipal)
+  id: GetIsPerson(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetIsPerson(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetIsPerson(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetIsPerson(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static bool GetIsPerson(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetIsPerson(claimsPrincipal As ClaimsPrincipal) As Boolean
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetIsPerson*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetPersonId(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetPersonId(System.Security.Claims.ClaimsPrincipal)
+  id: GetPersonId(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetPersonId(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetPersonId(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetPersonId(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static int GetPersonId(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetPersonId(claimsPrincipal As ClaimsPrincipal) As Integer
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetPersonId*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetCountryId(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetCountryId(System.Security.Claims.ClaimsPrincipal)
+  id: GetCountryId(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetCountryId(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetCountryId(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetCountryId(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static int GetCountryId(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetCountryId(claimsPrincipal As ClaimsPrincipal) As Integer
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetCountryId*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetHomeCountryId(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetHomeCountryId(System.Security.Claims.ClaimsPrincipal)
+  id: GetHomeCountryId(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetHomeCountryId(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetHomeCountryId(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetHomeCountryId(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static int GetHomeCountryId(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetHomeCountryId(claimsPrincipal As ClaimsPrincipal) As Integer
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetHomeCountryId*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetContactId(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetContactId(System.Security.Claims.ClaimsPrincipal)
+  id: GetContactId(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetContactId(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetContactId(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetContactId(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static int GetContactId(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetContactId(claimsPrincipal As ClaimsPrincipal) As Integer
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetContactId*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetGroupId(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetGroupId(System.Security.Claims.ClaimsPrincipal)
+  id: GetGroupId(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetGroupId(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetGroupId(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetGroupId(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static int GetGroupId(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetGroupId(claimsPrincipal As ClaimsPrincipal) As Integer
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetGroupId*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetContactOwnerId(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetContactOwnerId(System.Security.Claims.ClaimsPrincipal)
+  id: GetContactOwnerId(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetContactOwnerId(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetContactOwnerId(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetContactOwnerId(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static int GetContactOwnerId(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetContactOwnerId(claimsPrincipal As ClaimsPrincipal) As Integer
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetContactOwnerId*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleId(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleId(System.Security.Claims.ClaimsPrincipal)
+  id: GetRoleId(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetRoleId(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetRoleId(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleId(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static int GetRoleId(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetRoleId(claimsPrincipal As ClaimsPrincipal) As Integer
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleId*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleName(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleName(System.Security.Claims.ClaimsPrincipal)
+  id: GetRoleName(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetRoleName(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetRoleName(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleName(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static string GetRoleName(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetRoleName(claimsPrincipal As ClaimsPrincipal) As String
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleName*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleDescription(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleDescription(System.Security.Claims.ClaimsPrincipal)
+  id: GetRoleDescription(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetRoleDescription(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetRoleDescription(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleDescription(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static string GetRoleDescription(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetRoleDescription(claimsPrincipal As ClaimsPrincipal) As String
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleDescription*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleType(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleType(System.Security.Claims.ClaimsPrincipal)
+  id: GetRoleType(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetRoleType(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetRoleType(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleType(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static RoleType GetRoleType(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: SuperOffice.Data.RoleType
+    content.vb: Public Shared Function GetRoleType(claimsPrincipal As ClaimsPrincipal) As RoleType
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleType*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.HasFunctionRight(System.Security.Claims.ClaimsPrincipal,System.String)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.HasFunctionRight(System.Security.Claims.ClaimsPrincipal,System.String)
+  id: HasFunctionRight(System.Security.Claims.ClaimsPrincipal,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: HasFunctionRight(ClaimsPrincipal, string)
+  nameWithType: SoCoreClaimsPrincipalExtensions.HasFunctionRight(ClaimsPrincipal, string)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.HasFunctionRight(System.Security.Claims.ClaimsPrincipal, string)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static bool HasFunctionRight(this ClaimsPrincipal claimsPrincipal, string functionRight)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    - id: functionRight
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasFunctionRight(claimsPrincipal As ClaimsPrincipal, functionRight As String) As Boolean
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.HasFunctionRight*
+  nameWithType.vb: SoCoreClaimsPrincipalExtensions.HasFunctionRight(ClaimsPrincipal, String)
+  fullName.vb: SuperOffice.SoCoreClaimsPrincipalExtensions.HasFunctionRight(System.Security.Claims.ClaimsPrincipal, String)
+  name.vb: HasFunctionRight(ClaimsPrincipal, String)
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetFunctionRights(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetFunctionRights(System.Security.Claims.ClaimsPrincipal)
+  id: GetFunctionRights(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetFunctionRights(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetFunctionRights(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetFunctionRights(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static string[] GetFunctionRights(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function GetFunctionRights(claimsPrincipal As ClaimsPrincipal) As String()
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetFunctionRights*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjUserId(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjUserId(System.Security.Claims.ClaimsPrincipal)
+  id: GetEjUserId(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetEjUserId(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetEjUserId(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjUserId(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static int GetEjUserId(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetEjUserId(claimsPrincipal As ClaimsPrincipal) As Integer
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjUserId*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjAccessLevel(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjAccessLevel(System.Security.Claims.ClaimsPrincipal)
+  id: GetEjAccessLevel(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetEjAccessLevel(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetEjAccessLevel(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjAccessLevel(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static EjAccess GetEjAccessLevel(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: SuperOffice.Data.EjAccess
+    content.vb: Public Shared Function GetEjAccessLevel(claimsPrincipal As ClaimsPrincipal) As EjAccess
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjAccessLevel*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjUserStatus(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjUserStatus(System.Security.Claims.ClaimsPrincipal)
+  id: GetEjUserStatus(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetEjUserStatus(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetEjUserStatus(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjUserStatus(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static EjUserStatus GetEjUserStatus(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: SuperOffice.Data.EjUserStatus
+    content.vb: Public Shared Function GetEjUserStatus(claimsPrincipal As ClaimsPrincipal) As EjUserStatus
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjUserStatus*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetSecondaryGroups(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetSecondaryGroups(System.Security.Claims.ClaimsPrincipal)
+  id: GetSecondaryGroups(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetSecondaryGroups(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetSecondaryGroups(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetSecondaryGroups(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static int[] GetSecondaryGroups(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.Int32[]
+    content.vb: Public Shared Function GetSecondaryGroups(claimsPrincipal As ClaimsPrincipal) As Integer()
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetSecondaryGroups*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.IsSameUser(System.Security.Claims.ClaimsPrincipal,System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.IsSameUser(System.Security.Claims.ClaimsPrincipal,System.Security.Claims.ClaimsPrincipal)
+  id: IsSameUser(System.Security.Claims.ClaimsPrincipal,System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsSameUser(ClaimsPrincipal, ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.IsSameUser(ClaimsPrincipal, ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.IsSameUser(System.Security.Claims.ClaimsPrincipal, System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static bool IsSameUser(this ClaimsPrincipal claimsPrincipal, ClaimsPrincipal otherPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    - id: otherPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSameUser(claimsPrincipal As ClaimsPrincipal, otherPrincipal As ClaimsPrincipal) As Boolean
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.IsSameUser*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String,``0,System.Double)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String,``0,System.Double)
+  id: SetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String,``0,System.Double)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetCachedItem<TItem>(ClaimsPrincipal, string, TItem, double)
+  nameWithType: SoCoreClaimsPrincipalExtensions.SetCachedItem<TItem>(ClaimsPrincipal, string, TItem, double)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem<TItem>(System.Security.Claims.ClaimsPrincipal, string, TItem, double)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static void SetCachedItem<TItem>(this ClaimsPrincipal claimsPrincipal, string cacheKey, TItem value, double seconds)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    - id: cacheKey
+      type: System.String
+    - id: value
+      type: '{TItem}'
+    - id: seconds
+      type: System.Double
+    typeParameters:
+    - id: TItem
+    content.vb: Public Shared Sub SetCachedItem(Of TItem)(claimsPrincipal As ClaimsPrincipal, cacheKey As String, value As TItem, seconds As Double)
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem*
+  nameWithType.vb: SoCoreClaimsPrincipalExtensions.SetCachedItem(Of TItem)(ClaimsPrincipal, String, TItem, Double)
+  fullName.vb: SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem(Of TItem)(System.Security.Claims.ClaimsPrincipal, String, TItem, Double)
+  name.vb: SetCachedItem(Of TItem)(ClaimsPrincipal, String, TItem, Double)
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String,``0,System.TimeSpan)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String,``0,System.TimeSpan)
+  id: SetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String,``0,System.TimeSpan)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetCachedItem<TItem>(ClaimsPrincipal, string, TItem, TimeSpan)
+  nameWithType: SoCoreClaimsPrincipalExtensions.SetCachedItem<TItem>(ClaimsPrincipal, string, TItem, TimeSpan)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem<TItem>(System.Security.Claims.ClaimsPrincipal, string, TItem, System.TimeSpan)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static void SetCachedItem<TItem>(this ClaimsPrincipal claimsPrincipal, string cacheKey, TItem value, TimeSpan duration)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    - id: cacheKey
+      type: System.String
+    - id: value
+      type: '{TItem}'
+    - id: duration
+      type: System.TimeSpan
+    typeParameters:
+    - id: TItem
+    content.vb: Public Shared Sub SetCachedItem(Of TItem)(claimsPrincipal As ClaimsPrincipal, cacheKey As String, value As TItem, duration As TimeSpan)
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem*
+  nameWithType.vb: SoCoreClaimsPrincipalExtensions.SetCachedItem(Of TItem)(ClaimsPrincipal, String, TItem, TimeSpan)
+  fullName.vb: SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem(Of TItem)(System.Security.Claims.ClaimsPrincipal, String, TItem, System.TimeSpan)
+  name.vb: SetCachedItem(Of TItem)(ClaimsPrincipal, String, TItem, TimeSpan)
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.TryGetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String,``0@)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.TryGetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String,``0@)
+  id: TryGetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String,``0@)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryGetCachedItem<TItem>(ClaimsPrincipal, string, out TItem)
+  nameWithType: SoCoreClaimsPrincipalExtensions.TryGetCachedItem<TItem>(ClaimsPrincipal, string, out TItem)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.TryGetCachedItem<TItem>(System.Security.Claims.ClaimsPrincipal, string, out TItem)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static bool TryGetCachedItem<TItem>(this ClaimsPrincipal claimsPrincipal, string cacheKey, out TItem item)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    - id: cacheKey
+      type: System.String
+    - id: item
+      type: '{TItem}'
+    typeParameters:
+    - id: TItem
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function TryGetCachedItem(Of TItem)(claimsPrincipal As ClaimsPrincipal, cacheKey As String, item As TItem) As Boolean
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.TryGetCachedItem*
+  nameWithType.vb: SoCoreClaimsPrincipalExtensions.TryGetCachedItem(Of TItem)(ClaimsPrincipal, String, TItem)
+  fullName.vb: SuperOffice.SoCoreClaimsPrincipalExtensions.TryGetCachedItem(Of TItem)(System.Security.Claims.ClaimsPrincipal, String, TItem)
+  name.vb: TryGetCachedItem(Of TItem)(ClaimsPrincipal, String, TItem)
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCachedItem(System.Security.Claims.ClaimsPrincipal,System.String)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCachedItem(System.Security.Claims.ClaimsPrincipal,System.String)
+  id: ClearCachedItem(System.Security.Claims.ClaimsPrincipal,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: ClearCachedItem(ClaimsPrincipal, string)
+  nameWithType: SoCoreClaimsPrincipalExtensions.ClearCachedItem(ClaimsPrincipal, string)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCachedItem(System.Security.Claims.ClaimsPrincipal, string)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static void ClearCachedItem(this ClaimsPrincipal claimsPrincipal, string cacheKey)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    - id: cacheKey
+      type: System.String
+    content.vb: Public Shared Sub ClearCachedItem(claimsPrincipal As ClaimsPrincipal, cacheKey As String)
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCachedItem*
+  nameWithType.vb: SoCoreClaimsPrincipalExtensions.ClearCachedItem(ClaimsPrincipal, String)
+  fullName.vb: SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCachedItem(System.Security.Claims.ClaimsPrincipal, String)
+  name.vb: ClearCachedItem(ClaimsPrincipal, String)
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCache(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCache(System.Security.Claims.ClaimsPrincipal)
+  id: ClearCache(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: ClearCache(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.ClearCache(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCache(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static void ClearCache(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    content.vb: Public Shared Sub ClearCache(claimsPrincipal As ClaimsPrincipal)
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCache*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String)
+  id: GetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetCachedItem<TItem>(ClaimsPrincipal, string)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetCachedItem<TItem>(ClaimsPrincipal, string)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetCachedItem<TItem>(System.Security.Claims.ClaimsPrincipal, string)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static TItem GetCachedItem<TItem>(this ClaimsPrincipal claimsPrincipal, string cacheKey)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    - id: cacheKey
+      type: System.String
+    typeParameters:
+    - id: TItem
+    return:
+      type: '{TItem}'
+    content.vb: Public Shared Function GetCachedItem(Of TItem)(claimsPrincipal As ClaimsPrincipal, cacheKey As String) As TItem
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetCachedItem*
+  nameWithType.vb: SoCoreClaimsPrincipalExtensions.GetCachedItem(Of TItem)(ClaimsPrincipal, String)
+  fullName.vb: SuperOffice.SoCoreClaimsPrincipalExtensions.GetCachedItem(Of TItem)(System.Security.Claims.ClaimsPrincipal, String)
+  name.vb: GetCachedItem(Of TItem)(ClaimsPrincipal, String)
+references:
+- uid: SuperOffice
+  commentId: N:SuperOffice
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice
+  nameWithType: SuperOffice
+  fullName: SuperOffice
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetClaimsIdentity*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetClaimsIdentity
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetClaimsIdentity_System_Security_Claims_ClaimsPrincipal_
+  name: GetClaimsIdentity
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetClaimsIdentity
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetClaimsIdentity
+- uid: System.Security.Claims.ClaimsPrincipal
+  commentId: T:System.Security.Claims.ClaimsPrincipal
+  parent: System.Security.Claims
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: System.Security.Claims.ClaimsPrincipal
+- uid: System.Security.Claims.ClaimsIdentity
+  commentId: T:System.Security.Claims.ClaimsIdentity
+  parent: System.Security.Claims
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  name: ClaimsIdentity
+  nameWithType: ClaimsIdentity
+  fullName: System.Security.Claims.ClaimsIdentity
+- uid: System.Security.Claims
+  commentId: N:System.Security.Claims
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Security.Claims
+  nameWithType: System.Security.Claims
+  fullName: System.Security.Claims
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Claims
+    name: Claims
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Claims
+    name: Claims
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.IsValid*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.IsValid
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_IsValid_System_Security_Claims_ClaimsPrincipal_
+  name: IsValid
+  nameWithType: SoCoreClaimsPrincipalExtensions.IsValid
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.IsValid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserType*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserType
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetUserType_System_Security_Claims_ClaimsPrincipal_
+  name: GetUserType
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetUserType
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserType
+- uid: SuperOffice.License.UserType
+  commentId: T:SuperOffice.License.UserType
+  parent: SuperOffice.License
+  isExternal: true
+  name: UserType
+  nameWithType: UserType
+  fullName: SuperOffice.License.UserType
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.License
+    name: License
+    isExternal: true
+    href: SuperOffice.License.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.License
+    name: License
+    isExternal: true
+    href: SuperOffice.License.html
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetContextIdentifier*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetContextIdentifier
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetContextIdentifier_System_Security_Claims_ClaimsPrincipal_
+  name: GetContextIdentifier
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetContextIdentifier
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetContextIdentifier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserName*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserName
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetUserName_System_Security_Claims_ClaimsPrincipal_
+  name: GetUserName
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetUserName
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserName
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetAssociate*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetAssociate
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetAssociate_System_Security_Claims_ClaimsPrincipal_
+  name: GetAssociate
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetAssociate
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetAssociate
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetAssociateId*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetAssociateId
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetAssociateId_System_Security_Claims_ClaimsPrincipal_
+  name: GetAssociateId
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetAssociateId
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetAssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetFullName*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetFullName
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetFullName_System_Security_Claims_ClaimsPrincipal_
+  name: GetFullName
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetFullName
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetFullName
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEMailAddress*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetEMailAddress
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetEMailAddress_System_Security_Claims_ClaimsPrincipal_
+  name: GetEMailAddress
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetEMailAddress
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEMailAddress
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetIsPerson*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetIsPerson
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetIsPerson_System_Security_Claims_ClaimsPrincipal_
+  name: GetIsPerson
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetIsPerson
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetIsPerson
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetPersonId*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetPersonId
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetPersonId_System_Security_Claims_ClaimsPrincipal_
+  name: GetPersonId
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetPersonId
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetPersonId
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetCountryId*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetCountryId
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetCountryId_System_Security_Claims_ClaimsPrincipal_
+  name: GetCountryId
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetCountryId
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetCountryId
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetHomeCountryId*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetHomeCountryId
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetHomeCountryId_System_Security_Claims_ClaimsPrincipal_
+  name: GetHomeCountryId
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetHomeCountryId
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetHomeCountryId
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetContactId*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetContactId
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetContactId_System_Security_Claims_ClaimsPrincipal_
+  name: GetContactId
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetContactId
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetContactId
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetGroupId*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetGroupId
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetGroupId_System_Security_Claims_ClaimsPrincipal_
+  name: GetGroupId
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetGroupId
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetGroupId
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetContactOwnerId*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetContactOwnerId
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetContactOwnerId_System_Security_Claims_ClaimsPrincipal_
+  name: GetContactOwnerId
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetContactOwnerId
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetContactOwnerId
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleId*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleId
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetRoleId_System_Security_Claims_ClaimsPrincipal_
+  name: GetRoleId
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetRoleId
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleId
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleName*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleName
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetRoleName_System_Security_Claims_ClaimsPrincipal_
+  name: GetRoleName
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetRoleName
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleName
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleDescription*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleDescription
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetRoleDescription_System_Security_Claims_ClaimsPrincipal_
+  name: GetRoleDescription
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetRoleDescription
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleDescription
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleType*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleType
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetRoleType_System_Security_Claims_ClaimsPrincipal_
+  name: GetRoleType
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetRoleType
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleType
+- uid: SuperOffice.Data.RoleType
+  commentId: T:SuperOffice.Data.RoleType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.RoleType.html
+  name: RoleType
+  nameWithType: RoleType
+  fullName: SuperOffice.Data.RoleType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.HasFunctionRight*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.HasFunctionRight
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_HasFunctionRight_System_Security_Claims_ClaimsPrincipal_System_String_
+  name: HasFunctionRight
+  nameWithType: SoCoreClaimsPrincipalExtensions.HasFunctionRight
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.HasFunctionRight
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetFunctionRights*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetFunctionRights
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetFunctionRights_System_Security_Claims_ClaimsPrincipal_
+  name: GetFunctionRights
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetFunctionRights
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetFunctionRights
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjUserId*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjUserId
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetEjUserId_System_Security_Claims_ClaimsPrincipal_
+  name: GetEjUserId
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetEjUserId
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjUserId
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjAccessLevel*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjAccessLevel
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetEjAccessLevel_System_Security_Claims_ClaimsPrincipal_
+  name: GetEjAccessLevel
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetEjAccessLevel
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjAccessLevel
+- uid: SuperOffice.Data.EjAccess
+  commentId: T:SuperOffice.Data.EjAccess
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.EjAccess.html
+  name: EjAccess
+  nameWithType: EjAccess
+  fullName: SuperOffice.Data.EjAccess
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjUserStatus*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjUserStatus
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetEjUserStatus_System_Security_Claims_ClaimsPrincipal_
+  name: GetEjUserStatus
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetEjUserStatus
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetEjUserStatus
+- uid: SuperOffice.Data.EjUserStatus
+  commentId: T:SuperOffice.Data.EjUserStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.EjUserStatus.html
+  name: EjUserStatus
+  nameWithType: EjUserStatus
+  fullName: SuperOffice.Data.EjUserStatus
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetSecondaryGroups*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetSecondaryGroups
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetSecondaryGroups_System_Security_Claims_ClaimsPrincipal_
+  name: GetSecondaryGroups
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetSecondaryGroups
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetSecondaryGroups
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.IsSameUser*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.IsSameUser
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_IsSameUser_System_Security_Claims_ClaimsPrincipal_System_Security_Claims_ClaimsPrincipal_
+  name: IsSameUser
+  nameWithType: SoCoreClaimsPrincipalExtensions.IsSameUser
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.IsSameUser
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_SetCachedItem__1_System_Security_Claims_ClaimsPrincipal_System_String___0_System_Double_
+  name: SetCachedItem
+  nameWithType: SoCoreClaimsPrincipalExtensions.SetCachedItem
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem
+- uid: '{TItem}'
+  commentId: '!:TItem'
+  definition: TItem
+  name: TItem
+  nameWithType: TItem
+  fullName: TItem
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: TItem
+  name: TItem
+  nameWithType: TItem
+  fullName: TItem
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.TryGetCachedItem*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.TryGetCachedItem
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_TryGetCachedItem__1_System_Security_Claims_ClaimsPrincipal_System_String___0__
+  name: TryGetCachedItem
+  nameWithType: SoCoreClaimsPrincipalExtensions.TryGetCachedItem
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.TryGetCachedItem
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCachedItem*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCachedItem
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_ClearCachedItem_System_Security_Claims_ClaimsPrincipal_System_String_
+  name: ClearCachedItem
+  nameWithType: SoCoreClaimsPrincipalExtensions.ClearCachedItem
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCachedItem
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCache*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCache
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_ClearCache_System_Security_Claims_ClaimsPrincipal_
+  name: ClearCache
+  nameWithType: SoCoreClaimsPrincipalExtensions.ClearCache
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.ClearCache
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetCachedItem*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetCachedItem
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetCachedItem__1_System_Security_Claims_ClaimsPrincipal_System_String_
+  name: GetCachedItem
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetCachedItem
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetCachedItem

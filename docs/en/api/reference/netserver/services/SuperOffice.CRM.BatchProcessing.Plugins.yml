@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BatchProcessing.Plugins
+  commentId: N:SuperOffice.CRM.BatchProcessing.Plugins
+  id: SuperOffice.CRM.BatchProcessing.Plugins
+  children:
+  - SuperOffice.CRM.BatchProcessing.Plugins.StatusMonitorRegenerateBatchPlugin
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.BatchProcessing.Plugins
+  nameWithType: SuperOffice.CRM.BatchProcessing.Plugins
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins
+  type: Namespace
+  assemblies:
+  - SuperOffice.Services.Implementation
+references:
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.StatusMonitorRegenerateBatchPlugin
+  commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.StatusMonitorRegenerateBatchPlugin
+  isExternal: true
+  href: SuperOffice.CRM.BatchProcessing.Plugins.StatusMonitorRegenerateBatchPlugin.html
+  name: StatusMonitorRegenerateBatchPlugin
+  nameWithType: StatusMonitorRegenerateBatchPlugin
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.StatusMonitorRegenerateBatchPlugin

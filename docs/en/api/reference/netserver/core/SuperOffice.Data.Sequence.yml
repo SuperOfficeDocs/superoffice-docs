@@ -10,7 +10,12 @@ items:
   - SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.SQL.TableInfo,System.Int32)
   - SuperOffice.Data.Sequence.GetNext(System.Int32,System.Int32)
+  - SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.Dictionary.SoTable,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+  - SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.SQL.TableInfo,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.SQL.TableInfo,System.Threading.CancellationToken)
   - SuperOffice.Data.Sequence.GetNextBatch(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.Sequence.GetNextBatchAsync(SuperOffice.Data.PKContainer,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -18,27 +23,302 @@ items:
   nameWithType: Sequence
   fullName: SuperOffice.Data.Sequence
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nUtility functions for getting primary keys. Keys are &quot;burned&quot; permanently and cannot be re-used. \nKey reservation is a potential bottleneck, so if you know in advance how many keys you will need,\nyou should reserve them in one call.\n"
+  summary: >-
+    Utility functions for getting primary keys. Keys are "burned" permanently and cannot be re-used. 
+
+    Key reservation is a potential bottleneck, so if you know in advance how many keys you will need,
+
+    you should reserve them in one call.
+  example: []
   syntax:
-    content: 'public static class Sequence : Object'
-    content.vb: >-
-      Public Module Sequence
-          Inherits Object
+    content: public static class Sequence
+    content.vb: Public Module Sequence
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+  id: GetNextAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Sequence
+  langs:
+  - csharp
+  - vb
+  name: GetNextAsync(SoTable, CancellationToken)
+  nameWithType: Sequence.GetNextAsync(SoTable, CancellationToken)
+  fullName: SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.Dictionary.SoTable, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: Get the next primary key for a table given the definition of a table
+  example: []
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task<int> GetNextAsync(SoTable soTable, CancellationToken cancellationToken = default)
+    parameters:
+    - id: soTable
+      type: SuperOffice.Data.Dictionary.SoTable
+      description: Defininition of the table from the runtime dictionary
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: New (e.g. next) primary key value, given information about a table table.
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function GetNextAsync(soTable As SoTable, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Data.Sequence.GetNextAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+- uid: SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.SQL.TableInfo,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.SQL.TableInfo,System.Threading.CancellationToken)
+  id: GetNextAsync(SuperOffice.Data.SQL.TableInfo,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Sequence
+  langs:
+  - csharp
+  - vb
+  name: GetNextAsync(TableInfo, CancellationToken)
+  nameWithType: Sequence.GetNextAsync(TableInfo, CancellationToken)
+  fullName: SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.SQL.TableInfo, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: Get the next primary key for a given table .
+  example: []
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task<int> GetNextAsync(TableInfo tableInfo, CancellationToken cancellationToken = default)
+    parameters:
+    - id: tableInfo
+      type: SuperOffice.Data.SQL.TableInfo
+      description: TableInfo object representing the table.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: New (e.g. next) primary key value
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function GetNextAsync(tableInfo As TableInfo, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Data.Sequence.GetNextAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+- uid: SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.Dictionary.SoTable,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.Dictionary.SoTable,System.Int32,System.Threading.CancellationToken)
+  id: GetNextAsync(SuperOffice.Data.Dictionary.SoTable,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Sequence
+  langs:
+  - csharp
+  - vb
+  name: GetNextAsync(SoTable, int, CancellationToken)
+  nameWithType: Sequence.GetNextAsync(SoTable, int, CancellationToken)
+  fullName: SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.Dictionary.SoTable, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: Get the next primary key range for a table given the definition of a table
+  example: []
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task<int> GetNextAsync(SoTable soTable, int count, CancellationToken cancellationToken = default)
+    parameters:
+    - id: soTable
+      type: SuperOffice.Data.Dictionary.SoTable
+      description: Defininition of the table from the runtime dictionary
+    - id: count
+      type: System.Int32
+      description: Number of records to reserve keys for
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: The first new key of the desired range
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function GetNextAsync(soTable As SoTable, count As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Data.Sequence.GetNextAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: Sequence.GetNextAsync(SoTable, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.Dictionary.SoTable, Integer, System.Threading.CancellationToken)
+  name.vb: GetNextAsync(SoTable, Integer, CancellationToken)
+- uid: SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.SQL.TableInfo,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.SQL.TableInfo,System.Int32,System.Threading.CancellationToken)
+  id: GetNextAsync(SuperOffice.Data.SQL.TableInfo,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Sequence
+  langs:
+  - csharp
+  - vb
+  name: GetNextAsync(TableInfo, int, CancellationToken)
+  nameWithType: Sequence.GetNextAsync(TableInfo, int, CancellationToken)
+  fullName: SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.SQL.TableInfo, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: Get the next primary key range for a given table .
+  example: []
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task<int> GetNextAsync(TableInfo tableInfo, int count, CancellationToken cancellationToken = default)
+    parameters:
+    - id: tableInfo
+      type: SuperOffice.Data.SQL.TableInfo
+      description: TableInfo object representing the table.
+    - id: count
+      type: System.Int32
+      description: Number of records to reserve keys for
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: The first new key of the desired range
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function GetNextAsync(tableInfo As TableInfo, count As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.Data.Sequence.GetNextAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: Sequence.GetNextAsync(TableInfo, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Data.Sequence.GetNextAsync(SuperOffice.Data.SQL.TableInfo, Integer, System.Threading.CancellationToken)
+  name.vb: GetNextAsync(TableInfo, Integer, CancellationToken)
+- uid: SuperOffice.Data.Sequence.GetNextBatchAsync(SuperOffice.Data.PKContainer,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Sequence.GetNextBatchAsync(SuperOffice.Data.PKContainer,System.Threading.CancellationToken)
+  id: GetNextBatchAsync(SuperOffice.Data.PKContainer,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Sequence
+  langs:
+  - csharp
+  - vb
+  name: GetNextBatchAsync(PKContainer, CancellationToken)
+  nameWithType: Sequence.GetNextBatchAsync(PKContainer, CancellationToken)
+  fullName: SuperOffice.Data.Sequence.GetNextBatchAsync(SuperOffice.Data.PKContainer, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: Collect several new primary keys for new row objects held by the PKContainer.
+  example: []
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static Task GetNextBatchAsync(PKContainer pkContainer, CancellationToken cancellationToken = default)
+    parameters:
+    - id: pkContainer
+      type: SuperOffice.Data.PKContainer
+      description: Object holding information about inserts in need of next sequence id's
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function GetNextBatchAsync(pkContainer As PKContainer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.Sequence.GetNextBatchAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+- uid: SuperOffice.Data.Sequence.GetNext(System.Int32,System.Int32)
+  commentId: M:SuperOffice.Data.Sequence.GetNext(System.Int32,System.Int32)
+  id: GetNext(System.Int32,System.Int32)
+  parent: SuperOffice.Data.Sequence
+  langs:
+  - csharp
+  - vb
+  name: GetNext(int, int)
+  nameWithType: Sequence.GetNext(int, int)
+  fullName: SuperOffice.Data.Sequence.GetNext(int, int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: Reserve a set of new id's from the sequence table, given the tables sequence number.
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Please use an overload taking TableInfo or SoTable; not all tables have a sequence number! - the overloads will handle those as well.", false)]
+
+      public static int GetNext(int sequenceID, int count)
+    parameters:
+    - id: sequenceID
+      type: System.Int32
+      description: Sequence id of the table.
+    - id: count
+      type: System.Int32
+      description: Number of new sequence id's to reserve
+    return:
+      type: System.Int32
+      description: First id of the range.
+    content.vb: >-
+      <Obsolete("Please use an overload taking TableInfo or SoTable; not all tables have a sequence number! - the overloads will handle those as well.", False)>
+
+      Public Shared Function GetNext(sequenceID As Integer, count As Integer) As Integer
+  overload: SuperOffice.Data.Sequence.GetNext*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Please use an overload taking TableInfo or SoTable; not all tables have a sequence number! - the overloads will handle those as well.
+    - type: System.Boolean
+      value: false
+  nameWithType.vb: Sequence.GetNext(Integer, Integer)
+  fullName.vb: SuperOffice.Data.Sequence.GetNext(Integer, Integer)
+  name.vb: GetNext(Integer, Integer)
 - uid: SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.Dictionary.SoTable)
   commentId: M:SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.Dictionary.SoTable)
   id: GetNext(SuperOffice.Data.Dictionary.SoTable)
@@ -50,13 +330,11 @@ items:
   nameWithType: Sequence.GetNext(SoTable)
   fullName: SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.Dictionary.SoTable)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nGet the next primary key for a table given the definition of a table\n"
+  summary: Get the next primary key for a table given the definition of a table
+  example: []
   syntax:
     content: public static int GetNext(SoTable soTable)
     parameters:
@@ -68,12 +346,6 @@ items:
       description: New (e.g. next) primary key value, given information about a table table.
     content.vb: Public Shared Function GetNext(soTable As SoTable) As Integer
   overload: SuperOffice.Data.Sequence.GetNext*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.SQL.TableInfo)
   id: GetNext(SuperOffice.Data.SQL.TableInfo)
@@ -85,13 +357,11 @@ items:
   nameWithType: Sequence.GetNext(TableInfo)
   fullName: SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.SQL.TableInfo)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nGet the next primary key for a given table .\n"
+  summary: Get the next primary key for a given table .
+  example: []
   syntax:
     content: public static int GetNext(TableInfo tableInfo)
     parameters:
@@ -103,12 +373,6 @@ items:
       description: New (e.g. next) primary key value
     content.vb: Public Shared Function GetNext(tableInfo As TableInfo) As Integer
   overload: SuperOffice.Data.Sequence.GetNext*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.Dictionary.SoTable,System.Int32)
   commentId: M:SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.Dictionary.SoTable,System.Int32)
   id: GetNext(SuperOffice.Data.Dictionary.SoTable,System.Int32)
@@ -116,17 +380,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetNext(SoTable, Int32)
-  nameWithType: Sequence.GetNext(SoTable, Int32)
-  fullName: SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.Dictionary.SoTable, System.Int32)
+  name: GetNext(SoTable, int)
+  nameWithType: Sequence.GetNext(SoTable, int)
+  fullName: SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.Dictionary.SoTable, int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nGet the next primary key range for a table given the definition of a table\n"
+  summary: Get the next primary key range for a table given the definition of a table
+  example: []
   syntax:
     content: public static int GetNext(SoTable soTable, int count)
     parameters:
@@ -141,12 +403,9 @@ items:
       description: The first new key of the desired range
     content.vb: Public Shared Function GetNext(soTable As SoTable, count As Integer) As Integer
   overload: SuperOffice.Data.Sequence.GetNext*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: Sequence.GetNext(SoTable, Integer)
+  fullName.vb: SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.Dictionary.SoTable, Integer)
+  name.vb: GetNext(SoTable, Integer)
 - uid: SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.SQL.TableInfo,System.Int32)
   commentId: M:SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.SQL.TableInfo,System.Int32)
   id: GetNext(SuperOffice.Data.SQL.TableInfo,System.Int32)
@@ -154,17 +413,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetNext(TableInfo, Int32)
-  nameWithType: Sequence.GetNext(TableInfo, Int32)
-  fullName: SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.SQL.TableInfo, System.Int32)
+  name: GetNext(TableInfo, int)
+  nameWithType: Sequence.GetNext(TableInfo, int)
+  fullName: SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.SQL.TableInfo, int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nGet the next primary key range for a given table .\n"
+  summary: Get the next primary key range for a given table .
+  example: []
   syntax:
     content: public static int GetNext(TableInfo tableInfo, int count)
     parameters:
@@ -179,12 +436,9 @@ items:
       description: The first new key of the desired range
     content.vb: Public Shared Function GetNext(tableInfo As TableInfo, count As Integer) As Integer
   overload: SuperOffice.Data.Sequence.GetNext*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: Sequence.GetNext(TableInfo, Integer)
+  fullName.vb: SuperOffice.Data.Sequence.GetNext(SuperOffice.Data.SQL.TableInfo, Integer)
+  name.vb: GetNext(TableInfo, Integer)
 - uid: SuperOffice.Data.Sequence.GetNextBatch(SuperOffice.Data.PKContainer)
   commentId: M:SuperOffice.Data.Sequence.GetNextBatch(SuperOffice.Data.PKContainer)
   id: GetNextBatch(SuperOffice.Data.PKContainer)
@@ -196,134 +450,561 @@ items:
   nameWithType: Sequence.GetNextBatch(PKContainer)
   fullName: SuperOffice.Data.Sequence.GetNextBatch(SuperOffice.Data.PKContainer)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nCollect several new primary keys for new row objects held by the PKContainer. \n"
+  summary: Collect several new primary keys for new row objects held by the PKContainer.
+  example: []
   syntax:
     content: public static void GetNextBatch(PKContainer pkContainer)
     parameters:
     - id: pkContainer
       type: SuperOffice.Data.PKContainer
-      description: Object holding information about inserts in need of next sequence id&apos;s
+      description: Object holding information about inserts in need of next sequence id's
     content.vb: Public Shared Sub GetNextBatch(pkContainer As PKContainer)
   overload: SuperOffice.Data.Sequence.GetNextBatch*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Data.Sequence.GetNext(System.Int32,System.Int32)
-  commentId: M:SuperOffice.Data.Sequence.GetNext(System.Int32,System.Int32)
-  id: GetNext(System.Int32,System.Int32)
-  parent: SuperOffice.Data.Sequence
-  langs:
-  - csharp
-  - vb
-  name: GetNext(Int32, Int32)
-  nameWithType: Sequence.GetNext(Int32, Int32)
-  fullName: SuperOffice.Data.Sequence.GetNext(System.Int32, System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nReserve a set of new id&apos;s from the sequence table, given the tables sequence number.\n"
-  syntax:
-    content: public static int GetNext(int sequenceID, int count)
-    parameters:
-    - id: sequenceID
-      type: System.Int32
-      description: Sequence id of the table.
-    - id: count
-      type: System.Int32
-      description: Number of new sequence id&apos;s to reserve
-    return:
-      type: System.Int32
-      description: First id of the range.
-    content.vb: Public Shared Function GetNext(sequenceID As Integer, count As Integer) As Integer
-  overload: SuperOffice.Data.Sequence.GetNext*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.Data.Sequence.GetNext*
-  commentId: Overload:SuperOffice.Data.Sequence.GetNext
+- uid: SuperOffice.Data.Sequence.GetNextAsync*
+  commentId: Overload:SuperOffice.Data.Sequence.GetNextAsync
   isExternal: true
-  name: GetNext
-  nameWithType: Sequence.GetNext
-  fullName: SuperOffice.Data.Sequence.GetNext
+  href: SuperOffice.Data.Sequence.html#SuperOffice_Data_Sequence_GetNextAsync_SuperOffice_Data_Dictionary_SoTable_System_Threading_CancellationToken_
+  name: GetNextAsync
+  nameWithType: Sequence.GetNextAsync
+  fullName: SuperOffice.Data.Sequence.GetNextAsync
 - uid: SuperOffice.Data.Dictionary.SoTable
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: SuperOffice.Data.Sequence.GetNextBatch*
-  commentId: Overload:SuperOffice.Data.Sequence.GetNextBatch
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  name: GetNextBatch
-  nameWithType: Sequence.GetNextBatch
-  fullName: SuperOffice.Data.Sequence.GetNextBatch
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.Data.Sequence.GetNextBatchAsync*
+  commentId: Overload:SuperOffice.Data.Sequence.GetNextBatchAsync
+  isExternal: true
+  href: SuperOffice.Data.Sequence.html#SuperOffice_Data_Sequence_GetNextBatchAsync_SuperOffice_Data_PKContainer_System_Threading_CancellationToken_
+  name: GetNextBatchAsync
+  nameWithType: Sequence.GetNextBatchAsync
+  fullName: SuperOffice.Data.Sequence.GetNextBatchAsync
 - uid: SuperOffice.Data.PKContainer
   commentId: T:SuperOffice.Data.PKContainer
   parent: SuperOffice.Data
   isExternal: true
+  href: SuperOffice.Data.PKContainer.html
   name: PKContainer
   nameWithType: PKContainer
   fullName: SuperOffice.Data.PKContainer
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Data.Sequence.GetNext*
+  commentId: Overload:SuperOffice.Data.Sequence.GetNext
+  isExternal: true
+  href: SuperOffice.Data.Sequence.html#SuperOffice_Data_Sequence_GetNext_System_Int32_System_Int32_
+  name: GetNext
+  nameWithType: Sequence.GetNext
+  fullName: SuperOffice.Data.Sequence.GetNext
+- uid: SuperOffice.Data.Sequence.GetNextBatch*
+  commentId: Overload:SuperOffice.Data.Sequence.GetNextBatch
+  isExternal: true
+  href: SuperOffice.Data.Sequence.html#SuperOffice_Data_Sequence_GetNextBatch_SuperOffice_Data_PKContainer_
+  name: GetNextBatch
+  nameWithType: Sequence.GetNextBatch
+  fullName: SuperOffice.Data.Sequence.GetNextBatch

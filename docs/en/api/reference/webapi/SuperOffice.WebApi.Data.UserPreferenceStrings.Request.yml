@@ -30,26 +30,22 @@ items:
   nameWithType: UserPreferenceStrings.Request
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   syntax:
-    content: 'public static class Request : Object'
-    content.vb: >-
-      Public Module Request
-          Inherits Object
+    content: public static class UserPreferenceStrings.Request
+    content.vb: Public Module UserPreferenceStrings.Request
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.Section
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.Section
   id: Section
@@ -61,9 +57,6 @@ items:
   nameWithType: UserPreferenceStrings.Request.Section
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.Section
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -72,12 +65,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Section As String = "request"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NumExpandedMsg
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NumExpandedMsg
   id: NumExpandedMsg
@@ -89,24 +76,16 @@ items:
   nameWithType: UserPreferenceStrings.Request.NumExpandedMsg
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NumExpandedMsg
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(INTEGER) Indicates the number of message that should be expanded when viewing request\n"
+  summary: (INTEGER) Indicates the number of message that should be expanded when viewing request
+  example: []
   syntax:
     content: public const string NumExpandedMsg = "numExpandedMsg"
     return:
       type: System.String
     content.vb: Public Const NumExpandedMsg As String = "numExpandedMsg"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.ShowLastOnTop
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.ShowLastOnTop
   id: ShowLastOnTop
@@ -118,24 +97,16 @@ items:
   nameWithType: UserPreferenceStrings.Request.ShowLastOnTop
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.ShowLastOnTop
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(BOOL) Sort messages by showing most recent at top of request\n"
+  summary: (BOOL) Sort messages by showing most recent at top of request
+  example: []
   syntax:
     content: public const string ShowLastOnTop = "showlastOnTop"
     return:
       type: System.String
     content.vb: Public Const ShowLastOnTop As String = "showlastOnTop"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.PreviewImageAttachment
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.PreviewImageAttachment
   id: PreviewImageAttachment
@@ -147,24 +118,16 @@ items:
   nameWithType: UserPreferenceStrings.Request.PreviewImageAttachment
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.PreviewImageAttachment
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(BOOL) When viewing a message, also automatically show all image attachments\n"
+  summary: (BOOL) When viewing a message, also automatically show all image attachments
+  example: []
   syntax:
     content: public const string PreviewImageAttachment = "previewImageAttachment"
     return:
       type: System.String
     content.vb: Public Const PreviewImageAttachment As String = "previewImageAttachment"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NewWindowWhenAdding
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NewWindowWhenAdding
   id: NewWindowWhenAdding
@@ -176,24 +139,16 @@ items:
   nameWithType: UserPreferenceStrings.Request.NewWindowWhenAdding
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NewWindowWhenAdding
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(BOOL) Open new tab in browser when adding a message\n"
+  summary: (BOOL) Open new tab in browser when adding a message
+  example: []
   syntax:
     content: public const string NewWindowWhenAdding = "newWindowWhenAdding"
     return:
       type: System.String
     content.vb: Public Const NewWindowWhenAdding As String = "newWindowWhenAdding"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NoWarnOnLoss
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NoWarnOnLoss
   id: NoWarnOnLoss
@@ -205,24 +160,16 @@ items:
   nameWithType: UserPreferenceStrings.Request.NoWarnOnLoss
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NoWarnOnLoss
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(BOOL) Do not show a warning when navigating away without having saved screen\n"
+  summary: (BOOL) Do not show a warning when navigating away without having saved screen
+  example: []
   syntax:
     content: public const string NoWarnOnLoss = "noWarnOnLoss"
     return:
       type: System.String
     content.vb: Public Const NoWarnOnLoss As String = "noWarnOnLoss"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.SimplifiedEditor
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.SimplifiedEditor
   id: SimplifiedEditor
@@ -234,24 +181,16 @@ items:
   nameWithType: UserPreferenceStrings.Request.SimplifiedEditor
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.SimplifiedEditor
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(BOOL) Use a simplified editor when writing a message on a request\n"
+  summary: (BOOL) Use a simplified editor when writing a message on a request
+  example: []
   syntax:
     content: public const string SimplifiedEditor = "simplifiedEditor"
     return:
       type: System.String
     content.vb: Public Const SimplifiedEditor As String = "simplifiedEditor"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.SingleLineBreaks
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.SingleLineBreaks
   id: SingleLineBreaks
@@ -263,24 +202,16 @@ items:
   nameWithType: UserPreferenceStrings.Request.SingleLineBreaks
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.SingleLineBreaks
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(BOOL) Use a single line break when pressing enter in the editor instead of double line breaks\n"
+  summary: (BOOL) Use a single line break when pressing enter in the editor instead of double line breaks
+  example: []
   syntax:
     content: public const string SingleLineBreaks = "singleLineBreaks"
     return:
       type: System.String
     content.vb: Public Const SingleLineBreaks As String = "singleLineBreaks"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.CheckBoxOnLeft
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.CheckBoxOnLeft
   id: CheckBoxOnLeft
@@ -292,24 +223,16 @@ items:
   nameWithType: UserPreferenceStrings.Request.CheckBoxOnLeft
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.CheckBoxOnLeft
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(BOOL) Place check boxes on left side of lists instead of the right side\n"
+  summary: (BOOL) Place check boxes on left side of lists instead of the right side
+  example: []
   syntax:
     content: public const string CheckBoxOnLeft = "checkBoxOnLeft"
     return:
       type: System.String
     content.vb: Public Const CheckBoxOnLeft As String = "checkBoxOnLeft"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultRequestStatus
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultRequestStatus
   id: DefaultRequestStatus
@@ -321,24 +244,16 @@ items:
   nameWithType: UserPreferenceStrings.Request.DefaultRequestStatus
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultRequestStatus
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(INTEGER) The default request status when creating a new request\n"
+  summary: (INTEGER) The default request status when creating a new request
+  example: []
   syntax:
     content: public const string DefaultRequestStatus = "defaultRequestStatus"
     return:
       type: System.String
     content.vb: Public Const DefaultRequestStatus As String = "defaultRequestStatus"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultMessageStatus
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultMessageStatus
   id: DefaultMessageStatus
@@ -350,24 +265,16 @@ items:
   nameWithType: UserPreferenceStrings.Request.DefaultMessageStatus
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultMessageStatus
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(INTEGER) The default request status when adding a message to a request\n"
+  summary: (INTEGER) The default request status when adding a message to a request
+  example: []
   syntax:
     content: public const string DefaultMessageStatus = "defaultMessageStatus"
     return:
       type: System.String
     content.vb: Public Const DefaultMessageStatus As String = "defaultMessageStatus"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OwnRequestsOnly
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OwnRequestsOnly
   id: OwnRequestsOnly
@@ -379,24 +286,16 @@ items:
   nameWithType: UserPreferenceStrings.Request.OwnRequestsOnly
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OwnRequestsOnly
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(BOOL) Only show requests from categories the user is a member of\n"
+  summary: (BOOL) Only show requests from categories the user is a member of
+  example: []
   syntax:
     content: public const string OwnRequestsOnly = "ownRequestsOnly"
     return:
       type: System.String
     content.vb: Public Const OwnRequestsOnly As String = "ownRequestsOnly"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.AutoQuoteLastmessage
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.AutoQuoteLastmessage
   id: AutoQuoteLastmessage
@@ -408,24 +307,16 @@ items:
   nameWithType: UserPreferenceStrings.Request.AutoQuoteLastmessage
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.AutoQuoteLastmessage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(BOOL) Automatically include and quote last message when replying\n"
+  summary: (BOOL) Automatically include and quote last message when replying
+  example: []
   syntax:
     content: public const string AutoQuoteLastmessage = "autoQuoteLastmessage"
     return:
       type: System.String
     content.vb: Public Const AutoQuoteLastmessage As String = "autoQuoteLastmessage"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OnlyOpenInFavourites
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OnlyOpenInFavourites
   id: OnlyOpenInFavourites
@@ -437,24 +328,16 @@ items:
   nameWithType: UserPreferenceStrings.Request.OnlyOpenInFavourites
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OnlyOpenInFavourites
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(BOOL) When showing favourite request list, only show requests with status open\n"
+  summary: (BOOL) When showing favourite request list, only show requests with status open
+  example: []
   syntax:
     content: public const string OnlyOpenInFavourites = "onlyOpenInFavourites"
     return:
       type: System.String
     content.vb: Public Const OnlyOpenInFavourites As String = "onlyOpenInFavourites"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OnlyOwnCategories
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OnlyOwnCategories
   id: OnlyOwnCategories
@@ -466,24 +349,16 @@ items:
   nameWithType: UserPreferenceStrings.Request.OnlyOwnCategories
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OnlyOwnCategories
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(BOOL) In category choosers, only show categories that the user is a member of\n"
+  summary: (BOOL) In category choosers, only show categories that the user is a member of
+  example: []
   syntax:
     content: public const string OnlyOwnCategories = "onlyOwnCategories"
     return:
       type: System.String
     content.vb: Public Const OnlyOwnCategories As String = "onlyOwnCategories"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.UseLastCategory
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.UseLastCategory
   id: UseLastCategory
@@ -495,24 +370,16 @@ items:
   nameWithType: UserPreferenceStrings.Request.UseLastCategory
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.UseLastCategory
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(BOOL) When creating a new request, set the selected category to the last used category\n"
+  summary: (BOOL) When creating a new request, set the selected category to the last used category
+  example: []
   syntax:
     content: public const string UseLastCategory = "useLastCategory"
     return:
       type: System.String
     content.vb: Public Const UseLastCategory As String = "useLastCategory"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.RequestDefaultCategory
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.RequestDefaultCategory
   id: RequestDefaultCategory
@@ -524,24 +391,16 @@ items:
   nameWithType: UserPreferenceStrings.Request.RequestDefaultCategory
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.RequestDefaultCategory
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(INTEGER) The default category when creating a new request\n"
+  summary: (INTEGER) The default category when creating a new request
+  example: []
   syntax:
     content: public const string RequestDefaultCategory = "requestDefaultCategory"
     return:
       type: System.String
     content.vb: Public Const RequestDefaultCategory As String = "requestDefaultCategory"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultOwner
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultOwner
   id: DefaultOwner
@@ -553,41 +412,288 @@ items:
   nameWithType: UserPreferenceStrings.Request.DefaultOwner
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultOwner
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n(INTEGER) The default owner when creating a new request\n"
+  summary: (INTEGER) The default owner when creating a new request
+  example: []
   syntax:
     content: public const string DefaultOwner = "defaultOwner"
     return:
       type: System.String
     content.vb: Public Const DefaultOwner As String = "defaultOwner"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -595,6 +701,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

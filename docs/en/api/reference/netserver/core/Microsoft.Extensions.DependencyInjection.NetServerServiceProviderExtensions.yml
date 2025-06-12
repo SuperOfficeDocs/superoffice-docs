@@ -13,26 +13,22 @@ items:
   nameWithType: NetServerServiceProviderExtensions
   fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: Microsoft.Extensions.DependencyInjection
   syntax:
-    content: 'public static class NetServerServiceProviderExtensions : Object'
-    content.vb: >-
-      Public Module NetServerServiceProviderExtensions
-          Inherits Object
+    content: public static class NetServerServiceProviderExtensions
+    content.vb: Public Module NetServerServiceProviderExtensions
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer(System.IServiceProvider,System.Action{Microsoft.Extensions.DependencyInjection.NetServerOptions})
   commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer(System.IServiceProvider,System.Action{Microsoft.Extensions.DependencyInjection.NetServerOptions})
   id: RegisterWithNetServer(System.IServiceProvider,System.Action{Microsoft.Extensions.DependencyInjection.NetServerOptions})
@@ -45,78 +41,336 @@ items:
   nameWithType: NetServerServiceProviderExtensions.RegisterWithNetServer(IServiceProvider, Action<NetServerOptions>)
   fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer(System.IServiceProvider, System.Action<Microsoft.Extensions.DependencyInjection.NetServerOptions>)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: Microsoft.Extensions.DependencyInjection
-  summary: "\nRegister the service provider with NetServer.  NetServer Core must be registered in the underlying IOC container using\n<xref href=\"Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore%60%601(Microsoft.Extensions.DependencyInjection.IServiceCollection%2cSystem.Action%7bMicrosoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder%7d)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  summary: >-
+    Register the service provider with NetServer.  NetServer Core must be registered in the underlying IOC container using
+
+    NetServerServiceCollectionExtensions.AddNetServerCore(IServiceCollection, Action&lt;NetServerCoreOptionsBuilder&gt;)
+  example: []
   syntax:
     content: public static IServiceProvider RegisterWithNetServer(this IServiceProvider serviceProvider, Action<NetServerOptions> configureOptions = null)
     parameters:
     - id: serviceProvider
       type: System.IServiceProvider
+      description: ''
     - id: configureOptions
       type: System.Action{Microsoft.Extensions.DependencyInjection.NetServerOptions}
     return:
       type: System.IServiceProvider
       description: The instance of the service providcer used by NetServer.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function RegisterWithNetServer(serviceProvider As IServiceProvider, configureOptions As Action(Of NetServerOptions) = Nothing) As IServiceProvider
+    content.vb: Public Shared Function RegisterWithNetServer(serviceProvider As IServiceProvider, configureOptions As Action(Of NetServerOptions) = Nothing) As IServiceProvider
   overload: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer*
   exceptions:
   - type: System.Reflection.TargetInvocationException
     commentId: T:System.Reflection.TargetInvocationException
     description: Thrown if NetServer core is not added to the IOC container.
   nameWithType.vb: NetServerServiceProviderExtensions.RegisterWithNetServer(IServiceProvider, Action(Of NetServerOptions))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer(System.IServiceProvider, System.Action(Of Microsoft.Extensions.DependencyInjection.NetServerOptions))
   name.vb: RegisterWithNetServer(IServiceProvider, Action(Of NetServerOptions))
 references:
 - uid: Microsoft.Extensions.DependencyInjection
   commentId: N:Microsoft.Extensions.DependencyInjection
   isExternal: true
+  href: Microsoft.html
   name: Microsoft.Extensions.DependencyInjection
   nameWithType: Microsoft.Extensions.DependencyInjection
   fullName: Microsoft.Extensions.DependencyInjection
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: Microsoft.html
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: Microsoft.Extensions.html
+  - name: .
+  - uid: Microsoft.Extensions.DependencyInjection
+    name: DependencyInjection
+    isExternal: true
+    href: Microsoft.Extensions.DependencyInjection.html
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: Microsoft.html
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: Microsoft.Extensions.html
+  - name: .
+  - uid: Microsoft.Extensions.DependencyInjection
+    name: DependencyInjection
+    isExternal: true
+    href: Microsoft.Extensions.DependencyInjection.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer*
-  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer
-  isExternal: true
-  name: RegisterWithNetServer
-  nameWithType: NetServerServiceProviderExtensions.RegisterWithNetServer
-  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer
 - uid: System.Reflection.TargetInvocationException
   commentId: T:System.Reflection.TargetInvocationException
   isExternal: true
-- uid: System.IServiceProvider
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.targetinvocationexception
+  name: TargetInvocationException
+  nameWithType: TargetInvocationException
+  fullName: System.Reflection.TargetInvocationException
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer
   isExternal: true
+  href: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.html#Microsoft_Extensions_DependencyInjection_NetServerServiceProviderExtensions_RegisterWithNetServer_System_IServiceProvider_System_Action_Microsoft_Extensions_DependencyInjection_NetServerOptions__
+  name: RegisterWithNetServer
+  nameWithType: NetServerServiceProviderExtensions.RegisterWithNetServer
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
   name: IServiceProvider
   nameWithType: IServiceProvider
   fullName: System.IServiceProvider
 - uid: System.Action{Microsoft.Extensions.DependencyInjection.NetServerOptions}
-  commentId: '!:System.Action{Microsoft.Extensions.DependencyInjection.NetServerOptions}'
+  commentId: T:System.Action{Microsoft.Extensions.DependencyInjection.NetServerOptions}
+  parent: System
   definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
   name: Action<NetServerOptions>
   nameWithType: Action<NetServerOptions>
   fullName: System.Action<Microsoft.Extensions.DependencyInjection.NetServerOptions>
@@ -126,72 +380,52 @@ references:
   spec.csharp:
   - uid: System.Action`1
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: Microsoft.Extensions.DependencyInjection.NetServerOptions
     name: NetServerOptions
-    nameWithType: NetServerOptions
-    fullName: Microsoft.Extensions.DependencyInjection.NetServerOptions
     isExternal: true
+    href: Microsoft.Extensions.DependencyInjection.NetServerOptions.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: Microsoft.Extensions.DependencyInjection.NetServerOptions
     name: NetServerOptions
-    nameWithType: NetServerOptions
-    fullName: Microsoft.Extensions.DependencyInjection.NetServerOptions
     isExternal: true
+    href: Microsoft.Extensions.DependencyInjection.NetServerOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Action`1
+  commentId: T:System.Action`1
   isExternal: true
-  name: Action<>
-  nameWithType: Action<>
-  fullName: System.Action<>
-  nameWithType.vb: Action(Of )
-  fullName.vb: System.Action(Of )
-  name.vb: Action(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
   spec.csharp:
   - uid: System.Action`1
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
-    nameWithType: Action
-    fullName: System.Action
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )

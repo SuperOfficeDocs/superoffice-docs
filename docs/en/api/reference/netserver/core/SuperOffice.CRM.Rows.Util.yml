@@ -6,7 +6,6 @@ items:
   children:
   - SuperOffice.CRM.Rows.Util.CurrencyConversionHelper
   - SuperOffice.CRM.Rows.Util.EUDefType
-  - SuperOffice.CRM.Rows.Util.PublishHelper
   - SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
   - SuperOffice.CRM.Rows.Util.RowHelper
   - SuperOffice.CRM.Rows.Util.UDefHelper
@@ -23,26 +22,21 @@ references:
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper
   commentId: T:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper
   isExternal: true
+  href: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.html
   name: CurrencyConversionHelper
   nameWithType: CurrencyConversionHelper
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper
-- uid: SuperOffice.CRM.Rows.Util.PublishHelper
-  commentId: T:SuperOffice.CRM.Rows.Util.PublishHelper
-  parent: SuperOffice.CRM.Rows.Util
-  isExternal: true
-  name: PublishHelper
-  nameWithType: PublishHelper
-  fullName: SuperOffice.CRM.Rows.Util.PublishHelper
 - uid: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
   commentId: T:SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
-  parent: SuperOffice.CRM.Rows.Util
   isExternal: true
+  href: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper.html
   name: RowForeignKeyHelper
   nameWithType: RowForeignKeyHelper
   fullName: SuperOffice.CRM.Rows.Util.RowForeignKeyHelper
 - uid: SuperOffice.CRM.Rows.Util.RowHelper
   commentId: T:SuperOffice.CRM.Rows.Util.RowHelper
   isExternal: true
+  href: SuperOffice.CRM.Rows.Util.RowHelper.html
   name: RowHelper
   nameWithType: RowHelper
   fullName: SuperOffice.CRM.Rows.Util.RowHelper
@@ -50,18 +44,61 @@ references:
   commentId: T:SuperOffice.CRM.Rows.Util.EUDefType
   parent: SuperOffice.CRM.Rows.Util
   isExternal: true
+  href: SuperOffice.CRM.Rows.Util.EUDefType.html
   name: EUDefType
   nameWithType: EUDefType
   fullName: SuperOffice.CRM.Rows.Util.EUDefType
 - uid: SuperOffice.CRM.Rows.Util.UDefHelper
   commentId: T:SuperOffice.CRM.Rows.Util.UDefHelper
   isExternal: true
+  href: SuperOffice.CRM.Rows.Util.UDefHelper.html
   name: UDefHelper
   nameWithType: UDefHelper
   fullName: SuperOffice.CRM.Rows.Util.UDefHelper
 - uid: SuperOffice.CRM.Rows.Util
   commentId: N:SuperOffice.CRM.Rows.Util
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Rows.Util
   nameWithType: SuperOffice.CRM.Rows.Util
   fullName: SuperOffice.CRM.Rows.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.CRM.Rows.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.CRM.Rows.Util.html

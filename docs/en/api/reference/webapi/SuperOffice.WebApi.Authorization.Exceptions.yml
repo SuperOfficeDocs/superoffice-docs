@@ -21,6 +21,7 @@ references:
   commentId: T:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
   parent: SuperOffice.WebApi.Authorization.Exceptions
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.html
   name: SuperOfficeWebApiException
   nameWithType: SuperOfficeWebApiException
   fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
@@ -28,18 +29,61 @@ references:
   commentId: T:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException
   parent: SuperOffice.WebApi.Authorization.Exceptions
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException.html
   name: SuperOfficeWebApiUnauthorizedException
   nameWithType: SuperOfficeWebApiUnauthorizedException
   fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException
 - uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException
   commentId: T:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException.html
   name: SuperOfficeWebApiWrongSubdomainException
   nameWithType: SuperOfficeWebApiWrongSubdomainException
   fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException
 - uid: SuperOffice.WebApi.Authorization.Exceptions
   commentId: N:SuperOffice.WebApi.Authorization.Exceptions
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Authorization.Exceptions
   nameWithType: SuperOffice.WebApi.Authorization.Exceptions
   fullName: SuperOffice.WebApi.Authorization.Exceptions
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization
+    name: Authorization
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization.Exceptions
+    name: Exceptions
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.Exceptions.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization
+    name: Authorization
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization.Exceptions
+    name: Exceptions
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.Exceptions.html

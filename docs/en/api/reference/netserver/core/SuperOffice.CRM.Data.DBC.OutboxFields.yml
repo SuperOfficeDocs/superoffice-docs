@@ -28,27 +28,24 @@ items:
   nameWithType: DBC.OutboxFields
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for Outbox, Outgoing emails with sending status and other info\n"
+  summary: Fields for Outbox, Outgoing emails with sending status and other info
+  example: []
   syntax:
-    content: 'public static class OutboxFields : Object'
-    content.vb: >-
-      Public Module OutboxFields
-          Inherits Object
+    content: public static class DBC.OutboxFields
+    content.vb: Public Module DBC.OutboxFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.OutboxFields.OutboxId
   commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.OutboxId
   id: OutboxId
@@ -60,24 +57,16 @@ items:
   nameWithType: DBC.OutboxFields.OutboxId
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields.OutboxId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nOutbox.OutboxId: Primary key\n"
+  summary: 'Outbox.OutboxId: Primary key'
+  example: []
   syntax:
     content: public const string OutboxId = "id"
     return:
       type: System.String
     content.vb: Public Const OutboxId As String = "id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.OutboxFields.TicketId
   commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.TicketId
   id: TicketId
@@ -89,24 +78,16 @@ items:
   nameWithType: DBC.OutboxFields.TicketId
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields.TicketId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nOutbox.TicketId: The ticket.id this reference is connected to.\n"
+  summary: 'Outbox.TicketId: The ticket.id this reference is connected to.'
+  example: []
   syntax:
     content: public const string TicketId = "ticket_id"
     return:
       type: System.String
     content.vb: Public Const TicketId As String = "ticket_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.OutboxFields.MessageId
   commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.MessageId
   id: MessageId
@@ -118,24 +99,16 @@ items:
   nameWithType: DBC.OutboxFields.MessageId
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields.MessageId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nOutbox.MessageId: The message.id this reference is connected to.\n"
+  summary: 'Outbox.MessageId: The message.id this reference is connected to.'
+  example: []
   syntax:
     content: public const string MessageId = "message_id"
     return:
       type: System.String
     content.vb: Public Const MessageId As String = "message_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.OutboxFields.Subject
   commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.Subject
   id: Subject
@@ -147,24 +120,16 @@ items:
   nameWithType: DBC.OutboxFields.Subject
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields.Subject
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nOutbox.Subject: Subject of the mail\n"
+  summary: 'Outbox.Subject: Subject of the mail'
+  example: []
   syntax:
     content: public const string Subject = "subject"
     return:
       type: System.String
     content.vb: Public Const Subject As String = "subject"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.OutboxFields.FromEmail
   commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.FromEmail
   id: FromEmail
@@ -176,24 +141,16 @@ items:
   nameWithType: DBC.OutboxFields.FromEmail
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields.FromEmail
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nOutbox.FromEmail: Mail address of the sender\n"
+  summary: 'Outbox.FromEmail: Mail address of the sender'
+  example: []
   syntax:
     content: public const string FromEmail = "from_email"
     return:
       type: System.String
     content.vb: Public Const FromEmail As String = "from_email"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.OutboxFields.FromEnvelope
   commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.FromEnvelope
   id: FromEnvelope
@@ -205,24 +162,16 @@ items:
   nameWithType: DBC.OutboxFields.FromEnvelope
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields.FromEnvelope
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nOutbox.FromEnvelope: Envelope (smtp) Mail address of the sender\n"
+  summary: 'Outbox.FromEnvelope: Envelope (smtp) Mail address of the sender'
+  example: []
   syntax:
     content: public const string FromEnvelope = "from_envelope"
     return:
       type: System.String
     content.vb: Public Const FromEnvelope As String = "from_envelope"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.OutboxFields.Rcpt
   commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.Rcpt
   id: Rcpt
@@ -234,24 +183,16 @@ items:
   nameWithType: DBC.OutboxFields.Rcpt
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields.Rcpt
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nOutbox.Rcpt: A list of recipience\n"
+  summary: 'Outbox.Rcpt: A list of recipience'
+  example: []
   syntax:
     content: public const string Rcpt = "rcpt"
     return:
       type: System.String
     content.vb: Public Const Rcpt As String = "rcpt"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.OutboxFields.MailSize
   commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.MailSize
   id: MailSize
@@ -263,24 +204,16 @@ items:
   nameWithType: DBC.OutboxFields.MailSize
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields.MailSize
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nOutbox.MailSize: The size of the mail in bytes\n"
+  summary: 'Outbox.MailSize: The size of the mail in bytes'
+  example: []
   syntax:
     content: public const string MailSize = "mail_size"
     return:
       type: System.String
     content.vb: Public Const MailSize As String = "mail_size"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.OutboxFields.Created
   commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.Created
   id: Created
@@ -292,24 +225,16 @@ items:
   nameWithType: DBC.OutboxFields.Created
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields.Created
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nOutbox.Created: When the mail was created\n"
+  summary: 'Outbox.Created: When the mail was created'
+  example: []
   syntax:
     content: public const string Created = "created"
     return:
       type: System.String
     content.vb: Public Const Created As String = "created"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.OutboxFields.Status
   commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.Status
   id: Status
@@ -321,24 +246,16 @@ items:
   nameWithType: DBC.OutboxFields.Status
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields.Status
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nOutbox.Status: Status enum\n"
+  summary: 'Outbox.Status: Status enum'
+  example: []
   syntax:
     content: public const string Status = "status"
     return:
       type: System.String
     content.vb: Public Const Status As String = "status"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.OutboxFields.Retries
   commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.Retries
   id: Retries
@@ -350,24 +267,16 @@ items:
   nameWithType: DBC.OutboxFields.Retries
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields.Retries
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nOutbox.Retries: The number of times we have tried to send this mail\n"
+  summary: 'Outbox.Retries: The number of times we have tried to send this mail'
+  example: []
   syntax:
     content: public const string Retries = "retries"
     return:
       type: System.String
     content.vb: Public Const Retries As String = "retries"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.OutboxFields.NextRetry
   commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.NextRetry
   id: NextRetry
@@ -379,24 +288,16 @@ items:
   nameWithType: DBC.OutboxFields.NextRetry
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields.NextRetry
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nOutbox.NextRetry: When is the next time we should try again?\n"
+  summary: 'Outbox.NextRetry: When is the next time we should try again?'
+  example: []
   syntax:
     content: public const string NextRetry = "next_retry"
     return:
       type: System.String
     content.vb: Public Const NextRetry As String = "next_retry"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.OutboxFields.Pid
   commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.Pid
   id: Pid
@@ -408,24 +309,16 @@ items:
   nameWithType: DBC.OutboxFields.Pid
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields.Pid
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nOutbox.Pid: The process id owning this message\n"
+  summary: 'Outbox.Pid: The process id owning this message'
+  example: []
   syntax:
     content: public const string Pid = "pid"
     return:
       type: System.String
     content.vb: Public Const Pid As String = "pid"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.OutboxFields.LastError
   commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.LastError
   id: LastError
@@ -437,24 +330,16 @@ items:
   nameWithType: DBC.OutboxFields.LastError
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields.LastError
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nOutbox.LastError: The last error reported when sending this message\n"
+  summary: 'Outbox.LastError: The last error reported when sending this message'
+  example: []
   syntax:
     content: public const string LastError = "last_error"
     return:
       type: System.String
     content.vb: Public Const LastError As String = "last_error"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.OutboxFields.Type
   commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.Type
   id: Type
@@ -466,24 +351,16 @@ items:
   nameWithType: DBC.OutboxFields.Type
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields.Type
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nOutbox.Type: Indicates if this is a SMS to be sent via WebServices or a normal email. 0 = email, 1 = sms\n"
+  summary: 'Outbox.Type: Indicates if this is a SMS to be sent via WebServices or a normal email. 0 = email, 1 = sms'
+  example: []
   syntax:
     content: public const string Type = "type"
     return:
       type: System.String
     content.vb: Public Const Type As String = "type"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.OutboxFields.Rfc822Content
   commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.Rfc822Content
   id: Rfc822Content
@@ -495,41 +372,288 @@ items:
   nameWithType: DBC.OutboxFields.Rfc822Content
   fullName: SuperOffice.CRM.Data.DBC.OutboxFields.Rfc822Content
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nOutbox.Rfc822Content: The content of the outgoing email as a string. Alternative to using outbox file\n"
+  summary: 'Outbox.Rfc822Content: The content of the outgoing email as a string. Alternative to using outbox file'
+  example: []
   syntax:
     content: public const string Rfc822Content = "rfc822_content"
     return:
       type: System.String
     content.vb: Public Const Rfc822Content As String = "rfc822_content"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -537,6 +661,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

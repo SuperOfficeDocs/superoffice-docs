@@ -21,8 +21,8 @@ items:
   - SuperOffice.WebApi.Data.FieldValueInfo.Key
   - SuperOffice.WebApi.Data.FieldValueInfo.Mandatory
   - SuperOffice.WebApi.Data.FieldValueInfo.OperationInfos
-  - SuperOffice.WebApi.Data.FieldValueInfo.Values
   - SuperOffice.WebApi.Data.FieldValueInfo.ValueType
+  - SuperOffice.WebApi.Data.FieldValueInfo.Values
   langs:
   - csharp
   - vb
@@ -30,29 +30,30 @@ items:
   nameWithType: FieldValueInfo
   fullName: SuperOffice.WebApi.Data.FieldValueInfo
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for FieldValueInfo.\nThis class carries information about the definition and properties of an field used in bulk update system. The class is serializable and used on both the application and Web server sides.    \n"
+  summary: >-
+    Carrier object for FieldValueInfo.
+
+    This class carries information about the definition and properties of an field used in bulk update system. The class is serializable and used on both the application and Web server sides.
+  example: []
   syntax:
-    content: 'public class FieldValueInfo : Object'
-    content.vb: >-
-      Public Class FieldValueInfo
-          Inherits Object
+    content: public class FieldValueInfo
+    content.vb: Public Class FieldValueInfo
   seealso:
   - linkId: SuperOffice.WebApi.Agents.BulkUpdateAgent
     commentId: T:SuperOffice.WebApi.Agents.BulkUpdateAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.#ctor
   commentId: M:SuperOffice.WebApi.Data.FieldValueInfo.#ctor
   id: '#ctor'
@@ -64,21 +65,18 @@ items:
   nameWithType: FieldValueInfo.FieldValueInfo()
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.FieldValueInfo()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public FieldValueInfo()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.FieldValueInfo.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: FieldValueInfo.New()
+  fullName.vb: SuperOffice.WebApi.Data.FieldValueInfo.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.CanSupportMultiUse
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.CanSupportMultiUse
   id: CanSupportMultiUse
@@ -90,13 +88,11 @@ items:
   nameWithType: FieldValueInfo.CanSupportMultiUse
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.CanSupportMultiUse
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCan the field support multi use?\n"
+  summary: Can the field support multi use?
+  example: []
   syntax:
     content: public virtual bool CanSupportMultiUse { get; set; }
     parameters: []
@@ -104,14 +100,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property CanSupportMultiUse As Boolean
   overload: SuperOffice.WebApi.Data.FieldValueInfo.CanSupportMultiUse*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.DefaultShowInGui
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.DefaultShowInGui
   id: DefaultShowInGui
@@ -123,13 +111,11 @@ items:
   nameWithType: FieldValueInfo.DefaultShowInGui
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.DefaultShowInGui
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault show in Gui?\n"
+  summary: Default show in Gui?
+  example: []
   syntax:
     content: public virtual bool DefaultShowInGui { get; set; }
     parameters: []
@@ -137,14 +123,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property DefaultShowInGui As Boolean
   overload: SuperOffice.WebApi.Data.FieldValueInfo.DefaultShowInGui*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.DefaultShowInSelector
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.DefaultShowInSelector
   id: DefaultShowInSelector
@@ -156,13 +134,11 @@ items:
   nameWithType: FieldValueInfo.DefaultShowInSelector
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.DefaultShowInSelector
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault show in selector?\n"
+  summary: Default show in selector?
+  example: []
   syntax:
     content: public virtual bool DefaultShowInSelector { get; set; }
     parameters: []
@@ -170,14 +146,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property DefaultShowInSelector As Boolean
   overload: SuperOffice.WebApi.Data.FieldValueInfo.DefaultShowInSelector*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.IsActive
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.IsActive
   id: IsActive
@@ -189,13 +157,11 @@ items:
   nameWithType: FieldValueInfo.IsActive
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.IsActive
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTrue if the field and operations will be used in the bulk update\n"
+  summary: True if the field and operations will be used in the bulk update
+  example: []
   syntax:
     content: public virtual bool IsActive { get; set; }
     parameters: []
@@ -203,14 +169,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsActive As Boolean
   overload: SuperOffice.WebApi.Data.FieldValueInfo.IsActive*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.Key
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.Key
   id: Key
@@ -222,13 +180,11 @@ items:
   nameWithType: FieldValueInfo.Key
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.Key
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe unique key on the field\n"
+  summary: The unique key on the field
+  example: []
   syntax:
     content: public virtual string Key { get; set; }
     parameters: []
@@ -236,14 +192,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Key As String
   overload: SuperOffice.WebApi.Data.FieldValueInfo.Key*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.ValueType
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.ValueType
   id: ValueType
@@ -255,13 +203,11 @@ items:
   nameWithType: FieldValueInfo.ValueType
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.ValueType
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDescribes the expected value array\n"
+  summary: Describes the expected value array
+  example: []
   syntax:
     content: public virtual string ValueType { get; set; }
     parameters: []
@@ -269,14 +215,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property ValueType As String
   overload: SuperOffice.WebApi.Data.FieldValueInfo.ValueType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.Mandatory
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.Mandatory
   id: Mandatory
@@ -288,13 +226,11 @@ items:
   nameWithType: FieldValueInfo.Mandatory
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.Mandatory
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTrue if this is a mandatory field\n"
+  summary: True if this is a mandatory field
+  example: []
   syntax:
     content: public virtual bool Mandatory { get; set; }
     parameters: []
@@ -302,14 +238,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property Mandatory As Boolean
   overload: SuperOffice.WebApi.Data.FieldValueInfo.Mandatory*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDisplayName
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.EncodedDisplayName
   id: EncodedDisplayName
@@ -321,13 +249,11 @@ items:
   nameWithType: FieldValueInfo.EncodedDisplayName
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDisplayName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe displayname of the field\n"
+  summary: The displayname of the field
+  example: []
   syntax:
     content: public virtual string EncodedDisplayName { get; set; }
     parameters: []
@@ -335,14 +261,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property EncodedDisplayName As String
   overload: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDisplayName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDisplayDescription
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.EncodedDisplayDescription
   id: EncodedDisplayDescription
@@ -354,13 +272,11 @@ items:
   nameWithType: FieldValueInfo.EncodedDisplayDescription
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDisplayDescription
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe description of the field\n"
+  summary: The description of the field
+  example: []
   syntax:
     content: public virtual string EncodedDisplayDescription { get; set; }
     parameters: []
@@ -368,14 +284,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property EncodedDisplayDescription As String
   overload: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDisplayDescription*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.IconHint
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.IconHint
   id: IconHint
@@ -387,13 +295,11 @@ items:
   nameWithType: FieldValueInfo.IconHint
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.IconHint
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe iconhint of the field\n"
+  summary: The iconhint of the field
+  example: []
   syntax:
     content: public virtual string IconHint { get; set; }
     parameters: []
@@ -401,14 +307,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property IconHint As String
   overload: SuperOffice.WebApi.Data.FieldValueInfo.IconHint*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.ControlInfos
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.ControlInfos
   id: ControlInfos
@@ -420,13 +318,11 @@ items:
   nameWithType: FieldValueInfo.ControlInfos
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.ControlInfos
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nArray of the controlinfos\n"
+  summary: Array of the controlinfos
+  example: []
   syntax:
     content: public virtual ControlInfo[] ControlInfos { get; set; }
     parameters: []
@@ -434,14 +330,6 @@ items:
       type: SuperOffice.WebApi.Data.ControlInfo[]
     content.vb: Public Overridable Property ControlInfos As ControlInfo()
   overload: SuperOffice.WebApi.Data.FieldValueInfo.ControlInfos*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDataCaption
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.EncodedDataCaption
   id: EncodedDataCaption
@@ -453,13 +341,11 @@ items:
   nameWithType: FieldValueInfo.EncodedDataCaption
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDataCaption
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public virtual string EncodedDataCaption { get; set; }
     parameters: []
@@ -467,14 +353,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property EncodedDataCaption As String
   overload: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDataCaption*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDataCaptionDescription
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.EncodedDataCaptionDescription
   id: EncodedDataCaptionDescription
@@ -486,13 +364,11 @@ items:
   nameWithType: FieldValueInfo.EncodedDataCaptionDescription
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDataCaptionDescription
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
     content: public virtual string EncodedDataCaptionDescription { get; set; }
     parameters: []
@@ -500,14 +376,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property EncodedDataCaptionDescription As String
   overload: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDataCaptionDescription*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.CurrentOperationType
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.CurrentOperationType
   id: CurrentOperationType
@@ -519,13 +387,11 @@ items:
   nameWithType: FieldValueInfo.CurrentOperationType
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.CurrentOperationType
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe selected operation to execute on this field\n"
+  summary: The selected operation to execute on this field
+  example: []
   syntax:
     content: public virtual string CurrentOperationType { get; set; }
     parameters: []
@@ -533,14 +399,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property CurrentOperationType As String
   overload: SuperOffice.WebApi.Data.FieldValueInfo.CurrentOperationType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.Values
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.Values
   id: Values
@@ -552,13 +410,11 @@ items:
   nameWithType: FieldValueInfo.Values
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.Values
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe values to be set on this field on this bulkupdate\n"
+  summary: The values to be set on this field on this bulkupdate
+  example: []
   syntax:
     content: public virtual string[] Values { get; set; }
     parameters: []
@@ -566,14 +422,6 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property Values As String()
   overload: SuperOffice.WebApi.Data.FieldValueInfo.Values*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.DisplayValues
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.DisplayValues
   id: DisplayValues
@@ -585,13 +433,11 @@ items:
   nameWithType: FieldValueInfo.DisplayValues
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.DisplayValues
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe displayvalues to be set on this field on this bulkupdate, used to resolve when values array contains ids\n"
+  summary: The displayvalues to be set on this field on this bulkupdate, used to resolve when values array contains ids
+  example: []
   syntax:
     content: public virtual string[] DisplayValues { get; set; }
     parameters: []
@@ -599,14 +445,6 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property DisplayValues As String()
   overload: SuperOffice.WebApi.Data.FieldValueInfo.DisplayValues*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.OperationInfos
   commentId: P:SuperOffice.WebApi.Data.FieldValueInfo.OperationInfos
   id: OperationInfos
@@ -618,13 +456,11 @@ items:
   nameWithType: FieldValueInfo.OperationInfos
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.OperationInfos
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nArray of the available operations for this field\n"
+  summary: Array of the available operations for this field
+  example: []
   syntax:
     content: public virtual OperationInfo[] OperationInfos { get; set; }
     parameters: []
@@ -632,49 +468,302 @@ items:
       type: SuperOffice.WebApi.Data.OperationInfo[]
     content.vb: Public Overridable Property OperationInfos As OperationInfo()
   overload: SuperOffice.WebApi.Data.FieldValueInfo.OperationInfos*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.BulkUpdateAgent
+  commentId: T:SuperOffice.WebApi.Agents.BulkUpdateAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.BulkUpdateAgent.html
+  name: BulkUpdateAgent
+  nameWithType: BulkUpdateAgent
+  fullName: SuperOffice.WebApi.Agents.BulkUpdateAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: SuperOffice.WebApi.Agents.BulkUpdateAgent
-  commentId: T:SuperOffice.WebApi.Agents.BulkUpdateAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: BulkUpdateAgent
-  nameWithType: BulkUpdateAgent
-  fullName: SuperOffice.WebApi.Agents.BulkUpdateAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo__ctor
   name: FieldValueInfo
   nameWithType: FieldValueInfo.FieldValueInfo
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.FieldValueInfo
+  nameWithType.vb: FieldValueInfo.New
+  fullName.vb: SuperOffice.WebApi.Data.FieldValueInfo.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.CanSupportMultiUse*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.CanSupportMultiUse
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_CanSupportMultiUse
   name: CanSupportMultiUse
   nameWithType: FieldValueInfo.CanSupportMultiUse
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.CanSupportMultiUse
@@ -682,30 +771,38 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.DefaultShowInGui*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.DefaultShowInGui
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_DefaultShowInGui
   name: DefaultShowInGui
   nameWithType: FieldValueInfo.DefaultShowInGui
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.DefaultShowInGui
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.DefaultShowInSelector*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.DefaultShowInSelector
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_DefaultShowInSelector
   name: DefaultShowInSelector
   nameWithType: FieldValueInfo.DefaultShowInSelector
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.DefaultShowInSelector
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.IsActive*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.IsActive
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_IsActive
   name: IsActive
   nameWithType: FieldValueInfo.IsActive
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.IsActive
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.Key*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.Key
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_Key
   name: Key
   nameWithType: FieldValueInfo.Key
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.Key
@@ -713,47 +810,58 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.ValueType*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.ValueType
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_ValueType
   name: ValueType
   nameWithType: FieldValueInfo.ValueType
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.ValueType
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.Mandatory*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.Mandatory
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_Mandatory
   name: Mandatory
   nameWithType: FieldValueInfo.Mandatory
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.Mandatory
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDisplayName*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.EncodedDisplayName
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_EncodedDisplayName
   name: EncodedDisplayName
   nameWithType: FieldValueInfo.EncodedDisplayName
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDisplayName
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDisplayDescription*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.EncodedDisplayDescription
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_EncodedDisplayDescription
   name: EncodedDisplayDescription
   nameWithType: FieldValueInfo.EncodedDisplayDescription
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDisplayDescription
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.IconHint*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.IconHint
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_IconHint
   name: IconHint
   nameWithType: FieldValueInfo.IconHint
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.IconHint
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.ControlInfos*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.ControlInfos
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_ControlInfos
   name: ControlInfos
   nameWithType: FieldValueInfo.ControlInfos
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.ControlInfos
 - uid: SuperOffice.WebApi.Data.ControlInfo[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.ControlInfo.html
   name: ControlInfo[]
   nameWithType: ControlInfo[]
   fullName: SuperOffice.WebApi.Data.ControlInfo[]
@@ -763,85 +871,85 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ControlInfo
     name: ControlInfo
-    nameWithType: ControlInfo
-    fullName: SuperOffice.WebApi.Data.ControlInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ControlInfo.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ControlInfo
     name: ControlInfo
-    nameWithType: ControlInfo
-    fullName: SuperOffice.WebApi.Data.ControlInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ControlInfo.html
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDataCaption*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.EncodedDataCaption
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_EncodedDataCaption
   name: EncodedDataCaption
   nameWithType: FieldValueInfo.EncodedDataCaption
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDataCaption
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDataCaptionDescription*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.EncodedDataCaptionDescription
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_EncodedDataCaptionDescription
   name: EncodedDataCaptionDescription
   nameWithType: FieldValueInfo.EncodedDataCaptionDescription
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.EncodedDataCaptionDescription
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.CurrentOperationType*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.CurrentOperationType
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_CurrentOperationType
   name: CurrentOperationType
   nameWithType: FieldValueInfo.CurrentOperationType
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.CurrentOperationType
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.Values*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.Values
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_Values
   name: Values
   nameWithType: FieldValueInfo.Values
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.Values
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.DisplayValues*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.DisplayValues
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_DisplayValues
   name: DisplayValues
   nameWithType: FieldValueInfo.DisplayValues
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.DisplayValues
 - uid: SuperOffice.WebApi.Data.FieldValueInfo.OperationInfos*
   commentId: Overload:SuperOffice.WebApi.Data.FieldValueInfo.OperationInfos
   isExternal: true
+  href: SuperOffice.WebApi.Data.FieldValueInfo.html#SuperOffice_WebApi_Data_FieldValueInfo_OperationInfos
   name: OperationInfos
   nameWithType: FieldValueInfo.OperationInfos
   fullName: SuperOffice.WebApi.Data.FieldValueInfo.OperationInfos
 - uid: SuperOffice.WebApi.Data.OperationInfo[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.OperationInfo.html
   name: OperationInfo[]
   nameWithType: OperationInfo[]
   fullName: SuperOffice.WebApi.Data.OperationInfo[]
@@ -851,18 +959,14 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.OperationInfo
     name: OperationInfo
-    nameWithType: OperationInfo
-    fullName: SuperOffice.WebApi.Data.OperationInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.OperationInfo.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.OperationInfo
     name: OperationInfo
-    nameWithType: OperationInfo
-    fullName: SuperOffice.WebApi.Data.OperationInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.OperationInfo.html
+  - name: (
+  - name: )

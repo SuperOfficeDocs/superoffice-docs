@@ -6,13 +6,13 @@ items:
   parent: SuperOffice.CRM
   children:
   - SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue(System.String,System.String@,System.Int32@)
-  - SuperOffice.CRM.ActivityStatusHelper.SetCompleted(System.String,SuperOffice.Data.ActivityStatus)
-  - SuperOffice.CRM.ActivityStatusHelper.SetCompleted(System.String,System.Int32,SuperOffice.Data.ActivityStatus)
-  - SuperOffice.CRM.ActivityStatusHelper.ToggleActivity(System.String,System.Boolean,System.Boolean@)
-  - SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String)
-  - SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Boolean)
-  - SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Int32)
-  - SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Int32,System.Boolean)
+  - SuperOffice.CRM.ActivityStatusHelper.SetCompletedAsync(System.String,SuperOffice.Data.ActivityStatus,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ActivityStatusHelper.SetCompletedAsync(System.String,System.Int32,SuperOffice.Data.ActivityStatus,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ActivityStatusHelper.ToggleActivityAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(System.String,System.Int32,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -20,140 +20,165 @@ items:
   nameWithType: ActivityStatusHelper
   fullName: SuperOffice.CRM.ActivityStatusHelper
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM
-  summary: "\nThis class implements the logic behind the &quot;toggle completed&quot; checkboxes for activities. The public\nentrypoint <xref href=\"SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String)\" data-throw-if-not-resolved=\"false\"></xref> will toggle the completed status for an activity, i.e., \na document, appointment or sale. Appointments may have three state logic enabled through a preference.\nThe changes are saved immediately.\n"
+  summary: >-
+    This class implements the logic behind the "toggle completed" checkboxes for activities. The public
+
+    entrypoint ToggleCompleted will toggle the completed status for an activity, i.e., 
+
+    a document, appointment or sale. Appointments may have three state logic enabled through a preference.
+
+    The changes are saved immediately.
+  example: []
   syntax:
-    content: 'public static class ActivityStatusHelper : Object'
-    content.vb: >-
-      Public Module ActivityStatusHelper
-          Inherits Object
+    content: public static class ActivityStatusHelper
+    content.vb: Public Module ActivityStatusHelper
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
-- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String)
-  commentId: M:SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String)
-  id: ToggleCompleted(System.String)
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(System.String,System.Threading.CancellationToken)
+  id: ToggleCompletedAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ActivityStatusHelper
   langs:
   - csharp
   - vb
-  name: ToggleCompleted(String)
-  nameWithType: ActivityStatusHelper.ToggleCompleted(String)
-  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String)
+  name: ToggleCompletedAsync(string, CancellationToken)
+  nameWithType: ActivityStatusHelper.ToggleCompletedAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM
-  summary: "\nToggle the completed status for an activity, i.e., \na document, appointment or sale. Appointments may have three state logic enabled through a preference.\nThe changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be\nmade and the value NotStarted will be returned. If there is no write access to the record being changed,\na Sentry exception will be thrown in the usual manner.\n"
+  summary: >-
+    Toggle the completed status for an activity, i.e., 
+
+    a document, appointment or sale. Appointments may have three state logic enabled through a preference.
+
+    The changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be
+
+    made and the value NotStarted will be returned. If there is no write access to the record being changed,
+
+    a Sentry exception will be thrown in the usual manner.
+  example: []
   syntax:
-    content: public static ActivityStatus ToggleCompleted(string keyAndValue)
+    content: public static Task<ActivityStatus> ToggleCompletedAsync(string keyAndValue, CancellationToken cancellationToken = default)
     parameters:
     - id: keyAndValue
       type: System.String
       description: >-
-        Activity identifier, in the form &lt;key>=&lt;value>, where the key is
-
-        one of sale_id, appointment_id or document_id; and the value is an integer primary key.
+        Activity identifier, in the form &lt;key&gt;=&lt;value&gt;, where the key is
+                    one of sale_id, appointment_id or document_id; and the value is an integer primary key.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.ActivityStatus
+      type: System.Threading.Tasks.Task{SuperOffice.Data.ActivityStatus}
       description: New status
-    content.vb: Public Shared Function ToggleCompleted(keyAndValue As String) As ActivityStatus
-  overload: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted*
+    content.vb: Public Shared Function ToggleCompletedAsync(keyAndValue As String, cancellationToken As CancellationToken = Nothing) As Task(Of ActivityStatus)
+  overload: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync*
   exceptions:
   - type: SuperOffice.Exceptions.SoIllegalOperationException
     commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
     description: Thrown if an unknown key string is passed in.
   - type: SuperOffice.Exceptions.SoSentryException
     commentId: T:SuperOffice.Exceptions.SoSentryException
-    description: Thrown if you do not have WRITE access to the record you&apos;re trying to update
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Boolean)
-  id: ToggleCompleted(System.String,System.Boolean)
+    description: Thrown if you do not have WRITE access to the record you're trying to update
+  nameWithType.vb: ActivityStatusHelper.ToggleCompletedAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(String, System.Threading.CancellationToken)
+  name.vb: ToggleCompletedAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  id: ToggleCompletedAsync(System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ActivityStatusHelper
   langs:
   - csharp
   - vb
-  name: ToggleCompleted(String, Boolean)
-  nameWithType: ActivityStatusHelper.ToggleCompleted(String, Boolean)
-  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String, System.Boolean)
+  name: ToggleCompletedAsync(string, bool, CancellationToken)
+  nameWithType: ActivityStatusHelper.ToggleCompletedAsync(string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(string, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM
-  summary: "\nToggle the completed status for an activity, i.e., \na document, appointment or sale. Appointments may have three state logic enabled through a preference.\nThe changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be\nmade and the value NotStarted will be returned. If there is no write access to the record being changed,\na Sentry exception will be thrown in the usual manner.\n"
+  summary: >-
+    Toggle the completed status for an activity, i.e., 
+
+    a document, appointment or sale. Appointments may have three state logic enabled through a preference.
+
+    The changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be
+
+    made and the value NotStarted will be returned. If there is no write access to the record being changed,
+
+    a Sentry exception will be thrown in the usual manner.
+  example: []
   syntax:
-    content: public static ActivityStatus ToggleCompleted(string keyAndValue, bool canSetComplete)
+    content: public static Task<ActivityStatus> ToggleCompletedAsync(string keyAndValue, bool canSetComplete, CancellationToken cancellationToken = default)
     parameters:
     - id: keyAndValue
       type: System.String
       description: >-
-        Activity identifier, in the form &lt;key>=&lt;value>, where the key is
-
-        one of sale_id, appointment_id or document_id; and the value is an integer primary key.
+        Activity identifier, in the form &lt;key&gt;=&lt;value&gt;, where the key is
+                    one of sale_id, appointment_id or document_id; and the value is an integer primary key.
     - id: canSetComplete
       type: System.Boolean
-      description: "Specifies whether or not we should check if the activity you want to toggle\ntriggers a suggestion. If the activity triggers a suggestion, and the toggle action is from an un-complete\nto a complete state, this action is not executed. If you are unsure what value this parameter should have, \nuse the ToggleCompleted method without this parameter. The default value is true."
+      description: >-
+        Specifies whether or not we should check if the activity you want to toggle
+                    triggers a suggestion. If the activity triggers a suggestion, and the toggle action is from an un-complete
+                    to a complete state, this action is not executed. If you are unsure what value this parameter should have, 
+                    use the ToggleCompleted method without this parameter. The default value is true.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.ActivityStatus
+      type: System.Threading.Tasks.Task{SuperOffice.Data.ActivityStatus}
       description: The new status
-    content.vb: Public Shared Function ToggleCompleted(keyAndValue As String, canSetComplete As Boolean) As ActivityStatus
-  overload: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted*
+    content.vb: Public Shared Function ToggleCompletedAsync(keyAndValue As String, canSetComplete As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of ActivityStatus)
+  overload: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync*
   exceptions:
   - type: SuperOffice.Exceptions.SoIllegalOperationException
     commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
     description: Thrown if an unknown key string is passed in.
   - type: SuperOffice.Exceptions.SoSentryException
     commentId: T:SuperOffice.Exceptions.SoSentryException
-    description: Thrown if you do not have WRITE access to the record you&apos;re trying to update
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Int32)
-  id: ToggleCompleted(System.String,System.Int32)
+    description: Thrown if you do not have WRITE access to the record you're trying to update
+  nameWithType.vb: ActivityStatusHelper.ToggleCompletedAsync(String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(String, Boolean, System.Threading.CancellationToken)
+  name.vb: ToggleCompletedAsync(String, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: ToggleCompletedAsync(System.String,System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ActivityStatusHelper
   langs:
   - csharp
   - vb
-  name: ToggleCompleted(String, Int32)
-  nameWithType: ActivityStatusHelper.ToggleCompleted(String, Int32)
-  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String, System.Int32)
+  name: ToggleCompletedAsync(string, int, CancellationToken)
+  nameWithType: ActivityStatusHelper.ToggleCompletedAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(string, int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM
-  summary: "\nToggle the completed status for an activity, i.e., \na document, appointment or sale. Appointments may have three state logic enabled through a preference.\nThe changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be\nmade and the value NotStarted will be returned. If there is no write access to the record being changed,\na Sentry exception will be thrown in the usual manner.\n"
+  summary: >-
+    Toggle the completed status for an activity, i.e., 
+
+    a document, appointment or sale. Appointments may have three state logic enabled through a preference.
+
+    The changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be
+
+    made and the value NotStarted will be returned. If there is no write access to the record being changed,
+
+    a Sentry exception will be thrown in the usual manner.
+  example: []
   syntax:
-    content: public static ActivityStatus ToggleCompleted(string keyName, int id)
+    content: public static Task<ActivityStatus> ToggleCompletedAsync(string keyName, int id, CancellationToken cancellationToken = default)
     parameters:
     - id: keyName
       type: System.String
@@ -161,44 +186,50 @@ items:
     - id: id
       type: System.Int32
       description: Integer primary key of record to toggle
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.ActivityStatus
+      type: System.Threading.Tasks.Task{SuperOffice.Data.ActivityStatus}
       description: New status
-    content.vb: Public Shared Function ToggleCompleted(keyName As String, id As Integer) As ActivityStatus
-  overload: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted*
+    content.vb: Public Shared Function ToggleCompletedAsync(keyName As String, id As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ActivityStatus)
+  overload: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync*
   exceptions:
   - type: SuperOffice.Exceptions.SoIllegalOperationException
     commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
     description: Thrown if an unknown key string is passed in.
   - type: SuperOffice.Exceptions.SoSentryException
     commentId: T:SuperOffice.Exceptions.SoSentryException
-    description: Thrown if you do not have WRITE access to the record you&apos;re trying to update
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Int32,System.Boolean)
-  commentId: M:SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Int32,System.Boolean)
-  id: ToggleCompleted(System.String,System.Int32,System.Boolean)
+    description: Thrown if you do not have WRITE access to the record you're trying to update
+  nameWithType.vb: ActivityStatusHelper.ToggleCompletedAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: ToggleCompletedAsync(String, Integer, CancellationToken)
+- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(System.String,System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(System.String,System.Int32,System.Boolean,System.Threading.CancellationToken)
+  id: ToggleCompletedAsync(System.String,System.Int32,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ActivityStatusHelper
   langs:
   - csharp
   - vb
-  name: ToggleCompleted(String, Int32, Boolean)
-  nameWithType: ActivityStatusHelper.ToggleCompleted(String, Int32, Boolean)
-  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String, System.Int32, System.Boolean)
+  name: ToggleCompletedAsync(string, int, bool, CancellationToken)
+  nameWithType: ActivityStatusHelper.ToggleCompletedAsync(string, int, bool, CancellationToken)
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(string, int, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM
-  summary: "\nToggle the completed status for an activity, i.e., \na document, appointment or sale. Appointments may have three state logic enabled through a preference.\nThe changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be\nmade and the value NotStarted will be returned. If there is no write access to the record being changed,\na Sentry exception will be thrown in the usual manner.\n"
+  summary: >-
+    Toggle the completed status for an activity, i.e., 
+
+    a document, appointment or sale. Appointments may have three state logic enabled through a preference.
+
+    The changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be
+
+    made and the value NotStarted will be returned. If there is no write access to the record being changed,
+
+    a Sentry exception will be thrown in the usual manner.
+  example: []
   syntax:
-    content: public static ActivityStatus ToggleCompleted(string keyName, int id, bool canSetComplete)
+    content: public static Task<ActivityStatus> ToggleCompletedAsync(string keyName, int id, bool canSetComplete, CancellationToken cancellationToken = default)
     parameters:
     - id: keyName
       type: System.String
@@ -208,70 +239,80 @@ items:
       description: Integer primary key of record to toggle
     - id: canSetComplete
       type: System.Boolean
-      description: "Specifies whether or not we should check if the activity you want to toggle\ntriggers a suggestion. If the activity triggers a suggestion, and the toggle action is from an un-complete\nto a complete state, this action is not executed. If you are unsure what value this parameter should have, \nuse the ToggleCompleted method without this parameter. The default value is true."
+      description: >-
+        Specifies whether or not we should check if the activity you want to toggle
+                    triggers a suggestion. If the activity triggers a suggestion, and the toggle action is from an un-complete
+                    to a complete state, this action is not executed. If you are unsure what value this parameter should have, 
+                    use the ToggleCompleted method without this parameter. The default value is true.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.ActivityStatus
+      type: System.Threading.Tasks.Task{SuperOffice.Data.ActivityStatus}
       description: New status
-    content.vb: Public Shared Function ToggleCompleted(keyName As String, id As Integer, canSetComplete As Boolean) As ActivityStatus
-  overload: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted*
+    content.vb: Public Shared Function ToggleCompletedAsync(keyName As String, id As Integer, canSetComplete As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of ActivityStatus)
+  overload: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync*
   exceptions:
   - type: SuperOffice.Exceptions.SoIllegalOperationException
     commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
     description: Thrown if an unknown key string is passed in.
   - type: SuperOffice.Exceptions.SoSentryException
     commentId: T:SuperOffice.Exceptions.SoSentryException
-    description: Thrown if you do not have WRITE access to the record you&apos;re trying to update
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.ActivityStatusHelper.SetCompleted(System.String,SuperOffice.Data.ActivityStatus)
-  commentId: M:SuperOffice.CRM.ActivityStatusHelper.SetCompleted(System.String,SuperOffice.Data.ActivityStatus)
-  id: SetCompleted(System.String,SuperOffice.Data.ActivityStatus)
+    description: Thrown if you do not have WRITE access to the record you're trying to update
+  nameWithType.vb: ActivityStatusHelper.ToggleCompletedAsync(String, Integer, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync(String, Integer, Boolean, System.Threading.CancellationToken)
+  name.vb: ToggleCompletedAsync(String, Integer, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.ActivityStatusHelper.SetCompletedAsync(System.String,SuperOffice.Data.ActivityStatus,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ActivityStatusHelper.SetCompletedAsync(System.String,SuperOffice.Data.ActivityStatus,System.Threading.CancellationToken)
+  id: SetCompletedAsync(System.String,SuperOffice.Data.ActivityStatus,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ActivityStatusHelper
   langs:
   - csharp
   - vb
-  name: SetCompleted(String, ActivityStatus)
-  nameWithType: ActivityStatusHelper.SetCompleted(String, ActivityStatus)
-  fullName: SuperOffice.CRM.ActivityStatusHelper.SetCompleted(System.String, SuperOffice.Data.ActivityStatus)
+  name: SetCompletedAsync(string, ActivityStatus, CancellationToken)
+  nameWithType: ActivityStatusHelper.SetCompletedAsync(string, ActivityStatus, CancellationToken)
+  fullName: SuperOffice.CRM.ActivityStatusHelper.SetCompletedAsync(string, SuperOffice.Data.ActivityStatus, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM
-  summary: "\nSets the completed status for an activity, i.e., \na document, appointment or sale. Appointments may have three state logic enabled through a preference.\nThe changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be\nmade. If there is no write access to the record being changed,\na Sentry exception will be thrown in the usual manner.\n"
+  summary: >-
+    Sets the completed status for an activity, i.e., 
+
+    a document, appointment or sale. Appointments may have three state logic enabled through a preference.
+
+    The changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be
+
+    made. If there is no write access to the record being changed,
+
+    a Sentry exception will be thrown in the usual manner.
+  example: []
   syntax:
-    content: public static void SetCompleted(string keyAndValue, ActivityStatus activityStatus)
+    content: public static Task SetCompletedAsync(string keyAndValue, ActivityStatus activityStatus, CancellationToken cancellationToken = default)
     parameters:
     - id: keyAndValue
       type: System.String
       description: >-
-        Activity identifier, in the form &lt;key>=&lt;value>, where the key is
-
-        one of sale_id, appointment_id or document_id; and the value is an integer primary key.
+        Activity identifier, in the form &lt;key&gt;=&lt;value&gt;, where the key is
+                    one of sale_id, appointment_id or document_id; and the value is an integer primary key.
     - id: activityStatus
       type: SuperOffice.Data.ActivityStatus
       description: The status to apply.
-    content.vb: Public Shared Sub SetCompleted(keyAndValue As String, activityStatus As ActivityStatus)
-  overload: SuperOffice.CRM.ActivityStatusHelper.SetCompleted*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetCompletedAsync(keyAndValue As String, activityStatus As ActivityStatus, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.ActivityStatusHelper.SetCompletedAsync*
   exceptions:
   - type: SuperOffice.Exceptions.SoIllegalOperationException
     commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
     description: Thrown if an unknown key string is passed in.
   - type: SuperOffice.Exceptions.SoSentryException
     commentId: T:SuperOffice.Exceptions.SoSentryException
-    description: Thrown if you do not have WRITE access to the record you&apos;re trying to update
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+    description: Thrown if you do not have WRITE access to the record you're trying to update
+  nameWithType.vb: ActivityStatusHelper.SetCompletedAsync(String, ActivityStatus, CancellationToken)
+  fullName.vb: SuperOffice.CRM.ActivityStatusHelper.SetCompletedAsync(String, SuperOffice.Data.ActivityStatus, System.Threading.CancellationToken)
+  name.vb: SetCompletedAsync(String, ActivityStatus, CancellationToken)
 - uid: SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue(System.String,System.String@,System.Int32@)
   commentId: M:SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue(System.String,System.String@,System.Int32@)
   id: ExtractKeyAndValue(System.String,System.String@,System.Int32@)
@@ -279,15 +320,12 @@ items:
   langs:
   - csharp
   - vb
-  name: ExtractKeyAndValue(String, out String, out Int32)
-  nameWithType: ActivityStatusHelper.ExtractKeyAndValue(String, out String, out Int32)
-  fullName: SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue(System.String, out System.String, out System.Int32)
+  name: ExtractKeyAndValue(string, out string, out int)
+  nameWithType: ActivityStatusHelper.ExtractKeyAndValue(string, out string, out int)
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue(string, out string, out int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM
   syntax:
     content: public static void ExtractKeyAndValue(string keyAndValue, out string key, out int value)
@@ -298,37 +336,38 @@ items:
       type: System.String
     - id: value
       type: System.Int32
-    content.vb: Public Shared Sub ExtractKeyAndValue(keyAndValue As String, ByRef key As String, ByRef value As Integer)
+    content.vb: Public Shared Sub ExtractKeyAndValue(keyAndValue As String, key As String, value As Integer)
   overload: SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue*
-  nameWithType.vb: ActivityStatusHelper.ExtractKeyAndValue(String, ByRef String, ByRef Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue(System.String, ByRef System.String, ByRef System.Int32)
-  name.vb: ExtractKeyAndValue(String, ByRef String, ByRef Int32)
-- uid: SuperOffice.CRM.ActivityStatusHelper.SetCompleted(System.String,System.Int32,SuperOffice.Data.ActivityStatus)
-  commentId: M:SuperOffice.CRM.ActivityStatusHelper.SetCompleted(System.String,System.Int32,SuperOffice.Data.ActivityStatus)
-  id: SetCompleted(System.String,System.Int32,SuperOffice.Data.ActivityStatus)
+  nameWithType.vb: ActivityStatusHelper.ExtractKeyAndValue(String, String, Integer)
+  fullName.vb: SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue(String, String, Integer)
+  name.vb: ExtractKeyAndValue(String, String, Integer)
+- uid: SuperOffice.CRM.ActivityStatusHelper.SetCompletedAsync(System.String,System.Int32,SuperOffice.Data.ActivityStatus,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ActivityStatusHelper.SetCompletedAsync(System.String,System.Int32,SuperOffice.Data.ActivityStatus,System.Threading.CancellationToken)
+  id: SetCompletedAsync(System.String,System.Int32,SuperOffice.Data.ActivityStatus,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ActivityStatusHelper
   langs:
   - csharp
   - vb
-  name: SetCompleted(String, Int32, ActivityStatus)
-  nameWithType: ActivityStatusHelper.SetCompleted(String, Int32, ActivityStatus)
-  fullName: SuperOffice.CRM.ActivityStatusHelper.SetCompleted(System.String, System.Int32, SuperOffice.Data.ActivityStatus)
+  name: SetCompletedAsync(string, int, ActivityStatus, CancellationToken)
+  nameWithType: ActivityStatusHelper.SetCompletedAsync(string, int, ActivityStatus, CancellationToken)
+  fullName: SuperOffice.CRM.ActivityStatusHelper.SetCompletedAsync(string, int, SuperOffice.Data.ActivityStatus, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM
-  summary: "\nSets the completed status for an activity, i.e., \na document, appointment or sale. Appointments may have three state logic enabled through a preference.\nThe changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be\nmade. If there is no write access to the record being changed,\na Sentry exception will be thrown in the usual manner.\n"
+  summary: >-
+    Sets the completed status for an activity, i.e., 
+
+    a document, appointment or sale. Appointments may have three state logic enabled through a preference.
+
+    The changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be
+
+    made. If there is no write access to the record being changed,
+
+    a Sentry exception will be thrown in the usual manner.
+  example: []
   syntax:
-    content: public static void SetCompleted(string keyName, int id, ActivityStatus activityStatus)
+    content: public static Task SetCompletedAsync(string keyName, int id, ActivityStatus activityStatus, CancellationToken cancellationToken = default)
     parameters:
     - id: keyName
       type: System.String
@@ -339,147 +378,614 @@ items:
     - id: activityStatus
       type: SuperOffice.Data.ActivityStatus
       description: The status to apply
-    content.vb: Public Shared Sub SetCompleted(keyName As String, id As Integer, activityStatus As ActivityStatus)
-  overload: SuperOffice.CRM.ActivityStatusHelper.SetCompleted*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetCompletedAsync(keyName As String, id As Integer, activityStatus As ActivityStatus, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.ActivityStatusHelper.SetCompletedAsync*
   exceptions:
   - type: SuperOffice.Exceptions.SoIllegalOperationException
     commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
     description: Thrown if an unknown key string is passed in.
   - type: SuperOffice.Exceptions.SoSentryException
     commentId: T:SuperOffice.Exceptions.SoSentryException
-    description: Thrown if you do not have WRITE access to the record you&apos;re trying to update
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleActivity(System.String,System.Boolean,System.Boolean@)
-  commentId: M:SuperOffice.CRM.ActivityStatusHelper.ToggleActivity(System.String,System.Boolean,System.Boolean@)
-  id: ToggleActivity(System.String,System.Boolean,System.Boolean@)
+    description: Thrown if you do not have WRITE access to the record you're trying to update
+  nameWithType.vb: ActivityStatusHelper.SetCompletedAsync(String, Integer, ActivityStatus, CancellationToken)
+  fullName.vb: SuperOffice.CRM.ActivityStatusHelper.SetCompletedAsync(String, Integer, SuperOffice.Data.ActivityStatus, System.Threading.CancellationToken)
+  name.vb: SetCompletedAsync(String, Integer, ActivityStatus, CancellationToken)
+- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleActivityAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ActivityStatusHelper.ToggleActivityAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  id: ToggleActivityAsync(System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ActivityStatusHelper
   langs:
   - csharp
   - vb
-  name: ToggleActivity(String, Boolean, ref Boolean)
-  nameWithType: ActivityStatusHelper.ToggleActivity(String, Boolean, ref Boolean)
-  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleActivity(System.String, System.Boolean, ref System.Boolean)
+  name: ToggleActivityAsync(string, bool, CancellationToken)
+  nameWithType: ActivityStatusHelper.ToggleActivityAsync(string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleActivityAsync(string, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM
   syntax:
-    content: public static ActivityStatus ToggleActivity(string activityIdentifier, bool canSetComplete, ref bool hasChanged)
+    content: public static Task<(ActivityStatus, bool)> ToggleActivityAsync(string activityIdentifier, bool canSetComplete, CancellationToken cancellationToken = default)
     parameters:
     - id: activityIdentifier
       type: System.String
     - id: canSetComplete
       type: System.Boolean
-    - id: hasChanged
-      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.Data.ActivityStatus
-    content.vb: Public Shared Function ToggleActivity(activityIdentifier As String, canSetComplete As Boolean, ByRef hasChanged As Boolean) As ActivityStatus
-  overload: SuperOffice.CRM.ActivityStatusHelper.ToggleActivity*
-  nameWithType.vb: ActivityStatusHelper.ToggleActivity(String, Boolean, ByRef Boolean)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.ActivityStatusHelper.ToggleActivity(System.String, System.Boolean, ByRef System.Boolean)
-  name.vb: ToggleActivity(String, Boolean, ByRef Boolean)
+      type: System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.Data.ActivityStatus,System.Boolean}}
+    content.vb: Public Shared Function ToggleActivityAsync(activityIdentifier As String, canSetComplete As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of (ActivityStatus, Boolean))
+  overload: SuperOffice.CRM.ActivityStatusHelper.ToggleActivityAsync*
+  nameWithType.vb: ActivityStatusHelper.ToggleActivityAsync(String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.ActivityStatusHelper.ToggleActivityAsync(String, Boolean, System.Threading.CancellationToken)
+  name.vb: ToggleActivityAsync(String, Boolean, CancellationToken)
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted*
-  commentId: Overload:SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted
-  isExternal: true
-  name: ToggleCompleted
-  nameWithType: ActivityStatusHelper.ToggleCompleted
-  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted
 - uid: SuperOffice.Exceptions.SoIllegalOperationException
   commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
   isExternal: true
+  href: SuperOffice.Exceptions.SoIllegalOperationException.html
   name: SoIllegalOperationException
   nameWithType: SoIllegalOperationException
   fullName: SuperOffice.Exceptions.SoIllegalOperationException
 - uid: SuperOffice.Exceptions.SoSentryException
   commentId: T:SuperOffice.Exceptions.SoSentryException
   isExternal: true
+  href: SuperOffice.Exceptions.SoSentryException.html
   name: SoSentryException
   nameWithType: SoSentryException
   fullName: SuperOffice.Exceptions.SoSentryException
+- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync*
+  commentId: Overload:SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync
+  isExternal: true
+  href: SuperOffice.CRM.ActivityStatusHelper.html#SuperOffice_CRM_ActivityStatusHelper_ToggleCompletedAsync_System_String_System_Threading_CancellationToken_
+  name: ToggleCompletedAsync
+  nameWithType: ActivityStatusHelper.ToggleCompletedAsync
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleCompletedAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.Data.ActivityStatus
-  commentId: T:SuperOffice.Data.ActivityStatus
-  parent: SuperOffice.Data
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  name: ActivityStatus
-  nameWithType: ActivityStatus
-  fullName: SuperOffice.Data.ActivityStatus
-- uid: SuperOffice.Data
-  commentId: N:SuperOffice.Data
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.ActivityStatus}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.ActivityStatus}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ActivityStatus>
+  nameWithType: Task<ActivityStatus>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.ActivityStatus>
+  nameWithType.vb: Task(Of ActivityStatus)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.ActivityStatus)
+  name.vb: Task(Of ActivityStatus)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.ActivityStatus
+    name: ActivityStatus
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ActivityStatus
+    name: ActivityStatus
+    isExternal: true
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
   isExternal: true
-  name: SuperOffice.Data
-  nameWithType: SuperOffice.Data
-  fullName: SuperOffice.Data
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.ActivityStatusHelper.SetCompleted*
-  commentId: Overload:SuperOffice.CRM.ActivityStatusHelper.SetCompleted
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.ActivityStatusHelper.SetCompletedAsync*
+  commentId: Overload:SuperOffice.CRM.ActivityStatusHelper.SetCompletedAsync
   isExternal: true
-  name: SetCompleted
-  nameWithType: ActivityStatusHelper.SetCompleted
-  fullName: SuperOffice.CRM.ActivityStatusHelper.SetCompleted
+  href: SuperOffice.CRM.ActivityStatusHelper.html#SuperOffice_CRM_ActivityStatusHelper_SetCompletedAsync_System_String_SuperOffice_Data_ActivityStatus_System_Threading_CancellationToken_
+  name: SetCompletedAsync
+  nameWithType: ActivityStatusHelper.SetCompletedAsync
+  fullName: SuperOffice.CRM.ActivityStatusHelper.SetCompletedAsync
+- uid: SuperOffice.Data.ActivityStatus
+  commentId: T:SuperOffice.Data.ActivityStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ActivityStatus.html
+  name: ActivityStatus
+  nameWithType: ActivityStatus
+  fullName: SuperOffice.Data.ActivityStatus
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue*
   commentId: Overload:SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue
   isExternal: true
+  href: SuperOffice.CRM.ActivityStatusHelper.html#SuperOffice_CRM_ActivityStatusHelper_ExtractKeyAndValue_System_String_System_String__System_Int32__
   name: ExtractKeyAndValue
   nameWithType: ActivityStatusHelper.ExtractKeyAndValue
   fullName: SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue
-- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleActivity*
-  commentId: Overload:SuperOffice.CRM.ActivityStatusHelper.ToggleActivity
+- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleActivityAsync*
+  commentId: Overload:SuperOffice.CRM.ActivityStatusHelper.ToggleActivityAsync
   isExternal: true
-  name: ToggleActivity
-  nameWithType: ActivityStatusHelper.ToggleActivity
-  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleActivity
+  href: SuperOffice.CRM.ActivityStatusHelper.html#SuperOffice_CRM_ActivityStatusHelper_ToggleActivityAsync_System_String_System_Boolean_System_Threading_CancellationToken_
+  name: ToggleActivityAsync
+  nameWithType: ActivityStatusHelper.ToggleActivityAsync
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleActivityAsync
+- uid: System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.Data.ActivityStatus,System.Boolean}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.Data.ActivityStatus,System.Boolean}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(ActivityStatus, bool)>
+  nameWithType: Task<(ActivityStatus, bool)>
+  fullName: System.Threading.Tasks.Task<(SuperOffice.Data.ActivityStatus, bool)>
+  nameWithType.vb: Task(Of (ActivityStatus, Boolean))
+  fullName.vb: System.Threading.Tasks.Task(Of (SuperOffice.Data.ActivityStatus, Boolean))
+  name.vb: Task(Of (ActivityStatus, Boolean))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: SuperOffice.Data.ActivityStatus
+    name: ActivityStatus
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: SuperOffice.Data.ActivityStatus
+    name: ActivityStatus
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )

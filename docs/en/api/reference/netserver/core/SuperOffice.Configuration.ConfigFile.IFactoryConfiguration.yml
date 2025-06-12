@@ -1,0 +1,401 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
+  id: ConfigFile.IFactoryConfiguration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.CustomFactories
+  - SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.DynamicLoad
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IFactoryConfiguration
+  nameWithType: ConfigFile.IFactoryConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
+  type: Interface
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: >-
+    Utility class used to access class factory information in the config file.
+
+    Created in Process scope
+  example: []
+  syntax:
+    content: public interface ConfigFile.IFactoryConfiguration
+    content.vb: Public Interface ConfigFile.IFactoryConfiguration
+  extensionMethods:
+  - SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.CustomFactories
+  commentId: P:SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.CustomFactories
+  id: CustomFactories
+  parent: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CustomFactories
+  nameWithType: ConfigFile.IFactoryConfiguration.CustomFactories
+  fullName: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.CustomFactories
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Custom factories that are to replace the default factories. The name of the class to ovveride is the key and the name of the assmebly where the custom factory resides is the value.
+  example: []
+  syntax:
+    content: NameValueCollection CustomFactories { get; }
+    parameters: []
+    return:
+      type: System.Collections.Specialized.NameValueCollection
+    content.vb: ReadOnly Property CustomFactories As NameValueCollection
+  overload: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.CustomFactories*
+- uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.DynamicLoad
+  commentId: P:SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.DynamicLoad
+  id: DynamicLoad
+  parent: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DynamicLoad
+  nameWithType: ConfigFile.IFactoryConfiguration.DynamicLoad
+  fullName: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.DynamicLoad
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Assemblies that are to be dynamically loaded (keys will be ignored, values must specify assemblies)
+  example: []
+  syntax:
+    content: NameValueCollection DynamicLoad { get; }
+    parameters: []
+    return:
+      type: System.Collections.Specialized.NameValueCollection
+    content.vb: ReadOnly Property DynamicLoad As NameValueCollection
+  overload: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.DynamicLoad*
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+- uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IFactoryConfiguration, To>(IFactoryConfiguration)
+  nameWithType: EnumUtil.MapEnums<ConfigFile.IFactoryConfiguration, To>(ConfigFile.IFactoryConfiguration)
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.ConfigFile.IFactoryConfiguration, To>(SuperOffice.Configuration.ConfigFile.IFactoryConfiguration)
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigFile.IFactoryConfiguration, To)(ConfigFile.IFactoryConfiguration)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.ConfigFile.IFactoryConfiguration, To)(SuperOffice.Configuration.ConfigFile.IFactoryConfiguration)
+  name.vb: MapEnums(Of IFactoryConfiguration, To)(IFactoryConfiguration)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.IFactoryConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
+    name: IFactoryConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
+    name: IFactoryConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Configuration.ConfigFile.IFactoryConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
+    name: IFactoryConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
+    name: IFactoryConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.html
+  - name: )
+- uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IFactoryConfiguration, To>(IFactoryConfiguration)
+  nameWithType: Converters.MapEnums<ConfigFile.IFactoryConfiguration, To>(ConfigFile.IFactoryConfiguration)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.ConfigFile.IFactoryConfiguration, To>(SuperOffice.Configuration.ConfigFile.IFactoryConfiguration)
+  nameWithType.vb: Converters.MapEnums(Of ConfigFile.IFactoryConfiguration, To)(ConfigFile.IFactoryConfiguration)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.ConfigFile.IFactoryConfiguration, To)(SuperOffice.Configuration.ConfigFile.IFactoryConfiguration)
+  name.vb: MapEnums(Of IFactoryConfiguration, To)(IFactoryConfiguration)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.IFactoryConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
+    name: IFactoryConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
+    name: IFactoryConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Configuration.ConfigFile.IFactoryConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
+    name: IFactoryConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
+    name: IFactoryConfiguration
+    isExternal: true
+    href: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.CustomFactories*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.CustomFactories
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.html#SuperOffice_Configuration_ConfigFile_IFactoryConfiguration_CustomFactories
+  name: CustomFactories
+  nameWithType: ConfigFile.IFactoryConfiguration.CustomFactories
+  fullName: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.CustomFactories
+- uid: System.Collections.Specialized.NameValueCollection
+  commentId: T:System.Collections.Specialized.NameValueCollection
+  parent: System.Collections.Specialized
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.specialized.namevaluecollection
+  name: NameValueCollection
+  nameWithType: NameValueCollection
+  fullName: System.Collections.Specialized.NameValueCollection
+- uid: System.Collections.Specialized
+  commentId: N:System.Collections.Specialized
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Specialized
+  nameWithType: System.Collections.Specialized
+  fullName: System.Collections.Specialized
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Specialized
+    name: Specialized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.specialized
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Specialized
+    name: Specialized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.specialized
+- uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.DynamicLoad*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.DynamicLoad
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.html#SuperOffice_Configuration_ConfigFile_IFactoryConfiguration_DynamicLoad
+  name: DynamicLoad
+  nameWithType: ConfigFile.IFactoryConfiguration.DynamicLoad
+  fullName: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.DynamicLoad

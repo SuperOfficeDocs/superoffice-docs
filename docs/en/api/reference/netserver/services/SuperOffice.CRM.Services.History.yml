@@ -22,33 +22,54 @@ items:
   nameWithType: History
   fullName: SuperOffice.CRM.Services.History
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe usage history of the currently logged in user is represented as History objects.\n<p></p>\nCarrier object for History.\nServices for the History Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IViewStateAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    The usage history of the currently logged in user is represented as History objects.
+
+    <p></p>
+
+    Carrier object for History.
+
+    Services for the History Carrier is available from the <xref href="SuperOffice.CRM.Services.IViewStateAgent?text=ViewState+Agent" data-throw-if-not-resolved="false"></xref>.
   example:
-  - "\nGet History 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ViewStateAgent();\n    var history = agent.GetHistory( 123 );\n }</code></pre>\n"
+  - >-
+    Get History 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new ViewStateAgent();
+       var history = agent.GetHistory( 123 );
+    }</code></pre>
   syntax:
-    content: 'public class History : Carrier'
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+
+      public class History : Carrier
     content.vb: >-
-      Public Class History
-          Inherits Carrier
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+
+      Public Class History Inherits Carrier
   seealso:
-  - linkId: SuperOffice.CRM.Services.ViewStateAgent
-    commentId: T:SuperOffice.CRM.Services.ViewStateAgent
   - linkId: SuperOffice.CRM.Services.IViewStateAgent
     commentId: T:SuperOffice.CRM.Services.IViewStateAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
 - uid: SuperOffice.CRM.Services.History.#ctor
   commentId: M:SuperOffice.CRM.Services.History.#ctor
   id: '#ctor'
@@ -60,21 +81,18 @@ items:
   nameWithType: History.History()
   fullName: SuperOffice.CRM.Services.History.History()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public History()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.History.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: History.New()
+  fullName.vb: SuperOffice.CRM.Services.History.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.History.ToString
   commentId: M:SuperOffice.CRM.Services.History.ToString
   id: ToString
@@ -86,26 +104,18 @@ items:
   nameWithType: History.ToString()
   fullName: SuperOffice.CRM.Services.History.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.History.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.History.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.History.ToString(System.String)
   id: ToString(System.String)
@@ -113,17 +123,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: History.ToString(String)
-  fullName: SuperOffice.CRM.Services.History.ToString(System.String)
+  name: ToString(string)
+  nameWithType: History.ToString(string)
+  fullName: SuperOffice.CRM.Services.History.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -135,10 +146,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.History.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: History.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.History.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.History.Rank
   commentId: P:SuperOffice.CRM.Services.History.Rank
   id: Rank
@@ -150,28 +160,28 @@ items:
   nameWithType: History.Rank
   fullName: SuperOffice.CRM.Services.History.Rank
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSort order, indexed so it can used for sorting in the query \n"
+  summary: Sort order, indexed so it can used for sorting in the query
+  example: []
   syntax:
-    content: public virtual short Rank { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short Rank { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property Rank As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Rank As Short
   overload: SuperOffice.CRM.Services.History.Rank*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.History.Id
   commentId: P:SuperOffice.CRM.Services.History.Id
   id: Id
@@ -183,28 +193,28 @@ items:
   nameWithType: History.Id
   fullName: SuperOffice.CRM.Services.History.Id
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nId of the history item, for instance a contact id. Represents the history table&apos;s RecordId field, if the item is based on a history table record \n"
+  summary: Id of the history item, for instance a contact id. Represents the history table's RecordId field, if the item is based on a history table record
+  example: []
   syntax:
-    content: public virtual int Id { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int Id { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property Id As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Id As Integer
   overload: SuperOffice.CRM.Services.History.Id*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.History.HistoryName
   commentId: P:SuperOffice.CRM.Services.History.HistoryName
   id: HistoryName
@@ -216,28 +226,28 @@ items:
   nameWithType: History.HistoryName
   fullName: SuperOffice.CRM.Services.History.HistoryName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe name of the history list, for instance contact. Represents the history table&apos;s TableId field \n"
+  summary: The name of the history list, for instance contact. Represents the history table's TableId field
+  example: []
   syntax:
-    content: public virtual string HistoryName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string HistoryName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property HistoryName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property HistoryName As String
   overload: SuperOffice.CRM.Services.History.HistoryName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.History.HistoryId
   commentId: P:SuperOffice.CRM.Services.History.HistoryId
   id: HistoryId
@@ -249,28 +259,28 @@ items:
   nameWithType: History.HistoryId
   fullName: SuperOffice.CRM.Services.History.HistoryId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int HistoryId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int HistoryId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property HistoryId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property HistoryId As Integer
   overload: SuperOffice.CRM.Services.History.HistoryId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.History.AssociateId
   commentId: P:SuperOffice.CRM.Services.History.AssociateId
   id: AssociateId
@@ -282,28 +292,28 @@ items:
   nameWithType: History.AssociateId
   fullName: SuperOffice.CRM.Services.History.AssociateId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nOwner of history list \n"
+  summary: Owner of history list
+  example: []
   syntax:
-    content: public virtual int AssociateId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int AssociateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property AssociateId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AssociateId As Integer
   overload: SuperOffice.CRM.Services.History.AssociateId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.History.Name
   commentId: P:SuperOffice.CRM.Services.History.Name
   id: Name
@@ -315,28 +325,28 @@ items:
   nameWithType: History.Name
   fullName: SuperOffice.CRM.Services.History.Name
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nName of the history item, for instance contact name \n"
+  summary: Name of the history item, for instance contact name
+  example: []
   syntax:
-    content: public virtual string Name { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Name As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.History.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.History.ItemInfo
   commentId: P:SuperOffice.CRM.Services.History.ItemInfo
   id: ItemInfo
@@ -348,57 +358,106 @@ items:
   nameWithType: History.ItemInfo
   fullName: SuperOffice.CRM.Services.History.ItemInfo
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nExtra information on the history item, e.g. The Associate Type for an associate or other relevant info. \n"
+  summary: Extra information on the history item, e.g. The Associate Type for an associate or other relevant info.
+  example: []
   syntax:
-    content: public virtual string ItemInfo { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string ItemInfo { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property ItemInfo As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ItemInfo As String
   overload: SuperOffice.CRM.Services.History.ItemInfo*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.ViewStateAgent
-  commentId: T:SuperOffice.CRM.Services.ViewStateAgent
-  isExternal: true
-  name: ViewStateAgent
-  nameWithType: ViewStateAgent
-  fullName: SuperOffice.CRM.Services.ViewStateAgent
 - uid: SuperOffice.CRM.Services.IViewStateAgent
   commentId: T:SuperOffice.CRM.Services.IViewStateAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IViewStateAgent.html
   name: IViewStateAgent
   nameWithType: IViewStateAgent
   fullName: SuperOffice.CRM.Services.IViewStateAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.History.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.History.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.History.html#SuperOffice_CRM_Services_History__ctor
   name: History
   nameWithType: History.History
   fullName: SuperOffice.CRM.Services.History.History
+  nameWithType.vb: History.New
+  fullName.vb: SuperOffice.CRM.Services.History.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.History.ToString*
   commentId: Overload:SuperOffice.CRM.Services.History.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.History.html#SuperOffice_CRM_Services_History_ToString
   name: ToString
   nameWithType: History.ToString
   fullName: SuperOffice.CRM.Services.History.ToString
@@ -406,18 +465,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.History.Rank*
   commentId: Overload:SuperOffice.CRM.Services.History.Rank
   isExternal: true
+  href: SuperOffice.CRM.Services.History.html#SuperOffice_CRM_Services_History_Rank
   name: Rank
   nameWithType: History.Rank
   fullName: SuperOffice.CRM.Services.History.Rank
@@ -425,12 +483,17 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Services.History.Id*
   commentId: Overload:SuperOffice.CRM.Services.History.Id
   isExternal: true
+  href: SuperOffice.CRM.Services.History.html#SuperOffice_CRM_Services_History_Id
   name: Id
   nameWithType: History.Id
   fullName: SuperOffice.CRM.Services.History.Id
@@ -438,36 +501,45 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.History.HistoryName*
   commentId: Overload:SuperOffice.CRM.Services.History.HistoryName
   isExternal: true
+  href: SuperOffice.CRM.Services.History.html#SuperOffice_CRM_Services_History_HistoryName
   name: HistoryName
   nameWithType: History.HistoryName
   fullName: SuperOffice.CRM.Services.History.HistoryName
 - uid: SuperOffice.CRM.Services.History.HistoryId*
   commentId: Overload:SuperOffice.CRM.Services.History.HistoryId
   isExternal: true
+  href: SuperOffice.CRM.Services.History.html#SuperOffice_CRM_Services_History_HistoryId
   name: HistoryId
   nameWithType: History.HistoryId
   fullName: SuperOffice.CRM.Services.History.HistoryId
 - uid: SuperOffice.CRM.Services.History.AssociateId*
   commentId: Overload:SuperOffice.CRM.Services.History.AssociateId
   isExternal: true
+  href: SuperOffice.CRM.Services.History.html#SuperOffice_CRM_Services_History_AssociateId
   name: AssociateId
   nameWithType: History.AssociateId
   fullName: SuperOffice.CRM.Services.History.AssociateId
 - uid: SuperOffice.CRM.Services.History.Name*
   commentId: Overload:SuperOffice.CRM.Services.History.Name
   isExternal: true
+  href: SuperOffice.CRM.Services.History.html#SuperOffice_CRM_Services_History_Name
   name: Name
   nameWithType: History.Name
   fullName: SuperOffice.CRM.Services.History.Name
 - uid: SuperOffice.CRM.Services.History.ItemInfo*
   commentId: Overload:SuperOffice.CRM.Services.History.ItemInfo
   isExternal: true
+  href: SuperOffice.CRM.Services.History.html#SuperOffice_CRM_Services_History_ItemInfo
   name: ItemInfo
   nameWithType: History.ItemInfo
   fullName: SuperOffice.CRM.Services.History.ItemInfo

@@ -1,298 +1,595 @@
 ### YamlMime:ManagedReference
 items:
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
-  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowInstanceVariables
   id: WorkflowInstanceVariables
-  parent: SuperOffice.CRM.WorkFlow
+  parent: SuperOffice.CRM.Workflow
   children:
-  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor
-  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
-  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingUntil
+  - SuperOffice.CRM.Workflow.WorkflowInstanceVariables.#ctor
+  - SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingStarted
+  - SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingUntil
   langs:
   - csharp
   - vb
   name: WorkflowInstanceVariables
   nameWithType: WorkflowInstanceVariables
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
-  namespace: SuperOffice.CRM.WorkFlow
+  namespace: SuperOffice.CRM.Workflow
   syntax:
-    content: 'public class WorkflowInstanceVariables : Object'
-    content.vb: >-
-      Public Class WorkflowInstanceVariables
-          Inherits Object
+    content: public class WorkflowInstanceVariables
+    content.vb: Public Class WorkflowInstanceVariables
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
-  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
-  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor
-  commentId: M:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor
+  - SuperOffice.CRM.Workflow.WorkflowInstanceVariables.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Workflow.WorkflowInstanceVariables.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.CRM.Workflow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+  - SuperOffice.CRM.Workflow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.#ctor
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowInstanceVariables.#ctor
   id: '#ctor'
-  parent: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  parent: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
   langs:
   - csharp
   - vb
   name: WorkflowInstanceVariables()
   nameWithType: WorkflowInstanceVariables.WorkflowInstanceVariables()
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WorkflowInstanceVariables()
+  fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WorkflowInstanceVariables()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
-  namespace: SuperOffice.CRM.WorkFlow
+  namespace: SuperOffice.CRM.Workflow
   syntax:
     content: public WorkflowInstanceVariables()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
-  commentId: P:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.#ctor*
+  nameWithType.vb: WorkflowInstanceVariables.New()
+  fullName.vb: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingStarted
+  commentId: P:SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingStarted
   id: WaitingStarted
-  parent: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  parent: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
   langs:
   - csharp
   - vb
   name: WaitingStarted
   nameWithType: WorkflowInstanceVariables.WaitingStarted
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
+  fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingStarted
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
-  namespace: SuperOffice.CRM.WorkFlow
+  namespace: SuperOffice.CRM.Workflow
   syntax:
     content: public DateTime WaitingStarted { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property WaitingStarted As DateTime
-  overload: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingUntil
-  commentId: P:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingUntil
+    content.vb: Public Property WaitingStarted As Date
+  overload: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingStarted*
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingUntil
+  commentId: P:SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingUntil
   id: WaitingUntil
-  parent: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  parent: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
   langs:
   - csharp
   - vb
   name: WaitingUntil
   nameWithType: WorkflowInstanceVariables.WaitingUntil
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingUntil
+  fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingUntil
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
-  namespace: SuperOffice.CRM.WorkFlow
+  namespace: SuperOffice.CRM.Workflow
   syntax:
     content: public DateTime WaitingUntil { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property WaitingUntil As DateTime
-  overload: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingUntil*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+    content.vb: Public Property WaitingUntil As Date
+  overload: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingUntil*
 references:
-- uid: SuperOffice.CRM.WorkFlow
-  commentId: N:SuperOffice.CRM.WorkFlow
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
   isExternal: true
-  name: SuperOffice.CRM.WorkFlow
-  nameWithType: SuperOffice.CRM.WorkFlow
-  fullName: SuperOffice.CRM.WorkFlow
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow
+    name: Workflow
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow
+    name: Workflow
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.EnumUtil.MapEnums``2
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<WorkflowInstanceVariables, To>()
-  nameWithType: EnumUtil.MapEnums<WorkflowInstanceVariables, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowInstanceVariables, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To)()
-  name.vb: MapEnums(Of WorkflowInstanceVariables, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<WorkflowInstanceVariables, To>(WorkflowInstanceVariables)
+  nameWithType: EnumUtil.MapEnums<WorkflowInstanceVariables, To>(WorkflowInstanceVariables)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowInstanceVariables, To>(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowInstanceVariables, To)(WorkflowInstanceVariables)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowInstanceVariables, To)(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+  name.vb: MapEnums(Of WorkflowInstanceVariables, To)(WorkflowInstanceVariables)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<WorkflowInstanceVariables, To>
-    nameWithType: EnumUtil.MapEnums<WorkflowInstanceVariables, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of WorkflowInstanceVariables, To)
-    nameWithType: EnumUtil.MapEnums(Of WorkflowInstanceVariables, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<WorkflowInstanceVariables>(WorkflowInstanceVariables)
-  nameWithType: ObjectExtensions.AssignByReflection<WorkflowInstanceVariables>(WorkflowInstanceVariables)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables>(SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkflowInstanceVariables)(WorkflowInstanceVariables)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)(SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
-  name.vb: AssignByReflection(Of WorkflowInstanceVariables)(WorkflowInstanceVariables)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<WorkflowInstanceVariables>
-    nameWithType: ObjectExtensions.AssignByReflection<WorkflowInstanceVariables>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
     name: WorkflowInstanceVariables
-    nameWithType: WorkflowInstanceVariables
-    fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of WorkflowInstanceVariables)
-    nameWithType: ObjectExtensions.AssignByReflection(Of WorkflowInstanceVariables)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
-    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
     name: WorkflowInstanceVariables
-    nameWithType: WorkflowInstanceVariables
-    fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
     isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<WorkflowInstanceVariables>()
-  nameWithType: ObjectExtensions.GraphCopy<WorkflowInstanceVariables>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkflowInstanceVariables)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)()
-  name.vb: GraphCopy(Of WorkflowInstanceVariables)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<WorkflowInstanceVariables>
-    nameWithType: ObjectExtensions.GraphCopy<WorkflowInstanceVariables>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of WorkflowInstanceVariables)
-    nameWithType: ObjectExtensions.GraphCopy(Of WorkflowInstanceVariables)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
+  - name: )
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<WorkflowInstanceVariables, To>()
-  nameWithType: Converters.MapEnums<WorkflowInstanceVariables, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To>()
-  nameWithType.vb: Converters.MapEnums(Of WorkflowInstanceVariables, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To)()
-  name.vb: MapEnums(Of WorkflowInstanceVariables, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<WorkflowInstanceVariables, To>(WorkflowInstanceVariables)
+  nameWithType: Converters.MapEnums<WorkflowInstanceVariables, To>(WorkflowInstanceVariables)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowInstanceVariables, To>(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+  nameWithType.vb: Converters.MapEnums(Of WorkflowInstanceVariables, To)(WorkflowInstanceVariables)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowInstanceVariables, To)(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+  name.vb: MapEnums(Of WorkflowInstanceVariables, To)(WorkflowInstanceVariables)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<WorkflowInstanceVariables, To>
-    nameWithType: Converters.MapEnums<WorkflowInstanceVariables, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of WorkflowInstanceVariables, To)
-    nameWithType: Converters.MapEnums(Of WorkflowInstanceVariables, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
+  - name: )
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<WorkflowInstanceVariables>(WorkflowInstanceVariables, WorkflowInstanceVariables)
+  nameWithType: ObjectExtensions.AssignByReflection<WorkflowInstanceVariables>(WorkflowInstanceVariables, WorkflowInstanceVariables)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.WorkflowInstanceVariables>(SuperOffice.CRM.Workflow.WorkflowInstanceVariables, SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkflowInstanceVariables)(WorkflowInstanceVariables, WorkflowInstanceVariables)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.WorkflowInstanceVariables)(SuperOffice.CRM.Workflow.WorkflowInstanceVariables, SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+  name.vb: AssignByReflection(Of WorkflowInstanceVariables)(WorkflowInstanceVariables, WorkflowInstanceVariables)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.WorkflowInstanceVariables,SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.WorkflowInstanceVariables,SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
+  - name: )
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<WorkflowInstanceVariables>(WorkflowInstanceVariables)
+  nameWithType: ObjectExtensions.GraphCopy<WorkflowInstanceVariables>(WorkflowInstanceVariables)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.WorkflowInstanceVariables>(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkflowInstanceVariables)(WorkflowInstanceVariables)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.WorkflowInstanceVariables)(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+  name.vb: GraphCopy(Of WorkflowInstanceVariables)(WorkflowInstanceVariables)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Workflow.WorkflowInstanceVariables)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -301,140 +598,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -443,73 +645,220 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor*
-  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
   isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.#ctor*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowInstanceVariables.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html#SuperOffice_CRM_Workflow_WorkflowInstanceVariables__ctor
   name: WorkflowInstanceVariables
   nameWithType: WorkflowInstanceVariables.WorkflowInstanceVariables
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WorkflowInstanceVariables
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted*
-  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
+  fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WorkflowInstanceVariables
+  nameWithType.vb: WorkflowInstanceVariables.New
+  fullName.vb: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.New
+  name.vb: New
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingStarted*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingStarted
   isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html#SuperOffice_CRM_Workflow_WorkflowInstanceVariables_WaitingStarted
   name: WaitingStarted
   nameWithType: WorkflowInstanceVariables.WaitingStarted
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
+  fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingStarted
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingUntil*
-  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingUntil
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingUntil*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingUntil
   isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.html#SuperOffice_CRM_Workflow_WorkflowInstanceVariables_WaitingUntil
   name: WaitingUntil
   nameWithType: WorkflowInstanceVariables.WaitingUntil
-  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingUntil
+  fullName: SuperOffice.CRM.Workflow.WorkflowInstanceVariables.WaitingUntil

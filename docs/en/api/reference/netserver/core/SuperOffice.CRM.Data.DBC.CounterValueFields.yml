@@ -39,27 +39,24 @@ items:
   nameWithType: DBC.CounterValueFields
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for CounterValue, Visible for rights\n"
+  summary: Fields for CounterValue, Visible for rights
+  example: []
   syntax:
-    content: 'public static class CounterValueFields : Object'
-    content.vb: >-
-      Public Module CounterValueFields
-          Inherits Object
+    content: public static class DBC.CounterValueFields
+    content.vb: Public Module DBC.CounterValueFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.CounterValueId
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.CounterValueId
   id: CounterValueId
@@ -71,24 +68,16 @@ items:
   nameWithType: DBC.CounterValueFields.CounterValueId
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.CounterValueId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.CounterValueId: Primary key\n"
+  summary: 'CounterValue.CounterValueId: Primary key'
+  example: []
   syntax:
     content: public const string CounterValueId = "CounterValue_id"
     return:
       type: System.String
     content.vb: Public Const CounterValueId As String = "CounterValue_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.ContactId
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.ContactId
   id: ContactId
@@ -100,24 +89,16 @@ items:
   nameWithType: DBC.CounterValueFields.ContactId
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.ContactId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.ContactId: Link to contact, 0 if this counter is not for contacts\n"
+  summary: 'CounterValue.ContactId: Link to contact, 0 if this counter is not for contacts'
+  example: []
   syntax:
     content: public const string ContactId = "contact_id"
     return:
       type: System.String
     content.vb: Public Const ContactId As String = "contact_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.PersonId
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.PersonId
   id: PersonId
@@ -129,24 +110,16 @@ items:
   nameWithType: DBC.CounterValueFields.PersonId
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.PersonId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.PersonId: Link to person, 0 if this counter is not for person (always 0 in 6.0)\n"
+  summary: 'CounterValue.PersonId: Link to person, 0 if this counter is not for person (always 0 in 6.0)'
+  example: []
   syntax:
     content: public const string PersonId = "person_id"
     return:
       type: System.String
     content.vb: Public Const PersonId As String = "person_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.ProjectId
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.ProjectId
   id: ProjectId
@@ -158,24 +131,16 @@ items:
   nameWithType: DBC.CounterValueFields.ProjectId
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.ProjectId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.ProjectId: Link to project, 0 if this counter is not for project\n"
+  summary: 'CounterValue.ProjectId: Link to project, 0 if this counter is not for project'
+  example: []
   syntax:
     content: public const string ProjectId = "project_id"
     return:
       type: System.String
     content.vb: Public Const ProjectId As String = "project_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.Extra1Id
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.Extra1Id
   id: Extra1Id
@@ -187,24 +152,16 @@ items:
   nameWithType: DBC.CounterValueFields.Extra1Id
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.Extra1Id
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.Extra1Id: Spare ID for future links\n"
+  summary: 'CounterValue.Extra1Id: Spare ID for future links'
+  example: []
   syntax:
     content: public const string Extra1Id = "extra1_id"
     return:
       type: System.String
     content.vb: Public Const Extra1Id As String = "extra1_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.Extra2Id
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.Extra2Id
   id: Extra2Id
@@ -216,24 +173,16 @@ items:
   nameWithType: DBC.CounterValueFields.Extra2Id
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.Extra2Id
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.Extra2Id: Spare ID for future links\n"
+  summary: 'CounterValue.Extra2Id: Spare ID for future links'
+  example: []
   syntax:
     content: public const string Extra2Id = "extra2_id"
     return:
       type: System.String
     content.vb: Public Const Extra2Id As String = "extra2_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.RecordType
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.RecordType
   id: RecordType
@@ -245,24 +194,16 @@ items:
   nameWithType: DBC.CounterValueFields.RecordType
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.RecordType
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.RecordType: Same as task.record_type: 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes\n"
+  summary: 'CounterValue.RecordType: Same as task.record_type: 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes'
+  example: []
   syntax:
     content: public const string RecordType = "record_type"
     return:
       type: System.String
     content.vb: Public Const RecordType As String = "record_type"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.Direction
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.Direction
   id: Direction
@@ -274,24 +215,16 @@ items:
   nameWithType: DBC.CounterValueFields.Direction
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.Direction
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.Direction: Same as task.direction: Direction: 0 = none, 1 = incoming, 2 = outgoing\n"
+  summary: 'CounterValue.Direction: Same as task.direction: Direction: 0 = none, 1 = incoming, 2 = outgoing'
+  example: []
   syntax:
     content: public const string Direction = "direction"
     return:
       type: System.String
     content.vb: Public Const Direction As String = "direction"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.IntentId
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.IntentId
   id: IntentId
@@ -303,24 +236,16 @@ items:
   nameWithType: DBC.CounterValueFields.IntentId
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.IntentId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.IntentId: Link to Intent list\n"
+  summary: 'CounterValue.IntentId: Link to Intent list'
+  example: []
   syntax:
     content: public const string IntentId = "intent_id"
     return:
       type: System.String
     content.vb: Public Const IntentId As String = "intent_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.SaleStatus
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.SaleStatus
   id: SaleStatus
@@ -332,24 +257,16 @@ items:
   nameWithType: DBC.CounterValueFields.SaleStatus
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.SaleStatus
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.SaleStatus: Sale status: 0 = Unknown, 1 = open, 2 = closed, 3 = lost, 4 = all sales\n"
+  summary: 'CounterValue.SaleStatus: Sale status: 0 = Unknown, 1 = open, 2 = closed, 3 = lost, 4 = all sales'
+  example: []
   syntax:
     content: public const string SaleStatus = "sale_status"
     return:
       type: System.String
     content.vb: Public Const SaleStatus As String = "sale_status"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.AmountClassId
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.AmountClassId
   id: AmountClassId
@@ -361,24 +278,16 @@ items:
   nameWithType: DBC.CounterValueFields.AmountClassId
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.AmountClassId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.AmountClassId: Sale amount class, for splitting sale counters by amounts\n"
+  summary: 'CounterValue.AmountClassId: Sale amount class, for splitting sale counters by amounts'
+  example: []
   syntax:
     content: public const string AmountClassId = "amountClassId"
     return:
       type: System.String
     content.vb: Public Const AmountClassId As String = "amountClassId"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.TotalReg
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.TotalReg
   id: TotalReg
@@ -390,24 +299,16 @@ items:
   nameWithType: DBC.CounterValueFields.TotalReg
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.TotalReg
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.TotalReg: Total registered records of this type\n"
+  summary: 'CounterValue.TotalReg: Total registered records of this type'
+  example: []
   syntax:
     content: public const string TotalReg = "totalReg"
     return:
       type: System.String
     content.vb: Public Const TotalReg As String = "totalReg"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.TotalRegInPeriod
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.TotalRegInPeriod
   id: TotalRegInPeriod
@@ -419,24 +320,16 @@ items:
   nameWithType: DBC.CounterValueFields.TotalRegInPeriod
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.TotalRegInPeriod
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.TotalRegInPeriod: Total registered records of this type in the first period (there are up to three period definitions)\n"
+  summary: 'CounterValue.TotalRegInPeriod: Total registered records of this type in the first period (there are up to three period definitions)'
+  example: []
   syntax:
     content: public const string TotalRegInPeriod = "totalRegInPeriod"
     return:
       type: System.String
     content.vb: Public Const TotalRegInPeriod As String = "totalRegInPeriod"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.NotCompleted
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.NotCompleted
   id: NotCompleted
@@ -448,24 +341,16 @@ items:
   nameWithType: DBC.CounterValueFields.NotCompleted
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.NotCompleted
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.NotCompleted: Total records with status Not Completed\n"
+  summary: 'CounterValue.NotCompleted: Total records with status Not Completed'
+  example: []
   syntax:
     content: public const string NotCompleted = "notCompleted"
     return:
       type: System.String
     content.vb: Public Const NotCompleted As String = "notCompleted"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.NotCompletedInPeriod
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.NotCompletedInPeriod
   id: NotCompletedInPeriod
@@ -477,24 +362,16 @@ items:
   nameWithType: DBC.CounterValueFields.NotCompletedInPeriod
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.NotCompletedInPeriod
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.NotCompletedInPeriod: Total records with status Not Completed in the first period (there are up to three period definitions)\n"
+  summary: 'CounterValue.NotCompletedInPeriod: Total records with status Not Completed in the first period (there are up to three period definitions)'
+  example: []
   syntax:
     content: public const string NotCompletedInPeriod = "notCompletedInPeriod"
     return:
       type: System.String
     content.vb: Public Const NotCompletedInPeriod As String = "notCompletedInPeriod"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.LastRegistered
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.LastRegistered
   id: LastRegistered
@@ -506,24 +383,16 @@ items:
   nameWithType: DBC.CounterValueFields.LastRegistered
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.LastRegistered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.LastRegistered: ActiveDate/SaleDate/CreatedAt of last activity/sale/ticket of this type\n"
+  summary: 'CounterValue.LastRegistered: ActiveDate/SaleDate/CreatedAt of last activity/sale/ticket of this type'
+  example: []
   syntax:
     content: public const string LastRegistered = "lastRegistered"
     return:
       type: System.String
     content.vb: Public Const LastRegistered As String = "lastRegistered"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.LastCompleted
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.LastCompleted
   id: LastCompleted
@@ -535,24 +404,16 @@ items:
   nameWithType: DBC.CounterValueFields.LastCompleted
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.LastCompleted
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.LastCompleted: ActiveDate/SaleDate/CreatedAt of last COMPLETED activity/sale/ticket of this type\n"
+  summary: 'CounterValue.LastCompleted: ActiveDate/SaleDate/CreatedAt of last COMPLETED activity/sale/ticket of this type'
+  example: []
   syntax:
     content: public const string LastCompleted = "lastCompleted"
     return:
       type: System.String
     content.vb: Public Const LastCompleted As String = "lastCompleted"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.LastDoBy
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.LastDoBy
   id: LastDoBy
@@ -564,24 +425,16 @@ items:
   nameWithType: DBC.CounterValueFields.LastDoBy
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.LastDoBy
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.LastDoBy: ActiveDate/SaleDate/CreatedAt of last NOT COMPLETED activity/sale/ticket of this type\n"
+  summary: 'CounterValue.LastDoBy: ActiveDate/SaleDate/CreatedAt of last NOT COMPLETED activity/sale/ticket of this type'
+  example: []
   syntax:
     content: public const string LastDoBy = "lastDoBy"
     return:
       type: System.String
     content.vb: Public Const LastDoBy As String = "lastDoBy"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.Extra1Count
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.Extra1Count
   id: Extra1Count
@@ -593,24 +446,16 @@ items:
   nameWithType: DBC.CounterValueFields.Extra1Count
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.Extra1Count
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.Extra1Count: Total registered records of this type in the second period (there are up to three period definitions)\n"
+  summary: 'CounterValue.Extra1Count: Total registered records of this type in the second period (there are up to three period definitions)'
+  example: []
   syntax:
     content: public const string Extra1Count = "extra1_count"
     return:
       type: System.String
     content.vb: Public Const Extra1Count As String = "extra1_count"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.Extra2Count
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.Extra2Count
   id: Extra2Count
@@ -622,24 +467,16 @@ items:
   nameWithType: DBC.CounterValueFields.Extra2Count
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.Extra2Count
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.Extra2Count: Total records with status Not Completed in the second period (there are up to three period definitions)\n"
+  summary: 'CounterValue.Extra2Count: Total records with status Not Completed in the second period (there are up to three period definitions)'
+  example: []
   syntax:
     content: public const string Extra2Count = "extra2_count"
     return:
       type: System.String
     content.vb: Public Const Extra2Count As String = "extra2_count"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.Extra3Count
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.Extra3Count
   id: Extra3Count
@@ -651,24 +488,16 @@ items:
   nameWithType: DBC.CounterValueFields.Extra3Count
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.Extra3Count
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.Extra3Count: Total registered records of this type in the third period (there are up to three period definitions)\n"
+  summary: 'CounterValue.Extra3Count: Total registered records of this type in the third period (there are up to three period definitions)'
+  example: []
   syntax:
     content: public const string Extra3Count = "extra3_count"
     return:
       type: System.String
     content.vb: Public Const Extra3Count As String = "extra3_count"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.Extra4Count
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.Extra4Count
   id: Extra4Count
@@ -680,24 +509,16 @@ items:
   nameWithType: DBC.CounterValueFields.Extra4Count
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.Extra4Count
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.Extra4Count: Total records with status Not Completed in the third period (there are up to three period definitions)\n"
+  summary: 'CounterValue.Extra4Count: Total records with status Not Completed in the third period (there are up to three period definitions)'
+  example: []
   syntax:
     content: public const string Extra4Count = "extra4_count"
     return:
       type: System.String
     content.vb: Public Const Extra4Count As String = "extra4_count"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.Registered
   id: Registered
@@ -709,24 +530,16 @@ items:
   nameWithType: DBC.CounterValueFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.Registered
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.Registered: Registered when\n"
+  summary: 'CounterValue.Registered: Registered when'
+  example: []
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -738,24 +551,16 @@ items:
   nameWithType: DBC.CounterValueFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.RegisteredAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.RegisteredAssociateId: Registered by whom\n"
+  summary: 'CounterValue.RegisteredAssociateId: Registered by whom'
+  example: []
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.Updated
   id: Updated
@@ -767,24 +572,16 @@ items:
   nameWithType: DBC.CounterValueFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.Updated
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.Updated: Last updated when\n"
+  summary: 'CounterValue.Updated: Last updated when'
+  example: []
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -796,24 +593,16 @@ items:
   nameWithType: DBC.CounterValueFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.UpdatedAssociateId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.UpdatedAssociateId: Last updated by whom\n"
+  summary: 'CounterValue.UpdatedAssociateId: Last updated by whom'
+  example: []
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.CounterValueFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.CounterValueFields.UpdatedCount
   id: UpdatedCount
@@ -825,41 +614,288 @@ items:
   nameWithType: DBC.CounterValueFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.CounterValueFields.UpdatedCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nCounterValue.UpdatedCount: Number of updates made to this record\n"
+  summary: 'CounterValue.UpdatedCount: Number of updates made to this record'
+  example: []
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -867,6 +903,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

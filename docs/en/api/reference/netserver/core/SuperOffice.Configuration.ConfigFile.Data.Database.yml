@@ -27,27 +27,24 @@ items:
   nameWithType: ConfigFile.Data.Database
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nUtility class used to access the SuperOffice.Data.Database entry in the config-file.\n"
+  summary: Utility class used to access the SuperOffice.Data.Database entry in the config-file.
+  example: []
   syntax:
-    content: 'public static class Database : Object'
-    content.vb: >-
-      Public Module Database
-          Inherits Object
+    content: public static class ConfigFile.Data.Database
+    content.vb: Public Module ConfigFile.Data.Database
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMajor
   commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMajor
   id: DatabaseMajor
@@ -59,13 +56,11 @@ items:
   nameWithType: ConfigFile.Data.Database.DatabaseMajor
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMajor
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nMajor name of database provider\n"
+  summary: Major name of database provider
+  example: []
   syntax:
     content: public static string DatabaseMajor { get; set; }
     parameters: []
@@ -73,14 +68,6 @@ items:
       type: System.String
     content.vb: Public Shared Property DatabaseMajor As String
   overload: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMajor*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMinor
   commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMinor
   id: DatabaseMinor
@@ -92,13 +79,11 @@ items:
   nameWithType: ConfigFile.Data.Database.DatabaseMinor
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMinor
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nVersion number of Database\n"
+  summary: Version number of Database
+  example: []
   syntax:
     content: public static string DatabaseMinor { get; set; }
     parameters: []
@@ -106,14 +91,6 @@ items:
       type: System.String
     content.vb: Public Shared Property DatabaseMinor As String
   overload: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMinor*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.Server
   commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.Server
   id: Server
@@ -125,13 +102,11 @@ items:
   nameWithType: ConfigFile.Data.Database.Server
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.Server
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nThe server where the database is located\n"
+  summary: The server where the database is located
+  example: []
   syntax:
     content: public static string Server { get; set; }
     parameters: []
@@ -139,14 +114,6 @@ items:
       type: System.String
     content.vb: Public Shared Property Server As String
   overload: SuperOffice.Configuration.ConfigFile.Data.Database.Server*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseName
   commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseName
   id: DatabaseName
@@ -158,13 +125,11 @@ items:
   nameWithType: ConfigFile.Data.Database.DatabaseName
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseName
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nName of the database. Also used for distinct service name.\n"
+  summary: Name of the database. Also used for distinct service name.
+  example: []
   syntax:
     content: public static string DatabaseName { get; set; }
     parameters: []
@@ -172,14 +137,6 @@ items:
       type: System.String
     content.vb: Public Shared Property DatabaseName As String
   overload: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseName*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.TablePrefix
   commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.TablePrefix
   id: TablePrefix
@@ -191,13 +148,11 @@ items:
   nameWithType: ConfigFile.Data.Database.TablePrefix
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.TablePrefix
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nThe prefix of the SuperOffice CRM tables in the database.\n"
+  summary: The prefix of the SuperOffice CRM tables in the database.
+  example: []
   syntax:
     content: public static string TablePrefix { get; set; }
     parameters: []
@@ -205,14 +160,6 @@ items:
       type: System.String
     content.vb: Public Shared Property TablePrefix As String
   overload: SuperOffice.Configuration.ConfigFile.Data.Database.TablePrefix*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.ConnectionString
   commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.ConnectionString
   id: ConnectionString
@@ -224,13 +171,11 @@ items:
   nameWithType: ConfigFile.Data.Database.ConnectionString
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.ConnectionString
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nThe connection string formatted as a &quot;template&quot;.\n"
+  summary: The connection string formatted as a "template".
+  example: []
   syntax:
     content: public static string ConnectionString { get; set; }
     parameters: []
@@ -238,14 +183,6 @@ items:
       type: System.String
     content.vb: Public Shared Property ConnectionString As String
   overload: SuperOffice.Configuration.ConfigFile.Data.Database.ConnectionString*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.CommandTimeout
   commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.CommandTimeout
   id: CommandTimeout
@@ -257,13 +194,11 @@ items:
   nameWithType: ConfigFile.Data.Database.CommandTimeout
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.CommandTimeout
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nTimeout in seconds for the command to wait for a response from the database.\n"
+  summary: Timeout in seconds for the command to wait for a response from the database.
+  example: []
   syntax:
     content: public static int CommandTimeout { get; set; }
     parameters: []
@@ -271,14 +206,6 @@ items:
       type: System.Int32
     content.vb: Public Shared Property CommandTimeout As Integer
   overload: SuperOffice.Configuration.ConfigFile.Data.Database.CommandTimeout*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedDataBaseDriver
   commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedDataBaseDriver
   id: DynamicLoadedDataBaseDriver
@@ -290,13 +217,11 @@ items:
   nameWithType: ConfigFile.Data.Database.DynamicLoadedDataBaseDriver
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedDataBaseDriver
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nReturns the name of the ADO.NET driver to load.\n"
+  summary: Returns the name of the ADO.NET driver to load.
+  example: []
   syntax:
     content: public static string DynamicLoadedDataBaseDriver { get; set; }
     parameters: []
@@ -304,14 +229,6 @@ items:
       type: System.String
     content.vb: Public Shared Property DynamicLoadedDataBaseDriver As String
   overload: SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedDataBaseDriver*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedConnectionType
   commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedConnectionType
   id: DynamicLoadedConnectionType
@@ -323,13 +240,11 @@ items:
   nameWithType: ConfigFile.Data.Database.DynamicLoadedConnectionType
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedConnectionType
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nReturns the type of connection to open.\n"
+  summary: Returns the type of connection to open.
+  example: []
   syntax:
     content: public static string DynamicLoadedConnectionType { get; set; }
     parameters: []
@@ -337,14 +252,6 @@ items:
       type: System.String
     content.vb: Public Shared Property DynamicLoadedConnectionType As String
   overload: SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedConnectionType*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.DefaultReadUncommitted
   commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.DefaultReadUncommitted
   id: DefaultReadUncommitted
@@ -356,13 +263,11 @@ items:
   nameWithType: ConfigFile.Data.Database.DefaultReadUncommitted
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DefaultReadUncommitted
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nShould SELECTs by default run in &quot;ReadUncommitted&quot; isolation level, lessening locking contention (especially on SQL Server)?  Default setting is TRUE.\n"
+  summary: Should SELECTs by default run in "ReadUncommitted" isolation level, lessening locking contention (especially on SQL Server)?  Default setting is TRUE.
+  example: []
   syntax:
     content: public static bool DefaultReadUncommitted { get; set; }
     parameters: []
@@ -370,14 +275,6 @@ items:
       type: System.Boolean
     content.vb: Public Shared Property DefaultReadUncommitted As Boolean
   overload: SuperOffice.Configuration.ConfigFile.Data.Database.DefaultReadUncommitted*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.ImpersonateDatabaseUser
   commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.ImpersonateDatabaseUser
   id: ImpersonateDatabaseUser
@@ -389,13 +286,11 @@ items:
   nameWithType: ConfigFile.Data.Database.ImpersonateDatabaseUser
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.ImpersonateDatabaseUser
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nShould the DbUser be logged in with windows and impersonated when connecting to the database in order to support database integrated authentication.\n"
+  summary: Should the DbUser be logged in with windows and impersonated when connecting to the database in order to support database integrated authentication.
+  example: []
   syntax:
     content: public static bool ImpersonateDatabaseUser { get; set; }
     parameters: []
@@ -403,14 +298,6 @@ items:
       type: System.Boolean
     content.vb: Public Shared Property ImpersonateDatabaseUser As Boolean
   overload: SuperOffice.Configuration.ConfigFile.Data.Database.ImpersonateDatabaseUser*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.DisableSqlTrackingComments
   commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.DisableSqlTrackingComments
   id: DisableSqlTrackingComments
@@ -422,13 +309,11 @@ items:
   nameWithType: ConfigFile.Data.Database.DisableSqlTrackingComments
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DisableSqlTrackingComments
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nIf true, then comments that usually precede generated SQL to identify the operation and user will not be generated at all; may help performance on Oracle which thinks it has to reparse everything if a comment changes\n"
+  summary: If true, then comments that usually precede generated SQL to identify the operation and user will not be generated at all; may help performance on Oracle which thinks it has to reparse everything if a comment changes
+  example: []
   syntax:
     content: public static bool DisableSqlTrackingComments { get; set; }
     parameters: []
@@ -436,14 +321,6 @@ items:
       type: System.Boolean
     content.vb: Public Shared Property DisableSqlTrackingComments As Boolean
   overload: SuperOffice.Configuration.ConfigFile.Data.Database.DisableSqlTrackingComments*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.DisableUserInSqlTrackingComments
   commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.DisableUserInSqlTrackingComments
   id: DisableUserInSqlTrackingComments
@@ -455,13 +332,11 @@ items:
   nameWithType: ConfigFile.Data.Database.DisableUserInSqlTrackingComments
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DisableUserInSqlTrackingComments
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nIf true, then comments that usually precede generated SQL to identify the operation will not contain associate information; may help performance on Oracle which thinks it has to reparse everything if a comment changes\n"
+  summary: If true, then comments that usually precede generated SQL to identify the operation will not contain associate information; may help performance on Oracle which thinks it has to reparse everything if a comment changes
+  example: []
   syntax:
     content: public static bool DisableUserInSqlTrackingComments { get; set; }
     parameters: []
@@ -469,14 +344,6 @@ items:
       type: System.Boolean
     content.vb: Public Shared Property DisableUserInSqlTrackingComments As Boolean
   overload: SuperOffice.Configuration.ConfigFile.Data.Database.DisableUserInSqlTrackingComments*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.CacheCheckInterval
   commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.CacheCheckInterval
   id: CacheCheckInterval
@@ -488,13 +355,11 @@ items:
   nameWithType: ConfigFile.Data.Database.CacheCheckInterval
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.CacheCheckInterval
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nNumber of seconds to check if cache are outdated and refersh. 0 will disable the timer.\n"
+  summary: Number of seconds to check if cache are outdated and refersh. 0 will disable the timer.
+  example: []
   syntax:
     content: public static int CacheCheckInterval { get; set; }
     parameters: []
@@ -502,14 +367,6 @@ items:
       type: System.Int32
     content.vb: Public Shared Property CacheCheckInterval As Integer
   overload: SuperOffice.Configuration.ConfigFile.Data.Database.CacheCheckInterval*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.ForceCacheRefreshInterval
   commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.ForceCacheRefreshInterval
   id: ForceCacheRefreshInterval
@@ -521,13 +378,11 @@ items:
   nameWithType: ConfigFile.Data.Database.ForceCacheRefreshInterval
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.ForceCacheRefreshInterval
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nNumber of seconds before caches are force refreshed. 0 will disable the timer.\n"
+  summary: Number of seconds before caches are force refreshed. 0 will disable the timer.
+  example: []
   syntax:
     content: public static int ForceCacheRefreshInterval { get; set; }
     parameters: []
@@ -535,37 +390,275 @@ items:
       type: System.Int32
     content.vb: Public Shared Property ForceCacheRefreshInterval As Integer
   overload: SuperOffice.Configuration.ConfigFile.Data.Database.ForceCacheRefreshInterval*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 references:
 - uid: SuperOffice.Configuration
   commentId: N:SuperOffice.Configuration
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Configuration
   nameWithType: SuperOffice.Configuration
   fullName: SuperOffice.Configuration
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Configuration
+    name: Configuration
+    isExternal: true
+    href: SuperOffice.Configuration.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMajor*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMajor
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Data.Database.html#SuperOffice_Configuration_ConfigFile_Data_Database_DatabaseMajor
   name: DatabaseMajor
   nameWithType: ConfigFile.Data.Database.DatabaseMajor
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMajor
@@ -573,42 +666,52 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMinor*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMinor
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Data.Database.html#SuperOffice_Configuration_ConfigFile_Data_Database_DatabaseMinor
   name: DatabaseMinor
   nameWithType: ConfigFile.Data.Database.DatabaseMinor
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMinor
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.Server*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.Server
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Data.Database.html#SuperOffice_Configuration_ConfigFile_Data_Database_Server
   name: Server
   nameWithType: ConfigFile.Data.Database.Server
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.Server
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseName*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseName
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Data.Database.html#SuperOffice_Configuration_ConfigFile_Data_Database_DatabaseName
   name: DatabaseName
   nameWithType: ConfigFile.Data.Database.DatabaseName
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseName
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.TablePrefix*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.TablePrefix
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Data.Database.html#SuperOffice_Configuration_ConfigFile_Data_Database_TablePrefix
   name: TablePrefix
   nameWithType: ConfigFile.Data.Database.TablePrefix
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.TablePrefix
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.ConnectionString*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.ConnectionString
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Data.Database.html#SuperOffice_Configuration_ConfigFile_Data_Database_ConnectionString
   name: ConnectionString
   nameWithType: ConfigFile.Data.Database.ConnectionString
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.ConnectionString
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.CommandTimeout*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.CommandTimeout
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Data.Database.html#SuperOffice_Configuration_ConfigFile_Data_Database_CommandTimeout
   name: CommandTimeout
   nameWithType: ConfigFile.Data.Database.CommandTimeout
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.CommandTimeout
@@ -616,24 +719,31 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedDataBaseDriver*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedDataBaseDriver
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Data.Database.html#SuperOffice_Configuration_ConfigFile_Data_Database_DynamicLoadedDataBaseDriver
   name: DynamicLoadedDataBaseDriver
   nameWithType: ConfigFile.Data.Database.DynamicLoadedDataBaseDriver
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedDataBaseDriver
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedConnectionType*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedConnectionType
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Data.Database.html#SuperOffice_Configuration_ConfigFile_Data_Database_DynamicLoadedConnectionType
   name: DynamicLoadedConnectionType
   nameWithType: ConfigFile.Data.Database.DynamicLoadedConnectionType
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedConnectionType
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.DefaultReadUncommitted*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.DefaultReadUncommitted
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Data.Database.html#SuperOffice_Configuration_ConfigFile_Data_Database_DefaultReadUncommitted
   name: DefaultReadUncommitted
   nameWithType: ConfigFile.Data.Database.DefaultReadUncommitted
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DefaultReadUncommitted
@@ -641,36 +751,45 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.ImpersonateDatabaseUser*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.ImpersonateDatabaseUser
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Data.Database.html#SuperOffice_Configuration_ConfigFile_Data_Database_ImpersonateDatabaseUser
   name: ImpersonateDatabaseUser
   nameWithType: ConfigFile.Data.Database.ImpersonateDatabaseUser
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.ImpersonateDatabaseUser
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.DisableSqlTrackingComments*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.DisableSqlTrackingComments
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Data.Database.html#SuperOffice_Configuration_ConfigFile_Data_Database_DisableSqlTrackingComments
   name: DisableSqlTrackingComments
   nameWithType: ConfigFile.Data.Database.DisableSqlTrackingComments
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DisableSqlTrackingComments
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.DisableUserInSqlTrackingComments*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.DisableUserInSqlTrackingComments
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Data.Database.html#SuperOffice_Configuration_ConfigFile_Data_Database_DisableUserInSqlTrackingComments
   name: DisableUserInSqlTrackingComments
   nameWithType: ConfigFile.Data.Database.DisableUserInSqlTrackingComments
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DisableUserInSqlTrackingComments
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.CacheCheckInterval*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.CacheCheckInterval
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Data.Database.html#SuperOffice_Configuration_ConfigFile_Data_Database_CacheCheckInterval
   name: CacheCheckInterval
   nameWithType: ConfigFile.Data.Database.CacheCheckInterval
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.CacheCheckInterval
 - uid: SuperOffice.Configuration.ConfigFile.Data.Database.ForceCacheRefreshInterval*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.ForceCacheRefreshInterval
   isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Data.Database.html#SuperOffice_Configuration_ConfigFile_Data_Database_ForceCacheRefreshInterval
   name: ForceCacheRefreshInterval
   nameWithType: ConfigFile.Data.Database.ForceCacheRefreshInterval
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.ForceCacheRefreshInterval

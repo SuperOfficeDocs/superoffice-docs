@@ -39,27 +39,27 @@ items:
   nameWithType: Constants.RestrictionTypes
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes
   type: Class
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nRestriction types for archive columns. A column can be used as a restriction if it has one of these types; numeric and\ndate values are expected to be either in InvariantCulture format or encoded with the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: >-
+    Restriction types for archive columns. A column can be used as a restriction if it has one of these types; numeric and
+
+    date values are expected to be either in InvariantCulture format or encoded with the <xref href="SuperOffice.CRM.Globalization.CultureDataFormatter" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
-    content: 'public static class RestrictionTypes : Object'
-    content.vb: >-
-      Public Module RestrictionTypes
-          Inherits Object
+    content: public static class Constants.RestrictionTypes
+    content.vb: Public Module Constants.RestrictionTypes
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.String
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.String
   id: String
@@ -71,9 +71,6 @@ items:
   nameWithType: Constants.RestrictionTypes.String
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.String
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -82,12 +79,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const String As String = "string"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.PositiveString
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.PositiveString
   id: PositiveString
@@ -99,9 +90,6 @@ items:
   nameWithType: Constants.RestrictionTypes.PositiveString
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.PositiveString
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -110,12 +98,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const PositiveString As String = "positiveString"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Int
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Int
   id: Int
@@ -127,9 +109,6 @@ items:
   nameWithType: Constants.RestrictionTypes.Int
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Int
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -138,12 +117,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Int As String = "int"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ListAny
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ListAny
   id: ListAny
@@ -155,9 +128,6 @@ items:
   nameWithType: Constants.RestrictionTypes.ListAny
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ListAny
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -166,12 +136,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const ListAny As String = "listAny"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ListAll
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ListAll
   id: ListAll
@@ -183,9 +147,6 @@ items:
   nameWithType: Constants.RestrictionTypes.ListAll
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ListAll
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -194,12 +155,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const ListAll As String = "listAll"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ListInterest
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ListInterest
   id: ListInterest
@@ -211,9 +166,6 @@ items:
   nameWithType: Constants.RestrictionTypes.ListInterest
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ListInterest
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -222,12 +174,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const ListInterest As String = "listInterest"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ListExternal
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ListExternal
   id: ListExternal
@@ -239,9 +185,6 @@ items:
   nameWithType: Constants.RestrictionTypes.ListExternal
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ListExternal
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -250,12 +193,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const ListExternal As String = "listExternal"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Bool
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Bool
   id: Bool
@@ -267,9 +204,6 @@ items:
   nameWithType: Constants.RestrictionTypes.Bool
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Bool
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -278,12 +212,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Bool As String = "bool"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Date
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Date
   id: Date
@@ -295,9 +223,6 @@ items:
   nameWithType: Constants.RestrictionTypes.Date
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Date
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -306,12 +231,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Date As String = "date"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ReporterDate
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ReporterDate
   id: ReporterDate
@@ -323,9 +242,6 @@ items:
   nameWithType: Constants.RestrictionTypes.ReporterDate
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ReporterDate
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -334,12 +250,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const ReporterDate As String = "reporterDate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Datetime
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Datetime
   id: Datetime
@@ -351,9 +261,6 @@ items:
   nameWithType: Constants.RestrictionTypes.Datetime
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Datetime
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -362,12 +269,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Datetime As String = "datetime"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.UnlimitedDate
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.UnlimitedDate
   id: UnlimitedDate
@@ -379,9 +280,6 @@ items:
   nameWithType: Constants.RestrictionTypes.UnlimitedDate
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.UnlimitedDate
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -390,12 +288,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const UnlimitedDate As String = "unlimitedDate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.TimeSpan
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.TimeSpan
   id: TimeSpan
@@ -407,9 +299,6 @@ items:
   nameWithType: Constants.RestrictionTypes.TimeSpan
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.TimeSpan
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -418,12 +307,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const TimeSpan As String = "timeSpan"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ReporterUnlimitedDate
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ReporterUnlimitedDate
   id: ReporterUnlimitedDate
@@ -435,9 +318,6 @@ items:
   nameWithType: Constants.RestrictionTypes.ReporterUnlimitedDate
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ReporterUnlimitedDate
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -446,12 +326,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const ReporterUnlimitedDate As String = "reporterUnlimitedDate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Decimal
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Decimal
   id: Decimal
@@ -463,9 +337,6 @@ items:
   nameWithType: Constants.RestrictionTypes.Decimal
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Decimal
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -474,12 +345,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Decimal As String = "decimal"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Associate
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Associate
   id: Associate
@@ -491,9 +356,6 @@ items:
   nameWithType: Constants.RestrictionTypes.Associate
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Associate
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -502,12 +364,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Associate As String = "associate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.EjUser
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.EjUser
   id: EjUser
@@ -519,9 +375,6 @@ items:
   nameWithType: Constants.RestrictionTypes.EjUser
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.EjUser
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -530,12 +383,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const EjUser As String = "ejUser"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.SaintStatus
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.SaintStatus
   id: SaintStatus
@@ -547,9 +394,6 @@ items:
   nameWithType: Constants.RestrictionTypes.SaintStatus
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.SaintStatus
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -558,12 +402,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const SaintStatus As String = "saintStatus"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.IntArray
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.IntArray
   id: IntArray
@@ -575,9 +413,6 @@ items:
   nameWithType: Constants.RestrictionTypes.IntArray
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.IntArray
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -586,12 +421,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const IntArray As String = "intArray"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.UserGroup
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.UserGroup
   id: UserGroup
@@ -603,9 +432,6 @@ items:
   nameWithType: Constants.RestrictionTypes.UserGroup
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.UserGroup
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -614,12 +440,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const UserGroup As String = "userGroup"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.EjCategory
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.EjCategory
   id: EjCategory
@@ -631,9 +451,6 @@ items:
   nameWithType: Constants.RestrictionTypes.EjCategory
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.EjCategory
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -642,12 +459,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const EjCategory As String = "ejCategory"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.StringOrPkListAny
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.StringOrPkListAny
   id: StringOrPkListAny
@@ -659,24 +470,19 @@ items:
   nameWithType: Constants.RestrictionTypes.StringOrPkListAny
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.StringOrPkListAny
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nSignifies that we either want an ordinary string field\nOR the primary keys array of the strings&apos; table if PkIsOneOf or PkIsNotOneOf operators are used\n"
+  summary: >-
+    Signifies that we either want an ordinary string field
+
+    OR the primary keys array of the strings' table if PkIsOneOf or PkIsNotOneOf operators are used
+  example: []
   syntax:
     content: public const string StringOrPkListAny = "stringOrPkListAny"
     return:
       type: System.String
     content.vb: Public Const StringOrPkListAny As String = "stringOrPkListAny"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.StringOrPK
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.StringOrPK
   id: StringOrPK
@@ -688,24 +494,16 @@ items:
   nameWithType: Constants.RestrictionTypes.StringOrPK
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.StringOrPK
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nSignifies that we either want an ordinary string field, OR the primary key of the strings&apos; table if the isPK operator is used\n"
+  summary: Signifies that we either want an ordinary string field, OR the primary key of the strings' table if the isPK operator is used
+  example: []
   syntax:
     content: public const string StringOrPK = "stringorPK"
     return:
       type: System.String
     content.vb: Public Const StringOrPK As String = "stringorPK"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Entity
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Entity
   id: Entity
@@ -717,9 +515,6 @@ items:
   nameWithType: Constants.RestrictionTypes.Entity
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Entity
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -728,12 +523,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Entity As String = "entity"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.CalendarWeek
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.CalendarWeek
   id: CalendarWeek
@@ -745,9 +534,6 @@ items:
   nameWithType: Constants.RestrictionTypes.CalendarWeek
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.CalendarWeek
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -756,12 +542,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const CalendarWeek As String = "calendarWeek"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.CalendarMonth
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.CalendarMonth
   id: CalendarMonth
@@ -773,9 +553,6 @@ items:
   nameWithType: Constants.RestrictionTypes.CalendarMonth
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.CalendarMonth
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -784,12 +561,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const CalendarMonth As String = "calendarMonth"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.StaticPrefix
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.StaticPrefix
   id: StaticPrefix
@@ -801,9 +572,6 @@ items:
   nameWithType: Constants.RestrictionTypes.StaticPrefix
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.StaticPrefix
   type: Field
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
@@ -812,29 +580,285 @@ items:
     return:
       type: System.String
     content.vb: Public Const StaticPrefix As String = "static"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
+- uid: SuperOffice.CRM.Globalization.CultureDataFormatter
+  commentId: T:SuperOffice.CRM.Globalization.CultureDataFormatter
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html
+  name: CultureDataFormatter
+  nameWithType: CultureDataFormatter
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -842,6 +866,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

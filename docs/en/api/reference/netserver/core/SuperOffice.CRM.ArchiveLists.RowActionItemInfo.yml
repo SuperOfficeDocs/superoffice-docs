@@ -22,31 +22,29 @@ items:
   nameWithType: RowActionItemInfo
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nDescription of one action item, destined for an archive row context menu or toolbar button\n"
+  summary: Description of one action item, destined for an archive row context menu or toolbar button
+  example: []
   syntax:
-    content: 'public class RowActionItemInfo : Object'
-    content.vb: >-
-      Public Class RowActionItemInfo
-          Inherits Object
+    content: public class RowActionItemInfo
+    content.vb: Public Class RowActionItemInfo
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.RowActionItemInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.RowActionItemInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.RowActionItemInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
   - SuperOffice.CRM.ArchiveLists.RowActionItemInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.CRM.ArchiveLists.RowActionItemInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.CanExecute
   commentId: F:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.CanExecute
   id: CanExecute
@@ -58,22 +56,19 @@ items:
   nameWithType: RowActionItemInfo.CanExecute
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.CanExecute
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nCanExecute delegate, called whenever the row-selection state changes, and before a context menu is shown. It influences the enabled/disabled/hidden state\nof a button or menu item. This value can be left uninitialized (null) if the item should always be available.\n"
+  summary: >-
+    CanExecute delegate, called whenever the row-selection state changes, and before a context menu is shown. It influences the enabled/disabled/hidden state
+
+    of a button or menu item. This value can be left uninitialized (null) if the item should always be available.
+  example: []
   syntax:
     content: public CanExecuteDelegate CanExecute
     return:
       type: SuperOffice.CRM.ArchiveLists.CanExecuteDelegate
     content.vb: Public CanExecute As CanExecuteDelegate
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.#ctor
   id: '#ctor'
@@ -85,20 +80,16 @@ items:
   nameWithType: RowActionItemInfo.RowActionItemInfo()
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.RowActionItemInfo()
   type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public RowActionItemInfo()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: RowActionItemInfo.New()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisplayName
   commentId: P:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisplayName
   id: DisplayName
@@ -110,13 +101,11 @@ items:
   nameWithType: RowActionItemInfo.DisplayName
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisplayName
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nAction item text to be shown; can contain resource and multi-language elements\n"
+  summary: Action item text to be shown; can contain resource and multi-language elements
+  example: []
   syntax:
     content: public string DisplayName { get; set; }
     parameters: []
@@ -124,12 +113,6 @@ items:
       type: System.String
     content.vb: Public Property DisplayName As String
   overload: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisplayName*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisplayTooltip
   commentId: P:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisplayTooltip
   id: DisplayTooltip
@@ -141,13 +124,11 @@ items:
   nameWithType: RowActionItemInfo.DisplayTooltip
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisplayTooltip
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nTooltip for action item; can contain resource and multi-language elements\n"
+  summary: Tooltip for action item; can contain resource and multi-language elements
+  example: []
   syntax:
     content: public string DisplayTooltip { get; set; }
     parameters: []
@@ -155,12 +136,6 @@ items:
       type: System.String
     content.vb: Public Property DisplayTooltip As String
   overload: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisplayTooltip*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Name
   commentId: P:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Name
   id: Name
@@ -172,13 +147,11 @@ items:
   nameWithType: RowActionItemInfo.Name
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Name
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nUnique item id, must be unique within archive; used to identify menu item chosen (also influences technical name of control in GUI)\n"
+  summary: Unique item id, must be unique within archive; used to identify menu item chosen (also influences technical name of control in GUI)
+  example: []
   syntax:
     content: public string Name { get; set; }
     parameters: []
@@ -186,12 +159,6 @@ items:
       type: System.String
     content.vb: Public Property Name As String
   overload: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Name*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.EnabledIconHint
   commentId: P:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.EnabledIconHint
   id: EnabledIconHint
@@ -203,13 +170,14 @@ items:
   nameWithType: RowActionItemInfo.EnabledIconHint
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.EnabledIconHint
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nOptional name/hint for icon, used in the enabled state; the <see cref=\"!:IArchiveRowEventHandler.GetImage\"></see> method will be called with this\nstring as parameter when the item is to be shown. \n"
+  summary: >-
+    Optional name/hint for icon, used in the enabled state; the IArchiveRowEventHandler.GetImage method will be called with this
+
+    string as parameter when the item is to be shown.
+  example: []
   syntax:
     content: public string EnabledIconHint { get; set; }
     parameters: []
@@ -217,12 +185,6 @@ items:
       type: System.String
     content.vb: Public Property EnabledIconHint As String
   overload: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.EnabledIconHint*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisabledIconHint
   commentId: P:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisabledIconHint
   id: DisabledIconHint
@@ -234,13 +196,16 @@ items:
   nameWithType: RowActionItemInfo.DisabledIconHint
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisabledIconHint
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nOptional name/hint for icon, used in the disabled state; the <see cref=\"!:IArchiveRowEventHandler.GetImage\"></see> method will be called with this\nstring as parameter when the item is to be shown. If the <xref href=\"SuperOffice.CRM.ArchiveLists.RowActionItemInfo.EnabledIconHint\" data-throw-if-not-resolved=\"false\"></xref> is set, then this member should also be set, unless\nthe client is sure that the action item will never be disabled (icons should generally not be the same for enabled and disabled states)\n"
+  summary: >-
+    Optional name/hint for icon, used in the disabled state; the IArchiveRowEventHandler.GetImage method will be called with this
+
+    string as parameter when the item is to be shown. If the <xref href="SuperOffice.CRM.ArchiveLists.RowActionItemInfo.EnabledIconHint" data-throw-if-not-resolved="false"></xref> is set, then this member should also be set, unless
+
+    the client is sure that the action item will never be disabled (icons should generally not be the same for enabled and disabled states)
+  example: []
   syntax:
     content: public string DisabledIconHint { get; set; }
     parameters: []
@@ -248,12 +213,6 @@ items:
       type: System.String
     content.vb: Public Property DisabledIconHint As String
   overload: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisabledIconHint*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Execute
   commentId: P:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Execute
   id: Execute
@@ -265,13 +224,11 @@ items:
   nameWithType: RowActionItemInfo.Execute
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Execute
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nExecute delegate, see the delegate declaration for information. This delegate is relevant for <strong>windows only</strong>.\n"
+  summary: Execute delegate, see the delegate declaration for information. This delegate is relevant for <b>windows only</b>.
+  example: []
   syntax:
     content: public ExecuteDelegate Execute { get; set; }
     parameters: []
@@ -279,12 +236,6 @@ items:
       type: SuperOffice.CRM.ArchiveLists.ExecuteDelegate
     content.vb: Public Property Execute As ExecuteDelegate
   overload: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Execute*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.ScriptAction
   commentId: P:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.ScriptAction
   id: ScriptAction
@@ -296,13 +247,14 @@ items:
   nameWithType: RowActionItemInfo.ScriptAction
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.ScriptAction
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nScript action, to be executed when this action is performed. This string will usually be a JavaScript code fragment; it\nis relevant for <strong>Web only</strong>.\n"
+  summary: >-
+    Script action, to be executed when this action is performed. This string will usually be a JavaScript code fragment; it
+
+    is relevant for <b>Web only</b>.
+  example: []
   syntax:
     content: public string ScriptAction { get; set; }
     parameters: []
@@ -310,12 +262,6 @@ items:
       type: System.String
     content.vb: Public Property ScriptAction As String
   overload: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.ScriptAction*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.ChildItems
   commentId: P:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.ChildItems
   id: ChildItems
@@ -327,13 +273,14 @@ items:
   nameWithType: RowActionItemInfo.ChildItems
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.ChildItems
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nSub-items for actions. On Menu items this means a submenu; on Button items this makes the top-level control into a dropdown list, with child controls becoming items and/or sub-headings\n(no more than one level of headings supported)\n"
+  summary: >-
+    Sub-items for actions. On Menu items this means a submenu; on Button items this makes the top-level control into a dropdown list, with child controls becoming items and/or sub-headings
+
+    (no more than one level of headings supported)
+  example: []
   syntax:
     content: public RowActionItemInfo[] ChildItems { get; set; }
     parameters: []
@@ -341,181 +288,497 @@ items:
       type: SuperOffice.CRM.ArchiveLists.RowActionItemInfo[]
     content.vb: Public Property ChildItems As RowActionItemInfo()
   overload: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.ChildItems*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<RowActionItemInfo, To>()
-  nameWithType: EnumUtil.MapEnums<RowActionItemInfo, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.RowActionItemInfo, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of RowActionItemInfo, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.RowActionItemInfo, To)()
-  name.vb: MapEnums(Of RowActionItemInfo, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<RowActionItemInfo, To>(RowActionItemInfo)
+  nameWithType: EnumUtil.MapEnums<RowActionItemInfo, To>(RowActionItemInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.RowActionItemInfo, To>(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of RowActionItemInfo, To)(RowActionItemInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.RowActionItemInfo, To)(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+  name.vb: MapEnums(Of RowActionItemInfo, To)(RowActionItemInfo)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<RowActionItemInfo, To>
-    nameWithType: EnumUtil.MapEnums<RowActionItemInfo, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.RowActionItemInfo, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of RowActionItemInfo, To)
-    nameWithType: EnumUtil.MapEnums(Of RowActionItemInfo, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.RowActionItemInfo, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<RowActionItemInfo>(RowActionItemInfo)
-  nameWithType: ObjectExtensions.AssignByReflection<RowActionItemInfo>(RowActionItemInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.RowActionItemInfo>(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RowActionItemInfo)(RowActionItemInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.RowActionItemInfo)(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
-  name.vb: AssignByReflection(Of RowActionItemInfo)(RowActionItemInfo)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<RowActionItemInfo>
-    nameWithType: ObjectExtensions.AssignByReflection<RowActionItemInfo>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.RowActionItemInfo>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
     name: RowActionItemInfo
-    nameWithType: RowActionItemInfo
-    fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of RowActionItemInfo)
-    nameWithType: ObjectExtensions.AssignByReflection(Of RowActionItemInfo)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
-    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
     name: RowActionItemInfo
-    nameWithType: RowActionItemInfo
-    fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
     isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<RowActionItemInfo>()
-  nameWithType: ObjectExtensions.GraphCopy<RowActionItemInfo>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.RowActionItemInfo>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of RowActionItemInfo)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.RowActionItemInfo)()
-  name.vb: GraphCopy(Of RowActionItemInfo)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<RowActionItemInfo>
-    nameWithType: ObjectExtensions.GraphCopy<RowActionItemInfo>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.RowActionItemInfo>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of RowActionItemInfo)
-    nameWithType: ObjectExtensions.GraphCopy(Of RowActionItemInfo)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
+    name: RowActionItemInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
+    name: RowActionItemInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<RowActionItemInfo, To>()
-  nameWithType: Converters.MapEnums<RowActionItemInfo, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.RowActionItemInfo, To>()
-  nameWithType.vb: Converters.MapEnums(Of RowActionItemInfo, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.RowActionItemInfo, To)()
-  name.vb: MapEnums(Of RowActionItemInfo, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<RowActionItemInfo, To>(RowActionItemInfo)
+  nameWithType: Converters.MapEnums<RowActionItemInfo, To>(RowActionItemInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.RowActionItemInfo, To>(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+  nameWithType.vb: Converters.MapEnums(Of RowActionItemInfo, To)(RowActionItemInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.RowActionItemInfo, To)(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+  name.vb: MapEnums(Of RowActionItemInfo, To)(RowActionItemInfo)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<RowActionItemInfo, To>
-    nameWithType: Converters.MapEnums<RowActionItemInfo, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.RowActionItemInfo, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
+    name: RowActionItemInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
+    name: RowActionItemInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of RowActionItemInfo, To)
-    nameWithType: Converters.MapEnums(Of RowActionItemInfo, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.RowActionItemInfo, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
+    name: RowActionItemInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
+    name: RowActionItemInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<RowActionItemInfo>(RowActionItemInfo, RowActionItemInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<RowActionItemInfo>(RowActionItemInfo, RowActionItemInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.RowActionItemInfo>(SuperOffice.CRM.ArchiveLists.RowActionItemInfo, SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RowActionItemInfo)(RowActionItemInfo, RowActionItemInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.RowActionItemInfo)(SuperOffice.CRM.ArchiveLists.RowActionItemInfo, SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+  name.vb: AssignByReflection(Of RowActionItemInfo)(RowActionItemInfo, RowActionItemInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.RowActionItemInfo,SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
+    name: RowActionItemInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
+    name: RowActionItemInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
+    name: RowActionItemInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.RowActionItemInfo,SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
+    name: RowActionItemInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
+    name: RowActionItemInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
+    name: RowActionItemInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<RowActionItemInfo>(RowActionItemInfo)
+  nameWithType: ObjectExtensions.GraphCopy<RowActionItemInfo>(RowActionItemInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.RowActionItemInfo>(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of RowActionItemInfo)(RowActionItemInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.RowActionItemInfo)(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+  name.vb: GraphCopy(Of RowActionItemInfo)(RowActionItemInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
+    name: RowActionItemInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
+    name: RowActionItemInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.RowActionItemInfo)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
+    name: RowActionItemInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
+    name: RowActionItemInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -524,140 +787,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -666,69 +834,210 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.CRM.ArchiveLists.CanExecuteDelegate
   commentId: T:SuperOffice.CRM.ArchiveLists.CanExecuteDelegate
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.CanExecuteDelegate.html
   name: CanExecuteDelegate
   nameWithType: CanExecuteDelegate
   fullName: SuperOffice.CRM.ArchiveLists.CanExecuteDelegate
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.#ctor
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html#SuperOffice_CRM_ArchiveLists_RowActionItemInfo__ctor
   name: RowActionItemInfo
   nameWithType: RowActionItemInfo.RowActionItemInfo
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.RowActionItemInfo
+  nameWithType.vb: RowActionItemInfo.New
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.New
+  name.vb: New
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisplayName*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisplayName
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html#SuperOffice_CRM_ArchiveLists_RowActionItemInfo_DisplayName
   name: DisplayName
   nameWithType: RowActionItemInfo.DisplayName
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisplayName
@@ -736,36 +1045,52 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisplayTooltip*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisplayTooltip
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html#SuperOffice_CRM_ArchiveLists_RowActionItemInfo_DisplayTooltip
   name: DisplayTooltip
   nameWithType: RowActionItemInfo.DisplayTooltip
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisplayTooltip
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Name*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Name
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html#SuperOffice_CRM_ArchiveLists_RowActionItemInfo_Name
   name: Name
   nameWithType: RowActionItemInfo.Name
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Name
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.EnabledIconHint*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.EnabledIconHint
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html#SuperOffice_CRM_ArchiveLists_RowActionItemInfo_EnabledIconHint
+  name: EnabledIconHint
+  nameWithType: RowActionItemInfo.EnabledIconHint
+  fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.EnabledIconHint
+- uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.EnabledIconHint
+  commentId: P:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.EnabledIconHint
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html#SuperOffice_CRM_ArchiveLists_RowActionItemInfo_EnabledIconHint
   name: EnabledIconHint
   nameWithType: RowActionItemInfo.EnabledIconHint
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.EnabledIconHint
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisabledIconHint*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisabledIconHint
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html#SuperOffice_CRM_ArchiveLists_RowActionItemInfo_DisabledIconHint
   name: DisabledIconHint
   nameWithType: RowActionItemInfo.DisabledIconHint
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.DisabledIconHint
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Execute*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Execute
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html#SuperOffice_CRM_ArchiveLists_RowActionItemInfo_Execute
   name: Execute
   nameWithType: RowActionItemInfo.Execute
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Execute
@@ -773,23 +1098,27 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.ExecuteDelegate
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.html
   name: ExecuteDelegate
   nameWithType: ExecuteDelegate
   fullName: SuperOffice.CRM.ArchiveLists.ExecuteDelegate
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.ScriptAction*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.ScriptAction
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html#SuperOffice_CRM_ArchiveLists_RowActionItemInfo_ScriptAction
   name: ScriptAction
   nameWithType: RowActionItemInfo.ScriptAction
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.ScriptAction
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.ChildItems*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.ChildItems
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html#SuperOffice_CRM_ArchiveLists_RowActionItemInfo_ChildItems
   name: ChildItems
   nameWithType: RowActionItemInfo.ChildItems
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.ChildItems
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo[]
   isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
   name: RowActionItemInfo[]
   nameWithType: RowActionItemInfo[]
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo[]
@@ -799,18 +1128,14 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
     name: RowActionItemInfo
-    nameWithType: RowActionItemInfo
-    fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
     name: RowActionItemInfo
-    nameWithType: RowActionItemInfo
-    fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
+  - name: (
+  - name: )

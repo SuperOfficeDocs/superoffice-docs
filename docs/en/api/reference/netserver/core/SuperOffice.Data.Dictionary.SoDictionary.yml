@@ -29,29 +29,27 @@ items:
   nameWithType: SoDictionary
   fullName: SuperOffice.Data.Dictionary.SoDictionary
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nImplementation of the SuperOffice Deployed Dictionary\n"
+  summary: Implementation of the SuperOffice Deployed Dictionary
+  example: []
   syntax:
-    content: 'public class SoDictionary : Object'
-    content.vb: >-
-      Public Class SoDictionary
-          Inherits Object
+    content: public class SoDictionary
+    content.vb: Public Class SoDictionary
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.Dictionary.SoDictionary.EnumUtil.MapEnums``2
   - SuperOffice.Data.Dictionary.SoDictionary.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled(System.String)
   commentId: M:SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled(System.String)
   id: IsSpecialDbPatchInstalled(System.String)
@@ -59,17 +57,15 @@ items:
   langs:
   - csharp
   - vb
-  name: IsSpecialDbPatchInstalled(String)
-  nameWithType: SoDictionary.IsSpecialDbPatchInstalled(String)
-  fullName: SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled(System.String)
+  name: IsSpecialDbPatchInstalled(string)
+  nameWithType: SoDictionary.IsSpecialDbPatchInstalled(string)
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nCheck if a certain special database patch has been installed on this database, by patch name\n"
+  summary: Check if a certain special database patch has been installed on this database, by patch name
+  example: []
   syntax:
     content: public bool IsSpecialDbPatchInstalled(string patchName)
     parameters:
@@ -81,10 +77,9 @@ items:
       description: true if patch has been enabled
     content.vb: Public Function IsSpecialDbPatchInstalled(patchName As String) As Boolean
   overload: SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SoDictionary.IsSpecialDbPatchInstalled(String)
+  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled(String)
+  name.vb: IsSpecialDbPatchInstalled(String)
 - uid: SuperOffice.Data.Dictionary.SoDictionary.HasTable(System.String)
   commentId: M:SuperOffice.Data.Dictionary.SoDictionary.HasTable(System.String)
   id: HasTable(System.String)
@@ -92,17 +87,15 @@ items:
   langs:
   - csharp
   - vb
-  name: HasTable(String)
-  nameWithType: SoDictionary.HasTable(String)
-  fullName: SuperOffice.Data.Dictionary.SoDictionary.HasTable(System.String)
+  name: HasTable(string)
+  nameWithType: SoDictionary.HasTable(string)
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.HasTable(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nCheck if the given table (by name) exists in the dictionary\n"
+  summary: Check if the given table (by name) exists in the dictionary
+  example: []
   syntax:
     content: public bool HasTable(string tableName)
     parameters:
@@ -114,10 +107,9 @@ items:
       description: true if the table exists in the dictionary
     content.vb: Public Function HasTable(tableName As String) As Boolean
   overload: SuperOffice.Data.Dictionary.SoDictionary.HasTable*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SoDictionary.HasTable(String)
+  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.HasTable(String)
+  name.vb: HasTable(String)
 - uid: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber(System.Int32)
   commentId: M:SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber(System.Int32)
   id: GetFromTableNumber(System.Int32)
@@ -125,17 +117,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFromTableNumber(Int32)
-  nameWithType: SoDictionary.GetFromTableNumber(Int32)
-  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber(System.Int32)
+  name: GetFromTableNumber(int)
+  nameWithType: SoDictionary.GetFromTableNumber(int)
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nGet the SoTable object based on the SODBIF table number\n"
+  summary: Get the SoTable object based on the SODBIF table number
+  example: []
   syntax:
     content: public SoTable GetFromTableNumber(int tableNumber)
     parameters:
@@ -147,10 +137,9 @@ items:
       description: Table definition; null if the table number does not correspond to a table
     content.vb: Public Function GetFromTableNumber(tableNumber As Integer) As SoTable
   overload: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SoDictionary.GetFromTableNumber(Integer)
+  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber(Integer)
+  name.vb: GetFromTableNumber(Integer)
 - uid: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName(System.String)
   commentId: M:SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName(System.String)
   id: GetFromTableName(System.String)
@@ -158,17 +147,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFromTableName(String)
-  nameWithType: SoDictionary.GetFromTableName(String)
-  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName(System.String)
+  name: GetFromTableName(string)
+  nameWithType: SoDictionary.GetFromTableName(string)
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName(string)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nGet the SoTable object based on the table name. Same as the string indexer.\n"
+  summary: Get the SoTable object based on the table name. Same as the string indexer.
+  example: []
   syntax:
     content: public SoTable GetFromTableName(string tableName)
     parameters:
@@ -179,10 +166,9 @@ items:
       description: Table definition; null if the table name does not correspond to a table
     content.vb: Public Function GetFromTableName(tableName As String) As SoTable
   overload: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SoDictionary.GetFromTableName(String)
+  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName(String)
+  name.vb: GetFromTableName(String)
 - uid: SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber(System.Int32)
   commentId: M:SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber(System.Int32)
   id: GetFromFieldNumber(System.Int32)
@@ -190,17 +176,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFromFieldNumber(Int32)
-  nameWithType: SoDictionary.GetFromFieldNumber(Int32)
-  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber(System.Int32)
+  name: GetFromFieldNumber(int)
+  nameWithType: SoDictionary.GetFromFieldNumber(int)
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nGet the SoField object, based on the field number (C++ style table + field number combination)\n"
+  summary: Get the SoField object, based on the field number (C++ style table + field number combination)
+  example: []
   syntax:
     content: public SoField GetFromFieldNumber(int fieldNumber)
     parameters:
@@ -212,10 +196,9 @@ items:
       description: Field definition, null if the field number does not correspond to a field
     content.vb: Public Function GetFromFieldNumber(fieldNumber As Integer) As SoField
   overload: SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SoDictionary.GetFromFieldNumber(Integer)
+  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber(Integer)
+  name.vb: GetFromFieldNumber(Integer)
 - uid: SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex(System.Int32)
   commentId: M:SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex(System.Int32)
   id: GetColumnIndex(System.Int32)
@@ -223,17 +206,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetColumnIndex(Int32)
-  nameWithType: SoDictionary.GetColumnIndex(Int32)
-  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex(System.Int32)
+  name: GetColumnIndex(int)
+  nameWithType: SoDictionary.GetColumnIndex(int)
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nGet the column index from a composite field id\n"
+  summary: Get the column index from a composite field id
+  example: []
   syntax:
     content: public static int GetColumnIndex(int fieldId)
     parameters:
@@ -245,12 +226,9 @@ items:
       description: Column index, first column of a table has index 0
     content.vb: Public Shared Function GetColumnIndex(fieldId As Integer) As Integer
   overload: SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoDictionary.GetColumnIndex(Integer)
+  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex(Integer)
+  name.vb: GetColumnIndex(Integer)
 - uid: SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber(System.Int32)
   commentId: M:SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber(System.Int32)
   id: GetTableNumber(System.Int32)
@@ -258,17 +236,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetTableNumber(Int32)
-  nameWithType: SoDictionary.GetTableNumber(Int32)
-  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber(System.Int32)
+  name: GetTableNumber(int)
+  nameWithType: SoDictionary.GetTableNumber(int)
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber(int)
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nGet the table number from a composite field id\n"
+  summary: Get the table number from a composite field id
+  example: []
   syntax:
     content: public static int GetTableNumber(int fieldId)
     parameters:
@@ -280,12 +256,9 @@ items:
       description: Table number the field resides in
     content.vb: Public Shared Function GetTableNumber(fieldId As Integer) As Integer
   overload: SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: SoDictionary.GetTableNumber(Integer)
+  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber(Integer)
+  name.vb: GetTableNumber(Integer)
 - uid: SuperOffice.Data.Dictionary.SoDictionary.GetStepsInDatabase
   commentId: M:SuperOffice.Data.Dictionary.SoDictionary.GetStepsInDatabase
   id: GetStepsInDatabase
@@ -297,23 +270,18 @@ items:
   nameWithType: SoDictionary.GetStepsInDatabase()
   fullName: SuperOffice.Data.Dictionary.SoDictionary.GetStepsInDatabase()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nGet information about what steps have been applied to the database\n"
+  summary: Get information about what steps have been applied to the database
+  example: []
   syntax:
     content: public DictionaryStepInfo[] GetStepsInDatabase()
     return:
       type: SuperOffice.CD.DSL.V1.DatabaseModel.DictionaryStepInfo[]
-    content.vb: Public Function GetStepsInDatabase As DictionaryStepInfo()
+      description: ''
+    content.vb: Public Function GetStepsInDatabase() As DictionaryStepInfo()
   overload: SuperOffice.Data.Dictionary.SoDictionary.GetStepsInDatabase*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.Data.Dictionary.SoDictionary.GetStepsFromNetServerCode
   commentId: M:SuperOffice.Data.Dictionary.SoDictionary.GetStepsFromNetServerCode
   id: GetStepsFromNetServerCode
@@ -325,25 +293,21 @@ items:
   nameWithType: SoDictionary.GetStepsFromNetServerCode()
   fullName: SuperOffice.Data.Dictionary.SoDictionary.GetStepsFromNetServerCode()
   type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nGet information about what steps have contributed with generated code in this installation. \nAll loaded assemblies (including partner code) are included in the scan.\n"
+  summary: >-
+    Get information about what steps have contributed with generated code in this installation. 
+
+    All loaded assemblies (including partner code) are included in the scan.
+  example: []
   syntax:
     content: public static DictionaryStepInfo[] GetStepsFromNetServerCode()
     return:
       type: SuperOffice.CD.DSL.V1.DatabaseModel.DictionaryStepInfo[]
-    content.vb: Public Shared Function GetStepsFromNetServerCode As DictionaryStepInfo()
+      description: ''
+    content.vb: Public Shared Function GetStepsFromNetServerCode() As DictionaryStepInfo()
   overload: SuperOffice.Data.Dictionary.SoDictionary.GetStepsFromNetServerCode*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode
   commentId: P:SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode
   id: IsDatabaseUnicode
@@ -355,13 +319,11 @@ items:
   nameWithType: SoDictionary.IsDatabaseUnicode
   fullName: SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nIs the database unicode, i.e., strings stored in unicode (usually UTF16)? If not, then ANSI with the current code page is used\n"
+  summary: Is the database unicode, i.e., strings stored in unicode (usually UTF16)? If not, then ANSI with the current code page is used
+  example: []
   syntax:
     content: public bool IsDatabaseUnicode { get; }
     parameters: []
@@ -369,12 +331,6 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsDatabaseUnicode As Boolean
   overload: SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoDictionary.Item(System.Int32)
   commentId: P:SuperOffice.Data.Dictionary.SoDictionary.Item(System.Int32)
   id: Item(System.Int32)
@@ -382,17 +338,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Item[Int32]
-  nameWithType: SoDictionary.Item[Int32]
-  fullName: SuperOffice.Data.Dictionary.SoDictionary.Item[System.Int32]
+  name: this[int]
+  nameWithType: SoDictionary.this[int]
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.this[int]
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nReturn an SoTable object based on the table number\n"
+  summary: Return an SoTable object based on the table number
+  example: []
   syntax:
     content: public SoTable this[int key] { get; }
     parameters:
@@ -402,17 +356,11 @@ items:
     return:
       type: SuperOffice.Data.Dictionary.SoTable
       description: Table definition object
-    content.vb: Public ReadOnly Property Item(key As Integer) As SoTable
+    content.vb: Public ReadOnly Default Property this[](key As Integer) As SoTable
   overload: SuperOffice.Data.Dictionary.SoDictionary.Item*
-  nameWithType.vb: SoDictionary.Item(Int32)
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.Item(System.Int32)
-  name.vb: Item(Int32)
+  nameWithType.vb: SoDictionary.this[](Integer)
+  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.this[](Integer)
+  name.vb: this[](Integer)
 - uid: SuperOffice.Data.Dictionary.SoDictionary.Item(System.String)
   commentId: P:SuperOffice.Data.Dictionary.SoDictionary.Item(System.String)
   id: Item(System.String)
@@ -420,17 +368,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Item[String]
-  nameWithType: SoDictionary.Item[String]
-  fullName: SuperOffice.Data.Dictionary.SoDictionary.Item[System.String]
+  name: this[string]
+  nameWithType: SoDictionary.this[string]
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.this[string]
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nReturn an SoTable object based on the table name\n"
+  summary: Return an SoTable object based on the table name
+  example: []
   syntax:
     content: public SoTable this[string tableName] { get; }
     parameters:
@@ -439,17 +385,11 @@ items:
     return:
       type: SuperOffice.Data.Dictionary.SoTable
       description: Table definition object
-    content.vb: Public ReadOnly Property Item(tableName As String) As SoTable
+    content.vb: Public ReadOnly Default Property this[](tableName As String) As SoTable
   overload: SuperOffice.Data.Dictionary.SoDictionary.Item*
-  nameWithType.vb: SoDictionary.Item(String)
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.Item(System.String)
-  name.vb: Item(String)
+  nameWithType.vb: SoDictionary.this[](String)
+  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.this[](String)
+  name.vb: this[](String)
 - uid: SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.TableInfo)
   commentId: P:SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.TableInfo)
   id: Item(SuperOffice.Data.SQL.TableInfo)
@@ -457,17 +397,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Item[TableInfo]
-  nameWithType: SoDictionary.Item[TableInfo]
-  fullName: SuperOffice.Data.Dictionary.SoDictionary.Item[SuperOffice.Data.SQL.TableInfo]
+  name: this[TableInfo]
+  nameWithType: SoDictionary.this[TableInfo]
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.this[SuperOffice.Data.SQL.TableInfo]
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nReturn an SoTable object based on a TableInfo object\n"
+  summary: Return an SoTable object based on a TableInfo object
+  example: []
   syntax:
     content: public SoTable this[TableInfo tableInfo] { get; }
     parameters:
@@ -476,17 +414,11 @@ items:
     return:
       type: SuperOffice.Data.Dictionary.SoTable
       description: Table definition object
-    content.vb: Public ReadOnly Property Item(tableInfo As TableInfo) As SoTable
+    content.vb: Public ReadOnly Default Property this[](tableInfo As TableInfo) As SoTable
   overload: SuperOffice.Data.Dictionary.SoDictionary.Item*
-  nameWithType.vb: SoDictionary.Item(TableInfo)
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.TableInfo)
-  name.vb: Item(TableInfo)
+  nameWithType.vb: SoDictionary.this[](TableInfo)
+  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.this[](SuperOffice.Data.SQL.TableInfo)
+  name.vb: this[](TableInfo)
 - uid: SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.FieldInfo)
   commentId: P:SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.FieldInfo)
   id: Item(SuperOffice.Data.SQL.FieldInfo)
@@ -494,17 +426,15 @@ items:
   langs:
   - csharp
   - vb
-  name: Item[FieldInfo]
-  nameWithType: SoDictionary.Item[FieldInfo]
-  fullName: SuperOffice.Data.Dictionary.SoDictionary.Item[SuperOffice.Data.SQL.FieldInfo]
+  name: this[FieldInfo]
+  nameWithType: SoDictionary.this[FieldInfo]
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.this[SuperOffice.Data.SQL.FieldInfo]
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nReturn an SoField object based on a FieldInfo (name/name lookup)\n"
+  summary: Return an SoField object based on a FieldInfo (name/name lookup)
+  example: []
   syntax:
     content: public SoField this[FieldInfo fieldInfo] { get; }
     parameters:
@@ -514,17 +444,11 @@ items:
     return:
       type: SuperOffice.Data.Dictionary.SoField
       description: Field definition object
-    content.vb: Public ReadOnly Property Item(fieldInfo As FieldInfo) As SoField
+    content.vb: Public ReadOnly Default Property this[](fieldInfo As FieldInfo) As SoField
   overload: SuperOffice.Data.Dictionary.SoDictionary.Item*
-  nameWithType.vb: SoDictionary.Item(FieldInfo)
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.FieldInfo)
-  name.vb: Item(FieldInfo)
+  nameWithType.vb: SoDictionary.this[](FieldInfo)
+  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.this[](SuperOffice.Data.SQL.FieldInfo)
+  name.vb: this[](FieldInfo)
 - uid: SuperOffice.Data.Dictionary.SoDictionary.Tables
   commentId: P:SuperOffice.Data.Dictionary.SoDictionary.Tables
   id: Tables
@@ -536,13 +460,11 @@ items:
   nameWithType: SoDictionary.Tables
   fullName: SuperOffice.Data.Dictionary.SoDictionary.Tables
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nGet a list of all the Tables in the deployed dictionary\n"
+  summary: Get a list of all the Tables in the deployed dictionary
+  example: []
   syntax:
     content: public SoTable[] Tables { get; }
     parameters: []
@@ -550,12 +472,6 @@ items:
       type: SuperOffice.Data.Dictionary.SoTable[]
     content.vb: Public ReadOnly Property Tables As SoTable()
   overload: SuperOffice.Data.Dictionary.SoDictionary.Tables*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoDictionary.IsLoaded
   commentId: P:SuperOffice.Data.Dictionary.SoDictionary.IsLoaded
   id: IsLoaded
@@ -567,9 +483,6 @@ items:
   nameWithType: SoDictionary.IsLoaded
   fullName: SuperOffice.Data.Dictionary.SoDictionary.IsLoaded
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
@@ -580,12 +493,6 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsLoaded As Boolean
   overload: SuperOffice.Data.Dictionary.SoDictionary.IsLoaded*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoDictionary.ListInfoIsLoaded
   commentId: P:SuperOffice.Data.Dictionary.SoDictionary.ListInfoIsLoaded
   id: ListInfoIsLoaded
@@ -597,9 +504,6 @@ items:
   nameWithType: SoDictionary.ListInfoIsLoaded
   fullName: SuperOffice.Data.Dictionary.SoDictionary.ListInfoIsLoaded
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
@@ -610,103 +514,391 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property ListInfoIsLoaded As Boolean
   overload: SuperOffice.Data.Dictionary.SoDictionary.ListInfoIsLoaded*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.Dictionary.SoDictionary.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<SoDictionary, To>()
-  nameWithType: EnumUtil.MapEnums<SoDictionary, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dictionary.SoDictionary, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of SoDictionary, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dictionary.SoDictionary, To)()
-  name.vb: MapEnums(Of SoDictionary, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SoDictionary, To>(SoDictionary)
+  nameWithType: EnumUtil.MapEnums<SoDictionary, To>(SoDictionary)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dictionary.SoDictionary, To>(SuperOffice.Data.Dictionary.SoDictionary)
+  nameWithType.vb: EnumUtil.MapEnums(Of SoDictionary, To)(SoDictionary)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dictionary.SoDictionary, To)(SuperOffice.Data.Dictionary.SoDictionary)
+  name.vb: MapEnums(Of SoDictionary, To)(SoDictionary)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<SoDictionary, To>
-    nameWithType: EnumUtil.MapEnums<SoDictionary, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Data.Dictionary.SoDictionary, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.Dictionary.SoDictionary)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.Dictionary.SoDictionary
+    name: SoDictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoDictionary.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoDictionary
+    name: SoDictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoDictionary.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of SoDictionary, To)
-    nameWithType: EnumUtil.MapEnums(Of SoDictionary, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Dictionary.SoDictionary, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.Dictionary.SoDictionary)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoDictionary
+    name: SoDictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoDictionary.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoDictionary
+    name: SoDictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoDictionary.html
+  - name: )
 - uid: SuperOffice.Data.Dictionary.SoDictionary.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<SoDictionary, To>()
-  nameWithType: Converters.MapEnums<SoDictionary, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dictionary.SoDictionary, To>()
-  nameWithType.vb: Converters.MapEnums(Of SoDictionary, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dictionary.SoDictionary, To)()
-  name.vb: MapEnums(Of SoDictionary, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SoDictionary, To>(SoDictionary)
+  nameWithType: Converters.MapEnums<SoDictionary, To>(SoDictionary)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dictionary.SoDictionary, To>(SuperOffice.Data.Dictionary.SoDictionary)
+  nameWithType.vb: Converters.MapEnums(Of SoDictionary, To)(SoDictionary)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dictionary.SoDictionary, To)(SuperOffice.Data.Dictionary.SoDictionary)
+  name.vb: MapEnums(Of SoDictionary, To)(SoDictionary)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<SoDictionary, To>
-    nameWithType: Converters.MapEnums<SoDictionary, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dictionary.SoDictionary, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.Dictionary.SoDictionary)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.Dictionary.SoDictionary
+    name: SoDictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoDictionary.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoDictionary
+    name: SoDictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoDictionary.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of SoDictionary, To)
-    nameWithType: Converters.MapEnums(Of SoDictionary, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dictionary.SoDictionary, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.Dictionary.SoDictionary)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoDictionary
+    name: SoDictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoDictionary.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoDictionary
+    name: SoDictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoDictionary.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -715,43 +907,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -760,50 +954,83 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled*
   commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoDictionary.html#SuperOffice_Data_Dictionary_SoDictionary_IsSpecialDbPatchInstalled_System_String_
   name: IsSpecialDbPatchInstalled
   nameWithType: SoDictionary.IsSpecialDbPatchInstalled
   fullName: SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled
@@ -811,25 +1038,35 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.Data.Dictionary.SoDictionary.HasTable*
   commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.HasTable
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoDictionary.html#SuperOffice_Data_Dictionary_SoDictionary_HasTable_System_String_
   name: HasTable
   nameWithType: SoDictionary.HasTable
   fullName: SuperOffice.Data.Dictionary.SoDictionary.HasTable
 - uid: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber*
   commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoDictionary.html#SuperOffice_Data_Dictionary_SoDictionary_GetFromTableNumber_System_Int32_
   name: GetFromTableNumber
   nameWithType: SoDictionary.GetFromTableNumber
   fullName: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber
@@ -837,25 +1074,32 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.Data.Dictionary.SoTable
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName*
   commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoDictionary.html#SuperOffice_Data_Dictionary_SoDictionary_GetFromTableName_System_String_
   name: GetFromTableName
   nameWithType: SoDictionary.GetFromTableName
   fullName: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName
 - uid: SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber*
   commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoDictionary.html#SuperOffice_Data_Dictionary_SoDictionary_GetFromFieldNumber_System_Int32_
   name: GetFromFieldNumber
   nameWithType: SoDictionary.GetFromFieldNumber
   fullName: SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber
@@ -863,24 +1107,28 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoField
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoField.html
   name: SoField
   nameWithType: SoField
   fullName: SuperOffice.Data.Dictionary.SoField
 - uid: SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex*
   commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoDictionary.html#SuperOffice_Data_Dictionary_SoDictionary_GetColumnIndex_System_Int32_
   name: GetColumnIndex
   nameWithType: SoDictionary.GetColumnIndex
   fullName: SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex
 - uid: SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber*
   commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoDictionary.html#SuperOffice_Data_Dictionary_SoDictionary_GetTableNumber_System_Int32_
   name: GetTableNumber
   nameWithType: SoDictionary.GetTableNumber
   fullName: SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber
 - uid: SuperOffice.Data.Dictionary.SoDictionary.GetStepsInDatabase*
   commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.GetStepsInDatabase
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoDictionary.html#SuperOffice_Data_Dictionary_SoDictionary_GetStepsInDatabase
   name: GetStepsInDatabase
   nameWithType: SoDictionary.GetStepsInDatabase
   fullName: SuperOffice.Data.Dictionary.SoDictionary.GetStepsInDatabase
@@ -895,67 +1143,102 @@ references:
   spec.csharp:
   - uid: SuperOffice.CD.DSL.V1.DatabaseModel.DictionaryStepInfo
     name: DictionaryStepInfo
-    nameWithType: DictionaryStepInfo
-    fullName: SuperOffice.CD.DSL.V1.DatabaseModel.DictionaryStepInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CD.DSL.V1.DatabaseModel.DictionaryStepInfo
     name: DictionaryStepInfo
-    nameWithType: DictionaryStepInfo
-    fullName: SuperOffice.CD.DSL.V1.DatabaseModel.DictionaryStepInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.Dictionary.SoDictionary.GetStepsFromNetServerCode*
   commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.GetStepsFromNetServerCode
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoDictionary.html#SuperOffice_Data_Dictionary_SoDictionary_GetStepsFromNetServerCode
   name: GetStepsFromNetServerCode
   nameWithType: SoDictionary.GetStepsFromNetServerCode
   fullName: SuperOffice.Data.Dictionary.SoDictionary.GetStepsFromNetServerCode
 - uid: SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode*
   commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoDictionary.html#SuperOffice_Data_Dictionary_SoDictionary_IsDatabaseUnicode
   name: IsDatabaseUnicode
   nameWithType: SoDictionary.IsDatabaseUnicode
   fullName: SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode
 - uid: SuperOffice.Data.Dictionary.SoDictionary.Item*
   commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.Item
   isExternal: true
-  name: Item
-  nameWithType: SoDictionary.Item
-  fullName: SuperOffice.Data.Dictionary.SoDictionary.Item
+  href: SuperOffice.Data.Dictionary.SoDictionary.html#SuperOffice_Data_Dictionary_SoDictionary_Item_System_Int32_
+  name: this
+  nameWithType: SoDictionary.this
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.this
+  nameWithType.vb: SoDictionary.this[]
+  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.this[]
+  name.vb: this[]
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.Data.SQL.FieldInfo
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: SuperOffice.Data.Dictionary.SoDictionary.Tables*
   commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.Tables
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoDictionary.html#SuperOffice_Data_Dictionary_SoDictionary_Tables
   name: Tables
   nameWithType: SoDictionary.Tables
   fullName: SuperOffice.Data.Dictionary.SoDictionary.Tables
 - uid: SuperOffice.Data.Dictionary.SoTable[]
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable[]
   nameWithType: SoTable[]
   fullName: SuperOffice.Data.Dictionary.SoTable[]
@@ -965,30 +1248,28 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.Dictionary.SoTable
     name: SoTable
-    nameWithType: SoTable
-    fullName: SuperOffice.Data.Dictionary.SoTable
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.Data.Dictionary.SoTable.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.Data.Dictionary.SoTable
     name: SoTable
-    nameWithType: SoTable
-    fullName: SuperOffice.Data.Dictionary.SoTable
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.Data.Dictionary.SoTable.html
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.Dictionary.SoDictionary.IsLoaded*
   commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.IsLoaded
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoDictionary.html#SuperOffice_Data_Dictionary_SoDictionary_IsLoaded
   name: IsLoaded
   nameWithType: SoDictionary.IsLoaded
   fullName: SuperOffice.Data.Dictionary.SoDictionary.IsLoaded
 - uid: SuperOffice.Data.Dictionary.SoDictionary.ListInfoIsLoaded*
   commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.ListInfoIsLoaded
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoDictionary.html#SuperOffice_Data_Dictionary_SoDictionary_ListInfoIsLoaded
   name: ListInfoIsLoaded
   nameWithType: SoDictionary.ListInfoIsLoaded
   fullName: SuperOffice.Data.Dictionary.SoDictionary.ListInfoIsLoaded

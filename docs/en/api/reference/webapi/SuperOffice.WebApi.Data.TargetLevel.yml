@@ -10,64 +10,21 @@ items:
   - SuperOffice.WebApi.Data.TargetLevel.Global
   - SuperOffice.WebApi.Data.TargetLevel.None
   - SuperOffice.WebApi.Data.TargetLevel.UserGroup
-  - SuperOffice.WebApi.Data.TargetLevel.value__
   langs:
   - csharp
   - vb
   name: TargetLevel
   nameWithType: TargetLevel
   fullName: SuperOffice.WebApi.Data.TargetLevel
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTarget level\n"
+  summary: Target level
+  example: []
   syntax:
-    content: 'public sealed class TargetLevel : Enum'
-    content.vb: >-
-      Public NotInheritable Class TargetLevel
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.TargetLevel.value__
-  commentId: F:SuperOffice.WebApi.Data.TargetLevel.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.TargetLevel
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: TargetLevel.value__
-  fullName: SuperOffice.WebApi.Data.TargetLevel.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum TargetLevel
+    content.vb: Public Enum TargetLevel
 - uid: SuperOffice.WebApi.Data.TargetLevel.None
   commentId: F:SuperOffice.WebApi.Data.TargetLevel.None
   id: None
@@ -79,24 +36,26 @@ items:
   nameWithType: TargetLevel.None
   fullName: SuperOffice.WebApi.Data.TargetLevel.None
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: None\n"
+  summary: '0: None'
+  example: []
   syntax:
-    content: public const TargetLevel None
+    content: >-
+      [EnumMember]
+
+      None = 0
     return:
       type: SuperOffice.WebApi.Data.TargetLevel
-    content.vb: Public Const None As TargetLevel
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TargetLevel.Global
   commentId: F:SuperOffice.WebApi.Data.TargetLevel.Global
   id: Global
@@ -108,24 +67,26 @@ items:
   nameWithType: TargetLevel.Global
   fullName: SuperOffice.WebApi.Data.TargetLevel.Global
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Global\n"
+  summary: '1: Global'
+  example: []
   syntax:
-    content: public const TargetLevel Global
+    content: >-
+      [EnumMember]
+
+      Global = 1
     return:
       type: SuperOffice.WebApi.Data.TargetLevel
-    content.vb: Public Const Global As TargetLevel
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Global = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TargetLevel.Company
   commentId: F:SuperOffice.WebApi.Data.TargetLevel.Company
   id: Company
@@ -137,24 +98,26 @@ items:
   nameWithType: TargetLevel.Company
   fullName: SuperOffice.WebApi.Data.TargetLevel.Company
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Company\n"
+  summary: '2: Company'
+  example: []
   syntax:
-    content: public const TargetLevel Company
+    content: >-
+      [EnumMember]
+
+      Company = 2
     return:
       type: SuperOffice.WebApi.Data.TargetLevel
-    content.vb: Public Const Company As TargetLevel
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Company = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TargetLevel.UserGroup
   commentId: F:SuperOffice.WebApi.Data.TargetLevel.UserGroup
   id: UserGroup
@@ -166,24 +129,26 @@ items:
   nameWithType: TargetLevel.UserGroup
   fullName: SuperOffice.WebApi.Data.TargetLevel.UserGroup
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: UserGroup\n"
+  summary: '3: UserGroup'
+  example: []
   syntax:
-    content: public const TargetLevel UserGroup
+    content: >-
+      [EnumMember]
+
+      UserGroup = 3
     return:
       type: SuperOffice.WebApi.Data.TargetLevel
-    content.vb: Public Const UserGroup As TargetLevel
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UserGroup = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TargetLevel.Associate
   commentId: F:SuperOffice.WebApi.Data.TargetLevel.Associate
   id: Associate
@@ -195,55 +160,69 @@ items:
   nameWithType: TargetLevel.Associate
   fullName: SuperOffice.WebApi.Data.TargetLevel.Associate
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Associate\n"
+  summary: '4: Associate'
+  example: []
   syntax:
-    content: public const TargetLevel Associate
+    content: >-
+      [EnumMember]
+
+      Associate = 4
     return:
       type: SuperOffice.WebApi.Data.TargetLevel
-    content.vb: Public Const Associate As TargetLevel
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Associate = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.TargetLevel
   commentId: T:SuperOffice.WebApi.Data.TargetLevel
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.TargetLevel.html
   name: TargetLevel
   nameWithType: TargetLevel
   fullName: SuperOffice.WebApi.Data.TargetLevel

@@ -30,35 +30,40 @@ items:
   fullName: SuperOffice.CRM.Previews
   type: Namespace
   assemblies:
-  - SoDataBase
+  - SoDataBase.BusinessLogic
 references:
 - uid: SuperOffice.CRM.Previews.AppointmentPreviewPlugin
   commentId: T:SuperOffice.CRM.Previews.AppointmentPreviewPlugin
   isExternal: true
+  href: SuperOffice.CRM.Previews.AppointmentPreviewPlugin.html
   name: AppointmentPreviewPlugin
   nameWithType: AppointmentPreviewPlugin
   fullName: SuperOffice.CRM.Previews.AppointmentPreviewPlugin
 - uid: SuperOffice.CRM.Previews.ContactPreviewPlugin
   commentId: T:SuperOffice.CRM.Previews.ContactPreviewPlugin
   isExternal: true
+  href: SuperOffice.CRM.Previews.ContactPreviewPlugin.html
   name: ContactPreviewPlugin
   nameWithType: ContactPreviewPlugin
   fullName: SuperOffice.CRM.Previews.ContactPreviewPlugin
 - uid: SuperOffice.CRM.Previews.DashboardPreviewPlugin
   commentId: T:SuperOffice.CRM.Previews.DashboardPreviewPlugin
   isExternal: true
+  href: SuperOffice.CRM.Previews.DashboardPreviewPlugin.html
   name: DashboardPreviewPlugin
   nameWithType: DashboardPreviewPlugin
   fullName: SuperOffice.CRM.Previews.DashboardPreviewPlugin
 - uid: SuperOffice.CRM.Previews.DocumentPreviewPlugin
   commentId: T:SuperOffice.CRM.Previews.DocumentPreviewPlugin
   isExternal: true
+  href: SuperOffice.CRM.Previews.DocumentPreviewPlugin.html
   name: DocumentPreviewPlugin
   nameWithType: DocumentPreviewPlugin
   fullName: SuperOffice.CRM.Previews.DocumentPreviewPlugin
 - uid: SuperOffice.CRM.Previews.FaqPreviewPlugin
   commentId: T:SuperOffice.CRM.Previews.FaqPreviewPlugin
   isExternal: true
+  href: SuperOffice.CRM.Previews.FaqPreviewPlugin.html
   name: FaqPreviewPlugin
   nameWithType: FaqPreviewPlugin
   fullName: SuperOffice.CRM.Previews.FaqPreviewPlugin
@@ -66,18 +71,21 @@ references:
   commentId: T:SuperOffice.CRM.Previews.PreviewPluginAttribute
   parent: SuperOffice.CRM.Previews
   isExternal: true
+  href: SuperOffice.CRM.Previews.PreviewPluginAttribute.html
   name: PreviewPluginAttribute
   nameWithType: PreviewPluginAttribute
   fullName: SuperOffice.CRM.Previews.PreviewPluginAttribute
 - uid: SuperOffice.CRM.Previews.PersonPreviewPlugin
   commentId: T:SuperOffice.CRM.Previews.PersonPreviewPlugin
   isExternal: true
+  href: SuperOffice.CRM.Previews.PersonPreviewPlugin.html
   name: PersonPreviewPlugin
   nameWithType: PersonPreviewPlugin
   fullName: SuperOffice.CRM.Previews.PersonPreviewPlugin
 - uid: SuperOffice.CRM.Previews.PreviewField
   commentId: T:SuperOffice.CRM.Previews.PreviewField
   isExternal: true
+  href: SuperOffice.CRM.Previews.PreviewField.html
   name: PreviewField
   nameWithType: PreviewField
   fullName: SuperOffice.CRM.Previews.PreviewField
@@ -85,6 +93,7 @@ references:
   commentId: T:SuperOffice.CRM.Previews.PreviewData
   parent: SuperOffice.CRM.Previews
   isExternal: true
+  href: SuperOffice.CRM.Previews.PreviewData.html
   name: PreviewData
   nameWithType: PreviewData
   fullName: SuperOffice.CRM.Previews.PreviewData
@@ -92,60 +101,100 @@ references:
   commentId: T:SuperOffice.CRM.Previews.PreviewPluginBase
   parent: SuperOffice.CRM.Previews
   isExternal: true
+  href: SuperOffice.CRM.Previews.PreviewPluginBase.html
   name: PreviewPluginBase
   nameWithType: PreviewPluginBase
   fullName: SuperOffice.CRM.Previews.PreviewPluginBase
 - uid: SuperOffice.CRM.Previews.PreviewProvider
   commentId: T:SuperOffice.CRM.Previews.PreviewProvider
   isExternal: true
+  href: SuperOffice.CRM.Previews.PreviewProvider.html
   name: PreviewProvider
   nameWithType: PreviewProvider
   fullName: SuperOffice.CRM.Previews.PreviewProvider
 - uid: SuperOffice.CRM.Previews.ProjectPreviewPlugin
   commentId: T:SuperOffice.CRM.Previews.ProjectPreviewPlugin
   isExternal: true
+  href: SuperOffice.CRM.Previews.ProjectPreviewPlugin.html
   name: ProjectPreviewPlugin
   nameWithType: ProjectPreviewPlugin
   fullName: SuperOffice.CRM.Previews.ProjectPreviewPlugin
 - uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
   commentId: T:SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
   isExternal: true
+  href: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin.html
   name: QuickReplyPreviewPlugin
   nameWithType: QuickReplyPreviewPlugin
   fullName: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
 - uid: SuperOffice.CRM.Previews.ProductPreviewPlugin
   commentId: T:SuperOffice.CRM.Previews.ProductPreviewPlugin
   isExternal: true
+  href: SuperOffice.CRM.Previews.ProductPreviewPlugin.html
   name: ProductPreviewPlugin
   nameWithType: ProductPreviewPlugin
   fullName: SuperOffice.CRM.Previews.ProductPreviewPlugin
 - uid: SuperOffice.CRM.Previews.ReplyTemplatePreviewPlugin
   commentId: T:SuperOffice.CRM.Previews.ReplyTemplatePreviewPlugin
   isExternal: true
+  href: SuperOffice.CRM.Previews.ReplyTemplatePreviewPlugin.html
   name: ReplyTemplatePreviewPlugin
   nameWithType: ReplyTemplatePreviewPlugin
   fullName: SuperOffice.CRM.Previews.ReplyTemplatePreviewPlugin
 - uid: SuperOffice.CRM.Previews.SalePreviewPlugin
   commentId: T:SuperOffice.CRM.Previews.SalePreviewPlugin
   isExternal: true
+  href: SuperOffice.CRM.Previews.SalePreviewPlugin.html
   name: SalePreviewPlugin
   nameWithType: SalePreviewPlugin
   fullName: SuperOffice.CRM.Previews.SalePreviewPlugin
 - uid: SuperOffice.CRM.Previews.SelectionPreviewPlugin
   commentId: T:SuperOffice.CRM.Previews.SelectionPreviewPlugin
   isExternal: true
+  href: SuperOffice.CRM.Previews.SelectionPreviewPlugin.html
   name: SelectionPreviewPlugin
   nameWithType: SelectionPreviewPlugin
   fullName: SuperOffice.CRM.Previews.SelectionPreviewPlugin
 - uid: SuperOffice.CRM.Previews.TicketPreviewPlugin
   commentId: T:SuperOffice.CRM.Previews.TicketPreviewPlugin
   isExternal: true
+  href: SuperOffice.CRM.Previews.TicketPreviewPlugin.html
   name: TicketPreviewPlugin
   nameWithType: TicketPreviewPlugin
   fullName: SuperOffice.CRM.Previews.TicketPreviewPlugin
 - uid: SuperOffice.CRM.Previews
   commentId: N:SuperOffice.CRM.Previews
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Previews
   nameWithType: SuperOffice.CRM.Previews
   fullName: SuperOffice.CRM.Previews
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Previews
+    name: Previews
+    isExternal: true
+    href: SuperOffice.CRM.Previews.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Previews
+    name: Previews
+    isExternal: true
+    href: SuperOffice.CRM.Previews.html

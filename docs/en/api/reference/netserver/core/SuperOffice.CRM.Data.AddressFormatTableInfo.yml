@@ -80,14 +80,21 @@ items:
   nameWithType: AddressFormatTableInfo
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTable &apos;AddressFormat&apos;: Address formats for GUI and labels. See more information: Addressformat on http://techdoc.superoffice.com\n"
-  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetAddressFormatInfo()\"></see>.\n"
+  summary: "Table 'AddressFormat': Address formats for GUI and labels. See more information: Addressformat on http://techdoc.superoffice.com"
+  remarks: >-
+    An instance of this class represents one instance of this table in an SQL statement. In most
+
+    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
+
+    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
+
+    then you will need multiple instances. <br />
+
+    Instances of this class are created by calling TablesInfo.GetAddressFormatInfo().
+  example: []
   syntax:
     content: >-
       [DatabaseTable("AddressFormat")]
@@ -96,9 +103,7 @@ items:
     content.vb: >-
       <DatabaseTable("AddressFormat")>
 
-      Public Class AddressFormatTableInfo
-          Inherits TableInfo
-          Implements ICloneable
+      Public Class AddressFormatTableInfo Inherits TableInfo Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.TableInfo
@@ -119,6 +124,12 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.AddressFormatTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.AddressFormatTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -128,12 +139,6 @@ items:
     arguments:
     - type: System.String
       value: AddressFormat
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.DictionaryTableName
   commentId: F:SuperOffice.CRM.Data.AddressFormatTableInfo.DictionaryTableName
   id: DictionaryTableName
@@ -145,24 +150,16 @@ items:
   nameWithType: AddressFormatTableInfo.DictionaryTableName
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.DictionaryTableName
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nConceptual name of table AddressFormat in the database dictionary: AddressFormat\n"
+  summary: 'Conceptual name of table AddressFormat in the database dictionary: AddressFormat'
+  example: []
   syntax:
     content: public const string DictionaryTableName = "AddressFormat"
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "AddressFormat"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -174,13 +171,14 @@ items:
   nameWithType: AddressFormatTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.DictionaryTableNumber
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTable number for table AddressFormat in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  summary: >-
+    Table number for table AddressFormat in the database dictionary; potentially changes between databases, but
+
+    always the same over the lifetime of any single database
+  example: []
   syntax:
     content: public int DictionaryTableNumber { get; }
     parameters: []
@@ -188,12 +186,6 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.DictionaryTableNumber*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.RuntimeDefinition
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.RuntimeDefinition
   id: RuntimeDefinition
@@ -205,28 +197,32 @@ items:
   nameWithType: AddressFormatTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.RuntimeDefinition
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
   syntax:
-    content: public static SoTable RuntimeDefinition { get; }
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.RuntimeDefinition*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Definition
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Definition
   id: Definition
@@ -238,13 +234,11 @@ items:
   nameWithType: AddressFormatTableInfo.Definition
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Definition
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
   syntax:
     content: public override SoTable Definition { get; }
     parameters: []
@@ -253,14 +247,6 @@ items:
     content.vb: Public Overrides ReadOnly Property Definition As SoTable
   overridden: SuperOffice.Data.SQL.TableInfo.Definition
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Definition*
-  modifiers.csharp:
-  - public
-  - override
-  - get
-  modifiers.vb:
-  - Public
-  - Overrides
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.AddressformatId
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.AddressformatId
   id: AddressformatId
@@ -272,13 +258,14 @@ items:
   nameWithType: AddressFormatTableInfo.AddressformatId
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.AddressformatId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;addressformat_id&apos; in table &apos;AddressFormat&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  summary: >-
+    Field 'addressformat_id' in table 'AddressFormat': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Primary key
+  example: []
   syntax:
     content: public Int32FieldInfo AddressformatId { get; }
     parameters: []
@@ -286,12 +273,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property AddressformatId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.AddressformatId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Name
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Name
   id: Name
@@ -303,13 +284,14 @@ items:
   nameWithType: AddressFormatTableInfo.Name
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Name
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;name&apos; in table &apos;AddressFormat&apos;: Dictionary type String[240], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nName of address format (descriptive, multi-language)\n"
+  summary: >-
+    Field 'name' in table 'AddressFormat': Dictionary type String[240], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Name of address format (descriptive, multi-language)
+  example: []
   syntax:
     content: public StringFieldInfo Name { get; }
     parameters: []
@@ -317,12 +299,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Name As StringFieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Name*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.LayoutId
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.LayoutId
   id: LayoutId
@@ -334,13 +310,14 @@ items:
   nameWithType: AddressFormatTableInfo.LayoutId
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.LayoutId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;layout_id&apos; in table &apos;AddressFormat&apos;: Dictionary type ShortId, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCorresponds to Country.layout_id\n"
+  summary: >-
+    Field 'layout_id' in table 'AddressFormat': Dictionary type ShortId, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Corresponds to Country.layout_id
+  example: []
   syntax:
     content: public UInt16FieldInfo LayoutId { get; }
     parameters: []
@@ -348,12 +325,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property LayoutId As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.LayoutId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.AtypeIdx
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.AtypeIdx
   id: AtypeIdx
@@ -365,13 +336,14 @@ items:
   nameWithType: AddressFormatTableInfo.AtypeIdx
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.AtypeIdx
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;atype_idx&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCorresponds to Address.atype_idx\n"
+  summary: >-
+    Field 'atype_idx' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Corresponds to Address.atype_idx
+  example: []
   syntax:
     content: public UInt16FieldInfo AtypeIdx { get; }
     parameters: []
@@ -379,12 +351,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property AtypeIdx As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.AtypeIdx*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Line
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Line
   id: Address1Line
@@ -396,13 +362,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address1Line
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Line
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address1_line&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLine no. for address1 field, 0 if not shown\n"
+  summary: >-
+    Field 'address1_line' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Line no. for address1 field, 0 if not shown
+  example: []
   syntax:
     content: public UInt16FieldInfo Address1Line { get; }
     parameters: []
@@ -410,12 +377,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Address1Line As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Line*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Subpos
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Subpos
   id: Address1Subpos
@@ -427,13 +388,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address1Subpos
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Subpos
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address1_subpos&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPosition within line for address1 field\n"
+  summary: >-
+    Field 'address1_subpos' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Position within line for address1 field
+  example: []
   syntax:
     content: public UInt16FieldInfo Address1Subpos { get; }
     parameters: []
@@ -441,12 +403,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Address1Subpos As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Subpos*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Leadtext
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Leadtext
   id: Address1Leadtext
@@ -458,13 +414,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address1Leadtext
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Leadtext
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address1_leadtext&apos; in table &apos;AddressFormat&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLead text resource ID for address1 field, 0 = no leadtext\n"
+  summary: >-
+    Field 'address1_leadtext' in table 'AddressFormat': Dictionary type Id, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Lead text resource ID for address1 field, 0 = no leadtext
+  example: []
   syntax:
     content: public Int32FieldInfo Address1Leadtext { get; }
     parameters: []
@@ -472,12 +429,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Address1Leadtext As Int32FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Leadtext*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Zip
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Zip
   id: Address1Zip
@@ -489,13 +440,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address1Zip
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Zip
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address1_zip&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nZip lookup functionality for address1 field: 0 = none, 1 = source, 2 = target\n"
+  summary: >-
+    Field 'address1_zip' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Zip lookup functionality for address1 field: 0 = none, 1 = source, 2 = target
+  example: []
   syntax:
     content: public UInt16FieldInfo Address1Zip { get; }
     parameters: []
@@ -503,12 +455,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Address1Zip As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Zip*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Length
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Length
   id: Address1Length
@@ -520,13 +466,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address1Length
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Length
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address1_length&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField length in characters for address1 field\n"
+  summary: >-
+    Field 'address1_length' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Field length in characters for address1 field
+  example: []
   syntax:
     content: public UInt16FieldInfo Address1Length { get; }
     parameters: []
@@ -534,12 +481,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Address1Length As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Length*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Flags
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Flags
   id: Address1Flags
@@ -551,13 +492,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address1Flags
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Flags
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address1_flags&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField flags for address1 field: See EAddrFormatFlags enum\n"
+  summary: >-
+    Field 'address1_flags' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Field flags for address1 field: See EAddrFormatFlags enum
+  example: []
   syntax:
     content: public UInt16FieldInfo Address1Flags { get; }
     parameters: []
@@ -565,12 +507,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Address1Flags As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Flags*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Mask
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Mask
   id: Address1Mask
@@ -582,13 +518,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address1Mask
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Mask
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address1_mask&apos; in table &apos;AddressFormat&apos;: Dictionary type String[10], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nFormatting mask for address1 field\n"
+  summary: >-
+    Field 'address1_mask' in table 'AddressFormat': Dictionary type String[10], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Formatting mask for address1 field
+  example: []
   syntax:
     content: public StringFieldInfo Address1Mask { get; }
     parameters: []
@@ -596,12 +533,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Address1Mask As StringFieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Mask*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Line
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Line
   id: Address2Line
@@ -613,13 +544,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address2Line
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Line
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address2_line&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLine no. for address2 field, 0 if not shown\n"
+  summary: >-
+    Field 'address2_line' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Line no. for address2 field, 0 if not shown
+  example: []
   syntax:
     content: public UInt16FieldInfo Address2Line { get; }
     parameters: []
@@ -627,12 +559,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Address2Line As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Line*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Subpos
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Subpos
   id: Address2Subpos
@@ -644,13 +570,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address2Subpos
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Subpos
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address2_subpos&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPosition within line for address2 field\n"
+  summary: >-
+    Field 'address2_subpos' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Position within line for address2 field
+  example: []
   syntax:
     content: public UInt16FieldInfo Address2Subpos { get; }
     parameters: []
@@ -658,12 +585,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Address2Subpos As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Subpos*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Leadtext
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Leadtext
   id: Address2Leadtext
@@ -675,13 +596,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address2Leadtext
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Leadtext
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address2_leadtext&apos; in table &apos;AddressFormat&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLead text resource ID for address2 field, 0 = no leadtext\n"
+  summary: >-
+    Field 'address2_leadtext' in table 'AddressFormat': Dictionary type Id, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Lead text resource ID for address2 field, 0 = no leadtext
+  example: []
   syntax:
     content: public Int32FieldInfo Address2Leadtext { get; }
     parameters: []
@@ -689,12 +611,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Address2Leadtext As Int32FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Leadtext*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Zip
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Zip
   id: Address2Zip
@@ -706,13 +622,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address2Zip
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Zip
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address2_zip&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nZip lookup functionality for address2 field: 0 = none, 1 = source, 2 = target\n"
+  summary: >-
+    Field 'address2_zip' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Zip lookup functionality for address2 field: 0 = none, 1 = source, 2 = target
+  example: []
   syntax:
     content: public UInt16FieldInfo Address2Zip { get; }
     parameters: []
@@ -720,12 +637,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Address2Zip As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Zip*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Length
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Length
   id: Address2Length
@@ -737,13 +648,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address2Length
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Length
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address2_length&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField length in characters for address2 field\n"
+  summary: >-
+    Field 'address2_length' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Field length in characters for address2 field
+  example: []
   syntax:
     content: public UInt16FieldInfo Address2Length { get; }
     parameters: []
@@ -751,12 +663,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Address2Length As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Length*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Flags
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Flags
   id: Address2Flags
@@ -768,13 +674,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address2Flags
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Flags
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address2_flags&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField flags for address2 field: See EAddrFormatFlags enum\n"
+  summary: >-
+    Field 'address2_flags' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Field flags for address2 field: See EAddrFormatFlags enum
+  example: []
   syntax:
     content: public UInt16FieldInfo Address2Flags { get; }
     parameters: []
@@ -782,12 +689,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Address2Flags As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Flags*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Mask
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Mask
   id: Address2Mask
@@ -799,13 +700,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address2Mask
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Mask
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address2_mask&apos; in table &apos;AddressFormat&apos;: Dictionary type String[10], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nFormatting mask for address2 field\n"
+  summary: >-
+    Field 'address2_mask' in table 'AddressFormat': Dictionary type String[10], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Formatting mask for address2 field
+  example: []
   syntax:
     content: public StringFieldInfo Address2Mask { get; }
     parameters: []
@@ -813,12 +715,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Address2Mask As StringFieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Mask*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Line
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Line
   id: Address3Line
@@ -830,13 +726,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address3Line
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Line
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address3_line&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLine no. for address3 field, 0 if not shown\n"
+  summary: >-
+    Field 'address3_line' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Line no. for address3 field, 0 if not shown
+  example: []
   syntax:
     content: public UInt16FieldInfo Address3Line { get; }
     parameters: []
@@ -844,12 +741,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Address3Line As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Line*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Subpos
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Subpos
   id: Address3Subpos
@@ -861,13 +752,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address3Subpos
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Subpos
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address3_subpos&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPosition within line for address3 field\n"
+  summary: >-
+    Field 'address3_subpos' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Position within line for address3 field
+  example: []
   syntax:
     content: public UInt16FieldInfo Address3Subpos { get; }
     parameters: []
@@ -875,12 +767,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Address3Subpos As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Subpos*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Leadtext
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Leadtext
   id: Address3Leadtext
@@ -892,13 +778,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address3Leadtext
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Leadtext
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address3_leadtext&apos; in table &apos;AddressFormat&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLead text resource ID for address3 field, 0 = no leadtext\n"
+  summary: >-
+    Field 'address3_leadtext' in table 'AddressFormat': Dictionary type Id, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Lead text resource ID for address3 field, 0 = no leadtext
+  example: []
   syntax:
     content: public Int32FieldInfo Address3Leadtext { get; }
     parameters: []
@@ -906,12 +793,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Address3Leadtext As Int32FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Leadtext*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Zip
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Zip
   id: Address3Zip
@@ -923,13 +804,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address3Zip
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Zip
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address3_zip&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nZip lookup functionality for address3 field: 0 = none, 1 = source, 2 = target\n"
+  summary: >-
+    Field 'address3_zip' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Zip lookup functionality for address3 field: 0 = none, 1 = source, 2 = target
+  example: []
   syntax:
     content: public UInt16FieldInfo Address3Zip { get; }
     parameters: []
@@ -937,12 +819,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Address3Zip As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Zip*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Length
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Length
   id: Address3Length
@@ -954,13 +830,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address3Length
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Length
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address3_length&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField length in characters for address3 field\n"
+  summary: >-
+    Field 'address3_length' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Field length in characters for address3 field
+  example: []
   syntax:
     content: public UInt16FieldInfo Address3Length { get; }
     parameters: []
@@ -968,12 +845,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Address3Length As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Length*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Flags
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Flags
   id: Address3Flags
@@ -985,13 +856,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address3Flags
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Flags
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address3_flags&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField flags for address3 field: See EAddrFormatFlags enum\n"
+  summary: >-
+    Field 'address3_flags' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Field flags for address3 field: See EAddrFormatFlags enum
+  example: []
   syntax:
     content: public UInt16FieldInfo Address3Flags { get; }
     parameters: []
@@ -999,12 +871,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Address3Flags As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Flags*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Mask
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Mask
   id: Address3Mask
@@ -1016,13 +882,14 @@ items:
   nameWithType: AddressFormatTableInfo.Address3Mask
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Mask
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;address3_mask&apos; in table &apos;AddressFormat&apos;: Dictionary type String[10], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nFormatting mask for address3 field\n"
+  summary: >-
+    Field 'address3_mask' in table 'AddressFormat': Dictionary type String[10], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Formatting mask for address3 field
+  example: []
   syntax:
     content: public StringFieldInfo Address3Mask { get; }
     parameters: []
@@ -1030,12 +897,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Address3Mask As StringFieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Mask*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CityLine
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.CityLine
   id: CityLine
@@ -1047,13 +908,14 @@ items:
   nameWithType: AddressFormatTableInfo.CityLine
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CityLine
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;city_line&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLine no. for city field, 0 if not shown\n"
+  summary: >-
+    Field 'city_line' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Line no. for city field, 0 if not shown
+  example: []
   syntax:
     content: public UInt16FieldInfo CityLine { get; }
     parameters: []
@@ -1061,12 +923,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property CityLine As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.CityLine*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CitySubpos
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.CitySubpos
   id: CitySubpos
@@ -1078,13 +934,14 @@ items:
   nameWithType: AddressFormatTableInfo.CitySubpos
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CitySubpos
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;city_subpos&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPosition within line for city field\n"
+  summary: >-
+    Field 'city_subpos' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Position within line for city field
+  example: []
   syntax:
     content: public UInt16FieldInfo CitySubpos { get; }
     parameters: []
@@ -1092,12 +949,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property CitySubpos As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.CitySubpos*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CityLeadtext
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.CityLeadtext
   id: CityLeadtext
@@ -1109,13 +960,14 @@ items:
   nameWithType: AddressFormatTableInfo.CityLeadtext
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CityLeadtext
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;city_leadtext&apos; in table &apos;AddressFormat&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLead text resource ID for city field, 0 = no leadtext\n"
+  summary: >-
+    Field 'city_leadtext' in table 'AddressFormat': Dictionary type Id, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Lead text resource ID for city field, 0 = no leadtext
+  example: []
   syntax:
     content: public Int32FieldInfo CityLeadtext { get; }
     parameters: []
@@ -1123,12 +975,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property CityLeadtext As Int32FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.CityLeadtext*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CityZip
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.CityZip
   id: CityZip
@@ -1140,13 +986,14 @@ items:
   nameWithType: AddressFormatTableInfo.CityZip
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CityZip
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;city_zip&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nZip lookup functionality for city field: 0 = none, 1 = source, 2 = target\n"
+  summary: >-
+    Field 'city_zip' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Zip lookup functionality for city field: 0 = none, 1 = source, 2 = target
+  example: []
   syntax:
     content: public UInt16FieldInfo CityZip { get; }
     parameters: []
@@ -1154,12 +1001,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property CityZip As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.CityZip*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CityLength
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.CityLength
   id: CityLength
@@ -1171,13 +1012,14 @@ items:
   nameWithType: AddressFormatTableInfo.CityLength
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CityLength
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;city_length&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField length in characters for city field\n"
+  summary: >-
+    Field 'city_length' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Field length in characters for city field
+  example: []
   syntax:
     content: public UInt16FieldInfo CityLength { get; }
     parameters: []
@@ -1185,12 +1027,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property CityLength As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.CityLength*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CityFlags
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.CityFlags
   id: CityFlags
@@ -1202,13 +1038,14 @@ items:
   nameWithType: AddressFormatTableInfo.CityFlags
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CityFlags
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;city_flags&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField flags for city field: See EAddrFormatFlags enum\n"
+  summary: >-
+    Field 'city_flags' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Field flags for city field: See EAddrFormatFlags enum
+  example: []
   syntax:
     content: public UInt16FieldInfo CityFlags { get; }
     parameters: []
@@ -1216,12 +1053,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property CityFlags As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.CityFlags*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CityMask
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.CityMask
   id: CityMask
@@ -1233,13 +1064,14 @@ items:
   nameWithType: AddressFormatTableInfo.CityMask
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CityMask
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;city_mask&apos; in table &apos;AddressFormat&apos;: Dictionary type String[10], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nFormatting mask for city field\n"
+  summary: >-
+    Field 'city_mask' in table 'AddressFormat': Dictionary type String[10], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Formatting mask for city field
+  example: []
   syntax:
     content: public StringFieldInfo CityMask { get; }
     parameters: []
@@ -1247,12 +1079,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property CityMask As StringFieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.CityMask*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLine
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLine
   id: CountyLine
@@ -1264,13 +1090,14 @@ items:
   nameWithType: AddressFormatTableInfo.CountyLine
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLine
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;county_line&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLine no. for county field, 0 if not shown\n"
+  summary: >-
+    Field 'county_line' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Line no. for county field, 0 if not shown
+  example: []
   syntax:
     content: public UInt16FieldInfo CountyLine { get; }
     parameters: []
@@ -1278,12 +1105,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property CountyLine As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLine*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CountySubpos
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.CountySubpos
   id: CountySubpos
@@ -1295,13 +1116,14 @@ items:
   nameWithType: AddressFormatTableInfo.CountySubpos
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CountySubpos
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;county_subpos&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPosition within line for county field\n"
+  summary: >-
+    Field 'county_subpos' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Position within line for county field
+  example: []
   syntax:
     content: public UInt16FieldInfo CountySubpos { get; }
     parameters: []
@@ -1309,12 +1131,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property CountySubpos As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.CountySubpos*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLeadtext
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLeadtext
   id: CountyLeadtext
@@ -1326,13 +1142,14 @@ items:
   nameWithType: AddressFormatTableInfo.CountyLeadtext
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLeadtext
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;county_leadtext&apos; in table &apos;AddressFormat&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLead text resource ID for county field, 0 = no leadtext\n"
+  summary: >-
+    Field 'county_leadtext' in table 'AddressFormat': Dictionary type Id, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Lead text resource ID for county field, 0 = no leadtext
+  example: []
   syntax:
     content: public Int32FieldInfo CountyLeadtext { get; }
     parameters: []
@@ -1340,12 +1157,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property CountyLeadtext As Int32FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLeadtext*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyZip
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.CountyZip
   id: CountyZip
@@ -1357,13 +1168,14 @@ items:
   nameWithType: AddressFormatTableInfo.CountyZip
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyZip
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;county_zip&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nZip lookup functionality for county field: 0 = none, 1 = source, 2 = target\n"
+  summary: >-
+    Field 'county_zip' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Zip lookup functionality for county field: 0 = none, 1 = source, 2 = target
+  example: []
   syntax:
     content: public UInt16FieldInfo CountyZip { get; }
     parameters: []
@@ -1371,12 +1183,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property CountyZip As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyZip*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLength
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLength
   id: CountyLength
@@ -1388,13 +1194,14 @@ items:
   nameWithType: AddressFormatTableInfo.CountyLength
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLength
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;county_length&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField length in characters for county field\n"
+  summary: >-
+    Field 'county_length' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Field length in characters for county field
+  example: []
   syntax:
     content: public UInt16FieldInfo CountyLength { get; }
     parameters: []
@@ -1402,12 +1209,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property CountyLength As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLength*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyFlags
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.CountyFlags
   id: CountyFlags
@@ -1419,13 +1220,14 @@ items:
   nameWithType: AddressFormatTableInfo.CountyFlags
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyFlags
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;county_flags&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField flags for county field: See EAddrFormatFlags enum\n"
+  summary: >-
+    Field 'county_flags' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Field flags for county field: See EAddrFormatFlags enum
+  example: []
   syntax:
     content: public UInt16FieldInfo CountyFlags { get; }
     parameters: []
@@ -1433,12 +1235,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property CountyFlags As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyFlags*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyMask
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.CountyMask
   id: CountyMask
@@ -1450,13 +1246,14 @@ items:
   nameWithType: AddressFormatTableInfo.CountyMask
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyMask
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;county_mask&apos; in table &apos;AddressFormat&apos;: Dictionary type String[10], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nFormatting mask for county field\n"
+  summary: >-
+    Field 'county_mask' in table 'AddressFormat': Dictionary type String[10], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Formatting mask for county field
+  example: []
   syntax:
     content: public StringFieldInfo CountyMask { get; }
     parameters: []
@@ -1464,12 +1261,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property CountyMask As StringFieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyMask*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.StateLine
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.StateLine
   id: StateLine
@@ -1481,13 +1272,14 @@ items:
   nameWithType: AddressFormatTableInfo.StateLine
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.StateLine
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;state_line&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLine no. for state field, 0 if not shown\n"
+  summary: >-
+    Field 'state_line' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Line no. for state field, 0 if not shown
+  example: []
   syntax:
     content: public UInt16FieldInfo StateLine { get; }
     parameters: []
@@ -1495,12 +1287,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property StateLine As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.StateLine*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.StateSubpos
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.StateSubpos
   id: StateSubpos
@@ -1512,13 +1298,14 @@ items:
   nameWithType: AddressFormatTableInfo.StateSubpos
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.StateSubpos
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;state_subpos&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPosition within line for state field\n"
+  summary: >-
+    Field 'state_subpos' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Position within line for state field
+  example: []
   syntax:
     content: public UInt16FieldInfo StateSubpos { get; }
     parameters: []
@@ -1526,12 +1313,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property StateSubpos As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.StateSubpos*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.StateLeadtext
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.StateLeadtext
   id: StateLeadtext
@@ -1543,13 +1324,14 @@ items:
   nameWithType: AddressFormatTableInfo.StateLeadtext
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.StateLeadtext
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;state_leadtext&apos; in table &apos;AddressFormat&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLead text resource ID for state field, 0 = no leadtext\n"
+  summary: >-
+    Field 'state_leadtext' in table 'AddressFormat': Dictionary type Id, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Lead text resource ID for state field, 0 = no leadtext
+  example: []
   syntax:
     content: public Int32FieldInfo StateLeadtext { get; }
     parameters: []
@@ -1557,12 +1339,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property StateLeadtext As Int32FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.StateLeadtext*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.StateZip
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.StateZip
   id: StateZip
@@ -1574,13 +1350,14 @@ items:
   nameWithType: AddressFormatTableInfo.StateZip
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.StateZip
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;state_zip&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nZip lookup functionality for state field: 0 = none, 1 = source, 2 = target\n"
+  summary: >-
+    Field 'state_zip' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Zip lookup functionality for state field: 0 = none, 1 = source, 2 = target
+  example: []
   syntax:
     content: public UInt16FieldInfo StateZip { get; }
     parameters: []
@@ -1588,12 +1365,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property StateZip As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.StateZip*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.StateLength
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.StateLength
   id: StateLength
@@ -1605,13 +1376,14 @@ items:
   nameWithType: AddressFormatTableInfo.StateLength
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.StateLength
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;state_length&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField length in characters for state field\n"
+  summary: >-
+    Field 'state_length' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Field length in characters for state field
+  example: []
   syntax:
     content: public UInt16FieldInfo StateLength { get; }
     parameters: []
@@ -1619,12 +1391,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property StateLength As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.StateLength*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.StateFlags
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.StateFlags
   id: StateFlags
@@ -1636,13 +1402,14 @@ items:
   nameWithType: AddressFormatTableInfo.StateFlags
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.StateFlags
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;state_flags&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField flags for state field: See EAddrFormatFlags enum\n"
+  summary: >-
+    Field 'state_flags' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Field flags for state field: See EAddrFormatFlags enum
+  example: []
   syntax:
     content: public UInt16FieldInfo StateFlags { get; }
     parameters: []
@@ -1650,12 +1417,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property StateFlags As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.StateFlags*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.StateMask
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.StateMask
   id: StateMask
@@ -1667,13 +1428,14 @@ items:
   nameWithType: AddressFormatTableInfo.StateMask
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.StateMask
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;state_mask&apos; in table &apos;AddressFormat&apos;: Dictionary type String[10], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nFormatting mask for state field\n"
+  summary: >-
+    Field 'state_mask' in table 'AddressFormat': Dictionary type String[10], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Formatting mask for state field
+  example: []
   syntax:
     content: public StringFieldInfo StateMask { get; }
     parameters: []
@@ -1681,12 +1443,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property StateMask As StringFieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.StateMask*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLine
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLine
   id: ZipLine
@@ -1698,13 +1454,14 @@ items:
   nameWithType: AddressFormatTableInfo.ZipLine
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLine
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;zip_line&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLine no. for zip field, 0 if not shown\n"
+  summary: >-
+    Field 'zip_line' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Line no. for zip field, 0 if not shown
+  example: []
   syntax:
     content: public UInt16FieldInfo ZipLine { get; }
     parameters: []
@@ -1712,12 +1469,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property ZipLine As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLine*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipSubpos
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.ZipSubpos
   id: ZipSubpos
@@ -1729,13 +1480,14 @@ items:
   nameWithType: AddressFormatTableInfo.ZipSubpos
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipSubpos
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;zip_subpos&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPosition within line for zip field\n"
+  summary: >-
+    Field 'zip_subpos' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Position within line for zip field
+  example: []
   syntax:
     content: public UInt16FieldInfo ZipSubpos { get; }
     parameters: []
@@ -1743,12 +1495,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property ZipSubpos As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipSubpos*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLeadtext
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLeadtext
   id: ZipLeadtext
@@ -1760,13 +1506,14 @@ items:
   nameWithType: AddressFormatTableInfo.ZipLeadtext
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLeadtext
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;zip_leadtext&apos; in table &apos;AddressFormat&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLead text resource ID for zip field, 0 = no leadtext\n"
+  summary: >-
+    Field 'zip_leadtext' in table 'AddressFormat': Dictionary type Id, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Lead text resource ID for zip field, 0 = no leadtext
+  example: []
   syntax:
     content: public Int32FieldInfo ZipLeadtext { get; }
     parameters: []
@@ -1774,12 +1521,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ZipLeadtext As Int32FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLeadtext*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipZip
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.ZipZip
   id: ZipZip
@@ -1791,13 +1532,14 @@ items:
   nameWithType: AddressFormatTableInfo.ZipZip
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipZip
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;zip_zip&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nZip lookup functionality for zip field: 0 = none, 1 = source, 2 = target\n"
+  summary: >-
+    Field 'zip_zip' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Zip lookup functionality for zip field: 0 = none, 1 = source, 2 = target
+  example: []
   syntax:
     content: public UInt16FieldInfo ZipZip { get; }
     parameters: []
@@ -1805,12 +1547,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property ZipZip As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipZip*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLength
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLength
   id: ZipLength
@@ -1822,13 +1558,14 @@ items:
   nameWithType: AddressFormatTableInfo.ZipLength
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLength
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;zip_length&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField length in characters for zip field\n"
+  summary: >-
+    Field 'zip_length' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Field length in characters for zip field
+  example: []
   syntax:
     content: public UInt16FieldInfo ZipLength { get; }
     parameters: []
@@ -1836,12 +1573,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property ZipLength As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLength*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipFlags
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.ZipFlags
   id: ZipFlags
@@ -1853,13 +1584,14 @@ items:
   nameWithType: AddressFormatTableInfo.ZipFlags
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipFlags
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;zip_flags&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField flags for zip field: See EAddrFormatFlags enum\n"
+  summary: >-
+    Field 'zip_flags' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Field flags for zip field: See EAddrFormatFlags enum
+  example: []
   syntax:
     content: public UInt16FieldInfo ZipFlags { get; }
     parameters: []
@@ -1867,12 +1599,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property ZipFlags As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipFlags*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipMask
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.ZipMask
   id: ZipMask
@@ -1884,13 +1610,14 @@ items:
   nameWithType: AddressFormatTableInfo.ZipMask
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipMask
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;zip_mask&apos; in table &apos;AddressFormat&apos;: Dictionary type String[10], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nFormatting mask for zip field\n"
+  summary: >-
+    Field 'zip_mask' in table 'AddressFormat': Dictionary type String[10], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Formatting mask for zip field
+  example: []
   syntax:
     content: public StringFieldInfo ZipMask { get; }
     parameters: []
@@ -1898,12 +1625,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ZipMask As StringFieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipMask*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.ExtraFlags
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.ExtraFlags
   id: ExtraFlags
@@ -1915,13 +1636,14 @@ items:
   nameWithType: AddressFormatTableInfo.ExtraFlags
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.ExtraFlags
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;extraFlags&apos; in table &apos;AddressFormat&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOBSOLETE: Extra flags for tag substitution mechanism, see idb.h. This function has been taken over by the tag-based formatting, controlled by the labelLayout and labelLayout2 fields\n"
+  summary: >-
+    Field 'extraFlags' in table 'AddressFormat': Dictionary type UInt, .NET type: <xref href="System.UInt32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    OBSOLETE: Extra flags for tag substitution mechanism, see idb.h. This function has been taken over by the tag-based formatting, controlled by the labelLayout and labelLayout2 fields
+  example: []
   syntax:
     content: public FieldInfo ExtraFlags { get; }
     parameters: []
@@ -1929,12 +1651,6 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     content.vb: Public ReadOnly Property ExtraFlags As FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.ExtraFlags*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.LabelLayout
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.LabelLayout
   id: LabelLayout
@@ -1946,13 +1662,14 @@ items:
   nameWithType: AddressFormatTableInfo.LabelLayout
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.LabelLayout
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;labelLayout&apos; in table &apos;AddressFormat&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nFormat specification for labels, uses standard tags\n"
+  summary: >-
+    Field 'labelLayout' in table 'AddressFormat': Dictionary type String[255], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Format specification for labels, uses standard tags
+  example: []
   syntax:
     content: public StringFieldInfo LabelLayout { get; }
     parameters: []
@@ -1960,12 +1677,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property LabelLayout As StringFieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.LabelLayout*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Registered
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Registered
   id: Registered
@@ -1977,13 +1688,14 @@ items:
   nameWithType: AddressFormatTableInfo.Registered
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Registered
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;registered&apos; in table &apos;AddressFormat&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
+  summary: >-
+    Field 'registered' in table 'AddressFormat': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Registered when
+  example: []
   syntax:
     content: public DateTimeFieldInfo Registered { get; }
     parameters: []
@@ -1991,12 +1703,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Registered*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -2008,13 +1714,14 @@ items:
   nameWithType: AddressFormatTableInfo.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.RegisteredAssociateId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;registered_associate_id&apos; in table &apos;AddressFormat&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  summary: >-
+    Field 'registered_associate_id' in table 'AddressFormat': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Registered by whom
+  example: []
   syntax:
     content: public Int32FieldInfo RegisteredAssociateId { get; }
     parameters: []
@@ -2022,12 +1729,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.RegisteredAssociateId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Updated
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.Updated
   id: Updated
@@ -2039,13 +1740,14 @@ items:
   nameWithType: AddressFormatTableInfo.Updated
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Updated
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updated&apos; in table &apos;AddressFormat&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
+  summary: >-
+    Field 'updated' in table 'AddressFormat': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Last updated when
+  example: []
   syntax:
     content: public DateTimeFieldInfo Updated { get; }
     parameters: []
@@ -2053,12 +1755,6 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.Updated*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedAssociateId
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -2070,13 +1766,14 @@ items:
   nameWithType: AddressFormatTableInfo.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedAssociateId
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updated_associate_id&apos; in table &apos;AddressFormat&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  summary: >-
+    Field 'updated_associate_id' in table 'AddressFormat': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Last updated by whom
+  example: []
   syntax:
     content: public Int32FieldInfo UpdatedAssociateId { get; }
     parameters: []
@@ -2084,12 +1781,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedAssociateId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedCount
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedCount
   id: UpdatedCount
@@ -2101,13 +1792,14 @@ items:
   nameWithType: AddressFormatTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedCount
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updatedCount&apos; in table &apos;AddressFormat&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
+  summary: >-
+    Field 'updatedCount' in table 'AddressFormat': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Number of updates made to this record
+  example: []
   syntax:
     content: public UInt16FieldInfo UpdatedCount { get; }
     parameters: []
@@ -2115,12 +1807,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedCount*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.LabelLayout2
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.LabelLayout2
   id: LabelLayout2
@@ -2132,13 +1818,14 @@ items:
   nameWithType: AddressFormatTableInfo.LabelLayout2
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.LabelLayout2
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;labelLayout2&apos; in table &apos;AddressFormat&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPart two of format specification, concatenated with part one above\n"
+  summary: >-
+    Field 'labelLayout2' in table 'AddressFormat': Dictionary type String[255], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Part two of format specification, concatenated with part one above
+  example: []
   syntax:
     content: public StringFieldInfo LabelLayout2 { get; }
     parameters: []
@@ -2146,12 +1833,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property LabelLayout2 As StringFieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.LabelLayout2*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.IsBuiltIn
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.IsBuiltIn
   id: IsBuiltIn
@@ -2163,13 +1844,14 @@ items:
   nameWithType: AddressFormatTableInfo.IsBuiltIn
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.IsBuiltIn
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;isBuiltIn&apos; in table &apos;AddressFormat&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIs this row populated by SuperOffice?\n"
+  summary: >-
+    Field 'isBuiltIn' in table 'AddressFormat': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Is this row populated by SuperOffice?
+  example: []
   syntax:
     content: public UInt16FieldInfo IsBuiltIn { get; }
     parameters: []
@@ -2177,12 +1859,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property IsBuiltIn As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.IsBuiltIn*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.RegisteredAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.RegisteredAssociateId_InnerJoin_Associate
   id: RegisteredAssociateId_InnerJoin_Associate
@@ -2194,13 +1870,11 @@ items:
   nameWithType: AddressFormatTableInfo.RegisteredAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.RegisteredAssociateId_InnerJoin_Associate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -2208,12 +1882,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.RegisteredAssociateId_InnerJoin_Associate*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedAssociateId_InnerJoin_Associate
   id: UpdatedAssociateId_InnerJoin_Associate
@@ -2225,13 +1893,11 @@ items:
   nameWithType: AddressFormatTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedAssociateId_InnerJoin_Associate
   type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: Generated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -2239,35 +1905,68 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedAssociateId_InnerJoin_Associate*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -2275,241 +1974,185 @@ references:
   commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   name: ToString()
   nameWithType: TableInfo.ToString()
   fullName: SuperOffice.Data.SQL.TableInfo.ToString()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
-    nameWithType: TableInfo.ToString
-    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
-    nameWithType: TableInfo.ToString
-    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: RegisterFields(FieldInfo[])
-  nameWithType: TableInfo.RegisterFields(FieldInfo[])
-  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
-  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
-  name.vb: RegisterFields(FieldInfo())
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  name: RegisterFields(params FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(ParamArray FieldInfo())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
-    nameWithType: TableInfo.RegisterFields
-    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: params
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: '['
+  - name: ']'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
-    nameWithType: TableInfo.RegisterFields
-    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: ParamArray
+  - name: " "
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   name: FieldInfoFromSoField(SoField)
   nameWithType: TableInfo.FieldInfoFromSoField(SoField)
   fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
-    nameWithType: TableInfo.FieldInfoFromSoField
-    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
-    nameWithType: SoField
-    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
-    nameWithType: TableInfo.FieldInfoFromSoField
-    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
-    nameWithType: SoField
-    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.Clone
   commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   name: Clone()
   nameWithType: TableInfo.Clone()
   fullName: SuperOffice.Data.SQL.TableInfo.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
-    nameWithType: TableInfo.Clone
-    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
-    nameWithType: TableInfo.Clone
-    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   name: IsSameTable(TableInfo)
   nameWithType: TableInfo.IsSameTable(TableInfo)
   fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
-    nameWithType: TableInfo.IsSameTable
-    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
-    nameWithType: TableInfo.IsSameTable
-    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
-    nameWithType: TableInfo
-    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: FindField(String)
-  nameWithType: TableInfo.FindField(String)
-  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  name: FindField(string)
+  nameWithType: TableInfo.FindField(string)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
+  nameWithType.vb: TableInfo.FindField(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
+  name.vb: FindField(String)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
-    nameWithType: TableInfo.FindField
-    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
-    nameWithType: TableInfo.FindField
-    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.ProtAll
   commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
@@ -2517,6 +2160,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
   name: HashCheckFields
   nameWithType: TableInfo.HashCheckFields
   fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
@@ -2524,6 +2168,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
   name: TableName
   nameWithType: TableInfo.TableName
   fullName: SuperOffice.Data.SQL.TableInfo.TableName
@@ -2531,6 +2176,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
@@ -2538,6 +2184,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
   name: IsDictionaryTable
   nameWithType: TableInfo.IsDictionaryTable
   fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
@@ -2545,6 +2192,7 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
   name: All
   nameWithType: TableInfo.All
   fullName: SuperOffice.Data.SQL.TableInfo.All
@@ -2552,136 +2200,389 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  name: Item[String]
-  nameWithType: TableInfo.Item[String]
-  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
-  nameWithType.vb: TableInfo.Item(String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-  name.vb: Item(String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string]
+  nameWithType: TableInfo.this[string]
+  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
+  nameWithType.vb: TableInfo.this[](String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
+  name.vb: this[](String)
   spec.csharp:
-  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: Item
-    nameWithType: TableInfo.Item
-    fullName: SuperOffice.Data.SQL.TableInfo.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: Item
-    nameWithType: TableInfo.Item
-    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    name: this[]
     isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<AddressFormatTableInfo, To>()
-  nameWithType: EnumUtil.MapEnums<AddressFormatTableInfo, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.AddressFormatTableInfo, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of AddressFormatTableInfo, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.AddressFormatTableInfo, To)()
-  name.vb: MapEnums(Of AddressFormatTableInfo, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<AddressFormatTableInfo, To>(AddressFormatTableInfo)
+  nameWithType: EnumUtil.MapEnums<AddressFormatTableInfo, To>(AddressFormatTableInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.AddressFormatTableInfo, To>(SuperOffice.CRM.Data.AddressFormatTableInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of AddressFormatTableInfo, To)(AddressFormatTableInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.AddressFormatTableInfo, To)(SuperOffice.CRM.Data.AddressFormatTableInfo)
+  name.vb: MapEnums(Of AddressFormatTableInfo, To)(AddressFormatTableInfo)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<AddressFormatTableInfo, To>
-    nameWithType: EnumUtil.MapEnums<AddressFormatTableInfo, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.AddressFormatTableInfo, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.AddressFormatTableInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.AddressFormatTableInfo
+    name: AddressFormatTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AddressFormatTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Data.AddressFormatTableInfo
+    name: AddressFormatTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AddressFormatTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of AddressFormatTableInfo, To)
-    nameWithType: EnumUtil.MapEnums(Of AddressFormatTableInfo, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.AddressFormatTableInfo, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.AddressFormatTableInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.AddressFormatTableInfo
+    name: AddressFormatTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AddressFormatTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.AddressFormatTableInfo
+    name: AddressFormatTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AddressFormatTableInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<AddressFormatTableInfo, To>()
-  nameWithType: Converters.MapEnums<AddressFormatTableInfo, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.AddressFormatTableInfo, To>()
-  nameWithType.vb: Converters.MapEnums(Of AddressFormatTableInfo, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.AddressFormatTableInfo, To)()
-  name.vb: MapEnums(Of AddressFormatTableInfo, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<AddressFormatTableInfo, To>(AddressFormatTableInfo)
+  nameWithType: Converters.MapEnums<AddressFormatTableInfo, To>(AddressFormatTableInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.AddressFormatTableInfo, To>(SuperOffice.CRM.Data.AddressFormatTableInfo)
+  nameWithType.vb: Converters.MapEnums(Of AddressFormatTableInfo, To)(AddressFormatTableInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.AddressFormatTableInfo, To)(SuperOffice.CRM.Data.AddressFormatTableInfo)
+  name.vb: MapEnums(Of AddressFormatTableInfo, To)(AddressFormatTableInfo)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<AddressFormatTableInfo, To>
-    nameWithType: Converters.MapEnums<AddressFormatTableInfo, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.AddressFormatTableInfo, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.AddressFormatTableInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.AddressFormatTableInfo
+    name: AddressFormatTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AddressFormatTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.Data.AddressFormatTableInfo
+    name: AddressFormatTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AddressFormatTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of AddressFormatTableInfo, To)
-    nameWithType: Converters.MapEnums(Of AddressFormatTableInfo, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.AddressFormatTableInfo, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.AddressFormatTableInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.AddressFormatTableInfo
+    name: AddressFormatTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AddressFormatTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.AddressFormatTableInfo
+    name: AddressFormatTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AddressFormatTableInfo.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -2690,43 +2591,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -2735,57 +2638,94 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.DictionaryTableNumber
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_DictionaryTableNumber
   name: DictionaryTableNumber
   nameWithType: AddressFormatTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.DictionaryTableNumber
@@ -2793,12 +2733,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.RuntimeDefinition
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_RuntimeDefinition
   name: RuntimeDefinition
   nameWithType: AddressFormatTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.RuntimeDefinition
@@ -2806,31 +2751,66 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
 - uid: SuperOffice.Data.SQL.TableInfo.Definition
   commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
   name: Definition
   nameWithType: TableInfo.Definition
   fullName: SuperOffice.Data.SQL.TableInfo.Definition
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Definition*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Definition
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Definition
   name: Definition
   nameWithType: AddressFormatTableInfo.Definition
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Definition
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.AddressformatId*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.AddressformatId
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_AddressformatId
   name: AddressformatId
   nameWithType: AddressFormatTableInfo.AddressformatId
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.AddressformatId
@@ -2838,12 +2818,14 @@ references:
   commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.Int32FieldInfo.html
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Name*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Name
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Name
   name: Name
   nameWithType: AddressFormatTableInfo.Name
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Name
@@ -2851,12 +2833,25 @@ references:
   commentId: T:SuperOffice.Data.SQL.StringFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.StringFieldInfo.html
   name: StringFieldInfo
   nameWithType: StringFieldInfo
   fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.LayoutId*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.LayoutId
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_LayoutId
   name: LayoutId
   nameWithType: AddressFormatTableInfo.LayoutId
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.LayoutId
@@ -2864,312 +2859,375 @@ references:
   commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.AtypeIdx*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.AtypeIdx
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_AtypeIdx
   name: AtypeIdx
   nameWithType: AddressFormatTableInfo.AtypeIdx
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.AtypeIdx
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Line*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Line
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address1Line
   name: Address1Line
   nameWithType: AddressFormatTableInfo.Address1Line
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Line
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Subpos*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Subpos
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address1Subpos
   name: Address1Subpos
   nameWithType: AddressFormatTableInfo.Address1Subpos
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Subpos
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Leadtext*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Leadtext
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address1Leadtext
   name: Address1Leadtext
   nameWithType: AddressFormatTableInfo.Address1Leadtext
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Leadtext
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Zip*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Zip
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address1Zip
   name: Address1Zip
   nameWithType: AddressFormatTableInfo.Address1Zip
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Zip
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Length*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Length
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address1Length
   name: Address1Length
   nameWithType: AddressFormatTableInfo.Address1Length
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Length
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Flags*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Flags
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address1Flags
   name: Address1Flags
   nameWithType: AddressFormatTableInfo.Address1Flags
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Flags
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Mask*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Mask
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address1Mask
   name: Address1Mask
   nameWithType: AddressFormatTableInfo.Address1Mask
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address1Mask
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Line*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Line
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address2Line
   name: Address2Line
   nameWithType: AddressFormatTableInfo.Address2Line
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Line
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Subpos*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Subpos
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address2Subpos
   name: Address2Subpos
   nameWithType: AddressFormatTableInfo.Address2Subpos
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Subpos
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Leadtext*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Leadtext
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address2Leadtext
   name: Address2Leadtext
   nameWithType: AddressFormatTableInfo.Address2Leadtext
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Leadtext
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Zip*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Zip
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address2Zip
   name: Address2Zip
   nameWithType: AddressFormatTableInfo.Address2Zip
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Zip
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Length*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Length
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address2Length
   name: Address2Length
   nameWithType: AddressFormatTableInfo.Address2Length
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Length
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Flags*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Flags
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address2Flags
   name: Address2Flags
   nameWithType: AddressFormatTableInfo.Address2Flags
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Flags
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Mask*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Mask
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address2Mask
   name: Address2Mask
   nameWithType: AddressFormatTableInfo.Address2Mask
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address2Mask
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Line*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Line
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address3Line
   name: Address3Line
   nameWithType: AddressFormatTableInfo.Address3Line
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Line
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Subpos*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Subpos
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address3Subpos
   name: Address3Subpos
   nameWithType: AddressFormatTableInfo.Address3Subpos
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Subpos
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Leadtext*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Leadtext
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address3Leadtext
   name: Address3Leadtext
   nameWithType: AddressFormatTableInfo.Address3Leadtext
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Leadtext
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Zip*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Zip
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address3Zip
   name: Address3Zip
   nameWithType: AddressFormatTableInfo.Address3Zip
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Zip
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Length*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Length
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address3Length
   name: Address3Length
   nameWithType: AddressFormatTableInfo.Address3Length
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Length
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Flags*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Flags
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address3Flags
   name: Address3Flags
   nameWithType: AddressFormatTableInfo.Address3Flags
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Flags
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Mask*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Mask
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Address3Mask
   name: Address3Mask
   nameWithType: AddressFormatTableInfo.Address3Mask
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Address3Mask
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CityLine*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.CityLine
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_CityLine
   name: CityLine
   nameWithType: AddressFormatTableInfo.CityLine
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CityLine
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CitySubpos*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.CitySubpos
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_CitySubpos
   name: CitySubpos
   nameWithType: AddressFormatTableInfo.CitySubpos
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CitySubpos
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CityLeadtext*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.CityLeadtext
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_CityLeadtext
   name: CityLeadtext
   nameWithType: AddressFormatTableInfo.CityLeadtext
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CityLeadtext
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CityZip*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.CityZip
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_CityZip
   name: CityZip
   nameWithType: AddressFormatTableInfo.CityZip
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CityZip
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CityLength*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.CityLength
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_CityLength
   name: CityLength
   nameWithType: AddressFormatTableInfo.CityLength
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CityLength
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CityFlags*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.CityFlags
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_CityFlags
   name: CityFlags
   nameWithType: AddressFormatTableInfo.CityFlags
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CityFlags
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CityMask*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.CityMask
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_CityMask
   name: CityMask
   nameWithType: AddressFormatTableInfo.CityMask
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CityMask
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLine*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLine
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_CountyLine
   name: CountyLine
   nameWithType: AddressFormatTableInfo.CountyLine
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLine
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CountySubpos*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.CountySubpos
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_CountySubpos
   name: CountySubpos
   nameWithType: AddressFormatTableInfo.CountySubpos
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CountySubpos
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLeadtext*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLeadtext
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_CountyLeadtext
   name: CountyLeadtext
   nameWithType: AddressFormatTableInfo.CountyLeadtext
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLeadtext
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyZip*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.CountyZip
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_CountyZip
   name: CountyZip
   nameWithType: AddressFormatTableInfo.CountyZip
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyZip
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLength*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLength
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_CountyLength
   name: CountyLength
   nameWithType: AddressFormatTableInfo.CountyLength
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyLength
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyFlags*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.CountyFlags
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_CountyFlags
   name: CountyFlags
   nameWithType: AddressFormatTableInfo.CountyFlags
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyFlags
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyMask*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.CountyMask
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_CountyMask
   name: CountyMask
   nameWithType: AddressFormatTableInfo.CountyMask
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.CountyMask
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.StateLine*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.StateLine
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_StateLine
   name: StateLine
   nameWithType: AddressFormatTableInfo.StateLine
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.StateLine
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.StateSubpos*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.StateSubpos
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_StateSubpos
   name: StateSubpos
   nameWithType: AddressFormatTableInfo.StateSubpos
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.StateSubpos
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.StateLeadtext*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.StateLeadtext
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_StateLeadtext
   name: StateLeadtext
   nameWithType: AddressFormatTableInfo.StateLeadtext
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.StateLeadtext
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.StateZip*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.StateZip
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_StateZip
   name: StateZip
   nameWithType: AddressFormatTableInfo.StateZip
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.StateZip
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.StateLength*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.StateLength
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_StateLength
   name: StateLength
   nameWithType: AddressFormatTableInfo.StateLength
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.StateLength
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.StateFlags*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.StateFlags
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_StateFlags
   name: StateFlags
   nameWithType: AddressFormatTableInfo.StateFlags
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.StateFlags
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.StateMask*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.StateMask
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_StateMask
   name: StateMask
   nameWithType: AddressFormatTableInfo.StateMask
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.StateMask
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLine*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLine
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_ZipLine
   name: ZipLine
   nameWithType: AddressFormatTableInfo.ZipLine
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLine
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipSubpos*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.ZipSubpos
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_ZipSubpos
   name: ZipSubpos
   nameWithType: AddressFormatTableInfo.ZipSubpos
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipSubpos
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLeadtext*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLeadtext
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_ZipLeadtext
   name: ZipLeadtext
   nameWithType: AddressFormatTableInfo.ZipLeadtext
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLeadtext
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipZip*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.ZipZip
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_ZipZip
   name: ZipZip
   nameWithType: AddressFormatTableInfo.ZipZip
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipZip
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLength*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLength
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_ZipLength
   name: ZipLength
   nameWithType: AddressFormatTableInfo.ZipLength
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipLength
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipFlags*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.ZipFlags
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_ZipFlags
   name: ZipFlags
   nameWithType: AddressFormatTableInfo.ZipFlags
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipFlags
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipMask*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.ZipMask
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_ZipMask
   name: ZipMask
   nameWithType: AddressFormatTableInfo.ZipMask
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.ZipMask
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.ExtraFlags*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.ExtraFlags
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_ExtraFlags
   name: ExtraFlags
   nameWithType: AddressFormatTableInfo.ExtraFlags
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.ExtraFlags
@@ -3177,18 +3235,32 @@ references:
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.LabelLayout*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.LabelLayout
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_LabelLayout
   name: LabelLayout
   nameWithType: AddressFormatTableInfo.LabelLayout
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.LabelLayout
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Registered*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Registered
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Registered
   name: Registered
   nameWithType: AddressFormatTableInfo.Registered
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Registered
@@ -3196,48 +3268,64 @@ references:
   commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
+  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
   name: DateTimeFieldInfo
   nameWithType: DateTimeFieldInfo
   fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.RegisteredAssociateId*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.RegisteredAssociateId
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_RegisteredAssociateId
   name: RegisteredAssociateId
   nameWithType: AddressFormatTableInfo.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.RegisteredAssociateId
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.Updated*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.Updated
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_Updated
   name: Updated
   nameWithType: AddressFormatTableInfo.Updated
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.Updated
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedAssociateId*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedAssociateId
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_UpdatedAssociateId
   name: UpdatedAssociateId
   nameWithType: AddressFormatTableInfo.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedCount*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedCount
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_UpdatedCount
   name: UpdatedCount
   nameWithType: AddressFormatTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedCount
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.LabelLayout2*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.LabelLayout2
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_LabelLayout2
   name: LabelLayout2
   nameWithType: AddressFormatTableInfo.LabelLayout2
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.LabelLayout2
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.IsBuiltIn*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.IsBuiltIn
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_IsBuiltIn
   name: IsBuiltIn
   nameWithType: AddressFormatTableInfo.IsBuiltIn
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.IsBuiltIn
+- uid: SuperOffice.CRM.Data.AssociateTableInfo
+  commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html
+  name: AssociateTableInfo
+  nameWithType: AssociateTableInfo
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.RegisteredAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.RegisteredAssociateId_InnerJoin_Associate
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_RegisteredAssociateId_InnerJoin_Associate
   name: RegisteredAssociateId_InnerJoin_Associate
   nameWithType: AddressFormatTableInfo.RegisteredAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.RegisteredAssociateId_InnerJoin_Associate
@@ -3245,6 +3333,7 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<AssociateTableInfo>
   nameWithType: TargetedInnerJoin<AssociateTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
@@ -3254,40 +3343,31 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Data.AssociateTableInfo
     name: AssociateTableInfo
-    nameWithType: AssociateTableInfo
-    fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Data.AssociateTableInfo
     name: AssociateTableInfo
-    nameWithType: AssociateTableInfo
-    fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
+    href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
   isExternal: true
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TargetTableInfo>
   nameWithType: TargetedInnerJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
@@ -3297,36 +3377,25 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedAssociateId_InnerJoin_Associate
   isExternal: true
+  href: SuperOffice.CRM.Data.AddressFormatTableInfo.html#SuperOffice_CRM_Data_AddressFormatTableInfo_UpdatedAssociateId_InnerJoin_Associate
   name: UpdatedAssociateId_InnerJoin_Associate
   nameWithType: AddressFormatTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.AddressFormatTableInfo.UpdatedAssociateId_InnerJoin_Associate

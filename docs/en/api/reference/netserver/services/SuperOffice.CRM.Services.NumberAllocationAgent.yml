@@ -5,14 +5,15 @@ items:
   id: NumberAllocationAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.NumberAllocationAgent.#ctor
-  - SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntity
-  - SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntity(System.Int32)
-  - SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplate
-  - SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntity(System.Int32)
-  - SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
-  - SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
-  - SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
+  - SuperOffice.CRM.Services.NumberAllocationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.NumberAllocationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplateAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplateAsync(System.Boolean,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -20,350 +21,367 @@ items:
   nameWithType: NumberAllocationAgent
   fullName: SuperOffice.CRM.Services.NumberAllocationAgent
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nFacade for the NumberAllocation Agent\nThis agent can be used to manage number allocation\n"
-  example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (NumberAllocationAgent agent = new NumberAllocationAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  summary: >-
+    Proxy class for the NumberAllocation Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
   syntax:
-    content: 'public class NumberAllocationAgent : AgentBase<INumberAllocationAgent>, IDisposable, INumberAllocationAgent, IAgent'
-    content.vb: >-
-      Public Class NumberAllocationAgent
-          Inherits AgentBase(Of INumberAllocationAgent)
-          Implements IDisposable, INumberAllocationAgent, IAgent
+    content: 'public class NumberAllocationAgent : INumberAllocationAgent, IAgent'
+    content.vb: Public Class NumberAllocationAgent Implements INumberAllocationAgent, IAgent
   inheritance:
   - System.Object
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}
   implements:
-  - System.IDisposable
   - SuperOffice.CRM.Services.INumberAllocationAgent
   - SuperOffice.CRM.Services.IAgent
   inheritedMembers:
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}.Dispose
-  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}.InnerAgent
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntity
-  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntity
-  id: CreateDefaultRefCountEntity
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.NumberAllocationAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultRefCountEntity()
-  nameWithType: NumberAllocationAgent.CreateDefaultRefCountEntity()
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntity()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
+  name: NumberAllocationAgent(IRefCountEntityImplementation, ISoRequestItemsAccessor)
+  nameWithType: NumberAllocationAgent.NumberAllocationAgent(IRefCountEntityImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.NumberAllocationAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new RefCountEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
-    content: public RefCountEntity CreateDefaultRefCountEntity()
+    content: public NumberAllocationAgent(IRefCountEntityImplementation refCountEntityImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: refCountEntityImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(refCountEntityImplementation As IRefCountEntityImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.#ctor*
+  nameWithType.vb: NumberAllocationAgent.New(IRefCountEntityImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.NumberAllocationAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IRefCountEntityImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  parent: SuperOffice.CRM.Services.NumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: NumberAllocationAgent(IRefCountEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: NumberAllocationAgent.NumberAllocationAgent(IRefCountEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.NumberAllocationAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public NumberAllocationAgent(IRefCountEntityImplementation refCountEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: refCountEntityImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(refCountEntityImplementation As IRefCountEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.#ctor*
+  nameWithType.vb: NumberAllocationAgent.New(IRefCountEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.NumberAllocationAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IRefCountEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultRefCountEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.NumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultRefCountEntityAsync(CancellationToken)
+  nameWithType: NumberAllocationAgent.CreateDefaultRefCountEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Loading default values into a new RefCountEntity.
+
+    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  example: []
+  syntax:
+    content: public Task<RefCountEntity> CreateDefaultRefCountEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.RefCountEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RefCountEntity}
       description: New RefCountEntity with default values
-    content.vb: Public Function CreateDefaultRefCountEntity As RefCountEntity
-  overload: SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntity*
+    content.vb: Public Function CreateDefaultRefCountEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of RefCountEntity)
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntityAsync*
   implements:
-  - SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
-  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
-  id: SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  - SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntityAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
+  id: SaveRefCountEntityAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.NumberAllocationAgent
   langs:
   - csharp
   - vb
-  name: SaveRefCountEntity(RefCountEntity)
-  nameWithType: NumberAllocationAgent.SaveRefCountEntity(RefCountEntity)
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  name: SaveRefCountEntityAsync(RefCountEntity, CancellationToken)
+  nameWithType: NumberAllocationAgent.SaveRefCountEntityAsync(RefCountEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.CRM.Services.RefCountEntity, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is empty\n"
+  summary: Updates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is empty
+  example: []
   syntax:
-    content: public RefCountEntity SaveRefCountEntity(RefCountEntity refCountEntity)
+    content: public Task<RefCountEntity> SaveRefCountEntityAsync(RefCountEntity refCountEntity, CancellationToken cancellationToken = default)
     parameters:
     - id: refCountEntity
       type: SuperOffice.CRM.Services.RefCountEntity
       description: The RefCountEntity that is saved.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.RefCountEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RefCountEntity}
       description: New or updated RefCountEntity
-    content.vb: Public Function SaveRefCountEntity(refCountEntity As RefCountEntity) As RefCountEntity
-  overload: SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntity*
+    content.vb: Public Function SaveRefCountEntityAsync(refCountEntity As RefCountEntity, cancellationToken As CancellationToken = Nothing) As Task(Of RefCountEntity)
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntityAsync*
   implements:
-  - SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntity(System.Int32)
-  id: DeleteRefCountEntity(System.Int32)
+  - SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.NumberAllocationAgent
   langs:
   - csharp
   - vb
-  name: DeleteRefCountEntity(Int32)
-  nameWithType: NumberAllocationAgent.DeleteRefCountEntity(Int32)
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntity(System.Int32)
+  name: DeleteRefCountEntityAsync(int, CancellationToken)
+  nameWithType: NumberAllocationAgent.DeleteRefCountEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntityAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the RefCountEntity\n"
+  summary: Deletes the RefCountEntity
+  example: []
   syntax:
-    content: public void DeleteRefCountEntity(int refCountEntityId)
+    content: public Task DeleteRefCountEntityAsync(int refCountEntityId, CancellationToken cancellationToken = default)
     parameters:
     - id: refCountEntityId
       type: System.Int32
       description: The identity of the RefCountEntity
-    content.vb: Public Sub DeleteRefCountEntity(refCountEntityId As Integer)
-  overload: SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntity*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteRefCountEntityAsync(refCountEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntityAsync*
   implements:
-  - SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntity(System.Int32)
-  id: GetRefCountEntity(System.Int32)
+  - SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: NumberAllocationAgent.DeleteRefCountEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteRefCountEntityAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.NumberAllocationAgent
   langs:
   - csharp
   - vb
-  name: GetRefCountEntity(Int32)
-  nameWithType: NumberAllocationAgent.GetRefCountEntity(Int32)
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntity(System.Int32)
+  name: GetRefCountEntityAsync(int, CancellationToken)
+  nameWithType: NumberAllocationAgent.GetRefCountEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntityAsync(int, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a RefCountEntity object.                        \n"
+  summary: Gets a RefCountEntity object.
+  example: []
   syntax:
-    content: public RefCountEntity GetRefCountEntity(int refCountEntityId)
+    content: public Task<RefCountEntity> GetRefCountEntityAsync(int refCountEntityId, CancellationToken cancellationToken = default)
     parameters:
     - id: refCountEntityId
       type: System.Int32
       description: The identifier of the RefCountEntity object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: SuperOffice.CRM.Services.RefCountEntity
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RefCountEntity}
       description: RefCountEntity
-    content.vb: Public Function GetRefCountEntity(refCountEntityId As Integer) As RefCountEntity
-  overload: SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntity*
+    content.vb: Public Function GetRefCountEntityAsync(refCountEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of RefCountEntity)
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntityAsync*
   implements:
-  - SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
-  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
-  id: SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  - SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: NumberAllocationAgent.GetRefCountEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetRefCountEntityAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
+  id: SaveDefaultNumberingAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.NumberAllocationAgent
   langs:
   - csharp
   - vb
-  name: SaveDefaultNumbering(RefCountEntity)
-  nameWithType: NumberAllocationAgent.SaveDefaultNumbering(RefCountEntity)
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  name: SaveDefaultNumberingAsync(RefCountEntity, CancellationToken)
+  nameWithType: NumberAllocationAgent.SaveDefaultNumberingAsync(RefCountEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.CRM.Services.RefCountEntity, System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nSaves default numbering values in preferences\n"
+  summary: Saves default numbering values in preferences
+  example: []
   syntax:
-    content: public void SaveDefaultNumbering(RefCountEntity refCountEntity)
+    content: public Task SaveDefaultNumberingAsync(RefCountEntity refCountEntity, CancellationToken cancellationToken = default)
     parameters:
     - id: refCountEntity
       type: SuperOffice.CRM.Services.RefCountEntity
       description: The refCountEntity that holds the values that will be saved
-    content.vb: Public Sub SaveDefaultNumbering(refCountEntity As RefCountEntity)
-  overload: SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumbering*
-  implements:
-  - SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplate
-  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplate
-  id: GetNumberEachTemplate
-  parent: SuperOffice.CRM.Services.NumberAllocationAgent
-  langs:
-  - csharp
-  - vb
-  name: GetNumberEachTemplate()
-  nameWithType: NumberAllocationAgent.GetNumberEachTemplate()
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplate()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nReturns true or false if Automatically create new counters for new document templates\n"
-  syntax:
-    content: public bool GetNumberEachTemplate()
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Boolean
-      description: Is NumberEachTemplate?
-    content.vb: Public Function GetNumberEachTemplate As Boolean
-  overload: SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplate*
+      type: System.Threading.Tasks.Task
+      description: void
+    content.vb: Public Function SaveDefaultNumberingAsync(refCountEntity As RefCountEntity, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumberingAsync*
   implements:
-  - SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
-  id: SetNumberEachTemplate(System.Boolean)
+  - SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplateAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplateAsync(System.Threading.CancellationToken)
+  id: GetNumberEachTemplateAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.NumberAllocationAgent
   langs:
   - csharp
   - vb
-  name: SetNumberEachTemplate(Boolean)
-  nameWithType: NumberAllocationAgent.SetNumberEachTemplate(Boolean)
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
+  name: GetNumberEachTemplateAsync(CancellationToken)
+  nameWithType: NumberAllocationAgent.GetNumberEachTemplateAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplateAsync(System.Threading.CancellationToken)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
-  - SuperOffice.Services
+  - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: "\nSaves true or false if Automatically create new counters for new document templates\n"
+  summary: Returns true or false if Automatically create new counters for new document templates
+  example: []
   syntax:
-    content: public void SetNumberEachTemplate(bool setValue)
+    content: public Task<bool> GetNumberEachTemplateAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Is NumberEachTemplate?
+    content.vb: Public Function GetNumberEachTemplateAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplateAsync*
+  implements:
+  - SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplateAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplateAsync(System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplateAsync(System.Boolean,System.Threading.CancellationToken)
+  id: SetNumberEachTemplateAsync(System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.NumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: SetNumberEachTemplateAsync(bool, CancellationToken)
+  nameWithType: NumberAllocationAgent.SetNumberEachTemplateAsync(bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplateAsync(bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Saves true or false if Automatically create new counters for new document templates
+  example: []
+  syntax:
+    content: public Task SetNumberEachTemplateAsync(bool setValue, CancellationToken cancellationToken = default)
     parameters:
     - id: setValue
       type: System.Boolean
       description: true or false if Automatically create new counters for new document templates
-    content.vb: Public Sub SetNumberEachTemplate(setValue As Boolean)
-  overload: SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplate*
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: void
+    content.vb: Public Function SetNumberEachTemplateAsync(setValue As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplateAsync*
   implements:
-  - SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent.#ctor
-  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Services.NumberAllocationAgent
-  langs:
-  - csharp
-  - vb
-  name: NumberAllocationAgent()
-  nameWithType: NumberAllocationAgent.NumberAllocationAgent()
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.NumberAllocationAgent()
-  type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  syntax:
-    content: public NumberAllocationAgent()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Services.NumberAllocationAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplateAsync(System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: NumberAllocationAgent.SetNumberEachTemplateAsync(Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplateAsync(Boolean, System.Threading.CancellationToken)
+  name.vb: SetNumberEachTemplateAsync(Boolean, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}
-  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}
-  parent: SuperOffice.CRM.Services
-  definition: SuperOffice.CRM.Services.AgentBase`1
-  name: AgentBase<INumberAllocationAgent>
-  nameWithType: AgentBase<INumberAllocationAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.INumberAllocationAgent>
-  nameWithType.vb: AgentBase(Of INumberAllocationAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.INumberAllocationAgent)
-  name.vb: AgentBase(Of INumberAllocationAgent)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Services.INumberAllocationAgent
-    name: INumberAllocationAgent
-    nameWithType: INumberAllocationAgent
-    fullName: SuperOffice.CRM.Services.INumberAllocationAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Services.INumberAllocationAgent
-    name: INumberAllocationAgent
-    nameWithType: INumberAllocationAgent
-    fullName: SuperOffice.CRM.Services.INumberAllocationAgent
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IDisposable
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.INumberAllocationAgent
   commentId: T:SuperOffice.CRM.Services.INumberAllocationAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.INumberAllocationAgent.html
   name: INumberAllocationAgent
   nameWithType: INumberAllocationAgent
   fullName: SuperOffice.CRM.Services.INumberAllocationAgent
@@ -371,469 +389,851 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}.Dispose
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  name: Dispose()
-  nameWithType: AgentBase<INumberAllocationAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.INumberAllocationAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of INumberAllocationAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.INumberAllocationAgent).Dispose()
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<INumberAllocationAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.INumberAllocationAgent>.Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of INumberAllocationAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.INumberAllocationAgent).Dispose
+  - uid: System.Object.ToString
+    name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}.InnerAgent
-  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}
-  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  name: InnerAgent
-  nameWithType: AgentBase<INumberAllocationAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.INumberAllocationAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of INumberAllocationAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.INumberAllocationAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.AgentBase`1
-  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
-  name: AgentBase<TAgent>
-  nameWithType: AgentBase<TAgent>
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
-  nameWithType.vb: AgentBase(Of TAgent)
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
-  name.vb: AgentBase(Of TAgent)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1
-    name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: Dispose()
-  nameWithType: AgentBase<TAgent>.Dispose()
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
-  nameWithType.vb: AgentBase(Of TAgent).Dispose()
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase<TAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
-    name: Dispose
-    nameWithType: AgentBase(Of TAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
   isExternal: true
-  name: InnerAgent
-  nameWithType: AgentBase<TAgent>.InnerAgent
-  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
-  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
-  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntity*
-  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntity
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
   isExternal: true
-  name: CreateDefaultRefCountEntity
-  nameWithType: NumberAllocationAgent.CreateDefaultRefCountEntity
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntity
-- uid: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
-  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.NumberAllocationAgent.html#SuperOffice_CRM_Services_NumberAllocationAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IRefCountEntityImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: NumberAllocationAgent
+  nameWithType: NumberAllocationAgent.NumberAllocationAgent
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.NumberAllocationAgent
+  nameWithType.vb: NumberAllocationAgent.New
+  fullName.vb: SuperOffice.CRM.Services.NumberAllocationAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation.html
+  name: IRefCountEntityImplementation
+  nameWithType: IRefCountEntityImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IRefCountEntityImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.NumberAllocationAgent.html#SuperOffice_CRM_Services_NumberAllocationAgent_CreateDefaultRefCountEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultRefCountEntityAsync
+  nameWithType: NumberAllocationAgent.CreateDefaultRefCountEntityAsync
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntityAsync
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntityAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.INumberAllocationAgent
   isExternal: true
-  name: CreateDefaultRefCountEntity()
-  nameWithType: INumberAllocationAgent.CreateDefaultRefCountEntity()
-  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultRefCountEntityAsync(CancellationToken)
+  nameWithType: INumberAllocationAgent.CreateDefaultRefCountEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntityAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
-    name: CreateDefaultRefCountEntity
-    nameWithType: INumberAllocationAgent.CreateDefaultRefCountEntity
-    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultRefCountEntityAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
-    name: CreateDefaultRefCountEntity
-    nameWithType: INumberAllocationAgent.CreateDefaultRefCountEntity
-    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultRefCountEntityAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RefCountEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.RefCountEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<RefCountEntity>
+  nameWithType: Task<RefCountEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.RefCountEntity>
+  nameWithType.vb: Task(Of RefCountEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.RefCountEntity)
+  name.vb: Task(Of RefCountEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.RefCountEntity
+    name: RefCountEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.RefCountEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RefCountEntity
+    name: RefCountEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.RefCountEntity.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.NumberAllocationAgent.html#SuperOffice_CRM_Services_NumberAllocationAgent_SaveRefCountEntityAsync_SuperOffice_CRM_Services_RefCountEntity_System_Threading_CancellationToken_
+  name: SaveRefCountEntityAsync
+  nameWithType: NumberAllocationAgent.SaveRefCountEntityAsync
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntityAsync
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.INumberAllocationAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SaveRefCountEntityAsync(RefCountEntity, CancellationToken)
+  nameWithType: INumberAllocationAgent.SaveRefCountEntityAsync(RefCountEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.CRM.Services.RefCountEntity, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
+    name: SaveRefCountEntityAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.RefCountEntity
+    name: RefCountEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
+    name: SaveRefCountEntityAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.RefCountEntity
+    name: RefCountEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.CRM.Services.RefCountEntity
   commentId: T:SuperOffice.CRM.Services.RefCountEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.RefCountEntity.html
   name: RefCountEntity
   nameWithType: RefCountEntity
   fullName: SuperOffice.CRM.Services.RefCountEntity
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntity*
-  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntity
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntityAsync
   isExternal: true
-  name: SaveRefCountEntity
-  nameWithType: NumberAllocationAgent.SaveRefCountEntity
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntity
-- uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
-  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  href: SuperOffice.CRM.Services.NumberAllocationAgent.html#SuperOffice_CRM_Services_NumberAllocationAgent_DeleteRefCountEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteRefCountEntityAsync
+  nameWithType: NumberAllocationAgent.DeleteRefCountEntityAsync
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntityAsync
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.INumberAllocationAgent
   isExternal: true
-  name: SaveRefCountEntity(RefCountEntity)
-  nameWithType: INumberAllocationAgent.SaveRefCountEntity(RefCountEntity)
-  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DeleteRefCountEntityAsync(int, CancellationToken)
+  nameWithType: INumberAllocationAgent.DeleteRefCountEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntityAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: INumberAllocationAgent.DeleteRefCountEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteRefCountEntityAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
-    name: SaveRefCountEntity
-    nameWithType: INumberAllocationAgent.SaveRefCountEntity
-    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteRefCountEntityAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Services.RefCountEntity
-    name: RefCountEntity
-    nameWithType: RefCountEntity
-    fullName: SuperOffice.CRM.Services.RefCountEntity
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
-    name: SaveRefCountEntity
-    nameWithType: INumberAllocationAgent.SaveRefCountEntity
-    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Services.RefCountEntity
-    name: RefCountEntity
-    nameWithType: RefCountEntity
-    fullName: SuperOffice.CRM.Services.RefCountEntity
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntity*
-  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntity
-  isExternal: true
-  name: DeleteRefCountEntity
-  nameWithType: NumberAllocationAgent.DeleteRefCountEntity
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntity
-- uid: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity(System.Int32)
-  parent: SuperOffice.CRM.Services.INumberAllocationAgent
-  isExternal: true
-  name: DeleteRefCountEntity(Int32)
-  nameWithType: INumberAllocationAgent.DeleteRefCountEntity(Int32)
-  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity(System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity(System.Int32)
-    name: DeleteRefCountEntity
-    nameWithType: INumberAllocationAgent.DeleteRefCountEntity
-    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity(System.Int32)
-    name: DeleteRefCountEntity
-    nameWithType: INumberAllocationAgent.DeleteRefCountEntity
-    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteRefCountEntityAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System
-  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntity*
-  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntity
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntityAsync
   isExternal: true
-  name: GetRefCountEntity
-  nameWithType: NumberAllocationAgent.GetRefCountEntity
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntity
-- uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity(System.Int32)
+  href: SuperOffice.CRM.Services.NumberAllocationAgent.html#SuperOffice_CRM_Services_NumberAllocationAgent_GetRefCountEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetRefCountEntityAsync
+  nameWithType: NumberAllocationAgent.GetRefCountEntityAsync
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntityAsync
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.INumberAllocationAgent
   isExternal: true
-  name: GetRefCountEntity(Int32)
-  nameWithType: INumberAllocationAgent.GetRefCountEntity(Int32)
-  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetRefCountEntityAsync(int, CancellationToken)
+  nameWithType: INumberAllocationAgent.GetRefCountEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntityAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: INumberAllocationAgent.GetRefCountEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetRefCountEntityAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity(System.Int32)
-    name: GetRefCountEntity
-    nameWithType: INumberAllocationAgent.GetRefCountEntity
-    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetRefCountEntityAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity(System.Int32)
-    name: GetRefCountEntity
-    nameWithType: INumberAllocationAgent.GetRefCountEntity
-    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetRefCountEntityAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumbering*
-  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumbering
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumberingAsync*
+  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumberingAsync
   isExternal: true
-  name: SaveDefaultNumbering
-  nameWithType: NumberAllocationAgent.SaveDefaultNumbering
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumbering
-- uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
-  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  href: SuperOffice.CRM.Services.NumberAllocationAgent.html#SuperOffice_CRM_Services_NumberAllocationAgent_SaveDefaultNumberingAsync_SuperOffice_CRM_Services_RefCountEntity_System_Threading_CancellationToken_
+  name: SaveDefaultNumberingAsync
+  nameWithType: NumberAllocationAgent.SaveDefaultNumberingAsync
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumberingAsync
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.INumberAllocationAgent
   isExternal: true
-  name: SaveDefaultNumbering(RefCountEntity)
-  nameWithType: INumberAllocationAgent.SaveDefaultNumbering(RefCountEntity)
-  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SaveDefaultNumberingAsync(RefCountEntity, CancellationToken)
+  nameWithType: INumberAllocationAgent.SaveDefaultNumberingAsync(RefCountEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.CRM.Services.RefCountEntity, System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
-    name: SaveDefaultNumbering
-    nameWithType: INumberAllocationAgent.SaveDefaultNumbering
-    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
+    name: SaveDefaultNumberingAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.RefCountEntity
     name: RefCountEntity
-    nameWithType: RefCountEntity
-    fullName: SuperOffice.CRM.Services.RefCountEntity
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
-    name: SaveDefaultNumbering
-    nameWithType: INumberAllocationAgent.SaveDefaultNumbering
-    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.CRM.Services.RefCountEntity,System.Threading.CancellationToken)
+    name: SaveDefaultNumberingAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.RefCountEntity
     name: RefCountEntity
-    nameWithType: RefCountEntity
-    fullName: SuperOffice.CRM.Services.RefCountEntity
     isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplate*
-  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplate
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplateAsync
   isExternal: true
-  name: GetNumberEachTemplate
-  nameWithType: NumberAllocationAgent.GetNumberEachTemplate
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplate
-- uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
-  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
+  href: SuperOffice.CRM.Services.NumberAllocationAgent.html#SuperOffice_CRM_Services_NumberAllocationAgent_GetNumberEachTemplateAsync_System_Threading_CancellationToken_
+  name: GetNumberEachTemplateAsync
+  nameWithType: NumberAllocationAgent.GetNumberEachTemplateAsync
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplateAsync
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplateAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplateAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.INumberAllocationAgent
   isExternal: true
-  name: GetNumberEachTemplate()
-  nameWithType: INumberAllocationAgent.GetNumberEachTemplate()
-  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetNumberEachTemplateAsync(CancellationToken)
+  nameWithType: INumberAllocationAgent.GetNumberEachTemplateAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplateAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
-    name: GetNumberEachTemplate
-    nameWithType: INumberAllocationAgent.GetNumberEachTemplate
-    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplateAsync(System.Threading.CancellationToken)
+    name: GetNumberEachTemplateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
-    name: GetNumberEachTemplate
-    nameWithType: INumberAllocationAgent.GetNumberEachTemplate
-    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplateAsync(System.Threading.CancellationToken)
+    name: GetNumberEachTemplateAsync
     isExternal: true
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplateAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.NumberAllocationAgent.html#SuperOffice_CRM_Services_NumberAllocationAgent_SetNumberEachTemplateAsync_System_Boolean_System_Threading_CancellationToken_
+  name: SetNumberEachTemplateAsync
+  nameWithType: NumberAllocationAgent.SetNumberEachTemplateAsync
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplateAsync
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplateAsync(System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplateAsync(System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.INumberAllocationAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: SetNumberEachTemplateAsync(bool, CancellationToken)
+  nameWithType: INumberAllocationAgent.SetNumberEachTemplateAsync(bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplateAsync(bool, System.Threading.CancellationToken)
+  nameWithType.vb: INumberAllocationAgent.SetNumberEachTemplateAsync(Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplateAsync(Boolean, System.Threading.CancellationToken)
+  name.vb: SetNumberEachTemplateAsync(Boolean, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplateAsync(System.Boolean,System.Threading.CancellationToken)
+    name: SetNumberEachTemplateAsync
+    isExternal: true
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplateAsync(System.Boolean,System.Threading.CancellationToken)
+    name: SetNumberEachTemplateAsync
+    isExternal: true
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplate*
-  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplate
-  isExternal: true
-  name: SetNumberEachTemplate
-  nameWithType: NumberAllocationAgent.SetNumberEachTemplate
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplate
-- uid: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
-  parent: SuperOffice.CRM.Services.INumberAllocationAgent
-  isExternal: true
-  name: SetNumberEachTemplate(Boolean)
-  nameWithType: INumberAllocationAgent.SetNumberEachTemplate(Boolean)
-  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
-    name: SetNumberEachTemplate
-    nameWithType: INumberAllocationAgent.SetNumberEachTemplate
-    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
-    name: SetNumberEachTemplate
-    nameWithType: INumberAllocationAgent.SetNumberEachTemplate
-    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.NumberAllocationAgent.#ctor*
-  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.#ctor
-  isExternal: true
-  name: NumberAllocationAgent
-  nameWithType: NumberAllocationAgent.NumberAllocationAgent
-  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.NumberAllocationAgent
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

@@ -22,27 +22,24 @@ items:
   nameWithType: DBC.EjscriptDebugFields
   fullName: SuperOffice.CRM.Data.DBC.EjscriptDebugFields
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nFields for EjscriptDebug, This table contains information when debugging an ejscript\n"
+  summary: Fields for EjscriptDebug, This table contains information when debugging an ejscript
+  example: []
   syntax:
-    content: 'public static class EjscriptDebugFields : Object'
-    content.vb: >-
-      Public Module EjscriptDebugFields
-          Inherits Object
+    content: public static class DBC.EjscriptDebugFields
+    content.vb: Public Module DBC.EjscriptDebugFields
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.EjscriptDebugId
   commentId: F:SuperOffice.CRM.Data.DBC.EjscriptDebugFields.EjscriptDebugId
   id: EjscriptDebugId
@@ -54,24 +51,16 @@ items:
   nameWithType: DBC.EjscriptDebugFields.EjscriptDebugId
   fullName: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.EjscriptDebugId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEjscriptDebug.EjscriptDebugId: Primary key\n"
+  summary: 'EjscriptDebug.EjscriptDebugId: Primary key'
+  example: []
   syntax:
     content: public const string EjscriptDebugId = "id"
     return:
       type: System.String
     content.vb: Public Const EjscriptDebugId As String = "id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.DebugId
   commentId: F:SuperOffice.CRM.Data.DBC.EjscriptDebugFields.DebugId
   id: DebugId
@@ -83,24 +72,16 @@ items:
   nameWithType: DBC.EjscriptDebugFields.DebugId
   fullName: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.DebugId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEjscriptDebug.DebugId: The debugId for the session\n"
+  summary: 'EjscriptDebug.DebugId: The debugId for the session'
+  example: []
   syntax:
     content: public const string DebugId = "debug_id"
     return:
       type: System.String
     content.vb: Public Const DebugId As String = "debug_id"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.StartedAt
   commentId: F:SuperOffice.CRM.Data.DBC.EjscriptDebugFields.StartedAt
   id: StartedAt
@@ -112,24 +93,16 @@ items:
   nameWithType: DBC.EjscriptDebugFields.StartedAt
   fullName: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.StartedAt
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEjscriptDebug.StartedAt: The timestamp of when the debug session was initiated.\n"
+  summary: 'EjscriptDebug.StartedAt: The timestamp of when the debug session was initiated.'
+  example: []
   syntax:
     content: public const string StartedAt = "started_at"
     return:
       type: System.String
     content.vb: Public Const StartedAt As String = "started_at"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.Status
   commentId: F:SuperOffice.CRM.Data.DBC.EjscriptDebugFields.Status
   id: Status
@@ -141,24 +114,16 @@ items:
   nameWithType: DBC.EjscriptDebugFields.Status
   fullName: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.Status
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEjscriptDebug.Status: The current status of this debug session. See EjscriptDebug\n"
+  summary: 'EjscriptDebug.Status: The current status of this debug session. See EjscriptDebug'
+  example: []
   syntax:
     content: public const string Status = "status"
     return:
       type: System.String
     content.vb: Public Const Status As String = "status"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.SkipCount
   commentId: F:SuperOffice.CRM.Data.DBC.EjscriptDebugFields.SkipCount
   id: SkipCount
@@ -170,24 +135,16 @@ items:
   nameWithType: DBC.EjscriptDebugFields.SkipCount
   fullName: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.SkipCount
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEjscriptDebug.SkipCount: The number of wait-statements to skip.\n"
+  summary: 'EjscriptDebug.SkipCount: The number of wait-statements to skip.'
+  example: []
   syntax:
     content: public const string SkipCount = "skip_count"
     return:
       type: System.String
     content.vb: Public Const SkipCount As String = "skip_count"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.Info
   commentId: F:SuperOffice.CRM.Data.DBC.EjscriptDebugFields.Info
   id: Info
@@ -199,24 +156,16 @@ items:
   nameWithType: DBC.EjscriptDebugFields.Info
   fullName: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.Info
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEjscriptDebug.Info: Information saved by the running script\n"
+  summary: 'EjscriptDebug.Info: Information saved by the running script'
+  example: []
   syntax:
     content: public const string Info = "info"
     return:
       type: System.String
     content.vb: Public Const Info As String = "info"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.CodeView
   commentId: F:SuperOffice.CRM.Data.DBC.EjscriptDebugFields.CodeView
   id: CodeView
@@ -228,24 +177,16 @@ items:
   nameWithType: DBC.EjscriptDebugFields.CodeView
   fullName: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.CodeView
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEjscriptDebug.CodeView: The chunk of code around the breakpoint\n"
+  summary: 'EjscriptDebug.CodeView: The chunk of code around the breakpoint'
+  example: []
   syntax:
     content: public const string CodeView = "code_view"
     return:
       type: System.String
     content.vb: Public Const CodeView As String = "code_view"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.CodeLinePos
   commentId: F:SuperOffice.CRM.Data.DBC.EjscriptDebugFields.CodeLinePos
   id: CodeLinePos
@@ -257,24 +198,16 @@ items:
   nameWithType: DBC.EjscriptDebugFields.CodeLinePos
   fullName: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.CodeLinePos
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEjscriptDebug.CodeLinePos: The current line position in the code.\n"
+  summary: 'EjscriptDebug.CodeLinePos: The current line position in the code.'
+  example: []
   syntax:
     content: public const string CodeLinePos = "code_line_pos"
     return:
       type: System.String
     content.vb: Public Const CodeLinePos As String = "code_line_pos"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.CodeRunUntil
   commentId: F:SuperOffice.CRM.Data.DBC.EjscriptDebugFields.CodeRunUntil
   id: CodeRunUntil
@@ -286,24 +219,16 @@ items:
   nameWithType: DBC.EjscriptDebugFields.CodeRunUntil
   fullName: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.CodeRunUntil
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEjscriptDebug.CodeRunUntil: The line to run to in debug mode.\n"
+  summary: 'EjscriptDebug.CodeRunUntil: The line to run to in debug mode.'
+  example: []
   syntax:
     content: public const string CodeRunUntil = "code_run_until"
     return:
       type: System.String
     content.vb: Public Const CodeRunUntil As String = "code_run_until"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.VariableView
   commentId: F:SuperOffice.CRM.Data.DBC.EjscriptDebugFields.VariableView
   id: VariableView
@@ -315,41 +240,288 @@ items:
   nameWithType: DBC.EjscriptDebugFields.VariableView
   fullName: SuperOffice.CRM.Data.DBC.EjscriptDebugFields.VariableView
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nEjscriptDebug.VariableView: A dump of all variables\n"
+  summary: 'EjscriptDebug.VariableView: A dump of all variables'
+  example: []
   syntax:
     content: public const string VariableView = "variable_view"
     return:
       type: System.String
     content.vb: Public Const VariableView As String = "variable_view"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -357,6 +529,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
